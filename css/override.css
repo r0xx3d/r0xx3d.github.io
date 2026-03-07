@@ -1,56 +1,25 @@
-hr {
-  margin-top: 30px;
-  margin-bottom: 20px;
+/* Custom Dark Mode Overrides */
+[data-bs-theme="dark"] {
+  --bs-body-bg: #121212;
+  --bs-body-color: #e0e0e0;
+  --bs-tertiary-bg: #1e1e1e; /* For cards and wells */
 }
 
-/* Post navigation links */
-.post_navi {
-  display: flex;
+[data-bs-theme="dark"] body {
+  background-color: var(--bs-body-bg) !important;
+  color: var(--bs-body-color) !important;
 }
 
-.post_navi-label {
-  font-size: 0.8em;
-  opacity: 0.5;
+[data-bs-theme="dark"] .card, 
+[data-bs-theme="dark"] .post-content, 
+[data-bs-theme="dark"] .post_navi-item {
+  background-color: #1e1e1e !important;
+  border-color: #333 !important;
+  color: #e0e0e0 !important;
 }
 
-.post_navi .post_navi-item {
-  padding: 0 2.2em;
-  width: 50%;
-  position: relative;
-  color: inherit !important;
-}
-
-.post_navi .nav_prev {
-  text-align: left;
-}
-
-.post_navi .nav_next {
-  text-align: right;
-}
-
-.post_navi .nav_prev .post_navi-arrow {
-  left: 0;
-}
-
-.post_navi .nav_next .post_navi-arrow {
-  right: 0;
-}
-
-.post_navi .post_navi-arrow {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 2.5em;
-  opacity: 0.3;
-}
-
-@media (prefers-color-scheme: dark) {
-  body {
-    background-color: #121212;
-    color: #e0e0e0;
-  }
-  .card {
-    background-color: #1e1e1e;
-    border-color: #333;
-  }
+/* Ensure your navigation links aren't invisible */
+[data-bs-theme="dark"] .post_navi-label {
+  color: #aaa;
+  opacity: 0.8;
 }
