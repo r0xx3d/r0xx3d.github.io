@@ -9,3 +9,4 @@
 "The revolutionary lives in the gap which separates technical progress from social totality."
 "Underneath all reason lies delirium and drift."
 "The privatization of the organs will only begin with the shame felt by man at the sight of man."
+

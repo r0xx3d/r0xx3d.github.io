@@ -8,3 +8,4 @@
 "This is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security."
 "Art is everywhere, since artifice is at the very heart of reality. And so art is dead."
 "Reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream."
+

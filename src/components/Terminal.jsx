@@ -7,8 +7,8 @@ import SyndicateJournal from './SyndicateJournal.jsx';
 
 const NAV_NODES = [
   { id: 'MISINFORMATION_COLUMN',    label: 'TOILET_OF_BABEL',   icon: 'âŒ¬' },
-  { id: 'WORLD_MONITOR',     label: 'WORLD_MONITOR',     icon: 'â—ˆ' },
-  { id: 'THREAT_INTEL',      label: 'CTI_DASHBOARD',     icon: 'â—†' },
+  { id: 'WORLD_MONITOR',     label: 'WORLD_MONITOR',     icon: 'â:ˆ' },
+  { id: 'THREAT_INTEL',      label: 'CTI_DASHBOARD',     icon: 'â:†' },
   { id: 'SYNDICATION',       label: 'SYNDICATION_NODE',  icon: 'â–£' },
   { id: 'SYNDICATE_JOURNAL', label: 'SYNDICATE_JOURNAL', icon: 'â–§' },
 ];
@@ -168,3 +168,4 @@ export default function Terminal() {
     </div>
   );
 }
+

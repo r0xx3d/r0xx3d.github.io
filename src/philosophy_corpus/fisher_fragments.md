@@ -7,3 +7,4 @@
 "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier."
 "Antagonism is not now located externally, in the face-off between class blocs, but internally, in the psychology of the worker."
 "In the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame."
+
