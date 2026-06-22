@@ -1,0 +1,24 @@
+name: Terminal State Sync
+
+on:
+  schedule:
+    - cron: '0 */3 * * *'
+  workflow_dispatch:
+
+jobs:
+  harvest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - run: npm ci
+      - run: node scripts/harvester.js
+      - name: Commit state
+        run: |
+          git config user.name "null_state[bot]"
+          git config user.email "bot@null-state.local"
+          git add public/data/terminal-state.json
+          git diff --staged --quiet || git commit -m "chore: sync terminal state [skip ci]"
+          git push
