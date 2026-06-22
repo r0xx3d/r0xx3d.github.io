@@ -6,7 +6,7 @@ import MisinfoToilet from './MisinfoToilet.jsx';
 import SyndicateJournal from './SyndicateJournal.jsx';
 
 const NAV_NODES = [
-  { id: 'MISINFO_TOILET',    label: 'TOILET_OF_BABEL',   icon: '⌬' },
+  { id: 'MISINFORMATION_COLUMN',    label: 'TOILET_OF_BABEL',   icon: '⌬' },
   { id: 'WORLD_MONITOR',     label: 'WORLD_MONITOR',     icon: '◈' },
   { id: 'THREAT_INTEL',      label: 'CTI_DASHBOARD',     icon: '◆' },
   { id: 'SYNDICATION',       label: 'SYNDICATION_NODE',  icon: '▣' },
@@ -14,7 +14,7 @@ const NAV_NODES = [
 ];
 
 export default function Terminal() {
-  const [activeNode, setActiveNode] = useState('MISINFO_TOILET');
+  const [activeNode, setActiveNode] = useState('MISINFORMATION_COLUMN');
   const [isExpanded, setIsExpanded] = useState(true);
   const [data, setData] = useState(null);
   const [bootPhase, setBootPhase] = useState(0);
@@ -48,7 +48,7 @@ export default function Terminal() {
       <div className="h-screen bg-black text-obsidian-200 font-mono flex flex-col items-center justify-center scan-overlay">
         <div className="space-y-2 text-xs tracking-wider uppercase">
           <p className={`transition-opacity duration-300 ${bootPhase >= 0 ? 'opacity-100' : 'opacity-0'}`}>
-            <span className="text-obsidian-500">[INIT]</span> CONSOLE SECURE BOOT v4.0.1
+            <span className="text-obsidian-500">[INIT]</span> CONSOLE SECURE BOOT v1
           </p>
           <p className={`transition-opacity duration-300 ${bootPhase >= 1 ? 'opacity-100' : 'opacity-0'}`}>
             <span className="text-obsidian-500">[SYNC]</span> Establishing data streams...
@@ -161,7 +161,7 @@ export default function Terminal() {
             {activeNode === 'WORLD_MONITOR'     && <WorldMonitor data={data.world_monitor} />}
             {activeNode === 'SYNDICATION'       && <SyndicationNode data={data.syndication} />}
             {activeNode === 'SYNDICATE_JOURNAL' && <SyndicateJournal data={data.syndicate_journal} />}
-            {activeNode === 'MISINFO_TOILET'    && <MisinfoToilet data={data.misinfo_toilet} />}
+            {activeNode === 'MISINFORMATION_COLUMN'    && <MisinfoToilet data={data.misinfo_toilet} />}
           </div>
         </div>
       </main>

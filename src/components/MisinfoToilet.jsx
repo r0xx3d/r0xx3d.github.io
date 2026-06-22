@@ -53,7 +53,7 @@ export default function MisinfoToilet({ data }) {
           Toilet of Babel
         </h3>
         <p className="text-obsidian-500 text-[10px] uppercase tracking-[0.2em] font-mono mb-3">
-          Hauntological cut-up engine
+          Hauntological cut-up engine — Do not believe in everything they say
         </p>
       </div>
 
