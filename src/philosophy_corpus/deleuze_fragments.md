@@ -1,15 +1,11 @@
-Desiring-machines are not metaphors; they are the fundamental mechanics of the unconscious, constantly coupling and decoupling flows of energy.
-To decode the flows of capital is to understand the absolute deterritorialization that breaks down all traditional structures and beliefs.
-The body without organs is the ultimate limit of desiring-production, a state of unformed potentiality prior to any organization.
-Schizoanalysis seeks to dismantle the Oedipal triangle, liberating desire from the confines of the nuclear family and psychoanalytic orthodoxy.
-Capitalism operates as a massive axiomatic system, constantly adding new rules to manage the flows it has itself unleashed.
-The schizophrenic is not a clinical entity, but the very process of desiring-production pushed to its absolute limit, escaping all territorialities.
-We must replace the logic of representation with the logic of production, understanding desire not as lack, but as an active, generative force.
-The state apparatus functions by capturing and overcoding the flows of desire, imposing a rigid grid over the fluid dynamics of the social field.
-Lines of flight are the trajectories of escape, the movements that rupture the established order and open up new possibilities of becoming.
-The rhizome is a non-hierarchical network of connections, where any point can be connected to any other, without a central organizing principle.
-Nomadology is the study of those who move across the smooth spaces of deterritorialization, resisting the striated spaces of the state.
-We do not desire objects; we desire assemblages, complex configurations of bodies, energies, and ideas.
-The socius is the recording surface upon which the flows of desire are inscribed, coded, and organized into specific social formations.
-Paranoia and schizophrenia are the two poles of desiring-production: the former seeks to rigidly structure, the latter to completely dissolve.
-The task is not to interpret the unconscious, but to construct it, to assemble the desiring-machines that will generate new ways of living and thinking.
+"It is at work everywhere, functioning smoothly at times, at other times in fits and starts. It breathes, it heats, it eats. It shits and fucks."
+"Everywhere it is machines—real ones, not figurative ones: machines driving other machines, machines being driven by other machines, with all the necessary couplings and connections."
+"The breast is a machine that produces milk, and the mouth a machine coupled to it."
+"There is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together."
+"Why do men fight for their servitude as stubbornly as though it were their salvation?"
+"The truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate."
+"Traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle."
+"The technocrat is the natural friend of the dictator—computers and dictatorship."
+"The revolutionary lives in the gap which separates technical progress from social totality."
+"Underneath all reason lies delirium and drift."
+"The privatization of the organs will only begin with the shame felt by man at the sight of man."

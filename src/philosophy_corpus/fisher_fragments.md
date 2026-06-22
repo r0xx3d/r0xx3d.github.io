@@ -1,15 +1,9 @@
-The future has been slowly cancelled, replaced by a continuous, stagnant present where retro-pastiche substitutes for innovation.
-Capitalism seamlessly absorbs all critique, commodifying its own opposition until rebellion itself becomes a lifestyle brand.
-Mental health crises are not individual pathologies, but rather the internalized symptoms of an increasingly toxic socio-economic environment.
-We are haunted by the specters of lost futures, the utopian visions that failed to materialize in the face of capitalist realism.
-The inability to imagine a viable alternative to the current system is the ultimate triumph of the ruling ideology.
-Culture has lost its forward momentum, caught in an endless loop of nostalgia and self-referential irony.
-The bureaucratic managerialism of the modern workplace operates as a machine for the suppression of creativity and genuine engagement.
-We exist in a state of reflexive impotence, aware of the systemic crises but feeling powerless to effect meaningful change.
-The privatization of stress ensures that systemic failures are experienced as personal inadequacies.
-Hauntology is not merely a nostalgia for the past, but a mourning for the futures that were promised and never delivered.
-The omnipresence of digital networks has paradoxically led to an increase in feelings of isolation and alienation.
-Every aspect of daily life is subjected to the logic of the market, reducing human relationships to transactional exchanges.
-The aesthetics of resistance are easily co-opted, transformed into marketing strategies for the very system they seek to oppose.
-We are trapped in a temporal stasis, where the past is endlessly recycled and the future seems fundamentally unimaginable.
-The pervasive sense of exhaustion is a direct result of the relentless demands of a hyper-competitive, precarity-driven economy.
+"The current ruling ontology denies any possibility of a social causation of mental illness. The chemico-biologization of mental illness is of course strictly commensurate with its depoliticization."
+"If it is true, for instance, that depression is caused by low serotonin levels, it would still be necessary to explain why particular individuals have low serotonin levels."
+"It is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it."
+"An ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact."
+"The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history."
+"Over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business."
+"It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier."
+"Antagonism is not now located externally, in the face-off between class blocs, but internally, in the psychology of the worker."
+"In the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame."

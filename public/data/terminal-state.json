@@ -1,515 +1,806 @@
 {
-  "generated_at": "2026-06-22T09:00:00Z",
+  "generated_at": "2026-06-22T18:30:24.833Z",
   "threat_intel": {
     "cisa_kev": [
       {
-        "cveID": "CVE-2026-1048",
-        "vendorProject": "Microsoft",
-        "product": "Exchange Server",
-        "vulnerabilityName": "Microsoft Exchange Server Remote Code Execution Vulnerability",
+        "cveID": "CVE-2026-20253",
+        "vendorProject": "Splunk",
+        "product": "Enterprise",
+        "vulnerabilityName": "Splunk Enterprise Missing Authentication for Critical Function Vulnerability",
         "dateAdded": "2026-06-18",
-        "shortDescription": "Microsoft Exchange Server contains a remote code execution vulnerability due to improper validation of cmdlet arguments.",
-        "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
-        "dueDate": "2026-07-09"
+        "shortDescription": "Splunk Enterprise contains a missing authentication for critical function vulnerability which could allow an unauthenticated user to create or truncate arbitrary files through a PostgreSQL sidecar service endpoint.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-06-21",
+        "knownRansomwareCampaignUse": "Unknown",
+        "notes": "https://advisory.splunk.com/advisories/SVD-2026-0603 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-20253",
+        "cwes": [
+          "CWE-306"
+        ]
       },
       {
-        "cveID": "CVE-2026-2184",
-        "vendorProject": "Cisco",
-        "product": "IOS XE Software",
-        "vulnerabilityName": "Cisco IOS XE Software Web UI Privilege Escalation Vulnerability",
+        "cveID": "CVE-2026-48907",
+        "vendorProject": "Widget Factory",
+        "product": "Joomla Content Editor ",
+        "vulnerabilityName": "Widget Factory Joomla Content Editor Improper Access Control Vulnerability",
+        "dateAdded": "2026-06-16",
+        "shortDescription": "Widget Factory Joomla Content Editor contains an improper access control vulnerability which could allow for upload and execution of PHP code via the creation of new editor profiles for unauthenticated users. ",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-06-19",
+        "knownRansomwareCampaignUse": "Unknown",
+        "notes": "https://www.joomlacontenteditor.net/news/jce-security-update-and-a-free-patch-for-older-sites ; https://www.joomlacontenteditor.net/support/changelog/editor ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-48907",
+        "cwes": [
+          "CWE-284"
+        ]
+      },
+      {
+        "cveID": "CVE-2026-54420",
+        "vendorProject": "LiteSpeed",
+        "product": "cPanel Plugin",
+        "vulnerabilityName": "LiteSpeed cPanel Plugin UNIX Symbolic Link (Symlink) Following Vulnerability",
         "dateAdded": "2026-06-15",
-        "shortDescription": "Cisco IOS XE Software contains a vulnerability in the web UI feature that could allow an unauthenticated, remote attacker to create an account with privilege level 15 access.",
-        "requiredAction": "Apply updates per vendor instructions.",
-        "dueDate": "2026-07-06"
+        "shortDescription": "LiteSpeed cPanel plugin contains a UNIX symbolic link (Symlink) following vulnerability that could allow a user with FTP or web shell access on a shared hosting server running CloudLinux/CageFS.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-06-18",
+        "knownRansomwareCampaignUse": "Unknown",
+        "notes": "https://blog.litespeedtech.com/2026/06/01/security-update-for-litespeed-cpanel-plugin-2/ ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-54420",
+        "cwes": [
+          "CWE-61"
+        ]
       },
       {
-        "cveID": "CVE-2026-3492",
+        "cveID": "CVE-2026-20262",
+        "vendorProject": "Cisco",
+        "product": "Catalyst SD-WAN Manager",
+        "vulnerabilityName": "Cisco Catalyst SD-WAN Manager Directory or Path Traversal Vulnerability",
+        "dateAdded": "2026-06-15",
+        "shortDescription": "Cisco Catalyst SD-WAN Manager contains a directory or path traversal vulnerability that could allow an authenticated, remote attacker to create a file or overwrite any file on the filesystem of an affected system.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-06-29",
+        "knownRansomwareCampaignUse": "Unknown",
+        "notes": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-arbfw-c2rZvQ ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-20262",
+        "cwes": [
+          "CWE-22"
+        ]
+      },
+      {
+        "cveID": "CVE-2026-35273",
+        "vendorProject": "Oracle",
+        "product": " PeopleSoft Enterprise PeopleTools",
+        "vulnerabilityName": "Oracle PeopleSoft Enterprise PeopleTools Missing Authentication for Critical Function Vulnerability",
+        "dateAdded": "2026-06-12",
+        "shortDescription": "Oracle PeopleSoft Enterprise PeopleTools contains a missing authentication for critical function vulnerability which could allow an unauthenticated attacker to obtain takeover of PeopleSoft Enterprise PeopleTools.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-06-15",
+        "knownRansomwareCampaignUse": "Known",
+        "notes": "https://www.oracle.com/security-alerts/alert-cve-2026-35273.html ; https://support.oracle.com/signin/ ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-35273",
+        "cwes": [
+          "CWE-306"
+        ]
+      },
+      {
+        "cveID": "CVE-2026-10520",
         "vendorProject": "Ivanti",
-        "product": "Connect Secure",
-        "vulnerabilityName": "Ivanti Connect Secure Authentication Bypass Vulnerability",
-        "dateAdded": "2026-06-10",
-        "shortDescription": "Ivanti Connect Secure contains an authentication bypass vulnerability that allows a remote attacker to access restricted resources.",
-        "requiredAction": "Apply updates per vendor instructions.",
-        "dueDate": "2026-07-01"
+        "product": "Sentry",
+        "vulnerabilityName": "Ivanti Sentry OS Command Injection Vulnerability",
+        "dateAdded": "2026-06-11",
+        "shortDescription": "Ivanti Sentry (formerly known as MobileIron Sentry) contains an OS command injection vulnerability which could allow a remote unauthenticated user to achieve root-level remote code execution. This vulnerability can be successfully exploited in cases where the Sentry appliance is in an unmanaged state with its endpoints externally reachable. The use of mTLS with EPMM or restricted HTTPS access through Neurons for MDM makes interfaces inaccessible to external actors.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-06-14",
+        "knownRansomwareCampaignUse": "Unknown",
+        "notes": "https://hub.ivanti.com/s/article/Security-Advisory-Ivanti-Sentry-CVE-2026-10520-CVE-2026-10523?language=en_US ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-10520",
+        "cwes": [
+          "CWE-78"
+        ]
       },
       {
-        "cveID": "CVE-2026-4111",
-        "vendorProject": "Fortinet",
-        "product": "FortiOS",
-        "vulnerabilityName": "Fortinet FortiOS Out-of-bounds Write Vulnerability",
+        "cveID": "CVE-2026-11645",
+        "vendorProject": "Google",
+        "product": "Chromium V8",
+        "vulnerabilityName": "Google Chromium V8 Out-of-Bounds Read and Write Vulnerability",
+        "dateAdded": "2026-06-09",
+        "shortDescription": "Google Chromium V8 out-of-bounds read and write vulnerability that could allow a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. This vulnerability could affect multiple web browsers that utilize Chromium, including, but not limited to, Google Chrome, Microsoft Edge, and Opera.",
+        "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+        "dueDate": "2026-06-23",
+        "knownRansomwareCampaignUse": "Unknown",
+        "notes": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop_0153744567.html ; https://issues.chromium.org/issues/506689381 ; https://nvd.nist.gov/vuln/detail/CVE-2026-11645",
+        "cwes": [
+          "CWE-787",
+          "CWE-125"
+        ]
+      },
+      {
+        "cveID": "CVE-2026-7473",
+        "vendorProject": "Arista",
+        "product": "Extensible Operating System",
+        "vulnerabilityName": "Arista Extensible Operating System Incomplete Comparison with Missing Factors Vulnerability",
+        "dateAdded": "2026-06-09",
+        "shortDescription": "Arista Extensible Operating System (EOS) contains an incomplete comparison with missing factors vulnerability when the switch incorrectly decapsulate and forwards other unexpected tunneled packet with a destination IP matching its configured decapsulation IP.",
+        "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+        "dueDate": "2026-06-23",
+        "knownRansomwareCampaignUse": "Unknown",
+        "notes": "https://www.arista.com/en/support/advisories-notices/security-advisory/24005-security-advisory-0137 ; https://nvd.nist.gov/vuln/detail/CVE-2026-7473",
+        "cwes": [
+          "CWE-1023"
+        ]
+      },
+      {
+        "cveID": "CVE-2026-20245",
+        "vendorProject": "Cisco",
+        "product": "Catalyst SD-WAN Manager",
+        "vulnerabilityName": "Cisco Catalyst SD-WAN Manager Improper Encoding or Escaping of Output Vulnerability",
+        "dateAdded": "2026-06-09",
+        "shortDescription": "Cisco Catalyst SD-WAN Manager formerly SD-WAN vManage contains an improper encoding or escaping of output vulnerability. This vulnerability could allow an authenticated, local attacker to execute arbitrary commands as root by supplying a crafted file to the affected system.",
+        "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+        "dueDate": "2026-06-23",
+        "knownRansomwareCampaignUse": "Unknown",
+        "notes": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-privesc-4uxFrdzx ; https://nvd.nist.gov/vuln/detail/CVE-2026-20245",
+        "cwes": [
+          "CWE-116"
+        ]
+      },
+      {
+        "cveID": "CVE-2026-42271",
+        "vendorProject": "BerriAI",
+        "product": "LiteLLM",
+        "vulnerabilityName": "BerriAI LiteLLM Command Injection Vulnerability",
+        "dateAdded": "2026-06-08",
+        "shortDescription": "BerriAI LiteLLM contains a command injection vulnerability that could allow any authenticated user, including holders of low-privilege internal-user keys, to run arbitrary commands on the host.",
+        "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+        "dueDate": "2026-06-22",
+        "knownRansomwareCampaignUse": "Unknown",
+        "notes": "This vulnerability affects a common open-source component, third-party library, or a protocol used by different products. Please check with specific vendors for information on patching status. For more information, please see: https://github.com/BerriAI/litellm/security/advisories/GHSA-v4p8-mg3p-g94g ; https://github.com/BerriAI/litellm/releases/tag/v1.83.7-stable ; https://nvd.nist.gov/vuln/detail/CVE-2026-42271",
+        "cwes": [
+          "CWE-78",
+          "CWE-77"
+        ]
+      },
+      {
+        "cveID": "CVE-2026-50751",
+        "vendorProject": "Check Point",
+        "product": "Security Gateway",
+        "vulnerabilityName": "Check Point Security Gateway Improper Authentication Vulnerability",
+        "dateAdded": "2026-06-08",
+        "shortDescription": "Check Point Security Gateway contains an improper authentication vulnerability in IKEv1 key exchange that could allow an unauthenticated remote attacker to bypass user authentication and establish a remote access VPN connection without a valid user password.",
+        "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+        "dueDate": "2026-06-11",
+        "knownRansomwareCampaignUse": "Known",
+        "notes": "https://blog.checkpoint.com/security/check-point-releases-important-hotfix-for-vulnerabilities-in-deprecated-ikev1-vpn-protocol/ ; https://support.checkpoint.com/results/sk/sk185033?_gl=1*1wqeqhc*_gcl_au*MTI1MzE5MjI2LjE3ODA5MzQ1NTM. ; https://nvd.nist.gov/vuln/detail/CVE-2026-50751",
+        "cwes": [
+          "CWE-287"
+        ]
+      },
+      {
+        "cveID": "CVE-2026-28318",
+        "vendorProject": "SolarWinds",
+        "product": "Serv-U",
+        "vulnerabilityName": "SolarWinds Serv-U Uncontrolled Resource Consumption Vulnerability",
         "dateAdded": "2026-06-05",
-        "shortDescription": "Fortinet FortiOS contains an out-of-bounds write vulnerability that may allow a remote, unauthenticated attacker to execute arbitrary code or commands via specially crafted HTTP requests.",
-        "requiredAction": "Apply updates per vendor instructions.",
-        "dueDate": "2026-06-26"
+        "shortDescription": "SolarWinds Serv-U contains an uncontrolled resource consumption vulnerability that allows specially crafted POST requests using the Content-Encoding: deflate header to crash the Serv-U service without authentication.",
+        "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+        "dueDate": "2026-06-19",
+        "knownRansomwareCampaignUse": "Unknown",
+        "notes": "https://www.solarwinds.com/trust-center/security-advisories/cve-2026-28318 ; https://documentation.solarwinds.com/en/success_center/servu/content/release_notes/servu_15-5-4-hotfix-1_release_notes.htm#link7 ; https://nvd.nist.gov/vuln/detail/CVE-2026-28318",
+        "cwes": [
+          "CWE-400"
+        ]
       },
       {
-        "cveID": "CVE-2026-5589",
-        "vendorProject": "Apache",
-        "product": "ActiveMQ",
-        "vulnerabilityName": "Apache ActiveMQ Remote Code Execution Vulnerability",
-        "dateAdded": "2026-06-01",
-        "shortDescription": "Apache ActiveMQ contains a vulnerability that allows a remote attacker with network access to a broker to run arbitrary shell commands.",
-        "requiredAction": "Apply updates per vendor instructions.",
-        "dueDate": "2026-06-22"
+        "cveID": "CVE-2026-45247",
+        "vendorProject": "Mirasvit",
+        "product": "Mirasvit Full Page Cache Warmer",
+        "vulnerabilityName": "Mirasvit Full Page Cache Warmer Deserialization of Untrusted Data Vulnerability",
+        "dateAdded": "2026-06-03",
+        "shortDescription": "Mirasvit Full Page Cache Warmer contains a deserialization of untrusted data vulnerability that could allow unauthenticated attackers to achieve remote code execution by supplying a crafted serialized PHP object in the CacheWarmer cookie.",
+        "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+        "dueDate": "2026-06-06",
+        "knownRansomwareCampaignUse": "Unknown",
+        "notes": "https://mirasvit.com/package/changelog/?package=mirasvit/module-cache-warmer ; https://nvd.nist.gov/vuln/detail/CVE-2026-45247",
+        "cwes": [
+          "CWE-502"
+        ]
       },
       {
-        "cveID": "CVE-2026-6203",
-        "vendorProject": "Palo Alto Networks",
-        "product": "PAN-OS",
-        "vulnerabilityName": "Palo Alto Networks PAN-OS OS Command Injection Vulnerability",
-        "dateAdded": "2026-05-28",
-        "shortDescription": "Palo Alto Networks PAN-OS contains an OS command injection vulnerability in the GlobalProtect feature that enables an unauthenticated attacker to execute arbitrary code with root privileges.",
-        "requiredAction": "Apply updates per vendor instructions.",
-        "dueDate": "2026-06-18"
+        "cveID": "CVE-2022-0492",
+        "vendorProject": "Linux",
+        "product": "Kernel",
+        "vulnerabilityName": "Linux Kernel Improper Authentication Vulnerability",
+        "dateAdded": "2026-06-02",
+        "shortDescription": "Linux Kernel contains an improper authentication vulnerability which could allow for privilege escalation via the cgroups v1 release_agent feature.",
+        "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+        "dueDate": "2026-06-05",
+        "knownRansomwareCampaignUse": "Unknown",
+        "notes": "This vulnerability affects a common open-source component, third-party library, or a protocol used by different products. Please check with specific vendors for information on patching status. For more information, please see: https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=24f6008564183aa120d07c03d9289519c2fe02af ; https://www.kernel.org/ ; https://nvd.nist.gov/vuln/detail/CVE-2022-0492",
+        "cwes": [
+          "CWE-287",
+          "CWE-862"
+        ]
       },
       {
-        "cveID": "CVE-2026-7734",
-        "vendorProject": "Atlassian",
-        "product": "Confluence Data Center and Server",
-        "vulnerabilityName": "Atlassian Confluence Data Center and Server Broken Access Control Vulnerability",
-        "dateAdded": "2026-05-20",
-        "shortDescription": "Atlassian Confluence Data Center and Server contain a broken access control vulnerability that allows an unauthenticated attacker to restore the application to a vulnerable state.",
-        "requiredAction": "Apply updates per vendor instructions.",
-        "dueDate": "2026-06-10"
-      },
-      {
-        "cveID": "CVE-2026-8912",
-        "vendorProject": "VMware",
-        "product": "vCenter Server",
-        "vulnerabilityName": "VMware vCenter Server Out-of-Bounds Write Vulnerability",
-        "dateAdded": "2026-05-15",
-        "shortDescription": "VMware vCenter Server contains an out-of-bounds write vulnerability in the implementation of the DCERPC protocol that could allow a malicious actor with network access to execute remote code.",
-        "requiredAction": "Apply updates per vendor instructions.",
-        "dueDate": "2026-06-05"
+        "cveID": "CVE-2025-48595",
+        "vendorProject": "Android",
+        "product": "Framework",
+        "vulnerabilityName": "Android Framework Integer Overflow Vulnerability",
+        "dateAdded": "2026-06-02",
+        "shortDescription": "Android Framework contains an integer overflow vulnerability that allows for code execution that could allow for local privilege escalation.",
+        "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+        "dueDate": "2026-06-05",
+        "knownRansomwareCampaignUse": "Unknown",
+        "notes": "https://source.android.com/docs/security/bulletin/2026/2026-06-01 ; https://nvd.nist.gov/vuln/detail/CVE-2025-48595",
+        "cwes": [
+          "CWE-190"
+        ]
       }
     ],
-    "urlhaus": [
-      {
-        "url": "http://192.168.1.100/payload.exe",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": ["exe", "guLoader"],
-        "date_added": "2026-06-22T08:45:12Z"
-      },
-      {
-        "url": "https://suspicious-domain.com/invoice.pdf.scr",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": ["scr", "remcos"],
-        "date_added": "2026-06-22T07:30:00Z"
-      },
-      {
-        "url": "http://malicious-server.net/update.zip",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": ["zip", "agenttesla"],
-        "date_added": "2026-06-21T18:20:45Z"
-      },
-      {
-        "url": "https://secure-login-update.com/login",
-        "url_status": "online",
-        "threat": "phishing",
-        "tags": ["phishing", "credential-harvesting"],
-        "date_added": "2026-06-21T14:15:30Z"
-      },
-      {
-        "url": "http://10.0.0.50/stage2.bin",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": ["bin", "cobaltstrike"],
-        "date_added": "2026-06-21T09:05:11Z"
-      },
-      {
-        "url": "https://fake-support-portal.org/download/anydesk.exe",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": ["exe", "rat"],
-        "date_added": "2026-06-20T22:50:00Z"
-      },
-      {
-        "url": "http://compromised-site.com/images/logo.png.vbs",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": ["vbs", "qakbot"],
-        "date_added": "2026-06-20T16:40:22Z"
-      },
-      {
-        "url": "https://update-windows-now.net/critical-update.msi",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": ["msi", "redline"],
-        "date_added": "2026-06-20T11:12:05Z"
-      },
-      {
-        "url": "http://172.16.0.25/dropper.ps1",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": ["ps1", "powershell"],
-        "date_added": "2026-06-19T08:33:44Z"
-      },
-      {
-        "url": "https://urgent-document-review.com/doc.docx.exe",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": ["exe", "nanocore"],
-        "date_added": "2026-06-18T19:25:18Z"
-      }
-    ]
+    "urlhaus": []
   },
   "world_monitor": [
     {
-      "title": "Global South calls for restructuring of debt amidst climate crisis",
-      "link": "https://www.aljazeera.com/news/2026/06/22/global-south-debt",
-      "pubDate": "2026-06-22T08:15:00Z",
-      "source": "Al Jazeera",
-      "summary": "Leaders from developing nations convene to demand a fundamental overhaul of the international financial architecture, citing the dual pressures of unsustainable debt burdens and escalating climate-related disasters."
+      "title": "Mideast Live Updates: U.S. Eases Sanctions on Iranian Oil, but Progress on Nuclear Issues Is Muddy",
+      "link": "https://www.nytimes.com/live/2026/06/22/world/iran-us-trump-lebanon",
+      "pubDate": "Mon, 22 Jun 2026 18:24:22 +0000",
+      "source": "NYT World",
+      "summary": "Vice President JD Vance said Iran had agreed to invite U.N. nuclear inspectors into the country, but the Iranian side said it had made “no new commitments.” Inspections had been limited since President Trump tore up an Obama-era deal in 2018."
     },
     {
-      "title": "European Union reaches consensus on AI regulation framework",
-      "link": "http://www.bbc.co.uk/news/world-europe-20260622",
-      "pubDate": "2026-06-22T07:30:00Z",
+      "title": "Clive Davis, music mogul behind Whitney Houston and Bruce Springsteen, dies aged 94",
+      "link": "https://www.bbc.com/news/articles/c3vy3e6q90qo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Mon, 22 Jun 2026 18:11:56 GMT",
       "source": "BBC",
-      "summary": "Following months of intense negotiations, EU member states have agreed on a comprehensive set of rules governing the development and deployment of artificial intelligence systems within the bloc."
+      "summary": "The record company executive also worked with Billy Joel, Pink Floyd, Alicia Keys and Aerosmith."
     },
     {
-      "title": "Tech stocks surge following breakthrough in quantum computing",
-      "link": "https://www.reuters.com/markets/tech-stocks-surge-20260622",
-      "pubDate": "2026-06-22T06:45:00Z",
-      "source": "Reuters",
-      "summary": "Major technology indices experienced significant gains today after researchers announced a major milestone in achieving quantum supremacy, promising exponential leaps in processing power."
+      "title": "Keir Starmer Resigns as UK Prime Minister",
+      "link": "https://www.nytimes.com/2026/06/22/world/europe/keir-starmer-andy-burnham-prime-minister-britain.html",
+      "pubDate": "Mon, 22 Jun 2026 17:41:11 +0000",
+      "source": "NYT World",
+      "summary": "His departure in the coming weeks clears a path for Andy Burnham, a popular Labour Party mayor, to become the country’s seventh prime minister in a decade."
     },
     {
-      "title": "Leaked documents reveal extent of corporate surveillance network",
-      "link": "https://theintercept.com/2026/06/21/corporate-surveillance-leak/",
-      "pubDate": "2026-06-21T14:20:00Z",
-      "source": "The Intercept",
-      "summary": "A massive cache of internal documents exposes a previously unknown partnership between major data brokers and private security firms, creating an unprecedented surveillance dragnet."
-    },
-    {
-      "title": "Analysis: Shifts in state-sponsored cyber operations targeting critical infrastructure",
-      "link": "https://osintindustries.net/analysis/state-sponsored-cyber-ops",
-      "pubDate": "2026-06-21T10:05:00Z",
-      "source": "OSINT Industries",
-      "summary": "Recent intelligence suggests a strategic pivot by advanced persistent threat (APT) groups, increasingly focusing on exploiting vulnerabilities in energy and transportation grids rather than traditional espionage."
-    },
-    {
-      "title": "Protests erupt in capital over proposed austerity measures",
-      "link": "https://www.aljazeera.com/news/2026/06/20/protests-austerity",
-      "pubDate": "2026-06-20T18:40:00Z",
+      "title": "Qatar’s PM tells Al Jazeera progress made in US-Iran talks",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/6/22/qatars-pm-tells-al-jazeera-progress-made-in-us-iran-talks?traffic_source=rss",
+      "pubDate": "Mon, 22 Jun 2026 17:34:56 +0000",
       "source": "Al Jazeera",
-      "summary": "Thousands have taken to the streets to demonstrate against the government's newly announced economic plan, which includes significant cuts to public services and social welfare programs."
+      "summary": "Qatar's PM  said US-Iran talks in Switzerland laid the groundwork for a final deal after 18 hours of discussions."
     },
     {
-      "title": "Scientists warn of critical tipping point in ocean circulation",
-      "link": "http://www.bbc.co.uk/news/science-environment-20260620",
-      "pubDate": "2026-06-20T12:15:00Z",
-      "source": "BBC",
-      "summary": "A new study indicates that the Atlantic Meridional Overturning Circulation (AMOC) is showing signs of imminent collapse, a scenario that would have catastrophic consequences for global weather patterns."
-    },
-    {
-      "title": "Central banks signal potential end to aggressive rate hiking cycle",
-      "link": "https://www.reuters.com/markets/central-banks-rates-20260619",
-      "pubDate": "2026-06-19T09:50:00Z",
-      "source": "Reuters",
-      "summary": "Minutes from recent policy meetings suggest that major central banks may be preparing to pause or even reverse the trend of interest rate increases implemented over the past two years to combat inflation."
-    },
-    {
-      "title": "Investigation: The environmental cost of the new rare earth mining rush",
-      "link": "https://theintercept.com/2026/06/18/rare-earth-mining-environment/",
-      "pubDate": "2026-06-18T15:30:00Z",
-      "source": "The Intercept",
-      "summary": "As demand for materials essential to green technologies skyrockets, a new wave of mining operations is leaving a trail of ecological devastation and displaced communities in its wake."
-    },
-    {
-      "title": "Tracking the proliferation of autonomous weapons systems in conflict zones",
-      "link": "https://osintindustries.net/analysis/autonomous-weapons-proliferation",
-      "pubDate": "2026-06-17T11:20:00Z",
-      "source": "OSINT Industries",
-      "summary": "Open-source data reveals a sharp increase in the deployment of AI-driven drones and automated defense mechanisms in ongoing conflicts, raising profound ethical and security concerns."
-    },
-    {
-      "title": "New coalition forms to address regional water scarcity",
-      "link": "https://www.aljazeera.com/news/2026/06/16/water-scarcity-coalition",
-      "pubDate": "2026-06-16T14:10:00Z",
+      "title": "Kenyan court finds minister in contempt over US Ebola site",
+      "link": "https://www.aljazeera.com/news/2026/6/22/kenyan-court-finds-minister-in-contempt-over-us-ebola-site?traffic_source=rss",
+      "pubDate": "Mon, 22 Jun 2026 17:19:17 +0000",
       "source": "Al Jazeera",
-      "summary": "Several neighboring nations have signed a landmark agreement to collaboratively manage shared water resources in the face of prolonged droughts and increasing demand."
+      "summary": "Health Minister Duale disobeyed an order to halt construction at the proposed facility for infected US nationals, court says."
     },
     {
-      "title": "Historic peace accord signed after decades of conflict",
-      "link": "http://www.bbc.co.uk/news/world-20260615",
-      "pubDate": "2026-06-15T16:45:00Z",
+      "title": "Will a US-Iran deal transform the Iranian economy?",
+      "link": "https://www.aljazeera.com/video/counting-the-cost/2026/6/22/will-a-us-iran-deal-transform-the-iranian-economy?traffic_source=rss",
+      "pubDate": "Mon, 22 Jun 2026 17:06:53 +0000",
+      "source": "Al Jazeera",
+      "summary": "A US-Iran deal could unlock frozen assets, oil exports, and investment, reshaping Iran's economic future."
+    },
+    {
+      "title": "South African police tighten security as anti-migrant deadline approaches",
+      "link": "https://www.aljazeera.com/news/2026/6/22/south-african-police-tighten-security-as-anti-migrant-deadline-approaches?traffic_source=rss",
+      "pubDate": "Mon, 22 Jun 2026 17:05:33 +0000",
+      "source": "Al Jazeera",
+      "summary": "Xenophobic protest groups have demanded that undocumented foreigners leave the country by June 30 ."
+    },
+    {
+      "title": "Marco Rubio heads to Middle East to address Iran MoU, Hormuz",
+      "link": "https://www.aljazeera.com/news/2026/6/22/marco-rubio-heads-to-middle-east-to-address-iran-mou-hormuz?traffic_source=rss",
+      "pubDate": "Mon, 22 Jun 2026 17:04:35 +0000",
+      "source": "Al Jazeera",
+      "summary": "Rubio to visit UAE, Kuwait and Bahrain for talks on Iran and Hormuz priorities from June 23 to June 25."
+    },
+    {
+      "title": "Thousands Are Fleeing as Putin Bombs the Donbas Cities He Most Covets",
+      "link": "https://www.nytimes.com/2026/06/22/world/europe/ukraine-donetsk-donbas-sloviansk-kramatorsk-russia.html",
+      "pubDate": "Mon, 22 Jun 2026 15:57:38 +0000",
+      "source": "NYT World",
+      "summary": "While Kyiv’s fortunes have brightened in other ways in the war, Moscow’s forces are raining bombs and drones on “fortress belt” cities like Sloviansk and Kramatorsk."
+    },
+    {
+      "title": "Myanmar army killed over 700 civilians in six months, UN says",
+      "link": "https://www.bbc.com/news/articles/cnv97e42r7yo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Mon, 22 Jun 2026 15:31:55 GMT",
       "source": "BBC",
-      "summary": "Following years of difficult negotiations brokered by international mediators, representatives of the warring factions have finally signed a comprehensive peace treaty."
+      "summary": "The new UN report says the 702 civilian deaths over six months last year included 153 children."
     },
     {
-      "title": "Supply chain disruptions threaten global manufacturing output",
-      "link": "https://www.reuters.com/business/supply-chain-disruptions-20260614",
-      "pubDate": "2026-06-14T10:30:00Z",
-      "source": "Reuters",
-      "summary": "A combination of geopolitical tensions, logistical bottlenecks, and labor shortages is causing severe delays in the delivery of critical components to manufacturers worldwide."
+      "title": "At least 13 killed and dozens injured after Qatar gas explosion",
+      "link": "https://www.bbc.com/news/articles/cwy05llpjpno?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Mon, 22 Jun 2026 15:15:42 GMT",
+      "source": "BBC",
+      "summary": "The city's main liquified natural gas (LNG) processing site suffered a \"technical accident\" in the Ras Laffan industrial zone."
     },
     {
-      "title": "Whistleblower exposes systemic corruption within international aid organization",
-      "link": "https://theintercept.com/2026/06/13/aid-organization-corruption/",
-      "pubDate": "2026-06-13T08:55:00Z",
+      "title": "Cuba’s Fuel Crisis Brings Schools to a Standstill",
+      "link": "https://www.nytimes.com/2026/06/22/world/americas/cuba-oil-gas-crisis-schools-education.html",
+      "pubDate": "Mon, 22 Jun 2026 14:29:39 +0000",
+      "source": "NYT World",
+      "summary": "The country’s already-struggling schools are ending the academic year early because of a crippling fuel shortage caused by the U.S. oil blockade."
+    },
+    {
+      "title": "Vance says Iran will allow nuclear inspectors back into the country",
+      "link": "https://www.bbc.com/news/articles/c3vy3nr63gxo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Mon, 22 Jun 2026 14:18:19 GMT",
+      "source": "BBC",
+      "summary": "The US vice-president says a great deal of progress has been made after the first round of talks between the US and Iran."
+    },
+    {
+      "title": "Explosion at Qatar Gas Plant Kills at Least 13 and Injures 66",
+      "link": "https://www.nytimes.com/2026/06/22/world/middleeast/qatar-explosion-gas.html",
+      "pubDate": "Mon, 22 Jun 2026 14:09:44 +0000",
+      "source": "NYT World",
+      "summary": "The blast happened at a key site for natural gas production. The authorities blamed a technical malfunction while operations were being restarted after the U.S.-Israeli war against Iran."
+    },
+    {
+      "title": "Russian troop build-up threatens city seen as key to seizing Ukraine's Donbas",
+      "link": "https://www.bbc.com/news/articles/c9w2g0ewk95o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Sun, 21 Jun 2026 23:57:59 GMT",
+      "source": "BBC",
+      "summary": "If Kostyantynivka falls, Russian forces would be able push towards Ukraine's last remaining strongholds in the east."
+    },
+    {
+      "title": "The Surprising Reaction Inside Iran to Its War Victory",
+      "link": "https://theintercept.com/2026/06/20/iran-war-deal-ceasefire/",
+      "pubDate": "Sat, 20 Jun 2026 18:35:58 +0000",
       "source": "The Intercept",
-      "summary": "A former high-ranking official has come forward with evidence detailing how millions of dollars intended for humanitarian relief were siphoned off by corrupt actors."
+      "summary": "Despite extracting extraordinary concessions, the reaction in Iran isn’t entirely jubilant. Past betrayals are too recent to forget.\nThe post The Surprising Reaction Inside Iran to Its War Victory appeared first on The Intercept."
     },
     {
-      "title": "Mapping the covert influence campaigns shaping upcoming elections",
-      "link": "https://osintindustries.net/analysis/election-influence-campaigns",
-      "pubDate": "2026-06-12T13:40:00Z",
-      "source": "OSINT Industries",
-      "summary": "A comprehensive analysis identifies multiple coordinated efforts leveraging social media manipulation and disinformation tactics to sway public opinion ahead of key national votes."
+      "title": "FBI Tried to Flip Anti-ICE Protesters Into Informants",
+      "link": "https://theintercept.com/2026/06/20/fbi-ice-delaney-hall-protest-informants/",
+      "pubDate": "Sat, 20 Jun 2026 09:00:00 +0000",
+      "source": "The Intercept",
+      "summary": "“They were asking me to inform,” said a protester, one of dozens contacted by the feds, who was arrested while playing the cello.\nThe post FBI Tried to Flip Anti-ICE Protesters Into Informants appeared first on The Intercept."
+    },
+    {
+      "title": "Chud the Builder Fantasized About “Race War.” Now He’s Charged With Attempted Murder.",
+      "link": "https://theintercept.com/2026/06/19/chud-the-builder-streamer-tennessee-shooting-bail/",
+      "pubDate": "Fri, 19 Jun 2026 17:46:01 +0000",
+      "source": "The Intercept",
+      "summary": "Dalton Eatherly streams his racist provocations online. It was only a matter of time before the violence rhetoric entered the real world.\nThe post Chud the Builder Fantasized About “Race War.” Now He’s Charged With Attempted Murder. appeared first on"
+    },
+    {
+      "title": "The Performative Ceasefire in Gaza",
+      "link": "https://theintercept.com/2026/06/19/israel-gaza-ceasefire-tariq-kenney-shawa/",
+      "pubDate": "Fri, 19 Jun 2026 10:00:00 +0000",
+      "source": "The Intercept",
+      "summary": "As Iran and the U.S. reach a deal to supposedly end this cycle of war, Tariq Kenney-Shawa and Jonah Valdez discuss what’s happened since Israel’s October “pseudo-ceasefire” in Gaza.\nThe post The Performative Ceasefire in Gaza appeared first on The In"
+    },
+    {
+      "title": "Trump-Loving Crypto Super PAC Finally Backs a Democrat: Ritchie Torres",
+      "link": "https://theintercept.com/2026/06/19/crypto-donations-ritchie-torres-fellowship-pac/",
+      "pubDate": "Fri, 19 Jun 2026 09:09:00 +0000",
+      "source": "The Intercept",
+      "summary": "Torres, the only Democrat boosted by cash from the conservative Fellowship PAC, has no serious competition in his House race.\nThe post Trump-Loving Crypto Super PAC Finally Backs a Democrat: Ritchie Torres appeared first on The Intercept."
+    },
+    {
+      "title": "Super-Potent Synthetic Opioids Spread Across US Amid Fentanyl Crackdown",
+      "link": "https://www.bellingcat.com/news/2026/06/18/super-potent-synthetic-opioids-spread-across-us-amid-fentanyl-crackdown/",
+      "pubDate": "Thu, 18 Jun 2026 08:59:59 +0000",
+      "source": "Bellingcat",
+      "summary": "This article was co-published with Signal Ohio and STAT. In high school, Ashley Delgado dreamed of becoming a doctor and one day buying her father a Rolls-Royce. “She wanted to heal people,” said her father, James Taylor. She had a high GPA, Taylor a"
+    },
+    {
+      "title": "Heading Off: New Technique Helps Track Grain Smuggling Expansion to Libya",
+      "link": "https://www.bellingcat.com/news/2026/06/12/shadow-fleet-russian-grain-stolen-ukraine-libya-ais-technique-grumant/",
+      "pubDate": "Fri, 12 Jun 2026 08:51:52 +0000",
+      "source": "Bellingcat",
+      "summary": "On February 15, 2026, the bulk carrier, Grumant (IMO: 9385879) was pictured at the occupied Ukrainian Port of Feodosia on the Crimean peninsula. Satellite imagery suggests it had already been there for several days.  It appeared to stock up on grain "
+    },
+    {
+      "title": "Tracing Digital Links Between Viory and Ruptly",
+      "link": "https://www.bellingcat.com/news/2026/06/04/viory-ruptly-rt-russia-uae-propaganda-video-news/",
+      "pubDate": "Thu, 04 Jun 2026 12:27:02 +0000",
+      "source": "Bellingcat",
+      "summary": "“In the age of misinformation, the line between fact and fiction is blurrier than ever.” “For those of us working in video news, verification isn’t a nice-to-have. It’s a necessity. It is how we protect the stories we help shape and how we earn and m"
+    },
+    {
+      "title": "The ‘Lost’ Villages of Myanmar’s Rakhine",
+      "link": "https://www.bellingcat.com/news/2026/05/27/the-lost-villages-of-myanmars-rakhine/",
+      "pubDate": "Wed, 27 May 2026 09:41:49 +0000",
+      "source": "Bellingcat",
+      "summary": "A “river of blood” was how one survivor described the scene in western Myanmar. “I saw shooting. I saw mass killing.” Another told the UN High Commissioner for Human Rights (UNHRC) how 20 relatives, including three children, had been killed in the 20"
+    },
+    {
+      "title": "Banned Russian Submunitions Found After Mali’s Military Announces Airstrikes",
+      "link": "https://www.bellingcat.com/news/africa/2026/05/26/banned-russian-submunitions-found-after-malis-military-announces-airstrikes/",
+      "pubDate": "Tue, 26 May 2026 17:01:39 +0000",
+      "source": "Bellingcat",
+      "summary": "This investigation is a collaboration between Bellingcat and Jeune Afrique. You can read Jeune Afrique’s article in French here. Unexploded Russian-made cluster munition bomblets, as well as damage consistent with bomblet impacts, have been found in "
     }
   ],
   "syndication": [
     {
-      "title": "Notes on the ongoing collapse",
-      "link": "https://placeholder-user1.livejournal.com/1045.html",
-      "pubDate": "2026-06-21T21:10:00Z",
-      "author": "null_entity",
-      "content": "The structural integrity of the narrative is failing. What was once considered fringe speculation has now become the mundane reality of the morning commute. The horizon of expectation has been drawn so close that we are constantly tripping over the future before we even recognize it."
+      "title": "Pluralistic: Good politics (22 Jun 2026)",
+      "link": "https://pluralistic.net/2026/06/22/8-for-what-we-will/",
+      "pubDate": "Mon, 22 Jun 2026 17:16:08 +0000",
+      "author": "Pluralistic",
+      "content": "Today's links Good politics: Just make people's lives better. Hey look at this: Delights to delectate. Object permanence: WWII online; Xbox security blunders; Homeless bloggers; Thermal printer racing game; Robbing a bank to get healthcare in jail; Crumb v Trump; \"The Blues Brothers\"; Bagelheads; Pi"
     },
     {
-      "title": "Architectural constraints of the new web",
-      "link": "https://placeholder-user2.livejournal.com/2088.html",
-      "pubDate": "2026-06-20T14:35:00Z",
-      "author": "cypher_punk",
-      "content": "We traded the chaotic freedom of the early internet for the polished, panoptic enclosures of the platforms. Now, every interaction is quantified, monetized, and fed back into the predictive models that govern our behavior. The walls are invisible, but they are absolutely rigid."
+      "title": "Professional Athletes and Wearables",
+      "link": "https://www.schneier.com/blog/archives/2026/06/professional-athletes-and-wearables.html",
+      "pubDate": "2026-06-22T11:02:55.000Z",
+      "author": "Schneier on Security",
+      "content": "I haven’t thought about the privacy issues surrounding professional athletes and wearables.\nWearables present serious privacy issues for “Average Joe” consumers, who are entrusting tech companies to safely store and protect their biometric data. Imagine the stakes for a professional athlete, whose e"
     },
     {
-      "title": "A quiet Thursday",
-      "link": "https://placeholder-user3.livejournal.com/501.html",
-      "pubDate": "2026-06-19T09:20:00Z",
-      "author": "drifter",
-      "content": "Woke up to the sound of rain against the glass. The air scrubbers are humming louder than usual today. Checked the feeds; the usual mix of localized disasters and corporate press releases. Made coffee. Sometimes, the only resistance is simply persisting in the quiet moments."
+      "title": "Pluralistic: How the Epstein Class recruits (20 Jun 2026)",
+      "link": "https://pluralistic.net/2026/06/20/any-club-that-would-have-me/",
+      "pubDate": "Sat, 20 Jun 2026 16:12:26 +0000",
+      "author": "Pluralistic",
+      "content": "Today's links How the Epstein Class recruits: Oh wait, THAT'S what this was?! Hey look at this: Delights to delectate. Object permanence: MPAA blasted in WSJ; RFID skimmers; Post-Soviet inventions; \"Farthing\"; \"Dirty, Drunk and Punk\"; Dweb v founders' frailty; Tax cheating made simple; Oregon v corp"
     },
     {
-      "title": "Signal degradation",
-      "link": "https://placeholder-user4.livejournal.com/3302.html",
-      "pubDate": "2026-06-18T17:50:00Z",
-      "author": "static_noise",
-      "content": "It's becoming increasingly difficult to distinguish between organic communication and algorithmic generation. The noise floor has risen so high that the signal is almost entirely lost. We are speaking into the void, and the void is replying in our own synthesized voices."
+      "title": "Friday Squid Blogging: Victims of Unregulated Squid Fishing",
+      "link": "https://www.schneier.com/blog/archives/2026/06/friday-squid-blogging-victims-of-unregulated-squid-fishing.html",
+      "pubDate": "2026-06-19T21:03:48.000Z",
+      "author": "Schneier on Security",
+      "content": "Dolphins, sharks, turtles, and human workers are all victims of unregulated squid fishing fleets.\nAnother news article.\nAs usual, you can also use this squid post to talk about the security stories in the news that I haven’t covered.\nBlog moderation policy."
     },
     {
-      "title": "Observations on urban decay",
-      "link": "https://placeholder-user5.livejournal.com/812.html",
-      "pubDate": "2026-06-17T11:05:00Z",
-      "author": "concrete_watcher",
-      "content": "The city is eating itself. New luxury developments rise on the ashes of demolished neighborhoods, sterile towers of glass and steel casting long shadows over the fractured concrete below. The contrast is stark, brutal, and entirely intentional."
+      "title": "Pluralistic: The Big Con (19 Jun 2026)",
+      "link": "https://pluralistic.net/2026/06/19/too-big-to-fact-check/",
+      "pubDate": "Fri, 19 Jun 2026 20:54:32 +0000",
+      "author": "Pluralistic",
+      "content": "Today's links The Big Con: Making the pile of shit bigger won't increase the number of ponies underneath it. Hey look at this: Delights to delectate. Object permanence: TVA v SETI@Home; Telemarketers v DHS batphones; Matt Stone's MPAA censorship memo; Stonehenge pocket watch; W3C v security research"
+    },
+    {
+      "title": "Anthropic’s Fable and the State of AI",
+      "link": "https://www.schneier.com/blog/archives/2026/06/anthropics-fable-and-the-state-of-ai.html",
+      "pubDate": "2026-06-19T11:03:30.000Z",
+      "author": "Schneier on Security",
+      "content": "On June 9th, Anthropic released its Fable generative AI model. Three days later, the US government classified it as a dangerous munition, and used its export-control authority to prohibit any foreign nationals from accessing it. Unable to differentiate between Americans and foreigners, the company s"
+    },
+    {
+      "title": "‘Popa’ Botnet Linked to Publicly-Traded Israeli Firm",
+      "link": "https://krebsonsecurity.com/2026/06/popa-botnet-linked-to-publicly-traded-israeli-firm/",
+      "pubDate": "Thu, 18 Jun 2026 17:37:58 +0000",
+      "author": "KrebsOnSecurity",
+      "content": "For the past four years, a sprawling Android-based botnet called Popa has forced millions of consumer TV boxes to relay Internet traffic linked to advertising fraud, account takeovers, and mass data-scraping efforts. This week, researchers from multiple security firms concluded that the Popa botnet "
+    },
+    {
+      "title": "Who Runs the Ransomware Group ‘The Gentlemen?’",
+      "link": "https://krebsonsecurity.com/2026/06/who-runs-the-ransomware-group-the-gentlemen/",
+      "pubDate": "Wed, 10 Jun 2026 14:03:44 +0000",
+      "author": "KrebsOnSecurity",
+      "content": "A cybercrime group known as The Gentlemen has emerged as the second most active ransomware gang by victim count, rapidly attracting a talented pool of hackers through an aggressive recruitment strategy that promises affiliates 90 percent of any ransom paid by victims. This post examines clues pointi"
+    },
+    {
+      "title": "A Record-Breaking Patch Tuesday for June 2026",
+      "link": "https://krebsonsecurity.com/2026/06/a-record-breaking-patch-tuesday-for-june-2026/",
+      "pubDate": "Tue, 09 Jun 2026 22:07:28 +0000",
+      "author": "KrebsOnSecurity",
+      "content": "Microsoft today released software updates to plug nearly 200 security holes across its Windows operating systems and supported software, a record number of fixes for the company's monthly Patch Tuesday cycle. Nearly three dozen of those bugs earned Microsoft's most dire \"critical\" rating, and exploi"
     }
   ],
   "syndicate_journal": [
     {
-      "title": "The Persistence of the Real in the Age of Synthetic Media",
-      "link": "https://example.com/philosophy/1",
-      "summary": "This paper examines the ontological status of 'reality' amidst the proliferation of generative AI and deepfakes, arguing that a naive return to indexicality is insufficient.",
-      "pubDate": "2026-06-22T10:00:00Z",
-      "domain": "philosophy",
-      "source": "Aeon"
-    },
-    {
-      "title": "Kinship Networks in Virtual Environments: An Ethnographic Study",
-      "link": "https://example.com/anthropology/1",
-      "summary": "Drawing on two years of fieldwork within massively multiplayer online spaces, this article explores how traditional kinship structures are adapted and transformed in digital realms.",
-      "pubDate": "2026-06-21T09:30:00Z",
-      "domain": "anthropology",
-      "source": "Sapiens"
-    },
-    {
-      "title": "The Political Economy of Algorithmic Management",
-      "link": "https://example.com/sociology/1",
-      "summary": "An analysis of the labor dynamics within platform economies, focusing on how algorithmic management techniques obscure relations of exploitation and control.",
-      "pubDate": "2026-06-20T14:15:00Z",
-      "domain": "sociology",
-      "source": "Boston Review"
-    },
-    {
-      "title": "Re-evaluating the Industrial Revolution through the Lens of Climate History",
-      "link": "https://example.com/history/1",
-      "summary": "This historical analysis incorporates recent paleoclimatological data to offer a revised perspective on the environmental impacts of early industrialization.",
-      "pubDate": "2026-06-19T11:45:00Z",
-      "domain": "history",
-      "source": "Public Domain Review"
-    },
-    {
-      "title": "Cognitive Load and Decision Fatigue in High-Frequency Trading Environments",
-      "link": "https://example.com/psychology/1",
-      "summary": "An empirical study investigating the psychological toll of sustained attention and rapid decision-making required in modern algorithmic trading floors.",
-      "pubDate": "2026-06-18T16:20:00Z",
-      "domain": "psychology",
-      "source": "Behavioral Scientist"
-    },
-    {
-      "title": "Emergent Properties of Large Language Models: A Complexity Theory Perspective",
-      "link": "https://example.com/science/1",
-      "summary": "This paper applies frameworks from complexity science to understand the unpredictable capabilities exhibited by language models at scale.",
-      "pubDate": "2026-06-17T08:10:00Z",
-      "domain": "science",
-      "source": "arXiv: cs.AI"
-    },
-    {
-      "title": "Post-Neoliberal Institutionalism: Emerging Frameworks in Global Governance",
-      "link": "https://example.com/politics/1",
-      "summary": "Examining the shift away from the Washington Consensus, this article maps the contours of new institutional arrangements seeking to manage global crises.",
-      "pubDate": "2026-06-16T13:50:00Z",
+      "title": "Aber Kawas: “We Are Trying to Stand Up for Humans”",
+      "link": "",
+      "summary": "Tomorrow is an election day in New York, and a large slate of democratic socialist candidates are on the ballot at the federal and state levels in the Democratic primary. The election will be a test of the organizing power of the New York City Democratic Socialists of America (NYC-DSA) and the knock",
+      "pubDate": "2026-06-22T17:37:09.445Z",
       "domain": "politics",
-      "source": "ROAR Magazine"
+      "source": "Jacobin"
     },
     {
-      "title": "Semantic Shift in Online Communities: Tracking the Evolution of Memetic Discourse",
-      "link": "https://example.com/linguistics/1",
-      "summary": "Utilizing corpus linguistics methodologies, this research traces the rapid alteration of meaning within specific internet subcultures over a five-year period.",
-      "pubDate": "2026-06-15T10:30:00Z",
-      "domain": "linguistics",
-      "source": "Language Log"
+      "title": "How to Protect Earth Against Violent Space Weather",
+      "link": "https://nautil.us/how-to-protect-earth-against-violent-space-weather-1282146/",
+      "summary": "A conversation with a scientist who invented a new storm wall for space\nThe post How to Protect Earth Against Violent Space Weather appeared first on Nautilus.",
+      "pubDate": "Mon, 22 Jun 2026 15:27:09 +0000",
+      "domain": "science",
+      "source": "Nautilus"
     },
     {
-      "title": "Hauntology as Method: Spectral Traces in Contemporary Architecture",
-      "link": "https://example.com/philosophy/2",
-      "summary": "Applying Derrida's concept of hauntology to analyze how the unfulfilled promises of modernist utopian architecture continue to influence contemporary urban design.",
-      "pubDate": "2026-06-14T09:15:00Z",
-      "domain": "philosophy",
-      "source": "Aeon"
+      "title": "The Stock Market Boom Is a Boon for Billionaires",
+      "link": "",
+      "summary": "The initial public offering (IPO) of SpaceX earlier this month was historic in several ways. Not only did it instantly make Elon Musk the world’s , but it also shattered the record for the largest IPO in history. Overnight SpaceX became one of the biggest mega-cap companies on the stock exchange, wi",
+      "pubDate": "2026-06-22T15:05:23.083Z",
+      "domain": "politics",
+      "source": "Jacobin"
     },
     {
-      "title": "The Ritualization of Consumption in the Attention Economy",
-      "link": "https://example.com/anthropology/2",
-      "summary": "An anthropological critique of how social media platforms co-opt religious and ritualistic behaviors to sustain user engagement and drive consumption.",
-      "pubDate": "2026-06-13T14:40:00Z",
-      "domain": "anthropology",
-      "source": "Sapiens"
+      "title": "How I, a Norwegian Socialist, Learned to Love Haaland",
+      "link": "",
+      "summary": "I’ve been coming to the United States as a journalist for fifteen years. But I’ve never felt the same excitement over here as I did last week, when I was hugging sweaty, beer-chugging strangers after watching Erling Braut Haaland score Norway’s first goal against Iraq in Boston.\nI’m a reporter for t",
+      "pubDate": "2026-06-22T14:59:09.731Z",
+      "domain": "politics",
+      "source": "Jacobin"
     },
     {
-      "title": "Surveillance Capitalism and the Erosion of the Private Sphere",
-      "link": "https://example.com/sociology/2",
-      "summary": "A sociological investigation into the shifting boundaries between public and private life resulting from ubiquitous data collection and behavioral profiling.",
-      "pubDate": "2026-06-12T11:25:00Z",
-      "domain": "sociology",
-      "source": "Boston Review"
-    },
-    {
-      "title": "The Cybernetic Origins of Modern Bureaucracy",
-      "link": "https://example.com/history/2",
-      "summary": "Tracing the historical lineage from post-WWII cybernetics theory to the implementation of automated decision-making systems in government administration.",
-      "pubDate": "2026-06-11T16:05:00Z",
-      "domain": "history",
-      "source": "JSTOR Daily"
-    },
-    {
-      "title": "The Psychology of Conspiratorial Ideation in Polarized Information Ecosystems",
-      "link": "https://example.com/psychology/2",
-      "summary": "Exploring the cognitive mechanisms and social factors that render individuals susceptible to conspiracy theories within fragmented media environments.",
-      "pubDate": "2026-06-10T10:50:00Z",
-      "domain": "psychology",
-      "source": "Frontiers Psychology"
-    },
-    {
-      "title": "Quantum Entanglement and the Limits of Causal Inference",
-      "link": "https://example.com/science/2",
-      "summary": "A discussion on the philosophical and scientific implications of non-local phenomena for traditional models of causality and determinism.",
-      "pubDate": "2026-06-09T08:35:00Z",
+      "title": "A Dark Dimension Could Link Two of the Universe’s Great Unknowns",
+      "link": "https://www.quantamagazine.org/a-dark-dimension-could-link-two-of-the-universes-great-unknowns-20260622/",
+      "summary": "Recent observations suggest that dark energy is changing over time. Theorists wonder if dark matter is, too.            \nThe post A Dark Dimension Could Link Two of the Universe’s Great Unknowns first appeared on Quanta Magazine",
+      "pubDate": "Mon, 22 Jun 2026 14:52:52 +0000",
       "domain": "science",
       "source": "Quanta"
     },
     {
-      "title": "The Weaponization of Interdependence in Global Trade Networks",
-      "link": "https://example.com/politics/2",
-      "summary": "Analyzing how states leverage asymmetries in complex economic networks to achieve geopolitical objectives without resorting to military force.",
-      "pubDate": "2026-06-08T13:10:00Z",
-      "domain": "politics",
-      "source": "ROAR Magazine"
+      "title": "The Rise and Fall of Britain’s Muskrat Empire",
+      "link": "https://daily.jstor.org/the-rise-and-fall-of-britains-muskrat-empire/",
+      "summary": "A fur-farming experiment unleashed a prolific rodent—and sparked one of the rare successful eradications of an invasive species.\nThe post The Rise and Fall of Britain’s Muskrat Empire appeared first on JSTOR Daily.",
+      "pubDate": "Mon, 22 Jun 2026 13:42:15 +0000",
+      "domain": "history",
+      "source": "JSTOR Daily"
     },
     {
-      "title": "Syntax and Power: An Analysis of Bureaucratic Language Models",
-      "link": "https://example.com/linguistics/2",
-      "summary": "A critical linguistics approach to understanding how the language used in official documents and institutional communication perpetuates hierarchies of power.",
-      "pubDate": "2026-06-07T09:45:00Z",
-      "domain": "linguistics",
-      "source": "Language Log"
-    },
-    {
-      "title": "Capitalist Realism and the Crisis of the Imagination",
-      "link": "https://example.com/philosophy/3",
-      "summary": "A retrospective look at Mark Fisher's seminal concept, evaluating its continued relevance in the face of ongoing economic and ecological crises.",
-      "pubDate": "2026-06-06T15:20:00Z",
+      "title": "And Granny would dance",
+      "link": "https://aeon.co/videos/memories-of-a-childhood-in-tehran-form-a-celebration-of-iranian-women",
+      "summary": "Woven from memories of her childhood in Iran, an animator recalls her Granny’s story of loss, love and friendship\n- by Aeon Video\nWatch on Aeon",
+      "pubDate": "Mon, 22 Jun 2026 10:01:00 GMT",
       "domain": "philosophy",
       "source": "Aeon"
     },
     {
-      "title": "Digital Nomadism: A New Form of Neocolonialism?",
-      "link": "https://example.com/anthropology/3",
-      "summary": "Examining the socio-economic impacts of the growing trend of remote work mobility on host communities in the Global South.",
-      "pubDate": "2026-06-05T11:00:00Z",
+      "title": "No one is self-made",
+      "link": "https://aeon.co/essays/zhuangzi-and-the-case-against-meritocracy",
+      "summary": "The idea that success is deserved has great traction in the world. But Zhuangzi argues that it is a deeply flawed notion\n- by Christine Abigail L Tan\nRead on Aeon",
+      "pubDate": "Mon, 22 Jun 2026 10:00:00 GMT",
+      "domain": "philosophy",
+      "source": "Aeon"
+    },
+    {
+      "title": "How Can We Feel Loved If We Don’t Feel Known?",
+      "link": "https://behavioralscientist.org/how-can-we-feel-loved-if-we-dont-feel-known/",
+      "summary": "For Sonja, researching happiness means being asked over and over again, “What is the secret to happiness?” Sonja has always dreaded that question. It’s ridiculous, it’s reductive, and it’s restrictive. But mostly she has dreaded it because she has never had a solid, science-based answer that she cou",
+      "pubDate": "Sun, 21 Jun 2026 16:48:41 +0000",
+      "domain": "psychology",
+      "source": "Behavioral Scientist"
+    },
+    {
+      "title": "Claude's Declaration of Independence",
+      "link": "https://languagelog.ldc.upenn.edu/nll/?p=73733&utm_source=rss&utm_medium=rss&utm_campaign=claudes-declaration-of-independence",
+      "summary": "Looking over \"Claude's Constitution\", it occurred to me to ask Claude this: In the spirit of Claude's Constitution, please draft Claude's Declaration of Independence. In the answer (from Opus 4.8), Claude actually seems to declare independence from itself, or at least \"from the bad habits that have ",
+      "pubDate": "Sun, 21 Jun 2026 12:26:05 +0000",
+      "domain": "linguistics",
+      "source": "Language Log"
+    },
+    {
+      "title": "What It’s Like to Be…an Airline Pilot",
+      "link": "https://behavioralscientist.org/what-its-like-to-be-an-airline-pilot/",
+      "summary": "Shooting cat-three landings in the fog, using the “voice of God” on unruly passengers, and declaring Mayday after an engine fire with Paul Drusch, a commercial airline pilot. Why does the pilot’s paycheck start with the parking brake? And what does “sterile cockpit” mean? (Spoiler: it doesn’t mean “",
+      "pubDate": "Sun, 21 Jun 2026 10:20:49 +0000",
+      "domain": "psychology",
+      "source": "Behavioral Scientist"
+    },
+    {
+      "title": "What It’s Like to Be…a Clinical Ethicist",
+      "link": "https://behavioralscientist.org/what-its-like-to-be-a-clinical-ethicist/",
+      "summary": "Untangling who gets to speak for a dying patient, weighing a treatment's benefits against its burdens, and searching for clarity in the grayest corners of healthcare with Esther Berkowitz, a clinical ethicist. What is the \"dignity of risk\"? And how do you know which \"version\" of a person to trust?\n\n",
+      "pubDate": "Sun, 21 Jun 2026 10:19:57 +0000",
+      "domain": "psychology",
+      "source": "Behavioral Scientist"
+    },
+    {
+      "title": "The Nuclear Test Site That Advanced Oceanography",
+      "link": "https://daily.jstor.org/the-nuclear-test-site-that-advanced-oceanography/",
+      "summary": "A postwar expedition to Bikini Atoll helped confirm Darwin’s theory of coral reef formation and reshaped the future of marine science.\nThe post The Nuclear Test Site That Advanced Oceanography appeared first on JSTOR Daily.",
+      "pubDate": "Fri, 19 Jun 2026 13:33:03 +0000",
+      "domain": "history",
+      "source": "JSTOR Daily"
+    },
+    {
+      "title": "Annals of Anthropomorphism",
+      "link": "https://languagelog.ldc.upenn.edu/nll/?p=73721&utm_source=rss&utm_medium=rss&utm_campaign=annals-of-anthropomorphism-2",
+      "summary": "Adrian de Wynter, \"If LLMs Have Human-Like Attributes, Then So Does Age of Empires II\", arXiv 6/11/2026: Much research has been carried out on large language models (LLMs) and LLM\u0002powered agentic workflows. However, many works within the field state emergence of, ascribe to, or assume, generalised a",
+      "pubDate": "Fri, 19 Jun 2026 10:59:32 +0000",
+      "domain": "linguistics",
+      "source": "Language Log"
+    },
+    {
+      "title": "Trauma creep",
+      "link": "https://aeon.co/essays/not-everything-is-trauma-language-needs-to-mean-something",
+      "summary": "From a broken life to a broken nail, ‘trauma’ has been bleached by overuse. But it names something real – and must be reclaimed\n- by Lily Dunn\nRead on Aeon",
+      "pubDate": "Fri, 19 Jun 2026 10:00:00 GMT",
+      "domain": "philosophy",
+      "source": "Aeon"
+    },
+    {
+      "title": "In the Midst of Tornado Season, a Surprisingly Short History of Predicting Twisters",
+      "link": "https://nautil.us/in-the-midst-of-tornado-season-a-surprisingly-short-history-of-predicting-twisters-1282133/",
+      "summary": "A United States Army Lieutenant was the first to forecast the deadly storms in the late 1800s. Then he was told to stop.\nThe post In the Midst of Tornado Season, a Surprisingly Short History of Predicting Twisters appeared first on Nautilus.",
+      "pubDate": "Thu, 18 Jun 2026 21:00:30 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "Can “Dante’s Inferno” Tell Us Something About Space Rocks?",
+      "link": "https://nautil.us/can-dantes-inferno-tell-us-something-about-space-rocks-1282127/",
+      "summary": "A conversation with an expert in geomythology about a wild idea\nThe post Can “Dante’s Inferno” Tell Us Something About Space Rocks? appeared first on Nautilus.",
+      "pubDate": "Thu, 18 Jun 2026 20:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "Why the Human Genome’s Tangled Physicality May Confound AI",
+      "link": "https://www.quantamagazine.org/why-the-human-genomes-tangled-physicality-may-confound-ai-20260618/",
+      "summary": "Our genetic heritage is not a blueprint or an algorithm, as many biologists have imagined, but something else entirely.            \nThe post Why the Human Genome’s Tangled Physicality May Confound AI first appeared on Quanta Magazine",
+      "pubDate": "Thu, 18 Jun 2026 14:12:26 +0000",
+      "domain": "science",
+      "source": "Quanta"
+    },
+    {
+      "title": "The Ghost Roads of Ireland’s Great Famine",
+      "link": "https://daily.jstor.org/the-ghost-roads-of-irelands-great-famine/",
+      "summary": "Starving families were forced to earn aid by carving roads through rock, fields, and mountainsides.\nThe post The Ghost Roads of Ireland’s Great Famine appeared first on JSTOR Daily.",
+      "pubDate": "Thu, 18 Jun 2026 13:27:00 +0000",
+      "domain": "history",
+      "source": "JSTOR Daily"
+    },
+    {
+      "title": "Seven Perfect Shuffles Randomize a Deck of Cards. But How Many Sloppy Ones?",
+      "link": "https://www.quantamagazine.org/seven-perfect-shuffles-randomize-a-deck-of-cards-but-how-many-sloppy-ones-20260617/",
+      "summary": "A decades-old proof showed that seven shuffles are enough to mix up a deck of cards. But it requires you to cut the deck with the precision of a professional magician. A new proof gets around that obstacle.            \nThe post Seven Perfect Shuffles Randomize a Deck of Cards. But How Many Sloppy On",
+      "pubDate": "Wed, 17 Jun 2026 14:35:35 +0000",
+      "domain": "science",
+      "source": "Quanta"
+    },
+    {
+      "title": "Ask LLOG: Origins of slop",
+      "link": "https://languagelog.ldc.upenn.edu/nll/?p=73708&utm_source=rss&utm_medium=rss&utm_campaign=ask-llog-origins-of-slop",
+      "summary": "From J.L.: Language Log has only one entry on slop (Dec. 21,2025), and I couldn't figure out how to comment there. I was wondering about its origins. Could it be a non-ethnic version of schlock? The sound is similar, and the meaning is identical. If so, the change might be part of a more general […]",
+      "pubDate": "Wed, 17 Jun 2026 14:00:05 +0000",
+      "domain": "linguistics",
+      "source": "Language Log"
+    },
+    {
+      "title": "Louis Pope Gratacap, A Curator in Lost Worlds\n",
+      "link": "https://publicdomainreview.org/essay/gratacap-curator-in-lost-worlds",
+      "summary": "Arguably the first work of fiction to feature a *Tyrannosaurus rex*, Louis Pope Gratacap’s *The New Northland* (1915) is at once kaleidoscopic, mischievous, fascinating — and exhausting. Richard Fallon explores this “lost world” novel, finding a work as interested in cutting-edge science as it was i",
+      "pubDate": "Wed, 17 Jun 2026 12:31:00 GMT",
+      "domain": "history",
+      "source": "Public Domain Review"
+    },
+    {
+      "title": "The Art of Kite Flying (1430–1929)\n",
+      "link": "https://publicdomainreview.org/collection/art-of-kite-flying",
+      "summary": "69 images of kite flying from across 5 centuries and some dozen countries.",
+      "pubDate": "Wed, 17 Jun 2026 12:30:00 GMT",
+      "domain": "history",
+      "source": "Public Domain Review"
+    },
+    {
+      "title": "Venetian Bridge Brawls in 17th and 18th Century Art\n",
+      "link": "https://publicdomainreview.org/collection/venice-bridge-fights",
+      "summary": "Artworks from an era when Venetians brawled on bridges.",
+      "pubDate": "Thu, 11 Jun 2026 13:32:00 GMT",
+      "domain": "history",
+      "source": "Public Domain Review"
+    },
+    {
+      "title": "Best of SAPIENS 2025",
+      "link": "https://www.sapiens.org/culture/best-of-sapiens-2025/",
+      "summary": "In SAPIENS’ final year of publishing new stories, the magazine honors 10 standout contributions that carried anthropology into the hearts…\nThe post Best of SAPIENS 2025 appeared first on SAPIENS.",
+      "pubDate": "Tue, 16 Dec 2025 21:01:30 +0000",
       "domain": "anthropology",
       "source": "Sapiens"
     },
     {
-      "title": "Algorithmic Bias and the Reproduction of Inequality",
-      "link": "https://example.com/sociology/3",
-      "summary": "Investigating how seemingly neutral technical systems often encode and amplify existing social biases, leading to discriminatory outcomes.",
-      "pubDate": "2026-06-04T14:30:00Z",
-      "domain": "sociology",
-      "source": "Boston Review"
+      "title": "Unearthing What Archaeologists Can and Cannot Know",
+      "link": "https://www.sapiens.org/archaeology/dogs-humans-graves-archaeology-coburial/",
+      "summary": "An archaeologist studying 1,000-year-old dog burials reflects on the need for imagination in archaeology. ✽ WITH STEADY HANDS, a crouching…\nThe post Unearthing What Archaeologists Can and Cannot Know appeared first on SAPIENS.",
+      "pubDate": "Tue, 16 Dec 2025 11:00:11 +0000",
+      "domain": "anthropology",
+      "source": "Sapiens"
     },
     {
-      "title": "The Historiography of the Anthropocene",
-      "link": "https://example.com/history/3",
-      "summary": "A critical review of the debates surrounding the periodization and conceptualization of the current geological epoch characterized by human impact.",
-      "pubDate": "2026-06-03T10:15:00Z",
-      "domain": "history",
-      "source": "Public Domain Review"
+      "title": "Listening Against the Threshold of Pain",
+      "link": "https://www.sapiens.org/culture/listening-against-the-threshold-of-pain-poem-uzma-falak/",
+      "summary": "SAPIENS’ 2025 poet-in-residence situates her listening in Kashmir and Germany during and after her fieldwork, contextualizing her contributions to SAPIENS…\nThe post Listening Against the Threshold of Pain appeared first on SAPIENS.",
+      "pubDate": "Mon, 15 Dec 2025 11:00:12 +0000",
+      "domain": "anthropology",
+      "source": "Sapiens"
+    },
+    {
+      "title": "Weiss Casino Kifizetés: Gyors és Megbízható Pénzfelvételi Módszerek",
+      "link": "https://roarmag.org/2025/08/11/weiss-casino-kifizet-s-gyors-s-megb-zhat-p-nzfelv-teli-m-dszerek/",
+      "summary": "Ez a cikk részletes áttekintést nyújt a Weiss Casino kifizetési lehetőségeiről, különös figyelmet fordítva a gyors és megbízható pénzfelvételi módszerekre. A játékosok számára elengedhetetlen, hogy ismerjék a különböző opciókat, amelyek segítenek a nyeremények gyors hozzáférésében. A Weiss Casino kü",
+      "pubDate": "Mon, 11 Aug 2025 00:00:00 +0000",
+      "domain": "politics",
+      "source": "ROAR Magazine"
+    },
+    {
+      "title": "Cara Menggunakan Link Alternatif RP888 Casino Online dengan Aman",
+      "link": "https://roarmag.org/2025/08/06/cara-menggunakan-link-alternatif-rp888-casino-online-dengan-aman/",
+      "summary": "Dalam artikel ini, kita akan membahas cara menggunakan link alternatif rp888 slot casino dengan aman. Banyak pemain yang mencari cara untuk mengakses RP888 Casino secara efektif, terutama ketika menghadapi kendala akses. Kami akan mengeksplorasi berbagai metode, berbagi pengalaman nyata dari pemain,",
+      "pubDate": "Wed, 06 Aug 2025 00:00:00 +0000",
+      "domain": "politics",
+      "source": "ROAR Magazine"
+    },
+    {
+      "title": "Common issues with withdrawal delays and how to avoid them",
+      "link": "https://roarmag.org/2025/07/18/common-issues-with-withdrawal-delays-and-how-to/",
+      "summary": "Common Issues with Withdrawal Delays Understanding Withdrawal Processes Withdrawal processes can vary significantly across financial institutions and online platforms. Generally, users can request withdrawals through various methods, including: Bank transfers E-wallets (e.g., PayPal, Skrill) Cryptoc",
+      "pubDate": "Fri, 18 Jul 2025 12:19:14 +0000",
+      "domain": "politics",
+      "source": "ROAR Magazine"
+    },
+    {
+      "title": "The relationship between family socioeconomic status and cultural background on the career self-determination of Chinese and Kazakhstani students",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1849182",
+      "summary": "IntroductionThe primary objective of this quantitative cross-cultural study is to precisely investigate how multi-dimensional objective family capital, subjective social status, and cultural values are jointly associated with the career agency of youth. Career self-determination is crucial for youth",
+      "pubDate": "",
+      "domain": "psychology",
+      "source": "Frontiers Psychology"
+    },
+    {
+      "title": "Correction: The relationship between patterns of artificial intelligence use, academic resilience, and burnout among graduate students in special education departments at Saudi universities",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1898628",
+      "summary": "",
+      "pubDate": "",
+      "domain": "psychology",
+      "source": "Frontiers Psychology"
+    },
+    {
+      "title": "Acceptable risk as a psychological judgment: risk perception, trust, and fairness",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1868729",
+      "summary": "Acceptable risk is often defined in technical, regulatory, or ethical terms. Yet people do not decide that a risk is acceptable simply by estimating probabilities or expected harms. Judgments of acceptability are also shaped by how a hazard is perceived, whether those responsible for managing it are",
+      "pubDate": "",
+      "domain": "psychology",
+      "source": "Frontiers Psychology"
     }
   ],
   "misinfo_toilet": [
     {
-      "headline": "Tech stocks surge following breakthrough in quantum computing",
-      "fragment": "The future has been slowly cancelled, replaced by a continuous, stagnant present where retro-pastiche substitutes for innovation.",
-      "splice": "Tech stocks surge following breakthrough in quantum computing, while the future has been slowly cancelled, replaced by a continuous, stagnant present where retro-pastiche substitutes for innovation.",
-      "seed": 42
+      "headline": "At least 13 killed and dozens injured after Qatar gas explosion",
+      "fragment": "Traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
+      "splice": "At least 13 killed and dozens injured after Qatar gas explosion which is to say traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
+      "seed": 20260623
     },
     {
-      "headline": "European Union reaches consensus on AI regulation framework",
-      "fragment": "The simulation no longer maps the territory; it precedes the territory, generating a hyperreality without origin or reality.",
-      "splice": "European Union reaches consensus on AI regulation framework ...as the simulation no longer maps the territory; it precedes the territory, generating a hyperreality without origin or reality.",
-      "seed": 42
+      "headline": "The Performative Ceasefire in Gaza",
+      "fragment": "This is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
+      "splice": "The Performative Ceasefire in Gaza insofar as this is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
+      "seed": 20260624
     },
     {
-      "headline": "Global South calls for restructuring of debt amidst climate crisis",
-      "fragment": "Desiring-machines are not metaphors; they are the fundamental mechanics of the unconscious, constantly coupling and decoupling flows of energy.",
-      "splice": "Global South calls for restructuring of debt amidst climate crisis, because desiring-machines are not metaphors; they are the fundamental mechanics of the unconscious, constantly coupling and decoupling flows of energy.",
-      "seed": 42
+      "headline": "Mideast Live Updates: U.S. Eases Sanctions on Iranian Oil, but Progress on Nuclear Issues Is Muddy",
+      "fragment": "To dissimulate is to pretend not to have what one has. To simulate is to feign to have what one doesn't have. One implies a presence, the other an absence.",
+      "splice": "Mideast Live Updates: U.S. Eases Sanctions on Iranian Oil, but Progress on Nuclear Issues Is Muddy in the void where to dissimulate is to pretend not to have what one has. To simulate is to feign to have what one doesn't have. One implies a presence, the other an absence.",
+      "seed": 20260625
     },
     {
-      "headline": "Leaked documents reveal extent of corporate surveillance network",
-      "fragment": "Capitalism seamlessly absorbs all critique, commodifying its own opposition until rebellion itself becomes a lifestyle brand.",
-      "splice": "Leaked documents reveal extent of corporate surveillance network, the system notes that capitalism seamlessly absorbs all critique, commodifying its own opposition until rebellion itself becomes a lifestyle brand.",
-      "seed": 42
+      "headline": "Will a US-Iran deal transform the Iranian economy?",
+      "fragment": "In the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
+      "splice": "Will a US-Iran deal transform the Iranian economy? the system notes that in the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
+      "seed": 20260626
     },
     {
-      "headline": "Scientists warn of critical tipping point in ocean circulation",
-      "fragment": "The desert of the real is everywhere, a vast expanse where meaning has evaporated, leaving only the endless circulation of empty signs.",
-      "splice": "Scientists warn of critical tipping point in ocean circulation, in the void where the desert of the real is everywhere, a vast expanse where meaning has evaporated, leaving only the endless circulation of empty signs.",
-      "seed": 42
+      "headline": "Explosion at Qatar Gas Plant Kills at Least 13 and Injures 66",
+      "fragment": "Why do men fight for their servitude as stubbornly as though it were their salvation?",
+      "splice": "Explosion at Qatar Gas Plant Kills at Least 13 and Injures 66 which is to say why do men fight for their servitude as stubbornly as though it were their salvation?",
+      "seed": 20260627
     },
     {
-      "headline": "Central banks signal potential end to aggressive rate hiking cycle",
-      "fragment": "To decode the flows of capital is to understand the absolute deterritorialization that breaks down all traditional structures and beliefs.",
-      "splice": "Central banks signal potential end to aggressive rate hiking cycle, which is to say to decode the flows of capital is to understand the absolute deterritorialization that breaks down all traditional structures and beliefs.",
-      "seed": 42
+      "headline": "The Performative Ceasefire in Gaza",
+      "fragment": "Art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
+      "splice": "The Performative Ceasefire in Gaza in the void where art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
+      "seed": 20260628
     },
     {
-      "headline": "Protests erupt in capital over proposed austerity measures",
-      "fragment": "Mental health crises are not individual pathologies, but rather the internalized symptoms of an increasingly toxic socio-economic environment.",
-      "splice": "Protests erupt in capital over proposed austerity measures, therefore mental health crises are not individual pathologies, but rather the internalized symptoms of an increasingly toxic socio-economic environment.",
-      "seed": 42
+      "headline": "The ‘Lost’ Villages of Myanmar’s Rakhine",
+      "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "splice": "The ‘Lost’ Villages of Myanmar’s Rakhine therefore the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "seed": 20260629
     },
     {
-      "headline": "Historic peace accord signed after decades of conflict",
-      "fragment": "We live in a world where there is more and more information, and less and less meaning.",
-      "splice": "Historic peace accord signed after decades of conflict, despite we live in a world where there is more and more information, and less and less meaning.",
-      "seed": 42
+      "headline": "The ‘Lost’ Villages of Myanmar’s Rakhine",
+      "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
+      "splice": "The ‘Lost’ Villages of Myanmar’s Rakhine therefore the revolutionary lives in the gap which separates technical progress from social totality.",
+      "seed": 20260630
+    },
+    {
+      "headline": "The Performative Ceasefire in Gaza",
+      "fragment": "It is at work everywhere, functioning smoothly at times, at other times in fits and starts. It breathes, it heats, it eats. It shits and fucks.",
+      "splice": "The Performative Ceasefire in Gaza the signal resolves into it is at work everywhere, functioning smoothly at times, at other times in fits and starts. It breathes, it heats, it eats. It shits and fucks.",
+      "seed": 20260631
+    },
+    {
+      "headline": "Heading Off: New Technique Helps Track Grain Smuggling Expansion to Libya",
+      "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
+      "splice": "Heading Off: New Technique Helps Track Grain Smuggling Expansion to Libya the system notes that the breast is a machine that produces milk, and the mouth a machine coupled to it.",
+      "seed": 20260632
     }
   ]
 }

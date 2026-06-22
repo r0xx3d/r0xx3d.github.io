@@ -9,7 +9,11 @@ if (!globalThis.fetch) {
   globalThis.fetch = nodeFetch.default;
 }
 
-const parser = new Parser();
+const parser = new Parser({
+  customFields: {
+    item: ['summary', 'description', 'content:encoded']
+  }
+});
 
 // Paths
 const PUBLIC_DIR = path.join(process.cwd(), 'public', 'data');
@@ -54,9 +58,9 @@ async function fetchWorldMonitor() {
   const feeds = [
     { url: 'https://www.aljazeera.com/xml/rss/all.xml', source: 'Al Jazeera' },
     { url: 'http://feeds.bbci.co.uk/news/world/rss.xml', source: 'BBC' },
-    { url: 'https://feeds.reuters.com/reuters/worldNews', source: 'Reuters' },
+    { url: 'https://rss.nytimes.com/services/xml/rss/nyt/World.xml', source: 'NYT World' },
     { url: 'https://theintercept.com/feed/?rss', source: 'The Intercept' },
-    { url: 'https://osintindustries.net/feed/', source: 'OSINT Industries' }
+    { url: 'https://www.bellingcat.com/feed/', source: 'Bellingcat' }
   ];
 
   const results = [];
@@ -64,13 +68,17 @@ async function fetchWorldMonitor() {
     try {
       console.log(`[HARVEST] Fetching ${feed.source}...`);
       const parsed = await parser.parseURL(feed.url);
-      const items = parsed.items.slice(0, 5).map(item => ({
-        title: item.title,
-        link: item.link,
-        pubDate: item.pubDate || item.isoDate,
-        source: feed.source,
-        summary: item.contentSnippet?.slice(0, 250) || ''
-      }));
+      const items = parsed.items.slice(0, 5).map(item => {
+        let text = item.contentSnippet || item.summary || item.description || '';
+        text = text.replace(/(<([^>]+)>)/gi, ""); // strip html
+        return {
+          title: item.title,
+          link: item.link,
+          pubDate: item.pubDate || item.isoDate,
+          source: feed.source,
+          summary: text.slice(0, 250)
+        };
+      });
       results.push(...items);
     } catch (err) {
       console.warn(`[ERROR] Failed to fetch ${feed.source}: ${err.message}`);
@@ -80,10 +88,12 @@ async function fetchWorldMonitor() {
 }
 
 async function fetchSyndication() {
-  // Using some placeholder/example feeds
+  // Real security/philosophy/tech feeds
   const feeds = [
     { url: 'https://krebsonsecurity.com/feed/', author: 'KrebsOnSecurity' },
-    { url: 'https://www.schneier.com/feed/atom/', author: 'Schneier on Security' }
+    { url: 'https://www.schneier.com/feed/atom/', author: 'Schneier on Security' },
+    { url: 'https://pluralistic.net/feed/', author: 'Pluralistic' },
+    { url: 'https://www.ribbonfarm.com/feed/', author: 'Ribbonfarm' }
   ];
 
   const results = [];
@@ -91,13 +101,17 @@ async function fetchSyndication() {
     try {
       console.log(`[HARVEST] Fetching Syndication ${feed.author}...`);
       const parsed = await parser.parseURL(feed.url);
-      const items = parsed.items.slice(0, 3).map(item => ({
-        title: item.title,
-        link: item.link,
-        pubDate: item.pubDate || item.isoDate,
-        author: feed.author,
-        content: item.contentSnippet?.slice(0, 300) || ''
-      }));
+      const items = parsed.items.slice(0, 3).map(item => {
+        let text = item.contentSnippet || item.summary || item.description || '';
+        text = text.replace(/(<([^>]+)>)/gi, ""); // strip html
+        return {
+          title: item.title,
+          link: item.link,
+          pubDate: item.pubDate || item.isoDate,
+          author: feed.author,
+          content: text.slice(0, 300)
+        };
+      });
       results.push(...items);
     } catch (err) {
       console.warn(`[ERROR] Failed to fetch ${feed.author}: ${err.message}`);
@@ -113,7 +127,7 @@ async function fetchSyndicateJournal() {
     { url: 'https://nautil.us/feed/', domain: 'science', label: 'Nautilus' },
     { url: 'https://www.quantamagazine.org/feed/', domain: 'science', label: 'Quanta' },
     { url: 'https://aeon.co/feed.rss', domain: 'philosophy', label: 'Aeon' },
-    { url: 'https://www.bostonreview.net/feed', domain: 'sociology', label: 'Boston Review' },
+    { url: 'https://jacobin.com/feed/', domain: 'politics', label: 'Jacobin' },
     { url: 'https://behavioralscientist.org/feed/', domain: 'psychology', label: 'Behavioral Scientist' },
     { url: 'https://publicdomainreview.org/feed/', domain: 'history', label: 'Public Domain Review' },
     { url: 'https://languagelog.ldc.upenn.edu/nll/?feed=rss2', domain: 'linguistics', label: 'Language Log' },
@@ -127,14 +141,18 @@ async function fetchSyndicateJournal() {
     try {
       console.log(`[HARVEST] Fetching Journal ${feed.label}...`);
       const parsed = await parser.parseURL(feed.url);
-      const items = parsed.items.slice(0, 3).map(item => ({
-        title: item.title || '',
-        link: item.link || '',
-        summary: item.contentSnippet?.slice(0, 300) || item.summary?.slice(0, 300) || '',
-        pubDate: item.pubDate || item.isoDate || '',
-        domain: feed.domain,
-        source: feed.label,
-      }));
+      const items = parsed.items.slice(0, 3).map(item => {
+        let text = item.contentSnippet || item.summary || item.description || '';
+        text = text.replace(/(<([^>]+)>)/gi, ""); // strip html
+        return {
+          title: item.title || '',
+          link: item.link || '',
+          summary: text.slice(0, 300),
+          pubDate: item.pubDate || item.isoDate || '',
+          domain: feed.domain,
+          source: feed.label,
+        };
+      });
       results.push(...items);
     } catch (err) {
       console.warn(`[ERROR] Failed to fetch Journal ${feed.label}: ${err.message}`);
@@ -153,13 +171,13 @@ function processMisinfoToilet(headlines) {
     for (const file of files) {
       if (file.endsWith('.md')) {
         const content = fs.readFileSync(path.join(CORPUS_DIR, file), 'utf8');
-        const sentences = content.split('\n').map(s => s.trim()).filter(s => s.length > 10);
+        // Treat each non-empty line as a fragment (assuming one quote per line from our edits)
+        const sentences = content.split('\n').map(s => s.trim().replace(/^"|"$/g, '')).filter(s => s.length > 10);
         corpus.push(...sentences);
       }
     }
   } catch (err) {
     console.warn(`[ERROR] Failed to read corpus: ${err.message}`);
-    // Provide fallback corpus if empty
     if (corpus.length === 0) {
       corpus = ["The future is already here, it's just not evenly distributed."];
     }
@@ -185,7 +203,6 @@ function processMisinfoToilet(headlines) {
     const fragment = corpus[Math.floor(seededRandom(currentSeed++) * corpus.length)] || "Void fragment.";
     const connective = CONNECTIVE_TISSUE[Math.floor(seededRandom(currentSeed++) * CONNECTIVE_TISSUE.length)];
     
-    // Lowercase first letter of fragment if it starts with a letter
     const lowerFragment = fragment.charAt(0).toLowerCase() + fragment.slice(1);
     
     results.push({
