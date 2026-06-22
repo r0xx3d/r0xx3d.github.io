@@ -48,7 +48,7 @@ export default function Terminal() {
       <div className="h-screen bg-black text-obsidian-200 font-mono flex flex-col items-center justify-center scan-overlay">
         <div className="space-y-2 text-xs tracking-wider uppercase">
           <p className={`transition-opacity duration-300 ${bootPhase >= 0 ? 'opacity-100' : 'opacity-0'}`}>
-            <span className="text-obsidian-500">[INIT]</span> NULL_STATE SECURE BOOT v4.0.1
+            <span className="text-obsidian-500">[INIT]</span> CONSOLE SECURE BOOT v4.0.1
           </p>
           <p className={`transition-opacity duration-300 ${bootPhase >= 1 ? 'opacity-100' : 'opacity-0'}`}>
             <span className="text-obsidian-500">[SYNC]</span> Establishing data streams...
@@ -85,7 +85,7 @@ export default function Terminal() {
         <div className="h-12 border-b border-obsidian-700 flex items-center justify-between px-3 shrink-0">
           {isExpanded && (
             <h1 className="text-white font-bold tracking-[0.25em] text-[11px] uppercase font-mono">
-              NULL_STATE
+              CONSOLE
             </h1>
           )}
           <button
