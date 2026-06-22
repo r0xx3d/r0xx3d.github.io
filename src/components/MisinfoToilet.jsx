@@ -30,7 +30,7 @@ export default function MisinfoToilet({ data }) {
       <div className="space-y-6 animate-fade-in">
         <div className="border-b border-obsidian-700 pb-4">
           <h3 className="text-xl font-semibold text-white tracking-tight mb-1 font-sans">
-            Misinformation Toilet
+            Toilet of Babel
           </h3>
           <p className="text-obsidian-500 text-[10px] uppercase tracking-[0.2em] font-mono">
             Hauntological engine offline — awaiting corpus injection
@@ -50,18 +50,11 @@ export default function MisinfoToilet({ data }) {
       {/* Header */}
       <div className="border-b border-obsidian-700 pb-4">
         <h3 className="text-xl font-semibold text-white tracking-tight mb-1 font-sans">
-          Misinformation Toilet
+          Toilet of Babel
         </h3>
         <p className="text-obsidian-500 text-[10px] uppercase tracking-[0.2em] font-mono mb-3">
-          Hauntological cut-up engine — where news and theory collapse into each other
+          Hauntological cut-up engine
         </p>
-        <div className="flex items-center gap-3 text-[9px] font-mono text-obsidian-600">
-          <span>ENTROPY_SEED: {data[0]?.seed || Math.floor(Date.now() / 3600000)}</span>
-          <span className="text-obsidian-700">|</span>
-          <span>BLOCKS: {data.length}</span>
-          <span className="text-obsidian-700">|</span>
-          <span>ENGINE: BURROUGHS-GYSIN v2.1</span>
-        </div>
       </div>
 
       {/* Cut-Up Blocks */}

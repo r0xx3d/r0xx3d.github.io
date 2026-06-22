@@ -43,11 +43,25 @@ async function fetchCisaKev() {
 async function fetchUrlhaus() {
   try {
     console.log('[HARVEST] Fetching URLhaus...');
-    const res = await fetch('https://urlhaus-api.abuse.ch/v1/urls/recent/', {
-      method: 'POST'
-    });
-    const data = await res.json();
-    return (data.urls || []).slice(0, 20);
+    const res = await fetch('https://urlhaus.abuse.ch/downloads/csv_recent/');
+    const text = await res.text();
+    const lines = text.split('\n').filter(l => l && !l.startsWith('#'));
+    const urls = [];
+    for (const line of lines.slice(0, 20)) {
+      const cleanLine = line.replace(/^"/, '').replace(/"\r?$/, '');
+      const parts = cleanLine.split('","');
+      if (parts.length >= 7) {
+        urls.push({
+          id: parts[0],
+          date_added: parts[1],
+          url: parts[2],
+          url_status: parts[3],
+          threat: parts[5],
+          tags: parts[6] ? parts[6].split(',') : [],
+        });
+      }
+    }
+    return urls;
   } catch (err) {
     console.warn(`[ERROR] Failed to fetch URLhaus: ${err.message}`);
     return [];
@@ -162,7 +176,7 @@ async function fetchSyndicateJournal() {
 }
 
 function processMisinfoToilet(headlines) {
-  console.log('[HARVEST] Processing Misinfo Toilet cut-ups...');
+  console.log('[HARVEST] Processing Toilet of Babel cut-ups...');
   
   // Read corpus
   let corpus = [];
@@ -198,8 +212,10 @@ function processMisinfoToilet(headlines) {
   const results = [];
   const numBlocks = Math.min(10, headlines.length);
 
+  const shuffledHeadlines = [...headlines].sort((a, b) => seededRandom(currentSeed++) - 0.5);
+
   for (let i = 0; i < numBlocks; i++) {
-    const headline = headlines[Math.floor(seededRandom(currentSeed++) * headlines.length)]?.title || "Unknown signal";
+    const headline = shuffledHeadlines[i]?.title || "Unknown signal";
     const fragment = corpus[Math.floor(seededRandom(currentSeed++) * corpus.length)] || "Void fragment.";
     const connective = CONNECTIVE_TISSUE[Math.floor(seededRandom(currentSeed++) * CONNECTIVE_TISSUE.length)];
     

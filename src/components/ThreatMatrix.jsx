@@ -12,7 +12,7 @@ export default function ThreatMatrix({ data }) {
       {/* Header */}
       <div className="border-b border-obsidian-700 pb-4">
         <h3 className="text-xl font-semibold text-white tracking-tight mb-1 font-sans">
-          Threat Matrix
+          CTI Dashboard
         </h3>
         <p className="text-obsidian-500 text-[10px] uppercase tracking-[0.2em] font-mono">
           Active exploitation intelligence — CISA KEV · URLhaus · NVD

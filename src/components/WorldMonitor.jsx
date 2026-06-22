@@ -3,9 +3,9 @@ import { useState } from 'react';
 const SOURCE_LABELS = {
   'Al Jazeera': { color: 'text-emerald-500', short: 'AJ' },
   'BBC':        { color: 'text-sky-400',     short: 'BBC' },
-  'Reuters':    { color: 'text-orange-400',  short: 'RTR' },
+  'NYT World':  { color: 'text-orange-400',  short: 'NYT' },
   'The Intercept': { color: 'text-rose-400', short: 'INT' },
-  'OSINT Industries': { color: 'text-violet-400', short: 'OSI' },
+  'Bellingcat': { color: 'text-violet-400',  short: 'BEL' },
 };
 
 export default function WorldMonitor({ data }) {

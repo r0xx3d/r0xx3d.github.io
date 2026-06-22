@@ -6,9 +6,9 @@ import MisinfoToilet from './MisinfoToilet.jsx';
 import SyndicateJournal from './SyndicateJournal.jsx';
 
 const NAV_NODES = [
-  { id: 'MISINFO_TOILET',    label: 'MISINFO_TOILET',    icon: '⌬' },
-  { id: 'THREAT_INTEL',      label: 'THREAT_MATRIX',     icon: '◆' },
+  { id: 'MISINFO_TOILET',    label: 'TOILET_OF_BABEL',   icon: '⌬' },
   { id: 'WORLD_MONITOR',     label: 'WORLD_MONITOR',     icon: '◈' },
+  { id: 'THREAT_INTEL',      label: 'CTI_DASHBOARD',     icon: '◆' },
   { id: 'SYNDICATION',       label: 'SYNDICATION_NODE',  icon: '▣' },
   { id: 'SYNDICATE_JOURNAL', label: 'SYNDICATE_JOURNAL', icon: '▧' },
 ];
@@ -141,7 +141,7 @@ export default function Terminal() {
           style={{ background: 'linear-gradient(90deg, #09090b, #050506)' }}
         >
           <h2 className="text-white text-[11px] font-bold tracking-[0.2em] uppercase font-mono">
-            // {activeNode.replace(/_/g, '.')}
+            {activeNode.replace(/_/g, '.')}
           </h2>
           <div className="flex items-center gap-4 text-[9px] text-obsidian-500 font-mono tracking-wider">
             <span>UTC {new Date().toISOString().slice(11, 19)}</span>
