@@ -6,11 +6,11 @@ import MisinfoToilet from './MisinfoToilet.jsx';
 import SyndicateJournal from './SyndicateJournal.jsx';
 
 const NAV_NODES = [
-  { id: 'MISINFORMATION_COLUMN',    label: 'TOILET_OF_BABEL',   icon: '⌬' },
-  { id: 'WORLD_MONITOR',     label: 'WORLD_MONITOR',     icon: '�:�' },
-  { id: 'THREAT_INTEL',      label: 'CTI_DASHBOARD',     icon: '�:�' },
-  { id: 'SYNDICATION',       label: 'SYNDICATION_NODE',  icon: '▣' },
-  { id: 'SYNDICATE_JOURNAL', label: 'SYNDICATE_JOURNAL', icon: '▧' },
+  { id: 'MISINFORMATION_COLUMN', label: 'TOILET_OF_BABEL',  icon: '⌬' },
+  { id: 'WORLD_MONITOR',         label: 'WORLD_MONITOR',    icon: '◉' },
+  { id: 'THREAT_INTEL',          label: 'CTI_DASHBOARD',    icon: '◈' },
+  { id: 'SYNDICATION',           label: 'SYNDICATION_NODE', icon: '▣' },
+  { id: 'SYNDICATE_JOURNAL',     label: 'SYNDICATE_JOURNAL',icon: '▧' },
 ];
 
 export default function Terminal() {
