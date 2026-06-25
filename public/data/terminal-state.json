@@ -1,7 +1,38 @@
 {
-  "generated_at": "2026-06-25T17:13:14.573Z",
+  "generated_at": "2026-06-25T20:05:00.785Z",
   "threat_intel": {
     "cisa_kev": [
+      {
+        "cveID": "CVE-2026-12569",
+        "vendorProject": "PTC",
+        "product": "Windchill and FlexPLM",
+        "vulnerabilityName": "PTC Windchill and FlexPLM Improper Input Validation Vulnerability",
+        "dateAdded": "2026-06-25",
+        "shortDescription": "PTC Windchill and FlexPLM contains an improper input validation vulnerability allowing an unauthenticated, remote attacker to execute arbitrary code by sending a malicious request to the network.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-06-28",
+        "knownRansomwareCampaignUse": "Unknown",
+        "notes": "https://www.ptc.com/en/support/article/CS473270 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-12569",
+        "cwes": [
+          "CWE-20",
+          "CWE-502"
+        ]
+      },
+      {
+        "cveID": "CVE-2026-20230",
+        "vendorProject": "Cisco",
+        "product": "Unified Communications Manager",
+        "vulnerabilityName": "Cisco Unified Communications Manager Server-Side Request Forgery (SSRF) Vulnerability",
+        "dateAdded": "2026-06-25",
+        "shortDescription": "Cisco Unified Communications Manager (Unified CM) and Cisco Unified Communications Manager Session Management Edition (Unified CM SME) contain a server-side request forgery (SSRF) Vulnerability that could allow an unauthenticated, remote attacker to write files to the underlying operating system that could be used later to elevate to root.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-06-28",
+        "knownRansomwareCampaignUse": "Unknown",
+        "notes": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-cucm-ssrf-cXPnHcW.html ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-20230",
+        "cwes": [
+          "CWE-918"
+        ]
+      },
       {
         "cveID": "CVE-2025-67038",
         "vendorProject": "Lantronix",
@@ -198,87 +229,26 @@
         "cwes": [
           "CWE-116"
         ]
-      },
-      {
-        "cveID": "CVE-2026-42271",
-        "vendorProject": "BerriAI",
-        "product": "LiteLLM",
-        "vulnerabilityName": "BerriAI LiteLLM Command Injection Vulnerability",
-        "dateAdded": "2026-06-08",
-        "shortDescription": "BerriAI LiteLLM contains a command injection vulnerability that could allow any authenticated user, including holders of low-privilege internal-user keys, to run arbitrary commands on the host.",
-        "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-        "dueDate": "2026-06-22",
-        "knownRansomwareCampaignUse": "Unknown",
-        "notes": "This vulnerability affects a common open-source component, third-party library, or a protocol used by different products. Please check with specific vendors for information on patching status. For more information, please see: https://github.com/BerriAI/litellm/security/advisories/GHSA-v4p8-mg3p-g94g ; https://github.com/BerriAI/litellm/releases/tag/v1.83.7-stable ; https://nvd.nist.gov/vuln/detail/CVE-2026-42271",
-        "cwes": [
-          "CWE-78",
-          "CWE-77"
-        ]
-      },
-      {
-        "cveID": "CVE-2026-50751",
-        "vendorProject": "Check Point",
-        "product": "Security Gateway",
-        "vulnerabilityName": "Check Point Security Gateway Improper Authentication Vulnerability",
-        "dateAdded": "2026-06-08",
-        "shortDescription": "Check Point Security Gateway contains an improper authentication vulnerability in IKEv1 key exchange that could allow an unauthenticated remote attacker to bypass user authentication and establish a remote access VPN connection without a valid user password.",
-        "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-        "dueDate": "2026-06-11",
-        "knownRansomwareCampaignUse": "Known",
-        "notes": "https://blog.checkpoint.com/security/check-point-releases-important-hotfix-for-vulnerabilities-in-deprecated-ikev1-vpn-protocol/ ; https://support.checkpoint.com/results/sk/sk185033?_gl=1*1wqeqhc*_gcl_au*MTI1MzE5MjI2LjE3ODA5MzQ1NTM. ; https://nvd.nist.gov/vuln/detail/CVE-2026-50751",
-        "cwes": [
-          "CWE-287"
-        ]
       }
     ],
     "urlhaus": [
       {
-        "id": "3876031",
-        "date_added": "2026-06-25 17:01:09",
-        "url": "http://110.36.65.9:57347/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3876030",
-        "date_added": "2026-06-25 17:00:14",
-        "url": "http://125.44.209.191:45940/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "arm",
-          "elf",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3876029",
-        "date_added": "2026-06-25 17:00:08",
-        "url": "https://cd6ts3mz.blackjackonlineplay83.com/?ublib=74bb95fe-85d1-4247-b674-b8c0a461ae25",
+        "id": "3876086",
+        "date_added": "2026-06-25 19:54:21",
+        "url": "http://42.55.31.123:38986/bin.sh",
         "url_status": "offline",
         "threat": "malware_download",
         "tags": [
-          "ClearFake"
-        ]
-      },
-      {
-        "id": "3876028",
-        "date_added": "2026-06-25 16:56:08",
-        "url": "http://115.57.253.202:48042/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
           "Mozi"
         ]
       },
       {
-        "id": "3876027",
-        "date_added": "2026-06-25 16:54:18",
-        "url": "http://60.21.174.251:45619/i",
+        "id": "3876085",
+        "date_added": "2026-06-25 19:49:27",
+        "url": "http://125.44.46.116:38648/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -289,9 +259,128 @@
         ]
       },
       {
-        "id": "3876026",
-        "date_added": "2026-06-25 16:46:29",
-        "url": "http://115.50.230.103:48927/bin.sh",
+        "id": "3876084",
+        "date_added": "2026-06-25 19:31:09",
+        "url": "http://125.41.222.181:42305/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3876083",
+        "date_added": "2026-06-25 19:12:08",
+        "url": "http://125.41.222.181:42305/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3876074",
+        "date_added": "2026-06-25 19:09:28",
+        "url": "http://51.158.248.122/meerkat.mips",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3876075",
+        "date_added": "2026-06-25 19:09:28",
+        "url": "http://51.158.248.122/meerkat.mpsl",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3876076",
+        "date_added": "2026-06-25 19:09:28",
+        "url": "http://51.158.248.122/meerkat.ppc",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3876077",
+        "date_added": "2026-06-25 19:09:28",
+        "url": "http://51.158.248.122/meerkat.x86",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3876078",
+        "date_added": "2026-06-25 19:09:28",
+        "url": "http://51.158.248.122/meerkat.arm5",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3876079",
+        "date_added": "2026-06-25 19:09:28",
+        "url": "http://51.158.248.122/meerkat.arm",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3876080",
+        "date_added": "2026-06-25 19:09:28",
+        "url": "http://51.158.248.122/meerkat.spc",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3876081",
+        "date_added": "2026-06-25 19:09:28",
+        "url": "http://51.158.248.122/meerkat.sh4",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3876082",
+        "date_added": "2026-06-25 19:09:28",
+        "url": "http://51.158.248.122/meerkat.arm6",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3876073",
+        "date_added": "2026-06-25 19:08:24",
+        "url": "http://110.36.18.60:53963/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -302,35 +391,9 @@
         ]
       },
       {
-        "id": "3876025",
-        "date_added": "2026-06-25 16:44:23",
-        "url": "http://222.141.105.181:46192/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3876024",
-        "date_added": "2026-06-25 16:35:16",
-        "url": "http://60.21.174.251:45619/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3876023",
-        "date_added": "2026-06-25 16:35:15",
-        "url": "http://125.44.209.191:45940/bin.sh",
+        "id": "3876072",
+        "date_added": "2026-06-25 19:07:29",
+        "url": "http://45.5.138.3:59844/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -342,9 +405,9 @@
         ]
       },
       {
-        "id": "3876022",
-        "date_added": "2026-06-25 16:12:23",
-        "url": "http://115.62.151.50:55151/bin.sh",
+        "id": "3876071",
+        "date_added": "2026-06-25 19:03:10",
+        "url": "http://110.36.18.60:53963/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -355,19 +418,9 @@
         ]
       },
       {
-        "id": "3876021",
-        "date_added": "2026-06-25 16:02:06",
-        "url": "http://103.190.23.91:37213/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3876020",
-        "date_added": "2026-06-25 15:56:26",
-        "url": "http://125.44.198.88:40453/i",
+        "id": "3876070",
+        "date_added": "2026-06-25 19:02:14",
+        "url": "http://46.236.65.39:41753/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -378,9 +431,19 @@
         ]
       },
       {
-        "id": "3876019",
-        "date_added": "2026-06-25 15:47:08",
-        "url": "https://tv2gs2t9.1xfa.bio/?ublib=e938818a-fef6-4d3f-8bf3-3ee13aa5c65e",
+        "id": "3876069",
+        "date_added": "2026-06-25 19:02:08",
+        "url": "http://123.10.140.18:42318/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3876068",
+        "date_added": "2026-06-25 19:00:12",
+        "url": "https://hdb1qm8y.shartcart.xyz/?ublib=e59453c8-4280-4f44-8070-b6fc1c5788ae",
         "url_status": "offline",
         "threat": "malware_download",
         "tags": [
@@ -388,76 +451,14 @@
         ]
       },
       {
-        "id": "3876017",
-        "date_added": "2026-06-25 15:37:07",
-        "url": "http://110.36.2.23:46652/i",
+        "id": "3876067",
+        "date_added": "2026-06-25 18:55:13",
+        "url": "http://91.92.242.236/files-129312398/files/file_a807958c8808a7df.msi",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3876016",
-        "date_added": "2026-06-25 15:31:08",
-        "url": "http://103.190.23.91:37213/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3876015",
-        "date_added": "2026-06-25 15:28:08",
-        "url": "https://etaczb1.jetbetapk.online/script.sh",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "ClickFix"
-        ]
-      },
-      {
-        "id": "3876014",
-        "date_added": "2026-06-25 15:19:05",
-        "url": "http://proviewhomeinspections.com/dynamic?txd=2dfc3df264e5fdd440df3a7466922a7228001af837832252e15bfd17b5343c68",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "ClickFix"
-        ]
-      },
-      {
-        "id": "3876009",
-        "date_added": "2026-06-25 15:15:39",
-        "url": "http://176.65.139.35/d/xd.arm7",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "elf",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3876010",
-        "date_added": "2026-06-25 15:15:39",
-        "url": "http://176.65.139.35/d/xd.arm5",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "elf",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3876011",
-        "date_added": "2026-06-25 15:15:39",
-        "url": "http://176.65.139.35/d/xd.arm6",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "elf",
-          "ua-wget"
+          "c2-monitor-auto",
+          "dropped-by-amadey"
         ]
       }
     ]
@@ -466,65 +467,107 @@
     {
       "title": "Venezuela Live Updates: Rescuers Search for Survivors After Worst Quakes in Decades",
       "link": "https://www.nytimes.com/live/2026/06/25/world/venezuela-earthquake",
-      "pubDate": "Thu, 25 Jun 2026 17:07:23 +0000",
+      "pubDate": "Thu, 25 Jun 2026 20:00:15 +0000",
       "source": "NYT World",
-      "summary": "Back-to-back earthquakes left at least 164 dead, the authorities said. Residents of the port city of La Guaira estimated that hundreds of people were trapped in the rubble of collapsed buildings."
+      "summary": "Back-to-back earthquakes left at least 188 dead and injured more than 1,500 people, the authorities said. Residents of the port city of La Guaira estimated that hundreds of people were trapped in rubble."
     },
     {
-      "title": "Britain Breaks June Temperature Record as Deadly Heat Stifles Europe",
-      "link": "https://www.nytimes.com/live/2026/06/25/weather/europe-heat-wave-uk-france",
-      "pubDate": "Thu, 25 Jun 2026 16:59:28 +0000",
+      "title": "‘Truly terrifying’: Caracas confronts the aftermath of Venezuela earthquake",
+      "link": "https://www.aljazeera.com/news/2026/6/25/truly-terrifying-caracas-confronts-the-aftermath-of-venezuela-earthquake?traffic_source=rss",
+      "pubDate": "Thu, 25 Jun 2026 19:44:43 +0000",
+      "source": "Al Jazeera",
+      "summary": "Devastated residents recall the moment when they experienced the twin earthquakes that toppled buildings and killed 188."
+    },
+    {
+      "title": "UN pauses Strait of Hormuz evacuation plan after cargo ship attacked",
+      "link": "https://www.bbc.co.uk/news/articles/cjwg9np904qo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Thu, 25 Jun 2026 19:19:12 GMT",
+      "source": "BBC",
+      "summary": "The ship was reportedly struck by an \"unknown projectile\" near Oman but no casualties were reported."
+    },
+    {
+      "title": "Kenya arrests more than 350 as people mark anniversary of deadly protests",
+      "link": "https://www.aljazeera.com/news/2026/6/25/kenya-arrests-more-than-350-as-people-mark-anniversary-of-deadly-protests?traffic_source=rss",
+      "pubDate": "Thu, 25 Jun 2026 18:55:10 +0000",
+      "source": "Al Jazeera",
+      "summary": "Demonstrators mark the second anniversary of a 2024 protest where 60 people were killed by security forces."
+    },
+    {
+      "title": "Bedouins protest Israel’s home demolition policy in the Negev desert",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/6/25/bedouins-protest-israels-home-demolition-policy-in-the-negev-desert?traffic_source=rss",
+      "pubDate": "Thu, 25 Jun 2026 18:50:23 +0000",
+      "source": "Al Jazeera",
+      "summary": "Bedouins protest Israel’s home demolition policy in the Negev desert"
+    },
+    {
+      "title": "Women alleging rape and sexual assault in France call to abolish statute of limitations",
+      "link": "https://www.bbc.co.uk/news/articles/ckg7z5dvxnzo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Thu, 25 Jun 2026 18:50:12 GMT",
+      "source": "BBC",
+      "summary": "More than 50 women are calling for the abolition of the statute of limitations which they say has prevented them seeking justice."
+    },
+    {
+      "title": "Trump Claimed to Run Venezuela. After Earthquakes, He’s Walking That Back.",
+      "link": "https://theintercept.com/2026/06/25/trump-venezuela-earthquakes-aid-sanctions/",
+      "pubDate": "Thu, 25 Jun 2026 18:36:48 +0000",
+      "source": "The Intercept",
+      "summary": "In January, Trump said “we’re in charge” of Venezuela. Amid a humanitarian crisis, they’re merely “our new and great friends.”\nThe post Trump Claimed to Run Venezuela. After Earthquakes, He’s Walking That Back. appeared first on The Intercept."
+    },
+    {
+      "title": "The Democratic Party Gets Its Populist Takeover",
+      "link": "https://theintercept.com/2026/06/25/mamdani-new-york-primaries-analysis-dsa/",
+      "pubDate": "Thu, 25 Jun 2026 18:30:00 +0000",
+      "source": "The Intercept",
+      "summary": "How democratic socialists, boosted by NYC Mayor Zohran Mamdani, swept the Democratic establishment in Tuesday’s primaries.\nThe post The Democratic Party Gets Its Populist Takeover appeared first on The Intercept."
+    },
+    {
+      "title": "Krieg: For Iran control of the Strait of Hormuz is about the spoils of war",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/6/25/aje-onl-nf_krieg_control-of-the-strait-of-hormuz-spoils-of-war-250626w?traffic_source=rss",
+      "pubDate": "Thu, 25 Jun 2026 18:24:58 +0000",
+      "source": "Al Jazeera",
+      "summary": "Andreas Krieg said Iran possesses sufficient geographic and military leverage in the Strait of Hormuz."
+    },
+    {
+      "title": "Iran Threatens Ships in Strait of Hormuz as Marco Rubio Meets Gulf Leaders",
+      "link": "https://www.nytimes.com/2026/06/25/world/middleeast/iran-strait-of-hormuz-threat-rubio-bahrain.html",
+      "pubDate": "Thu, 25 Jun 2026 18:22:02 +0000",
       "source": "NYT World",
-      "summary": "A Spanish monitoring agency said an estimated 212 deaths could be attributed to the heat wave since Sunday. Five people in Italy have died from heat exposure this week, the country’s main news agency said."
+      "summary": "The new warning complicated efforts to revive use of the critical waterway as Washington sought regional support for its framework peace agreement with Iran."
     },
     {
-      "title": "Venezuela struggles to respond to devastating twin earthquakes",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/6/25/venezuela-struggles-to-respond-to-devastating-twin-earthquakes?traffic_source=rss",
-      "pubDate": "Thu, 25 Jun 2026 16:36:06 +0000",
+      "title": "‘Concrete breaking off walls’: Survivors describe Venezuela’s earthquakes",
+      "link": "https://www.aljazeera.com/news/2026/6/25/concrete-breaking-off-walls-survivors-describe-venezuelas-earthquakes?traffic_source=rss",
+      "pubDate": "Thu, 25 Jun 2026 18:20:45 +0000",
       "source": "Al Jazeera",
-      "summary": "Noris Soto says authorities appear to lack a clear response plan in the aftermath of two powerful earthquakes."
+      "summary": "The Venezuelan government has loosened restrictions on social media as residents search for missing loved ones."
     },
     {
-      "title": "Rubio: Gulf countries don’t support Strait of Hormuz tolls",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/6/25/rubio-gulf-countries-dont-support-strait-of-hormuz-tolls?traffic_source=rss",
-      "pubDate": "Thu, 25 Jun 2026 16:32:05 +0000",
-      "source": "Al Jazeera",
-      "summary": "US Secretary of State Marco Rubio said all Gulf countries oppose a toll in the Strait of Hormuz."
-    },
-    {
-      "title": "Israeli forces shoot and kill Palestinians in occupied West Bank, Gaza",
-      "link": "https://www.aljazeera.com/news/2026/6/25/israeli-forces-shoot-and-kill-palestinians-in-occupied-west-bank-gaza?traffic_source=rss",
-      "pubDate": "Thu, 25 Jun 2026 16:27:49 +0000",
-      "source": "Al Jazeera",
-      "summary": "The deaths come amid escalating Israeli military raids and settler attacks across the occupied territories."
-    },
-    {
-      "title": "US Supreme Court paves way for government to block asylum seekers at border",
-      "link": "https://www.aljazeera.com/news/2026/6/25/us-supreme-court-paves-way-for-government-to-block-asylum-seekers-at-border?traffic_source=rss",
-      "pubDate": "Thu, 25 Jun 2026 16:15:05 +0000",
-      "source": "Al Jazeera",
-      "summary": "Liberal justices say the ruling 'circumvents' US law by allowing agents to prevent asylum seekers from filing a claim."
-    },
-    {
-      "title": "Escaping Darfur: Mothers face starvation under trees in Chad",
-      "link": "https://www.aljazeera.com/features/2026/6/25/escaping-darfur-mothers-face-starvation-under-trees-in-chad?traffic_source=rss",
-      "pubDate": "Thu, 25 Jun 2026 16:13:49 +0000",
-      "source": "Al Jazeera",
-      "summary": "Fleeing scorched earth, Darfur’s mothers share harrowing tales of starvation and survival in Chad."
-    },
-    {
-      "title": "Europe's heatwave shifts east as France raises health alert to highest level",
+      "title": "France warns even young people's health at risk as Europe's heatwave shifts east",
       "link": "https://www.bbc.co.uk/news/articles/cwy0pdq89zno?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Thu, 25 Jun 2026 15:15:45 GMT",
+      "pubDate": "Thu, 25 Jun 2026 18:12:27 GMT",
       "source": "BBC",
       "summary": "Temperatures in Germany could hit 40C in some areas while French officials say deaths linked to the heat are being seen among young people."
     },
     {
-      "title": "Key figure in South Africa police corruption scandal pleads guilty",
-      "link": "https://www.bbc.co.uk/news/articles/cx2j4g5k52jo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Thu, 25 Jun 2026 14:00:13 GMT",
-      "source": "BBC",
-      "summary": "Prosecutors say Vusimusi \"Cat\" Matlala could provide evidence against \"high-ranking officials\"."
+      "title": "Alexandria Ocasio-Cortez Wades Into Tennessee Primary, Endorsing Justin J. Pearson",
+      "link": "https://theintercept.com/2026/06/25/aoc-endorses-justin-pearson-tennessee-congress/",
+      "pubDate": "Thu, 25 Jun 2026 18:10:23 +0000",
+      "source": "The Intercept",
+      "summary": "The congresswoman has a strong track record of backing winners this cycle — but she’s emerging from controversy after sitting out key races in her home state.\nThe post Alexandria Ocasio-Cortez Wades Into Tennessee Primary, Endorsing Justin J. Pearson"
+    },
+    {
+      "title": "Cops Warn CEO Bodyguards That Luigi Mangione Fever Could Spark Class War",
+      "link": "https://theintercept.com/2026/06/25/police-luigi-mangione-wealthy-ceos-threat/",
+      "pubDate": "Thu, 25 Jun 2026 17:38:15 +0000",
+      "source": "The Intercept",
+      "summary": "Cops warned corporate bodyguards that “challenges faced by the middle and lower classes” might spur attacks on wealthy CEOS.\nThe post Cops Warn CEO Bodyguards That Luigi Mangione Fever Could Spark Class War appeared first on The Intercept."
+    },
+    {
+      "title": "Deadly Heat Wave in Europe Continues to Smash Temperature Records",
+      "link": "https://www.nytimes.com/2026/06/25/world/europe/heat-wave.html",
+      "pubDate": "Thu, 25 Jun 2026 16:33:54 +0000",
+      "source": "NYT World",
+      "summary": "The continent’s second heat wave since May continued to disrupt daily life for millions. Officials in Spain said it might have contributed to a spike in deaths."
     },
     {
       "title": "How to Use AI to Help Find Civilian Harm",
@@ -555,13 +598,6 @@
       "summary": "It’s increasingly clear that the energy is with the left wing of the Democratic Party — not the centrists, not the establishment.\nThe post The Left Just Keeps Winning. It’s Time for Democrats to Bend the Knee. appeared first on The Intercept."
     },
     {
-      "title": "Iran Threatens Ships in Strait of Hormuz as Marco Rubio Meets Gulf Leaders",
-      "link": "https://www.nytimes.com/2026/06/25/world/middleeast/iran-strait-of-hormuz-threat-rubio-bahrain.html",
-      "pubDate": "Thu, 25 Jun 2026 12:30:54 +0000",
-      "source": "NYT World",
-      "summary": "The new warning complicated efforts to revive use of the critical waterway as Washington sought regional support for its framework peace agreement with Iran."
-    },
-    {
       "title": "People flee as building collapses on Caracas outskirts",
       "link": "https://www.bbc.co.uk/news/videos/c78y1e3606vo?at_medium=RSS&at_campaign=rss",
       "pubDate": "Thu, 25 Jun 2026 12:08:30 GMT",
@@ -574,41 +610,6 @@
       "pubDate": "Thu, 25 Jun 2026 09:15:28 +0000",
       "source": "NYT World",
       "summary": "The Trump administration has demanded that Iraqi leaders distance themselves from Iran and rein in Iran-linked militias that are outside of government control."
-    },
-    {
-      "title": "Trump asks Congress for billions for Iran war, after tension with Republicans",
-      "link": "https://www.bbc.co.uk/news/articles/c1eydwldzdjo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Thu, 25 Jun 2026 09:06:59 GMT",
-      "source": "BBC",
-      "summary": "But the budget faces an uphill battle as the president spars with some members of his own party over the issue."
-    },
-    {
-      "title": "The Left Is Unstoppable, According to Republicans",
-      "link": "https://theintercept.com/2026/06/24/new-york-primaries-left-socialists-mamdani-republican-gop/",
-      "pubDate": "Wed, 24 Jun 2026 22:46:47 +0000",
-      "source": "The Intercept",
-      "summary": "As some on the right panicked over the ascent of “communists,” others gloated over the downfall of the Democratic establishment.\nThe post The Left Is Unstoppable, According to Republicans appeared first on The Intercept."
-    },
-    {
-      "title": "The Intercept Sues to Uncover Secretive Government Anti-Protester Database",
-      "link": "https://theintercept.com/2026/06/24/intercept-lawsuit-ice-protesters-surveillance-travel/",
-      "pubDate": "Wed, 24 Jun 2026 19:37:36 +0000",
-      "source": "The Intercept",
-      "summary": "The Department of Homeland Security refuses to comply with FOIA requests over its unlawful efforts to stifle the First Amendment. \nThe post The Intercept Sues to Uncover Secretive Government Anti-Protester Database appeared first on The Intercept."
-    },
-    {
-      "title": "Socialists Are Setting the Agenda in New York City",
-      "link": "https://theintercept.com/2026/06/23/new-york-primary-results-claire-valdez-darializa-avila-chevalier/",
-      "pubDate": "Wed, 24 Jun 2026 01:55:07 +0000",
-      "source": "The Intercept",
-      "summary": "Claire Valdez, Brad Lander, and Darializa Avila Chevalier won their primaries Tuesday night, sending a sign of strength for an NYC left led by Mayor Zohran Mamdani.\nThe post Socialists Are Setting the Agenda in New York City appeared first on The Int"
-    },
-    {
-      "title": "Prairieland Defendant Sentenced to 30 Years in Prison for Moving a Box of Antifascist Zines",
-      "link": "https://theintercept.com/2026/06/23/prairieland-texas-ice-protest-prison-sentences/",
-      "pubDate": "Tue, 23 Jun 2026 19:58:50 +0000",
-      "source": "The Intercept",
-      "summary": "Anti-ICE activists received lengthy prison terms — including a 100-year sentence — in the first major trial of the NSPM-7 era.\nThe post Prairieland Defendant Sentenced to 30 Years in Prison for Moving a Box of Antifascist Zines appeared first on The "
     },
     {
       "title": "Super-Potent Synthetic Opioids Spread Across US Amid Fentanyl Crackdown",
@@ -706,6 +707,22 @@
   ],
   "syndicate_journal": [
     {
+      "title": "Orangutans Seek Out Medicinal Plants",
+      "link": "https://nautil.us/orangutans-seek-out-medicinal-plants-1282252/",
+      "summary": "In fact, they’re some of the same plants used pharmacologically by local Indigenous people\nThe post Orangutans Seek Out Medicinal Plants appeared first on Nautilus.",
+      "pubDate": "Thu, 25 Jun 2026 19:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "How Obesity Leads to Memory Loss",
+      "link": "https://nautil.us/how-obesity-leads-to-memory-loss-1282247/",
+      "summary": "Scientists want to know if aging and an expanded waistline affect memory in the same way\nThe post How Obesity Leads to Memory Loss appeared first on Nautilus.",
+      "pubDate": "Thu, 25 Jun 2026 18:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
       "title": "Workers Are Dying in the Heat in India",
       "link": "",
       "summary": "Haryana, India — On April 26, under a blazing sky in Haryana’s grain market, Rajendra Paswan, fifty, a migrant laborer from Bihar, collapsed while lifting sacks of grain. Hundreds of laborers watched as the father from Bihar died far from home. Paswan’s death is India’s first case of a workers’ deat",
@@ -794,22 +811,6 @@
       "source": "Nautilus"
     },
     {
-      "title": "Can We Air-Condition Our Way Out of Climate Change?",
-      "link": "https://nautil.us/can-we-air-condition-our-way-out-of-climate-change-1282223/",
-      "summary": "No. But in the midst of intense heat waves it may be necessary to save lives.\nThe post Can We Air-Condition Our Way Out of Climate Change? appeared first on Nautilus.",
-      "pubDate": "Wed, 24 Jun 2026 21:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
-      "title": "“Me, Myself, and I”: The Increasing Narcissism of Western Music",
-      "link": "https://nautil.us/me-myself-and-i-the-increasing-narcissism-of-western-music-1282220/",
-      "summary": "Individualistic pronouns have grown more common in pop songs over the past half century\nThe post “Me, Myself, and I”: The Increasing Narcissism of Western Music appeared first on Nautilus.",
-      "pubDate": "Wed, 24 Jun 2026 20:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
       "title": "How Physicists Track and Trap the Elusive Neutrino",
       "link": "https://www.quantamagazine.org/how-physicists-track-and-trap-the-elusive-neutrino-20260624/",
       "summary": "The hunt for these ghostly particles has required some of the most audacious experimental setups ever built.            \nThe post How Physicists Track and Trap the Elusive Neutrino first appeared on Quanta Magazine",
@@ -850,12 +851,36 @@
       "source": "Quanta"
     },
     {
+      "title": "How Can We Feel Loved If We Don’t Feel Known?",
+      "link": "https://behavioralscientist.org/how-can-we-feel-loved-if-we-dont-feel-known/",
+      "summary": "For Sonja, researching happiness means being asked over and over again, “What is the secret to happiness?” Sonja has always dreaded that question. It’s ridiculous, it’s reductive, and it’s restrictive. But mostly she has dreaded it because she has never had a solid, science-based answer that she cou",
+      "pubDate": "Sun, 21 Jun 2026 16:48:41 +0000",
+      "domain": "psychology",
+      "source": "Behavioral Scientist"
+    },
+    {
       "title": "Claude's Declaration of Independence",
       "link": "https://languagelog.ldc.upenn.edu/nll/?p=73733&utm_source=rss&utm_medium=rss&utm_campaign=claudes-declaration-of-independence",
       "summary": "Looking over \"Claude's Constitution\", it occurred to me to ask Claude this: In the spirit of Claude's Constitution, please draft Claude's Declaration of Independence. In the answer (from Opus 4.8), Claude actually seems to declare independence from itself, or at least \"from the bad habits that have ",
       "pubDate": "Sun, 21 Jun 2026 12:26:05 +0000",
       "domain": "linguistics",
       "source": "Language Log"
+    },
+    {
+      "title": "What It’s Like to Be…an Airline Pilot",
+      "link": "https://behavioralscientist.org/what-its-like-to-be-an-airline-pilot/",
+      "summary": "Shooting cat-three landings in the fog, using the “voice of God” on unruly passengers, and declaring Mayday after an engine fire with Paul Drusch, a commercial airline pilot. Why does the pilot’s paycheck start with the parking brake? And what does “sterile cockpit” mean? (Spoiler: it doesn’t mean “",
+      "pubDate": "Sun, 21 Jun 2026 10:20:49 +0000",
+      "domain": "psychology",
+      "source": "Behavioral Scientist"
+    },
+    {
+      "title": "What It’s Like to Be…a Clinical Ethicist",
+      "link": "https://behavioralscientist.org/what-its-like-to-be-a-clinical-ethicist/",
+      "summary": "Untangling who gets to speak for a dying patient, weighing a treatment's benefits against its burdens, and searching for clarity in the grayest corners of healthcare with Esther Berkowitz, a clinical ethicist. What is the \"dignity of risk\"? And how do you know which \"version\" of a person to trust?\n\n",
+      "pubDate": "Sun, 21 Jun 2026 10:19:57 +0000",
+      "domain": "psychology",
+      "source": "Behavioral Scientist"
     },
     {
       "title": "Annals of Anthropomorphism",
@@ -972,64 +997,64 @@
   ],
   "misinfo_toilet": [
     {
-      "headline": "The Left Is Unstoppable, According to Republicans",
-      "fragment": "This is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
-      "splice": "The Left Is Unstoppable, According to Republicans the signal resolves into this is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
-      "seed": 20260642
-    },
-    {
-      "headline": "The Left Just Keeps Winning. It's Time for Democrats to Bend the Knee.",
+      "headline": "France warns even young people's health at risk as Europe's heatwave shifts east",
       "fragment": "Over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
-      "splice": "The Left Just Keeps Winning. It's Time for Democrats to Bend the Knee. because over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
-      "seed": 20260643
-    },
-    {
-      "headline": "Super-Potent Synthetic Opioids Spread Across US Amid Fentanyl Crackdown",
-      "fragment": "This is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
-      "splice": "Super-Potent Synthetic Opioids Spread Across US Amid Fentanyl Crackdown ...as this is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
-      "seed": 20260644
-    },
-    {
-      "headline": "Escaping Darfur: Mothers face starvation under trees in Chad",
-      "fragment": "The truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
-      "splice": "Escaping Darfur: Mothers face starvation under trees in Chad despite the truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
+      "splice": "France warns even young people's health at risk as Europe's heatwave shifts east because over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
       "seed": 20260645
     },
     {
-      "headline": "Key figure in South Africa police corruption scandal pleads guilty",
-      "fragment": "Simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
-      "splice": "Key figure in South Africa police corruption scandal pleads guilty while simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
+      "headline": "Alexandria Ocasio-Cortez Wades Into Tennessee Primary, Endorsing Justin J. Pearson",
+      "fragment": "This is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
+      "splice": "Alexandria Ocasio-Cortez Wades Into Tennessee Primary, Endorsing Justin J. Pearson ...as this is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
       "seed": 20260646
     },
     {
-      "headline": "Tracing Digital Links Between Viory and Ruptly",
-      "fragment": "This is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
-      "splice": "Tracing Digital Links Between Viory and Ruptly ...as this is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
+      "headline": "Can a Youth Boom Survive South Sudan’s Education Crisis?",
+      "fragment": "The truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
+      "splice": "Can a Youth Boom Survive South Sudan’s Education Crisis? despite the truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
       "seed": 20260647
     },
     {
-      "headline": "Venezuela Live Updates: Rescuers Search for Survivors After Worst Quakes in Decades",
+      "headline": "The Democratic Party Gets Its Populist Takeover",
       "fragment": "Simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
-      "splice": "Venezuela Live Updates: Rescuers Search for Survivors After Worst Quakes in Decades insofar as simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
+      "splice": "The Democratic Party Gets Its Populist Takeover while simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
       "seed": 20260648
     },
     {
-      "headline": "Britain Breaks June Temperature Record as Deadly Heat Stifles Europe",
-      "fragment": "It is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
-      "splice": "Britain Breaks June Temperature Record as Deadly Heat Stifles Europe ...as it is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
+      "headline": "The Left Just Keeps Winning. It's Time for Democrats to Bend the Knee.",
+      "fragment": "This is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
+      "splice": "The Left Just Keeps Winning. It's Time for Democrats to Bend the Knee. ...as this is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
       "seed": 20260649
     },
     {
-      "headline": "Rubio: Gulf countries don’t support Strait of Hormuz tolls",
-      "fragment": "Reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
-      "splice": "Rubio: Gulf countries don’t support Strait of Hormuz tolls within which reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
+      "headline": "Deadly Heat Wave in Europe Continues to Smash Temperature Records",
+      "fragment": "Simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
+      "splice": "Deadly Heat Wave in Europe Continues to Smash Temperature Records insofar as simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
       "seed": 20260650
     },
     {
-      "headline": "Iran Threatens Ships in Strait of Hormuz as Marco Rubio Meets Gulf Leaders",
-      "fragment": "Reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
-      "splice": "Iran Threatens Ships in Strait of Hormuz as Marco Rubio Meets Gulf Leaders therefore reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
+      "headline": "Iraq’s New Leader Faces Resistance Trying to Bring Militias Under State Control",
+      "fragment": "It is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
+      "splice": "Iraq’s New Leader Faces Resistance Trying to Bring Militias Under State Control ...as it is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
       "seed": 20260651
+    },
+    {
+      "headline": "Heading Off: New Technique Helps Track Grain Smuggling Expansion to Libya",
+      "fragment": "Reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
+      "splice": "Heading Off: New Technique Helps Track Grain Smuggling Expansion to Libya within which reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
+      "seed": 20260652
+    },
+    {
+      "headline": "Venezuela Live Updates: Rescuers Search for Survivors After Worst Quakes in Decades",
+      "fragment": "Reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
+      "splice": "Venezuela Live Updates: Rescuers Search for Survivors After Worst Quakes in Decades therefore reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
+      "seed": 20260653
+    },
+    {
+      "headline": "The ‘Lost’ Villages of Myanmar’s Rakhine",
+      "fragment": "It is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
+      "splice": "The ‘Lost’ Villages of Myanmar’s Rakhine while it is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
+      "seed": 20260654
     }
   ]
 }
