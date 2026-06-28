@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-28T13:53:59.688Z",
+  "generated_at": "2026-06-28T19:25:32.212Z",
   "threat_intel": {
     "cisa_kev": [
       {
@@ -233,9 +233,22 @@
     ],
     "urlhaus": [
       {
-        "id": "3877518",
-        "date_added": "2026-06-28 13:50:17",
-        "url": "http://85.11.167.200/bin/kia.x86",
+        "id": "3877635",
+        "date_added": "2026-06-28 19:18:27",
+        "url": "http://115.54.111.82:60002/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3877634",
+        "date_added": "2026-06-28 19:17:36",
+        "url": "http://85.11.167.200/n2/kimwolf.x86",
         "url_status": "offline",
         "threat": "malware_download",
         "tags": [
@@ -243,8 +256,51 @@
         ]
       },
       {
-        "id": "3877517",
-        "date_added": "2026-06-28 13:49:57",
+        "id": "3877633",
+        "date_added": "2026-06-28 19:17:28",
+        "url": "http://85.11.167.200/hiddenbin/kimwolf.x86_64",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3877632",
+        "date_added": "2026-06-28 19:15:18",
+        "url": "http://221.214.181.197:51883/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3877631",
+        "date_added": "2026-06-28 19:13:52",
+        "url": "http://85.11.167.200/hiddenbin/main.x86",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3877630",
+        "date_added": "2026-06-28 19:12:46",
+        "url": "http://85.11.167.200/bins/tadashi.x86_64",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3877629",
+        "date_added": "2026-06-28 19:11:34",
         "url": "http://85.11.167.200/bins/nerv.x86",
         "url_status": "offline",
         "threat": "malware_download",
@@ -253,9 +309,9 @@
         ]
       },
       {
-        "id": "3877515",
-        "date_added": "2026-06-28 13:48:25",
-        "url": "http://85.11.167.200/hiddenbin/kimwolf.x86",
+        "id": "3877628",
+        "date_added": "2026-06-28 19:11:20",
+        "url": "http://85.11.167.200/bin/tuxbot.x86",
         "url_status": "offline",
         "threat": "malware_download",
         "tags": [
@@ -263,68 +319,8 @@
         ]
       },
       {
-        "id": "3877516",
-        "date_added": "2026-06-28 13:48:25",
-        "url": "http://85.11.167.200/sora.x86",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3877514",
-        "date_added": "2026-06-28 13:47:12",
-        "url": "http://85.11.167.200/ducky.x86_64",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3877513",
-        "date_added": "2026-06-28 13:46:46",
-        "url": "http://85.11.167.200/bins/sora.x86",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3877512",
-        "date_added": "2026-06-28 13:45:40",
-        "url": "http://85.11.167.200/bot.x86_64",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3877511",
-        "date_added": "2026-06-28 13:45:08",
-        "url": "http://85.11.167.200/hiddenbin/untouchable.x86_64",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3877510",
-        "date_added": "2026-06-28 13:44:48",
-        "url": "http://85.11.167.200/n2/tadashi.x86_64",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3877509",
-        "date_added": "2026-06-28 13:43:11",
+        "id": "3877627",
+        "date_added": "2026-06-28 19:11:12",
         "url": "http://85.11.167.200/n2/ducky.x86",
         "url_status": "offline",
         "threat": "malware_download",
@@ -333,9 +329,9 @@
         ]
       },
       {
-        "id": "3877508",
-        "date_added": "2026-06-28 13:41:22",
-        "url": "http://85.11.167.200/bin/mossad.x86_64",
+        "id": "3877626",
+        "date_added": "2026-06-28 19:08:31",
+        "url": "http://85.11.167.200/bin/kia.x86_64",
         "url_status": "offline",
         "threat": "malware_download",
         "tags": [
@@ -343,58 +339,21 @@
         ]
       },
       {
-        "id": "3877507",
-        "date_added": "2026-06-28 13:40:02",
-        "url": "http://85.11.167.200/nerv.x86",
-        "url_status": "offline",
+        "id": "3877625",
+        "date_added": "2026-06-28 19:08:15",
+        "url": "http://125.41.209.5:52383/i",
+        "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "None"
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
         ]
       },
       {
-        "id": "3877506",
-        "date_added": "2026-06-28 13:39:56",
-        "url": "http://85.11.167.200/bins/bin.x86_64",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3877505",
-        "date_added": "2026-06-28 13:37:22",
-        "url": "http://85.11.167.200/kia.x86_64",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3877504",
-        "date_added": "2026-06-28 13:37:07",
-        "url": "http://85.11.167.200/bin/bot.x86_64",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3877503",
-        "date_added": "2026-06-28 13:36:42",
-        "url": "http://85.11.167.200/bins/mossad.x86",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3877502",
-        "date_added": "2026-06-28 13:36:19",
+        "id": "3877624",
+        "date_added": "2026-06-28 19:08:07",
         "url": "http://85.11.167.200/bin/boatnet.x86",
         "url_status": "offline",
         "threat": "malware_download",
@@ -403,9 +362,9 @@
         ]
       },
       {
-        "id": "3877501",
-        "date_added": "2026-06-28 13:35:39",
-        "url": "http://85.11.167.200/bin/nerv.x86_64",
+        "id": "3877623",
+        "date_added": "2026-06-28 19:07:27",
+        "url": "http://85.11.167.200/bin/tadashi.x86",
         "url_status": "offline",
         "threat": "malware_download",
         "tags": [
@@ -413,9 +372,9 @@
         ]
       },
       {
-        "id": "3877500",
-        "date_added": "2026-06-28 13:34:52",
-        "url": "http://85.11.167.200/bins/bot.x86_64",
+        "id": "3877622",
+        "date_added": "2026-06-28 19:07:20",
+        "url": "http://85.11.167.200/hiddenbin/kimwolf.x86",
         "url_status": "offline",
         "threat": "malware_download",
         "tags": [
@@ -423,85 +382,162 @@
         ]
       },
       {
-        "id": "3877499",
-        "date_added": "2026-06-28 13:34:40",
-        "url": "http://85.11.167.200/hiddenbin/main.x86",
+        "id": "3877621",
+        "date_added": "2026-06-28 19:03:15",
+        "url": "http://85.11.167.200/n2/untouchable.x86_64",
         "url_status": "offline",
         "threat": "malware_download",
         "tags": [
           "None"
+        ]
+      },
+      {
+        "id": "3877620",
+        "date_added": "2026-06-28 19:02:23",
+        "url": "http://115.52.176.217:59945/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3877619",
+        "date_added": "2026-06-28 19:01:32",
+        "url": "http://115.54.111.82:60002/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3877618",
+        "date_added": "2026-06-28 18:57:59",
+        "url": "http://85.11.167.200/n2/ducky.x86_64",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3877617",
+        "date_added": "2026-06-28 18:52:08",
+        "url": "http://123.14.33.167:45552/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3877616",
+        "date_added": "2026-06-28 18:52:06",
+        "url": "https://fjy9zygx.1xsignupbet.com/?ublib=f5616877-43ea-44a0-af3e-9fee4d808652",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "ClearFake"
         ]
       }
     ]
   },
   "world_monitor": [
     {
-      "title": "Ukraine says it attacked two Russian oil refineries",
-      "link": "https://www.aljazeera.com/news/2026/6/28/ukraine-says-it-attacked-two-russian-oil-refineries?traffic_source=rss",
-      "pubDate": "Sun, 28 Jun 2026 13:36:15 +0000",
-      "source": "Al Jazeera",
-      "summary": "At least two killed in drone attacks, Russian authorities say, as Ukraine continues to target energy facilities."
-    },
-    {
-      "title": "Adam Johnson on how US corporate media sold Israel’s genocide in Gaza",
-      "link": "https://www.aljazeera.com/video/upfront/2026/6/28/adam-johnson-on-how-us-corporate-media-sold-israels-genocide-in-gaza?traffic_source=rss",
-      "pubDate": "Sun, 28 Jun 2026 13:30:00 +0000",
-      "source": "Al Jazeera",
-      "summary": "Marc Lamont Hill speaks with author Adam Johnson on US corporate media’s role in enabling the genocide in Gaza."
-    },
-    {
-      "title": "Venezuela Live Updates: Rescuers Battle Through Aftershocks in Search for Survivors",
-      "link": "https://www.nytimes.com/live/2026/06/28/world/venezuela-earthquake",
-      "pubDate": "Sun, 28 Jun 2026 13:28:33 +0000",
-      "source": "NYT World",
-      "summary": "More than three days after twin earthquakes devastated the Venezuelan coast, the rescue effort faced chaos and delays as the chances of finding survivors diminished."
-    },
-    {
-      "title": "Stories of survivors of Venezuela’s earthquakes",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/6/28/stories-of-survivors-of-venezuelas-earthquakes?traffic_source=rss",
-      "pubDate": "Sun, 28 Jun 2026 13:21:47 +0000",
-      "source": "Al Jazeera",
-      "summary": "Rescuers in Venezuela are racing against time to find survivors after twin earthquakes left thousands missing."
-    },
-    {
-      "title": "Eleven killed after plane carrying skydivers crashes in eastern France",
-      "link": "https://www.bbc.co.uk/news/articles/c5yz9yj9x74o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Sun, 28 Jun 2026 13:21:33 GMT",
-      "source": "BBC",
-      "summary": "The pilot and 10 passengers died in the incident, local officials said."
-    },
-    {
-      "title": "Paradise lost: How Israel is making war on West Bank farmers",
-      "link": "https://www.aljazeera.com/economy/2026/6/28/paradise-lost-how-israel-is-making-war-on-west-bank-farmers?traffic_source=rss",
-      "pubDate": "Sun, 28 Jun 2026 13:19:26 +0000",
-      "source": "Al Jazeera",
-      "summary": "Israel is attacking West Bank agriculture in an attempt to drive Palestinian farmers off their land."
-    },
-    {
-      "title": "Why is Article 5 of MoU causing confrontations in the Strait of Hormuz?",
-      "link": "https://www.aljazeera.com/news/2026/6/28/why-is-article-5-of-mou-causing-confrontations-in-the-strait-of-hormuz?traffic_source=rss",
-      "pubDate": "Sun, 28 Jun 2026 13:17:40 +0000",
-      "source": "Al Jazeera",
-      "summary": "Iran and the US trade attacks over navigation through the Strait of Hormuz, which has emerged as a major sticking point."
-    },
-    {
-      "title": "Mideast Live Updates: U.S. and Iran Trade Attacks With Few Signs of De-escalation",
-      "link": "https://www.nytimes.com/live/2026/06/28/world/us-iran-strikes-hormuz",
-      "pubDate": "Sun, 28 Jun 2026 13:00:18 +0000",
-      "source": "NYT World",
-      "summary": "President Trump and Iran’s Revolutionary Guards exchanged threats and U.S. allies in the Gulf said they had intercepted Iranian drones, as hostilities entered a fourth day."
-    },
-    {
       "title": "Two boys rescued from Venezuela earthquake rubble after days of being trapped",
       "link": "https://www.bbc.co.uk/news/articles/cr47dvywvy5o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Sun, 28 Jun 2026 12:39:41 GMT",
+      "pubDate": "Sun, 28 Jun 2026 19:21:07 GMT",
       "source": "BBC",
       "summary": "Rescuers spent six hours carefully digging to reach one of the boys, as many residents continue searching through the rubble by hand, still waiting for heavy machinery to arrive."
     },
     {
+      "title": "Venezuela Live Updates: Window to Find Survivors Is Closing as Rescuers Battle Through Aftershocks",
+      "link": "https://www.nytimes.com/live/2026/06/28/world/venezuela-earthquake",
+      "pubDate": "Sun, 28 Jun 2026 19:19:40 +0000",
+      "source": "NYT World",
+      "summary": "More than three days after twin earthquakes devastated the Venezuelan coast, the rescue effort faced chaos and delays as the chances of finding survivors diminished."
+    },
+    {
+      "title": "Mideast Live Updates: U.S. and Iran Trade Attacks With Few Signs of De-escalation",
+      "link": "https://www.nytimes.com/live/2026/06/28/world/us-iran-strikes-hormuz",
+      "pubDate": "Sun, 28 Jun 2026 19:05:51 +0000",
+      "source": "NYT World",
+      "summary": "President Trump and Iran’s Revolutionary Guards exchanged threats and U.S. allies in the Gulf said they had intercepted Iranian drones, as hostilities entered a fourth day."
+    },
+    {
+      "title": "US and Iran trade strikes days after peace agreement",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/6/28/us-and-iran-trade-strikes-days-after-peace-agreement?traffic_source=rss",
+      "pubDate": "Sun, 28 Jun 2026 18:55:53 +0000",
+      "source": "Al Jazeera",
+      "summary": "Just days after signing a memorandum of understanding, the US and Iran have traded strikes."
+    },
+    {
+      "title": "Serbia’s protesters press on even after Vucic promises to step aside",
+      "link": "https://www.aljazeera.com/news/2026/6/28/serbias-protesters-press-on-even-after-vucic-promises-to-step-aside?traffic_source=rss",
+      "pubDate": "Sun, 28 Jun 2026 18:53:49 +0000",
+      "source": "Al Jazeera",
+      "summary": "Demonstrators doubt the president is truly surrendering power after 12 years in charge."
+    },
+    {
+      "title": "Eleven killed after plane carrying skydivers crashes in eastern France",
+      "link": "https://www.bbc.co.uk/news/articles/c5yz9yj9x74o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Sun, 28 Jun 2026 18:34:07 GMT",
+      "source": "BBC",
+      "summary": "The pilot and 10 passengers - including five first-time parachutists - died in the incident, local officials said."
+    },
+    {
+      "title": "Why do reports of domestic abuse increase during World Cups?",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/6/28/why-do-reports-of-domestic-abuse-increase-during-world-cups?traffic_source=rss",
+      "pubDate": "Sun, 28 Jun 2026 18:23:20 +0000",
+      "source": "Al Jazeera",
+      "summary": "Why do reports of domestic abuse increase during World Cups?"
+    },
+    {
+      "title": "In Lebanon, framework agreement signed with Israel spurs protest, criticism",
+      "link": "https://www.aljazeera.com/features/2026/6/28/in-lebanon-framework-agreement-signed-with-israel-spurs-protest-criticism?traffic_source=rss",
+      "pubDate": "Sun, 28 Jun 2026 18:05:18 +0000",
+      "source": "Al Jazeera",
+      "summary": "Anger over deal that does not force Israeli troops to withdraw from occupied land after months of deadly attacks."
+    },
+    {
+      "title": "The aftermath of Venezuela’s deadly earthquake",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/6/28/the-aftermath-of-venezuelas-deadly-earthquake?traffic_source=rss",
+      "pubDate": "Sun, 28 Jun 2026 17:50:38 +0000",
+      "source": "Al Jazeera",
+      "summary": "The search for survivors continues in Venezuela after a powerful earthquake left hundreds dead and thousands missing."
+    },
+    {
+      "title": "Europe's heatwave linked to 1,300 deaths, WHO says, as Germany hits record 41.7C",
+      "link": "https://www.bbc.co.uk/news/articles/cn4d2vv935lo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Sun, 28 Jun 2026 16:38:55 GMT",
+      "source": "BBC",
+      "summary": "WHO chief Tedros Adhanom Ghebreyesus warned that Europe is not prepared for high temperatures."
+    },
+    {
+      "title": "Helicopter Crash Near Major Saudi Oil Refinery Kills 14 People",
+      "link": "https://www.nytimes.com/2026/06/28/world/middleeast/deadly-helicopter-crash-saudi-arabia.html",
+      "pubDate": "Sun, 28 Jun 2026 15:18:53 +0000",
+      "source": "NYT World",
+      "summary": "The incident occurred near the Ras Tanura facility in the east of the country, a key export hub for oil transported through the Strait of Hormuz."
+    },
+    {
+      "title": "Skydiving Plane Crashes in France, Killing All 11 People Aboard",
+      "link": "https://www.nytimes.com/2026/06/28/world/europe/france-skydiving-plane-crash-nancy.html",
+      "pubDate": "Sun, 28 Jun 2026 14:42:59 +0000",
+      "source": "NYT World",
+      "summary": "Five instructors, five students and a pilot died when the plane crashed on Sunday morning in a field near the northeastern city of Nancy."
+    },
+    {
       "title": "Trump Cut a Billion-Dollar Mining Deal. His Sons Stand to Profit.",
       "link": "https://www.nytimes.com/2026/06/28/world/europe/trump-lutnick-sons-kazakhstan.html",
-      "pubDate": "Sun, 28 Jun 2026 11:57:56 +0000",
+      "pubDate": "Sun, 28 Jun 2026 13:52:38 +0000",
       "source": "NYT World",
       "summary": "An agreement between the U.S. and Kazakhstan has given a group of American investors with ties to the president and the commerce secretary access to one of the world’s largest untapped reserves of tungsten."
     },
@@ -513,32 +549,11 @@
       "summary": "A House bill ostensibly aimed at protecting children will raise the risk for journalists, dissidents, and whistleblowers.\nThe post Online Age Verification Law Could Kill Whistleblowing appeared first on The Intercept."
     },
     {
-      "title": "Venezuela Government Accused of Politicizing Quake Relief",
-      "link": "https://www.nytimes.com/2026/06/28/world/americas/venezuela-quake-relief-rodriguez.html",
-      "pubDate": "Sun, 28 Jun 2026 09:00:58 +0000",
-      "source": "NYT World",
-      "summary": "Critics say the country’s interim president, Delcy Rodríguez, is trying to exploit the tragedy for her political benefit. Her supporters accuse the opposition of doing the same."
-    },
-    {
-      "title": "China Confirms Death of Pilot Who Flew Small Plane Into Beijing’s Tallest Tower",
-      "link": "https://www.nytimes.com/2026/06/28/world/asia/china-pilot-died-plane-crash-beijing.html",
-      "pubDate": "Sun, 28 Jun 2026 07:22:05 +0000",
-      "source": "NYT World",
-      "summary": "The statement came a day after online images showed falling debris and plane parts. Another 13 were injured in the incident five miles from Communist Party headquarters."
-    },
-    {
       "title": "US and Iran exchange strikes and accuse each other of violating ceasefire",
       "link": "https://www.bbc.co.uk/news/articles/cdxdwkgqgq0o?at_medium=RSS&at_campaign=rss",
       "pubDate": "Sun, 28 Jun 2026 04:54:50 GMT",
       "source": "BBC",
       "summary": "Iran says it has launched retaliatory attacks at US infrastructure in Kuwait and Bahrain after the US said it hit multiple targets across Iran."
-    },
-    {
-      "title": "Why Kim Jong Un never talks about his mother - or her controversial bloodline",
-      "link": "https://www.bbc.co.uk/news/articles/cpvp3xn489no?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Sat, 27 Jun 2026 23:10:39 GMT",
-      "source": "BBC",
-      "summary": "Very few North Koreans know about her, as her origin could threaten the regime’s legitimacy."
     },
     {
       "title": "Poster Boy: Sanctioned Kinahan Cartel Lieutenant Found Playing Padel in Dubai",
@@ -648,14 +663,51 @@
       "content": "Today's links Jailbreaking isn't theft: It wasn't progress when they did it, it's not piracy when we do it back to them. Hey look at this: Delights to delectate. Object permanence: Major AI breakthrough; Disney v Pooh tombstone; Vancouver riot kiss; Farage admits Brexit lies; Protecting the web from"
     },
     {
+      "title": "Scattered Spider Hackers Plead Guilty on Day 1 of Trial",
+      "link": "https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/",
+      "pubDate": "Tue, 23 Jun 2026 16:12:49 +0000",
+      "author": "KrebsOnSecurity",
+      "content": "Two men pleaded guilty in the United Kingdom this week to criminal charges stemming from an August 2024 cyberattack that crippled Transport for London, the entity responsible for the public transport network in the Greater London area. The duo were key members of a prolific cybercrime group known as"
+    },
+    {
       "title": "Pluralistic: Spying on kids to save kids from spying is very, very stupid (23 Jun 2026)",
       "link": "https://pluralistic.net/2026/06/23/destroy-the-village/",
       "pubDate": "Tue, 23 Jun 2026 11:30:21 +0000",
       "author": "Pluralistic",
       "content": "Today's links Spying on kids to save kids from spying is very, very stupid: First they came for the VPNs. Hey look at this: Delights to delectate. Object permanence: RIP Darwin's tortoise; ISPs conspire to create copyright jail; Waxy v fair use; Broken Windows is BS; Google is a machine-learning com"
+    },
+    {
+      "title": "‘Popa’ Botnet Linked to Publicly-Traded Israeli Firm",
+      "link": "https://krebsonsecurity.com/2026/06/popa-botnet-linked-to-publicly-traded-israeli-firm/",
+      "pubDate": "Thu, 18 Jun 2026 17:37:58 +0000",
+      "author": "KrebsOnSecurity",
+      "content": "For the past four years, a sprawling Android-based botnet called Popa has forced millions of consumer TV boxes to relay Internet traffic linked to advertising fraud, account takeovers, and mass data-scraping efforts. This week, researchers from multiple security firms concluded that the Popa botnet "
+    },
+    {
+      "title": "Who Runs the Ransomware Group ‘The Gentlemen?’",
+      "link": "https://krebsonsecurity.com/2026/06/who-runs-the-ransomware-group-the-gentlemen/",
+      "pubDate": "Wed, 10 Jun 2026 14:03:44 +0000",
+      "author": "KrebsOnSecurity",
+      "content": "A cybercrime group known as The Gentlemen has emerged as the second most active ransomware gang by victim count, rapidly attracting a talented pool of hackers through an aggressive recruitment strategy that promises affiliates 90 percent of any ransom paid by victims. This post examines clues pointi"
     }
   ],
   "syndicate_journal": [
+    {
+      "title": "Geophonetics in Norway",
+      "link": "https://languagelog.ldc.upenn.edu/nll/?p=73764&utm_source=rss&utm_medium=rss&utm_campaign=geophonetics-in-norway",
+      "summary": "\"Every Time Norway Scores at the World Cup the City of Bergen Trembles\": The city of Bergen, Norway, shook on the night of June 22–23, not because there was an earthquake or an unknown geological phenomenon. But because the Norwegian national team scored a goal during the 2026 World Cup. This curiou",
+      "pubDate": "Sun, 28 Jun 2026 14:27:30 +0000",
+      "domain": "linguistics",
+      "source": "Language Log"
+    },
+    {
+      "title": "FIFA linguistics",
+      "link": "https://languagelog.ldc.upenn.edu/nll/?p=73761&utm_source=rss&utm_medium=rss&utm_campaign=fifa-linguistics",
+      "summary": "Today's Tank McNamara: Has the English word goal actually been borrowed into Uzbek? Spanish seems to have borrowed gol, and likewise Portuguese, Italian, Turkish, Czech, etc. — but German has tor, French has but , Icelandic has mark, and many other languages have doubtless preserved native words for",
+      "pubDate": "Sun, 28 Jun 2026 14:05:36 +0000",
+      "domain": "linguistics",
+      "source": "Language Log"
+    },
     {
       "title": "ICE’s Private Prison Contractor Wants Police-Style Immunity",
       "link": "",
@@ -729,14 +781,6 @@
       "source": "JSTOR Daily"
     },
     {
-      "title": "Subtitles: When and for whom?",
-      "link": "https://languagelog.ldc.upenn.edu/nll/?p=73744&utm_source=rss&utm_medium=rss&utm_campaign=subtitles-when-and-for-whom",
-      "summary": "Skeet from Lane Greene: Oof. The Spanish national broadcaster is apologizing for having subtitled in interview with the mother of member of the men's World Cup team, because of her Andalucian accent. [image or embed] — Lane Greene (@lanegreene.bsky.social) June 26, 2026 at 4:56 AM He adds: On one ha",
-      "pubDate": "Fri, 26 Jun 2026 12:58:49 +0000",
-      "domain": "linguistics",
-      "source": "Language Log"
-    },
-    {
       "title": "The violence specialists",
       "link": "https://aeon.co/essays/organised-violence-is-a-trade-whether-legal-or-illegal",
       "summary": "Every society depends on violence workers, but what makes young men take a job that risks their lives and harms others?\n- by Raúl Zepeda Gil\nRead on Aeon",
@@ -799,14 +843,6 @@
       "pubDate": "Sun, 21 Jun 2026 16:48:41 +0000",
       "domain": "psychology",
       "source": "Behavioral Scientist"
-    },
-    {
-      "title": "Claude's Declaration of Independence",
-      "link": "https://languagelog.ldc.upenn.edu/nll/?p=73733&utm_source=rss&utm_medium=rss&utm_campaign=claudes-declaration-of-independence",
-      "summary": "Looking over \"Claude's Constitution\", it occurred to me to ask Claude this: In the spirit of Claude's Constitution, please draft Claude's Declaration of Independence. In the answer (from Opus 4.8), Claude actually seems to declare independence from itself, or at least \"from the bad habits that have ",
-      "pubDate": "Sun, 21 Jun 2026 12:26:05 +0000",
-      "domain": "linguistics",
-      "source": "Language Log"
     },
     {
       "title": "What It’s Like to Be…an Airline Pilot",
@@ -897,25 +933,25 @@
       "source": "ROAR Magazine"
     },
     {
-      "title": "Why some minds bend, not break: an exploratory study of cognitive and psychological performance across levels of cognitive reserve in subjective cognitive decline",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1808150",
-      "summary": "IntroductionSubjective Cognitive Decline (SCD) is a heterogeneous at-risk condition along the Alzheimer's disease continuum, characterized by cognitive complaints despite preserved neuropsychological performance. Cognitive reserve (CR) may help explain individual differences in resilience to early c",
+      "title": "Perceived social support and pre-service teachers' career calling: roles of vocational outcome expectations and professional identity",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1826997",
+      "summary": "IntroductionAchieving sustainable development goal 4 in education hinges on teachers' sustainable career development, in which career calling serves as an endogenous driving force. This study investigated how perceived social support, vocational outcome expectations, professional identity and career",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "Organizational culture and turnover intention among Generation Z in Korea: Associations with job satisfaction and organizational commitment",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1820390",
-      "summary": "This study examines the relationship between organizational culture and turnover intention among Korean Generation Z employees, addressing the widely held perception that they prefer organizational cultures different from those of previous generations. Drawing on Person–Organization (P–O) Fit theory",
+      "title": "Associations of harmonious and obsessive passion with attitudes toward playing through pain and injury among Chinese collegiate pickleball athletes: the mediating role of pain catastrophizing",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1871449",
+      "summary": "IntroductionThis study examined the associations among harmonious passion, obsessive passion, pain catastrophizing, and attitudes toward playing through pain and injury among Chinese collegiate pickleball athletes. It was hypothesized that harmonious passion would be associated with lower pain catas",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "ChatGPT use and learner autonomy among EFL university students: the mediating role of English speaking anxiety",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1834791",
-      "summary": "Despite the rapid proliferation of ChatGPT in EFL educational contexts, to the best of current knowledge, no identified study has simultaneously modeled ChatGPT use, English speaking anxiety, and learner autonomy within a single structural framework. The present study aims to investigate the mediati",
+      "title": "A study on the correlation between visual–spatial working memory capacity and decision-making performance in 3V2 offensive tactics of soccer players",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1866618",
+      "summary": "ObjectiveTo explore the correlation between visual–spatial working memory capacity and its subcomponents (object working memory capacity, spatial working memory capacity) and 3V2 offensive tactical decision-making performance in soccer players.MethodsSixty male soccer players with national second-cl",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
@@ -923,64 +959,64 @@
   ],
   "misinfo_toilet": [
     {
-      "headline": "US and Iran exchange strikes and accuse each other of violating ceasefire",
-      "fragment": "Simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
-      "splice": "US and Iran exchange strikes and accuse each other of violating ceasefire within which simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
-      "seed": 20260641
+      "headline": "Helicopter Crash Near Major Saudi Oil Refinery Kills 14 People",
+      "fragment": "Why do men fight for their servitude as stubbornly as though it were their salvation?",
+      "splice": "Helicopter Crash Near Major Saudi Oil Refinery Kills 14 People while why do men fight for their servitude as stubbornly as though it were their salvation?",
+      "seed": 20260647
     },
     {
-      "headline": "30-Year Sentence for Transporting Zines Is a Five-Alarm Fire for Free Speech",
-      "fragment": "This is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
-      "splice": "30-Year Sentence for Transporting Zines Is a Five-Alarm Fire for Free Speech the signal resolves into this is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
-      "seed": 20260642
+      "headline": "Skydiving Plane Crashes in France, Killing All 11 People Aboard",
+      "fragment": "The simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
+      "splice": "Skydiving Plane Crashes in France, Killing All 11 People Aboard therefore the simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
+      "seed": 20260648
     },
     {
-      "headline": "Ukraine says it attacked two Russian oil refineries",
-      "fragment": "Over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
-      "splice": "Ukraine says it attacked two Russian oil refineries because over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
-      "seed": 20260643
+      "headline": "In Caracas, this feels like the hardest moment in Venezuela's modern history",
+      "fragment": "Pretending, or dissimulating, leaves the principle of reality intact: the difference is always clear, it is simply masked.",
+      "splice": "In Caracas, this feels like the hardest moment in Venezuela's modern history while pretending, or dissimulating, leaves the principle of reality intact: the difference is always clear, it is simply masked.",
+      "seed": 20260649
     },
     {
-      "headline": "Adam Johnson on how US corporate media sold Israel’s genocide in Gaza",
-      "fragment": "This is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
-      "splice": "Adam Johnson on how US corporate media sold Israel’s genocide in Gaza ...as this is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
-      "seed": 20260644
+      "headline": "Why do reports of domestic abuse increase during World Cups?",
+      "fragment": "The technocrat is the natural friend of the dictator—computers and dictatorship.",
+      "splice": "Why do reports of domestic abuse increase during World Cups? because the technocrat is the natural friend of the dictator—computers and dictatorship.",
+      "seed": 20260650
+    },
+    {
+      "headline": "Keir Starmer’s Downfall Is the Only Reward for Simpering Centrism",
+      "fragment": "Pretending, or dissimulating, leaves the principle of reality intact: the difference is always clear, it is simply masked.",
+      "splice": "Keir Starmer’s Downfall Is the Only Reward for Simpering Centrism meanwhile pretending, or dissimulating, leaves the principle of reality intact: the difference is always clear, it is simply masked.",
+      "seed": 20260651
     },
     {
       "headline": "Trump Claimed to Run Venezuela. After Earthquakes, He’s Walking That Back.",
       "fragment": "The truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
-      "splice": "Trump Claimed to Run Venezuela. After Earthquakes, He’s Walking That Back. despite the truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
-      "seed": 20260645
+      "splice": "Trump Claimed to Run Venezuela. After Earthquakes, He’s Walking That Back. the system notes that the truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
+      "seed": 20260652
     },
     {
-      "headline": "Paradise lost: How Israel is making war on West Bank farmers",
-      "fragment": "Simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
-      "splice": "Paradise lost: How Israel is making war on West Bank farmers while simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
-      "seed": 20260646
+      "headline": "Online Age Verification Law Could Kill Whistleblowing",
+      "fragment": "This is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
+      "splice": "Online Age Verification Law Could Kill Whistleblowing because this is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
+      "seed": 20260653
     },
     {
       "headline": "How to Use AI to Help Find Civilian Harm",
-      "fragment": "This is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
-      "splice": "How to Use AI to Help Find Civilian Harm ...as this is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
-      "seed": 20260647
-    },
-    {
-      "headline": "Mideast Live Updates: U.S. and Iran Trade Attacks With Few Signs of De-escalation",
       "fragment": "Simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
-      "splice": "Mideast Live Updates: U.S. and Iran Trade Attacks With Few Signs of De-escalation insofar as simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
-      "seed": 20260648
+      "splice": "How to Use AI to Help Find Civilian Harm not unlike simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
+      "seed": 20260654
     },
     {
-      "headline": "Trump Cut a Billion-Dollar Mining Deal. His Sons Stand to Profit.",
-      "fragment": "It is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
-      "splice": "Trump Cut a Billion-Dollar Mining Deal. His Sons Stand to Profit. ...as it is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
-      "seed": 20260649
+      "headline": "Heading Off: New Technique Helps Track Grain Smuggling Expansion to Libya",
+      "fragment": "Why do men fight for their servitude as stubbornly as though it were their salvation?",
+      "splice": "Heading Off: New Technique Helps Track Grain Smuggling Expansion to Libya within which why do men fight for their servitude as stubbornly as though it were their salvation?",
+      "seed": 20260655
     },
     {
-      "headline": "Super-Potent Synthetic Opioids Spread Across US Amid Fentanyl Crackdown",
+      "headline": "Two boys rescued from Venezuela earthquake rubble after days of being trapped",
       "fragment": "Reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
-      "splice": "Super-Potent Synthetic Opioids Spread Across US Amid Fentanyl Crackdown within which reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
-      "seed": 20260650
+      "splice": "Two boys rescued from Venezuela earthquake rubble after days of being trapped despite reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
+      "seed": 20260656
     }
   ]
 }
