@@ -1,7 +1,22 @@
 {
-  "generated_at": "2026-06-29T15:52:50.844Z",
+  "generated_at": "2026-06-29T20:02:24.326Z",
   "threat_intel": {
     "cisa_kev": [
+      {
+        "cveID": "CVE-2026-48558",
+        "vendorProject": "SimpleHelp ",
+        "product": "SimpleHelp",
+        "vulnerabilityName": "SimpleHelp Authentication Bypass Vulnerability",
+        "dateAdded": "2026-06-29",
+        "shortDescription": "SimpleHelp contains an authentication bypass vulnerability in the OIDC authentication flow. When OIDC authentication is configured, identity tokens submitted during login are accepted without verifying their cryptographic signature. In a vulnerable configuration, a remote, unauthenticated attacker can submit a forged token containing arbitrary identity claims to obtain a fully authenticated technician session. In some configurations, this may also allow bypass of multi-factor authentication.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-07-02",
+        "knownRansomwareCampaignUse": "Unknown",
+        "notes": "https://simple-help.com/security/simplehelp-security-update-2026-05 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-48558",
+        "cwes": [
+          "CWE-347"
+        ]
+      },
       {
         "cveID": "CVE-2026-12569",
         "vendorProject": "PTC",
@@ -214,39 +229,47 @@
         "cwes": [
           "CWE-1023"
         ]
-      },
-      {
-        "cveID": "CVE-2026-20245",
-        "vendorProject": "Cisco",
-        "product": "Catalyst SD-WAN Manager",
-        "vulnerabilityName": "Cisco Catalyst SD-WAN Manager Improper Encoding or Escaping of Output Vulnerability",
-        "dateAdded": "2026-06-09",
-        "shortDescription": "Cisco Catalyst SD-WAN Manager formerly SD-WAN vManage contains an improper encoding or escaping of output vulnerability. This vulnerability could allow an authenticated, local attacker to execute arbitrary commands as root by supplying a crafted file to the affected system.",
-        "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-        "dueDate": "2026-06-23",
-        "knownRansomwareCampaignUse": "Unknown",
-        "notes": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-privesc-4uxFrdzx ; https://nvd.nist.gov/vuln/detail/CVE-2026-20245",
-        "cwes": [
-          "CWE-116"
-        ]
       }
     ],
     "urlhaus": [
       {
-        "id": "3878004",
-        "date_added": "2026-06-29 15:37:10",
-        "url": "http://182.127.120.242:52649/bin.sh",
+        "id": "3878101",
+        "date_added": "2026-06-29 19:55:11",
+        "url": "https://209.99.190.191/Bin/ScreenConnect.ClientSetup.exe",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "Mozi"
+          "209-99-190-191",
+          "exe"
         ]
       },
       {
-        "id": "3878003",
-        "date_added": "2026-06-29 15:29:38",
-        "url": "http://60.19.222.255:40211/i",
-        "url_status": "offline",
+        "id": "3878100",
+        "date_added": "2026-06-29 19:50:15",
+        "url": "http://45.11.56.55/Bin/ScreenConnect.ClientSetup.exe",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "45-11-56-55",
+          "exe"
+        ]
+      },
+      {
+        "id": "3878099",
+        "date_added": "2026-06-29 19:50:11",
+        "url": "http://45.11.56.55/bin/support.client.exe",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "45-11-56-55",
+          "exe"
+        ]
+      },
+      {
+        "id": "3878098",
+        "date_added": "2026-06-29 19:49:21",
+        "url": "http://27.219.96.206:52707/bin.sh",
+        "url_status": "online",
         "threat": "malware_download",
         "tags": [
           "32-bit",
@@ -256,270 +279,305 @@
         ]
       },
       {
-        "id": "3878002",
-        "date_added": "2026-06-29 15:17:36",
-        "url": "http://39.38.206.38:45214/bin.sh",
+        "id": "3878097",
+        "date_added": "2026-06-29 19:49:12",
+        "url": "http://209.99.190.157/payload.exe",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "32-bit",
+          "209-99-190-157",
+          "exe"
+        ]
+      },
+      {
+        "id": "3878095",
+        "date_added": "2026-06-29 19:23:16",
+        "url": "http://217.60.195.58/i.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "217-60-195-58",
+          "sh"
+        ]
+      },
+      {
+        "id": "3878096",
+        "date_added": "2026-06-29 19:23:16",
+        "url": "http://217.60.195.58/bot_armv6l",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "217-60-195-58",
           "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3878001",
-        "date_added": "2026-06-29 15:17:27",
-        "url": "http://115.52.46.99:38155/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3878000",
-        "date_added": "2026-06-29 15:11:08",
-        "url": "http://182.124.208.74:49213/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3877999",
-        "date_added": "2026-06-29 15:07:08",
-        "url": "http://170.84.134.172:52972/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
           "mirai"
         ]
       },
       {
-        "id": "3877998",
-        "date_added": "2026-06-29 15:06:32",
-        "url": "http://42.226.206.84:49563/i",
+        "id": "3878094",
+        "date_added": "2026-06-29 19:22:33",
+        "url": "http://217.60.195.58/bot_armv5l",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "32-bit",
+          "217-60-195-58",
           "elf",
-          "mips",
-          "Mozi"
+          "mirai"
         ]
       },
       {
-        "id": "3877997",
-        "date_added": "2026-06-29 15:04:20",
-        "url": "http://42.235.86.37:47559/i",
+        "id": "3878093",
+        "date_added": "2026-06-29 19:18:23",
+        "url": "http://196.189.198.173:50834/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
           "32-bit",
           "arm",
-          "elf"
+          "elf",
+          "mirai",
+          "Mozi"
         ]
       },
       {
-        "id": "3877996",
-        "date_added": "2026-06-29 15:02:07",
-        "url": "https://hi4ztw3j.vip1xbet.org/?ublib=40c12bd0-9870-4e44-80cd-f1464ffef50b",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "ClearFake"
-        ]
-      },
-      {
-        "id": "3877995",
-        "date_added": "2026-06-29 15:01:29",
-        "url": "http://42.235.86.37:47559/bin.sh",
+        "id": "3878091",
+        "date_added": "2026-06-29 19:13:29",
+        "url": "http://82.73.202.138:55905/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
           "32-bit",
           "arm",
-          "elf"
-        ]
-      },
-      {
-        "id": "3877994",
-        "date_added": "2026-06-29 14:56:25",
-        "url": "http://115.52.46.99:38155/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
           "elf",
-          "mips",
+          "mirai",
           "Mozi"
         ]
       },
       {
-        "id": "3877993",
-        "date_added": "2026-06-29 14:46:09",
-        "url": "http://182.124.208.74:49213/bin.sh",
+        "id": "3878092",
+        "date_added": "2026-06-29 19:13:29",
+        "url": "http://31.56.209.84/payload.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "Mozi"
+          "31-56-209-84",
+          "sh"
         ]
       },
       {
-        "id": "3877992",
-        "date_added": "2026-06-29 14:41:10",
-        "url": "http://170.84.134.172:52972/bin.sh",
+        "id": "3878090",
+        "date_added": "2026-06-29 19:12:20",
+        "url": "http://31.56.209.84/monero.arm5",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
+          "31-56-209-84",
+          "elf",
           "mirai"
         ]
       },
       {
-        "id": "3877991",
-        "date_added": "2026-06-29 14:33:10",
-        "url": "http://115.50.218.234:35386/i",
+        "id": "3878089",
+        "date_added": "2026-06-29 19:11:30",
+        "url": "http://31.56.209.84/monero.arm6",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "32-bit",
+          "31-56-209-84",
+          "elf",
+          "mirai"
+        ]
+      },
+      {
+        "id": "3878088",
+        "date_added": "2026-06-29 19:10:34",
+        "url": "http://94.154.43.192/00101010101001/morte.arm5",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "arm",
+          "elf",
+          "mirai",
+          "opendir",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3878077",
+        "date_added": "2026-06-29 19:09:29",
+        "url": "http://94.154.43.192/00101010101001/morte.arm6",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "arm",
+          "elf",
+          "mirai",
+          "opendir",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3878078",
+        "date_added": "2026-06-29 19:09:29",
+        "url": "http://94.154.43.192/00101010101001/morte.mips",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
           "elf",
           "mips",
-          "Mozi"
+          "mirai",
+          "opendir",
+          "ua-wget"
         ]
       },
       {
-        "id": "3877990",
-        "date_added": "2026-06-29 14:32:10",
-        "url": "http://219.157.201.202:41156/i",
+        "id": "3878079",
+        "date_added": "2026-06-29 19:09:29",
+        "url": "http://94.154.43.192/00101010101001/morte.x86",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3877989",
-        "date_added": "2026-06-29 14:26:12",
-        "url": "http://91.92.242.236/files-129312398/files/file_314324949baa48e0.exe",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "c2-monitor-auto",
-          "dropped-by-amadey"
-        ]
-      },
-      {
-        "id": "3877988",
-        "date_added": "2026-06-29 14:26:07",
-        "url": "http://91.92.242.236/files-129312398/files/file_403b16f0b4098b52.exe",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "c2-monitor-auto",
-          "dropped-by-amadey"
-        ]
-      },
-      {
-        "id": "3877987",
-        "date_added": "2026-06-29 14:23:25",
-        "url": "http://91.246.140.67:28545/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
           "elf",
-          "mips",
-          "Mozi"
+          "mirai",
+          "opendir",
+          "ua-wget",
+          "x86"
         ]
       },
       {
-        "id": "3877986",
-        "date_added": "2026-06-29 14:12:30",
-        "url": "http://115.50.218.234:35386/bin.sh",
+        "id": "3878080",
+        "date_added": "2026-06-29 19:09:29",
+        "url": "http://94.154.43.192/00101010101001/morte.m68k",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "32-bit",
           "elf",
-          "mips",
-          "Mozi"
+          "m68k",
+          "mirai",
+          "opendir",
+          "ua-wget"
         ]
       },
       {
-        "id": "3877985",
-        "date_added": "2026-06-29 14:12:07",
-        "url": "http://182.117.70.119:41718/i",
+        "id": "3878081",
+        "date_added": "2026-06-29 19:09:29",
+        "url": "http://94.154.43.192/00101010101001/morte.sh4",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "Mozi"
+          "elf",
+          "mirai",
+          "opendir",
+          "SuperH",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3878082",
+        "date_added": "2026-06-29 19:09:29",
+        "url": "http://94.154.43.192/00101010101001/morte.arm7",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "arm",
+          "elf",
+          "mirai",
+          "opendir",
+          "ua-wget"
         ]
       }
     ]
   },
   "world_monitor": [
     {
-      "title": "Sixth person dies after shooting at youth welfare centre in Germany",
+      "title": "Six people shot dead at centre for mothers and children in Germany",
       "link": "https://www.bbc.co.uk/news/articles/c17yzzw1vkjo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Mon, 29 Jun 2026 15:41:17 GMT",
+      "pubDate": "Mon, 29 Jun 2026 19:53:57 GMT",
       "source": "BBC",
-      "summary": "Four women and a man were shot dead at the scene while a sixth person died in hospital, police say."
+      "summary": "The male suspect who has been arrested was in a custody dispute over his baby daughter, police say."
     },
     {
-      "title": "Pakistan Attacks Afghanistan, Killing More Than 30",
-      "link": "https://www.nytimes.com/2026/06/29/world/asia/pakistan-afghanistan-strikes.html",
-      "pubDate": "Mon, 29 Jun 2026 15:35:45 +0000",
-      "source": "NYT World",
-      "summary": "The Taliban said that airstrikes left 36 civilians dead, while Pakistan claimed that its assault killed 32 militants, the latest in a monthslong conflict."
+      "title": "Martinelli scores late as Brazil beat Japan 2-1, enter World Cup last 16",
+      "link": "https://www.aljazeera.com/sports/2026/6/29/martinelli-scores-late-as-brazil-beat-japan-2-1-enter-world-cup-last-16?traffic_source=rss",
+      "pubDate": "Mon, 29 Jun 2026 19:33:59 +0000",
+      "source": "Al Jazeera",
+      "summary": "Martinelli's stoppage-time goal takes the five-time champions to the Round of 16, breaking Japanese hearts in Houston."
     },
     {
-      "title": "Supreme Court rejects Trump's appeal of E Jean Carroll's sexual abuse case",
-      "link": "https://www.bbc.co.uk/news/articles/cn8q2z5wpn2o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Mon, 29 Jun 2026 15:30:35 GMT",
-      "source": "BBC",
-      "summary": "The decision means the US president will now have to pay her the $5m (£3.6m) in damages she had been awarded."
+      "title": "Deadly heatwave grips Italy and Balkans as wildfire fears grow",
+      "link": "https://www.aljazeera.com/news/2026/6/29/deadly-heatwave-grips-italy-and-balkans-as-wildfire-fears-grow?traffic_source=rss",
+      "pubDate": "Mon, 29 Jun 2026 19:30:28 +0000",
+      "source": "Al Jazeera",
+      "summary": "Older people remain most at risk as the heatwave drives up excess deaths across Europe."
+    },
+    {
+      "title": "The Trump Administration’s Shameless Snuff-Film Fixation",
+      "link": "https://theintercept.com/2026/06/29/tomdispatch-trump-war-killing-videos/",
+      "pubDate": "Mon, 29 Jun 2026 19:25:29 +0000",
+      "source": "The Intercept",
+      "summary": "Twenty years ago, U.S. military officials condemned terrorist “snuff films.” Now our top officials post them.\nThe post The Trump Administration’s Shameless Snuff-Film Fixation appeared first on The Intercept."
+    },
+    {
+      "title": "Israeli attacks kill four men and a boy in Gaza and a teenager in West Bank",
+      "link": "https://www.aljazeera.com/news/2026/6/29/israeli-attacks-kill-four-men-and-a-boy-in-gaza-and-a-teenager-in-west-bank?traffic_source=rss",
+      "pubDate": "Mon, 29 Jun 2026 19:08:43 +0000",
+      "source": "Al Jazeera",
+      "summary": "Israeli rights group B’Tselem has condemned the 'unprecedented killing of Palestinian children and teenagers\""
     },
     {
       "title": "Mideast Live Updates: U.S. and Iran Set for New Talks in Qatar, Trump Says",
       "link": "https://www.nytimes.com/live/2026/06/29/world/hormuz-us-iran-strikes",
-      "pubDate": "Mon, 29 Jun 2026 15:17:49 +0000",
+      "pubDate": "Mon, 29 Jun 2026 19:05:23 +0000",
       "source": "NYT World",
       "summary": "President Trump said the discussions would take place on Tuesday, after the United States and Iran exchanged strikes over the weekend. Iran did not confirm the talks but said consultations with Qatar were continuing."
     },
     {
-      "title": "JD Vance’s 2028 strategy is starting to take shape",
-      "link": "https://www.aljazeera.com/opinions/2026/6/29/jd-vances-2028-strategy-is-starting-to-take-shape?traffic_source=rss",
-      "pubDate": "Mon, 29 Jun 2026 15:08:46 +0000",
+      "title": "Pakistani strikes kill dozens of Afghan villagers",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/6/29/pakistani-strikes-kill-dozens-of-afghan-villagers?traffic_source=rss",
+      "pubDate": "Mon, 29 Jun 2026 18:44:34 +0000",
       "source": "Al Jazeera",
-      "summary": "The vice president’s decision to criticise Israel and distance himself from rival Rubio means he is reading the base."
+      "summary": "Afghan villagers inspected destroyed homes after overnight Pakistani strikes targeting Taliban-allied fighters."
     },
     {
-      "title": "Scale of Venezuela Earthquakes Death Toll Could Take Weeks to Emerge",
-      "link": "https://www.nytimes.com/2026/06/29/world/americas/venezuela-earthquake-death-toll.html",
-      "pubDate": "Mon, 29 Jun 2026 15:06:47 +0000",
+      "title": "Israel launches attacks and incursions inside southern Syria",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/6/29/israel-launches-attacks-and-incursions-inside-southern-syria?traffic_source=rss",
+      "pubDate": "Mon, 29 Jun 2026 18:43:15 +0000",
+      "source": "Al Jazeera",
+      "summary": "Israeli forces have shelled a village in southern Syria, firing artillery and illumination flares overnight."
+    },
+    {
+      "title": "At Funerals, Venezuela’s Wounded Families and Friends Unite in Grief",
+      "link": "https://www.nytimes.com/2026/06/29/world/americas/venezuela-funerals-earthquake.html",
+      "pubDate": "Mon, 29 Jun 2026 18:38:22 +0000",
       "source": "NYT World",
-      "summary": "Experts pointed to several indications that the twin earthquakes were particularly lethal, including the number of people reported missing and the extent of building damage."
+      "summary": "Venezuelans began to bury some of the more than 1,700 victims of last week’s earthquakes, sharing tales of unimaginable loss."
     },
     {
-      "title": "Five killed in shooting at German youth centre",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/6/29/five-killed-in-shooting-at-german-youth-centre?traffic_source=rss",
-      "pubDate": "Mon, 29 Jun 2026 15:03:42 +0000",
-      "source": "Al Jazeera",
-      "summary": "Five people were killed in a shooting at a youth welfare centre in Stade, northern Germany."
+      "title": "Pakistan Attacks Afghanistan, Killing More Than 30",
+      "link": "https://www.nytimes.com/2026/06/29/world/asia/pakistan-afghanistan-strikes.html",
+      "pubDate": "Mon, 29 Jun 2026 17:47:43 +0000",
+      "source": "NYT World",
+      "summary": "The Taliban said that airstrikes left 36 civilians dead, while Pakistan claimed that its assault killed 32 militants, the latest in a monthslong conflict."
     },
     {
-      "title": "Enzo Maresca appointed Man City manager to succeed Pep Guardiola",
-      "link": "https://www.aljazeera.com/sports/2026/6/29/enzo-maresca-appointed-man-city-manager-to-succeed-pep-guardiola?traffic_source=rss",
-      "pubDate": "Mon, 29 Jun 2026 14:57:16 +0000",
-      "source": "Al Jazeera",
-      "summary": "Former Blues manager inks a three-year deal at Manchester City and succeeds Pep Guardiola, who stepped down in May."
+      "title": "Putin makes rare admission of fuel shortages caused by Ukrainian strikes",
+      "link": "https://www.bbc.co.uk/news/articles/clyw31zvpgmo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Mon, 29 Jun 2026 17:28:59 GMT",
+      "source": "BBC",
+      "summary": "The Russian president acknowledged Ukraine's attacks were \"obviously creating problems\" but denied the shortages were \"critical\"."
+    },
+    {
+      "title": "Abdul El-Sayed Becomes First Senate Candidate Backed by Pro-Palestine Jewish Group",
+      "link": "https://theintercept.com/2026/06/29/abdul-el-sayed-jewish-voice-peace-senate/",
+      "pubDate": "Mon, 29 Jun 2026 17:00:00 +0000",
+      "source": "The Intercept",
+      "summary": "The political arm of Jewish Voice for Peace, known for protesting the genocide in Gaza, is wading into the race for the open Senate seat in Michigan.\nThe post Abdul El-Sayed Becomes First Senate Candidate Backed by Pro-Palestine Jewish Group appeared"
+    },
+    {
+      "title": "Trump's final appeal of E Jean Carroll sex abuse case rejected",
+      "link": "https://www.bbc.co.uk/news/articles/cn8q2z5wpn2o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Mon, 29 Jun 2026 15:30:35 GMT",
+      "source": "BBC",
+      "summary": "The Supreme Court decision means the US president will now have to pay Carroll the $5m (£3.6m) in damages she had been awarded."
     },
     {
       "title": "US says it has agreed to 'stand down' after exchange of strikes with Iran",
@@ -529,39 +587,18 @@
       "summary": "A series of strikes over the weekend saw the US and Iran accuse each other of violating the ceasefire agreement."
     },
     {
-      "title": "Why the Arab League could not stop Israel’s genocide",
-      "link": "https://www.aljazeera.com/opinions/2026/6/29/why-the-arab-league-could-not-stop-israels-genocide?traffic_source=rss",
-      "pubDate": "Mon, 29 Jun 2026 14:43:55 +0000",
-      "source": "Al Jazeera",
-      "summary": "Arab governments are constrained by dependency, regime survival and fear of empowering Iran-aligned rivals."
-    },
-    {
-      "title": "DR Congo bans mass gatherings in the  capital to prevent spread of Ebola",
-      "link": "https://www.bbc.co.uk/news/articles/c992k7zk981o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Mon, 29 Jun 2026 14:40:58 GMT",
-      "source": "BBC",
-      "summary": "Opposition politicians accuse the government of using the outbreak to halt a planned protest."
-    },
-    {
-      "title": "Sudan’s el-Obeid: Life on the edge of collapse",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/6/29/sudans-el-obeid-life-on-the-edge-of-collapse?traffic_source=rss",
-      "pubDate": "Mon, 29 Jun 2026 14:18:41 +0000",
-      "source": "Al Jazeera",
-      "summary": "Sudan's el-Obeid faces mass atrocities, like el-Fasher in 2025, the UN warns."
-    },
-    {
       "title": "Iran Risks Peace Talks With U.S. to Maintain Leverage Over Strait",
       "link": "https://www.nytimes.com/2026/06/28/world/europe/iran-us-strait-of-hormuz-peace-talks.html",
-      "pubDate": "Mon, 29 Jun 2026 12:34:38 +0000",
+      "pubDate": "Mon, 29 Jun 2026 12:34:39 +0000",
       "source": "NYT World",
       "summary": "Iran sees its control over the Strait of Hormuz as critical leverage in peace talks with the United States. It seems willing to risk the cease-fire to maintain that power."
     },
     {
-      "title": "The Businessman Who Helped Peter Thiel Kill Gawker Wanted to Save Journalism. Then His Site Went Dark.",
+      "title": "The Peter Thiel Ally Who Helped Kill Gawker Wanted to Save Journalism. Then His Site Went Dark.",
       "link": "https://theintercept.com/2026/06/29/objection-ai-judges-journalism-dsouza/",
       "pubDate": "Mon, 29 Jun 2026 09:35:00 +0000",
       "source": "The Intercept",
-      "summary": "Aron D’Souza sees the media as in peril. His solution is an AI-powered tribunal to adjudicate the facts of reporting.\nThe post The Businessman Who Helped Peter Thiel Kill Gawker Wanted to Save Journalism. Then His Site Went Dark. appeared first on Th"
+      "summary": "Aron D’Souza sees the media as in peril. His solution is an AI-powered tribunal to adjudicate the facts of reporting.\nThe post The Peter Thiel Ally Who Helped Kill Gawker Wanted to Save Journalism. Then His Site Went Dark. appeared first on The Inter"
     },
     {
       "title": "Mum rescued from Venezuela rubble with newborn baby tells BBC how he helped her survive",
@@ -599,20 +636,6 @@
       "summary": "As head of Labour, Starmer served his role ignobly: weeding out the left and paving the way for the far right.\nThe post Keir Starmer’s Downfall Is the Only Reward for Simpering Centrism appeared first on The Intercept."
     },
     {
-      "title": "30-Year Sentence for Transporting Zines Is a Five-Alarm Fire for Free Speech",
-      "link": "https://theintercept.com/2026/06/26/daniel-sanchez-estrada-zines-prairieland-free-speech/",
-      "pubDate": "Fri, 26 Jun 2026 09:46:00 +0000",
-      "source": "The Intercept",
-      "summary": "The harsh sentence for a defendant who wasn’t even at the Prairieland protest is likely only the start of the Trump administration’s efforts to outlaw free speech.\nThe post 30-Year Sentence for Transporting Zines Is a Five-Alarm Fire for Free Speech "
-    },
-    {
-      "title": "Trump Claimed to Run Venezuela. After Earthquakes, He’s Walking That Back.",
-      "link": "https://theintercept.com/2026/06/25/trump-venezuela-earthquakes-aid-sanctions/",
-      "pubDate": "Thu, 25 Jun 2026 18:36:48 +0000",
-      "source": "The Intercept",
-      "summary": "In January, Trump said “we’re in charge” of Venezuela. Amid a humanitarian crisis, they’re merely “our new and great friends.”\nThe post Trump Claimed to Run Venezuela. After Earthquakes, He’s Walking That Back. appeared first on The Intercept."
-    },
-    {
       "title": "How to Use AI to Help Find Civilian Harm",
       "link": "https://www.bellingcat.com/resources/2026/06/25/how-to-use-ai-to-help-find-civilian-harm-conflict-report-monitor-war-machine-learning-telegram/",
       "pubDate": "Thu, 25 Jun 2026 13:59:13 +0000",
@@ -643,6 +666,20 @@
   ],
   "syndication": [
     {
+      "title": "Pluralistic: Gemini is better than search because Google enshittified search (29 Jun 2026)",
+      "link": "https://pluralistic.net/2026/06/29/arsonist-firefighters/",
+      "pubDate": "Mon, 29 Jun 2026 16:34:57 +0000",
+      "author": "Pluralistic",
+      "content": "Today's links Gemini is better than search because Google enshittified search: We're All Trying To Find The Guy Who Did This. Hey look at this: Delights to delectate. Object permanence: Microsoft antitrust overturned; Scammer carves C64; RIP Jim Baen; GOP rep to constituent's child: \"drop dead\" (lit"
+    },
+    {
+      "title": "Factoring RSA Keys with Many Zeros",
+      "link": "https://www.schneier.com/blog/archives/2026/06/factoring-rsa-keys-with-many-zeros.html",
+      "pubDate": "2026-06-29T16:05:18.000Z",
+      "author": "Schneier on Security",
+      "content": "Interesting research on a new class of weak RSA keys: keys with lots of zeros. It turns out that these keys are out in the wild.\nThe badkeys project is an open-source service that checks public keys for known vulnerabilities. While developing this tool, Hanno collected a massive number of real-world"
+    },
+    {
       "title": "Robot Police Officers",
       "link": "https://www.schneier.com/blog/archives/2026/06/robot-police-officers.html",
       "pubDate": "2026-06-29T10:55:33.000Z",
@@ -664,13 +701,6 @@
       "content": "Chinese companies control nearly two-thirds of Argentina’s own squid fleet."
     },
     {
-      "title": "Meta Is Testing Facial Recognition for Police and Military",
-      "link": "https://www.schneier.com/blog/archives/2026/06/meta-is-testing-facial-recognition-for-police-and-military.html",
-      "pubDate": "2026-06-26T16:40:56.000Z",
-      "author": "Schneier on Security",
-      "content": "We know that ICE wants to deploy eyeglasses with facial recognition that can identify people in real time.\nTurns out Meta is prototyping the feature with a Pentagon supplier. (Alternate news story.)"
-    },
-    {
       "title": "Pluralistic: Jailbreaking isn't theft (25 Jun 2026)",
       "link": "https://pluralistic.net/2026/06/25/thieve-different/",
       "pubDate": "Thu, 25 Jun 2026 09:37:35 +0000",
@@ -683,13 +713,6 @@
       "pubDate": "Tue, 23 Jun 2026 16:12:49 +0000",
       "author": "KrebsOnSecurity",
       "content": "Two men pleaded guilty in the United Kingdom this week to criminal charges stemming from an August 2024 cyberattack that crippled Transport for London, the entity responsible for the public transport network in the Greater London area. The duo were key members of a prolific cybercrime group known as"
-    },
-    {
-      "title": "Pluralistic: Spying on kids to save kids from spying is very, very stupid (23 Jun 2026)",
-      "link": "https://pluralistic.net/2026/06/23/destroy-the-village/",
-      "pubDate": "Tue, 23 Jun 2026 11:30:21 +0000",
-      "author": "Pluralistic",
-      "content": "Today's links Spying on kids to save kids from spying is very, very stupid: First they came for the VPNs. Hey look at this: Delights to delectate. Object permanence: RIP Darwin's tortoise; ISPs conspire to create copyright jail; Waxy v fair use; Broken Windows is BS; Google is a machine-learning com"
     },
     {
       "title": "‘Popa’ Botnet Linked to Publicly-Traded Israeli Firm",
@@ -708,6 +731,38 @@
   ],
   "syndicate_journal": [
     {
+      "title": "Evidence of Recently Discovered Bat Behavior Found Hiding in Plain Sight in Renaissance Painting",
+      "link": "https://nautil.us/evidence-of-recently-discovered-bat-behavior-found-hiding-in-plain-sight-in-renaissance-painting-1282298/",
+      "summary": "The Flemish painter Jan Brueghel the Elder captured the bird-eating behavior in 1611\nThe post Evidence of Recently Discovered Bat Behavior Found Hiding in Plain Sight in Renaissance Painting appeared first on Nautilus.",
+      "pubDate": "Mon, 29 Jun 2026 19:01:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "Gig Workers in Mexico Are Organizing",
+      "link": "",
+      "summary": "Chanting, “We are not partners, we are workers,” hundreds of workers across Mexico who provide rides and deliveries through apps held a two-hour work stoppage on May 15 demanding fair rates, an end to unjustified deactivations, and ultimately a collective labor agreement with app giants like Uber, D",
+      "pubDate": "2026-06-29T17:56:00.016Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "Socialist Melat Kiros Is Running for Congress in Colorado",
+      "link": "",
+      "summary": "Socialist candidates for Congress are on a roll this election cycle.\nIn May, Pennsylvania state house member , endorsed by the Democratic Socialists of America (DSA), as well as incumbent democratic socialist representatives Alexandria Ocasio-Cortez and Rashida Tlaib, pulled a victory in the Democra",
+      "pubDate": "2026-06-29T17:37:03.523Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "Trumped",
+      "link": "https://languagelog.ldc.upenn.edu/nll/?p=73777&utm_source=rss&utm_medium=rss&utm_campaign=trumped",
+      "summary": "The last six panels of Yesterday's Doonesbury: Letter sequences aside, what's the relation of trumped up to the president's name? The OED's gloss for (the relevant sense) of trump: A playing-card of that suit which for the time being ranks above the other three, so that any one such card can ‘take’ ",
+      "pubDate": "Mon, 29 Jun 2026 17:13:59 +0000",
+      "domain": "linguistics",
+      "source": "Language Log"
+    },
+    {
       "title": "The Useless Middlemen Making Prescriptions Unaffordable",
       "link": "",
       "summary": "Insurance companies get all the attention for gatekeeping Americans’ health care. But another corporate middleman may have even more influence over prescription prices: pharmacy benefit managers, or PBMs. Most Americans haven’t heard of them, and that invisibility is part of their power.\nSenate cand",
@@ -724,28 +779,12 @@
       "source": "Quanta"
     },
     {
-      "title": "The Wealth Tax Is Popular but Faces Serious Obstacles",
-      "link": "",
-      "summary": "The United States’ descent into  was first gradual, then swift. While the ultrarich have been steadily accumulating political power for decades, the election of Donald Trump in 2024 rapidly accelerated the process. Since then, the country’s oligarchs have grown increasingly brazen in their takeover ",
-      "pubDate": "2026-06-29T13:50:27.216Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
       "title": "Dorm Life Forever? The Problem with Micro-Living",
       "link": "https://daily.jstor.org/dorm-life-forever-the-problem-with-micro-living/",
       "summary": "Research suggests compact housing may normalize economic insecurity rather than address the roots of the affordability crisis.\nThe post Dorm Life Forever? The Problem with Micro-Living appeared first on JSTOR Daily.",
       "pubDate": "Mon, 29 Jun 2026 13:42:40 +0000",
       "domain": "history",
       "source": "JSTOR Daily"
-    },
-    {
-      "title": "Omer Bartov: “I Don’t Believe Zionism Can Be Repaired”",
-      "link": "",
-      "summary": "Omer Bartov is one of the world’s leading scholars of genocide and the Holocaust. A professor of history at Brown University, he has written extensively on nationalism, political violence, and historical memory.\nIn his new book, , Bartov examines the evolution of Zionism from a movement that spoke o",
-      "pubDate": "2026-06-29T13:04:43.609Z",
-      "domain": "politics",
-      "source": "Jacobin"
     },
     {
       "title": "Timelapse of the Universe",
@@ -812,26 +851,10 @@
       "source": "Language Log"
     },
     {
-      "title": "\"Voice AI\" is really Text AI with a voice overlay",
-      "link": "https://languagelog.ldc.upenn.edu/nll/?p=73756&utm_source=rss&utm_medium=rss&utm_campaign=voice-ai-is-really-text-ai-with-a-voice-overlay",
-      "summary": "Martijn Bartelds, Federico Bianchi, James Zou, \"Real-Time Voice AI Hears but Does Not Listen\", 6/24/2026: Speech conveys information through both words and vocal delivery. We evaluate four leading production realtime voice systems – OpenAI's GPT Realtime 2, Google's Gemini 3.1 Flash Live, and Alibab",
-      "pubDate": "Sat, 27 Jun 2026 00:36:51 +0000",
-      "domain": "linguistics",
-      "source": "Language Log"
-    },
-    {
       "title": "Four New Chameleon Species Found in Tropical “Sky Islands”",
       "link": "https://nautil.us/four-new-chameleon-species-found-in-tropical-sky-islands-1282292/",
       "summary": "Two of which are named after pioneering female scientists\nThe post Four New Chameleon Species Found in Tropical “Sky Islands” appeared first on Nautilus.",
       "pubDate": "Fri, 26 Jun 2026 23:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
-      "title": "The New Seismic Discovery Beneath the Surface of Mars",
-      "link": "https://nautil.us/the-new-seismic-discovery-beneath-the-surface-of-mars-1282289/",
-      "summary": "Earth isn’t alone—in its rock recycling processes\nThe post The New Seismic Discovery Beneath the Surface of Mars appeared first on Nautilus.",
-      "pubDate": "Fri, 26 Jun 2026 22:00:00 +0000",
       "domain": "science",
       "source": "Nautilus"
     },
@@ -874,30 +897,6 @@
       "pubDate": "Thu, 25 Jun 2026 13:33:00 +0000",
       "domain": "history",
       "source": "JSTOR Daily"
-    },
-    {
-      "title": "How Can We Feel Loved If We Don’t Feel Known?",
-      "link": "https://behavioralscientist.org/how-can-we-feel-loved-if-we-dont-feel-known/",
-      "summary": "For Sonja, researching happiness means being asked over and over again, “What is the secret to happiness?” Sonja has always dreaded that question. It’s ridiculous, it’s reductive, and it’s restrictive. But mostly she has dreaded it because she has never had a solid, science-based answer that she cou",
-      "pubDate": "Sun, 21 Jun 2026 16:48:41 +0000",
-      "domain": "psychology",
-      "source": "Behavioral Scientist"
-    },
-    {
-      "title": "What It’s Like to Be…an Airline Pilot",
-      "link": "https://behavioralscientist.org/what-its-like-to-be-an-airline-pilot/",
-      "summary": "Shooting cat-three landings in the fog, using the “voice of God” on unruly passengers, and declaring Mayday after an engine fire with Paul Drusch, a commercial airline pilot. Why does the pilot’s paycheck start with the parking brake? And what does “sterile cockpit” mean? (Spoiler: it doesn’t mean “",
-      "pubDate": "Sun, 21 Jun 2026 10:20:49 +0000",
-      "domain": "psychology",
-      "source": "Behavioral Scientist"
-    },
-    {
-      "title": "What It’s Like to Be…a Clinical Ethicist",
-      "link": "https://behavioralscientist.org/what-its-like-to-be-a-clinical-ethicist/",
-      "summary": "Untangling who gets to speak for a dying patient, weighing a treatment's benefits against its burdens, and searching for clarity in the grayest corners of healthcare with Esther Berkowitz, a clinical ethicist. What is the \"dignity of risk\"? And how do you know which \"version\" of a person to trust?\n\n",
-      "pubDate": "Sun, 21 Jun 2026 10:19:57 +0000",
-      "domain": "psychology",
-      "source": "Behavioral Scientist"
     },
     {
       "title": "Louis Pope Gratacap, A Curator in Lost Worlds\n",
@@ -998,64 +997,64 @@
   ],
   "misinfo_toilet": [
     {
-      "headline": "Iran Risks Peace Talks With U.S. to Maintain Leverage Over Strait",
-      "fragment": "Over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
-      "splice": "Iran Risks Peace Talks With U.S. to Maintain Leverage Over Strait because over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
-      "seed": 20260644
-    },
-    {
-      "headline": "Poster Boy: Sanctioned Kinahan Cartel Lieutenant Found Playing Padel in Dubai",
+      "headline": "The Peter Thiel Ally Who Helped Kill Gawker Wanted to Save Journalism. Then His Site Went Dark.",
       "fragment": "This is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
-      "splice": "Poster Boy: Sanctioned Kinahan Cartel Lieutenant Found Playing Padel in Dubai ...as this is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
-      "seed": 20260645
-    },
-    {
-      "headline": "Scale of Venezuela Earthquakes Death Toll Could Take Weeks to Emerge",
-      "fragment": "The truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
-      "splice": "Scale of Venezuela Earthquakes Death Toll Could Take Weeks to Emerge despite the truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
-      "seed": 20260646
-    },
-    {
-      "headline": "Sixth person dies after shooting at youth welfare centre in Germany",
-      "fragment": "Simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
-      "splice": "Sixth person dies after shooting at youth welfare centre in Germany while simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
-      "seed": 20260647
-    },
-    {
-      "headline": "Keir Starmer’s Downfall Is the Only Reward for Simpering Centrism",
-      "fragment": "This is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
-      "splice": "Keir Starmer’s Downfall Is the Only Reward for Simpering Centrism ...as this is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
-      "seed": 20260648
-    },
-    {
-      "headline": "Pakistan Attacks Afghanistan, Killing More Than 30",
-      "fragment": "Simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
-      "splice": "Pakistan Attacks Afghanistan, Killing More Than 30 insofar as simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
+      "splice": "The Peter Thiel Ally Who Helped Kill Gawker Wanted to Save Journalism. Then His Site Went Dark. ...as this is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
       "seed": 20260649
     },
     {
-      "headline": "Trump Claimed to Run Venezuela. After Earthquakes, He’s Walking That Back.",
-      "fragment": "It is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
-      "splice": "Trump Claimed to Run Venezuela. After Earthquakes, He’s Walking That Back. ...as it is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
+      "headline": "Poster Boy: Sanctioned Kinahan Cartel Lieutenant Found Playing Padel in Dubai",
+      "fragment": "Simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
+      "splice": "Poster Boy: Sanctioned Kinahan Cartel Lieutenant Found Playing Padel in Dubai insofar as simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
       "seed": 20260650
     },
     {
-      "headline": "Super-Potent Synthetic Opioids Spread Across US Amid Fentanyl Crackdown",
-      "fragment": "Reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
-      "splice": "Super-Potent Synthetic Opioids Spread Across US Amid Fentanyl Crackdown within which reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
+      "headline": "Putin makes rare admission of fuel shortages caused by Ukrainian strikes",
+      "fragment": "It is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
+      "splice": "Putin makes rare admission of fuel shortages caused by Ukrainian strikes ...as it is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
       "seed": 20260651
     },
     {
-      "headline": "Mideast Live Updates: U.S. and Iran Set for New Talks in Qatar, Trump Says",
+      "headline": "The Trump Administration’s Shameless Snuff-Film Fixation",
       "fragment": "Reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
-      "splice": "Mideast Live Updates: U.S. and Iran Set for New Talks in Qatar, Trump Says therefore reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
+      "splice": "The Trump Administration’s Shameless Snuff-Film Fixation within which reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
       "seed": 20260652
     },
     {
-      "headline": "Tracing Digital Links Between Viory and Ruptly",
-      "fragment": "It is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
-      "splice": "Tracing Digital Links Between Viory and Ruptly while it is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
+      "headline": "Six people shot dead at centre for mothers and children in Germany",
+      "fragment": "Reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
+      "splice": "Six people shot dead at centre for mothers and children in Germany therefore reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
       "seed": 20260653
+    },
+    {
+      "headline": "How to Use AI to Help Find Civilian Harm",
+      "fragment": "It is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
+      "splice": "How to Use AI to Help Find Civilian Harm while it is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
+      "seed": 20260654
+    },
+    {
+      "headline": "Martinelli scores late as Brazil beat Japan 2-1, enter World Cup last 16",
+      "fragment": "The privatization of the organs will only begin with the shame felt by man at the sight of man.",
+      "splice": "Martinelli scores late as Brazil beat Japan 2-1, enter World Cup last 16 despite the privatization of the organs will only begin with the shame felt by man at the sight of man.",
+      "seed": 20260655
+    },
+    {
+      "headline": "Tracing Digital Links Between Viory and Ruptly",
+      "fragment": "The truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
+      "splice": "Tracing Digital Links Between Viory and Ruptly the system notes that the truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
+      "seed": 20260656
+    },
+    {
+      "headline": "Mum rescued from Venezuela rubble with newborn baby tells BBC how he helped her survive",
+      "fragment": "Why do men fight for their servitude as stubbornly as though it were their salvation?",
+      "splice": "Mum rescued from Venezuela rubble with newborn baby tells BBC how he helped her survive because why do men fight for their servitude as stubbornly as though it were their salvation?",
+      "seed": 20260657
+    },
+    {
+      "headline": "Pakistani strikes kill dozens of Afghan villagers",
+      "fragment": "Traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
+      "splice": "Pakistani strikes kill dozens of Afghan villagers underneath traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
+      "seed": 20260658
     }
   ]
 }
