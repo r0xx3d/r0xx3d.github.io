@@ -1,7 +1,22 @@
 {
-  "generated_at": "2026-07-01T14:43:13.345Z",
+  "generated_at": "2026-07-01T22:19:33.739Z",
   "threat_intel": {
     "cisa_kev": [
+      {
+        "cveID": "CVE-2026-45659",
+        "vendorProject": "Microsoft",
+        "product": "SharePoint Server",
+        "vulnerabilityName": "Microsoft SharePoint Server Deserialization of Untrusted Data Vulnerability",
+        "dateAdded": "2026-07-01",
+        "shortDescription": "Microsoft SharePoint Server contains a deserialization of untrusted data vulnerability which allows an authorized attacker to execute code over a network.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-07-04",
+        "knownRansomwareCampaignUse": "Unknown",
+        "notes": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45659 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-45659",
+        "cwes": [
+          "CWE-502"
+        ]
+      },
       {
         "cveID": "CVE-2026-48558",
         "vendorProject": "SimpleHelp ",
@@ -214,28 +229,13 @@
           "CWE-787",
           "CWE-125"
         ]
-      },
-      {
-        "cveID": "CVE-2026-7473",
-        "vendorProject": "Arista",
-        "product": "Extensible Operating System",
-        "vulnerabilityName": "Arista Extensible Operating System Incomplete Comparison with Missing Factors Vulnerability",
-        "dateAdded": "2026-06-09",
-        "shortDescription": "Arista Extensible Operating System (EOS) contains an incomplete comparison with missing factors vulnerability when the switch incorrectly decapsulate and forwards other unexpected tunneled packet with a destination IP matching its configured decapsulation IP.",
-        "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-        "dueDate": "2026-06-23",
-        "knownRansomwareCampaignUse": "Unknown",
-        "notes": "https://www.arista.com/en/support/advisories-notices/security-advisory/24005-security-advisory-0137 ; https://nvd.nist.gov/vuln/detail/CVE-2026-7473",
-        "cwes": [
-          "CWE-1023"
-        ]
       }
     ],
     "urlhaus": [
       {
-        "id": "3878955",
-        "date_added": "2026-07-01 14:37:21",
-        "url": "http://42.231.113.62:50049/i",
+        "id": "3879030",
+        "date_added": "2026-07-01 22:12:08",
+        "url": "http://125.44.244.56:44944/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -246,153 +246,45 @@
         ]
       },
       {
-        "id": "3878954",
-        "date_added": "2026-07-01 14:37:12",
-        "url": "http://219.154.173.162:35040/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3878953",
-        "date_added": "2026-07-01 14:35:20",
-        "url": "http://61.52.2.248:59819/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3878952",
-        "date_added": "2026-07-01 14:34:27",
-        "url": "http://115.48.36.219:50199/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3878951",
-        "date_added": "2026-07-01 14:24:25",
-        "url": "https://j2rfzlmu.enf90.net/?ublib=dfcf517a-cdd3-417a-bb05-575ff97ef085",
+        "id": "3879028",
+        "date_added": "2026-07-01 22:04:05",
+        "url": "https://phcbmap.vip1xbet.net/3ba097aa-2c3d-423f-b757-ac32580b80b2",
         "url_status": "offline",
         "threat": "malware_download",
         "tags": [
           "ClearFake",
-          "mac-0x68dc",
-          "macOS"
+          "win-0x4679",
+          "windows"
         ]
       },
       {
-        "id": "3878950",
-        "date_added": "2026-07-01 14:18:10",
-        "url": "http://42.231.113.62:50049/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3878949",
-        "date_added": "2026-07-01 14:10:11",
-        "url": "http://61.52.2.248:59819/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3878948",
-        "date_added": "2026-07-01 14:07:18",
-        "url": "http://27.44.147.60:52992/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3878947",
-        "date_added": "2026-07-01 14:00:18",
-        "url": "https://nightmare-cheats.pw/NMLoader4.2.1.zip",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "zip"
-        ]
-      },
-      {
-        "id": "3878946",
-        "date_added": "2026-07-01 13:59:25",
-        "url": "https://hol.villgrow.life/DX.zip",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "malware",
-          "stealer"
-        ]
-      },
-      {
-        "id": "3878944",
-        "date_added": "2026-07-01 13:59:24",
-        "url": "http://141.11.88.119/dg.mips",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "elf",
-          "iot",
-          "mirai"
-        ]
-      },
-      {
-        "id": "3878945",
-        "date_added": "2026-07-01 13:59:24",
-        "url": "https://xeno.help/downloads/Xeno-v1.3.55.rar",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "rar",
-          "stealer"
-        ]
-      },
-      {
-        "id": "3878943",
-        "date_added": "2026-07-01 13:59:14",
-        "url": "https://setup-code.com/install.ps1",
+        "id": "3879029",
+        "date_added": "2026-07-01 22:04:05",
+        "url": "https://uamhqvjx.abresanishahri.store/10129262-2452-481f-bb8f-392907e90f17",
         "url_status": "offline",
         "threat": "malware_download",
         "tags": [
-          "None"
+          "ClearFake",
+          "win-0x0cd5",
+          "windows"
         ]
       },
       {
-        "id": "3878942",
-        "date_added": "2026-07-01 13:58:08",
-        "url": "http://110.36.15.18:48106/i",
+        "id": "3879027",
+        "date_added": "2026-07-01 22:03:21",
+        "url": "https://lwflkiar.betsoor.live/460da77f-1d92-4cf2-b5d3-fe7fcca31370",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "ClearFake",
+          "win-0xa770",
+          "windows"
+        ]
+      },
+      {
+        "id": "3879026",
+        "date_added": "2026-07-01 22:02:09",
+        "url": "http://182.113.248.145:35518/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -403,9 +295,21 @@
         ]
       },
       {
-        "id": "3878941",
-        "date_added": "2026-07-01 13:55:15",
-        "url": "http://110.36.15.18:48106/bin.sh",
+        "id": "3879025",
+        "date_added": "2026-07-01 21:50:07",
+        "url": "https://jpopdwg.vip1xbet.net/887e4755-f7b8-4f69-9917-73976e7e3ea5",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "ClearFake",
+          "win-0x4679",
+          "windows"
+        ]
+      },
+      {
+        "id": "3879024",
+        "date_added": "2026-07-01 21:25:12",
+        "url": "http://115.48.27.166:55311/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -416,19 +320,9 @@
         ]
       },
       {
-        "id": "3878940",
-        "date_added": "2026-07-01 13:52:08",
-        "url": "http://138.252.69.11:51869/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "mirai"
-        ]
-      },
-      {
-        "id": "3878939",
-        "date_added": "2026-07-01 13:50:16",
-        "url": "http://27.215.211.129:50886/i",
+        "id": "3879023",
+        "date_added": "2026-07-01 21:17:16",
+        "url": "http://42.85.135.133:46174/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -439,21 +333,9 @@
         ]
       },
       {
-        "id": "3878938",
-        "date_added": "2026-07-01 13:49:09",
-        "url": "http://91.92.242.236/files-129312398/files/file_c0316791e95a0e3f.exe",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "9d2ca3",
-          "dropped-by-amadey",
-          "MaskGramStealer"
-        ]
-      },
-      {
-        "id": "3878937",
-        "date_added": "2026-07-01 13:48:16",
-        "url": "http://182.114.211.11:42818/i",
+        "id": "3879022",
+        "date_added": "2026-07-01 21:08:09",
+        "url": "http://219.155.251.103:43616/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -464,9 +346,9 @@
         ]
       },
       {
-        "id": "3878936",
-        "date_added": "2026-07-01 13:45:17",
-        "url": "http://182.112.147.45:46853/i",
+        "id": "3879021",
+        "date_added": "2026-07-01 21:04:14",
+        "url": "http://220.249.175.20:58631/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -476,30 +358,231 @@
           "mirai",
           "Mozi"
         ]
+      },
+      {
+        "id": "3879020",
+        "date_added": "2026-07-01 21:04:13",
+        "url": "http://123.10.15.235:48416/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3879019",
+        "date_added": "2026-07-01 21:02:07",
+        "url": "http://116.140.173.225:55136/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3879018",
+        "date_added": "2026-07-01 21:01:08",
+        "url": "http://115.48.27.166:55311/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3879017",
+        "date_added": "2026-07-01 20:55:16",
+        "url": "http://110.36.19.101:43670/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3879016",
+        "date_added": "2026-07-01 20:40:10",
+        "url": "http://110.36.19.101:43670/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3879015",
+        "date_added": "2026-07-01 20:39:08",
+        "url": "https://7ipg23zj.bet808.poker/?ublib=76959cda-9e5e-497a-9f75-e1b8f95ded46",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "ClearFake",
+          "mac-0x68dc",
+          "macOS"
+        ]
+      },
+      {
+        "id": "3879013",
+        "date_added": "2026-07-01 20:37:09",
+        "url": "http://182.113.31.70:50018/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3879014",
+        "date_added": "2026-07-01 20:37:09",
+        "url": "http://116.140.173.225:55136/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3879012",
+        "date_added": "2026-07-01 20:31:23",
+        "url": "http://115.55.52.84:57152/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3879011",
+        "date_added": "2026-07-01 20:31:13",
+        "url": "http://27.206.189.240:58978/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "Mozi"
+        ]
       }
     ]
   },
   "world_monitor": [
     {
+      "title": "E Jean Carroll demands Donald Trump pay $5.8m in damages from 2019 case",
+      "link": "https://www.aljazeera.com/news/2026/7/1/e-jean-carroll-demands-donald-trump-pay-5-8m-in-damages-from-2019-case?traffic_source=rss",
+      "pubDate": "Wed, 01 Jul 2026 21:45:58 +0000",
+      "source": "Al Jazeera",
+      "summary": "Carroll's lawyers have asked for an expedited resolution to the payment question after US Supreme Court declines appeal."
+    },
+    {
+      "title": "Aunt of Venezuelan boy pulled from rubble tells BBC she will give him 'mother's warmth'",
+      "link": "https://www.bbc.co.uk/news/articles/c05yv34qlnlo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Wed, 01 Jul 2026 21:27:04 GMT",
+      "source": "BBC",
+      "summary": "Kleiber Moran, 2, was rescued on Wednesday, six days after last week's deadly earthquakes."
+    },
+    {
+      "title": "As Earthquake Death Toll Mounts, Venezuela Grapples With Recovering and Burying Bodies",
+      "link": "https://www.nytimes.com/2026/07/01/world/americas/venezuela-earthquakes-bodies-morgues.html",
+      "pubDate": "Wed, 01 Jul 2026 21:21:29 +0000",
+      "source": "NYT World",
+      "summary": "As the death toll mounts, thousands of bodies have overwhelmed Venezuela’s forensic system, turning a seaport into a temporary morgue."
+    },
+    {
+      "title": "US signs $1 lease with Israel to build permanent embassy in West Jerusalem",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/7/1/us-signs-1-lease-with-israel-to-build-permanent-embassy-in-west-jerusalem?traffic_source=rss",
+      "pubDate": "Wed, 01 Jul 2026 21:09:15 +0000",
+      "source": "Al Jazeera",
+      "summary": "The US and Israel have signed a deal allocating land for a permanent US embassy in West Jerusalem."
+    },
+    {
+      "title": "US Supreme Court hands wealthy donors more sway with latest decision",
+      "link": "https://www.aljazeera.com/news/2026/7/1/us-supreme-court-hands-wealthy-donors-more-sway-with-latest-decision?traffic_source=rss",
+      "pubDate": "Wed, 01 Jul 2026 21:04:19 +0000",
+      "source": "Al Jazeera",
+      "summary": "Critics say the ruling invites corruption, benefitting wealthy donors and amplifying special interest sway in politics."
+    },
+    {
+      "title": "LIVE: USA vs Bosnia and Herzegovina – FIFA World Cup 2026",
+      "link": "https://www.aljazeera.com/sports/liveblog/2026/7/1/live-usa-vs-bosnia-and-herzegovina-fifa-world-cup-2026?traffic_source=rss",
+      "pubDate": "Wed, 01 Jul 2026 21:03:01 +0000",
+      "source": "Al Jazeera",
+      "summary": "Live coverage and text updates as USA play Bosnia and Herzegovina in the round of 32 knockout stage in San Francisco."
+    },
+    {
+      "title": "Iran to open ‘communication channel’ on MoU with US after talks in Qatar",
+      "link": "https://www.aljazeera.com/news/2026/7/1/iran-to-open-communication-channel-on-mou-with-us-after-talks-in-qatar?traffic_source=rss",
+      "pubDate": "Wed, 01 Jul 2026 20:55:04 +0000",
+      "source": "Al Jazeera",
+      "summary": "Iran's Deputy FM Gharibabadi also says part of $6bn in frozen assets would be used to buy goods that Tehran needs."
+    },
+    {
+      "title": "US blocks long-term renewal of North American trade deal",
+      "link": "https://www.bbc.co.uk/news/articles/ce8j2lmrvrdo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Wed, 01 Jul 2026 18:56:36 GMT",
+      "source": "BBC",
+      "summary": "US blocks 16-year North America trade deal renewal, triggering annual rolling reviews"
+    },
+    {
+      "title": "After Venezuela Earthquakes, Deportees from the U.S. Are Missing or Found Dead",
+      "link": "https://www.nytimes.com/2026/07/01/world/americas/venezuela-earthquakes-deportees-us-deaths.html",
+      "pubDate": "Wed, 01 Jul 2026 18:24:12 +0000",
+      "source": "NYT World",
+      "summary": "Many of the 146 Venezuelans deported from the United States the day the earthquake struck are feared dead."
+    },
+    {
+      "title": "Ukrainian charged in Germany over Nord Stream blasts",
+      "link": "https://www.bbc.co.uk/news/articles/c33yjk0ldkdo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Wed, 01 Jul 2026 18:19:32 GMT",
+      "source": "BBC",
+      "summary": "Ukraine denies involvement in the case which may have serious implications for its relationship with Germany."
+    },
+    {
+      "title": "Bombings in Greece Target Governing Party Members, Officials Say",
+      "link": "https://www.nytimes.com/2026/07/01/world/europe/greece-bombings-thessaloniki.html",
+      "pubDate": "Wed, 01 Jul 2026 17:44:52 +0000",
+      "source": "NYT World",
+      "summary": "A candidate for Parliament for the New Democracy party was injured in one of the bombings in the city of Thessaloniki, as were her parents, the police said."
+    },
+    {
+      "title": "Nigeria to seek compensation for property abandoned by citizens fleeing South Africa",
+      "link": "https://www.bbc.co.uk/news/articles/c9d2n8elwdlo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Wed, 01 Jul 2026 17:40:29 GMT",
+      "source": "BBC",
+      "summary": "Nigeria's High Commissioner says businesses and properties left behind by returnees are being documented."
+    },
+    {
       "title": "U.S. and Iran Set to Hold Indirect Talks After Trading Attacks: What to Know",
       "link": "https://www.nytimes.com/2026/07/01/world/middleeast/us-iran-diplomacy-qatar.html",
-      "pubDate": "Wed, 01 Jul 2026 14:37:18 +0000",
+      "pubDate": "Wed, 01 Jul 2026 17:20:08 +0000",
       "source": "NYT World",
       "summary": "Negotiators are in Qatar for indirect talks and ship traffic has risen in the Strait of Hormuz, even as Tehran and Washington remain far apart on key issues. Here’s what to know."
     },
     {
-      "title": "Sabalenka overcomes Kessler at Wimbledon, sets up Ostapenko clash",
-      "link": "https://www.aljazeera.com/sports/2026/7/1/sabalenka-overcomes-kessler-at-wimbledon-sets-up-ostapenko-clash?traffic_source=rss",
-      "pubDate": "Wed, 01 Jul 2026 14:32:01 +0000",
-      "source": "Al Jazeera",
-      "summary": "Top-seeded Aryna Sabalenka will play former French Open champion Jelena Ostapenko in a challenging last-32 matchup."
+      "title": "Watch: Two people climb to highest point of Empire State Building",
+      "link": "https://www.bbc.co.uk/news/videos/cz75gz79pl2o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Wed, 01 Jul 2026 17:08:56 GMT",
+      "source": "BBC",
+      "summary": "The two were atop the 1,454 ft (443 m) building for at least ten minutes and displayed a large banner before climbing down."
     },
     {
-      "title": "After Afghanistan fires drones into Pakistan, what’s next?",
-      "link": "https://www.aljazeera.com/news/2026/7/1/after-afghanistan-fires-drones-into-pakistan-whats-next?traffic_source=rss",
-      "pubDate": "Wed, 01 Jul 2026 14:14:16 +0000",
-      "source": "Al Jazeera",
-      "summary": "Pakistan and Afghanistan have been locked in an on-off cycle of cross-border strikes, leaving their ties in tatters."
+      "title": "ICE Flouting Federal Judge’s Order to Stop Arresting Immigrants at New York Courts",
+      "link": "https://theintercept.com/2026/07/01/ice-court-order-arrests/",
+      "pubDate": "Wed, 01 Jul 2026 17:03:34 +0000",
+      "source": "The Intercept",
+      "summary": "“ICE continues to flagrantly violate the law by arresting immigrants who are attending their mandatory court hearings,” said Rep. Dan Goldman.\nThe post ICE Flouting Federal Judge’s Order to Stop Arresting Immigrants at New York Courts appeared first "
     },
     {
       "title": "Trump Has Already Launched More Death Penalty Prosecutions Than in His Entire First Term",
@@ -509,48 +592,6 @@
       "summary": "Pam Bondi and Todd Blanche have pushed hard for new death sentences, including in states that have abolished executions.\nThe post Trump Has Already Launched More Death Penalty Prosecutions Than in His Entire First Term appeared first on The Intercept"
     },
     {
-      "title": "Catholic Group Consecrates 4 Bishops, Risking Break With Vatican",
-      "link": "https://www.nytimes.com/2026/07/01/world/europe/vatican-bishops-church-excommunication.html",
-      "pubDate": "Wed, 01 Jul 2026 14:01:43 +0000",
-      "source": "NYT World",
-      "summary": "The traditionalist Society of St. Pius X went ahead with the ceremony, even after the Vatican warned it would result in the bishops’ excommunication."
-    },
-    {
-      "title": "Caught between the US and China, can Europe remain competitive?",
-      "link": "https://www.aljazeera.com/video/counting-the-cost/2026/7/1/caught-between-the-us-and-china-can-europe-remain-competitive?traffic_source=rss",
-      "pubDate": "Wed, 01 Jul 2026 14:00:52 +0000",
-      "source": "Al Jazeera",
-      "summary": "As trade tensions grow, Europe tries to remain competitive while balancing ties with the US and China."
-    },
-    {
-      "title": "Colorado primary election results: Melat Kiros wins – key takeaways",
-      "link": "https://www.aljazeera.com/news/2026/7/1/colorado-primary-election-results-melat-kiros-wins-key-takeaways?traffic_source=rss",
-      "pubDate": "Wed, 01 Jul 2026 13:59:07 +0000",
-      "source": "Al Jazeera",
-      "summary": "Melat Kiros defeated Diana DeGette, who has been in office for as long as the 29-year-old Kiros has been alive."
-    },
-    {
-      "title": "Trump made more than $1bn from crypto in first year back in office",
-      "link": "https://www.bbc.co.uk/news/articles/cvgmv98ez3zo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Wed, 01 Jul 2026 13:52:20 GMT",
-      "source": "BBC",
-      "summary": "The president's crypto income far outpaces his earnings from real estate and Trump-themed items such as watches."
-    },
-    {
-      "title": "Algeria heads to legislative polls amid record-low turnout fear",
-      "link": "https://www.aljazeera.com/news/2026/7/1/algeria-heads-to-legislative-polls-amid-record-low-turnout-fear?traffic_source=rss",
-      "pubDate": "Wed, 01 Jul 2026 13:38:48 +0000",
-      "source": "Al Jazeera",
-      "summary": "Post-Hirak distrust, candidate exclusions and political apathy are expected to drive low turnout."
-    },
-    {
-      "title": "Fire at Antwerp apartment block kills at least six",
-      "link": "https://www.bbc.co.uk/news/articles/c621dx0vl7xo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Wed, 01 Jul 2026 13:10:23 GMT",
-      "source": "BBC",
-      "summary": "A man is seen clambering through a window to escape black smoke in the block where some 200 people live."
-    },
-    {
       "title": "Underground Births, Under Bombardment: Childbearing in Ukraine",
       "link": "https://www.nytimes.com/2026/07/01/world/europe/ukraine-war-pregnant-women-hospitals.html",
       "pubDate": "Wed, 01 Jul 2026 12:33:26 +0000",
@@ -558,46 +599,11 @@
       "summary": "Bombings, blackouts and displacement compound maternal anxiety. Still, many women persevere. “We must bring new life,” one said."
     },
     {
-      "title": "After Venezuela Earthquakes, Deportees from the U.S. Are Missing or Found Dead",
-      "link": "https://www.nytimes.com/2026/07/01/world/americas/venezuela-earthquakes-deportees-us-deaths.html",
-      "pubDate": "Wed, 01 Jul 2026 11:50:21 +0000",
-      "source": "NYT World",
-      "summary": "Many of the 146 Venezuelans deported from the United States the day the earthquake struck are feared dead."
-    },
-    {
-      "title": "Three die in Mexico City World Cup celebrations",
-      "link": "https://www.bbc.co.uk/news/articles/cx2xjwj8p39o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Wed, 01 Jul 2026 11:01:12 GMT",
-      "source": "BBC",
-      "summary": "More than one million people took to the streets of Mexico City on Tuesday to mark the country's win over Ecuador."
-    },
-    {
-      "title": "A Risky Burial in the Heart of an Ebola Outbreak",
-      "link": "https://www.nytimes.com/2026/07/01/world/africa/ebola-congo-burials.html",
-      "pubDate": "Wed, 01 Jul 2026 09:01:58 +0000",
-      "source": "NYT World",
-      "summary": "Safe interment is critical to containing the deadly disease, but in recent days around one Congolese town, that was not always being done."
-    },
-    {
-      "title": "Three-year-old rescued and taken to hospital six days after Venezuela quake",
-      "link": "https://www.bbc.co.uk/news/articles/c1jykwk8n18o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Wed, 01 Jul 2026 06:03:08 GMT",
-      "source": "BBC",
-      "summary": "Video footage shows rescuers cheering as the child is pulled from rubble in La Guaira state."
-    },
-    {
       "title": "Socialist Momentum Grows as Melat Kiros Wins in Denver",
       "link": "https://theintercept.com/2026/07/01/colorado-primary-results-midterms-socialists-kiros-degette/",
       "pubDate": "Wed, 01 Jul 2026 04:09:05 +0000",
       "source": "The Intercept",
       "summary": "A democratic socialist who lost her job for speaking out about Gaza unseated a 29-year incumbent.\nThe post Socialist Momentum Grows as Melat Kiros Wins in Denver appeared first on The Intercept."
-    },
-    {
-      "title": "A plane crashed into a tower in Beijing but China is not saying what happened",
-      "link": "https://www.bbc.co.uk/news/articles/crlwe28dz44o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Tue, 30 Jun 2026 23:24:05 GMT",
-      "source": "BBC",
-      "summary": "The collision left holes on the side of the tower, but Beijing has scrubbed other visible traces of the incident."
     },
     {
       "title": "How to Show That Israel’s Sexual Violence Against Palestinians Is Systemic — and Has Gone on for Decades",
@@ -612,13 +618,6 @@
       "pubDate": "Tue, 30 Jun 2026 20:02:44 +0000",
       "source": "The Intercept",
       "summary": "Democratic leaders did not formally whip for Rep. Rashida Tlaib’s bill, but they spoke in favor of it on the House floor.\nThe post Congressional Dems Shift to Overwhelmingly Oppose Involvement in Israel’s War on Lebanon appeared first on The Intercep"
-    },
-    {
-      "title": "Even the Liberal Supreme Court Justices Ceded Ground in the Fight for Trans Existence",
-      "link": "https://theintercept.com/2026/06/30/supreme-court-trans-athletes-sports/",
-      "pubDate": "Tue, 30 Jun 2026 17:32:45 +0000",
-      "source": "The Intercept",
-      "summary": "This was always the plan for the anti-trans zealots who saw girls’ sports as an easy entry point from which to decimate trans people’s civil rights protections.\nThe post Even the Liberal Supreme Court Justices Ceded Ground in the Fight for Trans Exis"
     },
     {
       "title": "Burning Forests: Tools for Tracking and Reporting Wildfire Damage",
@@ -658,6 +657,13 @@
   ],
   "syndication": [
     {
+      "title": "Pluralistic: Technocarcinization (01 Jul 2026)",
+      "link": "https://pluralistic.net/2026/07/01/ontogeny/",
+      "pubDate": "Wed, 01 Jul 2026 15:14:12 +0000",
+      "author": "Pluralistic",
+      "content": "Today's links Technocarcinization: Enshittification is the great leveler. Hey look at this: Delights to delectate. Object permanence: Grampa's backyard Disneyland; Elizabeth Warren on monopolies; Spotify v Apple (antitrust edn); Exxon lobbyist confesses; \"When the Sparrow Falls.\" Upcoming appearance"
+    },
+    {
       "title": "Papa Johns Surveillance-Based Advertising",
       "link": "https://www.schneier.com/blog/archives/2026/07/papa-johns-surveillance-based-advertising.html",
       "pubDate": "2026-07-01T10:53:23.000Z",
@@ -693,13 +699,6 @@
       "content": "Interesting research on a new class of weak RSA keys: keys with lots of zeros. It turns out that these keys are out in the wild.\nThe badkeys project is an open-source service that checks public keys for known vulnerabilities. While developing this tool, Hanno collected a massive number of real-world"
     },
     {
-      "title": "Pluralistic: Zuckerberg's increasingly bizarre war on whistleblowers (27 Jun 2026)",
-      "link": "https://pluralistic.net/2026/06/27/zuckerstreisand-2/",
-      "pubDate": "Sat, 27 Jun 2026 11:14:05 +0000",
-      "author": "Pluralistic",
-      "content": "Today's links Zuckerberg's increasingly bizarre war on whistleblowers: Under no circumstances should you rush out and read the book that prompted Mark Zuckerberg to demand $111m and eternal auctorial silence. Hey look at this: Delights to delectate. Object permanence: Flame warriors; Cryptography an"
-    },
-    {
       "title": "Scattered Spider Hackers Plead Guilty on Day 1 of Trial",
       "link": "https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/",
       "pubDate": "Tue, 23 Jun 2026 16:12:49 +0000",
@@ -723,6 +722,54 @@
   ],
   "syndicate_journal": [
     {
+      "title": "When It Comes to Back Pain, Maybe You Should be Your Own Doctor",
+      "link": "https://nautil.us/when-it-comes-to-back-pain-maybe-you-should-be-your-own-doctor-1282416/",
+      "summary": "Empowering patients to retake control of their back pain produced surprising results\nThe post When It Comes to Back Pain, Maybe You Should be Your Own Doctor appeared first on Nautilus.",
+      "pubDate": "Wed, 01 Jul 2026 22:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "Ovaries Might Take on an Immune Function After Menopause",
+      "link": "https://nautil.us/ovaries-might-take-on-an-immune-function-after-menopause-1282410/",
+      "summary": "The reproductive organs might have hidden role  \nThe post Ovaries Might Take on an Immune Function After Menopause appeared first on Nautilus.",
+      "pubDate": "Wed, 01 Jul 2026 20:30:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "How a Twitter Post Discovered a New Wasp Species to Japan",
+      "link": "https://nautil.us/how-a-twitter-post-discovered-a-new-wasp-species-to-japan-1282405/",
+      "summary": "Citizen scientists strike again\nThe post How a Twitter Post Discovered a New Wasp Species to Japan appeared first on Nautilus.",
+      "pubDate": "Wed, 01 Jul 2026 19:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "Nurses Are at the Heart of the US Labor Movement",
+      "link": "",
+      "summary": "Labor unions have historically played an essential role in the fight for  and workers’ rights. Yet they have largely retreated during Donald Trump’s second presidency in the face of his administration’s vicious attacks on organized labor.democracy\nIn 2025, the number of strikes in the United States ",
+      "pubDate": "2026-07-01T17:51:55.751Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "Local Organizing Can Slow the GOP’s Rural Takeover",
+      "link": "",
+      "summary": "As Democrats struggle to rebuild  with working-class and rural voters, new evidence points to a surprisingly effective way to increase trust and connection: rebuilding the nonpartisan community organizations that were once crucial for providing the party a  in rural and small-town America. Building ",
+      "pubDate": "2026-07-01T16:27:43.546Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "Inequality Is Shortening American Lives",
+      "link": "",
+      "summary": "The United States is an exceptionally militarized, lethal, and violent country. The growing concentration of economic, political, and military power is draining America of vital resources to sustain healthy and peaceful communities. It is pushing more people to the margins, where a police officer, a",
+      "pubDate": "2026-07-01T15:30:28.104Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
       "title": "For the First Time, a Cell Built From Scratch Grows and Divides",
       "link": "https://www.quantamagazine.org/for-the-first-time-a-cell-built-from-scratch-grows-and-divides-20260701/",
       "summary": "Scientists built a synthetic cell that combines more lifelike properties than ever before — proof of concept that it’s possible to bring nonliving materials to life, or something close to it, in the lab.            \nThe post For the First Time, a Cell Built From Scratch Grows and Divides first appea",
@@ -731,36 +778,12 @@
       "source": "Quanta"
     },
     {
-      "title": "Rat Disease Has a New Pick-Me-Up",
-      "link": "https://nautil.us/rat-disease-has-a-new-pick-me-up-1282392/",
-      "summary": "Drugs in human waste may shape how disease spreads from rats to humans\nThe post Rat Disease Has a New Pick-Me-Up appeared first on Nautilus.",
-      "pubDate": "Wed, 01 Jul 2026 14:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
       "title": "Rediscovering The Jewish Gazette",
       "link": "https://daily.jstor.org/rediscovering-the-jewish-gazette/",
       "summary": "A rare archive reveals how Ireland’s Jewish community navigated identity, culture, and rising antisemitism in the 1930s.\nThe post Rediscovering The Jewish Gazette appeared first on JSTOR Daily.",
       "pubDate": "Wed, 01 Jul 2026 13:36:00 +0000",
       "domain": "history",
       "source": "JSTOR Daily"
-    },
-    {
-      "title": "The Founders Never Meant the US to Be a Democracy",
-      "link": "",
-      "summary": "One of the great contradictions of American life is that we think of ourselves as a democracy, a model for the world, but one with a profoundly rich elite that exercises enormous influence over politics. Although we often feel (correctly) that democracy is eroding in the United States, we shouldn’t ",
-      "pubDate": "2026-07-01T13:32:00.000Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
-      "title": "Edi Rama Must Go",
-      "link": "",
-      "summary": "In July 2021, Ivanka Trump was on a yacht off Albania’s western coast when she, like a modern-day Columbus, discovered Sazan Island, an Enver Hoxha–era army base. She and her husband Jared Kushner were so captivated by the pristine, unpopulated island that they decided to launch a $4 billion mega-re",
-      "pubDate": "2026-07-01T12:46:38.281Z",
-      "domain": "politics",
-      "source": "Jacobin"
     },
     {
       "title": "Noguchi’s New York animations",
@@ -795,36 +818,12 @@
       "source": "arXiv: cs.AI"
     },
     {
-      "title": "The Emergence of a Deadly Hunting Technology in Prehistoric North America",
-      "link": "https://nautil.us/the-emergence-of-a-deadly-hunting-technology-in-prehistoric-north-america-1282396/",
-      "summary": "The atlatl is handy enough to re-invent across cultures\nThe post The Emergence of a Deadly Hunting Technology in Prehistoric North America appeared first on Nautilus.",
-      "pubDate": "Tue, 30 Jun 2026 22:30:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
-      "title": "Watch Bison Fend Off a Wolf Attack on a Newborn Calf",
-      "link": "https://nautil.us/watch-bison-fend-off-a-wolf-attack-on-a-newborn-calf-1282386/",
-      "summary": "They’re not usually considered prey for wolves\nThe post Watch Bison Fend Off a Wolf Attack on a Newborn Calf appeared first on Nautilus.",
-      "pubDate": "Tue, 30 Jun 2026 20:30:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
       "title": "Victor Mair RIP",
       "link": "https://languagelog.ldc.upenn.edu/nll/?p=73799&utm_source=rss&utm_medium=rss&utm_campaign=victor-mair-rip",
       "summary": "Victor Mair passed away two days ago, on Sunday 6/28/2026. We'll have a proper series of memorial posts and links later, but for now, here's a Facebook post from his brother Denis, his Wikipedia page, and a link to LLOG posts written by or mentioning him.",
       "pubDate": "Tue, 30 Jun 2026 19:20:08 +0000",
       "domain": "linguistics",
       "source": "Language Log"
-    },
-    {
-      "title": "Silicon Valley Is on a Lobbying Spree in California",
-      "link": "",
-      "summary": "Silicon Valley and other powerful industries have spent millions of dollars to defeat a landmark bill in California that would expand state regulations against monopolies and threaten common business practices of numerous tech giants. The  has uncovered that lawmakers who may cast the deciding votes",
-      "pubDate": "2026-06-30T18:22:14.427Z",
-      "domain": "politics",
-      "source": "Jacobin"
     },
     {
       "title": "Diagrams for Travel from the Qanoon-e-Islam (1832)\n",
@@ -987,25 +986,25 @@
       "source": "ROAR Magazine"
     },
     {
-      "title": "The scent of serenity: lessons learned from olfactory-enhanced virtual reality for stress reduction in isolated and confined environments",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1769314",
-      "summary": "IntroductionChronic stress and the lack of restorative environments negatively impact behavioral health, especially in isolated, confined, or operational settings. Virtual reality (VR) is a promising behavioral health tool, with virtual nature scenes shown to promote relaxation and improve mood. Enh",
+      "title": "Orienteering and adolescent depressive and anxiety symptoms: indirect associations via psychological resilience and moderation by ADHD symptoms",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1843028",
+      "summary": "ObjectiveTo examine whether participation in orienteering is associated with adolescents’ depression and anxiety, and to examine whether the association between orienteering participation and depressive or anxiety symptoms was statistically linked to resilience, and whether ADHD symptoms moderated t",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "The recognition problem in collective optimal experience: the identity of generation and recognition as a structural event",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1861167",
-      "summary": "The recognition of collective optimal experience remains structurally unresolved in psychology. Existing frameworks—from group flow to collective effervescence—have extended optimal experience to the collective level, yet they have generally treated individual reports as the primary endpoint for det",
+      "title": "Acceptance of AI-assisted English language learning tools in higher education: psychological correlates across disciplinary and proficiency groups",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1806457",
+      "summary": "Artificial intelligence (AI)-assisted language learning tools are increasingly used in higher education, yet student acceptance of these tools may vary across academic disciplines and English proficiency levels. Building on the Technology Acceptance Model (TAM) as a baseline framework, this study ex",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "Bridging classical wisdom and modern pedagogy: pre-service teachers’ cognitive engagement with Kutadgu Bilig",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1878026",
-      "summary": "This study examines how pre-service Turkish language teachers interpret the pedagogical dimensions of Kutadgu Bilig and associate selected couplets with contemporary educational concepts. Employing a qualitative case study design, data were collected from 20 senior pre-service teachers through a str",
+      "title": "Associations between physical exercise and mental health among middle school students: potential psychosocial pathways and contextual heterogeneity from a healthy China perspective",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1831018",
+      "summary": "IntroductionPhysical exercise has been increasingly linked to adolescent mental health, but less is known about the psychosocial pathways and contextual conditions underlying this association. This study examines the relationship between physical exercise and mental health among Chinese middle schoo",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
@@ -1013,64 +1012,64 @@
   ],
   "misinfo_toilet": [
     {
-      "headline": "Fire at Antwerp apartment block kills at least six",
-      "fragment": "Art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
-      "splice": "Fire at Antwerp apartment block kills at least six underneath art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
-      "seed": 20260715
-    },
-    {
-      "headline": "A Risky Burial in the Heart of an Ebola Outbreak",
-      "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "splice": "A Risky Burial in the Heart of an Ebola Outbreak ...as the breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "seed": 20260716
-    },
-    {
-      "headline": "How to Show That Israel’s Sexual Violence Against Palestinians Is Systemic — and Has Gone on for Decades",
-      "fragment": "The simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
-      "splice": "How to Show That Israel’s Sexual Violence Against Palestinians Is Systemic — and Has Gone on for Decades within which the simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
-      "seed": 20260717
-    },
-    {
-      "headline": "Trump made more than $1bn from crypto in first year back in office",
-      "fragment": "In the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
-      "splice": "Trump made more than $1bn from crypto in first year back in office therefore in the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
-      "seed": 20260718
-    },
-    {
-      "headline": "After Afghanistan fires drones into Pakistan, what’s next?",
-      "fragment": "Traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "splice": "After Afghanistan fires drones into Pakistan, what’s next? underneath traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "seed": 20260719
-    },
-    {
-      "headline": "Sabalenka overcomes Kessler at Wimbledon, sets up Ostapenko clash",
-      "fragment": "Why do men fight for their servitude as stubbornly as though it were their salvation?",
-      "splice": "Sabalenka overcomes Kessler at Wimbledon, sets up Ostapenko clash meanwhile why do men fight for their servitude as stubbornly as though it were their salvation?",
-      "seed": 20260720
-    },
-    {
-      "headline": "How to Use AI to Help Find Civilian Harm",
-      "fragment": "It is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
-      "splice": "How to Use AI to Help Find Civilian Harm despite it is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
-      "seed": 20260721
-    },
-    {
-      "headline": "Caught between the US and China, can Europe remain competitive?",
-      "fragment": "It is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
-      "splice": "Caught between the US and China, can Europe remain competitive? ...as it is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
-      "seed": 20260722
-    },
-    {
-      "headline": "Socialist Momentum Grows as Melat Kiros Wins in Denver",
+      "headline": "U.S. and Iran Set to Hold Indirect Talks After Trading Attacks: What to Know",
       "fragment": "An ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
-      "splice": "Socialist Momentum Grows as Melat Kiros Wins in Denver while an ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
+      "splice": "U.S. and Iran Set to Hold Indirect Talks After Trading Attacks: What to Know despite an ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
       "seed": 20260723
     },
     {
-      "headline": "Burning Forests: Tools for Tracking and Reporting Wildfire Damage",
-      "fragment": "We live in a world where there is more and more information, and less and less meaning.",
-      "splice": "Burning Forests: Tools for Tracking and Reporting Wildfire Damage underneath we live in a world where there is more and more information, and less and less meaning.",
+      "headline": "Iran to open ‘communication channel’ on MoU with US after talks in Qatar",
+      "fragment": "It is at work everywhere, functioning smoothly at times, at other times in fits and starts. It breathes, it heats, it eats. It shits and fucks.",
+      "splice": "Iran to open ‘communication channel’ on MoU with US after talks in Qatar because it is at work everywhere, functioning smoothly at times, at other times in fits and starts. It breathes, it heats, it eats. It shits and fucks.",
       "seed": 20260724
+    },
+    {
+      "headline": "Trump Has Already Launched More Death Penalty Prosecutions Than in His Entire First Term",
+      "fragment": "There is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
+      "splice": "Trump Has Already Launched More Death Penalty Prosecutions Than in His Entire First Term in the void where there is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
+      "seed": 20260725
+    },
+    {
+      "headline": "ICE Flouting Federal Judge’s Order to Stop Arresting Immigrants at New York Courts",
+      "fragment": "To dissimulate is to pretend not to have what one has. To simulate is to feign to have what one doesn't have. One implies a presence, the other an absence.",
+      "splice": "ICE Flouting Federal Judge’s Order to Stop Arresting Immigrants at New York Courts in the void where to dissimulate is to pretend not to have what one has. To simulate is to feign to have what one doesn't have. One implies a presence, the other an absence.",
+      "seed": 20260726
+    },
+    {
+      "headline": "Ukrainian charged in Germany over Nord Stream blasts",
+      "fragment": "The simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
+      "splice": "Ukrainian charged in Germany over Nord Stream blasts therefore the simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
+      "seed": 20260727
+    },
+    {
+      "headline": "LIVE: USA vs Bosnia and Herzegovina – FIFA World Cup 2026",
+      "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "splice": "LIVE: USA vs Bosnia and Herzegovina – FIFA World Cup 2026 the system notes that the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "seed": 20260728
+    },
+    {
+      "headline": "How to Use AI to Help Find Civilian Harm",
+      "fragment": "It is at work everywhere, functioning smoothly at times, at other times in fits and starts. It breathes, it heats, it eats. It shits and fucks.",
+      "splice": "How to Use AI to Help Find Civilian Harm underneath it is at work everywhere, functioning smoothly at times, at other times in fits and starts. It breathes, it heats, it eats. It shits and fucks.",
+      "seed": 20260729
+    },
+    {
+      "headline": "Congressional Dems Shift to Overwhelmingly Oppose Involvement in Israel’s War on Lebanon",
+      "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
+      "splice": "Congressional Dems Shift to Overwhelmingly Oppose Involvement in Israel’s War on Lebanon insofar as the breast is a machine that produces milk, and the mouth a machine coupled to it.",
+      "seed": 20260730
+    },
+    {
+      "headline": "Bombings in Greece Target Governing Party Members, Officials Say",
+      "fragment": "Antagonism is not now located externally, in the face-off between class blocs, but internally, in the psychology of the worker.",
+      "splice": "Bombings in Greece Target Governing Party Members, Officials Say while antagonism is not now located externally, in the face-off between class blocs, but internally, in the psychology of the worker.",
+      "seed": 20260731
+    },
+    {
+      "headline": "E Jean Carroll demands Donald Trump pay $5.8m in damages from 2019 case",
+      "fragment": "It is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
+      "splice": "E Jean Carroll demands Donald Trump pay $5.8m in damages from 2019 case the system notes that it is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
+      "seed": 20260732
     }
   ]
 }
