@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-05T08:56:49.520Z",
+  "generated_at": "2026-07-05T13:46:39.869Z",
   "threat_intel": {
     "cisa_kev": [
       {
@@ -233,9 +233,22 @@
     ],
     "urlhaus": [
       {
-        "id": "3881206",
-        "date_added": "2026-07-05 08:50:15",
-        "url": "http://136.60.32.162:46640/i",
+        "id": "3881279",
+        "date_added": "2026-07-05 13:40:27",
+        "url": "http://223.151.249.23:38648/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3881278",
+        "date_added": "2026-07-05 13:39:29",
+        "url": "http://182.126.247.156:33809/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -246,179 +259,9 @@
         ]
       },
       {
-        "id": "3881205",
-        "date_added": "2026-07-05 08:45:10",
-        "url": "http://42.227.239.205:36382/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3881204",
-        "date_added": "2026-07-05 08:32:15",
-        "url": "http://182.126.125.226:45639/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3881203",
-        "date_added": "2026-07-05 08:32:06",
-        "url": "https://vcrjfnwa.ketab.blog/499acc6c-f432-4ef7-bca4-cde01a6ec12d",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "ClearFake",
-          "win-0xa770",
-          "windows"
-        ]
-      },
-      {
-        "id": "3881202",
-        "date_added": "2026-07-05 08:26:06",
-        "url": "http://196.190.1.39:39487/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "mirai"
-        ]
-      },
-      {
-        "id": "3881201",
-        "date_added": "2026-07-05 08:14:09",
-        "url": "http://182.126.125.226:45639/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3881200",
-        "date_added": "2026-07-05 08:12:06",
-        "url": "https://pzioeui.bet303.poker/3da9c1b6-9fae-4018-ba95-efa3be2e0873",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "ClearFake",
-          "win-0x4679",
-          "windows"
-        ]
-      },
-      {
-        "id": "3881199",
-        "date_added": "2026-07-05 08:06:06",
-        "url": "http://196.190.1.39:39487/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "mirai"
-        ]
-      },
-      {
-        "id": "3881198",
-        "date_added": "2026-07-05 07:51:08",
-        "url": "http://115.61.118.160:40467/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3881197",
-        "date_added": "2026-07-05 07:48:12",
-        "url": "http://42.235.96.8:33141/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3881196",
-        "date_added": "2026-07-05 07:45:08",
-        "url": "https://cho4uj96.bet303iran.org/?ublib=ffa25ef5-2961-4bc9-8ddc-088ca42438c4",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "ClearFake",
-          "mac-0xfb64",
-          "macOS"
-        ]
-      },
-      {
-        "id": "3881195",
-        "date_added": "2026-07-05 07:43:18",
-        "url": "http://119.179.252.34:45658/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3881194",
-        "date_added": "2026-07-05 07:33:15",
-        "url": "http://141.11.88.113/a-r.m-5.Sakura",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "elf",
-          "gafgyt",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3881193",
-        "date_added": "2026-07-05 07:25:06",
-        "url": "https://czpcvew.bet1xiraq.com/11cc34b2-ae8e-416b-b6c5-14f8fd3ad045",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "ClearFake",
-          "win-0x4679",
-          "windows"
-        ]
-      },
-      {
-        "id": "3881192",
-        "date_added": "2026-07-05 07:24:11",
-        "url": "https://ifdj62v9.thevallartasrestaurants.com/?ublib=fc64f8ff-eaea-4ca0-acc1-644d8bc7c56b",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "ClearFake",
-          "mac-0x76c7",
-          "macOS"
-        ]
-      },
-      {
-        "id": "3881191",
-        "date_added": "2026-07-05 07:14:11",
-        "url": "https://us5fm2lg.ace90bet.bet/?ublib=fbdcd952-147c-4ec2-b81a-40fe6019ce13",
+        "id": "3881277",
+        "date_added": "2026-07-05 13:36:08",
+        "url": "https://kwb3h55h.thevallartasrestaurants.com/?ublib=0ef49ee5-d773-4411-9f0a-c195df305709",
         "url_status": "offline",
         "threat": "malware_download",
         "tags": [
@@ -428,51 +271,271 @@
         ]
       },
       {
-        "id": "3881190",
-        "date_added": "2026-07-05 07:02:07",
-        "url": "http://219.155.85.137:38740/bin.sh",
+        "id": "3881276",
+        "date_added": "2026-07-05 13:34:26",
+        "url": "http://61.53.103.253:34426/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
+          "32-bit",
+          "elf",
+          "mips",
           "Mozi"
         ]
       },
       {
-        "id": "3881189",
-        "date_added": "2026-07-05 06:57:12",
-        "url": "http://115.61.16.89:60412/i",
-        "url_status": "online",
+        "id": "3881275",
+        "date_added": "2026-07-05 13:32:29",
+        "url": "http://141.11.88.140/x86_64",
+        "url_status": "offline",
         "threat": "malware_download",
         "tags": [
-          "Mozi"
+          "elf",
+          "mirai"
         ]
       },
       {
-        "id": "3881188",
-        "date_added": "2026-07-05 06:57:06",
-        "url": "http://110.36.75.16:34612/i",
+        "id": "3881274",
+        "date_added": "2026-07-05 13:32:08",
+        "url": "http://141.11.88.108:81/pxxe313.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "Mozi"
+          "honeypot",
+          "iot"
         ]
       },
       {
-        "id": "3881186",
-        "date_added": "2026-07-05 06:49:16",
-        "url": "http://94.154.43.192/nz/o.xml",
-        "url_status": "online",
+        "id": "3881271",
+        "date_added": "2026-07-05 13:32:07",
+        "url": "http://83.168.110.191/bins/pm68k",
+        "url_status": "offline",
         "threat": "malware_download",
         "tags": [
-          "opendir",
-          "sh",
-          "ua-wget",
-          "xml"
+          "None"
+        ]
+      },
+      {
+        "id": "3881272",
+        "date_added": "2026-07-05 13:32:07",
+        "url": "http://83.168.110.191/bins/pmpsl",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3881273",
+        "date_added": "2026-07-05 13:32:07",
+        "url": "http://152.70.4.175:5555/bot_arm6",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "wraith"
+        ]
+      },
+      {
+        "id": "3881264",
+        "date_added": "2026-07-05 13:32:06",
+        "url": "http://83.168.110.191/bins/parm5",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3881265",
+        "date_added": "2026-07-05 13:32:06",
+        "url": "http://83.168.110.191/bins/parm7",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3881266",
+        "date_added": "2026-07-05 13:32:06",
+        "url": "http://83.168.110.191/bins/parm6",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3881267",
+        "date_added": "2026-07-05 13:32:06",
+        "url": "http://83.168.110.191/bins/pmips",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3881268",
+        "date_added": "2026-07-05 13:32:06",
+        "url": "http://83.168.110.191/bins/psh4",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3881269",
+        "date_added": "2026-07-05 13:32:06",
+        "url": "http://83.168.110.191/bins/px86",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3881270",
+        "date_added": "2026-07-05 13:32:06",
+        "url": "http://83.168.110.191/bins/parm",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3881258",
+        "date_added": "2026-07-05 13:31:07",
+        "url": "http://91.92.242.236/files-129312398/files/file_334b3cdf82a4ee27.exe",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "c2-monitor-auto",
+          "dropped-by-amadey"
+        ]
+      },
+      {
+        "id": "3881259",
+        "date_added": "2026-07-05 13:31:07",
+        "url": "http://91.92.242.236/files-129312398/files/file_7538da1fcc1c361e.exe",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "c2-monitor-auto",
+          "dropped-by-amadey"
+        ]
+      },
+      {
+        "id": "3881260",
+        "date_added": "2026-07-05 13:31:07",
+        "url": "http://91.92.242.236/files-129312398/files/file_2d364e12075068d7.exe",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "c2-monitor-auto",
+          "dropped-by-amadey"
+        ]
+      },
+      {
+        "id": "3881261",
+        "date_added": "2026-07-05 13:31:07",
+        "url": "http://91.92.242.236/files-129312398/files/file_4ef456a9656e99fa.msi",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "c2-monitor-auto",
+          "dropped-by-amadey"
         ]
       }
     ]
   },
   "world_monitor": [
+    {
+      "title": "Mourners Chant ‘Revenge’ at Funeral Prayers for Iran’s Slain Supreme Leader",
+      "link": "https://www.nytimes.com/2026/07/05/world/middleeast/iran-funeral-supreme-leader.html",
+      "pubDate": "Sun, 05 Jul 2026 13:31:25 +0000",
+      "source": "NYT World",
+      "summary": "On the second day of public mourning for Ayatollah Ali Khamenei, who was killed in February, there was still no sign of his son and successor, Mojtaba Khamenei."
+    },
+    {
+      "title": "Australia probes mystery space balls that washed up on beach",
+      "link": "https://www.bbc.co.uk/news/articles/c1jyydr7jnjo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Sun, 05 Jul 2026 12:55:58 GMT",
+      "source": "BBC",
+      "summary": "Officials are searching for the origins of six pieces of space debris discovered on Forrest Beach in Queensland."
+    },
+    {
+      "title": "Iran's supreme leader absent as senior officials attend ayatollah's funeral",
+      "link": "https://www.bbc.co.uk/news/articles/cevllyj9vv3o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Sun, 05 Jul 2026 12:29:18 GMT",
+      "source": "BBC",
+      "summary": "Ali Khamenei's son Mojtaba is conspicuously absent from his father's funeral on Sunday, amid speculation about his condition."
+    },
+    {
+      "title": "What to know about the renewed coordinated attacks across Mali",
+      "link": "https://www.aljazeera.com/news/2026/7/5/what-to-know-about-the-renewed-coordinated-attacks-across-mali?traffic_source=rss",
+      "pubDate": "Sun, 05 Jul 2026 12:27:15 +0000",
+      "source": "Al Jazeera",
+      "summary": "Separatist Tuareg-led group and regional al-Qaeda affiliate have claimed responsibility for attacks on army positions."
+    },
+    {
+      "title": "Indonesian army recovers US pilot’s body from Papua",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/7/5/indonesian-army-recovers-us-pilots-body-from-papua?traffic_source=rss",
+      "pubDate": "Sun, 05 Jul 2026 12:00:55 +0000",
+      "source": "Al Jazeera",
+      "summary": "Indonesian troops have recovered the body of American pilot Nicholas Goselin from the restive Papua region."
+    },
+    {
+      "title": "Jailed Gaza hospital chief in life-threatening condition, rights group says",
+      "link": "https://www.aljazeera.com/news/2026/7/5/jailed-gaza-hospital-chief-in-life-threatening-condition-rights-group-says?traffic_source=rss",
+      "pubDate": "Sun, 05 Jul 2026 11:24:18 +0000",
+      "source": "Al Jazeera",
+      "summary": "Elyas Abu Safia says his father Hussam can barely breathe or speak after more than 555 days in Israeli prison."
+    },
+    {
+      "title": "Sooryavanshi sets record for youngest India player in international match",
+      "link": "https://www.aljazeera.com/sports/2026/7/5/sooryavanshi-sets-record-for-youngest-india-player-in-international-match?traffic_source=rss",
+      "pubDate": "Sun, 05 Jul 2026 11:09:31 +0000",
+      "source": "Al Jazeera",
+      "summary": "Fifteen-year-old Vaibhav Sooryavanshi became the youngest debutant for India in a T20 loss to England at Old Trafford."
+    },
+    {
+      "title": "Trump praises US military as it marks 250 years of independence",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/7/5/trump-praises-us-military-as-it-marks-250-years-of-independence?traffic_source=rss",
+      "pubDate": "Sun, 05 Jul 2026 11:06:45 +0000",
+      "source": "Al Jazeera",
+      "summary": "Trump praises US military as it marks 250 years of independence"
+    },
+    {
+      "title": "Graham Platner Has Already Inspired Another Left-Wing Veteran to Take On an Establishment Dem",
+      "link": "https://theintercept.com/2026/07/05/washington-primary-strickland-scheel-dsa/",
+      "pubDate": "Sun, 05 Jul 2026 10:15:00 +0000",
+      "source": "The Intercept",
+      "summary": "Alex Scheel is running an anti-war campaign to unseat incumbent Rep. Marilyn Strickland. He’s also a longtime member of the DSA in Washington state.\nThe post Graham Platner Has Already Inspired Another Left-Wing Veteran to Take On an Establishment De"
+    },
+    {
+      "title": "Evacuations in Guam as super typhoon Bavi approaches",
+      "link": "https://www.bbc.co.uk/news/articles/cr7xpgx50jxo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Sun, 05 Jul 2026 09:26:56 GMT",
+      "source": "BBC",
+      "summary": "The storm is forecast to bring winds in excess of 160mph and waves nearly 11m high when it makes landfall on Monday."
+    },
+    {
+      "title": "Far From Kyiv and Moscow, Soldiers Stalk Ruins and Evade Drones on the Front",
+      "link": "https://www.nytimes.com/2026/07/05/world/europe/ukraine-russia-donetsk-front.html",
+      "pubDate": "Sun, 05 Jul 2026 09:17:30 +0000",
+      "source": "NYT World",
+      "summary": "Ukraine’s military has denied a Kremlin claim to have taken a city in the eastern Donetsk region, saying its troops are holding out against infiltrating Russians."
+    },
+    {
+      "title": "Years of Warnings About Public Housing Preceded Venezuela’s Earthquakes",
+      "link": "https://www.nytimes.com/2026/07/05/world/americas/venezuela-earthquake-la-guaira-building-collapse-government.html",
+      "pubDate": "Sun, 05 Jul 2026 09:02:15 +0000",
+      "source": "NYT World",
+      "summary": "Residents, construction experts and seismologists said for years that Venezuela’s public housing would be vulnerable in a natural disaster."
+    },
     {
       "title": "China Frees Pastor Detained in Crackdown on Religion After Trump’s Urging",
       "link": "https://www.nytimes.com/2026/07/05/world/asia/ezra-jin-mingri-china-christian-xi-trump.html",
@@ -481,53 +544,11 @@
       "summary": "Ezra Jin Mingri was released nearly two months after President Trump raised his case with China’s leader, Xi Jinping, during a visit to Beijing."
     },
     {
-      "title": "Watch World Cup Day 24: France and Morocco advance to quarterfinals",
-      "link": "https://www.aljazeera.com/video/2026/7/5/video-world-cup-2026-highlights?traffic_source=rss",
-      "pubDate": "Sun, 05 Jul 2026 08:30:41 +0000",
-      "source": "Al Jazeera",
-      "summary": "Latest match highlights, reaction and previews from the FIFA World Cup 2026 in North America."
-    },
-    {
-      "title": "Palestinians in Gaza celebrate Morocco’s World Cup victory",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/7/5/palestinians-in-gaza-celebrate-moroccos-world-cup-victory?traffic_source=rss",
-      "pubDate": "Sun, 05 Jul 2026 08:25:00 +0000",
-      "source": "Al Jazeera",
-      "summary": "Palestinians in Gaza celebrate Morocco's World Cup victory"
-    },
-    {
       "title": "US marks 250th birthday with fireworks, flyovers and extreme weather",
       "link": "https://www.bbc.co.uk/news/articles/cp9lppvkmz5o?at_medium=RSS&at_campaign=rss",
       "pubDate": "Sun, 05 Jul 2026 08:24:32 GMT",
       "source": "BBC",
       "summary": "US President Donald Trump's speech included some of his political agenda but also honoured war veterans and American history."
-    },
-    {
-      "title": "China Raises Pressure on Taiwan With Expanded Coast Guard Patrols",
-      "link": "https://www.nytimes.com/2026/07/05/world/asia/china-taiwan-east-coast-guard-patrols.html",
-      "pubDate": "Sun, 05 Jul 2026 08:21:38 +0000",
-      "source": "NYT World",
-      "summary": "Beijing sent two ships to patrol the waters east of Taiwan, a new campaign to challenge the island’s control of waters crucial to any future invasion."
-    },
-    {
-      "title": "Iran’s China envoy vows ‘special’ Hormuz treatment for ‘friendly’ countries",
-      "link": "https://www.aljazeera.com/news/2026/7/5/irans-china-envoy-vows-special-hormuz-treatment-for-friendly-countries?traffic_source=rss",
-      "pubDate": "Sun, 05 Jul 2026 08:09:44 +0000",
-      "source": "Al Jazeera",
-      "summary": "Despite US objections, ambassador insists new fees to be charged to vessels transiting Strait of Hormuz."
-    },
-    {
-      "title": "Trump offers to help end Russia-Ukraine war in Putin call, Kremlin says",
-      "link": "https://www.aljazeera.com/news/2026/7/5/trump-offers-to-help-end-ukraine-war-in-long-call-with-putin-kremlin-says?traffic_source=rss",
-      "pubDate": "Sun, 05 Jul 2026 08:06:15 +0000",
-      "source": "Al Jazeera",
-      "summary": "Kremlin aide Yury Ushakov says Trump made the offer during a nearly 90-minute phone call with the Russian president."
-    },
-    {
-      "title": "Egypt and Morocco fans celebrate World Cup wins by singing for Palestine",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/7/5/egypt-and-morocco-fans-celebrate-world-cup-wins-by-singing-for-palestine?traffic_source=rss",
-      "pubDate": "Sun, 05 Jul 2026 07:42:03 +0000",
-      "source": "Al Jazeera",
-      "summary": "Egypt and Morocco fans celebrated their World Cup success by singing ‘My Blood is Palestinian’ at a Dallas fan zone."
     },
     {
       "title": "Chinese underground church figure Jin Mingri freed from prison",
@@ -542,41 +563,6 @@
       "pubDate": "Sun, 05 Jul 2026 04:01:22 +0000",
       "source": "NYT World",
       "summary": "The Vatican has excommunicated the priesthood of a rebel Catholic faction. Many of the priests’ followers have refused to renounce them."
-    },
-    {
-      "title": "Impeachment Trial of Philippine Vice President Set to Begin",
-      "link": "https://www.nytimes.com/2026/07/05/world/asia/impeachment-trial-philippines-sara-duterte.html",
-      "pubDate": "Sun, 05 Jul 2026 04:01:15 +0000",
-      "source": "NYT World",
-      "summary": "Sara Duterte, who has said she would run for president, could be barred from politics over allegations of corruption and for making death threats against President Ferdinand Marcos Jr."
-    },
-    {
-      "title": "Moment of destiny for France's Le Pen in verdict to decide her future in presidential race",
-      "link": "https://www.bbc.co.uk/news/articles/c5yzlwz34p7o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Sat, 04 Jul 2026 23:17:24 GMT",
-      "source": "BBC",
-      "summary": "Far-right leader Marine Le Pen is appealing against a verdict which found her guilty of misusing EU funds."
-    },
-    {
-      "title": "Momentary Unity at a Funeral Masks Deep Divisions Among Iran’s Leaders",
-      "link": "https://www.nytimes.com/2026/07/04/world/middleeast/iran-supreme-leader-funeral-divisions.html",
-      "pubDate": "Sat, 04 Jul 2026 20:44:42 +0000",
-      "source": "NYT World",
-      "summary": "Ayatollah Mojtaba Khamenei’s absence has raised questions inside Iranian political circles about who is really running the country and allowed open divisions to fester."
-    },
-    {
-      "title": "Ukraine hits major oil terminal in Russia's St Petersburg",
-      "link": "https://www.bbc.co.uk/news/articles/c8j2vmzxezro?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Sat, 04 Jul 2026 18:41:25 GMT",
-      "source": "BBC",
-      "summary": "Ukrainian President Volodymyr Zelensky says the target is key infrastructure \"that generates revenue for Russia's war\"."
-    },
-    {
-      "title": "Former chess champion Kramnik banned over cheating remarks",
-      "link": "https://www.bbc.co.uk/news/articles/cd6epx607dqo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Sat, 04 Jul 2026 15:45:15 GMT",
-      "source": "BBC",
-      "summary": "The former Russian world chess champion had accused other players, including the late Daniel Naroditsky, of cheating."
     },
     {
       "title": "The Horrifying Lessons of 250 Years of American History",
@@ -605,13 +591,6 @@
       "pubDate": "Thu, 02 Jul 2026 09:50:00 +0000",
       "source": "The Intercept",
       "summary": "The Health and Human Services secretary is targeting the country's largest Muslim civil rights organization as Republicans run on Islamophobia in a tough midterm cycle.\nThe post RFK Jr. Claims He’s Investigating Terrorism Now, Too appeared first on T"
-    },
-    {
-      "title": "ICE Flouting Federal Judge’s Order to Stop Arresting Immigrants at New York Courts",
-      "link": "https://theintercept.com/2026/07/01/ice-court-order-arrests/",
-      "pubDate": "Wed, 01 Jul 2026 17:03:34 +0000",
-      "source": "The Intercept",
-      "summary": "“ICE continues to flagrantly violate the law by arresting immigrants who are attending their mandatory court hearings,” said Rep. Dan Goldman.\nThe post ICE Flouting Federal Judge’s Order to Stop Arresting Immigrants at New York Courts appeared first "
     },
     {
       "title": "Burning Forests: Tools for Tracking and Reporting Wildfire Damage",
@@ -716,26 +695,26 @@
   ],
   "syndicate_journal": [
     {
-      "title": "In Defense of the Fourth of July",
+      "title": "DC’s Next Mayor Is a Socialist Ready to Fight Trump",
       "link": "",
-      "summary": "“I like the Fourth of July, it breathes a spirit of revolution,” said Eugene V. Debs in a 1901 Independence Day speech. The socialist firebrand was far from blindly patriotic (“I am not of those who worship the flag,” he added in the same speech), but throughout his life, Debs refused to let the Ame",
-      "pubDate": "2026-07-04T16:32:08.176Z",
+      "summary": "Janeese Lewis George just made history. On June 16, the Ward 4 councilmember and democratic socialist won the Democratic primary for mayor of Washington, DC — decisively enough to end the race before all the votes were even counted and by the widest margin the city has seen in two decades. In the ov",
+      "pubDate": "2026-07-05T12:55:00.106Z",
       "domain": "politics",
       "source": "Jacobin"
     },
     {
-      "title": "The 250-Year Decline of American Exceptionalism",
+      "title": "In Nuestra Tierra, Collective Identity Is Built in Struggle",
       "link": "",
-      "summary": "It is impossible to revisit the American Revolution without raising the question: Did that late eighteenth-century conflict create a truly new kind of society, an “exceptional” nation that has ameliorated class conflict and sustained capitalist hegemony for more than 250 years? With Donald Trump in ",
-      "pubDate": "2026-07-04T12:55:00.312Z",
+      "summary": "The Spanish language has a single word, , that can mean both “history” and “story.” In Argentina, where the military dictatorship that disappeared thirty thousand people between 1976 and 1983 remains prominent in collective memory, the reconstruction of democracy has depended on an ongoing public an",
+      "pubDate": "2026-07-05T12:50:00.125Z",
       "domain": "politics",
       "source": "Jacobin"
     },
     {
-      "title": "Burn the Constitution Once Again",
+      "title": "Holocaust and Genocide Scholars Are Navigating a Minefield",
       "link": "",
-      "summary": "In a 1988 memoir recounting his thirty-year tenure as chief Washington correspondent of the , the British journalist Henry Brandon recalled the flicker of disquiet he felt in 1964 as he watched the chaos and extremism of Barry Goldwater’s hard-right presidential campaign. He had wondered, at the tim",
-      "pubDate": "2026-07-04T12:50:00.000Z",
+      "summary": "Since Hamas’s attack on Israel on October 7, 2023, and Israel’s ensuing war on Gaza, few academic fields have experienced more internal upheaval than Holocaust and genocide studies. Scholars who once shared broad institutional consensus now find themselves divided over whether Gaza constitutes genoc",
+      "pubDate": "2026-07-05T12:45:00.422Z",
       "domain": "politics",
       "source": "Jacobin"
     },
@@ -982,64 +961,64 @@
   ],
   "misinfo_toilet": [
     {
-      "headline": "Rebel Catholics Defy Vatican’s Calls to Return to Mainstream Church",
-      "fragment": "Art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
-      "splice": "Rebel Catholics Defy Vatican’s Calls to Return to Mainstream Church underneath art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
-      "seed": 20260713
-    },
-    {
-      "headline": "Ukraine hits major oil terminal in Russia's St Petersburg",
+      "headline": "Graham Platner Has Already Inspired Another Left-Wing Veteran to Take On an Establishment Dem",
       "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "splice": "Ukraine hits major oil terminal in Russia's St Petersburg ...as the breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "seed": 20260714
-    },
-    {
-      "headline": "How Florida’s Cuban Diaspora and the Israeli Lobby Came Together — and Are Coming Apart",
-      "fragment": "The simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
-      "splice": "How Florida’s Cuban Diaspora and the Israeli Lobby Came Together — and Are Coming Apart within which the simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
-      "seed": 20260715
-    },
-    {
-      "headline": "Egypt and Morocco fans celebrate World Cup wins by singing for Palestine",
-      "fragment": "In the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
-      "splice": "Egypt and Morocco fans celebrate World Cup wins by singing for Palestine therefore in the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
-      "seed": 20260716
-    },
-    {
-      "headline": "Palestinians in Gaza celebrate Morocco’s World Cup victory",
-      "fragment": "Traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "splice": "Palestinians in Gaza celebrate Morocco’s World Cup victory underneath traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "seed": 20260717
-    },
-    {
-      "headline": "Watch World Cup Day 24: France and Morocco advance to quarterfinals",
-      "fragment": "Why do men fight for their servitude as stubbornly as though it were their salvation?",
-      "splice": "Watch World Cup Day 24: France and Morocco advance to quarterfinals meanwhile why do men fight for their servitude as stubbornly as though it were their salvation?",
+      "splice": "Graham Platner Has Already Inspired Another Left-Wing Veteran to Take On an Establishment Dem ...as the breast is a machine that produces milk, and the mouth a machine coupled to it.",
       "seed": 20260718
     },
     {
-      "headline": "How to Use AI to Help Find Civilian Harm",
-      "fragment": "It is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
-      "splice": "How to Use AI to Help Find Civilian Harm despite it is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
+      "headline": "China Frees Pastor Detained in Crackdown on Religion After Trump’s Urging",
+      "fragment": "The simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
+      "splice": "China Frees Pastor Detained in Crackdown on Religion After Trump’s Urging within which the simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
       "seed": 20260719
     },
     {
-      "headline": "China Raises Pressure on Taiwan With Expanded Coast Guard Patrols",
-      "fragment": "It is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
-      "splice": "China Raises Pressure on Taiwan With Expanded Coast Guard Patrols ...as it is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
+      "headline": "The Horrifying Lessons of 250 Years of American History",
+      "fragment": "In the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
+      "splice": "The Horrifying Lessons of 250 Years of American History therefore in the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
       "seed": 20260720
     },
     {
-      "headline": "The Horrifying Lessons of 250 Years of American History",
-      "fragment": "An ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
-      "splice": "The Horrifying Lessons of 250 Years of American History while an ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
+      "headline": "Sooryavanshi sets record for youngest India player in international match",
+      "fragment": "Traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
+      "splice": "Sooryavanshi sets record for youngest India player in international match underneath traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
       "seed": 20260721
     },
     {
-      "headline": "Burning Forests: Tools for Tracking and Reporting Wildfire Damage",
-      "fragment": "We live in a world where there is more and more information, and less and less meaning.",
-      "splice": "Burning Forests: Tools for Tracking and Reporting Wildfire Damage underneath we live in a world where there is more and more information, and less and less meaning.",
+      "headline": "Mourners Chant ‘Revenge’ at Funeral Prayers for Iran’s Slain Supreme Leader",
+      "fragment": "Why do men fight for their servitude as stubbornly as though it were their salvation?",
+      "splice": "Mourners Chant ‘Revenge’ at Funeral Prayers for Iran’s Slain Supreme Leader meanwhile why do men fight for their servitude as stubbornly as though it were their salvation?",
       "seed": 20260722
+    },
+    {
+      "headline": "Australia probes mystery space balls that washed up on beach",
+      "fragment": "It is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
+      "splice": "Australia probes mystery space balls that washed up on beach despite it is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
+      "seed": 20260723
+    },
+    {
+      "headline": "Years of Warnings About Public Housing Preceded Venezuela’s Earthquakes",
+      "fragment": "It is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
+      "splice": "Years of Warnings About Public Housing Preceded Venezuela’s Earthquakes ...as it is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
+      "seed": 20260724
+    },
+    {
+      "headline": "RFK Jr. Claims He’s Investigating Terrorism Now, Too",
+      "fragment": "An ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
+      "splice": "RFK Jr. Claims He’s Investigating Terrorism Now, Too while an ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
+      "seed": 20260725
+    },
+    {
+      "headline": "Chinese underground church figure Jin Mingri freed from prison",
+      "fragment": "We live in a world where there is more and more information, and less and less meaning.",
+      "splice": "Chinese underground church figure Jin Mingri freed from prison underneath we live in a world where there is more and more information, and less and less meaning.",
+      "seed": 20260726
+    },
+    {
+      "headline": "Super-Potent Synthetic Opioids Spread Across US Amid Fentanyl Crackdown",
+      "fragment": "Art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
+      "splice": "Super-Potent Synthetic Opioids Spread Across US Amid Fentanyl Crackdown meanwhile art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
+      "seed": 20260727
     }
   ]
 }
