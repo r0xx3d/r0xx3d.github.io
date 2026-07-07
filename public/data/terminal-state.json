@@ -1,7 +1,67 @@
 {
-  "generated_at": "2026-07-07T14:43:11.909Z",
+  "generated_at": "2026-07-07T19:59:54.119Z",
   "threat_intel": {
     "cisa_kev": [
+      {
+        "cveID": "CVE-2026-48908",
+        "vendorProject": "JoomShaper",
+        "product": "SP Page Builder",
+        "vulnerabilityName": "JoomShaper SP Page Builder Unrestricted Upload of File with Dangerous Type Vulnerability",
+        "dateAdded": "2026-07-07",
+        "shortDescription": "JoomShaper SP Page Builder contains an unrestricted upload of file with dangerous type vulnerability that allows unauthenticated users to upload arbitrary files, ultimately resulting in the upload and execution of PHP code.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-07-10",
+        "knownRansomwareCampaignUse": "Unknown",
+        "notes": "https://extensions.joomla.org/extension/sp-page-builder/ ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-48908",
+        "cwes": [
+          "CWE-434"
+        ]
+      },
+      {
+        "cveID": "CVE-2026-55255",
+        "vendorProject": "Langflow",
+        "product": "Langflow",
+        "vulnerabilityName": "Langflow Authorization Bypass Through User-Controlled Key Vulnerability",
+        "dateAdded": "2026-07-07",
+        "shortDescription": "Langflow contains an authorization bypass through user-controlled key vulnerability which allows an authenticated attacker to execute any flow belonging to another user by specifying the victim's flow ID in the request.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-07-10",
+        "knownRansomwareCampaignUse": "Unknown",
+        "notes": "https://github.com/langflow-ai/langflow/security/advisories/GHSA-qrpv-q767-xqq2 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-55255",
+        "cwes": [
+          "CWE-639"
+        ]
+      },
+      {
+        "cveID": "CVE-2026-56290",
+        "vendorProject": "Joomlack",
+        "product": "Page Builder",
+        "vulnerabilityName": "Joomlack Page Builder Improper Access Control Vulnerability",
+        "dateAdded": "2026-07-07",
+        "shortDescription": "Joomlack Page Builder contains an improper access control vulnerability that could allow for remote code execution via unauthenticated arbitrary file upload.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-07-10",
+        "knownRansomwareCampaignUse": "Unknown",
+        "notes": "https://www.joomlack.fr/en/joomla-extensions/page-builder-ck ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-56290",
+        "cwes": [
+          "CWE-284"
+        ]
+      },
+      {
+        "cveID": "CVE-2026-48282",
+        "vendorProject": "Adobe",
+        "product": "ColdFusion",
+        "vulnerabilityName": "Adobe ColdFusion Path Traversal Vulnerability",
+        "dateAdded": "2026-07-07",
+        "shortDescription": "Adobe ColdFusion contains a path traversal vulnerability that could lead to arbitrary code execution in the context of the current user.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-07-10",
+        "knownRansomwareCampaignUse": "Unknown",
+        "notes": "https://helpx.adobe.com/security/products/coldfusion/apsb26-68.html ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-48282",
+        "cwes": [
+          "CWE-22"
+        ]
+      },
       {
         "cveID": "CVE-2026-45659",
         "vendorProject": "Microsoft",
@@ -168,112 +228,13 @@
         "cwes": [
           "CWE-61"
         ]
-      },
-      {
-        "cveID": "CVE-2026-20262",
-        "vendorProject": "Cisco",
-        "product": "Catalyst SD-WAN Manager",
-        "vulnerabilityName": "Cisco Catalyst SD-WAN Manager Directory or Path Traversal Vulnerability",
-        "dateAdded": "2026-06-15",
-        "shortDescription": "Cisco Catalyst SD-WAN Manager contains a directory or path traversal vulnerability that could allow an authenticated, remote attacker to create a file or overwrite any file on the filesystem of an affected system.",
-        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "dueDate": "2026-06-29",
-        "knownRansomwareCampaignUse": "Unknown",
-        "notes": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-arbfw-c2rZvQ ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-20262",
-        "cwes": [
-          "CWE-22"
-        ]
-      },
-      {
-        "cveID": "CVE-2026-35273",
-        "vendorProject": "Oracle",
-        "product": " PeopleSoft Enterprise PeopleTools",
-        "vulnerabilityName": "Oracle PeopleSoft Enterprise PeopleTools Missing Authentication for Critical Function Vulnerability",
-        "dateAdded": "2026-06-12",
-        "shortDescription": "Oracle PeopleSoft Enterprise PeopleTools contains a missing authentication for critical function vulnerability which could allow an unauthenticated attacker to obtain takeover of PeopleSoft Enterprise PeopleTools.",
-        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "dueDate": "2026-06-15",
-        "knownRansomwareCampaignUse": "Known",
-        "notes": "https://www.oracle.com/security-alerts/alert-cve-2026-35273.html ; https://support.oracle.com/signin/ ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-35273",
-        "cwes": [
-          "CWE-306"
-        ]
-      },
-      {
-        "cveID": "CVE-2026-10520",
-        "vendorProject": "Ivanti",
-        "product": "Sentry",
-        "vulnerabilityName": "Ivanti Sentry OS Command Injection Vulnerability",
-        "dateAdded": "2026-06-11",
-        "shortDescription": "Ivanti Sentry (formerly known as MobileIron Sentry) contains an OS command injection vulnerability which could allow a remote unauthenticated user to achieve root-level remote code execution. This vulnerability can be successfully exploited in cases where the Sentry appliance is in an unmanaged state with its endpoints externally reachable. The use of mTLS with EPMM or restricted HTTPS access through Neurons for MDM makes interfaces inaccessible to external actors.",
-        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "dueDate": "2026-06-14",
-        "knownRansomwareCampaignUse": "Unknown",
-        "notes": "https://hub.ivanti.com/s/article/Security-Advisory-Ivanti-Sentry-CVE-2026-10520-CVE-2026-10523?language=en_US ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-10520",
-        "cwes": [
-          "CWE-78"
-        ]
-      },
-      {
-        "cveID": "CVE-2026-11645",
-        "vendorProject": "Google",
-        "product": "Chromium V8",
-        "vulnerabilityName": "Google Chromium V8 Out-of-Bounds Read and Write Vulnerability",
-        "dateAdded": "2026-06-09",
-        "shortDescription": "Google Chromium V8 out-of-bounds read and write vulnerability that could allow a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. This vulnerability could affect multiple web browsers that utilize Chromium, including, but not limited to, Google Chrome, Microsoft Edge, and Opera.",
-        "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-        "dueDate": "2026-06-23",
-        "knownRansomwareCampaignUse": "Unknown",
-        "notes": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop_0153744567.html ; https://issues.chromium.org/issues/506689381 ; https://nvd.nist.gov/vuln/detail/CVE-2026-11645",
-        "cwes": [
-          "CWE-787",
-          "CWE-125"
-        ]
       }
     ],
     "urlhaus": [
       {
-        "id": "3883577",
-        "date_added": "2026-07-07 14:40:25",
-        "url": "http://94.154.43.22/arm5",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "arm",
-          "elf",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3883578",
-        "date_added": "2026-07-07 14:40:25",
-        "url": "http://94.154.43.22/arm",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "arm",
-          "elf",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3883576",
-        "date_added": "2026-07-07 14:31:31",
-        "url": "http://111.70.13.127:37514/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "arm",
-          "elf",
-          "mirai",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3883575",
-        "date_added": "2026-07-07 14:30:26",
-        "url": "http://61.52.47.54:36456/i",
+        "id": "3883649",
+        "date_added": "2026-07-07 19:32:31",
+        "url": "http://182.191.88.160:60630/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -284,44 +245,42 @@
         ]
       },
       {
-        "id": "3883574",
-        "date_added": "2026-07-07 14:25:31",
-        "url": "http://111.70.13.127:37514/bin.sh",
+        "id": "3883648",
+        "date_added": "2026-07-07 19:32:08",
+        "url": "http://182.127.102.167:36777/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3883647",
+        "date_added": "2026-07-07 19:31:31",
+        "url": "http://182.123.208.197:53380/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
           "32-bit",
-          "arm",
           "elf",
-          "mirai",
+          "mips",
           "Mozi"
         ]
       },
       {
-        "id": "3883573",
-        "date_added": "2026-07-07 14:16:10",
-        "url": "https://intelligence-bloomberg-tonsol.cfd/analytics/",
+        "id": "3883646",
+        "date_added": "2026-07-07 19:26:07",
+        "url": "http://182.127.102.167:36777/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "exe"
+          "None"
         ]
       },
       {
-        "id": "3883572",
-        "date_added": "2026-07-07 14:15:16",
-        "url": "http://91.92.242.236/files-129312398/files/file_5f7718a500a1354b.exe",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "c2-monitor-auto",
-          "dropped-by-amadey"
-        ]
-      },
-      {
-        "id": "3883571",
-        "date_added": "2026-07-07 14:12:07",
-        "url": "https://xdkynlm.bethouse.bet/358c9f3f-eb60-45b4-8b54-a4f62e11c09d",
+        "id": "3883645",
+        "date_added": "2026-07-07 19:18:08",
+        "url": "https://rmhtxvz.jet90betyek.bet/bf40d285-73f4-4d7a-b284-55d28b74a8c0",
         "url_status": "offline",
         "threat": "malware_download",
         "tags": [
@@ -331,100 +290,22 @@
         ]
       },
       {
-        "id": "3883570",
-        "date_added": "2026-07-07 14:07:06",
-        "url": "https://jpauxzfd.1xforward.xyz/ae84f584-8ad5-43ac-aab4-6fd420929650",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "ClearFake",
-          "win-0x0cd5",
-          "windows"
-        ]
-      },
-      {
-        "id": "3883569",
-        "date_added": "2026-07-07 14:06:09",
-        "url": "https://qv.co.ke/pass.ps1",
+        "id": "3883644",
+        "date_added": "2026-07-07 19:12:32",
+        "url": "http://123.9.245.88:57945/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "a310Logger",
-          "ascii",
-          "powershell",
-          "ps1"
-        ]
-      },
-      {
-        "id": "3883568",
-        "date_added": "2026-07-07 14:03:10",
-        "url": "https://c50tvp96.bet1yekbet.bet/?ublib=bd27e5e2-20bf-4ba4-b07e-83227998d43a",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "ClearFake",
-          "mac-0x68dc",
-          "macOS"
-        ]
-      },
-      {
-        "id": "3883567",
-        "date_added": "2026-07-07 13:59:07",
-        "url": "https://qqtldjhf.1xforward.xyz/6bee5073-bc4f-4c4a-828d-0feb2d694c58",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "ClearFake",
-          "win-0x0cd5",
-          "windows"
-        ]
-      },
-      {
-        "id": "3883566",
-        "date_added": "2026-07-07 13:57:06",
-        "url": "http://46.236.65.230:47543/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
           "Mozi"
         ]
       },
       {
-        "id": "3883565",
-        "date_added": "2026-07-07 13:52:07",
-        "url": "http://46.236.65.230:47543/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3883564",
-        "date_added": "2026-07-07 13:48:10",
-        "url": "https://vkgfakco.yan303.com/665f2f98-1691-4e74-8fbd-4a11f50991a6",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "ClearFake",
-          "win-0x0cd5",
-          "windows"
-        ]
-      },
-      {
-        "id": "3883563",
-        "date_added": "2026-07-07 13:41:07",
-        "url": "http://182.239.81.126:54635/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3883562",
-        "date_added": "2026-07-07 13:37:08",
-        "url": "https://opklh5i1.catsandcarp.com/?ublib=3520d4ec-bc22-40ef-ac7b-31024fc6ebba",
+        "id": "3883643",
+        "date_added": "2026-07-07 18:38:06",
+        "url": "https://mqp8iw5d.jetshart.net/?ublib=71bee544-f485-455d-9c90-05a86166cd29",
         "url_status": "offline",
         "threat": "malware_download",
         "tags": [
@@ -434,9 +315,9 @@
         ]
       },
       {
-        "id": "3883560",
-        "date_added": "2026-07-07 13:36:09",
-        "url": "https://az1cv6zs.calvaryhospice.org/?ublib=61a226d1-42be-442a-bff9-fb6cd9aa9412",
+        "id": "3883642",
+        "date_added": "2026-07-07 18:36:07",
+        "url": "https://h9qlti2y.marjaevakil.ir/?ublib=ab06e5d9-c6fe-4c3a-b9a0-88ef4dcaecf2",
         "url_status": "offline",
         "threat": "malware_download",
         "tags": [
@@ -446,19 +327,33 @@
         ]
       },
       {
-        "id": "3883561",
-        "date_added": "2026-07-07 13:36:09",
-        "url": "http://182.239.81.126:54635/bin.sh",
-        "url_status": "online",
+        "id": "3883641",
+        "date_added": "2026-07-07 18:32:06",
+        "url": "https://oznubofc.backlinkbet.com/a445f56c-1a81-4a13-9ebc-78a4acb36cda",
+        "url_status": "offline",
         "threat": "malware_download",
         "tags": [
-          "None"
+          "ClearFake",
+          "win-0x0cd5",
+          "windows"
         ]
       },
       {
-        "id": "3883559",
-        "date_added": "2026-07-07 13:30:28",
-        "url": "http://115.50.3.250:59914/i",
+        "id": "3883640",
+        "date_added": "2026-07-07 18:23:07",
+        "url": "https://scawwaq.jet90betiran.bet/978510df-0f08-4df3-9613-8158e68b8dcf",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "ClearFake",
+          "win-0x4679",
+          "windows"
+        ]
+      },
+      {
+        "id": "3883639",
+        "date_added": "2026-07-07 18:15:23",
+        "url": "http://123.8.175.1:35967/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -467,44 +362,222 @@
           "mips",
           "Mozi"
         ]
+      },
+      {
+        "id": "3883636",
+        "date_added": "2026-07-07 18:13:20",
+        "url": "http://45.90.163.37/arm5",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "mirai",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3883637",
+        "date_added": "2026-07-07 18:13:20",
+        "url": "http://45.90.163.37/ppc",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "mirai",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3883638",
+        "date_added": "2026-07-07 18:13:20",
+        "url": "http://45.90.163.37/sh4",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "mirai",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3883628",
+        "date_added": "2026-07-07 18:13:19",
+        "url": "http://45.90.163.37/spc",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "mirai",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3883629",
+        "date_added": "2026-07-07 18:13:19",
+        "url": "http://45.90.163.37/arc",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "mirai",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3883630",
+        "date_added": "2026-07-07 18:13:19",
+        "url": "http://45.90.163.37/i686",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "mirai",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3883631",
+        "date_added": "2026-07-07 18:13:19",
+        "url": "http://45.90.163.37/arm7",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "mirai",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3883632",
+        "date_added": "2026-07-07 18:13:19",
+        "url": "http://45.90.163.37/i486",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "mirai",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3883633",
+        "date_added": "2026-07-07 18:13:19",
+        "url": "http://45.90.163.37/m68k",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "mirai",
+          "ua-wget"
+        ]
       }
     ]
   },
   "world_monitor": [
     {
-      "title": "U.K. Live Updates: Farage Resigns and Says He Will Run Again in Special Election",
+      "title": "Marine Le Pen to run for French presidency and appeal conviction in top court",
+      "link": "https://www.bbc.co.uk/news/articles/c7vygl3zymjo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Tue, 07 Jul 2026 19:55:59 GMT",
+      "source": "BBC",
+      "summary": "The hard-right National Rally leader has ended months of speculation, after a court ruled she could run but would have to wear a tag for a year."
+    },
+    {
+      "title": "In NATO’s Next Act, Can Europe Lead?",
+      "link": "https://www.nytimes.com/2026/07/07/world/europe/nato-trump-rutte-ankara-turkey.html",
+      "pubDate": "Tue, 07 Jul 2026 19:19:51 +0000",
+      "source": "NYT World",
+      "summary": "The focus at a leaders’ summit in Turkey this week will be on building a new model for the alliance, as President Trump pushes to do less and pressures others do more."
+    },
+    {
+      "title": "Le Pen Says She Will Run for Presidency After Court Lifts Ban",
+      "link": "https://www.nytimes.com/2026/07/07/world/europe/marine-le-pen-verdict-election-ban-appeal.html",
+      "pubDate": "Tue, 07 Jul 2026 19:16:38 +0000",
+      "source": "NYT World",
+      "summary": "An appeals court confirmed Marine Le Pen’s embezzlement conviction, but shortened a ban on her eligibility for elected office. That means the French far-right leader can run for president in 2027."
+    },
+    {
+      "title": "Trump criticises NATO allies over Iran conflict support",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/7/7/trump-criticises-nato-allies-over-iran-conflict-support?traffic_source=rss",
+      "pubDate": "Tue, 07 Jul 2026 19:16:05 +0000",
+      "source": "Al Jazeera",
+      "summary": "US President Donald Trump criticised NATO allies for refusing to back the United States during its conflict with Iran."
+    },
+    {
+      "title": "Trump looms large as Nato grapples with challenge of rearming Europe",
+      "link": "https://www.bbc.co.uk/news/articles/ckg06d3dgnlo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Tue, 07 Jul 2026 18:56:19 GMT",
+      "source": "BBC",
+      "summary": "The US president's inflammatory words have punctuated the image of unity at this crucial gathering, Security Correspondent Frank Gardner writes."
+    },
+    {
+      "title": "‘They brought me here to kill me’ says Gaza doctor in Israeli prison",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/7/7/they-brought-me-here-to-kill-me-says-gaza-doctor-in-israeli-prison?traffic_source=rss",
+      "pubDate": "Tue, 07 Jul 2026 18:44:55 +0000",
+      "source": "Al Jazeera",
+      "summary": "‘They brought me here to kill me’ says Gaza doctor in Israeli prison"
+    },
+    {
+      "title": "France’s Marine Le Pen must wear ankle tag after appeal ruling",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/7/7/frances-marine-le-pen-must-wear-ankle-tag-after-appeal-ruling?traffic_source=rss",
+      "pubDate": "Tue, 07 Jul 2026 18:38:55 +0000",
+      "source": "Al Jazeera",
+      "summary": "A French appeals court upheld Marine Le Pen's conviction for misusing European Parliament funds."
+    },
+    {
+      "title": "Hungary's public news broadcasts halted in bid to scrap Orban-era propaganda",
+      "link": "https://www.bbc.co.uk/news/articles/cgevwq1pndgo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Tue, 07 Jul 2026 18:34:45 GMT",
+      "source": "BBC",
+      "summary": "The country's main state TV channel displayed a message saying it was \"sorry\" for lying on Tuesday."
+    },
+    {
+      "title": "Argentina stage stunning late comeback to beat Egypt in World Cup last 16",
+      "link": "https://www.aljazeera.com/sports/2026/7/7/argentina-stage-stunning-late-comeback-to-beat-egypt-in-world-cup-last-16?traffic_source=rss",
+      "pubDate": "Tue, 07 Jul 2026 18:34:19 +0000",
+      "source": "Al Jazeera",
+      "summary": "‌Holders Argentina survive huge scare to earn a 3-2 win ⁠over Egypt and reach the World Cup quarterfinals."
+    },
+    {
+      "title": "SpaceX shares slide as it joins the tech-heavy Nasdaq-100",
+      "link": "https://www.aljazeera.com/economy/2026/7/7/spacex-shares-slide-as-it-joins-the-tech-heavy-nasdaq-100?traffic_source=rss",
+      "pubDate": "Tue, 07 Jul 2026 18:26:55 +0000",
+      "source": "Al Jazeera",
+      "summary": "Musk-led company joined the index on Tuesday, less than a month after its stock market debut on June 12."
+    },
+    {
+      "title": "Farage Resigns and Says He Will Run Again in Special Election",
       "link": "https://www.nytimes.com/live/2026/07/07/world/nigel-farage-reform-uk",
-      "pubDate": "Tue, 07 Jul 2026 14:39:11 +0000",
+      "pubDate": "Tue, 07 Jul 2026 18:14:50 +0000",
       "source": "NYT World",
       "summary": "Nigel Farage, leader of the populist right-wing party Reform U.K., has come under increasing pressure after a series of revelations about undisclosed gifts and donations."
     },
     {
       "title": "Woman suspected of Monaco bomb attack found dead in Ukraine",
       "link": "https://www.bbc.co.uk/news/articles/c5yz3770yg8o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Tue, 07 Jul 2026 14:08:57 GMT",
+      "pubDate": "Tue, 07 Jul 2026 17:58:48 GMT",
       "source": "BBC",
       "summary": "Police had been hunting Anastasiia Berezovska after a Ukrainian millionaire was injured in the blast."
     },
     {
-      "title": "The World Cup is exposing the contradictions of national identity",
-      "link": "https://www.aljazeera.com/opinions/2026/7/7/the-world-cup-is-exposing-the-contradictions-of-national-identity?traffic_source=rss",
-      "pubDate": "Tue, 07 Jul 2026 13:55:16 +0000",
-      "source": "Al Jazeera",
-      "summary": "Teams shaped by migration and diaspora are challenging exclusionary ideas of who belongs."
+      "title": "Lawyer says detained Gaza doctor was severely beaten in Israeli jail",
+      "link": "https://www.bbc.co.uk/news/articles/c07yy3pgrlmo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Tue, 07 Jul 2026 16:10:14 GMT",
+      "source": "BBC",
+      "summary": "The lawyer for Dr Hussam Abu Safiya tells the BBC his client was so badly beaten he could not recognise him during a visit last week."
     },
     {
-      "title": "Mbappe slams racism by Paraguay’s Amarilla at World Cup: What we know",
-      "link": "https://www.aljazeera.com/news/2026/7/7/mbappe-slams-racism-by-paraguays-amarilla-at-world-cup-what-we-know?traffic_source=rss",
-      "pubDate": "Tue, 07 Jul 2026 13:44:12 +0000",
-      "source": "Al Jazeera",
-      "summary": "Footballers of African descent are often subjected to racist abuse on and off the pitch."
-    },
-    {
-      "title": "Ayatollah Ali Khamenei, Iran’s Slain Leader, Is Mourned in Qom",
+      "title": "Mass Mournings In Qom, Where Khamenei Ruled Supreme Over Iran’s Clerics",
       "link": "https://www.nytimes.com/2026/07/07/world/middleeast/iran-khamenei-qom-funeral.html",
-      "pubDate": "Tue, 07 Jul 2026 13:32:27 +0000",
+      "pubDate": "Tue, 07 Jul 2026 15:33:32 +0000",
       "source": "NYT World",
       "summary": "The ceremony for Ayatollah Ali Khamenei, held at a site considered sacred by many Shiites, was the latest step in a weeklong funeral organized by Iran’s government."
+    },
+    {
+      "title": "Estonia Won the War on Fentanyl. What Came Next Was Even Worse.",
+      "link": "https://www.nytimes.com/2026/07/07/world/europe/estonia-fentanyl-new-drugs.html",
+      "pubDate": "Tue, 07 Jul 2026 15:30:22 +0000",
+      "source": "NYT World",
+      "summary": "By 2018, fentanyl overdoses in Estonia had plummeted. But powerful new drugs are appearing fast, with the authorities racing to respond."
     },
     {
       "title": "How Local Cops Are Running With Trump's NSPM-7 Attacks on Antifa",
@@ -512,76 +585,6 @@
       "pubDate": "Tue, 07 Jul 2026 13:28:23 +0000",
       "source": "The Intercept",
       "summary": "Local authorities accused the same legal assistance group targeted by Joseph McCarthy a half century ago of being part of a vast antifa conspiracy.\nThe post How Local Cops Are Running With Trump’s NSPM-7 Attacks on Antifa appeared first on The Interc"
-    },
-    {
-      "title": "Zelensky presses Nato for air defence systems after intense Russian strikes",
-      "link": "https://www.bbc.co.uk/news/articles/c9d227e5zj6o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Tue, 07 Jul 2026 13:24:52 GMT",
-      "source": "BBC",
-      "summary": "The Ukrainian president says \"decisions for air defence\" should be \"one of the key outcomes\" of this week's summit in Turkey."
-    },
-    {
-      "title": "Two mothers, each certain a viral Gaza prisoner photo shows her son",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/7/7/two-mothers-each-certain-a-viral-gaza-prisoner-photo-shows-her-son?traffic_source=rss",
-      "pubDate": "Tue, 07 Jul 2026 13:16:26 +0000",
-      "source": "Al Jazeera",
-      "summary": "Two Palestinian mothers believe a viral image of a bound Gaza detainee shows their missing son."
-    },
-    {
-      "title": "At least nine police officers killed in southwestern Pakistan attack",
-      "link": "https://www.aljazeera.com/news/2026/7/7/at-least-nine-police-officers-killed-in-southwestern-pakistan-attack?traffic_source=rss",
-      "pubDate": "Tue, 07 Jul 2026 13:08:25 +0000",
-      "source": "Al Jazeera",
-      "summary": "Shahid Rind, a spokesman for the Balochistan government, says 15 assailants killed in 'clearance operations'."
-    },
-    {
-      "title": "Displaced Gaza farmers turn to dirt near tents to grow crops",
-      "link": "https://www.aljazeera.com/economy/2026/7/7/displaced-gaza-farmers-turn-to-dirt-near-tents-to-grow-crops?traffic_source=rss",
-      "pubDate": "Tue, 07 Jul 2026 12:56:19 +0000",
-      "source": "Al Jazeera",
-      "summary": "Israel has devastated 95 percent of Gaza's farms, engineering starvation and aid dependency, experts warn."
-    },
-    {
-      "title": "In NATO’s Next Act, Can Europe Lead?",
-      "link": "https://www.nytimes.com/2026/07/07/world/europe/nato-trump-rutte-ankara-turkey.html",
-      "pubDate": "Tue, 07 Jul 2026 12:37:26 +0000",
-      "source": "NYT World",
-      "summary": "The focus at a leaders’ summit in Turkey this week will be on building a new model for the alliance, as President Trump pushes to do less and pressures others do more."
-    },
-    {
-      "title": "Suspect in Monaco Bombing Attack Is Found Dead in Ukraine",
-      "link": "https://www.nytimes.com/2026/07/07/world/europe/monaco-bombing-suspect-dead-ukraine.html",
-      "pubDate": "Tue, 07 Jul 2026 12:18:33 +0000",
-      "source": "NYT World",
-      "summary": "The Ukrainian authorities said that Anastasiia Berezovska, who officials said was behind the explosion last week, had been shot."
-    },
-    {
-      "title": "Estonia Won the War on Fentanyl. What Came Next Was Even Worse.",
-      "link": "https://www.nytimes.com/2026/07/07/world/europe/estonia-fentanyl-new-drugs.html",
-      "pubDate": "Tue, 07 Jul 2026 11:58:01 +0000",
-      "source": "NYT World",
-      "summary": "By 2018, fentanyl overdoses in Estonia had plummeted. But powerful new drugs are appearing fast, with the authorities racing to respond."
-    },
-    {
-      "title": "Explosions injure 18 in Damascus during Macron's visit",
-      "link": "https://www.bbc.co.uk/news/articles/c2eylx1jj9ko?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Tue, 07 Jul 2026 11:16:30 GMT",
-      "source": "BBC",
-      "summary": "As reports of the blasts came in, state television said the Syrian president had welcomed Macron at the presidential palace."
-    },
-    {
-      "title": "Watch: Moment rare tornado lashes central Chinese cities",
-      "link": "https://www.bbc.co.uk/news/videos/cq61d22ved2o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Tue, 07 Jul 2026 07:27:05 GMT",
-      "source": "BBC",
-      "summary": "Videos shared with the BBC show debris flying through the air as the storm swept through Ezhou and Huanggang in Hubei province."
-    },
-    {
-      "title": "Jailers and officials at Russia's 'torture prisons' in Ukraine exposed by BBC",
-      "link": "https://www.bbc.co.uk/news/articles/cx2kkrx8jeno?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Mon, 06 Jul 2026 23:55:53 GMT",
-      "source": "BBC",
-      "summary": "Former prisoners accuse the men of abuse in detention centres and want to see them brought to trial."
     },
     {
       "title": "Between Graves and Uncertainty: The Management of the Dead After Venezuela’s Earthquake",
@@ -714,6 +717,38 @@
   ],
   "syndicate_journal": [
     {
+      "title": "Liberian Rubber Workers Triumphed Against Union Busting",
+      "link": "",
+      "summary": "Stepping onto the Firestone rubber plantation in Liberia, the largest contiguous rubber plantation in the world at 185 square miles, is a step into the past — though which past or which historical moment is debatable. The “plantation,” as it’s officially referred to by Firestone, is at once reminisc",
+      "pubDate": "2026-07-07T19:22:44.136Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "Modern Humans and Neanderthals May Have Shared a Cave-Dwelling Culture",
+      "link": "https://nautil.us/modern-humans-and-neanderthals-may-have-shared-a-cave-dwelling-culture-1282537/",
+      "summary": "A cave in southern Türkiye is spilling its ancient secrets\nThe post Modern Humans and Neanderthals May Have Shared a Cave-Dwelling Culture appeared first on Nautilus.",
+      "pubDate": "Tue, 07 Jul 2026 18:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "Want to Organize the Working Class? Learn Spanish.",
+      "link": "",
+      "summary": "In Paul Thomas Anderson’s latest , , there’s a scene I still think about at least once a week.filmOne Battle After Another\nAbout halfway through the movie, the main character, Pat Calhoun (Leonardo DiCaprio), is on the lam and seeks refuge with his daughter’s karate teacher, Sergio “Sensei” St Carlo",
+      "pubDate": "2026-07-07T16:50:45.515Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "Right-Wing Populism Did Not Kill Neoliberalism",
+      "link": "",
+      "summary": "Neoliberalism often hides in plain sight. Its defenders rarely identify as neoliberals. Philip Mirowski  it as the movement that dared not speak its own name. Its advocates often suggest that it never existed, except as a term of abuse invented by the Left. Branko Milanovic has recently gone further",
+      "pubDate": "2026-07-07T15:48:28.708Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
       "title": "Choice Notes on History from Notes and Queries (1858)\n",
       "link": "https://publicdomainreview.org/collection/choice-notes-from-notes-and-queries",
       "summary": "Selections from a peculiar British journal that focus on the peculiarities of  British monarchs.",
@@ -722,12 +757,12 @@
       "source": "Public Domain Review"
     },
     {
-      "title": "Turkey’s Key Role in NATO Is No Contradiction",
-      "link": "",
-      "summary": "The North Atlantic Treaty Organization (NATO) Summit this week in the Turkish capital began in familiar circumstances: police repression of anyone dissenting against the alliance. Ahead of the meeting, Ankara was placed under what amounted to a quasi–state of emergency. Without formally declaring em",
-      "pubDate": "2026-07-07T13:57:15.955Z",
-      "domain": "politics",
-      "source": "Jacobin"
+      "title": "How Hannibal’s War Elephants Helped to Determine His Route Through the Alps",
+      "link": "https://nautil.us/how-hannibals-war-elephants-helped-to-determine-his-route-through-the-alps-1282523/",
+      "summary": "When you go into battle with nearly 40 gigantic pachyderms, you need to take the shortest path possible\nThe post How Hannibal’s War Elephants Helped to Determine His Route Through the Alps appeared first on Nautilus.",
+      "pubDate": "Tue, 07 Jul 2026 15:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
     },
     {
       "title": "Rudyard Kipling’s Buddhism",
@@ -736,14 +771,6 @@
       "pubDate": "Tue, 07 Jul 2026 13:26:58 +0000",
       "domain": "history",
       "source": "JSTOR Daily"
-    },
-    {
-      "title": "The Invisible Heart of Modern Life Is the Garbage Worker",
-      "link": "",
-      "summary": "Simon Paré-Poupart begins !, a memoir of his years as a garbage collector, by explaining why he started swearing again. He had promised religious friends he would stop taking the Lord’s name in vain. Then one day, he jumped off the truck and found eighteen overloaded contractor bags wedged between t",
-      "pubDate": "2026-07-07T12:47:35.851Z",
-      "domain": "politics",
-      "source": "Jacobin"
     },
     {
       "title": "‘The emperor is far away’",
@@ -784,30 +811,6 @@
       "pubDate": "Mon, 06 Jul 2026 23:00:00 +0000",
       "domain": "science",
       "source": "Nautilus"
-    },
-    {
-      "title": "The Rabies Vaccine Debuted Nearly 150 Years Ago Today",
-      "link": "https://nautil.us/the-rabies-vaccine-debuted-nearly-150-years-ago-today-1282511/",
-      "summary": "Pioneering microbiologist Luis Pasteur helped save the life of a dog-bitten boy\nThe post The Rabies Vaccine Debuted Nearly 150 Years Ago Today appeared first on Nautilus.",
-      "pubDate": "Mon, 06 Jul 2026 22:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
-      "title": "See Some of the Best Astronomy Photos of the Last Year",
-      "link": "https://nautil.us/see-some-of-the-best-astronomy-photos-of-the-last-year-1282487/",
-      "summary": "From Earth to the moon to deep space—and back again\nThe post See Some of the Best Astronomy Photos of the Last Year appeared first on Nautilus.",
-      "pubDate": "Mon, 06 Jul 2026 21:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
-      "title": "Black Conservatives Have Made Their Own AIPAC",
-      "link": "",
-      "summary": "On June 23, democratic socialist Darializa Avila Chevalier defeated pro-Israel incumbent Rep. Adriano Espaillat by 4 percentage points in New York’s Thirteenth Congressional District. However, in the process of campaigning, Espaillat’s team leaned into a rather audacious strategy. It  anti-blackness",
-      "pubDate": "2026-07-06T17:33:47.173Z",
-      "domain": "politics",
-      "source": "Jacobin"
     },
     {
       "title": "Researchers Reveal the Power of ‘Quantum Proofs’",
@@ -978,25 +981,25 @@
       "source": "ROAR Magazine"
     },
     {
-      "title": "The effect of family sports environment on physical exercise behavior of junior high school students—the chain mediating effect of perceived family support and self-efficacy",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1821116",
-      "summary": "AimThis investigation seeks to elucidate the mechanistic pathways through which perceived family support and self-efficacy mediate the relationship between the family sports environment and physical exercise behavior among junior high school students. Ultimately, this research aims to establish a ro",
+      "title": "Effectiveness of virtual reality–based intervention for adolescent depressive disorder: a randomized controlled trial protocol",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1845011",
+      "summary": "BackgroundThe prevalence of depressive disorders among adolescents has been increasing in recent years, significantly impairing emotional development and social functioning. Although conventional treatments, including pharmacotherapy and psychotherapy, have demonstrated effectiveness, limitations su",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "Editorial: Stress-induced psychopathology: from mechanisms to interventions",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1889052",
+      "title": "When tasty becomes threatening: a neurobehavioral perspective on subjective food preferences in eating disorders",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1844251",
+      "summary": "Subjective food preferences significantly influence eating behavior, and in eating disorders (EDs), these preferences are often altered. Neuroimaging and neurobehavioral studies have revealed atypical brain responses to food cues in anorexia nervosa (AN), bulimia nervosa (BN), and binge eating disor",
+      "pubDate": "",
+      "domain": "psychology",
+      "source": "Frontiers Psychology"
+    },
+    {
+      "title": "Editorial: Reviews in psychology of language-volume II",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1909048",
       "summary": "",
-      "pubDate": "",
-      "domain": "psychology",
-      "source": "Frontiers Psychology"
-    },
-    {
-      "title": "A spectrum of self-processing modes: Indian philosophical insights and contemporary science on wellbeing",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1884131",
-      "summary": "While contemporary psychology focuses on developing a cohesive self for wellbeing, Indian philosophical traditions such as Advaita Vedanta, Buddhism and the teachings of J. Krishnamurti provide a critique of the notion of a fixed self-identity. This conceptual paper compares them at a phenomenologic",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
@@ -1004,64 +1007,64 @@
   ],
   "misinfo_toilet": [
     {
-      "headline": "Explosions injure 18 in Damascus during Macron's visit",
-      "fragment": "The truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
-      "splice": "Explosions injure 18 in Damascus during Macron's visit which is to say the truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
-      "seed": 20260721
-    },
-    {
-      "headline": "Two mothers, each certain a viral Gaza prisoner photo shows her son",
-      "fragment": "We live in a world where there is more and more information, and less and less meaning.",
-      "splice": "Two mothers, each certain a viral Gaza prisoner photo shows her son within which we live in a world where there is more and more information, and less and less meaning.",
-      "seed": 20260722
-    },
-    {
-      "headline": "Satellite Imagery Shows Scale of Venezuela Earthquake Damage",
+      "headline": "‘They brought me here to kill me’ says Gaza doctor in Israeli prison",
       "fragment": "An ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
-      "splice": "Satellite Imagery Shows Scale of Venezuela Earthquake Damage despite an ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
-      "seed": 20260723
-    },
-    {
-      "headline": "Jailers and officials at Russia's 'torture prisons' in Ukraine exposed by BBC",
-      "fragment": "It is at work everywhere, functioning smoothly at times, at other times in fits and starts. It breathes, it heats, it eats. It shits and fucks.",
-      "splice": "Jailers and officials at Russia's 'torture prisons' in Ukraine exposed by BBC because it is at work everywhere, functioning smoothly at times, at other times in fits and starts. It breathes, it heats, it eats. It shits and fucks.",
-      "seed": 20260724
-    },
-    {
-      "headline": "Between Graves and Uncertainty: The Management of the Dead After Venezuela’s Earthquake",
-      "fragment": "There is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
-      "splice": "Between Graves and Uncertainty: The Management of the Dead After Venezuela’s Earthquake in the void where there is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
-      "seed": 20260725
-    },
-    {
-      "headline": "In NATO’s Next Act, Can Europe Lead?",
-      "fragment": "To dissimulate is to pretend not to have what one has. To simulate is to feign to have what one doesn't have. One implies a presence, the other an absence.",
-      "splice": "In NATO’s Next Act, Can Europe Lead? in the void where to dissimulate is to pretend not to have what one has. To simulate is to feign to have what one doesn't have. One implies a presence, the other an absence.",
-      "seed": 20260726
-    },
-    {
-      "headline": "Zelensky presses Nato for air defence systems after intense Russian strikes",
-      "fragment": "The simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
-      "splice": "Zelensky presses Nato for air defence systems after intense Russian strikes therefore the simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
+      "splice": "‘They brought me here to kill me’ says Gaza doctor in Israeli prison despite an ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
       "seed": 20260727
     },
     {
-      "headline": "How to Use AI to Help Find Civilian Harm",
-      "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
-      "splice": "How to Use AI to Help Find Civilian Harm the system notes that the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "headline": "Argentina stage stunning late comeback to beat Egypt in World Cup last 16",
+      "fragment": "It is at work everywhere, functioning smoothly at times, at other times in fits and starts. It breathes, it heats, it eats. It shits and fucks.",
+      "splice": "Argentina stage stunning late comeback to beat Egypt in World Cup last 16 because it is at work everywhere, functioning smoothly at times, at other times in fits and starts. It breathes, it heats, it eats. It shits and fucks.",
       "seed": 20260728
     },
     {
-      "headline": "Suspect in Monaco Bombing Attack Is Found Dead in Ukraine",
-      "fragment": "It is at work everywhere, functioning smoothly at times, at other times in fits and starts. It breathes, it heats, it eats. It shits and fucks.",
-      "splice": "Suspect in Monaco Bombing Attack Is Found Dead in Ukraine underneath it is at work everywhere, functioning smoothly at times, at other times in fits and starts. It breathes, it heats, it eats. It shits and fucks.",
+      "headline": "Burning Forests: Tools for Tracking and Reporting Wildfire Damage",
+      "fragment": "There is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
+      "splice": "Burning Forests: Tools for Tracking and Reporting Wildfire Damage in the void where there is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
       "seed": 20260729
     },
     {
-      "headline": "The Horrifying Lessons of 250 Years of American History",
-      "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "splice": "The Horrifying Lessons of 250 Years of American History insofar as the breast is a machine that produces milk, and the mouth a machine coupled to it.",
+      "headline": "Farage Resigns and Says He Will Run Again in Special Election",
+      "fragment": "To dissimulate is to pretend not to have what one has. To simulate is to feign to have what one doesn't have. One implies a presence, the other an absence.",
+      "splice": "Farage Resigns and Says He Will Run Again in Special Election in the void where to dissimulate is to pretend not to have what one has. To simulate is to feign to have what one doesn't have. One implies a presence, the other an absence.",
       "seed": 20260730
+    },
+    {
+      "headline": "Trump looms large as Nato grapples with challenge of rearming Europe",
+      "fragment": "The simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
+      "splice": "Trump looms large as Nato grapples with challenge of rearming Europe therefore the simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
+      "seed": 20260731
+    },
+    {
+      "headline": "Graham Platner Inspired Another Left-Wing Veteran to Take On an Establishment Dem",
+      "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "splice": "Graham Platner Inspired Another Left-Wing Veteran to Take On an Establishment Dem the system notes that the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "seed": 20260732
+    },
+    {
+      "headline": "Poster Boy: Sanctioned Kinahan Cartel Lieutenant Found Playing Padel in Dubai",
+      "fragment": "It is at work everywhere, functioning smoothly at times, at other times in fits and starts. It breathes, it heats, it eats. It shits and fucks.",
+      "splice": "Poster Boy: Sanctioned Kinahan Cartel Lieutenant Found Playing Padel in Dubai underneath it is at work everywhere, functioning smoothly at times, at other times in fits and starts. It breathes, it heats, it eats. It shits and fucks.",
+      "seed": 20260733
+    },
+    {
+      "headline": "Mass Mournings In Qom, Where Khamenei Ruled Supreme Over Iran’s Clerics",
+      "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
+      "splice": "Mass Mournings In Qom, Where Khamenei Ruled Supreme Over Iran’s Clerics insofar as the breast is a machine that produces milk, and the mouth a machine coupled to it.",
+      "seed": 20260734
+    },
+    {
+      "headline": "SpaceX shares slide as it joins the tech-heavy Nasdaq-100",
+      "fragment": "Antagonism is not now located externally, in the face-off between class blocs, but internally, in the psychology of the worker.",
+      "splice": "SpaceX shares slide as it joins the tech-heavy Nasdaq-100 while antagonism is not now located externally, in the face-off between class blocs, but internally, in the psychology of the worker.",
+      "seed": 20260735
+    },
+    {
+      "headline": "Hungary's public news broadcasts halted in bid to scrap Orban-era propaganda",
+      "fragment": "It is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
+      "splice": "Hungary's public news broadcasts halted in bid to scrap Orban-era propaganda the system notes that it is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
+      "seed": 20260736
     }
   ]
 }
