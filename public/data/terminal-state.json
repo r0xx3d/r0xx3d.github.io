@@ -1,7 +1,37 @@
 {
-  "generated_at": "2026-07-10T16:58:13.056Z",
+  "generated_at": "2026-07-10T22:07:02.288Z",
   "threat_intel": {
     "cisa_kev": [
+      {
+        "cveID": "CVE-2026-56291",
+        "vendorProject": "Balbooa",
+        "product": "Forms",
+        "vulnerabilityName": "Balbooa Forms Unrestricted Upload of File with Dangerous Type Vulnerability",
+        "dateAdded": "2026-07-10",
+        "shortDescription": "Balbooa Forms contains an unrestricted upload of file with dangerous type vulnerability that allows an unauthenticated arbitrary file upload which could allow uploading of executable files leading to full RCE.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-07-13",
+        "knownRansomwareCampaignUse": "Unknown",
+        "notes": "https://www.balbooa.com/joomla-forms ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-56291",
+        "cwes": [
+          "CWE-434"
+        ]
+      },
+      {
+        "cveID": "CVE-2026-48939",
+        "vendorProject": "iCagenda",
+        "product": "iCagenda",
+        "vulnerabilityName": "iCagenda Unrestricted Upload of File with Dangerous Type Vulnerability",
+        "dateAdded": "2026-07-10",
+        "shortDescription": "iCagenda contains an unrestricted upload of file with dangerous type vulnerability that allows the upload of arbitrary files in the file attachment feature, ultimately resulting in PHP code upload and execution.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-07-13",
+        "knownRansomwareCampaignUse": "Unknown",
+        "notes": "https://www.icagenda.com/#download ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-48939",
+        "cwes": [
+          "CWE-434"
+        ]
+      },
       {
         "cveID": "CVE-2026-48908",
         "vendorProject": "JoomShaper",
@@ -198,43 +228,77 @@
         "cwes": [
           "CWE-306"
         ]
-      },
-      {
-        "cveID": "CVE-2026-48907",
-        "vendorProject": "Widget Factory",
-        "product": "Joomla Content Editor ",
-        "vulnerabilityName": "Widget Factory Joomla Content Editor Improper Access Control Vulnerability",
-        "dateAdded": "2026-06-16",
-        "shortDescription": "Widget Factory Joomla Content Editor contains an improper access control vulnerability which could allow for upload and execution of PHP code via the creation of new editor profiles for unauthenticated users. ",
-        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "dueDate": "2026-06-19",
-        "knownRansomwareCampaignUse": "Unknown",
-        "notes": "https://www.joomlacontenteditor.net/news/jce-security-update-and-a-free-patch-for-older-sites ; https://www.joomlacontenteditor.net/support/changelog/editor ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-48907",
-        "cwes": [
-          "CWE-284"
-        ]
-      },
-      {
-        "cveID": "CVE-2026-54420",
-        "vendorProject": "LiteSpeed",
-        "product": "cPanel Plugin",
-        "vulnerabilityName": "LiteSpeed cPanel Plugin UNIX Symbolic Link (Symlink) Following Vulnerability",
-        "dateAdded": "2026-06-15",
-        "shortDescription": "LiteSpeed cPanel plugin contains a UNIX symbolic link (Symlink) following vulnerability that could allow a user with FTP or web shell access on a shared hosting server running CloudLinux/CageFS.",
-        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "dueDate": "2026-06-18",
-        "knownRansomwareCampaignUse": "Unknown",
-        "notes": "https://blog.litespeedtech.com/2026/06/01/security-update-for-litespeed-cpanel-plugin-2/ ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-54420",
-        "cwes": [
-          "CWE-61"
-        ]
       }
     ],
     "urlhaus": [
       {
-        "id": "3884561",
-        "date_added": "2026-07-10 16:49:05",
-        "url": "https://jtkeavok.bcgame.shop/1b43e959-4d8d-4312-8e83-7e107607c398",
+        "id": "3884628",
+        "date_added": "2026-07-10 21:59:08",
+        "url": "http://115.50.67.156:59200/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3884627",
+        "date_added": "2026-07-10 21:56:09",
+        "url": "http://103.249.199.3:34843/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3884626",
+        "date_added": "2026-07-10 21:53:10",
+        "url": "http://103.249.199.3:34843/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "mirai",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3884625",
+        "date_added": "2026-07-10 21:52:08",
+        "url": "http://38.56.21.66:45423/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "mirai"
+        ]
+      },
+      {
+        "id": "3884624",
+        "date_added": "2026-07-10 21:44:08",
+        "url": "http://190.115.80.35:49166/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "mirai",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3884623",
+        "date_added": "2026-07-10 21:43:10",
+        "url": "https://ayehtlgp.systemcompass.top/768b92fd-8947-4051-a609-c97b1c206c0c",
         "url_status": "offline",
         "threat": "malware_download",
         "tags": [
@@ -244,56 +308,9 @@
         ]
       },
       {
-        "id": "3884560",
-        "date_added": "2026-07-10 16:41:08",
-        "url": "http://182.126.245.101:40314/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3884559",
-        "date_added": "2026-07-10 16:33:07",
-        "url": "https://snmg.bahigo90bet.com/5150d462-6881-4c3f-953e-94895e7dff03",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "ClearFake",
-          "win-0x0cd5",
-          "windows"
-        ]
-      },
-      {
-        "id": "3884558",
-        "date_added": "2026-07-10 16:31:13",
-        "url": "http://46.45.24.187:60415/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3884557",
-        "date_added": "2026-07-10 16:29:06",
-        "url": "https://ertt.bahigo90bet.com/05354918-f162-4eeb-ba90-e8de5fb6c985",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "ClearFake",
-          "win-0x0cd5",
-          "windows"
-        ]
-      },
-      {
-        "id": "3884556",
-        "date_added": "2026-07-10 16:12:15",
-        "url": "http://120.28.200.110:32910/i",
+        "id": "3884622",
+        "date_added": "2026-07-10 21:27:07",
+        "url": "http://38.56.21.66:45423/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -301,9 +318,9 @@
         ]
       },
       {
-        "id": "3884555",
-        "date_added": "2026-07-10 16:11:07",
-        "url": "http://46.45.24.187:60415/bin.sh",
+        "id": "3884621",
+        "date_added": "2026-07-10 21:23:10",
+        "url": "http://182.119.233.137:52462/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -314,19 +331,9 @@
         ]
       },
       {
-        "id": "3884554",
-        "date_added": "2026-07-10 16:02:09",
-        "url": "http://119.115.222.169:52901/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3884553",
-        "date_added": "2026-07-10 15:59:09",
-        "url": "http://110.39.237.192:41559/i",
+        "id": "3884620",
+        "date_added": "2026-07-10 21:19:11",
+        "url": "http://110.36.11.225:60680/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -337,114 +344,21 @@
         ]
       },
       {
-        "id": "3884552",
-        "date_added": "2026-07-10 15:50:10",
-        "url": "http://220.202.67.32:41461/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3884551",
-        "date_added": "2026-07-10 15:48:06",
-        "url": "http://110.36.12.61:52297/bin.sh",
+        "id": "3884619",
+        "date_added": "2026-07-10 21:15:11",
+        "url": "https://ggj2o3iw.zaribbala.bet/?ublib=3f836d5c-a13a-485a-a2cb-48fa84842d97",
         "url_status": "offline",
         "threat": "malware_download",
         "tags": [
-          "None"
+          "ClearFake",
+          "mac-0x68dc",
+          "macOS"
         ]
       },
       {
-        "id": "3884549",
-        "date_added": "2026-07-10 15:47:12",
-        "url": "http://119.115.222.169:52901/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3884550",
-        "date_added": "2026-07-10 15:47:12",
-        "url": "http://42.87.152.70:41357/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3884548",
-        "date_added": "2026-07-10 15:42:09",
-        "url": "http://120.28.200.110:32910/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "mirai"
-        ]
-      },
-      {
-        "id": "3884547",
-        "date_added": "2026-07-10 15:41:11",
-        "url": "http://42.239.154.159:35456/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3884546",
-        "date_added": "2026-07-10 15:32:09",
-        "url": "http://115.61.119.253:35178/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3884545",
-        "date_added": "2026-07-10 15:31:11",
-        "url": "http://220.202.67.32:41461/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3884544",
-        "date_added": "2026-07-10 15:31:08",
-        "url": "http://59.96.138.224:40577/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3884543",
-        "date_added": "2026-07-10 15:29:07",
-        "url": "https://awvz.backgammon.download/dafd8919-d9f8-4b8a-a841-8b79f9f62e29",
+        "id": "3884618",
+        "date_added": "2026-07-10 21:12:08",
+        "url": "https://ovya.logiccascade.top/5446b5fe-985e-4ed5-b61e-12eb6ebadfba",
         "url_status": "offline",
         "threat": "malware_download",
         "tags": [
@@ -454,20 +368,183 @@
         ]
       },
       {
-        "id": "3884542",
-        "date_added": "2026-07-10 15:28:06",
-        "url": "http://176.65.148.194/hiddenbin/boatnet.ppc",
+        "id": "3884617",
+        "date_added": "2026-07-10 20:57:08",
+        "url": "http://47.212.193.38:46802/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
+          "32-bit",
+          "arm",
           "elf",
           "mirai",
-          "ua-wget"
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3884616",
+        "date_added": "2026-07-10 20:51:07",
+        "url": "https://tjdxsecd.stacknexus.top/2cd7056c-4997-4c0b-b88b-7beea915859f",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "ClearFake",
+          "win-0x4679",
+          "windows"
+        ]
+      },
+      {
+        "id": "3884615",
+        "date_added": "2026-07-10 20:47:08",
+        "url": "http://115.96.128.94:46071/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3884613",
+        "date_added": "2026-07-10 20:37:09",
+        "url": "http://182.116.84.11:46161/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3884614",
+        "date_added": "2026-07-10 20:37:09",
+        "url": "http://27.204.193.16:54561/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3884612",
+        "date_added": "2026-07-10 20:33:09",
+        "url": "http://47.212.193.38:46802/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "mirai",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3884611",
+        "date_added": "2026-07-10 20:26:07",
+        "url": "http://200.112.129.135:45948/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3884610",
+        "date_added": "2026-07-10 20:16:54",
+        "url": "http://112.254.156.154:45877/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "mirai",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3884609",
+        "date_added": "2026-07-10 20:12:07",
+        "url": "https://ruxi.kernelbridge.top/1ec26b9d-045f-4267-96f8-f01d23727902",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "ClearFake",
+          "win-0x0cd5",
+          "windows"
         ]
       }
     ]
   },
   "world_monitor": [
+    {
+      "title": "Spain leave it late to book semifinal date with France",
+      "link": "https://www.aljazeera.com/sports/2026/7/10/spain-leave-it-late-to-book-semifinal-date-with-france?traffic_source=rss",
+      "pubDate": "Fri, 10 Jul 2026 21:39:56 +0000",
+      "source": "Al Jazeera",
+      "summary": "Mikel Merino comes off the bench to break Belgian hearts after slip from sub keeper Senne Lammens."
+    },
+    {
+      "title": "Dozens of abducted schoolchildren and teachers rescued in Nigeria",
+      "link": "https://www.aljazeera.com/news/2026/7/10/dozens-of-abducted-schoolchildren-and-teachers-rescued-in-nigeria?traffic_source=rss",
+      "pubDate": "Fri, 10 Jul 2026 21:01:27 +0000",
+      "source": "Al Jazeera",
+      "summary": "The hostages were taken from three separate schools in the southwestern state of Oyo in May."
+    },
+    {
+      "title": "Royal Rapprochement: Harry and Meghan Pay a Rare Visit to the King and Queen",
+      "link": "https://www.nytimes.com/2026/07/10/world/europe/harry-meghan-visit-charles-camilla.html",
+      "pubDate": "Fri, 10 Jul 2026 20:58:01 +0000",
+      "source": "NYT World",
+      "summary": "Friday’s visit to King Charles and Queen Camilla signaled a détente in relations with Prince Harry and his wife, who stepped down from royal duties and moved to the United States in 2020."
+    },
+    {
+      "title": "Lebanon historic sites destroyed by Israeli strikes",
+      "link": "https://www.aljazeera.com/video/2026/7/10/lebanon-historic-sites-destroyed-by-israeli-strikes?traffic_source=rss",
+      "pubDate": "Fri, 10 Jul 2026 20:33:08 +0000",
+      "source": "Al Jazeera",
+      "summary": "Israeli air strikes on southern Lebanon have caused catastrophic destruction and damaged historic landmarks."
+    },
+    {
+      "title": "How Wong Kim Ark’s legacy reignited the fight for birthright citizenship",
+      "link": "https://www.aljazeera.com/news/longform/2026/7/10/how-wong-kim-arks-legacy-reignited-the-fight-for-birthright-citizenship?traffic_source=rss",
+      "pubDate": "Fri, 10 Jul 2026 20:24:03 +0000",
+      "source": "Al Jazeera",
+      "summary": "Sandra Wong did not know her great-grandfather growing up. But his legacy would catapult her into the public eye."
+    },
+    {
+      "title": "Ukrainian attacks cause chaos at fuel stations across Russia",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/7/10/ukrainian-attacks-cause-chaos-at-fuel-stations-across-russia?traffic_source=rss",
+      "pubDate": "Fri, 10 Jul 2026 20:23:36 +0000",
+      "source": "Al Jazeera",
+      "summary": "Ukraine’s targeting of Russia’s major oil refineries has sparked a nationwide fuel shortage."
+    },
+    {
+      "title": "Maine Senate Candidates Claim They’re Just Like Platner — But Entirely Different",
+      "link": "https://theintercept.com/2026/07/10/maine-senate-platner-replace-nirav-shah-troy-jackson/",
+      "pubDate": "Fri, 10 Jul 2026 19:24:14 +0000",
+      "source": "The Intercept",
+      "summary": "Candidates are desperately trying to appeal to Graham Platner’s base. But they’re keeping Platner himself at arm’s length. \nThe post Maine Senate Candidates Claim They’re Just Like Platner — But Entirely Different appeared first on The Intercept."
+    },
+    {
+      "title": "DSA Members Urge Campaigns to Ditch Platner Consultant Who Advised Mamdani",
+      "link": "https://theintercept.com/2026/07/10/dsa-graham-platner-morris-katz-consultant/",
+      "pubDate": "Fri, 10 Jul 2026 18:50:03 +0000",
+      "source": "The Intercept",
+      "summary": "“We, the undersigned, call on DSA candidates and elected officials to no longer contract or work with Morris Katz or Fight Agency, his political consulting firm.”\nThe post DSA Members Urge Campaigns to Ditch Platner Consultant Who Advised Mamdani app"
+    },
+    {
+      "title": "At Least 12 People Die in Southern Spain Wildfire",
+      "link": "https://www.nytimes.com/2026/07/10/world/europe/spain-wildfire-deaths.html",
+      "pubDate": "Fri, 10 Jul 2026 18:45:03 +0000",
+      "source": "NYT World",
+      "summary": "The blaze in Andalusia, one of the deadliest on record in the country, also left more than 20 people missing. Many of the victims were foreign tourists, the Spanish authorities said."
+    },
     {
       "title": "Man nearly sucked out of window mid-air on Ryanair plane, passengers say",
       "link": "https://www.bbc.co.uk/news/articles/cgk65knkyzdo?at_medium=RSS&at_campaign=rss",
@@ -483,39 +560,11 @@
       "summary": "In the footage widely shared in South Africa, King Misuzulu threatens to physically assault his wife and accuses her of cheating."
     },
     {
-      "title": "Trump says US has ‘agreed’ to continue Iran talks but ceasefire ‘over’",
-      "link": "https://www.aljazeera.com/news/2026/7/10/trump-says-us-has-agreed-to-continue-iran-talks-but-ceasefire-over?traffic_source=rss",
-      "pubDate": "Fri, 10 Jul 2026 16:30:19 +0000",
-      "source": "Al Jazeera",
-      "summary": "Iran has not responded to Trump's latest claim, which comes as new attacks threaten the full resumption of war."
-    },
-    {
-      "title": "Who is Fadel Shaker? Lebanese pop star released on bail",
-      "link": "https://www.aljazeera.com/news/2026/7/10/who-is-fadel-shaker-lebanese-pop-star-released-on-bail?traffic_source=rss",
-      "pubDate": "Fri, 10 Jul 2026 16:27:03 +0000",
-      "source": "Al Jazeera",
-      "summary": "In 2012, singing star Shaker quit his music career, before being accused of joining an armed group in Lebanon."
-    },
-    {
-      "title": "Ruthless Zverev spoils Fery’s Wimbledon dream to power into final",
-      "link": "https://www.aljazeera.com/sports/2026/7/10/ruthless-zverev-spoils-ferys-wimbledon-dream-to-power-into-final?traffic_source=rss",
-      "pubDate": "Fri, 10 Jul 2026 16:20:47 +0000",
-      "source": "Al Jazeera",
-      "summary": "Alexander Zverev will face reigning Wimbledon champion Jannik Sinner or seven-time winner Novak ​Djokovic in the final."
-    },
-    {
       "title": "Iran’s Supreme Leader Remains Absent, a Void at the Top of the Regime",
       "link": "https://www.nytimes.com/2026/07/10/world/middleeast/iran-supreme-leader-mojtaba-khamenei.html",
       "pubDate": "Fri, 10 Jul 2026 16:00:29 +0000",
       "source": "NYT World",
       "summary": "Ayatollah Mojtaba Khamenei did not appear at his father’s funeral this week, fueling speculation about his physical condition and leaving a power vacuum in a divided country."
-    },
-    {
-      "title": "Israel bans Jerusalem’s grand mufti from Al-Aqsa Mosque for one week",
-      "link": "https://www.aljazeera.com/news/2026/7/10/israel-bans-jerusalems-grand-mufti-from-al-aqsa-mosque-for-one-week?traffic_source=rss",
-      "pubDate": "Fri, 10 Jul 2026 15:53:51 +0000",
-      "source": "Al Jazeera",
-      "summary": "The incident is the latest in a pattern of Israeli measures in the occupied territory since the Gaza genocide began."
     },
     {
       "title": "The Trump Administration Is Overhauling Birth Control Access for the Pronatalist Movement",
@@ -525,18 +574,11 @@
       "summary": "Under RFK Jr., HHS is revamping a program that’s supposed to fund contraceptives and sexual healthcare to please a far-right movement with roots in eugenics.\nThe post The Trump Administration Is Overhauling Birth Control Access for the Pronatalist Mo"
     },
     {
-      "title": "Spain vs Belgium LIVE: FIFA World Cup 2026 quarterfinal",
-      "link": "https://www.aljazeera.com/sports/liveblog/2026/7/10/spain-vs-belgium-live-fifa-world-cup-2026-quarterfinal?traffic_source=rss",
-      "pubDate": "Fri, 10 Jul 2026 15:34:18 +0000",
-      "source": "Al Jazeera",
-      "summary": "Live coverage and text updates as Lamine Yamal's Spain face Belgium for the right to meet France in the semifinals."
-    },
-    {
-      "title": "Boxy forms and odd lights: US declassifies more UFO files",
-      "link": "https://www.bbc.co.uk/news/videos/c8x2zez8qwzo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Fri, 10 Jul 2026 15:28:17 GMT",
+      "title": "Wildfire in southern Spain leaves at least 12 dead and 23 missing",
+      "link": "https://www.bbc.co.uk/news/articles/c8e2382jk7jo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Fri, 10 Jul 2026 14:08:26 GMT",
       "source": "BBC",
-      "summary": "The US government published a fourth instalment of unresolved cases, promising to release more files on a rolling basis."
+      "summary": "A local official said four of the victims may be British after a fire broke out near Los Gallardos, Almería."
     },
     {
       "title": "East Asia braces for destructive typhoon as landslides kill 15 in Philippines",
@@ -544,20 +586,6 @@
       "pubDate": "Fri, 10 Jul 2026 13:53:11 GMT",
       "source": "BBC",
       "summary": "Heading for Taiwan and south-eastern China, the 1,000 km-wide Bavi is forecast to be one of the strongest storms in decades."
-    },
-    {
-      "title": "At Least 12 People Die in Southern Spain Wildfire",
-      "link": "https://www.nytimes.com/2026/07/10/world/europe/spain-wildfire-deaths.html",
-      "pubDate": "Fri, 10 Jul 2026 13:40:43 +0000",
-      "source": "NYT World",
-      "summary": "More than 20 people were still missing after the blaze in Andalusia, one of the deadliest on record in the country. Many of the victims were foreign tourists, the Spanish authorities said."
-    },
-    {
-      "title": "Fighting Fires With Figures, These Experts Are Trying to Stop Europe From Burning",
-      "link": "https://www.nytimes.com/2026/07/10/world/europe/fire-climate-change-heat-wave-global-warming.html",
-      "pubDate": "Fri, 10 Jul 2026 13:08:41 +0000",
-      "source": "NYT World",
-      "summary": "A team of engineers, foresters and scientists is helping the continent prepare for wildfires from a giant science park in Italy. Their arsenal includes satellites, weather models and expert analysis."
     },
     {
       "title": "Moscow Still Has Art and Culture. Just Don’t Say ‘Ukraine.’",
@@ -593,20 +621,6 @@
       "pubDate": "Wed, 08 Jul 2026 20:03:18 +0000",
       "source": "The Intercept",
       "summary": "Platner has lost the moral right to speak for the left. The movement that energized Maine’s voters should choose his replacement.\nThe post It’s Time for Maine to Ditch Platner — But Not the Politics That Won Over Voters appeared first on The Intercep"
-    },
-    {
-      "title": "Graham Platner’s Exit From Senate Race Leaves Maine Dems “Hobbled” in Scramble for New Nominee",
-      "link": "https://theintercept.com/2026/07/08/graham-platner-maine-democrats-senate-replacement/",
-      "pubDate": "Wed, 08 Jul 2026 19:01:04 +0000",
-      "source": "The Intercept",
-      "summary": "Amid Graham Platner’s swift downfall, most paths to selecting a replacement candidate look poisoned.\nThe post Graham Platner’s Exit From Senate Race Leaves Maine Dems “Hobbled” in Scramble for New Nominee appeared first on The Intercept."
-    },
-    {
-      "title": "Another Trump Ceasefire With Iran Crumbles",
-      "link": "https://theintercept.com/2026/07/08/trump-us-iran-ceasefire/",
-      "pubDate": "Wed, 08 Jul 2026 16:08:10 +0000",
-      "source": "The Intercept",
-      "summary": "“He must be trying for the record of how many times you can lose the same war.” \nThe post Another Trump Ceasefire With Iran Crumbles appeared first on The Intercept."
     },
     {
       "title": "Between Graves and Uncertainty: The Management of the Dead After Venezuela’s Earthquake",
@@ -646,6 +660,13 @@
   ],
   "syndication": [
     {
+      "title": "Friday Squid Blogging: “Squidbleed” Vulnerability",
+      "link": "https://www.schneier.com/blog/archives/2026/07/friday-squid-blogging-squidbleed-vulnerability.html",
+      "pubDate": "2026-07-10T21:07:13.000Z",
+      "author": "Schneier on Security",
+      "content": "In a rare combined cybersecurity/squid post, a twenty-nine-year-old squid proxy bug can leak HTTP requests.\nAs usual, you can also use this squid post to talk about the security stories in the news that I haven’t covered.\nBlog moderation policy."
+    },
+    {
       "title": "AI Surveillance and Social Progress",
       "link": "https://www.schneier.com/blog/archives/2026/07/ai-surveillance-and-social-progress.html",
       "pubDate": "2026-07-10T11:02:04.000Z",
@@ -681,13 +702,6 @@
       "content": "A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy theorists and convicted felons whose most recent ventures included fake intelligence companies and a now-defunct AI-based lobbying platform t"
     },
     {
-      "title": "Cybersecurity and the Gap Between Skill and Ability",
-      "link": "https://www.schneier.com/blog/archives/2026/07/cybersecurity-and-the-gap-between-skill-and-ability.html",
-      "pubDate": "2026-07-08T11:03:04.000Z",
-      "author": "Schneier on Security",
-      "content": "Last week, national security agencies from the Five Eyes—that’s the rich, English-language-speaking countries club—jointly released a statement warning of the increasing cyber risks of AI models: in particular, their ability to autonomously hack into systems and networks. The statement was more meas"
-    },
-    {
       "title": "Pluralistic: How US states and international trustbusters can beat Big Tech (07 Jul 2026)",
       "link": "https://pluralistic.net/2026/07/07/going-global/",
       "pubDate": "Tue, 07 Jul 2026 12:24:15 +0000",
@@ -711,6 +725,38 @@
   ],
   "syndicate_journal": [
     {
+      "title": "Early Americans Pioneered the Keto Diet",
+      "link": "https://nautil.us/early-americans-pioneered-the-keto-diet-1282630/",
+      "summary": "Until, that is, large mammal extinctions forced them to diversify their meals\nThe post Early Americans Pioneered the Keto Diet appeared first on Nautilus.",
+      "pubDate": "Fri, 10 Jul 2026 21:30:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "Here’s Why Some Humans Can Hear Super Low-Frequency Sounds",
+      "link": "https://nautil.us/heres-why-some-humans-can-hear-super-low-frequency-sounds-1282626/",
+      "summary": "It’s vibes\nThe post Here’s Why Some Humans Can Hear Super Low-Frequency Sounds appeared first on Nautilus.",
+      "pubDate": "Fri, 10 Jul 2026 20:30:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "Was This Fossil Creature the First Right-Hander Ever?",
+      "link": "https://nautil.us/was-this-fossil-creature-the-first-right-hander-ever-1282619/",
+      "summary": "A half a billion years ago, this organism preferred to bend to the right\nThe post Was This Fossil Creature the First Right-Hander Ever? appeared first on Nautilus.",
+      "pubDate": "Fri, 10 Jul 2026 18:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "Indian Workers Are on the Front Line of Global Exploitation",
+      "link": "",
+      "summary": "All over the world, we can find Indian migrant workers subject to extreme forms of exploitation and abuse: dying in the Gulf states as a  of the US war on Iran, just as they died a few years earlier of heat exhaustion as they built the stadiums for the World Cup in Qatar; brought in to replace Pales",
+      "pubDate": "2026-07-10T17:05:36.187Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
       "title": "Scam Compounds Are a Natural Product of Global Capitalism",
       "link": "",
       "summary": "Southeast Asia has a long history of being on the receiving end of global capitalism’s relentless search for profit. For centuries, the region’s trade networks supplied the global economy with precious spices, aromatic sandalwood, and rare items collected on coastal reefs and in dense rainforests.\nI",
@@ -733,22 +779,6 @@
       "pubDate": "Fri, 10 Jul 2026 14:51:48 +0000",
       "domain": "science",
       "source": "Quanta"
-    },
-    {
-      "title": "Neo-Nazis Have Never Found It Easier to Join the US Army",
-      "link": "",
-      "summary": "Matt Kennard’s new book  is the culmination of more than a decade of investigation into how the United States waged the war on terror both at home and abroad. Picking up where classic critiques of Vietnam-era militarism left off, Kennard traces how a hollowed-out empire kept up its occupations in Ir",
-      "pubDate": "2026-07-10T14:34:16.527Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
-      "title": "See the Odd-Looking Barreleye Fish in Its Natural Habitat for the First Time",
-      "link": "https://nautil.us/see-the-odd-looking-barreleye-fish-in-its-natural-habitat-for-the-first-time-1282610/",
-      "summary": "A 35-day expedition revealed hidden wonders of the deep\nThe post See the Odd-Looking Barreleye Fish in Its Natural Habitat for the First Time appeared first on Nautilus.",
-      "pubDate": "Fri, 10 Jul 2026 14:31:44 +0000",
-      "domain": "science",
-      "source": "Nautilus"
     },
     {
       "title": "The Meaning Behind Philippine Crucifixions",
@@ -797,22 +827,6 @@
       "pubDate": "Fri, 10 Jul 2026 00:00:00 -0400",
       "domain": "science",
       "source": "arXiv: cs.AI"
-    },
-    {
-      "title": "A New Species of Pit Viper Emerges in the Himalayas",
-      "link": "https://nautil.us/a-new-species-of-pit-viper-emerges-in-the-himalayas-1282605/",
-      "summary": "DNA helped differentiate the venomous serpent from its closest relative\nThe post A New Species of Pit Viper Emerges in the Himalayas appeared first on Nautilus.",
-      "pubDate": "Fri, 10 Jul 2026 00:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
-      "title": "We May Owe Our Intelligence to Our Unique Neurons",
-      "link": "https://nautil.us/we-may-owe-our-intelligence-to-our-unique-neurons-1282599/",
-      "summary": "Our cortical neurons may hold the key to our clever brains\nThe post We May Owe Our Intelligence to Our Unique Neurons appeared first on Nautilus.",
-      "pubDate": "Thu, 09 Jul 2026 21:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
     },
     {
       "title": "Will We Ever Find Alien Civilizations?",
@@ -1001,64 +1015,64 @@
   ],
   "misinfo_toilet": [
     {
-      "headline": "Israel bans Jerusalem’s grand mufti from Al-Aqsa Mosque for one week",
+      "headline": "Maine Senate Candidates Claim They’re Just Like Platner — But Entirely Different",
       "fragment": "An ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
-      "splice": "Israel bans Jerusalem’s grand mufti from Al-Aqsa Mosque for one week despite an ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
-      "seed": 20260726
+      "splice": "Maine Senate Candidates Claim They’re Just Like Platner — But Entirely Different despite an ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
+      "seed": 20260732
     },
     {
-      "headline": "Ruthless Zverev spoils Fery’s Wimbledon dream to power into final",
+      "headline": "Ukrainian attacks cause chaos at fuel stations across Russia",
       "fragment": "It is at work everywhere, functioning smoothly at times, at other times in fits and starts. It breathes, it heats, it eats. It shits and fucks.",
-      "splice": "Ruthless Zverev spoils Fery’s Wimbledon dream to power into final because it is at work everywhere, functioning smoothly at times, at other times in fits and starts. It breathes, it heats, it eats. It shits and fucks.",
-      "seed": 20260727
+      "splice": "Ukrainian attacks cause chaos at fuel stations across Russia because it is at work everywhere, functioning smoothly at times, at other times in fits and starts. It breathes, it heats, it eats. It shits and fucks.",
+      "seed": 20260733
     },
     {
       "headline": "Burning Forests: Tools for Tracking and Reporting Wildfire Damage",
       "fragment": "There is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
       "splice": "Burning Forests: Tools for Tracking and Reporting Wildfire Damage in the void where there is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
-      "seed": 20260728
+      "seed": 20260734
     },
     {
-      "headline": "East Asia braces for destructive typhoon as landslides kill 15 in Philippines",
+      "headline": "Zulu king expresses regret after video captures tirade against his wife",
       "fragment": "To dissimulate is to pretend not to have what one has. To simulate is to feign to have what one doesn't have. One implies a presence, the other an absence.",
-      "splice": "East Asia braces for destructive typhoon as landslides kill 15 in Philippines in the void where to dissimulate is to pretend not to have what one has. To simulate is to feign to have what one doesn't have. One implies a presence, the other an absence.",
-      "seed": 20260729
+      "splice": "Zulu king expresses regret after video captures tirade against his wife in the void where to dissimulate is to pretend not to have what one has. To simulate is to feign to have what one doesn't have. One implies a presence, the other an absence.",
+      "seed": 20260735
     },
     {
-      "headline": "Spain vs Belgium LIVE: FIFA World Cup 2026 quarterfinal",
+      "headline": "At Least 12 People Die in Southern Spain Wildfire",
       "fragment": "The simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
-      "splice": "Spain vs Belgium LIVE: FIFA World Cup 2026 quarterfinal therefore the simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
-      "seed": 20260730
+      "splice": "At Least 12 People Die in Southern Spain Wildfire therefore the simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
+      "seed": 20260736
     },
     {
-      "headline": "Another Trump Ceasefire With Iran Crumbles",
+      "headline": "It’s Time for Maine to Ditch Platner — But Not the Politics That Won Over Voters",
       "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
-      "splice": "Another Trump Ceasefire With Iran Crumbles the system notes that the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
-      "seed": 20260731
+      "splice": "It’s Time for Maine to Ditch Platner — But Not the Politics That Won Over Voters the system notes that the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "seed": 20260737
     },
     {
       "headline": "Poster Boy: Sanctioned Kinahan Cartel Lieutenant Found Playing Padel in Dubai",
       "fragment": "It is at work everywhere, functioning smoothly at times, at other times in fits and starts. It breathes, it heats, it eats. It shits and fucks.",
       "splice": "Poster Boy: Sanctioned Kinahan Cartel Lieutenant Found Playing Padel in Dubai underneath it is at work everywhere, functioning smoothly at times, at other times in fits and starts. It breathes, it heats, it eats. It shits and fucks.",
-      "seed": 20260732
+      "seed": 20260738
     },
     {
-      "headline": "Moscow Still Has Art and Culture. Just Don’t Say ‘Ukraine.’",
+      "headline": "Wildfire in southern Spain leaves at least 12 dead and 23 missing",
       "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "splice": "Moscow Still Has Art and Culture. Just Don’t Say ‘Ukraine.’ insofar as the breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "seed": 20260733
+      "splice": "Wildfire in southern Spain leaves at least 12 dead and 23 missing insofar as the breast is a machine that produces milk, and the mouth a machine coupled to it.",
+      "seed": 20260739
     },
     {
-      "headline": "Boxy forms and odd lights: US declassifies more UFO files",
+      "headline": "Man nearly sucked out of window mid-air on Ryanair plane, passengers say",
       "fragment": "Antagonism is not now located externally, in the face-off between class blocs, but internally, in the psychology of the worker.",
-      "splice": "Boxy forms and odd lights: US declassifies more UFO files while antagonism is not now located externally, in the face-off between class blocs, but internally, in the psychology of the worker.",
-      "seed": 20260734
+      "splice": "Man nearly sucked out of window mid-air on Ryanair plane, passengers say while antagonism is not now located externally, in the face-off between class blocs, but internally, in the psychology of the worker.",
+      "seed": 20260740
     },
     {
-      "headline": "Iran’s Supreme Leader Remains Absent, a Void at the Top of the Regime",
+      "headline": "How Wong Kim Ark’s legacy reignited the fight for birthright citizenship",
       "fragment": "It is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
-      "splice": "Iran’s Supreme Leader Remains Absent, a Void at the Top of the Regime the system notes that it is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
-      "seed": 20260735
+      "splice": "How Wong Kim Ark’s legacy reignited the fight for birthright citizenship the system notes that it is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
+      "seed": 20260741
     }
   ]
 }
