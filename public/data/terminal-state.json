@@ -1,7 +1,22 @@
 {
-  "generated_at": "2026-07-13T14:41:03.409Z",
+  "generated_at": "2026-07-13T17:14:52.919Z",
   "threat_intel": {
     "cisa_kev": [
+      {
+        "cveID": "CVE-2008-4128",
+        "vendorProject": "Cisco",
+        "product": "IOS",
+        "vulnerabilityName": "Cisco IOS Cross-Site Request Forgery Vulnerability",
+        "dateAdded": "2026-07-13",
+        "shortDescription": "Cisco IOS 12.4 contains multiple cross-site forgery vulnerabilities that allows remote attackers to execute arbitrary commands via (1) a certain \"show privilege\" command to the /level/15/exec/- URI, and (2) a certain \"alias exec\" command to the /level/15/exec/-/configure/http URI.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-07-16",
+        "knownRansomwareCampaignUse": "Unknown",
+        "notes": "https://www.cisco.com/c/en/us/obsolete/ios-nx-os-software/cisco-ios-software-releases-12-4-mainline.html ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2008-4128",
+        "cwes": [
+          "CWE-352"
+        ]
+      },
       {
         "cveID": "CVE-2026-56291",
         "vendorProject": "Balbooa",
@@ -213,56 +228,59 @@
         "cwes": [
           "CWE-284"
         ]
-      },
-      {
-        "cveID": "CVE-2026-20253",
-        "vendorProject": "Splunk",
-        "product": "Enterprise",
-        "vulnerabilityName": "Splunk Enterprise Missing Authentication for Critical Function Vulnerability",
-        "dateAdded": "2026-06-18",
-        "shortDescription": "Splunk Enterprise contains a missing authentication for critical function vulnerability which could allow an unauthenticated user to create or truncate arbitrary files through a PostgreSQL sidecar service endpoint.",
-        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "dueDate": "2026-06-21",
-        "knownRansomwareCampaignUse": "Unknown",
-        "notes": "https://advisory.splunk.com/advisories/SVD-2026-0603 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-20253",
-        "cwes": [
-          "CWE-306"
-        ]
       }
     ],
     "urlhaus": [
       {
-        "id": "3885890",
-        "date_added": "2026-07-13 14:34:31",
-        "url": "http://59.42.90.102:56735/bin.sh",
+        "id": "3885923",
+        "date_added": "2026-07-13 17:02:18",
+        "url": "http://204.44.93.68/img/MSI_PRO.png",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "32-bit",
-          "arm",
-          "elf",
-          "mirai",
-          "Mozi"
+          "rat",
+          "RemcosRAT"
         ]
       },
       {
-        "id": "3885889",
-        "date_added": "2026-07-13 14:26:25",
-        "url": "http://196.190.1.39:42645/i",
+        "id": "3885924",
+        "date_added": "2026-07-13 17:02:18",
+        "url": "http://172.245.195.209/80/weneedtogivebestthings.hta",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "32-bit",
-          "arm",
-          "elf",
-          "mirai",
-          "Mozi"
+          "hta",
+          "opendir",
+          "rat",
+          "RemcosRAT"
         ]
       },
       {
-        "id": "3885888",
-        "date_added": "2026-07-13 14:16:31",
-        "url": "http://200.112.129.158:58803/bin.sh",
+        "id": "3885925",
+        "date_added": "2026-07-13 17:02:18",
+        "url": "http://172.245.195.209/80/img_194042.png",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "rat",
+          "RemcosRAT"
+        ]
+      },
+      {
+        "id": "3885922",
+        "date_added": "2026-07-13 17:00:35",
+        "url": "http://107.170.109.82:8080/system",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "107-170-109-82-8080",
+          "elf"
+        ]
+      },
+      {
+        "id": "3885921",
+        "date_added": "2026-07-13 16:56:29",
+        "url": "http://109.169.233.123:37175/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -273,150 +291,72 @@
         ]
       },
       {
-        "id": "3885887",
-        "date_added": "2026-07-13 14:14:28",
-        "url": "http://112.248.190.178:57119/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3885886",
-        "date_added": "2026-07-13 14:14:18",
-        "url": "https://nmcdn.info/NMLoader%20v%204.2.1.zip",
+        "id": "3885920",
+        "date_added": "2026-07-13 16:54:31",
+        "url": "http://45.225.135.18:1212/a92.elf",
         "url_status": "offline",
         "threat": "malware_download",
         "tags": [
-          "Amos",
-          "macOS",
-          "malware",
-          "stealer",
-          "windows"
-        ]
-      },
-      {
-        "id": "3885885",
-        "date_added": "2026-07-13 14:13:20",
-        "url": "https://kaleda.pro/69733be4.exe",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "ClickFix",
-          "exe"
-        ]
-      },
-      {
-        "id": "3885884",
-        "date_added": "2026-07-13 14:10:20",
-        "url": "https://kaleda.pro/50bf4317.exe",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "ClickFix"
-        ]
-      },
-      {
-        "id": "3885883",
-        "date_added": "2026-07-13 14:08:19",
-        "url": "https://kaleda.pro/96de8ea9.exe",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "ClickFix"
-        ]
-      },
-      {
-        "id": "3885882",
-        "date_added": "2026-07-13 14:01:26",
-        "url": "http://196.190.1.39:42645/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "arm",
           "elf",
-          "mirai",
-          "Mozi"
+          "ua-wget"
         ]
       },
       {
-        "id": "3885881",
-        "date_added": "2026-07-13 14:00:43",
-        "url": "http://noventis8.com/lxnew.png",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "NetSupport",
-          "rat"
-        ]
-      },
-      {
-        "id": "3885880",
-        "date_added": "2026-07-13 13:59:22",
-        "url": "https://nexrogcapital.xyz/Bin/ScreenConnect.ClientSetup.msi?e=Access&y=Guest",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "connectwise",
-          "exe",
-          "rmm",
-          "screenconnect"
-        ]
-      },
-      {
-        "id": "3885879",
-        "date_added": "2026-07-13 13:52:52",
-        "url": "http://112.248.190.178:57119/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3885878",
-        "date_added": "2026-07-13 13:51:17",
-        "url": "http://42.230.17.60:42266/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3885877",
-        "date_added": "2026-07-13 13:48:17",
-        "url": "https://yxxyqkkf.jadoou.one/5f5d1b02-aca5-4491-a0ee-e53048a627c0",
+        "id": "3885919",
+        "date_added": "2026-07-13 16:54:17",
+        "url": "https://30zu55sj.radioshartbandi.bet/?ublib=38edcbc4-8597-4604-8ecc-d35afe796600",
         "url_status": "offline",
         "threat": "malware_download",
         "tags": [
           "ClearFake",
-          "win-0x4679",
-          "windows"
+          "mac-0x68dc",
+          "macOS"
         ]
       },
       {
-        "id": "3885876",
-        "date_added": "2026-07-13 13:45:41",
-        "url": "https://genesis-cheats.com/files/Genesis.zip",
+        "id": "3885918",
+        "date_added": "2026-07-13 16:52:32",
+        "url": "http://36.100.246.225:48336/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "zip"
+          "32-bit",
+          "arm",
+          "elf",
+          "mirai",
+          "Mozi"
         ]
       },
       {
-        "id": "3885875",
-        "date_added": "2026-07-13 13:42:18",
-        "url": "https://hnzi.behtarin-site-shartbandi.com/2a563779-d2bb-492c-9164-4dd12c9dd8d0",
+        "id": "3885917",
+        "date_added": "2026-07-13 16:49:30",
+        "url": "http://42.231.90.113:57377/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3885916",
+        "date_added": "2026-07-13 16:44:19",
+        "url": "http://61.53.15.130:35056/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3885915",
+        "date_added": "2026-07-13 16:43:18",
+        "url": "https://bycl.betpublic.casino/cad59a90-7290-4b4c-9a90-a970375fe9e3",
         "url_status": "offline",
         "threat": "malware_download",
         "tags": [
@@ -426,19 +366,45 @@
         ]
       },
       {
-        "id": "3885874",
-        "date_added": "2026-07-13 13:41:13",
-        "url": "http://175.175.13.148:55899/i",
+        "id": "3885914",
+        "date_added": "2026-07-13 16:38:23",
+        "url": "https://microsoftupdater.info/dl/79649bc7-c772-48ea-830f-9bdccb5b951c/client.exe",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "None"
+          "exe"
         ]
       },
       {
-        "id": "3885873",
-        "date_added": "2026-07-13 13:16:37",
-        "url": "http://110.37.85.150:52270/i",
+        "id": "3885913",
+        "date_added": "2026-07-13 16:34:21",
+        "url": "http://36.100.246.225:48336/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "mirai",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3885912",
+        "date_added": "2026-07-13 16:24:14",
+        "url": "https://stvdwyqw.site-asli-bedon-filter-1xbet.com/eea74b7a-53a5-4a14-b38b-82e93b4a8f8b",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "ClearFake",
+          "win-0x4679",
+          "windows"
+        ]
+      },
+      {
+        "id": "3885911",
+        "date_added": "2026-07-13 16:18:28",
+        "url": "http://61.53.15.130:35056/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -449,24 +415,69 @@
         ]
       },
       {
-        "id": "3885872",
-        "date_added": "2026-07-13 13:08:12",
-        "url": "http://62.60.226.140/files/8130232421/rb0yFh2.exe",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "d52f85",
-          "dropped-by-amadey"
-        ]
-      },
-      {
-        "id": "3885871",
-        "date_added": "2026-07-13 13:07:23",
-        "url": "http://175.175.13.148:55899/bin.sh",
+        "id": "3885910",
+        "date_added": "2026-07-13 16:17:16",
+        "url": "http://182.116.115.146:50105/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "None"
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3885909",
+        "date_added": "2026-07-13 16:10:28",
+        "url": "http://94.154.43.42/skid.x86_64",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "botnet",
+          "elf",
+          "mirai",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3885906",
+        "date_added": "2026-07-13 16:09:27",
+        "url": "http://94.154.43.42/skid.x86",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "botnet",
+          "elf",
+          "mirai",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3885907",
+        "date_added": "2026-07-13 16:09:27",
+        "url": "http://171.38.26.9:47753/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "mirai",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3885908",
+        "date_added": "2026-07-13 16:09:27",
+        "url": "http://110.38.207.151:46188/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
         ]
       }
     ]
@@ -475,44 +486,58 @@
     {
       "title": "Live Updates: U.S. and Iran Edge Toward War Again",
       "link": "https://www.nytimes.com/live/2026/07/13/world/iran-war-us-trump-hormuz",
-      "pubDate": "Mon, 13 Jul 2026 14:37:10 +0000",
+      "pubDate": "Mon, 13 Jul 2026 17:13:07 +0000",
       "source": "NYT World",
-      "summary": "President Trump said the United States was renewing its blockade of shipping to and from Iran, after the two sides exchanged escalatory rhetoric and fresh attacks."
+      "summary": "After more escalatory rhetoric and attacks, President Trump said the United States was renewing its shipping blockade of Iranian ports, and would charge a 20 percent fee on goods passing through the Strait of Hormuz."
     },
     {
-      "title": "How Sheikh Hamad revolutionised Arab media through Al Jazeera",
-      "link": "https://www.aljazeera.com/news/2026/7/13/how-sheikh-hamad-revolutionised-arab-media-through-al-jazeera?traffic_source=rss",
-      "pubDate": "Mon, 13 Jul 2026 14:24:29 +0000",
+      "title": "EU unveils $1bn fund for Gaza war recovery",
+      "link": "https://www.aljazeera.com/news/2026/7/13/eu-unveils-1bn-fund-for-gaza-war-recovery?traffic_source=rss",
+      "pubDate": "Mon, 13 Jul 2026 16:28:52 +0000",
       "source": "Al Jazeera",
-      "summary": "The late Father Emir broke the regional monopoly of state-controlled broadcasting and challenged Western media hegemony."
+      "summary": "The scheme falls critically short of the $71bn reportedly needed for Gaza's recovery over the next 10 years."
     },
     {
-      "title": "Yemeni government forces strike Sanaa airport",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/7/13/yemeni-government-forces-strike-sanaa-airport?traffic_source=rss",
-      "pubDate": "Mon, 13 Jul 2026 14:03:44 +0000",
+      "title": "Person killed in shooting involving ICE agents in US state of Maine",
+      "link": "https://www.aljazeera.com/news/2026/7/13/person-killed-in-shooting-involving-ice-agents-in-us-state-of-maine?traffic_source=rss",
+      "pubDate": "Mon, 13 Jul 2026 16:11:38 +0000",
       "source": "Al Jazeera",
-      "summary": "Yemeni government forces strike Sanaa airport"
+      "summary": "State lawmaker says one person was killed by immigration agents in Biddeford, days after another ICE shooting in Texas."
     },
     {
-      "title": "EU sanctions nine people over alleged Russian cyber-spying campaign",
-      "link": "https://www.aljazeera.com/news/2026/7/13/eu-sanctions-nine-people-over-alleged-russian-cyber-spying-campaign?traffic_source=rss",
-      "pubDate": "Mon, 13 Jul 2026 13:59:54 +0000",
+      "title": "US imposes new sanctions on Cuba tourism ministry, state-owned companies",
+      "link": "https://www.aljazeera.com/economy/2026/7/13/us-imposes-new-sanctions-on-cuba-tourism-ministry-state-owned-companies?traffic_source=rss",
+      "pubDate": "Mon, 13 Jul 2026 16:10:55 +0000",
       "source": "Al Jazeera",
-      "summary": "EU announces sanctions on nine individuals and four entities over alleged years-long cyber-espionage campaign."
+      "summary": "The US Treasury Department posted the new directive on its website on Monday."
     },
     {
-      "title": "Hamas denies UN accusations over Gaza aid distribution interference",
-      "link": "https://www.aljazeera.com/news/2026/7/13/hamas-denies-un-accusations-over-gaza-aid-distribution-interference?traffic_source=rss",
-      "pubDate": "Mon, 13 Jul 2026 13:59:43 +0000",
-      "source": "Al Jazeera",
-      "summary": "UN accuses Hamas of obstructing aid and risking workers' safety, but the group denies it and defends its actions."
+      "title": "A Robot Army Remakes Ground Warfare in Ukraine",
+      "link": "https://www.nytimes.com/2026/07/13/world/europe/ukraine-ground-robots.html",
+      "pubDate": "Mon, 13 Jul 2026 16:09:36 +0000",
+      "source": "NYT World",
+      "summary": "They began as supply mules. Now ground robots evacuate the wounded, hold trenches and even do the killing."
     },
     {
-      "title": "FIFA World Cup England vs Argentina: What to know ahead of second semifinal",
-      "link": "https://www.aljazeera.com/sports/2026/7/13/argentina-england-fifa-world-cup-semifinal-prediction-messi-kane-venue?traffic_source=rss",
-      "pubDate": "Mon, 13 Jul 2026 13:21:48 +0000",
+      "title": "Anti-terror police take over probe into death of UK politician Widdecombe",
+      "link": "https://www.aljazeera.com/news/2026/7/13/anti-terror-police-take-over-probe-into-death-of-uk-politician-widdecombe?traffic_source=rss",
+      "pubDate": "Mon, 13 Jul 2026 16:02:39 +0000",
       "source": "Al Jazeera",
-      "summary": "Argentina and England meet at the World Cup for the sixth time, facing off in Wednesday's semifinal in Atlanta."
+      "summary": "A 28-year-old man has been re-arrested on suspicion of the commission, preparation or instigation of acts of terrorism."
+    },
+    {
+      "title": "India thrash England in historic first women’s cricket Test match at Lord’s",
+      "link": "https://www.aljazeera.com/sports/2026/7/13/india-thrash-england-in-historic-first-womens-cricket-test-match-at-lords?traffic_source=rss",
+      "pubDate": "Mon, 13 Jul 2026 15:44:45 +0000",
+      "source": "Al Jazeera",
+      "summary": "England, setting record-breaking target of 457 for victory, are dismissed for 186 shortly before lunch on the final day."
+    },
+    {
+      "title": "At least 28 killed, 25 critically injured after fire engulfs Bangkok bar",
+      "link": "https://www.bbc.co.uk/news/articles/c24yev53q06o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Mon, 13 Jul 2026 15:04:36 GMT",
+      "source": "BBC",
+      "summary": "Firefighters arrived at the scene in the Chatuchak district to find patrons running through flames to escape."
     },
     {
       "title": "Japan Builds Intelligence Agency It Hasn’t Had Since World War II",
@@ -522,32 +547,11 @@
       "summary": "Facing threats from Russia and China, Prime Minister Sanae Takaichi is  turning to help from Western allies in forming a centralized agency."
     },
     {
-      "title": "At least 28 killed, 25 critically injured after fire engulfs Bangkok bar",
-      "link": "https://www.bbc.co.uk/news/articles/c24yev53q06o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Mon, 13 Jul 2026 12:32:08 GMT",
-      "source": "BBC",
-      "summary": "Firefighters arrived at the scene in the Chatuchak district to find patrons running through flames to escape."
-    },
-    {
-      "title": "A Robot Army Remakes Ground Warfare in Ukraine",
-      "link": "https://www.nytimes.com/2026/07/13/world/europe/ukraine-ground-robots.html",
-      "pubDate": "Mon, 13 Jul 2026 12:04:25 +0000",
-      "source": "NYT World",
-      "summary": "They began as supply mules. Now ground robots evacuate the wounded, hold trenches and even do the killing."
-    },
-    {
       "title": "'Hero, legend, sweetheart': Tributes to Jurassic Park actor Sam Neill, who has died aged 78",
       "link": "https://www.bbc.co.uk/news/articles/cy06e5e1lygo?at_medium=RSS&at_campaign=rss",
       "pubDate": "Mon, 13 Jul 2026 11:52:55 GMT",
       "source": "BBC",
       "summary": "Friends, politicians and fellow film stars remember Neill following his \"sudden and unexpected\" death."
-    },
-    {
-      "title": "Men disguised as police kill Ecuadorean drug lord's brother",
-      "link": "https://www.bbc.co.uk/news/articles/c20yx84g103o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Mon, 13 Jul 2026 10:30:51 GMT",
-      "source": "BBC",
-      "summary": "The victim, David Macías, was the brother of drug lord 'El Fito', who is awaiting trial in the US."
     },
     {
       "title": "Wildfire raging south of Paris could have been set deliberately, says minister",
@@ -583,6 +587,13 @@
       "pubDate": "Mon, 13 Jul 2026 09:02:08 +0000",
       "source": "NYT World",
       "summary": "Ukrainians, already drone innovators, are turning their focus to psychological operations aimed at undercutting Russian support for the war."
+    },
+    {
+      "title": "Infantino opens door to 64-team World Cup",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cj9gm31jwg8o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Sun, 12 Jul 2026 19:18:56 GMT",
+      "source": "BBC",
+      "summary": "Plans for a 64-team men's world cup are set to be picked up and assessed in detail after the 2026 tournament with Fifa boss Gianni Infantino saying football needs to be \"for the whole world\"."
     },
     {
       "title": "Company That Bragged It Could Track U.S. Spies Hired to Investigate “Havana Syndrome”",
@@ -650,6 +661,13 @@
   ],
   "syndication": [
     {
+      "title": "Lessons Learned from CISA’s Recent GitHub Leak",
+      "link": "https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/",
+      "pubDate": "Mon, 13 Jul 2026 15:03:28 +0000",
+      "author": "KrebsOnSecurity",
+      "content": "The Cybersecurity and Infrastructure Security Agency (CISA) has issued a postmortem on a data leak in which a contractor published dozens of internal CISA credentials -- including AWS Govcloud keys -- in a public GitHub repository for almost six months before being notified by KrebsOnSecurity. Exper"
+    },
+    {
       "title": "AI Data Centers and the Concentration of Wealth",
       "link": "https://www.schneier.com/blog/archives/2026/07/ai-data-centers-and-the-concentration-of-wealth.html",
       "pubDate": "2026-07-13T11:01:57.000Z",
@@ -704,16 +722,25 @@
       "pubDate": "Thu, 02 Jul 2026 19:27:33 +0000",
       "author": "KrebsOnSecurity",
       "content": "The Federal Bureau of Investigation (FBI) said today it worked with industry partners to seize hundreds of domains associated with NetNut, a sprawling residential proxy service operated by the publicly-traded Israeli company Alarum Technologies [NASDAQ: ALAR]. The action comes roughly two weeks afte"
-    },
-    {
-      "title": "Scattered Spider Hackers Plead Guilty on Day 1 of Trial",
-      "link": "https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/",
-      "pubDate": "Tue, 23 Jun 2026 16:12:49 +0000",
-      "author": "KrebsOnSecurity",
-      "content": "Two men pleaded guilty in the United Kingdom this week to criminal charges stemming from an August 2024 cyberattack that crippled Transport for London, the entity responsible for the public transport network in the Greater London area. The duo were key members of a prolific cybercrime group known as"
     }
   ],
   "syndicate_journal": [
+    {
+      "title": "Samsung Workers’ Fight Is Just Beginning",
+      "link": "",
+      "summary": "With the artificial intelligence boom reshaping the global economy, workers are racing to defend their rights as the ground shifts beneath them. A  strike at Samsung Electronics in Korea this spring was a major test of labor’s ability to fight back.narrowly averted\nWeeks before the planned strike, a",
+      "pubDate": "2026-07-13T16:23:29.404Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "Confessions of a Reluctant Protein-Maxxer",
+      "link": "https://nautil.us/confessions-of-a-reluctant-protein-maxxer-1282639/",
+      "summary": "America is in the midst of a protein craze\nThe post Confessions of a Reluctant Protein-Maxxer appeared first on Nautilus.",
+      "pubDate": "Mon, 13 Jul 2026 14:38:15 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
     {
       "title": "Pasta, a Weapon Against Fascism",
       "link": "",
@@ -743,14 +770,6 @@
       "link": "",
       "summary": "Marie Gottschalk has spent more than two decades meticulously researching the origins and documenting the consequences of American mass incarceration. Her books  and  are both foundational texts for anyone seeking to understand how the United States built the world’s largest penal system.The Prison ",
       "pubDate": "2026-07-13T13:20:44.230Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
-      "title": "In the Baltics, Rearmament Clashes With Regressive Taxes",
-      "link": "",
-      "summary": "In the week that NATO met in Ankara, calls for rearmament are reshaping political life across Europe. In the Baltic states, where the Russian threat is felt as most immediate, governments are already fast pushing defense spending up toward 5 percent of GDP. Much has already been written about the mo",
-      "pubDate": "2026-07-13T13:12:50.175Z",
       "domain": "politics",
       "source": "Jacobin"
     },
@@ -807,14 +826,6 @@
       "link": "https://nautil.us/early-americans-pioneered-the-keto-diet-1282630/",
       "summary": "Until, that is, large mammal extinctions forced them to diversify their meals\nThe post Early Americans Pioneered the Keto Diet appeared first on Nautilus.",
       "pubDate": "Fri, 10 Jul 2026 21:30:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
-      "title": "Here’s Why Some Humans Can Hear Super Low-Frequency Sounds",
-      "link": "https://nautil.us/heres-why-some-humans-can-hear-super-low-frequency-sounds-1282626/",
-      "summary": "It’s vibes\nThe post Here’s Why Some Humans Can Hear Super Low-Frequency Sounds appeared first on Nautilus.",
-      "pubDate": "Fri, 10 Jul 2026 20:30:00 +0000",
       "domain": "science",
       "source": "Nautilus"
     },
@@ -987,17 +998,17 @@
       "source": "Frontiers Psychology"
     },
     {
-      "title": "Job insecurity and insomnia among hotel frontline employees: the mediating role of psychological distress and the moderating role of financial stress",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1842598",
-      "summary": "This study examines the association between job insecurity and insomnia among frontline hotel employees in Pakistan, with psychological distress as a mediating mechanism and financial stress as a moderating condition. Drawing on conservation of resources theory, data were collected from 292 full-tim",
+      "title": "The relationship between parent-child relationship and prosocial behavior among Chinese children: the mediating roles of labor participation and sense of social responsibility",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1804412",
+      "summary": "PurposeBased on ecosystem theory, this study explores the relationship between parent-child relationships and prosocial behavior among primary students, as well as the mediating effect of labor participation and sense of social responsibility.MethodsA total of 810 primary students completed a self-r",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "How AI-animated historical photographs evoke emotional resonance: the mediating role of mental imagery and the moderating effect of perceived historical authenticity",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1874146",
-      "summary": "This study examines how the presentation format of AI-animated historical photographs influences viewers' emotional and communicative responses. Although AI-based animation of historical photographs has become increasingly common in digital historical communication, the psychological mechanism throu",
+      "title": "A systematic review of delay discounting among workers: framing effects, resource availability, and health",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1801136",
+      "summary": "A higher rate of delay discounting has been linked to a range of health-risk behaviors and adverse health outcomes. Despite its relevance, delay discounting has limited application in organizational contexts. The aim of this systematic review was to identify empirical studies on the application of d",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
@@ -1005,64 +1016,64 @@
   ],
   "misinfo_toilet": [
     {
-      "headline": "FIFA World Cup England vs Argentina: What to know ahead of second semifinal",
-      "fragment": "An ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
-      "splice": "FIFA World Cup England vs Argentina: What to know ahead of second semifinal despite an ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
-      "seed": 20260727
-    },
-    {
-      "headline": "A Robot Army Remakes Ground Warfare in Ukraine",
-      "fragment": "It is at work everywhere, functioning smoothly at times, at other times in fits and starts. It breathes, it heats, it eats. It shits and fucks.",
-      "splice": "A Robot Army Remakes Ground Warfare in Ukraine because it is at work everywhere, functioning smoothly at times, at other times in fits and starts. It breathes, it heats, it eats. It shits and fucks.",
-      "seed": 20260728
-    },
-    {
-      "headline": "Burning Forests: Tools for Tracking and Reporting Wildfire Damage",
-      "fragment": "There is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
-      "splice": "Burning Forests: Tools for Tracking and Reporting Wildfire Damage in the void where there is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
-      "seed": 20260729
-    },
-    {
-      "headline": "Men disguised as police kill Ecuadorean drug lord's brother",
-      "fragment": "To dissimulate is to pretend not to have what one has. To simulate is to feign to have what one doesn't have. One implies a presence, the other an absence.",
-      "splice": "Men disguised as police kill Ecuadorean drug lord's brother in the void where to dissimulate is to pretend not to have what one has. To simulate is to feign to have what one doesn't have. One implies a presence, the other an absence.",
+      "headline": "Anti-terror police take over probe into death of UK politician Widdecombe",
+      "fragment": "It is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
+      "splice": "Anti-terror police take over probe into death of UK politician Widdecombe ...as it is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
       "seed": 20260730
     },
     {
-      "headline": "Hamas denies UN accusations over Gaza aid distribution interference",
-      "fragment": "The simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
-      "splice": "Hamas denies UN accusations over Gaza aid distribution interference therefore the simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
+      "headline": "At least 28 killed, 25 critically injured after fire engulfs Bangkok bar",
+      "fragment": "An ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
+      "splice": "At least 28 killed, 25 critically injured after fire engulfs Bangkok bar while an ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
       "seed": 20260731
     },
     {
-      "headline": "Maine Senate Candidates Claim They’re Just Like Platner — But Entirely Different",
-      "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
-      "splice": "Maine Senate Candidates Claim They’re Just Like Platner — But Entirely Different the system notes that the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "headline": "Between Graves and Uncertainty: The Management of the Dead After Venezuela’s Earthquake",
+      "fragment": "We live in a world where there is more and more information, and less and less meaning.",
+      "splice": "Between Graves and Uncertainty: The Management of the Dead After Venezuela’s Earthquake underneath we live in a world where there is more and more information, and less and less meaning.",
       "seed": 20260732
     },
     {
-      "headline": "Poster Boy: Sanctioned Kinahan Cartel Lieutenant Found Playing Padel in Dubai",
-      "fragment": "It is at work everywhere, functioning smoothly at times, at other times in fits and starts. It breathes, it heats, it eats. It shits and fucks.",
-      "splice": "Poster Boy: Sanctioned Kinahan Cartel Lieutenant Found Playing Padel in Dubai underneath it is at work everywhere, functioning smoothly at times, at other times in fits and starts. It breathes, it heats, it eats. It shits and fucks.",
+      "headline": "'Hero, legend, sweetheart': Tributes to Jurassic Park actor Sam Neill, who has died aged 78",
+      "fragment": "Art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
+      "splice": "'Hero, legend, sweetheart': Tributes to Jurassic Park actor Sam Neill, who has died aged 78 meanwhile art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
       "seed": 20260733
     },
     {
-      "headline": "Sen. Kirsten Gillibrand Wants to Save Crypto — But Trump Windfall Is a Political Obstacle",
-      "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "splice": "Sen. Kirsten Gillibrand Wants to Save Crypto — But Trump Windfall Is a Political Obstacle insofar as the breast is a machine that produces milk, and the mouth a machine coupled to it.",
+      "headline": "US imposes new sanctions on Cuba tourism ministry, state-owned companies",
+      "fragment": "An ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
+      "splice": "US imposes new sanctions on Cuba tourism ministry, state-owned companies consequently an ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
       "seed": 20260734
     },
     {
-      "headline": "'Hero, legend, sweetheart': Tributes to Jurassic Park actor Sam Neill, who has died aged 78",
-      "fragment": "Antagonism is not now located externally, in the face-off between class blocs, but internally, in the psychology of the worker.",
-      "splice": "'Hero, legend, sweetheart': Tributes to Jurassic Park actor Sam Neill, who has died aged 78 while antagonism is not now located externally, in the face-off between class blocs, but internally, in the psychology of the worker.",
+      "headline": "Rebecca Nagle on the Boomerang of Empire ",
+      "fragment": "Traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
+      "splice": "Rebecca Nagle on the Boomerang of Empire  which is to say traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
       "seed": 20260735
     },
     {
-      "headline": "At least 28 killed, 25 critically injured after fire engulfs Bangkok bar",
-      "fragment": "It is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
-      "splice": "At least 28 killed, 25 critically injured after fire engulfs Bangkok bar the system notes that it is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
+      "headline": "Satellite Imagery Shows Scale of Venezuela Earthquake Damage",
+      "fragment": "Simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
+      "splice": "Satellite Imagery Shows Scale of Venezuela Earthquake Damage because simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
       "seed": 20260736
+    },
+    {
+      "headline": "Sen. Kirsten Gillibrand Wants to Save Crypto — But Trump Windfall Is a Political Obstacle",
+      "fragment": "Art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
+      "splice": "Sen. Kirsten Gillibrand Wants to Save Crypto — But Trump Windfall Is a Political Obstacle in the void where art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
+      "seed": 20260737
+    },
+    {
+      "headline": "Japan Builds Intelligence Agency It Hasn’t Had Since World War II",
+      "fragment": "This is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
+      "splice": "Japan Builds Intelligence Agency It Hasn’t Had Since World War II therefore this is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
+      "seed": 20260738
+    },
+    {
+      "headline": "Maine Senate Candidates Claim They’re Just Like Platner — But Entirely Different",
+      "fragment": "Over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
+      "splice": "Maine Senate Candidates Claim They’re Just Like Platner — But Entirely Different consequently over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
+      "seed": 20260739
     }
   ]
 }
