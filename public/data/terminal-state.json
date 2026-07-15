@@ -1,7 +1,39 @@
 {
-  "generated_at": "2026-07-15T13:49:04.509Z",
+  "generated_at": "2026-07-15T22:04:05.748Z",
   "threat_intel": {
     "cisa_kev": [
+      {
+        "cveID": "CVE-2026-46817",
+        "vendorProject": "Oracle",
+        "product": "E-Business Suite",
+        "vulnerabilityName": "Oracle E-Business Suite Improper Privilege Management Vulnerability",
+        "dateAdded": "2026-07-15",
+        "shortDescription": "Oracle E-Business Suite contains an improper privilege management vulnerability that allows an unauthenticated attacker with network access via HTTP to compromise Oracle Payments. Successful attacks of this vulnerability can result in takeover of Oracle Payments.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-07-18",
+        "knownRansomwareCampaignUse": "Unknown",
+        "notes": "https://www.oracle.com/security-alerts/cspumay2026.html ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-46817",
+        "cwes": [
+          "CWE-269",
+          "CWE-287",
+          "CWE-306"
+        ]
+      },
+      {
+        "cveID": "CVE-2023-4346",
+        "vendorProject": "KNX Association",
+        "product": "KNX Protocol Connection Authorization Option 1",
+        "vulnerabilityName": "KNX Association KNX Protocol Connection Authorization Option 1 Overly Restrictive Account Lockout Mechanism Vulnerability",
+        "dateAdded": "2026-07-15",
+        "shortDescription": "KNX Association KNX Protocol Connection Authorization Option 1 contains an overly restrictive account lockout mechanism vulnerability that could allow an attacker to purge all devices without additional security options enabled and set a BCU key to lock the device. ",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-07-29",
+        "knownRansomwareCampaignUse": "Unknown",
+        "notes": "https://www.cisa.gov/news-events/ics-advisories/icsa-23-236-01 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2023-4346",
+        "cwes": [
+          "CWE-645"
+        ]
+      },
       {
         "cveID": "CVE-2026-56155",
         "vendorProject": "Microsoft",
@@ -12,7 +44,7 @@
         "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
         "dueDate": "2026-07-28",
         "knownRansomwareCampaignUse": "Unknown",
-        "notes": "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2026-56155 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-56155",
+        "notes": "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2026-56155 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-56155; https://learn.microsoft.com/en-us/windows-server/identity/ad-fs/decommission/adfs-decommission-guide",
         "cwes": [
           "CWE-1220"
         ]
@@ -196,44 +228,13 @@
         "cwes": [
           "CWE-347"
         ]
-      },
-      {
-        "cveID": "CVE-2026-12569",
-        "vendorProject": "PTC",
-        "product": "Windchill and FlexPLM",
-        "vulnerabilityName": "PTC Windchill and FlexPLM Improper Input Validation Vulnerability",
-        "dateAdded": "2026-06-25",
-        "shortDescription": "PTC Windchill and FlexPLM contains an improper input validation vulnerability allowing an unauthenticated, remote attacker to execute arbitrary code by sending a malicious request to the network.",
-        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "dueDate": "2026-06-28",
-        "knownRansomwareCampaignUse": "Unknown",
-        "notes": "https://www.ptc.com/en/support/article/CS473270 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-12569",
-        "cwes": [
-          "CWE-20",
-          "CWE-502"
-        ]
-      },
-      {
-        "cveID": "CVE-2026-20230",
-        "vendorProject": "Cisco",
-        "product": "Unified Communications Manager",
-        "vulnerabilityName": "Cisco Unified Communications Manager Server-Side Request Forgery (SSRF) Vulnerability",
-        "dateAdded": "2026-06-25",
-        "shortDescription": "Cisco Unified Communications Manager (Unified CM) and Cisco Unified Communications Manager Session Management Edition (Unified CM SME) contain a server-side request forgery (SSRF) Vulnerability that could allow an unauthenticated, remote attacker to write files to the underlying operating system that could be used later to elevate to root.",
-        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "dueDate": "2026-06-28",
-        "knownRansomwareCampaignUse": "Unknown",
-        "notes": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-cucm-ssrf-cXPnHcW.html ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-20230",
-        "cwes": [
-          "CWE-918"
-        ]
       }
     ],
     "urlhaus": [
       {
-        "id": "3886826",
-        "date_added": "2026-07-15 13:43:23",
-        "url": "http://123.5.128.66:37180/i",
+        "id": "3886912",
+        "date_added": "2026-07-15 21:53:09",
+        "url": "http://115.56.149.1:37779/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -244,9 +245,136 @@
         ]
       },
       {
-        "id": "3886825",
-        "date_added": "2026-07-15 13:42:12",
-        "url": "https://kxxpvutsn.derbi.promo/d6fbf832-147d-40c4-a3c6-5bc258bb035c",
+        "id": "3886911",
+        "date_added": "2026-07-15 21:36:22",
+        "url": "http://125.44.49.187:39010/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3886910",
+        "date_added": "2026-07-15 21:33:07",
+        "url": "http://123.11.10.24:50477/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3886909",
+        "date_added": "2026-07-15 21:26:28",
+        "url": "http://115.55.230.235:55507/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3886908",
+        "date_added": "2026-07-15 21:26:24",
+        "url": "http://222.141.140.242:40971/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3886907",
+        "date_added": "2026-07-15 21:25:44",
+        "url": "http://183.95.8.124:42684/i",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3886906",
+        "date_added": "2026-07-15 21:12:24",
+        "url": "http://163.142.89.244:55634/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3886905",
+        "date_added": "2026-07-15 21:10:28",
+        "url": "http://222.141.140.242:40971/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3886903",
+        "date_added": "2026-07-15 21:10:16",
+        "url": "http://178.16.54.109/last.exe",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "dropped-by-Phorpiex"
+        ]
+      },
+      {
+        "id": "3886904",
+        "date_added": "2026-07-15 21:10:16",
+        "url": "https://ulzjpypuy.nextbahis.promo/cc1231d7-9c0f-4966-8171-01d023bac2c5",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "ClearFake",
+          "win-0x4679",
+          "windows"
+        ]
+      },
+      {
+        "id": "3886902",
+        "date_added": "2026-07-15 21:02:30",
+        "url": "http://27.208.117.59:45640/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "mirai",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3886901",
+        "date_added": "2026-07-15 20:57:20",
+        "url": "https://xpzjxywai.funxbet.casino/6850f23a-b8e1-411b-b415-169fab976492",
         "url_status": "offline",
         "threat": "malware_download",
         "tags": [
@@ -256,9 +384,21 @@
         ]
       },
       {
-        "id": "3886824",
-        "date_added": "2026-07-15 13:39:25",
-        "url": "http://61.53.86.45:46229/i",
+        "id": "3886900",
+        "date_added": "2026-07-15 20:53:18",
+        "url": "https://wj3om1ni.bahigo90bet.com/?ublib=fe1cafec-19a3-4cfa-80aa-7257f8917995",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "ClearFake",
+          "mac-0x68dc",
+          "macOS"
+        ]
+      },
+      {
+        "id": "3886899",
+        "date_added": "2026-07-15 20:52:28",
+        "url": "http://123.14.19.35:57906/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -269,9 +409,9 @@
         ]
       },
       {
-        "id": "3886823",
-        "date_added": "2026-07-15 13:37:35",
-        "url": "http://42.234.136.251:36837/i",
+        "id": "3886898",
+        "date_added": "2026-07-15 20:52:19",
+        "url": "http://182.121.157.159:37305/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -282,19 +422,9 @@
         ]
       },
       {
-        "id": "3886822",
-        "date_added": "2026-07-15 13:31:16",
-        "url": "http://27.213.189.203:45517/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3886821",
-        "date_added": "2026-07-15 13:30:34",
-        "url": "http://203.101.187.22:45492/i",
+        "id": "3886897",
+        "date_added": "2026-07-15 20:44:26",
+        "url": "http://163.142.89.244:55634/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -305,217 +435,169 @@
         ]
       },
       {
-        "id": "3886820",
-        "date_added": "2026-07-15 13:28:25",
-        "url": "https://misty-cherry-cea3.uploadsimg.workers.dev/Wyflg",
+        "id": "3886896",
+        "date_added": "2026-07-15 20:37:30",
+        "url": "http://123.11.10.24:50477/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "None"
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
         ]
       },
       {
-        "id": "3886819",
-        "date_added": "2026-07-15 13:28:21",
-        "url": "http://s467326833rgjs.ddns.net/bins/xnxnxnxnxnxnxnxnriscv32xnxn",
-        "url_status": "online",
+        "id": "3886895",
+        "date_added": "2026-07-15 20:36:22",
+        "url": "https://tafhu17n.nextbahis.blog/?ublib=09cbd437-3986-4cc3-8bf7-0a388b6d0fe6",
+        "url_status": "offline",
         "threat": "malware_download",
         "tags": [
-          "botnetdomain",
-          "mirai"
+          "ClearFake",
+          "mac-0x76c7",
+          "macOS"
         ]
       },
       {
-        "id": "3886818",
-        "date_added": "2026-07-15 13:28:20",
-        "url": "http://s467326833rgjs.ddns.net/bins/xnxnxnxnxnxnxnxnpowerpcxnxn",
+        "id": "3886894",
+        "date_added": "2026-07-15 20:34:33",
+        "url": "http://115.59.27.130:42542/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "botnetdomain",
-          "mirai"
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
         ]
       },
       {
-        "id": "3886816",
-        "date_added": "2026-07-15 13:28:19",
-        "url": "http://s467326833rgjs.ddns.net/bins/xnxnxnxnxnxnxnxnmicroblazexnxn",
-        "url_status": "online",
+        "id": "3886893",
+        "date_added": "2026-07-15 20:28:20",
+        "url": "https://qzjihweyr.nextbahis.poker/a1979532-c634-492d-bea2-ccf723616ab2",
+        "url_status": "offline",
         "threat": "malware_download",
         "tags": [
-          "botnetdomain",
-          "mirai"
-        ]
-      },
-      {
-        "id": "3886817",
-        "date_added": "2026-07-15 13:28:19",
-        "url": "http://s467326833rgjs.ddns.net/bins/xnxnxnxnxnxnxnxnor1kxnxn",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "botnetdomain",
-          "mirai"
-        ]
-      },
-      {
-        "id": "3886806",
-        "date_added": "2026-07-15 13:28:18",
-        "url": "http://s467326833rgjs.ddns.net/bins/xnxnxnxnxnxnxnxnmipsxnxn",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "botnetdomain",
-          "mirai"
-        ]
-      },
-      {
-        "id": "3886807",
-        "date_added": "2026-07-15 13:28:18",
-        "url": "http://s467326833rgjs.ddns.net/bins/xnxnxnxnxnxnxnxnaarch64xnxn",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "botnetdomain",
-          "mirai"
-        ]
-      },
-      {
-        "id": "3886808",
-        "date_added": "2026-07-15 13:28:18",
-        "url": "http://s467326833rgjs.ddns.net/bins/xnxnxnxnxnxnxnxnriscv64xnxn",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "botnetdomain",
-          "mirai"
-        ]
-      },
-      {
-        "id": "3886809",
-        "date_added": "2026-07-15 13:28:18",
-        "url": "http://s467326833rgjs.ddns.net/bins/xnxnxnxnxnxnxnxnm68kxnxn",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "botnetdomain",
-          "mirai"
-        ]
-      },
-      {
-        "id": "3886810",
-        "date_added": "2026-07-15 13:28:18",
-        "url": "http://s467326833rgjs.ddns.net/bins/xnxnxnxnxnxnxnxni386xnxn",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "botnetdomain",
-          "mirai"
-        ]
-      },
-      {
-        "id": "3886811",
-        "date_added": "2026-07-15 13:28:18",
-        "url": "http://s467326833rgjs.ddns.net/bins/xnxnxnxnxnxnxnxnsh4xnxn",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "botnetdomain",
-          "mirai"
-        ]
-      },
-      {
-        "id": "3886812",
-        "date_added": "2026-07-15 13:28:18",
-        "url": "http://s467326833rgjs.ddns.net/bins/xnxnxnxnxnxnxnxnx86_64xnxn",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "botnetdomain",
-          "gafgyt",
-          "mirai"
-        ]
-      },
-      {
-        "id": "3886813",
-        "date_added": "2026-07-15 13:28:18",
-        "url": "http://s467326833rgjs.ddns.net/bins/xnxnxnxnxnxnxnxnloongarch64xnxn",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "botnetdomain",
-          "mirai"
-        ]
-      },
-      {
-        "id": "3886814",
-        "date_added": "2026-07-15 13:28:18",
-        "url": "http://s467326833rgjs.ddns.net/bins/xnxnxnxnxnxnxnxnsh2xnxn",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "botnetdomain",
-          "mirai"
+          "ClearFake",
+          "win-0x4679",
+          "windows"
         ]
       }
     ]
   },
   "world_monitor": [
     {
-      "title": "Russian attacks kill eight as Ukraine hits Black Sea oil tankers",
-      "link": "https://www.bbc.co.uk/news/articles/c8929jv8kdzo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Wed, 15 Jul 2026 13:32:05 GMT",
-      "source": "BBC",
-      "summary": "Civilian casualties are reported in four Ukrainian regions, while Kyiv hits 20 Russian vessels in the Black Sea."
+      "title": "Iran War Live Updates: U.S. and Iran Exchange Strikes for Fifth Straight Day",
+      "link": "https://www.nytimes.com/live/2026/07/15/world/iran-war-trump-hormuz",
+      "pubDate": "Wed, 15 Jul 2026 21:57:58 +0000",
+      "source": "NYT World",
+      "summary": "The United States launched fresh attacks against Iranian targets on Wednesday, hours after Iran targeted American military sites in the region. Neither side has shown signs of backing down in opening a new stage of the war."
     },
     {
-      "title": "Protest in Pakistan’s Kashmir stalls after nine killed in clashes",
-      "link": "https://www.aljazeera.com/news/2026/7/15/protest-in-pakistans-kashmir-stalls-after-nine-killed-in-clashes?traffic_source=rss",
-      "pubDate": "Wed, 15 Jul 2026 13:06:15 +0000",
-      "source": "Al Jazeera",
-      "summary": "At least 28 people have been killed since protests began in June, as the region braces for a major protest march."
-    },
-    {
-      "title": "Spain’s Oscar-winning actor raises Palestine flag at World Cup match",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/7/15/spains-oscar-winning-actor-raises-palestine-flag-at-world-cup-match?traffic_source=rss",
-      "pubDate": "Wed, 15 Jul 2026 13:02:53 +0000",
-      "source": "Al Jazeera",
-      "summary": "Spain's Oscar-winning actor Javier Bardem had a message for Palestinians as he raised Palestine flag during World Cup."
-    },
-    {
-      "title": "US strikes marine control tower in Iran",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/7/15/us-strikes-marine-control-tower-in-iran?traffic_source=rss",
-      "pubDate": "Wed, 15 Jul 2026 12:59:47 +0000",
-      "source": "Al Jazeera",
-      "summary": "US strikes marine control tower in Iran"
-    },
-    {
-      "title": "As the US restarts war on Iran, is its weapons stockpile running low?",
-      "link": "https://www.aljazeera.com/news/2026/7/15/as-the-us-restarts-war-on-iran-is-its-weapons-stockpile-running-low?traffic_source=rss",
-      "pubDate": "Wed, 15 Jul 2026 12:55:33 +0000",
-      "source": "Al Jazeera",
-      "summary": "The US has expended a significant number of munitions since the war began in February."
-    },
-    {
-      "title": "Utah man arrested after allegedly targeting Muslim kiosk worker in stabbing",
-      "link": "https://www.aljazeera.com/news/2026/7/15/utah-man-arrested-after-allegedly-targeting-muslim-kiosk-worker-in-stabbing?traffic_source=rss",
-      "pubDate": "Wed, 15 Jul 2026 12:49:01 +0000",
-      "source": "Al Jazeera",
-      "summary": "Rights groups condemn the attack and warn against recent anti-immigration rhetoric."
-    },
-    {
-      "title": "Iran threatens to block more trade routes as US launches fresh strikes",
+      "title": "US launches fresh strikes on Iran as Trump warns Tehran it 'better behave'",
       "link": "https://www.bbc.co.uk/news/articles/c9323zgq6wvo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Wed, 15 Jul 2026 12:26:38 GMT",
+      "pubDate": "Wed, 15 Jul 2026 21:55:04 GMT",
       "source": "BBC",
-      "summary": "US President Donald Trump vowed to strike Iran's bridges and power plants next week if the country does not return to talks."
+      "summary": "US President Donald Trump says he is yet to decide whether or not he will \"finish off\" Iran."
     },
     {
-      "title": "Italy's Meloni suffers surprise setback in close vote on electoral reform",
-      "link": "https://www.bbc.co.uk/news/articles/c1kykx3vnyyo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Wed, 15 Jul 2026 11:44:28 GMT",
+      "title": "Argentina stun England in 2-1 comeback win to reach 2026 World Cup final",
+      "link": "https://www.aljazeera.com/sports/2026/7/15/argentina-stun-england-in-2-1-comeback-win-to-reach-2026-world-cup-final?traffic_source=rss",
+      "pubDate": "Wed, 15 Jul 2026 21:37:08 +0000",
+      "source": "Al Jazeera",
+      "summary": "Holders Argentina will face Spain in the final after snatching victory England in ⁠a highly-charged encounter."
+    },
+    {
+      "title": "xAI sues user for exploiting AI tool to sexualise minors",
+      "link": "https://www.aljazeera.com/economy/2026/7/15/xai-sues-user-for-exploiting-ai-tool-to-sexualise-minors?traffic_source=rss",
+      "pubDate": "Wed, 15 Jul 2026 21:31:44 +0000",
+      "source": "Al Jazeera",
+      "summary": "Lawsuit accuses Terry Harwood of misusing xAI to bypass safeguards and produce explicit deepfakes involving minors."
+    },
+    {
+      "title": "Authors, publishers sue Google over alleged AI copyright infringement",
+      "link": "https://www.aljazeera.com/economy/2026/7/15/authors-publishers-sue-google-over-alleged-ai-copyright-infringement?traffic_source=rss",
+      "pubDate": "Wed, 15 Jul 2026 21:21:20 +0000",
+      "source": "Al Jazeera",
+      "summary": "Hachette and Elsevier lead US legal action against Google, alleging misuse of books for Gemini AI model training."
+    },
+    {
+      "title": "Russian attacks kill 14 as Ukraine hits Black Sea oil tankers",
+      "link": "https://www.bbc.co.uk/news/articles/c8929jv8kdzo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Wed, 15 Jul 2026 21:21:19 GMT",
       "source": "BBC",
-      "summary": "The defeat triggered opposition calls for Meloni to resign ahead of next year's general election."
+      "summary": "Civilian casualties are reported in a number of Ukrainian regions, while Kyiv hits 20 Russian vessels in the Black Sea."
+    },
+    {
+      "title": "Sheinbaum rejects US claim that Mexico’s government is linked to cartels",
+      "link": "https://www.aljazeera.com/news/2026/7/15/sheinbaum-rejects-us-claim-that-mexicos-government-is-linked-to-cartels?traffic_source=rss",
+      "pubDate": "Wed, 15 Jul 2026 20:52:12 +0000",
+      "source": "Al Jazeera",
+      "summary": "Sheinbaum has denounced remarks from DEA head Terry Cole as a baseless 'political statement' about Mexico."
+    },
+    {
+      "title": "What are the obstacles to peace between Israel and Lebanon?",
+      "link": "https://www.aljazeera.com/video/inside-story/2026/7/15/what-are-the-obstacles-to-peace-between-israel-and-lebanon?traffic_source=rss",
+      "pubDate": "Wed, 15 Jul 2026 20:46:03 +0000",
+      "source": "Al Jazeera",
+      "summary": "Another round of talks is under way between Israel and Lebanon to try to advance the ceasefire agreement."
+    },
+    {
+      "title": "Ukraine Pounds Russian Ships in Its Campaign to Cut Off Crimea",
+      "link": "https://www.nytimes.com/2026/07/15/world/europe/ukraine-russia-crimea-azov-sea.html",
+      "pubDate": "Wed, 15 Jul 2026 17:59:48 +0000",
+      "source": "NYT World",
+      "summary": "After striking roads and railways, Kyiv is now focusing on sea routes as it tries to disrupt fuel supplies and pressure Russia to end the war."
+    },
+    {
+      "title": "Intel Pick Jay Clayton Won’t Tell Congress Whether Trump Ordered Subpoenas of NYT Journalists",
+      "link": "https://theintercept.com/2026/07/15/jay-clayton-confirmation-hearing-journalist-subpoenas/",
+      "pubDate": "Wed, 15 Jul 2026 17:47:38 +0000",
+      "source": "The Intercept",
+      "summary": "Democrats questioned whether Jay Clayton would be able to stand up to Trump about using public office for retribution.\nThe post Intel Pick Jay Clayton Won’t Tell Congress Whether Trump Ordered Subpoenas of NYT Journalists appeared first on The Interc"
+    },
+    {
+      "title": "French MPs approve assisted dying law with strict rules after years of argument",
+      "link": "https://www.bbc.co.uk/news/articles/cvg7g2z4pv3o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Wed, 15 Jul 2026 17:29:26 GMT",
+      "source": "BBC",
+      "summary": "The bill would allow assisted dying for terminally ill adults who meet strict criteria."
+    },
+    {
+      "title": "Democrats Are Desperate to Flip an Arizona House Seat. They’re Rallying Around a Former Republican.",
+      "link": "https://theintercept.com/2026/07/15/arizona-democrats-republicans-aipac-house-race/",
+      "pubDate": "Wed, 15 Jul 2026 17:06:32 +0000",
+      "source": "The Intercept",
+      "summary": "Three of the super PACs spending in Arizona have their eyes on different candidates — but they all have ties to AIPAC. \nThe post Democrats Are Desperate to Flip an Arizona House Seat. They’re Rallying Around a Former Republican. appeared first on The"
+    },
+    {
+      "title": "More people around the world now favour China over the US, Pew study suggests",
+      "link": "https://www.bbc.co.uk/news/articles/cd959q11g54o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Wed, 15 Jul 2026 17:02:41 GMT",
+      "source": "BBC",
+      "summary": "There is more confidence in Xi Jinping than Donald Trump, the US think tank's survey indicates."
+    },
+    {
+      "title": "He Has a $25 Million Bounty on His Head but Is Also a U.S. Partner in Venezuela",
+      "link": "https://www.nytimes.com/2026/07/15/world/americas/us-bounty-diosdado-cabello-venezuela.html",
+      "pubDate": "Wed, 15 Jul 2026 15:37:17 +0000",
+      "source": "NYT World",
+      "summary": "A list of alleged crimes has not prevented Diosdado Cabello, and other Venezuelan officials, from working with a U.S. government that once hounded them."
+    },
+    {
+      "title": "For Israel, the U.S.-Iran Hostilities Have Created an Uneasy Limbo",
+      "link": "https://www.nytimes.com/2026/07/15/world/middleeast/israel-us-iran-trump.html",
+      "pubDate": "Wed, 15 Jul 2026 14:44:50 +0000",
+      "source": "NYT World",
+      "summary": "Officials see a return to full-blown war as preferable to an agreement that fails to curb the threats Iran poses to Israel. Meanwhile, they wait."
+    },
+    {
+      "title": "For Argentina, a World Cup Semifinal Against England Isn’t Just Soccer",
+      "link": "https://www.nytimes.com/2026/07/15/world/americas/argentina-england-rivalry-world-cup.html",
+      "pubDate": "Wed, 15 Jul 2026 14:20:36 +0000",
+      "source": "NYT World",
+      "summary": "Wednesday’s contest for a spot in the final carries the weight of a 1986 contentious clash, a war over the Falklands and a national mythology built around Diego Maradona."
     },
     {
       "title": "Trump’s Sanctions Against the ICC Are Unconstitutional, Rights Groups Say",
@@ -525,39 +607,11 @@
       "summary": "The human rights groups’ suit came as the Trump administration vowed to destroy the International Criminal Court entirely.\nThe post Trump’s Sanctions Against the ICC Are Unconstitutional, Rights Groups Say appeared first on The Intercept."
     },
     {
-      "title": "Six Dead in an Elevator After Fire in Central Brussels",
-      "link": "https://www.nytimes.com/2026/07/14/world/europe/six-dead-in-fire-central-brussels.html",
-      "pubDate": "Wed, 15 Jul 2026 07:01:30 +0000",
-      "source": "NYT World",
-      "summary": "After a fire broke out at the Oxy building in central Brussels on Tuesday morning, six bodies were found in an elevator."
-    },
-    {
-      "title": "Ann Widdecombe Was Killed in ‘Targeted Attack,’ UK Police Say",
-      "link": "https://www.nytimes.com/2026/07/14/world/europe/ann-widdecombe-targeted-attack.html",
-      "pubDate": "Wed, 15 Jul 2026 04:38:51 +0000",
-      "source": "NYT World",
-      "summary": "Counterterrorism police said that they were continuing to interview a 28-year-old man accused of killing Ann Widdecombe, a prominent member of the right-wing Reform U.K. party."
-    },
-    {
       "title": "Trump retreat over Hormuz tolls suggests he is struggling to end Iran war",
       "link": "https://www.bbc.co.uk/news/articles/crele3r8j19o?at_medium=RSS&at_campaign=rss",
       "pubDate": "Tue, 14 Jul 2026 23:17:27 GMT",
       "source": "BBC",
       "summary": "The abrupt about-face from the US president was the latest twist in a conflict that has now lasted more than four months."
-    },
-    {
-      "title": "U.S. and Iran Reignite War Over Strait of Hormuz",
-      "link": "https://www.nytimes.com/live/2026/07/14/world/iran-war-trump-hormuz",
-      "pubDate": "Tue, 14 Jul 2026 20:36:23 +0000",
-      "source": "NYT World",
-      "summary": "The two countries slid back to open war over the waterway, as the U.S. planned to reinstate a blockade on Iranian ports on Tuesday. Iran said it had attacked two tankers and fired at U.S. military sites."
-    },
-    {
-      "title": "Europe, Flexing Muscle in Ukraine, Is Still on Sidelines in Iran",
-      "link": "https://www.nytimes.com/2026/07/14/world/europe/macron-trump-bastille-day-military-parade.html",
-      "pubDate": "Tue, 14 Jul 2026 19:17:57 +0000",
-      "source": "NYT World",
-      "summary": "In a show of collective strength, President Emmanuel Macron of France hosted European allies at the annual Bastille Day parade in Paris. Yet Europe is still a hostage to America’s foreign policy."
     },
     {
       "title": "Trump’s Intel Pick Played Key Role in NYT Subpoenas — But Some Democrats Still On the Fence",
@@ -567,39 +621,11 @@
       "summary": "Trump’s nominee for director of national intelligence is seen by some Democrats as a safer alternative to Trump loyalist Bill Pulte.\nThe post Trump’s Intel Pick Played Key Role in NYT Subpoenas — But Some Democrats Still On the Fence appeared first o"
     },
     {
-      "title": "Strait of Hormuz 'faultline' exposes weakness of the US-Iran deal",
-      "link": "https://www.bbc.co.uk/news/articles/cwy0ydn033yo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Tue, 14 Jul 2026 19:13:49 GMT",
-      "source": "BBC",
-      "summary": "Control of the waterway has become a key point of contention between the US and Iran, as a ceasefire deal falters."
-    },
-    {
       "title": "ICE Orders an End to Vehicle Stops After Deadly Shootings by Federal Agents",
       "link": "https://theintercept.com/2026/07/14/ice-order-vehicle-stops-killings-shootings/",
       "pubDate": "Tue, 14 Jul 2026 17:23:31 +0000",
       "source": "The Intercept",
       "summary": "Five ICE officials said orders came down to stop vehicle stops, a go-to tactic that had helped lead to a spike in immigration detentions.\nThe post ICE Orders an End to Vehicle Stops After Deadly Shootings by Federal Agents appeared first on The Inter"
-    },
-    {
-      "title": "How ICE Arrests Went Quiet — and Got Even More Deadly",
-      "link": "https://theintercept.com/2026/07/14/ice-shootings-maine-houston/",
-      "pubDate": "Tue, 14 Jul 2026 17:05:52 +0000",
-      "source": "The Intercept",
-      "summary": "ICE just killed two immigrants in one week. Democrats running for office need to commit to abolishing the deportation regime once and for all.\nThe post How ICE Arrests Went Quiet — and Got Even More Deadly appeared first on The Intercept."
-    },
-    {
-      "title": "Deportations by India Cause Tension Along Border with Bangladesh",
-      "link": "https://www.nytimes.com/2026/07/14/world/asia/india-bangladesh-border-migration.html",
-      "pubDate": "Tue, 14 Jul 2026 07:12:27 +0000",
-      "source": "NYT World",
-      "summary": "India is driving out Bangladeshi immigrants it says are in the country illegally. Bangladesh is pushing back, leaving people stranded along the border amid increasing tensions between the countries."
-    },
-    {
-      "title": "Iran Claims to Kill 3 U.S. Service Members in Kuwait",
-      "link": "https://theintercept.com/2026/07/13/iran-us-death-toll-casualties-kuwait/",
-      "pubDate": "Mon, 13 Jul 2026 18:19:34 +0000",
-      "source": "The Intercept",
-      "summary": "The Pentagon said there were “zero reports” of deaths over the weekend — then announced a new death on Monday.\nThe post Iran Claims to Kill 3 U.S. Service Members in Kuwait appeared first on The Intercept."
     },
     {
       "title": "Between Graves and Uncertainty: The Management of the Dead After Venezuela’s Earthquake",
@@ -704,20 +730,68 @@
   ],
   "syndicate_journal": [
     {
+      "title": "The Challenges of Writing in Space",
+      "link": "https://nautil.us/the-challenges-of-writing-in-space-1282731/",
+      "summary": "With the recent auction of arguably the most famous pen ever used off-Earth, we take a moment to reflect on the evolution of such cosmic utensils\nThe post The Challenges of Writing in Space appeared first on Nautilus.",
+      "pubDate": "Wed, 15 Jul 2026 21:00:32 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "NASA Satellite Map Shows Stifling Heat Dome Squatting Over the United States",
+      "link": "https://nautil.us/nasa-satellite-map-shows-stifling-heat-dome-squatting-over-the-united-states-1282721/",
+      "summary": "And now it’s come for the East Coast\nThe post NASA Satellite Map Shows Stifling Heat Dome Squatting Over the United States appeared first on Nautilus.",
+      "pubDate": "Wed, 15 Jul 2026 20:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "Filmed in Western Sahara, The Odyssey Endorses Colonialism",
+      "link": "",
+      "summary": "In the run-up to its theatrical release, Christopher Nolan’s   became embroiled in online polemics after Elon Musk attacked the movie’s supposed “woke” casting. Yet beyond this contrived spectacle lies a far more important criticism to be made of the filmmakers: their decision to shoot part of the m",
+      "pubDate": "2026-07-15T19:01:25.093Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "This Is the Oldest Amber Ever Found",
+      "link": "https://nautil.us/this-is-the-oldest-amber-ever-found-1282716/",
+      "summary": "It dripped from a tree in China about 385 million years ago\nThe post This Is the Oldest Amber Ever Found appeared first on Nautilus.",
+      "pubDate": "Wed, 15 Jul 2026 19:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "I Am Not to Blame for Unemployment Hell, and Neither Are You",
+      "link": "",
+      "summary": "In 2025, employers laid off  workers. It’s the highest number of layoffs since the start of the pandemic and nearly the same as seen during 2008. This puts the first year of Donald Trump’s second term on par with the first year of the global financial crisis in the scale of its disastrous impact on ",
+      "pubDate": "2026-07-15T17:48:27.088Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "Troy Jackson’s Politics Are Rooted in Maine Logger Struggles",
+      "link": "",
+      "summary": "Graham Platner’s shock exit from the Maine Senate race he secured the nomination for just a month earlier has set off a scramble among the state’s Democratic officials for not just who will replace the scandal-plagued former candidate on the ticket, but who can tap into the same well of voter disenc",
+      "pubDate": "2026-07-15T16:57:36.219Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "Thermodynamic Computers Go With the (Energy) Flow",
+      "link": "https://www.quantamagazine.org/thermodynamic-computers-go-with-the-energy-flow-20260715/",
+      "summary": "Today’s computers need safeguards against random energy fluctuations. Thermodynamic computers would put those fluctuations to use.            \nThe post Thermodynamic Computers Go With the (Energy) Flow first appeared on Quanta Magazine",
+      "pubDate": "Wed, 15 Jul 2026 15:24:33 +0000",
+      "domain": "science",
+      "source": "Quanta"
+    },
+    {
       "title": "Life Inside Icelandic Turf Houses",
       "link": "https://daily.jstor.org/life-inside-icelandic-turf-houses/",
       "summary": "Grass roofs may look enchanting today, but living beneath them was another story.\nThe post Life Inside Icelandic Turf Houses appeared first on JSTOR Daily.",
       "pubDate": "Wed, 15 Jul 2026 13:23:00 +0000",
       "domain": "history",
       "source": "JSTOR Daily"
-    },
-    {
-      "title": "The Criticisms of Bernie’s AI Wealth Fund Idea Don’t Hold Up",
-      "link": "",
-      "summary": "Earlier this month, the  published a  from Bernie Sanders about his proposal to require AI providers to hand over 50 percent of their stock to a sovereign wealth fund (SWF) administered by the government. In the piece, Sanders gives three main rationales for this policy:New York Timespiece\nSanders s",
-      "pubDate": "2026-07-15T12:49:04.028Z",
-      "domain": "politics",
-      "source": "Jacobin"
     },
     {
       "title": "The diffusion pilot",
@@ -750,46 +824,6 @@
       "pubDate": "Wed, 15 Jul 2026 00:00:00 -0400",
       "domain": "science",
       "source": "arXiv: cs.AI"
-    },
-    {
-      "title": "Do Fossils Belong in Mansions or Museums?",
-      "link": "https://nautil.us/do-fossils-belong-in-mansions-or-museums-1282699/",
-      "summary": "The record sale of a T. rex skeleton begs the question\nThe post Do Fossils Belong in Mansions or Museums? appeared first on Nautilus.",
-      "pubDate": "Tue, 14 Jul 2026 22:07:13 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
-      "title": "Can a Preteen’s Reaction to a Face Predict Their Future Social Lives?",
-      "link": "https://nautil.us/can-a-preteens-reaction-to-a-face-predict-their-future-social-lives-1282693/",
-      "summary": "The developing brains of boys and girls light up differently when shown a face\nThe post Can a Preteen’s Reaction to a Face Predict Their Future Social Lives? appeared first on Nautilus.",
-      "pubDate": "Tue, 14 Jul 2026 21:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
-      "title": "How Dinosaur Skeletons Became So Expensive",
-      "link": "https://nautil.us/how-dinosaur-skeletons-became-so-expensive-1282687/",
-      "summary": "Today’s T. rex auction could be cause for concern\nThe post How Dinosaur Skeletons Became So Expensive appeared first on Nautilus.",
-      "pubDate": "Tue, 14 Jul 2026 19:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
-      "title": "Aliens Gave Us One of Hollywood’s Great Working-Class Heroes",
-      "link": "",
-      "summary": "James Cameron’s  (1986) celebrates its fortieth anniversary this July. For generations, the groundbreaking action-horror masterpiece has won over fans with its effortlessly quotable band of hard-up marines and its fierce, iron-willed protagonist — Sigourney Weaver in the role of Ellen Ripley.Aliens\n",
-      "pubDate": "2026-07-14T18:04:28.975Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
-      "title": "The Left Needs Its Own Foreign Policy",
-      "link": "",
-      "summary": "The Democratic Party establishment is taking a beating, and Gaza is a big part of the reason why. Two years before her primary victory over fifteen-term congressional incumbent Diana DeGette,  was fired for criticizing her law firm’s stance on Gaza. Columbia University is set to be represented in Co",
-      "pubDate": "2026-07-14T15:45:15.784Z",
-      "domain": "politics",
-      "source": "Jacobin"
     },
     {
       "title": "Archie G. Norcross’ Maine Forest Fire Maps (1918–22)\n",
@@ -854,14 +888,6 @@
       "pubDate": "Fri, 10 Jul 2026 13:00:13 +0000",
       "domain": "linguistics",
       "source": "Language Log"
-    },
-    {
-      "title": "Will We Ever Find Alien Civilizations?",
-      "link": "https://www.quantamagazine.org/will-we-ever-find-alien-civilizations-20260709/",
-      "summary": "Astronomer David Kipping discusses why claims of extraterrestrial life keep dissolving under scrutiny, why we need a more statistically grounded approach to searching for life beyond Earth, and why it’s rational to believe that we may be alone.             \nThe post Will We Ever Find Alien Civilizat",
-      "pubDate": "Thu, 09 Jul 2026 13:39:13 +0000",
-      "domain": "science",
-      "source": "Quanta"
     },
     {
       "title": "“Worthless Idiot, Donkey Head”: Parodies of Pedantry on the Renaissance Stage\n",
@@ -968,25 +994,25 @@
       "source": "ROAR Magazine"
     },
     {
-      "title": "Identity in interaction: momentary dynamics of self-appraisal and reflected appraisal",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1814576",
-      "summary": "IntroductionA coherent sense of self depends not only on how individuals evaluate themselves, but also on how they believe they are evaluated by others. These internal and socially inferred self-evaluations—self-appraisal and reflected appraisal—are central to identity regulation and emotional wellb",
+      "title": "No relative age effect in professional esports: a cross-national test of selection mechanisms",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1829930",
+      "summary": "BackgroundThe relative age effect (RAE) is well-documented in traditional sport, but its applicability to professional esports remains largely unexplored. The two existing studies examined only the entry question, without controlling for birth seasonality, testing causal mechanisms, or analyzing pos",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "Virtual reality-enhanced collaborative learning and self-reported metacognitive awareness in a Chinese EFL context: the mediating role of social interaction and the moderating role of learner engagement",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1852175",
-      "summary": "This study examined the association between virtual reality (VR)-enhanced collaborative learning environments and self-reported metacognitive awareness among 520 Chinese university EFL students. Drawing on sociocultural theory and technology-enhanced learning frameworks, we proposed and tested a mod",
+      "title": "How participants engage with emotion-focused training for couple identity (EFT-CIDE), a 14-day self-guided mobile app intervention: a framework analysis",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1877423",
+      "summary": "BackgroundIn emotion-focused therapy for couples (EFT-C), identity is one of three relational systems alongside attachment and attraction. Emotion-Focused Training for Couple Identity (EFT-CIDE) is the first self-guided mobile app intervention targeting the identity system. Its quantitative outcomes",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "Can structure speak for understanding? A dual assessment of systems thinking for sustainability in preservice STEM teachers’ concept maps",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1846628",
-      "summary": "IntroductionStructural indicators extracted from concept maps, such as node counts, connection density, and cycle counts, are often used as proxies for systems thinking. However, it remains unclear whether a structurally complex concept map actually reflects deeper semantic understanding of a sustai",
+      "title": "Effect of music on anxiety among adolescents: a systematic review",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1822041",
+      "summary": "BackgroundAdolescence is a developmental period marked by heightened vulnerability to anxiety, driven by academic pressure, social expectations, and rapid emotional changes. Music-based interventions have been examined as accessible, low-risk approaches for anxiety reduction; however, existing evide",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
@@ -994,64 +1020,64 @@
   ],
   "misinfo_toilet": [
     {
-      "headline": "Iran threatens to block more trade routes as US launches fresh strikes",
-      "fragment": "An ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
-      "splice": "Iran threatens to block more trade routes as US launches fresh strikes despite an ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
-      "seed": 20260728
-    },
-    {
-      "headline": "As the US restarts war on Iran, is its weapons stockpile running low?",
-      "fragment": "It is at work everywhere, functioning smoothly at times, at other times in fits and starts. It breathes, it heats, it eats. It shits and fucks.",
-      "splice": "As the US restarts war on Iran, is its weapons stockpile running low? because it is at work everywhere, functioning smoothly at times, at other times in fits and starts. It breathes, it heats, it eats. It shits and fucks.",
-      "seed": 20260729
-    },
-    {
-      "headline": "Burning Forests: Tools for Tracking and Reporting Wildfire Damage",
-      "fragment": "There is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
-      "splice": "Burning Forests: Tools for Tracking and Reporting Wildfire Damage in the void where there is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
-      "seed": 20260730
-    },
-    {
-      "headline": "Ann Widdecombe Was Killed in ‘Targeted Attack,’ UK Police Say",
-      "fragment": "To dissimulate is to pretend not to have what one has. To simulate is to feign to have what one doesn't have. One implies a presence, the other an absence.",
-      "splice": "Ann Widdecombe Was Killed in ‘Targeted Attack,’ UK Police Say in the void where to dissimulate is to pretend not to have what one has. To simulate is to feign to have what one doesn't have. One implies a presence, the other an absence.",
-      "seed": 20260731
-    },
-    {
-      "headline": "Trump’s Sanctions Against the ICC Are Unconstitutional, Rights Groups Say",
-      "fragment": "The simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
-      "splice": "Trump’s Sanctions Against the ICC Are Unconstitutional, Rights Groups Say therefore the simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
-      "seed": 20260732
-    },
-    {
-      "headline": "Iran Claims to Kill 3 U.S. Service Members in Kuwait",
-      "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
-      "splice": "Iran Claims to Kill 3 U.S. Service Members in Kuwait the system notes that the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
-      "seed": 20260733
-    },
-    {
-      "headline": "Poster Boy: Sanctioned Kinahan Cartel Lieutenant Found Playing Padel in Dubai",
-      "fragment": "It is at work everywhere, functioning smoothly at times, at other times in fits and starts. It breathes, it heats, it eats. It shits and fucks.",
-      "splice": "Poster Boy: Sanctioned Kinahan Cartel Lieutenant Found Playing Padel in Dubai underneath it is at work everywhere, functioning smoothly at times, at other times in fits and starts. It breathes, it heats, it eats. It shits and fucks.",
-      "seed": 20260734
-    },
-    {
-      "headline": "Europe, Flexing Muscle in Ukraine, Is Still on Sidelines in Iran",
+      "headline": "Sheinbaum rejects US claim that Mexico’s government is linked to cartels",
       "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "splice": "Europe, Flexing Muscle in Ukraine, Is Still on Sidelines in Iran insofar as the breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "seed": 20260735
-    },
-    {
-      "headline": "Six Dead in an Elevator After Fire in Central Brussels",
-      "fragment": "Antagonism is not now located externally, in the face-off between class blocs, but internally, in the psychology of the worker.",
-      "splice": "Six Dead in an Elevator After Fire in Central Brussels while antagonism is not now located externally, in the face-off between class blocs, but internally, in the psychology of the worker.",
-      "seed": 20260736
-    },
-    {
-      "headline": "US strikes marine control tower in Iran",
-      "fragment": "It is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
-      "splice": "US strikes marine control tower in Iran the system notes that it is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
+      "splice": "Sheinbaum rejects US claim that Mexico’s government is linked to cartels insofar as the breast is a machine that produces milk, and the mouth a machine coupled to it.",
       "seed": 20260737
+    },
+    {
+      "headline": "Democrats Are Desperate to Flip an Arizona House Seat. They’re Rallying Around a Former Republican.",
+      "fragment": "Antagonism is not now located externally, in the face-off between class blocs, but internally, in the psychology of the worker.",
+      "splice": "Democrats Are Desperate to Flip an Arizona House Seat. They’re Rallying Around a Former Republican. while antagonism is not now located externally, in the face-off between class blocs, but internally, in the psychology of the worker.",
+      "seed": 20260738
+    },
+    {
+      "headline": "Ukraine Pounds Russian Ships in Its Campaign to Cut Off Crimea",
+      "fragment": "It is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
+      "splice": "Ukraine Pounds Russian Ships in Its Campaign to Cut Off Crimea the system notes that it is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
+      "seed": 20260739
+    },
+    {
+      "headline": "French MPs approve assisted dying law with strict rules after years of argument",
+      "fragment": "If it is true, for instance, that depression is caused by low serotonin levels, it would still be necessary to explain why particular individuals have low serotonin levels.",
+      "splice": "French MPs approve assisted dying law with strict rules after years of argument the system notes that if it is true, for instance, that depression is caused by low serotonin levels, it would still be necessary to explain why particular individuals have low serotonin levels.",
+      "seed": 20260740
+    },
+    {
+      "headline": "Authors, publishers sue Google over alleged AI copyright infringement",
+      "fragment": "This is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
+      "splice": "Authors, publishers sue Google over alleged AI copyright infringement the signal resolves into this is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
+      "seed": 20260741
+    },
+    {
+      "headline": "Argentina stun England in 2-1 comeback win to reach 2026 World Cup final",
+      "fragment": "Everywhere it is machines—real ones, not figurative ones: machines driving other machines, machines being driven by other machines, with all the necessary couplings and connections.",
+      "splice": "Argentina stun England in 2-1 comeback win to reach 2026 World Cup final the signal resolves into everywhere it is machines—real ones, not figurative ones: machines driving other machines, machines being driven by other machines, with all the necessary couplings and connections.",
+      "seed": 20260742
+    },
+    {
+      "headline": "Between Graves and Uncertainty: The Management of the Dead After Venezuela’s Earthquake",
+      "fragment": "It is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
+      "splice": "Between Graves and Uncertainty: The Management of the Dead After Venezuela’s Earthquake as if it is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
+      "seed": 20260743
+    },
+    {
+      "headline": "For Argentina, a World Cup Semifinal Against England Isn’t Just Soccer",
+      "fragment": "In the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
+      "splice": "For Argentina, a World Cup Semifinal Against England Isn’t Just Soccer the system notes that in the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
+      "seed": 20260744
+    },
+    {
+      "headline": "More people around the world now favour China over the US, Pew study suggests",
+      "fragment": "Over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
+      "splice": "More people around the world now favour China over the US, Pew study suggests insofar as over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
+      "seed": 20260745
+    },
+    {
+      "headline": "Iran War Live Updates: U.S. and Iran Exchange Strikes for Fifth Straight Day",
+      "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
+      "splice": "Iran War Live Updates: U.S. and Iran Exchange Strikes for Fifth Straight Day within which the revolutionary lives in the gap which separates technical progress from social totality.",
+      "seed": 20260746
     }
   ]
 }
