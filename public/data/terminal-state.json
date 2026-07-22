@@ -1,7 +1,37 @@
 {
-  "generated_at": "2026-07-22T16:21:08.080Z",
+  "generated_at": "2026-07-22T22:06:04.661Z",
   "threat_intel": {
     "cisa_kev": [
+      {
+        "cveID": "CVE-2026-16232",
+        "vendorProject": "Check Point",
+        "product": "SmartConsole",
+        "vulnerabilityName": "Check Point SmartConsole Improper Authentication Vulnerability",
+        "dateAdded": "2026-07-22",
+        "shortDescription": "Check Point SmartConsole contains an improper authentication vulnerability which could allow an unauthenticated remote attacker to obtain an application login token and use it to authenticate with full administrative privileges.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-07-25",
+        "knownRansomwareCampaignUse": "Unknown",
+        "notes": "https://support.checkpoint.com/results/sk/sk185169/ ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-16232",
+        "cwes": [
+          "CWE-287"
+        ]
+      },
+      {
+        "cveID": "CVE-2026-50522",
+        "vendorProject": "Microsoft",
+        "product": "SharePoint",
+        "vulnerabilityName": "Microsoft SharePoint Deserialization of Untrusted Data Vulnerability ",
+        "dateAdded": "2026-07-22",
+        "shortDescription": "Microsoft SharePoint contains a deserialization of untrusted data vulnerability which could allow an unauthorized attacker to execute code over a network.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-07-25",
+        "knownRansomwareCampaignUse": "Unknown",
+        "notes": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50522 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-50522",
+        "cwes": [
+          "CWE-502"
+        ]
+      },
       {
         "cveID": "CVE-2026-60137",
         "vendorProject": "WordPress",
@@ -198,296 +228,261 @@
         "cwes": [
           "CWE-94"
         ]
-      },
-      {
-        "cveID": "CVE-2008-4128",
-        "vendorProject": "Cisco",
-        "product": "IOS",
-        "vulnerabilityName": "Cisco IOS Cross-Site Request Forgery Vulnerability",
-        "dateAdded": "2026-07-13",
-        "shortDescription": "Cisco IOS 12.4 contains multiple cross-site forgery vulnerabilities that allows remote attackers to execute arbitrary commands via (1) a certain \"show privilege\" command to the /level/15/exec/- URI, and (2) a certain \"alias exec\" command to the /level/15/exec/-/configure/http URI.",
-        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "dueDate": "2026-07-16",
-        "knownRansomwareCampaignUse": "Unknown",
-        "notes": "https://www.cisco.com/c/en/us/obsolete/ios-nx-os-software/cisco-ios-software-releases-12-4-mainline.html ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2008-4128",
-        "cwes": [
-          "CWE-352"
-        ]
-      },
-      {
-        "cveID": "CVE-2026-56291",
-        "vendorProject": "Balbooa",
-        "product": "Forms",
-        "vulnerabilityName": "Balbooa Forms Unrestricted Upload of File with Dangerous Type Vulnerability",
-        "dateAdded": "2026-07-10",
-        "shortDescription": "Balbooa Forms contains an unrestricted upload of file with dangerous type vulnerability that allows an unauthenticated arbitrary file upload which could allow uploading of executable files leading to full RCE.",
-        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "dueDate": "2026-07-13",
-        "knownRansomwareCampaignUse": "Unknown",
-        "notes": "https://www.balbooa.com/joomla-forms ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-56291",
-        "cwes": [
-          "CWE-434"
-        ]
       }
     ],
     "urlhaus": [
       {
-        "id": "3890234",
-        "date_added": "2026-07-22 16:12:57",
-        "url": "http://43.201.225.240/pty4",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "censys",
-          "elf",
-          "Tsunami",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3890233",
-        "date_added": "2026-07-22 16:12:48",
-        "url": "http://95.179.224.131:8080/pty4",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "censys",
-          "elf",
-          "Tsunami",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3890232",
-        "date_added": "2026-07-22 16:12:45",
-        "url": "http://133.130.120.21/pty3",
+        "id": "3890287",
+        "date_added": "2026-07-22 21:46:25",
+        "url": "http://110.36.31.205:38677/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "censys",
+          "32-bit",
           "elf",
-          "Tsunami",
-          "ua-wget"
+          "mips",
+          "Mozi"
         ]
       },
       {
-        "id": "3890231",
-        "date_added": "2026-07-22 16:12:44",
-        "url": "http://107.175.91.154/pty4",
+        "id": "3890286",
+        "date_added": "2026-07-22 21:43:28",
+        "url": "http://185.82.110.106:51070/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "censys",
+          "32-bit",
+          "arm",
           "elf",
-          "Tsunami",
-          "ua-wget"
+          "mirai",
+          "Mozi"
         ]
       },
       {
-        "id": "3890230",
-        "date_added": "2026-07-22 16:12:39",
-        "url": "http://153.121.64.189/pty4",
+        "id": "3890285",
+        "date_added": "2026-07-22 21:42:16",
+        "url": "http://120.28.215.129:50122/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "censys",
-          "elf",
-          "Tsunami",
-          "ua-wget"
+          "mirai"
         ]
       },
       {
-        "id": "3890228",
-        "date_added": "2026-07-22 16:12:37",
-        "url": "http://133.130.120.21/pty4",
+        "id": "3890284",
+        "date_added": "2026-07-22 21:38:21",
+        "url": "http://61.52.90.68:47197/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "censys",
+          "32-bit",
+          "arm",
           "elf",
-          "Tsunami",
-          "ua-wget"
+          "mirai",
+          "Mozi"
         ]
       },
       {
-        "id": "3890229",
-        "date_added": "2026-07-22 16:12:37",
-        "url": "http://153.121.64.189/pty3",
+        "id": "3890283",
+        "date_added": "2026-07-22 21:21:19",
+        "url": "http://119.117.54.119:47695/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "censys",
+          "32-bit",
           "elf",
-          "Tsunami",
-          "ua-wget"
+          "mips",
+          "Mozi"
         ]
       },
       {
-        "id": "3890227",
-        "date_added": "2026-07-22 16:12:36",
-        "url": "http://158.101.170.110:8080/pty4",
+        "id": "3890282",
+        "date_added": "2026-07-22 21:21:14",
+        "url": "http://125.43.19.178:55986/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "censys",
+          "None"
+        ]
+      },
+      {
+        "id": "3890281",
+        "date_added": "2026-07-22 21:20:30",
+        "url": "http://175.173.138.212:56771/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
           "elf",
-          "Tsunami",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3890280",
+        "date_added": "2026-07-22 21:16:28",
+        "url": "http://110.36.31.205:38677/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3890279",
+        "date_added": "2026-07-22 21:05:35",
+        "url": "http://119.117.54.119:47695/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3890277",
+        "date_added": "2026-07-22 21:04:28",
+        "url": "http://94.154.43.164/peak.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "opendir",
+          "sh",
           "ua-wget"
         ]
       },
       {
-        "id": "3890226",
-        "date_added": "2026-07-22 16:12:30",
-        "url": "http://128.140.127.91:8080/pty3",
-        "url_status": "offline",
+        "id": "3890278",
+        "date_added": "2026-07-22 21:04:28",
+        "url": "http://94.154.43.164/armv7l",
+        "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "censys",
+          "arm",
           "elf",
-          "Tsunami",
+          "mirai",
+          "opendir",
           "ua-wget"
         ]
       },
       {
-        "id": "3890225",
-        "date_added": "2026-07-22 16:12:29",
-        "url": "http://103.149.46.223/pty4",
-        "url_status": "offline",
+        "id": "3890276",
+        "date_added": "2026-07-22 21:03:22",
+        "url": "http://61.53.216.33:38955/bin.sh",
+        "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "censys",
+          "32-bit",
           "elf",
-          "Tsunami",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3890275",
+        "date_added": "2026-07-22 21:00:21",
+        "url": "http://42.229.240.151:58197/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "mirai",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3890274",
+        "date_added": "2026-07-22 20:58:25",
+        "url": "http://185.82.110.106:51070/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "mirai",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3890273",
+        "date_added": "2026-07-22 20:47:27",
+        "url": "http://110.36.25.58:42271/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3890272",
+        "date_added": "2026-07-22 20:47:26",
+        "url": "http://162.249.125.141/release/mips",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "mips",
+          "mirai",
           "ua-wget"
         ]
       },
       {
-        "id": "3890221",
-        "date_added": "2026-07-22 16:12:28",
-        "url": "http://44.251.73.166/pty4",
-        "url_status": "offline",
+        "id": "3890271",
+        "date_added": "2026-07-22 20:46:28",
+        "url": "http://162.249.125.141/release/arm7",
+        "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "censys",
+          "arm",
           "elf",
-          "Tsunami",
+          "mirai",
           "ua-wget"
         ]
       },
       {
-        "id": "3890222",
-        "date_added": "2026-07-22 16:12:28",
-        "url": "http://3.150.67.206/pty4",
-        "url_status": "offline",
+        "id": "3890269",
+        "date_added": "2026-07-22 20:45:26",
+        "url": "http://162.249.125.141/release/goahead.sh",
+        "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "censys",
-          "elf",
-          "Tsunami",
+          "sh",
           "ua-wget"
         ]
       },
       {
-        "id": "3890223",
-        "date_added": "2026-07-22 16:12:28",
-        "url": "http://185.76.78.13:8080/pty3",
-        "url_status": "offline",
+        "id": "3890270",
+        "date_added": "2026-07-22 20:45:26",
+        "url": "http://162.249.125.141/release/arm5",
+        "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "censys",
+          "arm",
           "elf",
-          "Tsunami",
           "ua-wget"
         ]
       },
       {
-        "id": "3890224",
-        "date_added": "2026-07-22 16:12:28",
-        "url": "http://54.241.21.243/pty4",
-        "url_status": "offline",
+        "id": "3890267",
+        "date_added": "2026-07-22 20:45:19",
+        "url": "http://162.249.125.141/release/mipsel",
+        "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "censys",
           "elf",
-          "Tsunami",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3890220",
-        "date_added": "2026-07-22 16:12:27",
-        "url": "http://43.201.225.240/pty3",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "censys",
-          "elf",
-          "Tsunami",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3890216",
-        "date_added": "2026-07-22 16:12:26",
-        "url": "http://54.204.84.214/pty4",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "censys",
-          "elf",
-          "Tsunami",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3890217",
-        "date_added": "2026-07-22 16:12:26",
-        "url": "http://128.140.127.91:8080/pty4",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "censys",
-          "elf",
-          "Tsunami",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3890218",
-        "date_added": "2026-07-22 16:12:26",
-        "url": "http://103.149.46.223/pty3",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "censys",
-          "elf",
-          "Tsunami",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3890219",
-        "date_added": "2026-07-22 16:12:26",
-        "url": "http://185.76.78.13:8080/pty4",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "censys",
-          "elf",
-          "Tsunami",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3890196",
-        "date_added": "2026-07-22 16:12:25",
-        "url": "http://95.179.224.131:8080/pty3",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "censys",
-          "elf",
-          "Tsunami",
+          "mips",
+          "mirai",
           "ua-wget"
         ]
       }
@@ -495,74 +490,95 @@
   },
   "world_monitor": [
     {
-      "title": "War on Iran: Hegseth wants $70B more to keep fighting",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/7/22/war-on-iran-hegseth-wants-70b-more-to-keep-fighting?traffic_source=rss",
-      "pubDate": "Wed, 22 Jul 2026 15:52:54 +0000",
-      "source": "Al Jazeera",
-      "summary": "Iran activated air defence systems across Tehran on the 11th night of US strikes."
-    },
-    {
-      "title": "Iran War Live Updates: Trump Threatens Retaliation Against Civilian Targets if Iran Strikes in Strait",
-      "link": "https://www.nytimes.com/live/2026/07/22/world/iran-war-strikes-trump-hormuz",
-      "pubDate": "Wed, 22 Jul 2026 15:51:16 +0000",
+      "title": "Israeli Banks Threaten to Cut Off Palestinian Economy",
+      "link": "https://www.nytimes.com/2026/07/22/world/middleeast/israeli-banks-palestinian-economy.html",
+      "pubDate": "Wed, 22 Jul 2026 21:57:35 +0000",
       "source": "NYT World",
-      "summary": "President Trump said the United States would target a bridge or power plant, including in or near the Iranian capital, if Iran fired on the Strait of Hormuz. Secretary of State Marco Rubio earlier suggested that Tehran was “not serious” about diploma"
+      "summary": "Two Israeli financial firms have long served as partners to Palestinian banks, handling transactions that make possible the West Bank’s imports and exports."
     },
     {
-      "title": "Proposed US-Saudi nuclear energy deal: What we know so far",
-      "link": "https://www.aljazeera.com/news/2026/7/22/proposed-us-saudi-nuclear-energy-deal-what-we-know-so-far?traffic_source=rss",
-      "pubDate": "Wed, 22 Jul 2026 15:46:56 +0000",
-      "source": "Al Jazeera",
-      "summary": "Reports suggest ‌the Trump administration backs a pact with Saudi Arabia allowing it to enrich uranium."
-    },
-    {
-      "title": "Why are billionaires growing richer than ever?",
-      "link": "https://www.aljazeera.com/video/counting-the-cost/2026/7/22/why-are-billionaires-growing-richer-than-ever?traffic_source=rss",
-      "pubDate": "Wed, 22 Jul 2026 15:38:26 +0000",
-      "source": "Al Jazeera",
-      "summary": "Billionaires are on the rise as the rest struggle with inequality, poverty and cost of living crisis."
-    },
-    {
-      "title": "From towns to zones: Why Israel gives military names to civilian areas",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/7/22/from-towns-to-zones-why-israel-gives-military-names-to-civilian-areas?traffic_source=rss",
-      "pubDate": "Wed, 22 Jul 2026 15:36:51 +0000",
-      "source": "Al Jazeera",
-      "summary": "Israeli authorities are increasingly applying security terminology for residential areas where people live."
-    },
-    {
-      "title": "Elon and the Other Gaza",
-      "link": "https://www.aljazeera.com/video/people-power/2026/7/22/elon-and-the-other-gaza?traffic_source=rss",
-      "pubDate": "Wed, 22 Jul 2026 15:30:00 +0000",
-      "source": "Al Jazeera",
-      "summary": "How the world's richest man helped trigger an HIV crisis in one of the world's poorest countries."
-    },
-    {
-      "title": "Who is Mykhailo Drapatyi, Ukraine's new commander-in-chief?",
-      "link": "https://www.bbc.co.uk/news/articles/c93483k0lp1o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Wed, 22 Jul 2026 15:19:48 GMT",
-      "source": "BBC",
-      "summary": "Drapatyi becomes Ukraine's third commander-in-chief since Russia's full-scale invasion in February 2022."
-    },
-    {
-      "title": "Model Scout Who Connected Women to Epstein Is Found Dead in France",
-      "link": "https://www.nytimes.com/2026/07/22/world/europe/epstein-daniel-siad-dead-model-scout.html",
-      "pubDate": "Wed, 22 Jul 2026 14:59:35 +0000",
-      "source": "NYT World",
-      "summary": "Daniel Siad, who was found dead on Monday, repeatedly introduced Jeffrey Epstein to young women, according to messages he exchanged with Mr. Epstein. Mr. Siad had denied wrongdoing."
-    },
-    {
-      "title": "Ukrainian drones hit Russian online giant retailer Wildberries for second time",
-      "link": "https://www.bbc.co.uk/news/articles/c36de9n4pxpo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Wed, 22 Jul 2026 14:52:25 GMT",
-      "source": "BBC",
-      "summary": "Logistics hubs belonging to Wildberries in the Krasnodar and Stavropol regions were struck overnight."
-    },
-    {
-      "title": "US to announce deal allowing Saudi Arabia a nuclear programme",
+      "title": "US signs landmark nuclear deal with Saudi Arabia",
       "link": "https://www.bbc.co.uk/news/articles/cj03r59z73po?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Wed, 22 Jul 2026 14:49:12 GMT",
+      "pubDate": "Wed, 22 Jul 2026 21:31:25 GMT",
       "source": "BBC",
-      "summary": "The agreement would fulfil a long-held Saudi ambition but could attract concern in Israel and from some US lawmakers."
+      "summary": "The US Department of Energy says the \"peaceful\" co-operation agreement will give US firms \"great access\" to the Saudi nuclear energy programme."
+    },
+    {
+      "title": "US and Saudi Arabia announce nuclear cooperation deal",
+      "link": "https://www.aljazeera.com/news/2026/7/22/us-and-saudi-arabia-announce-nuclear-cooperation-deal?traffic_source=rss",
+      "pubDate": "Wed, 22 Jul 2026 21:30:25 +0000",
+      "source": "Al Jazeera",
+      "summary": "Trump administration says 'historic' agreement will 'reinforce global nonproliferation standards' and create jobs in US."
+    },
+    {
+      "title": "Louvre Gallery Reopens After Brazen Jewel Heist",
+      "link": "https://www.nytimes.com/2026/07/22/france-louvre-reopening-jewels.html",
+      "pubDate": "Wed, 22 Jul 2026 21:18:11 +0000",
+      "source": "NYT World",
+      "summary": "Thieves stole crown jewels from the Apollo Gallery at the Louvre Museum in October, forcing its closure. Tourists finally returned on Wednesday."
+    },
+    {
+      "title": "India’s Rahul Gandhi speaks out after release",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/7/22/indias-rahul-gandhi-speaks-out-after-release?traffic_source=rss",
+      "pubDate": "Wed, 22 Jul 2026 20:59:28 +0000",
+      "source": "Al Jazeera",
+      "summary": "Indian opposition leader Rahul Gandhi has spoken out publicly for the first time since he was arrested during protests."
+    },
+    {
+      "title": "Fire kills 10 members of same family in Peru, police say",
+      "link": "https://www.bbc.co.uk/news/articles/cm2g11ng7j2o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Wed, 22 Jul 2026 20:56:26 GMT",
+      "source": "BBC",
+      "summary": "Authorities are investigating the cause of the blaze in Lima as local media report\n it may have been arson."
+    },
+    {
+      "title": "Dubai Firm Cuts Deal for New Port to Bypass Strait of Hormuz",
+      "link": "https://www.nytimes.com/2026/07/22/world/dubai-cuts-deal-for-new-port-to-bypass-strait-of-hormuz.html",
+      "pubDate": "Wed, 22 Jul 2026 20:50:44 +0000",
+      "source": "NYT World",
+      "summary": "A Dubai-based logistics giant unveiled a deal on Wednesday to develop shipping terminals on the United Arab Emirates’ east coast."
+    },
+    {
+      "title": "How the Trump Administration’s Nuclear Deal With Saudi Arabia May Work",
+      "link": "https://www.nytimes.com/2026/07/22/world/middleeast/us-saudi-arabia-nuclear-deal-123-agreement.html",
+      "pubDate": "Wed, 22 Jul 2026 20:43:49 +0000",
+      "source": "NYT World",
+      "summary": "The Trump administration  announced an agreement with Saudi Arabia on a civilian nuclear program. Such deals, known as 123 Agreements, are designed to prevent the development of weapons."
+    },
+    {
+      "title": "US regulators to weigh controversial peptides backed by RFK Jr",
+      "link": "https://www.aljazeera.com/news/2026/7/22/us-regulators-to-weigh-controversial-peptides-backed-by-rfk-jr?traffic_source=rss",
+      "pubDate": "Wed, 22 Jul 2026 20:39:14 +0000",
+      "source": "Al Jazeera",
+      "summary": "FDA has questioned the evidence as demand surges for the compounds promoted for sleep, muscle growth, and anti-ageing."
+    },
+    {
+      "title": "Ukraine’s new military chief pledges to escalate retaliation against Russia",
+      "link": "https://www.aljazeera.com/news/2026/7/22/ukraines-new-military-chief-pledges-to-escalate-retaliation-against-russia?traffic_source=rss",
+      "pubDate": "Wed, 22 Jul 2026 20:34:56 +0000",
+      "source": "Al Jazeera",
+      "summary": "Russian Foreign Minister Sergei Lavrov is due to meet US counterpart Marco Rubio, but progress towards peace unlikely."
+    },
+    {
+      "title": "Griffiths: Diplomacy requires US and Iran to accept they have ‘lost‘",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/7/22/griffiths-diplomacy-requires-us-and-iran-to-accept-they-have?traffic_source=rss",
+      "pubDate": "Wed, 22 Jul 2026 20:20:57 +0000",
+      "source": "Al Jazeera",
+      "summary": "Griffiths: Diplomacy requires US and Iran to accept they have ‘lost‘"
+    },
+    {
+      "title": "Trump threatens to target Iran's bridges and power plants if Hormuz attacks persist",
+      "link": "https://www.bbc.co.uk/news/articles/cdrv0p37k8jo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Wed, 22 Jul 2026 18:57:46 GMT",
+      "source": "BBC",
+      "summary": "Donald Trump says the US will respond any time Iranian forces shoot at a ship in the Strait of Hormuz."
+    },
+    {
+      "title": "Why Are Young People in India Protesting?",
+      "link": "https://www.nytimes.com/2026/07/22/world/asia/india-youth-protest-modi-cockroach-janta-party.html",
+      "pubDate": "Wed, 22 Jul 2026 18:13:17 +0000",
+      "source": "NYT World",
+      "summary": "A youth-led movement angry over the education system and a lack of jobs is posing a rare challenge to a government that has ruled for more than a decade with a firm hand."
     },
     {
       "title": "Tankers make sharp U-turns after Houthi shipping threat",
@@ -572,32 +588,11 @@
       "summary": "All of the ships were travelling to or from Saudi ports before changing course, ship-tracking data shows."
     },
     {
-      "title": "U.S.-Saudi Nuclear Deal Stokes Israeli Concerns of Mideast Arms Race",
-      "link": "https://www.nytimes.com/2026/07/22/world/middleeast/saudi-nuclear-deal-israel.html",
-      "pubDate": "Wed, 22 Jul 2026 14:34:38 +0000",
-      "source": "NYT World",
-      "summary": "An Israeli minister sought to downplay the expected deal, but critics said it could spur other regional countries to pursue a nuclear program, and potentially the creation of a bomb."
-    },
-    {
-      "title": "A Mexican Town Was Known for Lettuce. Now It’s Because of Cyclospora.",
-      "link": "https://www.nytimes.com/2026/07/22/world/americas/cyclospora-lettuce-mexico-guanajuato.html",
-      "pubDate": "Wed, 22 Jul 2026 13:53:21 +0000",
-      "source": "NYT World",
-      "summary": "In central Mexico, a lettuce-growing region has been potentially linked to an outbreak in the U.S. that has sickened thousands."
-    },
-    {
-      "title": "Ukraine’s New Military Chief Faces a Monumental Test",
-      "link": "https://www.nytimes.com/2026/07/22/world/europe/ukraine-military-chief-drapatyi.html",
-      "pubDate": "Wed, 22 Jul 2026 12:33:29 +0000",
-      "source": "NYT World",
-      "summary": "Maj. Gen. Mykhailo Drapatyi faces a balancing act between asserting the independence favored by military reformers and accommodating political input on battlefield strategy."
-    },
-    {
-      "title": "Trump threatens to target Iran's bridges and power plants if Hormuz attacks persist",
-      "link": "https://www.bbc.co.uk/news/articles/cdrv0p37k8jo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Wed, 22 Jul 2026 10:15:03 GMT",
+      "title": "British woman jailed for blackmail after accusing banker of rape in Hong Kong",
+      "link": "https://www.bbc.co.uk/news/articles/cz97gdjgezno?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Wed, 22 Jul 2026 14:14:16 GMT",
       "source": "BBC",
-      "summary": "Donald Trump says the US will respond any time Iranian forces shoot at a ship in the Strait of Hormuz."
+      "summary": "Isabel Rose was convicted of trying to extort £100,000 from the UK banker and perverting the course of justice."
     },
     {
       "title": "William Lawrence Is Running in a Purple Michigan District — on His Pro-Palestine Credentials",
@@ -737,10 +732,34 @@
   ],
   "syndicate_journal": [
     {
-      "title": "The Avocados That May Save Us from a Guacamole Apocalypse",
-      "link": "https://nautil.us/the-avocados-that-may-save-us-from-a-guacamole-apocalypse-1282897/",
-      "summary": "Tracing the roots of diversity in the coveted fruit in Central America\nThe post The Avocados That May Save Us from a Guacamole Apocalypse appeared first on Nautilus.",
-      "pubDate": "Wed, 22 Jul 2026 15:01:00 +0000",
+      "title": "Your Dementia Risk Is Higher If Your Spouse Has It—But It’s More Than Shared Lifestyle",
+      "link": "https://nautil.us/your-dementia-risk-is-higher-if-your-spouse-has-it-but-its-more-than-shared-lifestyle-1282911/",
+      "summary": "A new study looked at almost one million married couples and found dementia clustered among couples. Shared lifestyle doesn’t explain everything.\nThe post Your Dementia Risk Is Higher If Your Spouse Has It—But It’s More Than Shared Lifestyle appeared first on Nautilus.",
+      "pubDate": "Wed, 22 Jul 2026 21:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "Australia’s Greater Gliders Fly Majestically From Tree to Tree—And Now We Know Exactly How Far",
+      "link": "https://nautil.us/australias-greater-gliders-fly-majestically-from-tree-to-tree-and-now-we-know-exactly-how-far-1282905/",
+      "summary": "It’s not as far as we thought, though\nThe post Australia’s Greater Gliders Fly Majestically From Tree to Tree—And Now We Know Exactly How Far appeared first on Nautilus.",
+      "pubDate": "Wed, 22 Jul 2026 19:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "The Cloud Cartel Has Created a Global Rentier Economy",
+      "link": "",
+      "summary": "Who are the rulers of modern capitalism? Cecilia Rikap’s answer couldn’t be clearer or more precise: Amazon, Google, and Microsoft are the rulers.\nIn her book , an exhaustive and highly original examination of how just three companies dominate “global knowledge production,” Rikap finds that almost a",
+      "pubDate": "2026-07-22T18:47:54.905Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "How Tunas Evolved to Become an Apex Predator of the Sea",
+      "link": "https://nautil.us/how-tunas-evolved-to-become-an-apex-predator-of-the-sea-1282901/",
+      "summary": "Contrary to popular belief, it had little to do with the dinosaur-killing asteroid\nThe post How Tunas Evolved to Become an Apex Predator of the Sea appeared first on Nautilus.",
+      "pubDate": "Wed, 22 Jul 2026 17:00:00 +0000",
       "domain": "science",
       "source": "Nautilus"
     },
@@ -751,14 +770,6 @@
       "pubDate": "2026-07-22T14:51:40.877Z",
       "domain": "politics",
       "source": "Jacobin"
-    },
-    {
-      "title": "Plants and Their Ants: When Flora and Fauna Team Up",
-      "link": "https://nautil.us/plants-and-their-ants-when-flora-and-fauna-team-up-1282810/",
-      "summary": "Mutualistic partnerships between species abound across nature—but it’s a tricky dance to make sure both parties keep pulling their weight\nThe post Plants and Their Ants: When Flora and Fauna Team Up appeared first on Nautilus.",
-      "pubDate": "Wed, 22 Jul 2026 14:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
     },
     {
       "title": "The Socialist Case Against Nationalizing AI",
@@ -775,14 +786,6 @@
       "pubDate": "Wed, 22 Jul 2026 13:45:00 +0000",
       "domain": "history",
       "source": "JSTOR Daily"
-    },
-    {
-      "title": "No Regrets for Being on the Right Side of History",
-      "link": "",
-      "summary": "In the early hours of September 8, 2025, in Ulm, Germany, five activists gained access to a branch of a subsidiary of Elbit Systems, Israel’s largest private defense contractor. They damaged office equipment while filming themselves. According to their own statements, they wanted to protest Germany’",
-      "pubDate": "2026-07-22T12:45:42.913Z",
-      "domain": "politics",
-      "source": "Jacobin"
     },
     {
       "title": "Can cells think?",
@@ -815,14 +818,6 @@
       "pubDate": "Wed, 22 Jul 2026 00:00:00 -0400",
       "domain": "science",
       "source": "arXiv: cs.AI"
-    },
-    {
-      "title": "Why Are We Using Machines to Study Our Inner Lives?",
-      "link": "https://nautil.us/why-are-we-using-machines-to-study-our-inner-lives-1282870/",
-      "summary": "Increasingly scientists are testing chatbots rather than humans in experiments\nThe post Why Are We Using Machines to Study Our Inner Lives? appeared first on Nautilus.",
-      "pubDate": "Tue, 21 Jul 2026 20:43:08 +0000",
-      "domain": "science",
-      "source": "Nautilus"
     },
     {
       "title": "Reading the Maya with William S. Burroughs",
@@ -1027,64 +1022,64 @@
   ],
   "misinfo_toilet": [
     {
-      "headline": "From towns to zones: Why Israel gives military names to civilian areas",
-      "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
-      "splice": "From towns to zones: Why Israel gives military names to civilian areas the system notes that the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
-      "seed": 20260738
-    },
-    {
-      "headline": "A Mexican Town Was Known for Lettuce. Now It’s Because of Cyclospora.",
-      "fragment": "It is at work everywhere, functioning smoothly at times, at other times in fits and starts. It breathes, it heats, it eats. It shits and fucks.",
-      "splice": "A Mexican Town Was Known for Lettuce. Now It’s Because of Cyclospora. underneath it is at work everywhere, functioning smoothly at times, at other times in fits and starts. It breathes, it heats, it eats. It shits and fucks.",
-      "seed": 20260739
-    },
-    {
-      "headline": "Model Scout Who Connected Women to Epstein Is Found Dead in France",
-      "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "splice": "Model Scout Who Connected Women to Epstein Is Found Dead in France insofar as the breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "seed": 20260740
-    },
-    {
-      "headline": "U.S.-Saudi Nuclear Deal Stokes Israeli Concerns of Mideast Arms Race",
-      "fragment": "Antagonism is not now located externally, in the face-off between class blocs, but internally, in the psychology of the worker.",
-      "splice": "U.S.-Saudi Nuclear Deal Stokes Israeli Concerns of Mideast Arms Race while antagonism is not now located externally, in the face-off between class blocs, but internally, in the psychology of the worker.",
-      "seed": 20260741
-    },
-    {
-      "headline": "US to announce deal allowing Saudi Arabia a nuclear programme",
-      "fragment": "It is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
-      "splice": "US to announce deal allowing Saudi Arabia a nuclear programme the system notes that it is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
-      "seed": 20260742
-    },
-    {
-      "headline": "Why are billionaires growing richer than ever?",
-      "fragment": "If it is true, for instance, that depression is caused by low serotonin levels, it would still be necessary to explain why particular individuals have low serotonin levels.",
-      "splice": "Why are billionaires growing richer than ever? the system notes that if it is true, for instance, that depression is caused by low serotonin levels, it would still be necessary to explain why particular individuals have low serotonin levels.",
-      "seed": 20260743
-    },
-    {
-      "headline": "Between Graves and Uncertainty: The Management of the Dead After Venezuela’s Earthquake",
-      "fragment": "This is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
-      "splice": "Between Graves and Uncertainty: The Management of the Dead After Venezuela’s Earthquake the signal resolves into this is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
+      "headline": "Dubai Firm Cuts Deal for New Port to Bypass Strait of Hormuz",
+      "fragment": "Art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
+      "splice": "Dubai Firm Cuts Deal for New Port to Bypass Strait of Hormuz in the void where art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
       "seed": 20260744
     },
     {
-      "headline": "Ukraine’s New Military Chief Faces a Monumental Test",
-      "fragment": "Everywhere it is machines—real ones, not figurative ones: machines driving other machines, machines being driven by other machines, with all the necessary couplings and connections.",
-      "splice": "Ukraine’s New Military Chief Faces a Monumental Test the signal resolves into everywhere it is machines—real ones, not figurative ones: machines driving other machines, machines being driven by other machines, with all the necessary couplings and connections.",
+      "headline": "India’s Rahul Gandhi speaks out after release",
+      "fragment": "This is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
+      "splice": "India’s Rahul Gandhi speaks out after release therefore this is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
       "seed": 20260745
     },
     {
-      "headline": "“Cover-Up” Unravels as Pentagon Admits Nearly 100 Injured in Iran Strikes",
-      "fragment": "It is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
-      "splice": "“Cover-Up” Unravels as Pentagon Admits Nearly 100 Injured in Iran Strikes as if it is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
+      "headline": "Griffiths: Diplomacy requires US and Iran to accept they have ‘lost‘",
+      "fragment": "Over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
+      "splice": "Griffiths: Diplomacy requires US and Iran to accept they have ‘lost‘ consequently over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
       "seed": 20260746
     },
     {
-      "headline": "Who is Mykhailo Drapatyi, Ukraine's new commander-in-chief?",
-      "fragment": "In the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
-      "splice": "Who is Mykhailo Drapatyi, Ukraine's new commander-in-chief? the system notes that in the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
+      "headline": "US and Saudi Arabia announce nuclear cooperation deal",
+      "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
+      "splice": "US and Saudi Arabia announce nuclear cooperation deal because it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
       "seed": 20260747
+    },
+    {
+      "headline": "Ukraine’s new military chief pledges to escalate retaliation against Russia",
+      "fragment": "Underneath all reason lies delirium and drift.",
+      "splice": "Ukraine’s new military chief pledges to escalate retaliation against Russia which is to say underneath all reason lies delirium and drift.",
+      "seed": 20260748
+    },
+    {
+      "headline": "U.S. Official: Iran Attacks Injured “Far More” Troops Than Pentagon Admits",
+      "fragment": "This is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
+      "splice": "U.S. Official: Iran Attacks Injured “Far More” Troops Than Pentagon Admits the signal resolves into this is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
+      "seed": 20260749
+    },
+    {
+      "headline": "Trump threatens to target Iran's bridges and power plants if Hormuz attacks persist",
+      "fragment": "The technocrat is the natural friend of the dictator—computers and dictatorship.",
+      "splice": "Trump threatens to target Iran's bridges and power plants if Hormuz attacks persist insofar as the technocrat is the natural friend of the dictator—computers and dictatorship.",
+      "seed": 20260750
+    },
+    {
+      "headline": "British woman jailed for blackmail after accusing banker of rape in Hong Kong",
+      "fragment": "Traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
+      "splice": "British woman jailed for blackmail after accusing banker of rape in Hong Kong ...as traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
+      "seed": 20260751
+    },
+    {
+      "headline": "US regulators to weigh controversial peptides backed by RFK Jr",
+      "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
+      "splice": "US regulators to weigh controversial peptides backed by RFK Jr the signal resolves into it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
+      "seed": 20260752
+    },
+    {
+      "headline": "How the Trump Administration’s Nuclear Deal With Saudi Arabia May Work",
+      "fragment": "We live in a world where there is more and more information, and less and less meaning.",
+      "splice": "How the Trump Administration’s Nuclear Deal With Saudi Arabia May Work meanwhile we live in a world where there is more and more information, and less and less meaning.",
+      "seed": 20260753
     }
   ]
 }
