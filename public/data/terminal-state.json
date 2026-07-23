@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T22:06:04.661Z",
+  "generated_at": "2026-07-23T03:13:26.882Z",
   "threat_intel": {
     "cisa_kev": [
       {
@@ -232,36 +232,9 @@
     ],
     "urlhaus": [
       {
-        "id": "3890287",
-        "date_added": "2026-07-22 21:46:25",
-        "url": "http://110.36.31.205:38677/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3890286",
-        "date_added": "2026-07-22 21:43:28",
-        "url": "http://185.82.110.106:51070/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "arm",
-          "elf",
-          "mirai",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3890285",
-        "date_added": "2026-07-22 21:42:16",
-        "url": "http://120.28.215.129:50122/i",
+        "id": "3890381",
+        "date_added": "2026-07-23 02:57:17",
+        "url": "http://114.227.50.186:47510/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -269,9 +242,19 @@
         ]
       },
       {
-        "id": "3890284",
-        "date_added": "2026-07-22 21:38:21",
-        "url": "http://61.52.90.68:47197/i",
+        "id": "3890382",
+        "date_added": "2026-07-23 02:57:17",
+        "url": "http://115.63.55.58:56860/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3890380",
+        "date_added": "2026-07-23 02:56:20",
+        "url": "http://123.148.227.127:43983/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -283,9 +266,9 @@
         ]
       },
       {
-        "id": "3890283",
-        "date_added": "2026-07-22 21:21:19",
-        "url": "http://119.117.54.119:47695/i",
+        "id": "3890379",
+        "date_added": "2026-07-23 02:54:28",
+        "url": "http://115.51.108.250:34740/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -296,58 +279,163 @@
         ]
       },
       {
-        "id": "3890282",
-        "date_added": "2026-07-22 21:21:14",
-        "url": "http://125.43.19.178:55986/i",
+        "id": "3890376",
+        "date_added": "2026-07-23 02:50:30",
+        "url": "http://45.74.3.37:5001/armv7l",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3890281",
-        "date_added": "2026-07-22 21:20:30",
-        "url": "http://175.173.138.212:56771/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
           "elf",
-          "mips",
-          "Mozi"
+          "mirai",
+          "opendir",
+          "ua-wget"
         ]
       },
       {
-        "id": "3890280",
-        "date_added": "2026-07-22 21:16:28",
-        "url": "http://110.36.31.205:38677/bin.sh",
+        "id": "3890377",
+        "date_added": "2026-07-23 02:50:30",
+        "url": "http://45.74.3.37:5001/arm",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "32-bit",
           "elf",
-          "mips",
-          "Mozi"
+          "mirai",
+          "opendir",
+          "ua-wget"
         ]
       },
       {
-        "id": "3890279",
-        "date_added": "2026-07-22 21:05:35",
-        "url": "http://119.117.54.119:47695/bin.sh",
+        "id": "3890378",
+        "date_added": "2026-07-23 02:50:30",
+        "url": "http://45.74.3.37:5001/android_arm64",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "32-bit",
           "elf",
-          "mips",
-          "Mozi"
+          "mirai",
+          "opendir",
+          "ua-wget"
         ]
       },
       {
-        "id": "3890277",
-        "date_added": "2026-07-22 21:04:28",
-        "url": "http://94.154.43.164/peak.sh",
+        "id": "3890369",
+        "date_added": "2026-07-23 02:50:29",
+        "url": "http://45.74.3.37:5001/arm64",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "mirai",
+          "opendir",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3890370",
+        "date_added": "2026-07-23 02:50:29",
+        "url": "http://45.74.3.37:5001/mips",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "mirai",
+          "opendir",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3890371",
+        "date_added": "2026-07-23 02:50:29",
+        "url": "http://45.74.3.37:5001/arm6",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "mirai",
+          "opendir",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3890372",
+        "date_added": "2026-07-23 02:50:29",
+        "url": "http://45.74.3.37:5001/arm5",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "mirai",
+          "opendir",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3890373",
+        "date_added": "2026-07-23 02:50:29",
+        "url": "http://45.74.3.37:5001/mipsle",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "mirai",
+          "opendir",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3890374",
+        "date_added": "2026-07-23 02:50:29",
+        "url": "http://45.74.3.37:5001/i386",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "mirai",
+          "opendir",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3890375",
+        "date_added": "2026-07-23 02:50:29",
+        "url": "http://45.74.3.37:5001/x86",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "mirai",
+          "opendir",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3890368",
+        "date_added": "2026-07-23 02:50:28",
+        "url": "http://45.74.3.37:5001/amd64",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "mirai",
+          "opendir",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3890367",
+        "date_added": "2026-07-23 02:50:16",
+        "url": "http://45.74.3.37:5001/bot.exe",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "exe",
+          "opendir"
+        ]
+      },
+      {
+        "id": "3890366",
+        "date_added": "2026-07-23 02:49:32",
+        "url": "http://45.74.3.37:5001/bins.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -357,23 +445,19 @@
         ]
       },
       {
-        "id": "3890278",
-        "date_added": "2026-07-22 21:04:28",
-        "url": "http://94.154.43.164/armv7l",
+        "id": "3890365",
+        "date_added": "2026-07-23 02:46:15",
+        "url": "http://219.155.232.225:47229/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "arm",
-          "elf",
-          "mirai",
-          "opendir",
-          "ua-wget"
+          "Mozi"
         ]
       },
       {
-        "id": "3890276",
-        "date_added": "2026-07-22 21:03:22",
-        "url": "http://61.53.216.33:38955/bin.sh",
+        "id": "3890364",
+        "date_added": "2026-07-23 02:41:22",
+        "url": "http://219.155.202.252:43444/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -384,37 +468,9 @@
         ]
       },
       {
-        "id": "3890275",
-        "date_added": "2026-07-22 21:00:21",
-        "url": "http://42.229.240.151:58197/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "arm",
-          "elf",
-          "mirai",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3890274",
-        "date_added": "2026-07-22 20:58:25",
-        "url": "http://185.82.110.106:51070/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "arm",
-          "elf",
-          "mirai",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3890273",
-        "date_added": "2026-07-22 20:47:27",
-        "url": "http://110.36.25.58:42271/bin.sh",
+        "id": "3890363",
+        "date_added": "2026-07-23 02:41:19",
+        "url": "http://222.137.24.130:48867/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -422,73 +478,81 @@
           "elf",
           "mips",
           "Mozi"
-        ]
-      },
-      {
-        "id": "3890272",
-        "date_added": "2026-07-22 20:47:26",
-        "url": "http://162.249.125.141/release/mips",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "elf",
-          "mips",
-          "mirai",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3890271",
-        "date_added": "2026-07-22 20:46:28",
-        "url": "http://162.249.125.141/release/arm7",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "arm",
-          "elf",
-          "mirai",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3890269",
-        "date_added": "2026-07-22 20:45:26",
-        "url": "http://162.249.125.141/release/goahead.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "sh",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3890270",
-        "date_added": "2026-07-22 20:45:26",
-        "url": "http://162.249.125.141/release/arm5",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "arm",
-          "elf",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3890267",
-        "date_added": "2026-07-22 20:45:19",
-        "url": "http://162.249.125.141/release/mipsel",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "elf",
-          "mips",
-          "mirai",
-          "ua-wget"
         ]
       }
     ]
   },
   "world_monitor": [
+    {
+      "title": "Why Abderrahim Fakir’s death reignited Italy’s police accountability debate",
+      "link": "https://www.aljazeera.com/news/2026/7/23/why-abderrahim-fakirs-death-reignited-italys-police-accountability-debate?traffic_source=rss",
+      "pubDate": "Thu, 23 Jul 2026 01:44:30 +0000",
+      "source": "Al Jazeera",
+      "summary": "A Moroccan-born man’s death in Bologna has prompted anger and renewed scrutiny of Italy’s policing and legal reforms."
+    },
+    {
+      "title": "Spain and France battle raging wildfires, face high risk of more",
+      "link": "https://www.aljazeera.com/news/2026/7/23/spain-and-france-battle-raging-wildfires-face-high-risk-of-more?traffic_source=rss",
+      "pubDate": "Thu, 23 Jul 2026 01:23:57 +0000",
+      "source": "Al Jazeera",
+      "summary": "A wildfire in Spain's Guadalajara region has burned 32,000 hectares, in one of the country's largest recorded blazes."
+    },
+    {
+      "title": "US tariffs ‘strengthen’ Lula against Bolsonaro’s son in upcoming elections",
+      "link": "https://www.aljazeera.com/news/2026/7/23/us-tariffs-strengthen-lula-against-bolsonaros-son-in-upcoming-elections?traffic_source=rss",
+      "pubDate": "Thu, 23 Jul 2026 01:20:37 +0000",
+      "source": "Al Jazeera",
+      "summary": "With Lula polling ahead and tariffs squeezing Brazil's economy, the Bolsonaro family's Washington strategy is faltering."
+    },
+    {
+      "title": "US House passes $1.15 trillion military bill expanding Israel cooperation",
+      "link": "https://www.aljazeera.com/news/2026/7/23/us-house-passes-1-15-trillion-military-bill-expanding-israel-cooperation?traffic_source=rss",
+      "pubDate": "Thu, 23 Jul 2026 00:29:52 +0000",
+      "source": "Al Jazeera",
+      "summary": "Bill to fund war on Iran and a handful of Trump priorities passes largely along party lines, faces Senate uncertainty."
+    },
+    {
+      "title": "AI, China, ‘dark factories’ and the future of the US auto industry",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/7/23/ai-china-dark-factories-and-the-future-of-the-us-auto-industry?traffic_source=rss",
+      "pubDate": "Thu, 23 Jul 2026 00:25:49 +0000",
+      "source": "Al Jazeera",
+      "summary": "Economist Mary Lovely dismisses the claims that getting automakers to produce more cars in America proves tariffs work."
+    },
+    {
+      "title": "US signs landmark nuclear deal with Saudi Arabia",
+      "link": "https://www.bbc.co.uk/news/articles/cj03r59z73po?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Thu, 23 Jul 2026 00:21:53 GMT",
+      "source": "BBC",
+      "summary": "The US Department of Energy says the \"peaceful\" co-operation agreement will give US firms \"great access\" to the Saudi nuclear energy programme."
+    },
+    {
+      "title": "Russia's businesses under strain from Ukraine's attacks on Wildberries",
+      "link": "https://www.bbc.co.uk/news/articles/cvg9n2y61w6o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Wed, 22 Jul 2026 23:06:08 GMT",
+      "source": "BBC",
+      "summary": "Ukrainian drones have hit several retail warehouses belonging to Russia's biggest online retailer Wildberries in a matter of days."
+    },
+    {
+      "title": "Trump threatens to target Iran's bridges and power plants if Hormuz attacks persist",
+      "link": "https://www.bbc.co.uk/news/articles/cdrv0p37k8jo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Wed, 22 Jul 2026 22:17:54 GMT",
+      "source": "BBC",
+      "summary": "Donald Trump says the US will respond any time Iranian forces shoot at a ship in the Strait of Hormuz."
+    },
+    {
+      "title": "Why Are Young People in India Protesting?",
+      "link": "https://www.nytimes.com/2026/07/22/world/asia/india-youth-protest-modi-cockroach-janta-party.html",
+      "pubDate": "Wed, 22 Jul 2026 22:14:51 +0000",
+      "source": "NYT World",
+      "summary": "A youth-led movement angry over the education system and a lack of jobs is posing a rare challenge to a government that has ruled for more than a decade with a firm hand."
+    },
+    {
+      "title": "GOP Rep. Called Israeli–U.S. Defense Tech Integration “Dangerous.” The House Passed It Anyway.",
+      "link": "https://theintercept.com/2026/07/22/ndaa-defense-bill-pentagon-israel-massie/",
+      "pubDate": "Wed, 22 Jul 2026 22:13:33 +0000",
+      "source": "The Intercept",
+      "summary": "Rep. Thomas Massie had tried to strip the provision from the $1.15 trillion Pentagon budget, calling it “lopsided” in Israel’s favor.\nThe post GOP Rep. Called Israeli–U.S. Defense Tech Integration “Dangerous.” The House Passed It Anyway. appeared fir"
+    },
     {
       "title": "Israeli Banks Threaten to Cut Off Palestinian Economy",
       "link": "https://www.nytimes.com/2026/07/22/world/middleeast/israeli-banks-palestinian-economy.html",
@@ -497,32 +561,11 @@
       "summary": "Two Israeli financial firms have long served as partners to Palestinian banks, handling transactions that make possible the West Bank’s imports and exports."
     },
     {
-      "title": "US signs landmark nuclear deal with Saudi Arabia",
-      "link": "https://www.bbc.co.uk/news/articles/cj03r59z73po?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Wed, 22 Jul 2026 21:31:25 GMT",
-      "source": "BBC",
-      "summary": "The US Department of Energy says the \"peaceful\" co-operation agreement will give US firms \"great access\" to the Saudi nuclear energy programme."
-    },
-    {
-      "title": "US and Saudi Arabia announce nuclear cooperation deal",
-      "link": "https://www.aljazeera.com/news/2026/7/22/us-and-saudi-arabia-announce-nuclear-cooperation-deal?traffic_source=rss",
-      "pubDate": "Wed, 22 Jul 2026 21:30:25 +0000",
-      "source": "Al Jazeera",
-      "summary": "Trump administration says 'historic' agreement will 'reinforce global nonproliferation standards' and create jobs in US."
-    },
-    {
       "title": "Louvre Gallery Reopens After Brazen Jewel Heist",
       "link": "https://www.nytimes.com/2026/07/22/france-louvre-reopening-jewels.html",
       "pubDate": "Wed, 22 Jul 2026 21:18:11 +0000",
       "source": "NYT World",
       "summary": "Thieves stole crown jewels from the Apollo Gallery at the Louvre Museum in October, forcing its closure. Tourists finally returned on Wednesday."
-    },
-    {
-      "title": "India’s Rahul Gandhi speaks out after release",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/7/22/indias-rahul-gandhi-speaks-out-after-release?traffic_source=rss",
-      "pubDate": "Wed, 22 Jul 2026 20:59:28 +0000",
-      "source": "Al Jazeera",
-      "summary": "Indian opposition leader Rahul Gandhi has spoken out publicly for the first time since he was arrested during protests."
     },
     {
       "title": "Fire kills 10 members of same family in Peru, police say",
@@ -546,53 +589,11 @@
       "summary": "The Trump administration  announced an agreement with Saudi Arabia on a civilian nuclear program. Such deals, known as 123 Agreements, are designed to prevent the development of weapons."
     },
     {
-      "title": "US regulators to weigh controversial peptides backed by RFK Jr",
-      "link": "https://www.aljazeera.com/news/2026/7/22/us-regulators-to-weigh-controversial-peptides-backed-by-rfk-jr?traffic_source=rss",
-      "pubDate": "Wed, 22 Jul 2026 20:39:14 +0000",
-      "source": "Al Jazeera",
-      "summary": "FDA has questioned the evidence as demand surges for the compounds promoted for sleep, muscle growth, and anti-ageing."
-    },
-    {
-      "title": "Ukraine’s new military chief pledges to escalate retaliation against Russia",
-      "link": "https://www.aljazeera.com/news/2026/7/22/ukraines-new-military-chief-pledges-to-escalate-retaliation-against-russia?traffic_source=rss",
-      "pubDate": "Wed, 22 Jul 2026 20:34:56 +0000",
-      "source": "Al Jazeera",
-      "summary": "Russian Foreign Minister Sergei Lavrov is due to meet US counterpart Marco Rubio, but progress towards peace unlikely."
-    },
-    {
-      "title": "Griffiths: Diplomacy requires US and Iran to accept they have ‘lost‘",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/7/22/griffiths-diplomacy-requires-us-and-iran-to-accept-they-have?traffic_source=rss",
-      "pubDate": "Wed, 22 Jul 2026 20:20:57 +0000",
-      "source": "Al Jazeera",
-      "summary": "Griffiths: Diplomacy requires US and Iran to accept they have ‘lost‘"
-    },
-    {
-      "title": "Trump threatens to target Iran's bridges and power plants if Hormuz attacks persist",
-      "link": "https://www.bbc.co.uk/news/articles/cdrv0p37k8jo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Wed, 22 Jul 2026 18:57:46 GMT",
-      "source": "BBC",
-      "summary": "Donald Trump says the US will respond any time Iranian forces shoot at a ship in the Strait of Hormuz."
-    },
-    {
-      "title": "Why Are Young People in India Protesting?",
-      "link": "https://www.nytimes.com/2026/07/22/world/asia/india-youth-protest-modi-cockroach-janta-party.html",
-      "pubDate": "Wed, 22 Jul 2026 18:13:17 +0000",
-      "source": "NYT World",
-      "summary": "A youth-led movement angry over the education system and a lack of jobs is posing a rare challenge to a government that has ruled for more than a decade with a firm hand."
-    },
-    {
       "title": "Tankers make sharp U-turns after Houthi shipping threat",
       "link": "https://www.bbc.co.uk/news/articles/cn0n127lpzgo?at_medium=RSS&at_campaign=rss",
       "pubDate": "Wed, 22 Jul 2026 14:42:49 GMT",
       "source": "BBC",
       "summary": "All of the ships were travelling to or from Saudi ports before changing course, ship-tracking data shows."
-    },
-    {
-      "title": "British woman jailed for blackmail after accusing banker of rape in Hong Kong",
-      "link": "https://www.bbc.co.uk/news/articles/cz97gdjgezno?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Wed, 22 Jul 2026 14:14:16 GMT",
-      "source": "BBC",
-      "summary": "Isabel Rose was convicted of trying to extort £100,000 from the UK banker and perverting the course of justice."
     },
     {
       "title": "William Lawrence Is Running in a Purple Michigan District — on His Pro-Palestine Credentials",
@@ -621,13 +622,6 @@
       "pubDate": "Tue, 21 Jul 2026 11:59:00 +0000",
       "source": "The Intercept",
       "summary": "House candidate Connie Chan is backed by Pelosi, Adam Schiff, and now TrackAIPAC, signaling the growing influence of a politics skeptical of Israel.\nThe post Nancy Pelosi’s Pick for Her SF House Seat Takes Anti-AIPAC Pledge appeared first on The Inte"
-    },
-    {
-      "title": "U.S. Official: Iran Attacks Injured “Far More” Troops Than Pentagon Admits",
-      "link": "https://theintercept.com/2026/07/20/united-states-iran-war-casualties-cover-up-pentagon/",
-      "pubDate": "Mon, 20 Jul 2026 20:03:20 +0000",
-      "source": "The Intercept",
-      "summary": "Iran’s strikes caused dozens of casualties and the first deaths in action since the ceasefire collapsed, a U.S. official said.\nThe post U.S. Official: Iran Attacks Injured “Far More” Troops Than Pentagon Admits appeared first on The Intercept."
     },
     {
       "title": "Identifying the Crypto Entrepreneur Linked to Popular Forum Trading in ‘Leaked’ Nudes of Women",
@@ -1022,64 +1016,64 @@
   ],
   "misinfo_toilet": [
     {
+      "headline": "Russia's businesses under strain from Ukraine's attacks on Wildberries",
+      "fragment": "An ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
+      "splice": "Russia's businesses under strain from Ukraine's attacks on Wildberries despite an ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
+      "seed": 20260726
+    },
+    {
+      "headline": "AI, China, ‘dark factories’ and the future of the US auto industry",
+      "fragment": "It is at work everywhere, functioning smoothly at times, at other times in fits and starts. It breathes, it heats, it eats. It shits and fucks.",
+      "splice": "AI, China, ‘dark factories’ and the future of the US auto industry because it is at work everywhere, functioning smoothly at times, at other times in fits and starts. It breathes, it heats, it eats. It shits and fucks.",
+      "seed": 20260727
+    },
+    {
+      "headline": "Between Graves and Uncertainty: The Management of the Dead After Venezuela’s Earthquake",
+      "fragment": "There is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
+      "splice": "Between Graves and Uncertainty: The Management of the Dead After Venezuela’s Earthquake in the void where there is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
+      "seed": 20260728
+    },
+    {
+      "headline": "Israeli Banks Threaten to Cut Off Palestinian Economy",
+      "fragment": "To dissimulate is to pretend not to have what one has. To simulate is to feign to have what one doesn't have. One implies a presence, the other an absence.",
+      "splice": "Israeli Banks Threaten to Cut Off Palestinian Economy in the void where to dissimulate is to pretend not to have what one has. To simulate is to feign to have what one doesn't have. One implies a presence, the other an absence.",
+      "seed": 20260729
+    },
+    {
+      "headline": "Why Are Young People in India Protesting?",
+      "fragment": "The simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
+      "splice": "Why Are Young People in India Protesting? therefore the simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
+      "seed": 20260730
+    },
+    {
+      "headline": "Nancy Pelosi’s Pick for Her SF House Seat Takes Anti-AIPAC Pledge",
+      "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "splice": "Nancy Pelosi’s Pick for Her SF House Seat Takes Anti-AIPAC Pledge the system notes that the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "seed": 20260731
+    },
+    {
+      "headline": "Satellite Imagery Shows Scale of Venezuela Earthquake Damage",
+      "fragment": "It is at work everywhere, functioning smoothly at times, at other times in fits and starts. It breathes, it heats, it eats. It shits and fucks.",
+      "splice": "Satellite Imagery Shows Scale of Venezuela Earthquake Damage underneath it is at work everywhere, functioning smoothly at times, at other times in fits and starts. It breathes, it heats, it eats. It shits and fucks.",
+      "seed": 20260732
+    },
+    {
       "headline": "Dubai Firm Cuts Deal for New Port to Bypass Strait of Hormuz",
-      "fragment": "Art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
-      "splice": "Dubai Firm Cuts Deal for New Port to Bypass Strait of Hormuz in the void where art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
-      "seed": 20260744
+      "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
+      "splice": "Dubai Firm Cuts Deal for New Port to Bypass Strait of Hormuz insofar as the breast is a machine that produces milk, and the mouth a machine coupled to it.",
+      "seed": 20260733
     },
     {
-      "headline": "India’s Rahul Gandhi speaks out after release",
-      "fragment": "This is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
-      "splice": "India’s Rahul Gandhi speaks out after release therefore this is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
-      "seed": 20260745
+      "headline": "GOP Rep. Called Israeli–U.S. Defense Tech Integration “Dangerous.” The House Passed It Anyway.",
+      "fragment": "Antagonism is not now located externally, in the face-off between class blocs, but internally, in the psychology of the worker.",
+      "splice": "GOP Rep. Called Israeli–U.S. Defense Tech Integration “Dangerous.” The House Passed It Anyway. while antagonism is not now located externally, in the face-off between class blocs, but internally, in the psychology of the worker.",
+      "seed": 20260734
     },
     {
-      "headline": "Griffiths: Diplomacy requires US and Iran to accept they have ‘lost‘",
-      "fragment": "Over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
-      "splice": "Griffiths: Diplomacy requires US and Iran to accept they have ‘lost‘ consequently over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
-      "seed": 20260746
-    },
-    {
-      "headline": "US and Saudi Arabia announce nuclear cooperation deal",
-      "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "splice": "US and Saudi Arabia announce nuclear cooperation deal because it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "seed": 20260747
-    },
-    {
-      "headline": "Ukraine’s new military chief pledges to escalate retaliation against Russia",
-      "fragment": "Underneath all reason lies delirium and drift.",
-      "splice": "Ukraine’s new military chief pledges to escalate retaliation against Russia which is to say underneath all reason lies delirium and drift.",
-      "seed": 20260748
-    },
-    {
-      "headline": "U.S. Official: Iran Attacks Injured “Far More” Troops Than Pentagon Admits",
-      "fragment": "This is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
-      "splice": "U.S. Official: Iran Attacks Injured “Far More” Troops Than Pentagon Admits the signal resolves into this is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
-      "seed": 20260749
-    },
-    {
-      "headline": "Trump threatens to target Iran's bridges and power plants if Hormuz attacks persist",
-      "fragment": "The technocrat is the natural friend of the dictator—computers and dictatorship.",
-      "splice": "Trump threatens to target Iran's bridges and power plants if Hormuz attacks persist insofar as the technocrat is the natural friend of the dictator—computers and dictatorship.",
-      "seed": 20260750
-    },
-    {
-      "headline": "British woman jailed for blackmail after accusing banker of rape in Hong Kong",
-      "fragment": "Traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "splice": "British woman jailed for blackmail after accusing banker of rape in Hong Kong ...as traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "seed": 20260751
-    },
-    {
-      "headline": "US regulators to weigh controversial peptides backed by RFK Jr",
-      "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "splice": "US regulators to weigh controversial peptides backed by RFK Jr the signal resolves into it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "seed": 20260752
-    },
-    {
-      "headline": "How the Trump Administration’s Nuclear Deal With Saudi Arabia May Work",
-      "fragment": "We live in a world where there is more and more information, and less and less meaning.",
-      "splice": "How the Trump Administration’s Nuclear Deal With Saudi Arabia May Work meanwhile we live in a world where there is more and more information, and less and less meaning.",
-      "seed": 20260753
+      "headline": "US signs landmark nuclear deal with Saudi Arabia",
+      "fragment": "It is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
+      "splice": "US signs landmark nuclear deal with Saudi Arabia the system notes that it is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
+      "seed": 20260735
     }
   ]
 }
