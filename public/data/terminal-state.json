@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T03:13:26.882Z",
+  "generated_at": "2026-07-23T08:34:35.488Z",
   "threat_intel": {
     "cisa_kev": [
       {
@@ -232,29 +232,104 @@
     ],
     "urlhaus": [
       {
-        "id": "3890381",
-        "date_added": "2026-07-23 02:57:17",
-        "url": "http://114.227.50.186:47510/bin.sh",
+        "id": "3890736",
+        "date_added": "2026-07-23 08:23:26",
+        "url": "http://42.235.95.190:60510/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "mirai"
-        ]
-      },
-      {
-        "id": "3890382",
-        "date_added": "2026-07-23 02:57:17",
-        "url": "http://115.63.55.58:56860/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
           "Mozi"
         ]
       },
       {
-        "id": "3890380",
-        "date_added": "2026-07-23 02:56:20",
-        "url": "http://123.148.227.127:43983/i",
+        "id": "3890735",
+        "date_added": "2026-07-23 08:19:28",
+        "url": "http://113.230.198.209:40757/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3890731",
+        "date_added": "2026-07-23 08:15:26",
+        "url": "http://129.121.114.124/CcDE",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3890732",
+        "date_added": "2026-07-23 08:15:26",
+        "url": "http://129.121.114.124/RGno",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "mirai",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3890733",
+        "date_added": "2026-07-23 08:15:26",
+        "url": "http://129.121.114.124/GD8",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3890734",
+        "date_added": "2026-07-23 08:15:26",
+        "url": "http://129.121.114.124/QRV",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3890730",
+        "date_added": "2026-07-23 08:15:25",
+        "url": "http://129.121.114.124/iZ5O",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3890729",
+        "date_added": "2026-07-23 08:14:34",
+        "url": "http://58.242.23.224:33747/bin.sh",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3890728",
+        "date_added": "2026-07-23 08:14:24",
+        "url": "http://36.88.136.194:45815/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -266,9 +341,9 @@
         ]
       },
       {
-        "id": "3890379",
-        "date_added": "2026-07-23 02:54:28",
-        "url": "http://115.51.108.250:34740/i",
+        "id": "3890727",
+        "date_added": "2026-07-23 08:12:27",
+        "url": "http://112.248.60.201:41266/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -279,198 +354,99 @@
         ]
       },
       {
-        "id": "3890376",
-        "date_added": "2026-07-23 02:50:30",
-        "url": "http://45.74.3.37:5001/armv7l",
-        "url_status": "online",
+        "id": "3890718",
+        "date_added": "2026-07-23 08:08:29",
+        "url": "https://194.116.236.163/38/goodthinkgsforbetterwayscoming.hta/",
+        "url_status": "offline",
         "threat": "malware_download",
         "tags": [
-          "elf",
-          "mirai",
-          "opendir",
-          "ua-wget"
+          "None"
         ]
       },
       {
-        "id": "3890377",
-        "date_added": "2026-07-23 02:50:30",
-        "url": "http://45.74.3.37:5001/arm",
-        "url_status": "online",
+        "id": "3890719",
+        "date_added": "2026-07-23 08:08:29",
+        "url": "https://194.116.236.163/aHR0cDovLzE5NC4xMTYuMjM2LjE2My8zOC9nb29kdGhpbmtnc2ZvcmJldHRlcndheXNjb21pbmcuaHRh.php/",
+        "url_status": "offline",
         "threat": "malware_download",
         "tags": [
-          "elf",
-          "mirai",
-          "opendir",
-          "ua-wget"
+          "None"
         ]
       },
       {
-        "id": "3890378",
-        "date_added": "2026-07-23 02:50:30",
-        "url": "http://45.74.3.37:5001/android_arm64",
-        "url_status": "online",
+        "id": "3890720",
+        "date_added": "2026-07-23 08:08:29",
+        "url": "http://194.116.236.163/aHR0cDovLzE5NC4xMTYuMjM2LjE2My8zOC9nb29kdGhpbmtnc2ZvcmJldHRlcndheXNjb21pbmcuaHRh.php",
+        "url_status": "offline",
         "threat": "malware_download",
         "tags": [
-          "elf",
-          "mirai",
-          "opendir",
-          "ua-wget"
+          "None"
         ]
       },
       {
-        "id": "3890369",
-        "date_added": "2026-07-23 02:50:29",
-        "url": "http://45.74.3.37:5001/arm64",
-        "url_status": "online",
+        "id": "3890721",
+        "date_added": "2026-07-23 08:08:29",
+        "url": "http://194.116.236.163/38/goodthinkgsforbetterwayscoming.hta/",
+        "url_status": "offline",
         "threat": "malware_download",
         "tags": [
-          "elf",
-          "mirai",
-          "opendir",
-          "ua-wget"
+          "None"
         ]
       },
       {
-        "id": "3890370",
-        "date_added": "2026-07-23 02:50:29",
-        "url": "http://45.74.3.37:5001/mips",
-        "url_status": "online",
+        "id": "3890722",
+        "date_added": "2026-07-23 08:08:29",
+        "url": "http://194.116.236.163/img/img_184307.png/",
+        "url_status": "offline",
         "threat": "malware_download",
         "tags": [
-          "elf",
-          "mirai",
-          "opendir",
-          "ua-wget"
+          "None"
         ]
       },
       {
-        "id": "3890371",
-        "date_added": "2026-07-23 02:50:29",
-        "url": "http://45.74.3.37:5001/arm6",
-        "url_status": "online",
+        "id": "3890723",
+        "date_added": "2026-07-23 08:08:29",
+        "url": "https://194.116.236.163/37/newkingisbackgorbesttreatmentsneedforallthismethodsforfind.hta/",
+        "url_status": "offline",
         "threat": "malware_download",
         "tags": [
-          "elf",
-          "mirai",
-          "opendir",
-          "ua-wget"
+          "None"
         ]
       },
       {
-        "id": "3890372",
-        "date_added": "2026-07-23 02:50:29",
-        "url": "http://45.74.3.37:5001/arm5",
-        "url_status": "online",
+        "id": "3890724",
+        "date_added": "2026-07-23 08:08:29",
+        "url": "http://194.116.236.163/35/img_180337.png/",
+        "url_status": "offline",
         "threat": "malware_download",
         "tags": [
-          "elf",
-          "mirai",
-          "opendir",
-          "ua-wget"
+          "None"
         ]
       },
       {
-        "id": "3890373",
-        "date_added": "2026-07-23 02:50:29",
-        "url": "http://45.74.3.37:5001/mipsle",
-        "url_status": "online",
+        "id": "3890725",
+        "date_added": "2026-07-23 08:08:29",
+        "url": "http://194.116.236.163/35/weneedbestthingsforeverywheretounderstand.hta/",
+        "url_status": "offline",
         "threat": "malware_download",
         "tags": [
-          "elf",
-          "mirai",
-          "opendir",
-          "ua-wget"
+          "None"
         ]
       },
       {
-        "id": "3890374",
-        "date_added": "2026-07-23 02:50:29",
-        "url": "http://45.74.3.37:5001/i386",
-        "url_status": "online",
+        "id": "3890726",
+        "date_added": "2026-07-23 08:08:29",
+        "url": "http://194.116.236.163/http:/194.116.236.163/35/img_180337.png.php",
+        "url_status": "offline",
         "threat": "malware_download",
         "tags": [
-          "elf",
-          "mirai",
-          "opendir",
-          "ua-wget"
+          "None"
         ]
       },
       {
-        "id": "3890375",
-        "date_added": "2026-07-23 02:50:29",
-        "url": "http://45.74.3.37:5001/x86",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "elf",
-          "mirai",
-          "opendir",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3890368",
-        "date_added": "2026-07-23 02:50:28",
-        "url": "http://45.74.3.37:5001/amd64",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "elf",
-          "mirai",
-          "opendir",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3890367",
-        "date_added": "2026-07-23 02:50:16",
-        "url": "http://45.74.3.37:5001/bot.exe",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "exe",
-          "opendir"
-        ]
-      },
-      {
-        "id": "3890366",
-        "date_added": "2026-07-23 02:49:32",
-        "url": "http://45.74.3.37:5001/bins.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "opendir",
-          "sh",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3890365",
-        "date_added": "2026-07-23 02:46:15",
-        "url": "http://219.155.232.225:47229/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3890364",
-        "date_added": "2026-07-23 02:41:22",
-        "url": "http://219.155.202.252:43444/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3890363",
-        "date_added": "2026-07-23 02:41:19",
-        "url": "http://222.137.24.130:48867/bin.sh",
+        "id": "3890717",
+        "date_added": "2026-07-23 08:07:31",
+        "url": "http://42.52.207.199:34276/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -484,39 +460,67 @@
   },
   "world_monitor": [
     {
-      "title": "Why Abderrahim Fakir’s death reignited Italy’s police accountability debate",
-      "link": "https://www.aljazeera.com/news/2026/7/23/why-abderrahim-fakirs-death-reignited-italys-police-accountability-debate?traffic_source=rss",
-      "pubDate": "Thu, 23 Jul 2026 01:44:30 +0000",
+      "title": "Indian activist Wangchuk sets conditions to end hunger strike",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/7/23/indian-activist-wangchuk-sets-conditions-to-end-hunger-strike?traffic_source=rss",
+      "pubDate": "Thu, 23 Jul 2026 08:19:22 +0000",
       "source": "Al Jazeera",
-      "summary": "A Moroccan-born man’s death in Bologna has prompted anger and renewed scrutiny of Italy’s policing and legal reforms."
+      "summary": "Indian activist Wangchuk sets conditions to end hunger strike"
     },
     {
-      "title": "Spain and France battle raging wildfires, face high risk of more",
-      "link": "https://www.aljazeera.com/news/2026/7/23/spain-and-france-battle-raging-wildfires-face-high-risk-of-more?traffic_source=rss",
-      "pubDate": "Thu, 23 Jul 2026 01:23:57 +0000",
+      "title": "Photos: Gaza’s shelter crisis",
+      "link": "https://www.aljazeera.com/gallery/2026/7/23/photos-gazas-shelter-crisis?traffic_source=rss",
+      "pubDate": "Thu, 23 Jul 2026 08:12:46 +0000",
       "source": "Al Jazeera",
-      "summary": "A wildfire in Spain's Guadalajara region has burned 32,000 hectares, in one of the country's largest recorded blazes."
+      "summary": "Gaza faces a deepening housing crisis as more than 92 percent of homes have been damaged or destroyed by Israel."
     },
     {
-      "title": "US tariffs ‘strengthen’ Lula against Bolsonaro’s son in upcoming elections",
-      "link": "https://www.aljazeera.com/news/2026/7/23/us-tariffs-strengthen-lula-against-bolsonaros-son-in-upcoming-elections?traffic_source=rss",
-      "pubDate": "Thu, 23 Jul 2026 01:20:37 +0000",
+      "title": "Travellers panic as US attacks Iran-Iraq border crossing",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/7/23/travellers-panic-as-us-attacks-iran-iraq-border-crossing?traffic_source=rss",
+      "pubDate": "Thu, 23 Jul 2026 07:56:55 +0000",
       "source": "Al Jazeera",
-      "summary": "With Lula polling ahead and tariffs squeezing Brazil's economy, the Bolsonaro family's Washington strategy is faltering."
+      "summary": "Travellers panic as US attacks Iran-Iraq border crossing"
     },
     {
-      "title": "US House passes $1.15 trillion military bill expanding Israel cooperation",
-      "link": "https://www.aljazeera.com/news/2026/7/23/us-house-passes-1-15-trillion-military-bill-expanding-israel-cooperation?traffic_source=rss",
-      "pubDate": "Thu, 23 Jul 2026 00:29:52 +0000",
+      "title": "India’s Modi promises fast-track courts for exam fraud fuelling protests",
+      "link": "https://www.aljazeera.com/news/2026/7/23/indias-modi-promises-fast-track-courts-for-exam-fraud-fuelling-protests?traffic_source=rss",
+      "pubDate": "Thu, 23 Jul 2026 07:41:25 +0000",
       "source": "Al Jazeera",
-      "summary": "Bill to fund war on Iran and a handful of Trump priorities passes largely along party lines, faces Senate uncertainty."
+      "summary": "Cockroach Janta Party protesters are occupying streets in New Delhi, demanding Education Minister Pradhan resign."
     },
     {
-      "title": "AI, China, ‘dark factories’ and the future of the US auto industry",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/7/23/ai-china-dark-factories-and-the-future-of-the-us-auto-industry?traffic_source=rss",
-      "pubDate": "Thu, 23 Jul 2026 00:25:49 +0000",
+      "title": "U.S. Military Presence in Jordan Makes It Iranian Target",
+      "link": "https://www.nytimes.com/2026/07/23/world/middleeast/jordan-iran-us-forces.html",
+      "pubDate": "Thu, 23 Jul 2026 07:24:29 +0000",
+      "source": "NYT World",
+      "summary": "Relying heavily on U.S. aid and protection, Jordan is unlikely to restrict the American military presence there, despite escalating Iranian airstrikes."
+    },
+    {
+      "title": "Top US and Russian diplomats discuss Ukraine war in Manila",
+      "link": "https://www.aljazeera.com/news/2026/7/23/top-us-and-russian-diplomats-discuss-ukraine-war-in-manila?traffic_source=rss",
+      "pubDate": "Thu, 23 Jul 2026 07:18:21 +0000",
       "source": "Al Jazeera",
-      "summary": "Economist Mary Lovely dismisses the claims that getting automakers to produce more cars in America proves tariffs work."
+      "summary": "Russian Foreign Minister Lavrov 'reaffirmed ​readiness' for political ​and diplomatic settlement to Russia-Ukraine war."
+    },
+    {
+      "title": "'I am still alive': Indian activist on hunger strike for 26 days loses 11kg",
+      "link": "https://www.bbc.co.uk/news/articles/ce34n7kqr5ko?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Thu, 23 Jul 2026 06:37:23 GMT",
+      "source": "BBC",
+      "summary": "Sonam Wangchuk has been the main draw at the Cockroach Janta Party (CJP) protest in Delhi."
+    },
+    {
+      "title": "Japan’s Leader Invokes Her Hero, Shinzo Abe, to Drive Nationalist Agenda",
+      "link": "https://www.nytimes.com/2026/07/23/world/asia/japan-sanae-takaichi-shinzo-abe.html",
+      "pubDate": "Thu, 23 Jul 2026 04:01:09 +0000",
+      "source": "NYT World",
+      "summary": "Prime Minister Sanae Takaichi is leveraging her ties to Mr. Abe, the slain Japanese leader, as she pushes to reshape defense and the economy."
+    },
+    {
+      "title": "Houthis claim attack on oil tankers as US launches more strikes on Iran ",
+      "link": "https://www.bbc.co.uk/news/articles/cpw9xzx9r4ko?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Thu, 23 Jul 2026 03:48:27 GMT",
+      "source": "BBC",
+      "summary": "The Houthi attacks would be the first in the Red Sea since the Iran-backed group announced a \"maritime embargo\" against Saudi Arabia."
     },
     {
       "title": "US signs landmark nuclear deal with Saudi Arabia",
@@ -526,18 +530,11 @@
       "summary": "The US Department of Energy says the \"peaceful\" co-operation agreement will give US firms \"great access\" to the Saudi nuclear energy programme."
     },
     {
-      "title": "Russia's businesses under strain from Ukraine's attacks on Wildberries",
-      "link": "https://www.bbc.co.uk/news/articles/cvg9n2y61w6o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Wed, 22 Jul 2026 23:06:08 GMT",
+      "title": "Canada's 'powerful' dairy sector is in Trump's trade crosshairs",
+      "link": "https://www.bbc.co.uk/news/articles/ce8kvm84lxmo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Thu, 23 Jul 2026 00:15:12 GMT",
       "source": "BBC",
-      "summary": "Ukrainian drones have hit several retail warehouses belonging to Russia's biggest online retailer Wildberries in a matter of days."
-    },
-    {
-      "title": "Trump threatens to target Iran's bridges and power plants if Hormuz attacks persist",
-      "link": "https://www.bbc.co.uk/news/articles/cdrv0p37k8jo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Wed, 22 Jul 2026 22:17:54 GMT",
-      "source": "BBC",
-      "summary": "Donald Trump says the US will respond any time Iranian forces shoot at a ship in the Strait of Hormuz."
+      "summary": "Canada's dairy supply management system is in the spotlight after the US president singled it out as one of three main irritants used to justify new tariffs."
     },
     {
       "title": "Why Are Young People in India Protesting?",
@@ -561,32 +558,11 @@
       "summary": "Two Israeli financial firms have long served as partners to Palestinian banks, handling transactions that make possible the West Bank’s imports and exports."
     },
     {
-      "title": "Louvre Gallery Reopens After Brazen Jewel Heist",
-      "link": "https://www.nytimes.com/2026/07/22/france-louvre-reopening-jewels.html",
-      "pubDate": "Wed, 22 Jul 2026 21:18:11 +0000",
-      "source": "NYT World",
-      "summary": "Thieves stole crown jewels from the Apollo Gallery at the Louvre Museum in October, forcing its closure. Tourists finally returned on Wednesday."
-    },
-    {
-      "title": "Fire kills 10 members of same family in Peru, police say",
-      "link": "https://www.bbc.co.uk/news/articles/cm2g11ng7j2o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Wed, 22 Jul 2026 20:56:26 GMT",
-      "source": "BBC",
-      "summary": "Authorities are investigating the cause of the blaze in Lima as local media report\n it may have been arson."
-    },
-    {
       "title": "Dubai Firm Cuts Deal for New Port to Bypass Strait of Hormuz",
       "link": "https://www.nytimes.com/2026/07/22/world/dubai-cuts-deal-for-new-port-to-bypass-strait-of-hormuz.html",
       "pubDate": "Wed, 22 Jul 2026 20:50:44 +0000",
       "source": "NYT World",
       "summary": "A Dubai-based logistics giant unveiled a deal on Wednesday to develop shipping terminals on the United Arab Emirates’ east coast."
-    },
-    {
-      "title": "How the Trump Administration’s Nuclear Deal With Saudi Arabia May Work",
-      "link": "https://www.nytimes.com/2026/07/22/world/middleeast/us-saudi-arabia-nuclear-deal-123-agreement.html",
-      "pubDate": "Wed, 22 Jul 2026 20:43:49 +0000",
-      "source": "NYT World",
-      "summary": "The Trump administration  announced an agreement with Saudi Arabia on a civilian nuclear program. Such deals, known as 123 Agreements, are designed to prevent the development of weapons."
     },
     {
       "title": "Tankers make sharp U-turns after Houthi shipping threat",
@@ -726,6 +702,30 @@
   ],
   "syndicate_journal": [
     {
+      "title": "FineServe: A Fine-Grained Dataset and Characterization of Global LLM Serving Workloads",
+      "link": "https://arxiv.org/abs/2607.19349",
+      "summary": "arXiv:2607.19349v1 Announce Type: new \nAbstract: Large language models (LLMs) are increasingly deployed as always-on online services, making efficient LLM serving a critical systems challenge. Achieving low latency and high throughput under volatile demand requires deep understanding of real-world s",
+      "pubDate": "Thu, 23 Jul 2026 00:00:00 -0400",
+      "domain": "science",
+      "source": "arXiv: cs.AI"
+    },
+    {
+      "title": "Hybrid LSTM-Graph Neural Framework for Robust Financial Fraud Detection and Adversarial Resilience",
+      "link": "https://arxiv.org/abs/2607.19350",
+      "summary": "arXiv:2607.19350v1 Announce Type: new \nAbstract: Financial institutions face significant challenges in detecting sophisticated money laundering patterns, such as smurfing and layering, due to extreme data imbalance (0.13% fraud rate) and evolving adversarial evasion tactics. This paper proposes Frau",
+      "pubDate": "Thu, 23 Jul 2026 00:00:00 -0400",
+      "domain": "science",
+      "source": "arXiv: cs.AI"
+    },
+    {
+      "title": "OpenEvoShield: Dual Non-Stationary Continual Defense for Open-World Multi-Agent System Attacks",
+      "link": "https://arxiv.org/abs/2607.19351",
+      "summary": "arXiv:2607.19351v1 Announce Type: new \nAbstract: LLM-based multi-agent systems (LLM-MAS) are increasingly deployed in safety-critical applications, where adversaries inject malicious instructions through inter-agent communication to propagate harmful behaviors. Unlike static threats, these attacks a",
+      "pubDate": "Thu, 23 Jul 2026 00:00:00 -0400",
+      "domain": "science",
+      "source": "arXiv: cs.AI"
+    },
+    {
       "title": "Your Dementia Risk Is Higher If Your Spouse Has It—But It’s More Than Shared Lifestyle",
       "link": "https://nautil.us/your-dementia-risk-is-higher-if-your-spouse-has-it-but-its-more-than-shared-lifestyle-1282911/",
       "summary": "A new study looked at almost one million married couples and found dementia clustered among couples. Shared lifestyle doesn’t explain everything.\nThe post Your Dementia Risk Is Higher If Your Spouse Has It—But It’s More Than Shared Lifestyle appeared first on Nautilus.",
@@ -788,30 +788,6 @@
       "pubDate": "Wed, 22 Jul 2026 10:01:00 GMT",
       "domain": "philosophy",
       "source": "Aeon"
-    },
-    {
-      "title": "SysAdmin: Measuring Instrumental Power-Seeking in Frontier AI",
-      "link": "https://arxiv.org/abs/2607.18239",
-      "summary": "arXiv:2607.18239v1 Announce Type: new \nAbstract: Power-seeking defined as behaviors where AI systems acquire resources, evade oversight, or resist termination beyond task requirements is identified as a key driver of Loss of Control (LoC) risk. In this work, we introduce SysAdmin, a benchmark that p",
-      "pubDate": "Wed, 22 Jul 2026 00:00:00 -0400",
-      "domain": "science",
-      "source": "arXiv: cs.AI"
-    },
-    {
-      "title": "Calibrated Selective Fact-Checking via Evidence Chain Evaluation",
-      "link": "https://arxiv.org/abs/2607.18240",
-      "summary": "arXiv:2607.18240v1 Announce Type: new \nAbstract: Large language models (LLMs) can achieve strong fact-checking accuracy, yet forced binary decisions conceal a critical reliability problem: systems may issue confident verdicts even when supporting evidence is weak, sparse, or internally inconsistent.",
-      "pubDate": "Wed, 22 Jul 2026 00:00:00 -0400",
-      "domain": "science",
-      "source": "arXiv: cs.AI"
-    },
-    {
-      "title": "BatchDAG: LLM-Planned Execution Graphs for Scalable Ad-Hoc Analysis Over Enterprise Data",
-      "link": "https://arxiv.org/abs/2607.18241",
-      "summary": "arXiv:2607.18241v1 Announce Type: new \nAbstract: Large language models (LLMs) excel at analyzing individual documents but break down on exhaustive, cross-entity analytical questions over enterprise-scale datasets due to context overflow, loss of per-entity attribution, and linear latency from sequen",
-      "pubDate": "Wed, 22 Jul 2026 00:00:00 -0400",
-      "domain": "science",
-      "source": "arXiv: cs.AI"
     },
     {
       "title": "Reading the Maya with William S. Burroughs",
@@ -990,25 +966,25 @@
       "source": "ROAR Magazine"
     },
     {
-      "title": "From support and interaction to continuance: affective pathways and the bright side of cognitive load in English-medium instruction",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1806932",
-      "summary": "English-medium instruction (EMI) is increasingly adopted in higher education, yet learners differ in their willingness to persist in EMI courses. While prior research has highlighted the cognitive and emotional demands of EMI learning, the relationships among these demands, learners’ affective evalu",
+      "title": "The impact of physical exercise on the social adaptability of college students: the chain mediating role of peer relationships and psychological resilience",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1885215",
+      "summary": "ObjectiveThis study aims to investigate the impact of physical exercise on college students’ social adaptation abilities and to analyze the chained mediating effects of peer relationships and psychological resilience, thereby providing a theoretical foundation and practical guidance for college stud",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "Core self-evaluations, psychological capital, social comparison, and socioeconomic status: an analysis of Generation Z’s satisfaction in the post-pandemic era",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1665300",
-      "summary": "IntroductionIn the post-pandemic era, the world has witnessed profound transformations with economic, social, and lifestyle changes. In such a special period, Generation Z is also undergoing unique trials. While confronting multifaceted and complex challenges, they also have positive adaptations, in",
+      "title": "Beyond the dichotomy between controlled and naturalistic paradigms: modeling psychological constructs in cognitive neuroscience",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1881045",
+      "summary": "Cognitive neuroscience aims to link psychological constructs to brain activity, but this goal depends critically on how such constructs are operationalized. Conventional controlled paradigms define constructs through task contrasts or parametric manipulations, providing interpretability by restricti",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "Leadership as decision architecture: an organizational framework for understanding and eliminating physical restraint in human services",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1889369",
-      "summary": "Physical restraint persists at high rates in human services settings supporting individuals with intellectual and developmental disabilities (IDD), even within organizations that have formally adopted positive behavior support (PBS) frameworks and invested substantially in staff training. This persp",
+      "title": "Professional knowledge complements general technology acceptance in mathematics teachers’ critical behavioral intention toward AI",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1911467",
+      "summary": "IntroductionArtificial Intelligence (AI) is transforming education globally. In mathematics education, AI is being rapidly integrated, making teachers’ critical behavioral intention (CBI) toward AI increasingly essential. Mathematics teachers’ CBI refers to their ability to evaluate AI-generated out",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
@@ -1016,64 +992,64 @@
   ],
   "misinfo_toilet": [
     {
-      "headline": "Russia's businesses under strain from Ukraine's attacks on Wildberries",
+      "headline": "GOP Rep. Called Israeli–U.S. Defense Tech Integration “Dangerous.” The House Passed It Anyway.",
       "fragment": "An ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
-      "splice": "Russia's businesses under strain from Ukraine's attacks on Wildberries despite an ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
-      "seed": 20260726
-    },
-    {
-      "headline": "AI, China, ‘dark factories’ and the future of the US auto industry",
-      "fragment": "It is at work everywhere, functioning smoothly at times, at other times in fits and starts. It breathes, it heats, it eats. It shits and fucks.",
-      "splice": "AI, China, ‘dark factories’ and the future of the US auto industry because it is at work everywhere, functioning smoothly at times, at other times in fits and starts. It breathes, it heats, it eats. It shits and fucks.",
-      "seed": 20260727
-    },
-    {
-      "headline": "Between Graves and Uncertainty: The Management of the Dead After Venezuela’s Earthquake",
-      "fragment": "There is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
-      "splice": "Between Graves and Uncertainty: The Management of the Dead After Venezuela’s Earthquake in the void where there is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
-      "seed": 20260728
-    },
-    {
-      "headline": "Israeli Banks Threaten to Cut Off Palestinian Economy",
-      "fragment": "To dissimulate is to pretend not to have what one has. To simulate is to feign to have what one doesn't have. One implies a presence, the other an absence.",
-      "splice": "Israeli Banks Threaten to Cut Off Palestinian Economy in the void where to dissimulate is to pretend not to have what one has. To simulate is to feign to have what one doesn't have. One implies a presence, the other an absence.",
-      "seed": 20260729
-    },
-    {
-      "headline": "Why Are Young People in India Protesting?",
-      "fragment": "The simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
-      "splice": "Why Are Young People in India Protesting? therefore the simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
-      "seed": 20260730
-    },
-    {
-      "headline": "Nancy Pelosi’s Pick for Her SF House Seat Takes Anti-AIPAC Pledge",
-      "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
-      "splice": "Nancy Pelosi’s Pick for Her SF House Seat Takes Anti-AIPAC Pledge the system notes that the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "splice": "GOP Rep. Called Israeli–U.S. Defense Tech Integration “Dangerous.” The House Passed It Anyway. despite an ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
       "seed": 20260731
+    },
+    {
+      "headline": "Japan’s Leader Invokes Her Hero, Shinzo Abe, to Drive Nationalist Agenda",
+      "fragment": "It is at work everywhere, functioning smoothly at times, at other times in fits and starts. It breathes, it heats, it eats. It shits and fucks.",
+      "splice": "Japan’s Leader Invokes Her Hero, Shinzo Abe, to Drive Nationalist Agenda because it is at work everywhere, functioning smoothly at times, at other times in fits and starts. It breathes, it heats, it eats. It shits and fucks.",
+      "seed": 20260732
+    },
+    {
+      "headline": "Tankers make sharp U-turns after Houthi shipping threat",
+      "fragment": "There is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
+      "splice": "Tankers make sharp U-turns after Houthi shipping threat in the void where there is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
+      "seed": 20260733
+    },
+    {
+      "headline": "Dubai Firm Cuts Deal for New Port to Bypass Strait of Hormuz",
+      "fragment": "To dissimulate is to pretend not to have what one has. To simulate is to feign to have what one doesn't have. One implies a presence, the other an absence.",
+      "splice": "Dubai Firm Cuts Deal for New Port to Bypass Strait of Hormuz in the void where to dissimulate is to pretend not to have what one has. To simulate is to feign to have what one doesn't have. One implies a presence, the other an absence.",
+      "seed": 20260734
+    },
+    {
+      "headline": "'I am still alive': Indian activist on hunger strike for 26 days loses 11kg",
+      "fragment": "The simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
+      "splice": "'I am still alive': Indian activist on hunger strike for 26 days loses 11kg therefore the simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
+      "seed": 20260735
+    },
+    {
+      "headline": "US signs landmark nuclear deal with Saudi Arabia",
+      "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "splice": "US signs landmark nuclear deal with Saudi Arabia the system notes that the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "seed": 20260736
     },
     {
       "headline": "Satellite Imagery Shows Scale of Venezuela Earthquake Damage",
       "fragment": "It is at work everywhere, functioning smoothly at times, at other times in fits and starts. It breathes, it heats, it eats. It shits and fucks.",
       "splice": "Satellite Imagery Shows Scale of Venezuela Earthquake Damage underneath it is at work everywhere, functioning smoothly at times, at other times in fits and starts. It breathes, it heats, it eats. It shits and fucks.",
-      "seed": 20260732
+      "seed": 20260737
     },
     {
-      "headline": "Dubai Firm Cuts Deal for New Port to Bypass Strait of Hormuz",
+      "headline": "Nancy Pelosi’s Pick for Her SF House Seat Takes Anti-AIPAC Pledge",
       "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "splice": "Dubai Firm Cuts Deal for New Port to Bypass Strait of Hormuz insofar as the breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "seed": 20260733
+      "splice": "Nancy Pelosi’s Pick for Her SF House Seat Takes Anti-AIPAC Pledge insofar as the breast is a machine that produces milk, and the mouth a machine coupled to it.",
+      "seed": 20260738
     },
     {
-      "headline": "GOP Rep. Called Israeli–U.S. Defense Tech Integration “Dangerous.” The House Passed It Anyway.",
+      "headline": "Canada's 'powerful' dairy sector is in Trump's trade crosshairs",
       "fragment": "Antagonism is not now located externally, in the face-off between class blocs, but internally, in the psychology of the worker.",
-      "splice": "GOP Rep. Called Israeli–U.S. Defense Tech Integration “Dangerous.” The House Passed It Anyway. while antagonism is not now located externally, in the face-off between class blocs, but internally, in the psychology of the worker.",
-      "seed": 20260734
+      "splice": "Canada's 'powerful' dairy sector is in Trump's trade crosshairs while antagonism is not now located externally, in the face-off between class blocs, but internally, in the psychology of the worker.",
+      "seed": 20260739
     },
     {
-      "headline": "US signs landmark nuclear deal with Saudi Arabia",
+      "headline": "Top US and Russian diplomats discuss Ukraine war in Manila",
       "fragment": "It is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
-      "splice": "US signs landmark nuclear deal with Saudi Arabia the system notes that it is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
-      "seed": 20260735
+      "splice": "Top US and Russian diplomats discuss Ukraine war in Manila the system notes that it is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
+      "seed": 20260740
     }
   ]
 }
