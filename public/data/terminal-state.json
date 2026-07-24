@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T11:04:58.812Z",
+  "generated_at": "2026-07-24T19:28:18.458Z",
   "threat_intel": {
     "cisa_kev": [
       {
@@ -232,9 +232,44 @@
     ],
     "urlhaus": [
       {
-        "id": "3891168",
-        "date_added": "2026-07-24 10:56:17",
-        "url": "http://182.119.250.213:52704/i",
+        "id": "3891309",
+        "date_added": "2026-07-24 19:19:39",
+        "url": "http://129.121.110.105/flB",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "arm",
+          "elf",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3891308",
+        "date_added": "2026-07-24 19:19:37",
+        "url": "http://129.121.110.105/SbKs",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "mips",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3891307",
+        "date_added": "2026-07-24 19:16:19",
+        "url": "http://62.60.226.140/files/7559850987/hcXbK7A.exe",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "d52f85",
+          "dropped-by-amadey"
+        ]
+      },
+      {
+        "id": "3891306",
+        "date_added": "2026-07-24 19:13:37",
+        "url": "http://42.232.180.224:37072/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -245,32 +280,9 @@
         ]
       },
       {
-        "id": "3891167",
-        "date_added": "2026-07-24 10:52:07",
-        "url": "http://119.187.246.164:58458/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3891166",
-        "date_added": "2026-07-24 10:42:21",
-        "url": "http://78.73.69.23:42070/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3891165",
-        "date_added": "2026-07-24 10:39:19",
-        "url": "http://113.225.34.170:33833/bin.sh",
+        "id": "3891304",
+        "date_added": "2026-07-24 19:09:23",
+        "url": "http://171.83.59.154:46798/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -282,9 +294,9 @@
         ]
       },
       {
-        "id": "3891164",
-        "date_added": "2026-07-24 10:36:27",
-        "url": "http://120.43.15.30:58079/bin.sh",
+        "id": "3891305",
+        "date_added": "2026-07-24 19:09:23",
+        "url": "http://105.186.187.17:52313/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -296,81 +308,9 @@
         ]
       },
       {
-        "id": "3891163",
-        "date_added": "2026-07-24 10:35:22",
-        "url": "http://61.53.148.84:50258/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3891162",
-        "date_added": "2026-07-24 10:33:19",
-        "url": "http://182.119.250.213:52704/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3891161",
-        "date_added": "2026-07-24 10:32:20",
-        "url": "http://39.88.4.102:46092/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3891160",
-        "date_added": "2026-07-24 10:31:07",
-        "url": "http://182.126.194.44:33480/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "mirai"
-        ]
-      },
-      {
-        "id": "3891159",
-        "date_added": "2026-07-24 10:22:09",
-        "url": "http://119.187.246.164:58458/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3891157",
-        "date_added": "2026-07-24 10:18:08",
-        "url": "http://110.37.12.8:57186/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3891158",
-        "date_added": "2026-07-24 10:18:08",
-        "url": "http://125.40.44.193:33777/i",
+        "id": "3891303",
+        "date_added": "2026-07-24 19:07:26",
+        "url": "http://171.83.59.154:46798/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -382,9 +322,9 @@
         ]
       },
       {
-        "id": "3891156",
-        "date_added": "2026-07-24 10:02:18",
-        "url": "http://42.235.49.63:40981/i",
+        "id": "3891302",
+        "date_added": "2026-07-24 19:04:24",
+        "url": "http://42.239.226.213:55619/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -395,9 +335,122 @@
         ]
       },
       {
-        "id": "3891155",
-        "date_added": "2026-07-24 09:51:19",
-        "url": "http://125.40.44.193:33777/bin.sh",
+        "id": "3891300",
+        "date_added": "2026-07-24 18:55:20",
+        "url": "http://129.121.110.105/yIB",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "arm",
+          "elf",
+          "mirai",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3891301",
+        "date_added": "2026-07-24 18:55:20",
+        "url": "http://129.121.110.105/WGGU",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "arm",
+          "elf",
+          "mirai",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3891299",
+        "date_added": "2026-07-24 18:53:29",
+        "url": "http://129.121.110.105/8oZ",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "mips",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3891298",
+        "date_added": "2026-07-24 18:53:27",
+        "url": "http://110.36.28.230:48902/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3891297",
+        "date_added": "2026-07-24 18:51:26",
+        "url": "http://42.239.226.213:55619/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3891296",
+        "date_added": "2026-07-24 18:41:21",
+        "url": "http://94.154.43.42:808/perc.x86",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "mirai",
+          "pie",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3891295",
+        "date_added": "2026-07-24 18:33:30",
+        "url": "http://42.55.37.12:50302/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3891294",
+        "date_added": "2026-07-24 18:27:24",
+        "url": "http://123.11.73.177:37884/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3891293",
+        "date_added": "2026-07-24 18:16:08",
+        "url": "http://27.194.170.188:47698/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3891292",
+        "date_added": "2026-07-24 18:05:18",
+        "url": "http://112.255.63.96:43173/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -409,52 +462,9 @@
         ]
       },
       {
-        "id": "3891154",
-        "date_added": "2026-07-24 09:46:08",
-        "url": "http://27.219.137.55:46415/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3891153",
-        "date_added": "2026-07-24 09:36:20",
-        "url": "http://42.235.49.63:40981/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3891152",
-        "date_added": "2026-07-24 09:11:07",
-        "url": "http://115.48.146.47:51489/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3891151",
-        "date_added": "2026-07-24 08:31:17",
-        "url": "http://125.41.4.249:60482/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3891150",
-        "date_added": "2026-07-24 08:25:27",
-        "url": "http://220.133.154.70:40154/bin.sh",
+        "id": "3891291",
+        "date_added": "2026-07-24 17:37:44",
+        "url": "http://112.255.63.96:43173/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -466,9 +476,9 @@
         ]
       },
       {
-        "id": "3891149",
-        "date_added": "2026-07-24 08:15:19",
-        "url": "http://219.155.17.245:57142/i",
+        "id": "3891290",
+        "date_added": "2026-07-24 17:37:08",
+        "url": "http://27.194.170.188:47698/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -479,46 +489,109 @@
   },
   "world_monitor": [
     {
-      "title": "Tens of thousands evacuated from French tourist spot as wildfires spread",
-      "link": "https://www.bbc.co.uk/news/articles/cdx82rl5g0do?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Fri, 24 Jul 2026 10:50:26 GMT",
-      "source": "BBC",
-      "summary": "The fire has raged in the region for several days with officials now ordering the evacuation of the entire Cap Ferret peninsula."
+      "title": "Iran War Live Updates: Trump Meets With Cabinet Over Whether to Intensify Iran Strikes",
+      "link": "https://www.nytimes.com/live/2026/07/24/world/iran-war-us-strikes-trump-oil",
+      "pubDate": "Fri, 24 Jul 2026 19:03:04 +0000",
+      "source": "NYT World",
+      "summary": "The discussions at the White House came days before a planned meeting with Prime Minister Benjamin Netanyahu of Israel.  Across the region, Iran and the United States continued to trade attacks."
     },
     {
-      "title": "South African court pauses impeachment process against president",
-      "link": "https://www.aljazeera.com/news/2026/7/24/south-african-court-pauses-impeachment-process-against-president?traffic_source=rss",
-      "pubDate": "Fri, 24 Jul 2026 10:39:47 +0000",
+      "title": "Trump vows to investigate EU over fining of US tech companies",
+      "link": "https://www.bbc.co.uk/news/articles/cvgjenp4680o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Fri, 24 Jul 2026 18:57:39 GMT",
+      "source": "BBC",
+      "summary": "The US president says fines against Google, as well as Apple, Meta and Amazon, should be \"entirely reversed.\""
+    },
+    {
+      "title": "Ten killed in Russian attack on drone exhibition near Kyiv",
+      "link": "https://www.bbc.co.uk/news/articles/cj637zd1k1ko?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Fri, 24 Jul 2026 18:51:17 GMT",
+      "source": "BBC",
+      "summary": "The event, attended by prominent members of the Ukrainian defence industry, was hit by ballistic missiles in the middle of the day."
+    },
+    {
+      "title": "ICC prosecutor Khan removed over sexual misconduct allegations: Sources",
+      "link": "https://www.aljazeera.com/news/2026/7/24/icc-prosecutor-khan-removed-over-sexual-misconduct-allegations-sources?traffic_source=rss",
+      "pubDate": "Fri, 24 Jul 2026 18:38:02 +0000",
       "source": "Al Jazeera",
-      "summary": "The 'Farmgate' scandal nearly cost President Cyril Ramaphosa the leadership of his African National Congress in 2022."
+      "summary": "This is a breaking news story."
     },
     {
-      "title": "South Africa's president wins bid to temporarily halt impeachment inquiry over 'Farmgate'",
-      "link": "https://www.bbc.co.uk/news/articles/cwymj9lkx13o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Fri, 24 Jul 2026 10:34:04 GMT",
+      "title": "US school shooter pleads guilty in Georgia following father’s conviction",
+      "link": "https://www.aljazeera.com/news/2026/7/24/us-school-shooter-pleads-guilty-in-georgia-following-fathers-conviction?traffic_source=rss",
+      "pubDate": "Fri, 24 Jul 2026 18:31:22 +0000",
+      "source": "Al Jazeera",
+      "summary": "Colt Gray pleads guilty to killing two students and two teachers in 2024 attack, which upped scrutiny of parental role."
+    },
+    {
+      "title": "Oman talking with Tehran on Hormuz as US and Iran continue strikes",
+      "link": "https://www.aljazeera.com/news/2026/7/24/oman-talking-with-tehran-on-hormuz-as-us-and-iran-continue-strikes?traffic_source=rss",
+      "pubDate": "Fri, 24 Jul 2026 18:15:01 +0000",
+      "source": "Al Jazeera",
+      "summary": "Omani delegation in Iran to discuss managing traffic in the strait, which has become the main focus of the US conflict."
+    },
+    {
+      "title": "US and Iran trade more strikes in Gulf as fears of escalation mount",
+      "link": "https://www.bbc.co.uk/news/articles/c05ql5llj4do?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Fri, 24 Jul 2026 18:13:02 GMT",
       "source": "BBC",
-      "summary": "Ramaphosa has faced scrutiny following the theft of large sums of cash from his private farm in 2020."
+      "summary": "It comes as Iran condemned the US plan to use frozen Iranian assets to pay for war damages."
+    },
+    {
+      "title": "Trump’s Israel condition on Saudi nuclear deal",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/7/24/trumps-israel-condition-on-saudi-nuclear-deal?traffic_source=rss",
+      "pubDate": "Fri, 24 Jul 2026 18:11:26 +0000",
+      "source": "Al Jazeera",
+      "summary": "Trump’s Israel condition on Saudi nuclear deal"
+    },
+    {
+      "title": "Huge crater after back-to-back Israeli strikes on Gaza refugee camp",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/7/24/huge-crater-after-back-to-back-israeli-strikes-on-gaza-refugee-camp?traffic_source=rss",
+      "pubDate": "Fri, 24 Jul 2026 18:01:18 +0000",
+      "source": "Al Jazeera",
+      "summary": "Huge crater after back-to-back Israeli strikes on Gaza refugee camp."
+    },
+    {
+      "title": "Shahed-Type Drones Filmed During Mali Village Attacks",
+      "link": "https://www.bellingcat.com/news/2026/07/24/shahed-type-drones-filmed-during-attack-on-mali-villages/",
+      "pubDate": "Fri, 24 Jul 2026 15:39:05 +0000",
+      "source": "Bellingcat",
+      "summary": "Bellingcat has geolocated footage showing Shahed-136 type kamikaze drones in operation in Mali. Defence Blog and France 24 previously published reports that these drones were being deployed on the battlefield in northern Mali. But Bellingcat and Jeun"
     },
     {
       "title": "Phones in Hand, India’s Young Protesters Blast Through Modi’s Media Control",
       "link": "https://www.nytimes.com/2026/07/24/world/asia/india-cockroach-party-cjp-protest-memes.html",
-      "pubDate": "Fri, 24 Jul 2026 10:17:21 +0000",
+      "pubDate": "Fri, 24 Jul 2026 14:26:01 +0000",
       "source": "NYT World",
       "summary": "Prime Minister Narendra Modi’s tightly constructed image is being punctured as a Gen Z-led protest movement uses videos and memes to seize the digital narrative."
     },
     {
-      "title": "Andy Burnham’s Number 10 North changes the postcode, but not the politics",
-      "link": "https://www.aljazeera.com/economy/2026/7/24/andy-burnhams-number-10-north-changes-the-postcode-but-not-the-politics?traffic_source=rss",
-      "pubDate": "Fri, 24 Jul 2026 10:03:10 +0000",
-      "source": "Al Jazeera",
-      "summary": "As Andy Burnham moves part of Downing Street to Manchester, Scotland and Wales are asking what it means for devolution."
+      "title": "Hegseth Is Pushing Testosterone. The VA Has Already Struggled With the Treatment.",
+      "link": "https://theintercept.com/2026/07/24/hegseth-testosterone-hormone-therapy-veterans-affairs/",
+      "pubDate": "Fri, 24 Jul 2026 14:25:58 +0000",
+      "source": "The Intercept",
+      "summary": "“Men who take testosterone will have a reduction in their sperm counts,” one medical professor said. There’s no stated plan for continuing care.\nThe post Hegseth Is Pushing Testosterone. The VA Has Already Struggled With the Treatment. appeared first"
     },
     {
-      "title": "Does this disappearing organ hold the secret of longevity?",
-      "link": "https://www.aljazeera.com/news/2026/7/24/does-this-disappearing-organ-hold-the-secret-of-longevity?traffic_source=rss",
-      "pubDate": "Fri, 24 Jul 2026 10:00:50 +0000",
-      "source": "Al Jazeera",
-      "summary": "Scientists are increasingly focused on the thymus, an immune gland that naturally becomes less active with age."
+      "title": "Russia and Ukraine Trade Deadly Blows With Missiles and Drones",
+      "link": "https://www.nytimes.com/2026/07/24/world/europe/russia-ukraine-war-attacks.html",
+      "pubDate": "Fri, 24 Jul 2026 13:41:46 +0000",
+      "source": "NYT World",
+      "summary": "Ukrainian strikes set fire to warehouses and other sites in Russia, and Russian bombing rocked Ukraine’s capital, as the two countries escalated an air campaign."
+    },
+    {
+      "title": "Indonesian babies were trafficked to Singapore. What happens to them now?",
+      "link": "https://www.bbc.co.uk/news/articles/c7vgeredvlgo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Fri, 24 Jul 2026 13:33:06 GMT",
+      "source": "BBC",
+      "summary": "At least 12 babies have been trafficked from Indonesia to Singapore, but what will happen to them remains unclear."
+    },
+    {
+      "title": "South Africa's president wins bid to temporarily halt impeachment inquiry over 'Farmgate'",
+      "link": "https://www.bbc.co.uk/news/articles/cwymj9lkx13o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Fri, 24 Jul 2026 11:53:49 GMT",
+      "source": "BBC",
+      "summary": "Ramaphosa has faced scrutiny following the theft of large sums of cash from his private farm in 2020."
     },
     {
       "title": "Trump’s National Killer Police Force",
@@ -526,41 +599,6 @@
       "pubDate": "Fri, 24 Jul 2026 10:00:00 +0000",
       "source": "The Intercept",
       "summary": "ICE and Border Patrol’s purviews have transformed from immigration enforcement to being a political tool of the White House — all under the pretext of public safety.\nThe post Trump’s National Killer Police Force appeared first on The Intercept."
-    },
-    {
-      "title": "Israel’s illegal settlements are Europe’s credibility test",
-      "link": "https://www.aljazeera.com/opinions/2026/7/24/israels-illegal-settlements-are-europes-credibility-test?traffic_source=rss",
-      "pubDate": "Fri, 24 Jul 2026 09:59:37 +0000",
-      "source": "Al Jazeera",
-      "summary": "The EU has documented accelerating annexation. It must now use its collective power to confront it."
-    },
-    {
-      "title": "Four Palestinians killed as Israeli settlers raid occupied West Bank town",
-      "link": "https://www.aljazeera.com/news/2026/7/24/four-palestinians-killed-as-israeli-settlers-raid-occupied-west-bank-town?traffic_source=rss",
-      "pubDate": "Fri, 24 Jul 2026 09:35:39 +0000",
-      "source": "Al Jazeera",
-      "summary": "One Israeli was also killed near town of Tal in Nablus, according to Israel's Magen David Adom rescue services."
-    },
-    {
-      "title": "US and Iran trade more strikes in Gulf as fears of escalation mount",
-      "link": "https://www.bbc.co.uk/news/articles/c05ql5llj4do?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Fri, 24 Jul 2026 09:20:07 GMT",
-      "source": "BBC",
-      "summary": "It comes as Iran condemned the US plan to use frozen Iranian assets to pay for war damages."
-    },
-    {
-      "title": "As Canada Opens Gordie Howe International Bridge, Americans Are Told to Stay Home",
-      "link": "https://www.nytimes.com/2026/07/24/world/canada/canada-gordie-howe-bridge-trump.html",
-      "pubDate": "Fri, 24 Jul 2026 09:05:17 +0000",
-      "source": "NYT World",
-      "summary": "After a delay ordered by President Trump and new tariffs against Canada, the bridge between Windsor, Ontario, and Detroit opens in “underwhelming” fashion on Friday."
-    },
-    {
-      "title": "‘We’re Trapped in Hell’: Iranians Say Life Is Put On Hold by Months of War",
-      "link": "https://www.nytimes.com/2026/07/24/world/middleeast/iran-war-cycle.html",
-      "pubDate": "Fri, 24 Jul 2026 09:04:59 +0000",
-      "source": "NYT World",
-      "summary": "Devastated by cycles of violence and economic crisis, many are giving up on work and their futures as the United States batters Iran again."
     },
     {
       "title": "Venezuela’s Earthquakes Show Wealth Divide, Even in Death",
@@ -572,23 +610,9 @@
     {
       "title": "In Kyrgyzstan, Girls Compete at Kok-Boru, a Game Like Polo",
       "link": "https://www.nytimes.com/2026/07/24/world/europe/first-girls-polo-team-breaks-with-tradition-but-keeps-the-goat-carcass.html",
-      "pubDate": "Fri, 24 Jul 2026 09:00:26 +0000",
+      "pubDate": "Fri, 24 Jul 2026 09:00:27 +0000",
       "source": "NYT World",
       "summary": "Here’s what happened when some teenage girls dared to compete in the dangerous sport of “kok-boru.”"
-    },
-    {
-      "title": "US hits dozens of countries with new wave of tariffs",
-      "link": "https://www.bbc.co.uk/news/articles/cvgj61j6l08o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Fri, 24 Jul 2026 08:59:31 GMT",
-      "source": "BBC",
-      "summary": "Imposed citing forced labour concerns, the levies replace a temporary global duty brought in after the US Supreme Court struck down tariffs in February."
-    },
-    {
-      "title": "Indonesian babies were trafficked to Singapore. What happens to them now?",
-      "link": "https://www.bbc.co.uk/news/articles/c7vgeredvlgo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Thu, 23 Jul 2026 23:19:58 GMT",
-      "source": "BBC",
-      "summary": "At least 12 babies have been trafficked from Indonesia to Singapore, but what will happen to them remains unclear."
     },
     {
       "title": "U.S. Website Gave False Approval to Green Card Applicants — Then Blamed Glitch and Took It Away",
@@ -610,13 +634,6 @@
       "pubDate": "Thu, 23 Jul 2026 09:58:00 +0000",
       "source": "The Intercept",
       "summary": "Israelis celebrated evicting Palestinians on a tour of the West Bank, where government-backed settler violence has spiked.\nThe post On a West Bank Eviction Tour, Israeli Settlers Advertise “No Arabs Here” appeared first on The Intercept."
-    },
-    {
-      "title": "GOP Rep. Called Israeli–U.S. Defense Tech Integration “Dangerous.” The House Passed It Anyway.",
-      "link": "https://theintercept.com/2026/07/22/ndaa-defense-bill-pentagon-israel-massie/",
-      "pubDate": "Wed, 22 Jul 2026 22:13:33 +0000",
-      "source": "The Intercept",
-      "summary": "Rep. Thomas Massie had tried to strip the provision from the $1.15 trillion Pentagon budget, calling it “lopsided” in Israel’s favor.\nThe post GOP Rep. Called Israeli–U.S. Defense Tech Integration “Dangerous.” The House Passed It Anyway. appeared fir"
     },
     {
       "title": "Identifying the Crypto Entrepreneur Linked to Popular Forum Trading in ‘Leaked’ Nudes of Women",
@@ -645,13 +662,6 @@
       "pubDate": "Mon, 29 Jun 2026 22:34:11 +0000",
       "source": "Bellingcat",
       "summary": "At least 1,719 people are reported to have died after two devastating earthquakes struck northwestern Venezuela last week. The final casualty count is expected to rise significantly. Some media outlets report resident’s growing frustration with the V"
-    },
-    {
-      "title": "Poster Boy: Sanctioned Kinahan Cartel Lieutenant Found Playing Padel in Dubai",
-      "link": "https://www.bellingcat.com/news/2026/06/27/poster-boy-sanctioned-kinahan-cartel-lieutenant-found-playing-padel-in-dubai/",
-      "pubDate": "Sat, 27 Jun 2026 18:02:34 +0000",
-      "source": "Bellingcat",
-      "summary": "This article is the result of a collaboration with The Sunday Times. You can find their corresponding piece here. Every Friday evening, the brochure says, players can compete to win cash prizes in one of the world’s fastest-growing racquet sports. Th"
     }
   ],
   "syndication": [
@@ -660,7 +670,7 @@
       "link": "https://www.schneier.com/blog/archives/2026/07/why-ai-needs-a-genie-coefficient.html",
       "pubDate": "2026-07-24T11:03:06.000Z",
       "author": "Schneier on Security",
-      "content": "This essay was written with Barath Raghavan, and originally appeared in The Guardian.\nMajor benchmarks measure what AI can do. None measure whether it does what you mean: the distance between what you ask an AI to do and the unspoken assumptions about how you want the AI to do it. We propose a new m"
+      "content": "This essay was written with Barath Raghavan, and originally appeared in IEEE Spectrum.\nMajor benchmarks measure what AI can do. None measure whether it does what you mean: the distance between what you ask an AI to do and the unspoken assumptions about how you want the AI to do it. We propose a new "
     },
     {
       "title": "Pluralistic: AI solipsists and AI cynics (24 Jul 2026)",
@@ -721,6 +731,62 @@
   ],
   "syndicate_journal": [
     {
+      "title": "How an Inbred Snake Invader Took Over an Island Paradise",
+      "link": "https://nautil.us/how-an-inbred-snake-invader-took-over-an-island-paradise-1283018/",
+      "summary": "Hidden genetic diversity may have given it an advantage  \nThe post How an Inbred Snake Invader Took Over an Island Paradise appeared first on Nautilus.",
+      "pubDate": "Fri, 24 Jul 2026 18:35:31 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "Ontario Is Gutting a Pillar of the Labor-Capital Settlement",
+      "link": "",
+      "summary": "A central piece of the twentieth-century labor-capital compromise is disappearing in Ontario, as the government moves forward with omnibus legislation that will transform the province’s workers’ compensation system.\nIf Ontario’s Bill 105 becomes law later this year, it will herald the most significa",
+      "pubDate": "2026-07-24T17:47:33.330Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "When Stupid Was a Diagnosis",
+      "link": "https://nautil.us/when-stupid-was-a-diagnosis-1282984/",
+      "summary": "A dark history that is in danger of returning as support for people with disabilities withers\nThe post When Stupid Was a Diagnosis appeared first on Nautilus.",
+      "pubDate": "Fri, 24 Jul 2026 17:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "Does This Photo from the Curiosity Rover Prove an Intense Sandstorm on Mars?",
+      "link": "https://nautil.us/does-this-photo-from-the-curiosity-rover-prove-an-intense-sandstorm-on-mars-1282997/",
+      "summary": "Sand ripples preserved for billions of years\nThe post Does This Photo from the Curiosity Rover Prove an Intense Sandstorm on Mars? appeared first on Nautilus.",
+      "pubDate": "Fri, 24 Jul 2026 16:15:27 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "Critics of AI Aren’t Anti-Tech Extremists",
+      "link": "",
+      "summary": "The politics of artificial intelligence are entering a . In the United States and beyond, communities are   that are projected to  water and electricity consumption by 2030,  utility , and harm the . , , and  are suing AI companies for using their work without permission. Teachers are  whether gener",
+      "pubDate": "2026-07-24T14:46:43.566Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "The Soviet Crisis Was Predictable. Its Outcome Was Not.",
+      "link": "",
+      "summary": "Until 1991, it was impossible to be on the Left and not have an opinion about the Soviet Union. Moscow was, remarks Mark Smith in his  of the post–Joseph Stalin Union of Soviet Socialist Republics (USSR), the center of half the world. That world’s fate seemed to hang on the changing relationship of ",
+      "pubDate": "2026-07-24T13:47:27.138Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "Born Without a Country",
+      "link": "https://daily.jstor.org/born-without-a-country/",
+      "summary": "In Southeast Asia, colonial legacies and citizenship policies continue to leave hundreds of thousands without legal nationality.\nThe post Born Without a Country appeared first on JSTOR Daily.",
+      "pubDate": "Fri, 24 Jul 2026 13:33:12 +0000",
+      "domain": "history",
+      "source": "JSTOR Daily"
+    },
+    {
       "title": "Signal then storm",
       "link": "https://aeon.co/essays/a-researchers-50-year-hunt-for-the-source-of-chronic-pain",
       "summary": "Allan Basbaum has spent 50 years searching the nervous system for the places where pain begins – and where it can be stopped\n- by Stephani Sutherland\nRead on Aeon",
@@ -753,60 +819,12 @@
       "source": "arXiv: cs.AI"
     },
     {
-      "title": "The Amazing Photos from NASA’s First-Ever Mars Lander",
-      "link": "https://nautil.us/the-amazing-photos-from-nasas-first-ever-mars-lander-1282964/",
-      "summary": "Viking 1 landed on Mars 50 years ago\nThe post The Amazing Photos from NASA’s First-Ever Mars Lander appeared first on Nautilus.",
-      "pubDate": "Thu, 23 Jul 2026 20:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
-      "title": "Mole Rat Queens Stink Their Way to Power",
-      "link": "https://nautil.us/mole-rat-queens-stink-their-way-to-power-1282957/",
-      "summary": "The volatile compound they emit induces temporary infertility in other females\nThe post Mole Rat Queens Stink Their Way to Power appeared first on Nautilus.",
-      "pubDate": "Thu, 23 Jul 2026 18:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
-      "title": "DSA’s Haters Hate Democracy",
-      "link": "",
-      "summary": "The centrist meltdown continues.\nVarious voices hostile to the Left have been having a distinctly undignified  in the wake of a series of Democratic primary wins by socialists, charging that it would lead to the thing they themselves had already done twice: empower Donald Trump. The latest offender ",
-      "pubDate": "2026-07-23T17:54:41.287Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
-      "title": "Claire Valdez Plans to Take the Labor Movement to Washington",
-      "link": "",
-      "summary": "After fifteen years cleaning rooms at the Fairfield by Marriott in Times Square, Ramona Garcia told the crowd, she earned just $22 an hour. Every week, she paid about $100 for health insurance. She had no pension. After finishing her shift at the hotel, she cleaned private homes to make ends meet.\n“",
-      "pubDate": "2026-07-23T16:39:35.266Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
-      "title": "Does Watching TV Really Rot Your Brain?",
-      "link": "https://nautil.us/does-watching-tv-really-rot-your-brain-1282948/",
-      "summary": "Generations of parents have a new piece of scientific evidence to combat couchpotatoism\nThe post Does Watching TV Really Rot Your Brain? appeared first on Nautilus.",
-      "pubDate": "Thu, 23 Jul 2026 16:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
       "title": "How Fast Is the Universe Really Expanding?",
       "link": "https://www.quantamagazine.org/how-fast-is-the-universe-really-expanding-20260723/",
       "summary": "One of the most contested issues in astrophysics is our understanding of the Universe’s expansion. Adam Riess discusses why there is disagreement and what might resolve it.            \nThe post How Fast Is the Universe Really Expanding? first appeared on Quanta Magazine",
       "pubDate": "Thu, 23 Jul 2026 14:53:45 +0000",
       "domain": "science",
       "source": "Quanta"
-    },
-    {
-      "title": "Israel Is Undermining the Struggle Against Antisemitism",
-      "link": "",
-      "summary": "Mark Mazower has written a stunner of a book: informed, questioning, probing, thought-provoking, and highly readable.  tackles one of the most fraught political questions of our time, informed by Mazower’s background as a leading historian of modern Europe.On Antisemitism\nWords shift and change thei",
-      "pubDate": "2026-07-23T14:22:21.284Z",
-      "domain": "politics",
-      "source": "Jacobin"
     },
     {
       "title": "Fields and Abacus Medals 2026",
@@ -861,14 +879,6 @@
       "link": "https://daily.jstor.org/the-cassette-tapes-of-the-great-migration/",
       "summary": "An archive of recorded interviews captures how ordinary people experienced one of the defining chapters of American history.\nThe post The Cassette Tapes of the Great Migration appeared first on JSTOR Daily.",
       "pubDate": "Wed, 22 Jul 2026 13:45:00 +0000",
-      "domain": "history",
-      "source": "JSTOR Daily"
-    },
-    {
-      "title": "Reading the Maya with William S. Burroughs",
-      "link": "https://daily.jstor.org/reading-the-maya-with-william-s-burroughs/",
-      "summary": "Burroughs drew on the leading Maya scholarship of his day, much of which has since been overturned.\nThe post Reading the Maya with William S. Burroughs appeared first on JSTOR Daily.",
-      "pubDate": "Tue, 21 Jul 2026 13:32:06 +0000",
       "domain": "history",
       "source": "JSTOR Daily"
     },
@@ -985,25 +995,25 @@
       "source": "ROAR Magazine"
     },
     {
-      "title": "The audio-visual effects of rehabilitative landscapes on stress recovery in older adults: a case study of typical parks in Xi’an",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1874137",
-      "summary": "Based on the landscape perception theory and human factors methods, this study adopted eye-tracking and multimodal physiological monitoring to explore the effects of age-friendly rehabilitative landscapes on stress recovery in older adults. A total of 44 healthy older adults were recruited. Fourteen",
+      "title": "A systematic review and meta-analysis of high-intensity interval training for mental health and executive function in university students",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1891095",
+      "summary": "IntroductionUniversity students commonly experience mental health challenges and cognitive burdens associated with academic stress and sedentary lifestyles. High-intensity interval training has been proposed as a time-efficient strategy to improve psychological and cognitive outcomes; however, evide",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "Changes in resilience and masculine gender role stress following 8 weeks of maximal power cycling training in male university students: a single-group pre-post study",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1876857",
-      "summary": "Male university students commonly experience gender role stress derived from traditional masculine norms, yet there is a lack of targeted and acceptable psychological interventions for this population. High-intensity interval training, given its time efficiency and alignment with masculine values, m",
+      "title": "Parenting on a digital leash: time pressure, parenting guilt, and emotional exhaustion in Chinese dual-earner families",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1774016",
+      "summary": "BackgroundDigital tools are increasingly integrated into parenting, but their psychological costs remain unclear. This study investigates whether digitally-mediated parenting intensity predicts emotional exhaustion among Chinese dual-earner parents, and whether time pressure and parenting guilt medi",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "Dark triad personality traits and online impulsive buying: the mediating role of social media addiction",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1879807",
-      "summary": "ObjectiveThe rapid growth of e-commerce has made online impulsive buying (OIB) an increasingly significant consumer behavior. However, the psychological processes underlying this behavior—particularly the role of individual differences—remain inadequately explained. This study adopts the Latent Stat",
+      "title": "How AI-enhanced learning activities contribute to digital literacy in pre-service pre-school teachers",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1883742",
+      "summary": "IntroductionThis study examined the contribution of AI enhanced learning activities to the digital literacy of preservice early childhood education student teachers.MethodsA quantitative post-intervention explanatory design was used involving 212 Early Childhood Education students at a university in",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
@@ -1011,64 +1021,64 @@
   ],
   "misinfo_toilet": [
     {
-      "headline": "US and Iran trade more strikes in Gulf as fears of escalation mount",
-      "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
-      "splice": "US and Iran trade more strikes in Gulf as fears of escalation mount the system notes that the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
-      "seed": 20260735
-    },
-    {
-      "headline": "Venezuela’s Earthquakes Show Wealth Divide, Even in Death",
-      "fragment": "It is at work everywhere, functioning smoothly at times, at other times in fits and starts. It breathes, it heats, it eats. It shits and fucks.",
-      "splice": "Venezuela’s Earthquakes Show Wealth Divide, Even in Death underneath it is at work everywhere, functioning smoothly at times, at other times in fits and starts. It breathes, it heats, it eats. It shits and fucks.",
-      "seed": 20260736
-    },
-    {
-      "headline": "Does this disappearing organ hold the secret of longevity?",
-      "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "splice": "Does this disappearing organ hold the secret of longevity? insofar as the breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "seed": 20260737
-    },
-    {
-      "headline": "Phones in Hand, India’s Young Protesters Blast Through Modi’s Media Control",
+      "headline": "Trump’s Israel condition on Saudi nuclear deal",
       "fragment": "Antagonism is not now located externally, in the face-off between class blocs, but internally, in the psychology of the worker.",
-      "splice": "Phones in Hand, India’s Young Protesters Blast Through Modi’s Media Control while antagonism is not now located externally, in the face-off between class blocs, but internally, in the psychology of the worker.",
-      "seed": 20260738
-    },
-    {
-      "headline": "Trump’s National Killer Police Force",
-      "fragment": "It is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
-      "splice": "Trump’s National Killer Police Force the system notes that it is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
-      "seed": 20260739
-    },
-    {
-      "headline": "South Africa's president wins bid to temporarily halt impeachment inquiry over 'Farmgate'",
-      "fragment": "If it is true, for instance, that depression is caused by low serotonin levels, it would still be necessary to explain why particular individuals have low serotonin levels.",
-      "splice": "South Africa's president wins bid to temporarily halt impeachment inquiry over 'Farmgate' the system notes that if it is true, for instance, that depression is caused by low serotonin levels, it would still be necessary to explain why particular individuals have low serotonin levels.",
-      "seed": 20260740
-    },
-    {
-      "headline": "Between Graves and Uncertainty: The Management of the Dead After Venezuela’s Earthquake",
-      "fragment": "This is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
-      "splice": "Between Graves and Uncertainty: The Management of the Dead After Venezuela’s Earthquake the signal resolves into this is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
-      "seed": 20260741
-    },
-    {
-      "headline": "In Kyrgyzstan, Girls Compete at Kok-Boru, a Game Like Polo",
-      "fragment": "Everywhere it is machines—real ones, not figurative ones: machines driving other machines, machines being driven by other machines, with all the necessary couplings and connections.",
-      "splice": "In Kyrgyzstan, Girls Compete at Kok-Boru, a Game Like Polo the signal resolves into everywhere it is machines—real ones, not figurative ones: machines driving other machines, machines being driven by other machines, with all the necessary couplings and connections.",
-      "seed": 20260742
-    },
-    {
-      "headline": "U.S. Website Gave False Approval to Green Card Applicants — Then Blamed Glitch and Took It Away",
-      "fragment": "It is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
-      "splice": "U.S. Website Gave False Approval to Green Card Applicants — Then Blamed Glitch and Took It Away as if it is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
+      "splice": "Trump’s Israel condition on Saudi nuclear deal while antagonism is not now located externally, in the face-off between class blocs, but internally, in the psychology of the worker.",
       "seed": 20260743
     },
     {
-      "headline": "Four Palestinians killed as Israeli settlers raid occupied West Bank town",
-      "fragment": "In the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
-      "splice": "Four Palestinians killed as Israeli settlers raid occupied West Bank town the system notes that in the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
+      "headline": "Between Graves and Uncertainty: The Management of the Dead After Venezuela’s Earthquake",
+      "fragment": "It is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
+      "splice": "Between Graves and Uncertainty: The Management of the Dead After Venezuela’s Earthquake the system notes that it is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
       "seed": 20260744
+    },
+    {
+      "headline": "Oman talking with Tehran on Hormuz as US and Iran continue strikes",
+      "fragment": "If it is true, for instance, that depression is caused by low serotonin levels, it would still be necessary to explain why particular individuals have low serotonin levels.",
+      "splice": "Oman talking with Tehran on Hormuz as US and Iran continue strikes the system notes that if it is true, for instance, that depression is caused by low serotonin levels, it would still be necessary to explain why particular individuals have low serotonin levels.",
+      "seed": 20260745
+    },
+    {
+      "headline": "ICC prosecutor Khan removed over sexual misconduct allegations: Sources",
+      "fragment": "This is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
+      "splice": "ICC prosecutor Khan removed over sexual misconduct allegations: Sources the signal resolves into this is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
+      "seed": 20260746
+    },
+    {
+      "headline": "Phones in Hand, India’s Young Protesters Blast Through Modi’s Media Control",
+      "fragment": "Everywhere it is machines—real ones, not figurative ones: machines driving other machines, machines being driven by other machines, with all the necessary couplings and connections.",
+      "splice": "Phones in Hand, India’s Young Protesters Blast Through Modi’s Media Control the signal resolves into everywhere it is machines—real ones, not figurative ones: machines driving other machines, machines being driven by other machines, with all the necessary couplings and connections.",
+      "seed": 20260747
+    },
+    {
+      "headline": "Satellite Imagery Shows Scale of Venezuela Earthquake Damage",
+      "fragment": "It is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
+      "splice": "Satellite Imagery Shows Scale of Venezuela Earthquake Damage as if it is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
+      "seed": 20260748
+    },
+    {
+      "headline": "U.S. Website Gave False Approval to Green Card Applicants — Then Blamed Glitch and Took It Away",
+      "fragment": "In the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
+      "splice": "U.S. Website Gave False Approval to Green Card Applicants — Then Blamed Glitch and Took It Away the system notes that in the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
+      "seed": 20260749
+    },
+    {
+      "headline": "Hegseth Is Pushing Testosterone. The VA Has Already Struggled With the Treatment.",
+      "fragment": "Over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
+      "splice": "Hegseth Is Pushing Testosterone. The VA Has Already Struggled With the Treatment. insofar as over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
+      "seed": 20260750
+    },
+    {
+      "headline": "Burning Forests: Tools for Tracking and Reporting Wildfire Damage",
+      "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
+      "splice": "Burning Forests: Tools for Tracking and Reporting Wildfire Damage within which the revolutionary lives in the gap which separates technical progress from social totality.",
+      "seed": 20260751
+    },
+    {
+      "headline": "South Africa's president wins bid to temporarily halt impeachment inquiry over 'Farmgate'",
+      "fragment": "Pretending, or dissimulating, leaves the principle of reality intact: the difference is always clear, it is simply masked.",
+      "splice": "South Africa's president wins bid to temporarily halt impeachment inquiry over 'Farmgate' the signal resolves into pretending, or dissimulating, leaves the principle of reality intact: the difference is always clear, it is simply masked.",
+      "seed": 20260752
     }
   ]
 }
