@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-26T08:30:20.781Z",
+  "generated_at": "2026-07-26T16:03:22.836Z",
   "threat_intel": {
     "cisa_kev": [
       {
@@ -232,306 +232,344 @@
     ],
     "urlhaus": [
       {
-        "id": "3891675",
-        "date_added": "2026-07-26 08:17:06",
-        "url": "http://106.40.240.66:47640/bin.sh",
+        "id": "3892122",
+        "date_added": "2026-07-26 15:58:17",
+        "url": "http://217.60.195.199/flutter.arm",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
+          "217-60-195-199",
+          "elf"
+        ]
+      },
+      {
+        "id": "3892121",
+        "date_added": "2026-07-26 15:57:23",
+        "url": "http://femboykisser.sbs/flutter.mipsel",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "botnetdomain",
+          "elf",
+          "femboykisser-sbs",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3892119",
+        "date_added": "2026-07-26 15:57:22",
+        "url": "http://femboykisser.sbs/flutter.ppc",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "botnetdomain",
+          "elf",
+          "femboykisser-sbs",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3892120",
+        "date_added": "2026-07-26 15:57:22",
+        "url": "http://femboykisser.sbs/flutter.arm6",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "botnetdomain",
+          "elf",
+          "femboykisser-sbs",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3892118",
+        "date_added": "2026-07-26 15:57:21",
+        "url": "http://femboykisser.sbs/flutter.mips",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "botnetdomain",
+          "elf",
+          "femboykisser-sbs",
+          "mirai",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3892117",
+        "date_added": "2026-07-26 15:57:20",
+        "url": "http://femboykisser.sbs/flutter.m68k",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "botnetdomain",
+          "elf",
+          "femboykisser-sbs",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3892114",
+        "date_added": "2026-07-26 15:57:19",
+        "url": "http://femboykisser.sbs/flutter.ppc64",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "botnetdomain",
+          "elf",
+          "femboykisser-sbs",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3892115",
+        "date_added": "2026-07-26 15:57:19",
+        "url": "http://femboykisser.sbs/flutter.x86_64",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "botnetdomain",
+          "elf",
+          "femboykisser-sbs",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3892116",
+        "date_added": "2026-07-26 15:57:19",
+        "url": "http://femboykisser.sbs/flutter.x86",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "botnetdomain",
+          "elf",
+          "femboykisser-sbs",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3892112",
+        "date_added": "2026-07-26 15:57:18",
+        "url": "http://femboykisser.sbs/flutter.arm7",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "botnetdomain",
+          "elf",
+          "femboykisser-sbs",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3892113",
+        "date_added": "2026-07-26 15:57:18",
+        "url": "http://femboykisser.sbs/flutter.arm8",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "botnetdomain",
+          "elf",
+          "femboykisser-sbs",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3892110",
+        "date_added": "2026-07-26 15:57:13",
+        "url": "http://femboykisser.sbs/flutter.arm5",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "botnetdomain",
+          "elf",
+          "femboykisser-sbs",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3892111",
+        "date_added": "2026-07-26 15:57:13",
+        "url": "http://217.60.195.199/flutter.arm8",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "217-60-195-199",
+          "elf"
+        ]
+      },
+      {
+        "id": "3892109",
+        "date_added": "2026-07-26 15:57:12",
+        "url": "http://femboykisser.sbs/flutter.arm",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "botnetdomain",
+          "elf",
+          "femboykisser-sbs",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3892104",
+        "date_added": "2026-07-26 15:56:20",
+        "url": "http://217.60.195.199/flutter.arm6",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "217-60-195-199",
+          "elf"
+        ]
+      },
+      {
+        "id": "3892105",
+        "date_added": "2026-07-26 15:56:20",
+        "url": "http://217.60.195.199/flutter.ppc64",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "217-60-195-199",
+          "elf"
+        ]
+      },
+      {
+        "id": "3892106",
+        "date_added": "2026-07-26 15:56:20",
+        "url": "http://217.60.195.199/flutter.x86",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "217-60-195-199",
+          "elf"
+        ]
+      },
+      {
+        "id": "3892107",
+        "date_added": "2026-07-26 15:56:20",
+        "url": "http://217.60.195.199/flutter.arm5",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "217-60-195-199",
+          "elf"
+        ]
+      },
+      {
+        "id": "3892108",
+        "date_added": "2026-07-26 15:56:20",
+        "url": "http://217.60.195.199/flutter.mips",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "217-60-195-199",
+          "elf",
           "mirai"
         ]
       },
       {
-        "id": "3891674",
-        "date_added": "2026-07-26 08:10:19",
-        "url": "http://222.134.175.71:46678/bin.sh",
+        "id": "3892099",
+        "date_added": "2026-07-26 15:56:15",
+        "url": "http://217.60.195.199/flutter.x86_64",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3891673",
-        "date_added": "2026-07-26 08:09:20",
-        "url": "http://123.14.102.112:54726/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3891672",
-        "date_added": "2026-07-26 08:07:07",
-        "url": "http://110.37.68.65:38450/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3891670",
-        "date_added": "2026-07-26 07:47:06",
-        "url": "http://123.8.47.4:60225/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3891671",
-        "date_added": "2026-07-26 07:47:06",
-        "url": "http://196.189.101.82:60459/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "mirai"
-        ]
-      },
-      {
-        "id": "3891669",
-        "date_added": "2026-07-26 07:40:22",
-        "url": "http://115.50.66.149:51699/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3891668",
-        "date_added": "2026-07-26 07:39:19",
-        "url": "http://219.156.105.152:51559/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3891667",
-        "date_added": "2026-07-26 07:32:08",
-        "url": "http://123.8.47.4:60225/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3891666",
-        "date_added": "2026-07-26 07:31:24",
-        "url": "http://42.178.61.155:32836/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3891665",
-        "date_added": "2026-07-26 07:26:26",
-        "url": "http://115.50.66.149:51699/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3891664",
-        "date_added": "2026-07-26 07:15:26",
-        "url": "http://42.231.47.59:38421/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3891663",
-        "date_added": "2026-07-26 07:10:42",
-        "url": "http://196.189.198.193:41438/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "arm",
-          "elf",
-          "mirai",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3891662",
-        "date_added": "2026-07-26 07:07:28",
-        "url": "http://196.189.198.193:41438/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "arm",
-          "elf",
-          "mirai",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3891661",
-        "date_added": "2026-07-26 07:06:11",
-        "url": "http://196.191.137.44:58420/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "arm",
-          "elf",
-          "mirai",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3891660",
-        "date_added": "2026-07-26 07:01:08",
-        "url": "http://182.116.80.226:45470/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3891659",
-        "date_added": "2026-07-26 06:56:26",
-        "url": "http://196.191.104.40:53304/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "arm",
-          "elf",
-          "mirai",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3891658",
-        "date_added": "2026-07-26 06:52:13",
-        "url": "http://125.40.83.123:47230/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3891657",
-        "date_added": "2026-07-26 06:49:26",
-        "url": "http://27.37.102.120:54475/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3891656",
-        "date_added": "2026-07-26 06:45:28",
-        "url": "http://27.37.102.120:54475/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
+          "217-60-195-199",
+          "elf"
         ]
       }
     ]
   },
   "world_monitor": [
     {
-      "title": "Watch: At the scene of Berlin Pride attack as manhunt continues",
-      "link": "https://www.bbc.co.uk/news/videos/c74gzknyyz2o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Sun, 26 Jul 2026 08:14:55 GMT",
-      "source": "BBC",
-      "summary": "A 21-year-old suspect has been identified by police, but he has not been found."
-    },
-    {
-      "title": "Israel raids West Bank live: Dozens of Palestinians detained during assault",
-      "link": "https://www.aljazeera.com/news/liveblog/2026/7/26/israel-raids-west-bank-live-dozens-of-palestinians-detained-during-assault?traffic_source=rss",
-      "pubDate": "Sun, 26 Jul 2026 07:55:30 +0000",
-      "source": "Al Jazeera",
-      "summary": "Incursions and arrests ongoing as terrified Palestinian residents brace for military and settler attacks."
-    },
-    {
-      "title": "Tour de France final stage shortened as emergency teams tackle wildfires",
-      "link": "https://www.aljazeera.com/sports/2026/7/26/tour-de-france-final-stage-shortened-as-emergency-teams-tackle-wildfires?traffic_source=rss",
-      "pubDate": "Sun, 26 Jul 2026 07:55:22 +0000",
-      "source": "Al Jazeera",
-      "summary": "Sunday’s traditional stage in Paris has been shortened to reduce pressure on emergency services tackling wildfires."
-    },
-    {
-      "title": "France battles fire 'whirlwinds' as another 55,000 evacuated ",
+      "title": "Firefighters battle wildfire as tens of thousands evacuated near Bordeaux",
       "link": "https://www.bbc.co.uk/news/articles/clyj8k4nn5jo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Sun, 26 Jul 2026 07:21:11 GMT",
+      "pubDate": "Sun, 26 Jul 2026 15:50:41 GMT",
       "source": "BBC",
-      "summary": "More than 340,000 people have now been evacuated from wildfires in France and Spain."
+      "summary": "More than 330,000 people have now been evacuated from wildfires across France and Spain."
     },
     {
-      "title": "Israeli settlers set fire to mosque in occupied West Bank",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/7/26/israeli-settlers-set-fire-to-mosque-in-occupied-west-bank?traffic_source=rss",
-      "pubDate": "Sun, 26 Jul 2026 07:12:26 +0000",
-      "source": "Al Jazeera",
-      "summary": "Israeli settlers set fire to Al-Rahma Mosque in Qusra, near Nablus, as Israeli forces arrested dozens of Palestinians"
-    },
-    {
-      "title": "Cape Verde World Cup star Vozinha agrees deal with Chile’s Colo Colo",
-      "link": "https://www.aljazeera.com/sports/2026/7/26/cape-verde-world-cup-star-vozinha-agrees-deal-with-chiles-colo-colo?traffic_source=rss",
-      "pubDate": "Sun, 26 Jul 2026 07:04:11 +0000",
-      "source": "Al Jazeera",
-      "summary": "The 40-year-old goalkeeper made global headlines after starring in Cape Verde’s historic run at the World Cup."
-    },
-    {
-      "title": "Joshua comes back twice to knock out Prenga and set up Fury showdown",
-      "link": "https://www.aljazeera.com/sports/2026/7/26/joshua-comes-back-twice-to-knock-out-prenga-and-set-up-fury-showdown?traffic_source=rss",
-      "pubDate": "Sun, 26 Jul 2026 06:37:00 +0000",
-      "source": "Al Jazeera",
-      "summary": "Anthony Joshua survives two knockdowns by Albania's Kristian Prenga before winning the fight in the second round."
-    },
-    {
-      "title": "Hundreds of Thousands Flee as Fires Rage in Spain and France",
-      "link": "https://www.nytimes.com/live/2026/07/25/world/france-spain-wildfires-evacuations",
-      "pubDate": "Sun, 26 Jul 2026 01:19:51 +0000",
+      "title": "20 Years After Its Own Outbreak, an Ugandan Town Beats Back Ebola",
+      "link": "https://www.nytimes.com/2026/07/26/world/africa/ebola-uganda-congo-border.html",
+      "pubDate": "Sun, 26 Jul 2026 15:47:15 +0000",
       "source": "NYT World",
-      "summary": "Firefighters were racing to contain blazes that were moving closer to Madrid and Bordeaux."
+      "summary": "The Bundibugyo Ebola virus takes its name from this small town, where it was first discovered in 2007. Now, the species has returned to eastern Congo, halting life on a busy border."
+    },
+    {
+      "title": "Live Updates: Extreme Heat and Strong Winds Fuel New Wildfires in France and Spain",
+      "link": "https://www.nytimes.com/live/2026/07/26/world/france-spain-wildfires-evacutions",
+      "pubDate": "Sun, 26 Jul 2026 15:45:57 +0000",
+      "source": "NYT World",
+      "summary": "Firefighters are tackling fresh blazes while others have been contained, and hundreds of thousands of people have been forced to flee. A new heat wave forecast to hit Europe could make conditions worse."
+    },
+    {
+      "title": "Senator Whitehouse: Netanyahu a ‘walking provocation’ for Americans",
+      "link": "https://www.aljazeera.com/video/the-bottom-line/2026/7/26/senator-whitehouse-netanyahu-a-walking-provocation-for-americans?traffic_source=rss",
+      "pubDate": "Sun, 26 Jul 2026 15:26:57 +0000",
+      "source": "Al Jazeera",
+      "summary": "Democratic lawmaker Sheldon Whitehouse says the US is turning into one of the world’s ‘worst-behaved countries’."
+    },
+    {
+      "title": "Officials Call Attack Near Berlin Pride Celebration a ‘Terror Attack’",
+      "link": "https://www.nytimes.com/2026/07/26/world/europe/berlin-gay-pride-attack.html",
+      "pubDate": "Sun, 26 Jul 2026 15:09:43 +0000",
+      "source": "NYT World",
+      "summary": "The hunt for a 21-year-old man began early Sunday, in what officials called a likely act of Islamist terrorism."
+    },
+    {
+      "title": "Lando Norris wins Hungarian Grand Prix for first F1 triumph in 2026",
+      "link": "https://www.aljazeera.com/sports/2026/7/26/lando-norris-wins-hungarian-grand-prix-for-first-f1-triumph-in-2026?traffic_source=rss",
+      "pubDate": "Sun, 26 Jul 2026 15:04:12 +0000",
+      "source": "Al Jazeera",
+      "summary": "Defending champion Norris wins his first race of the year as Verstappen finishes second, and leader Antonelli third."
+    },
+    {
+      "title": "More than 360,000 evacuated as wildfires rage in France and Spain",
+      "link": "https://www.aljazeera.com/news/2026/7/26/more-than-360000-evacuated-as-wildfires-rage-in-france-and-spain?traffic_source=rss",
+      "pubDate": "Sun, 26 Jul 2026 14:49:41 +0000",
+      "source": "Al Jazeera",
+      "summary": "French and Spanish authorities are struggling to contain the blazes, which are partly caused by successive heatwaves."
+    },
+    {
+      "title": "Israel carries out double tap strike in central Gaza",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/7/26/israel-carries-out-double-tap-strike-in-central-gaza?traffic_source=rss",
+      "pubDate": "Sun, 26 Jul 2026 14:47:02 +0000",
+      "source": "Al Jazeera",
+      "summary": "Israel carries out double tap strike in central Gaza"
+    },
+    {
+      "title": "Tunisia grapples with five years of crisis since Saied’s power grab",
+      "link": "https://www.aljazeera.com/economy/2026/7/26/tunisia-grapples-with-five-years-of-crisis-since-saieds-power-grab?traffic_source=rss",
+      "pubDate": "Sun, 26 Jul 2026 14:39:30 +0000",
+      "source": "Al Jazeera",
+      "summary": "Tunisians protest five years of President Kais Saied's rule amid economic crisis and political arrests."
+    },
+    {
+      "title": "What we know so far about the Berlin Pride ramming attack",
+      "link": "https://www.bbc.co.uk/news/articles/cevmdxz4872o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Sun, 26 Jul 2026 13:40:29 GMT",
+      "source": "BBC",
+      "summary": "A police manhunt is under way after a suspect rammed a car into a crowd at a Pride event in the German capital on Saturday night."
+    },
+    {
+      "title": "U.S.-Iran War Pauses for 2nd Straight Day With Both Sides Holding Off on Strikes",
+      "link": "https://www.nytimes.com/2026/07/26/world/middleeast/us-iran-war-pause.html",
+      "pubDate": "Sun, 26 Jul 2026 12:49:15 +0000",
+      "source": "NYT World",
+      "summary": "President Trump put off plans to escalate the fighting in part because of dwindling stockpiles of interceptor missiles, American officials said."
+    },
+    {
+      "title": "The Accidental Hero Who Faced Down India’s Government",
+      "link": "https://www.nytimes.com/2026/07/26/world/asia/india-protests-cockroach-janta-party-abhijeet-dipke.html",
+      "pubDate": "Sun, 26 Jul 2026 12:18:35 +0000",
+      "source": "NYT World",
+      "summary": "Abhijeet Dipke founded the Cockroach Janta Party as a joke after a judge insulted young people. The idea snowballed into a generational movement that has challenged the country’s leaders."
+    },
+    {
+      "title": "Israeli settlers set fire to mosques, cars and farm land in West Bank, Palestinians say",
+      "link": "https://www.bbc.co.uk/news/articles/cjrv77gl4deo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Sun, 26 Jul 2026 10:26:05 GMT",
+      "source": "BBC",
+      "summary": "The latest attacks come two days after a clash between settlers and Palestinians near the village of Tell, which left four Palestinians and two Israelis dead."
     },
     {
       "title": "India's 'cockroach' protest called off after education minister quits",
@@ -541,39 +579,11 @@
       "summary": "The CJP protest has been the most visible expression of public anger against PM Narendra Modi's government in recent years."
     },
     {
-      "title": "Colombia’s Trump-Endorsed President-Elect Was Once Investigated by U.S. Authorities",
-      "link": "https://www.nytimes.com/2026/07/25/world/americas/colombia-president-de-la-espriella-trump-us-investigation.html",
-      "pubDate": "Sat, 25 Jul 2026 17:20:59 +0000",
-      "source": "NYT World",
-      "summary": "Colombia’s president-elect, a lawyer, represented accused drug traffickers, among others. While living in Miami, he himself was investigated by U.S. authorities, though never charged."
-    },
-    {
-      "title": "India’s Education Minister Steps Down in Victory for Cockroach Party Protesters",
-      "link": "https://www.nytimes.com/2026/07/25/world/asia/india-education-minister-resigns-cockroach-protests.html",
-      "pubDate": "Sat, 25 Jul 2026 17:07:41 +0000",
-      "source": "NYT World",
-      "summary": "The Cockroach Janta Party called an end to weeks of protests after the education minister resigned, a win for that movement even as deep-seated anger among young people remains."
-    },
-    {
-      "title": "Bus Collision in Syria Kills 35, Health Ministry Says",
-      "link": "https://www.nytimes.com/2026/07/25/world/middleeast/bus-collision-syria.html",
-      "pubDate": "Sat, 25 Jul 2026 14:25:19 +0000",
-      "source": "NYT World",
-      "summary": "The accident occurred when a civilian bus collided with another carrying members of the Syrian security forces on a highway in the center of the country."
-    },
-    {
       "title": "Trump takes swipes at press during White House Correspondents' Dinner",
       "link": "https://www.bbc.co.uk/news/articles/cd7le4ylev2o?at_medium=RSS&at_campaign=rss",
       "pubDate": "Sat, 25 Jul 2026 13:51:07 GMT",
       "source": "BBC",
       "summary": "The event celebrated press freedom after the first dinner was cancelled by a shooting in April."
-    },
-    {
-      "title": "Iran Journey Reveals Society’s Wartime Defiance and Hope",
-      "link": "https://www.nytimes.com/2026/07/25/world/middleeast/iran-war-journey-scars.html",
-      "pubDate": "Sat, 25 Jul 2026 12:11:26 +0000",
-      "source": "NYT World",
-      "summary": "From the capital, Tehran, to the holy city of Mashhad, the Iran I saw was a nation of many layers: defiant but also weary, despairing but hopeful."
     },
     {
       "title": "Pete Hegseth’s Crisis of Masculinity",
@@ -588,13 +598,6 @@
       "pubDate": "Sat, 25 Jul 2026 10:10:00 +0000",
       "source": "The Intercept",
       "summary": "An angecywide memo reinstated ICE vehicle stops with all-new restrictive policy guidelines.\nThe post Leaked Email Reveals New Requirements for ICE Vehicle Stops appeared first on The Intercept."
-    },
-    {
-      "title": "Iran-backed Houthis claim missile attack on Saudi Arabia",
-      "link": "https://www.bbc.co.uk/news/articles/cj9d27v70j1o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Sat, 25 Jul 2026 06:34:40 GMT",
-      "source": "BBC",
-      "summary": "US military says it disabled a tanker that was attempting to evade the American blockade on Iranian ports."
     },
     {
       "title": "Shahed-Type Drones Filmed During Mali Village Attacks",
@@ -720,26 +723,34 @@
   ],
   "syndicate_journal": [
     {
-      "title": "Mamdani Is Right. Netanyahu Belongs Behind Bars.",
+      "title": "Jimothy the Raccoon Survived Against the Odds, a Testament to Sophisticated Brains and Devoted Mothers",
+      "link": "https://nautil.us/jimothy-the-raccoon-survived-against-the-odds-a-testament-to-sophisticated-brains-and-devoted-mothers-1283021/",
+      "summary": "Surviving in the wild is no small feat for animals, especially ones like Jimothy, with rare conditions and yet he persevered to viral celebration, thanks to an adaptable brain and a caring mother\nThe post Jimothy the Raccoon Survived Against the Odds, a Testament to Sophisticated Brains and Devoted ",
+      "pubDate": "Sun, 26 Jul 2026 14:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "Ottawa Has Stuck By the Charity Behind the Nazi Gaffe",
       "link": "",
-      "summary": "In a  released earlier this week, New York City Mayor Zohran Mamdani sits behind his desk and looks directly at the camera. He starts with a stark declaration: “Benjamin Netanyahu is a war criminal, the architect of a horrific genocide against the Palestinian people.”video\nAs he goes on, he soberly ",
-      "pubDate": "2026-07-25T16:21:40.215Z",
+      "summary": "The Canadian government scuttled plans to display hundreds of names on Ottawa’s controversial “victims of communism” monument, after officials  that individuals listed for commemoration, in the bloodless vernacular of bureaucratese, did not “align with Canadian values.”concluded\n“After a thorough re",
+      "pubDate": "2026-07-26T12:30:00.114Z",
       "domain": "politics",
       "source": "Jacobin"
     },
     {
-      "title": "Christopher Nolan’s The Odyssey: A Dissenter’s View",
+      "title": "College-Educated Workers Occupy Key Nodes of the Economy",
       "link": "",
-      "summary": "Should I lead off with how much I hate Christopher Nolan movies in general, or how much I hate Christopher Nolan’s  in particular?The Odyssey\nI’m so aware of my hatred for Christopher Nolan movies in general that I tried sincerely to suspend that hatred in order to watch . Partly because the advance",
-      "pubDate": "2026-07-25T15:16:44.986Z",
+      "summary": "In the spring of 2022, a group of Chicago Starbucks workers and organizers sat together after filing their union election paperwork, radiating pride and anxiety. When the logistical talk had wound down and everyone had fallen silent, one worker noted that “this is the first time I’ve felt purpose in",
+      "pubDate": "2026-07-26T12:00:00.073Z",
       "domain": "politics",
       "source": "Jacobin"
     },
     {
-      "title": "India’s “Cockroach” Protest Movement Faces State Repression",
+      "title": "The Cockroach Protests Are Reviving India’s Ailing Democracy",
       "link": "",
-      "summary": "On the night of July 20, thousands of young protesters from across India slept on footpaths near the Jantar Mantar protest site in New Delhi ahead of a planned march on Parliament. The march, dubbed “Chalo Sansad,” was organized by the youth-led  (CJP). The protest movement began on June 20 in respo",
-      "pubDate": "2026-07-25T13:39:07.442Z",
+      "summary": "The student protests in India trace their origins to a satirical social media page called the “Cockroach Janta Party” (CJP). Activist Abhijeet Dipke created the page in response to a disparaging remark from the chief justice of India, who likened youth activists to “cockroaches” for questioning the ",
+      "pubDate": "2026-07-26T11:30:00.015Z",
       "domain": "politics",
       "source": "Jacobin"
     },
@@ -772,14 +783,6 @@
       "link": "https://nautil.us/how-an-inbred-snake-invader-took-over-an-island-paradise-1283018/",
       "summary": "Hidden genetic diversity may have given it an advantage  \nThe post How an Inbred Snake Invader Took Over an Island Paradise appeared first on Nautilus.",
       "pubDate": "Fri, 24 Jul 2026 18:35:31 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
-      "title": "When Stupid Was a Diagnosis",
-      "link": "https://nautil.us/when-stupid-was-a-diagnosis-1282984/",
-      "summary": "A dark history that is in danger of returning as support for people with disabilities withers\nThe post When Stupid Was a Diagnosis appeared first on Nautilus.",
-      "pubDate": "Fri, 24 Jul 2026 17:00:00 +0000",
       "domain": "science",
       "source": "Nautilus"
     },
@@ -986,64 +989,64 @@
   ],
   "misinfo_toilet": [
     {
-      "headline": "Israeli settlers set fire to mosque in occupied West Bank",
-      "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
-      "splice": "Israeli settlers set fire to mosque in occupied West Bank the system notes that the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
-      "seed": 20260734
-    },
-    {
-      "headline": "Joshua comes back twice to knock out Prenga and set up Fury showdown",
-      "fragment": "It is at work everywhere, functioning smoothly at times, at other times in fits and starts. It breathes, it heats, it eats. It shits and fucks.",
-      "splice": "Joshua comes back twice to knock out Prenga and set up Fury showdown underneath it is at work everywhere, functioning smoothly at times, at other times in fits and starts. It breathes, it heats, it eats. It shits and fucks.",
-      "seed": 20260735
-    },
-    {
-      "headline": "India's 'cockroach' protest called off after education minister quits",
+      "headline": "More than 360,000 evacuated as wildfires rage in France and Spain",
       "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "splice": "India's 'cockroach' protest called off after education minister quits insofar as the breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "seed": 20260736
-    },
-    {
-      "headline": "Bus Collision in Syria Kills 35, Health Ministry Says",
-      "fragment": "Antagonism is not now located externally, in the face-off between class blocs, but internally, in the psychology of the worker.",
-      "splice": "Bus Collision in Syria Kills 35, Health Ministry Says while antagonism is not now located externally, in the face-off between class blocs, but internally, in the psychology of the worker.",
-      "seed": 20260737
-    },
-    {
-      "headline": "Hundreds of Thousands Flee as Fires Rage in Spain and France",
-      "fragment": "It is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
-      "splice": "Hundreds of Thousands Flee as Fires Rage in Spain and France the system notes that it is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
-      "seed": 20260738
-    },
-    {
-      "headline": "France battles fire 'whirlwinds' as another 55,000 evacuated ",
-      "fragment": "If it is true, for instance, that depression is caused by low serotonin levels, it would still be necessary to explain why particular individuals have low serotonin levels.",
-      "splice": "France battles fire 'whirlwinds' as another 55,000 evacuated  the system notes that if it is true, for instance, that depression is caused by low serotonin levels, it would still be necessary to explain why particular individuals have low serotonin levels.",
-      "seed": 20260739
-    },
-    {
-      "headline": "Identifying the Crypto Entrepreneur Linked to Popular Forum Trading in ‘Leaked’ Nudes of Women",
-      "fragment": "This is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
-      "splice": "Identifying the Crypto Entrepreneur Linked to Popular Forum Trading in ‘Leaked’ Nudes of Women the signal resolves into this is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
-      "seed": 20260740
-    },
-    {
-      "headline": "India’s Education Minister Steps Down in Victory for Cockroach Party Protesters",
-      "fragment": "Everywhere it is machines—real ones, not figurative ones: machines driving other machines, machines being driven by other machines, with all the necessary couplings and connections.",
-      "splice": "India’s Education Minister Steps Down in Victory for Cockroach Party Protesters the signal resolves into everywhere it is machines—real ones, not figurative ones: machines driving other machines, machines being driven by other machines, with all the necessary couplings and connections.",
-      "seed": 20260741
-    },
-    {
-      "headline": "Iran-backed Houthis claim missile attack on Saudi Arabia",
-      "fragment": "It is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
-      "splice": "Iran-backed Houthis claim missile attack on Saudi Arabia as if it is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
+      "splice": "More than 360,000 evacuated as wildfires rage in France and Spain insofar as the breast is a machine that produces milk, and the mouth a machine coupled to it.",
       "seed": 20260742
     },
     {
-      "headline": "Trump takes swipes at press during White House Correspondents' Dinner",
-      "fragment": "In the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
-      "splice": "Trump takes swipes at press during White House Correspondents' Dinner the system notes that in the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
+      "headline": "The Accidental Hero Who Faced Down India’s Government",
+      "fragment": "Antagonism is not now located externally, in the face-off between class blocs, but internally, in the psychology of the worker.",
+      "splice": "The Accidental Hero Who Faced Down India’s Government while antagonism is not now located externally, in the face-off between class blocs, but internally, in the psychology of the worker.",
       "seed": 20260743
+    },
+    {
+      "headline": "Tunisia grapples with five years of crisis since Saied’s power grab",
+      "fragment": "It is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
+      "splice": "Tunisia grapples with five years of crisis since Saied’s power grab the system notes that it is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
+      "seed": 20260744
+    },
+    {
+      "headline": "U.S.-Iran War Pauses for 2nd Straight Day With Both Sides Holding Off on Strikes",
+      "fragment": "If it is true, for instance, that depression is caused by low serotonin levels, it would still be necessary to explain why particular individuals have low serotonin levels.",
+      "splice": "U.S.-Iran War Pauses for 2nd Straight Day With Both Sides Holding Off on Strikes the system notes that if it is true, for instance, that depression is caused by low serotonin levels, it would still be necessary to explain why particular individuals have low serotonin levels.",
+      "seed": 20260745
+    },
+    {
+      "headline": "Officials Call Attack Near Berlin Pride Celebration a ‘Terror Attack’",
+      "fragment": "This is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
+      "splice": "Officials Call Attack Near Berlin Pride Celebration a ‘Terror Attack’ the signal resolves into this is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
+      "seed": 20260746
+    },
+    {
+      "headline": "Senator Whitehouse: Netanyahu a ‘walking provocation’ for Americans",
+      "fragment": "Everywhere it is machines—real ones, not figurative ones: machines driving other machines, machines being driven by other machines, with all the necessary couplings and connections.",
+      "splice": "Senator Whitehouse: Netanyahu a ‘walking provocation’ for Americans the signal resolves into everywhere it is machines—real ones, not figurative ones: machines driving other machines, machines being driven by other machines, with all the necessary couplings and connections.",
+      "seed": 20260747
+    },
+    {
+      "headline": "U.S. Website Gave False Approval to Green Card Applicants — Then Blamed Glitch and Took It Away",
+      "fragment": "It is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
+      "splice": "U.S. Website Gave False Approval to Green Card Applicants — Then Blamed Glitch and Took It Away as if it is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
+      "seed": 20260748
+    },
+    {
+      "headline": "Pete Hegseth’s Crisis of Masculinity",
+      "fragment": "In the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
+      "splice": "Pete Hegseth’s Crisis of Masculinity the system notes that in the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
+      "seed": 20260749
+    },
+    {
+      "headline": "Israeli settlers set fire to mosques, cars and farm land in West Bank, Palestinians say",
+      "fragment": "Over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
+      "splice": "Israeli settlers set fire to mosques, cars and farm land in West Bank, Palestinians say insofar as over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
+      "seed": 20260750
+    },
+    {
+      "headline": "Lando Norris wins Hungarian Grand Prix for first F1 triumph in 2026",
+      "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
+      "splice": "Lando Norris wins Hungarian Grand Prix for first F1 triumph in 2026 within which the revolutionary lives in the gap which separates technical progress from social totality.",
+      "seed": 20260751
     }
   ]
 }
