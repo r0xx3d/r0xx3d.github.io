@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T14:13:35.165Z",
+  "generated_at": "2026-07-28T16:42:06.067Z",
   "threat_intel": {
     "cisa_kev": [
       {
@@ -232,9 +232,79 @@
     ],
     "urlhaus": [
       {
-        "id": "3892982",
-        "date_added": "2026-07-28 13:52:25",
-        "url": "http://182.117.43.4:35927/i",
+        "id": "3893079",
+        "date_added": "2026-07-28 16:07:19",
+        "url": "http://91.199.133.133:8080/backup_old/real_mips",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "mips",
+          "mirai",
+          "opendir",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3893080",
+        "date_added": "2026-07-28 16:07:19",
+        "url": "http://91.199.133.133:8080/backup_old/real_arm64",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "arm",
+          "elf",
+          "mirai",
+          "opendir",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3893076",
+        "date_added": "2026-07-28 16:06:23",
+        "url": "http://91.199.133.133:8080/backup_old/real_x86_64",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "mirai",
+          "opendir",
+          "ua-wget",
+          "x86"
+        ]
+      },
+      {
+        "id": "3893077",
+        "date_added": "2026-07-28 16:06:23",
+        "url": "http://91.199.133.133:8080/backup_old/real_mipsel",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "mips",
+          "mirai",
+          "opendir",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3893078",
+        "date_added": "2026-07-28 16:06:23",
+        "url": "http://91.199.133.133:8080/backup_old/real_arm",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "arm",
+          "elf",
+          "mirai",
+          "opendir",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3893075",
+        "date_added": "2026-07-28 16:05:17",
+        "url": "http://182.117.43.4:35927/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -245,9 +315,22 @@
         ]
       },
       {
-        "id": "3892981",
-        "date_added": "2026-07-28 13:48:25",
-        "url": "http://91.153.133.160:48556/i",
+        "id": "3893074",
+        "date_added": "2026-07-28 16:01:10",
+        "url": "http://112.248.187.137:46314/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3893073",
+        "date_added": "2026-07-28 15:59:19",
+        "url": "http://59.91.116.175:52715/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -259,9 +342,9 @@
         ]
       },
       {
-        "id": "3892980",
-        "date_added": "2026-07-28 13:46:19",
-        "url": "http://109.171.67.100:11548/i",
+        "id": "3893072",
+        "date_added": "2026-07-28 15:40:22",
+        "url": "http://115.55.54.124:46531/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -272,173 +355,76 @@
         ]
       },
       {
-        "id": "3892979",
-        "date_added": "2026-07-28 13:44:11",
-        "url": "http://204.44.69.216/93/goodthingswithbestnetworkingskillcomingfromtheheartforme.js",
+        "id": "3893071",
+        "date_added": "2026-07-28 15:32:25",
+        "url": "http://59.91.116.175:52715/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "js",
-          "opendir",
-          "PureLogsStealer"
+          "32-bit",
+          "arm",
+          "elf",
+          "mirai",
+          "Mozi"
         ]
       },
       {
-        "id": "3892978",
-        "date_added": "2026-07-28 13:44:08",
-        "url": "http://204.44.69.216/93/ecce/givenmethebestthignswithbetterplacescomingfromthebest.hta",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "hta",
-          "opendir",
-          "PureLogsStealer"
-        ]
-      },
-      {
-        "id": "3892977",
-        "date_added": "2026-07-28 13:44:05",
-        "url": "http://62.60.226.140/files/5851730241/zxnBt4G.exe",
+        "id": "3893070",
+        "date_added": "2026-07-28 15:31:11",
+        "url": "https://malaysianpastrybakery.org/teamm.ps1",
         "url_status": "offline",
         "threat": "malware_download",
         "tags": [
-          "d52f85",
-          "dropped-by-amadey"
+          "ascii",
+          "Formbook",
+          "powershell",
+          "ps1"
         ]
       },
       {
-        "id": "3892972",
-        "date_added": "2026-07-28 13:38:07",
-        "url": "http://129.121.110.105/14d",
+        "id": "3893067",
+        "date_added": "2026-07-28 15:29:10",
+        "url": "https://pub-45a83f302a1943ed8d62418c2af947ef.r2.dev/ttt.png",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "mirai",
-          "ua-wget"
+          "xworm"
         ]
       },
       {
-        "id": "3892973",
-        "date_added": "2026-07-28 13:38:07",
-        "url": "http://129.121.110.105/Qva",
+        "id": "3893068",
+        "date_added": "2026-07-28 15:29:10",
+        "url": "https://sweet-snowflake-8a7e.uploadesclintesss.workers.dev/hGziy",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "ua-wget"
+          "xworm"
         ]
       },
       {
-        "id": "3892974",
-        "date_added": "2026-07-28 13:38:07",
-        "url": "http://129.121.110.105/EMu",
+        "id": "3893069",
+        "date_added": "2026-07-28 15:29:10",
+        "url": "https://sunix-technology.com/admin/niceimg_122852.png",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "ua-wget"
+          "xworm"
         ]
       },
       {
-        "id": "3892975",
-        "date_added": "2026-07-28 13:38:07",
-        "url": "http://129.121.110.105/djr",
+        "id": "3893066",
+        "date_added": "2026-07-28 15:29:08",
+        "url": "https://sunix-technology.com/admin/newMSI_PRO.png",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "ua-wget"
+          "xworm"
         ]
       },
       {
-        "id": "3892976",
-        "date_added": "2026-07-28 13:38:07",
-        "url": "http://129.121.110.105/FtoP",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "mirai",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3892971",
-        "date_added": "2026-07-28 13:24:31",
-        "url": "http://94.154.43.42:12113/exec_binary",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "elf",
-          "mirai",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3892970",
-        "date_added": "2026-07-28 13:17:16",
-        "url": "http://109.171.67.100:11548/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3892968",
-        "date_added": "2026-07-28 13:10:12",
-        "url": "http://221.15.21.172:35153/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3892969",
-        "date_added": "2026-07-28 13:10:12",
-        "url": "http://113.237.98.82:45619/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3892967",
-        "date_added": "2026-07-28 13:07:17",
-        "url": "http://221.15.21.172:35153/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3892966",
-        "date_added": "2026-07-28 12:55:16",
-        "url": "http://112.242.84.50:42236/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3892965",
-        "date_added": "2026-07-28 12:50:10",
-        "url": "http://105.186.73.125:55379/bin.sh",
+        "id": "3893065",
+        "date_added": "2026-07-28 15:17:17",
+        "url": "http://121.205.208.226:40109/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -450,9 +436,9 @@
         ]
       },
       {
-        "id": "3892964",
-        "date_added": "2026-07-28 12:49:35",
-        "url": "http://112.242.84.50:42236/bin.sh",
+        "id": "3893064",
+        "date_added": "2026-07-28 15:14:21",
+        "url": "http://115.55.54.124:46531/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -463,69 +449,120 @@
         ]
       },
       {
-        "id": "3892963",
-        "date_added": "2026-07-28 12:40:16",
-        "url": "http://182.127.122.39:55560/bin.sh",
+        "id": "3893063",
+        "date_added": "2026-07-28 15:08:22",
+        "url": "http://94.154.43.88/iran.mipsel",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "32-bit",
           "elf",
-          "mips",
-          "Mozi"
+          "mirai",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3893061",
+        "date_added": "2026-07-28 15:07:23",
+        "url": "http://94.154.43.88/iran.sparc",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "mirai",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3893062",
+        "date_added": "2026-07-28 15:07:23",
+        "url": "http://94.154.43.88/iran.armv5l",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "mirai",
+          "ua-wget"
         ]
       }
     ]
   },
   "world_monitor": [
     {
-      "title": "Live Updates: Many Feared Trapped in Mall Collapse After Japan Earthquake, Officials Say",
+      "title": "Gironde wildfires flare up as French region braces for new 40C heatwave",
+      "link": "https://www.bbc.co.uk/news/articles/c5yd8gly1ydo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Tue, 28 Jul 2026 16:14:03 GMT",
+      "source": "BBC",
+      "summary": "Firefighters are braced for a sharp rise in temperatures on Wednesday, which could complicate the containment of wildfires."
+    },
+    {
+      "title": "As U.S. Pauses Strikes, Iran Is No Rush to Resume Cease-Fire Talks",
+      "link": "https://www.nytimes.com/2026/07/28/world/middleeast/iran-war-us-trump.html",
+      "pubDate": "Tue, 28 Jul 2026 15:46:30 +0000",
+      "source": "NYT World",
+      "summary": "Amid a reprieve in the fighting, Iran’s leaders are betting that they can endure more pain than President Trump can, and they have leverage over the Strait of Hormuz, analysts say."
+    },
+    {
+      "title": "Is Netanyahu’s Trump card losing its power in Israel?",
+      "link": "https://www.aljazeera.com/news/2026/7/28/is-netanyahus-trump-card-losing-its-power-in-israel?traffic_source=rss",
+      "pubDate": "Tue, 28 Jul 2026 15:39:42 +0000",
+      "source": "Al Jazeera",
+      "summary": "As US ties fray, Netanyahu's claim to unrivalled influence in Washington is under growing scrutiny."
+    },
+    {
+      "title": "Uefa reacts with fury to Infantino World Cup plan",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c8xng9894z0o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Tue, 28 Jul 2026 15:36:29 GMT",
+      "source": "BBC",
+      "summary": "European football's governing body Uefa reacts furiously to proposals from Fifa to seek private investment in its competitions, including the World Cup."
+    },
+    {
+      "title": "Iran rejects Trump frozen funds plan, warns ships of Hormuz transit ban",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/7/28/iran-rejects-trump-frozen-funds-plan-warns-ships-of-hormuz-transit-ban?traffic_source=rss",
+      "pubDate": "Tue, 28 Jul 2026 15:28:33 +0000",
+      "source": "Al Jazeera",
+      "summary": "Iran rejected Trump’s claim that ships damaged by Iran in the Gulf would be compensated from frozen Iranian funds."
+    },
+    {
+      "title": "Trump expresses frustration with Netanyahu before White House meeting",
+      "link": "https://www.aljazeera.com/news/2026/7/28/trump-expresses-frustration-with-netanyahu-before-white-house-meeting?traffic_source=rss",
+      "pubDate": "Tue, 28 Jul 2026 15:21:43 +0000",
+      "source": "Al Jazeera",
+      "summary": "US president says Iran talks progressing, reups threats if diplomacy fails before sit down with Israeli prime minister."
+    },
+    {
+      "title": "Many Feared Trapped in Mall Collapse After Japan Earthquake, Officials Say",
       "link": "https://www.nytimes.com/live/2026/07/28/world/japan-earthquake-kumamoto-tsunami",
-      "pubDate": "Tue, 28 Jul 2026 14:04:22 +0000",
+      "pubDate": "Tue, 28 Jul 2026 15:21:07 +0000",
       "source": "NYT World",
       "summary": "Emergency workers were racing to find people and extinguish fires after the 6.8 magnitude quake struck the southwestern prefecture of Kumamoto."
     },
     {
-      "title": "France and Spain brace for heatwave that could worsen raging wildfires",
-      "link": "https://www.aljazeera.com/news/2026/7/28/france-and-spain-brace-for-heatwave-that-could-worsen-raging-wildfires?traffic_source=rss",
-      "pubDate": "Tue, 28 Jul 2026 13:39:23 +0000",
+      "title": "German investigators find apparent motive after Berlin Pride attack",
+      "link": "https://www.aljazeera.com/news/2026/7/28/german-investigators-find-apparent-motive-after-berlin-pride-attack?traffic_source=rss",
+      "pubDate": "Tue, 28 Jul 2026 15:20:43 +0000",
       "source": "Al Jazeera",
-      "summary": "Both countries expect to see temperatures soar into Wednesday, which could cause the blazes to spread."
+      "summary": "Prosecutors say they uncover video of accused Berlin Pride attacker pledging allegiance to ISIL (ISIS)."
     },
     {
       "title": "France and Spain Race to Contain Fires Before Some Areas Reach 104 Degrees",
       "link": "https://www.nytimes.com/2026/07/28/world/europe/wildfires-france-spain.html",
-      "pubDate": "Tue, 28 Jul 2026 13:35:56 +0000",
+      "pubDate": "Tue, 28 Jul 2026 15:19:20 +0000",
       "source": "NYT World",
-      "summary": "Faced with unprecedented blazes, firefighters in both countries are using a brief window of opportunity to bring the flames under control before temperatures spike."
+      "summary": "Faced with massive blazes, firefighters in both countries are using a brief window of opportunity to bring the flames under control before temperatures spike."
     },
     {
-      "title": "Roberto Mancini to be named Italy head coach for second time, source says",
-      "link": "https://www.aljazeera.com/sports/2026/7/28/mancini-to-become-italy-head-coach-for-second-time-source-says?traffic_source=rss",
-      "pubDate": "Tue, 28 Jul 2026 13:19:48 +0000",
-      "source": "Al Jazeera",
-      "summary": "Mancini coached the national side in 2018-2023 and reportedly returns to the job with Italy having missed the World Cup."
+      "title": "Zelensky and Trump Meet at the White House. Has Their Relationship Thawed?",
+      "link": "https://www.nytimes.com/2026/07/28/world/europe/zelensky-trump-meeting-ukraine-war-russia.html",
+      "pubDate": "Tue, 28 Jul 2026 15:06:26 +0000",
+      "source": "NYT World",
+      "summary": "President Trump meets his Ukrainian counterpart in Washington this week. President Volodymyr Zelensky will also attend the funeral of Senator Lindsey Graham."
     },
     {
-      "title": "Israeli soldier runs marathon around Gaza outpost",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/7/28/israeli-soldier-runs-marathon-around-gaza-outpost?traffic_source=rss",
-      "pubDate": "Tue, 28 Jul 2026 13:18:48 +0000",
+      "title": "FIFA World Cup: For India, qualification is still just a distant dream",
+      "link": "https://www.aljazeera.com/sports/2026/7/28/fifa-world-cup-for-india-football-qualification-is-still-just-a-distant-dream?traffic_source=rss",
+      "pubDate": "Tue, 28 Jul 2026 14:45:14 +0000",
       "source": "Al Jazeera",
-      "summary": "An Israeli soldier filmed himself running a marathon around a military outpost in Gaza."
-    },
-    {
-      "title": "Tate brothers face at least two more weeks in US jail as bail bid reviewed",
-      "link": "https://www.aljazeera.com/news/2026/7/28/tate-brothers-face-at-least-two-more-weeks-in-us-jail-as-bail-bid-reviewed?traffic_source=rss",
-      "pubDate": "Tue, 28 Jul 2026 13:17:24 +0000",
-      "source": "Al Jazeera",
-      "summary": "The conditions faced by the brothers in prison in Miami are a far cry from the luxury lifestyle they once flaunted."
-    },
-    {
-      "title": "Trump says ‘good chance’ of progress in Iran talks. What we know",
-      "link": "https://www.aljazeera.com/news/2026/7/28/trump-says-good-chance-of-progress-in-iran-talks-what-we-know?traffic_source=rss",
-      "pubDate": "Tue, 28 Jul 2026 13:06:02 +0000",
-      "source": "Al Jazeera",
-      "summary": "Negotiators are trying to break the deadlock over transit fees and management of the Strait of Hormuz."
+      "summary": "India failed to qualify for next year's Asian Cup, making a FIFA World Cup 2030 or 2034 appearance unlikely."
     },
     {
       "title": "'A lover of life' - Seattle pays tribute to food festival shooting victims ",
@@ -535,39 +572,11 @@
       "summary": "Families grieved on Monday as they remembered the three people killed in a shooting at a food festival."
     },
     {
-      "title": "Odyssey translator writes scathing review of Nolan film adaptation",
-      "link": "https://www.bbc.co.uk/news/articles/cd692n215ndo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Tue, 28 Jul 2026 09:45:10 GMT",
-      "source": "BBC",
-      "summary": "The film has won rave reviews from film critics but a translator of Homer's work was less than impressed."
-    },
-    {
-      "title": "As U.S. Pauses Strikes, Iran Is No Rush to Resume Cease-Fire Talks",
-      "link": "https://www.nytimes.com/2026/07/28/world/middleeast/iran-war-us-trump.html",
-      "pubDate": "Tue, 28 Jul 2026 09:44:41 +0000",
-      "source": "NYT World",
-      "summary": "Amid a reprieve in the fighting, Iran’s leaders are betting that they can endure more pain than President Trump and have leverage over the Strait of Hormuz, analysts say."
-    },
-    {
       "title": "US walks out of UN Security Council meeting during France's remarks",
       "link": "https://www.bbc.co.uk/news/articles/c87nj3w9gxjo?at_medium=RSS&at_campaign=rss",
       "pubDate": "Tue, 28 Jul 2026 09:32:25 GMT",
       "source": "BBC",
       "summary": "The row sparked after the US joined North Korea and Russia in voting against extending the term of the UN high commissioner for human rights."
-    },
-    {
-      "title": "Zidane confirmed as France head coach",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cpd741qn2y9o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Tue, 28 Jul 2026 09:03:49 GMT",
-      "source": "BBC",
-      "summary": "Former Real Madrid manager Zinedine Zidane has been confirmed as the head coach of the France national team."
-    },
-    {
-      "title": "Zelensky and Trump Will Meet at the White House. Has Their Relationship Thawed?",
-      "link": "https://www.nytimes.com/2026/07/28/world/europe/zelensky-trump-meeting-ukraine-war-russia.html",
-      "pubDate": "Tue, 28 Jul 2026 08:00:38 +0000",
-      "source": "NYT World",
-      "summary": "President Trump will meet his Ukrainian counterpart in Washington this week. President Volodymyr Zelensky will also attend the funeral of Senator Lindsey Graham."
     },
     {
       "title": "The cocaine superhighway from Ecuador to Europe - the BBC reports on gangs and the police fightback",
@@ -721,6 +730,22 @@
   ],
   "syndicate_journal": [
     {
+      "title": "Why We Stopped Burying Our Dead at Home",
+      "link": "https://nautil.us/why-we-stopped-burying-our-dead-at-home-1283097/",
+      "summary": "Home burials declined throughout antiquity\nThe post Why We Stopped Burying Our Dead at Home appeared first on Nautilus.",
+      "pubDate": "Tue, 28 Jul 2026 16:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "“Medics for the People” Turns Health Care Into Organizing",
+      "link": "",
+      "summary": "Dr Hanne Bosselaers had already seen half a dozen patients by the time the young man came in. The patient worked both as a driver and a building worker to support his family. He’d broken his wrist on his construction job. After examining him, Bosselaers told him he would never regain full mobility a",
+      "pubDate": "2026-07-28T15:43:50.822Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
       "title": "The Ultrarich Have Put a Price Tag on History",
       "link": "",
       "summary": "Barron London is an antiques and jewelry business located in Mayfair, one of the London’s wealthiest neighborhoods. At first glance its storefront seems inconspicuous — walk past in a hurry and you are unlikely to notice anything at all. But behind this unassuming facade is a private showroom contai",
@@ -791,22 +816,6 @@
       "pubDate": "Tue, 28 Jul 2026 00:00:00 -0400",
       "domain": "science",
       "source": "arXiv: cs.AI"
-    },
-    {
-      "title": "Mysterious Human Relative Was Bigger Than Previously Thought",
-      "link": "https://nautil.us/mysterious-human-relative-was-bigger-than-previously-thought-1283071/",
-      "summary": "Paranthropus boisei footprints offer clues to their size and social dynamics\nThe post Mysterious Human Relative Was Bigger Than Previously Thought appeared first on Nautilus.",
-      "pubDate": "Mon, 27 Jul 2026 22:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
-      "title": "Socialists Aren’t Naive About Human Nature",
-      "link": "",
-      "summary": "Many have long chastised the Left for its supposed naivete about human nature. To these critics, the Left thinks that human beings are by nature good. Left-wingers of all stripes of course recognize that there are many evils in the world — otherwise they wouldn’t be on the Left. But, the criticism g",
-      "pubDate": "2026-07-27T21:15:58.501Z",
-      "domain": "politics",
-      "source": "Jacobin"
     },
     {
       "title": "A New Way That a Cow’s Inner World Shapes Earth’s Atmosphere",
@@ -889,14 +898,6 @@
       "source": "Quanta"
     },
     {
-      "title": "Journey to Robbers Cave",
-      "link": "https://behavioralscientist.org/journey-to-robbers-cave/",
-      "summary": "The year was 1948. Only three years had passed since the Axis powers signed the instrument of surrender effectively ending the Second World War. Fifty nations had taken part in the conflict that saw genocide and the first use of nuclear weapons. An estimated 50 million lives were lost and another 19",
-      "pubDate": "Sun, 19 Jul 2026 22:58:46 +0000",
-      "domain": "psychology",
-      "source": "Behavioral Scientist"
-    },
-    {
       "title": "Archie G. Norcross’ Maine Forest Fire Maps (1918–22)\n",
       "link": "https://publicdomainreview.org/collection/maine-forest-fire-maps",
       "summary": "Circular maps custom-made for the fire towers that once dotted the American wilderness.",
@@ -919,22 +920,6 @@
       "pubDate": "Wed, 08 Jul 2026 12:08:00 GMT",
       "domain": "history",
       "source": "Public Domain Review"
-    },
-    {
-      "title": "Behavioral Scientist’s Summer Book List 2026",
-      "link": "https://behavioralscientist.org/behavioral-scientists-summer-book-list-2026/",
-      "summary": "For your intellectual travels this summer, we’ve curated a baker’s dozen of behavioral science books newly published this year. Explore the mysteries of life and consciousness, glimpse the power of constraints and the games that define our lives, navigate life’s cliffs, and find the places that will",
-      "pubDate": "Sun, 05 Jul 2026 20:32:19 +0000",
-      "domain": "psychology",
-      "source": "Behavioral Scientist"
-    },
-    {
-      "title": "What It’s Like to Be…an Air Traffic Controller",
-      "link": "https://behavioralscientist.org/what-its-like-to-be-an-air-traffic-controller/",
-      "summary": "Sequencing departures like a moving puzzle, scrambling when a jet takes off without clearance, and catching what radar misses with a glance out the window with Michael Rejent, an air traffic controller. What does \"tally ho\" mean to a pilot? What phrase makes every controller in the cab look up?\n\n\n\n\n",
-      "pubDate": "Sun, 05 Jul 2026 16:35:59 +0000",
-      "domain": "psychology",
-      "source": "Behavioral Scientist"
     },
     {
       "title": "Best of SAPIENS 2025",
@@ -985,25 +970,25 @@
       "source": "ROAR Magazine"
     },
     {
-      "title": "Attitudes toward sports, academic motivation, and academic life satisfaction: a cross-sectional analysis of indirect associations",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1906871",
-      "summary": "BackgroundAcademic life satisfaction is an important indicator of students' experiences in higher education, yet the mechanisms linking sport-related attitudes to academic life remain unclear. Guided by Self-Determination Theory, this study examined the associations among attitudes toward sports, ac",
+      "title": "The influence of foreign language and a word-color unitization strategy on the age-related associative deficit",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1824417",
+      "summary": "IntroductionOlder adults typically show a disproportionate decline in associative, relative to item, memory. Here, we investigated the role of stimulus presentation in a foreign language, as well as the impact of a unitization instruction for binding word-color pairs into a single unit, in this effe",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "Dynamic relationships among anxiety, psychological resilience, and academic engagement in junior secondary school students: a three-wave longitudinal study",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1885038",
-      "summary": "This study investigated the dynamic temporal relationships among anxiety, psychological resilience, and academic engagement among junior secondary school students, with particular attention to the longitudinal mediating role of psychological resilience in the relationship between anxiety and academi",
+      "title": "Clocks, events, and the ontology of perceiving and acting",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1858938",
+      "summary": "James Gibson introduced the concept of ecological physics. Gibson asserted that contemporary physics, such as general relativity, was not relevant to perceiving and acting. One area in which Gibson claimed that ecological physics differed from contemporary physics was in concepts of time and tempora",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "Correction: Development and validation of the organizational health behavior index: a mixed-methods instrument for measuring organizational health",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1923122",
-      "summary": "",
+      "title": "EEG signatures of mindfulness-based artistic–contemplative sound interventions: a pilot study on aesthetic states of consciousness",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1846392",
+      "summary": "BackgroundMindfulness-based artistic–contemplative interventions, including auditory “sound pills,” have increasingly been investigated using neurophysiological measures such as electroencephalography (EEG) to promote psychological well-being and attentional regulation. However, the neurophysiologic",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
@@ -1011,64 +996,64 @@
   ],
   "misinfo_toilet": [
     {
-      "headline": "Trump says ‘good chance’ of progress in Iran talks. What we know",
-      "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "splice": "Trump says ‘good chance’ of progress in Iran talks. What we know insofar as the breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "seed": 20260742
-    },
-    {
-      "headline": "Zidane confirmed as France head coach",
-      "fragment": "Antagonism is not now located externally, in the face-off between class blocs, but internally, in the psychology of the worker.",
-      "splice": "Zidane confirmed as France head coach while antagonism is not now located externally, in the face-off between class blocs, but internally, in the psychology of the worker.",
-      "seed": 20260743
-    },
-    {
-      "headline": "Odyssey translator writes scathing review of Nolan film adaptation",
-      "fragment": "It is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
-      "splice": "Odyssey translator writes scathing review of Nolan film adaptation the system notes that it is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
+      "headline": "Many Feared Trapped in Mall Collapse After Japan Earthquake, Officials Say",
+      "fragment": "Art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
+      "splice": "Many Feared Trapped in Mall Collapse After Japan Earthquake, Officials Say in the void where art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
       "seed": 20260744
     },
     {
-      "headline": "US walks out of UN Security Council meeting during France's remarks",
-      "fragment": "If it is true, for instance, that depression is caused by low serotonin levels, it would still be necessary to explain why particular individuals have low serotonin levels.",
-      "splice": "US walks out of UN Security Council meeting during France's remarks the system notes that if it is true, for instance, that depression is caused by low serotonin levels, it would still be necessary to explain why particular individuals have low serotonin levels.",
+      "headline": "Iran rejects Trump frozen funds plan, warns ships of Hormuz transit ban",
+      "fragment": "This is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
+      "splice": "Iran rejects Trump frozen funds plan, warns ships of Hormuz transit ban therefore this is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
       "seed": 20260745
     },
     {
-      "headline": "Israeli soldier runs marathon around Gaza outpost",
-      "fragment": "This is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
-      "splice": "Israeli soldier runs marathon around Gaza outpost the signal resolves into this is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
+      "headline": "FIFA World Cup: For India, qualification is still just a distant dream",
+      "fragment": "Over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
+      "splice": "FIFA World Cup: For India, qualification is still just a distant dream consequently over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
       "seed": 20260746
     },
     {
-      "headline": "Roberto Mancini to be named Italy head coach for second time, source says",
-      "fragment": "Everywhere it is machines—real ones, not figurative ones: machines driving other machines, machines being driven by other machines, with all the necessary couplings and connections.",
-      "splice": "Roberto Mancini to be named Italy head coach for second time, source says the signal resolves into everywhere it is machines—real ones, not figurative ones: machines driving other machines, machines being driven by other machines, with all the necessary couplings and connections.",
+      "headline": "Is Netanyahu’s Trump card losing its power in Israel?",
+      "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
+      "splice": "Is Netanyahu’s Trump card losing its power in Israel? because it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
       "seed": 20260747
     },
     {
-      "headline": "Shahed-Type Drones Filmed During Mali Village Attacks",
-      "fragment": "It is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
-      "splice": "Shahed-Type Drones Filmed During Mali Village Attacks as if it is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
+      "headline": "Zelensky and Trump Meet at the White House. Has Their Relationship Thawed?",
+      "fragment": "Underneath all reason lies delirium and drift.",
+      "splice": "Zelensky and Trump Meet at the White House. Has Their Relationship Thawed? which is to say underneath all reason lies delirium and drift.",
       "seed": 20260748
     },
     {
-      "headline": "The Right Seeks to Capitalize on Berlin Pride Attack — Even as It Poses Its Own Existential Threat to Queer Lives",
-      "fragment": "In the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
-      "splice": "The Right Seeks to Capitalize on Berlin Pride Attack — Even as It Poses Its Own Existential Threat to Queer Lives the system notes that in the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
+      "headline": "Rubio’s Paranoid Cuba Report Designed to “Justify a Military Attack on Cuba,” Says Democratic Rep.",
+      "fragment": "This is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
+      "splice": "Rubio’s Paranoid Cuba Report Designed to “Justify a Military Attack on Cuba,” Says Democratic Rep. the signal resolves into this is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
       "seed": 20260749
     },
     {
-      "headline": "Zelensky and Trump Will Meet at the White House. Has Their Relationship Thawed?",
-      "fragment": "Over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
-      "splice": "Zelensky and Trump Will Meet at the White House. Has Their Relationship Thawed? insofar as over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
+      "headline": "'A lover of life' - Seattle pays tribute to food festival shooting victims ",
+      "fragment": "The technocrat is the natural friend of the dictator—computers and dictatorship.",
+      "splice": "'A lover of life' - Seattle pays tribute to food festival shooting victims  insofar as the technocrat is the natural friend of the dictator—computers and dictatorship.",
       "seed": 20260750
     },
     {
-      "headline": "Tate brothers face at least two more weeks in US jail as bail bid reviewed",
-      "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
-      "splice": "Tate brothers face at least two more weeks in US jail as bail bid reviewed within which the revolutionary lives in the gap which separates technical progress from social totality.",
+      "headline": "Massive Wildfires Draw Close to Madrid",
+      "fragment": "Traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
+      "splice": "Massive Wildfires Draw Close to Madrid ...as traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
       "seed": 20260751
+    },
+    {
+      "headline": "France and Spain Race to Contain Fires Before Some Areas Reach 104 Degrees",
+      "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
+      "splice": "France and Spain Race to Contain Fires Before Some Areas Reach 104 Degrees the signal resolves into it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
+      "seed": 20260752
+    },
+    {
+      "headline": "German investigators find apparent motive after Berlin Pride attack",
+      "fragment": "We live in a world where there is more and more information, and less and less meaning.",
+      "splice": "German investigators find apparent motive after Berlin Pride attack meanwhile we live in a world where there is more and more information, and less and less meaning.",
+      "seed": 20260753
     }
   ]
 }
