@@ -1,7 +1,22 @@
 {
-  "generated_at": "2026-07-29T16:23:48.328Z",
+  "generated_at": "2026-07-29T19:20:44.244Z",
   "threat_intel": {
     "cisa_kev": [
+      {
+        "cveID": "CVE-2026-20316",
+        "vendorProject": "Cisco",
+        "product": "Secure Firewall Management Center (FMC)",
+        "vulnerabilityName": "Cisco Secure Firewall Management Center Use of Hard-coded Password Vulnerability",
+        "dateAdded": "2026-07-29",
+        "shortDescription": "Cisco Secure Firewall Management Center (FMC) formerly known as Firepower Management Center contains a use of hard-coded password vulnerability that could allow an unauthenticated, remote attacker to log in to an affected device using a low-privileged account to access sensitive data within the impacted systems.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-08-01",
+        "knownRansomwareCampaignUse": "Unknown",
+        "notes": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-fmc-static-cred-BET3Cjh ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-20316",
+        "cwes": [
+          "CWE-259"
+        ]
+      },
       {
         "cveID": "CVE-2025-68686",
         "vendorProject": "Fortinet",
@@ -213,28 +228,13 @@
         "cwes": [
           "CWE-1220"
         ]
-      },
-      {
-        "cveID": "CVE-2026-56164",
-        "vendorProject": "Microsoft",
-        "product": "SharePoint Server",
-        "vulnerabilityName": "Microsoft SharePoint Server Missing Authentication for Critical Function Vulnerability",
-        "dateAdded": "2026-07-14",
-        "shortDescription": "Microsoft SharePoint contains a missing authentication for critical function vulnerability that allows an unauthorized attacker to elevate privileges over a network.",
-        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "dueDate": "2026-07-17",
-        "knownRansomwareCampaignUse": "Unknown",
-        "notes": "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2026-56164 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-56164",
-        "cwes": [
-          "CWE-306"
-        ]
       }
     ],
     "urlhaus": [
       {
-        "id": "3893911",
-        "date_added": "2026-07-29 16:19:18",
-        "url": "http://112.242.183.234:58250/i",
+        "id": "3893956",
+        "date_added": "2026-07-29 19:01:35",
+        "url": "http://222.141.76.155:42372/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -245,9 +245,22 @@
         ]
       },
       {
-        "id": "3893910",
-        "date_added": "2026-07-29 16:06:12",
-        "url": "http://105.225.45.181:49165/i",
+        "id": "3893955",
+        "date_added": "2026-07-29 18:59:32",
+        "url": "http://115.48.160.16:39786/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3893954",
+        "date_added": "2026-07-29 18:50:26",
+        "url": "http://60.176.252.170:42159/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -259,22 +272,9 @@
         ]
       },
       {
-        "id": "3893909",
-        "date_added": "2026-07-29 15:48:31",
-        "url": "http://112.242.183.234:58250/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3893908",
-        "date_added": "2026-07-29 15:46:21",
-        "url": "http://105.224.29.237:48127/i",
+        "id": "3893953",
+        "date_added": "2026-07-29 18:46:37",
+        "url": "http://105.184.163.226:59621/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -286,10 +286,20 @@
         ]
       },
       {
-        "id": "3893907",
-        "date_added": "2026-07-29 15:44:17",
-        "url": "http://115.63.84.79:53096/i",
+        "id": "3893952",
+        "date_added": "2026-07-29 18:41:07",
+        "url": "http://119.179.253.64:33876/i",
         "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3893951",
+        "date_added": "2026-07-29 18:37:18",
+        "url": "http://125.40.64.214:46221/i",
+        "url_status": "offline",
         "threat": "malware_download",
         "tags": [
           "32-bit",
@@ -299,35 +309,69 @@
         ]
       },
       {
-        "id": "3893906",
-        "date_added": "2026-07-29 15:42:19",
-        "url": "http://115.50.227.121:51281/i",
-        "url_status": "online",
+        "id": "3893946",
+        "date_added": "2026-07-29 18:30:26",
+        "url": "http://45.90.163.37//i486",
+        "url_status": "offline",
         "threat": "malware_download",
         "tags": [
-          "32-bit",
           "elf",
-          "mips",
-          "Mozi"
+          "ua-wget",
+          "x86"
         ]
       },
       {
-        "id": "3893905",
-        "date_added": "2026-07-29 15:34:24",
-        "url": "http://110.37.100.201:58257/i",
-        "url_status": "online",
+        "id": "3893947",
+        "date_added": "2026-07-29 18:30:26",
+        "url": "http://45.90.163.37//powerpc",
+        "url_status": "offline",
         "threat": "malware_download",
         "tags": [
-          "32-bit",
           "elf",
-          "mips",
-          "Mozi"
+          "PowerPC",
+          "ua-wget"
         ]
       },
       {
-        "id": "3893904",
-        "date_added": "2026-07-29 15:26:12",
-        "url": "http://110.37.30.28:44380/bin.sh",
+        "id": "3893948",
+        "date_added": "2026-07-29 18:30:26",
+        "url": "http://45.90.163.37//x86_64",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "ua-wget",
+          "x86"
+        ]
+      },
+      {
+        "id": "3893949",
+        "date_added": "2026-07-29 18:30:26",
+        "url": "http://45.90.163.37//i586",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "ua-wget",
+          "x86"
+        ]
+      },
+      {
+        "id": "3893950",
+        "date_added": "2026-07-29 18:30:26",
+        "url": "http://45.90.163.37//arm6",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "arm",
+          "elf",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3893945",
+        "date_added": "2026-07-29 18:27:07",
+        "url": "http://219.154.78.241:55576/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -335,9 +379,9 @@
         ]
       },
       {
-        "id": "3893903",
-        "date_added": "2026-07-29 15:24:18",
-        "url": "http://110.37.20.126:52033/i",
+        "id": "3893944",
+        "date_added": "2026-07-29 18:18:26",
+        "url": "http://105.184.163.226:59621/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -349,19 +393,9 @@
         ]
       },
       {
-        "id": "3893902",
-        "date_added": "2026-07-29 15:22:06",
-        "url": "http://42.231.237.89:57399/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3893901",
-        "date_added": "2026-07-29 15:19:22",
-        "url": "http://115.48.148.255:58056/bin.sh",
+        "id": "3893943",
+        "date_added": "2026-07-29 18:10:16",
+        "url": "http://125.40.64.214:46221/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -372,9 +406,69 @@
         ]
       },
       {
-        "id": "3893900",
-        "date_added": "2026-07-29 15:05:22",
-        "url": "http://110.37.20.126:52033/bin.sh",
+        "id": "3893942",
+        "date_added": "2026-07-29 17:47:07",
+        "url": "http://222.138.151.105:36654/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3893941",
+        "date_added": "2026-07-29 17:21:36",
+        "url": "http://123.11.201.131:38238/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3893940",
+        "date_added": "2026-07-29 17:05:16",
+        "url": "https://104.249.10.66/malw5500.msi",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "104-249-10-66",
+          "connectwise"
+        ]
+      },
+      {
+        "id": "3893939",
+        "date_added": "2026-07-29 16:56:24",
+        "url": "http://123.13.48.160:33892/i",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3893938",
+        "date_added": "2026-07-29 16:53:07",
+        "url": "https://vmwrvtools.com/rvtools4.8.1.msi",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "msi",
+          "PythonRAT",
+          "RvTools",
+          "smokedham"
+        ]
+      },
+      {
+        "id": "3893937",
+        "date_added": "2026-07-29 16:49:21",
+        "url": "http://175.9.165.126:50484/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -383,117 +477,94 @@
           "elf",
           "mirai",
           "Mozi"
-        ]
-      },
-      {
-        "id": "3893899",
-        "date_added": "2026-07-29 14:59:15",
-        "url": "http://109.236.46.199:50732/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "arm",
-          "elf",
-          "mirai",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3893898",
-        "date_added": "2026-07-29 14:47:08",
-        "url": "http://61.52.46.142:56039/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3893897",
-        "date_added": "2026-07-29 14:41:19",
-        "url": "http://115.58.140.184:54228/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3893896",
-        "date_added": "2026-07-29 14:36:37",
-        "url": "http://115.57.253.89:52552/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3893895",
-        "date_added": "2026-07-29 14:36:36",
-        "url": "http://222.137.107.54:52378/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3893894",
-        "date_added": "2026-07-29 14:31:18",
-        "url": "https://193.26.115.6/Bin/ScreenConnect.ClientSetup.exe",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "193-26-115-6",
-          "connectwise",
-          "exe"
-        ]
-      },
-      {
-        "id": "3893893",
-        "date_added": "2026-07-29 14:31:16",
-        "url": "https://193.26.115.6/bin/support.client.exe",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "193-26-115-6",
-          "connectwise",
-          "exe"
-        ]
-      },
-      {
-        "id": "3893892",
-        "date_added": "2026-07-29 14:30:34",
-        "url": "http://45.90.163.37/i586",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mirai",
-          "x86-32"
         ]
       }
     ]
   },
   "world_monitor": [
     {
-      "title": "Iran War Live Updates: New Strikes Threaten to Engulf More Countries in Conflict",
+      "title": "Iran War Live Updates: New Strikes Engulf More Countries in Conflict",
       "link": "https://www.nytimes.com/live/2026/07/28/world/iran-us-strikes-iraq-trump",
-      "pubDate": "Wed, 29 Jul 2026 16:14:53 +0000",
+      "pubDate": "Wed, 29 Jul 2026 19:10:20 +0000",
       "source": "NYT World",
-      "summary": "The U.S. and Saudi Arabia said they had carried out joint airstrikes on Iranian proxies in Iraq, and Iran launched an attack on sites in Jordan."
+      "summary": "The U.S. and Saudi Arabia said they had carried out joint airstrikes on Iran-backed militias in Iraq, and Iran targeted U.S. military sites in Jordan."
+    },
+    {
+      "title": "Fauci’s Diary Isn’t the Key to Why Covid Ravaged the U.S. — Our Broken Healthcare System Is",
+      "link": "https://theintercept.com/2026/07/29/covid-fauci-diary-rand-paul-healthcare-pandemic/",
+      "pubDate": "Wed, 29 Jul 2026 19:05:39 +0000",
+      "source": "The Intercept",
+      "summary": "Rand Paul is trying to put Anthony Fauci in prison for not confirming a conspiracy theory, but the key to blunting the next pandemic is universal healthcare.\nThe post Fauci’s Diary Isn’t the Key to Why Covid Ravaged the U.S. — Our Broken Healthcare S"
+    },
+    {
+      "title": "Hindus take holy dip in India’s rivers on sacred holiday",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/7/29/hindus-take-holy-dip-in-indias-rivers-on-sacred-holiday?traffic_source=rss",
+      "pubDate": "Wed, 29 Jul 2026 18:49:33 +0000",
+      "source": "Al Jazeera",
+      "summary": "Footage shows tens of thousands of Hindu devotees bathing in India’s Ganga and Saryu rivers to mark Guru Purnima."
+    },
+    {
+      "title": "Bordeaux wildfire battle continues amid extreme heat",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/7/29/bordeaux-wildfire-battle-continues-amid-extreme-heat?traffic_source=rss",
+      "pubDate": "Wed, 29 Jul 2026 18:42:11 +0000",
+      "source": "Al Jazeera",
+      "summary": "Firefighters are on high alert in France as scorching temperatures and winds threaten to fuel wildfire west of Bordeaux"
+    },
+    {
+      "title": "Saudi Arabia's dilemma as it tries to stay out of US-Iran war",
+      "link": "https://www.bbc.co.uk/news/articles/clyx83l8jv8o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Wed, 29 Jul 2026 18:41:31 GMT",
+      "source": "BBC",
+      "summary": "The kingdom faces a choice of whether to keep hitting back as a deterrent or to try to de-escalate the situation."
+    },
+    {
+      "title": "Dr Anthony Fauci pleads the Fifth at Covid hearing",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/7/29/dr-anthony-fauci-pleads-the-fifth-at-covid-hearing?traffic_source=rss",
+      "pubDate": "Wed, 29 Jul 2026 18:34:09 +0000",
+      "source": "Al Jazeera",
+      "summary": "Dr Anthony Fauci declined to answer questions at a Senate hearing on the origins of the Covid-19 pandemic."
+    },
+    {
+      "title": "US Fed holds interest rates steady citing ‘elevated’ inflation",
+      "link": "https://www.aljazeera.com/economy/2026/7/29/us-fed-holds-interest-rates-steady-citing-elevated-inflation?traffic_source=rss",
+      "pubDate": "Wed, 29 Jul 2026 18:07:55 +0000",
+      "source": "Al Jazeera",
+      "summary": "Elevated inflation partly reflects supply shocks that have increased prices, including of energy, the Fed said."
+    },
+    {
+      "title": "Libya electricity blackout protests expose country’s failing grid",
+      "link": "https://www.aljazeera.com/economy/2026/7/29/libya-electricity-blackout-protests-expose-countrys-failing-grid?traffic_source=rss",
+      "pubDate": "Wed, 29 Jul 2026 18:07:19 +0000",
+      "source": "Al Jazeera",
+      "summary": "Libyans protest severe power cuts, demanding an end to corruption and grid decay."
+    },
+    {
+      "title": "Fifa opens disciplinary proceedings against Argentina",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cp3rkwgy6y7o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Wed, 29 Jul 2026 17:21:57 GMT",
+      "source": "BBC",
+      "summary": "Fifa opens disciplinary proceedings against Argentina over their behaviour after their World Cup final loss to Spain and throughout the tournament."
+    },
+    {
+      "title": "Four women accuse Jared Leto of criminal sexual conduct",
+      "link": "https://www.bbc.co.uk/news/articles/cd7lg2nz2x2o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Wed, 29 Jul 2026 17:04:42 GMT",
+      "source": "BBC",
+      "summary": "The actor and musician faces allegations from 10 women in total who say he mistreated them as teenagers."
+    },
+    {
+      "title": "France fire crews face searing heat in battle to contain flames",
+      "link": "https://www.bbc.co.uk/news/articles/c62q5we799ro?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Wed, 29 Jul 2026 16:49:41 GMT",
+      "source": "BBC",
+      "summary": "\"It's our forest,\" one volunteer fighting the fire in the Gironde region told the BBC, as other locals have refused to heed evacuations."
+    },
+    {
+      "title": "Two firefighters die in Crete as wildfires threaten parts of southern Europe",
+      "link": "https://www.bbc.co.uk/news/articles/cwyjgwg8jddo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Wed, 29 Jul 2026 16:23:41 GMT",
+      "source": "BBC",
+      "summary": "Gale-force winds have whipped up the flames prompting the evacuation of several villages on the island, as parts of the continent also continue to tackle fires."
     },
     {
       "title": "Donald Trump and Wars of Choice",
@@ -503,67 +574,11 @@
       "summary": "Trump’s latest war is wrapped up in his egocentric narcissism and his me, me, me world. \nThe post Donald Trump and Wars of Choice appeared first on The Intercept."
     },
     {
-      "title": "Ex-FIFA chief Blatter blasts plan to sell stake in World Cup to investors",
-      "link": "https://www.aljazeera.com/sports/2026/7/29/ex-fifa-chief-blatter-blasts-plan-to-sell-stake-in-world-cup-to-investors?traffic_source=rss",
-      "pubDate": "Wed, 29 Jul 2026 15:46:20 +0000",
-      "source": "Al Jazeera",
-      "summary": "Sepp Blatter, FIFA chief for 17 years until 2015, has blasted new proposal that moves 'people's game' further from fans."
-    },
-    {
-      "title": "Trump says US to deliver ‘beating’ to Iran after bases again targeted",
-      "link": "https://www.aljazeera.com/news/2026/7/29/trump-says-us-to-deliver-beating-to-iran-after-bases-again-targeted?traffic_source=rss",
-      "pubDate": "Wed, 29 Jul 2026 15:43:05 +0000",
-      "source": "Al Jazeera",
-      "summary": "US president promises major escalation a day after new Iran attacks and his White House meeting with Netanyahu."
-    },
-    {
-      "title": "Anthony Fauci refuses to answer questions during US Senate hearing about Covid origins",
-      "link": "https://www.bbc.co.uk/news/articles/cdx85vkk0gko?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Wed, 29 Jul 2026 15:40:24 GMT",
-      "source": "BBC",
-      "summary": "The former top US health official said he feared Republicans could try to trip him up and use his testimony to prosecute him for perjury."
-    },
-    {
-      "title": "Why Saudi Arabia holds the key to Palestinian statehood",
-      "link": "https://www.aljazeera.com/opinions/2026/7/29/why-saudi-arabia-holds-the-key-to-palestinian-statehood?traffic_source=rss",
-      "pubDate": "Wed, 29 Jul 2026 14:39:57 +0000",
-      "source": "Al Jazeera",
-      "summary": "Riyadh’s position in the Arab and Islamic worlds bears significant weight in the prospect of normalisation with Israel."
-    },
-    {
-      "title": "Indian student in Russia says he’s been wrongly charged over Bihar protests",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/7/29/29-07-sv-india-student-arrests-in?traffic_source=rss",
-      "pubDate": "Wed, 29 Jul 2026 14:33:24 +0000",
-      "source": "Al Jazeera",
-      "summary": "An Indian student from Bihar says he has been charged over ‘Cockroach’ protests despite being in Russia."
-    },
-    {
-      "title": "US and Israeli leaders expected ‘swift outcome’ in Iran",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/7/29/us-and-israeli-leaders-expected-swift-outcome-in-iran?traffic_source=rss",
-      "pubDate": "Wed, 29 Jul 2026 14:27:45 +0000",
-      "source": "Al Jazeera",
-      "summary": "New details are emerging of how US and Israeli officials believed the war on Iran would be straightforward and short."
-    },
-    {
-      "title": "Thousands in Spain return home but new heatwave raises wildfire fears",
-      "link": "https://www.bbc.co.uk/news/articles/cwyjgwg8jddo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Wed, 29 Jul 2026 14:27:13 GMT",
-      "source": "BBC",
-      "summary": "Spain and France are both braced for the start of the fourth heatwave so far this summer and some fires have continued to burn."
-    },
-    {
       "title": "Summer of Heat, Fires and Storms Is a Reckoning for Europe on Climate",
       "link": "https://www.nytimes.com/2026/07/29/world/europe/summer-heat-wave-fires-climate-change.html",
       "pubDate": "Wed, 29 Jul 2026 14:06:52 +0000",
       "source": "NYT World",
       "summary": "The continent is experiencing some of its biggest fires and highest temperatures ever. Residents are fleeing, leaders are struggling to respond and “it will get worse,” one climate expert said."
-    },
-    {
-      "title": "Saudi Arabia joins US in strikes on Iran-backed militias in Iraq",
-      "link": "https://www.bbc.co.uk/news/articles/c70g6y24d76o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Wed, 29 Jul 2026 13:48:41 GMT",
-      "source": "BBC",
-      "summary": "US Central Command says proxy groups launched attacks against US bases and Saudi energy infrastructure."
     },
     {
       "title": "Russia Charges Telegram’s Founder Pavel Durov With Facilitating Terrorism",
@@ -580,25 +595,11 @@
       "summary": "Hundreds of political, legal and other figures signed a public letter warning that Jordan’s close alliance with the United States poses a risk."
     },
     {
-      "title": "More than 100 aftershocks hit Japan after powerful quake that killed 13",
-      "link": "https://www.bbc.co.uk/news/articles/cgk43y21j0do?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Wed, 29 Jul 2026 11:47:05 GMT",
-      "source": "BBC",
-      "summary": "People are being urged to stay alert, with earthquake aftershocks potentially reaching magnitude 7, officials say"
-    },
-    {
       "title": "After Large Earthquake, Japan ‘Races Against Time’ to Reach People Trapped",
       "link": "https://www.nytimes.com/2026/07/28/world/asia/japan-earthquake-kumamoto-rescue-survivors.html",
       "pubDate": "Wed, 29 Jul 2026 11:27:40 +0000",
       "source": "NYT World",
       "summary": "Rescue personnel are working to free those trapped in collapsed buildings after a 6.8-magnitude earthquake struck Kumamoto on Tuesday."
-    },
-    {
-      "title": "Russia charges Telegram founder Durov with facilitating terrorism",
-      "link": "https://www.bbc.co.uk/news/articles/cj4kexqkpzno?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Wed, 29 Jul 2026 10:23:29 GMT",
-      "source": "BBC",
-      "summary": "The FSB claims the messenger app, created by Pavel Durov, has failed to remove accounts and channels used for recruitment by Ukraine's secret service."
     },
     {
       "title": "Iran Has Figured Out How to Overwhelm U.S. Air Defenses",
@@ -620,13 +621,6 @@
       "pubDate": "Mon, 27 Jul 2026 15:42:21 +0000",
       "source": "The Intercept",
       "summary": "Favorable coverage of U.S. adversaries is constitutionally protected speech. \nThe post House Investigation of BreakThrough News Is an Attack on All Journalism appeared first on The Intercept."
-    },
-    {
-      "title": "Fetterman Might Leave Democratic Party Because the Only Thing He Loves More Than Israel Is Attention",
-      "link": "https://theintercept.com/2026/07/27/fetterman-leave-democrat-party-israel/",
-      "pubDate": "Mon, 27 Jul 2026 14:00:33 +0000",
-      "source": "The Intercept",
-      "summary": "Why is the senator floating the idea of leaving the Democratic Party? Well, Israel, of course. Though he sure loves the media coverage.\nThe post Fetterman Might Leave Democratic Party Because the Only Thing He Loves More Than Israel Is Attention appe"
     },
     {
       "title": "Shahed-Type Drones Filmed During Mali Village Attacks",
@@ -666,6 +660,13 @@
   ],
   "syndication": [
     {
+      "title": "Measuring the Tendency of AI Agents to Go Rogue",
+      "link": "https://www.schneier.com/blog/archives/2026/07/measuring-the-tendency-of-ai-agents-to-go-rogue.html",
+      "pubDate": "2026-07-29T17:07:53.000Z",
+      "author": "Schneier on Security",
+      "content": "This essay was written with Barath Raghavan, and originally appeared in The Guardian.\nIn July, Hugging Face, a company that hosts much of the world’s AI software and open-source AI models, was hacked. A malicious dataset had been used to run code on one of its servers. Whoever was behind it captured"
+    },
+    {
       "title": "Long-Lived Vulnerability in Microsoft Secure Boot",
       "link": "https://www.schneier.com/blog/archives/2026/07/long-lived-vulnerability-in-microsoft-secure-boot.html",
       "pubDate": "2026-07-29T11:01:09.000Z",
@@ -685,13 +686,6 @@
       "pubDate": "2026-07-29T01:47:05.000Z",
       "author": "Schneier on Security",
       "content": "There’s new benchmark measuring AI’s ability to perform mathematical cryptanalysis. Anthropic’s frontier model actually found new attacks.\nThe benchmark: “CryptanalysisBench: Can LLMs do Cryptanalysis?” The idea is to benchmark the ability of LLMs to discover new mathematical cryptanalytic attacks a"
-    },
-    {
-      "title": "Axon Is Another License Plate Surveillance Company",
-      "link": "https://www.schneier.com/blog/archives/2026/07/axon-is-another-license-plate-surveillance-company.html",
-      "pubDate": "2026-07-28T11:06:30.000Z",
-      "author": "Schneier on Security",
-      "content": "Governments are switching, but I’m not sure it makes a difference:\n…some municipalities, including Denver, Colorado, are ditching their Flock arrays. But keep in mind that if they’re only switching from Flock to another brand of license-plate readers, like Axon, it’s like a gambling addict trying to"
     },
     {
       "title": "Pluralistic: Discernment (28 Jul 2026)",
@@ -731,6 +725,30 @@
   ],
   "syndicate_journal": [
     {
+      "title": "Things Keep Getting Worse for Brazil’s Bolsonaro Dynasty",
+      "link": "",
+      "summary": "As Brazilian President Luiz Inácio Lula da Silva campaigns for a fourth term in office ahead of this October’s general election, the Brazilian right is struggling to keep up with the country’s popular left-wing leader. The right-wing political vacuum created by the conviction of former President Jai",
+      "pubDate": "2026-07-29T19:09:42.897Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "Does Having a Pet Really Improve Our Health?",
+      "link": "https://nautil.us/does-having-a-pet-really-improve-our-health-1283176/",
+      "summary": "It could go either way, depending on the relationship\nThe post Does Having a Pet Really Improve Our Health? appeared first on Nautilus.",
+      "pubDate": "Wed, 29 Jul 2026 18:01:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "Even Owning a Cell Phone Is Bad for Kids’ Test Scores",
+      "link": "https://nautil.us/even-owning-a-cell-phone-is-bad-for-kids-test-scores-1283172/",
+      "summary": "New research hints that school cell phone bans may not be enough\nThe post Even Owning a Cell Phone Is Bad for Kids’ Test Scores appeared first on Nautilus.",
+      "pubDate": "Wed, 29 Jul 2026 17:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
       "title": "Why We Think We Know More Than We Do",
       "link": "https://nautil.us/why-we-think-we-know-more-than-we-do-1283150/",
       "summary": "Breaking down the famous “Dunning-Kruger effect” with David Dunning himself\nThe post Why We Think We Know More Than We Do appeared first on Nautilus.",
@@ -763,14 +781,6 @@
       "source": "Jacobin"
     },
     {
-      "title": "Dinosaurs May Have Been Literally Charbroiled After the Asteroid Impact",
-      "link": "https://nautil.us/dinosaurs-may-have-been-literally-charbroiled-after-the-asteroid-impact-1283128/",
-      "summary": "A new study reignites the global firestorm debate\nThe post Dinosaurs May Have Been Literally Charbroiled After the Asteroid Impact appeared first on Nautilus.",
-      "pubDate": "Wed, 29 Jul 2026 14:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
       "title": "The Peacock Flower and Reproductive Resistance Under Slavery",
       "link": "https://daily.jstor.org/the-peacock-flower-and-reproductive-resistance-under-slavery/",
       "summary": "European naturalists documented the peacock flower's medicinal uses but left its most consequential history behind.\nThe post The Peacock Flower and Reproductive Resistance Under Slavery appeared first on JSTOR Daily.",
@@ -801,14 +811,6 @@
       "pubDate": "Wed, 29 Jul 2026 12:19:06 +0000",
       "domain": "linguistics",
       "source": "Language Log"
-    },
-    {
-      "title": "This Time-Lapse Video from the Psyche Spacecraft Shows Mars As You’ve Never Seen It Before",
-      "link": "https://nautil.us/this-time-lapse-video-from-the-psyche-spacecraft-shows-mars-as-youve-never-seen-it-before-1283140/",
-      "summary": "Just a passing visit, but a dramatic one\nThe post This Time-Lapse Video from the Psyche Spacecraft Shows Mars As You’ve Never Seen It Before appeared first on Nautilus.",
-      "pubDate": "Wed, 29 Jul 2026 12:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
     },
     {
       "title": "How to spot pseudoscience",
@@ -857,14 +859,6 @@
       "pubDate": "Tue, 28 Jul 2026 19:02:00 GMT",
       "domain": "history",
       "source": "Public Domain Review"
-    },
-    {
-      "title": "Mahmood Mamdani Examines Ugandan Authoritarianism",
-      "link": "",
-      "summary": "In the opening pages of , a new account of authoritarianism in postcolonial Uganda, author Mahmood Mamdani evokes a nineteenth-century world of exploration and violence in Africa, centering on a long-forgotten Conradian figure. Eduard Schnitzer, a German Jewish physician, had come under the employ o",
-      "pubDate": "2026-07-28T18:15:24.496Z",
-      "domain": "politics",
-      "source": "Jacobin"
     },
     {
       "title": "How a Murder Fueled Racial Terror in Florida",
@@ -995,25 +989,25 @@
       "source": "ROAR Magazine"
     },
     {
-      "title": "Synchronization between singer and pianist in Lied duos—an analysis of respiratory patterns during the performance of classical art songs",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1888535",
-      "summary": "IntroductionIn Lied duos, the vocal and piano parts form an inseparable unit and are seamlessly interwoven, which requires a high level of communication skills from both the singer and the pianist during musical performances. Therefore, they are particularly interesting targets for investigating syn",
+      "title": "From diagnosis to treatment: patients’ attitudes toward cancer care",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1843666",
+      "summary": "A cancer diagnosis is perceived as a traumatic life event, typically characterized by an initial state of shock that involves dysfunctional emotions related to uncertainty and loss of control. Patients may experience persistent distress, anxiety, and fear of cancer recurrence, even some years after ",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "Witnessing and imagination: Proust, trauma, and the expansion of consciousness",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1683934",
-      "summary": "I treat Proust’s Á la Recherche du Temps Perdu as a fictional case history centered around dynamic tension between dissociation, memory, and creativity. I argue that three pivotal breakthroughs of long dissociated memories and feelings in Proust’s novel result from thawing within a dyadically-determ",
+      "title": "Maternal age and psychological well-being in early pregnancy: a cross-sectional analysis",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1818113",
+      "summary": "BackgroundPsychological well-being in early pregnancy may differ by maternal age and by sociodemographic, economic, and reproductive circumstances. This study examined the associations of maternal age and other participant characteristics with screen-positive anxiety symptoms, screen-positive depres",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "Meaningful experience, positive emotions, and happiness in smart hotel contexts: a study on psychological mechanisms based on positive psychology",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1897945",
-      "summary": "IntroductionSmart hotels are reshaping the landscape of consumers’ accommodation experiences. Services such as self-check-in and smart locks are associated with changes in consumers’ psychological perceptions of lodging life. However, previous studies have often overlooked consumers’ sense of meanin",
+      "title": "The changes in primary and secondary school teachers’ mental health level according to SCL-90 and its economic dissection—a meta-analysis with evidence from China",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1815346",
+      "summary": "ObjectiveExploring the changing trends and reasons for changes in primary and secondary school teachers’ mental health levels is of great importance, and social change, effectively represented by economic development, is a notable explanatory factor in this process. Therefore, this study focuses on ",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
@@ -1021,64 +1015,64 @@
   ],
   "misinfo_toilet": [
     {
-      "headline": "Trump says US to deliver ‘beating’ to Iran after bases again targeted",
-      "fragment": "This is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
-      "splice": "Trump says US to deliver ‘beating’ to Iran after bases again targeted therefore this is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
-      "seed": 20260745
-    },
-    {
-      "headline": "Identifying the Crypto Entrepreneur Linked to Popular Forum Trading in ‘Leaked’ Nudes of Women",
-      "fragment": "Over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
-      "splice": "Identifying the Crypto Entrepreneur Linked to Popular Forum Trading in ‘Leaked’ Nudes of Women consequently over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
-      "seed": 20260746
-    },
-    {
-      "headline": "Summer of Heat, Fires and Storms Is a Reckoning for Europe on Climate",
-      "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "splice": "Summer of Heat, Fires and Storms Is a Reckoning for Europe on Climate because it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "seed": 20260747
-    },
-    {
-      "headline": "Fetterman Might Leave Democratic Party Because the Only Thing He Loves More Than Israel Is Attention",
-      "fragment": "Underneath all reason lies delirium and drift.",
-      "splice": "Fetterman Might Leave Democratic Party Because the Only Thing He Loves More Than Israel Is Attention which is to say underneath all reason lies delirium and drift.",
+      "headline": "Saudi Arabia's dilemma as it tries to stay out of US-Iran war",
+      "fragment": "It is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
+      "splice": "Saudi Arabia's dilemma as it tries to stay out of US-Iran war as if it is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
       "seed": 20260748
     },
     {
-      "headline": "Burning Forests: Tools for Tracking and Reporting Wildfire Damage",
-      "fragment": "This is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
-      "splice": "Burning Forests: Tools for Tracking and Reporting Wildfire Damage the signal resolves into this is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
+      "headline": "Shahed-Type Drones Filmed During Mali Village Attacks",
+      "fragment": "In the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
+      "splice": "Shahed-Type Drones Filmed During Mali Village Attacks the system notes that in the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
       "seed": 20260749
     },
     {
-      "headline": "Indian student in Russia says he’s been wrongly charged over Bihar protests",
-      "fragment": "The technocrat is the natural friend of the dictator—computers and dictatorship.",
-      "splice": "Indian student in Russia says he’s been wrongly charged over Bihar protests insofar as the technocrat is the natural friend of the dictator—computers and dictatorship.",
+      "headline": "Fifa opens disciplinary proceedings against Argentina",
+      "fragment": "Over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
+      "splice": "Fifa opens disciplinary proceedings against Argentina insofar as over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
       "seed": 20260750
     },
     {
-      "headline": "Thousands in Spain return home but new heatwave raises wildfire fears",
-      "fragment": "Traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "splice": "Thousands in Spain return home but new heatwave raises wildfire fears ...as traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
+      "headline": "The Right Seeks to Capitalize on Berlin Pride Attack — Even as It Poses Its Own Existential Threat to Queer Lives",
+      "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
+      "splice": "The Right Seeks to Capitalize on Berlin Pride Attack — Even as It Poses Its Own Existential Threat to Queer Lives within which the revolutionary lives in the gap which separates technical progress from social totality.",
       "seed": 20260751
     },
     {
-      "headline": "After Large Earthquake, Japan ‘Races Against Time’ to Reach People Trapped",
-      "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "splice": "After Large Earthquake, Japan ‘Races Against Time’ to Reach People Trapped the signal resolves into it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
+      "headline": "Between Graves and Uncertainty: The Management of the Dead After Venezuela’s Earthquake",
+      "fragment": "Pretending, or dissimulating, leaves the principle of reality intact: the difference is always clear, it is simply masked.",
+      "splice": "Between Graves and Uncertainty: The Management of the Dead After Venezuela’s Earthquake the signal resolves into pretending, or dissimulating, leaves the principle of reality intact: the difference is always clear, it is simply masked.",
       "seed": 20260752
     },
     {
-      "headline": "Between Graves and Uncertainty: The Management of the Dead After Venezuela’s Earthquake",
-      "fragment": "We live in a world where there is more and more information, and less and less meaning.",
-      "splice": "Between Graves and Uncertainty: The Management of the Dead After Venezuela’s Earthquake meanwhile we live in a world where there is more and more information, and less and less meaning.",
+      "headline": "Satellite Imagery Shows Scale of Venezuela Earthquake Damage",
+      "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
+      "splice": "Satellite Imagery Shows Scale of Venezuela Earthquake Damage therefore it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
       "seed": 20260753
     },
     {
-      "headline": "Iran Has Figured Out How to Overwhelm U.S. Air Defenses",
-      "fragment": "We live in a world where there is more and more information, and less and less meaning.",
-      "splice": "Iran Has Figured Out How to Overwhelm U.S. Air Defenses meanwhile we live in a world where there is more and more information, and less and less meaning.",
+      "headline": "Libya electricity blackout protests expose country’s failing grid",
+      "fragment": "It is at work everywhere, functioning smoothly at times, at other times in fits and starts. It breathes, it heats, it eats. It shits and fucks.",
+      "splice": "Libya electricity blackout protests expose country’s failing grid therefore it is at work everywhere, functioning smoothly at times, at other times in fits and starts. It breathes, it heats, it eats. It shits and fucks.",
       "seed": 20260754
+    },
+    {
+      "headline": "Hindus take holy dip in India’s rivers on sacred holiday",
+      "fragment": "It is at work everywhere, functioning smoothly at times, at other times in fits and starts. It breathes, it heats, it eats. It shits and fucks.",
+      "splice": "Hindus take holy dip in India’s rivers on sacred holiday while it is at work everywhere, functioning smoothly at times, at other times in fits and starts. It breathes, it heats, it eats. It shits and fucks.",
+      "seed": 20260755
+    },
+    {
+      "headline": "Some Jordanians Dare to Speak Out Against U.S. Troop Presence",
+      "fragment": "The privatization of the organs will only begin with the shame felt by man at the sight of man.",
+      "splice": "Some Jordanians Dare to Speak Out Against U.S. Troop Presence not unlike the privatization of the organs will only begin with the shame felt by man at the sight of man.",
+      "seed": 20260756
+    },
+    {
+      "headline": "Identifying the Crypto Entrepreneur Linked to Popular Forum Trading in ‘Leaked’ Nudes of Women",
+      "fragment": "The simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
+      "splice": "Identifying the Crypto Entrepreneur Linked to Popular Forum Trading in ‘Leaked’ Nudes of Women consequently the simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
+      "seed": 20260757
     }
   ]
 }
