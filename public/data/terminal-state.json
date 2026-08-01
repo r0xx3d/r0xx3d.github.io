@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T10:42:28.206Z",
+  "generated_at": "2026-08-01T13:26:55.860Z",
   "threat_intel": {
     "cisa_kev": [
       {
@@ -232,9 +232,71 @@
     ],
     "urlhaus": [
       {
-        "id": "3895083",
-        "date_added": "2026-08-01 10:32:08",
-        "url": "http://110.37.19.50:40129/i",
+        "id": "3895167",
+        "date_added": "2026-08-01 13:17:23",
+        "url": "http://42.239.148.18:55549/bin.sh",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3895168",
+        "date_added": "2026-08-01 13:17:23",
+        "url": "http://175.31.228.75:33788/bin.sh",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3895166",
+        "date_added": "2026-08-01 13:12:07",
+        "url": "http://182.116.205.248:47089/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3895165",
+        "date_added": "2026-08-01 12:55:30",
+        "url": "http://221.0.103.81:58665/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3895164",
+        "date_added": "2026-08-01 12:51:30",
+        "url": "http://221.0.103.81:58665/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3895163",
+        "date_added": "2026-08-01 12:51:06",
+        "url": "http://42.230.25.143:44426/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -242,9 +304,19 @@
         ]
       },
       {
-        "id": "3895082",
-        "date_added": "2026-08-01 10:29:22",
-        "url": "http://42.239.242.122:46355/i",
+        "id": "3895162",
+        "date_added": "2026-08-01 12:47:07",
+        "url": "http://42.230.25.143:44426/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3895161",
+        "date_added": "2026-08-01 12:16:02",
+        "url": "http://110.37.76.236:33222/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -255,9 +327,19 @@
         ]
       },
       {
-        "id": "3895081",
-        "date_added": "2026-08-01 10:26:07",
-        "url": "http://42.227.196.74:33263/bin.sh",
+        "id": "3895160",
+        "date_added": "2026-08-01 11:56:34",
+        "url": "http://112.239.251.230:33039/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "mirai"
+        ]
+      },
+      {
+        "id": "3895159",
+        "date_added": "2026-08-01 11:56:33",
+        "url": "http://112.252.199.194:50709/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -265,204 +347,205 @@
         ]
       },
       {
-        "id": "3895080",
-        "date_added": "2026-08-01 10:22:21",
-        "url": "http://59.96.142.198:43829/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3895079",
-        "date_added": "2026-08-01 10:20:21",
-        "url": "http://61.52.172.186:57507/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3895078",
-        "date_added": "2026-08-01 10:17:07",
-        "url": "http://42.224.98.79:47231/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3895077",
-        "date_added": "2026-08-01 10:04:25",
-        "url": "http://112.239.99.221:35318/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3895076",
-        "date_added": "2026-08-01 10:04:14",
-        "url": "http://182.121.70.96:45574/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3895075",
-        "date_added": "2026-08-01 10:04:11",
-        "url": "http://125.43.231.75:43877/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3895070",
-        "date_added": "2026-08-01 10:04:09",
-        "url": "http://27.204.192.233:51509/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3895071",
-        "date_added": "2026-08-01 10:04:09",
-        "url": "http://222.141.246.180:60663/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3895072",
-        "date_added": "2026-08-01 10:04:09",
-        "url": "http://125.45.9.88:38960/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3895073",
-        "date_added": "2026-08-01 10:04:09",
-        "url": "http://123.4.251.183:32911/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3895074",
-        "date_added": "2026-08-01 10:04:09",
-        "url": "http://115.53.10.95:34295/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3895065",
-        "date_added": "2026-08-01 10:04:08",
-        "url": "http://115.58.134.187:36959/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3895066",
-        "date_added": "2026-08-01 10:04:08",
-        "url": "http://42.224.156.56:38226/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3895067",
-        "date_added": "2026-08-01 10:04:08",
-        "url": "http://110.38.211.139:35533/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3895068",
-        "date_added": "2026-08-01 10:04:08",
-        "url": "http://27.215.176.113:37468/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3895069",
-        "date_added": "2026-08-01 10:04:08",
-        "url": "http://202.163.107.242:39612/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3895064",
-        "date_added": "2026-08-01 10:03:22",
-        "url": "http://182.115.235.109:44737/i",
+        "id": "3895158",
+        "date_added": "2026-08-01 11:56:32",
+        "url": "http://42.238.129.159:52047/bin.sh",
         "url_status": "offline",
         "threat": "malware_download",
         "tags": [
           "None"
+        ]
+      },
+      {
+        "id": "3895155",
+        "date_added": "2026-08-01 11:56:21",
+        "url": "http://59.97.250.81:41911/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3895156",
+        "date_added": "2026-08-01 11:56:21",
+        "url": "http://124.161.116.2:42745/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "mirai"
+        ]
+      },
+      {
+        "id": "3895157",
+        "date_added": "2026-08-01 11:56:21",
+        "url": "http://115.62.188.171:38705/bin.sh",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3895133",
+        "date_added": "2026-08-01 11:56:20",
+        "url": "http://125.41.95.51:56036/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3895134",
+        "date_added": "2026-08-01 11:56:20",
+        "url": "http://125.43.231.75:43877/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3895135",
+        "date_added": "2026-08-01 11:56:20",
+        "url": "http://182.126.202.2:42262/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3895136",
+        "date_added": "2026-08-01 11:56:20",
+        "url": "http://42.224.156.56:38226/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3895137",
+        "date_added": "2026-08-01 11:56:20",
+        "url": "http://112.248.102.20:56125/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3895138",
+        "date_added": "2026-08-01 11:56:20",
+        "url": "http://27.204.192.233:51509/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "Mozi"
         ]
       }
     ]
   },
   "world_monitor": [
     {
-      "title": "Iran: The Making of a War",
-      "link": "https://www.aljazeera.com/video/featured-documentaries/2026/8/1/iran-the-making-of-a-war?traffic_source=rss",
-      "pubDate": "Sat, 01 Aug 2026 10:30:00 +0000",
+      "title": "Russian Missiles Kill 9 in Kyiv After Trump Backs Off Air-Defense Pledge",
+      "link": "https://www.nytimes.com/2026/08/01/world/europe/ukraine-russia-attack-missiles-patriot.html",
+      "pubDate": "Sat, 01 Aug 2026 13:16:10 +0000",
+      "source": "NYT World",
+      "summary": "Ukraine’s supply of Patriot missile interceptors is dwindling, and on Friday, President Trump backed away from his promise to let Ukraine make them itself."
+    },
+    {
+      "title": "Most Australian teens still online three months after under-16 ban",
+      "link": "https://www.aljazeera.com/news/2026/8/1/most-australian-teens-still-online-three-months-after-under-16-ban?traffic_source=rss",
+      "pubDate": "Sat, 01 Aug 2026 13:10:47 +0000",
       "source": "Al Jazeera",
-      "summary": "From coup to conflict - how decades of rivalries and miscalculations have shaped one of today’s most dangerous wars."
+      "summary": "The Australian government has defended the ban after a report concluded most teenagers had found ways to get around it."
+    },
+    {
+      "title": "Nirmal Purja, Renowned Mountaineer, Is Found Dead After Pakistan Avalanche",
+      "link": "https://www.nytimes.com/2026/08/01/world/asia/nirmal-purja-dead-pakistan-avalanche.html",
+      "pubDate": "Sat, 01 Aug 2026 13:09:14 +0000",
+      "source": "NYT World",
+      "summary": "The British-Nepali mountaineer was one of 10 climbers who were struck by an avalanche on Thursday on Broad Peak, one of the world’s highest mountains."
+    },
+    {
+      "title": "Cori Bush Has No Regrets",
+      "link": "https://theintercept.com/2026/08/01/missouri-cori-bush-wesley-bell-primary-aipac/",
+      "pubDate": "Sat, 01 Aug 2026 13:06:00 +0000",
+      "source": "The Intercept",
+      "summary": "Rep. Wesley Bell has AIPAC on his side, but the grassroots energy seems to be behind Bush.\nThe post Cori Bush Has No Regrets appeared first on The Intercept."
+    },
+    {
+      "title": "Mountaineer Nirmal Purja killed in Pakistan avalanche, his company says",
+      "link": "https://www.bbc.co.uk/news/articles/clyljq79kdko?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Sat, 01 Aug 2026 13:02:04 GMT",
+      "source": "BBC",
+      "summary": "The Nepali-born climber was known for scaling the world's 14 highest peaks in just over six months in 2019."
+    },
+    {
+      "title": "Spain says migrants leaving Ceuta after mass influx in which 67 died",
+      "link": "https://www.aljazeera.com/news/2026/8/1/spain-says-migrants-leaving-ceuta-after-mass-influx-in-which-67-died?traffic_source=rss",
+      "pubDate": "Sat, 01 Aug 2026 12:57:13 +0000",
+      "source": "Al Jazeera",
+      "summary": "Spain’s foreign minister maintains 'the integrity of the Schengen area is absolutely guaranteed'."
+    },
+    {
+      "title": "Spain Installs Floating Barrier in Ceuta After Influx of Migrants",
+      "link": "https://www.nytimes.com/2026/08/01/world/europe/spain-ceuta-migrants-morocco-border.html",
+      "pubDate": "Sat, 01 Aug 2026 12:48:55 +0000",
+      "source": "NYT World",
+      "summary": "Most of those who came to the territory, a Spanish exclave in Africa, have returned across the border to Morocco. At least 67 people died trying to enter, the authorities said."
+    },
+    {
+      "title": "Iran warns against ‘flames of war’ amid US strike threats on energy sites",
+      "link": "https://www.aljazeera.com/news/2026/8/1/iran-warns-against-fire-of-war-amid-us-strike-threats-on-energy-sites?traffic_source=rss",
+      "pubDate": "Sat, 01 Aug 2026 12:44:54 +0000",
+      "source": "Al Jazeera",
+      "summary": "Iranian media says retaliation plan ready after US media suggest potential imminent attacks against civilian sites."
+    },
+    {
+      "title": "Kuwait Says It Downed Iranian Drones as Mideast Braces for Possible Escalation",
+      "link": "https://www.nytimes.com/2026/08/01/world/middleeast/iran-kuwait-drone-strikes-trump-escalation.html",
+      "pubDate": "Sat, 01 Aug 2026 12:44:03 +0000",
+      "source": "NYT World",
+      "summary": "The wave of strikes came as President Trump threatened to intensify the American campaign against Iran. U.S. embassies in the region warned of the “potential for unforeseen escalation.”"
     },
     {
       "title": "Spain attacks 'selfish' response of some EU countries to Ceuta migrant crossings",
       "link": "https://www.bbc.co.uk/news/articles/cx2v91xn1z9o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Sat, 01 Aug 2026 10:11:39 GMT",
+      "pubDate": "Sat, 01 Aug 2026 12:43:21 GMT",
       "source": "BBC",
       "summary": "Italy has temporarily suspended the Schengen arrangement with Spain as Prime Minister Giorgia Meloni called scenes in Ceuta \"shocking\"."
     },
     {
-      "title": "Infantino’s World Cup crisis: UEFA has ‘lost confidence’ in FIFA leadership",
-      "link": "https://www.aljazeera.com/sports/2026/8/1/uefa-welcomes-fifa-world-cup-standdown-after-voting-to-boycott?traffic_source=rss",
-      "pubDate": "Sat, 01 Aug 2026 10:05:45 +0000",
+      "title": "Sde Teiman walkout lays bare an Israeli military running out of trust",
+      "link": "https://www.aljazeera.com/opinions/2026/8/1/sde-teiman-walkout-lays-bare-an-israeli-military-running-out-of-trust?traffic_source=rss",
+      "pubDate": "Sat, 01 Aug 2026 12:40:36 +0000",
       "source": "Al Jazeera",
-      "summary": "UEFA, who were the strongest opponents of FIFA's plan, slam the Gianni Infantino-led governing body despite standdown."
+      "summary": "Nearly three years of open-ended war have made obedience inside the Israeli military increasingly conditional."
+    },
+    {
+      "title": "FIFA World Cup crisis: Who could replace Infantino as president?",
+      "link": "https://www.aljazeera.com/sports/2026/8/1/is-infantino-under-threat-over-fifa-world-cup-plan-will-president-resign?traffic_source=rss",
+      "pubDate": "Sat, 01 Aug 2026 11:58:23 +0000",
+      "source": "Al Jazeera",
+      "summary": "Who is tipped to replace Gianni Infantino after the World Cup investment plan crisis?"
+    },
+    {
+      "title": "Nine killed in strikes on Kyiv, as Ukraine sinks Russian container ship",
+      "link": "https://www.bbc.co.uk/news/articles/ce973yvk7pko?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Sat, 01 Aug 2026 11:52:29 GMT",
+      "source": "BBC",
+      "summary": "The attack comes as Moscow escalates deadly ballistic missile attacks on the Ukrainian capital."
+    },
+    {
+      "title": "Welcome to Dubai: Kinahan Cartel’s Visas Revealed",
+      "link": "https://www.bellingcat.com/news/2026/08/01/welcome-to-dubai-kinahan-cartels-visas-revealed/",
+      "pubDate": "Sat, 01 Aug 2026 11:03:00 +0000",
+      "source": "Bellingcat",
+      "summary": "This article is the result of a collaboration with The Sunday Times. You can find their corresponding piece here. A key leader of the Kinahan cartel who is wanted by authorities around the world and has been living in hiding in Dubai for a decade has"
     },
     {
       "title": "Trump’s Truth Social API Is a Blatantly Corrupt Favor to Wall Street",
@@ -472,32 +555,11 @@
       "summary": "By selling off early access to his posts at a premium, the president is merging a public good with his own profit motives.\nThe post Trump’s Truth Social API Is a Blatantly Corrupt Favor to Wall Street appeared first on The Intercept."
     },
     {
-      "title": "Uefa has 'lost confidence' in Fifa leadership",
+      "title": "Uefa has 'lost confidence' in Infantino's Fifa leadership",
       "link": "https://www.bbc.co.uk/sport/football/articles/c04kr2nv3v3o?at_medium=RSS&at_campaign=rss",
       "pubDate": "Sat, 01 Aug 2026 09:51:05 GMT",
       "source": "BBC",
-      "summary": "Uefa says it has lost confidence in Gianni Infantino's Fifa leadership as the fallout from the scrapped controversial investment plan intensifies."
-    },
-    {
-      "title": "Iranian Kurdish parties in Iraq face a delicate balance amid Iran attacks",
-      "link": "https://www.aljazeera.com/news/2026/8/1/iranian-kurdish-parties-in-iraq-face-a-delicate-balance-amid-iran-attacks?traffic_source=rss",
-      "pubDate": "Sat, 01 Aug 2026 09:47:39 +0000",
-      "source": "Al Jazeera",
-      "summary": "Iranian Kurdish groups based in Iraq have been heavily attacked in the war, but most deny US assistance."
-    },
-    {
-      "title": "Beneath Tunisia’s silence, public anger simmers",
-      "link": "https://www.aljazeera.com/news/2026/8/1/beneath-tunisias-silence-public-anger-simmers?traffic_source=rss",
-      "pubDate": "Sat, 01 Aug 2026 09:42:50 +0000",
-      "source": "Al Jazeera",
-      "summary": "Behind Tunisia’s enforced calm, anger is growing over repression, economic decline and collapsing public services."
-    },
-    {
-      "title": "Sri Lanka sentences two officials to death for not stopping Easter bombings",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/1/sri-lanka-sentences-two-officials-to-death-for-not-stopping-easter-bombings?traffic_source=rss",
-      "pubDate": "Sat, 01 Aug 2026 09:19:47 +0000",
-      "source": "Al Jazeera",
-      "summary": "Sri Lanka sentences two officials to death for not stopping 2019 Easter bombings."
+      "summary": "The governing body of European football says Fifa president Gianni Infantino has \"failed to deliver\" on promises he made when elected 10 years ago."
     },
     {
       "title": "In Iran, the U.S. Appears Headed for a Strategic Defeat, Allies Fear",
@@ -507,53 +569,11 @@
       "summary": "With none of President Trump’s aims accomplished and the Strait of Hormuz closed, U.S. allies see dysfunction and vulnerability from the war."
     },
     {
-      "title": "The U.S. Deported Him to Jail in Russia. Then He Escaped.",
-      "link": "https://www.nytimes.com/2026/08/01/world/europe/russia-war-deserter.html",
-      "pubDate": "Sat, 01 Aug 2026 09:00:09 +0000",
-      "source": "NYT World",
-      "summary": "Facing a long prison sentence or a forced trip to the front line of a war he opposes, Artyom Vovchenko believed it was worth taking a risk."
-    },
-    {
-      "title": "Spain Installs Floating Barrier in Ceuta After Influx of Migrants",
-      "link": "https://www.nytimes.com/2026/08/01/world/europe/spain-ceuta-migrants-morocco-border.html",
-      "pubDate": "Sat, 01 Aug 2026 08:49:40 +0000",
-      "source": "NYT World",
-      "summary": "Most of those who surged into the territory, a Spanish exclave in Africa, have returned across the border to Morocco. At least 67 people died trying to enter, the authorities said."
-    },
-    {
-      "title": "Russian strikes on Kyiv kill at least nine, Ukraine officials say",
-      "link": "https://www.bbc.co.uk/news/articles/ce973yvk7pko?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Sat, 01 Aug 2026 08:24:09 GMT",
-      "source": "BBC",
-      "summary": "The attack comes as Moscow escalates deadly ballistic missile attacks on the Ukrainian capital."
-    },
-    {
-      "title": "Race to rescue remaining climbers after deadly avalanche in Pakistan ",
-      "link": "https://www.bbc.co.uk/news/articles/cddjz1r01l8o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Sat, 01 Aug 2026 07:22:30 GMT",
-      "source": "BBC",
-      "summary": "Poor weather has been hampering the search for seven still missing after Thursday's avalanche on Broad Peak."
-    },
-    {
-      "title": "Russian Missiles Kill 9 in Kyiv, Hours After Trump Backs Off Air Defense Pledge",
-      "link": "https://www.nytimes.com/2026/08/01/world/europe/ukraine-russia-attack-missiles-patriot.html",
-      "pubDate": "Sat, 01 Aug 2026 07:14:41 +0000",
-      "source": "NYT World",
-      "summary": "It was the second deadly barrage to hit the Ukrainian capital in two days, as Moscow escalates its attacks in an apparent effort to exploit Ukraine’s dwindling supply of interceptors."
-    },
-    {
       "title": "Israeli West Bank settler tells BBC attacks on Palestinians are justified as revenge",
       "link": "https://www.bbc.co.uk/news/articles/c4g4djgdyk2o?at_medium=RSS&at_campaign=rss",
       "pubDate": "Sat, 01 Aug 2026 05:01:56 GMT",
       "source": "BBC",
       "summary": "Settler violence against Palestinians is on the rise in the West Bank, as settlements and outposts expand."
-    },
-    {
-      "title": "How 50,000 People Surged Into a Spanish Exclave in Africa",
-      "link": "https://www.nytimes.com/2026/08/01/world/europe/spain-ceuta-migrants-morocco.html",
-      "pubDate": "Sat, 01 Aug 2026 04:01:14 +0000",
-      "source": "NYT World",
-      "summary": "On Thursday, tens of thousands of Moroccans broke into Ceuta, a Spanish territory that neighbors Morocco. By Friday evening, most of them had left, hungry and disappointed."
     },
     {
       "title": "Abdul El-Sayed on The Intercept Briefing",
@@ -584,13 +604,6 @@
       "summary": "Allowing the musician into Germany could “radicalise certain segments of the [German] population,” authorities warned.\nThe post Free Speech Crackdown: Germany Deports Bob Vylan Frontman for Anti-Israel Chants appeared first on The Intercept."
     },
     {
-      "title": "Fauci’s Diary Isn’t the Key to Why Covid Ravaged the U.S. — Our Broken Healthcare System Is",
-      "link": "https://theintercept.com/2026/07/29/covid-fauci-diary-rand-paul-healthcare-pandemic/",
-      "pubDate": "Wed, 29 Jul 2026 19:05:39 +0000",
-      "source": "The Intercept",
-      "summary": "Rand Paul is trying to put Anthony Fauci in prison for not confirming a conspiracy theory, but the key to blunting the next pandemic is universal healthcare.\nThe post Fauci’s Diary Isn’t the Key to Why Covid Ravaged the U.S. — Our Broken Healthcare S"
-    },
-    {
       "title": "Shahed-Type Drones Filmed During Mali Village Attacks",
       "link": "https://www.bellingcat.com/news/2026/07/24/shahed-type-drones-filmed-during-attack-on-mali-villages/",
       "pubDate": "Fri, 24 Jul 2026 15:39:05 +0000",
@@ -610,16 +623,16 @@
       "pubDate": "Mon, 06 Jul 2026 22:19:31 +0000",
       "source": "Bellingcat",
       "summary": "Bellingcat has geolocated footage circulating on social media that appears to show coffins placed in newly dug trenches following the recent deadly earthquakes in Venezuela. The site identified extends over two hectares beside an existing cemetery in"
-    },
-    {
-      "title": "Burning Forests: Tools for Tracking and Reporting Wildfire Damage",
-      "link": "https://www.bellingcat.com/resources/how-tos/2026/06/30/burning-forests-tools-for-tracking-and-reporting-wildfire-damage/",
-      "pubDate": "Tue, 30 Jun 2026 08:25:31 +0000",
-      "source": "Bellingcat",
-      "summary": "If you’ve seen reports of a wildfire in your region and you’re looking for open source data, NASA’s fire-tracking tool is often the first place to start. It provides a heat signature and an approximate location. But detection is only the first step i"
     }
   ],
   "syndication": [
+    {
+      "title": "Pluralistic: Why businesses lie about AI (01 Aug 2026)",
+      "link": "https://pluralistic.net/2026/08/01/dare-snot/",
+      "pubDate": "Sat, 01 Aug 2026 12:29:28 +0000",
+      "author": "Pluralistic",
+      "content": "Today's links Why businesses lie about AI: Humoring the boss all the way into bankruptcy. Hey look at this: Delights to delectate. Object permanence: Vinge x NYT; Syklarov x publishers; Human hair castles; Gingrich's bot army; Accessibility v Web DRM; David Byrne x WinXP; Furries don't fuck in fursu"
+    },
     {
       "title": "Friday Squid Blogging: Squid Helps Discover New Marine Species",
       "link": "https://www.schneier.com/blog/archives/2026/07/friday-squid-blogging-squid-helps-discover-new-marine-species.html",
@@ -663,13 +676,6 @@
       "content": "Today's links The stupidest imaginable excuses for surveillance pricing: Since 1850, San Francisco's Chamber of Commerce has been pissing in our mouths and calling it rain. Hey look at this: Delights to delectate. Object permanence: RIP Wau Holland; Diebold voting machines suck; How to steal an RFID"
     },
     {
-      "title": "Pluralistic: Enshittification and Reverse Centaurs go global (29 Jul 2026)",
-      "link": "https://pluralistic.net/2026/07/29/la-la-la-la-la/",
-      "pubDate": "Wed, 29 Jul 2026 08:09:34 +0000",
-      "author": "Pluralistic",
-      "content": "Today's links Enshittification and Reverse Centaurs go global: The good globalism. Hey look at this: Delights to delectate. Object permanence: Fonz thumps x Linux; CBC v DRM; Aussie mall v photos; English town x CCTVs; Pay no taxes x Big Tech; Games Workshop v gamers; Delta x surveillance pricing. U"
-    },
-    {
       "title": "LG to Ban Residential Proxies from Smart TV Apps",
       "link": "https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/",
       "pubDate": "Wed, 22 Jul 2026 01:10:38 +0000",
@@ -685,6 +691,14 @@
     }
   ],
   "syndicate_journal": [
+    {
+      "title": "The Cuban Revolution Was a Revolution in Art and Culture",
+      "link": "",
+      "summary": "As part of the , a Cuba solidarity mission — in which, for the first time, a civil society vessel crossed the Atlantic Ocean carrying solar energy equipment for a pediatric hospital in Havana —  contributor Simón Vázquez visited Abel Prieto at Casa de las Américas. A writer and essayist, former mini",
+      "pubDate": "2026-08-01T12:48:32.340Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
     {
       "title": "You’re Carrying “Ghost DNA” From Extinct Hominins",
       "link": "https://nautil.us/youre-carrying-ghost-dna-from-extinct-hominins-1283291/",
@@ -740,14 +754,6 @@
       "pubDate": "Fri, 31 Jul 2026 13:22:32 +0000",
       "domain": "history",
       "source": "JSTOR Daily"
-    },
-    {
-      "title": "Take a Moment to Feel the Pain of the Rich",
-      "link": "",
-      "summary": "On June 23, 2026, the  published a story about billionaires titled, “The Rise of the Deserving Rich.” It claimed that “today’s billionaires are more likely than yesterday’s to have made their own money.” The claim is easily dismissed. The more interesting question is: Why did the magazine bother to ",
-      "pubDate": "2026-07-31T12:55:50.208Z",
-      "domain": "politics",
-      "source": "Jacobin"
     },
     {
       "title": "Resist the technocrats",
@@ -854,6 +860,30 @@
       "source": "Quanta"
     },
     {
+      "title": "Journey to Robbers Cave",
+      "link": "https://behavioralscientist.org/journey-to-robbers-cave/",
+      "summary": "The year was 1948. Only three years had passed since the Axis powers signed the instrument of surrender effectively ending the Second World War. Fifty nations had taken part in the conflict that saw genocide and the first use of nuclear weapons. An estimated 50 million lives were lost and another 19",
+      "pubDate": "Sun, 19 Jul 2026 22:58:46 +0000",
+      "domain": "psychology",
+      "source": "Behavioral Scientist"
+    },
+    {
+      "title": "Behavioral Scientist’s Summer Book List 2026",
+      "link": "https://behavioralscientist.org/behavioral-scientists-summer-book-list-2026/",
+      "summary": "For your intellectual travels this summer, we’ve curated a baker’s dozen of behavioral science books newly published this year. Explore the mysteries of life and consciousness, glimpse the power of constraints and the games that define our lives, navigate life’s cliffs, and find the places that will",
+      "pubDate": "Sun, 05 Jul 2026 20:32:19 +0000",
+      "domain": "psychology",
+      "source": "Behavioral Scientist"
+    },
+    {
+      "title": "What It’s Like to Be…an Air Traffic Controller",
+      "link": "https://behavioralscientist.org/what-its-like-to-be-an-air-traffic-controller/",
+      "summary": "Sequencing departures like a moving puzzle, scrambling when a jet takes off without clearance, and catching what radar misses with a glance out the window with Michael Rejent, an air traffic controller. What does \"tally ho\" mean to a pilot? What phrase makes every controller in the cab look up?\n\n\n\n\n",
+      "pubDate": "Sun, 05 Jul 2026 16:35:59 +0000",
+      "domain": "psychology",
+      "source": "Behavioral Scientist"
+    },
+    {
       "title": "Best of SAPIENS 2025",
       "link": "https://www.sapiens.org/culture/best-of-sapiens-2025/",
       "summary": "In SAPIENS’ final year of publishing new stories, the magazine honors 10 standout contributions that carried anthropology into the hearts…\nThe post Best of SAPIENS 2025 appeared first on SAPIENS.",
@@ -928,64 +958,64 @@
   ],
   "misinfo_toilet": [
     {
-      "headline": "Israeli West Bank settler tells BBC attacks on Palestinians are justified as revenge",
-      "fragment": "Simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
-      "splice": "Israeli West Bank settler tells BBC attacks on Palestinians are justified as revenge underneath simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
-      "seed": 20260811
-    },
-    {
       "headline": "Abdul El-Sayed on The Intercept Briefing",
-      "fragment": "An ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
-      "splice": "Abdul El-Sayed on The Intercept Briefing ...as an ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
-      "seed": 20260812
-    },
-    {
-      "headline": "Burning Forests: Tools for Tracking and Reporting Wildfire Damage",
-      "fragment": "It is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
-      "splice": "Burning Forests: Tools for Tracking and Reporting Wildfire Damage while it is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
-      "seed": 20260813
-    },
-    {
-      "headline": "Trump’s Truth Social API Is a Blatantly Corrupt Favor to Wall Street",
-      "fragment": "It is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
-      "splice": "Trump’s Truth Social API Is a Blatantly Corrupt Favor to Wall Street insofar as it is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
+      "fragment": "To dissimulate is to pretend not to have what one has. To simulate is to feign to have what one doesn't have. One implies a presence, the other an absence.",
+      "splice": "Abdul El-Sayed on The Intercept Briefing because to dissimulate is to pretend not to have what one has. To simulate is to feign to have what one doesn't have. One implies a presence, the other an absence.",
       "seed": 20260814
     },
     {
-      "headline": "In Iran, the U.S. Appears Headed for a Strategic Defeat, Allies Fear",
-      "fragment": "It is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
-      "splice": "In Iran, the U.S. Appears Headed for a Strategic Defeat, Allies Fear insofar as it is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
+      "headline": "Uefa has 'lost confidence' in Infantino's Fifa leadership",
+      "fragment": "Simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
+      "splice": "Uefa has 'lost confidence' in Infantino's Fifa leadership in the void where simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
       "seed": 20260815
     },
     {
-      "headline": "Free Speech Crackdown: Germany Deports Bob Vylan Frontman for Anti-Israel Chants",
-      "fragment": "Underneath all reason lies delirium and drift.",
-      "splice": "Free Speech Crackdown: Germany Deports Bob Vylan Frontman for Anti-Israel Chants which is to say underneath all reason lies delirium and drift.",
+      "headline": "Identifying the Crypto Entrepreneur Linked to Popular Forum Trading in ‘Leaked’ Nudes of Women",
+      "fragment": "The technocrat is the natural friend of the dictator—computers and dictatorship.",
+      "splice": "Identifying the Crypto Entrepreneur Linked to Popular Forum Trading in ‘Leaked’ Nudes of Women because the technocrat is the natural friend of the dictator—computers and dictatorship.",
       "seed": 20260816
     },
     {
-      "headline": "Identifying the Crypto Entrepreneur Linked to Popular Forum Trading in ‘Leaked’ Nudes of Women",
-      "fragment": "Antagonism is not now located externally, in the face-off between class blocs, but internally, in the psychology of the worker.",
-      "splice": "Identifying the Crypto Entrepreneur Linked to Popular Forum Trading in ‘Leaked’ Nudes of Women because antagonism is not now located externally, in the face-off between class blocs, but internally, in the psychology of the worker.",
+      "headline": "Iran warns against ‘flames of war’ amid US strike threats on energy sites",
+      "fragment": "The technocrat is the natural friend of the dictator—computers and dictatorship.",
+      "splice": "Iran warns against ‘flames of war’ amid US strike threats on energy sites as if the technocrat is the natural friend of the dictator—computers and dictatorship.",
       "seed": 20260817
     },
     {
-      "headline": "The U.S. Deported Him to Jail in Russia. Then He Escaped.",
-      "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
-      "splice": "The U.S. Deported Him to Jail in Russia. Then He Escaped. underneath the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "headline": "Cori Bush Has No Regrets",
+      "fragment": "In the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
+      "splice": "Cori Bush Has No Regrets which is to say in the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
       "seed": 20260818
     },
     {
-      "headline": "Beneath Tunisia’s silence, public anger simmers",
+      "headline": "Russian Missiles Kill 9 in Kyiv After Trump Backs Off Air-Defense Pledge",
       "fragment": "The simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
-      "splice": "Beneath Tunisia’s silence, public anger simmers insofar as the simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
+      "splice": "Russian Missiles Kill 9 in Kyiv After Trump Backs Off Air-Defense Pledge underneath the simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
       "seed": 20260819
     },
     {
       "headline": "Between Graves and Uncertainty: The Management of the Dead After Venezuela’s Earthquake",
-      "fragment": "The technocrat is the natural friend of the dictator—computers and dictatorship.",
-      "splice": "Between Graves and Uncertainty: The Management of the Dead After Venezuela’s Earthquake the signal resolves into the technocrat is the natural friend of the dictator—computers and dictatorship.",
+      "fragment": "An ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
+      "splice": "Between Graves and Uncertainty: The Management of the Dead After Venezuela’s Earthquake while an ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
       "seed": 20260820
+    },
+    {
+      "headline": "Trump’s Truth Social API Is a Blatantly Corrupt Favor to Wall Street",
+      "fragment": "The technocrat is the natural friend of the dictator—computers and dictatorship.",
+      "splice": "Trump’s Truth Social API Is a Blatantly Corrupt Favor to Wall Street insofar as the technocrat is the natural friend of the dictator—computers and dictatorship.",
+      "seed": 20260821
+    },
+    {
+      "headline": "Spain says migrants leaving Ceuta after mass influx in which 67 died",
+      "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
+      "splice": "Spain says migrants leaving Ceuta after mass influx in which 67 died consequently it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
+      "seed": 20260822
+    },
+    {
+      "headline": "Spain Installs Floating Barrier in Ceuta After Influx of Migrants",
+      "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
+      "splice": "Spain Installs Floating Barrier in Ceuta After Influx of Migrants not unlike it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
+      "seed": 20260823
     }
   ]
 }
