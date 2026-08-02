@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T10:43:00.118Z",
+  "generated_at": "2026-08-02T16:02:26.442Z",
   "threat_intel": {
     "cisa_kev": [
       {
@@ -232,39 +232,51 @@
     ],
     "urlhaus": [
       {
-        "id": "3895534",
-        "date_added": "2026-08-02 10:22:06",
-        "url": "http://123.12.82.26:56083/i",
+        "id": "3895614",
+        "date_added": "2026-08-02 15:47:24",
+        "url": "http://180.244.68.248:38340/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "mirai",
           "Mozi"
         ]
       },
       {
-        "id": "3895533",
-        "date_added": "2026-08-02 10:21:21",
-        "url": "http://123.12.82.26:56083/bin.sh",
+        "id": "3895613",
+        "date_added": "2026-08-02 15:32:25",
+        "url": "http://180.244.68.248:38340/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "mirai",
           "Mozi"
         ]
       },
       {
-        "id": "3895532",
-        "date_added": "2026-08-02 10:21:07",
-        "url": "http://125.43.127.131:36544/i",
+        "id": "3895612",
+        "date_added": "2026-08-02 15:25:26",
+        "url": "http://175.31.184.132:51169/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "None"
+          "32-bit",
+          "arm",
+          "elf",
+          "mirai",
+          "Mozi"
         ]
       },
       {
-        "id": "3895531",
-        "date_added": "2026-08-02 10:12:18",
-        "url": "http://42.224.21.119:38381/bin.sh",
+        "id": "3895611",
+        "date_added": "2026-08-02 15:02:18",
+        "url": "http://110.36.1.200:60235/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -275,9 +287,9 @@
         ]
       },
       {
-        "id": "3895530",
-        "date_added": "2026-08-02 10:01:57",
-        "url": "http://120.53.120.28:6923/linux",
+        "id": "3895610",
+        "date_added": "2026-08-02 14:37:09",
+        "url": "http://222.141.112.232:51975/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -285,19 +297,69 @@
         ]
       },
       {
-        "id": "3895529",
-        "date_added": "2026-08-02 10:01:47",
-        "url": "http://115.49.200.35:52516/i",
+        "id": "3895609",
+        "date_added": "2026-08-02 14:34:28",
+        "url": "http://31.77.227.111/hiddenbin/boatnet.arm",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
+          "elf",
+          "iot",
+          "mirai"
+        ]
+      },
+      {
+        "id": "3895608",
+        "date_added": "2026-08-02 14:34:22",
+        "url": "http://31.77.227.111/hiddenbin/boatnet.arm7",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "iot",
+          "mirai"
+        ]
+      },
+      {
+        "id": "3895606",
+        "date_added": "2026-08-02 14:34:05",
+        "url": "http://91.92.242.236/files-129312398/files/file_2406cf76a7ca34ca.exe",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "c2-monitor-auto",
+          "dropped-by-amadey"
+        ]
+      },
+      {
+        "id": "3895607",
+        "date_added": "2026-08-02 14:34:05",
+        "url": "http://91.92.242.236/files-129312398/files/file_bbcbeb2966f48fd6.exe",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "c2-monitor-auto",
+          "dropped-by-amadey"
+        ]
+      },
+      {
+        "id": "3895605",
+        "date_added": "2026-08-02 14:30:25",
+        "url": "http://180.243.251.152:40774/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "mirai",
           "Mozi"
         ]
       },
       {
-        "id": "3895528",
-        "date_added": "2026-08-02 10:01:44",
-        "url": "http://115.199.254.5:36155/bin.sh",
+        "id": "3895604",
+        "date_added": "2026-08-02 14:06:09",
+        "url": "http://42.228.32.154:45035/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -305,29 +367,9 @@
         ]
       },
       {
-        "id": "3895521",
-        "date_added": "2026-08-02 10:01:42",
-        "url": "http://115.199.254.5:36155/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "mirai"
-        ]
-      },
-      {
-        "id": "3895522",
-        "date_added": "2026-08-02 10:01:42",
-        "url": "http://222.139.83.141:42413/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "mirai"
-        ]
-      },
-      {
-        "id": "3895523",
-        "date_added": "2026-08-02 10:01:42",
-        "url": "http://222.141.112.232:51975/i",
+        "id": "3895603",
+        "date_added": "2026-08-02 13:27:12",
+        "url": "https://directdownloadl.ink/f/5239f7a9c7ae.exe",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -335,9 +377,9 @@
         ]
       },
       {
-        "id": "3895524",
-        "date_added": "2026-08-02 10:01:42",
-        "url": "http://182.119.232.123:58614/i",
+        "id": "3895602",
+        "date_added": "2026-08-02 13:27:09",
+        "url": "https://directdownloadl.ink/f/aca7ebab32cd.bat",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -345,29 +387,9 @@
         ]
       },
       {
-        "id": "3895525",
-        "date_added": "2026-08-02 10:01:42",
-        "url": "http://222.137.175.111:33777/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "mirai"
-        ]
-      },
-      {
-        "id": "3895526",
-        "date_added": "2026-08-02 10:01:42",
-        "url": "http://103.249.199.3:54200/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "mirai"
-        ]
-      },
-      {
-        "id": "3895527",
-        "date_added": "2026-08-02 10:01:42",
-        "url": "http://8.134.218.77:9875/linux",
+        "id": "3895601",
+        "date_added": "2026-08-02 13:27:07",
+        "url": "https://directdownloadl.ink/f/0713a6e9e059.apk",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -375,74 +397,151 @@
         ]
       },
       {
-        "id": "3895499",
-        "date_added": "2026-08-02 10:01:41",
-        "url": "http://109.236.44.113:44431/bin.sh",
-        "url_status": "online",
+        "id": "3895600",
+        "date_added": "2026-08-02 13:27:05",
+        "url": "https://directdownloadl.ink/f/452f5657e973.zip",
+        "url_status": "offline",
         "threat": "malware_download",
         "tags": [
-          "mirai"
+          "None"
         ]
       },
       {
-        "id": "3895500",
-        "date_added": "2026-08-02 10:01:41",
-        "url": "http://105.184.58.67:41241/bin.sh",
+        "id": "3895599",
+        "date_added": "2026-08-02 13:26:10",
+        "url": "https://safeuploadz.com/uploads/6a4b9d67c109e.exe",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "mirai"
+          "None"
         ]
       },
       {
-        "id": "3895501",
-        "date_added": "2026-08-02 10:01:41",
-        "url": "http://110.36.93.182:60247/i",
-        "url_status": "online",
+        "id": "3895598",
+        "date_added": "2026-08-02 13:22:27",
+        "url": "https://file.tugou.com.co/files/msdt.exe",
+        "url_status": "offline",
         "threat": "malware_download",
         "tags": [
-          "Mozi"
+          "None"
         ]
       },
       {
-        "id": "3895502",
-        "date_added": "2026-08-02 10:01:41",
-        "url": "http://182.126.80.129:35082/i",
-        "url_status": "online",
+        "id": "3895597",
+        "date_added": "2026-08-02 13:22:25",
+        "url": "https://thenewcoffeshop.com/Bin/ScreenConnect.Windows.dll",
+        "url_status": "offline",
         "threat": "malware_download",
         "tags": [
-          "Mozi"
+          "None"
         ]
       },
       {
-        "id": "3895503",
-        "date_added": "2026-08-02 10:01:41",
-        "url": "http://144.48.123.149:56728/i",
-        "url_status": "online",
+        "id": "3895595",
+        "date_added": "2026-08-02 13:22:24",
+        "url": "https://file.tugou.com.co/files/powershell.exe",
+        "url_status": "offline",
         "threat": "malware_download",
         "tags": [
-          "Mozi"
+          "None"
         ]
       },
       {
-        "id": "3895504",
-        "date_added": "2026-08-02 10:01:41",
-        "url": "http://39.88.248.179:44390/i",
-        "url_status": "online",
+        "id": "3895596",
+        "date_added": "2026-08-02 13:22:24",
+        "url": "https://thenewcoffeshop.com/Bin/ScreenConnect.Core.dll",
+        "url_status": "offline",
         "threat": "malware_download",
         "tags": [
-          "Mozi"
+          "None"
         ]
       }
     ]
   },
   "world_monitor": [
     {
-      "title": "Five dead, 41 missing, after Indonesia ferry catches fire",
-      "link": "https://www.bbc.co.uk/news/articles/c74g0wjvlrxo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Sun, 02 Aug 2026 10:35:11 GMT",
+      "title": "At least 13 killed in Israeli strikes on Gaza after Hamas agree disarmament deal ",
+      "link": "https://www.bbc.co.uk/news/articles/czjlvvkzj20o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Sun, 02 Aug 2026 15:50:59 GMT",
       "source": "BBC",
-      "summary": "The vessel with 271 people on board caught fire off Madura island."
+      "summary": "Israel says it was targeting military operatives in the strikes on Gaza City, Khan Younis and Deir el-Balah."
+    },
+    {
+      "title": "Ukraine says major Russian oil refinery and airfield hit, as Moscow reports eight deaths ",
+      "link": "https://www.bbc.co.uk/news/articles/c998gg5pe09o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Sun, 02 Aug 2026 15:48:00 GMT",
+      "source": "BBC",
+      "summary": "Russia's military says it attacked Ukraine's ports and vessels in the Black Sea overnight."
+    },
+    {
+      "title": "Israeli settlers shoot Palestinian child during farm raid",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/2/israeli-settlers-shoot-palestinian-child-during-farm-raid?traffic_source=rss",
+      "pubDate": "Sun, 02 Aug 2026 15:36:28 +0000",
+      "source": "Al Jazeera",
+      "summary": "CCTV captured the moment a nine-year-old Palestinian boy was shot in the back by Israeli settlers."
+    },
+    {
+      "title": "How to end the ‘Hormuz war’",
+      "link": "https://www.aljazeera.com/opinions/2026/8/2/how-to-end-the-hormuz?traffic_source=rss",
+      "pubDate": "Sun, 02 Aug 2026 15:33:20 +0000",
+      "source": "Al Jazeera",
+      "summary": "The least bad option for the US is to let the MoU Article 5 play out."
+    },
+    {
+      "title": "Trump Says He Canceled Strikes on Iran, Claiming Progress on Outlines of a Deal",
+      "link": "https://www.nytimes.com/2026/08/02/world/middleeast/trump-iran-cancels-attack-deal.html",
+      "pubDate": "Sun, 02 Aug 2026 15:27:49 +0000",
+      "source": "NYT World",
+      "summary": "President Trump has repeatedly threatened to escalate the war with Iran, only to abruptly back down. Saudi Arabia said its leader had urged Trump not to renew attacks."
+    },
+    {
+      "title": "Helicopters fighting Greece wildfires collide in mid-air",
+      "link": "https://www.bbc.co.uk/news/articles/c1417713ve6o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Sun, 02 Aug 2026 15:21:56 GMT",
+      "source": "BBC",
+      "summary": "Video of the incident shows one of the helicopters hitting the propellers of the other, which bursts into flames."
+    },
+    {
+      "title": "Ukrainian farmers use temporary storage to revive grain exports",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/2/ukrainian-farmers-use-temporary-storage-to-revive-grain-exports?traffic_source=rss",
+      "pubDate": "Sun, 02 Aug 2026 15:14:26 +0000",
+      "source": "Al Jazeera",
+      "summary": "Russian attacks disrupt Black Sea exports, forcing Ukrainian farmers to use temporary grain storage."
+    },
+    {
+      "title": "Heatwave forces nuclear shutdown in Hungary",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/2/08-02-2026-hungary-nuclear-plant-sv?traffic_source=rss",
+      "pubDate": "Sun, 02 Aug 2026 14:44:34 +0000",
+      "source": "Al Jazeera",
+      "summary": "Hungary says a heatwave has forced the shutdown of its largest nuclear plant as low Danube levels disrupt cooling."
+    },
+    {
+      "title": "Tanks, troops and space",
+      "link": "https://www.aljazeera.com/video/talk-to-al-jazeera/2026/8/2/tanks-troops-and-space?traffic_source=rss",
+      "pubDate": "Sun, 02 Aug 2026 14:34:21 +0000",
+      "source": "Al Jazeera",
+      "summary": "Andrius Kubilius on the lessons from Ukraine and why drones and space are transforming Europe's security strategy."
+    },
+    {
+      "title": "Far-Right Leaders Step Up Calls for Expelling Remaining Migrants in Ceuta",
+      "link": "https://www.nytimes.com/2026/08/02/world/europe/spain-ceuta-far-right.html",
+      "pubDate": "Sun, 02 Aug 2026 13:50:27 +0000",
+      "source": "NYT World",
+      "summary": "Spain’s leading far-right politician arrived in the territory on Sunday, fueling tensions there after thousands of migrants entered the exclave last week."
+    },
+    {
+      "title": "Trump cancels Iran strikes subject to deal being made 'rapidly'",
+      "link": "https://www.bbc.co.uk/news/articles/cjwx74qgld2o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Sun, 02 Aug 2026 11:12:00 GMT",
+      "source": "BBC",
+      "summary": "The US president claims Iran and other Middle Eastern countries asked Washington to hold off on any attack as the \"perimeters\" of a deal had been agreed."
+    },
+    {
+      "title": "La Guaira Is Unrecognizable After Venezuela’s Deadly Earthquakes",
+      "link": "https://www.nytimes.com/2026/08/02/world/americas/venezuela-earthquakes-la-guaira.html",
+      "pubDate": "Sun, 02 Aug 2026 11:05:56 +0000",
+      "source": "NYT World",
+      "summary": "More than a month after the earthquakes, the coastal region of La Guaira — once Venezuela’s main gateway — is completely unrecognizable."
     },
     {
       "title": "How Spain's migrant crisis created a political storm - whipped up by social media",
@@ -452,74 +551,11 @@
       "summary": "The Ceuta crossings have shaken Europe politically, exposing divisions over the sensitive issue of migration, the BBC's Sarah Rainsford writes."
     },
     {
-      "title": "Far-Right Leaders Step Up Calls for Expelling Remaining Migrants in Ceuta",
-      "link": "https://www.nytimes.com/2026/08/02/world/europe/spain-ceuta-far-right.html",
-      "pubDate": "Sun, 02 Aug 2026 10:30:34 +0000",
-      "source": "NYT World",
-      "summary": "Anti-immigration campaigners were set to hold a rally in the Spanish territory to call for tougher action, after thousands of migrants entered the exclave last week."
-    },
-    {
-      "title": "Trump Says He Canceled Strikes on Iran, Claiming Progress on Outlines of a Deal",
-      "link": "https://www.nytimes.com/2026/08/02/world/middleeast/trump-iran-cancels-attack-deal.html",
-      "pubDate": "Sun, 02 Aug 2026 09:56:03 +0000",
-      "source": "NYT World",
-      "summary": "President Trump said he agreed to requests from Iran and other Middle Eastern countries to cancel planned attacks, citing what he said was progress in reaching the “perimeters of a deal” with Tehran."
-    },
-    {
-      "title": "Residents of Spain’s Ceuta shut down far-right anti-migrant rally",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/2/2-08-sv-ceuta-cancel-farright-protests-es?traffic_source=rss",
-      "pubDate": "Sun, 02 Aug 2026 09:55:06 +0000",
-      "source": "Al Jazeera",
-      "summary": "Hundreds of residents in Spain's North African enclave of Ceuta gathered to oppose a planned far-right rally."
-    },
-    {
-      "title": "A quiet day in Harare after Zimbabwe’s shutdown call",
-      "link": "https://www.aljazeera.com/news/2026/8/2/a-quiet-day-in-harare-after-zimbabwes-shutdown-call?traffic_source=rss",
-      "pubDate": "Sun, 02 Aug 2026 09:50:48 +0000",
-      "source": "Al Jazeera",
-      "summary": "A heavy security presence and cautious businesses reflected tensions over constitutional changes."
-    },
-    {
-      "title": "Why has Trump halted Iran attacks, and what is the deal he is hinting at?",
-      "link": "https://www.aljazeera.com/news/2026/8/2/why-has-trump-halted-iran-attacks-and-what-is-the-deal-he-is-hinting-at?traffic_source=rss",
-      "pubDate": "Sun, 02 Aug 2026 09:43:10 +0000",
-      "source": "Al Jazeera",
-      "summary": "Trump says 'perimeters of a deal has been agreed to' as he pauses attacks. But is there any substance to his claim?"
-    },
-    {
-      "title": "Trump cancels Iran strikes subject to deal being made 'rapidly'",
-      "link": "https://www.bbc.co.uk/news/articles/cjwx74qgld2o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Sun, 02 Aug 2026 09:10:51 GMT",
-      "source": "BBC",
-      "summary": "The US president claims Iran and other Middle Eastern countries asked Washington to hold off on any attack as the \"perimeters\" of a deal had been agreed."
-    },
-    {
-      "title": "How Davutoglu helped shape Erdogan’s Turkiye but failed to challenge it",
-      "link": "https://www.aljazeera.com/features/2026/8/2/how-davutoglu-helped-shape-erdogans-turkiye-but-failed-to-challenge-it?traffic_source=rss",
-      "pubDate": "Sun, 02 Aug 2026 09:07:20 +0000",
-      "source": "Al Jazeera",
-      "summary": "Once Turkiye's prime minister, Ahmet Davutoglu has stepped back from party politics."
-    },
-    {
-      "title": "La Guaira Is Unrecognizable After Venezuela’s Deadly Earthquakes",
-      "link": "https://www.nytimes.com/2026/08/02/world/americas/venezuela-earthquakes-la-guaira.html",
-      "pubDate": "Sun, 02 Aug 2026 09:00:58 +0000",
-      "source": "NYT World",
-      "summary": "More than a month after the earthquakes, the coastal region of La Guaira — once Venezuela’s main gateway — is completely unrecognizable."
-    },
-    {
       "title": "Cowboys Fringants Bassist Is Named Quebec’s Chief Scientist",
       "link": "https://www.nytimes.com/2026/08/02/world/canada/jerome-dupras-quebec-chief-scientist-les-cowboys-fringants.html",
-      "pubDate": "Sun, 02 Aug 2026 09:00:16 +0000",
+      "pubDate": "Sun, 02 Aug 2026 09:00:17 +0000",
       "source": "NYT World",
       "summary": "Jérôme Dupras is a member of one of Quebec’s most popular folk rock bands. Now, as the province’s chief scientist, he will help shape its environmental destiny."
-    },
-    {
-      "title": "Trump ‘cancels attack on Iran’ saying deal is near",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/2/trump-cancels-attack-on-iran-saying-deal-is-near?traffic_source=rss",
-      "pubDate": "Sun, 02 Aug 2026 08:43:15 +0000",
-      "source": "Al Jazeera",
-      "summary": "US President Trump announced he was cancelling a planned attack on Iran with the ‘perimeters of a deal’ agreed to."
     },
     {
       "title": "Europe’s Far Right, Once Marginal, Now Sets Tone on Spain Migrant Crisis",
@@ -527,20 +563,6 @@
       "pubDate": "Sun, 02 Aug 2026 07:30:02 +0000",
       "source": "NYT World",
       "summary": "Europe sheltered many refugees in 2015. Its hard-line reaction to a new crisis in Ceuta shows how, 11 years on, the far right has reshaped European attitudes."
-    },
-    {
-      "title": "Young guns for hire - the teenage hitmen recruited to kill across Europe",
-      "link": "https://www.bbc.co.uk/news/articles/czrjyevmv61o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Sat, 01 Aug 2026 23:03:35 GMT",
-      "source": "BBC",
-      "summary": "The Foxtrot Network is thought to be responsible for about 35 murders in Europe, and uses violence-as-a-service tactics."
-    },
-    {
-      "title": "The Sopranos star Vincent Pastore dies aged 80",
-      "link": "https://www.bbc.co.uk/news/articles/cm2gz0epljgo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Sat, 01 Aug 2026 22:57:55 GMT",
-      "source": "BBC",
-      "summary": "Pastore, who played Salvatore \"Big Pussy\" Bonpensiero in the hit US show, was found at his home in New York City, US media report."
     },
     {
       "title": "Nach Abschiebung wegen Anti-Israel-Parole: Bob-Vylan-Frontmann wehrt sich erfolgreich gegen Einreiseverbot",
@@ -680,18 +702,26 @@
   ],
   "syndicate_journal": [
     {
-      "title": "The New Spider-Man Is Pure Fun",
+      "title": "The Blue Collar Brigade Has the Right Messengers",
       "link": "",
-      "summary": "What can be said about a new  movie besides, in a tone of incredulity, “It’s another one!”Spider-Man\nWell, a few things.  was directed by Destin Daniel Cretton, who also did  (2021), which I enjoyed. It was lighthearted and humorous, with excellent action sequences and nice low-key character work, a",
-      "pubDate": "2026-08-01T14:44:57.025Z",
+      "summary": "When Brian Poindexter made his first fundraising calls in his campaign for Congress (OH-7), he  a fellow ironworker and asked for fifty dollars. His buddy said he couldn’t help, since he’d been laid off. It’s hard to imagine Poindexter’s opponent, Republican Congressman Max Miller, having a conversa",
+      "pubDate": "2026-08-02T13:00:00.135Z",
       "domain": "politics",
       "source": "Jacobin"
     },
     {
-      "title": "The Cuban Revolution Was a Revolution in Art and Culture",
+      "title": "Mahmoud Khalil Is Suing the Trump Administration",
       "link": "",
-      "summary": "As part of the , a Cuba solidarity mission — in which, for the first time, a civil society vessel crossed the Atlantic Ocean carrying solar energy equipment for a pediatric hospital in Havana —  contributor Simón Vázquez visited Abel Prieto at Casa de las Américas. A writer and essayist, former mini",
-      "pubDate": "2026-08-01T12:48:32.340Z",
+      "summary": "Since October 7, 2023, critics of Israel in Europe and the United States have faced serious repression. In the United States, college student  against the unfolding genocide of Palestinians in Gaza were met with a heavy-handed  by police and university administrations.protestsresponse\nRepression of ",
+      "pubDate": "2026-08-02T12:30:00.313Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "The New Spider-Man Is Pure Fun",
+      "link": "",
+      "summary": "What can be said about a new  movie besides, in a tone of incredulity, “It’s another one!”Spider-Man\nWell, a few things.  was directed by Destin Daniel Cretton, who also did  (2021), which I enjoyed. It was lighthearted and humorous, with excellent action sequences and nice low-key character work, a",
+      "pubDate": "2026-08-01T14:44:57.025Z",
       "domain": "politics",
       "source": "Jacobin"
     },
@@ -726,14 +756,6 @@
       "pubDate": "Fri, 31 Jul 2026 14:50:11 +0000",
       "domain": "science",
       "source": "Quanta"
-    },
-    {
-      "title": "Pakistani-Ruled Kashmir Is Facing a Brutal State Crackdown",
-      "link": "",
-      "summary": "The Pakistan-administered territory of Jammu Kashmir (PaJK) is witnessing the most extensive  between the masses and the Pakistani state in decades. Between June 5 and July 27, at least forty-five people were killed as Islamabad sought to crush the movement before it could consolidate.confrontation\n",
-      "pubDate": "2026-07-31T14:10:51.900Z",
-      "domain": "politics",
-      "source": "Jacobin"
     },
     {
       "title": "The Greek Tragedy Behind Suddenly Last Summer",
@@ -920,25 +942,25 @@
       "source": "ROAR Magazine"
     },
     {
-      "title": "Inconclusive prospective associations between food insecurity, self-esteem, and depressive symptoms: a comment on Baek and Yoon (2026)",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1866873",
-      "summary": "Based on findings with the random-intercept cross-lagged panel model (RI-CLPM), Baek and Yoon concluded that food insecurity and poor psychological health exacerbate each other in a vicious cycle. However, the RI-CLPM is susceptible to spurious findings. Here, we analyzed data with alternative model",
+      "title": "Emotional pathways to engagement in AI-enhanced english learning: the role of AI literacy and foreign language enjoyment",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1872841",
+      "summary": "PurposeLearner engagement is central to effective EFL learning, yet limited research has examined how AI literacy contributes to students' engagement in AI-enhanced language classrooms. Drawing on the growing recognition of emotion in technology-mediated learning, this study investigates whether for",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "Translation and validation into Spanish of the Technology Acceptance Model (TAM-12) in adults: a structural equation modeling and Bayesian reliability analysis",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1864863",
-      "summary": "IntroductionDigital transformation has established technology acceptance as a key factor for productivity and well-being in workplace environments. However, psychometric evidence regarding the Technology Acceptance Model (TAM-12) in Spanish-speaking adult populations remains heterogeneous, and there",
+      "title": "School-based music and extracurricular engagement as pathways to adolescent learning and wellbeing: mediating roles of self-regulation and school climate",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1900830",
+      "summary": "IntroductionMusic and other creative activities are often recommended as affordable ways to support adolescent development, yet large-scale evidence on the psychological correlates linking such engagement to learning and wellbeing remains limited, especially in high-achieving East Asian systems. Usi",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "Extending the UTAUT model to explore the acceptance and use of generative AI: the roles of generative AI identity and trust",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1846181",
-      "summary": "IntroductionGenerative AI (GenAI) technology has been rapidly integrated into diverse domains, including education. It has fundamentally reshaped the global learning landscape, exerting a significantly positive influence on students’ learning experience. However, the factors influencing adult learne",
+      "title": "The mediating and moderating roles of achievement goal orientation in the relationship between AI writing feedback and English writing self-efficacy among Chinese university students",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1860723",
+      "summary": "This study investigates how AI-generated writing feedback influences English writing self-efficacy among Chinese university students and examines the dual role of achievement goal orientation as both a mediator and a moderator in this relationship. A quasi-experimental pretest-posttest design was im",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
@@ -946,64 +968,64 @@
   ],
   "misinfo_toilet": [
     {
-      "headline": "Trump’s Truth Social API Is a Blatantly Corrupt Favor to Wall Street",
-      "fragment": "To dissimulate is to pretend not to have what one has. To simulate is to feign to have what one doesn't have. One implies a presence, the other an absence.",
-      "splice": "Trump’s Truth Social API Is a Blatantly Corrupt Favor to Wall Street because to dissimulate is to pretend not to have what one has. To simulate is to feign to have what one doesn't have. One implies a presence, the other an absence.",
-      "seed": 20260812
-    },
-    {
-      "headline": "Nach Abschiebung wegen Anti-Israel-Parole: Bob-Vylan-Frontmann wehrt sich erfolgreich gegen Einreiseverbot",
-      "fragment": "Simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
-      "splice": "Nach Abschiebung wegen Anti-Israel-Parole: Bob-Vylan-Frontmann wehrt sich erfolgreich gegen Einreiseverbot in the void where simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
-      "seed": 20260813
-    },
-    {
-      "headline": "Identifying the Crypto Entrepreneur Linked to Popular Forum Trading in ‘Leaked’ Nudes of Women",
-      "fragment": "The technocrat is the natural friend of the dictator—computers and dictatorship.",
-      "splice": "Identifying the Crypto Entrepreneur Linked to Popular Forum Trading in ‘Leaked’ Nudes of Women because the technocrat is the natural friend of the dictator—computers and dictatorship.",
-      "seed": 20260814
-    },
-    {
-      "headline": "Trump cancels Iran strikes subject to deal being made 'rapidly'",
-      "fragment": "The technocrat is the natural friend of the dictator—computers and dictatorship.",
-      "splice": "Trump cancels Iran strikes subject to deal being made 'rapidly' as if the technocrat is the natural friend of the dictator—computers and dictatorship.",
-      "seed": 20260815
-    },
-    {
-      "headline": "Far-Right Leaders Step Up Calls for Expelling Remaining Migrants in Ceuta",
+      "headline": "Cori Bush Has No Regrets",
       "fragment": "In the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
-      "splice": "Far-Right Leaders Step Up Calls for Expelling Remaining Migrants in Ceuta which is to say in the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
-      "seed": 20260816
-    },
-    {
-      "headline": "A quiet day in Harare after Zimbabwe’s shutdown call",
-      "fragment": "The simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
-      "splice": "A quiet day in Harare after Zimbabwe’s shutdown call underneath the simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
-      "seed": 20260817
-    },
-    {
-      "headline": "Between Graves and Uncertainty: The Management of the Dead After Venezuela’s Earthquake",
-      "fragment": "An ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
-      "splice": "Between Graves and Uncertainty: The Management of the Dead After Venezuela’s Earthquake while an ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
+      "splice": "Cori Bush Has No Regrets which is to say in the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
       "seed": 20260818
     },
     {
-      "headline": "The Sopranos star Vincent Pastore dies aged 80",
-      "fragment": "The technocrat is the natural friend of the dictator—computers and dictatorship.",
-      "splice": "The Sopranos star Vincent Pastore dies aged 80 insofar as the technocrat is the natural friend of the dictator—computers and dictatorship.",
+      "headline": "Helicopters fighting Greece wildfires collide in mid-air",
+      "fragment": "The simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
+      "splice": "Helicopters fighting Greece wildfires collide in mid-air underneath the simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
       "seed": 20260819
     },
     {
-      "headline": "Residents of Spain’s Ceuta shut down far-right anti-migrant rally",
-      "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "splice": "Residents of Spain’s Ceuta shut down far-right anti-migrant rally consequently it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
+      "headline": "How Spain's migrant crisis created a political storm - whipped up by social media",
+      "fragment": "An ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
+      "splice": "How Spain's migrant crisis created a political storm - whipped up by social media while an ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
       "seed": 20260820
     },
     {
-      "headline": "Why has Trump halted Iran attacks, and what is the deal he is hinting at?",
-      "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "splice": "Why has Trump halted Iran attacks, and what is the deal he is hinting at? not unlike it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
+      "headline": "Israeli settlers shoot Palestinian child during farm raid",
+      "fragment": "The technocrat is the natural friend of the dictator—computers and dictatorship.",
+      "splice": "Israeli settlers shoot Palestinian child during farm raid insofar as the technocrat is the natural friend of the dictator—computers and dictatorship.",
       "seed": 20260821
+    },
+    {
+      "headline": "Europe’s Far Right, Once Marginal, Now Sets Tone on Spain Migrant Crisis",
+      "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
+      "splice": "Europe’s Far Right, Once Marginal, Now Sets Tone on Spain Migrant Crisis consequently it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
+      "seed": 20260822
+    },
+    {
+      "headline": "Ukraine says major Russian oil refinery and airfield hit, as Moscow reports eight deaths ",
+      "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
+      "splice": "Ukraine says major Russian oil refinery and airfield hit, as Moscow reports eight deaths  not unlike it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
+      "seed": 20260823
+    },
+    {
+      "headline": "How to end the ‘Hormuz war’",
+      "fragment": "It is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
+      "splice": "How to end the ‘Hormuz war’ despite it is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
+      "seed": 20260824
+    },
+    {
+      "headline": "Shahed-Type Drones Filmed During Mali Village Attacks",
+      "fragment": "The privatization of the organs will only begin with the shame felt by man at the sight of man.",
+      "splice": "Shahed-Type Drones Filmed During Mali Village Attacks therefore the privatization of the organs will only begin with the shame felt by man at the sight of man.",
+      "seed": 20260825
+    },
+    {
+      "headline": "Trump’s Truth Social API Is a Blatantly Corrupt Favor to Wall Street",
+      "fragment": "Traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
+      "splice": "Trump’s Truth Social API Is a Blatantly Corrupt Favor to Wall Street ...as traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
+      "seed": 20260826
+    },
+    {
+      "headline": "Abdul El-Sayed on The Intercept Briefing",
+      "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
+      "splice": "Abdul El-Sayed on The Intercept Briefing insofar as the revolutionary lives in the gap which separates technical progress from social totality.",
+      "seed": 20260827
     }
   ]
 }
