@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T21:59:03.383Z",
+  "generated_at": "2026-08-02T08:27:56.013Z",
   "threat_intel": {
     "cisa_kev": [
       {
@@ -232,9 +232,9 @@
     ],
     "urlhaus": [
       {
-        "id": "3895237",
-        "date_added": "2026-08-01 21:49:19",
-        "url": "http://115.51.124.103:52474/i",
+        "id": "3895351",
+        "date_added": "2026-08-02 07:58:28",
+        "url": "http://221.15.226.183:56588/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -245,226 +245,31 @@
         ]
       },
       {
-        "id": "3895226",
-        "date_added": "2026-08-01 21:38:27",
-        "url": "http://31.56.209.153/00101010101001/morte.spc",
+        "id": "3895350",
+        "date_added": "2026-08-02 07:53:12",
+        "url": "https://svo-poiskrat.vercel.app/?download=1",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "elf",
-          "mirai",
-          "opendir",
-          "sparc",
-          "ua-wget"
+          "apk ",
+          "mamont"
         ]
       },
       {
-        "id": "3895227",
-        "date_added": "2026-08-01 21:38:27",
-        "url": "http://31.56.209.153/00101010101001/debug",
-        "url_status": "online",
+        "id": "3895349",
+        "date_added": "2026-08-02 07:53:05",
+        "url": "http://91.92.242.236/files-129312398/files/file_27c28b4831967d60.exe",
+        "url_status": "offline",
         "threat": "malware_download",
         "tags": [
-          "elf",
-          "mirai",
-          "opendir",
-          "ua-wget",
-          "x86"
+          "c2-monitor-auto",
+          "dropped-by-amadey"
         ]
       },
       {
-        "id": "3895228",
-        "date_added": "2026-08-01 21:38:27",
-        "url": "http://31.56.209.153/00101010101001/morte.x86",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "elf",
-          "mirai",
-          "opendir",
-          "ua-wget",
-          "x86"
-        ]
-      },
-      {
-        "id": "3895229",
-        "date_added": "2026-08-01 21:38:27",
-        "url": "http://31.56.209.153/1.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "mirai",
-          "opendir",
-          "sh",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3895230",
-        "date_added": "2026-08-01 21:38:27",
-        "url": "http://31.56.209.153/00101010101001/morte.arc",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "arc",
-          "elf",
-          "mirai",
-          "opendir",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3895231",
-        "date_added": "2026-08-01 21:38:27",
-        "url": "http://31.56.209.153/00101010101001/morte.arm7",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "arm",
-          "elf",
-          "opendir",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3895232",
-        "date_added": "2026-08-01 21:38:27",
-        "url": "http://31.56.209.153/00101010101001/morte.arm",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "arm",
-          "elf",
-          "opendir",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3895233",
-        "date_added": "2026-08-01 21:38:27",
-        "url": "http://31.56.209.153/00101010101001/morte.m68k",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "elf",
-          "m68k",
-          "mirai",
-          "opendir",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3895234",
-        "date_added": "2026-08-01 21:38:27",
-        "url": "http://31.56.209.153/00101010101001/morte.mips",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "elf",
-          "mips",
-          "opendir",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3895235",
-        "date_added": "2026-08-01 21:38:27",
-        "url": "http://31.56.209.153/00101010101001/morte.i686",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "elf",
-          "mirai",
-          "opendir",
-          "ua-wget",
-          "x86"
-        ]
-      },
-      {
-        "id": "3895236",
-        "date_added": "2026-08-01 21:38:27",
-        "url": "http://31.56.209.153/00101010101001/morte.x86_64",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "elf",
-          "opendir",
-          "ua-wget",
-          "x86"
-        ]
-      },
-      {
-        "id": "3895221",
-        "date_added": "2026-08-01 21:38:19",
-        "url": "http://31.56.209.153/00101010101001/morte.sh4",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "elf",
-          "mirai",
-          "opendir",
-          "SuperH",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3895222",
-        "date_added": "2026-08-01 21:38:19",
-        "url": "http://31.56.209.153/00101010101001/morte.arm5",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "arm",
-          "elf",
-          "opendir",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3895223",
-        "date_added": "2026-08-01 21:38:19",
-        "url": "http://31.56.209.153/00101010101001/morte.arm6",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "arm",
-          "elf",
-          "mirai",
-          "opendir",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3895224",
-        "date_added": "2026-08-01 21:38:19",
-        "url": "http://31.56.209.153/00101010101001/morte.mpsl",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "elf",
-          "mips",
-          "mirai",
-          "opendir",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3895225",
-        "date_added": "2026-08-01 21:38:19",
-        "url": "http://31.56.209.153/00101010101001/morte.ppc",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "elf",
-          "opendir",
-          "PowerPC",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3895220",
-        "date_added": "2026-08-01 21:36:21",
-        "url": "http://42.231.237.49:33865/i",
+        "id": "3895348",
+        "date_added": "2026-08-02 07:41:39",
+        "url": "http://42.231.67.69:60846/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -475,9 +280,32 @@
         ]
       },
       {
-        "id": "3895219",
-        "date_added": "2026-08-01 21:32:16",
-        "url": "http://123.148.218.17:43983/i",
+        "id": "3895347",
+        "date_added": "2026-08-02 07:36:26",
+        "url": "http://42.231.67.69:60846/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3895346",
+        "date_added": "2026-08-02 07:27:08",
+        "url": "http://115.56.150.63:52973/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3895345",
+        "date_added": "2026-08-02 07:19:28",
+        "url": "http://105.186.248.213:50161/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -489,91 +317,252 @@
         ]
       },
       {
-        "id": "3895218",
-        "date_added": "2026-08-01 21:20:12",
-        "url": "http://123.148.218.17:43983/bin.sh",
-        "url_status": "online",
+        "id": "3895344",
+        "date_added": "2026-08-02 07:08:20",
+        "url": "http://61.52.36.63:54993/i",
+        "url_status": "offline",
         "threat": "malware_download",
         "tags": [
           "32-bit",
           "arm",
           "elf",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3895343",
+        "date_added": "2026-08-02 07:03:25",
+        "url": "http://91.92.242.236/files-129312398/files/file_a0497afdd457f5f8.exe",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "54e64e",
+          "dropped-by-amadey"
+        ]
+      },
+      {
+        "id": "3895342",
+        "date_added": "2026-08-02 06:54:27",
+        "url": "http://113.221.58.195:45339/Mozi.m",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "iot",
           "mirai",
           "Mozi"
+        ]
+      },
+      {
+        "id": "3895340",
+        "date_added": "2026-08-02 06:54:05",
+        "url": "http://91.92.242.236/files-129312398/files/file_60d2bd674d037b28.exe",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "c2-monitor-auto",
+          "dropped-by-amadey"
+        ]
+      },
+      {
+        "id": "3895341",
+        "date_added": "2026-08-02 06:54:05",
+        "url": "http://91.92.242.236/files-129312398/files/file_383a5ee68e302d41.exe",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "c2-monitor-auto",
+          "dropped-by-amadey"
+        ]
+      },
+      {
+        "id": "3895339",
+        "date_added": "2026-08-02 06:53:19",
+        "url": "http://45.196.97.80:6677/femboy.sh",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "ascii"
+        ]
+      },
+      {
+        "id": "3895338",
+        "date_added": "2026-08-02 06:53:14",
+        "url": "http://193.25.217.70/arm7",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "iot",
+          "mirai"
+        ]
+      },
+      {
+        "id": "3895335",
+        "date_added": "2026-08-02 06:53:05",
+        "url": "http://91.92.242.236/files-129312398/files/file_58065cc2507519e8.exe",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "c2-monitor-auto",
+          "dropped-by-amadey"
+        ]
+      },
+      {
+        "id": "3895336",
+        "date_added": "2026-08-02 06:53:05",
+        "url": "http://94.154.43.42:2345/bot.x86_64",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "mirai",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3895337",
+        "date_added": "2026-08-02 06:53:05",
+        "url": "http://91.92.242.236/files-129312398/files/file_f8b3df0bb4538dce.exe",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "c2-monitor-auto",
+          "dropped-by-amadey"
+        ]
+      },
+      {
+        "id": "3895331",
+        "date_added": "2026-08-02 06:53:04",
+        "url": "http://94.154.43.42:2345/bot.x86",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "mirai",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3895332",
+        "date_added": "2026-08-02 06:53:04",
+        "url": "http://91.92.242.236/files-129312398/files/file_4ee2cb2e27bf5cf6.exe",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "c2-monitor-auto",
+          "dropped-by-amadey"
+        ]
+      },
+      {
+        "id": "3895333",
+        "date_added": "2026-08-02 06:53:04",
+        "url": "http://91.92.242.236/files-129312398/files/file_4cb61535391ee2ca.exe",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "c2-monitor-auto",
+          "dropped-by-amadey"
         ]
       }
     ]
   },
   "world_monitor": [
     {
-      "title": "Improvised Bomb Kills 3 at an Upscale Moscow Restaurant",
-      "link": "https://www.nytimes.com/2026/08/01/world/europe/deadly-bombing-moscow-restaurant.html",
-      "pubDate": "Sat, 01 Aug 2026 21:23:45 +0000",
-      "source": "NYT World",
-      "summary": "Among the victims of the explosion, which also injured 21 people, were a security guard and a woman who the authorities say had arrived with the suspicious package."
-    },
-    {
-      "title": "Spain Installs Floating Barrier in Ceuta After Influx of Migrants",
-      "link": "https://www.nytimes.com/2026/08/01/world/europe/spain-ceuta-migrants-morocco-border.html",
-      "pubDate": "Sat, 01 Aug 2026 21:23:42 +0000",
-      "source": "NYT World",
-      "summary": "Most of those who came to the territory, a Spanish exclave in Africa, have returned across the border to Morocco. At least 67 people died trying to enter, the authorities said."
-    },
-    {
-      "title": "Al Jazeera reports from Ceuta as migrants leave the enclave",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/1/al-jazeera-reports-from-ceuta-as-migrants-leave-the-enclave?traffic_source=rss",
-      "pubDate": "Sat, 01 Aug 2026 21:15:50 +0000",
+      "title": "Tarik Skubal acquired by LA Dodgers at the MLB trade deadline",
+      "link": "https://www.aljazeera.com/sports/2026/8/2/tarik-skubal-acquired-by-la-dodgers-at-the-mlb-trade-deadline?traffic_source=rss",
+      "pubDate": "Sun, 02 Aug 2026 08:12:54 +0000",
       "source": "Al Jazeera",
-      "summary": "Spain says “virtually all” of the estimated 60,000 migrants who stormed its North African enclave of Ceuta have left."
+      "summary": "World Series champions for the past two years add Skubal to star-studded roster that already includes Shohei Ohtani."
     },
     {
-      "title": "Police say 13 killed as small plane viewing Nazca Lines in Peru crashes",
-      "link": "https://www.aljazeera.com/news/2026/8/1/police-say-13-killed-as-small-plane-viewing-nazca-lines-in-peru-crashes?traffic_source=rss",
-      "pubDate": "Sat, 01 Aug 2026 20:57:04 +0000",
+      "title": "Canada’s WestJet Cancels Trips Amid Strike By Flight Attendants",
+      "link": "https://www.nytimes.com/2026/08/02/world/canada/westjet-flight-attendants-strike-canada.html",
+      "pubDate": "Sun, 02 Aug 2026 08:08:33 +0000",
+      "source": "NYT World",
+      "summary": "Labor talks broke down between the airline and union representing 4,400 flight attendants, who want improved wages and compensation for unpaid work."
+    },
+    {
+      "title": "Arsenal’s Arteta expects more signings as Tzolis scores against Girona",
+      "link": "https://www.aljazeera.com/sports/2026/8/2/arsenals-arteta-expects-more-signings-as-tzolis-scores-against-girona?traffic_source=rss",
+      "pubDate": "Sun, 02 Aug 2026 08:08:19 +0000",
       "source": "Al Jazeera",
-      "summary": "Those killed included 11 passengers and two pilots flying over the famous archeological site, recognised by UNESCO."
+      "summary": "Newly acquired Christos Tzolis scores for the English champions who have been linked to Bruno Guimaraes and Vinicius Jr."
     },
     {
-      "title": "Tourist plane crashes in Peru, killing 13 ",
-      "link": "https://www.bbc.co.uk/news/articles/c70g132erlko?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Sat, 01 Aug 2026 20:51:09 GMT",
+      "title": "Europe’s Far Right, Once Marginal, Now Sets Tone on Spain Migrant Crisis",
+      "link": "https://www.nytimes.com/2026/08/02/world/europe/europe-migrants-ceuta.html",
+      "pubDate": "Sun, 02 Aug 2026 07:30:01 +0000",
+      "source": "NYT World",
+      "summary": "Europe sheltered many refugees in 2015. Its hard-line reaction to a new crisis in Ceuta shows how, 11 years on, the far right has reshaped European attitudes."
+    },
+    {
+      "title": "Trump Says He Is Canceling Strikes on Iran, Pending a Rapid Deal",
+      "link": "https://www.nytimes.com/2026/08/02/world/middleeast/trump-iran-cancels-attack-deal.html",
+      "pubDate": "Sun, 02 Aug 2026 07:02:40 +0000",
+      "source": "NYT World",
+      "summary": "President Trump said he agreed to requests from Iran and other Middle Eastern countries to cancel planned attacks, citing what he said was progress in reaching the “perimeters of a deal” with Tehran."
+    },
+    {
+      "title": "Trump says he is cancelling strikes on Iran subject to deal being made 'rapidly'",
+      "link": "https://www.bbc.co.uk/news/articles/cjwx74qgld2o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Sun, 02 Aug 2026 06:24:01 GMT",
       "source": "BBC",
-      "summary": "The small plane was flying over the Nazca Lines ​archaeological site when it crashed, according to local reports."
+      "summary": "The US president claims Iran and other Middle Eastern countries asked Washington to hold off on any attack as the \"perimeters\" of a deal had been agreed."
     },
     {
-      "title": "Fighting breaks out in western Tigray as Ethiopia and TPLF trade blame",
-      "link": "https://www.aljazeera.com/news/2026/8/1/fighting-breaks-out-in-western-tigray-as-ethiopia-and-tplf-trade-blame?traffic_source=rss",
-      "pubDate": "Sat, 01 Aug 2026 20:38:41 +0000",
+      "title": "At least three dead in Idaho shopping mall mass shooting",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/2/at-least-three-dead-in-idaho-shopping-mall-mass-shooting?traffic_source=rss",
+      "pubDate": "Sun, 02 Aug 2026 05:29:36 +0000",
       "source": "Al Jazeera",
-      "summary": "Clashes near Sheraro mark one of the most serious threats yet to the fragile 2022 Pretoria peace deal."
+      "summary": "Police said at least three people were killed several others were wounded in a shooting at an In-N-Out Burger in Idaho."
     },
     {
-      "title": "Iran Plotted Wider War With Help of Its Proxies",
-      "link": "https://www.nytimes.com/2026/08/01/world/middleeast/iran-proxies-war-oil.html",
-      "pubDate": "Sat, 01 Aug 2026 20:26:35 +0000",
+      "title": "Gaza students overcome Israel’s genocide to mark Tawjihi results",
+      "link": "https://www.aljazeera.com/features/2026/8/2/gaza-students-overcome-israels-genocide-to-celebrate-tawjihi-results?traffic_source=rss",
+      "pubDate": "Sun, 02 Aug 2026 05:27:04 +0000",
+      "source": "Al Jazeera",
+      "summary": "Students in Gaza overcome distressing conditions amid Israel's genocide to finish their Tawjihi high school exams."
+    },
+    {
+      "title": "Three dead including female bomber in Moscow restaurant attack",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/2/three-dead-including-female-bomber-in-moscow-restaurant-attack?traffic_source=rss",
+      "pubDate": "Sun, 02 Aug 2026 04:44:55 +0000",
+      "source": "Al Jazeera",
+      "summary": "At least three people are dead and more than 20 injured after a bomb exploded outside a restaurant in central Moscow."
+    },
+    {
+      "title": "Australia’s Indie Music Venues Closing as Costs Rise and Attendance Drops",
+      "link": "https://www.nytimes.com/2026/08/02/world/australia/sydney-australia-marys-underground-music-venues-closing.html",
+      "pubDate": "Sun, 02 Aug 2026 04:33:07 +0000",
       "source": "NYT World",
-      "summary": "During a fleeting truce, Iranians covertly devised a plan to raise the war’s costs for President Trump if U.S. forces attacked anew."
+      "summary": "When Mary’s Underground in Sydney closed, it was a familiar tune for a scene hit by high costs and low attendance. Critics worry about a shrinking space for new talent."
     },
     {
-      "title": "Greece battles raging wildfires as flames appear to ease in France",
-      "link": "https://www.aljazeera.com/news/2026/8/1/greece-battles-raging-wildfires-as-flames-appear-to-ease-in-france?traffic_source=rss",
-      "pubDate": "Sat, 01 Aug 2026 20:24:19 +0000",
-      "source": "Al Jazeera",
-      "summary": "French wildfires show signs of easing, with containment efforts holding in Var and Gironde after destructive blazes."
-    },
-    {
-      "title": "Israel Says It Killed Several Hezbollah Members on Key Lebanon Hilltop",
-      "link": "https://www.nytimes.com/2026/08/01/world/middleeast/israel-hezbollah-lebanon-killing.html",
-      "pubDate": "Sat, 01 Aug 2026 20:14:08 +0000",
+      "title": "How China Keeps Tabs on Foreigners",
+      "link": "https://www.nytimes.com/2026/08/02/world/asia/china-surveillance-foreigners-database.html",
+      "pubDate": "Sun, 02 Aug 2026 04:03:06 +0000",
       "source": "NYT World",
-      "summary": "The confrontation, over a strategic ridge in southern Lebanon, challenged a fragile cease-fire between Israel and the Iran-backed militant group."
+      "summary": "An unsecured police dashboard was a rare window into how the authorities track foreigners by collecting and aggregating vast amounts of private data."
     },
     {
-      "title": "Record-breaking climber Nirmal Purja among those killed in avalanche",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/1/record-record-breaking-climber-nirmal-purja-among-those-killed-in-avalanche?traffic_source=rss",
-      "pubDate": "Sat, 01 Aug 2026 20:10:01 +0000",
-      "source": "Al Jazeera",
-      "summary": "14 Peaks star Nirmal Purja has died in an avalanche while leading 10 climbers up Broad Peak mountain in Pakistan."
+      "title": "How Spain's migrant crisis created a political storm - whipped up by social media",
+      "link": "https://www.bbc.co.uk/news/articles/c62vl925dqdo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Sun, 02 Aug 2026 00:55:16 GMT",
+      "source": "BBC",
+      "summary": "The Ceuta crossings have shaken Europe politically, exposing divisions over the sensitive issue of migration, the BBC's Sarah Rainsford writes."
+    },
+    {
+      "title": "Young guns for hire - the teenage hitmen recruited to kill across Europe",
+      "link": "https://www.bbc.co.uk/news/articles/czrjyevmv61o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Sat, 01 Aug 2026 23:03:35 GMT",
+      "source": "BBC",
+      "summary": "The Foxtrot Network is thought to be responsible for about 35 murders in Europe, and uses violence-as-a-service tactics."
+    },
+    {
+      "title": "The Sopranos star Vincent Pastore dies aged 80",
+      "link": "https://www.bbc.co.uk/news/articles/cm2gz0epljgo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Sat, 01 Aug 2026 22:57:55 GMT",
+      "source": "BBC",
+      "summary": "Pastore, who played Salvatore \"Big Pussy\" Bonpensiero in the hit US show, was found at his home in New York City, US media report."
     },
     {
       "title": "EU calls emergency meeting to discuss Ceuta migrant crossings",
@@ -583,32 +572,11 @@
       "summary": "There have been tense exchanges between Spain and other EU states over the influx of migrants into the enclave of Ceuta."
     },
     {
-      "title": "Italy putting nearly all major cities on highest heat alert",
-      "link": "https://www.bbc.co.uk/news/articles/cr7k4gdrgljo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Sat, 01 Aug 2026 17:51:46 GMT",
-      "source": "BBC",
-      "summary": "Some 19 major Italian cities - including Rome, Milan and Naples - are already on red alert, and by Monday all but two will be."
-    },
-    {
-      "title": "Call for 'full review' as pressure grows on Infantino",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c04kr2nv3v3o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Sat, 01 Aug 2026 17:07:46 GMT",
-      "source": "BBC",
-      "summary": "The leadership of Fifa is publicly questioned by football's governing bodies in Europe, North and Central America and the Caribbean."
-    },
-    {
       "title": "Nach Abschiebung wegen Anti-Israel-Parole: Bob-Vylan-Frontmann wehrt sich erfolgreich gegen Einreiseverbot",
       "link": "https://theintercept.com/2026/08/01/bob-vylan-abschiebung-deutsches-israel/",
       "pubDate": "Sat, 01 Aug 2026 16:07:25 +0000",
       "source": "The Intercept",
       "summary": "Deutsche Behörden warnten, die Einreise des pro-palästinensischen Musikers könne zur „Radikalisierung einzelner Bevölkerungsgruppen“ beitragen. Er legte Widerspruch ein.\nThe post Nach Abschiebung wegen Anti-Israel-Parole: Bob-Vylan-Frontmann wehrt si"
-    },
-    {
-      "title": "In Iran, the U.S. Appears Headed for a Strategic Defeat, Allies Fear",
-      "link": "https://www.nytimes.com/2026/08/01/world/middleeast/us-iran-war-strategy.html",
-      "pubDate": "Sat, 01 Aug 2026 14:46:20 +0000",
-      "source": "NYT World",
-      "summary": "With none of President Trump’s aims accomplished and the Strait of Hormuz closed, U.S. allies see dysfunction and vulnerability from the war."
     },
     {
       "title": "Cori Bush Has No Regrets",
@@ -630,13 +598,6 @@
       "pubDate": "Sat, 01 Aug 2026 10:00:00 +0000",
       "source": "The Intercept",
       "summary": "By selling off early access to his posts at a premium, the president is merging a public good with his own profit motives.\nThe post Trump’s Truth Social API Is a Blatantly Corrupt Favor to Wall Street appeared first on The Intercept."
-    },
-    {
-      "title": "Israeli West Bank settler tells BBC attacks on Palestinians are justified as revenge",
-      "link": "https://www.bbc.co.uk/news/articles/c4g4djgdyk2o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Sat, 01 Aug 2026 05:01:56 GMT",
-      "source": "BBC",
-      "summary": "Settler violence against Palestinians is on the rise in the West Bank, as settlements and outposts expand."
     },
     {
       "title": "Abdul El-Sayed on The Intercept Briefing",
@@ -916,30 +877,6 @@
       "source": "Quanta"
     },
     {
-      "title": "Journey to Robbers Cave",
-      "link": "https://behavioralscientist.org/journey-to-robbers-cave/",
-      "summary": "The year was 1948. Only three years had passed since the Axis powers signed the instrument of surrender effectively ending the Second World War. Fifty nations had taken part in the conflict that saw genocide and the first use of nuclear weapons. An estimated 50 million lives were lost and another 19",
-      "pubDate": "Sun, 19 Jul 2026 22:58:46 +0000",
-      "domain": "psychology",
-      "source": "Behavioral Scientist"
-    },
-    {
-      "title": "Behavioral Scientist’s Summer Book List 2026",
-      "link": "https://behavioralscientist.org/behavioral-scientists-summer-book-list-2026/",
-      "summary": "For your intellectual travels this summer, we’ve curated a baker’s dozen of behavioral science books newly published this year. Explore the mysteries of life and consciousness, glimpse the power of constraints and the games that define our lives, navigate life’s cliffs, and find the places that will",
-      "pubDate": "Sun, 05 Jul 2026 20:32:19 +0000",
-      "domain": "psychology",
-      "source": "Behavioral Scientist"
-    },
-    {
-      "title": "What It’s Like to Be…an Air Traffic Controller",
-      "link": "https://behavioralscientist.org/what-its-like-to-be-an-air-traffic-controller/",
-      "summary": "Sequencing departures like a moving puzzle, scrambling when a jet takes off without clearance, and catching what radar misses with a glance out the window with Michael Rejent, an air traffic controller. What does \"tally ho\" mean to a pilot? What phrase makes every controller in the cab look up?\n\n\n\n\n",
-      "pubDate": "Sun, 05 Jul 2026 16:35:59 +0000",
-      "domain": "psychology",
-      "source": "Behavioral Scientist"
-    },
-    {
       "title": "Best of SAPIENS 2025",
       "link": "https://www.sapiens.org/culture/best-of-sapiens-2025/",
       "summary": "In SAPIENS’ final year of publishing new stories, the magazine honors 10 standout contributions that carried anthropology into the hearts…\nThe post Best of SAPIENS 2025 appeared first on SAPIENS.",
@@ -1014,64 +951,64 @@
   ],
   "misinfo_toilet": [
     {
-      "headline": "Cori Bush Has No Regrets",
-      "fragment": "In the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
-      "splice": "Cori Bush Has No Regrets which is to say in the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
-      "seed": 20260822
-    },
-    {
-      "headline": "Improvised Bomb Kills 3 at an Upscale Moscow Restaurant",
-      "fragment": "The simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
-      "splice": "Improvised Bomb Kills 3 at an Upscale Moscow Restaurant underneath the simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
-      "seed": 20260823
-    },
-    {
-      "headline": "Identifying the Crypto Entrepreneur Linked to Popular Forum Trading in ‘Leaked’ Nudes of Women",
-      "fragment": "An ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
-      "splice": "Identifying the Crypto Entrepreneur Linked to Popular Forum Trading in ‘Leaked’ Nudes of Women while an ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
-      "seed": 20260824
-    },
-    {
-      "headline": "Will Ronaldo Cry​? World Cup Fans Bet Billions Through Prediction Markets",
+      "headline": "Nach Abschiebung wegen Anti-Israel-Parole: Bob-Vylan-Frontmann wehrt sich erfolgreich gegen Einreiseverbot",
       "fragment": "The technocrat is the natural friend of the dictator—computers and dictatorship.",
-      "splice": "Will Ronaldo Cry​? World Cup Fans Bet Billions Through Prediction Markets insofar as the technocrat is the natural friend of the dictator—computers and dictatorship.",
-      "seed": 20260825
+      "splice": "Nach Abschiebung wegen Anti-Israel-Parole: Bob-Vylan-Frontmann wehrt sich erfolgreich gegen Einreiseverbot the system notes that the technocrat is the natural friend of the dictator—computers and dictatorship.",
+      "seed": 20260810
     },
     {
-      "headline": "Fighting breaks out in western Tigray as Ethiopia and TPLF trade blame",
-      "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "splice": "Fighting breaks out in western Tigray as Ethiopia and TPLF trade blame consequently it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "seed": 20260826
-    },
-    {
-      "headline": "Italy putting nearly all major cities on highest heat alert",
-      "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "splice": "Italy putting nearly all major cities on highest heat alert not unlike it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "seed": 20260827
-    },
-    {
-      "headline": "Shahed-Type Drones Filmed During Mali Village Attacks",
-      "fragment": "It is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
-      "splice": "Shahed-Type Drones Filmed During Mali Village Attacks despite it is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
-      "seed": 20260828
-    },
-    {
-      "headline": "Abdul El-Sayed on The Intercept Briefing",
-      "fragment": "The privatization of the organs will only begin with the shame felt by man at the sight of man.",
-      "splice": "Abdul El-Sayed on The Intercept Briefing therefore the privatization of the organs will only begin with the shame felt by man at the sight of man.",
-      "seed": 20260829
+      "headline": "Trump Says He Is Canceling Strikes on Iran, Pending a Rapid Deal",
+      "fragment": "Simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
+      "splice": "Trump Says He Is Canceling Strikes on Iran, Pending a Rapid Deal underneath simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
+      "seed": 20260811
     },
     {
       "headline": "Welcome to Dubai: Kinahan Cartel’s Visas Revealed",
-      "fragment": "Traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "splice": "Welcome to Dubai: Kinahan Cartel’s Visas Revealed ...as traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "seed": 20260830
+      "fragment": "An ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
+      "splice": "Welcome to Dubai: Kinahan Cartel’s Visas Revealed ...as an ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
+      "seed": 20260812
     },
     {
-      "headline": "Nach Abschiebung wegen Anti-Israel-Parole: Bob-Vylan-Frontmann wehrt sich erfolgreich gegen Einreiseverbot",
-      "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
-      "splice": "Nach Abschiebung wegen Anti-Israel-Parole: Bob-Vylan-Frontmann wehrt sich erfolgreich gegen Einreiseverbot insofar as the revolutionary lives in the gap which separates technical progress from social totality.",
-      "seed": 20260831
+      "headline": "Australia’s Indie Music Venues Closing as Costs Rise and Attendance Drops",
+      "fragment": "It is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
+      "splice": "Australia’s Indie Music Venues Closing as Costs Rise and Attendance Drops while it is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
+      "seed": 20260813
+    },
+    {
+      "headline": "How China Keeps Tabs on Foreigners",
+      "fragment": "It is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
+      "splice": "How China Keeps Tabs on Foreigners insofar as it is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
+      "seed": 20260814
+    },
+    {
+      "headline": "Corporations, Not Immigrants, Are Responsible for Vast Majority of Healthcare Fraud, OIG Report Shows",
+      "fragment": "It is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
+      "splice": "Corporations, Not Immigrants, Are Responsible for Vast Majority of Healthcare Fraud, OIG Report Shows insofar as it is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
+      "seed": 20260815
+    },
+    {
+      "headline": "Gaza students overcome Israel’s genocide to mark Tawjihi results",
+      "fragment": "Underneath all reason lies delirium and drift.",
+      "splice": "Gaza students overcome Israel’s genocide to mark Tawjihi results which is to say underneath all reason lies delirium and drift.",
+      "seed": 20260816
+    },
+    {
+      "headline": "Between Graves and Uncertainty: The Management of the Dead After Venezuela’s Earthquake",
+      "fragment": "Antagonism is not now located externally, in the face-off between class blocs, but internally, in the psychology of the worker.",
+      "splice": "Between Graves and Uncertainty: The Management of the Dead After Venezuela’s Earthquake because antagonism is not now located externally, in the face-off between class blocs, but internally, in the psychology of the worker.",
+      "seed": 20260817
+    },
+    {
+      "headline": "How Spain's migrant crisis created a political storm - whipped up by social media",
+      "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "splice": "How Spain's migrant crisis created a political storm - whipped up by social media underneath the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "seed": 20260818
+    },
+    {
+      "headline": "At least three dead in Idaho shopping mall mass shooting",
+      "fragment": "The simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
+      "splice": "At least three dead in Idaho shopping mall mass shooting insofar as the simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
+      "seed": 20260819
     }
   ]
 }
