@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T16:02:26.442Z",
+  "generated_at": "2026-08-02T19:14:37.320Z",
   "threat_intel": {
     "cisa_kev": [
       {
@@ -232,51 +232,9 @@
     ],
     "urlhaus": [
       {
-        "id": "3895614",
-        "date_added": "2026-08-02 15:47:24",
-        "url": "http://180.244.68.248:38340/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "arm",
-          "elf",
-          "mirai",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3895613",
-        "date_added": "2026-08-02 15:32:25",
-        "url": "http://180.244.68.248:38340/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "arm",
-          "elf",
-          "mirai",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3895612",
-        "date_added": "2026-08-02 15:25:26",
-        "url": "http://175.31.184.132:51169/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "arm",
-          "elf",
-          "mirai",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3895611",
-        "date_added": "2026-08-02 15:02:18",
-        "url": "http://110.36.1.200:60235/i",
+        "id": "3895638",
+        "date_added": "2026-08-02 18:55:31",
+        "url": "http://182.126.83.182:58056/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -287,65 +245,48 @@
         ]
       },
       {
-        "id": "3895610",
-        "date_added": "2026-08-02 14:37:09",
-        "url": "http://222.141.112.232:51975/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3895609",
-        "date_added": "2026-08-02 14:34:28",
-        "url": "http://31.77.227.111/hiddenbin/boatnet.arm",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "elf",
-          "iot",
-          "mirai"
-        ]
-      },
-      {
-        "id": "3895608",
-        "date_added": "2026-08-02 14:34:22",
-        "url": "http://31.77.227.111/hiddenbin/boatnet.arm7",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "elf",
-          "iot",
-          "mirai"
-        ]
-      },
-      {
-        "id": "3895606",
-        "date_added": "2026-08-02 14:34:05",
-        "url": "http://91.92.242.236/files-129312398/files/file_2406cf76a7ca34ca.exe",
+        "id": "3895637",
+        "date_added": "2026-08-02 18:53:19",
+        "url": "http://185.248.15.35:50460/i",
         "url_status": "offline",
         "threat": "malware_download",
         "tags": [
-          "c2-monitor-auto",
-          "dropped-by-amadey"
+          "32-bit",
+          "arm",
+          "elf",
+          "Mozi"
         ]
       },
       {
-        "id": "3895607",
-        "date_added": "2026-08-02 14:34:05",
-        "url": "http://91.92.242.236/files-129312398/files/file_bbcbeb2966f48fd6.exe",
+        "id": "3895636",
+        "date_added": "2026-08-02 18:48:20",
+        "url": "http://182.126.83.182:58056/bin.sh",
         "url_status": "offline",
         "threat": "malware_download",
         "tags": [
-          "c2-monitor-auto",
-          "dropped-by-amadey"
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
         ]
       },
       {
-        "id": "3895605",
-        "date_added": "2026-08-02 14:30:25",
-        "url": "http://180.243.251.152:40774/i",
+        "id": "3895635",
+        "date_added": "2026-08-02 18:30:25",
+        "url": "http://182.113.32.18:55398/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3895634",
+        "date_added": "2026-08-02 18:25:19",
+        "url": "http://185.248.15.35:50460/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -357,9 +298,115 @@
         ]
       },
       {
-        "id": "3895604",
-        "date_added": "2026-08-02 14:06:09",
-        "url": "http://42.228.32.154:45035/i",
+        "id": "3895632",
+        "date_added": "2026-08-02 18:19:22",
+        "url": "http://eclipsebible.com/eclipse.x86_64",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "mirai",
+          "opendir",
+          "ua-wget",
+          "x86"
+        ]
+      },
+      {
+        "id": "3895633",
+        "date_added": "2026-08-02 18:19:22",
+        "url": "http://2.26.48.37/eclipse.x86_64",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "mirai",
+          "ua-wget",
+          "x86"
+        ]
+      },
+      {
+        "id": "3895631",
+        "date_added": "2026-08-02 18:19:21",
+        "url": "http://eclipsebible.com/loader.sh",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "opendir",
+          "sh",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3895630",
+        "date_added": "2026-08-02 18:05:21",
+        "url": "http://183.151.204.81:33053/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "mirai",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3895629",
+        "date_added": "2026-08-02 17:48:15",
+        "url": "http://182.127.64.25:50956/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3895628",
+        "date_added": "2026-08-02 17:45:29",
+        "url": "http://125.46.133.191:36999/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3895627",
+        "date_added": "2026-08-02 17:38:28",
+        "url": "http://183.151.204.81:33053/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "mirai",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3895626",
+        "date_added": "2026-08-02 17:16:21",
+        "url": "http://125.46.133.191:36999/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3895625",
+        "date_added": "2026-08-02 17:06:07",
+        "url": "http://124.230.160.24:44749/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -367,98 +414,124 @@
         ]
       },
       {
-        "id": "3895603",
-        "date_added": "2026-08-02 13:27:12",
-        "url": "https://directdownloadl.ink/f/5239f7a9c7ae.exe",
+        "id": "3895624",
+        "date_added": "2026-08-02 17:06:06",
+        "url": "http://105.225.107.9:40839/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "None"
+          "mirai"
         ]
       },
       {
-        "id": "3895602",
-        "date_added": "2026-08-02 13:27:09",
-        "url": "https://directdownloadl.ink/f/aca7ebab32cd.bat",
+        "id": "3895623",
+        "date_added": "2026-08-02 16:56:23",
+        "url": "http://125.42.116.109:54507/i",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3895622",
+        "date_added": "2026-08-02 16:43:24",
+        "url": "http://222.141.46.135:41660/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "None"
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
         ]
       },
       {
-        "id": "3895601",
-        "date_added": "2026-08-02 13:27:07",
-        "url": "https://directdownloadl.ink/f/0713a6e9e059.apk",
+        "id": "3895621",
+        "date_added": "2026-08-02 16:42:22",
+        "url": "http://115.49.20.175:60685/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "None"
+          "32-bit",
+          "arm",
+          "elf",
+          "mirai",
+          "Mozi"
         ]
       },
       {
-        "id": "3895600",
-        "date_added": "2026-08-02 13:27:05",
-        "url": "https://directdownloadl.ink/f/452f5657e973.zip",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3895599",
-        "date_added": "2026-08-02 13:26:10",
-        "url": "https://safeuploadz.com/uploads/6a4b9d67c109e.exe",
+        "id": "3895620",
+        "date_added": "2026-08-02 16:36:21",
+        "url": "http://115.49.20.175:60685/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "None"
+          "32-bit",
+          "arm",
+          "elf",
+          "mirai",
+          "Mozi"
         ]
       },
       {
-        "id": "3895598",
-        "date_added": "2026-08-02 13:22:27",
-        "url": "https://file.tugou.com.co/files/msdt.exe",
-        "url_status": "offline",
+        "id": "3895618",
+        "date_added": "2026-08-02 16:36:08",
+        "url": "http://105.225.107.9:40839/bin.sh",
+        "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3895597",
-        "date_added": "2026-08-02 13:22:25",
-        "url": "https://thenewcoffeshop.com/Bin/ScreenConnect.Windows.dll",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3895595",
-        "date_added": "2026-08-02 13:22:24",
-        "url": "https://file.tugou.com.co/files/powershell.exe",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3895596",
-        "date_added": "2026-08-02 13:22:24",
-        "url": "https://thenewcoffeshop.com/Bin/ScreenConnect.Core.dll",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "None"
+          "mirai"
         ]
       }
     ]
   },
   "world_monitor": [
+    {
+      "title": "Two helicopters collide mid-air while tackling wildfires in Greece",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/2/aje-onl-nf_two-helicopters-crash-mid-air-wildfires-in-greece-020826?traffic_source=rss",
+      "pubDate": "Sun, 02 Aug 2026 18:38:47 +0000",
+      "source": "Al Jazeera",
+      "summary": "Footage has emerged showing the moment two firefighting helicopters collided mid-air while fighting wildfires in Greece."
+    },
+    {
+      "title": "Ukrainian drone attacks kill eight in response to Russian missiles",
+      "link": "https://www.aljazeera.com/news/2026/8/2/ukrainian-drone-attacks-kill-eight-in-response-to-russian-missiles?traffic_source=rss",
+      "pubDate": "Sun, 02 Aug 2026 18:37:23 +0000",
+      "source": "Al Jazeera",
+      "summary": "Ukrainian strikes target Russian oil hubs and high-rises as Zelenskyy warns of critical Patriot interceptor shortages."
+    },
+    {
+      "title": "‘Iron fist’ doesn’t work with Iran: Former US hostage in Tehran",
+      "link": "https://www.aljazeera.com/video/the-bottom-line/2026/8/2/iron-fist-doesnt-work-with-iran-former-us-hostage-in-tehran?traffic_source=rss",
+      "pubDate": "Sun, 02 Aug 2026 18:28:13 +0000",
+      "source": "Al Jazeera",
+      "summary": "Former US hostage John Limbert says Washington ‘can’t bomb and assassinate its way to a better relationship’ with Iran."
+    },
+    {
+      "title": "Republican senator says former son-in-law should resign from US Congress",
+      "link": "https://www.aljazeera.com/news/2026/8/2/republican-senator-says-former-son-in-law-should-resign-from-us-congress?traffic_source=rss",
+      "pubDate": "Sun, 02 Aug 2026 18:27:41 +0000",
+      "source": "Al Jazeera",
+      "summary": "Senator Bernie Moreno has broken silence around domestic abuse allegations involving Representative Max Miller."
+    },
+    {
+      "title": "Two crew killed as British pilot survives after firefighting helicopters collide in Greece",
+      "link": "https://www.bbc.co.uk/news/articles/c1417713ve6o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Sun, 02 Aug 2026 18:04:44 GMT",
+      "source": "BBC",
+      "summary": "One Danish and one Greek national died in the incident, while a British pilot and another Greek crew member survived."
+    },
+    {
+      "title": "Fetus found among the ruins of a deadly Israeli strike on Gaza",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/2/fetus-found-among-the-ruins-of-a-deadly-israeli-strike-on-gaza?traffic_source=rss",
+      "pubDate": "Sun, 02 Aug 2026 17:57:01 +0000",
+      "source": "Al Jazeera",
+      "summary": "Residents searching through the rubble of an Israeli strike in western Gaza City recovered the body of an unborn baby."
+    },
     {
       "title": "At least 13 killed in Israeli strikes on Gaza after Hamas agree disarmament deal ",
       "link": "https://www.bbc.co.uk/news/articles/czjlvvkzj20o?at_medium=RSS&at_campaign=rss",
@@ -474,53 +547,11 @@
       "summary": "Russia's military says it attacked Ukraine's ports and vessels in the Black Sea overnight."
     },
     {
-      "title": "Israeli settlers shoot Palestinian child during farm raid",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/2/israeli-settlers-shoot-palestinian-child-during-farm-raid?traffic_source=rss",
-      "pubDate": "Sun, 02 Aug 2026 15:36:28 +0000",
-      "source": "Al Jazeera",
-      "summary": "CCTV captured the moment a nine-year-old Palestinian boy was shot in the back by Israeli settlers."
-    },
-    {
-      "title": "How to end the ‘Hormuz war’",
-      "link": "https://www.aljazeera.com/opinions/2026/8/2/how-to-end-the-hormuz?traffic_source=rss",
-      "pubDate": "Sun, 02 Aug 2026 15:33:20 +0000",
-      "source": "Al Jazeera",
-      "summary": "The least bad option for the US is to let the MoU Article 5 play out."
-    },
-    {
       "title": "Trump Says He Canceled Strikes on Iran, Claiming Progress on Outlines of a Deal",
       "link": "https://www.nytimes.com/2026/08/02/world/middleeast/trump-iran-cancels-attack-deal.html",
       "pubDate": "Sun, 02 Aug 2026 15:27:49 +0000",
       "source": "NYT World",
       "summary": "President Trump has repeatedly threatened to escalate the war with Iran, only to abruptly back down. Saudi Arabia said its leader had urged Trump not to renew attacks."
-    },
-    {
-      "title": "Helicopters fighting Greece wildfires collide in mid-air",
-      "link": "https://www.bbc.co.uk/news/articles/c1417713ve6o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Sun, 02 Aug 2026 15:21:56 GMT",
-      "source": "BBC",
-      "summary": "Video of the incident shows one of the helicopters hitting the propellers of the other, which bursts into flames."
-    },
-    {
-      "title": "Ukrainian farmers use temporary storage to revive grain exports",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/2/ukrainian-farmers-use-temporary-storage-to-revive-grain-exports?traffic_source=rss",
-      "pubDate": "Sun, 02 Aug 2026 15:14:26 +0000",
-      "source": "Al Jazeera",
-      "summary": "Russian attacks disrupt Black Sea exports, forcing Ukrainian farmers to use temporary grain storage."
-    },
-    {
-      "title": "Heatwave forces nuclear shutdown in Hungary",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/2/08-02-2026-hungary-nuclear-plant-sv?traffic_source=rss",
-      "pubDate": "Sun, 02 Aug 2026 14:44:34 +0000",
-      "source": "Al Jazeera",
-      "summary": "Hungary says a heatwave has forced the shutdown of its largest nuclear plant as low Danube levels disrupt cooling."
-    },
-    {
-      "title": "Tanks, troops and space",
-      "link": "https://www.aljazeera.com/video/talk-to-al-jazeera/2026/8/2/tanks-troops-and-space?traffic_source=rss",
-      "pubDate": "Sun, 02 Aug 2026 14:34:21 +0000",
-      "source": "Al Jazeera",
-      "summary": "Andrius Kubilius on the lessons from Ukraine and why drones and space are transforming Europe's security strategy."
     },
     {
       "title": "Far-Right Leaders Step Up Calls for Expelling Remaining Migrants in Ceuta",
@@ -942,25 +973,25 @@
       "source": "ROAR Magazine"
     },
     {
-      "title": "Emotional pathways to engagement in AI-enhanced english learning: the role of AI literacy and foreign language enjoyment",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1872841",
-      "summary": "PurposeLearner engagement is central to effective EFL learning, yet limited research has examined how AI literacy contributes to students' engagement in AI-enhanced language classrooms. Drawing on the growing recognition of emotion in technology-mediated learning, this study investigates whether for",
+      "title": "Inconclusive prospective associations between food insecurity, self-esteem, and depressive symptoms: a comment on Baek and Yoon (2026)",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1866873",
+      "summary": "Based on findings with the random-intercept cross-lagged panel model (RI-CLPM), Baek and Yoon concluded that food insecurity and poor psychological health exacerbate each other in a vicious cycle. However, the RI-CLPM is susceptible to spurious findings. Here, we analyzed data with alternative model",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "School-based music and extracurricular engagement as pathways to adolescent learning and wellbeing: mediating roles of self-regulation and school climate",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1900830",
-      "summary": "IntroductionMusic and other creative activities are often recommended as affordable ways to support adolescent development, yet large-scale evidence on the psychological correlates linking such engagement to learning and wellbeing remains limited, especially in high-achieving East Asian systems. Usi",
+      "title": "Translation and validation into Spanish of the Technology Acceptance Model (TAM-12) in adults: a structural equation modeling and Bayesian reliability analysis",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1864863",
+      "summary": "IntroductionDigital transformation has established technology acceptance as a key factor for productivity and well-being in workplace environments. However, psychometric evidence regarding the Technology Acceptance Model (TAM-12) in Spanish-speaking adult populations remains heterogeneous, and there",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "The mediating and moderating roles of achievement goal orientation in the relationship between AI writing feedback and English writing self-efficacy among Chinese university students",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1860723",
-      "summary": "This study investigates how AI-generated writing feedback influences English writing self-efficacy among Chinese university students and examines the dual role of achievement goal orientation as both a mediator and a moderator in this relationship. A quasi-experimental pretest-posttest design was im",
+      "title": "Extending the UTAUT model to explore the acceptance and use of generative AI: the roles of generative AI identity and trust",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1846181",
+      "summary": "IntroductionGenerative AI (GenAI) technology has been rapidly integrated into diverse domains, including education. It has fundamentally reshaped the global learning landscape, exerting a significantly positive influence on students’ learning experience. However, the factors influencing adult learne",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
@@ -968,64 +999,64 @@
   ],
   "misinfo_toilet": [
     {
-      "headline": "Cori Bush Has No Regrets",
+      "headline": "Nach Abschiebung wegen Anti-Israel-Parole: Bob-Vylan-Frontmann wehrt sich erfolgreich gegen Einreiseverbot",
       "fragment": "In the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
-      "splice": "Cori Bush Has No Regrets which is to say in the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
-      "seed": 20260818
-    },
-    {
-      "headline": "Helicopters fighting Greece wildfires collide in mid-air",
-      "fragment": "The simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
-      "splice": "Helicopters fighting Greece wildfires collide in mid-air underneath the simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
-      "seed": 20260819
-    },
-    {
-      "headline": "How Spain's migrant crisis created a political storm - whipped up by social media",
-      "fragment": "An ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
-      "splice": "How Spain's migrant crisis created a political storm - whipped up by social media while an ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
-      "seed": 20260820
-    },
-    {
-      "headline": "Israeli settlers shoot Palestinian child during farm raid",
-      "fragment": "The technocrat is the natural friend of the dictator—computers and dictatorship.",
-      "splice": "Israeli settlers shoot Palestinian child during farm raid insofar as the technocrat is the natural friend of the dictator—computers and dictatorship.",
+      "splice": "Nach Abschiebung wegen Anti-Israel-Parole: Bob-Vylan-Frontmann wehrt sich erfolgreich gegen Einreiseverbot which is to say in the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
       "seed": 20260821
     },
     {
-      "headline": "Europe’s Far Right, Once Marginal, Now Sets Tone on Spain Migrant Crisis",
-      "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "splice": "Europe’s Far Right, Once Marginal, Now Sets Tone on Spain Migrant Crisis consequently it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
+      "headline": "Ukrainian drone attacks kill eight in response to Russian missiles",
+      "fragment": "The simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
+      "splice": "Ukrainian drone attacks kill eight in response to Russian missiles underneath the simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
       "seed": 20260822
     },
     {
-      "headline": "Ukraine says major Russian oil refinery and airfield hit, as Moscow reports eight deaths ",
-      "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "splice": "Ukraine says major Russian oil refinery and airfield hit, as Moscow reports eight deaths  not unlike it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
+      "headline": "Identifying the Crypto Entrepreneur Linked to Popular Forum Trading in ‘Leaked’ Nudes of Women",
+      "fragment": "An ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
+      "splice": "Identifying the Crypto Entrepreneur Linked to Popular Forum Trading in ‘Leaked’ Nudes of Women while an ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
       "seed": 20260823
     },
     {
-      "headline": "How to end the ‘Hormuz war’",
-      "fragment": "It is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
-      "splice": "How to end the ‘Hormuz war’ despite it is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
+      "headline": "Will Ronaldo Cry​? World Cup Fans Bet Billions Through Prediction Markets",
+      "fragment": "The technocrat is the natural friend of the dictator—computers and dictatorship.",
+      "splice": "Will Ronaldo Cry​? World Cup Fans Bet Billions Through Prediction Markets insofar as the technocrat is the natural friend of the dictator—computers and dictatorship.",
       "seed": 20260824
     },
     {
-      "headline": "Shahed-Type Drones Filmed During Mali Village Attacks",
-      "fragment": "The privatization of the organs will only begin with the shame felt by man at the sight of man.",
-      "splice": "Shahed-Type Drones Filmed During Mali Village Attacks therefore the privatization of the organs will only begin with the shame felt by man at the sight of man.",
+      "headline": "Fetus found among the ruins of a deadly Israeli strike on Gaza",
+      "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
+      "splice": "Fetus found among the ruins of a deadly Israeli strike on Gaza consequently it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
       "seed": 20260825
     },
     {
-      "headline": "Trump’s Truth Social API Is a Blatantly Corrupt Favor to Wall Street",
-      "fragment": "Traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "splice": "Trump’s Truth Social API Is a Blatantly Corrupt Favor to Wall Street ...as traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
+      "headline": "La Guaira Is Unrecognizable After Venezuela’s Deadly Earthquakes",
+      "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
+      "splice": "La Guaira Is Unrecognizable After Venezuela’s Deadly Earthquakes not unlike it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
       "seed": 20260826
     },
     {
-      "headline": "Abdul El-Sayed on The Intercept Briefing",
-      "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
-      "splice": "Abdul El-Sayed on The Intercept Briefing insofar as the revolutionary lives in the gap which separates technical progress from social totality.",
+      "headline": "Shahed-Type Drones Filmed During Mali Village Attacks",
+      "fragment": "It is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
+      "splice": "Shahed-Type Drones Filmed During Mali Village Attacks despite it is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
       "seed": 20260827
+    },
+    {
+      "headline": "Abdul El-Sayed on The Intercept Briefing",
+      "fragment": "The privatization of the organs will only begin with the shame felt by man at the sight of man.",
+      "splice": "Abdul El-Sayed on The Intercept Briefing therefore the privatization of the organs will only begin with the shame felt by man at the sight of man.",
+      "seed": 20260828
+    },
+    {
+      "headline": "Cori Bush Has No Regrets",
+      "fragment": "Traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
+      "splice": "Cori Bush Has No Regrets ...as traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
+      "seed": 20260829
+    },
+    {
+      "headline": "Cowboys Fringants Bassist Is Named Quebec’s Chief Scientist",
+      "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
+      "splice": "Cowboys Fringants Bassist Is Named Quebec’s Chief Scientist insofar as the revolutionary lives in the gap which separates technical progress from social totality.",
+      "seed": 20260830
     }
   ]
 }
