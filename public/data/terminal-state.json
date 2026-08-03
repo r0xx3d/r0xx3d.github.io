@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T21:58:10.846Z",
+  "generated_at": "2026-08-03T03:18:04.677Z",
   "threat_intel": {
     "cisa_kev": [
       {
@@ -232,22 +232,9 @@
     ],
     "urlhaus": [
       {
-        "id": "3895659",
-        "date_added": "2026-08-02 21:44:29",
-        "url": "http://182.121.246.83:60674/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3895658",
-        "date_added": "2026-08-02 21:43:22",
-        "url": "http://119.148.103.41:33345/bin.sh",
+        "id": "3895739",
+        "date_added": "2026-08-03 02:22:26",
+        "url": "http://105.186.148.224:60621/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -259,167 +246,118 @@
         ]
       },
       {
-        "id": "3895657",
-        "date_added": "2026-08-02 21:37:24",
-        "url": "http://120.84.213.42:42072/bin.sh",
+        "id": "3895738",
+        "date_added": "2026-08-03 02:07:27",
+        "url": "http://95.164.53.73/bot.mips",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "32-bit",
           "elf",
-          "mips",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3895730",
+        "date_added": "2026-08-03 02:07:24",
+        "url": "http://95.164.53.73/bot.x86_64",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3895731",
+        "date_added": "2026-08-03 02:07:24",
+        "url": "http://95.164.53.73/bot.mipsel",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3895732",
+        "date_added": "2026-08-03 02:07:24",
+        "url": "http://95.164.53.73/bot.x86",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3895733",
+        "date_added": "2026-08-03 02:07:24",
+        "url": "http://95.164.53.73/bot.armv5te",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3895734",
+        "date_added": "2026-08-03 02:07:24",
+        "url": "http://95.164.53.73/bot.armv7-a",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3895735",
+        "date_added": "2026-08-03 02:07:24",
+        "url": "http://95.164.53.73/bot.powerpc",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3895736",
+        "date_added": "2026-08-03 02:07:24",
+        "url": "http://95.164.53.73/bot.armv6",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3895737",
+        "date_added": "2026-08-03 02:07:24",
+        "url": "http://95.164.53.73/bot.aarch64",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3895729",
+        "date_added": "2026-08-03 02:02:06",
+        "url": "http://112.249.77.54:39034/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
           "Mozi"
         ]
       },
       {
-        "id": "3895656",
-        "date_added": "2026-08-02 21:33:18",
-        "url": "http://113.4.67.131:34072/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "arm",
-          "elf",
-          "mirai",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3895655",
-        "date_added": "2026-08-02 21:19:19",
-        "url": "http://182.121.246.83:60674/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3895654",
-        "date_added": "2026-08-02 21:01:19",
-        "url": "http://115.55.199.134:45304/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3895653",
-        "date_added": "2026-08-02 20:54:26",
-        "url": "http://122.233.97.217:35897/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "arm",
-          "elf",
-          "mirai",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3895652",
-        "date_added": "2026-08-02 20:54:23",
-        "url": "http://61.54.60.21:57996/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3895651",
-        "date_added": "2026-08-02 20:48:25",
-        "url": "http://115.63.202.187:56132/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3895650",
-        "date_added": "2026-08-02 20:45:21",
-        "url": "http://116.138.247.7:47567/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3895649",
-        "date_added": "2026-08-02 20:38:22",
-        "url": "http://31.77.227.105/bins/cekizsafu",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mirai",
-          "x86-32"
-        ]
-      },
-      {
-        "id": "3895648",
-        "date_added": "2026-08-02 20:22:20",
-        "url": "http://115.63.202.187:56132/bin.sh",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3895647",
-        "date_added": "2026-08-02 20:17:28",
-        "url": "http://116.138.247.7:47567/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3895646",
-        "date_added": "2026-08-02 20:07:18",
-        "url": "http://112.248.114.151:59466/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3895645",
-        "date_added": "2026-08-02 20:00:32",
-        "url": "http://210.208.110.21:57805/bin.sh",
+        "id": "3895728",
+        "date_added": "2026-08-03 02:01:26",
+        "url": "http://105.186.148.224:60621/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -431,9 +369,20 @@
         ]
       },
       {
-        "id": "3895644",
-        "date_added": "2026-08-02 19:50:30",
-        "url": "http://42.225.205.22:58207/i",
+        "id": "3895727",
+        "date_added": "2026-08-03 02:00:31",
+        "url": "http://95.164.53.73/loader.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "sh",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3895726",
+        "date_added": "2026-08-03 01:46:30",
+        "url": "http://182.112.29.60:35304/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -444,44 +393,71 @@
         ]
       },
       {
-        "id": "3895643",
-        "date_added": "2026-08-02 19:48:18",
-        "url": "http://195.137.245.219/systemd",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "elf",
-          "iot"
-        ]
-      },
-      {
-        "id": "3895642",
-        "date_added": "2026-08-02 19:42:07",
-        "url": "http://110.36.25.33:47305/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3895641",
-        "date_added": "2026-08-02 19:41:27",
-        "url": "http://182.34.56.255:59959/bin.sh",
+        "id": "3895725",
+        "date_added": "2026-08-03 01:25:18",
+        "url": "http://42.228.247.109:56204/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
           "32-bit",
-          "arm",
           "elf",
-          "mirai",
+          "mips",
           "Mozi"
         ]
       },
       {
-        "id": "3895640",
-        "date_added": "2026-08-02 19:25:28",
-        "url": "http://42.225.205.22:58207/bin.sh",
+        "id": "3895724",
+        "date_added": "2026-08-03 01:18:20",
+        "url": "http://115.48.160.122:59930/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3895723",
+        "date_added": "2026-08-03 01:13:26",
+        "url": "http://182.112.29.60:35304/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3895722",
+        "date_added": "2026-08-03 00:56:07",
+        "url": "http://125.46.145.73:33827/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3895721",
+        "date_added": "2026-08-03 00:55:26",
+        "url": "http://42.228.247.109:56204/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3895720",
+        "date_added": "2026-08-03 00:50:33",
+        "url": "http://27.12.217.185:38075/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -495,53 +471,53 @@
   },
   "world_monitor": [
     {
-      "title": "In Ceuta, Far-Right Leaders Call on Spain to Expel Migrants",
-      "link": "https://www.nytimes.com/2026/08/02/world/europe/spain-ceuta-far-right.html",
-      "pubDate": "Sun, 02 Aug 2026 21:49:47 +0000",
-      "source": "NYT World",
-      "summary": "Far-right politicians and activists are flocking to the Spanish territory on the northern coast of Africa, fueling tensions there days after thousands of migrants entered the exclave."
+      "title": "Brazil’s Lula launches reelection bid amid foreign interference concerns",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/3/brazils-lula-launches-reelection-bid-amid-foreign-interference-concerns?traffic_source=rss",
+      "pubDate": "Mon, 03 Aug 2026 02:54:25 +0000",
+      "source": "Al Jazeera",
+      "summary": "Brazil's President Luiz Inácio Lula da Silva has officially launched his reelection campaign."
     },
     {
-      "title": "Local volunteers help rebuild destroyed Christian monastery in Lebanon",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/2/local-volunteers-help-rebuild-destroyed-christian-monastery-in-lebanon?traffic_source=rss",
-      "pubDate": "Sun, 02 Aug 2026 21:18:03 +0000",
+      "title": "The battle for the Maasai Mara: Can Kenya’s most iconic ecosystem be saved?",
+      "link": "https://www.aljazeera.com/features/2026/8/3/the-battle-for-the-maasai-mara-can-kenyas-most-iconic-ecosystem-be-saved?traffic_source=rss",
+      "pubDate": "Mon, 03 Aug 2026 01:57:58 +0000",
       "source": "Al Jazeera",
-      "summary": "Interfaith volunteers rebuild war-damaged Catholic monastery in Lebanon’s Zawtar al-Gharbiyeh."
+      "summary": "Court cases over new lodges have raised questions about protecting one of Africa’s greatest wildlife spectacles."
     },
     {
-      "title": "UK PM Burnham vows to be ‘relentless’ on Channel migrant crossings",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/2/uk-pm-burnham-vows-to-be-relentless-on-channel-migrant-crossings?traffic_source=rss",
-      "pubDate": "Sun, 02 Aug 2026 20:45:01 +0000",
+      "title": "Japan and US confirm rare joint intervention to prop up yen",
+      "link": "https://www.aljazeera.com/economy/2026/8/3/japan-and-us-confirm-rare-joint-intervention-to-prop-up-yen?traffic_source=rss",
+      "pubDate": "Mon, 03 Aug 2026 01:34:19 +0000",
       "source": "Al Jazeera",
-      "summary": "UK Prime Minister Andy Burnham said his government will be \"relentless\" in tackling small boat crossings the Channel."
+      "summary": "US President Donald Trump says helping to bolster the Japanese currency is a sign of friendship."
     },
     {
       "title": "Two crew killed after firefighting helicopters collide in Greece, as British pilot survives",
       "link": "https://www.bbc.co.uk/news/articles/c1417713ve6o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Sun, 02 Aug 2026 20:36:37 GMT",
+      "pubDate": "Mon, 03 Aug 2026 01:03:31 GMT",
       "source": "BBC",
       "summary": "One Danish and one Greek national died in the incident, while a British pilot and another Greek crew member survived."
     },
     {
-      "title": "Venezuela and the Dominican Republic say they will work to restore ties",
-      "link": "https://www.aljazeera.com/news/2026/8/2/venezuela-and-the-dominican-republic-say-they-will-work-to-restore-ties?traffic_source=rss",
-      "pubDate": "Sun, 02 Aug 2026 20:29:32 +0000",
+      "title": "Suicide bombing kills at least 14 people in Pakistan’s Swat Valley",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/3/suicide-bombing-kills-at-least-14-people-in-pakistans-swat-valley?traffic_source=rss",
+      "pubDate": "Mon, 03 Aug 2026 00:18:50 +0000",
       "source": "Al Jazeera",
-      "summary": "Both countries have agreed on a plan to restore diplomatic relations cut off after a contested vote in 2024."
+      "summary": "Footage shows blast victims hurried into a hospital in northwestern Pakistan, after a suicide bombing."
     },
     {
-      "title": "Is Washington dictating the agenda for talks in Venezuela?",
-      "link": "https://www.aljazeera.com/video/inside-story/2026/8/2/is-washington-dictating-the-agenda-for-talks-in-venezuela?traffic_source=rss",
-      "pubDate": "Sun, 02 Aug 2026 20:01:21 +0000",
+      "title": "Iran war live: Trump says talks to resume; Tehran urges US to honour MoU",
+      "link": "https://www.aljazeera.com/news/liveblog/2026/8/3/iran-war-live-trump-says-talks-set-to-begin-tehran-urges-us-to-honour-mou?traffic_source=rss",
+      "pubDate": "Mon, 03 Aug 2026 00:00:15 +0000",
       "source": "Al Jazeera",
-      "summary": "Venezuela's government and a section of the opposition plan to hold talks, backed by the US."
+      "summary": "US President Donald Trump says an agreement with Iran is imminent, with negotiations set to begin on Monday."
     },
     {
-      "title": "How much has AIPAC spent against Michigan’s Abdul El-Sayed? And why?",
-      "link": "https://www.aljazeera.com/news/2026/8/2/how-much-has-aipac-spent-against-michigans-abdul-el-sayed-and-why?traffic_source=rss",
-      "pubDate": "Sun, 02 Aug 2026 20:00:45 +0000",
-      "source": "Al Jazeera",
-      "summary": "Pro-Israel group unleashes its spending power to help elect Haley Stevens to US Senate against progressive doctor."
+      "title": "In Ceuta, Far-Right Leaders Call on Spain to Expel Migrants",
+      "link": "https://www.nytimes.com/2026/08/02/world/europe/spain-ceuta-far-right.html",
+      "pubDate": "Sun, 02 Aug 2026 21:49:48 +0000",
+      "source": "NYT World",
+      "summary": "Far-right politicians and activists are flocking to the Spanish territory on the northern coast of Africa, fueling tensions there days after thousands of migrants entered the exclave."
     },
     {
       "title": "Pakistan Police Station Bombing Kills at Least 14",
@@ -975,68 +951,92 @@
       "pubDate": "Fri, 18 Jul 2025 12:19:14 +0000",
       "domain": "politics",
       "source": "ROAR Magazine"
+    },
+    {
+      "title": "Emotional pathways to engagement in AI-enhanced english learning: the role of AI literacy and foreign language enjoyment",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1872841",
+      "summary": "PurposeLearner engagement is central to effective EFL learning, yet limited research has examined how AI literacy contributes to students' engagement in AI-enhanced language classrooms. Drawing on the growing recognition of emotion in technology-mediated learning, this study investigates whether for",
+      "pubDate": "",
+      "domain": "psychology",
+      "source": "Frontiers Psychology"
+    },
+    {
+      "title": "The influence of social cues in learning and decision-making over time",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1691925",
+      "summary": "IntroductionInitial visual impressions guide judgment and decision-making in social contexts, and social cues, such as facial trustworthiness, may bias choices by influencing individuals to prioritize appearance over actual behavioral outcomes. Key challenges for research in this field include clari",
+      "pubDate": "",
+      "domain": "psychology",
+      "source": "Frontiers Psychology"
+    },
+    {
+      "title": "Algorithmic academic framing in AI-driven smart libraries: a moderated mediation model of personalized learning and cognitive overload in academic decision-making",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1864163",
+      "summary": "This study examines how AI-driven smart libraries are associated with academic decision-making by introducing the concept of algorithmic academic framing. Drawing on cognitive load theory and social cognitive theory, a conditional process model was developed in which algorithmic academic framing is ",
+      "pubDate": "",
+      "domain": "psychology",
+      "source": "Frontiers Psychology"
     }
   ],
   "misinfo_toilet": [
     {
       "headline": "Nach Abschiebung wegen Anti-Israel-Parole: Bob-Vylan-Frontmann wehrt sich erfolgreich gegen Einreiseverbot",
-      "fragment": "In the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
-      "splice": "Nach Abschiebung wegen Anti-Israel-Parole: Bob-Vylan-Frontmann wehrt sich erfolgreich gegen Einreiseverbot which is to say in the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
-      "seed": 20260823
-    },
-    {
-      "headline": "Two crew killed after firefighting helicopters collide in Greece, as British pilot survives",
-      "fragment": "The simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
-      "splice": "Two crew killed after firefighting helicopters collide in Greece, as British pilot survives underneath the simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
-      "seed": 20260824
-    },
-    {
-      "headline": "Identifying the Crypto Entrepreneur Linked to Popular Forum Trading in ‘Leaked’ Nudes of Women",
-      "fragment": "An ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
-      "splice": "Identifying the Crypto Entrepreneur Linked to Popular Forum Trading in ‘Leaked’ Nudes of Women while an ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
-      "seed": 20260825
-    },
-    {
-      "headline": "Will Ronaldo Cry​? World Cup Fans Bet Billions Through Prediction Markets",
       "fragment": "The technocrat is the natural friend of the dictator—computers and dictatorship.",
-      "splice": "Will Ronaldo Cry​? World Cup Fans Bet Billions Through Prediction Markets insofar as the technocrat is the natural friend of the dictator—computers and dictatorship.",
-      "seed": 20260826
+      "splice": "Nach Abschiebung wegen Anti-Israel-Parole: Bob-Vylan-Frontmann wehrt sich erfolgreich gegen Einreiseverbot the system notes that the technocrat is the natural friend of the dictator—computers and dictatorship.",
+      "seed": 20260806
     },
     {
-      "headline": "Is Washington dictating the agenda for talks in Venezuela?",
-      "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "splice": "Is Washington dictating the agenda for talks in Venezuela? consequently it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "seed": 20260827
+      "headline": "Suicide bombing kills at least 14 people in Pakistan’s Swat Valley",
+      "fragment": "Simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
+      "splice": "Suicide bombing kills at least 14 people in Pakistan’s Swat Valley underneath simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
+      "seed": 20260807
+    },
+    {
+      "headline": "Welcome to Dubai: Kinahan Cartel’s Visas Revealed",
+      "fragment": "An ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
+      "splice": "Welcome to Dubai: Kinahan Cartel’s Visas Revealed ...as an ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
+      "seed": 20260808
+    },
+    {
+      "headline": "Ukraine says major Russian oil refinery and airfield hit, as Moscow reports eight deaths ",
+      "fragment": "It is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
+      "splice": "Ukraine says major Russian oil refinery and airfield hit, as Moscow reports eight deaths  while it is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
+      "seed": 20260809
+    },
+    {
+      "headline": "Trump Says He Canceled Strikes on Iran, Claiming Progress on Outlines of a Deal",
+      "fragment": "It is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
+      "splice": "Trump Says He Canceled Strikes on Iran, Claiming Progress on Outlines of a Deal insofar as it is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
+      "seed": 20260810
+    },
+    {
+      "headline": "Corporations, Not Immigrants, Are Responsible for Vast Majority of Healthcare Fraud, OIG Report Shows",
+      "fragment": "It is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
+      "splice": "Corporations, Not Immigrants, Are Responsible for Vast Majority of Healthcare Fraud, OIG Report Shows insofar as it is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
+      "seed": 20260811
+    },
+    {
+      "headline": "Pakistan Police Station Bombing Kills at Least 14",
+      "fragment": "Underneath all reason lies delirium and drift.",
+      "splice": "Pakistan Police Station Bombing Kills at Least 14 which is to say underneath all reason lies delirium and drift.",
+      "seed": 20260812
+    },
+    {
+      "headline": "Between Graves and Uncertainty: The Management of the Dead After Venezuela’s Earthquake",
+      "fragment": "Antagonism is not now located externally, in the face-off between class blocs, but internally, in the psychology of the worker.",
+      "splice": "Between Graves and Uncertainty: The Management of the Dead After Venezuela’s Earthquake because antagonism is not now located externally, in the face-off between class blocs, but internally, in the psychology of the worker.",
+      "seed": 20260813
     },
     {
       "headline": "Trump cancels Iran strikes subject to deal being made 'rapidly'",
-      "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "splice": "Trump cancels Iran strikes subject to deal being made 'rapidly' not unlike it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "seed": 20260828
+      "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "splice": "Trump cancels Iran strikes subject to deal being made 'rapidly' underneath the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "seed": 20260814
     },
     {
-      "headline": "Shahed-Type Drones Filmed During Mali Village Attacks",
-      "fragment": "It is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
-      "splice": "Shahed-Type Drones Filmed During Mali Village Attacks despite it is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
-      "seed": 20260829
-    },
-    {
-      "headline": "Abdul El-Sayed on The Intercept Briefing",
-      "fragment": "The privatization of the organs will only begin with the shame felt by man at the sight of man.",
-      "splice": "Abdul El-Sayed on The Intercept Briefing therefore the privatization of the organs will only begin with the shame felt by man at the sight of man.",
-      "seed": 20260830
-    },
-    {
-      "headline": "Cori Bush Has No Regrets",
-      "fragment": "Traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "splice": "Cori Bush Has No Regrets ...as traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "seed": 20260831
-    },
-    {
-      "headline": "How Spain's migrant crisis created a political storm - whipped up by social media",
-      "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
-      "splice": "How Spain's migrant crisis created a political storm - whipped up by social media insofar as the revolutionary lives in the gap which separates technical progress from social totality.",
-      "seed": 20260832
+      "headline": "In Ceuta, Far-Right Leaders Call on Spain to Expel Migrants",
+      "fragment": "The simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
+      "splice": "In Ceuta, Far-Right Leaders Call on Spain to Expel Migrants insofar as the simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
+      "seed": 20260815
     }
   ]
 }
