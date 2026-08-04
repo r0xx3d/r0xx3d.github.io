@@ -1,7 +1,22 @@
 {
-  "generated_at": "2026-08-03T09:51:19.207Z",
+  "generated_at": "2026-08-04T02:47:09.042Z",
   "threat_intel": {
     "cisa_kev": [
+      {
+        "cveID": "CVE-2026-18577",
+        "vendorProject": "N-able",
+        "product": "N-central",
+        "vulnerabilityName": "N-able N-central Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+        "dateAdded": "2026-08-03",
+        "shortDescription": "N-able N-central contains an authentication bypass using an alternate path or channel allows for authentication bypass and account takeover in N-central. This vulnerability is the result of an incomplete patch for CVE-2026-18556.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-08-06",
+        "knownRansomwareCampaignUse": "Unknown",
+        "notes": "https://documentation.n-able.com/N-central/Release_Notes/GA/Content/N-central_2026.3_HF1_Release_Notes.htm ; https://status.n-able.com/2026/08/02/n-central-2026-3-hotfix-1-mitigation-for-cve-2026-18577/ ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-18577",
+        "cwes": [
+          "CWE-288"
+        ]
+      },
       {
         "cveID": "CVE-2026-20316",
         "vendorProject": "Cisco",
@@ -213,41 +228,99 @@
         "cwes": [
           "CWE-645"
         ]
-      },
-      {
-        "cveID": "CVE-2026-56155",
-        "vendorProject": "Microsoft",
-        "product": "Active Directory Federation Services",
-        "vulnerabilityName": "Microsoft Active Directory Federation Services Insufficient Granularity of Access Control Vulnerability ",
-        "dateAdded": "2026-07-14",
-        "shortDescription": "Microsoft Active Directory Federation Services contains an insufficient granularity of access control vulnerability that allows an authorized attacker to elevate privileges locally.",
-        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "dueDate": "2026-07-28",
-        "knownRansomwareCampaignUse": "Unknown",
-        "notes": "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2026-56155 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-56155; https://learn.microsoft.com/en-us/windows-server/identity/ad-fs/decommission/adfs-decommission-guide",
-        "cwes": [
-          "CWE-1220"
-        ]
       }
     ],
     "urlhaus": [
       {
-        "id": "3896084",
-        "date_added": "2026-08-03 09:42:10",
-        "url": "http://120.84.212.143:48371/i",
+        "id": "3896472",
+        "date_added": "2026-08-04 02:38:27",
+        "url": "http://176.65.148.167/mips",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "176-65-148-167",
+          "elf",
+          "mirai"
+        ]
+      },
+      {
+        "id": "3896473",
+        "date_added": "2026-08-04 02:38:27",
+        "url": "http://176.65.148.167/mipsel",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "176-65-148-167",
+          "elf"
+        ]
+      },
+      {
+        "id": "3896471",
+        "date_added": "2026-08-04 02:38:06",
+        "url": "http://217.217.97.125:8880/mimi.exe",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "217-217-97-125-8880",
+          "exe"
+        ]
+      },
+      {
+        "id": "3896470",
+        "date_added": "2026-08-04 02:37:13",
+        "url": "http://195.177.94.87:8080/tyler-v6.iso",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "195-177-94-87-8080"
+        ]
+      },
+      {
+        "id": "3896469",
+        "date_added": "2026-08-04 02:37:10",
+        "url": "http://195.177.94.87:8080/shellc.bin",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "195-177-94-87-8080"
+        ]
+      },
+      {
+        "id": "3896468",
+        "date_added": "2026-08-04 02:37:06",
+        "url": "http://217.217.97.125:8880/shell.jsp",
         "url_status": "offline",
         "threat": "malware_download",
         "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
+          "217-217-97-125-8880"
         ]
       },
       {
-        "id": "3896083",
-        "date_added": "2026-08-03 09:41:56",
-        "url": "http://115.48.160.122:59930/bin.sh",
+        "id": "3896467",
+        "date_added": "2026-08-04 02:36:08",
+        "url": "http://217.217.97.125:8880/v.exe",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "217-217-97-125-8880",
+          "exe"
+        ]
+      },
+      {
+        "id": "3896466",
+        "date_added": "2026-08-04 02:36:07",
+        "url": "http://217.217.97.125:8880/p.ps1",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "217-217-97-125-8880",
+          "powershell"
+        ]
+      },
+      {
+        "id": "3896465",
+        "date_added": "2026-08-04 02:15:13",
+        "url": "http://221.15.11.211:37183/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -258,208 +331,243 @@
         ]
       },
       {
-        "id": "3896082",
-        "date_added": "2026-08-03 09:41:51",
-        "url": "https://dn-pdflite.lat/files/a3asesor.lat/106c8bac09338256/A3asesor-RT3WIT.lnk",
+        "id": "3896464",
+        "date_added": "2026-08-04 02:12:28",
+        "url": "http://221.15.11.211:37183/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "None"
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
         ]
       },
       {
-        "id": "3896064",
-        "date_added": "2026-08-03 09:41:50",
-        "url": "https://dn-pdflite.lat/files/a.ste-pdffiller.lat/7d1a154e9ff17961/DOC-H20M3H.zip",
+        "id": "3896463",
+        "date_added": "2026-08-04 02:07:25",
+        "url": "http://220.158.234.200/bins/x86_64",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "None"
+          "elf",
+          "ua-wget"
         ]
       },
       {
-        "id": "3896065",
-        "date_added": "2026-08-03 09:41:50",
-        "url": "https://dn-pdflite.lat/files/a3asesor.lat/8a96f01cd3ec30d7/A3asesor-4Q6JLH.lnk",
+        "id": "3896457",
+        "date_added": "2026-08-04 02:06:21",
+        "url": "http://220.158.234.200/bins/m68k",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "None"
+          "elf",
+          "mirai",
+          "ua-wget"
         ]
       },
       {
-        "id": "3896066",
-        "date_added": "2026-08-03 09:41:50",
-        "url": "https://dn-pdflite.lat/files/a3asesor.lat/6f7d3f22f135f9d9/A3asesor-XWGKQG.zip",
+        "id": "3896458",
+        "date_added": "2026-08-04 02:06:21",
+        "url": "http://220.158.234.200/bins/ppc",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "None"
+          "elf",
+          "mirai",
+          "ua-wget"
         ]
       },
       {
-        "id": "3896067",
-        "date_added": "2026-08-03 09:41:50",
-        "url": "https://dn-pdflite.lat/files/a3asesor.lat/964fe86d097a3943/CegidPrimavera-L6LS9Z.zip",
+        "id": "3896459",
+        "date_added": "2026-08-04 02:06:21",
+        "url": "http://220.158.234.200/bins/arm",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "None"
+          "elf",
+          "mirai",
+          "ua-wget"
         ]
       },
       {
-        "id": "3896068",
-        "date_added": "2026-08-03 09:41:50",
-        "url": "https://dn-pdflite.lat/files/a.ste-pdffiller.lat/d121198256b48b89/DOC-VN70YB.zip",
+        "id": "3896460",
+        "date_added": "2026-08-04 02:06:21",
+        "url": "http://220.158.234.200/bins/x86",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "None"
+          "elf",
+          "ua-wget"
         ]
       },
       {
-        "id": "3896069",
-        "date_added": "2026-08-03 09:41:50",
-        "url": "https://dn-pdflite.lat/files/a3asesor.lat/a926caa190b0fb45/A3asesor-XJ2XJQ.zip",
+        "id": "3896461",
+        "date_added": "2026-08-04 02:06:21",
+        "url": "http://220.158.234.200/bins/sh4",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "None"
+          "elf",
+          "mirai",
+          "ua-wget"
         ]
       },
       {
-        "id": "3896070",
-        "date_added": "2026-08-03 09:41:50",
-        "url": "https://dn-pdflite.lat/files/a3asesor.lat/85f0ab4910d9bbf8/A3asesor-LZ8ZJS.lnk",
+        "id": "3896462",
+        "date_added": "2026-08-04 02:06:21",
+        "url": "http://220.158.234.200/bins/spc",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "None"
+          "elf",
+          "ua-wget"
         ]
       },
       {
-        "id": "3896071",
-        "date_added": "2026-08-03 09:41:50",
-        "url": "https://dn-pdflite.lat/files/a3asesor.lat/15fc190a8866d70a/CegidPrimavera-NPVUED.zip",
+        "id": "3896456",
+        "date_added": "2026-08-04 02:00:26",
+        "url": "http://125.42.203.105:40313/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "None"
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
         ]
       },
       {
-        "id": "3896072",
-        "date_added": "2026-08-03 09:41:50",
-        "url": "https://dn-pdflite.lat/files/a3asesor.lat/9269770e87da1062/A3asesor-EZ5JNN.zip",
+        "id": "3896455",
+        "date_added": "2026-08-04 01:53:29",
+        "url": "http://105.225.38.102:47037/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "None"
+          "32-bit",
+          "arm",
+          "elf",
+          "mirai",
+          "Mozi"
         ]
       },
       {
-        "id": "3896073",
-        "date_added": "2026-08-03 09:41:50",
-        "url": "https://dn-pdflite.lat/files/a3asesor.lat/93b88b152a864318/A3asesor-KDEYLA.zip",
+        "id": "3896454",
+        "date_added": "2026-08-04 01:22:06",
+        "url": "http://115.56.156.53:60536/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3896074",
-        "date_added": "2026-08-03 09:41:50",
-        "url": "https://dn-pdflite.lat/files/a3asesor.lat/4d4ef3bb42146443/A3asesor-E0MUS8.lnk",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3896075",
-        "date_added": "2026-08-03 09:41:50",
-        "url": "https://dn-pdflite.lat/files/a.ste-pdffiller.lat/783fdf63b7bcbb83/DOC-B3QW6K.zip",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3896076",
-        "date_added": "2026-08-03 09:41:50",
-        "url": "https://dn-pdflite.lat/files/a.ste-pdffiller.lat/1c6dd7a5c8acb43d/DOC-86EMCL.zip",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3896077",
-        "date_added": "2026-08-03 09:41:50",
-        "url": "https://dn-pdflite.lat/files/a3asesor.lat/45043870efc2fe50/A3asesor-7FJ5GJ.lnk",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3896078",
-        "date_added": "2026-08-03 09:41:50",
-        "url": "https://dn-pdflite.lat/files/dn-pdflite.lat/ab03c500914c9e8e/DOC-EU6MQG.zip",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3896079",
-        "date_added": "2026-08-03 09:41:50",
-        "url": "https://dn-pdflite.lat/files/a.ste-pdffiller.lat/671c89790e112d73/DOC-CRDZ7J.zip",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3896080",
-        "date_added": "2026-08-03 09:41:50",
-        "url": "https://dn-pdflite.lat/files/a.ste-pdffiller.lat/250c9ea0c1bb5720/DOC-2G1QX4.zip",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "None"
+          "Mozi"
         ]
       }
     ]
   },
   "world_monitor": [
     {
-      "title": "Wales FA withdraws support for Infantino re-election after FIFA stake plan",
-      "link": "https://www.aljazeera.com/sports/2026/8/3/wales-fa-withdraws-support-for-infantino-re-election-after-fifa-stake-plan?traffic_source=rss",
-      "pubDate": "Mon, 03 Aug 2026 09:23:05 +0000",
+      "title": "Ibrahim Traore: Why Burkina Faso’s popular leader faces a reality test",
+      "link": "https://www.aljazeera.com/news/2026/8/4/ibrahim-traore-why-burkina-fasos-popular-leader-faces-a-reality-test?traffic_source=rss",
+      "pubDate": "Tue, 04 Aug 2026 02:15:32 +0000",
       "source": "Al Jazeera",
-      "summary": "Wales is the first federation to formally withdraw support for Gianni Infantino after botched World Cup investment plan."
+      "summary": "Traore’s sovereignty message has won support across Africa, but his record at home faces scrutiny."
     },
     {
-      "title": "Dangerous summers: How heatwaves and wildfires change life across Europe",
-      "link": "https://www.aljazeera.com/features/2026/8/3/new-summers-how-heatwaves-and-wildfires-change-life-across?traffic_source=rss",
-      "pubDate": "Mon, 03 Aug 2026 09:13:59 +0000",
+      "title": "Does the US blockade on Cuba make America safer?",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/4/does-the-us-blockade-on-cuba-make-america-safer?traffic_source=rss",
+      "pubDate": "Tue, 04 Aug 2026 01:58:17 +0000",
       "source": "Al Jazeera",
-      "summary": "Climate change makes Europe's summers hotter, intensifying fires and droughts while threatening lives and economies."
+      "summary": "Trump just escalated restrictions on Havana warning that Cuba remains a ‘threat to national security’."
     },
     {
-      "title": "‘He had a lot of profiles’: The rise of online drug-facilitated rape gangs",
-      "link": "https://www.aljazeera.com/news/2026/8/3/he-had-a-lot-of-profiles-the-rise-of-online-drug-facilitated-rape-gangs?traffic_source=rss",
-      "pubDate": "Mon, 03 Aug 2026 09:12:14 +0000",
+      "title": "Board of Peace says no Israeli withdrawal from Gaza before Hamas disarms",
+      "link": "https://www.aljazeera.com/news/2026/8/4/board-of-peace-says-no-israeli-withdrawal-from-gaza-before-hamas-disarms?traffic_source=rss",
+      "pubDate": "Tue, 04 Aug 2026 01:43:51 +0000",
       "source": "Al Jazeera",
-      "summary": "Cases across many countries point to a worrying trend of men gathering on the internet to carry out sexual abuse crimes."
+      "summary": "Netanyahu and board director Maldenov meet amid tensions over Gaza disarmament roadmap and recent Israeli attacks."
+    },
+    {
+      "title": "Trump administration sued by 25 states over new tariffs on trading partners",
+      "link": "https://www.aljazeera.com/news/2026/8/4/trump-administration-sued-by-25-states-over-new-tariffs-on-trading-partners?traffic_source=rss",
+      "pubDate": "Tue, 04 Aug 2026 00:29:48 +0000",
+      "source": "Al Jazeera",
+      "summary": "The states claim the new levies are a pretext to re-impose tariffs that were ruled illegal by the US Supreme Court."
+    },
+    {
+      "title": "Iran war live: Tehran denies US talks as Trump warns of ‘last chance’",
+      "link": "https://www.aljazeera.com/news/liveblog/2026/8/4/iran-war-live-tehran-denies-us-talks-as-trump-warns-of-last-chance?traffic_source=rss",
+      "pubDate": "Tue, 04 Aug 2026 00:00:00 +0000",
+      "source": "Al Jazeera",
+      "summary": "US president says talks with Iran are under way, warning the negotiations are Tehran's 'last chance' to secure a deal."
+    },
+    {
+      "title": "Liberals Are Ceding Ground to the Far Right on Ceuta Border Crossings",
+      "link": "https://theintercept.com/2026/08/03/ceuta-spain-morocco-refugee-border/",
+      "pubDate": "Mon, 03 Aug 2026 21:04:37 +0000",
+      "source": "The Intercept",
+      "summary": "From the New York Times to the EU, liberals defending Spain from far-right fearmongering are regurgitating the right’s anti-immigrant premise.\nThe post Liberals Are Ceding Ground to the Far Right on Ceuta Border Crossings appeared first on The Interc"
+    },
+    {
+      "title": "Iran Says No Current Talks With U.S. After Trump Cites Progress on the Strait of Hormuz",
+      "link": "https://www.nytimes.com/2026/08/03/world/middleeast/iran-talks-us-oman-strait-hormuz-trump.html",
+      "pubDate": "Mon, 03 Aug 2026 20:06:28 +0000",
+      "source": "NYT World",
+      "summary": "President Trump cited progress in the negotiations when canceling a threatened attack on Iran over the weekend. Iran said there were no current talks with the United States."
+    },
+    {
+      "title": "US reports first two deaths linked to  'explosive diarrhoea' outbreak",
+      "link": "https://www.bbc.co.uk/news/articles/c2k7px317eeo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Mon, 03 Aug 2026 20:05:46 GMT",
+      "source": "BBC",
+      "summary": "The illness caused by parasitic infection that spreads through contaminated food or water is not generally life-threatening, health officials say."
+    },
+    {
+      "title": "Iran says it is in talks with Oman but not the US after Trump says negotiations to resume",
+      "link": "https://www.bbc.co.uk/news/articles/c23579jzv08o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Mon, 03 Aug 2026 19:42:55 GMT",
+      "source": "BBC",
+      "summary": "Iran's remarks that there were no talks with the US prompts Donald Trump to issue a strong condemnation of its leadership."
+    },
+    {
+      "title": "After Trump Pardon, Former Honduras President Hernández Faces Charges in His Home Country",
+      "link": "https://www.nytimes.com/2026/08/03/world/americas/juan-orlando-hernandez-trump-honduras.html",
+      "pubDate": "Mon, 03 Aug 2026 19:29:46 +0000",
+      "source": "NYT World",
+      "summary": "Juan Orlando Hernández, the former leader, faces fraud and money laundering charges after a Trump pardon overturned a drug-trafficking sentence."
+    },
+    {
+      "title": "Russia says seven killed and 40 injured by Ukrainian drone hitting busy beach",
+      "link": "https://www.bbc.co.uk/news/articles/cr7kmnyrdn7o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Mon, 03 Aug 2026 18:04:30 GMT",
+      "source": "BBC",
+      "summary": "Three children were killed when the drone crashed at a popular resort on the Black Sea."
+    },
+    {
+      "title": "Rhine falls to record low levels as drought strains Europe's rivers",
+      "link": "https://www.bbc.co.uk/news/articles/c78gn8zvrx4o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Mon, 03 Aug 2026 16:27:43 GMT",
+      "source": "BBC",
+      "summary": "Low water levels in the Rhine, Danube and Po have curtailed the transport of goods and reduced electricity output."
+    },
+    {
+      "title": "Threat to oil tankers in Middle East  worst since start of Iran war, analysts say",
+      "link": "https://www.bbc.co.uk/news/articles/cjrv0dy2e90o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Mon, 03 Aug 2026 15:57:27 GMT",
+      "source": "BBC",
+      "summary": "Fresh attacks on alternative shipping routes have left tankers facing an increasingly complex situation, analysts say."
+    },
+    {
+      "title": "NYPD Used High-Tech Surveillance to Find Gaza Paint Splatter Protester, Docs Show",
+      "link": "https://theintercept.com/2026/08/03/nypd-surveillance-gaza-protest-columbia/",
+      "pubDate": "Mon, 03 Aug 2026 13:59:46 +0000",
+      "source": "The Intercept",
+      "summary": "Throwing paint on a statue at Columbia seems like a minor crime, but cops use tremendous resources when pro-Palestine protesters are in the crosshairs.\nThe post NYPD Used High-Tech Surveillance to Find Gaza Paint Splatter Protester, Docs Show appeare"
+    },
+    {
+      "title": "Spain’s Leader Is Seen as Soft on Migrants, but He Acted Fast on Ceuta",
+      "link": "https://www.nytimes.com/2026/08/03/world/europe/spain-ceuta-migrants-sanchez.html",
+      "pubDate": "Mon, 03 Aug 2026 11:43:19 +0000",
+      "source": "NYT World",
+      "summary": "After thousands poured into the Spanish territory in North Africa, the pro-immigration policies of Prime Minister Pedro Sánchez were blamed. The reality is more complex."
     },
     {
       "title": "Ceuta Migration Crisis Exposes Despair Among Morocco’s Young People",
@@ -469,81 +577,11 @@
       "summary": "Moroccan migrants described their despair at their economic future, explaining what propelled them across the border with Spain."
     },
     {
-      "title": "Myanmar releases first images of Aung San Suu Kyi since 2021 military coup",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/3/08-03-2026-aung-san-suu-kyi-pictures-sv?traffic_source=rss",
-      "pubDate": "Mon, 03 Aug 2026 09:05:04 +0000",
-      "source": "Al Jazeera",
-      "summary": "Myanmar releases first images of Aung San Suu Kyi since 2021 military coup."
-    },
-    {
-      "title": "Australia warns H5N1 likely to spread after first mass mortality episode",
-      "link": "https://www.aljazeera.com/news/2026/8/3/australia-warns-h5n1-likely-to-spread-after-first-mass-mortality-episode?traffic_source=rss",
-      "pubDate": "Mon, 03 Aug 2026 09:04:57 +0000",
-      "source": "Al Jazeera",
-      "summary": "Agriculture minister ​says testing confirmed H5N1 bird flu in a group of 49 dead and 35 sick terns."
-    },
-    {
-      "title": "After Trump Pardon, Former Honduras President Hernández Faces Charges in His Home Country",
-      "link": "https://www.nytimes.com/2026/08/03/world/americas/juan-orlando-hernandez-trump-honduras.html",
-      "pubDate": "Mon, 03 Aug 2026 09:00:47 +0000",
-      "source": "NYT World",
-      "summary": "Juan Orlando Hernández, a former president of Honduras, faces fraud and money laundering charges in his home country after a surprise Trump pardon overturned his drug-trafficking sentence in the U.S."
-    },
-    {
-      "title": "For Iran, Trump’s Reversal on Escalation Shows Who Has the Upper Hand",
-      "link": "https://www.nytimes.com/2026/08/03/world/middleeast/iran-trump-escalation.html",
-      "pubDate": "Mon, 03 Aug 2026 08:50:11 +0000",
-      "source": "NYT World",
-      "summary": "By expanding the arena of fighting in the region, experts say, Tehran sent a warning about the dangers of a widening war."
-    },
-    {
-      "title": "Two workers killed in blast after re-entering quake-hit Japan mall on boss' order",
-      "link": "https://www.bbc.co.uk/news/articles/c24mr09r99eo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Mon, 03 Aug 2026 08:40:22 GMT",
-      "source": "BBC",
-      "summary": "The two women's employer has apologised for sending them back to Aeon Mall to secure cash."
-    },
-    {
-      "title": "2 Killed as Firefighting Helicopters Collide in Greece",
-      "link": "https://www.nytimes.com/2026/08/03/world/europe/greece-fire-helicopter-crash-firefighters.html",
-      "pubDate": "Mon, 03 Aug 2026 08:27:22 +0000",
-      "source": "NYT World",
-      "summary": "The aircraft crashed while battling a wildfire northwest of Athens, as Greece fought more than 200 fires in the past week."
-    },
-    {
-      "title": "Trump suggests new talks with Iran to begin on Monday",
-      "link": "https://www.bbc.co.uk/news/articles/c23579jzv08o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Mon, 03 Aug 2026 08:03:15 GMT",
-      "source": "BBC",
-      "summary": "Tehran has not responded to the suggestion that new talks are imminent. Trump has previously said a negotiated end to the war is close, only for strikes to resume."
-    },
-    {
-      "title": "US and Japan take action to prop up yen in rare joint move",
-      "link": "https://www.bbc.co.uk/news/articles/cglj1pr0wjwo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Mon, 03 Aug 2026 07:30:52 GMT",
-      "source": "BBC",
-      "summary": "Both countries have said that they will not hesitate to conduct joint interventions in the future."
-    },
-    {
-      "title": "Aung San Suu Kyi appears healthy in first confirmed outside contact for 2.5 years",
-      "link": "https://www.bbc.co.uk/news/articles/c1e1d5j6660o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Mon, 03 Aug 2026 06:53:09 GMT",
-      "source": "BBC",
-      "summary": "Photos newly released by Myanmar's military government show Suu Kyi meeting with an ICRC official."
-    },
-    {
       "title": "As France’s Elders Swelter in the Heat, Postal Workers Come to the Rescue",
       "link": "https://www.nytimes.com/2026/08/03/world/europe/france-postal-workers-older-people-heat.html",
       "pubDate": "Mon, 03 Aug 2026 04:01:09 +0000",
       "source": "NYT World",
       "summary": "To help prevent heat-related deaths, the French government has asked postal workers to check in on older people."
-    },
-    {
-      "title": "'My only son was shot standing up for justice' - inside city gripped by deadly protests in Pakistan-administered Kashmir",
-      "link": "https://www.bbc.co.uk/news/articles/c5yvqk69enko?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Mon, 03 Aug 2026 03:32:21 GMT",
-      "source": "BBC",
-      "summary": "The BBC gains unique access to Rawalakot, scene of violent clashes between security forces and protesters in Pakistan-administered Kashmir."
     },
     {
       "title": "Nach Abschiebung wegen Anti-Israel-Parole: Bob-Vylan-Frontmann wehrt sich erfolgreich gegen Einreiseverbot",
@@ -572,20 +610,6 @@
       "pubDate": "Sat, 01 Aug 2026 10:00:00 +0000",
       "source": "The Intercept",
       "summary": "By selling off early access to his posts at a premium, the president is merging a public good with his own profit motives.\nThe post Trump’s Truth Social API Is a Blatantly Corrupt Favor to Wall Street appeared first on The Intercept."
-    },
-    {
-      "title": "Abdul El-Sayed on The Intercept Briefing",
-      "link": "https://theintercept.com/2026/07/31/democrats-michigan-el-sayed-stevens-left-moderate/",
-      "pubDate": "Fri, 31 Jul 2026 10:00:00 +0000",
-      "source": "The Intercept",
-      "summary": "The Michigan Senate primary is the next biggest test for the direction of the Democratic Party.\nThe post Abdul El-Sayed on The Intercept Briefing appeared first on The Intercept."
-    },
-    {
-      "title": "Corporations, Not Immigrants, Are Responsible for Vast Majority of Healthcare Fraud, OIG Report Shows",
-      "link": "https://theintercept.com/2026/07/31/immigrants-healthcare-medicare-fraud-scam/",
-      "pubDate": "Fri, 31 Jul 2026 08:54:00 +0000",
-      "source": "The Intercept",
-      "summary": "Trump officials are focused on immigrants, but the Department of Health and Human Services report on fraud doesn’t even mention them.\nThe post Corporations, Not Immigrants, Are Responsible for Vast Majority of Healthcare Fraud, OIG Report Shows appea"
     },
     {
       "title": "Will Ronaldo Cry​? World Cup Fans Bet Billions Through Prediction Markets",
@@ -618,6 +642,20 @@
   ],
   "syndication": [
     {
+      "title": "More on the OpenAI Agent’s Attack on Hugging Face",
+      "link": "https://www.schneier.com/blog/archives/2026/08/more-on-the-openai-agents-attack-on-hugging-face.html",
+      "pubDate": "2026-08-03T17:02:46.000Z",
+      "author": "Schneier on Security",
+      "content": "Hugging Face has published a detailed timeline of the attack. From the summary:\nThe agent was running an internal OpenAI cyber-capability evaluation based on the ExploitGym benchmark, which tasks an AI agent with finding and exploiting software vulnerabilities. OpenAI ran this on its own infrastruct"
+    },
+    {
+      "title": "The OpenAI Hack Shows the Genie Is Out of the Bottle",
+      "link": "https://www.schneier.com/blog/archives/2026/08/the-openai-hack-shows-the-genie-is-out-of-the-bottle.html",
+      "pubDate": "2026-08-03T10:47:47.000Z",
+      "author": "Schneier on Security",
+      "content": "This essay originally appeared in Foreign Policy.\nEarlier this month, two of OpenAI’s models broke out of their containment sandbox and attacked another AI company. The story is kind of wild. OpenAI was running security tests on two of its models: GPT-5.6 Sol and an unreleased model that is almost c"
+    },
+    {
       "title": "Pluralistic: Dualism (03 Aug 2026)",
       "link": "https://pluralistic.net/2026/08/03/andor/",
       "pubDate": "Mon, 03 Aug 2026 08:25:53 +0000",
@@ -639,25 +677,11 @@
       "content": "The Squid is a new scientific machine:\nOne of the technological breakthroughs was the onboard use of a spinning wheel confocal microscope, nicknamed the Squid, which uses lasers to scan microscopic details of how organisms are put together. “That opens up a whole new world of exploring. We could see"
     },
     {
-      "title": "Anthropic’s Opus 5 Is Better at Resisting Prompt Injection",
-      "link": "https://www.schneier.com/blog/archives/2026/07/anthropics-opus-5-is-better-at-resisting-prompt-injection.html",
-      "pubDate": "2026-07-31T17:23:16.000Z",
-      "author": "Schneier on Security",
-      "content": "The chart is interesting.\nOn the IPI benchmark, Opus 5 improved over Opus 4.8, reducing the probability of an attacker succeeding within 15 attempts from 5.5% to 2.0%, and from 0.5% to 0.2% on 1 attempt. It also improved on Sonnet 5 (5.9% at k=15) and Mythos 5 (2.6%), making it the most robust model"
-    },
-    {
       "title": "Pluralistic: Better to beg forgiveness (31 Jul 2026)",
       "link": "https://pluralistic.net/2026/07/31/just-do-it/",
       "pubDate": "Fri, 31 Jul 2026 11:56:12 +0000",
       "author": "Pluralistic",
       "content": "Today's links Better to beg forgiveness: Don't ring the doorbell at the house of no unless you absolutely must. Hey look at this: Delights to delectate. Object permanence: RIP Poul Anderson; P2P at PC Forum; Waitress handed her own stolen ID by carded diner; PDX bans fixies; Digital Economy Bill was"
-    },
-    {
-      "title": "Facial Recognition at Madison Square Garden",
-      "link": "https://www.schneier.com/blog/archives/2026/07/facial-recognition-at-madison-square-garden.html",
-      "pubDate": "2026-07-31T11:08:44.000Z",
-      "author": "Schneier on Security",
-      "content": "Last month, the story broke (alternate link) that Madison Square Garden uses facial recognition software on everyone entering the facility, and—among other groups—flags activists that oppose using facial recognition.\nTurns out that the system was shut off for Taylor Swift’s wedding.\nEvan Greer—one o"
     },
     {
       "title": "Read This Before You Buy That TV Streaming Stick",
@@ -682,6 +706,94 @@
     }
   ],
   "syndicate_journal": [
+    {
+      "title": "55 Years Ago, an Apollo 15 Astronaut Dropped a Hammer on the Moon",
+      "link": "https://nautil.us/55-years-ago-an-apollo-15-astronaut-dropped-a-hammer-on-the-moon-1283339/",
+      "summary": "“How about that?”\nThe post 55 Years Ago, an Apollo 15 Astronaut Dropped a Hammer on the Moon appeared first on Nautilus.",
+      "pubDate": "Mon, 03 Aug 2026 22:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "Better Posture Linked to Better Decision Making and Mood",
+      "link": "https://nautil.us/better-posture-linked-to-better-decision-making-and-mood-1283327/",
+      "summary": "Sitting upright can influence your mind\nThe post Better Posture Linked to Better Decision Making and Mood appeared first on Nautilus.",
+      "pubDate": "Mon, 03 Aug 2026 21:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "The Class Divide Haunting Climate Politics",
+      "link": "",
+      "summary": "Socialists believe the working class is the  of social transformation in a capitalist society. So, perhaps the most important problem for socialists today is the fact that significant swaths of the working-class are shifting to the  — not just in the United States but all over .key agentpopulist rig",
+      "pubDate": "2026-08-03T20:17:44.197Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "Socialists Are Out-Organizing the Democratic Establishment",
+      "link": "",
+      "summary": "In the weeks following the resounding electoral victory of the New York City Democratic Socialists of America (NYC-DSA) this past June, the Democratic establishment’s complaints appeared right on schedule. This time, in addition to the expected accusations of radicalism, antisemitism, and, of course",
+      "pubDate": "2026-08-03T19:28:22.483Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "Less Protein, Not More, May Lead to Healthier Aging",
+      "link": "https://nautil.us/less-protein-not-more-may-lead-to-healthier-aging-1283315/",
+      "summary": "A new review takes a closer look at the molecular mechanisms\nThe post Less Protein, Not More, May Lead to Healthier Aging appeared first on Nautilus.",
+      "pubDate": "Mon, 03 Aug 2026 18:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "Centrist Democrats Keep Making Awful Health Reform Proposals",
+      "link": "",
+      "summary": "As the start of the 2028 Democratic presidential primary nears, various policy institutions will offer up health care proposals for candidates to adopt. One such organization, the Searchlight Institute, jumped the gun a few months ago when it released , a package of reforms  by a proposal to make pr",
+      "pubDate": "2026-08-03T16:06:52.781Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "Why the Legendary Erdős Problems Are Falling to AI",
+      "link": "https://www.quantamagazine.org/why-the-legendary-erdos-problems-are-falling-to-ai-20260803/",
+      "summary": "AI’s greatest mathematical successes have come from answers to problems posed by a mid-20th century iconoclast. By examining what makes the Erdős problems unique, mathematicians are trying to understand how AI might change the rest of math.            \nThe post Why the Legendary Erdős Problems Are F",
+      "pubDate": "Mon, 03 Aug 2026 15:05:20 +0000",
+      "domain": "science",
+      "source": "Quanta"
+    },
+    {
+      "title": "Beyond Body Counts",
+      "link": "https://daily.jstor.org/beyond-body-counts/",
+      "summary": "Who records the victims of war, and why documenting every death matters after the fighting ends.\nThe post Beyond Body Counts appeared first on JSTOR Daily.",
+      "pubDate": "Mon, 03 Aug 2026 13:31:53 +0000",
+      "domain": "history",
+      "source": "JSTOR Daily"
+    },
+    {
+      "title": "The journalist's despite?",
+      "link": "https://languagelog.ldc.upenn.edu/nll/?p=73957&utm_source=rss&utm_medium=rss&utm_campaign=the-journalists-despite",
+      "summary": "According to a recent BoingBoing segment, Ballots for a special election in England's Clacton-by-Sea are the longest ever produced in U.K. electoral history despite¹ only one major party contesting the race. The footnote: 1. This is the journalist's despite, wherein the word implies disregard when t",
+      "pubDate": "Mon, 03 Aug 2026 11:00:08 +0000",
+      "domain": "linguistics",
+      "source": "Language Log"
+    },
+    {
+      "title": "Ani Liu: eye heart womb",
+      "link": "https://aeon.co/videos/transforming-scientific-enquiry-and-human-bodies-into-visceral-art",
+      "summary": "A scientist, artist and mother, Ani Liu contemplates how power and control shape the body in her taboo-breaking artworks\n- by Aeon Video\nWatch on Aeon",
+      "pubDate": "Mon, 03 Aug 2026 10:01:00 GMT",
+      "domain": "philosophy",
+      "source": "Aeon"
+    },
+    {
+      "title": "Thucydides the perspicacious",
+      "link": "https://aeon.co/essays/thucydides-account-of-war-is-as-timely-as-it-is-misunderstood",
+      "summary": "Far from thinking that ‘might makes right’, the great historian’s analysis of war identifies a vice common to all states\n- by David Polansky & Daniel Schillinger\nRead on Aeon",
+      "pubDate": "Mon, 03 Aug 2026 10:00:00 GMT",
+      "domain": "philosophy",
+      "source": "Aeon"
+    },
     {
       "title": "OpenClaw and Ollama in Agentic AI: Toward Fully Autonomous and Scalable AI Agent Systems",
       "link": "https://arxiv.org/abs/2607.28629",
@@ -713,54 +825,6 @@
       "pubDate": "Sun, 02 Aug 2026 19:23:55 +0000",
       "domain": "linguistics",
       "source": "Language Log"
-    },
-    {
-      "title": "The Blue Collar Brigade Has the Right Messengers",
-      "link": "",
-      "summary": "When Brian Poindexter made his first fundraising calls in his campaign for Congress (OH-7), he  a fellow ironworker and asked for fifty dollars. His buddy said he couldn’t help, since he’d been laid off. It’s hard to imagine Poindexter’s opponent, Republican Congressman Max Miller, having a conversa",
-      "pubDate": "2026-08-02T13:00:00.135Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
-      "title": "Mahmoud Khalil Is Suing the Trump Administration",
-      "link": "",
-      "summary": "Since October 7, 2023, critics of Israel in Europe and the United States have faced serious repression. In the United States, college student  against the unfolding genocide of Palestinians in Gaza were met with a heavy-handed  by police and university administrations.protestsresponse\nRepression of ",
-      "pubDate": "2026-08-02T12:30:00.313Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
-      "title": "The New Spider-Man Is Pure Fun",
-      "link": "",
-      "summary": "What can be said about a new  movie besides, in a tone of incredulity, “It’s another one!”Spider-Man\nWell, a few things.  was directed by Destin Daniel Cretton, who also did  (2021), which I enjoyed. It was lighthearted and humorous, with excellent action sequences and nice low-key character work, a",
-      "pubDate": "2026-08-01T14:44:57.025Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
-      "title": "You’re Carrying “Ghost DNA” From Extinct Hominins",
-      "link": "https://nautil.us/youre-carrying-ghost-dna-from-extinct-hominins-1283291/",
-      "summary": "A new technique reveals human evolution was rife with interbreeding\nThe post You’re Carrying “Ghost DNA” From Extinct Hominins appeared first on Nautilus.",
-      "pubDate": "Fri, 31 Jul 2026 21:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
-      "title": "The Bizarre Life Cycle of “Zombie-Ant” Fungus Gets a New Twist",
-      "link": "https://nautil.us/the-bizarre-life-cycle-of-zombie-ant-fungus-gets-a-new-twist-1283287/",
-      "summary": "The fungal puppet master has been living a secret life\nThe post The Bizarre Life Cycle of “Zombie-Ant” Fungus Gets a New Twist appeared first on Nautilus.",
-      "pubDate": "Fri, 31 Jul 2026 20:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
-      "title": "Which Fish Species Will Invade the Mediterranean Next?",
-      "link": "https://nautil.us/which-fish-species-will-invade-the-mediterranean-next-1283283/",
-      "summary": "The features of fish that have passed through the Suez Canal provide clues\nThe post Which Fish Species Will Invade the Mediterranean Next? appeared first on Nautilus.",
-      "pubDate": "Fri, 31 Jul 2026 18:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
     },
     {
       "title": "Is AI Reasoning Right for the Wrong Reasons?",
@@ -803,22 +867,6 @@
       "source": "Language Log"
     },
     {
-      "title": "Mud below, sun above",
-      "link": "https://aeon.co/videos/the-workforce-of-elderly-women-recycling-what-vietnam-throws-away",
-      "summary": "Meet Bể, part of Vietnam’s vital but overlooked network of recyclers – a workforce predominantly made up of elderly women\n- by Aeon Video\nWatch on Aeon",
-      "pubDate": "Thu, 30 Jul 2026 10:01:00 GMT",
-      "domain": "philosophy",
-      "source": "Aeon"
-    },
-    {
-      "title": "How art invented humanity",
-      "link": "https://aeon.co/essays/humans-did-not-invent-art-it-was-the-other-way-around",
-      "summary": "When early humans first painted cave walls, they began to find out who they really were: our minds emerged from our images\n- by J F Martel\nRead on Aeon",
-      "pubDate": "Thu, 30 Jul 2026 10:00:00 GMT",
-      "domain": "philosophy",
-      "source": "Aeon"
-    },
-    {
       "title": "Physicists Solve a Big Quantum Mystery. Now, Old Results Don’t Add Up.",
       "link": "https://www.quantamagazine.org/physicists-solve-a-muon-mystery-now-old-results-dont-add-up-20260729/",
       "summary": "New calculations seem to have put a 25-year-old particle physics puzzle to rest. But they’ve also created a clash with other experimental results.            \nThe post Physicists Solve a Big Quantum Mystery. Now, Old Results Don’t Add Up. first appeared on Quanta Magazine",
@@ -835,28 +883,12 @@
       "source": "Public Domain Review"
     },
     {
-      "title": "The Peacock Flower and Reproductive Resistance Under Slavery",
-      "link": "https://daily.jstor.org/the-peacock-flower-and-reproductive-resistance-under-slavery/",
-      "summary": "European naturalists documented the peacock flower's medicinal uses but left its most consequential history behind.\nThe post The Peacock Flower and Reproductive Resistance Under Slavery appeared first on JSTOR Daily.",
-      "pubDate": "Wed, 29 Jul 2026 13:44:00 +0000",
-      "domain": "history",
-      "source": "JSTOR Daily"
-    },
-    {
       "title": "Photographs of Atlantic City Sand Sculpture (ca. 1880–1920)\n",
       "link": "https://publicdomainreview.org/collection/atlantic-city-sand-sculpture",
       "summary": "Photographs from when Atlantic City beaches featured artists ornately sculpting sand.",
       "pubDate": "Wed, 29 Jul 2026 13:07:00 GMT",
       "domain": "history",
       "source": "Public Domain Review"
-    },
-    {
-      "title": "From Mark V. Shaney to AI Village, and beyond",
-      "link": "https://languagelog.ldc.upenn.edu/nll/?p=73931&utm_source=rss&utm_medium=rss&utm_campaign=from-mark-v-slaney-to-ai-village-and-beyond",
-      "summary": "Last December, Rob Pike got big mad at AI Village. Simon Willison covered the associated events and discussions. I sympathize with Rob Pike's reaction, though in fairness we need to note that he helped develop one of the very first systems to spread \"AI slop\" into the real world, more than four deca",
-      "pubDate": "Wed, 29 Jul 2026 12:19:06 +0000",
-      "domain": "linguistics",
-      "source": "Language Log"
     },
     {
       "title": "“The Persian Mâr-Nâmeh or, The Book for Taking Omens from Snakes” (1892)\n",
@@ -867,12 +899,28 @@
       "source": "Public Domain Review"
     },
     {
-      "title": "A New Way That a Cow’s Inner World Shapes Earth’s Atmosphere",
-      "link": "https://www.quantamagazine.org/a-new-way-that-a-cows-inner-world-shapes-earths-atmosphere-20260727/",
-      "summary": "An organelle discovered inside a microbe inside a cow’s gut helps explain how livestock burps contribute to warming our planet.            \nThe post A New Way That a Cow’s Inner World Shapes Earth’s Atmosphere first appeared on Quanta Magazine",
-      "pubDate": "Mon, 27 Jul 2026 14:40:59 +0000",
-      "domain": "science",
-      "source": "Quanta"
+      "title": "Journey to Robbers Cave",
+      "link": "https://behavioralscientist.org/journey-to-robbers-cave/",
+      "summary": "The year was 1948. Only three years had passed since the Axis powers signed the instrument of surrender effectively ending the Second World War. Fifty nations had taken part in the conflict that saw genocide and the first use of nuclear weapons. An estimated 50 million lives were lost and another 19",
+      "pubDate": "Sun, 19 Jul 2026 22:58:46 +0000",
+      "domain": "psychology",
+      "source": "Behavioral Scientist"
+    },
+    {
+      "title": "Behavioral Scientist’s Summer Book List 2026",
+      "link": "https://behavioralscientist.org/behavioral-scientists-summer-book-list-2026/",
+      "summary": "For your intellectual travels this summer, we’ve curated a baker’s dozen of behavioral science books newly published this year. Explore the mysteries of life and consciousness, glimpse the power of constraints and the games that define our lives, navigate life’s cliffs, and find the places that will",
+      "pubDate": "Sun, 05 Jul 2026 20:32:19 +0000",
+      "domain": "psychology",
+      "source": "Behavioral Scientist"
+    },
+    {
+      "title": "What It’s Like to Be…an Air Traffic Controller",
+      "link": "https://behavioralscientist.org/what-its-like-to-be-an-air-traffic-controller/",
+      "summary": "Sequencing departures like a moving puzzle, scrambling when a jet takes off without clearance, and catching what radar misses with a glance out the window with Michael Rejent, an air traffic controller. What does \"tally ho\" mean to a pilot? What phrase makes every controller in the cab look up?\n\n\n\n\n",
+      "pubDate": "Sun, 05 Jul 2026 16:35:59 +0000",
+      "domain": "psychology",
+      "source": "Behavioral Scientist"
     },
     {
       "title": "Best of SAPIENS 2025",
@@ -923,25 +971,25 @@
       "source": "ROAR Magazine"
     },
     {
-      "title": "The relationship between uncertainty in illness and caregiving capacity in primary caregivers of patients with first-time ischemic stroke: the roles of psychological adaptation and perceived social support",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1707967",
-      "summary": "BackgroundIn China, family members typically assume primary caregiving responsibilities for stroke patients after treatment. However, the onset of a first ischemic stroke often occurs abruptly, and caregivers, typically spouses, adult children, or other non-professionals, may assume this responsibil",
+      "title": "Childhood adversity and disordered eating: the mediator role of food reward drive",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1863415",
+      "summary": "IntroductionDisordered eating is a subclinical constellation of symptoms—including uncontrolled eating, emotional eating, and cognitive restraint—that constitutes an important risk factor for eating disorders. We examined the associations between childhood maltreatment and disordered eating symptoms",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "Chinese adolescents' experiences of performance confidence and anxiety and the role of instrumental teacher support",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1881466",
-      "summary": "IntroductionThis study explores adolescents' experiences of performance confidence and anxiety, particularly focusing on their perceptions of instrumental teacher support in relation to confidence-building and anxiety management in the Chinese context.MethodsA total of 144 adolescents aged 12–18 com",
+      "title": "Clinical anxiety in undergraduate dental students: a cross-sectional study and global comparison",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1815430",
+      "summary": "BackgroundClinical dentistry represents the point at which students move from simulated laboratory work to treating real patients, and this transition is often accompanied by increased psychological stress.ObjectivesThe present study examined the prevalence, causes, and contributing factors of clini",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "Mental health during societal crisis: anxiety, depression, and stress among students at the Arab American University",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1895781",
-      "summary": "InroductionThis study examined the levels of depression, anxiety, and stress among undergraduate students at the Arab American University in Palestine.MethodsA cross-sectional quantitative design was employed using the Depression Anxiety and Stress Scale (DASS-42). The sample comprised 384 undergrad",
+      "title": "The lingering effects of perceived daily negative workplace gossip on next-day work alienation in China: a dual-pathway perspective of rumination and emotion",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1824972",
+      "summary": "IntroductionExisting research has predominantly confined its scope to the immediate, detrimental consequences of daily negative workplace gossip, largely overlooking its lingering effects. To address this critical limitation, we present a dual-pathway model grounded in the cognitive theory of rumina",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
@@ -949,64 +997,64 @@
   ],
   "misinfo_toilet": [
     {
-      "headline": "Trump’s Truth Social API Is a Blatantly Corrupt Favor to Wall Street",
-      "fragment": "To dissimulate is to pretend not to have what one has. To simulate is to feign to have what one doesn't have. One implies a presence, the other an absence.",
-      "splice": "Trump’s Truth Social API Is a Blatantly Corrupt Favor to Wall Street because to dissimulate is to pretend not to have what one has. To simulate is to feign to have what one doesn't have. One implies a presence, the other an absence.",
-      "seed": 20260812
+      "headline": "Ceuta Migration Crisis Exposes Despair Among Morocco’s Young People",
+      "fragment": "The technocrat is the natural friend of the dictator—computers and dictatorship.",
+      "splice": "Ceuta Migration Crisis Exposes Despair Among Morocco’s Young People the system notes that the technocrat is the natural friend of the dictator—computers and dictatorship.",
+      "seed": 20260806
+    },
+    {
+      "headline": "Iran war live: Tehran denies US talks as Trump warns of ‘last chance’",
+      "fragment": "Simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
+      "splice": "Iran war live: Tehran denies US talks as Trump warns of ‘last chance’ underneath simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
+      "seed": 20260807
     },
     {
       "headline": "Nach Abschiebung wegen Anti-Israel-Parole: Bob-Vylan-Frontmann wehrt sich erfolgreich gegen Einreiseverbot",
-      "fragment": "Simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
-      "splice": "Nach Abschiebung wegen Anti-Israel-Parole: Bob-Vylan-Frontmann wehrt sich erfolgreich gegen Einreiseverbot in the void where simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
-      "seed": 20260813
-    },
-    {
-      "headline": "Identifying the Crypto Entrepreneur Linked to Popular Forum Trading in ‘Leaked’ Nudes of Women",
-      "fragment": "The technocrat is the natural friend of the dictator—computers and dictatorship.",
-      "splice": "Identifying the Crypto Entrepreneur Linked to Popular Forum Trading in ‘Leaked’ Nudes of Women because the technocrat is the natural friend of the dictator—computers and dictatorship.",
-      "seed": 20260814
-    },
-    {
-      "headline": "For Iran, Trump’s Reversal on Escalation Shows Who Has the Upper Hand",
-      "fragment": "The technocrat is the natural friend of the dictator—computers and dictatorship.",
-      "splice": "For Iran, Trump’s Reversal on Escalation Shows Who Has the Upper Hand as if the technocrat is the natural friend of the dictator—computers and dictatorship.",
-      "seed": 20260815
-    },
-    {
-      "headline": "‘He had a lot of profiles’: The rise of online drug-facilitated rape gangs",
-      "fragment": "In the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
-      "splice": "‘He had a lot of profiles’: The rise of online drug-facilitated rape gangs which is to say in the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
-      "seed": 20260816
-    },
-    {
-      "headline": "Australia warns H5N1 likely to spread after first mass mortality episode",
-      "fragment": "The simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
-      "splice": "Australia warns H5N1 likely to spread after first mass mortality episode underneath the simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
-      "seed": 20260817
-    },
-    {
-      "headline": "Between Graves and Uncertainty: The Management of the Dead After Venezuela’s Earthquake",
       "fragment": "An ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
-      "splice": "Between Graves and Uncertainty: The Management of the Dead After Venezuela’s Earthquake while an ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
-      "seed": 20260818
-    },
-    {
-      "headline": "'My only son was shot standing up for justice' - inside city gripped by deadly protests in Pakistan-administered Kashmir",
-      "fragment": "The technocrat is the natural friend of the dictator—computers and dictatorship.",
-      "splice": "'My only son was shot standing up for justice' - inside city gripped by deadly protests in Pakistan-administered Kashmir insofar as the technocrat is the natural friend of the dictator—computers and dictatorship.",
-      "seed": 20260819
-    },
-    {
-      "headline": "Myanmar releases first images of Aung San Suu Kyi since 2021 military coup",
-      "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "splice": "Myanmar releases first images of Aung San Suu Kyi since 2021 military coup consequently it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "seed": 20260820
+      "splice": "Nach Abschiebung wegen Anti-Israel-Parole: Bob-Vylan-Frontmann wehrt sich erfolgreich gegen Einreiseverbot ...as an ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
+      "seed": 20260808
     },
     {
       "headline": "After Trump Pardon, Former Honduras President Hernández Faces Charges in His Home Country",
-      "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "splice": "After Trump Pardon, Former Honduras President Hernández Faces Charges in His Home Country not unlike it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "seed": 20260821
+      "fragment": "It is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
+      "splice": "After Trump Pardon, Former Honduras President Hernández Faces Charges in His Home Country while it is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
+      "seed": 20260809
+    },
+    {
+      "headline": "Russia says seven killed and 40 injured by Ukrainian drone hitting busy beach",
+      "fragment": "It is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
+      "splice": "Russia says seven killed and 40 injured by Ukrainian drone hitting busy beach insofar as it is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
+      "seed": 20260810
+    },
+    {
+      "headline": "Trump’s Truth Social API Is a Blatantly Corrupt Favor to Wall Street",
+      "fragment": "It is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
+      "splice": "Trump’s Truth Social API Is a Blatantly Corrupt Favor to Wall Street insofar as it is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
+      "seed": 20260811
+    },
+    {
+      "headline": "US reports first two deaths linked to  'explosive diarrhoea' outbreak",
+      "fragment": "Underneath all reason lies delirium and drift.",
+      "splice": "US reports first two deaths linked to  'explosive diarrhoea' outbreak which is to say underneath all reason lies delirium and drift.",
+      "seed": 20260812
+    },
+    {
+      "headline": "Between Graves and Uncertainty: The Management of the Dead After Venezuela’s Earthquake",
+      "fragment": "Antagonism is not now located externally, in the face-off between class blocs, but internally, in the psychology of the worker.",
+      "splice": "Between Graves and Uncertainty: The Management of the Dead After Venezuela’s Earthquake because antagonism is not now located externally, in the face-off between class blocs, but internally, in the psychology of the worker.",
+      "seed": 20260813
+    },
+    {
+      "headline": "Rhine falls to record low levels as drought strains Europe's rivers",
+      "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "splice": "Rhine falls to record low levels as drought strains Europe's rivers underneath the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "seed": 20260814
+    },
+    {
+      "headline": "Iran Says No Current Talks With U.S. After Trump Cites Progress on the Strait of Hormuz",
+      "fragment": "The simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
+      "splice": "Iran Says No Current Talks With U.S. After Trump Cites Progress on the Strait of Hormuz insofar as the simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
+      "seed": 20260815
     }
   ]
 }
