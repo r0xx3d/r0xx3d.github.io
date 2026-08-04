@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T11:26:39.682Z",
+  "generated_at": "2026-08-04T14:22:05.605Z",
   "threat_intel": {
     "cisa_kev": [
       {
@@ -232,223 +232,313 @@
     ],
     "urlhaus": [
       {
-        "id": "3896751",
-        "date_added": "2026-08-04 11:14:06",
-        "url": "http://107.173.62.98/12345/crypted.ps1",
+        "id": "3896863",
+        "date_added": "2026-08-04 14:11:11",
+        "url": "http://123.4.232.178:44233/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3896862",
+        "date_added": "2026-08-04 14:08:13",
+        "url": "http://79.137.194.83/run.exe",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "79-137-194-83",
+          "exe"
+        ]
+      },
+      {
+        "id": "3896861",
+        "date_added": "2026-08-04 14:01:15",
+        "url": "http://125.41.0.130:46833/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3896860",
+        "date_added": "2026-08-04 13:59:16",
+        "url": "http://125.41.0.156:58056/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3896859",
+        "date_added": "2026-08-04 13:47:15",
+        "url": "http://125.26.202.121:41078/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "mirai",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3896858",
+        "date_added": "2026-08-04 13:42:15",
+        "url": "http://123.14.180.248:40037/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3896857",
+        "date_added": "2026-08-04 13:35:40",
+        "url": "http://115.51.95.76:57996/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3896856",
+        "date_added": "2026-08-04 13:27:22",
+        "url": "http://62.60.226.140/files/7782139129/knUYeB0.exe",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "d52f85",
+          "dropped-by-amadey"
+        ]
+      },
+      {
+        "id": "3896855",
+        "date_added": "2026-08-04 13:17:16",
+        "url": "http://123.14.180.248:40037/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3896854",
+        "date_added": "2026-08-04 13:13:05",
+        "url": "http://213.165.78.201/q092390mb/crypted.ps1",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3896853",
+        "date_added": "2026-08-04 13:05:07",
+        "url": "http://107.175.202.253/60/verygoodepeoplesaroundonemylifeforme.vbe",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "rat",
+          "RemcosRAT",
+          "vbe"
+        ]
+      },
+      {
+        "id": "3896852",
+        "date_added": "2026-08-04 13:01:10",
+        "url": "https://dungeonfive.rf.gd/img_205427.png",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "rat",
+          "RemcosRAT"
+        ]
+      },
+      {
+        "id": "3896851",
+        "date_added": "2026-08-04 13:01:08",
+        "url": "https://dungeonfive.rf.gd/MSI_082638.png",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "rat",
+          "RemcosRAT"
+        ]
+      },
+      {
+        "id": "3896850",
+        "date_added": "2026-08-04 12:57:08",
+        "url": "http://125.26.202.121:41078/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "mirai"
+        ]
+      },
+      {
+        "id": "3896849",
+        "date_added": "2026-08-04 12:54:06",
+        "url": "http://217.60.241.23/crypt.ps1",
         "url_status": "offline",
         "threat": "malware_download",
         "tags": [
           "ascii",
-          "Formbook",
           "powershell",
           "ps1"
         ]
       },
       {
-        "id": "3896750",
-        "date_added": "2026-08-04 11:13:09",
-        "url": "https://pub-3bc1de741f8149f49bdbafa703067f24.r2.dev/hkk.png",
+        "id": "3896848",
+        "date_added": "2026-08-04 12:53:07",
+        "url": "http://104.161.46.87/grace/Outsplen.pfb",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "AgentTesla"
+          "ascii",
+          "Encoded",
+          "GuLoader",
+          "opendir"
         ]
       },
       {
-        "id": "3896749",
-        "date_added": "2026-08-04 11:13:08",
-        "url": "https://savannahadventureslimited.com/img_005044.png",
+        "id": "3896847",
+        "date_added": "2026-08-04 12:52:19",
+        "url": "http://110.39.254.55:57875/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "AgentTesla"
-        ]
-      },
-      {
-        "id": "3896747",
-        "date_added": "2026-08-04 11:13:07",
-        "url": "https://pub-3bc1de741f8149f49bdbafa703067f24.r2.dev/juaags.png",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "AgentTesla"
-        ]
-      },
-      {
-        "id": "3896748",
-        "date_added": "2026-08-04 11:13:07",
-        "url": "https://sweet-snowflake-8a7e.uploadesclintesss.workers.dev/pzkgG",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "AgentTesla"
-        ]
-      },
-      {
-        "id": "3896746",
-        "date_added": "2026-08-04 11:12:10",
-        "url": "https://pub-a06eb79f0ebe4a6999bcc71a2227d8e3.r2.dev/A2.png",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "xworm"
-        ]
-      },
-      {
-        "id": "3896745",
-        "date_added": "2026-08-04 11:12:09",
-        "url": "https://savannahadventureslimited.com/img_003709.png",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "xworm"
-        ]
-      },
-      {
-        "id": "3896744",
-        "date_added": "2026-08-04 11:12:08",
-        "url": "https://sweet-snowflake-8a7e.uploadesclintesss.workers.dev/buUXh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "xworm"
-        ]
-      },
-      {
-        "id": "3896743",
-        "date_added": "2026-08-04 11:10:10",
-        "url": "https://pub-45a83f302a1943ed8d62418c2af947ef.r2.dev/fy123.png",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "xworm"
-        ]
-      },
-      {
-        "id": "3896742",
-        "date_added": "2026-08-04 11:09:08",
-        "url": "https://sweet-snowflake-8a7e.uploadesclintesss.workers.dev/XEUHv",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "xworm"
-        ]
-      },
-      {
-        "id": "3896741",
-        "date_added": "2026-08-04 11:00:20",
-        "url": "http://94.154.43.77/cumminer.mpsl",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "94-154-43-77",
+          "32-bit",
           "elf",
-          "mirai"
+          "mips",
+          "Mozi"
         ]
       },
       {
-        "id": "3896732",
-        "date_added": "2026-08-04 10:59:23",
-        "url": "http://94.154.43.77/cumminer.arm5",
+        "id": "3896846",
+        "date_added": "2026-08-04 12:52:15",
+        "url": "http://125.46.135.101:43714/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "94-154-43-77",
-          "elf"
-        ]
-      },
-      {
-        "id": "3896733",
-        "date_added": "2026-08-04 10:59:23",
-        "url": "http://94.154.43.77/cumminer.arm6",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "94-154-43-77",
-          "elf"
-        ]
-      },
-      {
-        "id": "3896734",
-        "date_added": "2026-08-04 10:59:23",
-        "url": "http://94.154.43.77/cumminer.x86_32",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "94-154-43-77",
-          "elf"
-        ]
-      },
-      {
-        "id": "3896735",
-        "date_added": "2026-08-04 10:59:23",
-        "url": "http://94.154.43.77/cumminer.x86_64",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "94-154-43-77",
-          "elf"
-        ]
-      },
-      {
-        "id": "3896736",
-        "date_added": "2026-08-04 10:59:23",
-        "url": "http://94.154.43.77/cumminer.ppc64le",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "94-154-43-77",
-          "elf"
-        ]
-      },
-      {
-        "id": "3896737",
-        "date_added": "2026-08-04 10:59:23",
-        "url": "http://94.154.43.77/cumminer.armhf",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "94-154-43-77",
-          "elf"
-        ]
-      },
-      {
-        "id": "3896738",
-        "date_added": "2026-08-04 10:59:23",
-        "url": "http://94.154.43.77/cumminer.arm7",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "94-154-43-77",
-          "elf"
-        ]
-      },
-      {
-        "id": "3896739",
-        "date_added": "2026-08-04 10:59:23",
-        "url": "http://94.154.43.77/cumminer.mips",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "94-154-43-77",
-          "elf"
-        ]
-      },
-      {
-        "id": "3896740",
-        "date_added": "2026-08-04 10:59:23",
-        "url": "http://94.154.43.77/cumminer.sh4",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "94-154-43-77",
+          "32-bit",
           "elf",
-          "mirai"
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3896842",
+        "date_added": "2026-08-04 12:52:08",
+        "url": "http://104.161.46.87/grace/Umoralsk.lzh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "AgentTesla",
+          "ascii",
+          "GuLoader",
+          "opendir"
+        ]
+      },
+      {
+        "id": "3896843",
+        "date_added": "2026-08-04 12:52:08",
+        "url": "http://104.161.46.87/grace/bJcUMBU57.bin",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "AgentTesla",
+          "encrypted",
+          "GuLoader",
+          "opendir"
         ]
       }
     ]
   },
   "world_monitor": [
+    {
+      "title": "Airport chaos, delays as E.U. debuts biometric border system",
+      "link": "https://www.nytimes.com/2026/08/04/world/europe/eu-passport-control-chaos.html",
+      "pubDate": "Tue, 04 Aug 2026 14:06:56 +0000",
+      "source": "NYT World",
+      "summary": "The biometric system for non-E.U. citizens is causing long delays and short tempers at airports. Officials say the rocky rollout will get better and will improve security."
+    },
+    {
+      "title": "Why are oil companies posting record profits amid Iran war disruption?",
+      "link": "https://www.aljazeera.com/features/2026/8/4/why-are-oil-companies-posting-record-profits-amid-iran-war-disruption?traffic_source=rss",
+      "pubDate": "Tue, 04 Aug 2026 14:04:28 +0000",
+      "source": "Al Jazeera",
+      "summary": "Big Oil companies have bagged astronomical profits as the critical Strait of Hormuz remains closed."
+    },
+    {
+      "title": "Mass funeral in Gaza for 112 Palestinians killed in 2023 Israeli strike",
+      "link": "https://www.bbc.co.uk/news/articles/cn0n99npjejo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Tue, 04 Aug 2026 13:59:24 GMT",
+      "source": "BBC",
+      "summary": "The bodies - belonging to members of two extended families - have only recently been recovered from under rubble in Gaza City."
+    },
+    {
+      "title": "A New Lethal Front in Ukraine: Its Beloved Gas Stations",
+      "link": "https://www.nytimes.com/2026/08/04/world/europe/ukraine-gas-stations-russia.html",
+      "pubDate": "Tue, 04 Aug 2026 13:55:54 +0000",
+      "source": "NYT World",
+      "summary": "Russian drone attacks have hit hundreds of gas stations in apparent retaliation for Ukraine’s attacks on oil refineries."
+    },
+    {
+      "title": "Spanish PM Sanchez faces criticism as EU meets over Ceuta crossings",
+      "link": "https://www.aljazeera.com/news/2026/8/4/spanish-pm-sanchez-faces-criticism-as-eu-meets-over-ceuta-crossings?traffic_source=rss",
+      "pubDate": "Tue, 04 Aug 2026 13:52:45 +0000",
+      "source": "Al Jazeera",
+      "summary": "The vast majority of migrants have left the North African enclave and returned to Morocco."
+    },
+    {
+      "title": "Top Africa football leaders back Infantino after FIFA selloff scandal",
+      "link": "https://www.aljazeera.com/sports/2026/8/4/top-africa-football-leaders-back-infantino-after-fifa-selloff-scandal?traffic_source=rss",
+      "pubDate": "Tue, 04 Aug 2026 13:37:19 +0000",
+      "source": "Al Jazeera",
+      "summary": "Five influential African football leaders back Gianni Infantino amid World Cup private investment row."
+    },
+    {
+      "title": "Hamas negotiator says deal to disarm was necessary to ‘save Gaza’",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/4/hamas-negotiator-says-deal-to-disarm-was-necessary-to-save?traffic_source=rss",
+      "pubDate": "Tue, 04 Aug 2026 13:34:43 +0000",
+      "source": "Al Jazeera",
+      "summary": "Hamas negotiator says deal to disarm was necessary to ‘save Gaza’"
+    },
+    {
+      "title": "Typhoon Dolphin hurtles towards Japan: Tracker, updates and what to expect",
+      "link": "https://www.aljazeera.com/news/2026/8/4/typhoon-dolphin-hurtles-towards-japan-tracker-updates-and-what-to-expect?traffic_source=rss",
+      "pubDate": "Tue, 04 Aug 2026 13:26:43 +0000",
+      "source": "Al Jazeera",
+      "summary": "The large storm is forecast to cause strong winds and rainfall in parts of Japan, China and Taiwan."
+    },
+    {
+      "title": "Andy Burnham’s First Weeks as UK Prime Minister: TikToks, Podcasts and Promises",
+      "link": "https://www.nytimes.com/2026/08/04/world/europe/andy-burnham-uk-prime-minister.html",
+      "pubDate": "Tue, 04 Aug 2026 12:06:43 +0000",
+      "source": "NYT World",
+      "summary": "Andy Burnham’s whirlwind of TikToks, podcasts and promises appears to be resonating with some voters. But he faces big decisions about how to pay for it all."
+    },
     {
       "title": "More than 150 migrants rescued after boat catches fire in Channel",
       "link": "https://www.bbc.co.uk/news/articles/c4gkpeppjyqo?at_medium=RSS&at_campaign=rss",
@@ -457,60 +547,11 @@
       "summary": "The boat was attempting to cross to the UK when its engine caught fire, according to French authorities."
     },
     {
-      "title": "Ukraine strikes more Wildberries sites as five killed in Moscow region",
+      "title": "Ukraine hits more Wildberries sites as strike kills five in Moscow region",
       "link": "https://www.bbc.co.uk/news/articles/c151pkww79zo?at_medium=RSS&at_campaign=rss",
       "pubDate": "Tue, 04 Aug 2026 11:19:01 GMT",
       "source": "BBC",
       "summary": "Facilities operated by Russia's largest online retailer were also hit in St Petersburg and Tver."
-    },
-    {
-      "title": "The Gulf can no longer outsource its security",
-      "link": "https://www.aljazeera.com/opinions/2026/8/4/the-gulf-can-no-longer-outsource-its-security?traffic_source=rss",
-      "pubDate": "Tue, 04 Aug 2026 11:05:58 +0000",
-      "source": "Al Jazeera",
-      "summary": "Iran’s attacks exposed the limits of external guarantees and the need for a Gulf-built security architecture."
-    },
-    {
-      "title": "Who is behind settler violence in the occupied West Bank?",
-      "link": "https://www.aljazeera.com/news/2026/8/4/who-is-behind-settler-violence-in-the-occupied-west-bank?traffic_source=rss",
-      "pubDate": "Tue, 04 Aug 2026 11:04:03 +0000",
-      "source": "Al Jazeera",
-      "summary": "A look at the main settler groups driving the escalation against Palestinians in the West Bank."
-    },
-    {
-      "title": "‘One last chance’: The times Trump threatened Iran, said deal imminent",
-      "link": "https://www.aljazeera.com/features/2026/8/4/one-last-chance-the-times-trump-threatened-iran-said-deal-imminent?traffic_source=rss",
-      "pubDate": "Tue, 04 Aug 2026 10:53:33 +0000",
-      "source": "Al Jazeera",
-      "summary": "US president has claimed Iran 'desperate' to do a deal or given Tehran 'last chance' on multiple occasions."
-    },
-    {
-      "title": "Italy suspends free movement with Spain: Is Schengen in crisis after Ceuta?",
-      "link": "https://www.aljazeera.com/news/2026/8/4/italy-suspends-free-movement-with-spain-is-schengen-in-crisis-after-ceuta?traffic_source=rss",
-      "pubDate": "Tue, 04 Aug 2026 10:40:08 +0000",
-      "source": "Al Jazeera",
-      "summary": "Italy's move to halt border-free travel with Spain after the deadly crossing is political, not practical, analysts say."
-    },
-    {
-      "title": "Why Trump Media's sale of fast access to market-moving social posts is controversial",
-      "link": "https://www.bbc.co.uk/news/articles/c4gdkl9zn8wo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Tue, 04 Aug 2026 10:34:45 GMT",
-      "source": "BBC",
-      "summary": "Trump Media & Technology Group (TMTG) has set up a paid service to give Wall Street firms access to Truth Social's most influential accounts."
-    },
-    {
-      "title": "Andy Burnham’s First Weeks as UK Prime Minister: TikToks, Podcasts and Promises",
-      "link": "https://www.nytimes.com/2026/08/04/world/europe/andy-burnham-uk-prime-minister.html",
-      "pubDate": "Tue, 04 Aug 2026 10:17:39 +0000",
-      "source": "NYT World",
-      "summary": "Andy Burnham’s social media push appears to be resonating with some voters. But he faces big decisions about how to pay for his promises."
-    },
-    {
-      "title": "Tech giant Palantir posts ‘otherworldly’ growth despite criticism over Gaza",
-      "link": "https://www.aljazeera.com/news/2026/8/4/tech-giant-palantir-posts-otherworldly-growth-despite-criticism-over-gaza?traffic_source=rss",
-      "pubDate": "Tue, 04 Aug 2026 10:11:06 +0000",
-      "source": "Al Jazeera",
-      "summary": "Second-quarter revenue jumped 93 percent but Palantir's ties to Israel and role in military technology are controversial"
     },
     {
       "title": "The Pentagon Found a New Way to Undercount U.S. Casualties in Iran",
@@ -518,13 +559,6 @@
       "pubDate": "Tue, 04 Aug 2026 09:54:00 +0000",
       "source": "The Intercept",
       "summary": "U.S. troops killed or wounded since July 7 are now counted separately from casualties during the first months of the Iran war.\nThe post The Pentagon Found a New Way to Undercount U.S. Casualties in Iran appeared first on The Intercept."
-    },
-    {
-      "title": "Russia Turns Ukraine’s Gas Stations From Social Hubs Into Deadly Targets",
-      "link": "https://www.nytimes.com/2026/08/04/world/europe/ukraine-gas-stations-russia.html",
-      "pubDate": "Tue, 04 Aug 2026 09:42:12 +0000",
-      "source": "NYT World",
-      "summary": "Drone attacks have hit hundreds of gas stations in apparent retaliation for Ukraine’s attacks on Russian oil refineries."
     },
     {
       "title": "What will happen when a SpaceX rocket collides with the Moon?",
@@ -539,13 +573,6 @@
       "pubDate": "Tue, 04 Aug 2026 09:11:39 GMT",
       "source": "BBC",
       "summary": "A president used to bending US politics to his will faces two stinging losses in a matter of days, writes the BBC's Anthony Zurcher."
-    },
-    {
-      "title": "Airport chaos, delays as E.U. debuts biometric border system",
-      "link": "https://www.nytimes.com/2026/08/04/world/europe/eu-passport-control-chaos.html",
-      "pubDate": "Tue, 04 Aug 2026 09:00:33 +0000",
-      "source": "NYT World",
-      "summary": "The biometric system for non-E.U. citizens is causing long delays and short tempers at airports. Officials say the rocky rollout will get better and will improve security."
     },
     {
       "title": "New Zealand Has Ended Greyhound Racing. Now It Has to Manage the Aftermath.",
@@ -692,6 +719,22 @@
   ],
   "syndicate_journal": [
     {
+      "title": "James Baldwin’s Complicated Relationship with Psychoanalysis",
+      "link": "https://daily.jstor.org/james-baldwins-complicated-relationship-with-psychoanalysis/",
+      "summary": "Baldwin criticized Freudian thinking yet drew on ideas like repression in his fiction and essays.\nThe post James Baldwin’s Complicated Relationship with Psychoanalysis appeared first on JSTOR Daily.",
+      "pubDate": "Tue, 04 Aug 2026 13:24:07 +0000",
+      "domain": "history",
+      "source": "JSTOR Daily"
+    },
+    {
+      "title": "The Virtue of Being Simple",
+      "link": "https://nautil.us/the-virtue-of-being-simple-1283320/",
+      "summary": "A surprising number of creatures don’t benefit from greater intelligence\nThe post The Virtue of Being Simple appeared first on Nautilus.",
+      "pubDate": "Tue, 04 Aug 2026 12:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
       "title": "Towards an AI for Africa",
       "link": "https://aeon.co/essays/an-ai-for-africa-would-be-built-on-hunhu-ubuntu-ethics",
       "summary": "Western-developed AI rides roughshod over Ubuntu values of connection and community that animate African ethical life\n- by Fainos Mangena\nRead on Aeon",
@@ -754,14 +797,6 @@
       "pubDate": "2026-08-03T19:28:22.483Z",
       "domain": "politics",
       "source": "Jacobin"
-    },
-    {
-      "title": "Less Protein, Not More, May Lead to Healthier Aging",
-      "link": "https://nautil.us/less-protein-not-more-may-lead-to-healthier-aging-1283315/",
-      "summary": "A new review takes a closer look at the molecular mechanisms\nThe post Less Protein, Not More, May Lead to Healthier Aging appeared first on Nautilus.",
-      "pubDate": "Mon, 03 Aug 2026 18:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
     },
     {
       "title": "Centrist Democrats Keep Making Awful Health Reform Proposals",
@@ -832,14 +867,6 @@
       "link": "https://daily.jstor.org/the-greek-tragedy-behind-suddenly-last-summer/",
       "summary": "A reinterpretation shows how Euripides's The Bacchae illuminates Tennessee Williams's play and its haunting final act.\nThe post The Greek Tragedy Behind Suddenly Last Summer appeared first on JSTOR Daily.",
       "pubDate": "Fri, 31 Jul 2026 13:22:32 +0000",
-      "domain": "history",
-      "source": "JSTOR Daily"
-    },
-    {
-      "title": "Taking Alien Life Seriously: The Origins of Exobiology",
-      "link": "https://daily.jstor.org/taking-alien-life-seriously-the-origins-of-exobiology/",
-      "summary": "The search for extraterrestrial life began with an unexpected question: How could humans keep from destroying the evidence?\nThe post Taking Alien Life Seriously: The Origins of Exobiology appeared first on JSTOR Daily.",
-      "pubDate": "Thu, 30 Jul 2026 13:29:41 +0000",
       "domain": "history",
       "source": "JSTOR Daily"
     },
@@ -956,25 +983,25 @@
       "source": "ROAR Magazine"
     },
     {
-      "title": "Tertiary music students’ hearing health behaviors: ignorance is not bliss",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1857791",
-      "summary": "IntroductionHearing loss is a serious concern among musicians due to the hearing health risks associated with their profession and the high prevalence of music-induced hearing loss (MIHL). Tertiary music students are particularly vulnerable to MIHL due to high sound exposure in educational and recre",
+      "title": "The impact of negative life events on internalizing problems in adolescents: the chain mediating effects of physical activity and emotional competence",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1854312",
+      "summary": "BackgroundAdolescents are particularly vulnerable to developing internalizing problems (IPs) when exposed to Negative Life Events (NLEs) during their development. Physical Activity (PA) has been shown to exert beneficial effects on stress coping and Emotional Competence (EC). This study aimed to exa",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "The association between self-compassion and eating disorders among female college students, the mediating role of psychological resilience, and the moderating role of physical exercise",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1788344",
-      "summary": "ObjectiveEating disorders among female college students are often accompanied by psychological adjustment difficulties. This study examined the association between self-compassion and eating disorders and investigated the mediating role of psychological resilience and the moderating role of physical",
+      "title": "Physical literacy, sense of belonging in the sports environment, and college students’ mental health: an analysis of relational paths based on differences in exercise groups",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1896855",
+      "summary": "ObjectiveThis cross-sectional study investigated the cross-sectional associations among college students’ perceived physical literacy, sports-environment belongingness, and mental well-being. It explored whether belongingness statistically mediated the physical literacy–well-being link, whether exer",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "The relationship between college students' English learning enjoyment, anxiety, and engagement: the mediating role of grit and the moderating role of flow",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1846739",
-      "summary": "BackgroundLearning engagement is a key indicator of college English learning quality. In the Chinese EFL context, engagement is closely related to learning emotions, psychological resources, and situational learning states. This study examined learning enjoyment, learning anxiety, grit, flow, and le",
+      "title": "Artificial intelligence-based positive youth development intervention protocol in school settings",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1901161",
+      "summary": "Positive Youth Development (PYD) conceptualizes youth as agentic, developmentally flexible individuals whose functioning reflects dynamic person–context transactions. Rapid developments in AI now offer new opportunities to support counselors and extend intervention-based programs. The purpose of thi",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
@@ -982,64 +1009,64 @@
   ],
   "misinfo_toilet": [
     {
-      "headline": "Pakistan’s Kashmir Problem",
-      "fragment": "To dissimulate is to pretend not to have what one has. To simulate is to feign to have what one doesn't have. One implies a presence, the other an absence.",
-      "splice": "Pakistan’s Kashmir Problem because to dissimulate is to pretend not to have what one has. To simulate is to feign to have what one doesn't have. One implies a presence, the other an absence.",
-      "seed": 20260815
-    },
-    {
-      "headline": "Nach Abschiebung wegen Anti-Israel-Parole: Bob-Vylan-Frontmann wehrt sich erfolgreich gegen Einreiseverbot",
-      "fragment": "Simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
-      "splice": "Nach Abschiebung wegen Anti-Israel-Parole: Bob-Vylan-Frontmann wehrt sich erfolgreich gegen Einreiseverbot in the void where simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
-      "seed": 20260816
-    },
-    {
-      "headline": "Identifying the Crypto Entrepreneur Linked to Popular Forum Trading in ‘Leaked’ Nudes of Women",
-      "fragment": "The technocrat is the natural friend of the dictator—computers and dictatorship.",
-      "splice": "Identifying the Crypto Entrepreneur Linked to Popular Forum Trading in ‘Leaked’ Nudes of Women because the technocrat is the natural friend of the dictator—computers and dictatorship.",
-      "seed": 20260817
-    },
-    {
-      "headline": "Airport chaos, delays as E.U. debuts biometric border system",
-      "fragment": "The technocrat is the natural friend of the dictator—computers and dictatorship.",
-      "splice": "Airport chaos, delays as E.U. debuts biometric border system as if the technocrat is the natural friend of the dictator—computers and dictatorship.",
+      "headline": "Liberals Are Ceding Ground to the Far Right on Ceuta Border Crossings",
+      "fragment": "In the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
+      "splice": "Liberals Are Ceding Ground to the Far Right on Ceuta Border Crossings which is to say in the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
       "seed": 20260818
     },
     {
-      "headline": "The Gulf can no longer outsource its security",
-      "fragment": "In the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
-      "splice": "The Gulf can no longer outsource its security which is to say in the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
+      "headline": "Top Africa football leaders back Infantino after FIFA selloff scandal",
+      "fragment": "The simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
+      "splice": "Top Africa football leaders back Infantino after FIFA selloff scandal underneath the simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
       "seed": 20260819
     },
     {
-      "headline": "Ukraine strikes more Wildberries sites as five killed in Moscow region",
-      "fragment": "The simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
-      "splice": "Ukraine strikes more Wildberries sites as five killed in Moscow region underneath the simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
+      "headline": "What will happen when a SpaceX rocket collides with the Moon?",
+      "fragment": "An ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
+      "splice": "What will happen when a SpaceX rocket collides with the Moon? while an ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
       "seed": 20260820
     },
     {
-      "headline": "Between Graves and Uncertainty: The Management of the Dead After Venezuela’s Earthquake",
-      "fragment": "An ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
-      "splice": "Between Graves and Uncertainty: The Management of the Dead After Venezuela’s Earthquake while an ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
+      "headline": "Mass funeral in Gaza for 112 Palestinians killed in 2023 Israeli strike",
+      "fragment": "The technocrat is the natural friend of the dictator—computers and dictatorship.",
+      "splice": "Mass funeral in Gaza for 112 Palestinians killed in 2023 Israeli strike insofar as the technocrat is the natural friend of the dictator—computers and dictatorship.",
       "seed": 20260821
     },
     {
-      "headline": "Andy Burnham’s First Weeks as UK Prime Minister: TikToks, Podcasts and Promises",
-      "fragment": "The technocrat is the natural friend of the dictator—computers and dictatorship.",
-      "splice": "Andy Burnham’s First Weeks as UK Prime Minister: TikToks, Podcasts and Promises insofar as the technocrat is the natural friend of the dictator—computers and dictatorship.",
+      "headline": "New Zealand Has Ended Greyhound Racing. Now It Has to Manage the Aftermath.",
+      "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
+      "splice": "New Zealand Has Ended Greyhound Racing. Now It Has to Manage the Aftermath. consequently it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
       "seed": 20260822
     },
     {
-      "headline": "Tech giant Palantir posts ‘otherworldly’ growth despite criticism over Gaza",
+      "headline": "Why are oil companies posting record profits amid Iran war disruption?",
       "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "splice": "Tech giant Palantir posts ‘otherworldly’ growth despite criticism over Gaza consequently it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
+      "splice": "Why are oil companies posting record profits amid Iran war disruption? not unlike it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
       "seed": 20260823
     },
     {
-      "headline": "Italy suspends free movement with Spain: Is Schengen in crisis after Ceuta?",
-      "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "splice": "Italy suspends free movement with Spain: Is Schengen in crisis after Ceuta? not unlike it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
+      "headline": "A New Lethal Front in Ukraine: Its Beloved Gas Stations",
+      "fragment": "It is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
+      "splice": "A New Lethal Front in Ukraine: Its Beloved Gas Stations despite it is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
       "seed": 20260824
+    },
+    {
+      "headline": "Shahed-Type Drones Filmed During Mali Village Attacks",
+      "fragment": "The privatization of the organs will only begin with the shame felt by man at the sight of man.",
+      "splice": "Shahed-Type Drones Filmed During Mali Village Attacks therefore the privatization of the organs will only begin with the shame felt by man at the sight of man.",
+      "seed": 20260825
+    },
+    {
+      "headline": "Nach Abschiebung wegen Anti-Israel-Parole: Bob-Vylan-Frontmann wehrt sich erfolgreich gegen Einreiseverbot",
+      "fragment": "Traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
+      "splice": "Nach Abschiebung wegen Anti-Israel-Parole: Bob-Vylan-Frontmann wehrt sich erfolgreich gegen Einreiseverbot ...as traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
+      "seed": 20260826
+    },
+    {
+      "headline": "Cori Bush Has No Regrets",
+      "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
+      "splice": "Cori Bush Has No Regrets insofar as the revolutionary lives in the gap which separates technical progress from social totality.",
+      "seed": 20260827
     }
   ]
 }
