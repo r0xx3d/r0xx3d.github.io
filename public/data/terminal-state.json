@@ -1,7 +1,22 @@
 {
-  "generated_at": "2026-08-05T16:43:38.328Z",
+  "generated_at": "2026-08-05T19:38:55.294Z",
   "threat_intel": {
     "cisa_kev": [
+      {
+        "cveID": "CVE-2026-63077",
+        "vendorProject": "JetBrains",
+        "product": "TeamCity",
+        "vulnerabilityName": "JetBrains TeamCity Deserialization of Untrusted Data Vulnerability",
+        "dateAdded": "2026-08-05",
+        "shortDescription": "JetBrains TeamCity contains a deserialization of untrusted data vulnerability that could allow unauthenticated remote code execution via the agent polling protocol.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-08-08",
+        "knownRansomwareCampaignUse": "Unknown",
+        "notes": "https://blog.jetbrains.com/teamcity/2026/07/cve-2026-63077/; https://www.jetbrains.com/privacy-security/issues-fixed/ ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-63077",
+        "cwes": [
+          "CWE-502"
+        ]
+      },
       {
         "cveID": "CVE-2026-18556",
         "vendorProject": "N-able",
@@ -211,28 +226,13 @@
         "cwes": [
           "CWE-502"
         ]
-      },
-      {
-        "cveID": "CVE-2026-25089",
-        "vendorProject": "Fortinet",
-        "product": "FortiSandbox",
-        "vulnerabilityName": "Fortinet FortiSandbox OS Command Injection Vulnerability",
-        "dateAdded": "2026-07-16",
-        "shortDescription": "Fortinet FortiSandbox, FortiSandbox Cloud, and FortiSandbox PaaS contain an OS command injection vulnerability that allows an unauthenticated attacker to execute unauthorized commands via specifically crafted HTTP requests.",
-        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "dueDate": "2026-07-19",
-        "knownRansomwareCampaignUse": "Unknown",
-        "notes": "https://fortiguard.fortinet.com/psirt/FG-IR-26-141 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-25089",
-        "cwes": [
-          "CWE-78"
-        ]
       }
     ],
     "urlhaus": [
       {
-        "id": "3897427",
-        "date_added": "2026-08-05 16:26:09",
-        "url": "http://163.142.95.179:54475/i",
+        "id": "3897509",
+        "date_added": "2026-08-05 19:32:07",
+        "url": "http://110.37.56.122:48415/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -240,109 +240,19 @@
         ]
       },
       {
-        "id": "3897428",
-        "date_added": "2026-08-05 16:26:09",
-        "url": "http://42.233.93.100:45005/i",
+        "id": "3897508",
+        "date_added": "2026-08-05 19:27:09",
+        "url": "http://222.219.74.184:52755/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "Mozi"
+          "mirai"
         ]
       },
       {
-        "id": "3897419",
-        "date_added": "2026-08-05 16:09:06",
-        "url": "http://57.129.23.24/63748/crypted.ps1",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "remcos"
-        ]
-      },
-      {
-        "id": "3897420",
-        "date_added": "2026-08-05 16:09:06",
-        "url": "http://57.129.23.24/29039/crypted.ps1",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "remcos"
-        ]
-      },
-      {
-        "id": "3897421",
-        "date_added": "2026-08-05 16:09:06",
-        "url": "http://57.129.23.24/sike/crypted.ps1",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "remcos"
-        ]
-      },
-      {
-        "id": "3897422",
-        "date_added": "2026-08-05 16:09:06",
-        "url": "http://216.225.206.31/44/dc_00940404094404004_file.pdf",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "remcos"
-        ]
-      },
-      {
-        "id": "3897423",
-        "date_added": "2026-08-05 16:09:06",
-        "url": "http://216.225.206.31/55/Notepad___files__document__004949596060.txt",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "remcos"
-        ]
-      },
-      {
-        "id": "3897424",
-        "date_added": "2026-08-05 16:09:06",
-        "url": "http://216.225.206.31/44/createdbestnaturealsystemforbestentieryformebest.vbe",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "remcos"
-        ]
-      },
-      {
-        "id": "3897425",
-        "date_added": "2026-08-05 16:09:06",
-        "url": "http://216.225.206.31/55/wegivingbestthignswiththemforme.hta",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "remcos"
-        ]
-      },
-      {
-        "id": "3897426",
-        "date_added": "2026-08-05 16:09:06",
-        "url": "https://linktrap.co/ZAHEQN-h",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "remcos"
-        ]
-      },
-      {
-        "id": "3897418",
-        "date_added": "2026-08-05 16:01:07",
-        "url": "http://42.233.93.100:45005/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3897417",
-        "date_added": "2026-08-05 16:00:18",
-        "url": "http://221.14.170.88:40588/i",
+        "id": "3897507",
+        "date_added": "2026-08-05 19:25:28",
+        "url": "http://119.179.214.25:35406/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -353,109 +263,248 @@
         ]
       },
       {
-        "id": "3897416",
-        "date_added": "2026-08-05 15:59:23",
-        "url": "http://221.14.170.88:40588/bin.sh",
-        "url_status": "online",
+        "id": "3897495",
+        "date_added": "2026-08-05 19:04:19",
+        "url": "http://5.182.210.61/24d379",
+        "url_status": "offline",
         "threat": "malware_download",
         "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
+          "ua-wget"
         ]
       },
       {
-        "id": "3897415",
-        "date_added": "2026-08-05 15:56:09",
-        "url": "http://163.142.95.179:54475/bin.sh",
-        "url_status": "online",
+        "id": "3897496",
+        "date_added": "2026-08-05 19:04:19",
+        "url": "http://5.182.210.61/14ef86",
+        "url_status": "offline",
         "threat": "malware_download",
         "tags": [
-          "None"
+          "ua-wget"
         ]
       },
       {
-        "id": "3897414",
-        "date_added": "2026-08-05 15:41:18",
-        "url": "http://27.156.139.58:40746/i",
-        "url_status": "online",
+        "id": "3897497",
+        "date_added": "2026-08-05 19:04:19",
+        "url": "http://5.182.210.61/51c6dc",
+        "url_status": "offline",
         "threat": "malware_download",
         "tags": [
-          "32-bit",
-          "arm",
-          "elf",
-          "mirai",
-          "Mozi"
+          "ua-wget"
         ]
       },
       {
-        "id": "3897413",
-        "date_added": "2026-08-05 15:29:21",
-        "url": "http://110.37.16.86:35054/i",
-        "url_status": "online",
+        "id": "3897498",
+        "date_added": "2026-08-05 19:04:19",
+        "url": "http://5.182.210.61/132db9",
+        "url_status": "offline",
         "threat": "malware_download",
         "tags": [
-          "32-bit",
-          "arm",
-          "elf",
-          "mirai",
-          "Mozi"
+          "ua-wget"
         ]
       },
       {
-        "id": "3897412",
-        "date_added": "2026-08-05 15:27:11",
-        "url": "https://paymentautomations.biz/hAyaALSi/AahhFdf.txt",
-        "url_status": "online",
+        "id": "3897499",
+        "date_added": "2026-08-05 19:04:19",
+        "url": "http://5.182.210.61/4bd178",
+        "url_status": "offline",
         "threat": "malware_download",
         "tags": [
-          "None"
+          "ua-wget"
         ]
       },
       {
-        "id": "3897411",
-        "date_added": "2026-08-05 15:15:20",
-        "url": "http://115.55.115.140:48085/i",
-        "url_status": "online",
+        "id": "3897500",
+        "date_added": "2026-08-05 19:04:19",
+        "url": "http://5.182.210.61/17f186",
+        "url_status": "offline",
         "threat": "malware_download",
         "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
+          "ua-wget"
         ]
       },
       {
-        "id": "3897410",
-        "date_added": "2026-08-05 14:58:26",
-        "url": "http://115.55.115.140:48085/bin.sh",
-        "url_status": "online",
+        "id": "3897501",
+        "date_added": "2026-08-05 19:04:19",
+        "url": "http://5.182.210.61/78c426",
+        "url_status": "offline",
         "threat": "malware_download",
         "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
+          "ua-wget"
         ]
       },
       {
-        "id": "3897409",
-        "date_added": "2026-08-05 14:56:26",
-        "url": "http://27.156.139.58:40746/bin.sh",
+        "id": "3897502",
+        "date_added": "2026-08-05 19:04:19",
+        "url": "http://5.182.210.61/fdf7b4",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3897503",
+        "date_added": "2026-08-05 19:04:19",
+        "url": "http://5.182.210.61/c18c96",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3897504",
+        "date_added": "2026-08-05 19:04:19",
+        "url": "http://5.182.210.61/7d759c",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3897505",
+        "date_added": "2026-08-05 19:04:19",
+        "url": "http://5.182.210.61/4a3a1c",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3897506",
+        "date_added": "2026-08-05 19:04:19",
+        "url": "http://5.182.210.61/cdbc52",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3897494",
+        "date_added": "2026-08-05 19:02:09",
+        "url": "http://210.208.110.147:50936/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "32-bit",
-          "arm",
-          "elf",
-          "mirai",
-          "Mozi"
+          "mirai"
+        ]
+      },
+      {
+        "id": "3897493",
+        "date_added": "2026-08-05 19:01:08",
+        "url": "http://106.40.240.38:34324/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "mirai"
+        ]
+      },
+      {
+        "id": "3897469",
+        "date_added": "2026-08-05 18:58:20",
+        "url": "http://45.135.194.70/08433c",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3897470",
+        "date_added": "2026-08-05 18:58:20",
+        "url": "http://45.135.194.70/8a9f29",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3897471",
+        "date_added": "2026-08-05 18:58:20",
+        "url": "http://5.182.210.61/875901",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "ua-wget"
         ]
       }
     ]
   },
   "world_monitor": [
+    {
+      "title": "Houthis Threaten to Expand Red Sea Attacks, and Claim Strike on Saudi Tanker",
+      "link": "https://www.nytimes.com/2026/08/05/world/middleeast/houthis-claim-attack-saudi-arabia-tanker.html",
+      "pubDate": "Wed, 05 Aug 2026 19:28:55 +0000",
+      "source": "NYT World",
+      "summary": "Saudi Arabia has not commented on the claims by the Houthis, who are backed by Iran and have vowed to close “all access routes” to Saudi oil shipments."
+    },
+    {
+      "title": "Brazil’s Flavio Bolsonaro names Alfredo Gaspar as running mate",
+      "link": "https://www.aljazeera.com/news/2026/8/5/brazils-flavio-bolsonaro-names-alfredo-gaspar-as-running-mate?traffic_source=rss",
+      "pubDate": "Wed, 05 Aug 2026 19:22:06 +0000",
+      "source": "Al Jazeera",
+      "summary": "The announcement comes as Lula warns of foreign interference and polls show a tightening presidential race."
+    },
+    {
+      "title": "Finland Tries to Protect Children Against Deepfakes, With Russia in Mind",
+      "link": "https://www.nytimes.com/2026/08/05/world/europe/finland-deepfakes-ai.html",
+      "pubDate": "Wed, 05 Aug 2026 18:59:01 +0000",
+      "source": "NYT World",
+      "summary": "Finland, wary of misinformation from Moscow and beyond, has a leg up on other nations in spotting fake news. But A.I. is a whole new challenge."
+    },
+    {
+      "title": "Malaysia vows not to return Rohingya refugees to Myanmar if lives at risk",
+      "link": "https://www.aljazeera.com/news/2026/8/5/malaysia-will-not-return-rohingya-refugees-to-myanmar-if-lives-are-at-risk?traffic_source=rss",
+      "pubDate": "Wed, 05 Aug 2026 18:40:06 +0000",
+      "source": "Al Jazeera",
+      "summary": "Authorities are screening 5,000 refugees as rights groups warn they remain at risk of persecution in Myanmar."
+    },
+    {
+      "title": "US authorities report deadly mass shooting in Prospect Hill, North Carolina",
+      "link": "https://www.aljazeera.com/news/2026/8/5/us-law-enforcement-reports-deadly-mass-shooting-in-north-carolina?traffic_source=rss",
+      "pubDate": "Wed, 05 Aug 2026 18:25:07 +0000",
+      "source": "Al Jazeera",
+      "summary": "This is a breaking news story."
+    },
+    {
+      "title": "After deadly Kyiv strike, Ukraine warns interceptor shortage is costing lives",
+      "link": "https://www.bbc.co.uk/news/articles/cyvlgq2gp2eo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Wed, 05 Aug 2026 18:19:51 GMT",
+      "source": "BBC",
+      "summary": "Without Patriot interceptors, Ukraine's skies are wide open and people are fully exposed to Russia's missile barrages."
+    },
+    {
+      "title": "Is the conflict between Russia and Ukraine deepening?",
+      "link": "https://www.aljazeera.com/video/inside-story/2026/8/5/is-the-conflict-between-russia-and-ukraine-deepening?traffic_source=rss",
+      "pubDate": "Wed, 05 Aug 2026 18:16:03 +0000",
+      "source": "Al Jazeera",
+      "summary": "The war sees a surge in attacks by both sides with little diplomatic movement."
+    },
+    {
+      "title": "Photos: Israeli forces raid occupied West Bank’s Qalandiya refugee camp",
+      "link": "https://www.aljazeera.com/gallery/2026/8/5/photos-israeli-forces-raid-occupied-west-banks-qalandiya-refugee-camp?traffic_source=rss",
+      "pubDate": "Wed, 05 Aug 2026 17:41:24 +0000",
+      "source": "Al Jazeera",
+      "summary": "Eight Palestinian people injured after Israeli forces enter homes, shops in Qalandiya, issuing demolition threats."
+    },
+    {
+      "title": "The War That’s Happening Above Russia and Ukraine",
+      "link": "https://www.nytimes.com/2026/08/05/world/europe/russia-ukraine-air-war.html",
+      "pubDate": "Wed, 05 Aug 2026 17:28:32 +0000",
+      "source": "NYT World",
+      "summary": "The combatants are producing ever larger numbers of innovative aerial weapons, hoping for a breakthrough as ground combat is largely frozen."
+    },
+    {
+      "title": "When a President Promises a Massacre",
+      "link": "https://theintercept.com/2026/08/05/trump-colonial-extermination-asymmetric-warfare/",
+      "pubDate": "Wed, 05 Aug 2026 17:21:03 +0000",
+      "source": "The Intercept",
+      "summary": "Harkening back to colonial massacres, Trump abandons the premise of proportionality for butchery in Iran and beyond.\nThe post When a President Promises a Massacre appeared first on The Intercept."
+    },
     {
       "title": "Left-wing political outsider wins Democratic Senate primary in Michigan",
       "link": "https://www.bbc.co.uk/news/articles/ckgdkpz07kvo?at_medium=RSS&at_campaign=rss",
@@ -469,48 +518,6 @@
       "pubDate": "Wed, 05 Aug 2026 16:06:30 GMT",
       "source": "BBC",
       "summary": "The drone was found near Ukrainian cargo planes before another object collided with a cargo aircraft in mid-air."
-    },
-    {
-      "title": "Pope Leo XIV to visit Peru, Argentina and Uruguay in November",
-      "link": "https://www.aljazeera.com/news/2026/8/5/pope-leo-xiv-to-visit-peru-argentina-and-uruguay-in-november?traffic_source=rss",
-      "pubDate": "Wed, 05 Aug 2026 16:05:58 +0000",
-      "source": "Al Jazeera",
-      "summary": "The pontiff’s first Latin America trip will take him back to Peru, where he spent decades as a missionary and bishop."
-    },
-    {
-      "title": "Puerto Rican cities hit with water rationing measures during record drought",
-      "link": "https://www.aljazeera.com/news/2026/8/5/puerto-rican-cities-hit-with-water-rationing-measures-during-record-drought?traffic_source=rss",
-      "pubDate": "Wed, 05 Aug 2026 16:02:58 +0000",
-      "source": "Al Jazeera",
-      "summary": "Governor Jenniffer Gonzalez says she does not know how long the rationing measures will remain in place."
-    },
-    {
-      "title": "Arab officials call for action over Jerusalem tensions",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/5/arab-officials-call-for-action-over-jerusalem-tensions?traffic_source=rss",
-      "pubDate": "Wed, 05 Aug 2026 15:59:52 +0000",
-      "source": "Al Jazeera",
-      "summary": "Arab officials call for action over Jerusalem tensions"
-    },
-    {
-      "title": "Top Arab, Muslim diplomats launch plan to protect Jerusalem religious sites",
-      "link": "https://www.aljazeera.com/news/2026/8/5/arab-and-muslim-ministers-launch-plan-to-protect-jerusalem-religious-sites?traffic_source=rss",
-      "pubDate": "Wed, 05 Aug 2026 15:50:06 +0000",
-      "source": "Al Jazeera",
-      "summary": "Foreign ministers warn Christian and Islamic holy sites 'threatened' by Israel 'as never before'."
-    },
-    {
-      "title": "UK tribunal confirms professor’s anti-Zionism is legally protected belief",
-      "link": "https://www.aljazeera.com/news/2026/8/5/uk-tribunal-confirms-professors-anti-zionism-is-legally-protected-belief?traffic_source=rss",
-      "pubDate": "Wed, 05 Aug 2026 15:22:39 +0000",
-      "source": "Al Jazeera",
-      "summary": "David Miller has told Al Jazeera the ruling is a victory that will encourage others to speak out against Zionism."
-    },
-    {
-      "title": "Finland Tries to Protect Children Against Deepfakes, With Russia in Mind",
-      "link": "https://www.nytimes.com/2026/08/05/world/europe/finland-deepfakes-ai.html",
-      "pubDate": "Wed, 05 Aug 2026 14:29:47 +0000",
-      "source": "NYT World",
-      "summary": "Finland, wary of misinformation from Moscow and beyond, has a leg up on other nations in spotting fake news. But A.I. is a whole new challenge."
     },
     {
       "title": "UN rights chief alarmed by rise in Iran executions since March",
@@ -527,32 +534,11 @@
       "summary": "Abdul El-Sayed narrowly defeated Rep. Haley Stevens — despite a record-setting $60 million in outside spending in her favor.\nThe post Abdul El-Sayed Beats the Democratic Establishment and AIPAC in Michigan appeared first on The Intercept."
     },
     {
-      "title": "Houthis Threaten to Expand Red Sea Attacks, and Claim Strike on Saudi Tanker",
-      "link": "https://www.nytimes.com/2026/08/05/world/middleeast/houthis-claim-attack-saudi-arabia-tanker.html",
-      "pubDate": "Wed, 05 Aug 2026 13:46:19 +0000",
-      "source": "NYT World",
-      "summary": "Saudi Arabia has not commented on the claim by the Houthis, who are backed by Iran and have vowed to close “all access routes” to Saudi oil shipments."
-    },
-    {
-      "title": "How the Ukraine War Became a Fight for the Skies",
-      "link": "https://www.nytimes.com/2026/08/05/world/europe/russia-ukraine-air-war.html",
-      "pubDate": "Wed, 05 Aug 2026 13:10:54 +0000",
-      "source": "NYT World",
-      "summary": "Russia and Ukraine are producing ever larger numbers of innovative aerial weapons, hoping for a breakthrough as ground combat is largely frozen."
-    },
-    {
       "title": "Migrant Crisis Reveals Vast Differences Between Ceuta and Its Moroccan Neighbor",
       "link": "https://www.nytimes.com/2026/08/05/world/europe/ceuta-spain-fnideq-morocco-migration.html",
       "pubDate": "Wed, 05 Aug 2026 13:09:18 +0000",
       "source": "NYT World",
       "summary": "Ceuta, Spain, and Fnideq, Morocco, are physically separated by only a mile, but they are intertwined by family and trade. A recent border crisis is the latest chapter in their story."
-    },
-    {
-      "title": "Russia strike kills 21 as Ukraine says it needs more missile interceptors",
-      "link": "https://www.bbc.co.uk/news/articles/c330pxyvzzyo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Wed, 05 Aug 2026 12:26:26 GMT",
-      "source": "BBC",
-      "summary": "The Russia defence ministry said it had struck logistics hubs and supply centres in Kyiv and the surrounding region."
     },
     {
       "title": "Israeli Strikes May Undermine Trump’s Peace Plan for Gaza",
@@ -588,13 +574,6 @@
       "pubDate": "Tue, 04 Aug 2026 18:34:20 +0000",
       "source": "The Intercept",
       "summary": "A misconduct report before the transfer noted that Malik Muhammad, a Black Lives Matter protester, was critical of Israel in communications from prison.\nThe post BLM Protester Transferred Thousands of Miles Away After They Organized Against Their Sol"
-    },
-    {
-      "title": "The Pentagon Found a New Way to Undercount U.S. Casualties in Iran",
-      "link": "https://theintercept.com/2026/08/04/us-military-casualties-count-iran-war/",
-      "pubDate": "Tue, 04 Aug 2026 09:54:00 +0000",
-      "source": "The Intercept",
-      "summary": "U.S. troops killed or wounded since July 7 are now counted separately from casualties during the first months of the Iran war.\nThe post The Pentagon Found a New Way to Undercount U.S. Casualties in Iran appeared first on The Intercept."
     },
     {
       "title": "Welcome to Dubai: Kinahan Cartel’s Visas Revealed",
@@ -699,6 +678,30 @@
   ],
   "syndicate_journal": [
     {
+      "title": "Mountain Lions Make Roads Safer",
+      "link": "https://nautil.us/mountain-lions-make-roads-safer-1283388/",
+      "summary": "The hidden safety benefits of these kings of the mountains\nThe post Mountain Lions Make Roads Safer appeared first on Nautilus.",
+      "pubDate": "Wed, 05 Aug 2026 19:01:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "Ruling-Class Disarray Let the GOP Go Off the Rails ",
+      "link": "",
+      "summary": "Every day, millions of Americans get out of bed, tune into the news, and ask themselves a simple question: How the hell did the Republican Party become so spectacularly unhinged? The GOP is fully off the rails, unbothered by any seeming concern for basic political economic stability, the empirical r",
+      "pubDate": "2026-08-05T18:56:30.406Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "What Happens When You Put an AI-Powered Banana Casino in a Monkey Reserve?",
+      "link": "https://nautil.us/what-happens-when-you-put-an-ai-powered-banana-casino-in-a-monkey-reserve-1283416/",
+      "summary": "AI really is everywhere these days\nThe post What Happens When You Put an AI-Powered Banana Casino in a Monkey Reserve? appeared first on Nautilus.",
+      "pubDate": "Wed, 05 Aug 2026 18:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
       "title": "This Image from the Dark Energy Camera Is a Bit Van Gogh, No?",
       "link": "https://nautil.us/this-image-from-the-dark-energy-camera-is-a-bit-van-gogh-no-1283412/",
       "summary": "Astronomy meets 19th-century art\nThe post This Image from the Dark Energy Camera Is a Bit Van Gogh, No? appeared first on Nautilus.",
@@ -713,22 +716,6 @@
       "pubDate": "Wed, 05 Aug 2026 15:40:41 +0000",
       "domain": "science",
       "source": "Quanta"
-    },
-    {
-      "title": "People With This Neanderthal Hormone Receptor Have More Muscle Mass",
-      "link": "https://nautil.us/people-with-this-neanderthal-hormone-receptor-have-more-muscle-mass-1283409/",
-      "summary": "Are you regular swole? Or neanderthal swole?\nThe post People With This Neanderthal Hormone Receptor Have More Muscle Mass appeared first on Nautilus.",
-      "pubDate": "Wed, 05 Aug 2026 15:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
-      "title": "Here’s Why There Aren’t Any Tiny Dinosaurs",
-      "link": "https://nautil.us/heres-why-there-arent-any-tiny-dinosaurs-1283402/",
-      "summary": "There are plenty of teensy animals—just not dinosaurs\nThe post Here’s Why There Aren’t Any Tiny Dinosaurs appeared first on Nautilus.",
-      "pubDate": "Wed, 05 Aug 2026 14:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
     },
     {
       "title": "Nobody Asked for AI",
@@ -801,14 +788,6 @@
       "pubDate": "Tue, 04 Aug 2026 20:46:22 +0000",
       "domain": "linguistics",
       "source": "Language Log"
-    },
-    {
-      "title": "The Marxist Case for the Technofeudal Hypothesis",
-      "link": "",
-      "summary": "When my book  was published in 2023, I had not imagined that the likes of  would embrace it. I had, however, fully anticipated a barrage of criticism from Marxist thinkers, especially in response to the book’s provocative subtitle (). It is now incumbent on me to present the Marxist case for the tec",
-      "pubDate": "2026-08-04T18:27:48.695Z",
-      "domain": "politics",
-      "source": "Jacobin"
     },
     {
       "title": "James Baldwin’s Complicated Relationship with Psychoanalysis",
@@ -963,25 +942,25 @@
       "source": "ROAR Magazine"
     },
     {
-      "title": "Ethical climate and innovative behavior: the mediating role of ethical conduct",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1735002",
-      "summary": "Empirical evidence on the relationship between ethical climate and innovation in public sector organizations remains limited, particularly from a Central Asian perspective. Bridging this gap, this study investigates the influence of ethical climate on innovative behavior, mediated by ethical conduct",
+      "title": "Does fact-checking COVID-19 fake news on social media correct readers’ false beliefs? A study of Chinese youths",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1593532",
+      "summary": "ObjectiveTo examine whether fact-checking COVID-19 fake news on social media corrects false beliefs among Chinese youths, and identifies factors influencing its effectiveness.MethodsWe conducted an experiment with 660 Chinese university students to compare the impact of exposure and no exposure to f",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "Facilitators of professional psychological help-seeking among university students: a narrative review from an individual–environment dual-dimensional perspective",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1917476",
-      "summary": "The persistent disparity between the high prevalence of mental health problems among university students and their low rates of professional psychological help-seeking constitutes a well-documented “help-seeking paradox.” Research has primarily focused on barriers, while the systematic integration o",
+      "title": "Perceived environmental support for values education and mental health among Chinese aviation university students: the mediating role of psychological resilience and the moderating role of flight training duration",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1910119",
+      "summary": "ObjectiveThis study aimed to explore the relationship between perceived environmental support for value education (PESVE) and mental health among civil aviation flight university students, and to examine the mediating role of psychological resilience and the moderating effect of flight training dura",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "Relationship between empathic tendencies and trait anxiety among individuals interested in folk dances",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1901484",
-      "summary": "IntroductionFolk dances, which are among the most important cultural elements reflecting societies’ historical heritage, ways of life, and shared values, are regarded not only as an art form but also as a functional tool that contributes to an individual’s psychological well-being. Because they are ",
+      "title": "Online authentic self-presentation, relatedness need satisfaction, and depression among university students: the moderating role of perceived value of team sports participation in a survey of universities in Shanghai",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1864726",
+      "summary": "BackgroundWith the increasing prevalence of online social interaction, university students often experience insufficient satisfaction of their relatedness needs. Online authentic self-presentation has become a common mode of online communication among university students, and when it becomes excessi",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
@@ -989,64 +968,64 @@
   ],
   "misinfo_toilet": [
     {
-      "headline": "Why some scientists are thrilled that a SpaceX rocket has crashed into the Moon",
+      "headline": "Israeli Strikes May Undermine Trump’s Peace Plan for Gaza",
       "fragment": "In the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
-      "splice": "Why some scientists are thrilled that a SpaceX rocket has crashed into the Moon which is to say in the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
-      "seed": 20260821
+      "splice": "Israeli Strikes May Undermine Trump’s Peace Plan for Gaza which is to say in the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
+      "seed": 20260824
     },
     {
-      "headline": "Drone carrying explosives found at German airport, police say",
+      "headline": "Malaysia vows not to return Rohingya refugees to Myanmar if lives at risk",
       "fragment": "The simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
-      "splice": "Drone carrying explosives found at German airport, police say underneath the simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
-      "seed": 20260822
+      "splice": "Malaysia vows not to return Rohingya refugees to Myanmar if lives at risk underneath the simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
+      "seed": 20260825
     },
     {
       "headline": "Identifying the Crypto Entrepreneur Linked to Popular Forum Trading in ‘Leaked’ Nudes of Women",
       "fragment": "An ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
       "splice": "Identifying the Crypto Entrepreneur Linked to Popular Forum Trading in ‘Leaked’ Nudes of Women while an ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
-      "seed": 20260823
+      "seed": 20260826
     },
     {
       "headline": "Will Ronaldo Cry​? World Cup Fans Bet Billions Through Prediction Markets",
       "fragment": "The technocrat is the natural friend of the dictator—computers and dictatorship.",
       "splice": "Will Ronaldo Cry​? World Cup Fans Bet Billions Through Prediction Markets insofar as the technocrat is the natural friend of the dictator—computers and dictatorship.",
-      "seed": 20260824
+      "seed": 20260827
     },
     {
-      "headline": "Top Arab, Muslim diplomats launch plan to protect Jerusalem religious sites",
+      "headline": "Houthis Threaten to Expand Red Sea Attacks, and Claim Strike on Saudi Tanker",
       "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "splice": "Top Arab, Muslim diplomats launch plan to protect Jerusalem religious sites consequently it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "seed": 20260825
+      "splice": "Houthis Threaten to Expand Red Sea Attacks, and Claim Strike on Saudi Tanker consequently it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
+      "seed": 20260828
     },
     {
-      "headline": "How the Ukraine War Became a Fight for the Skies",
+      "headline": "Drone carrying explosives found at German airport, police say",
       "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "splice": "How the Ukraine War Became a Fight for the Skies not unlike it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "seed": 20260826
+      "splice": "Drone carrying explosives found at German airport, police say not unlike it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
+      "seed": 20260829
     },
     {
       "headline": "Shahed-Type Drones Filmed During Mali Village Attacks",
       "fragment": "It is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
       "splice": "Shahed-Type Drones Filmed During Mali Village Attacks despite it is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
-      "seed": 20260827
-    },
-    {
-      "headline": "The Pentagon Found a New Way to Undercount U.S. Casualties in Iran",
-      "fragment": "The privatization of the organs will only begin with the shame felt by man at the sight of man.",
-      "splice": "The Pentagon Found a New Way to Undercount U.S. Casualties in Iran therefore the privatization of the organs will only begin with the shame felt by man at the sight of man.",
-      "seed": 20260828
-    },
-    {
-      "headline": "Wesley Bell Again Defeats Cori Bush — With Plenty of Help From AIPAC",
-      "fragment": "Traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "splice": "Wesley Bell Again Defeats Cori Bush — With Plenty of Help From AIPAC ...as traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "seed": 20260829
-    },
-    {
-      "headline": "Russia strike kills 21 as Ukraine says it needs more missile interceptors",
-      "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
-      "splice": "Russia strike kills 21 as Ukraine says it needs more missile interceptors insofar as the revolutionary lives in the gap which separates technical progress from social totality.",
       "seed": 20260830
+    },
+    {
+      "headline": "BLM Protester Transferred Thousands of Miles Away After They Organized Against Their Solitary Confinement",
+      "fragment": "The privatization of the organs will only begin with the shame felt by man at the sight of man.",
+      "splice": "BLM Protester Transferred Thousands of Miles Away After They Organized Against Their Solitary Confinement therefore the privatization of the organs will only begin with the shame felt by man at the sight of man.",
+      "seed": 20260831
+    },
+    {
+      "headline": "Why some scientists are thrilled that a SpaceX rocket has crashed into the Moon",
+      "fragment": "Traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
+      "splice": "Why some scientists are thrilled that a SpaceX rocket has crashed into the Moon ...as traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
+      "seed": 20260832
+    },
+    {
+      "headline": "Abdul El-Sayed Beats the Democratic Establishment and AIPAC in Michigan",
+      "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
+      "splice": "Abdul El-Sayed Beats the Democratic Establishment and AIPAC in Michigan insofar as the revolutionary lives in the gap which separates technical progress from social totality.",
+      "seed": 20260833
     }
   ]
 }
