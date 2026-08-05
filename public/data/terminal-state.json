@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T19:40:30.732Z",
+  "generated_at": "2026-08-05T02:44:46.139Z",
   "threat_intel": {
     "cisa_kev": [
       {
@@ -230,202 +230,242 @@
     ],
     "urlhaus": [
       {
-        "id": "3896986",
-        "date_added": "2026-08-04 19:34:09",
-        "url": "http://45.135.194.70.ptr.pfcloud.network/968d9d",
-        "url_status": "offline",
+        "id": "3897121",
+        "date_added": "2026-08-05 02:26:18",
+        "url": "http://222.138.217.166:52474/i",
+        "url_status": "online",
         "threat": "malware_download",
         "tags": [
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3897120",
+        "date_added": "2026-08-05 02:22:12",
+        "url": "http://182.127.109.22:56291/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3897119",
+        "date_added": "2026-08-05 02:16:22",
+        "url": "http://144.172.67.25/n2/lterouter",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "sh",
           "ua-wget"
         ]
       },
       {
-        "id": "3896978",
-        "date_added": "2026-08-04 19:27:10",
-        "url": "http://45.135.194.70.ptr.pfcloud.network/3f20ca",
-        "url_status": "offline",
+        "id": "3897118",
+        "date_added": "2026-08-05 02:12:25",
+        "url": "http://182.127.179.45:34684/i",
+        "url_status": "online",
         "threat": "malware_download",
         "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3897117",
+        "date_added": "2026-08-05 02:12:07",
+        "url": "http://112.252.222.187:56130/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "mirai"
+        ]
+      },
+      {
+        "id": "3897112",
+        "date_added": "2026-08-05 02:02:24",
+        "url": "http://144.172.67.25/n2/x86",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "ua-wget",
+          "x86"
+        ]
+      },
+      {
+        "id": "3897113",
+        "date_added": "2026-08-05 02:02:24",
+        "url": "http://144.172.67.25/n2/tbk",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "sh",
           "ua-wget"
         ]
       },
       {
-        "id": "3896979",
-        "date_added": "2026-08-04 19:27:10",
-        "url": "http://45.135.194.70.ptr.pfcloud.network/eab403",
-        "url_status": "offline",
+        "id": "3897114",
+        "date_added": "2026-08-05 02:02:24",
+        "url": "http://144.172.67.25/n2/armv5l",
+        "url_status": "online",
         "threat": "malware_download",
         "tags": [
+          "arm",
+          "elf",
           "ua-wget"
         ]
       },
       {
-        "id": "3896980",
-        "date_added": "2026-08-04 19:27:10",
-        "url": "http://45.135.194.70.ptr.pfcloud.network/792865",
-        "url_status": "offline",
+        "id": "3897115",
+        "date_added": "2026-08-05 02:02:24",
+        "url": "http://144.172.67.25/n2/mips",
+        "url_status": "online",
         "threat": "malware_download",
         "tags": [
+          "elf",
+          "mips",
+          "mirai",
           "ua-wget"
         ]
       },
       {
-        "id": "3896981",
-        "date_added": "2026-08-04 19:27:10",
-        "url": "http://45.135.194.70.ptr.pfcloud.network/fbeb13",
-        "url_status": "offline",
+        "id": "3897116",
+        "date_added": "2026-08-05 02:02:24",
+        "url": "http://144.172.67.25/n2/mpsl",
+        "url_status": "online",
         "threat": "malware_download",
         "tags": [
+          "elf",
+          "mips",
+          "mirai",
           "ua-wget"
         ]
       },
       {
-        "id": "3896982",
-        "date_added": "2026-08-04 19:27:10",
-        "url": "http://45.135.194.70.ptr.pfcloud.network/e623fb",
-        "url_status": "offline",
+        "id": "3897111",
+        "date_added": "2026-08-05 02:02:07",
+        "url": "http://222.138.217.166:52474/bin.sh",
+        "url_status": "online",
         "threat": "malware_download",
         "tags": [
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3897110",
+        "date_added": "2026-08-05 01:56:34",
+        "url": "http://115.55.246.67:45978/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3897109",
+        "date_added": "2026-08-05 01:56:07",
+        "url": "http://112.252.222.187:56130/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "mirai"
+        ]
+      },
+      {
+        "id": "3897108",
+        "date_added": "2026-08-05 01:30:19",
+        "url": "http://182.117.2.57:37641/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3897107",
+        "date_added": "2026-08-05 01:11:24",
+        "url": "http://182.123.211.251:56933/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3897100",
+        "date_added": "2026-08-05 01:09:24",
+        "url": "http://128.0.118.39/main.armv6",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "arm",
+          "elf",
+          "mirai",
+          "opendir",
           "ua-wget"
         ]
       },
       {
-        "id": "3896983",
-        "date_added": "2026-08-04 19:27:10",
-        "url": "http://45.135.194.70.ptr.pfcloud.network/ca6491",
-        "url_status": "offline",
+        "id": "3897101",
+        "date_added": "2026-08-05 01:09:24",
+        "url": "http://128.0.118.39/main.armv4",
+        "url_status": "online",
         "threat": "malware_download",
         "tags": [
+          "arm",
+          "elf",
+          "opendir",
           "ua-wget"
         ]
       },
       {
-        "id": "3896984",
-        "date_added": "2026-08-04 19:27:10",
-        "url": "http://45.135.194.70.ptr.pfcloud.network/a00b40",
-        "url_status": "offline",
+        "id": "3897102",
+        "date_added": "2026-08-05 01:09:24",
+        "url": "http://128.0.118.39/main.armv5",
+        "url_status": "online",
         "threat": "malware_download",
         "tags": [
+          "arm",
+          "elf",
+          "mirai",
+          "opendir",
           "ua-wget"
         ]
       },
       {
-        "id": "3896985",
-        "date_added": "2026-08-04 19:27:10",
-        "url": "http://45.135.194.70.ptr.pfcloud.network/a14f31",
-        "url_status": "offline",
+        "id": "3897103",
+        "date_added": "2026-08-05 01:09:24",
+        "url": "http://128.0.118.39/main.mips",
+        "url_status": "online",
         "threat": "malware_download",
         "tags": [
+          "elf",
+          "mips",
+          "opendir",
           "ua-wget"
         ]
       },
       {
-        "id": "3896966",
-        "date_added": "2026-08-04 19:27:09",
-        "url": "http://94.154.43.123/bins.sh",
-        "url_status": "offline",
+        "id": "3897104",
+        "date_added": "2026-08-05 01:09:24",
+        "url": "http://128.0.118.39/run.sh",
+        "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3896967",
-        "date_added": "2026-08-04 19:27:09",
-        "url": "http://176.65.148.145.ptr.pfcloud.network/n2/x86",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3896968",
-        "date_added": "2026-08-04 19:27:09",
-        "url": "http://45.135.194.70/a8f148",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3896969",
-        "date_added": "2026-08-04 19:27:09",
-        "url": "http://45.135.194.70/389b2e",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3896970",
-        "date_added": "2026-08-04 19:27:09",
-        "url": "http://45.135.194.70/99f292",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3896971",
-        "date_added": "2026-08-04 19:27:09",
-        "url": "http://45.135.194.70/003f95",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3896972",
-        "date_added": "2026-08-04 19:27:09",
-        "url": "http://45.135.194.70/316f75",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3896973",
-        "date_added": "2026-08-04 19:27:09",
-        "url": "http://45.135.194.70/5f5213",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3896974",
-        "date_added": "2026-08-04 19:27:09",
-        "url": "http://176.65.148.145.ptr.pfcloud.network/n2/armv5l",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3896975",
-        "date_added": "2026-08-04 19:27:09",
-        "url": "http://45.135.194.70/df904c",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3896976",
-        "date_added": "2026-08-04 19:27:09",
-        "url": "http://45.135.194.70/f19d21",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
+          "opendir",
+          "sh",
           "ua-wget"
         ]
       }
@@ -433,18 +473,81 @@
   },
   "world_monitor": [
     {
+      "title": "US stock market hits record high amid hopes for Strait of Hormuz reopening",
+      "link": "https://www.aljazeera.com/economy/2026/8/5/us-stock-market-hits-record-high-amid-hopes-for-strait-of-hormuz-reopening?traffic_source=rss",
+      "pubDate": "Wed, 05 Aug 2026 02:09:06 +0000",
+      "source": "Al Jazeera",
+      "summary": "Oil prices fall as US officials tout progress in talks to reopen critical waterway."
+    },
+    {
+      "title": "Wesley Bell Again Defeats Cori Bush — With Plenty of Help From AIPAC",
+      "link": "https://theintercept.com/2026/08/04/wesley-bell-cori-bush-missouri-aipac/",
+      "pubDate": "Wed, 05 Aug 2026 01:55:33 +0000",
+      "source": "The Intercept",
+      "summary": "The moderate Democrat easily won the rematch in Missouri’s primary against an outspoken critic of Israel.\nThe post Wesley Bell Again Defeats Cori Bush — With Plenty of Help From AIPAC appeared first on The Intercept."
+    },
+    {
+      "title": "Russian ballistic missile strike on Kyiv kills one and injures others",
+      "link": "https://www.bbc.co.uk/news/articles/c330pxyvzzyo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Wed, 05 Aug 2026 01:35:29 GMT",
+      "source": "BBC",
+      "summary": "The head of Kyiv's military administration says Russia is \"once again massively attacking\" and has hit residential buildings."
+    },
+    {
+      "title": "Armed man arrested at Trump’s LA golf course ahead of president’s visit",
+      "link": "https://www.aljazeera.com/news/2026/8/5/armed-man-arrested-at-trumps-la-golf-course-ahead-of-presidents-visit?traffic_source=rss",
+      "pubDate": "Wed, 05 Aug 2026 01:29:01 +0000",
+      "source": "Al Jazeera",
+      "summary": "Loaded pistol and rifle among items found in suspect's pocket, car and home following arrest, police say."
+    },
+    {
+      "title": "Ceuta and Melilla: Why Europe’s African border remains a flashpoint",
+      "link": "https://www.aljazeera.com/news/2026/8/5/ceuta-and-melilla-why-europes-african-border-remains-a-flashpoint?traffic_source=rss",
+      "pubDate": "Wed, 05 Aug 2026 01:21:16 +0000",
+      "source": "Al Jazeera",
+      "summary": "The two Spanish enclaves in North Africa remain at the centre of a diplomatic standoff between Spain and Morocco."
+    },
+    {
+      "title": "Oil prices fall on hopes Strait of Hormuz could reopen",
+      "link": "https://www.bbc.co.uk/news/articles/cpw9v0gnzxwo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Wed, 05 Aug 2026 01:05:21 GMT",
+      "source": "BBC",
+      "summary": "US Secretary of State Marco Rubio and Treasury Secretary Scott Bessent both announced talks had progressed to allow shipments to resume."
+    },
+    {
+      "title": "Ukrainian man chased by exploding drone recounts his terror",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/5/ukrainian-man-chased-by-exploding-drone-recounts-his-terror?traffic_source=rss",
+      "pubDate": "Wed, 05 Aug 2026 00:56:23 +0000",
+      "source": "Al Jazeera",
+      "summary": "A Ukrainian man has relived the moment a suspected Russian drone chased him before it blew up."
+    },
+    {
+      "title": "Armed man arrested near Trump's golf course ahead of president's visit",
+      "link": "https://www.bbc.co.uk/news/articles/c20jp3mp7lyo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Wed, 05 Aug 2026 00:19:04 GMT",
+      "source": "BBC",
+      "summary": "The arrest happened shortly before President Trump was due to host a fundraising dinner at the coastal golf course in California."
+    },
+    {
+      "title": "Iran war live: Tehran-Oman talks on Hormuz ‘positive’; ship hit in Red Sea",
+      "link": "https://www.aljazeera.com/news/liveblog/2026/8/5/iran-war-live-tehran-oman-talks-on-hormuz-positive-ship-hit-in-red-sea?traffic_source=rss",
+      "pubDate": "Wed, 05 Aug 2026 00:00:00 +0000",
+      "source": "Al Jazeera",
+      "summary": "Iran says talks with Oman are proceeding 'positively' as US officials say a deal could be possible soon."
+    },
+    {
       "title": "EU commends Spain's 'swift response' to Ceuta migrant crisis",
       "link": "https://www.bbc.co.uk/news/articles/c80n3j55g0do?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Tue, 04 Aug 2026 19:30:43 GMT",
+      "pubDate": "Tue, 04 Aug 2026 21:45:20 GMT",
       "source": "BBC",
       "summary": "About 70,000 of the 72,000 people who came to Ceuta illegally last week have been returned to Morocco, Spain says."
     },
     {
-      "title": "Arrests in Egypt after people allegedly impersonate judges",
-      "link": "https://www.bbc.co.uk/news/articles/cn0n9wpvlwpo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Tue, 04 Aug 2026 19:25:00 GMT",
-      "source": "BBC",
-      "summary": "Egyptian authorities say the alleged scam involved fabricated scenes in court as part of a plot to defraud people."
+      "title": "Bari Weiss’s “60 Minutes” Hires Producer Who Downplayed Gaza Starvation, Justified Killing Journalists",
+      "link": "https://theintercept.com/2026/08/04/60-minutes-bari-weiss-cbs-news-israel-gaza/",
+      "pubDate": "Tue, 04 Aug 2026 19:46:41 +0000",
+      "source": "The Intercept",
+      "summary": "The latest CBS News hire shows that the way to get ahead in journalism is to act as a tool for the powerful.\nThe post Bari Weiss’s “60 Minutes” Hires Producer Who Downplayed Gaza Starvation, Justified Killing Journalists appeared first on The Interce"
     },
     {
       "title": "New Zealand Has Ended Greyhound Racing. Now It Has to Manage the Aftermath.",
@@ -454,41 +557,6 @@
       "summary": "As the country holds its final greyhound race, the government has committed to finding homes for dogs and supporting people whose livelihoods depended on racing."
     },
     {
-      "title": "White House to meet AI firms on advanced model safety",
-      "link": "https://www.aljazeera.com/economy/2026/8/4/white-house-to-meet-ai-firms-on-advanced-model-safety?traffic_source=rss",
-      "pubDate": "Tue, 04 Aug 2026 19:04:18 +0000",
-      "source": "Al Jazeera",
-      "summary": "The White House confirmed Tuesday’s meeting to address advanced model safety amid recent high-profile hacking incidents."
-    },
-    {
-      "title": "Oil prices fall on hopes Strait of Hormuz could reopen",
-      "link": "https://www.bbc.co.uk/news/articles/cpw9v0gnzxwo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Tue, 04 Aug 2026 19:00:43 GMT",
-      "source": "BBC",
-      "summary": "US Secretary of State Marco Rubio and Treasury Secretary Scott Bessent both announced talks had progressed to allow shipments to resume."
-    },
-    {
-      "title": "DOJ sends monitors to Michigan poll sites as lawmakers warn of partisan aim",
-      "link": "https://www.aljazeera.com/news/2026/8/4/doj-sends-monitors-to-michigan-poll-sites-as-lawmakers-warn-of-partisan-aim?traffic_source=rss",
-      "pubDate": "Tue, 04 Aug 2026 18:50:29 +0000",
-      "source": "Al Jazeera",
-      "summary": "While FBI poll monitoring not new, US lawmakers raise alarm amid Trump's years-long claims of election fraud."
-    },
-    {
-      "title": "Mass funeral held for 112 members of two Palestinian families",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/4/mass-funeral-held-for-112-members-of-two-palestinian-families?traffic_source=rss",
-      "pubDate": "Tue, 04 Aug 2026 18:35:35 +0000",
-      "source": "Al Jazeera",
-      "summary": "Palestinians in Gaza held a mass funeral for 112 members of the Abu Sharia and al-Hasayna families."
-    },
-    {
-      "title": "‘Maximum use’: Iran boosts military strength during ceasefire with US",
-      "link": "https://www.aljazeera.com/news/2026/8/4/maximum-use-iran-boosts-military-strength-during-ceasefire-with-us?traffic_source=rss",
-      "pubDate": "Tue, 04 Aug 2026 18:34:48 +0000",
-      "source": "Al Jazeera",
-      "summary": "IRGC spokesman Hossein Mohebbi said last month that Iran's missile production rate increased during the ceasefire."
-    },
-    {
       "title": "BLM Protester Transferred Thousands of Miles Away After They Organized Against Their Solitary Confinement",
       "link": "https://theintercept.com/2026/08/04/malik-muhammad-black-lives-matter-prison-transfer/",
       "pubDate": "Tue, 04 Aug 2026 18:34:20 +0000",
@@ -496,18 +564,11 @@
       "summary": "A misconduct report before the transfer noted that Malik Muhammad, a Black Lives Matter protester, was critical of Israel in communications from prison.\nThe post BLM Protester Transferred Thousands of Miles Away After They Organized Against Their Sol"
     },
     {
-      "title": "Rubio: Progress made to reopen Strait of Hormuz",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/4/rubio-progress-made-to-reopen-strait-of-hormuz?traffic_source=rss",
-      "pubDate": "Tue, 04 Aug 2026 18:27:15 +0000",
-      "source": "Al Jazeera",
-      "summary": "Marco Rubio, US Secretary of State, said there has been progress in negotiations to reopen the Strait of Hormuz."
-    },
-    {
       "title": "Video shows Russian drone chasing Ukrainian street vendor in 'human safari' attack",
       "link": "https://www.bbc.co.uk/news/articles/cn4n03xg981o?at_medium=RSS&at_campaign=rss",
       "pubDate": "Tue, 04 Aug 2026 17:26:06 GMT",
       "source": "BBC",
-      "summary": "Ukraine said the video - showing a terrified civilian being hounded by a remotely-controlled drone - amounted to a war crime."
+      "summary": "Ukraine said the video - showing a terrified civilian being hounded by a remotely controlled drone - amounted to a war crime."
     },
     {
       "title": "A New Lethal Front in Ukraine: Its Beloved Gas Stations",
@@ -531,13 +592,6 @@
       "summary": "Andy Burnham’s whirlwind of TikToks, podcasts and promises appears to be resonating with some voters. But he faces big decisions about how to pay for it all."
     },
     {
-      "title": "Ukraine hits more Wildberries sites as strike kills five in Moscow region",
-      "link": "https://www.bbc.co.uk/news/articles/c151pkww79zo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Tue, 04 Aug 2026 11:19:01 GMT",
-      "source": "BBC",
-      "summary": "Facilities operated by Russia's largest online retailer were also hit in St Petersburg and Tver."
-    },
-    {
       "title": "The Pentagon Found a New Way to Undercount U.S. Casualties in Iran",
       "link": "https://theintercept.com/2026/08/04/us-military-casualties-count-iran-war/",
       "pubDate": "Tue, 04 Aug 2026 09:54:00 +0000",
@@ -557,20 +611,6 @@
       "pubDate": "Mon, 03 Aug 2026 21:04:37 +0000",
       "source": "The Intercept",
       "summary": "From the New York Times to the EU, liberals defending Spain from far-right fearmongering are regurgitating the right’s anti-immigrant premise.\nThe post Liberals Are Ceding Ground to the Far Right on Ceuta Border Crossings appeared first on The Interc"
-    },
-    {
-      "title": "NYPD Used High-Tech Surveillance to Find Gaza Paint Splatter Protester, Docs Show",
-      "link": "https://theintercept.com/2026/08/03/nypd-surveillance-gaza-protest-columbia/",
-      "pubDate": "Mon, 03 Aug 2026 13:59:46 +0000",
-      "source": "The Intercept",
-      "summary": "Throwing paint on a statue at Columbia seems like a minor crime, but cops use tremendous resources when pro-Palestine protesters are in the crosshairs.\nThe post NYPD Used High-Tech Surveillance to Find Gaza Paint Splatter Protester, Docs Show appeare"
-    },
-    {
-      "title": "Nach Abschiebung wegen Anti-Israel-Parole: Bob-Vylan-Frontmann wehrt sich erfolgreich gegen Einreiseverbot",
-      "link": "https://theintercept.com/2026/08/01/bob-vylan-abschiebung-deutsches-israel/",
-      "pubDate": "Sat, 01 Aug 2026 16:07:25 +0000",
-      "source": "The Intercept",
-      "summary": "Deutsche Behörden warnten, die Einreise des pro-palästinensischen Musikers könne zur „Radikalisierung einzelner Bevölkerungsgruppen“ beitragen. Er legte Widerspruch ein.\nThe post Nach Abschiebung wegen Anti-Israel-Parole: Bob-Vylan-Frontmann wehrt si"
     },
     {
       "title": "Welcome to Dubai: Kinahan Cartel’s Visas Revealed",
@@ -675,6 +715,22 @@
   ],
   "syndicate_journal": [
     {
+      "title": "Ask LLOG: \"I's\" ?",
+      "link": "https://languagelog.ldc.upenn.edu/nll/?p=73963&utm_source=rss&utm_medium=rss&utm_campaign=ask-llog-is",
+      "summary": "Email from JK: My daughter remarked that on several occasions recently she has heard presumably college-educated people use the word “I’s”, in a sentence like \"I just picked up Margaret and I’s cat from the vet.\" I'm guessing the reason for this jarring (to me) usage is that the sentence could be mo",
+      "pubDate": "Tue, 04 Aug 2026 20:46:22 +0000",
+      "domain": "linguistics",
+      "source": "Language Log"
+    },
+    {
+      "title": "These Ancient Sea Worms Have “Biometal” Jaws",
+      "link": "https://nautil.us/these-ancient-sea-worms-have-biometal-jaws-1283391/",
+      "summary": "Not as scary as a great white shark, but the science is fascinating\nThe post These Ancient Sea Worms Have “Biometal” Jaws appeared first on Nautilus.",
+      "pubDate": "Tue, 04 Aug 2026 20:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
       "title": "The Marxist Case for the Technofeudal Hypothesis",
       "link": "",
       "summary": "When my book  was published in 2023, I had not imagined that the likes of  would embrace it. I had, however, fully anticipated a barrage of criticism from Marxist thinkers, especially in response to the book’s provocative subtitle (). It is now incumbent on me to present the Marxist case for the tec",
@@ -713,14 +769,6 @@
       "pubDate": "2026-08-04T16:29:13.214Z",
       "domain": "politics",
       "source": "Jacobin"
-    },
-    {
-      "title": "Check Out Rare Images of Borneo’s “Ghosts of the Forest”",
-      "link": "https://nautil.us/check-out-rare-images-of-borneos-ghosts-of-the-forest-1283351/",
-      "summary": "The Sunda clouded leopard proves elusive even when there are camera traps aimed at finding them\nThe post Check Out Rare Images of Borneo’s “Ghosts of the Forest” appeared first on Nautilus.",
-      "pubDate": "Tue, 04 Aug 2026 15:30:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
     },
     {
       "title": "James Baldwin’s Complicated Relationship with Psychoanalysis",
@@ -825,14 +873,6 @@
       "pubDate": "Fri, 31 Jul 2026 13:22:32 +0000",
       "domain": "history",
       "source": "JSTOR Daily"
-    },
-    {
-      "title": "Literary controversy of the week",
-      "link": "https://languagelog.ldc.upenn.edu/nll/?p=73942&utm_source=rss&utm_medium=rss&utm_campaign=literary-controversy-of-the-week",
-      "summary": "As you probably know, Emily Wilson wrote a critical review of Christopher Nolan's Odyssey movie, and Joyce Carol Oates posted a negative evaluation of Wilson's review, among lots of other (mass and social) media coverage. My favorite so far is today's SMBC: The mouseover title: \"I can barely enjoy A",
-      "pubDate": "Thu, 30 Jul 2026 12:08:38 +0000",
-      "domain": "linguistics",
-      "source": "Language Log"
     },
     {
       "title": "Physicists Solve a Big Quantum Mystery. Now, Old Results Don’t Add Up.",
@@ -965,64 +1005,64 @@
   ],
   "misinfo_toilet": [
     {
-      "headline": "The Pentagon Found a New Way to Undercount U.S. Casualties in Iran",
-      "fragment": "In the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
-      "splice": "The Pentagon Found a New Way to Undercount U.S. Casualties in Iran which is to say in the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
-      "seed": 20260823
-    },
-    {
-      "headline": "White House to meet AI firms on advanced model safety",
-      "fragment": "The simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
-      "splice": "White House to meet AI firms on advanced model safety underneath the simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
-      "seed": 20260824
-    },
-    {
-      "headline": "Identifying the Crypto Entrepreneur Linked to Popular Forum Trading in ‘Leaked’ Nudes of Women",
-      "fragment": "An ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
-      "splice": "Identifying the Crypto Entrepreneur Linked to Popular Forum Trading in ‘Leaked’ Nudes of Women while an ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
-      "seed": 20260825
-    },
-    {
-      "headline": "Will Ronaldo Cry​? World Cup Fans Bet Billions Through Prediction Markets",
+      "headline": "Airport chaos, delays as E.U. debuts biometric border system",
       "fragment": "The technocrat is the natural friend of the dictator—computers and dictatorship.",
-      "splice": "Will Ronaldo Cry​? World Cup Fans Bet Billions Through Prediction Markets insofar as the technocrat is the natural friend of the dictator—computers and dictatorship.",
-      "seed": 20260826
+      "splice": "Airport chaos, delays as E.U. debuts biometric border system the system notes that the technocrat is the natural friend of the dictator—computers and dictatorship.",
+      "seed": 20260807
     },
     {
-      "headline": "DOJ sends monitors to Michigan poll sites as lawmakers warn of partisan aim",
-      "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "splice": "DOJ sends monitors to Michigan poll sites as lawmakers warn of partisan aim consequently it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "seed": 20260827
+      "headline": "Armed man arrested at Trump’s LA golf course ahead of president’s visit",
+      "fragment": "Simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
+      "splice": "Armed man arrested at Trump’s LA golf course ahead of president’s visit underneath simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
+      "seed": 20260808
     },
     {
-      "headline": "A New Lethal Front in Ukraine: Its Beloved Gas Stations",
-      "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "splice": "A New Lethal Front in Ukraine: Its Beloved Gas Stations not unlike it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "seed": 20260828
+      "headline": "The Pentagon Found a New Way to Undercount U.S. Casualties in Iran",
+      "fragment": "An ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
+      "splice": "The Pentagon Found a New Way to Undercount U.S. Casualties in Iran ...as an ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
+      "seed": 20260809
     },
     {
-      "headline": "Shahed-Type Drones Filmed During Mali Village Attacks",
+      "headline": "EU commends Spain's 'swift response' to Ceuta migrant crisis",
+      "fragment": "It is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
+      "splice": "EU commends Spain's 'swift response' to Ceuta migrant crisis while it is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
+      "seed": 20260810
+    },
+    {
+      "headline": "Bari Weiss’s “60 Minutes” Hires Producer Who Downplayed Gaza Starvation, Justified Killing Journalists",
       "fragment": "It is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
-      "splice": "Shahed-Type Drones Filmed During Mali Village Attacks despite it is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
-      "seed": 20260829
+      "splice": "Bari Weiss’s “60 Minutes” Hires Producer Who Downplayed Gaza Starvation, Justified Killing Journalists insofar as it is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
+      "seed": 20260811
     },
     {
-      "headline": "Nach Abschiebung wegen Anti-Israel-Parole: Bob-Vylan-Frontmann wehrt sich erfolgreich gegen Einreiseverbot",
-      "fragment": "The privatization of the organs will only begin with the shame felt by man at the sight of man.",
-      "splice": "Nach Abschiebung wegen Anti-Israel-Parole: Bob-Vylan-Frontmann wehrt sich erfolgreich gegen Einreiseverbot therefore the privatization of the organs will only begin with the shame felt by man at the sight of man.",
-      "seed": 20260830
+      "headline": "Welcome to Dubai: Kinahan Cartel’s Visas Revealed",
+      "fragment": "It is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
+      "splice": "Welcome to Dubai: Kinahan Cartel’s Visas Revealed insofar as it is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
+      "seed": 20260812
     },
     {
-      "headline": "Pakistan’s Kashmir Problem",
-      "fragment": "Traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "splice": "Pakistan’s Kashmir Problem ...as traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "seed": 20260831
+      "headline": "Armed man arrested near Trump's golf course ahead of president's visit",
+      "fragment": "Underneath all reason lies delirium and drift.",
+      "splice": "Armed man arrested near Trump's golf course ahead of president's visit which is to say underneath all reason lies delirium and drift.",
+      "seed": 20260813
     },
     {
-      "headline": "Andy Burnham’s First Weeks as UK Prime Minister: TikToks, Podcasts and Promises",
-      "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
-      "splice": "Andy Burnham’s First Weeks as UK Prime Minister: TikToks, Podcasts and Promises insofar as the revolutionary lives in the gap which separates technical progress from social totality.",
-      "seed": 20260832
+      "headline": "Between Graves and Uncertainty: The Management of the Dead After Venezuela’s Earthquake",
+      "fragment": "Antagonism is not now located externally, in the face-off between class blocs, but internally, in the psychology of the worker.",
+      "splice": "Between Graves and Uncertainty: The Management of the Dead After Venezuela’s Earthquake because antagonism is not now located externally, in the face-off between class blocs, but internally, in the psychology of the worker.",
+      "seed": 20260814
+    },
+    {
+      "headline": "New Zealand Has Ended Greyhound Racing. Now It Has to Manage the Aftermath.",
+      "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "splice": "New Zealand Has Ended Greyhound Racing. Now It Has to Manage the Aftermath. underneath the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "seed": 20260815
+    },
+    {
+      "headline": "Ukrainian man chased by exploding drone recounts his terror",
+      "fragment": "The simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
+      "splice": "Ukrainian man chased by exploding drone recounts his terror insofar as the simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
+      "seed": 20260816
     }
   ]
 }
