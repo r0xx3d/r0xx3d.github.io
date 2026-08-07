@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06T14:19:18.188Z",
+  "generated_at": "2026-08-07T00:04:19.147Z",
   "threat_intel": {
     "cisa_kev": [
       {
@@ -38,7 +38,7 @@
         "product": "Tomcat",
         "vulnerabilityName": "Apache Tomcat Missing Encryption of Sensitive Data Vulnerability",
         "dateAdded": "2026-08-04",
-        "shortDescription": "Apache Tomcat contains a missing encryption of sensitive data vulnerability that allows the bypass of the EncryptInterceptor.",
+        "shortDescription": "Apache Tomcat contains a missing encryption of sensitive data vulnerability that allows the bypass of the EncryptInterceptor. This vulnerability can be chained with CVE‑2025‑24813.",
         "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
         "dueDate": "2026-08-07",
         "knownRansomwareCampaignUse": "Unknown",
@@ -230,263 +230,361 @@
     ],
     "urlhaus": [
       {
-        "id": "3897971",
-        "date_added": "2026-08-06 14:13:35",
-        "url": "http://178.16.54.73/MvFc9q2XaWgYN",
-        "url_status": "offline",
+        "id": "3898349",
+        "date_added": "2026-08-06 21:45:24",
+        "url": "http://85.137.245.141:9001/1.exe",
+        "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "ua-wget"
+          "85-137-245-141-9001"
         ]
       },
       {
-        "id": "3897972",
-        "date_added": "2026-08-06 14:13:35",
-        "url": "http://178.16.54.73/W4hP6EiyAeLeVhkSXoKzt5d",
-        "url_status": "offline",
+        "id": "3898348",
+        "date_added": "2026-08-06 21:45:22",
+        "url": "http://85.137.245.141:9001/2.exe",
+        "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "ua-wget"
+          "85-137-245-141-9001"
         ]
       },
       {
-        "id": "3897973",
-        "date_added": "2026-08-06 14:13:35",
-        "url": "http://178.16.54.73/Ehx5xZtkROxr4Jn4WH",
-        "url_status": "offline",
+        "id": "3898332",
+        "date_added": "2026-08-06 21:10:35",
+        "url": "http://94.154.43.44/bins/bin.armv4eb",
+        "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "ua-wget"
+          "94-154-43-44",
+          "DEU",
+          "elf",
+          "geofenced",
+          "mirai"
         ]
       },
       {
-        "id": "3897974",
-        "date_added": "2026-08-06 14:13:35",
-        "url": "http://178.16.54.73/6FspMtcfGKBne",
-        "url_status": "offline",
+        "id": "3898333",
+        "date_added": "2026-08-06 21:10:35",
+        "url": "http://94.154.43.44/bins/bin.armv6l",
+        "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "ua-wget"
+          "94-154-43-44",
+          "DEU",
+          "elf",
+          "geofenced",
+          "mirai"
         ]
       },
       {
-        "id": "3897975",
-        "date_added": "2026-08-06 14:13:35",
-        "url": "http://178.16.54.73/XvTfqXHDH4bg5b35N",
-        "url_status": "offline",
+        "id": "3898334",
+        "date_added": "2026-08-06 21:10:35",
+        "url": "http://94.154.43.44/bins/bin.x86_64",
+        "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "ua-wget"
+          "94-154-43-44",
+          "DEU",
+          "elf",
+          "geofenced",
+          "mirai"
         ]
       },
       {
-        "id": "3897976",
-        "date_added": "2026-08-06 14:13:35",
-        "url": "http://178.16.54.73/RzcjmzzbbUUPb9IQNWBv",
-        "url_status": "offline",
+        "id": "3898335",
+        "date_added": "2026-08-06 21:10:35",
+        "url": "http://94.154.43.44/bins/bin.i586",
+        "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "ua-wget"
+          "94-154-43-44",
+          "DEU",
+          "elf",
+          "geofenced",
+          "mirai"
         ]
       },
       {
-        "id": "3897977",
-        "date_added": "2026-08-06 14:13:35",
-        "url": "http://178.16.54.73/BY3Qx89M2zrJCwtcs",
-        "url_status": "offline",
+        "id": "3898336",
+        "date_added": "2026-08-06 21:10:35",
+        "url": "http://94.154.43.44/bins/bin.armv7l",
+        "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "ua-wget"
+          "94-154-43-44",
+          "DEU",
+          "elf",
+          "geofenced",
+          "mirai"
         ]
       },
       {
-        "id": "3897978",
-        "date_added": "2026-08-06 14:13:35",
-        "url": "http://178.16.54.73/1EFT8fihbzBfVM",
-        "url_status": "offline",
+        "id": "3898337",
+        "date_added": "2026-08-06 21:10:35",
+        "url": "http://94.154.43.44/bins/bin.i486",
+        "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "ua-wget"
+          "94-154-43-44",
+          "DEU",
+          "elf",
+          "geofenced",
+          "mirai"
         ]
       },
       {
-        "id": "3897979",
-        "date_added": "2026-08-06 14:13:35",
-        "url": "http://178.16.54.73/GlH0D23OMm0Ah0mafyfY02gu",
-        "url_status": "offline",
+        "id": "3898338",
+        "date_added": "2026-08-06 21:10:35",
+        "url": "http://94.154.43.44/bins/bin.powerpc",
+        "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "ua-wget"
+          "94-154-43-44",
+          "DEU",
+          "elf",
+          "geofenced",
+          "mirai"
         ]
       },
       {
-        "id": "3897980",
-        "date_added": "2026-08-06 14:13:35",
-        "url": "http://178.16.54.73/q9Xfy2yyFbbg",
-        "url_status": "offline",
+        "id": "3898339",
+        "date_added": "2026-08-06 21:10:35",
+        "url": "http://94.154.43.44/bins/bin.mips64",
+        "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "ua-wget"
+          "94-154-43-44",
+          "DEU",
+          "elf",
+          "geofenced",
+          "mirai"
         ]
       },
       {
-        "id": "3897981",
-        "date_added": "2026-08-06 14:13:35",
-        "url": "http://178.16.54.73/Z15mZ0moIihaDJlU",
-        "url_status": "offline",
+        "id": "3898340",
+        "date_added": "2026-08-06 21:10:35",
+        "url": "http://94.154.43.44/bins/bin.mipsel",
+        "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "ua-wget"
+          "94-154-43-44",
+          "DEU",
+          "elf",
+          "geofenced",
+          "mirai"
         ]
       },
       {
-        "id": "3897982",
-        "date_added": "2026-08-06 14:13:35",
-        "url": "http://178.16.54.73/EzP1MGJ8v4UCjMIY",
-        "url_status": "offline",
+        "id": "3898341",
+        "date_added": "2026-08-06 21:10:35",
+        "url": "http://94.154.43.44/bins/bin.sh4",
+        "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "ua-wget"
+          "94-154-43-44",
+          "DEU",
+          "elf",
+          "geofenced",
+          "mirai"
         ]
       },
       {
-        "id": "3897983",
-        "date_added": "2026-08-06 14:13:35",
-        "url": "http://178.16.54.73/ZYCLkiOqoLiCQ",
-        "url_status": "offline",
+        "id": "3898342",
+        "date_added": "2026-08-06 21:10:35",
+        "url": "http://94.154.43.44/bins/bin.m68k",
+        "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "ua-wget"
+          "94-154-43-44",
+          "DEU",
+          "elf",
+          "geofenced",
+          "mirai"
         ]
       },
       {
-        "id": "3897958",
-        "date_added": "2026-08-06 14:13:34",
-        "url": "http://178.16.54.73/CYRBUIuuOhpPSYYvMc7Z",
-        "url_status": "offline",
+        "id": "3898343",
+        "date_added": "2026-08-06 21:10:35",
+        "url": "http://94.154.43.44/bins/bin.armv4tl",
+        "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "ua-wget"
+          "94-154-43-44",
+          "DEU",
+          "elf",
+          "geofenced",
+          "mirai"
         ]
       },
       {
-        "id": "3897959",
-        "date_added": "2026-08-06 14:13:34",
-        "url": "http://178.16.54.73/w8saWM68JruNx0L",
-        "url_status": "offline",
+        "id": "3898344",
+        "date_added": "2026-08-06 21:10:35",
+        "url": "http://94.154.43.44/bins/bin.armv4l",
+        "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "ua-wget"
+          "94-154-43-44",
+          "DEU",
+          "elf",
+          "geofenced",
+          "mirai"
         ]
       },
       {
-        "id": "3897960",
-        "date_added": "2026-08-06 14:13:34",
-        "url": "http://178.16.54.73/yczGGwjkmL47UYXiZWGf2",
-        "url_status": "offline",
+        "id": "3898345",
+        "date_added": "2026-08-06 21:10:35",
+        "url": "http://94.154.43.44/bins/bin.i686",
+        "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "ua-wget"
+          "94-154-43-44",
+          "DEU",
+          "elf",
+          "geofenced",
+          "mirai"
         ]
       },
       {
-        "id": "3897961",
-        "date_added": "2026-08-06 14:13:34",
-        "url": "http://178.16.54.73/bc41OLRe38DfO",
-        "url_status": "offline",
+        "id": "3898346",
+        "date_added": "2026-08-06 21:10:35",
+        "url": "http://94.154.43.44/bins/bin.mips",
+        "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "ua-wget"
+          "94-154-43-44",
+          "DEU",
+          "elf",
+          "geofenced",
+          "mirai"
         ]
       },
       {
-        "id": "3897962",
-        "date_added": "2026-08-06 14:13:34",
-        "url": "http://178.16.54.73/6ltXIfkPdHPs1kAbhN7gr",
-        "url_status": "offline",
+        "id": "3898347",
+        "date_added": "2026-08-06 21:10:35",
+        "url": "http://94.154.43.44/bins/bin.armv5l",
+        "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "ua-wget"
+          "94-154-43-44",
+          "DEU",
+          "elf",
+          "geofenced",
+          "mirai"
         ]
       },
       {
-        "id": "3897963",
-        "date_added": "2026-08-06 14:13:34",
-        "url": "http://178.16.54.73/9CSCJtaG4XFTcfPFVwcQx",
-        "url_status": "offline",
+        "id": "3898331",
+        "date_added": "2026-08-06 21:10:34",
+        "url": "http://94.154.43.44/bins/bin.powerpc-440fp",
+        "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "ua-wget"
+          "94-154-43-44",
+          "DEU",
+          "elf",
+          "geofenced",
+          "mirai"
         ]
       },
       {
-        "id": "3897964",
-        "date_added": "2026-08-06 14:13:34",
-        "url": "http://178.16.54.73/7Y1krq6rbDUf0rOw",
+        "id": "3898330",
+        "date_added": "2026-08-06 21:09:26",
+        "url": "https://104.239.66.130/Bin/ScreenConnect.ClientSetup.exe",
         "url_status": "offline",
         "threat": "malware_download",
         "tags": [
-          "ua-wget"
+          "104-239-66-130",
+          "connectwise",
+          "exe"
         ]
       }
     ]
   },
   "world_monitor": [
     {
-      "title": "FIFA pays up on overdue prize money after Jordan ‘blackmail’ remark",
-      "link": "https://www.aljazeera.com/sports/2026/8/6/fifa-pay-up-on-overdue-prize-money-after-jordan-blackmail-remark?traffic_source=rss",
-      "pubDate": "Thu, 06 Aug 2026 14:08:11 +0000",
+      "title": "Trump signs executive orders banning so-called ‘birth tourism’",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/6/trump-signs-executive-orders-banning-so-called-birth?traffic_source=rss",
+      "pubDate": "Thu, 06 Aug 2026 23:42:47 +0000",
       "source": "Al Jazeera",
-      "summary": "Jordan FA's president, ​Prince Ali bin Hussein, accused FIFA of 'blackmail', and delayed Arab Cup prize money now paid."
+      "summary": "US President Donald Trump signed two executive orders to further limit who is eligible for birthright citizenship."
     },
     {
-      "title": "What does the world pay for a child’s education?",
-      "link": "https://www.aljazeera.com/video/by-the-numbers-3/2026/8/6/what-does-the-world-pay-for-a-childs-education?traffic_source=rss",
-      "pubDate": "Thu, 06 Aug 2026 14:06:04 +0000",
-      "source": "Al Jazeera",
-      "summary": "Rich countries spend 41 times more on each child's education. AJLabs looks at the classroom inequality around the world."
-    },
-    {
-      "title": "US Senate committee votes to hold Fauci in contempt over Covid hearing",
-      "link": "https://www.bbc.co.uk/news/articles/c1m18158my9o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Thu, 06 Aug 2026 14:05:30 GMT",
-      "source": "BBC",
-      "summary": "The committee will now refer him for potential prosecution following his refusal to answer questions during a hearing focused on his handling of the Covid-19 pandemic."
-    },
-    {
-      "title": "DR Congo river boat under quarantine for Ebola after five deaths",
-      "link": "https://www.bbc.co.uk/news/articles/ce971plr2nvo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Thu, 06 Aug 2026 14:04:27 GMT",
-      "source": "BBC",
-      "summary": "The health minister says all the passengers are being screened as a precautionary measure."
-    },
-    {
-      "title": "Houthis claim to have killed 45 in attacks on Yemeni government forces",
-      "link": "https://www.aljazeera.com/news/2026/8/6/houthis-claim-to-have-killed-45-in-attacks-on-yemeni-government-forces?traffic_source=rss",
-      "pubDate": "Thu, 06 Aug 2026 13:59:41 +0000",
-      "source": "Al Jazeera",
-      "summary": "Attack is deadliest in Yemen's conflict between Houthis and government forces in years."
-    },
-    {
-      "title": "When atrocities return: The cost of failed accountability in Tigray",
-      "link": "https://www.aljazeera.com/news/2026/8/6/when-atrocities-return-the-cost-of-failed-accountability-in-tigray?traffic_source=rss",
-      "pubDate": "Thu, 06 Aug 2026 13:56:34 +0000",
-      "source": "Al Jazeera",
-      "summary": "Amnesty International says impunity for past abuses has left civilians vulnerable as fighting returns to Tigray."
-    },
-    {
-      "title": "UFC 331: Van-Pantoja rematch, Tsarukyan returns and full fight card",
-      "link": "https://www.aljazeera.com/sports/2026/8/6/ufc-331-van-pantoja-rematch-tsarukyan-returns-and-full-fight-card?traffic_source=rss",
-      "pubDate": "Thu, 06 Aug 2026 13:46:02 +0000",
-      "source": "Al Jazeera",
-      "summary": "Van and Pantoja to fight for flyweight title, while Tsarukyan faces the dangerous Mauricio Ruffy at lightweight."
-    },
-    {
-      "title": "Driver in Munich Car Ramming Attack Given Life in Prison",
-      "link": "https://www.nytimes.com/2026/08/06/world/europe/munich-car-attack-driver-sentence.html",
-      "pubDate": "Thu, 06 Aug 2026 12:55:16 +0000",
+      "title": "Houthi Attacks on Yemeni Military Threaten to Reignite Civil War",
+      "link": "https://www.nytimes.com/2026/08/06/world/middleeast/houthi-yemen-strikes.html",
+      "pubDate": "Thu, 06 Aug 2026 23:38:14 +0000",
       "source": "NYT World",
-      "summary": "The attack, in 2025, was one of several carried out in Germany in recent years by men with migrant backgrounds, shaking the public’s sense of safety."
+      "summary": "The Iranian-backed militia said it had targeted the armed forces in two resource-rich provinces, as escalating violence in Yemen imperils a fragile truce."
+    },
+    {
+      "title": "Iran’s Ghalibaf accuses Trump of conducting show diplomacy ‘on loop’",
+      "link": "https://www.aljazeera.com/news/2026/8/6/irans-ghalibaf-accuses-trump-of-conducting-show-diplomacy-on-loop?traffic_source=rss",
+      "pubDate": "Thu, 06 Aug 2026 23:34:47 +0000",
+      "source": "Al Jazeera",
+      "summary": "US president says he is involved in talks and war will end 'pretty soon', claiming that Iran cannot 'go much longer'."
+    },
+    {
+      "title": "Meta fined $567m in largest child safety ruling against social media giant",
+      "link": "https://www.bbc.co.uk/news/articles/cd7lz3wr2rlo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Thu, 06 Aug 2026 23:34:17 GMT",
+      "source": "BBC",
+      "summary": "A New Mexico judge ordered the Instagram, Facebook and Whatsapp parent company to pay another $567m for the way it has harmed children."
+    },
+    {
+      "title": "How Abdul El-Sayed’s ‘extraordinary’ win stunned pro-Israel establishment",
+      "link": "https://www.aljazeera.com/news/2026/8/6/how-abdul-el-sayeds-extraordinary-win-stunned-pro-israel-establishment?traffic_source=rss",
+      "pubDate": "Thu, 06 Aug 2026 22:59:29 +0000",
+      "source": "Al Jazeera",
+      "summary": "Michigan progressive fended off AIPAC as well as Democratic establishment in US Senate race, supporters say."
+    },
+    {
+      "title": "Far-right fitness clubs mask extremist recruitment, experts warn",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/6/aje-onl-nf_nationalism-3-0-nils-adler-060826?traffic_source=rss",
+      "pubDate": "Thu, 06 Aug 2026 22:00:43 +0000",
+      "source": "Al Jazeera",
+      "summary": "Al Jazeera's Nils Adler reports on how far-right 'Active Clubs' use fitness and camaraderie to recruit young white men."
+    },
+    {
+      "title": "Trump signs new executive orders seeking to limit US birthright citizenship",
+      "link": "https://www.aljazeera.com/news/2026/8/6/trump-signs-new-executive-orders-seeking-to-limit-birthright-citizenship?traffic_source=rss",
+      "pubDate": "Thu, 06 Aug 2026 21:27:19 +0000",
+      "source": "Al Jazeera",
+      "summary": "The US president's latest effort comes after Supreme Court ruled against his push to reinterpret constitutional right."
+    },
+    {
+      "title": "Fires Wrecked Their Village in France. Now They Want Answers.",
+      "link": "https://www.nytimes.com/2026/08/06/world/europe/le-porge-france-fires-village.html",
+      "pubDate": "Thu, 06 Aug 2026 20:36:35 +0000",
+      "source": "NYT World",
+      "summary": "After fleeing France’s worst wildfire in decades, residents of Le Porge, a village west of Bordeaux, returned home 13 days later. They found a town in ruins."
+    },
+    {
+      "title": "Trump denies US weapons shortage and says information 'leakers' being 'hunted down'",
+      "link": "https://www.bbc.co.uk/news/articles/cy8mjd19xm7o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Thu, 06 Aug 2026 18:53:51 GMT",
+      "source": "BBC",
+      "summary": "While precise data is classified, publicly available information suggests the US has used up many difficult-to-manufacture weapons."
+    },
+    {
+      "title": "South Korea space agency shares Moon images after SpaceX rocket debris crash",
+      "link": "https://www.bbc.co.uk/news/articles/cqjxgx5y51lo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Thu, 06 Aug 2026 17:38:51 GMT",
+      "source": "BBC",
+      "summary": "Seoul's lunar orbiter captured images of the Moon before and after part of SpaceX's rocket hit its surface on Wednesday."
+    },
+    {
+      "title": "Thousands of migrants still in Ceuta after border crisis, local leader says",
+      "link": "https://www.bbc.co.uk/news/articles/c0ejdj22zq9o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Thu, 06 Aug 2026 17:36:07 GMT",
+      "source": "BBC",
+      "summary": "The Spanish territory's mayor-president also says 100 deaths occurred as a result of 78,000 migrants crossing from neighbouring Morocco."
+    },
+    {
+      "title": "Uefa says boycott may still go ahead as FA withdraws Infantino support",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c2k74yevgzwo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Thu, 06 Aug 2026 16:11:30 GMT",
+      "source": "BBC",
+      "summary": "Fifa's backing of president Gianni Infantino at a meeting on Wednesday \"changes nothing\", says European governing body Uefa."
     },
     {
       "title": "Amid Intensifying Russian Strikes, Ukraine’s Pleas for Air Defenses Are Falling Flat",
@@ -494,20 +592,6 @@
       "pubDate": "Thu, 06 Aug 2026 12:47:39 +0000",
       "source": "NYT World",
       "summary": "Western allies are more hesitant to give up interceptor missiles they may need for their own defense as war rages on multiple fronts."
-    },
-    {
-      "title": "Ukraine hits two oil refineries deep in Russian territory",
-      "link": "https://www.bbc.co.uk/news/articles/cwymv212xrxo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Thu, 06 Aug 2026 12:18:48 GMT",
-      "source": "BBC",
-      "summary": "Ukraine's president says the strikes aim to limit revenues Russia \"used to finance\" its war."
-    },
-    {
-      "title": "Fires Wrecked Their Village in France. Now They Want Answers.",
-      "link": "https://www.nytimes.com/2026/08/06/world/europe/le-porge-france-fires-village.html",
-      "pubDate": "Thu, 06 Aug 2026 11:16:44 +0000",
-      "source": "NYT World",
-      "summary": "After fleeing France’s worst wildfire in decades, residents of Le Porge, a village west of Bordeaux, returned home 13 days later. They found a town in ruins."
     },
     {
       "title": "The Pentagon Is Posting Cryptic Biblical Messages on Social Media",
@@ -531,25 +615,11 @@
       "summary": "In the Mississippi town where Kohen Wiley died, community members had urged leaders to rein in the police. Are they listening now?\nThe post Black Residents Warned of Abusive Cops for Years. Then Police Shot and Killed a Toddler. appeared first on The"
     },
     {
-      "title": "In Odesa, no-one is safe from Russia's new Black Sea strikes",
-      "link": "https://www.bbc.co.uk/news/articles/cy8ev4y172yo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Thu, 06 Aug 2026 05:00:54 GMT",
-      "source": "BBC",
-      "summary": "Blackened ships and smashed docks mark Russia's recent surge of attacks on Ukraine's coastline."
-    },
-    {
       "title": "Country Music Festival Lights Up Nairobi",
       "link": "https://www.nytimes.com/2026/08/06/world/africa/country-music-nairobi-kenya-cowboys.html",
       "pubDate": "Thu, 06 Aug 2026 04:01:12 +0000",
       "source": "NYT World",
       "summary": "Fans gathered in Kenya to celebrate a genre born far away but that more and more Africans are coming to appreciate."
-    },
-    {
-      "title": "Iran says deal with Oman on Strait of Hormuz is in final stages",
-      "link": "https://www.bbc.co.uk/news/articles/ckg9d3eyeggo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Thu, 06 Aug 2026 01:19:59 GMT",
-      "source": "BBC",
-      "summary": "Neither the US or Oman have commented on the proposed agreement on the vital waterway."
     },
     {
       "title": "The Most Expensive Democratic Senate Primary Has a Winner",
@@ -610,6 +680,13 @@
   ],
   "syndication": [
     {
+      "title": "Canadian Man Pleads Guilty in Snowflake Extortions",
+      "link": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
+      "pubDate": "Thu, 06 Aug 2026 17:00:56 +0000",
+      "author": "KrebsOnSecurity",
+      "content": "A 26-year-old Canadian man once described as one of the most consequential cybercrime threat actors of 2024 has pleaded guilty to computer fraud and conspiracy to hack and extort more than 165 organizations that used the cloud data storage provider Snowflake. Connor Riley Moucka, of Kitchener, Ontar"
+    },
+    {
       "title": "Adversarial Clothing Designed to Fool Facial Recognition Systems",
       "link": "https://www.schneier.com/blog/archives/2026/08/adversarial-clothing-designed-to-fool-facial-recognition-systems.html",
       "pubDate": "2026-08-06T11:04:51.000Z",
@@ -664,23 +741,64 @@
       "pubDate": "Wed, 22 Jul 2026 01:10:38 +0000",
       "author": "KrebsOnSecurity",
       "content": "The home appliance giant LG Electronics USA said this week it plans to suspend any apps built for its smart TVs that turn one's television into an always-on residential proxy node. The move comes less than a month after researchers found that more than 42 percent of games and other apps available fo"
-    },
-    {
-      "title": "Microsoft Patches a Record 570 Security Flaws",
-      "link": "https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/",
-      "pubDate": "Tue, 14 Jul 2026 19:22:42 +0000",
-      "author": "KrebsOnSecurity",
-      "content": "Microsoft Corp. today released software updates to plug at least 570 security holes in its Windows operating systems and other software, almost triple the number of vulnerabilities the software giant fixed in its record-smashing Patch Tuesday release last month. Microsoft attributed the burgeoning p"
     }
   ],
   "syndicate_journal": [
     {
-      "title": "AI Made Me Look Foolish. Then I Learned",
-      "link": "https://nautil.us/ai-made-me-look-foolish-then-i-learned-1283376/",
-      "summary": "Ancient alchemy has a lot to teach us about chatbots\nThe post AI Made Me Look Foolish. Then I Learned appeared first on Nautilus.",
-      "pubDate": "Thu, 06 Aug 2026 14:00:00 +0000",
+      "title": "Life Originated Twice on Earth",
+      "link": "https://nautil.us/life-originated-twice-on-earth-1283481/",
+      "summary": "New research traces the origins of our metabolism back in time\nThe post Life Originated Twice on Earth appeared first on Nautilus.",
+      "pubDate": "Thu, 06 Aug 2026 22:00:00 +0000",
       "domain": "science",
       "source": "Nautilus"
+    },
+    {
+      "title": "Jonathan Demme’s Wild, Humanist Cinema Deserves a Reappraisal",
+      "link": "",
+      "summary": "There’s a Criterion Channel series paying tribute to director Jonathan Demme that, as short as it is, makes clear that Demme is due for a major reappraisal. It includes only four films —  (1986),  (1988),  (1991), and  (2008) — but each demonstrate both his confidence in mixing genre elements freely",
+      "pubDate": "2026-08-06T20:21:37.734Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "A One-Two Punch: New Drug Overfeeds—Then Starves—Cancer Cells",
+      "link": "https://nautil.us/a-one-two-punch-new-drug-overfeeds-then-starves-cancer-cells-1283471/",
+      "summary": "The two-step process could help fight other diseases as well\nThe post A One-Two Punch: New Drug Overfeeds—Then Starves—Cancer Cells appeared first on Nautilus.",
+      "pubDate": "Thu, 06 Aug 2026 20:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "\"Melt up\"?",
+      "link": "https://languagelog.ldc.upenn.edu/nll/?p=73987&utm_source=rss&utm_medium=rss&utm_campaign=melt-up",
+      "summary": "I was struck yesterday by the term Melt-Up in a story about the stock market: \"Tech Melt-Up Drives $3.5T Nasdaq 100 Gain in Four Days\", Bloomberg 8/5/2026: A dramatic turnaround in technology stocks has powered a $3.5 trillion increase in the Nasdaq 100’s market capitalization in just four days, dri",
+      "pubDate": "Thu, 06 Aug 2026 18:12:14 +0000",
+      "domain": "linguistics",
+      "source": "Language Log"
+    },
+    {
+      "title": "Your Big Brain Wouldn’t Be Possible Without Sugar",
+      "link": "https://nautil.us/your-big-brain-wouldnt-be-possible-without-sugar-1283454/",
+      "summary": "Pass the glucose\nThe post Your Big Brain Wouldn’t Be Possible Without Sugar appeared first on Nautilus.",
+      "pubDate": "Thu, 06 Aug 2026 18:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "Hollywood Is Losing Not Just Jobs but Entire Lineages",
+      "link": "",
+      "summary": "The flight of film and television production out of the United States is usually framed in terms of jobs and dollars. And no wonder: entire careers are evaporating at a nauseating rate, with US film and television production down 40 percent in 2024 from its 2022 peak. What gets less attention is a q",
+      "pubDate": "2026-08-06T17:38:26.409Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "Unions Can Save Tech Workers and Tech Work",
+      "link": "",
+      "summary": "A dramatic shift has taken place in the tech industry over the last several years. Industry leaders who once had a reputation as innovative forward thinkers are more familiar as misanthropic paranoiacs. The playful atmosphere of tech offices flush with investment, enjoying luxe catered lunches to at",
+      "pubDate": "2026-08-06T16:37:44.368Z",
+      "domain": "politics",
+      "source": "Jacobin"
     },
     {
       "title": "The Many Lives of Libraries",
@@ -697,22 +815,6 @@
       "pubDate": "Thu, 06 Aug 2026 13:37:48 +0000",
       "domain": "science",
       "source": "Quanta"
-    },
-    {
-      "title": "The US Beats Europe — in Wasteful Health Care Spending",
-      "link": "",
-      "summary": "When arguing that the US is much richer than Western Europe or other peer nations, there is one class of people who point to measures of gross domestic product (addressed ) and then another, higher, class of people who point to something called actual individual consumption (AIC). This latter group ",
-      "pubDate": "2026-08-06T12:35:23.013Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
-      "title": "The Best Mars Photos Taken by the Curiosity Rover",
-      "link": "https://nautil.us/the-best-mars-photos-taken-by-the-curiosity-rover-1283426/",
-      "summary": "We owe a lot to this 1,982-pound buggy\nThe post The Best Mars Photos Taken by the Curiosity Rover appeared first on Nautilus.",
-      "pubDate": "Thu, 06 Aug 2026 12:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
     },
     {
       "title": "The great arc",
@@ -753,30 +855,6 @@
       "pubDate": "Thu, 06 Aug 2026 00:00:00 -0400",
       "domain": "science",
       "source": "arXiv: cs.AI"
-    },
-    {
-      "title": "What to Do When Your Union Contract Is Voted Down",
-      "link": "",
-      "summary": "Like stumbling across a yeti or flying saucer, I was experiencing the seemingly impossible: a conversation between HR executives was warming the depths of my heart and giving me hope for the future.\nIt was December 2022, and I was attending a convening of company executives and labor leaders hosted ",
-      "pubDate": "2026-08-05T20:25:44.249Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
-      "title": "Three Things to Avoid in Middle Age If You Want to Stave Off Dementia",
-      "link": "https://nautil.us/three-things-to-avoid-in-middle-age-if-you-want-to-stave-off-dementia-1283422/",
-      "summary": "It may be easier said than done\nThe post Three Things to Avoid in Middle Age If You Want to Stave Off Dementia appeared first on Nautilus.",
-      "pubDate": "Wed, 05 Aug 2026 20:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
-      "title": "Yes, the Left Won Big Last Night",
-      "link": "",
-      "summary": "Something has shifted among the Democratic electorate.\nThat was already clear from Zohran Mamdani’s  of establishment royalty Andrew Cuomo in the New York mayoral race last year, punctuated by a series of yet more  over establishment incumbents seven months later. And it was clear from the primary e",
-      "pubDate": "2026-08-05T19:56:40.235Z",
-      "domain": "politics",
-      "source": "Jacobin"
     },
     {
       "title": "Corals Spin Tiny Vortices to Get Oxygen, but Not if It’s Too Hot",
@@ -833,14 +911,6 @@
       "pubDate": "Mon, 03 Aug 2026 15:05:20 +0000",
       "domain": "science",
       "source": "Quanta"
-    },
-    {
-      "title": "The journalist's despite?",
-      "link": "https://languagelog.ldc.upenn.edu/nll/?p=73957&utm_source=rss&utm_medium=rss&utm_campaign=the-journalists-despite",
-      "summary": "According to a recent BoingBoing segment, Ballots for a special election in England's Clacton-by-Sea are the longest ever produced in U.K. electoral history despite¹ only one major party contesting the race. The footnote: 1. This is the journalist's despite, wherein the word implies disregard when t",
-      "pubDate": "Mon, 03 Aug 2026 11:00:08 +0000",
-      "domain": "linguistics",
-      "source": "Language Log"
     },
     {
       "title": "Artificial Intelligence: Ars Notoria and the Promise of Instant Knowledge\n",
@@ -939,25 +1009,25 @@
       "source": "ROAR Magazine"
     },
     {
-      "title": "What shapes mathematics anxiety in K-12 education? A scoping review of research from 2019 to 2025",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1894090",
-      "summary": "IntroductionDespite growing interest in mathematics anxiety, comprehensive syntheses of recent K–12 research remain limited. This scoping review aims to map the literature on mathematics anxiety that was published between January 2019 and December 2025.MethodsFollowing PRISMA-ScR guidelines, this re",
+      "title": "Cosmetic enhancement as social signaling: context-dependent effects on facial evaluation in China and the United Kingdom",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1872745",
+      "summary": "IntroductionHuman observers rapidly infer socially relevant traits from faces, yet these judgments can be altered by appearance modifications such as cosmetic enhancement. It remains unclear whether cosmetic enhancement produces similar effects across different dimensions of facial evaluation and wh",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "Meta-analysis of cognitive, emotional, and behavioral predictors of academic achievement in higher education students",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1910328",
-      "summary": "BackgroundHigher education outcomes are frequently associated with cognitive ability and the outcomes of previous school years, but there are likely emotional and behavioral factors that contribute to these as well. This meta-analysis examined the relative effects of cognitive, emotional, and behavi",
+      "title": "The relationship between emotional competence, psychological resilience, and job burnout among primary school physical education teachers: the mediating role of psychological resilience",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1857739",
+      "summary": "ObjectiveThis study aimed to explore the relationships between emotional competence, psychological resilience and job burnout among primary school physical education (PE) teachers, and examine the mediating role of psychological resilience.MethodsA total of 228 teachers from 24 primary schools in Ch",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "Perceived organizational toxicity and workplace loneliness among public-school teachers in one province of Türkiye: a cross-sectional statistical mediation analysis of organizational agility",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1916512",
-      "summary": "IntroductionTeachers’ work is closely connected with communication, collegial support, coordination, and trust within the school environment. When these relationships are not experienced as sufficiently supportive or satisfying, teachers may experience loneliness at work. This study examined the ass",
+      "title": "The job creep-quiet quitting nexus revisited: servant leadership as a moderator in the manufacturing sector",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1895178",
+      "summary": "This study aims to examine the organizational and managerial factors influencing employees’ quiet quitting behavior. In this context, the study investigates the effect of job creep on quiet quitting and the moderating role of servant leadership in this relationship. A quantitative research design wa",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
@@ -965,64 +1035,64 @@
   ],
   "misinfo_toilet": [
     {
-      "headline": "Iran says deal with Oman on Strait of Hormuz is in final stages",
-      "fragment": "In the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
-      "splice": "Iran says deal with Oman on Strait of Hormuz is in final stages which is to say in the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
-      "seed": 20260820
-    },
-    {
       "headline": "Black Residents Warned of Abusive Cops for Years. Then Police Shot and Killed a Toddler.",
-      "fragment": "The simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
-      "splice": "Black Residents Warned of Abusive Cops for Years. Then Police Shot and Killed a Toddler. underneath the simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
-      "seed": 20260821
-    },
-    {
-      "headline": "Identifying the Crypto Entrepreneur Linked to Popular Forum Trading in ‘Leaked’ Nudes of Women",
-      "fragment": "An ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
-      "splice": "Identifying the Crypto Entrepreneur Linked to Popular Forum Trading in ‘Leaked’ Nudes of Women while an ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
-      "seed": 20260822
-    },
-    {
-      "headline": "US Senate committee votes to hold Fauci in contempt over Covid hearing",
       "fragment": "The technocrat is the natural friend of the dictator—computers and dictatorship.",
-      "splice": "US Senate committee votes to hold Fauci in contempt over Covid hearing insofar as the technocrat is the natural friend of the dictator—computers and dictatorship.",
-      "seed": 20260823
+      "splice": "Black Residents Warned of Abusive Cops for Years. Then Police Shot and Killed a Toddler. the system notes that the technocrat is the natural friend of the dictator—computers and dictatorship.",
+      "seed": 20260807
     },
     {
-      "headline": "UFC 331: Van-Pantoja rematch, Tsarukyan returns and full fight card",
-      "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "splice": "UFC 331: Van-Pantoja rematch, Tsarukyan returns and full fight card consequently it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "seed": 20260824
+      "headline": "Meta fined $567m in largest child safety ruling against social media giant",
+      "fragment": "Simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
+      "splice": "Meta fined $567m in largest child safety ruling against social media giant underneath simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
+      "seed": 20260808
     },
     {
-      "headline": "Driver in Munich Car Ramming Attack Given Life in Prison",
-      "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "splice": "Driver in Munich Car Ramming Attack Given Life in Prison not unlike it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "seed": 20260825
+      "headline": "The Most Expensive Democratic Senate Primary Has a Winner",
+      "fragment": "An ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
+      "splice": "The Most Expensive Democratic Senate Primary Has a Winner ...as an ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
+      "seed": 20260809
     },
     {
-      "headline": "Shahed-Type Drones Filmed During Mali Village Attacks",
+      "headline": "South Korea space agency shares Moon images after SpaceX rocket debris crash",
+      "fragment": "It is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
+      "splice": "South Korea space agency shares Moon images after SpaceX rocket debris crash while it is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
+      "seed": 20260810
+    },
+    {
+      "headline": "Thousands of migrants still in Ceuta after border crisis, local leader says",
       "fragment": "It is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
-      "splice": "Shahed-Type Drones Filmed During Mali Village Attacks despite it is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
-      "seed": 20260826
+      "splice": "Thousands of migrants still in Ceuta after border crisis, local leader says insofar as it is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
+      "seed": 20260811
     },
     {
-      "headline": "Venezuela’s Response to Earthquakes Exposes Government’s Shortcomings",
-      "fragment": "The privatization of the organs will only begin with the shame felt by man at the sight of man.",
-      "splice": "Venezuela’s Response to Earthquakes Exposes Government’s Shortcomings therefore the privatization of the organs will only begin with the shame felt by man at the sight of man.",
-      "seed": 20260827
+      "headline": "Welcome to Dubai: Kinahan Cartel’s Visas Revealed",
+      "fragment": "It is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
+      "splice": "Welcome to Dubai: Kinahan Cartel’s Visas Revealed insofar as it is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
+      "seed": 20260812
     },
     {
-      "headline": "When atrocities return: The cost of failed accountability in Tigray",
-      "fragment": "Traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "splice": "When atrocities return: The cost of failed accountability in Tigray ...as traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "seed": 20260828
+      "headline": "Fires Wrecked Their Village in France. Now They Want Answers.",
+      "fragment": "Underneath all reason lies delirium and drift.",
+      "splice": "Fires Wrecked Their Village in France. Now They Want Answers. which is to say underneath all reason lies delirium and drift.",
+      "seed": 20260813
     },
     {
-      "headline": "Country Music Festival Lights Up Nairobi",
-      "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
-      "splice": "Country Music Festival Lights Up Nairobi insofar as the revolutionary lives in the gap which separates technical progress from social totality.",
-      "seed": 20260829
+      "headline": "Between Graves and Uncertainty: The Management of the Dead After Venezuela’s Earthquake",
+      "fragment": "Antagonism is not now located externally, in the face-off between class blocs, but internally, in the psychology of the worker.",
+      "splice": "Between Graves and Uncertainty: The Management of the Dead After Venezuela’s Earthquake because antagonism is not now located externally, in the face-off between class blocs, but internally, in the psychology of the worker.",
+      "seed": 20260814
+    },
+    {
+      "headline": "Uefa says boycott may still go ahead as FA withdraws Infantino support",
+      "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "splice": "Uefa says boycott may still go ahead as FA withdraws Infantino support underneath the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "seed": 20260815
+    },
+    {
+      "headline": "Trump signs new executive orders seeking to limit US birthright citizenship",
+      "fragment": "The simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
+      "splice": "Trump signs new executive orders seeking to limit US birthright citizenship insofar as the simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
+      "seed": 20260816
     }
   ]
 }
