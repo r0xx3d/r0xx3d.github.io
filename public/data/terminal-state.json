@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T07:20:02.849Z",
+  "generated_at": "2026-08-07T10:03:19.764Z",
   "threat_intel": {
     "cisa_kev": [
       {
@@ -230,6 +230,73 @@
     ],
     "urlhaus": [
       {
+        "id": "3898364",
+        "date_added": "2026-08-07 08:40:21",
+        "url": "http://31.77.227.128/bins/c.sh",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "mirai",
+          "opendir",
+          "sh",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3898363",
+        "date_added": "2026-08-07 07:26:25",
+        "url": "http://94.26.83.35/ehrvdypc-gjc7hs5p-ysqckcka-5z3sw8fk/VKJEROWP.msi",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "ps1"
+        ]
+      },
+      {
+        "id": "3898362",
+        "date_added": "2026-08-07 07:26:12",
+        "url": "https://pub-c9224963ee6a49b194bba4acac778b13.r2.dev/VKJEROWP.msi",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "ps1"
+        ]
+      },
+      {
+        "id": "3898360",
+        "date_added": "2026-08-07 07:26:07",
+        "url": "https://ferncurrent14.com/2kqYRM0DCrnyJgoS4gVLl_FHJRRdTUhGCbjyuYwpZ6c/DANTE/update",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "ClickFix",
+          "DANTE",
+          "macho",
+          "macOS"
+        ]
+      },
+      {
+        "id": "3898361",
+        "date_added": "2026-08-07 07:26:07",
+        "url": "http://87.120.196.221/main_arm7",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "honeypot",
+          "iot"
+        ]
+      },
+      {
+        "id": "3898359",
+        "date_added": "2026-08-07 07:15:11",
+        "url": "https://www.mediafire.com/file/yl2g3svth10bgzd/file",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "iso"
+        ]
+      },
+      {
         "id": "3898357",
         "date_added": "2026-08-07 06:47:08",
         "url": "https://195.177.94.245/bin/support.client.exe",
@@ -329,7 +396,8 @@
         "threat": "malware_download",
         "tags": [
           "197b1ec4b9644da7b43669fd4f0ed73f",
-          "dropped-by-remus"
+          "dropped-by-remus",
+          "ZigClipper"
         ]
       },
       {
@@ -393,107 +461,79 @@
           "geofenced",
           "mirai"
         ]
-      },
-      {
-        "id": "3898335",
-        "date_added": "2026-08-06 21:10:35",
-        "url": "http://94.154.43.44/bins/bin.i586",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "94-154-43-44",
-          "DEU",
-          "elf",
-          "geofenced",
-          "mirai"
-        ]
-      },
-      {
-        "id": "3898336",
-        "date_added": "2026-08-06 21:10:35",
-        "url": "http://94.154.43.44/bins/bin.armv7l",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "94-154-43-44",
-          "DEU",
-          "elf",
-          "geofenced",
-          "mirai"
-        ]
-      },
-      {
-        "id": "3898337",
-        "date_added": "2026-08-06 21:10:35",
-        "url": "http://94.154.43.44/bins/bin.i486",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "94-154-43-44",
-          "DEU",
-          "elf",
-          "geofenced",
-          "mirai"
-        ]
-      },
-      {
-        "id": "3898338",
-        "date_added": "2026-08-06 21:10:35",
-        "url": "http://94.154.43.44/bins/bin.powerpc",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "94-154-43-44",
-          "DEU",
-          "elf",
-          "geofenced",
-          "mirai"
-        ]
-      },
-      {
-        "id": "3898339",
-        "date_added": "2026-08-06 21:10:35",
-        "url": "http://94.154.43.44/bins/bin.mips64",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "94-154-43-44",
-          "DEU",
-          "elf",
-          "geofenced",
-          "mirai"
-        ]
-      },
-      {
-        "id": "3898340",
-        "date_added": "2026-08-06 21:10:35",
-        "url": "http://94.154.43.44/bins/bin.mipsel",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "94-154-43-44",
-          "DEU",
-          "elf",
-          "geofenced",
-          "mirai"
-        ]
       }
     ]
   },
   "world_monitor": [
+    {
+      "title": "Thailand School Shooting Leaves at Least Eight Dead",
+      "link": "https://www.nytimes.com/2026/08/07/world/asia/thailand-school-shooting.html",
+      "pubDate": "Fri, 07 Aug 2026 09:49:53 +0000",
+      "source": "NYT World",
+      "summary": "A student killed his grandparents at their home before opening fire at a high school near Bangkok and turning the gun on himself, the authorities said."
+    },
+    {
+      "title": "Meta fined $567m in largest child safety ruling against social media giant",
+      "link": "https://www.bbc.co.uk/news/articles/cd7lz3wr2rlo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Fri, 07 Aug 2026 09:22:03 GMT",
+      "source": "BBC",
+      "summary": "The ruling is in addition to $375m in fines Meta was already ordered to pay in the case, for a total of $942m."
+    },
+    {
+      "title": "Several killed after student opens fire inside Thailand school",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/7/several-killed-after-student-opens-fire-inside-thailand-school?traffic_source=rss",
+      "pubDate": "Fri, 07 Aug 2026 09:13:48 +0000",
+      "source": "Al Jazeera",
+      "summary": "At least eight people were killed and 15 others injured after a student opened fire inside a school in Thailand."
+    },
+    {
+      "title": "The state of Iran’s three key nuclear sites ",
+      "link": "https://www.nytimes.com/2026/08/07/world/middleeast/iran-nuclear-program.html",
+      "pubDate": "Fri, 07 Aug 2026 09:02:36 +0000",
+      "source": "NYT World",
+      "summary": "The conflict may have slowed, but not stopped, Iran’s nuclear program, officials and experts said."
+    },
+    {
+      "title": "Trump Administration Fast-Tracks Military Partnership With Colombia to Target Drug Traffickers",
+      "link": "https://www.nytimes.com/2026/08/07/world/americas/trump-administration-military-partnership-colombia.html",
+      "pubDate": "Fri, 07 Aug 2026 09:02:00 +0000",
+      "source": "NYT World",
+      "summary": "The country’s new Trump-endorsed president takes office on Friday. Sweeping plans to target drug traffickers with U.S. help are already underway."
+    },
+    {
+      "title": "Seized on Their Way to Gaza, Activists Tell of Abuse in Israeli Custody",
+      "link": "https://www.nytimes.com/2026/08/07/world/middleeast/gaza-flotilla-israel-abuse.html",
+      "pubDate": "Fri, 07 Aug 2026 09:00:14 +0000",
+      "source": "NYT World",
+      "summary": "In interviews, more than 20 people who tried to break an Israeli blockade described beatings, electric shocks and other abuse after being captured. Israel denied the accusations."
+    },
+    {
+      "title": "The other classroom: Returning to sacred knowledge",
+      "link": "https://www.aljazeera.com/features/longform/2026/8/7/the-other-classroom-returning-to-sacred-knowledge?traffic_source=rss",
+      "pubDate": "Fri, 07 Aug 2026 08:41:06 +0000",
+      "source": "Al Jazeera",
+      "summary": "Why doctors, lawyers and other professionals are turning to Darul Qasim in Chicago to rediscover Islamic scholarship."
+    },
+    {
+      "title": "Africa backs Infantino as CAF unanimously votes in FIFA president’s favour",
+      "link": "https://www.aljazeera.com/sports/2026/8/7/africa-backs-infantino-as-caf-unanimously-votes-if-fifa-presidents-favour?traffic_source=rss",
+      "pubDate": "Fri, 07 Aug 2026 07:44:06 +0000",
+      "source": "Al Jazeera",
+      "summary": "CAF president Patrice Motsepe calls for good governance, as Africa throws weight behind FIFA's Gianni Infantino."
+    },
+    {
+      "title": "Earthquake strikes as doctors perform surgery",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/7/earthquake-strikes-as-doctors-perform-surgery?traffic_source=rss",
+      "pubDate": "Fri, 07 Aug 2026 07:43:05 +0000",
+      "source": "Al Jazeera",
+      "summary": "A viral video shows medical staff protecting a patient as an earthquake struck Japan during surgery."
+    },
     {
       "title": "‘Still searching for truth’: Daughter of Sikh activist killed 30 years ago",
       "link": "https://www.aljazeera.com/news/2026/8/7/still-searching-for-truth-daughter-of-sikh-activist-killed-30-years-ago?traffic_source=rss",
       "pubDate": "Fri, 07 Aug 2026 06:29:40 +0000",
       "source": "Al Jazeera",
       "summary": "Jaswant Singh Khalra's daughter Navkiran reflects on slain father's life and legacy, which also inspired a recent film."
-    },
-    {
-      "title": "Bodies of climbers killed in avalanche retrieved from Broad Peak",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/7/bodies-of-climbers-killed-in-avalanche-retrieved-from-broad-peak?traffic_source=rss",
-      "pubDate": "Fri, 07 Aug 2026 05:49:22 +0000",
-      "source": "Al Jazeera",
-      "summary": "A search team has retrieved the remains of renowned climber Nirmal Purja and several members of his team."
     },
     {
       "title": "Australian aviation crew carries out daring midwinter Antarctica rescue",
@@ -503,25 +543,11 @@
       "summary": "Team evacuated a patient from McMurdo Station after landing plane in total darkness and temperature of -43°C."
     },
     {
-      "title": "Mexico deploys troops to secure avocado region after US halts imports",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/7/mexico-deploys-troops-to-secure-avocado-region-after-us-halts-imports?traffic_source=rss",
-      "pubDate": "Fri, 07 Aug 2026 05:25:56 +0000",
-      "source": "Al Jazeera",
-      "summary": "Mexico deployed more than 1,500 troops to its main avocado-producing state after the US suspended export inspections."
-    },
-    {
-      "title": "Record-high heat soars through South Korea",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/7/record-high-heat-soars-through-south-korea?traffic_source=rss",
-      "pubDate": "Fri, 07 Aug 2026 05:00:48 +0000",
-      "source": "Al Jazeera",
-      "summary": "A record-high heatwave is sweeping through the Korean Peninsula, sending temperatures skyrocketing, reaching 42.5C."
-    },
-    {
-      "title": "Turkiye’s Erdogan visits Saudi Arabia: What to expect",
-      "link": "https://www.aljazeera.com/news/2026/8/7/turkiyes-erdogan-to-visit-saudi-arabia-what-to-expect?traffic_source=rss",
-      "pubDate": "Fri, 07 Aug 2026 04:43:43 +0000",
-      "source": "Al Jazeera",
-      "summary": "Erdogan will meet with Saudi Crown Prince Mohammed bin Salman and Pakistani PM Shehbaz Sharif, his office says."
+      "title": "Foreigners Behaving Badly in Vietnam Challenge Its Communist Justice System",
+      "link": "https://www.nytimes.com/2026/08/07/world/asia/vietnam-tourism-foreigners-crime-law.html",
+      "pubDate": "Fri, 07 Aug 2026 04:02:55 +0000",
+      "source": "NYT World",
+      "summary": "Vietnam is grappling with a surge in visitors, testing its Soviet-style criminal justice system as it tries to supercharge its economy through tourism."
     },
     {
       "title": "Uefa says boycott may still go ahead as FA withdraws Infantino support",
@@ -531,32 +557,11 @@
       "summary": "Fifa's backing of president Gianni Infantino at a meeting on Wednesday \"changes nothing\", says European governing body Uefa."
     },
     {
-      "title": "Meta fined $567m in largest child safety ruling against social media giant",
-      "link": "https://www.bbc.co.uk/news/articles/cd7lz3wr2rlo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Fri, 07 Aug 2026 00:54:03 GMT",
-      "source": "BBC",
-      "summary": "The ruling is in addition to $375m in fines Meta was already ordered to pay in the case, for a total of $942m."
-    },
-    {
       "title": "Trump again tries to limit US birthright citizenship with new executive orders",
       "link": "https://www.bbc.co.uk/news/articles/cj63966j95yo?at_medium=RSS&at_campaign=rss",
       "pubDate": "Fri, 07 Aug 2026 00:34:14 GMT",
       "source": "BBC",
       "summary": "The executive orders ban birth tourism and expand the existing definition of people whose children are not eligible for US birthright citizenship."
-    },
-    {
-      "title": "Houthi Attacks on Yemeni Military Threaten to Reignite Civil War",
-      "link": "https://www.nytimes.com/2026/08/06/world/middleeast/houthi-yemen-strikes.html",
-      "pubDate": "Thu, 06 Aug 2026 23:38:15 +0000",
-      "source": "NYT World",
-      "summary": "The Iranian-backed militia said it had targeted the armed forces in two resource-rich provinces, as escalating violence in Yemen imperils a fragile truce."
-    },
-    {
-      "title": "Fires Wrecked Their Village in France. Now They Want Answers.",
-      "link": "https://www.nytimes.com/2026/08/06/world/europe/le-porge-france-fires-village.html",
-      "pubDate": "Thu, 06 Aug 2026 20:36:36 +0000",
-      "source": "NYT World",
-      "summary": "After fleeing France’s worst wildfire in decades, residents of Le Porge, a village west of Bordeaux, returned home 13 days later. They found a town in ruins."
     },
     {
       "title": "Trump denies US weapons shortage and says information 'leakers' being 'hunted down'",
@@ -566,13 +571,6 @@
       "summary": "While precise data is classified, publicly available information suggests the US has used up many difficult-to-manufacture weapons."
     },
     {
-      "title": "Amid Intensifying Russian Strikes, Ukraine’s Pleas for Air Defenses Are Falling Flat",
-      "link": "https://www.nytimes.com/2026/08/06/world/europe/ukraine-russia-missile-defense-patriots.html",
-      "pubDate": "Thu, 06 Aug 2026 12:47:40 +0000",
-      "source": "NYT World",
-      "summary": "Western allies are more hesitant to give up interceptor missiles they may need for their own defense as war rages on multiple fronts."
-    },
-    {
       "title": "The Pentagon Is Posting Cryptic Biblical Messages on Social Media",
       "link": "https://theintercept.com/2026/08/06/pentagon-department-defense-isaiah-6-8-send-me-iran-war/",
       "pubDate": "Thu, 06 Aug 2026 10:06:00 +0000",
@@ -580,25 +578,11 @@
       "summary": "Defense Department accounts posted the biblical quote “SEND ME.” The Pentagon won’t say if its proselytizing is a message about the Iran war.\nThe post The Pentagon Is Posting Cryptic Biblical Messages on Social Media appeared first on The Intercept."
     },
     {
-      "title": "Venezuela’s Response to Earthquakes Exposes Government’s Shortcomings",
-      "link": "https://www.nytimes.com/2026/08/06/world/americas/venezuela-earthquakes-response-rodriguez.html",
-      "pubDate": "Thu, 06 Aug 2026 09:02:25 +0000",
-      "source": "NYT World",
-      "summary": "The government turned to the world to respond to twin quakes. But years of shrinking budgets and political repression weakened its ability to rescue countless people trapped in rubble."
-    },
-    {
       "title": "Black Residents Warned of Abusive Cops for Years. Then Police Shot and Killed a Toddler.",
       "link": "https://theintercept.com/2026/08/06/kohen-wiley-senatobia-mississippi-police-shooting/",
       "pubDate": "Thu, 06 Aug 2026 09:00:00 +0000",
       "source": "The Intercept",
       "summary": "In the Mississippi town where Kohen Wiley died, community members had urged leaders to rein in the police. Are they listening now?\nThe post Black Residents Warned of Abusive Cops for Years. Then Police Shot and Killed a Toddler. appeared first on The"
-    },
-    {
-      "title": "Country Music Festival Lights Up Nairobi",
-      "link": "https://www.nytimes.com/2026/08/06/world/africa/country-music-nairobi-kenya-cowboys.html",
-      "pubDate": "Thu, 06 Aug 2026 04:01:12 +0000",
-      "source": "NYT World",
-      "summary": "Fans gathered in Kenya to celebrate a genre born far away but that more and more Africans are coming to appreciate."
     },
     {
       "title": "The Most Expensive Democratic Senate Primary Has a Winner",
@@ -724,6 +708,14 @@
   ],
   "syndicate_journal": [
     {
+      "title": "Sasquatch science",
+      "link": "https://aeon.co/essays/the-surprisingly-scientific-methods-of-bigfooters",
+      "summary": "The hunt for Bigfoot sounds like the opposite of good science, but those pursuing the creature are often serious empiricists\n- by Andrew Bartlett & Jamie Lewis\nRead on Aeon",
+      "pubDate": "Fri, 07 Aug 2026 10:00:00 GMT",
+      "domain": "philosophy",
+      "source": "Aeon"
+    },
+    {
       "title": "Agentic Nesting: A New Methodology for Existing Enterprise Application Integration and Services",
       "link": "https://arxiv.org/abs/2608.05159",
       "summary": "arXiv:2608.05159v1 Announce Type: new \nAbstract: Enterprise operations extensively rely on multiple heterogeneous business systems and information applications, which also result in severe data silos and process fragmentation. Enterprises have invested considerable financial and material resources i",
@@ -756,6 +748,14 @@
       "source": "Nautilus"
     },
     {
+      "title": "Jonathan Demme’s Wild, Humanist Cinema Deserves a Reappraisal",
+      "link": "",
+      "summary": "There’s a Criterion Channel series paying tribute to director Jonathan Demme that, as short as it is, makes clear that Demme is due for a major reappraisal. It includes only four films —  (1986),  (1988),  (1991), and  (2008) — but each demonstrate both his confidence in mixing genre elements freely",
+      "pubDate": "2026-08-06T20:21:37.734Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
       "title": "A One-Two Punch: New Drug Overfeeds—Then Starves—Cancer Cells",
       "link": "https://nautil.us/a-one-two-punch-new-drug-overfeeds-then-starves-cancer-cells-1283471/",
       "summary": "The two-step process could help fight other diseases as well\nThe post A One-Two Punch: New Drug Overfeeds—Then Starves—Cancer Cells appeared first on Nautilus.",
@@ -778,6 +778,22 @@
       "pubDate": "Thu, 06 Aug 2026 18:00:00 +0000",
       "domain": "science",
       "source": "Nautilus"
+    },
+    {
+      "title": "Hollywood Is Losing Not Just Jobs but Entire Lineages",
+      "link": "",
+      "summary": "The flight of film and television production out of the United States is usually framed in terms of jobs and dollars. And no wonder: entire careers are evaporating at a nauseating rate, with US film and television production down 40 percent in 2024 from its 2022 peak. What gets less attention is a q",
+      "pubDate": "2026-08-06T17:38:26.409Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "Unions Can Save Tech Workers and Tech Work",
+      "link": "",
+      "summary": "A dramatic shift has taken place in the tech industry over the last several years. Industry leaders who once had a reputation as innovative forward thinkers are more familiar as misanthropic paranoiacs. The playful atmosphere of tech offices flush with investment, enjoying luxe catered lunches to at",
+      "pubDate": "2026-08-06T16:37:44.368Z",
+      "domain": "politics",
+      "source": "Jacobin"
     },
     {
       "title": "The Many Lives of Libraries",
@@ -834,14 +850,6 @@
       "pubDate": "Wed, 05 Aug 2026 12:26:19 +0000",
       "domain": "linguistics",
       "source": "Language Log"
-    },
-    {
-      "title": "The last ice age",
-      "link": "https://aeon.co/videos/as-glaciers-melt-a-writer-considers-what-stories-can-do-that-data-cannot",
-      "summary": "Retracing his grandparents’ journey to Iceland’s Vatnajökull glacier, a writer draws on storytelling to grasp climate change\n- by Aeon Video\nWatch on Aeon",
-      "pubDate": "Wed, 05 Aug 2026 10:01:00 GMT",
-      "domain": "philosophy",
-      "source": "Aeon"
     },
     {
       "title": "Ask LLOG: \"I's\" ?",
@@ -964,9 +972,9 @@
       "source": "ROAR Magazine"
     },
     {
-      "title": "Perceptions of inclusion among students with and without self-reported learning disabilities in Saudi schools",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1820826",
-      "summary": "IntroductionThis study examined perceptions of inclusive education among Saudi students with and without self-reported indicators of Specific Learning Disabilities (SLD), addressing limited evidence from Saudi schools.MethodsA correlational design was used with 694 Saudi students in Grades 4–9. Part",
+      "title": "Parental warmth, parental rejection, and vocational outcome expectations: the mediating roles of conscientiousness and perfectionism",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1861992",
+      "summary": "IntroductionThis study investigated how conscientiousness and perfectionism mediate the relationship between parental warmth and parental rejection and Vocational Outcome Expectations (VOE).MethodsData from 729 university students (ages 17–42) were ana lyzed via structural equation modeling.ResultsR",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
@@ -980,9 +988,9 @@
       "source": "Frontiers Psychology"
     },
     {
-      "title": "Inconclusive mutually reinforcing effects between associative learning and fluid intelligence: simulated reanalyses and a comment on Ren et al. (2026)",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1821604",
-      "summary": "Based on findings from analyses with the random-intercept cross-lagged panel model (RI-CLPM), Ren et al. concluded reinforcing longitudinal effects between associative learning and fluid intelligence. However, the RI-CLPM is susceptible to spurious findings. Here, we analyzed data simulated to resem",
+      "title": "Linguistic perspective-taking in verbal communication with LLMs: evidence of an egocentric bias",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1894763",
+      "summary": "Since the expansion of generative AI’s functions, chatbots such as Open AI’s Chat-GPT appear as more than tools. They can be perceived as communicative partners, shaping exchanges with high variability and linguistic competence. Current versions, such as Chat-GPT 5.5, even provide spoken language us",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
@@ -990,64 +998,64 @@
   ],
   "misinfo_toilet": [
     {
-      "headline": "There’s No Time for Centrists to Be Doomers About El-Sayed’s Victory",
-      "fragment": "To dissimulate is to pretend not to have what one has. To simulate is to feign to have what one doesn't have. One implies a presence, the other an absence.",
-      "splice": "There’s No Time for Centrists to Be Doomers About El-Sayed’s Victory because to dissimulate is to pretend not to have what one has. To simulate is to feign to have what one doesn't have. One implies a presence, the other an absence.",
-      "seed": 20260814
-    },
-    {
-      "headline": "Black Residents Warned of Abusive Cops for Years. Then Police Shot and Killed a Toddler.",
-      "fragment": "Simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
-      "splice": "Black Residents Warned of Abusive Cops for Years. Then Police Shot and Killed a Toddler. in the void where simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
-      "seed": 20260815
-    },
-    {
-      "headline": "Identifying the Crypto Entrepreneur Linked to Popular Forum Trading in ‘Leaked’ Nudes of Women",
-      "fragment": "The technocrat is the natural friend of the dictator—computers and dictatorship.",
-      "splice": "Identifying the Crypto Entrepreneur Linked to Popular Forum Trading in ‘Leaked’ Nudes of Women because the technocrat is the natural friend of the dictator—computers and dictatorship.",
-      "seed": 20260816
-    },
-    {
-      "headline": "Meta fined $567m in largest child safety ruling against social media giant",
-      "fragment": "The technocrat is the natural friend of the dictator—computers and dictatorship.",
-      "splice": "Meta fined $567m in largest child safety ruling against social media giant as if the technocrat is the natural friend of the dictator—computers and dictatorship.",
+      "headline": "The Most Expensive Democratic Senate Primary Has a Winner",
+      "fragment": "It is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
+      "splice": "The Most Expensive Democratic Senate Primary Has a Winner insofar as it is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
       "seed": 20260817
     },
     {
-      "headline": "Mexico deploys troops to secure avocado region after US halts imports",
-      "fragment": "In the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
-      "splice": "Mexico deploys troops to secure avocado region after US halts imports which is to say in the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
+      "headline": "Trump denies US weapons shortage and says information 'leakers' being 'hunted down'",
+      "fragment": "Underneath all reason lies delirium and drift.",
+      "splice": "Trump denies US weapons shortage and says information 'leakers' being 'hunted down' which is to say underneath all reason lies delirium and drift.",
       "seed": 20260818
     },
     {
-      "headline": "‘Still searching for truth’: Daughter of Sikh activist killed 30 years ago",
-      "fragment": "The simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
-      "splice": "‘Still searching for truth’: Daughter of Sikh activist killed 30 years ago underneath the simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
+      "headline": "Shahed-Type Drones Filmed During Mali Village Attacks",
+      "fragment": "Antagonism is not now located externally, in the face-off between class blocs, but internally, in the psychology of the worker.",
+      "splice": "Shahed-Type Drones Filmed During Mali Village Attacks because antagonism is not now located externally, in the face-off between class blocs, but internally, in the psychology of the worker.",
       "seed": 20260819
     },
     {
       "headline": "Between Graves and Uncertainty: The Management of the Dead After Venezuela’s Earthquake",
-      "fragment": "An ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
-      "splice": "Between Graves and Uncertainty: The Management of the Dead After Venezuela’s Earthquake while an ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
+      "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "splice": "Between Graves and Uncertainty: The Management of the Dead After Venezuela’s Earthquake underneath the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
       "seed": 20260820
     },
     {
-      "headline": "Venezuela’s Response to Earthquakes Exposes Government’s Shortcomings",
-      "fragment": "The technocrat is the natural friend of the dictator—computers and dictatorship.",
-      "splice": "Venezuela’s Response to Earthquakes Exposes Government’s Shortcomings insofar as the technocrat is the natural friend of the dictator—computers and dictatorship.",
+      "headline": "The other classroom: Returning to sacred knowledge",
+      "fragment": "The simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
+      "splice": "The other classroom: Returning to sacred knowledge insofar as the simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
       "seed": 20260821
     },
     {
-      "headline": "Turkiye’s Erdogan visits Saudi Arabia: What to expect",
-      "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "splice": "Turkiye’s Erdogan visits Saudi Arabia: What to expect consequently it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
+      "headline": "The state of Iran’s three key nuclear sites ",
+      "fragment": "The technocrat is the natural friend of the dictator—computers and dictatorship.",
+      "splice": "The state of Iran’s three key nuclear sites  the signal resolves into the technocrat is the natural friend of the dictator—computers and dictatorship.",
       "seed": 20260822
     },
     {
-      "headline": "Uefa says boycott may still go ahead as FA withdraws Infantino support",
-      "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "splice": "Uefa says boycott may still go ahead as FA withdraws Infantino support not unlike it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
+      "headline": "Identifying the Crypto Entrepreneur Linked to Popular Forum Trading in ‘Leaked’ Nudes of Women",
+      "fragment": "There is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
+      "splice": "Identifying the Crypto Entrepreneur Linked to Popular Forum Trading in ‘Leaked’ Nudes of Women the signal resolves into there is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
       "seed": 20260823
+    },
+    {
+      "headline": "Several killed after student opens fire inside Thailand school",
+      "fragment": "If it is true, for instance, that depression is caused by low serotonin levels, it would still be necessary to explain why particular individuals have low serotonin levels.",
+      "splice": "Several killed after student opens fire inside Thailand school in the void where if it is true, for instance, that depression is caused by low serotonin levels, it would still be necessary to explain why particular individuals have low serotonin levels.",
+      "seed": 20260824
+    },
+    {
+      "headline": "Trump again tries to limit US birthright citizenship with new executive orders",
+      "fragment": "Why do men fight for their servitude as stubbornly as though it were their salvation?",
+      "splice": "Trump again tries to limit US birthright citizenship with new executive orders as if why do men fight for their servitude as stubbornly as though it were their salvation?",
+      "seed": 20260825
+    },
+    {
+      "headline": "Meta fined $567m in largest child safety ruling against social media giant",
+      "fragment": "It is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
+      "splice": "Meta fined $567m in largest child safety ruling against social media giant within which it is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
+      "seed": 20260826
     }
   ]
 }
