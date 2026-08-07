@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T00:04:19.147Z",
+  "generated_at": "2026-08-07T04:56:52.023Z",
   "threat_intel": {
     "cisa_kev": [
       {
@@ -230,6 +230,17 @@
     ],
     "urlhaus": [
       {
+        "id": "3898350",
+        "date_added": "2026-08-07 01:13:07",
+        "url": "https://hindustanagency.com/666.exe",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "197b1ec4b9644da7b43669fd4f0ed73f",
+          "dropped-by-remus"
+        ]
+      },
+      {
         "id": "3898349",
         "date_added": "2026-08-06 21:45:24",
         "url": "http://85.137.245.141:9001/1.exe",
@@ -393,7 +404,7 @@
         "id": "3898342",
         "date_added": "2026-08-06 21:10:35",
         "url": "http://94.154.43.44/bins/bin.m68k",
-        "url_status": "online",
+        "url_status": "offline",
         "threat": "malware_download",
         "tags": [
           "94-154-43-44",
@@ -486,75 +497,84 @@
           "geofenced",
           "mirai"
         ]
-      },
-      {
-        "id": "3898330",
-        "date_added": "2026-08-06 21:09:26",
-        "url": "https://104.239.66.130/Bin/ScreenConnect.ClientSetup.exe",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "104-239-66-130",
-          "connectwise",
-          "exe"
-        ]
       }
     ]
   },
   "world_monitor": [
     {
-      "title": "Trump signs executive orders banning so-called ‘birth tourism’",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/6/trump-signs-executive-orders-banning-so-called-birth?traffic_source=rss",
-      "pubDate": "Thu, 06 Aug 2026 23:42:47 +0000",
+      "title": "Turkiye’s Erdogan visits Saudi Arabia: What to expect",
+      "link": "https://www.aljazeera.com/news/2026/8/7/turkiyes-erdogan-to-visit-saudi-arabia-what-to-expect?traffic_source=rss",
+      "pubDate": "Fri, 07 Aug 2026 04:43:43 +0000",
       "source": "Al Jazeera",
-      "summary": "US President Donald Trump signed two executive orders to further limit who is eligible for birthright citizenship."
+      "summary": "Erdogan will meet with Saudi Crown Prince Mohammed bin Salman and Pakistani PM Shehbaz Sharif, his office says."
     },
     {
-      "title": "Houthi Attacks on Yemeni Military Threaten to Reignite Civil War",
-      "link": "https://www.nytimes.com/2026/08/06/world/middleeast/houthi-yemen-strikes.html",
-      "pubDate": "Thu, 06 Aug 2026 23:38:14 +0000",
-      "source": "NYT World",
-      "summary": "The Iranian-backed militia said it had targeted the armed forces in two resource-rich provinces, as escalating violence in Yemen imperils a fragile truce."
+      "title": "One killed, four injured in Thailand school shooting, officials say",
+      "link": "https://www.aljazeera.com/news/2026/8/7/one-killed-four-injured-in-thailand-school-shooting-officials-say?traffic_source=rss",
+      "pubDate": "Fri, 07 Aug 2026 04:23:52 +0000",
+      "source": "Al Jazeera",
+      "summary": "Authorities say the gunman, a student, killed a teacher before taking his own life at a school northwest of Bangkok."
     },
     {
-      "title": "Iran’s Ghalibaf accuses Trump of conducting show diplomacy ‘on loop’",
-      "link": "https://www.aljazeera.com/news/2026/8/6/irans-ghalibaf-accuses-trump-of-conducting-show-diplomacy-on-loop?traffic_source=rss",
-      "pubDate": "Thu, 06 Aug 2026 23:34:47 +0000",
+      "title": "Anti-Muslim US Congressman Andy Ogles loses Republican primary",
+      "link": "https://www.aljazeera.com/news/2026/8/7/anti-muslim-us-congressman-andy-ogles-loses-congressional-primary?traffic_source=rss",
+      "pubDate": "Fri, 07 Aug 2026 04:04:45 +0000",
       "source": "Al Jazeera",
-      "summary": "US president says he is involved in talks and war will end 'pretty soon', claiming that Iran cannot 'go much longer'."
+      "summary": "Trump's endorsement fails to save Tennessee legislator who recently said 'Muslims don't belong in American society'."
+    },
+    {
+      "title": "Australian aviation crew carries out daring midwinter Antarctica rescue",
+      "link": "https://www.bbc.co.uk/news/articles/c89nqlz5p4qo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Fri, 07 Aug 2026 04:02:18 GMT",
+      "source": "BBC",
+      "summary": "Team evacuated a patient from McMurdo Station after landing plane in total darkness and temperature of -43°C."
+    },
+    {
+      "title": "AI used to create viruses not found in nature for first time",
+      "link": "https://www.aljazeera.com/economy/2026/8/7/ai-used-to-create-viruses-not-found-in-nature-for-first-time?traffic_source=rss",
+      "pubDate": "Fri, 07 Aug 2026 03:48:22 +0000",
+      "source": "Al Jazeera",
+      "summary": "US researchers say they created 16 viruses using AI, prompting hopes for medical advances and concerns about misuse."
+    },
+    {
+      "title": "More than one million affected by floods in India’s Assam state",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/7/more-than-one-million-affected-by-floods-in-indias-assam-state?traffic_source=rss",
+      "pubDate": "Fri, 07 Aug 2026 02:53:19 +0000",
+      "source": "Al Jazeera",
+      "summary": "Thousands of people in India have been displaced since July after monsoon rains triggered severe flooding."
+    },
+    {
+      "title": "Uefa says boycott may still go ahead as FA withdraws Infantino support",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c2k74yevgzwo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Fri, 07 Aug 2026 01:57:02 GMT",
+      "source": "BBC",
+      "summary": "Fifa's backing of president Gianni Infantino at a meeting on Wednesday \"changes nothing\", says European governing body Uefa."
     },
     {
       "title": "Meta fined $567m in largest child safety ruling against social media giant",
       "link": "https://www.bbc.co.uk/news/articles/cd7lz3wr2rlo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Thu, 06 Aug 2026 23:34:17 GMT",
+      "pubDate": "Fri, 07 Aug 2026 00:54:03 GMT",
       "source": "BBC",
       "summary": "A New Mexico judge ordered the Instagram, Facebook and Whatsapp parent company to pay another $567m for the way it has harmed children."
     },
     {
-      "title": "How Abdul El-Sayed’s ‘extraordinary’ win stunned pro-Israel establishment",
-      "link": "https://www.aljazeera.com/news/2026/8/6/how-abdul-el-sayeds-extraordinary-win-stunned-pro-israel-establishment?traffic_source=rss",
-      "pubDate": "Thu, 06 Aug 2026 22:59:29 +0000",
-      "source": "Al Jazeera",
-      "summary": "Michigan progressive fended off AIPAC as well as Democratic establishment in US Senate race, supporters say."
+      "title": "Trump again tries to limit US birthright citizenship with new executive orders",
+      "link": "https://www.bbc.co.uk/news/articles/cj63966j95yo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Fri, 07 Aug 2026 00:34:14 GMT",
+      "source": "BBC",
+      "summary": "The executive orders ban birth tourism and expand the existing definition of people whose children are not eligible for US birthright citizenship."
     },
     {
-      "title": "Far-right fitness clubs mask extremist recruitment, experts warn",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/6/aje-onl-nf_nationalism-3-0-nils-adler-060826?traffic_source=rss",
-      "pubDate": "Thu, 06 Aug 2026 22:00:43 +0000",
-      "source": "Al Jazeera",
-      "summary": "Al Jazeera's Nils Adler reports on how far-right 'Active Clubs' use fitness and camaraderie to recruit young white men."
-    },
-    {
-      "title": "Trump signs new executive orders seeking to limit US birthright citizenship",
-      "link": "https://www.aljazeera.com/news/2026/8/6/trump-signs-new-executive-orders-seeking-to-limit-birthright-citizenship?traffic_source=rss",
-      "pubDate": "Thu, 06 Aug 2026 21:27:19 +0000",
-      "source": "Al Jazeera",
-      "summary": "The US president's latest effort comes after Supreme Court ruled against his push to reinterpret constitutional right."
+      "title": "Houthi Attacks on Yemeni Military Threaten to Reignite Civil War",
+      "link": "https://www.nytimes.com/2026/08/06/world/middleeast/houthi-yemen-strikes.html",
+      "pubDate": "Thu, 06 Aug 2026 23:38:15 +0000",
+      "source": "NYT World",
+      "summary": "The Iranian-backed militia said it had targeted the armed forces in two resource-rich provinces, as escalating violence in Yemen imperils a fragile truce."
     },
     {
       "title": "Fires Wrecked Their Village in France. Now They Want Answers.",
       "link": "https://www.nytimes.com/2026/08/06/world/europe/le-porge-france-fires-village.html",
-      "pubDate": "Thu, 06 Aug 2026 20:36:35 +0000",
+      "pubDate": "Thu, 06 Aug 2026 20:36:36 +0000",
       "source": "NYT World",
       "summary": "After fleeing France’s worst wildfire in decades, residents of Le Porge, a village west of Bordeaux, returned home 13 days later. They found a town in ruins."
     },
@@ -566,30 +586,9 @@
       "summary": "While precise data is classified, publicly available information suggests the US has used up many difficult-to-manufacture weapons."
     },
     {
-      "title": "South Korea space agency shares Moon images after SpaceX rocket debris crash",
-      "link": "https://www.bbc.co.uk/news/articles/cqjxgx5y51lo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Thu, 06 Aug 2026 17:38:51 GMT",
-      "source": "BBC",
-      "summary": "Seoul's lunar orbiter captured images of the Moon before and after part of SpaceX's rocket hit its surface on Wednesday."
-    },
-    {
-      "title": "Thousands of migrants still in Ceuta after border crisis, local leader says",
-      "link": "https://www.bbc.co.uk/news/articles/c0ejdj22zq9o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Thu, 06 Aug 2026 17:36:07 GMT",
-      "source": "BBC",
-      "summary": "The Spanish territory's mayor-president also says 100 deaths occurred as a result of 78,000 migrants crossing from neighbouring Morocco."
-    },
-    {
-      "title": "Uefa says boycott may still go ahead as FA withdraws Infantino support",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c2k74yevgzwo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Thu, 06 Aug 2026 16:11:30 GMT",
-      "source": "BBC",
-      "summary": "Fifa's backing of president Gianni Infantino at a meeting on Wednesday \"changes nothing\", says European governing body Uefa."
-    },
-    {
       "title": "Amid Intensifying Russian Strikes, Ukraine’s Pleas for Air Defenses Are Falling Flat",
       "link": "https://www.nytimes.com/2026/08/06/world/europe/ukraine-russia-missile-defense-patriots.html",
-      "pubDate": "Thu, 06 Aug 2026 12:47:39 +0000",
+      "pubDate": "Thu, 06 Aug 2026 12:47:40 +0000",
       "source": "NYT World",
       "summary": "Western allies are more hesitant to give up interceptor missiles they may need for their own defense as war rages on multiple fronts."
     },
@@ -745,6 +744,30 @@
   ],
   "syndicate_journal": [
     {
+      "title": "Agentic Nesting: A New Methodology for Existing Enterprise Application Integration and Services",
+      "link": "https://arxiv.org/abs/2608.05159",
+      "summary": "arXiv:2608.05159v1 Announce Type: new \nAbstract: Enterprise operations extensively rely on multiple heterogeneous business systems and information applications, which also result in severe data silos and process fragmentation. Enterprises have invested considerable financial and material resources i",
+      "pubDate": "Fri, 07 Aug 2026 00:00:00 -0400",
+      "domain": "science",
+      "source": "arXiv: cs.AI"
+    },
+    {
+      "title": "The Ignition Index: Measuring Global Workspace Dynamics in Language Models",
+      "link": "https://arxiv.org/abs/2608.05160",
+      "summary": "arXiv:2608.05160v1 Announce Type: new \nAbstract: We introduce the Ignition Index (I), a validated scalar metric that operationalizes Global Workspace Theory's (GWT) all-or-none ignition prediction in transformer language models. The metric fits a four-parameter sigmoid to per-layer linear probe accu",
+      "pubDate": "Fri, 07 Aug 2026 00:00:00 -0400",
+      "domain": "science",
+      "source": "arXiv: cs.AI"
+    },
+    {
+      "title": "Woodpecker Distillation: Weak Models Diagnose Reasoning Bugs in Strong Models",
+      "link": "https://arxiv.org/abs/2608.05168",
+      "summary": "arXiv:2608.05168v1 Announce Type: new \nAbstract: Large language models often fail on reasoning tasks despite possessing the capability to solve them. We argue that many such failures arise from localized reasoning bugs in intermediate steps rather than from global incompetence. We show that these bu",
+      "pubDate": "Fri, 07 Aug 2026 00:00:00 -0400",
+      "domain": "science",
+      "source": "arXiv: cs.AI"
+    },
+    {
       "title": "Life Originated Twice on Earth",
       "link": "https://nautil.us/life-originated-twice-on-earth-1283481/",
       "summary": "New research traces the origins of our metabolism back in time\nThe post Life Originated Twice on Earth appeared first on Nautilus.",
@@ -831,30 +854,6 @@
       "pubDate": "Thu, 06 Aug 2026 10:00:00 GMT",
       "domain": "philosophy",
       "source": "Aeon"
-    },
-    {
-      "title": "A Long-Run Persistence Theory for AI Systems under the Redundancy-Adjusted Artificial Age Score (AAS)",
-      "link": "https://arxiv.org/abs/2608.04012",
-      "summary": "arXiv:2608.04012v1 Announce Type: new \nAbstract: Artificial intelligence systems are increasingly expected to operate over repeated cycles of interaction, adaptation, and update rather than through isolated one-shot outputs. This raises a fundamental theoretical question: can an AI system persist in",
-      "pubDate": "Thu, 06 Aug 2026 00:00:00 -0400",
-      "domain": "science",
-      "source": "arXiv: cs.AI"
-    },
-    {
-      "title": "The LLM Proposes, the Executive Disposes: A Self-Verifying Agent Instrument that Dissociates Commitment Drift from Binding Drift in Long-Horizon Agents",
-      "link": "https://arxiv.org/abs/2608.04066",
-      "summary": "arXiv:2608.04066v1 Announce Type: new \nAbstract: How do you verify a long-horizon agent when its own state and self-reports are exactly what you cannot trust? We present an agent instrument built so that verification is structural rather than post-hoc. A deterministic Executive owns all belief; a la",
-      "pubDate": "Thu, 06 Aug 2026 00:00:00 -0400",
-      "domain": "science",
-      "source": "arXiv: cs.AI"
-    },
-    {
-      "title": "Monte Carlo Tree Search for Table-to-Multimodal Report Generation",
-      "link": "https://arxiv.org/abs/2608.04071",
-      "summary": "arXiv:2608.04071v1 Announce Type: new \nAbstract: Automatically generating professional multimodal reports comprising both textual analysis and visual charts from structured tabular data is a critical challenge in data intelligence. Existing methods suffer from fixed linear pipelines and isolated sub",
-      "pubDate": "Thu, 06 Aug 2026 00:00:00 -0400",
-      "domain": "science",
-      "source": "arXiv: cs.AI"
     },
     {
       "title": "Corals Spin Tiny Vortices to Get Oxygen, but Not if It’s Too Hot",
@@ -1009,25 +1008,25 @@
       "source": "ROAR Magazine"
     },
     {
-      "title": "Cosmetic enhancement as social signaling: context-dependent effects on facial evaluation in China and the United Kingdom",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1872745",
-      "summary": "IntroductionHuman observers rapidly infer socially relevant traits from faces, yet these judgments can be altered by appearance modifications such as cosmetic enhancement. It remains unclear whether cosmetic enhancement produces similar effects across different dimensions of facial evaluation and wh",
+      "title": "Supporting social-emotional competence in pre-service teachers: evidence from higher learning teacher education institutions in Tanzania",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1891678",
+      "summary": "Social-emotional competence (SEC) is important for teachers' professional practice and wellbeing, yet evidence regarding its development in Tanzanian pre-service teacher education remains limited. Guided by Social Cognitive Theory, this study examined the associations of perceived university curricu",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "The relationship between emotional competence, psychological resilience, and job burnout among primary school physical education teachers: the mediating role of psychological resilience",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1857739",
-      "summary": "ObjectiveThis study aimed to explore the relationships between emotional competence, psychological resilience and job burnout among primary school physical education (PE) teachers, and examine the mediating role of psychological resilience.MethodsA total of 228 teachers from 24 primary schools in Ch",
+      "title": "Perceptions of mental health stigma toward diagnostic labels among health professionals and mental health users: a Delphi study",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1863313",
+      "summary": "BackgroundThe stigma associated with mental disorders influences help-seeking behavior, quality of care, and recovery outcomes. Although diagnostic labels are essential for clinical communication and research, they may also evoke negative social perceptions that contribute to discrimination and self",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "The job creep-quiet quitting nexus revisited: servant leadership as a moderator in the manufacturing sector",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1895178",
-      "summary": "This study aims to examine the organizational and managerial factors influencing employees’ quiet quitting behavior. In this context, the study investigates the effect of job creep on quiet quitting and the moderating role of servant leadership in this relationship. A quantitative research design wa",
+      "title": "From anticipation to memory: a systematic review of tourist emotional experience",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1907118",
+      "summary": "Tourist emotional experience has emerged as a central concept in understanding how individuals psychologically engage with tourism environments. It is reflects a broader shift from functional attributes to experiential and affective dimensions of travel. However, existing research tends to focus on ",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
@@ -1035,64 +1034,64 @@
   ],
   "misinfo_toilet": [
     {
-      "headline": "Black Residents Warned of Abusive Cops for Years. Then Police Shot and Killed a Toddler.",
-      "fragment": "The technocrat is the natural friend of the dictator—computers and dictatorship.",
-      "splice": "Black Residents Warned of Abusive Cops for Years. Then Police Shot and Killed a Toddler. the system notes that the technocrat is the natural friend of the dictator—computers and dictatorship.",
-      "seed": 20260807
-    },
-    {
-      "headline": "Meta fined $567m in largest child safety ruling against social media giant",
+      "headline": "Venezuela’s Response to Earthquakes Exposes Government’s Shortcomings",
       "fragment": "Simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
-      "splice": "Meta fined $567m in largest child safety ruling against social media giant underneath simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
-      "seed": 20260808
-    },
-    {
-      "headline": "The Most Expensive Democratic Senate Primary Has a Winner",
-      "fragment": "An ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
-      "splice": "The Most Expensive Democratic Senate Primary Has a Winner ...as an ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
-      "seed": 20260809
-    },
-    {
-      "headline": "South Korea space agency shares Moon images after SpaceX rocket debris crash",
-      "fragment": "It is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
-      "splice": "South Korea space agency shares Moon images after SpaceX rocket debris crash while it is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
-      "seed": 20260810
-    },
-    {
-      "headline": "Thousands of migrants still in Ceuta after border crisis, local leader says",
-      "fragment": "It is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
-      "splice": "Thousands of migrants still in Ceuta after border crisis, local leader says insofar as it is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
+      "splice": "Venezuela’s Response to Earthquakes Exposes Government’s Shortcomings underneath simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
       "seed": 20260811
     },
     {
-      "headline": "Welcome to Dubai: Kinahan Cartel’s Visas Revealed",
-      "fragment": "It is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
-      "splice": "Welcome to Dubai: Kinahan Cartel’s Visas Revealed insofar as it is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
+      "headline": "Country Music Festival Lights Up Nairobi",
+      "fragment": "An ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
+      "splice": "Country Music Festival Lights Up Nairobi ...as an ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
       "seed": 20260812
     },
     {
-      "headline": "Fires Wrecked Their Village in France. Now They Want Answers.",
-      "fragment": "Underneath all reason lies delirium and drift.",
-      "splice": "Fires Wrecked Their Village in France. Now They Want Answers. which is to say underneath all reason lies delirium and drift.",
+      "headline": "Between Graves and Uncertainty: The Management of the Dead After Venezuela’s Earthquake",
+      "fragment": "It is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
+      "splice": "Between Graves and Uncertainty: The Management of the Dead After Venezuela’s Earthquake while it is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
       "seed": 20260813
     },
     {
-      "headline": "Between Graves and Uncertainty: The Management of the Dead After Venezuela’s Earthquake",
-      "fragment": "Antagonism is not now located externally, in the face-off between class blocs, but internally, in the psychology of the worker.",
-      "splice": "Between Graves and Uncertainty: The Management of the Dead After Venezuela’s Earthquake because antagonism is not now located externally, in the face-off between class blocs, but internally, in the psychology of the worker.",
+      "headline": "Australian aviation crew carries out daring midwinter Antarctica rescue",
+      "fragment": "It is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
+      "splice": "Australian aviation crew carries out daring midwinter Antarctica rescue insofar as it is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
       "seed": 20260814
     },
     {
-      "headline": "Uefa says boycott may still go ahead as FA withdraws Infantino support",
-      "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
-      "splice": "Uefa says boycott may still go ahead as FA withdraws Infantino support underneath the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "headline": "Trump again tries to limit US birthright citizenship with new executive orders",
+      "fragment": "It is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
+      "splice": "Trump again tries to limit US birthright citizenship with new executive orders insofar as it is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
       "seed": 20260815
     },
     {
-      "headline": "Trump signs new executive orders seeking to limit US birthright citizenship",
-      "fragment": "The simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
-      "splice": "Trump signs new executive orders seeking to limit US birthright citizenship insofar as the simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
+      "headline": "When a President Promises a Massacre",
+      "fragment": "Underneath all reason lies delirium and drift.",
+      "splice": "When a President Promises a Massacre which is to say underneath all reason lies delirium and drift.",
       "seed": 20260816
+    },
+    {
+      "headline": "Shahed-Type Drones Filmed During Mali Village Attacks",
+      "fragment": "Antagonism is not now located externally, in the face-off between class blocs, but internally, in the psychology of the worker.",
+      "splice": "Shahed-Type Drones Filmed During Mali Village Attacks because antagonism is not now located externally, in the face-off between class blocs, but internally, in the psychology of the worker.",
+      "seed": 20260817
+    },
+    {
+      "headline": "Houthi Attacks on Yemeni Military Threaten to Reignite Civil War",
+      "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "splice": "Houthi Attacks on Yemeni Military Threaten to Reignite Civil War underneath the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "seed": 20260818
+    },
+    {
+      "headline": "Uefa says boycott may still go ahead as FA withdraws Infantino support",
+      "fragment": "The simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
+      "splice": "Uefa says boycott may still go ahead as FA withdraws Infantino support insofar as the simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
+      "seed": 20260819
+    },
+    {
+      "headline": "Identifying the Crypto Entrepreneur Linked to Popular Forum Trading in ‘Leaked’ Nudes of Women",
+      "fragment": "The technocrat is the natural friend of the dictator—computers and dictatorship.",
+      "splice": "Identifying the Crypto Entrepreneur Linked to Popular Forum Trading in ‘Leaked’ Nudes of Women the signal resolves into the technocrat is the natural friend of the dictator—computers and dictatorship.",
+      "seed": 20260820
     }
   ]
 }
