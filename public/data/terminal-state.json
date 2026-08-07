@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T04:56:52.023Z",
+  "generated_at": "2026-08-07T07:20:02.849Z",
   "threat_intel": {
     "cisa_kev": [
       {
@@ -230,6 +230,98 @@
     ],
     "urlhaus": [
       {
+        "id": "3898357",
+        "date_added": "2026-08-07 06:47:08",
+        "url": "https://195.177.94.245/bin/support.client.exe",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "195-177-94-245",
+          "connectwise",
+          "exe"
+        ]
+      },
+      {
+        "id": "3898358",
+        "date_added": "2026-08-07 06:47:08",
+        "url": "https://195.177.94.245/Bin/ScreenConnect.ClientSetup.exe",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "195-177-94-245",
+          "connectwise",
+          "exe"
+        ]
+      },
+      {
+        "id": "3898356",
+        "date_added": "2026-08-07 06:43:09",
+        "url": "https://217.217.97.36/Bin/ScreenConnect.ClientSetup.exe",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "217-217-97-36",
+          "connectwise",
+          "exe"
+        ]
+      },
+      {
+        "id": "3898355",
+        "date_added": "2026-08-07 06:43:07",
+        "url": "https://217.217.97.36/bin/support.client.exe",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "217-217-97-36",
+          "connectwise",
+          "exe"
+        ]
+      },
+      {
+        "id": "3898352",
+        "date_added": "2026-08-07 05:55:08",
+        "url": "http://156.246.95.231/sys/A/EC_puller.vbs",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "156-246-95-231",
+          "vbs"
+        ]
+      },
+      {
+        "id": "3898353",
+        "date_added": "2026-08-07 05:55:08",
+        "url": "http://156.246.95.231/sys/A/test.exe",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "156-246-95-231",
+          "exe"
+        ]
+      },
+      {
+        "id": "3898354",
+        "date_added": "2026-08-07 05:55:08",
+        "url": "http://156.246.95.231/sys/A/34534.exe",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "156-246-95-231",
+          "exe"
+        ]
+      },
+      {
+        "id": "3898351",
+        "date_added": "2026-08-07 05:55:07",
+        "url": "http://156.246.95.231/sys/A/white_notepad_rcdata.vbs",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "156-246-95-231",
+          "vbs"
+        ]
+      },
+      {
         "id": "3898350",
         "date_added": "2026-08-07 01:13:07",
         "url": "https://hindustanagency.com/666.exe",
@@ -385,163 +477,51 @@
           "geofenced",
           "mirai"
         ]
-      },
-      {
-        "id": "3898341",
-        "date_added": "2026-08-06 21:10:35",
-        "url": "http://94.154.43.44/bins/bin.sh4",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "94-154-43-44",
-          "DEU",
-          "elf",
-          "geofenced",
-          "mirai"
-        ]
-      },
-      {
-        "id": "3898342",
-        "date_added": "2026-08-06 21:10:35",
-        "url": "http://94.154.43.44/bins/bin.m68k",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "94-154-43-44",
-          "DEU",
-          "elf",
-          "geofenced",
-          "mirai"
-        ]
-      },
-      {
-        "id": "3898343",
-        "date_added": "2026-08-06 21:10:35",
-        "url": "http://94.154.43.44/bins/bin.armv4tl",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "94-154-43-44",
-          "DEU",
-          "elf",
-          "geofenced",
-          "mirai"
-        ]
-      },
-      {
-        "id": "3898344",
-        "date_added": "2026-08-06 21:10:35",
-        "url": "http://94.154.43.44/bins/bin.armv4l",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "94-154-43-44",
-          "DEU",
-          "elf",
-          "geofenced",
-          "mirai"
-        ]
-      },
-      {
-        "id": "3898345",
-        "date_added": "2026-08-06 21:10:35",
-        "url": "http://94.154.43.44/bins/bin.i686",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "94-154-43-44",
-          "DEU",
-          "elf",
-          "geofenced",
-          "mirai"
-        ]
-      },
-      {
-        "id": "3898346",
-        "date_added": "2026-08-06 21:10:35",
-        "url": "http://94.154.43.44/bins/bin.mips",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "94-154-43-44",
-          "DEU",
-          "elf",
-          "geofenced",
-          "mirai"
-        ]
-      },
-      {
-        "id": "3898347",
-        "date_added": "2026-08-06 21:10:35",
-        "url": "http://94.154.43.44/bins/bin.armv5l",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "94-154-43-44",
-          "DEU",
-          "elf",
-          "geofenced",
-          "mirai"
-        ]
-      },
-      {
-        "id": "3898331",
-        "date_added": "2026-08-06 21:10:34",
-        "url": "http://94.154.43.44/bins/bin.powerpc-440fp",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "94-154-43-44",
-          "DEU",
-          "elf",
-          "geofenced",
-          "mirai"
-        ]
       }
     ]
   },
   "world_monitor": [
+    {
+      "title": "‘Still searching for truth’: Daughter of Sikh activist killed 30 years ago",
+      "link": "https://www.aljazeera.com/news/2026/8/7/still-searching-for-truth-daughter-of-sikh-activist-killed-30-years-ago?traffic_source=rss",
+      "pubDate": "Fri, 07 Aug 2026 06:29:40 +0000",
+      "source": "Al Jazeera",
+      "summary": "Jaswant Singh Khalra's daughter Navkiran reflects on slain father's life and legacy, which also inspired a recent film."
+    },
+    {
+      "title": "Bodies of climbers killed in avalanche retrieved from Broad Peak",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/7/bodies-of-climbers-killed-in-avalanche-retrieved-from-broad-peak?traffic_source=rss",
+      "pubDate": "Fri, 07 Aug 2026 05:49:22 +0000",
+      "source": "Al Jazeera",
+      "summary": "A search team has retrieved the remains of renowned climber Nirmal Purja and several members of his team."
+    },
+    {
+      "title": "Australian aviation crew carries out daring midwinter Antarctica rescue",
+      "link": "https://www.bbc.co.uk/news/articles/c89nqlz5p4qo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Fri, 07 Aug 2026 05:44:29 GMT",
+      "source": "BBC",
+      "summary": "Team evacuated a patient from McMurdo Station after landing plane in total darkness and temperature of -43°C."
+    },
+    {
+      "title": "Mexico deploys troops to secure avocado region after US halts imports",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/7/mexico-deploys-troops-to-secure-avocado-region-after-us-halts-imports?traffic_source=rss",
+      "pubDate": "Fri, 07 Aug 2026 05:25:56 +0000",
+      "source": "Al Jazeera",
+      "summary": "Mexico deployed more than 1,500 troops to its main avocado-producing state after the US suspended export inspections."
+    },
+    {
+      "title": "Record-high heat soars through South Korea",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/7/record-high-heat-soars-through-south-korea?traffic_source=rss",
+      "pubDate": "Fri, 07 Aug 2026 05:00:48 +0000",
+      "source": "Al Jazeera",
+      "summary": "A record-high heatwave is sweeping through the Korean Peninsula, sending temperatures skyrocketing, reaching 42.5C."
+    },
     {
       "title": "Turkiye’s Erdogan visits Saudi Arabia: What to expect",
       "link": "https://www.aljazeera.com/news/2026/8/7/turkiyes-erdogan-to-visit-saudi-arabia-what-to-expect?traffic_source=rss",
       "pubDate": "Fri, 07 Aug 2026 04:43:43 +0000",
       "source": "Al Jazeera",
       "summary": "Erdogan will meet with Saudi Crown Prince Mohammed bin Salman and Pakistani PM Shehbaz Sharif, his office says."
-    },
-    {
-      "title": "One killed, four injured in Thailand school shooting, officials say",
-      "link": "https://www.aljazeera.com/news/2026/8/7/one-killed-four-injured-in-thailand-school-shooting-officials-say?traffic_source=rss",
-      "pubDate": "Fri, 07 Aug 2026 04:23:52 +0000",
-      "source": "Al Jazeera",
-      "summary": "Authorities say the gunman, a student, killed a teacher before taking his own life at a school northwest of Bangkok."
-    },
-    {
-      "title": "Anti-Muslim US Congressman Andy Ogles loses Republican primary",
-      "link": "https://www.aljazeera.com/news/2026/8/7/anti-muslim-us-congressman-andy-ogles-loses-congressional-primary?traffic_source=rss",
-      "pubDate": "Fri, 07 Aug 2026 04:04:45 +0000",
-      "source": "Al Jazeera",
-      "summary": "Trump's endorsement fails to save Tennessee legislator who recently said 'Muslims don't belong in American society'."
-    },
-    {
-      "title": "Australian aviation crew carries out daring midwinter Antarctica rescue",
-      "link": "https://www.bbc.co.uk/news/articles/c89nqlz5p4qo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Fri, 07 Aug 2026 04:02:18 GMT",
-      "source": "BBC",
-      "summary": "Team evacuated a patient from McMurdo Station after landing plane in total darkness and temperature of -43°C."
-    },
-    {
-      "title": "AI used to create viruses not found in nature for first time",
-      "link": "https://www.aljazeera.com/economy/2026/8/7/ai-used-to-create-viruses-not-found-in-nature-for-first-time?traffic_source=rss",
-      "pubDate": "Fri, 07 Aug 2026 03:48:22 +0000",
-      "source": "Al Jazeera",
-      "summary": "US researchers say they created 16 viruses using AI, prompting hopes for medical advances and concerns about misuse."
-    },
-    {
-      "title": "More than one million affected by floods in India’s Assam state",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/7/more-than-one-million-affected-by-floods-in-indias-assam-state?traffic_source=rss",
-      "pubDate": "Fri, 07 Aug 2026 02:53:19 +0000",
-      "source": "Al Jazeera",
-      "summary": "Thousands of people in India have been displaced since July after monsoon rains triggered severe flooding."
     },
     {
       "title": "Uefa says boycott may still go ahead as FA withdraws Infantino support",
@@ -555,7 +535,7 @@
       "link": "https://www.bbc.co.uk/news/articles/cd7lz3wr2rlo?at_medium=RSS&at_campaign=rss",
       "pubDate": "Fri, 07 Aug 2026 00:54:03 GMT",
       "source": "BBC",
-      "summary": "A New Mexico judge ordered the Instagram, Facebook and Whatsapp parent company to pay another $567m for the way it has harmed children."
+      "summary": "The ruling is in addition to $375m in fines Meta was already ordered to pay in the case, for a total of $942m."
     },
     {
       "title": "Trump again tries to limit US birthright citizenship with new executive orders",
@@ -776,14 +756,6 @@
       "source": "Nautilus"
     },
     {
-      "title": "Jonathan Demme’s Wild, Humanist Cinema Deserves a Reappraisal",
-      "link": "",
-      "summary": "There’s a Criterion Channel series paying tribute to director Jonathan Demme that, as short as it is, makes clear that Demme is due for a major reappraisal. It includes only four films —  (1986),  (1988),  (1991), and  (2008) — but each demonstrate both his confidence in mixing genre elements freely",
-      "pubDate": "2026-08-06T20:21:37.734Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
       "title": "A One-Two Punch: New Drug Overfeeds—Then Starves—Cancer Cells",
       "link": "https://nautil.us/a-one-two-punch-new-drug-overfeeds-then-starves-cancer-cells-1283471/",
       "summary": "The two-step process could help fight other diseases as well\nThe post A One-Two Punch: New Drug Overfeeds—Then Starves—Cancer Cells appeared first on Nautilus.",
@@ -806,22 +778,6 @@
       "pubDate": "Thu, 06 Aug 2026 18:00:00 +0000",
       "domain": "science",
       "source": "Nautilus"
-    },
-    {
-      "title": "Hollywood Is Losing Not Just Jobs but Entire Lineages",
-      "link": "",
-      "summary": "The flight of film and television production out of the United States is usually framed in terms of jobs and dollars. And no wonder: entire careers are evaporating at a nauseating rate, with US film and television production down 40 percent in 2024 from its 2022 peak. What gets less attention is a q",
-      "pubDate": "2026-08-06T17:38:26.409Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
-      "title": "Unions Can Save Tech Workers and Tech Work",
-      "link": "",
-      "summary": "A dramatic shift has taken place in the tech industry over the last several years. Industry leaders who once had a reputation as innovative forward thinkers are more familiar as misanthropic paranoiacs. The playful atmosphere of tech offices flush with investment, enjoying luxe catered lunches to at",
-      "pubDate": "2026-08-06T16:37:44.368Z",
-      "domain": "politics",
-      "source": "Jacobin"
     },
     {
       "title": "The Many Lives of Libraries",
@@ -1008,25 +964,25 @@
       "source": "ROAR Magazine"
     },
     {
-      "title": "Supporting social-emotional competence in pre-service teachers: evidence from higher learning teacher education institutions in Tanzania",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1891678",
-      "summary": "Social-emotional competence (SEC) is important for teachers' professional practice and wellbeing, yet evidence regarding its development in Tanzanian pre-service teacher education remains limited. Guided by Social Cognitive Theory, this study examined the associations of perceived university curricu",
+      "title": "Perceptions of inclusion among students with and without self-reported learning disabilities in Saudi schools",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1820826",
+      "summary": "IntroductionThis study examined perceptions of inclusive education among Saudi students with and without self-reported indicators of Specific Learning Disabilities (SLD), addressing limited evidence from Saudi schools.MethodsA correlational design was used with 694 Saudi students in Grades 4–9. Part",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "Perceptions of mental health stigma toward diagnostic labels among health professionals and mental health users: a Delphi study",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1863313",
-      "summary": "BackgroundThe stigma associated with mental disorders influences help-seeking behavior, quality of care, and recovery outcomes. Although diagnostic labels are essential for clinical communication and research, they may also evoke negative social perceptions that contribute to discrimination and self",
+      "title": "Scaffolded role-play for cross-text integrative writing in elementary Chinese: a teacher-vetted AI-drafted materials classroom study",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1837762",
+      "summary": "IntroductionThe Chinese Language Curriculum Standards for Compulsory Education (2022 Edition) emphasize multi-text learning through learning task clusters, yet classroom practice often continues to treat linked texts as separate reading lessons. This study examined an integrated instructional packag",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "From anticipation to memory: a systematic review of tourist emotional experience",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1907118",
-      "summary": "Tourist emotional experience has emerged as a central concept in understanding how individuals psychologically engage with tourism environments. It is reflects a broader shift from functional attributes to experiential and affective dimensions of travel. However, existing research tends to focus on ",
+      "title": "Inconclusive mutually reinforcing effects between associative learning and fluid intelligence: simulated reanalyses and a comment on Ren et al. (2026)",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1821604",
+      "summary": "Based on findings from analyses with the random-intercept cross-lagged panel model (RI-CLPM), Ren et al. concluded reinforcing longitudinal effects between associative learning and fluid intelligence. However, the RI-CLPM is susceptible to spurious findings. Here, we analyzed data simulated to resem",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
@@ -1034,64 +990,64 @@
   ],
   "misinfo_toilet": [
     {
-      "headline": "Venezuela’s Response to Earthquakes Exposes Government’s Shortcomings",
-      "fragment": "Simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
-      "splice": "Venezuela’s Response to Earthquakes Exposes Government’s Shortcomings underneath simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
-      "seed": 20260811
-    },
-    {
-      "headline": "Country Music Festival Lights Up Nairobi",
-      "fragment": "An ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
-      "splice": "Country Music Festival Lights Up Nairobi ...as an ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
-      "seed": 20260812
-    },
-    {
-      "headline": "Between Graves and Uncertainty: The Management of the Dead After Venezuela’s Earthquake",
-      "fragment": "It is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
-      "splice": "Between Graves and Uncertainty: The Management of the Dead After Venezuela’s Earthquake while it is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
-      "seed": 20260813
-    },
-    {
-      "headline": "Australian aviation crew carries out daring midwinter Antarctica rescue",
-      "fragment": "It is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
-      "splice": "Australian aviation crew carries out daring midwinter Antarctica rescue insofar as it is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
+      "headline": "There’s No Time for Centrists to Be Doomers About El-Sayed’s Victory",
+      "fragment": "To dissimulate is to pretend not to have what one has. To simulate is to feign to have what one doesn't have. One implies a presence, the other an absence.",
+      "splice": "There’s No Time for Centrists to Be Doomers About El-Sayed’s Victory because to dissimulate is to pretend not to have what one has. To simulate is to feign to have what one doesn't have. One implies a presence, the other an absence.",
       "seed": 20260814
     },
     {
-      "headline": "Trump again tries to limit US birthright citizenship with new executive orders",
-      "fragment": "It is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
-      "splice": "Trump again tries to limit US birthright citizenship with new executive orders insofar as it is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
+      "headline": "Black Residents Warned of Abusive Cops for Years. Then Police Shot and Killed a Toddler.",
+      "fragment": "Simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
+      "splice": "Black Residents Warned of Abusive Cops for Years. Then Police Shot and Killed a Toddler. in the void where simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
       "seed": 20260815
-    },
-    {
-      "headline": "When a President Promises a Massacre",
-      "fragment": "Underneath all reason lies delirium and drift.",
-      "splice": "When a President Promises a Massacre which is to say underneath all reason lies delirium and drift.",
-      "seed": 20260816
-    },
-    {
-      "headline": "Shahed-Type Drones Filmed During Mali Village Attacks",
-      "fragment": "Antagonism is not now located externally, in the face-off between class blocs, but internally, in the psychology of the worker.",
-      "splice": "Shahed-Type Drones Filmed During Mali Village Attacks because antagonism is not now located externally, in the face-off between class blocs, but internally, in the psychology of the worker.",
-      "seed": 20260817
-    },
-    {
-      "headline": "Houthi Attacks on Yemeni Military Threaten to Reignite Civil War",
-      "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
-      "splice": "Houthi Attacks on Yemeni Military Threaten to Reignite Civil War underneath the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
-      "seed": 20260818
-    },
-    {
-      "headline": "Uefa says boycott may still go ahead as FA withdraws Infantino support",
-      "fragment": "The simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
-      "splice": "Uefa says boycott may still go ahead as FA withdraws Infantino support insofar as the simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
-      "seed": 20260819
     },
     {
       "headline": "Identifying the Crypto Entrepreneur Linked to Popular Forum Trading in ‘Leaked’ Nudes of Women",
       "fragment": "The technocrat is the natural friend of the dictator—computers and dictatorship.",
-      "splice": "Identifying the Crypto Entrepreneur Linked to Popular Forum Trading in ‘Leaked’ Nudes of Women the signal resolves into the technocrat is the natural friend of the dictator—computers and dictatorship.",
+      "splice": "Identifying the Crypto Entrepreneur Linked to Popular Forum Trading in ‘Leaked’ Nudes of Women because the technocrat is the natural friend of the dictator—computers and dictatorship.",
+      "seed": 20260816
+    },
+    {
+      "headline": "Meta fined $567m in largest child safety ruling against social media giant",
+      "fragment": "The technocrat is the natural friend of the dictator—computers and dictatorship.",
+      "splice": "Meta fined $567m in largest child safety ruling against social media giant as if the technocrat is the natural friend of the dictator—computers and dictatorship.",
+      "seed": 20260817
+    },
+    {
+      "headline": "Mexico deploys troops to secure avocado region after US halts imports",
+      "fragment": "In the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
+      "splice": "Mexico deploys troops to secure avocado region after US halts imports which is to say in the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
+      "seed": 20260818
+    },
+    {
+      "headline": "‘Still searching for truth’: Daughter of Sikh activist killed 30 years ago",
+      "fragment": "The simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
+      "splice": "‘Still searching for truth’: Daughter of Sikh activist killed 30 years ago underneath the simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
+      "seed": 20260819
+    },
+    {
+      "headline": "Between Graves and Uncertainty: The Management of the Dead After Venezuela’s Earthquake",
+      "fragment": "An ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
+      "splice": "Between Graves and Uncertainty: The Management of the Dead After Venezuela’s Earthquake while an ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
       "seed": 20260820
+    },
+    {
+      "headline": "Venezuela’s Response to Earthquakes Exposes Government’s Shortcomings",
+      "fragment": "The technocrat is the natural friend of the dictator—computers and dictatorship.",
+      "splice": "Venezuela’s Response to Earthquakes Exposes Government’s Shortcomings insofar as the technocrat is the natural friend of the dictator—computers and dictatorship.",
+      "seed": 20260821
+    },
+    {
+      "headline": "Turkiye’s Erdogan visits Saudi Arabia: What to expect",
+      "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
+      "splice": "Turkiye’s Erdogan visits Saudi Arabia: What to expect consequently it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
+      "seed": 20260822
+    },
+    {
+      "headline": "Uefa says boycott may still go ahead as FA withdraws Infantino support",
+      "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
+      "splice": "Uefa says boycott may still go ahead as FA withdraws Infantino support not unlike it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
+      "seed": 20260823
     }
   ]
 }
