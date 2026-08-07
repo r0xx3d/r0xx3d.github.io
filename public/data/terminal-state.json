@@ -1,7 +1,22 @@
 {
-  "generated_at": "2026-08-07T13:09:44.483Z",
+  "generated_at": "2026-08-07T21:41:13.744Z",
   "threat_intel": {
     "cisa_kev": [
+      {
+        "cveID": "CVE-2026-8037",
+        "vendorProject": "Progress",
+        "product": "LoadMaster",
+        "vulnerabilityName": "Progress LoadMaster Command Injection Vulnerability",
+        "dateAdded": "2026-08-07",
+        "shortDescription": "Progress LoadMaster contains a command injection vulnerability that allows an un-authenticated attacker to execute arbitrary commands on the LoadMaster appliance by exploiting unsanitized input in multiple command endpoints.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-08-10",
+        "knownRansomwareCampaignUse": "Unknown",
+        "notes": "https://community.progress.com/s/article/LoadMaster-Critical-Security-Bulletin-June-2026-CVE-2026-8037-CVE-2026-33691 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-8037",
+        "cwes": [
+          "CWE-77"
+        ]
+      },
       {
         "cveID": "CVE-2026-63077",
         "vendorProject": "JetBrains",
@@ -211,238 +226,259 @@
         "cwes": [
           "CWE-121"
         ]
-      },
-      {
-        "cveID": "CVE-2026-58644",
-        "vendorProject": "Microsoft",
-        "product": "SharePoint",
-        "vulnerabilityName": "Microsoft SharePoint Deserialization of Untrusted Data Vulnerability",
-        "dateAdded": "2026-07-16",
-        "shortDescription": "Microsoft SharePoint contains a deserialization of untrusted data vulnerability that allows an unauthorized attacker to execute code over a network.",
-        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "dueDate": "2026-07-19",
-        "knownRansomwareCampaignUse": "Unknown",
-        "notes": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-58644 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-58644",
-        "cwes": [
-          "CWE-502"
-        ]
       }
     ],
     "urlhaus": [
       {
-        "id": "3898569",
-        "date_added": "2026-08-07 13:02:13",
-        "url": "http://91.92.242.236/files-129312398/files/file_4b9ed200c95f2598.exe",
+        "id": "3898689",
+        "date_added": "2026-08-07 21:26:07",
+        "url": "http://115.63.150.75:33073/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "54e64e",
-          "dropped-by-amadey"
+          "Mozi"
         ]
       },
       {
-        "id": "3898566",
-        "date_added": "2026-08-07 12:44:05",
-        "url": "http://178.16.53.176/DV/accrypted.ps1",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "powershell",
-          "ps1"
-        ]
-      },
-      {
-        "id": "3898567",
-        "date_added": "2026-08-07 12:44:05",
-        "url": "https://res.cloudinary.com/t3swaz48/image/upload/v1786064222/img_205416_efsex4.jpg",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3898568",
-        "date_added": "2026-08-07 12:44:05",
-        "url": "https://res.cloudinary.com/t3swaz48/image/upload/v1786063446/img_204228_kc4cit.jpg",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3898564",
-        "date_added": "2026-08-07 12:43:20",
-        "url": "http://31.76.93.29/hmszch/electricityjog.ps1",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "ps1"
-        ]
-      },
-      {
-        "id": "3898565",
-        "date_added": "2026-08-07 12:43:20",
-        "url": "http://31.76.93.29/hmszch/steepleadmit.ps1",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "ps1"
-        ]
-      },
-      {
-        "id": "3898563",
-        "date_added": "2026-08-07 12:38:06",
-        "url": "https://meridia.rs/filess/Teleg.exe",
+        "id": "3898687",
+        "date_added": "2026-08-07 21:22:06",
+        "url": "http://196.189.68.239:60182/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "exe",
+          "mirai"
+        ]
+      },
+      {
+        "id": "3898688",
+        "date_added": "2026-08-07 21:22:06",
+        "url": "http://130.12.182.77/main.sh4musl",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
           "opendir",
-          "PhantomStealer"
+          "SuperH",
+          "ua-wget"
         ]
       },
       {
-        "id": "3898562",
-        "date_added": "2026-08-07 12:36:07",
-        "url": "https://89.23.107.5/m/jscotbpl.dat",
+        "id": "3898686",
+        "date_added": "2026-08-07 21:21:17",
+        "url": "http://130.12.182.77/main.sparc64",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "MassLogger",
-          "opendir"
-        ]
-      },
-      {
-        "id": "3898560",
-        "date_added": "2026-08-07 12:23:09",
-        "url": "https://mailglobalsbg.com/Supply%20order/crypted.zip.ps1",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "ascii",
+          "elf",
           "opendir",
-          "powershell",
-          "ps1",
-          "xworm"
+          "ua-wget"
         ]
       },
       {
-        "id": "3898561",
-        "date_added": "2026-08-07 12:23:09",
-        "url": "https://mailglobalsbg.com/Supply%20order/SO_08072026.rar",
+        "id": "3898665",
+        "date_added": "2026-08-07 21:21:16",
+        "url": "http://130.12.182.77/f",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "opendir"
+          "elf",
+          "mips",
+          "opendir",
+          "ua-wget"
         ]
       },
       {
-        "id": "3898559",
-        "date_added": "2026-08-07 12:22:07",
-        "url": "https://wealthishealth.free.je/img_234525.png",
+        "id": "3898666",
+        "date_added": "2026-08-07 21:21:16",
+        "url": "http://130.12.182.77/main.sh4aeb",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "xworm"
+          "elf",
+          "opendir",
+          "SuperH",
+          "ua-wget"
         ]
       },
       {
-        "id": "3898558",
-        "date_added": "2026-08-07 12:20:08",
-        "url": "https://muddy-sound-e0cd.nodetectonn.workers.dev/xBEiV",
+        "id": "3898667",
+        "date_added": "2026-08-07 21:21:16",
+        "url": "http://130.12.182.77/main.e500mc",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "xworm"
-        ]
-      },
-      {
-        "id": "3898533",
-        "date_added": "2026-08-07 12:18:19",
-        "url": "http://94.154.43.180/iran.m68k",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
           "elf",
+          "opendir",
+          "PowerPC",
           "ua-wget"
         ]
       },
       {
-        "id": "3898534",
-        "date_added": "2026-08-07 12:18:19",
-        "url": "http://94.154.43.236/exodus.x86",
-        "url_status": "offline",
+        "id": "3898668",
+        "date_added": "2026-08-07 21:21:16",
+        "url": "http://130.12.182.77/main.x86-i686",
+        "url_status": "online",
         "threat": "malware_download",
         "tags": [
           "elf",
+          "opendir",
+          "ua-wget",
+          "x86"
+        ]
+      },
+      {
+        "id": "3898669",
+        "date_added": "2026-08-07 21:21:16",
+        "url": "http://130.12.182.77/main.s390x",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "opendir",
+          "s390x",
           "ua-wget"
         ]
       },
       {
-        "id": "3898535",
-        "date_added": "2026-08-07 12:18:19",
-        "url": "http://94.154.43.236/exodus.mpsl",
-        "url_status": "offline",
+        "id": "3898670",
+        "date_added": "2026-08-07 21:21:16",
+        "url": "http://130.12.182.77/main.x86-64-v2",
+        "url_status": "online",
         "threat": "malware_download",
         "tags": [
           "elf",
+          "opendir",
+          "ua-wget",
+          "x86"
+        ]
+      },
+      {
+        "id": "3898671",
+        "date_added": "2026-08-07 21:21:16",
+        "url": "http://130.12.182.77/main.mips32r6el",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "mips",
+          "opendir",
           "ua-wget"
         ]
       },
       {
-        "id": "3898536",
-        "date_added": "2026-08-07 12:18:19",
-        "url": "http://94.154.43.180/iran.powerpc",
-        "url_status": "offline",
+        "id": "3898672",
+        "date_added": "2026-08-07 21:21:16",
+        "url": "http://130.12.182.77/main.x86-core2",
+        "url_status": "online",
         "threat": "malware_download",
         "tags": [
           "elf",
+          "opendir",
+          "ua-wget",
+          "x86"
+        ]
+      },
+      {
+        "id": "3898673",
+        "date_added": "2026-08-07 21:21:16",
+        "url": "http://130.12.182.77/main.x86-64",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "opendir",
+          "ua-wget",
+          "x86"
+        ]
+      },
+      {
+        "id": "3898674",
+        "date_added": "2026-08-07 21:21:16",
+        "url": "http://130.12.182.77/main.mips64el-n32",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "mips",
+          "opendir",
           "ua-wget"
         ]
       },
       {
-        "id": "3898537",
-        "date_added": "2026-08-07 12:18:19",
-        "url": "http://94.154.43.236/exodus.ppc",
-        "url_status": "offline",
+        "id": "3898675",
+        "date_added": "2026-08-07 21:21:16",
+        "url": "http://130.12.182.77/main.x86-64-v3",
+        "url_status": "online",
         "threat": "malware_download",
         "tags": [
           "elf",
+          "opendir",
+          "ua-wget",
+          "x86"
+        ]
+      },
+      {
+        "id": "3898676",
+        "date_added": "2026-08-07 21:21:16",
+        "url": "http://130.12.182.77/main.power8le",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "opendir",
+          "PowerPC",
           "ua-wget"
         ]
       },
       {
-        "id": "3898538",
-        "date_added": "2026-08-07 12:18:19",
-        "url": "http://94.154.43.180/iran.armv4l",
-        "url_status": "offline",
+        "id": "3898677",
+        "date_added": "2026-08-07 21:21:16",
+        "url": "http://130.12.182.77/main.x86-64-i7",
+        "url_status": "online",
         "threat": "malware_download",
         "tags": [
           "elf",
+          "opendir",
+          "ua-wget",
+          "x86"
+        ]
+      },
+      {
+        "id": "3898678",
+        "date_added": "2026-08-07 21:21:16",
+        "url": "http://130.12.182.77/main.x86-64-v4",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "opendir",
+          "ua-wget",
+          "x86"
+        ]
+      },
+      {
+        "id": "3898679",
+        "date_added": "2026-08-07 21:21:16",
+        "url": "http://130.12.182.77/main.aarch64be",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "arm",
+          "elf",
+          "opendir",
           "ua-wget"
         ]
       },
       {
-        "id": "3898539",
-        "date_added": "2026-08-07 12:18:19",
-        "url": "http://94.154.43.180/iran.x86_64",
-        "url_status": "offline",
+        "id": "3898680",
+        "date_added": "2026-08-07 21:21:16",
+        "url": "http://130.12.182.77/main.mips32r5el",
+        "url_status": "online",
         "threat": "malware_download",
         "tags": [
           "elf",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3898540",
-        "date_added": "2026-08-07 12:18:19",
-        "url": "http://94.154.43.180/iran.mipsel",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "elf",
+          "mips",
+          "opendir",
           "ua-wget"
         ]
       }
@@ -450,53 +486,102 @@
   },
   "world_monitor": [
     {
-      "title": "Saudi Arabia, Turkiye and Pakistan sign joint defence pact",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/7/saudi-arabia-turkiye-and-pakistan-sign-joint-defence-pact?traffic_source=rss",
-      "pubDate": "Fri, 07 Aug 2026 12:44:41 +0000",
-      "source": "Al Jazeera",
-      "summary": "The Saudi crown prince, Turkish president and Pakistani prime minister have signed a joint defence agreement in Mecca."
+      "title": "Thai PM vows to introduce stricter gun laws after eight killed in shooting",
+      "link": "https://www.bbc.co.uk/news/articles/cdewx6rew04o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Fri, 07 Aug 2026 21:19:27 GMT",
+      "source": "BBC",
+      "summary": "Eight people were killed when a 14-year-old opened fire at his home and school before shooting himself dead."
     },
     {
-      "title": "UN chief condemns both Ukraine and Russia amid escalation in war",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/7/un-chief-condemns-both-ukraine-and-russia-amid-escalation-in-war?traffic_source=rss",
-      "pubDate": "Fri, 07 Aug 2026 12:34:13 +0000",
+      "title": "US appeals court halts White House ballroom construction",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/7/us-appeals-court-halts-white-house-ballroom-construction?traffic_source=rss",
+      "pubDate": "Fri, 07 Aug 2026 21:18:20 +0000",
       "source": "Al Jazeera",
-      "summary": "UN chief Guterres calls for de-escalation and a ceasefire as Russia-Ukraine attacks intensify."
+      "summary": "A federal appeals court has ordered President Donald Trump’s administration to halt construction on a ballroom project."
     },
     {
-      "title": "Iran’s grip on trade is a potent weapon, but it has an expiry date",
-      "link": "https://www.aljazeera.com/opinions/2026/8/7/irans-grip-on-trade-is-a-potent-weapon-but-it-has-an-expiry-date?traffic_source=rss",
-      "pubDate": "Fri, 07 Aug 2026 12:28:52 +0000",
+      "title": "South Koreans beat the heat with ‘silent disco’ pool party",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/7/south-koreans-beat-the-heat-with-silent-disco-pool-party?traffic_source=rss",
+      "pubDate": "Fri, 07 Aug 2026 21:12:45 +0000",
       "source": "Al Jazeera",
-      "summary": "Iran can exploit dependence on Hormuz today, but prolonged disruption will erode that leverage"
+      "summary": "South Koreans in Seoul cooled off with a silent disco pool party during a record-breaking heat wave."
     },
     {
-      "title": "Argentina and Mexico join Africa in backing FIFA’s Infantino: What to know",
-      "link": "https://www.aljazeera.com/sports/2026/8/7/fifas-infantino-backed-by-argentina-and-mexico-deepening-world-cup-divide?traffic_source=rss",
-      "pubDate": "Fri, 07 Aug 2026 12:23:03 +0000",
+      "title": "Lebanon points to ‘positive progress’ on borders, prisoners in Israel talks",
+      "link": "https://www.aljazeera.com/news/2026/8/7/lebanon-points-to-positive-progress-on-borders-prisoners-in-israel-talks?traffic_source=rss",
+      "pubDate": "Fri, 07 Aug 2026 21:02:31 +0000",
       "source": "Al Jazeera",
-      "summary": "How does FIFA presidency stand? Norway wants resignation, but Argentina and Mexico join Africa in Gianni Infantino camp."
+      "summary": "New Israeli attacks reported in southern Lebanon as Beirut offers optimism after the seventh round of discussions."
     },
     {
-      "title": "Thailand School Shooting Leaves 7 Dead",
-      "link": "https://www.nytimes.com/2026/08/07/world/asia/thailand-school-shooting.html",
-      "pubDate": "Fri, 07 Aug 2026 12:18:15 +0000",
-      "source": "NYT World",
-      "summary": "A student killed his grandparents before opening fire at his high school and shooting himself, the authorities said. The episode revived a debate about gun laws in the country."
+      "title": "Ebola cases top 4,000 in DRC as WHO urges Ervebo vaccine trial",
+      "link": "https://www.aljazeera.com/news/2026/8/7/ebola-cases-top-4000-in-drc-as-who-urges-ervebo-vaccine-trial?traffic_source=rss",
+      "pubDate": "Fri, 07 Aug 2026 20:41:46 +0000",
+      "source": "Al Jazeera",
+      "summary": "The Bundibugyo epidemic, ​the world's second-largest, has been described as the ⁠fastest-spreading on record."
+    },
+    {
+      "title": "Can diplomacy end the conflict in Libya?",
+      "link": "https://www.aljazeera.com/video/inside-story/2026/8/7/can-diplomacy-end-the-conflict-in-libya?traffic_source=rss",
+      "pubDate": "Fri, 07 Aug 2026 20:39:26 +0000",
+      "source": "Al Jazeera",
+      "summary": "The country has been divided since 2014, with rival governments in the east and west."
+    },
+    {
+      "title": "Spain to impose border controls against Italy as row over Ceuta migrant influx intensifies",
+      "link": "https://www.bbc.co.uk/news/articles/c5yv5l6yr5ko?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Fri, 07 Aug 2026 20:33:23 GMT",
+      "source": "BBC",
+      "summary": "Italy introduced border controls following an influx of about 78,000 migrants from neighbouring Morocco into the Spanish exclave of Ceuta."
     },
     {
       "title": "Saudi Arabia, Turkey and Pakistan sign defence pact",
       "link": "https://www.bbc.co.uk/news/articles/c30418m4mj4o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Fri, 07 Aug 2026 12:02:28 GMT",
+      "pubDate": "Fri, 07 Aug 2026 17:42:54 GMT",
       "source": "BBC",
       "summary": "Pakistan says an attack on any of the three will amount to an attack against all, amid conflict in the Middle East."
     },
     {
-      "title": "First school for robots opens in China",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/7/first-school-for-robots-opens-in-china?traffic_source=rss",
-      "pubDate": "Fri, 07 Aug 2026 11:33:28 +0000",
-      "source": "Al Jazeera",
-      "summary": "\"Our main goal is to empower robots' brains.\"\r\n\r\nChina has launched its first robot school."
+      "title": "Saudi Arabia, Turkey and Pakistan Sign Joint Defense Pact",
+      "link": "https://www.nytimes.com/2026/08/07/world/middleeast/saudi-turkey-pakistan-joint-defense-pact.html",
+      "pubDate": "Fri, 07 Aug 2026 16:29:25 +0000",
+      "source": "NYT World",
+      "summary": "The agreement treats an attack on any of the countries as an attack on all, but in a region of volatile rivalries, it was unclear how it would work in practice."
+    },
+    {
+      "title": "Trump Administration Fast-Tracks Military Partnership With Colombia to Target Drug Traffickers",
+      "link": "https://www.nytimes.com/2026/08/07/world/americas/trump-administration-military-partnership-colombia.html",
+      "pubDate": "Fri, 07 Aug 2026 16:13:49 +0000",
+      "source": "NYT World",
+      "summary": "The country’s new Trump-endorsed president takes office on Friday. Sweeping plans to target drug traffickers with U.S. help are already underway."
+    },
+    {
+      "title": "Spanish police arrest 78 people in bust of 'one of largest' smuggling networks ",
+      "link": "https://www.bbc.co.uk/news/articles/clylejzkkx4o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Fri, 07 Aug 2026 16:13:45 GMT",
+      "source": "BBC",
+      "summary": "The group moved synthetic drugs from Spain to Algeria, then used the return journey to smuggle migrants and weapons."
+    },
+    {
+      "title": "State Department Wants Palantir’s Advice on Free Speech and “Countering Digital Surveillance”",
+      "link": "https://theintercept.com/2026/08/07/state-department-palantir-free-speech-surveillance/",
+      "pubDate": "Fri, 07 Aug 2026 16:02:04 +0000",
+      "source": "The Intercept",
+      "summary": "Founded by Trump ally and right-wing billionaire Peter Thiel, Palantir has attacked the press and works in the digital surveillance space.\nThe post State Department Wants Palantir’s Advice on Free Speech and “Countering Digital Surveillance” appeared"
+    },
+    {
+      "title": "I was standing in front of my teacher when she was shot, Thai pupil says",
+      "link": "https://www.bbc.co.uk/news/articles/c07rxz03034o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Fri, 07 Aug 2026 14:20:27 GMT",
+      "source": "BBC",
+      "summary": "The student says she feared never seeing her mother again after the attack killed five teachers."
+    },
+    {
+      "title": "Boy Kills Grandparents and Then Five Teachers, Thai Authorities Say",
+      "link": "https://www.nytimes.com/2026/08/07/world/asia/thailand-school-shooting.html",
+      "pubDate": "Fri, 07 Aug 2026 13:47:17 +0000",
+      "source": "NYT World",
+      "summary": "A student killed his grandparents before opening fire at his high school and shooting himself, the authorities said. The episode revived a debate about gun laws."
     },
     {
       "title": "Congress Might Give ICE the Power to Go After Shoplifters",
@@ -506,39 +591,11 @@
       "summary": "A bill intended to halt the supposed threat of “organized retail crime” would put ICE in charge of the federal response.\nThe post Congress Might Give ICE the Power to Go After Shoplifters appeared first on The Intercept."
     },
     {
-      "title": "The State of Iran’s Three Key Nuclear Sites ",
-      "link": "https://www.nytimes.com/2026/08/07/world/middleeast/iran-nuclear-program.html",
-      "pubDate": "Fri, 07 Aug 2026 10:46:29 +0000",
+      "title": "Foreigners Behaving Badly in Vietnam Challenge Its Communist Justice System",
+      "link": "https://www.nytimes.com/2026/08/07/world/asia/vietnam-tourism-foreigners-crime-law.html",
+      "pubDate": "Fri, 07 Aug 2026 10:54:13 +0000",
       "source": "NYT World",
-      "summary": "The conflict may have slowed, but not stopped, Iran’s nuclear program, officials and experts said."
-    },
-    {
-      "title": "Rescuers Battled Extreme Weather Conditions During Medevac Mission in Antarctica",
-      "link": "https://www.nytimes.com/2026/08/07/world/australia/antarctica-rescue-mission-skytraders.html",
-      "pubDate": "Fri, 07 Aug 2026 10:04:01 +0000",
-      "source": "NYT World",
-      "summary": "An Australian flight crew faced subfreezing temperatures, changing weather conditions and almost constant darkness as they worked to rescue a U.S. national."
-    },
-    {
-      "title": "Video Captures Chaos as Earthquake Strikes Japan Hospital Mid-Surgery",
-      "link": "https://www.nytimes.com/2026/08/07/world/asia/hospital-video-earthquake-surgery.html",
-      "pubDate": "Fri, 07 Aug 2026 10:02:55 +0000",
-      "source": "NYT World",
-      "summary": "Footage shows doctors in Japan clinging to an operating table to protect a patient from the violent tremor. The surgery was completed successfully."
-    },
-    {
-      "title": "US strikes $1.2bn deal to pay German firm to halt offshore wind projects",
-      "link": "https://www.bbc.co.uk/news/articles/c1e1vg0gjl5o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Fri, 07 Aug 2026 09:50:54 GMT",
-      "source": "BBC",
-      "summary": "The RWE payout is the latest in a string of deals cancelling wind energy projects, a power source long derided by Trump."
-    },
-    {
-      "title": "Meta fined $567m in largest child safety ruling against social media giant",
-      "link": "https://www.bbc.co.uk/news/articles/cd7lz3wr2rlo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Fri, 07 Aug 2026 09:22:03 GMT",
-      "source": "BBC",
-      "summary": "The ruling is in addition to $375m in fines Meta was already ordered to pay in the case, for a total of $942m."
+      "summary": "Vietnam is grappling with a surge in visitors, testing its Soviet-style criminal justice system as it tries to supercharge its economy through tourism."
     },
     {
       "title": "Seized on Their Way to Gaza, Activists Tell of Abuse in Israeli Custody",
@@ -546,20 +603,6 @@
       "pubDate": "Fri, 07 Aug 2026 09:00:14 +0000",
       "source": "NYT World",
       "summary": "In interviews, more than 20 people who tried to break an Israeli blockade described beatings, electric shocks and other abuse after being captured. Israel denied the accusations."
-    },
-    {
-      "title": "Australian aviation crew carries out daring midwinter Antarctica rescue",
-      "link": "https://www.bbc.co.uk/news/articles/c89nqlz5p4qo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Fri, 07 Aug 2026 05:44:29 GMT",
-      "source": "BBC",
-      "summary": "Team evacuated a patient from McMurdo Station after landing plane in total darkness and temperature of -43°C."
-    },
-    {
-      "title": "Trump again tries to limit US birthright citizenship with new executive orders",
-      "link": "https://www.bbc.co.uk/news/articles/cj63966j95yo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Fri, 07 Aug 2026 00:34:14 GMT",
-      "source": "BBC",
-      "summary": "The executive orders ban birth tourism and expand the existing definition of people whose children are not eligible for US birthright citizenship."
     },
     {
       "title": "The Pentagon Is Posting Cryptic Biblical Messages on Social Media",
@@ -581,13 +624,6 @@
       "pubDate": "Wed, 05 Aug 2026 23:00:00 +0000",
       "source": "The Intercept",
       "summary": "Intercept reporters break down progressives’ wins and losses in Michigan and Missouri.\nThe post The Most Expensive Democratic Senate Primary Has a Winner appeared first on The Intercept."
-    },
-    {
-      "title": "There’s No Time for Centrists to Be Doomers About El-Sayed’s Victory",
-      "link": "https://theintercept.com/2026/08/05/abdul-el-sayed-michigan-democratic-senate-primary/",
-      "pubDate": "Wed, 05 Aug 2026 21:02:18 +0000",
-      "source": "The Intercept",
-      "summary": "The public health official faced down AIPAC — and the entire Democratic Party establishment — to beat Haley Stevens. That’s well worth celebrating.\nThe post There’s No Time for Centrists to Be Doomers About El-Sayed’s Victory appeared first on The In"
     },
     {
       "title": "Welcome to Dubai: Kinahan Cartel’s Visas Revealed",
@@ -627,6 +663,13 @@
   ],
   "syndication": [
     {
+      "title": "Friday Squid Blogging: Arctic Bobtail Squid Video",
+      "link": "https://www.schneier.com/blog/archives/2026/08/friday-squid-blogging-arctic-bobtail-squid-video.html",
+      "pubDate": "2026-08-07T21:07:04.000Z",
+      "author": "Schneier on Security",
+      "content": "Nice video of the Arctic bobtail squid.\nAs usual, you can also use this squid post to talk about the security stories in the news that I haven’t covered.\nBlog moderation policy."
+    },
+    {
       "title": "ICE Is Buying Access to Credit Card Records",
       "link": "https://www.schneier.com/blog/archives/2026/08/ice-is-buying-access-to-credit-card-records.html",
       "pubDate": "2026-08-07T10:26:41.000Z",
@@ -662,13 +705,6 @@
       "content": "Today's links Google is a scammer's paradise: The internet's absentee landlord. Hey look at this: Delights to delectate. Object permanence: DEVELOPERS DEVELOPERS DEVELOPERS; EZ realistic corpse; $300m login button; Short Uber; Who goes AI? Upcoming appearances: Edinburgh, Sydney, Melbourne, Brighton"
     },
     {
-      "title": "Vulnerabilities in Car Anti-Theft Device",
-      "link": "https://www.schneier.com/blog/archives/2026/08/vulnerabilities-in-car-anti-theft-device.html",
-      "pubDate": "2026-08-05T09:42:43.000Z",
-      "author": "Schneier on Security",
-      "content": "This is disturbing:\n…a team of security researchers at UC San Diego, who found that a model of aftermarket car alarm known as the KARR Security System, installed in more than 2 million vehicles across the US by their estimate, can let any hacker within Bluetooth range send radio commands to silently"
-    },
-    {
       "title": "Pluralistic: Post-American compute for a post-American Internet (04 Aug 2026)",
       "link": "https://pluralistic.net/2026/08/04/technology-freedom-cooperative/",
       "pubDate": "Tue, 04 Aug 2026 11:14:27 +0000",
@@ -692,12 +728,68 @@
   ],
   "syndicate_journal": [
     {
-      "title": "Financial Struggle Can Age Your Brain",
-      "link": "https://nautil.us/financial-struggle-can-age-your-brain-1283464/",
-      "summary": "Persistent poverty can accelerate cognitive decline starting in your 50s\nThe post Financial Struggle Can Age Your Brain appeared first on Nautilus.",
-      "pubDate": "Fri, 07 Aug 2026 12:00:00 +0000",
+      "title": "Viagra May Slow the Spread of Cancer",
+      "link": "https://nautil.us/viagra-may-slow-the-spread-of-cancer-1283519/",
+      "summary": "And statins can help\nThe post Viagra May Slow the Spread of Cancer appeared first on Nautilus.",
+      "pubDate": "Fri, 07 Aug 2026 21:00:00 +0000",
       "domain": "science",
       "source": "Nautilus"
+    },
+    {
+      "title": "This Paradoxical Desert Landscape Is Filled with Fresh Water",
+      "link": "https://nautil.us/this-paradoxical-desert-landscape-is-filled-with-fresh-water-1283495/",
+      "summary": "Dunes and lakes as far as the eye can see\nThe post This Paradoxical Desert Landscape Is Filled with Fresh Water appeared first on Nautilus.",
+      "pubDate": "Fri, 07 Aug 2026 20:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "The Case for Carceral Minimalism",
+      "link": "",
+      "summary": "When Karl Marx wrote that the past “weighs like a nightmare on the brains of the living,” he wasn’t talking about 2020, but he may as well have been. That year weighs particularly heavy, it seems, on democratic socialists running for office. Everyone from New York’s Zohran Mamdani to Wisconsin’s Fra",
+      "pubDate": "2026-08-07T18:37:07.338Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "Centrist Dems Really Do Hate the Left More Than Trump",
+      "link": "",
+      "summary": "For a good while into the second Donald Trump presidency, centrist Democrats were nowhere to be found. Their strategy was, in the  of former Bill Clinton campaign strategist James Carville, to “roll over and play dead” and simply wait and hope that the Trump administration would collapse in populari",
+      "pubDate": "2026-08-07T18:21:02.278Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "Depression Linked to Shrinking Brain Region in Older Adults",
+      "link": "https://nautil.us/depression-linked-to-shrinking-brain-region-in-older-adults-1283490/",
+      "summary": "The memory center of the brain show signs of decreasing volume\nThe post Depression Linked to Shrinking Brain Region in Older Adults appeared first on Nautilus.",
+      "pubDate": "Fri, 07 Aug 2026 18:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "The Left Can’t Win Without an Internationalist Vision",
+      "link": "",
+      "summary": "As we enter a new age of imperial wars, internationalism is very much back on the Left’s agenda. But what is internationalism? And why does it matter?\nThe Left’s preoccupation with “internationalism” stems from the fact that its political project has always been tied in some way to what might be cal",
+      "pubDate": "2026-08-07T17:33:06.325Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "Neutrinos From Deep Inside Earth Provide a New Picture of the Mantle",
+      "link": "https://www.quantamagazine.org/neutrinos-from-deep-inside-earth-provide-a-new-picture-of-the-mantle-20260807/",
+      "summary": "A global constellation of neutrino detectors is creating a never-before-seen view of the radioactive elements that power Earth’s tectonic heat engine.            \nThe post Neutrinos From Deep Inside Earth Provide a New Picture of the Mantle first appeared on Quanta Magazine",
+      "pubDate": "Fri, 07 Aug 2026 13:55:32 +0000",
+      "domain": "science",
+      "source": "Quanta"
+    },
+    {
+      "title": "Where Dance Meets the Spirit World",
+      "link": "https://daily.jstor.org/where-dance-meets-the-spirit-world/",
+      "summary": "The history of kuda kepang, the Javanese horse dance whose trance rituals continue to spark religious debate.\nThe post Where Dance Meets the Spirit World appeared first on JSTOR Daily.",
+      "pubDate": "Fri, 07 Aug 2026 13:28:56 +0000",
+      "domain": "history",
+      "source": "JSTOR Daily"
     },
     {
       "title": "Sasquatch science",
@@ -732,52 +824,12 @@
       "source": "arXiv: cs.AI"
     },
     {
-      "title": "Life Originated Twice on Earth",
-      "link": "https://nautil.us/life-originated-twice-on-earth-1283481/",
-      "summary": "New research traces the origins of our metabolism back in time\nThe post Life Originated Twice on Earth appeared first on Nautilus.",
-      "pubDate": "Thu, 06 Aug 2026 22:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
-      "title": "Jonathan Demme’s Wild, Humanist Cinema Deserves a Reappraisal",
-      "link": "",
-      "summary": "There’s a Criterion Channel series paying tribute to director Jonathan Demme that, as short as it is, makes clear that Demme is due for a major reappraisal. It includes only four films —  (1986),  (1988),  (1991), and  (2008) — but each demonstrate both his confidence in mixing genre elements freely",
-      "pubDate": "2026-08-06T20:21:37.734Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
-      "title": "A One-Two Punch: New Drug Overfeeds—Then Starves—Cancer Cells",
-      "link": "https://nautil.us/a-one-two-punch-new-drug-overfeeds-then-starves-cancer-cells-1283471/",
-      "summary": "The two-step process could help fight other diseases as well\nThe post A One-Two Punch: New Drug Overfeeds—Then Starves—Cancer Cells appeared first on Nautilus.",
-      "pubDate": "Thu, 06 Aug 2026 20:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
       "title": "\"Melt up\"?",
       "link": "https://languagelog.ldc.upenn.edu/nll/?p=73987&utm_source=rss&utm_medium=rss&utm_campaign=melt-up",
       "summary": "I was struck yesterday by the term Melt-Up in a story about the stock market: \"Tech Melt-Up Drives $3.5T Nasdaq 100 Gain in Four Days\", Bloomberg 8/5/2026: A dramatic turnaround in technology stocks has powered a $3.5 trillion increase in the Nasdaq 100’s market capitalization in just four days, dri",
       "pubDate": "Thu, 06 Aug 2026 18:12:14 +0000",
       "domain": "linguistics",
       "source": "Language Log"
-    },
-    {
-      "title": "Hollywood Is Losing Not Just Jobs but Entire Lineages",
-      "link": "",
-      "summary": "The flight of film and television production out of the United States is usually framed in terms of jobs and dollars. And no wonder: entire careers are evaporating at a nauseating rate, with US film and television production down 40 percent in 2024 from its 2022 peak. What gets less attention is a q",
-      "pubDate": "2026-08-06T17:38:26.409Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
-      "title": "Unions Can Save Tech Workers and Tech Work",
-      "link": "",
-      "summary": "A dramatic shift has taken place in the tech industry over the last several years. Industry leaders who once had a reputation as innovative forward thinkers are more familiar as misanthropic paranoiacs. The playful atmosphere of tech offices flush with investment, enjoying luxe catered lunches to at",
-      "pubDate": "2026-08-06T16:37:44.368Z",
-      "domain": "politics",
-      "source": "Jacobin"
     },
     {
       "title": "The Many Lives of Libraries",
@@ -844,22 +896,6 @@
       "source": "Language Log"
     },
     {
-      "title": "James Baldwin’s Complicated Relationship with Psychoanalysis",
-      "link": "https://daily.jstor.org/james-baldwins-complicated-relationship-with-psychoanalysis/",
-      "summary": "Baldwin criticized Freudian thinking yet drew on ideas like repression in his fiction and essays.\nThe post James Baldwin’s Complicated Relationship with Psychoanalysis appeared first on JSTOR Daily.",
-      "pubDate": "Tue, 04 Aug 2026 13:24:07 +0000",
-      "domain": "history",
-      "source": "JSTOR Daily"
-    },
-    {
-      "title": "Why the Legendary Erdős Problems Are Falling to AI",
-      "link": "https://www.quantamagazine.org/why-the-legendary-erdos-problems-are-falling-to-ai-20260803/",
-      "summary": "AI’s greatest mathematical successes have come from answers to problems posed by a mid-20th century iconoclast. By examining what makes the Erdős problems unique, mathematicians are trying to understand how AI might change the rest of math.            \nThe post Why the Legendary Erdős Problems Are F",
-      "pubDate": "Mon, 03 Aug 2026 15:05:20 +0000",
-      "domain": "science",
-      "source": "Quanta"
-    },
-    {
       "title": "Artificial Intelligence: Ars Notoria and the Promise of Instant Knowledge\n",
       "link": "https://publicdomainreview.org/essay/ars-notoria",
       "summary": "Centuries before Neo instantly mastered Kung Fu in *The Matrix*, medieval scholars found a shortcut to years of difficult study: a magical manuscript that promised to fast-track advanced learning. Anne Lawrence-Mathers investigates the *Ars notoria*, its supposed powers, and the demonic influence it",
@@ -882,6 +918,30 @@
       "pubDate": "Tue, 28 Jul 2026 19:02:00 GMT",
       "domain": "history",
       "source": "Public Domain Review"
+    },
+    {
+      "title": "Journey to Robbers Cave",
+      "link": "https://behavioralscientist.org/journey-to-robbers-cave/",
+      "summary": "The year was 1948. Only three years had passed since the Axis powers signed the instrument of surrender effectively ending the Second World War. Fifty nations had taken part in the conflict that saw genocide and the first use of nuclear weapons. An estimated 50 million lives were lost and another 19",
+      "pubDate": "Sun, 19 Jul 2026 22:58:46 +0000",
+      "domain": "psychology",
+      "source": "Behavioral Scientist"
+    },
+    {
+      "title": "Behavioral Scientist’s Summer Book List 2026",
+      "link": "https://behavioralscientist.org/behavioral-scientists-summer-book-list-2026/",
+      "summary": "For your intellectual travels this summer, we’ve curated a baker’s dozen of behavioral science books newly published this year. Explore the mysteries of life and consciousness, glimpse the power of constraints and the games that define our lives, navigate life’s cliffs, and find the places that will",
+      "pubDate": "Sun, 05 Jul 2026 20:32:19 +0000",
+      "domain": "psychology",
+      "source": "Behavioral Scientist"
+    },
+    {
+      "title": "What It’s Like to Be…an Air Traffic Controller",
+      "link": "https://behavioralscientist.org/what-its-like-to-be-an-air-traffic-controller/",
+      "summary": "Sequencing departures like a moving puzzle, scrambling when a jet takes off without clearance, and catching what radar misses with a glance out the window with Michael Rejent, an air traffic controller. What does \"tally ho\" mean to a pilot? What phrase makes every controller in the cab look up?\n\n\n\n\n",
+      "pubDate": "Sun, 05 Jul 2026 16:35:59 +0000",
+      "domain": "psychology",
+      "source": "Behavioral Scientist"
     },
     {
       "title": "Best of SAPIENS 2025",
@@ -932,25 +992,25 @@
       "source": "ROAR Magazine"
     },
     {
+      "title": "Perceptions of inclusion among students with and without self-reported learning disabilities in Saudi schools",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1820826",
+      "summary": "IntroductionThis study examined perceptions of inclusive education among Saudi students with and without self-reported indicators of Specific Learning Disabilities (SLD), addressing limited evidence from Saudi schools.MethodsA correlational design was used with 694 Saudi students in Grades 4–9. Part",
+      "pubDate": "",
+      "domain": "psychology",
+      "source": "Frontiers Psychology"
+    },
+    {
+      "title": "Only low-arousal emotions matter: grade-dependent mediation of academic emotions between psychological resilience and learning burnout in middle school",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1891219",
+      "summary": "BackgroundPsychological resilience is known to reduce learning burnout, but it remains unclear whether low- versus high-arousal academic emotions mediate this relationship and whether such effects vary across grades.ObjectiveThis study examined the mediating roles of academic emotions and tested gra",
+      "pubDate": "",
+      "domain": "psychology",
+      "source": "Frontiers Psychology"
+    },
+    {
       "title": "The relationship between social media interaction quality and loneliness in older adults: the moderating role of perceived social support",
       "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1767929",
       "summary": "ObjectiveMoving beyond the traditional focus on social media frequency, this study examines the cross-sectional association between perceived social media interaction quality and loneliness among older adults, and the moderating role of perceived social support. This study seeks to provide associati",
-      "pubDate": "",
-      "domain": "psychology",
-      "source": "Frontiers Psychology"
-    },
-    {
-      "title": "From anticipation to memory: a systematic review of tourist emotional experience",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1907118",
-      "summary": "Tourist emotional experience has emerged as a central concept in understanding how individuals psychologically engage with tourism environments. It is reflects a broader shift from functional attributes to experiential and affective dimensions of travel. However, existing research tends to focus on ",
-      "pubDate": "",
-      "domain": "psychology",
-      "source": "Frontiers Psychology"
-    },
-    {
-      "title": "Parental academic involvement and academic buoyancy among junior high school students: cross-sectional indirect associations involving peer relations and academic emotions",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1832439",
-      "summary": "ObjectiveThis study examined the association between parental academic involvement and academic buoyancy among junior high school students from families meeting predefined parental-education and household-income criteria, and tested whether peer relations and academic emotions were involved in cross",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
@@ -958,64 +1018,64 @@
   ],
   "misinfo_toilet": [
     {
-      "headline": "The Pentagon Is Posting Cryptic Biblical Messages on Social Media",
-      "fragment": "In the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
-      "splice": "The Pentagon Is Posting Cryptic Biblical Messages on Social Media which is to say in the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
-      "seed": 20260820
-    },
-    {
-      "headline": "Seized on Their Way to Gaza, Activists Tell of Abuse in Israeli Custody",
-      "fragment": "The simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
-      "splice": "Seized on Their Way to Gaza, Activists Tell of Abuse in Israeli Custody underneath the simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
-      "seed": 20260821
-    },
-    {
-      "headline": "Identifying the Crypto Entrepreneur Linked to Popular Forum Trading in ‘Leaked’ Nudes of Women",
-      "fragment": "An ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
-      "splice": "Identifying the Crypto Entrepreneur Linked to Popular Forum Trading in ‘Leaked’ Nudes of Women while an ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
-      "seed": 20260822
-    },
-    {
-      "headline": "Iran’s grip on trade is a potent weapon, but it has an expiry date",
-      "fragment": "The technocrat is the natural friend of the dictator—computers and dictatorship.",
-      "splice": "Iran’s grip on trade is a potent weapon, but it has an expiry date insofar as the technocrat is the natural friend of the dictator—computers and dictatorship.",
-      "seed": 20260823
-    },
-    {
-      "headline": "First school for robots opens in China",
-      "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "splice": "First school for robots opens in China consequently it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "seed": 20260824
-    },
-    {
       "headline": "Congress Might Give ICE the Power to Go After Shoplifters",
-      "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "splice": "Congress Might Give ICE the Power to Go After Shoplifters not unlike it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "seed": 20260825
-    },
-    {
-      "headline": "Shahed-Type Drones Filmed During Mali Village Attacks",
-      "fragment": "It is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
-      "splice": "Shahed-Type Drones Filmed During Mali Village Attacks despite it is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
-      "seed": 20260826
-    },
-    {
-      "headline": "Meta fined $567m in largest child safety ruling against social media giant",
-      "fragment": "The privatization of the organs will only begin with the shame felt by man at the sight of man.",
-      "splice": "Meta fined $567m in largest child safety ruling against social media giant therefore the privatization of the organs will only begin with the shame felt by man at the sight of man.",
-      "seed": 20260827
-    },
-    {
-      "headline": "Saudi Arabia, Turkey and Pakistan sign defence pact",
-      "fragment": "Traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "splice": "Saudi Arabia, Turkey and Pakistan sign defence pact ...as traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
+      "fragment": "An ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
+      "splice": "Congress Might Give ICE the Power to Go After Shoplifters while an ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
       "seed": 20260828
     },
     {
-      "headline": "Trump again tries to limit US birthright citizenship with new executive orders",
-      "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
-      "splice": "Trump again tries to limit US birthright citizenship with new executive orders insofar as the revolutionary lives in the gap which separates technical progress from social totality.",
+      "headline": "State Department Wants Palantir’s Advice on Free Speech and “Countering Digital Surveillance”",
+      "fragment": "The technocrat is the natural friend of the dictator—computers and dictatorship.",
+      "splice": "State Department Wants Palantir’s Advice on Free Speech and “Countering Digital Surveillance” insofar as the technocrat is the natural friend of the dictator—computers and dictatorship.",
       "seed": 20260829
+    },
+    {
+      "headline": "Shahed-Type Drones Filmed During Mali Village Attacks",
+      "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
+      "splice": "Shahed-Type Drones Filmed During Mali Village Attacks consequently it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
+      "seed": 20260830
+    },
+    {
+      "headline": "Welcome to Dubai: Kinahan Cartel’s Visas Revealed",
+      "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
+      "splice": "Welcome to Dubai: Kinahan Cartel’s Visas Revealed not unlike it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
+      "seed": 20260831
+    },
+    {
+      "headline": "Trump Administration Fast-Tracks Military Partnership With Colombia to Target Drug Traffickers",
+      "fragment": "It is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
+      "splice": "Trump Administration Fast-Tracks Military Partnership With Colombia to Target Drug Traffickers despite it is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
+      "seed": 20260832
+    },
+    {
+      "headline": "Foreigners Behaving Badly in Vietnam Challenge Its Communist Justice System",
+      "fragment": "The privatization of the organs will only begin with the shame felt by man at the sight of man.",
+      "splice": "Foreigners Behaving Badly in Vietnam Challenge Its Communist Justice System therefore the privatization of the organs will only begin with the shame felt by man at the sight of man.",
+      "seed": 20260833
+    },
+    {
+      "headline": "Will Ronaldo Cry​? World Cup Fans Bet Billions Through Prediction Markets",
+      "fragment": "Traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
+      "splice": "Will Ronaldo Cry​? World Cup Fans Bet Billions Through Prediction Markets ...as traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
+      "seed": 20260834
+    },
+    {
+      "headline": "Black Residents Warned of Abusive Cops for Years. Then Police Shot and Killed a Toddler.",
+      "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
+      "splice": "Black Residents Warned of Abusive Cops for Years. Then Police Shot and Killed a Toddler. insofar as the revolutionary lives in the gap which separates technical progress from social totality.",
+      "seed": 20260835
+    },
+    {
+      "headline": "South Koreans beat the heat with ‘silent disco’ pool party",
+      "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "splice": "South Koreans beat the heat with ‘silent disco’ pool party which is to say the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "seed": 20260836
+    },
+    {
+      "headline": "US appeals court halts White House ballroom construction",
+      "fragment": "The truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
+      "splice": "US appeals court halts White House ballroom construction underneath the truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
+      "seed": 20260837
     }
   ]
 }
