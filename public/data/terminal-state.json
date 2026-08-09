@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T21:33:26.814Z",
+  "generated_at": "2026-08-09T01:56:17.899Z",
   "threat_intel": {
     "cisa_kev": [
       {
@@ -230,9 +230,35 @@
     ],
     "urlhaus": [
       {
-        "id": "3899973",
-        "date_added": "2026-08-08 21:04:36",
-        "url": "http://175.175.92.119:49061/i",
+        "id": "3900009",
+        "date_added": "2026-08-09 01:27:48",
+        "url": "http://112.248.83.6:56719/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips"
+        ]
+      },
+      {
+        "id": "3900008",
+        "date_added": "2026-08-09 01:25:41",
+        "url": "http://117.253.29.68:48477/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "mirai",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3900007",
+        "date_added": "2026-08-09 01:23:24",
+        "url": "http://123.189.22.51:43030/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -243,9 +269,9 @@
         ]
       },
       {
-        "id": "3899972",
-        "date_added": "2026-08-08 20:59:27",
-        "url": "http://61.53.237.126:41063/i",
+        "id": "3900006",
+        "date_added": "2026-08-09 01:16:31",
+        "url": "http://115.63.8.86:51962/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -256,9 +282,9 @@
         ]
       },
       {
-        "id": "3899971",
-        "date_added": "2026-08-08 20:50:24",
-        "url": "http://123.5.157.40:59329/i",
+        "id": "3900005",
+        "date_added": "2026-08-09 01:14:24",
+        "url": "http://115.49.193.250:53397/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -269,111 +295,9 @@
         ]
       },
       {
-        "id": "3899970",
-        "date_added": "2026-08-08 20:46:18",
-        "url": "http://204.44.69.222/73/gooddaycomingforu.hta",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "hta"
-        ]
-      },
-      {
-        "id": "3899969",
-        "date_added": "2026-08-08 20:35:49",
-        "url": "https://github.com/ThreadColonelSouk/release/releases/download/release/release.zip",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "fake-software",
-          "gaming-lure",
-          "github",
-          "Loader"
-        ]
-      },
-      {
-        "id": "3899968",
-        "date_added": "2026-08-08 20:35:25",
-        "url": "https://github.com/Shapecluneedle/jubilant-engine/releases/download/exec/payd.exe",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "fake-software",
-          "gaming-lure",
-          "github",
-          "Loader"
-        ]
-      },
-      {
-        "id": "3899967",
-        "date_added": "2026-08-08 20:35:23",
-        "url": "https://github.com/Shapecluneedle/jubilant-engine/releases/download/exec/payl.exe",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "fake-software",
-          "gaming-lure",
-          "github",
-          "Loader",
-          "SheetRAT"
-        ]
-      },
-      {
-        "id": "3899965",
-        "date_added": "2026-08-08 20:34:48",
-        "url": "https://github.com/BlackSuite999/Fishstrap-Roblox-2026/releases/download/release/Release.v.1.3.8.zip",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "fake-software",
-          "gaming-lure",
-          "github",
-          "Loader"
-        ]
-      },
-      {
-        "id": "3899966",
-        "date_added": "2026-08-08 20:34:48",
-        "url": "https://github.com/CoopeRlOq9/Project-Zomboid-Build-42-Map/releases/download/release/Release.v.1.3.8.zip",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "fake-software",
-          "gaming-lure",
-          "github",
-          "Loader"
-        ]
-      },
-      {
-        "id": "3899964",
-        "date_added": "2026-08-08 20:34:38",
-        "url": "https://github.com/Alomonohom6/stalzone-cheat-2026/releases/download/release/Release.v.3.1.4.zip",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "fake-software",
-          "gaming-lure",
-          "github",
-          "Loader"
-        ]
-      },
-      {
-        "id": "3899963",
-        "date_added": "2026-08-08 20:34:33",
-        "url": "https://github.com/AlinRight93/stalzone-tools-cheat-2026/releases/download/release/Stalzone.v1.6.by.Kernel.Labs.zip",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "fake-software",
-          "gaming-lure",
-          "github",
-          "Loader"
-        ]
-      },
-      {
-        "id": "3899962",
-        "date_added": "2026-08-08 20:34:31",
-        "url": "http://61.53.237.126:41063/bin.sh",
+        "id": "3900004",
+        "date_added": "2026-08-09 01:05:23",
+        "url": "http://61.52.138.43:33994/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -384,22 +308,45 @@
         ]
       },
       {
-        "id": "3899961",
-        "date_added": "2026-08-08 20:33:35",
-        "url": "https://github.com/BeamChunin42/jennymod-installer/releases/download/latest/JennyMod.zip",
+        "id": "3900003",
+        "date_added": "2026-08-09 00:53:20",
+        "url": "http://117.253.29.68:48477/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "fake-software",
-          "gaming-lure",
-          "github",
-          "Loader"
+          "32-bit",
+          "arm",
+          "elf",
+          "mirai",
+          "Mozi"
         ]
       },
       {
-        "id": "3899960",
-        "date_added": "2026-08-08 20:27:20",
-        "url": "http://123.5.157.40:59329/bin.sh",
+        "id": "3900001",
+        "date_added": "2026-08-09 00:45:06",
+        "url": "http://62.60.226.140/files/1781548144/Ql0IJZ0.exe",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "d52f85",
+          "dropped-by-amadey"
+        ]
+      },
+      {
+        "id": "3900002",
+        "date_added": "2026-08-09 00:45:06",
+        "url": "http://62.60.226.140/files/5223853602/uDSthxb.exe",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "d52f85",
+          "dropped-by-amadey"
+        ]
+      },
+      {
+        "id": "3900000",
+        "date_added": "2026-08-09 00:33:19",
+        "url": "http://123.129.131.159:42876/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -410,9 +357,9 @@
         ]
       },
       {
-        "id": "3899959",
-        "date_added": "2026-08-08 20:21:24",
-        "url": "http://175.175.92.119:49061/bin.sh",
+        "id": "3899999",
+        "date_added": "2026-08-09 00:27:24",
+        "url": "http://42.233.107.216:48024/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -423,9 +370,9 @@
         ]
       },
       {
-        "id": "3899958",
-        "date_added": "2026-08-08 19:05:39",
-        "url": "http://42.231.88.234:60432/i",
+        "id": "3899998",
+        "date_added": "2026-08-09 00:16:21",
+        "url": "http://103.160.130.178:50403/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -436,29 +383,9 @@
         ]
       },
       {
-        "id": "3899957",
-        "date_added": "2026-08-08 18:57:07",
-        "url": "http://182.119.196.19:60380/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3899956",
-        "date_added": "2026-08-08 18:31:07",
-        "url": "http://182.119.196.19:60380/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3899955",
-        "date_added": "2026-08-08 18:23:26",
-        "url": "http://60.23.194.16:48972/bin.sh",
+        "id": "3899997",
+        "date_added": "2026-08-09 00:15:25",
+        "url": "http://115.59.22.163:43214/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -469,12 +396,91 @@
         ]
       },
       {
-        "id": "3899954",
-        "date_added": "2026-08-08 18:21:20",
-        "url": "http://123.4.234.31:58798/bin.sh",
+        "id": "3899996",
+        "date_added": "2026-08-09 00:14:16",
+        "url": "http://222.219.74.117:52755/bin.sh",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "mirai",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3899995",
+        "date_added": "2026-08-09 00:01:20",
+        "url": "http://163.142.95.105:38525/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3899994",
+        "date_added": "2026-08-08 23:49:22",
+        "url": "http://115.59.22.163:43214/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3899993",
+        "date_added": "2026-08-08 23:46:17",
+        "url": "http://115.52.234.218:36909/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3899992",
+        "date_added": "2026-08-08 23:38:26",
+        "url": "http://42.237.60.215:54523/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3899991",
+        "date_added": "2026-08-08 23:28:33",
+        "url": "http://175.151.82.88:52513/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3899990",
+        "date_added": "2026-08-08 23:10:20",
+        "url": "http://42.235.89.134:36799/i",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
           "Mozi"
         ]
       }
@@ -482,32 +488,53 @@
   },
   "world_monitor": [
     {
-      "title": "Wildfire Forces Evacuation of 18,000 From Summerland, British Columbia",
+      "title": "Bald Range Wildfire Forces Evacuation of 18,000 in British Columbia",
       "link": "https://www.nytimes.com/2026/08/08/world/canada/canada-summerland-bc-wildfire-bald-range-evacuation.html",
-      "pubDate": "Sat, 08 Aug 2026 21:23:41 +0000",
+      "pubDate": "Sun, 09 Aug 2026 01:12:03 +0000",
       "source": "NYT World",
-      "summary": "The Bald Range fire, which started on Friday, has burned more than 23,000 acres near the Districts of Summerland and Peachland in British Columbia, officials said."
+      "summary": "The Bald Range fire has burned more than 25,000 acres in British Columbia. At one point, the fire spread more than 2,000 acres in about an hour, officials said."
     },
     {
-      "title": "Trump’s Former Lawyer Is Now Attorney General",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/8/aje-onl-nf_todd-blanche-ag-080826?traffic_source=rss",
-      "pubDate": "Sat, 08 Aug 2026 21:04:54 +0000",
+      "title": "Hungary nominates former Supreme Court chief Andras Baka for presidency",
+      "link": "https://www.aljazeera.com/news/2026/8/9/hungary-nominates-former-supreme-court-chief-andras-baka-for-presidency?traffic_source=rss",
+      "pubDate": "Sun, 09 Aug 2026 00:41:01 +0000",
       "source": "Al Jazeera",
-      "summary": "Todd Blanche, President Trump’s former lawyer, is now US attorney general."
+      "summary": "Andras Baka, a strong advocate for judicial independence, becomes governing party's pick for Hungary's next president."
+    },
+    {
+      "title": "Iran war live: Tehran demands end to US blockade to reopen Strait of Hormuz",
+      "link": "https://www.aljazeera.com/news/liveblog/2026/8/9/iran-war-live-tehran-demands-end-to-us-blockade-to-reopen-strait-of-hormuz?traffic_source=rss",
+      "pubDate": "Sun, 09 Aug 2026 00:00:00 +0000",
+      "source": "Al Jazeera",
+      "summary": "IRGC sets conditions to reopen Strait of Hormuz as US seeks commitments to end attacks on ships in the waterway."
+    },
+    {
+      "title": "Turkiye says Mecca defence pact not aimed at Iran",
+      "link": "https://www.aljazeera.com/news/2026/8/8/turkiye-says-mecca-defence-pact-not-aimed-at-iran?traffic_source=rss",
+      "pubDate": "Sat, 08 Aug 2026 23:59:15 +0000",
+      "source": "Al Jazeera",
+      "summary": "Turkiye says the Mecca defence pact with Saudi Arabia and Pakistan does not target Iran."
+    },
+    {
+      "title": "Vance says US ‘destroyed’ Iran’s nuclear programme",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/8/vance-says-us-destroyed-irans-nuclear-programme?traffic_source=rss",
+      "pubDate": "Sat, 08 Aug 2026 23:27:55 +0000",
+      "source": "Al Jazeera",
+      "summary": "US Vice President JD Vance claims Washington has “destroyed” Iran’s nuclear programme and degraded its military."
+    },
+    {
+      "title": "Four killed in helicopter crash in Brazil’s Rio de Janeiro",
+      "link": "https://www.aljazeera.com/news/2026/8/8/four-killed-in-helicopter-crash-in-brazils-rio-de-janeiro?traffic_source=rss",
+      "pubDate": "Sat, 08 Aug 2026 23:19:28 +0000",
+      "source": "Al Jazeera",
+      "summary": "Three Colombian tourists are among the victims of Saturday's crash on mountainside forest of Tijuca National Park."
     },
     {
       "title": "Whirling Like Dervishes in Turkey, but Open to Everyone",
       "link": "https://www.nytimes.com/2026/08/08/world/europe/turkey-sema-whirling-dervish-islam.html",
-      "pubDate": "Sat, 08 Aug 2026 20:29:48 +0000",
+      "pubDate": "Sat, 08 Aug 2026 20:29:49 +0000",
       "source": "NYT World",
       "summary": "Hundreds of people attended a seven-day retreat in the Turkish countryside seeking transcendence through sema, the spiritual practice of whirling."
-    },
-    {
-      "title": "What are the challenges facing the Mecca agreement?",
-      "link": "https://www.aljazeera.com/video/inside-story/2026/8/8/challenges-facing-mecca-agreement?traffic_source=rss",
-      "pubDate": "Sat, 08 Aug 2026 20:25:43 +0000",
-      "source": "Al Jazeera",
-      "summary": "Saudi Arabia turns to Turkiye and Pakistan for defence ties, raising questions overreliance on the US."
     },
     {
       "title": "Hormuz talks positive, Oman says, as Iran warns deal would not open strait",
@@ -517,32 +544,11 @@
       "summary": "Both sides suggest progress in talks to agree a new shipping route through the strait, but a breakthrough remains unclear."
     },
     {
-      "title": "At least 200 people evacuated as wildfire rages near Lake Garda",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/8/at-least-200-people-evacuated-as-wildfire-rages-near-lake-garda?traffic_source=rss",
-      "pubDate": "Sat, 08 Aug 2026 19:13:03 +0000",
-      "source": "Al Jazeera",
-      "summary": "At least 200 people have been evacuated after a wildfire broke out near Italy’s Lake Garda."
-    },
-    {
       "title": "Iran Issues List of Demands, Dampening Hopes of Reopening Strait of Hormuz",
       "link": "https://www.nytimes.com/2026/08/08/world/middleeast/iran-us-oman-strait-of-hormuz.html",
       "pubDate": "Sat, 08 Aug 2026 19:04:41 +0000",
       "source": "NYT World",
       "summary": "The head of Iran’s Supreme National Security Council said that the Strait of Hormuz would remain closed until the United States met certain conditions."
-    },
-    {
-      "title": "Lebanese soldiers injured while Israeli troops intrude on southern town",
-      "link": "https://www.aljazeera.com/news/2026/8/8/lebanese-soldiers-injured-while-israeli-troops-intrude-on-southern-town?traffic_source=rss",
-      "pubDate": "Sat, 08 Aug 2026 19:00:43 +0000",
-      "source": "Al Jazeera",
-      "summary": "Soldiers disarm unexploded ordnance in Zawtar al-Gharbiyah, near where Israeli forces reportedly built an earth barrier."
-    },
-    {
-      "title": "US slams Chinese ‘nature reserve’ as effort to claim South China Sea",
-      "link": "https://www.aljazeera.com/news/2026/8/8/us-slams-chinese-nature-reserve-as-effort-to-claim-south-china-sea?traffic_source=rss",
-      "pubDate": "Sat, 08 Aug 2026 18:57:53 +0000",
-      "source": "Al Jazeera",
-      "summary": "US State Department accuses China of attempting to deny Filipino vessels access to fishing grounds in contested area."
     },
     {
       "title": "US offers $1bn to Colombia on new right-wing president's first day of office",
@@ -587,6 +593,13 @@
       "summary": "A rampage at a high school in Thailand on Friday was the latest episode of gun violence in a country that has grappled in recent years with several attacks."
     },
     {
+      "title": "Rubio Is Trying to Keep Leftists Out of U.S. by Banning Supporters of “Economic Sabotage”",
+      "link": "https://theintercept.com/2026/08/08/state-department-rubio-leftists-visas-terrorism/",
+      "pubDate": "Sat, 08 Aug 2026 10:06:00 +0000",
+      "source": "The Intercept",
+      "summary": "A new State Department policy about “far-left terrorism” could spark a crackdown on Boycott, Divestment, and Sanctions activists.\nThe post Rubio Is Trying to Keep Leftists Out of U.S. by Banning Supporters of “Economic Sabotage” appeared first on The"
+    },
+    {
       "title": "State Department Wants Palantir’s Advice on Free Speech and “Countering Digital Surveillance”",
       "link": "https://theintercept.com/2026/08/07/state-department-palantir-free-speech-surveillance/",
       "pubDate": "Fri, 07 Aug 2026 16:02:04 +0000",
@@ -613,13 +626,6 @@
       "pubDate": "Thu, 06 Aug 2026 09:00:00 +0000",
       "source": "The Intercept",
       "summary": "In the Mississippi town where Kohen Wiley died, community members had urged leaders to rein in the police. Are they listening now?\nThe post Black Residents Warned of Abusive Cops for Years. Then Police Shot and Killed a Toddler. appeared first on The"
-    },
-    {
-      "title": "The Most Expensive Democratic Senate Primary Has a Winner",
-      "link": "https://theintercept.com/2026/08/05/michigan-missouri-primary-results-el-sayed/",
-      "pubDate": "Wed, 05 Aug 2026 23:00:00 +0000",
-      "source": "The Intercept",
-      "summary": "Intercept reporters break down progressives’ wins and losses in Michigan and Missouri.\nThe post The Most Expensive Democratic Senate Primary Has a Winner appeared first on The Intercept."
     },
     {
       "title": "Welcome to Dubai: Kinahan Cartel’s Visas Revealed",
@@ -892,6 +898,30 @@
       "source": "Public Domain Review"
     },
     {
+      "title": "Journey to Robbers Cave",
+      "link": "https://behavioralscientist.org/journey-to-robbers-cave/",
+      "summary": "The year was 1948. Only three years had passed since the Axis powers signed the instrument of surrender effectively ending the Second World War. Fifty nations had taken part in the conflict that saw genocide and the first use of nuclear weapons. An estimated 50 million lives were lost and another 19",
+      "pubDate": "Sun, 19 Jul 2026 22:58:46 +0000",
+      "domain": "psychology",
+      "source": "Behavioral Scientist"
+    },
+    {
+      "title": "Behavioral Scientist’s Summer Book List 2026",
+      "link": "https://behavioralscientist.org/behavioral-scientists-summer-book-list-2026/",
+      "summary": "For your intellectual travels this summer, we’ve curated a baker’s dozen of behavioral science books newly published this year. Explore the mysteries of life and consciousness, glimpse the power of constraints and the games that define our lives, navigate life’s cliffs, and find the places that will",
+      "pubDate": "Sun, 05 Jul 2026 20:32:19 +0000",
+      "domain": "psychology",
+      "source": "Behavioral Scientist"
+    },
+    {
+      "title": "What It’s Like to Be…an Air Traffic Controller",
+      "link": "https://behavioralscientist.org/what-its-like-to-be-an-air-traffic-controller/",
+      "summary": "Sequencing departures like a moving puzzle, scrambling when a jet takes off without clearance, and catching what radar misses with a glance out the window with Michael Rejent, an air traffic controller. What does \"tally ho\" mean to a pilot? What phrase makes every controller in the cab look up?\n\n\n\n\n",
+      "pubDate": "Sun, 05 Jul 2026 16:35:59 +0000",
+      "domain": "psychology",
+      "source": "Behavioral Scientist"
+    },
+    {
       "title": "Best of SAPIENS 2025",
       "link": "https://www.sapiens.org/culture/best-of-sapiens-2025/",
       "summary": "In SAPIENS’ final year of publishing new stories, the magazine honors 10 standout contributions that carried anthropology into the hearts…\nThe post Best of SAPIENS 2025 appeared first on SAPIENS.",
@@ -966,64 +996,64 @@
   ],
   "misinfo_toilet": [
     {
-      "headline": "Wildfire Forces Evacuation of 18,000 From Summerland, British Columbia",
-      "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "splice": "Wildfire Forces Evacuation of 18,000 From Summerland, British Columbia consequently it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "seed": 20260829
+      "headline": "Rubio Is Trying to Keep Leftists Out of U.S. by Banning Supporters of “Economic Sabotage”",
+      "fragment": "The technocrat is the natural friend of the dictator—computers and dictatorship.",
+      "splice": "Rubio Is Trying to Keep Leftists Out of U.S. by Banning Supporters of “Economic Sabotage” the system notes that the technocrat is the natural friend of the dictator—computers and dictatorship.",
+      "seed": 20260810
     },
     {
-      "headline": "As Thailand Gets Known for Mass Shootings, Fresh Pledges to Fix Gun Laws",
-      "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "splice": "As Thailand Gets Known for Mass Shootings, Fresh Pledges to Fix Gun Laws not unlike it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "seed": 20260830
-    },
-    {
-      "headline": "Will Ronaldo Cry​? World Cup Fans Bet Billions Through Prediction Markets",
-      "fragment": "It is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
-      "splice": "Will Ronaldo Cry​? World Cup Fans Bet Billions Through Prediction Markets despite it is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
-      "seed": 20260831
-    },
-    {
-      "headline": "US offers $1bn to Colombia on new right-wing president's first day of office",
-      "fragment": "The privatization of the organs will only begin with the shame felt by man at the sight of man.",
-      "splice": "US offers $1bn to Colombia on new right-wing president's first day of office therefore the privatization of the organs will only begin with the shame felt by man at the sight of man.",
-      "seed": 20260832
-    },
-    {
-      "headline": "Trump's ex-lawyer Todd Blanche narrowly confirmed as US attorney general",
-      "fragment": "Traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "splice": "Trump's ex-lawyer Todd Blanche narrowly confirmed as US attorney general ...as traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "seed": 20260833
-    },
-    {
-      "headline": "What are the challenges facing the Mecca agreement?",
-      "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
-      "splice": "What are the challenges facing the Mecca agreement? insofar as the revolutionary lives in the gap which separates technical progress from social totality.",
-      "seed": 20260834
-    },
-    {
-      "headline": "Welcome to Dubai: Kinahan Cartel’s Visas Revealed",
-      "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
-      "splice": "Welcome to Dubai: Kinahan Cartel’s Visas Revealed which is to say the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
-      "seed": 20260835
-    },
-    {
-      "headline": "Hormuz talks positive, Oman says, as Iran warns deal would not open strait",
-      "fragment": "The truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
-      "splice": "Hormuz talks positive, Oman says, as Iran warns deal would not open strait underneath the truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
-      "seed": 20260836
+      "headline": "Vance says US ‘destroyed’ Iran’s nuclear programme",
+      "fragment": "Simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
+      "splice": "Vance says US ‘destroyed’ Iran’s nuclear programme underneath simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
+      "seed": 20260811
     },
     {
       "headline": "Congress Might Give ICE the Power to Go After Shoplifters",
-      "fragment": "Art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
-      "splice": "Congress Might Give ICE the Power to Go After Shoplifters as if art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
-      "seed": 20260837
+      "fragment": "An ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
+      "splice": "Congress Might Give ICE the Power to Go After Shoplifters ...as an ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
+      "seed": 20260812
+    },
+    {
+      "headline": "US offers $1bn to Colombia on new right-wing president's first day of office",
+      "fragment": "It is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
+      "splice": "US offers $1bn to Colombia on new right-wing president's first day of office while it is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
+      "seed": 20260813
+    },
+    {
+      "headline": "Madonna pays tribute to 'genius, otherworldly' producer William Orbit",
+      "fragment": "It is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
+      "splice": "Madonna pays tribute to 'genius, otherworldly' producer William Orbit insofar as it is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
+      "seed": 20260814
+    },
+    {
+      "headline": "Welcome to Dubai: Kinahan Cartel’s Visas Revealed",
+      "fragment": "It is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
+      "splice": "Welcome to Dubai: Kinahan Cartel’s Visas Revealed insofar as it is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
+      "seed": 20260815
+    },
+    {
+      "headline": "Hormuz talks positive, Oman says, as Iran warns deal would not open strait",
+      "fragment": "Underneath all reason lies delirium and drift.",
+      "splice": "Hormuz talks positive, Oman says, as Iran warns deal would not open strait which is to say underneath all reason lies delirium and drift.",
+      "seed": 20260816
+    },
+    {
+      "headline": "Between Graves and Uncertainty: The Management of the Dead After Venezuela’s Earthquake",
+      "fragment": "Antagonism is not now located externally, in the face-off between class blocs, but internally, in the psychology of the worker.",
+      "splice": "Between Graves and Uncertainty: The Management of the Dead After Venezuela’s Earthquake because antagonism is not now located externally, in the face-off between class blocs, but internally, in the psychology of the worker.",
+      "seed": 20260817
+    },
+    {
+      "headline": "Trump's ex-lawyer Todd Blanche narrowly confirmed as US attorney general",
+      "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "splice": "Trump's ex-lawyer Todd Blanche narrowly confirmed as US attorney general underneath the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "seed": 20260818
     },
     {
       "headline": "Whirling Like Dervishes in Turkey, but Open to Everyone",
-      "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "splice": "Whirling Like Dervishes in Turkey, but Open to Everyone consequently the breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "seed": 20260838
+      "fragment": "The simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
+      "splice": "Whirling Like Dervishes in Turkey, but Open to Everyone insofar as the simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
+      "seed": 20260819
     }
   ]
 }
