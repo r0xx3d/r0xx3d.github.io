@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T09:42:05.198Z",
+  "generated_at": "2026-08-09T15:34:11.167Z",
   "threat_intel": {
     "cisa_kev": [
       {
@@ -230,9 +230,230 @@
     ],
     "urlhaus": [
       {
-        "id": "3900081",
-        "date_added": "2026-08-09 09:17:17",
-        "url": "http://110.136.13.79:50906/bin.sh",
+        "id": "3900279",
+        "date_added": "2026-08-09 15:21:25",
+        "url": "http://111.127.232.172:44915/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3900278",
+        "date_added": "2026-08-09 15:20:14",
+        "url": "http://109.248.160.75/data_arm4",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "geofenced",
+          "ua-wget",
+          "USA"
+        ]
+      },
+      {
+        "id": "3900275",
+        "date_added": "2026-08-09 15:20:11",
+        "url": "http://109.248.160.75/data_powerpc",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "geofenced",
+          "ua-wget",
+          "USA"
+        ]
+      },
+      {
+        "id": "3900276",
+        "date_added": "2026-08-09 15:20:11",
+        "url": "http://109.248.160.75/data_aarch64",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "geofenced",
+          "ua-wget",
+          "USA"
+        ]
+      },
+      {
+        "id": "3900277",
+        "date_added": "2026-08-09 15:20:11",
+        "url": "http://109.248.160.75/data_x86",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "geofenced",
+          "ua-wget",
+          "USA"
+        ]
+      },
+      {
+        "id": "3900271",
+        "date_added": "2026-08-09 15:20:10",
+        "url": "http://109.248.160.75/data_arm7",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "geofenced",
+          "ua-wget",
+          "USA"
+        ]
+      },
+      {
+        "id": "3900272",
+        "date_added": "2026-08-09 15:20:10",
+        "url": "http://109.248.160.75/data_arm6",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "geofenced",
+          "ua-wget",
+          "USA"
+        ]
+      },
+      {
+        "id": "3900273",
+        "date_added": "2026-08-09 15:20:10",
+        "url": "http://109.248.160.75/data_x86_64",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "geofenced",
+          "ua-wget",
+          "USA"
+        ]
+      },
+      {
+        "id": "3900274",
+        "date_added": "2026-08-09 15:20:10",
+        "url": "http://109.248.160.75/data_arm5",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "geofenced",
+          "ua-wget",
+          "USA"
+        ]
+      },
+      {
+        "id": "3900269",
+        "date_added": "2026-08-09 15:20:07",
+        "url": "http://109.248.160.75/bbc",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "geofenced",
+          "sh",
+          "ua-wget",
+          "USA"
+        ]
+      },
+      {
+        "id": "3900268",
+        "date_added": "2026-08-09 15:09:36",
+        "url": "http://109.248.160.75/data_mips",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "geofenced",
+          "mips",
+          "ua-wget",
+          "USA"
+        ]
+      },
+      {
+        "id": "3900267",
+        "date_added": "2026-08-09 15:08:19",
+        "url": "http://46.151.182.200/bins/bot.x86",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mirai",
+          "x86-32"
+        ]
+      },
+      {
+        "id": "3900266",
+        "date_added": "2026-08-09 15:08:18",
+        "url": "http://109.248.160.75/data_mipsel",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "geofenced",
+          "mips",
+          "mirai",
+          "ua-wget",
+          "USA"
+        ]
+      },
+      {
+        "id": "3900265",
+        "date_added": "2026-08-09 15:07:06",
+        "url": "http://110.36.11.225:51361/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3900264",
+        "date_added": "2026-08-09 14:58:15",
+        "url": "http://123.10.145.33:33546/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3900263",
+        "date_added": "2026-08-09 14:44:26",
+        "url": "http://123.12.230.16:46574/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3900262",
+        "date_added": "2026-08-09 14:41:26",
+        "url": "http://123.12.230.16:46574/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3900261",
+        "date_added": "2026-08-09 14:30:25",
+        "url": "http://210.208.111.36:51347/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -244,170 +465,9 @@
         ]
       },
       {
-        "id": "3900080",
-        "date_added": "2026-08-09 09:17:08",
-        "url": "http://115.55.236.232:44430/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3900079",
-        "date_added": "2026-08-09 09:14:27",
-        "url": "http://125.43.116.242:47371/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3900078",
-        "date_added": "2026-08-09 09:08:24",
-        "url": "http://61.54.194.76:45113/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3900077",
-        "date_added": "2026-08-09 09:07:17",
-        "url": "http://115.55.113.143:47041/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3900076",
-        "date_added": "2026-08-09 09:06:07",
-        "url": "http://61.52.138.43:33994/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3900075",
-        "date_added": "2026-08-09 09:02:16",
-        "url": "http://42.235.55.88:55713/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3900074",
-        "date_added": "2026-08-09 08:40:23",
-        "url": "http://182.114.252.205:60751/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3900071",
-        "date_added": "2026-08-09 08:06:18",
-        "url": "http://110.37.21.60:54714/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3900070",
-        "date_added": "2026-08-09 08:02:19",
-        "url": "http://221.15.226.18:57698/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3900069",
-        "date_added": "2026-08-09 08:01:41",
-        "url": "http://221.15.226.18:57698/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3900068",
-        "date_added": "2026-08-09 07:42:56",
-        "url": "http://210.208.111.2:36838/i",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3900067",
-        "date_added": "2026-08-09 07:35:45",
-        "url": "http://113.231.229.97:60941/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3900066",
-        "date_added": "2026-08-09 07:33:20",
-        "url": "http://203.101.187.19:52053/i",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "arm",
-          "elf",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3900065",
-        "date_added": "2026-08-09 07:12:08",
-        "url": "http://210.208.111.2:36838/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "mirai"
-        ]
-      },
-      {
-        "id": "3900064",
-        "date_added": "2026-08-09 07:10:37",
-        "url": "http://203.101.187.19:52053/bin.sh",
+        "id": "3900260",
+        "date_added": "2026-08-09 14:25:25",
+        "url": "http://115.197.132.72:52016/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -419,96 +479,108 @@
         ]
       },
       {
-        "id": "3900063",
-        "date_added": "2026-08-09 06:59:32",
-        "url": "http://196.189.98.110:53335/i",
+        "id": "3900259",
+        "date_added": "2026-08-09 14:07:09",
+        "url": "http://123.13.106.196:55036/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "32-bit",
-          "arm",
-          "elf",
-          "mirai",
           "Mozi"
-        ]
-      },
-      {
-        "id": "3900062",
-        "date_added": "2026-08-09 06:59:25",
-        "url": "http://42.230.33.248:48303/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3900061",
-        "date_added": "2026-08-09 06:54:08",
-        "url": "https://www.mediafire.com/file/pfxpcqrssrvi4h4/file",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "iso"
-        ]
-      },
-      {
-        "id": "3900060",
-        "date_added": "2026-08-09 06:52:06",
-        "url": "https://mediafire.com/file/pfxpcqrssrvi4h4/file",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "iso"
         ]
       }
     ]
   },
   "world_monitor": [
     {
-      "title": "It won’t be Trump who kills the ICC",
-      "link": "https://www.aljazeera.com/opinions/2026/8/9/it-wont-be-trump-who-kills-the-icc?traffic_source=rss",
-      "pubDate": "Sun, 09 Aug 2026 09:05:47 +0000",
+      "title": "Gaza’s children still struggling with hunger as another famine threatens",
+      "link": "https://www.aljazeera.com/features/2026/8/9/gazas-children-still-struggling-with-hunger-as-another-famine-threatens?traffic_source=rss",
+      "pubDate": "Sun, 09 Aug 2026 14:47:29 +0000",
       "source": "Al Jazeera",
-      "summary": "It would be the International Criminal Court’s alleged supporters who refuse to take action to defend it."
+      "summary": "Youngsters are still feeling the effects of the 2025 famine, with another food emergency emerging."
     },
     {
-      "title": "Women’s Day in South Africa turns 70 with equality still out of reach",
-      "link": "https://www.aljazeera.com/opinions/2026/8/9/womens-day-in-south-africa-turns-70-with-equality-still-out-of-reach?traffic_source=rss",
-      "pubDate": "Sun, 09 Aug 2026 08:37:39 +0000",
-      "source": "Al Jazeera",
-      "summary": "The 1956 march transformed women’s rights and political power, but millions still cannot fully enjoy those gains."
-    },
-    {
-      "title": "Flight cancellations, evacuations as China braces for Typhoon Dolphin",
-      "link": "https://www.aljazeera.com/news/2026/8/9/flight-cancellations-evacuations-as-china-braces-for-typhoon-dolphin?traffic_source=rss",
-      "pubDate": "Sun, 09 Aug 2026 08:37:37 +0000",
-      "source": "Al Jazeera",
-      "summary": "Over 1,600 flights cancelled as Typhoon Dolphin approaches China's eastern coast, with winds reaching 162km/h overnight."
-    },
-    {
-      "title": "Whirling Like Dervishes in Turkey, but Open to Everyone",
-      "link": "https://www.nytimes.com/2026/08/08/world/europe/turkey-sema-whirling-dervish-islam.html",
-      "pubDate": "Sun, 09 Aug 2026 08:18:47 +0000",
+      "title": "Iran, Holding Firm to Hormuz, Pushes for Return to June MOU",
+      "link": "https://www.nytimes.com/2026/08/09/world/europe/iran-strait-hormuz-trump-deal.html",
+      "pubDate": "Sun, 09 Aug 2026 14:44:02 +0000",
       "source": "NYT World",
-      "summary": "Hundreds of people attended a seven-day retreat in the Turkish countryside seeking transcendence through sema, the spiritual practice of whirling."
+      "summary": "The Strait of Hormuz is Iran’s best leverage to get Washington to release Iran’s frozen assets, lift economic sanctions and end its naval blockade."
     },
     {
-      "title": "Saudi Arabia says fire extinguished at Aramco facility in Jizan",
-      "link": "https://www.aljazeera.com/news/2026/8/9/saudi-arabia-says-fire-extinguished-at-aramco-facility-in-jizan?traffic_source=rss",
-      "pubDate": "Sun, 09 Aug 2026 07:58:00 +0000",
-      "source": "Al Jazeera",
-      "summary": "No casualties were reported after the flames broke out early on Sunday, the Saudi Energy Ministry says."
+      "title": "Syria Agrees to Reorganized Russian Military Presence",
+      "link": "https://www.nytimes.com/2026/08/09/world/middleeast/syria-reorganized-russian-military-presence.html",
+      "pubDate": "Sun, 09 Aug 2026 14:30:54 +0000",
+      "source": "NYT World",
+      "summary": "After more than a year and a half of negotiations, Syria and Russia have agreed on new parameters of Russia’s military presence in Syria. Syria said it opens the way for a new phase in relations."
     },
     {
-      "title": "Nagasaki mayor says ‘humanity and nuclear weapons cannot coexist’",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/9/nagasaki-mayor-says-humanity-and-nuclear-weapons-cannot?traffic_source=rss",
-      "pubDate": "Sun, 09 Aug 2026 07:56:47 +0000",
+      "title": "Gaza engineer builds animal shelters out of empty cans",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/9/gaza-engineer-builds-animal-shelters-out-of-empty-cans?traffic_source=rss",
+      "pubDate": "Sun, 09 Aug 2026 14:28:34 +0000",
       "source": "Al Jazeera",
-      "summary": "Nagasaki Mayor says ‘humanity and nuclear weapons can't coexist’ as Japan marks anniversary of the US atomic bombing."
+      "summary": "Gaza engineer builds animal shelters out of empty cans"
+    },
+    {
+      "title": "What now as Israel rejects Trump’s 15-point plan for Gaza?",
+      "link": "https://www.aljazeera.com/news/2026/8/9/what-now-as-israel-rejects-trumps-15-point-plan-for-gaza?traffic_source=rss",
+      "pubDate": "Sun, 09 Aug 2026 14:26:30 +0000",
+      "source": "Al Jazeera",
+      "summary": "As Netanyahu demands 'genuine' Hamas disarmament before considering pull-out from Gaza, a look at what happens next."
+    },
+    {
+      "title": "The Mecca pact is not just another regional alliance",
+      "link": "https://www.aljazeera.com/opinions/2026/8/9/the-mecca-pact-is-not-just-another-regional-alliance?traffic_source=rss",
+      "pubDate": "Sun, 09 Aug 2026 14:23:13 +0000",
+      "source": "Al Jazeera",
+      "summary": "It could set the stage for a profound transformation of regional security in the Gulf."
+    },
+    {
+      "title": "Syria says it reached deal with Moscow on future of Russian bases",
+      "link": "https://www.aljazeera.com/news/2026/8/9/syria-says-it-reached-deal-with-moscow-on-future-of-russian-bases?traffic_source=rss",
+      "pubDate": "Sun, 09 Aug 2026 14:20:51 +0000",
+      "source": "Al Jazeera",
+      "summary": "Hmeimim airbase and Tartus naval base will become joint training and capacity-building centres under the agreement."
+    },
+    {
+      "title": "Israel rejects Trump's 15-point plan for Gaza, Netanyahu says",
+      "link": "https://www.bbc.co.uk/news/articles/c5yw4lpe0yeo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Sun, 09 Aug 2026 14:18:10 GMT",
+      "source": "BBC",
+      "summary": "Israel's PM says its military will not pull out from Gaza until Hamas is \"genuinely\" disarmed."
+    },
+    {
+      "title": "Israel Rejects Trump’s 15-Point Plan to Disarm Hamas",
+      "link": "https://www.nytimes.com/2026/08/09/world/middleeast/israel-netanyahu-trump-15-point-plan-hamas-peace-gaza.html",
+      "pubDate": "Sun, 09 Aug 2026 12:57:23 +0000",
+      "source": "NYT World",
+      "summary": "President Trump’s Board of Peace announced an agreement last month that aimed at Hamas giving up its weapons alongside an Israeli withdrawal from Gaza."
+    },
+    {
+      "title": "Suspected crime boss Daniel Kinahan returning to Ireland in high-security operation ",
+      "link": "https://www.bbc.co.uk/news/articles/c62qd5plzp6o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Sun, 09 Aug 2026 12:39:18 GMT",
+      "source": "BBC",
+      "summary": "The Irish Prison Service bought a bulletproof and bombproof van to transport the 49-year-old to court after his extradition from Dubai."
+    },
+    {
+      "title": "Ancient Roman shipwreck discovered off Sicily coast",
+      "link": "https://www.bbc.co.uk/news/articles/cvgx1kpz17go?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Sun, 09 Aug 2026 12:27:26 GMT",
+      "source": "BBC",
+      "summary": "Italy's culture minister says it is one of the most important underwater archaeological finds in years."
+    },
+    {
+      "title": "As the Climate Warms, Beavers are Coming for Canada’s Arctic",
+      "link": "https://www.nytimes.com/2026/08/09/world/canada/arctic-beavers-canada-climate-umiujaq-quebec.html",
+      "pubDate": "Sun, 09 Aug 2026 09:00:42 +0000",
+      "source": "NYT World",
+      "summary": "Drawn by a warming climate, Canada’s furry national symbol is colonizing new territory, evading Inuit hunters and reshaping the world they find."
+    },
+    {
+      "title": "Inside the War on Hezbollah’s Finances",
+      "link": "https://www.nytimes.com/2026/08/09/world/europe/lebanon-hezbollah-iran-us-finances.html",
+      "pubDate": "Sun, 09 Aug 2026 09:00:15 +0000",
+      "source": "NYT World",
+      "summary": "Israel and the United States aren’t just targeting the Lebanese militant group’s weapons. They’re going after its money."
     },
     {
       "title": "Perez Hilton faces long recovery after reports he self-harmed during livestream",
@@ -518,60 +590,11 @@
       "summary": "The US blogger is in a \"serious but stable\" condition in hospital, according to his family."
     },
     {
-      "title": "How a Drone ‘Hellscape’ Might Stop a Chinese Invasion of Taiwan",
-      "link": "https://www.nytimes.com/2026/08/09/world/asia/taiwan-drone-china-invasion.html",
-      "pubDate": "Sun, 09 Aug 2026 04:01:15 +0000",
-      "source": "NYT World",
-      "summary": "Inspired by Ukraine’s battlefield gains, Taiwan is betting on drones to deter a potential Chinese invasion."
-    },
-    {
-      "title": "Hundreds arrested over French wildfires, but who is to blame?",
-      "link": "https://www.bbc.co.uk/news/articles/cvgxjn92x9jo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Sat, 08 Aug 2026 23:59:23 GMT",
-      "source": "BBC",
-      "summary": "The government is trying to attribute blame for the unprecedented fires which tore through the country last month."
-    },
-    {
       "title": "Israel accused of weaponising archaeology at ancient West Bank sites",
       "link": "https://www.bbc.co.uk/news/articles/c20d8qre98do?at_medium=RSS&at_campaign=rss",
       "pubDate": "Sat, 08 Aug 2026 23:43:44 GMT",
       "source": "BBC",
       "summary": "Israel is planning large-scale land expropriations in historic, Palestinian areas of the West Bank."
-    },
-    {
-      "title": "Hormuz talks positive, Oman says, as Iran warns deal would not open strait",
-      "link": "https://www.bbc.co.uk/news/articles/c934j5y2lq9o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Sat, 08 Aug 2026 19:18:57 GMT",
-      "source": "BBC",
-      "summary": "Both sides suggest progress in talks to agree a new shipping route through the strait, but a breakthrough remains unclear."
-    },
-    {
-      "title": "Iran Issues List of Demands, Dampening Hopes of Reopening Strait of Hormuz",
-      "link": "https://www.nytimes.com/2026/08/08/world/middleeast/iran-us-oman-strait-of-hormuz.html",
-      "pubDate": "Sat, 08 Aug 2026 19:04:41 +0000",
-      "source": "NYT World",
-      "summary": "The head of Iran’s Supreme National Security Council said that the Strait of Hormuz would remain closed until the United States met certain conditions."
-    },
-    {
-      "title": "Trump's ex-lawyer Todd Blanche narrowly confirmed as US attorney general",
-      "link": "https://www.bbc.co.uk/news/articles/cewr898jy8go?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Sat, 08 Aug 2026 15:56:39 GMT",
-      "source": "BBC",
-      "summary": "The vote cements Trump's former criminal defence lawyer as the nation's top law enforcement official despite a rare pushback from some Republicans."
-    },
-    {
-      "title": "Yemen Teeters on Civil War as Regional Stability Hangs in the Balance",
-      "link": "https://www.nytimes.com/2026/08/08/world/middleeast/yemen-houthis-regional-stability.html",
-      "pubDate": "Sat, 08 Aug 2026 14:57:24 +0000",
-      "source": "NYT World",
-      "summary": "While the Middle East waits to hear whether a deal can be reached to reopen the Strait of Hormuz, the Yemeni government’s conflict with Iran-backed Houthi rebels escalated overnight."
-    },
-    {
-      "title": "As Thailand Gets Known for Mass Shootings, Fresh Pledges to Fix Gun Laws",
-      "link": "https://www.nytimes.com/2026/08/08/world/asia/thailand-mass-shootings-gun-laws.html",
-      "pubDate": "Sat, 08 Aug 2026 14:47:22 +0000",
-      "source": "NYT World",
-      "summary": "A rampage at a high school in Thailand on Friday was the latest episode of gun violence in a country that has grappled in recent years with several attacks."
     },
     {
       "title": "Rubio Is Trying to Keep Leftists Out of U.S. by Banning Supporters of “Economic Sabotage”",
@@ -711,20 +734,36 @@
   ],
   "syndicate_journal": [
     {
-      "title": "Don’t Just Tax the Rich — Attack Inequality at the Root",
+      "title": "If AOC Doesn’t Run for President, Run a Union Worker",
       "link": "",
-      "summary": "Economic inequality in the United States has risen dramatically over the last sixty years. Indeed, the degree of inequality today is probably  at any point in the country’s history. This severe inequality is a severe social malady. So, what should we do about it?greater than\nConsider the following a",
-      "pubDate": "2026-08-08T15:27:38.787Z",
+      "summary": "What do we do if Alexandria Ocasio-Cortez decides not to run for president in 2028? It makes sense that many leftists are currently focused on  to take the plunge. But the absence of a Plan B, or even much discussion about one, is worrisome.calling on her\nThe US left can’t afford to sit out the 2028",
+      "pubDate": "2026-08-09T13:00:00.112Z",
       "domain": "politics",
       "source": "Jacobin"
     },
     {
-      "title": "After Blocking Fuel, the US Turns to Cuba’s Food Supply",
+      "title": "Medicaid Cuts Could Kill Safety-Net Health Centers",
       "link": "",
-      "summary": "Cuba’s right to grow, process, and eat its own food is under siege.\nIn July, the US State Department announced a round of broad  against Cuba targeting industries that have historically been spared, limiting the Cuban government’s ability to purchase agricultural commodities and food processing equi",
-      "pubDate": "2026-08-08T14:29:58.615Z",
+      "summary": "If you’ve ever driven through an American city, odds are you have seen a federally qualified health center (FQHC).  are safety-net medical providers dedicated to providing health services to people who may not otherwise have access to quality primary and outpatient care. According to one FQHC nurse,",
+      "pubDate": "2026-08-09T12:30:00.148Z",
       "domain": "politics",
       "source": "Jacobin"
+    },
+    {
+      "title": "Gen Z Can’t Go On. It Must Go On.",
+      "link": "",
+      "summary": "Gen Z . That seems fair enough, at least at first glance. At the same time, the CEO of Anthropic, Dario Amodei, is  that his employees care more about their salaries than the company’s mission. That complaint is much harder to defend, but it inadvertently points to a broader question that relates to",
+      "pubDate": "2026-08-09T12:00:00.136Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "Taxi Drivers Rarely Die of Alzheimer’s—How Complex Mental Maps and Spatial Reasoning Protect Your Brain",
+      "link": "https://nautil.us/taxi-drivers-rarely-die-of-alzheimers-how-complex-mental-maps-and-spatial-reasoning-protect-your-brain-1283501/",
+      "summary": "Working with and living in spatially complex environments may help delay cognitive decline, though more research is needed\nThe post Taxi Drivers Rarely Die of Alzheimer’s—How Complex Mental Maps and Spatial Reasoning Protect Your Brain appeared first on Nautilus.",
+      "pubDate": "Sun, 09 Aug 2026 12:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
     },
     {
       "title": "New Observatory Captures More Than Half a Million Galaxies in a Single Image",
@@ -733,14 +772,6 @@
       "pubDate": "Sat, 08 Aug 2026 14:00:00 +0000",
       "domain": "science",
       "source": "Nautilus"
-    },
-    {
-      "title": "The Fight for Abortion Rights Was Won in the Streets",
-      "link": "",
-      "summary": "Four years after the Supreme Court’s decision overturning  and the federal right to abortion, the rate of abortion has actually increased.Roe v. Wade\nAccording to the , in 2022 there were 80,000 abortions per month in the United States; in the first half of 2025, that figure had risen to 99,000. Thi",
-      "pubDate": "2026-08-08T13:44:06.471Z",
-      "domain": "politics",
-      "source": "Jacobin"
     },
     {
       "title": "Inside the Not-So-Dumb Head of the Dodo Bird",
@@ -757,14 +788,6 @@
       "pubDate": "Sat, 08 Aug 2026 11:25:29 +0000",
       "domain": "linguistics",
       "source": "Language Log"
-    },
-    {
-      "title": "Viagra May Slow the Spread of Cancer",
-      "link": "https://nautil.us/viagra-may-slow-the-spread-of-cancer-1283519/",
-      "summary": "And statins can help\nThe post Viagra May Slow the Spread of Cancer appeared first on Nautilus.",
-      "pubDate": "Fri, 07 Aug 2026 21:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
     },
     {
       "title": "Neutrinos From Deep Inside Earth Provide a New Picture of the Mantle",
@@ -977,64 +1000,64 @@
   ],
   "misinfo_toilet": [
     {
-      "headline": "State Department Wants Palantir’s Advice on Free Speech and “Countering Digital Surveillance”",
+      "headline": "Rubio Is Trying to Keep Leftists Out of U.S. by Banning Supporters of “Economic Sabotage”",
       "fragment": "In the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
-      "splice": "State Department Wants Palantir’s Advice on Free Speech and “Countering Digital Surveillance” which is to say in the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
-      "seed": 20260818
-    },
-    {
-      "headline": "Nagasaki mayor says ‘humanity and nuclear weapons cannot coexist’",
-      "fragment": "The simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
-      "splice": "Nagasaki mayor says ‘humanity and nuclear weapons cannot coexist’ underneath the simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
-      "seed": 20260819
-    },
-    {
-      "headline": "Trump's ex-lawyer Todd Blanche narrowly confirmed as US attorney general",
-      "fragment": "An ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
-      "splice": "Trump's ex-lawyer Todd Blanche narrowly confirmed as US attorney general while an ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
-      "seed": 20260820
-    },
-    {
-      "headline": "Flight cancellations, evacuations as China braces for Typhoon Dolphin",
-      "fragment": "The technocrat is the natural friend of the dictator—computers and dictatorship.",
-      "splice": "Flight cancellations, evacuations as China braces for Typhoon Dolphin insofar as the technocrat is the natural friend of the dictator—computers and dictatorship.",
-      "seed": 20260821
-    },
-    {
-      "headline": "As Thailand Gets Known for Mass Shootings, Fresh Pledges to Fix Gun Laws",
-      "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "splice": "As Thailand Gets Known for Mass Shootings, Fresh Pledges to Fix Gun Laws consequently it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "seed": 20260822
-    },
-    {
-      "headline": "Women’s Day in South Africa turns 70 with equality still out of reach",
-      "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "splice": "Women’s Day in South Africa turns 70 with equality still out of reach not unlike it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "seed": 20260823
-    },
-    {
-      "headline": "Whirling Like Dervishes in Turkey, but Open to Everyone",
-      "fragment": "It is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
-      "splice": "Whirling Like Dervishes in Turkey, but Open to Everyone despite it is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
+      "splice": "Rubio Is Trying to Keep Leftists Out of U.S. by Banning Supporters of “Economic Sabotage” which is to say in the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
       "seed": 20260824
     },
     {
-      "headline": "Shahed-Type Drones Filmed During Mali Village Attacks",
-      "fragment": "The privatization of the organs will only begin with the shame felt by man at the sight of man.",
-      "splice": "Shahed-Type Drones Filmed During Mali Village Attacks therefore the privatization of the organs will only begin with the shame felt by man at the sight of man.",
+      "headline": "Gaza engineer builds animal shelters out of empty cans",
+      "fragment": "The simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
+      "splice": "Gaza engineer builds animal shelters out of empty cans underneath the simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
       "seed": 20260825
     },
     {
-      "headline": "The Pentagon Is Posting Cryptic Biblical Messages on Social Media",
-      "fragment": "Traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "splice": "The Pentagon Is Posting Cryptic Biblical Messages on Social Media ...as traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
+      "headline": "Identifying the Crypto Entrepreneur Linked to Popular Forum Trading in ‘Leaked’ Nudes of Women",
+      "fragment": "An ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
+      "splice": "Identifying the Crypto Entrepreneur Linked to Popular Forum Trading in ‘Leaked’ Nudes of Women while an ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
       "seed": 20260826
     },
     {
-      "headline": "Black Residents Warned of Abusive Cops for Years. Then Police Shot and Killed a Toddler.",
-      "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
-      "splice": "Black Residents Warned of Abusive Cops for Years. Then Police Shot and Killed a Toddler. insofar as the revolutionary lives in the gap which separates technical progress from social totality.",
+      "headline": "Will Ronaldo Cry​? World Cup Fans Bet Billions Through Prediction Markets",
+      "fragment": "The technocrat is the natural friend of the dictator—computers and dictatorship.",
+      "splice": "Will Ronaldo Cry​? World Cup Fans Bet Billions Through Prediction Markets insofar as the technocrat is the natural friend of the dictator—computers and dictatorship.",
       "seed": 20260827
+    },
+    {
+      "headline": "Gaza’s children still struggling with hunger as another famine threatens",
+      "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
+      "splice": "Gaza’s children still struggling with hunger as another famine threatens consequently it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
+      "seed": 20260828
+    },
+    {
+      "headline": "As the Climate Warms, Beavers are Coming for Canada’s Arctic",
+      "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
+      "splice": "As the Climate Warms, Beavers are Coming for Canada’s Arctic not unlike it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
+      "seed": 20260829
+    },
+    {
+      "headline": "Shahed-Type Drones Filmed During Mali Village Attacks",
+      "fragment": "It is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
+      "splice": "Shahed-Type Drones Filmed During Mali Village Attacks despite it is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
+      "seed": 20260830
+    },
+    {
+      "headline": "Black Residents Warned of Abusive Cops for Years. Then Police Shot and Killed a Toddler.",
+      "fragment": "The privatization of the organs will only begin with the shame felt by man at the sight of man.",
+      "splice": "Black Residents Warned of Abusive Cops for Years. Then Police Shot and Killed a Toddler. therefore the privatization of the organs will only begin with the shame felt by man at the sight of man.",
+      "seed": 20260831
+    },
+    {
+      "headline": "State Department Wants Palantir’s Advice on Free Speech and “Countering Digital Surveillance”",
+      "fragment": "Traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
+      "splice": "State Department Wants Palantir’s Advice on Free Speech and “Countering Digital Surveillance” ...as traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
+      "seed": 20260832
+    },
+    {
+      "headline": "Perez Hilton faces long recovery after reports he self-harmed during livestream",
+      "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
+      "splice": "Perez Hilton faces long recovery after reports he self-harmed during livestream insofar as the revolutionary lives in the gap which separates technical progress from social totality.",
+      "seed": 20260833
     }
   ]
 }
