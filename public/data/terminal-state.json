@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T02:01:04.897Z",
+  "generated_at": "2026-08-10T04:40:01.297Z",
   "threat_intel": {
     "cisa_kev": [
       {
@@ -230,22 +230,145 @@
     ],
     "urlhaus": [
       {
-        "id": "3900376",
-        "date_added": "2026-08-10 01:59:24",
-        "url": "http://219.157.202.104:39615/bin.sh",
+        "id": "3900403",
+        "date_added": "2026-08-10 04:30:25",
+        "url": "http://61.53.220.232:55420/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3900402",
+        "date_added": "2026-08-10 04:15:24",
+        "url": "http://42.232.231.254:56762/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3900400",
+        "date_added": "2026-08-10 04:14:21",
+        "url": "http://182.117.165.9:33305/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
           "32-bit",
           "arm",
           "elf",
+          "mirai",
           "Mozi"
         ]
       },
       {
-        "id": "3900375",
-        "date_added": "2026-08-10 01:57:07",
-        "url": "http://123.13.106.196:55036/bin.sh",
+        "id": "3900401",
+        "date_added": "2026-08-10 04:14:21",
+        "url": "http://125.44.47.23:54371/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3900399",
+        "date_added": "2026-08-10 04:09:15",
+        "url": "http://175.153.92.244:48563/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "mirai",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3900398",
+        "date_added": "2026-08-10 04:08:22",
+        "url": "http://222.140.161.119:54327/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3900397",
+        "date_added": "2026-08-10 03:57:07",
+        "url": "http://42.235.75.164:57996/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3900396",
+        "date_added": "2026-08-10 03:57:06",
+        "url": "http://110.37.89.210:38147/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "mirai"
+        ]
+      },
+      {
+        "id": "3900395",
+        "date_added": "2026-08-10 03:53:16",
+        "url": "http://115.48.44.116:38510/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3900394",
+        "date_added": "2026-08-10 03:50:21",
+        "url": "http://42.232.231.254:56762/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3900393",
+        "date_added": "2026-08-10 03:47:06",
+        "url": "http://110.36.70.189:53510/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3900392",
+        "date_added": "2026-08-10 03:42:07",
+        "url": "http://222.138.181.201:51235/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -253,97 +376,9 @@
         ]
       },
       {
-        "id": "3900374",
-        "date_added": "2026-08-10 01:39:22",
-        "url": "http://123.14.193.241:34414/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3900373",
-        "date_added": "2026-08-10 01:36:20",
-        "url": "http://222.140.161.119:54327/bin.sh",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3900372",
-        "date_added": "2026-08-10 01:29:19",
-        "url": "http://123.13.142.66:59668/i",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3900371",
-        "date_added": "2026-08-10 01:27:10",
-        "url": "http://119.179.237.64:40459/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3900370",
-        "date_added": "2026-08-10 01:14:31",
-        "url": "http://182.123.40.234:41791/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3900368",
-        "date_added": "2026-08-10 01:14:29",
-        "url": "http://123.10.145.33:33546/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3900369",
-        "date_added": "2026-08-10 01:14:29",
-        "url": "http://175.165.87.184:46171/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3900367",
-        "date_added": "2026-08-10 01:03:25",
-        "url": "http://219.157.202.104:39615/i",
+        "id": "3900391",
+        "date_added": "2026-08-10 03:35:29",
+        "url": "http://110.37.39.88:32921/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -355,9 +390,39 @@
         ]
       },
       {
-        "id": "3900366",
-        "date_added": "2026-08-10 01:02:24",
-        "url": "http://123.13.142.66:59668/bin.sh",
+        "id": "3900390",
+        "date_added": "2026-08-10 03:31:07",
+        "url": "http://110.37.89.210:38147/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "mirai"
+        ]
+      },
+      {
+        "id": "3900389",
+        "date_added": "2026-08-10 03:26:06",
+        "url": "http://110.36.70.189:53510/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3900388",
+        "date_added": "2026-08-10 03:22:06",
+        "url": "http://182.113.206.76:59535/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3900387",
+        "date_added": "2026-08-10 03:20:27",
+        "url": "http://115.48.44.116:38510/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -368,35 +433,19 @@
         ]
       },
       {
-        "id": "3900365",
-        "date_added": "2026-08-10 00:57:23",
-        "url": "http://175.165.87.184:46171/bin.sh",
+        "id": "3900386",
+        "date_added": "2026-08-10 03:12:06",
+        "url": "http://36.71.24.56:48673/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
+          "mirai"
         ]
       },
       {
-        "id": "3900364",
-        "date_added": "2026-08-10 00:53:18",
-        "url": "http://125.43.107.232:46123/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3900363",
-        "date_added": "2026-08-10 00:41:16",
-        "url": "http://196.190.133.180:45025/i",
+        "id": "3900385",
+        "date_added": "2026-08-10 03:07:25",
+        "url": "http://110.37.39.88:32921/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -408,105 +457,52 @@
         ]
       },
       {
-        "id": "3900362",
-        "date_added": "2026-08-10 00:22:05",
-        "url": "http://62.60.226.140/files/7061144442/nxumfOe.exe",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "d52f85",
-          "dropped-by-amadey"
-        ]
-      },
-      {
-        "id": "3900361",
-        "date_added": "2026-08-10 00:21:22",
-        "url": "http://103.146.110.122:34125/i",
+        "id": "3900384",
+        "date_added": "2026-08-10 03:02:06",
+        "url": "http://182.113.206.76:59535/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3900360",
-        "date_added": "2026-08-10 00:19:36",
-        "url": "http://115.98.147.69:54271/bin.sh",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3900359",
-        "date_added": "2026-08-10 00:06:06",
-        "url": "http://112.238.178.200:46827/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3900358",
-        "date_added": "2026-08-09 23:57:24",
-        "url": "http://112.238.178.200:46827/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3900357",
-        "date_added": "2026-08-09 23:55:22",
-        "url": "http://103.146.110.122:34125/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
+          "None"
         ]
       }
     ]
   },
   "world_monitor": [
     {
-      "title": "Could Morocco’s football chief Fouzi Lekjaa become its next prime minister?",
-      "link": "https://www.aljazeera.com/news/2026/8/10/could-moroccos-football-chief-fouzi-lekjaa-become-its-next-prime-minister?traffic_source=rss",
-      "pubDate": "Mon, 10 Aug 2026 00:51:19 +0000",
+      "title": "Trump names Will Scharf as White House counsel ahead of midterms",
+      "link": "https://www.aljazeera.com/news/2026/8/10/trump-names-will-scharf-as-white-house-counsel-ahead-of-midterms?traffic_source=rss",
+      "pubDate": "Mon, 10 Aug 2026 04:00:21 +0000",
       "source": "Al Jazeera",
-      "summary": "Lekjaa’s decision to join a political party has fuelled speculation about his political ambitions."
+      "summary": "Trump has named White House Staff Secretary Will Scharf as White House counsel, starting from September 1."
     },
     {
-      "title": "Houthis renew missile and drone attacks on Yemen’s port of al-Makha",
-      "link": "https://www.aljazeera.com/news/2026/8/10/houthis-renew-missile-and-drone-attacks-on-yemens-port-of-al-makha?traffic_source=rss",
-      "pubDate": "Mon, 10 Aug 2026 00:19:43 +0000",
+      "title": "Brazilian player falls into tunnel celebrating goal",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/10/brazilian-player-falls-into-tunnel-celebrating-goal?traffic_source=rss",
+      "pubDate": "Mon, 10 Aug 2026 03:51:00 +0000",
       "source": "Al Jazeera",
-      "summary": "The latest Houthi attacks come less than 24 hours after an earlier barrage struck al-Makha (Mocha) and its commercial port."
+      "summary": "Footage shows Brazilian player Jacy Maranhão falling into the players’ tunnel after jumping over advertising boards."
     },
     {
-      "title": "Iran war live: US ‘semi-negotiating’ with Tehran; Israel rejects Gaza plan",
-      "link": "https://www.aljazeera.com/news/liveblog/2026/8/10/iran-war-live-us-semi-negotiating-with-tehran-israel-rejects-gaza-plan?traffic_source=rss",
-      "pubDate": "Mon, 10 Aug 2026 00:00:00 +0000",
+      "title": "Trump signals shift to economic pressure on Iran over new military strikes",
+      "link": "https://www.aljazeera.com/economy/2026/8/10/trump-signals-shift-to-economic-pressure-on-iran-over-new-military-strikes?traffic_source=rss",
+      "pubDate": "Mon, 10 Aug 2026 03:48:19 +0000",
       "source": "Al Jazeera",
-      "summary": "Trump says US will wait for economic pressure to mount on Iran, as Israel formally rejects 15-point Gaza peace plan."
+      "summary": "US relying on sanctions and naval blockade as oil prices stabilise, easing economic strain on American consumers."
     },
     {
-      "title": "F-16s intercept two aircraft near Trump’s New Jersey golf club",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/9/aje-onl-nf_f-16s-intercept-two-aircraft-near-trump-golf-club-090826?traffic_source=rss",
-      "pubDate": "Sun, 09 Aug 2026 23:28:38 +0000",
+      "title": "Oil prices climb as Iranian demands cloud outlook for Strait of Hormuz",
+      "link": "https://www.aljazeera.com/economy/2026/8/10/oil-prices-climb-as-iranian-demands-cloud-outlook-for-strait-of-hormuz?traffic_source=rss",
+      "pubDate": "Mon, 10 Aug 2026 03:24:38 +0000",
       "source": "Al Jazeera",
-      "summary": "F-16s intercepted two civilian aircraft entering restricted airspace over Bedminster, NJ, where President Trump was."
+      "summary": "Brent crude prices rise as Tehran says critical waterway will not reopen without major US concessions."
+    },
+    {
+      "title": "Clashes in Iraq’s Kut city during protests over power shortages",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/10/aje-onl-nf_kut-protests-escalate-over-iraqs-electricity-crisis-090826?traffic_source=rss",
+      "pubDate": "Mon, 10 Aug 2026 03:03:59 +0000",
+      "source": "Al Jazeera",
+      "summary": "Protests over power shortages escalated in Kut, Iraq, as demonstrators demanded more electricity amid soaring heat."
     },
     {
       "title": "Evidence that South African special forces murdered top detective shared with BBC",
@@ -514,13 +510,6 @@
       "pubDate": "Sun, 09 Aug 2026 23:05:29 GMT",
       "source": "BBC",
       "summary": "Frans Mathipa was shot while driving - we got access to the prosecution case against eight accused men."
-    },
-    {
-      "title": "Union reports 108 attacks on Palestinian journalists in July",
-      "link": "https://www.aljazeera.com/news/2026/8/9/union-reports-108-attacks-on-palestinian-journalists-in-july?traffic_source=rss",
-      "pubDate": "Sun, 09 Aug 2026 23:01:25 +0000",
-      "source": "Al Jazeera",
-      "summary": "Palestinian Journalists Syndicate exposes rising threats, with over 270 journalists killed in Gaza since October 2023."
     },
     {
       "title": "Israel Rejects Trump’s 15-Point Plan to Disarm Hamas",
@@ -723,6 +712,30 @@
   ],
   "syndicate_journal": [
     {
+      "title": "Towards Multi-Label Graph Foundation Models: from Single-Vector Representation Learning to Multi-Semantic Basis Learning",
+      "link": "https://arxiv.org/abs/2608.06394",
+      "summary": "arXiv:2608.06394v1 Announce Type: new \nAbstract: Multi-label node classification is an important yet challenging task in graph learning, where nodes exhibit multiple semantics simultaneously. Existing methods for multi-label node classification can effectively model multiple labels, while only consi",
+      "pubDate": "Mon, 10 Aug 2026 00:00:00 -0400",
+      "domain": "science",
+      "source": "arXiv: cs.AI"
+    },
+    {
+      "title": "EntropyMoE: Entropy-Aware Sparse Expert Routing for Tokenizer-Free LLMs",
+      "link": "https://arxiv.org/abs/2608.06398",
+      "summary": "arXiv:2608.06398v1 Announce Type: new \nAbstract: Recent byte-level large language models (LLMs) have made tokenizer-free modeling increasingly competitive by grouping bytes into dynamically sized patches. However, existing byte-patch architectures still apply the same dense feed-forward computation ",
+      "pubDate": "Mon, 10 Aug 2026 00:00:00 -0400",
+      "domain": "science",
+      "source": "arXiv: cs.AI"
+    },
+    {
+      "title": "Beyond Routing Weights: Faithful Response-Level Interpretation of Mixture-of-Experts Reward Models via Contribution Contrast",
+      "link": "https://arxiv.org/abs/2608.06400",
+      "summary": "arXiv:2608.06400v1 Announce Type: new \nAbstract: Reward models are central to learning from human preferences, yet identifying what drives their predictions remains challenging. Recent sparse Mixture-of-Experts (MoE) reward models seek to improve interpretability by routing prompts to specialized ex",
+      "pubDate": "Mon, 10 Aug 2026 00:00:00 -0400",
+      "domain": "science",
+      "source": "arXiv: cs.AI"
+    },
+    {
       "title": "If AOC Doesn’t Run for President, Run a Union Worker",
       "link": "",
       "summary": "What do we do if Alexandria Ocasio-Cortez decides not to run for president in 2028? It makes sense that many leftists are currently focused on  to take the plunge. But the absence of a Plan B, or even much discussion about one, is worrisome.calling on her\nThe US left can’t afford to sit out the 2028",
@@ -891,6 +904,30 @@
       "source": "Public Domain Review"
     },
     {
+      "title": "Journey to Robbers Cave",
+      "link": "https://behavioralscientist.org/journey-to-robbers-cave/",
+      "summary": "The year was 1948. Only three years had passed since the Axis powers signed the instrument of surrender effectively ending the Second World War. Fifty nations had taken part in the conflict that saw genocide and the first use of nuclear weapons. An estimated 50 million lives were lost and another 19",
+      "pubDate": "Sun, 19 Jul 2026 22:58:46 +0000",
+      "domain": "psychology",
+      "source": "Behavioral Scientist"
+    },
+    {
+      "title": "Behavioral Scientist’s Summer Book List 2026",
+      "link": "https://behavioralscientist.org/behavioral-scientists-summer-book-list-2026/",
+      "summary": "For your intellectual travels this summer, we’ve curated a baker’s dozen of behavioral science books newly published this year. Explore the mysteries of life and consciousness, glimpse the power of constraints and the games that define our lives, navigate life’s cliffs, and find the places that will",
+      "pubDate": "Sun, 05 Jul 2026 20:32:19 +0000",
+      "domain": "psychology",
+      "source": "Behavioral Scientist"
+    },
+    {
+      "title": "What It’s Like to Be…an Air Traffic Controller",
+      "link": "https://behavioralscientist.org/what-its-like-to-be-an-air-traffic-controller/",
+      "summary": "Sequencing departures like a moving puzzle, scrambling when a jet takes off without clearance, and catching what radar misses with a glance out the window with Michael Rejent, an air traffic controller. What does \"tally ho\" mean to a pilot? What phrase makes every controller in the cab look up?\n\n\n\n\n",
+      "pubDate": "Sun, 05 Jul 2026 16:35:59 +0000",
+      "domain": "psychology",
+      "source": "Behavioral Scientist"
+    },
+    {
       "title": "Best of SAPIENS 2025",
       "link": "https://www.sapiens.org/culture/best-of-sapiens-2025/",
       "summary": "In SAPIENS’ final year of publishing new stories, the magazine honors 10 standout contributions that carried anthropology into the hearts…\nThe post Best of SAPIENS 2025 appeared first on SAPIENS.",
@@ -939,25 +976,25 @@
       "source": "ROAR Magazine"
     },
     {
-      "title": "Transformational coaching and technical-tactical performance efficiency ratio in basketball: an empirical analysis",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1884143",
-      "summary": "This study aims to explore the impact of transformational basketball coaching on athletes' technical-tactical performance and its efficiency ratio. A quantitative research design integrating questionnaire surveys and controlled experimental comparisons was adopted. A total of 306 basketball athletes",
+      "title": "Examining the use of experience sampling methods in sport psychology research: a scoping review",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1860704",
+      "summary": "IntroductionExperience sampling methods (ESMs) allow researchers to capture the variability in momentary human experiences by collecting repeated self-report measures within or across days. Real-time fluctuations in psychological processes, which are commonly distorted by retrospective bias in tradi",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "Perceptions of inclusion among students with and without self-reported learning disabilities in Saudi schools",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1820826",
-      "summary": "IntroductionThis study examined perceptions of inclusive education among Saudi students with and without self-reported indicators of Specific Learning Disabilities (SLD), addressing limited evidence from Saudi schools.MethodsA correlational design was used with 694 Saudi students in Grades 4–9. Part",
+      "title": "From the court to the heart: basketball intervention is associated with adolescents’ subjective well-being—a serial mediation analysis of executive function and psychological capital",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1929704",
+      "summary": "AimThis study aims to elucidate the psychological mechanisms through which  basketball intervention is associated with adolescents’ subjective well-being (SWB).MethodsA 2 × 2 mixed experimental design was employed, and 64 high school students were randomly assigned to an experimental group (n = 32) ",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "An analysis of the predictive factors of digital gaming addiction on psychological well-being in young people using machine learning",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1881878",
-      "summary": "AimThe main objective of this study is to examine students’ attitudes toward physical education (PEA) and sports classes within the framework of digital game addiction (DGA) and values education (VE).MethodsThe research was conducted based on a quantitative and relational survey model. The study gro",
+      "title": "Affective pathways in human–AI interaction: the formation of willingness to communicate among Chinese KFL learners in AI-mediated informal digital learning of Korean",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1786682",
+      "summary": "This study examines willingness to communicate (WTC) among Chinese learners of Korean in the context of AI-mediated informal digital learning of Korean (AI-IDLK) from an affective perspective. Moving beyond the assumption that L2 confidence and anxiety function as parallel affective predictors, the ",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
@@ -968,61 +1005,61 @@
       "headline": "Congress Might Give ICE the Power to Go After Shoplifters",
       "fragment": "To dissimulate is to pretend not to have what one has. To simulate is to feign to have what one doesn't have. One implies a presence, the other an absence.",
       "splice": "Congress Might Give ICE the Power to Go After Shoplifters because to dissimulate is to pretend not to have what one has. To simulate is to feign to have what one doesn't have. One implies a presence, the other an absence.",
-      "seed": 20260812
+      "seed": 20260814
     },
     {
       "headline": "Inside the War on Hezbollah’s Finances",
       "fragment": "Simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
       "splice": "Inside the War on Hezbollah’s Finances in the void where simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
-      "seed": 20260813
+      "seed": 20260815
     },
     {
       "headline": "Identifying the Crypto Entrepreneur Linked to Popular Forum Trading in ‘Leaked’ Nudes of Women",
       "fragment": "The technocrat is the natural friend of the dictator—computers and dictatorship.",
       "splice": "Identifying the Crypto Entrepreneur Linked to Popular Forum Trading in ‘Leaked’ Nudes of Women because the technocrat is the natural friend of the dictator—computers and dictatorship.",
-      "seed": 20260814
+      "seed": 20260816
     },
     {
       "headline": "Iran War Timeline: Key Moments and Attacks In U.S. and Israel’s Campaign",
       "fragment": "The technocrat is the natural friend of the dictator—computers and dictatorship.",
       "splice": "Iran War Timeline: Key Moments and Attacks In U.S. and Israel’s Campaign as if the technocrat is the natural friend of the dictator—computers and dictatorship.",
-      "seed": 20260815
-    },
-    {
-      "headline": "Iran war live: US ‘semi-negotiating’ with Tehran; Israel rejects Gaza plan",
-      "fragment": "In the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
-      "splice": "Iran war live: US ‘semi-negotiating’ with Tehran; Israel rejects Gaza plan which is to say in the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
-      "seed": 20260816
-    },
-    {
-      "headline": "Union reports 108 attacks on Palestinian journalists in July",
-      "fragment": "The simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
-      "splice": "Union reports 108 attacks on Palestinian journalists in July underneath the simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
       "seed": 20260817
+    },
+    {
+      "headline": "Oil prices climb as Iranian demands cloud outlook for Strait of Hormuz",
+      "fragment": "In the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
+      "splice": "Oil prices climb as Iranian demands cloud outlook for Strait of Hormuz which is to say in the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
+      "seed": 20260818
+    },
+    {
+      "headline": "Trump names Will Scharf as White House counsel ahead of midterms",
+      "fragment": "The simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
+      "splice": "Trump names Will Scharf as White House counsel ahead of midterms underneath the simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
+      "seed": 20260819
     },
     {
       "headline": "Between Graves and Uncertainty: The Management of the Dead After Venezuela’s Earthquake",
       "fragment": "An ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
       "splice": "Between Graves and Uncertainty: The Management of the Dead After Venezuela’s Earthquake while an ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
-      "seed": 20260818
+      "seed": 20260820
     },
     {
       "headline": "Ancient Roman shipwreck discovered off Sicily coast",
       "fragment": "The technocrat is the natural friend of the dictator—computers and dictatorship.",
       "splice": "Ancient Roman shipwreck discovered off Sicily coast insofar as the technocrat is the natural friend of the dictator—computers and dictatorship.",
-      "seed": 20260819
+      "seed": 20260821
     },
     {
       "headline": "Evidence that South African special forces murdered top detective shared with BBC",
       "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
       "splice": "Evidence that South African special forces murdered top detective shared with BBC consequently it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "seed": 20260820
+      "seed": 20260822
     },
     {
       "headline": "Israel Rejects Trump’s 15-Point Plan to Disarm Hamas",
       "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
       "splice": "Israel Rejects Trump’s 15-Point Plan to Disarm Hamas not unlike it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "seed": 20260821
+      "seed": 20260823
     }
   ]
 }
