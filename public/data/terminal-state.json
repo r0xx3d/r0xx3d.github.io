@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T13:14:54.243Z",
+  "generated_at": "2026-08-11T01:56:16.405Z",
   "threat_intel": {
     "cisa_kev": [
       {
@@ -230,9 +230,22 @@
     ],
     "urlhaus": [
       {
-        "id": "3900964",
-        "date_added": "2026-08-10 12:59:46",
-        "url": "http://27.37.100.78:38525/i",
+        "id": "3901232",
+        "date_added": "2026-08-11 01:45:28",
+        "url": "http://210.208.110.21:51285/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3901231",
+        "date_added": "2026-08-11 01:43:22",
+        "url": "http://175.147.159.41:36190/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -243,100 +256,22 @@
         ]
       },
       {
-        "id": "3900957",
-        "date_added": "2026-08-10 12:59:45",
-        "url": "http://privrawmirai.privnetwork.tech/LjEZs/mips",
-        "url_status": "online",
+        "id": "3901230",
+        "date_added": "2026-08-11 01:41:46",
+        "url": "http://42.180.15.83:57232/bin.sh",
+        "url_status": "offline",
         "threat": "malware_download",
         "tags": [
-          "botnetdomain",
+          "32-bit",
           "elf",
-          "mirai",
-          "ua-wget"
+          "mips",
+          "Mozi"
         ]
       },
       {
-        "id": "3900958",
-        "date_added": "2026-08-10 12:59:45",
-        "url": "http://privrawmirai.privnetwork.tech/LjEZs/ppc",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "botnetdomain",
-          "elf",
-          "mirai",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3900959",
-        "date_added": "2026-08-10 12:59:45",
-        "url": "http://privrawmirai.privnetwork.tech/LjEZs/mpsl",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "botnetdomain",
-          "elf",
-          "mirai",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3900960",
-        "date_added": "2026-08-10 12:59:45",
-        "url": "http://privrawmirai.privnetwork.tech/LjEZs/sh4",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "botnetdomain",
-          "elf",
-          "mirai",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3900961",
-        "date_added": "2026-08-10 12:59:45",
-        "url": "http://privrawmirai.privnetwork.tech/LjEZs/m68k",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "botnetdomain",
-          "elf",
-          "mirai",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3900962",
-        "date_added": "2026-08-10 12:59:45",
-        "url": "http://privrawmirai.privnetwork.tech/LjEZs/arm7",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "botnetdomain",
-          "elf",
-          "mirai",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3900963",
-        "date_added": "2026-08-10 12:59:45",
-        "url": "http://privrawmirai.privnetwork.tech/LjEZs/arc",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "botnetdomain",
-          "elf",
-          "mirai",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3900956",
-        "date_added": "2026-08-10 12:49:28",
-        "url": "http://125.42.193.111:43262/i",
+        "id": "3901229",
+        "date_added": "2026-08-11 01:30:38",
+        "url": "http://219.155.202.64:34690/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -347,100 +282,195 @@
         ]
       },
       {
-        "id": "3900955",
-        "date_added": "2026-08-10 12:43:21",
-        "url": "https://chrome-windows.ru/ChromeSetupWindows.exe",
+        "id": "3901228",
+        "date_added": "2026-08-11 01:23:32",
+        "url": "http://38.43.193.197:44535/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "exe"
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
         ]
       },
       {
-        "id": "3900954",
-        "date_added": "2026-08-10 12:34:28",
-        "url": "http://95.155.151.113/dlink.sh",
+        "id": "3901227",
+        "date_added": "2026-08-11 01:17:36",
+        "url": "http://210.208.110.21:51285/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "mirai",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3901226",
+        "date_added": "2026-08-11 01:15:24",
+        "url": "http://175.172.13.19:60669/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3901225",
+        "date_added": "2026-08-11 00:57:28",
+        "url": "http://38.43.193.197:44535/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3901224",
+        "date_added": "2026-08-11 00:56:23",
+        "url": "http://61.52.94.69:44759/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3901223",
+        "date_added": "2026-08-11 00:42:15",
+        "url": "http://124.92.80.153:35984/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3901222",
+        "date_added": "2026-08-11 00:29:31",
+        "url": "http://125.44.43.60:47091/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3901221",
+        "date_added": "2026-08-11 00:21:31",
+        "url": "http://123.173.101.27:46920/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "mirai",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3901220",
+        "date_added": "2026-08-11 00:15:28",
+        "url": "http://123.173.101.27:46920/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "mirai",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3901219",
+        "date_added": "2026-08-11 00:05:30",
+        "url": "http://125.45.64.34:37683/i",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3901218",
+        "date_added": "2026-08-11 00:01:21",
+        "url": "http://125.45.64.34:37683/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3901217",
+        "date_added": "2026-08-10 23:32:19",
+        "url": "http://112.198.138.178:59015/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "mirai",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3901210",
+        "date_added": "2026-08-10 23:27:28",
+        "url": "http://95.155.151.113/d/mini.x86_64",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "mirai",
           "opendir",
-          "sh",
+          "ua-wget",
+          "x86"
+        ]
+      },
+      {
+        "id": "3901211",
+        "date_added": "2026-08-10 23:27:28",
+        "url": "http://95.155.151.113/d/mini.mpsl",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "mips",
+          "mirai",
+          "opendir",
           "ua-wget"
         ]
       },
       {
-        "id": "3900953",
-        "date_added": "2026-08-10 12:07:26",
-        "url": "http://37.78.176.5:45921/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "arm",
-          "elf",
-          "mirai",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3900952",
-        "date_added": "2026-08-10 12:00:14",
-        "url": "http://91.92.242.236/files-129312398/files/file_e8219df7a9a21088.exe",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "54e64e",
-          "dropped-by-amadey",
-          "LummaStealer"
-        ]
-      },
-      {
-        "id": "3900951",
-        "date_added": "2026-08-10 11:35:21",
-        "url": "http://109.236.46.199:42682/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "arm",
-          "elf",
-          "mirai",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3900950",
-        "date_added": "2026-08-10 11:34:28",
-        "url": "http://121.231.139.26:36392/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "arm",
-          "elf",
-          "mirai",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3900949",
-        "date_added": "2026-08-10 11:24:19",
-        "url": "http://58.22.18.152:33899/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "arm",
-          "elf",
-          "mirai",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3900948",
-        "date_added": "2026-08-10 11:20:35",
-        "url": "http://115.63.242.225:33235/i",
-        "url_status": "online",
+        "id": "3901212",
+        "date_added": "2026-08-10 23:27:28",
+        "url": "http://42.53.51.109:44329/bin.sh",
+        "url_status": "offline",
         "threat": "malware_download",
         "tags": [
           "32-bit",
@@ -450,132 +480,119 @@
         ]
       },
       {
-        "id": "3900947",
-        "date_added": "2026-08-10 11:10:11",
-        "url": "http://109.236.46.199:42682/bin.sh",
+        "id": "3901213",
+        "date_added": "2026-08-10 23:27:28",
+        "url": "http://95.155.151.113/d/mini.mips",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "32-bit",
-          "arm",
-          "elf",
-          "mirai",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3900946",
-        "date_added": "2026-08-10 11:06:25",
-        "url": "http://115.55.179.35:36195/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
           "elf",
           "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3900945",
-        "date_added": "2026-08-10 10:49:19",
-        "url": "http://58.22.18.152:33899/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "arm",
-          "elf",
           "mirai",
-          "Mozi"
+          "opendir",
+          "ua-wget"
         ]
       }
     ]
   },
   "world_monitor": [
     {
+      "title": "Soldiers take cover as Colombia quake flattens military barracks",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/11/soldiers-take-cover-as-colombia-quake-flattens-military-barracks?traffic_source=rss",
+      "pubDate": "Tue, 11 Aug 2026 01:06:36 +0000",
+      "source": "Al Jazeera",
+      "summary": "Video shows soldiers running from buildings at a military base in Cali as a magnitude 7.4 earthquake"
+    },
+    {
+      "title": "Turkiye passes law giving thousands of PKK members chance at amnesty",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/11/08-11-2026-turkiye-pkk-bill-sv-mp4?traffic_source=rss",
+      "pubDate": "Tue, 11 Aug 2026 00:55:09 +0000",
+      "source": "Al Jazeera",
+      "summary": "Turkiye passes law setting terms for thousands of PKK members to rejoin society if the group fully disarms."
+    },
+    {
+      "title": "Seventy years after South Africa’s women’s march, the struggle is not over",
+      "link": "https://www.aljazeera.com/features/2026/8/11/seventy-years-after-south-africas-womens-march-the-struggle-is-not-over?traffic_source=rss",
+      "pubDate": "Tue, 11 Aug 2026 00:26:02 +0000",
+      "source": "Al Jazeera",
+      "summary": "Women helped defeat apartheid’s pass laws, but many still face violence, poverty and unemployment."
+    },
+    {
+      "title": "Powerful 7.4 Earthquake Strikes Colombia, Killing More Than 100",
+      "link": "https://www.nytimes.com/live/2026/08/10/world/colombia-earthquake-bogota-cali",
+      "pubDate": "Tue, 11 Aug 2026 00:21:33 +0000",
+      "source": "NYT World",
+      "summary": "The quake shook major cities, including Bogotá, Cali and Medellín. At least 111 people have died, the president said, and the death toll appeared likely to rise as rescuers searched damaged buildings."
+    },
+    {
+      "title": "Can Netanyahu defy Trump on his Gaza peace plan?",
+      "link": "https://www.aljazeera.com/video/inside-story/2026/8/11/can-netanyahu-defy-trump-on-his-gaza-peace-plan?traffic_source=rss",
+      "pubDate": "Tue, 11 Aug 2026 00:00:19 +0000",
+      "source": "Al Jazeera",
+      "summary": "Can Netanyahu risk continuing to defy Trump?"
+    },
+    {
+      "title": "Iran war live: Trump claims Hormuz Strait open, seeks Iranian compensation",
+      "link": "https://www.aljazeera.com/news/liveblog/2026/8/11/iran-war-live-trump-claims-the-strait-is-open-seeks-iranian-compensation?traffic_source=rss",
+      "pubDate": "Tue, 11 Aug 2026 00:00:00 +0000",
+      "source": "Al Jazeera",
+      "summary": "US President Donald Trump said he will seek compensation from Iran for casualties in the war."
+    },
+    {
+      "title": "Netanyahu Walks Tightrope on Trump’s Gaza Disarmament Deal",
+      "link": "https://www.nytimes.com/2026/08/10/world/middleeast/netanyahu-trump-israel-gaza-disarmament.html",
+      "pubDate": "Mon, 10 Aug 2026 22:00:49 +0000",
+      "source": "NYT World",
+      "summary": "The Israeli prime minister, facing a tough upcoming election, is trying to satisfy the sometimes competing demands of his right-wing base and of President Trump."
+    },
+    {
+      "title": "Canada flight cancelled after child refuses to wear seat belt",
+      "link": "https://www.bbc.co.uk/news/articles/cj6307x3wdgo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Mon, 10 Aug 2026 21:06:27 GMT",
+      "source": "BBC",
+      "summary": "The incident has sparked a debate over child safety and discipline on commercial planes."
+    },
+    {
+      "title": "'We've had a lot of close calls': Canada wildfire evacuees wonder if they still have homes",
+      "link": "https://www.bbc.co.uk/news/articles/cx2lwv032j9o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Mon, 10 Aug 2026 19:17:11 GMT",
+      "source": "BBC",
+      "summary": "More than 12,000 people have been forced to evacuate and some homes have been lost after a wildfire tore through Canada's picturesque Okanagan region."
+    },
+    {
+      "title": "30 years later, a former gang member will stand trial for Tupac's murder",
+      "link": "https://www.bbc.co.uk/news/articles/cgmkl1j3dwvo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Mon, 10 Aug 2026 16:52:47 GMT",
+      "source": "BBC",
+      "summary": "It’s been three decades since Tupac was killed, and since then, his reputation has only grown."
+    },
+    {
       "title": "Ukraine Drone Attack on Industrial City in Russia Kills at Least 13",
       "link": "https://www.nytimes.com/2026/08/10/world/europe/ukraine-drone-attack-russia.html",
-      "pubDate": "Mon, 10 Aug 2026 13:05:42 +0000",
+      "pubDate": "Mon, 10 Aug 2026 15:17:41 +0000",
       "source": "NYT World",
-      "summary": "A strike on an industrial center in Tatarstan marked one of the deadliest attacks on Russian territory since the start of the war."
+      "summary": "The strike, on an industrial center in Tatarstan, killed at least 13 people."
+    },
+    {
+      "title": "Netanyahu's rejection of Trump's 15-point Gaza plan unlikely to be final word",
+      "link": "https://www.bbc.co.uk/news/articles/ce3q5282ep3o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Mon, 10 Aug 2026 14:43:08 GMT",
+      "source": "BBC",
+      "summary": "The Trump administration is said to be unbothered by the Israeli prime minister's rejection of the deal, viewing it as campaign rhetoric ahead of a general election."
     },
     {
       "title": "At least 13 killed in Ukrainian drone strike deep into Russia",
       "link": "https://www.bbc.co.uk/news/articles/cvgjvgv926po?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Mon, 10 Aug 2026 12:54:13 GMT",
+      "pubDate": "Mon, 10 Aug 2026 14:34:25 GMT",
       "source": "BBC",
-      "summary": "Russian officials say another 75 people were injured by the attack in the Tatarstan region, one of the deadliest Ukrainian drone attacks on Russia since Moscow's full-scale invasion."
-    },
-    {
-      "title": "Jeff Bezos consortium nears deal to buy stake in Liverpool FC: Reports",
-      "link": "https://www.aljazeera.com/sports/2026/8/10/jeff-bezos-consortium-nears-deal-to-buy-stake-in-liverpool-fc-reports?traffic_source=rss",
-      "pubDate": "Mon, 10 Aug 2026 12:43:14 +0000",
-      "source": "Al Jazeera",
-      "summary": "Investment reportedly values the club at about $5.9bn, making it one of the largest ever football club valuations."
-    },
-    {
-      "title": "Alleged rebel leader killed in Colombia as president targets armed groups",
-      "link": "https://www.bbc.co.uk/news/articles/c5yrljp9x9eo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Mon, 10 Aug 2026 12:23:21 GMT",
-      "source": "BBC",
-      "summary": "The military operation against Hernando Forero Mosquera was carried out just days after Colombia's new president was sworn in."
-    },
-    {
-      "title": "Taiwan holds military drills to prepare for invasion by China",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/10/taiwan-holds-military-drills-to-prepare-for-invasion-by-china?traffic_source=rss",
-      "pubDate": "Mon, 10 Aug 2026 12:09:08 +0000",
-      "source": "Al Jazeera",
-      "summary": "Taiwan holds military drills to prepare for invasion by China"
-    },
-    {
-      "title": "Former MP opens fire in Thailand’s second shooting within days",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/10/former-mp-opens-fire-in-thailands-second-shooting-within-days?traffic_source=rss",
-      "pubDate": "Mon, 10 Aug 2026 12:00:29 +0000",
-      "source": "Al Jazeera",
-      "summary": "A second shooting has occurred in Thailand within days after a former MP opened fire outside a government office."
-    },
-    {
-      "title": "‘Long-range sanctions’: Ukraine hopes strikes cause Russia fear and losses",
-      "link": "https://www.aljazeera.com/news/2026/8/10/long-range-sanctions-ukraine-hopes-strikes-cause-russia-fear-and-losses?traffic_source=rss",
-      "pubDate": "Mon, 10 Aug 2026 11:51:28 +0000",
-      "source": "Al Jazeera",
-      "summary": "Al Jazeera is given rare access to one of Ukraine's long-range drone units tasked with targeting Russia."
-    },
-    {
-      "title": "Iran Insists Strait of Hormuz Will Stay Closed Until Trump Agrees to Demands",
-      "link": "https://www.nytimes.com/2026/08/10/world/middleeast/iran-strait-of-hormuz-us-oman-talks.html",
-      "pubDate": "Mon, 10 Aug 2026 11:34:13 +0000",
-      "source": "NYT World",
-      "summary": "A spokesman for the Iranian Foreign Ministry said that talks with Oman on shipping routes in the Strait of Hormuz were “separate” from discussions to fully reopen the waterway."
-    },
-    {
-      "title": "UEFA Super Cup – PSG vs Aston Villa: Prediction, start time, how to watch",
-      "link": "https://www.aljazeera.com/sports/2026/8/10/uefa-super-cup-psg-vs-aston-villa-prediction-start-time-how-to-watch?traffic_source=rss",
-      "pubDate": "Mon, 10 Aug 2026 11:28:23 +0000",
-      "source": "Al Jazeera",
-      "summary": "As Champions League and Europa League winners face off, here is everything to know on the venue, history and more."
-    },
-    {
-      "title": "How Taiwan Simulated a Potential Chinese Attack",
-      "link": "https://www.nytimes.com/2026/08/10/world/asia/taiwan-internet-china-invasion-drill.html",
-      "pubDate": "Mon, 10 Aug 2026 11:08:25 +0000",
-      "source": "NYT World",
-      "summary": "The 30-minute simulated disruption was part of the island’s effort to test and build people’s resilience in the face of a potential Chinese attack."
+      "summary": "Russian officials say another 75 people were injured by the attack - one of the deadliest Ukrainian drone attacks since Moscow's full-scale invasion."
     },
     {
       "title": "The Pentagon’s Obsession With China Puts Hawai‘i at Risk",
       "link": "https://theintercept.com/2026/08/10/china-war-hawaii-military-cost-nuclear/",
       "pubDate": "Mon, 10 Aug 2026 10:00:00 +0000",
       "source": "The Intercept",
-      "summary": "To prepare for a possible of war with China, the U.S. military has put Hawai’i on the front lines of a potential nuclear conflict.\nThe post The Pentagon’s Obsession With China Puts Hawai‘i at Risk appeared first on The Intercept."
-    },
-    {
-      "title": "Former Thai MP allegedly kills official and confesses on YouTube",
-      "link": "https://www.bbc.co.uk/news/articles/cqx7lje8l79o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Mon, 10 Aug 2026 09:51:07 GMT",
-      "source": "BBC",
-      "summary": "Chalong Riewrang called a YouTube livestream to say he had shot a government official."
+      "summary": "To prepare for a possible war with China, the U.S. military has put Hawai’i on the front lines of a potential nuclear conflict.\nThe post The Pentagon’s Obsession With China Puts Hawai‘i at Risk appeared first on The Intercept."
     },
     {
       "title": "Southern Iran Bears Brunt of U.S. Bombing",
@@ -585,25 +602,11 @@
       "summary": "While fighting has abated in much of Iran, near-constant U.S. airstrikes in Qeshm island and other southern spots have upended lives and livelihoods."
     },
     {
-      "title": "China evacuates one million from homes as massive storm arrives",
-      "link": "https://www.bbc.co.uk/news/articles/cx2rgzyplg2o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Mon, 10 Aug 2026 07:23:54 GMT",
-      "source": "BBC",
-      "summary": "Typhoon Dolphin has made landfall, bringing strong winds and heavy rain across eastern China including Shanghai."
-    },
-    {
       "title": "Extreme Heat Comes for the Red Chile Capital of Pakistan",
       "link": "https://www.nytimes.com/2026/08/10/world/asia/pakistan-red-chiles-climate-change.html",
       "pubDate": "Mon, 10 Aug 2026 04:01:20 +0000",
       "source": "NYT World",
       "summary": "The traditional ways of cultivating the peppers may not survive the challenges of climate change and soaring costs, so Pakistani farmers are trying to adapt."
-    },
-    {
-      "title": "Evidence that South African special forces murdered top detective shared with BBC",
-      "link": "https://www.bbc.co.uk/news/articles/cly8djwgem0o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Sun, 09 Aug 2026 23:05:29 GMT",
-      "source": "BBC",
-      "summary": "Frans Mathipa was shot while driving - we got access to the prosecution case against eight accused men."
     },
     {
       "title": "Sophie Cunningham Is the Anti-Trans Right's New White Woman Mascot",
@@ -736,12 +739,68 @@
   ],
   "syndicate_journal": [
     {
-      "title": "This Supernova Death of a Star Broke All the Rules",
-      "link": "https://nautil.us/this-supernova-death-of-a-star-broke-all-the-rules-1283530/",
-      "summary": "An unexpected way to go for a star 20 times the size of our sun\nThe post This Supernova Death of a Star Broke All the Rules appeared first on Nautilus.",
-      "pubDate": "Mon, 10 Aug 2026 12:00:00 +0000",
+      "title": "Why Doctors Telling Patients Their Symptoms Are “Normal” Can Backfire",
+      "link": "https://nautil.us/why-doctors-telling-patients-their-symptoms-are-normal-can-backfire-1283597/",
+      "summary": "It can discourage patients from pursuing treatment\nThe post Why Doctors Telling Patients Their Symptoms Are “Normal” Can Backfire appeared first on Nautilus.",
+      "pubDate": "Mon, 10 Aug 2026 22:00:00 +0000",
       "domain": "science",
       "source": "Nautilus"
+    },
+    {
+      "title": "Here’s the Crater SpaceX’s Rocket Left on the Moon",
+      "link": "https://nautil.us/heres-the-crater-spacexs-rocket-left-on-the-moon-1283581/",
+      "summary": "The crater could measure 100 feet in diameter\nThe post Here’s the Crater SpaceX’s Rocket Left on the Moon appeared first on Nautilus.",
+      "pubDate": "Mon, 10 Aug 2026 20:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "How Capitalism Undermines Democracy",
+      "link": "",
+      "summary": "Libertarian thinkers like Milton Friedman like to say that capitalism not only gave birth to democracy but also is the ideal economic system to complement democracy. But while capitalism may have created the conditions for democracy, it’s actually the main obstacle to securing full democratic rights",
+      "pubDate": "2026-08-10T19:45:35.158Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "Turtle Sex Determination Just Got a Lot Weirder",
+      "link": "https://nautil.us/turtle-sex-determination-just-got-a-lot-weirder-1283575/",
+      "summary": "Tiny antenna-like cell appendages play an outsized role\nThe post Turtle Sex Determination Just Got a Lot Weirder appeared first on Nautilus.",
+      "pubDate": "Mon, 10 Aug 2026 18:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "Socialists Need to Develop a Constitutional Politics",
+      "link": "",
+      "summary": "Last month, the Democratic Socialists of America (DSA) announced its 2026 “” program. The updated program concretizes DSA’s vision for a worker-centered American economy, democracy, and foreign policy. It calls for, among other things, housing for all, a Green New Deal, and public ownership of the l",
+      "pubDate": "2026-08-10T17:32:05.362Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "Why Are Rivers So Mathematical?",
+      "link": "https://www.quantamagazine.org/why-are-rivers-so-mathematical-20260810/",
+      "summary": "A simple scaling law brings order to the chaos of flowing water, rock, and sediment. New findings have extended the law even further.             \nThe post Why Are Rivers So Mathematical? first appeared on Quanta Magazine",
+      "pubDate": "Mon, 10 Aug 2026 14:56:34 +0000",
+      "domain": "science",
+      "source": "Quanta"
+    },
+    {
+      "title": "Born and Misunderstood in the USA",
+      "link": "",
+      "summary": "Ronald Reagan had a childhood out of a heartland rock song. His family moved from rental to rental in a series of small Illinois towns — Tampico, Galesburg, Monmouth — before settling in Dixon, a Twainish town on the Rock River, when he was ten. You can hear a cloudless movie version of this life in",
+      "pubDate": "2026-08-10T14:03:09.750Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "The Long History of Sexpionage",
+      "link": "https://daily.jstor.org/the-long-history-of-sexpionage/",
+      "summary": "How honey traps evolved from human seduction to digital deception in the changing world of espionage.\nThe post The Long History of Sexpionage appeared first on JSTOR Daily.",
+      "pubDate": "Mon, 10 Aug 2026 13:23:16 +0000",
+      "domain": "history",
+      "source": "JSTOR Daily"
     },
     {
       "title": "Khosheutovsky khurul",
@@ -782,46 +841,6 @@
       "pubDate": "Mon, 10 Aug 2026 00:00:00 -0400",
       "domain": "science",
       "source": "arXiv: cs.AI"
-    },
-    {
-      "title": "If AOC Doesn’t Run for President, Run a Union Worker",
-      "link": "",
-      "summary": "What do we do if Alexandria Ocasio-Cortez decides not to run for president in 2028? It makes sense that many leftists are currently focused on  to take the plunge. But the absence of a Plan B, or even much discussion about one, is worrisome.calling on her\nThe US left can’t afford to sit out the 2028",
-      "pubDate": "2026-08-09T13:00:00.112Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
-      "title": "Medicaid Cuts Could Kill Safety-Net Health Centers",
-      "link": "",
-      "summary": "If you’ve ever driven through an American city, odds are you have seen a federally qualified health center (FQHC).  are safety-net medical providers dedicated to providing health services to people who may not otherwise have access to quality primary and outpatient care. According to one FQHC nurse,",
-      "pubDate": "2026-08-09T12:30:00.148Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
-      "title": "Gen Z Can’t Go On. It Must Go On.",
-      "link": "",
-      "summary": "Gen Z . That seems fair enough, at least at first glance. At the same time, the CEO of Anthropic, Dario Amodei, is  that his employees care more about their salaries than the company’s mission. That complaint is much harder to defend, but it inadvertently points to a broader question that relates to",
-      "pubDate": "2026-08-09T12:00:00.136Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
-      "title": "Taxi Drivers Rarely Die of Alzheimer’s—How Complex Mental Maps and Spatial Reasoning Protect Your Brain",
-      "link": "https://nautil.us/taxi-drivers-rarely-die-of-alzheimers-how-complex-mental-maps-and-spatial-reasoning-protect-your-brain-1283501/",
-      "summary": "Working with and living in spatially complex environments may help delay cognitive decline, though more research is needed\nThe post Taxi Drivers Rarely Die of Alzheimer’s—How Complex Mental Maps and Spatial Reasoning Protect Your Brain appeared first on Nautilus.",
-      "pubDate": "Sun, 09 Aug 2026 12:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
-      "title": "New Observatory Captures More Than Half a Million Galaxies in a Single Image",
-      "link": "https://nautil.us/new-observatory-captures-more-than-half-a-million-galaxies-in-a-single-image-1283526/",
-      "summary": "The Vera C. Rubin Observatory is off to a fantastic start\nThe post New Observatory Captures More Than Half a Million Galaxies in a Single Image appeared first on Nautilus.",
-      "pubDate": "Sat, 08 Aug 2026 14:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
     },
     {
       "title": "A pun on a pun",
@@ -878,22 +897,6 @@
       "pubDate": "Thu, 06 Aug 2026 13:37:48 +0000",
       "domain": "science",
       "source": "Quanta"
-    },
-    {
-      "title": "Corals Spin Tiny Vortices to Get Oxygen, but Not if It’s Too Hot",
-      "link": "https://www.quantamagazine.org/corals-spin-tiny-vortices-to-get-oxygen-but-not-if-its-too-hot-20260805/",
-      "summary": "New research is helping biologists understand how an overlooked aspect of coral physiology may affect their fate under climate change.            \nThe post Corals Spin Tiny Vortices to Get Oxygen, but Not if It’s Too Hot first appeared on Quanta Magazine",
-      "pubDate": "Wed, 05 Aug 2026 15:40:41 +0000",
-      "domain": "science",
-      "source": "Quanta"
-    },
-    {
-      "title": "The Case for Aesthetic Education",
-      "link": "https://daily.jstor.org/the-case-for-aesthetic-education/",
-      "summary": "Why Friedrich Schiller believed art belongs at the heart of education—and why it matters for equal opportunity today.\nThe post The Case for Aesthetic Education appeared first on JSTOR Daily.",
-      "pubDate": "Wed, 05 Aug 2026 13:47:00 +0000",
-      "domain": "history",
-      "source": "JSTOR Daily"
     },
     {
       "title": "Ask LLOG: \"What do you say (that) we …\"",
@@ -1000,14 +1003,6 @@
       "source": "ROAR Magazine"
     },
     {
-      "title": "Impact of psychoeducation on oncology-related knowledge and attitudes toward truth-telling, fairness, and beneficence in oncology care among medical residents from diverse specialties",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1850827",
-      "summary": "BackgroundLittle is known about the effects of psychoeducational interventions on attitudes toward honest communication, equitable care, and acting in the cancer patient's best interests. We assessed the impact of a psychoeducational intervention on oncology-related knowledge and attitudes toward tr",
-      "pubDate": "",
-      "domain": "psychology",
-      "source": "Frontiers Psychology"
-    },
-    {
       "title": "Risk perception and spatial mobility on the Camino de Santiago: travel patterns analysis and the choice of Jacobean routes",
       "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1899526",
       "summary": "This study examines how fear of crime and perceived risk influence spatial mobility strategies in natural environments. Drawing on environmental criminology and fear-of-crime research, the article analyses how sociodemographic characteristics, prior knowledge of crime, and perceptions of safety shap",
@@ -1016,9 +1011,17 @@
       "source": "Frontiers Psychology"
     },
     {
-      "title": "All you need is love: preliminary validation of a new test of 10 parenting competencies that predict good outcomes with young children",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1796786",
-      "summary": "ObjectivesThe main objectives of this study were to provide preliminary evidence of the validity of a new online test of parenting competencies and to determine the relative value of 10 competencies that have been shown in empirical studies to be helpful in parenting.MethodsWe examined data obtained",
+      "title": "Examining the use of experience sampling methods in sport psychology research: a scoping review",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1860704",
+      "summary": "IntroductionExperience sampling methods (ESMs) allow researchers to capture the variability in momentary human experiences by collecting repeated self-report measures within or across days. Real-time fluctuations in psychological processes, which are commonly distorted by retrospective bias in tradi",
+      "pubDate": "",
+      "domain": "psychology",
+      "source": "Frontiers Psychology"
+    },
+    {
+      "title": "Chinese primary school physical education teachers’ ongoing training and professional competence: an evidence mapping review and a hypothesis-generating conceptual framework",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1901909",
+      "summary": "Ongoing training has gained increasing research attention as a means to improve the professional competencies of Chinese primary school physical education (PE) teachers. However, prior reviews have largely focused on general teachers, secondary teachers, or other subjects, leaving primary school PE ",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
@@ -1026,64 +1029,64 @@
   ],
   "misinfo_toilet": [
     {
-      "headline": "Evidence that South African special forces murdered top detective shared with BBC",
-      "fragment": "In the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
-      "splice": "Evidence that South African special forces murdered top detective shared with BBC which is to say in the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
-      "seed": 20260823
+      "headline": "State Department Wants Palantir’s Advice on Free Speech and “Countering Digital Surveillance”",
+      "fragment": "To dissimulate is to pretend not to have what one has. To simulate is to feign to have what one doesn't have. One implies a presence, the other an absence.",
+      "splice": "State Department Wants Palantir’s Advice on Free Speech and “Countering Digital Surveillance” because to dissimulate is to pretend not to have what one has. To simulate is to feign to have what one doesn't have. One implies a presence, the other an absence.",
+      "seed": 20260812
     },
     {
-      "headline": "Alleged rebel leader killed in Colombia as president targets armed groups",
-      "fragment": "The simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
-      "splice": "Alleged rebel leader killed in Colombia as president targets armed groups underneath the simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
-      "seed": 20260824
+      "headline": "Extreme Heat Comes for the Red Chile Capital of Pakistan",
+      "fragment": "Simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
+      "splice": "Extreme Heat Comes for the Red Chile Capital of Pakistan in the void where simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
+      "seed": 20260813
     },
     {
       "headline": "Identifying the Crypto Entrepreneur Linked to Popular Forum Trading in ‘Leaked’ Nudes of Women",
-      "fragment": "An ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
-      "splice": "Identifying the Crypto Entrepreneur Linked to Popular Forum Trading in ‘Leaked’ Nudes of Women while an ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
-      "seed": 20260825
-    },
-    {
-      "headline": "Will Ronaldo Cry​? World Cup Fans Bet Billions Through Prediction Markets",
       "fragment": "The technocrat is the natural friend of the dictator—computers and dictatorship.",
-      "splice": "Will Ronaldo Cry​? World Cup Fans Bet Billions Through Prediction Markets insofar as the technocrat is the natural friend of the dictator—computers and dictatorship.",
-      "seed": 20260826
+      "splice": "Identifying the Crypto Entrepreneur Linked to Popular Forum Trading in ‘Leaked’ Nudes of Women because the technocrat is the natural friend of the dictator—computers and dictatorship.",
+      "seed": 20260814
     },
     {
-      "headline": "Former MP opens fire in Thailand’s second shooting within days",
+      "headline": "Canada flight cancelled after child refuses to wear seat belt",
+      "fragment": "The technocrat is the natural friend of the dictator—computers and dictatorship.",
+      "splice": "Canada flight cancelled after child refuses to wear seat belt as if the technocrat is the natural friend of the dictator—computers and dictatorship.",
+      "seed": 20260815
+    },
+    {
+      "headline": "Seventy years after South Africa’s women’s march, the struggle is not over",
+      "fragment": "In the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
+      "splice": "Seventy years after South Africa’s women’s march, the struggle is not over which is to say in the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
+      "seed": 20260816
+    },
+    {
+      "headline": "Iran war live: Trump claims Hormuz Strait open, seeks Iranian compensation",
+      "fragment": "The simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
+      "splice": "Iran war live: Trump claims Hormuz Strait open, seeks Iranian compensation underneath the simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
+      "seed": 20260817
+    },
+    {
+      "headline": "Between Graves and Uncertainty: The Management of the Dead After Venezuela’s Earthquake",
+      "fragment": "An ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
+      "splice": "Between Graves and Uncertainty: The Management of the Dead After Venezuela’s Earthquake while an ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
+      "seed": 20260818
+    },
+    {
+      "headline": "Southern Iran Bears Brunt of U.S. Bombing",
+      "fragment": "The technocrat is the natural friend of the dictator—computers and dictatorship.",
+      "splice": "Southern Iran Bears Brunt of U.S. Bombing insofar as the technocrat is the natural friend of the dictator—computers and dictatorship.",
+      "seed": 20260819
+    },
+    {
+      "headline": "Can Netanyahu defy Trump on his Gaza peace plan?",
       "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "splice": "Former MP opens fire in Thailand’s second shooting within days consequently it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "seed": 20260827
+      "splice": "Can Netanyahu defy Trump on his Gaza peace plan? consequently it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
+      "seed": 20260820
     },
     {
-      "headline": "Former Thai MP allegedly kills official and confesses on YouTube",
+      "headline": "Netanyahu Walks Tightrope on Trump’s Gaza Disarmament Deal",
       "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "splice": "Former Thai MP allegedly kills official and confesses on YouTube not unlike it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "seed": 20260828
-    },
-    {
-      "headline": "Shahed-Type Drones Filmed During Mali Village Attacks",
-      "fragment": "It is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
-      "splice": "Shahed-Type Drones Filmed During Mali Village Attacks despite it is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
-      "seed": 20260829
-    },
-    {
-      "headline": "Congress Might Give ICE the Power to Go After Shoplifters",
-      "fragment": "The privatization of the organs will only begin with the shame felt by man at the sight of man.",
-      "splice": "Congress Might Give ICE the Power to Go After Shoplifters therefore the privatization of the organs will only begin with the shame felt by man at the sight of man.",
-      "seed": 20260830
-    },
-    {
-      "headline": "Sophie Cunningham Is the Anti-Trans Right's New White Woman Mascot",
-      "fragment": "Traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "splice": "Sophie Cunningham Is the Anti-Trans Right's New White Woman Mascot ...as traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "seed": 20260831
-    },
-    {
-      "headline": "China evacuates one million from homes as massive storm arrives",
-      "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
-      "splice": "China evacuates one million from homes as massive storm arrives insofar as the revolutionary lives in the gap which separates technical progress from social totality.",
-      "seed": 20260832
+      "splice": "Netanyahu Walks Tightrope on Trump’s Gaza Disarmament Deal not unlike it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
+      "seed": 20260821
     }
   ]
 }
