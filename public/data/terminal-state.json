@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T04:49:23.082Z",
+  "generated_at": "2026-08-12T07:36:46.818Z",
   "threat_intel": {
     "cisa_kev": [
       {
@@ -230,9 +230,22 @@
     ],
     "urlhaus": [
       {
-        "id": "3902367",
-        "date_added": "2026-08-12 04:32:21",
-        "url": "http://219.157.212.157:52831/bin.sh",
+        "id": "3902622",
+        "date_added": "2026-08-12 07:26:17",
+        "url": "http://210.208.110.51:46526/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3902621",
+        "date_added": "2026-08-12 07:06:25",
+        "url": "http://115.55.130.196:43005/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -243,47 +256,9 @@
         ]
       },
       {
-        "id": "3902366",
-        "date_added": "2026-08-12 03:43:23",
-        "url": "http://218.74.100.187:56483/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "arm",
-          "elf",
-          "mirai",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3902365",
-        "date_added": "2026-08-12 03:36:15",
-        "url": "http://219.156.184.4:33396/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3902364",
-        "date_added": "2026-08-12 03:29:16",
-        "url": "http://182.121.185.249:41991/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "arm",
-          "elf",
-          "mirai",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3902363",
-        "date_added": "2026-08-12 03:11:24",
-        "url": "http://39.73.44.67:44345/i",
+        "id": "3902620",
+        "date_added": "2026-08-12 06:54:25",
+        "url": "http://219.155.168.189:41959/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -294,9 +269,9 @@
         ]
       },
       {
-        "id": "3902362",
-        "date_added": "2026-08-12 03:11:15",
-        "url": "http://182.117.10.162:46177/i",
+        "id": "3902619",
+        "date_added": "2026-08-12 06:46:17",
+        "url": "http://42.224.149.147:58354/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -304,9 +279,103 @@
         ]
       },
       {
-        "id": "3902361",
-        "date_added": "2026-08-12 02:59:22",
-        "url": "http://182.121.185.249:41991/bin.sh",
+        "id": "3902618",
+        "date_added": "2026-08-12 06:43:23",
+        "url": "http://115.56.57.92:43654/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3902617",
+        "date_added": "2026-08-12 06:43:16",
+        "url": "http://31.77.227.130:6556/ok",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "ascii",
+          "base64-loader",
+          "CoinMiner",
+          "Encoded",
+          "xmrig"
+        ]
+      },
+      {
+        "id": "3902616",
+        "date_added": "2026-08-12 06:43:15",
+        "url": "http://31.56.209.189:6556/ok",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "ascii",
+          "base64-loader",
+          "CoinMiner",
+          "Encoded",
+          "xmrig"
+        ]
+      },
+      {
+        "id": "3902614",
+        "date_added": "2026-08-12 06:42:18",
+        "url": "http://115.55.130.196:43005/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3902615",
+        "date_added": "2026-08-12 06:42:18",
+        "url": "http://42.58.118.214:47643/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3902613",
+        "date_added": "2026-08-12 06:41:19",
+        "url": "http://apt-update.com/dl?%7B%22f%22%3A%22xr%22%2C%22t%22%3A%22b%22%2C%22p%22%3A%22lnx%22%2C%22a%22%3A%2264%22%2C%22e%22%3A%22aes%22%2C%22c%22%3A1%7D",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "CoinMiner",
+          "encrypted",
+          "gz",
+          "gzip",
+          "xmrig"
+        ]
+      },
+      {
+        "id": "3902612",
+        "date_added": "2026-08-12 06:40:23",
+        "url": "http://115.56.57.92:43654/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3902611",
+        "date_added": "2026-08-12 06:37:22",
+        "url": "http://120.28.193.113:47622/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -318,9 +387,22 @@
         ]
       },
       {
-        "id": "3902360",
-        "date_added": "2026-08-12 02:52:16",
-        "url": "http://105.184.102.26:41199/i",
+        "id": "3902610",
+        "date_added": "2026-08-12 06:31:28",
+        "url": "http://120.28.193.113:47622/bin.sh",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3902609",
+        "date_added": "2026-08-12 06:31:16",
+        "url": "http://45.232.72.245:48281/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -328,215 +410,144 @@
         ]
       },
       {
-        "id": "3902359",
-        "date_added": "2026-08-12 02:50:21",
-        "url": "http://218.74.100.187:56483/bin.sh",
-        "url_status": "online",
+        "id": "3902605",
+        "date_added": "2026-08-12 06:19:16",
+        "url": "http://5.182.210.174/110dc2",
+        "url_status": "offline",
         "threat": "malware_download",
         "tags": [
-          "32-bit",
-          "arm",
-          "elf",
-          "mirai",
-          "Mozi"
+          "ua-wget"
         ]
       },
       {
-        "id": "3902358",
-        "date_added": "2026-08-12 02:35:21",
-        "url": "http://110.39.242.210:39720/bin.sh",
-        "url_status": "online",
+        "id": "3902606",
+        "date_added": "2026-08-12 06:19:16",
+        "url": "http://5.182.210.174/bba45d",
+        "url_status": "offline",
         "threat": "malware_download",
         "tags": [
-          "32-bit",
-          "arm",
-          "elf",
-          "mirai",
-          "Mozi"
+          "ua-wget"
         ]
       },
       {
-        "id": "3902357",
-        "date_added": "2026-08-12 02:13:16",
-        "url": "http://110.37.53.25:34437/i",
-        "url_status": "online",
+        "id": "3902607",
+        "date_added": "2026-08-12 06:19:16",
+        "url": "http://5.182.210.174/a5f61f",
+        "url_status": "offline",
         "threat": "malware_download",
         "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
+          "ua-wget"
         ]
       },
       {
-        "id": "3902356",
-        "date_added": "2026-08-12 02:01:15",
-        "url": "http://182.117.10.162:46177/bin.sh",
-        "url_status": "online",
+        "id": "3902608",
+        "date_added": "2026-08-12 06:19:16",
+        "url": "http://5.182.210.174/ae64e3",
+        "url_status": "offline",
         "threat": "malware_download",
         "tags": [
-          "Mozi"
+          "ua-wget"
         ]
       },
       {
-        "id": "3902355",
-        "date_added": "2026-08-12 01:53:22",
-        "url": "http://123.129.2.24:55703/i",
-        "url_status": "online",
+        "id": "3902592",
+        "date_added": "2026-08-12 06:19:15",
+        "url": "http://5.182.210.174/d1882a",
+        "url_status": "offline",
         "threat": "malware_download",
         "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
+          "ua-wget"
         ]
       },
       {
-        "id": "3902354",
-        "date_added": "2026-08-12 01:51:13",
-        "url": "http://42.59.232.35:51478/i",
-        "url_status": "online",
+        "id": "3902593",
+        "date_added": "2026-08-12 06:19:15",
+        "url": "http://5.182.210.174/a2301d",
+        "url_status": "offline",
         "threat": "malware_download",
         "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3902353",
-        "date_added": "2026-08-12 01:44:16",
-        "url": "http://182.124.253.104:42413/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "arm",
-          "elf",
-          "mirai",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3902352",
-        "date_added": "2026-08-12 01:44:14",
-        "url": "http://110.37.53.25:34437/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3902351",
-        "date_added": "2026-08-12 01:26:14",
-        "url": "http://42.59.232.35:51478/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3902350",
-        "date_added": "2026-08-12 01:16:14",
-        "url": "http://182.126.248.115:38763/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3902349",
-        "date_added": "2026-08-12 01:03:22",
-        "url": "http://45.233.94.135:53401/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "arm",
-          "elf",
-          "mirai",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3902348",
-        "date_added": "2026-08-12 01:01:21",
-        "url": "http://45.233.94.135:53401/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "arm",
-          "elf",
-          "mirai",
-          "Mozi"
+          "ua-wget"
         ]
       }
     ]
   },
   "world_monitor": [
     {
-      "title": "Trump says secret plane switch ‘up to the Secret Service’",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/12/trump-says-secret-plane-switch-up-to-the-secret?traffic_source=rss",
-      "pubDate": "Wed, 12 Aug 2026 04:15:51 +0000",
-      "source": "Al Jazeera",
-      "summary": "US President Donald Trump says the decision to make a plane switch in Turkiye after the NATO summit."
+      "title": "How Nigel Farage Ended Up Running Against Count Binface in Clacton",
+      "link": "https://www.nytimes.com/2026/08/12/world/europe/count-binface-nigel-farage-clacton.html",
+      "pubDate": "Wed, 12 Aug 2026 07:32:12 +0000",
+      "source": "NYT World",
+      "summary": "Nigel Farage forced a new election in his parliamentary seat after coming under pressure over his finances. His main challenger is Count Binface, a novelty candidate."
     },
     {
-      "title": "Drone strikes power station near Libya’s largest oil refinery",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/12/drone-strikes-power-station-near-libyas-largest-oil-refinery?traffic_source=rss",
-      "pubDate": "Wed, 12 Aug 2026 04:13:34 +0000",
+      "title": "Cristiano Ronaldo announces marriage to Georgina Rodriguez in Portugal",
+      "link": "https://www.aljazeera.com/sports/2026/8/12/cristiano-ronaldo-announces-marriage-to-georgina-rodriguez-in-portugal?traffic_source=rss",
+      "pubDate": "Wed, 12 Aug 2026 07:11:19 +0000",
       "source": "Al Jazeera",
-      "summary": "A drone has struck a power station in Libya’s western city of Zawiya"
+      "summary": "Football's most famous current player wed his long-term partner Georgina Rodriguez after a decade together."
     },
     {
-      "title": "Russia frees ex-US marine Gilman jailed since 2022",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/12/russia-frees-ex-us-marine-gilman-jailed-since-2022?traffic_source=rss",
-      "pubDate": "Wed, 12 Aug 2026 03:57:01 +0000",
+      "title": "At least 15 dead, dozens missing as ferry capsizes in Zimbabwe",
+      "link": "https://www.aljazeera.com/news/2026/8/12/at-least-15-dead-dozens-missing-as-ferry-capsizes-in-zimbabwe?traffic_source=rss",
+      "pubDate": "Wed, 12 Aug 2026 06:29:37 +0000",
       "source": "Al Jazeera",
-      "summary": "Russia has released former US marine Robert Gilman, who had been jailed since 2022 for attacking a police officer."
+      "summary": "Zimbabwe’s Civil Protection Unit says the ferry was carrying more than its capacity of 90 people when it capsized."
     },
     {
-      "title": "Trump says he switched planes after Nato summit because of possible threat ",
+      "title": "Why have several nations raised red flags over Indian farm exports?",
+      "link": "https://www.aljazeera.com/news/2026/8/12/why-have-several-nations-raised-red-flags-over-indian-farm-exports?traffic_source=rss",
+      "pubDate": "Wed, 12 Aug 2026 05:34:14 +0000",
+      "source": "Al Jazeera",
+      "summary": "As Tokyo turns back mangoes, Beijing blocks rice, and European inspectors flag spices, Indian growers ask what's wrong."
+    },
+    {
+      "title": "Zelenskyy says Ukraine has sent proposals to US to end war with Russia",
+      "link": "https://www.aljazeera.com/news/2026/8/12/zelenskyy-says-ukraine-has-sent-proposals-to-us-to-end-war-with-russia?traffic_source=rss",
+      "pubDate": "Wed, 12 Aug 2026 05:26:26 +0000",
+      "source": "Al Jazeera",
+      "summary": "Ukraine's president also says Russia will use its election next month as a pretext to declare a new mobilisation."
+    },
+    {
+      "title": "Can Trump keep his ‘irritation’ with Netanyahu in check?",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/12/aje-onl-nf_-trump-keep-his-irritation-with-netanyahu-in-check-120826?traffic_source=rss",
+      "pubDate": "Wed, 12 Aug 2026 05:01:43 +0000",
+      "source": "Al Jazeera",
+      "summary": "Israel’s PM Benjamin Netanyahu has rejected Donald Trump’s Gaza peace plan which has exposed tensions between the two."
+    },
+    {
+      "title": "Zambia Election: President Hichilema Faces Backlash Ahead of Vote",
+      "link": "https://www.nytimes.com/2026/08/12/world/africa/zambia-presidential-election-hichilema.html",
+      "pubDate": "Wed, 12 Aug 2026 04:01:20 +0000",
+      "source": "NYT World",
+      "summary": "President Hakainde Hichilema was elected five years ago, promising to protect civil liberties in his copper-rich African nation. Now, he’s accused of trampling on them."
+    },
+    {
+      "title": "In Europe, the Total Solar Eclipse Is Hours Away",
+      "link": "https://www.nytimes.com/2026/08/12/world/europe/solar-eclipse-europe.html",
+      "pubDate": "Wed, 12 Aug 2026 04:01:13 +0000",
+      "source": "NYT World",
+      "summary": "Sky watchers have flocked to places, from Iceland to Spain, where the moon will completely block the sun."
+    },
+    {
+      "title": "In Bali, a Quest to Restore the Sacred Glow of Fireflies",
+      "link": "https://www.nytimes.com/2026/08/12/world/asia/bali-restore-fireflies.html",
+      "pubDate": "Wed, 12 Aug 2026 04:01:12 +0000",
+      "source": "NYT World",
+      "summary": "The insects, revered in local culture, are disappearing for many reasons, including rapid development to cater to tourists."
+    },
+    {
+      "title": "Trump confirms he switched planes after Nato summit because of possible threat ",
       "link": "https://www.bbc.co.uk/news/articles/c980r4wpl9lo?at_medium=RSS&at_campaign=rss",
       "pubDate": "Wed, 12 Aug 2026 03:44:55 GMT",
       "source": "BBC",
-      "summary": "But the president says the jet he boarded instead was at \"greater risk\" than the decoy Air Force One."
+      "summary": "Journalists and White House staff who were on board the jet were unaware the president had left."
     },
     {
-      "title": "Oil prices rise as attacks dent hopes for Strait of Hormuz reopening",
-      "link": "https://www.aljazeera.com/economy/2026/8/12/oil-prices-rise-as-attacks-dent-hopes-for-strait-of-hormuz-reopening?traffic_source=rss",
-      "pubDate": "Wed, 12 Aug 2026 03:41:42 +0000",
-      "source": "Al Jazeera",
-      "summary": "Brent crude climbs as renewed violence dampens hopes for a return to stability in energy markets."
-    },
-    {
-      "title": "Baby Shark Boy set to make K-pop debut",
+      "title": "Baby Shark boy set to make K-pop debut",
       "link": "https://www.bbc.co.uk/news/videos/cvg7zrxknvno?at_medium=RSS&at_campaign=rss",
       "pubDate": "Wed, 12 Aug 2026 03:26:32 GMT",
       "source": "BBC",
       "summary": "The boy from the most-watched YouTube video of all time is now 17 years old, and wants to be a K-pop star."
-    },
-    {
-      "title": "Six killed in Houthi attack on Bab al-Mandeb ship, Yemen’s government says",
-      "link": "https://www.aljazeera.com/news/2026/8/12/six-killed-in-houthi-attack-on-bab-al-mandeb-ship-yemens-government-says?traffic_source=rss",
-      "pubDate": "Wed, 12 Aug 2026 03:09:06 +0000",
-      "source": "Al Jazeera",
-      "summary": "Deaths on Egyptian-owned Tihamah mark first shipping deaths linked to Houthis since the US-Israel war on Iran began."
-    },
-    {
-      "title": "As Death Toll From Colombia Earthquake Rises to at Least 181, Rescuers Hunt for Survivors",
-      "link": "https://www.nytimes.com/2026/08/11/world/americas/colombia-earthquake-survivors-search.html",
-      "pubDate": "Wed, 12 Aug 2026 00:44:28 +0000",
-      "source": "NYT World",
-      "summary": "“We heard them screaming,” said one rescuer in Cali, where emergency workers and volunteers are racing against time to find the living trapped in the rubble."
     },
     {
       "title": "Trump's dramatic plane swap hints at personal stakes of Iran war",
@@ -581,32 +592,11 @@
       "summary": "The Castro family envoy, Raúl G. Rodríguez Castro, who has been in talks with the Trump administration, was once named in a case targeting a Cuban smuggling ring."
     },
     {
-      "title": "The Eclipse Is Coming, and Iceland Is Looking for a Break in the Clouds",
-      "link": "https://www.nytimes.com/2026/08/11/world/europe/solar-eclipse-iceland.html",
-      "pubDate": "Tue, 11 Aug 2026 13:39:09 +0000",
-      "source": "NYT World",
-      "summary": "Rooms were booked years ago, and officials have been making plans. But there’s no telling where, exactly, Icelanders might go to find the best possible view."
-    },
-    {
       "title": "Francesca Hong’s “Thanksgiving-Gate” Shows Her Detractors Are Totally Out of Ideas",
       "link": "https://theintercept.com/2026/08/11/francesca-hong-thanksgiving-wisconsin-governor/",
       "pubDate": "Tue, 11 Aug 2026 12:03:27 +0000",
       "source": "The Intercept",
       "summary": "Today’s Democratic gubernatorial primary in Wisconsin has featured increasingly desperate attacks against the frontrunner.\nThe post Francesca Hong’s “Thanksgiving-Gate” Shows Her Detractors Are Totally Out of Ideas appeared first on The Intercept."
-    },
-    {
-      "title": "Russian Civilian Deaths Are Growing Rapidly as Ukraine Expands Its Air War",
-      "link": "https://www.nytimes.com/2026/08/11/world/europe/russia-ukraine-civilian-casualties.html",
-      "pubDate": "Tue, 11 Aug 2026 11:43:18 +0000",
-      "source": "NYT World",
-      "summary": "The higher tempo of Ukrainian strikes has fueled discontent among Russians, but it is far from clear that it will change the Kremlin’s calculus about the war."
-    },
-    {
-      "title": "A Syrian Holdout Province, Sweida, Fears a Government Takeover",
-      "link": "https://www.nytimes.com/2026/08/11/world/middleeast/syria-sweida-province-druse-government.html",
-      "pubDate": "Tue, 11 Aug 2026 09:00:20 +0000",
-      "source": "NYT World",
-      "summary": "In Sweida Province, dominated by the country’s Druse minority, many say it is just a matter of time before the central government moves to assert control over the region."
     },
     {
       "title": "The Pentagon’s Obsession With China Puts Hawai‘i at Risk",
@@ -893,30 +883,6 @@
       "source": "Quanta"
     },
     {
-      "title": "Artificial Intelligence: Ars Notoria and the Promise of Instant Knowledge\n",
-      "link": "https://publicdomainreview.org/essay/ars-notoria",
-      "summary": "Centuries before Neo instantly mastered Kung Fu in *The Matrix*, medieval scholars found a shortcut to years of difficult study: a magical manuscript that promised to fast-track advanced learning. Anne Lawrence-Mathers investigates the *Ars notoria*, its supposed powers, and the demonic influence it",
-      "pubDate": "Wed, 29 Jul 2026 14:08:00 GMT",
-      "domain": "history",
-      "source": "Public Domain Review"
-    },
-    {
-      "title": "Photographs of Atlantic City Sand Sculpture (ca. 1880–1920)\n",
-      "link": "https://publicdomainreview.org/collection/atlantic-city-sand-sculpture",
-      "summary": "Photographs from when Atlantic City beaches featured artists ornately sculpting sand.",
-      "pubDate": "Wed, 29 Jul 2026 13:07:00 GMT",
-      "domain": "history",
-      "source": "Public Domain Review"
-    },
-    {
-      "title": "“The Persian Mâr-Nâmeh or, The Book for Taking Omens from Snakes” (1892)\n",
-      "link": "https://publicdomainreview.org/collection/marnameh",
-      "summary": "A Zoroastrian text about serpents translated by the President of the Bombay Anthropological Society.",
-      "pubDate": "Tue, 28 Jul 2026 19:02:00 GMT",
-      "domain": "history",
-      "source": "Public Domain Review"
-    },
-    {
       "title": "Journey to Robbers Cave",
       "link": "https://behavioralscientist.org/journey-to-robbers-cave/",
       "summary": "The year was 1948. Only three years had passed since the Axis powers signed the instrument of surrender effectively ending the Second World War. Fifty nations had taken part in the conflict that saw genocide and the first use of nuclear weapons. An estimated 50 million lives were lost and another 19",
@@ -989,25 +955,25 @@
       "source": "ROAR Magazine"
     },
     {
-      "title": "Addicted to AI? Prevalence and psychological drivers of generative AI dependency among pre-service teachers",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1922716",
-      "summary": "IntroductionGenerative artificial intelligence (GenAI) has become embedded in higher education, raising concerns about students’ behavioral dependency on these tools. Focusing on pre-service teachers—who will shape how a future generation learns to use AI—we asked how prevalent GenAI dependency is, ",
+      "title": "Developing and evaluating a multidimensional progress-based assessment standard for standing long jump performance in university physical education: a sequential mixed-methods study",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1861330",
+      "summary": "Physical education assessments that count toward university admission or course grades typically measure only a student’s fitness at a single time point, overlooking incremental progress and thus providing little incentive for those with lower baseline performance. This study evaluated the feasibili",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "Racism and mental health within humanitarian and development organisations: perspectives from in-house mental health professionals",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1771077",
-      "summary": "IntroductionRacism is recognised as a concern within humanitarian and development (HD) organisations, yet little research has examined its implications for staff mental health. Notably, the perspectives of in-house mental health professionals (MHPs)—a key but understudied group—have remained absent ",
+      "title": "“Sing it, interpret it”: emotion-voice balance in character-construction for musical theater singers",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1838236",
+      "summary": "This qualitative study explores how experienced musical theater singers understand and manage the balance between emotional expression and vocal stability during character construction. Data source includes systematic observation, semi-structured interviews and field notes with five high-achieving m",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "GANs for digital art in entertainment: techniques, applications, and aesthetic evaluation",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1897981",
-      "summary": "Artificial Intelligence has revolutionized digital entertainment, such as generating highly realistic and creative visual content, and Generative Adversarial Networks (GANs) have proven to be a pivotal technology in the synthesis and generation of images for artistic purposes. The aim of this review",
+      "title": "Spiritual emptiness and depression among university students: the roles of perceived support and age",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1804480",
+      "summary": "IntroductionSpiritual emptiness and depression are becoming increasingly prevalent among Chinese university students. Perceived social support plays a pivotal role in mitigating both spiritual emptiness and depression. This study investigates interrelationships among these three variables within a s",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
@@ -1015,64 +981,64 @@
   ],
   "misinfo_toilet": [
     {
-      "headline": "A Syrian Holdout Province, Sweida, Fears a Government Takeover",
-      "fragment": "It is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
-      "splice": "A Syrian Holdout Province, Sweida, Fears a Government Takeover insofar as it is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
-      "seed": 20260816
-    },
-    {
-      "headline": "The Eclipse Is Coming, and Iceland Is Looking for a Break in the Clouds",
-      "fragment": "Underneath all reason lies delirium and drift.",
-      "splice": "The Eclipse Is Coming, and Iceland Is Looking for a Break in the Clouds which is to say underneath all reason lies delirium and drift.",
-      "seed": 20260817
-    },
-    {
-      "headline": "Shahed-Type Drones Filmed During Mali Village Attacks",
-      "fragment": "Antagonism is not now located externally, in the face-off between class blocs, but internally, in the psychology of the worker.",
-      "splice": "Shahed-Type Drones Filmed During Mali Village Attacks because antagonism is not now located externally, in the face-off between class blocs, but internally, in the psychology of the worker.",
-      "seed": 20260818
-    },
-    {
-      "headline": "Between Graves and Uncertainty: The Management of the Dead After Venezuela’s Earthquake",
-      "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
-      "splice": "Between Graves and Uncertainty: The Management of the Dead After Venezuela’s Earthquake underneath the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "headline": "How Raúl Castro’s Grandson, Raúl G. Rodríguez Castro, Became a Power Broker",
+      "fragment": "In the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
+      "splice": "How Raúl Castro’s Grandson, Raúl G. Rodríguez Castro, Became a Power Broker which is to say in the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
       "seed": 20260819
     },
     {
-      "headline": "Six killed in Houthi attack on Bab al-Mandeb ship, Yemen’s government says",
+      "headline": "US says helicopter fired missiles to disable ship breaking Iran blockade",
       "fragment": "The simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
-      "splice": "Six killed in Houthi attack on Bab al-Mandeb ship, Yemen’s government says insofar as the simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
+      "splice": "US says helicopter fired missiles to disable ship breaking Iran blockade underneath the simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
       "seed": 20260820
     },
     {
-      "headline": "Trump says he switched planes after Nato summit because of possible threat ",
-      "fragment": "The technocrat is the natural friend of the dictator—computers and dictatorship.",
-      "splice": "Trump says he switched planes after Nato summit because of possible threat  the signal resolves into the technocrat is the natural friend of the dictator—computers and dictatorship.",
+      "headline": "Identifying the Crypto Entrepreneur Linked to Popular Forum Trading in ‘Leaked’ Nudes of Women",
+      "fragment": "An ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
+      "splice": "Identifying the Crypto Entrepreneur Linked to Popular Forum Trading in ‘Leaked’ Nudes of Women while an ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
       "seed": 20260821
     },
     {
-      "headline": "Identifying the Crypto Entrepreneur Linked to Popular Forum Trading in ‘Leaked’ Nudes of Women",
-      "fragment": "There is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
-      "splice": "Identifying the Crypto Entrepreneur Linked to Popular Forum Trading in ‘Leaked’ Nudes of Women the signal resolves into there is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
+      "headline": "How Nigel Farage Ended Up Running Against Count Binface in Clacton",
+      "fragment": "The technocrat is the natural friend of the dictator—computers and dictatorship.",
+      "splice": "How Nigel Farage Ended Up Running Against Count Binface in Clacton insofar as the technocrat is the natural friend of the dictator—computers and dictatorship.",
       "seed": 20260822
     },
     {
-      "headline": "Trump says secret plane switch ‘up to the Secret Service’",
-      "fragment": "If it is true, for instance, that depression is caused by low serotonin levels, it would still be necessary to explain why particular individuals have low serotonin levels.",
-      "splice": "Trump says secret plane switch ‘up to the Secret Service’ in the void where if it is true, for instance, that depression is caused by low serotonin levels, it would still be necessary to explain why particular individuals have low serotonin levels.",
+      "headline": "Zambia Election: President Hichilema Faces Backlash Ahead of Vote",
+      "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
+      "splice": "Zambia Election: President Hichilema Faces Backlash Ahead of Vote consequently it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
       "seed": 20260823
     },
     {
-      "headline": "How Raúl Castro’s Grandson, Raúl G. Rodríguez Castro, Became a Power Broker",
-      "fragment": "Why do men fight for their servitude as stubbornly as though it were their salvation?",
-      "splice": "How Raúl Castro’s Grandson, Raúl G. Rodríguez Castro, Became a Power Broker as if why do men fight for their servitude as stubbornly as though it were their salvation?",
+      "headline": "In Europe, the Total Solar Eclipse Is Hours Away",
+      "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
+      "splice": "In Europe, the Total Solar Eclipse Is Hours Away not unlike it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
       "seed": 20260824
     },
     {
-      "headline": "Russia frees ex-US marine Gilman jailed since 2022",
-      "fragment": "It is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
-      "splice": "Russia frees ex-US marine Gilman jailed since 2022 within which it is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
+      "headline": "Shahed-Type Drones Filmed During Mali Village Attacks",
+      "fragment": "It is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
+      "splice": "Shahed-Type Drones Filmed During Mali Village Attacks despite it is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
       "seed": 20260825
+    },
+    {
+      "headline": "No, AOC: “Woke” Wasn’t “Crazy” the Way You Say It Was",
+      "fragment": "The privatization of the organs will only begin with the shame felt by man at the sight of man.",
+      "splice": "No, AOC: “Woke” Wasn’t “Crazy” the Way You Say It Was therefore the privatization of the organs will only begin with the shame felt by man at the sight of man.",
+      "seed": 20260826
+    },
+    {
+      "headline": "Can Trump keep his ‘irritation’ with Netanyahu in check?",
+      "fragment": "Traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
+      "splice": "Can Trump keep his ‘irritation’ with Netanyahu in check? ...as traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
+      "seed": 20260827
+    },
+    {
+      "headline": "Rescuers scramble for survivors with 180 dead in Colombia earthquake ",
+      "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
+      "splice": "Rescuers scramble for survivors with 180 dead in Colombia earthquake  insofar as the revolutionary lives in the gap which separates technical progress from social totality.",
+      "seed": 20260828
     }
   ]
 }
