@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T12:41:48.470Z",
+  "generated_at": "2026-08-15T18:33:15.361Z",
   "threat_intel": {
     "cisa_kev": [
       {
@@ -230,9 +230,9 @@
     ],
     "urlhaus": [
       {
-        "id": "3904025",
-        "date_added": "2026-08-15 12:37:27",
-        "url": "http://61.53.1.186:40670/bin.sh",
+        "id": "3904081",
+        "date_added": "2026-08-15 18:29:13",
+        "url": "http://115.50.101.188:34800/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -243,10 +243,10 @@
         ]
       },
       {
-        "id": "3904024",
-        "date_added": "2026-08-15 12:32:33",
-        "url": "http://59.97.254.10:40659/i",
-        "url_status": "offline",
+        "id": "3904080",
+        "date_added": "2026-08-15 18:06:23",
+        "url": "http://125.45.64.24:42706/i",
+        "url_status": "online",
         "threat": "malware_download",
         "tags": [
           "32-bit",
@@ -256,9 +256,22 @@
         ]
       },
       {
-        "id": "3904023",
-        "date_added": "2026-08-15 12:31:23",
-        "url": "http://36.88.136.194:60655/i",
+        "id": "3904079",
+        "date_added": "2026-08-15 18:04:21",
+        "url": "http://125.45.64.24:42706/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3904078",
+        "date_added": "2026-08-15 17:52:23",
+        "url": "http://200.115.102.2:47663/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -270,9 +283,9 @@
         ]
       },
       {
-        "id": "3904022",
-        "date_added": "2026-08-15 12:30:27",
-        "url": "http://59.97.254.10:40659/bin.sh",
+        "id": "3904077",
+        "date_added": "2026-08-15 17:47:22",
+        "url": "http://42.231.186.227:47974/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -283,39 +296,48 @@
         ]
       },
       {
-        "id": "3904021",
-        "date_added": "2026-08-15 11:56:06",
-        "url": "http://95.9.35.137:36140/bin.sh",
+        "id": "3904076",
+        "date_added": "2026-08-15 17:46:10",
+        "url": "http://115.49.127.19:51010/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "mirai"
-        ]
-      },
-      {
-        "id": "3904020",
-        "date_added": "2026-08-15 11:46:07",
-        "url": "http://27.215.124.43:44400/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
           "Mozi"
         ]
       },
       {
-        "id": "3904019",
-        "date_added": "2026-08-15 11:41:05",
-        "url": "http://27.215.124.43:44400/bin.sh",
+        "id": "3904075",
+        "date_added": "2026-08-15 17:22:27",
+        "url": "http://59.96.138.90:37638/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
+          "32-bit",
+          "elf",
+          "mips",
           "Mozi"
         ]
       },
       {
-        "id": "3904018",
-        "date_added": "2026-08-15 11:26:05",
-        "url": "http://62.60.249.165/main_ppc",
+        "id": "3904074",
+        "date_added": "2026-08-15 17:10:35",
+        "url": "http://42.239.179.192:41888/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3904073",
+        "date_added": "2026-08-15 17:03:41",
+        "url": "http://2.26.81.46/pandora.x86_64",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -325,19 +347,93 @@
         ]
       },
       {
-        "id": "3904017",
-        "date_added": "2026-08-15 10:56:05",
-        "url": "http://60.21.174.229:40485/i",
+        "id": "3904070",
+        "date_added": "2026-08-15 17:03:28",
+        "url": "http://62.60.249.165/main_arm6",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "None"
+          "elf",
+          "mirai",
+          "ua-wget"
         ]
       },
       {
-        "id": "3904016",
-        "date_added": "2026-08-15 10:39:21",
-        "url": "http://42.59.78.61:33716/bin.sh",
+        "id": "3904071",
+        "date_added": "2026-08-15 17:03:28",
+        "url": "http://62.60.249.165/main_arm7",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "mirai",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3904072",
+        "date_added": "2026-08-15 17:03:28",
+        "url": "http://62.60.249.165/scanner",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3904068",
+        "date_added": "2026-08-15 17:03:27",
+        "url": "http://62.60.249.165/main_m68k",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "mirai",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3904069",
+        "date_added": "2026-08-15 17:03:27",
+        "url": "http://62.60.249.165/main_arm5",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "mirai",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3904067",
+        "date_added": "2026-08-15 17:03:25",
+        "url": "http://62.60.249.165/gfg.sh",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "sh",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3904066",
+        "date_added": "2026-08-15 16:58:30",
+        "url": "http://196.190.224.62:47591/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "mirai",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3904065",
+        "date_added": "2026-08-15 16:52:44",
+        "url": "http://59.96.138.90:37638/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -348,177 +444,124 @@
         ]
       },
       {
-        "id": "3904015",
-        "date_added": "2026-08-15 10:27:08",
-        "url": "http://60.21.174.229:40485/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3904013",
-        "date_added": "2026-08-15 10:01:37",
-        "url": "http://59.58.42.29:40746/bin.sh",
+        "id": "3904064",
+        "date_added": "2026-08-15 16:44:38",
+        "url": "http://110.36.72.182:41495/bin.sh",
         "url_status": "offline",
         "threat": "malware_download",
         "tags": [
-          "None"
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
         ]
       },
       {
-        "id": "3904014",
-        "date_added": "2026-08-15 10:01:37",
-        "url": "http://182.116.113.206:54138/bin.sh",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3904012",
-        "date_added": "2026-08-15 10:01:35",
-        "url": "http://115.197.32.42:36155/i",
+        "id": "3904063",
+        "date_added": "2026-08-15 16:33:23",
+        "url": "http://196.190.224.62:47591/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "mirai"
+          "32-bit",
+          "arm",
+          "elf",
+          "mirai",
+          "Mozi"
         ]
       },
       {
-        "id": "3904011",
-        "date_added": "2026-08-15 10:01:34",
-        "url": "http://36.70.226.107:53300/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "mirai"
-        ]
-      },
-      {
-        "id": "3904008",
-        "date_added": "2026-08-15 10:01:32",
-        "url": "http://182.126.213.104:40820/bin.sh",
+        "id": "3904062",
+        "date_added": "2026-08-15 16:28:32",
+        "url": "http://219.157.243.71:34099/i",
         "url_status": "offline",
         "threat": "malware_download",
         "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3904009",
-        "date_added": "2026-08-15 10:01:32",
-        "url": "http://113.239.64.220:36469/i",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3904010",
-        "date_added": "2026-08-15 10:01:32",
-        "url": "http://182.240.11.199:57352/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "mirai"
-        ]
-      },
-      {
-        "id": "3904007",
-        "date_added": "2026-08-15 10:01:30",
-        "url": "http://123.185.91.133:52353/i",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3904005",
-        "date_added": "2026-08-15 10:01:29",
-        "url": "http://163.142.95.26:40959/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "None"
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
         ]
       }
     ]
   },
   "world_monitor": [
     {
-      "title": "Powerful magnitude 7.7 earthquake kills at least 38 in Indonesia",
-      "link": "https://www.bbc.co.uk/news/articles/c5y0zz63gero?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Sat, 15 Aug 2026 12:31:55 GMT",
-      "source": "BBC",
-      "summary": "A search and rescue operation is under way to find survivors in Flores, an island in eastern Indonesia."
+      "title": "Canadian Petition to Expel U.S. Ambassador Pete Hoekstra Takes Off",
+      "link": "https://www.nytimes.com/2026/08/15/world/canada/hoekstra-ambassador-petition-canada-trump.html",
+      "pubDate": "Sat, 15 Aug 2026 18:15:49 +0000",
+      "source": "NYT World",
+      "summary": "Mr. Hoekstra has been President Trump’s faithful messenger in Canada amid a historic low in relations. More than 170,000 Canadians want him gone."
     },
     {
-      "title": "Eleven killed in Israeli strikes on southern Lebanon, authorities say",
-      "link": "https://www.bbc.co.uk/news/articles/c4gjygx4gjeo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Sat, 15 Aug 2026 12:25:11 GMT",
-      "source": "BBC",
-      "summary": "Israel's military said it had struck \"Hezbollah terror infrastructure\" in response to what it described as an earlier action against its soldiers."
-    },
-    {
-      "title": "Afghan refugees face an uncertain future as Europe shifts to the right",
-      "link": "https://www.aljazeera.com/news/2026/8/15/afghan-refugees-face-uncertain-future-as-europe-shifts-to-the-right?traffic_source=rss",
-      "pubDate": "Sat, 15 Aug 2026 12:14:30 +0000",
+      "title": "Cleanup underway as Russian oil spill reaches Oman’s coastline",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/15/15-08-sv-oil-spill-oman-on?traffic_source=rss",
+      "pubDate": "Sat, 15 Aug 2026 18:11:12 +0000",
       "source": "Al Jazeera",
-      "summary": "With the fall of the former government in Kabul, thousands of Afghans were forced to flee the country, many to Europe."
+      "summary": "Cleanup crews are responding along 12 kilometres of Omani coastline following an oil spill from the grounded tanker."
+    },
+    {
+      "title": "US aircraft carrier expected to relieve USS Lincoln in Middle East",
+      "link": "https://www.aljazeera.com/news/2026/8/15/us-aircraft-carrier-expected-to-relieve-uss-lincoln-in-middle-east?traffic_source=rss",
+      "pubDate": "Sat, 15 Aug 2026 17:49:42 +0000",
+      "source": "Al Jazeera",
+      "summary": "The USS Washington's movement comes amid reports of dire conditions on the USS Lincoln amid the ongoing Iran war."
+    },
+    {
+      "title": "Inter Milan sign England’s Djed Spence from Tottenham Hotspur",
+      "link": "https://www.aljazeera.com/sports/2026/8/15/inter-milan-sign-englands-djed-spence-from-tottenham-hotspur?traffic_source=rss",
+      "pubDate": "Sat, 15 Aug 2026 17:48:32 +0000",
+      "source": "Al Jazeera",
+      "summary": "The 26-year-old, who has signed a five-year deal, cost the Italian champions about $40m, according to media reports."
     },
     {
       "title": "Professor’s Death Leaves Behind Hard Questions for Cambridge on Race and Hiring",
       "link": "https://www.nytimes.com/2026/08/15/world/europe/jason-arday-cambridge-hiring-questions.html",
-      "pubDate": "Sat, 15 Aug 2026 11:38:00 +0000",
+      "pubDate": "Sat, 15 Aug 2026 17:31:40 +0000",
       "source": "NYT World",
       "summary": "Jason Arday, the school’s youngest Black professor, was found dead on Friday. The school ignored a series of warnings about his life story and his work."
     },
     {
-      "title": "Is China seeking to copy Iran’s Strait of Hormuz blockade around Taiwan?",
-      "link": "https://www.aljazeera.com/video/101-east/2026/8/15/is-china-seeking-to-copy-irans-strait-of-hormuz-blockade-around-taiwan?traffic_source=rss",
-      "pubDate": "Sat, 15 Aug 2026 11:30:00 +0000",
+      "title": "Tropical Storm Lala expected to strengthen as it nears Hawaii",
+      "link": "https://www.aljazeera.com/news/2026/8/15/tropical-storm-lala-expected-to-strengthen-as-it-nears-hawaii?traffic_source=rss",
+      "pubDate": "Sat, 15 Aug 2026 17:27:57 +0000",
       "source": "Al Jazeera",
-      "summary": "Taiwan has long prepared for a Chinese military invasion but wars in Iran and Ukraine expose new potential threats."
+      "summary": "Authorities warn residents to take precautions as storm expected to bring rain and strong winds to the island chain."
     },
     {
-      "title": "Modi threatens to target ‘intellectual Naxals’ in Independence Day speech",
-      "link": "https://www.aljazeera.com/news/2026/8/15/modi-threatens-to-target-intellectual-naxals-in-independence-day-speech?traffic_source=rss",
-      "pubDate": "Sat, 15 Aug 2026 11:27:11 +0000",
+      "title": "UK PM Burnham reacts to death of former Cambridge professor",
+      "link": "https://www.aljazeera.com/news/2026/8/15/uk-pm-burnham-reacts-to-death-of-former-cambridge-professor?traffic_source=rss",
+      "pubDate": "Sat, 15 Aug 2026 17:19:12 +0000",
       "source": "Al Jazeera",
-      "summary": "The Indian PM said Maoist-influenced Naxalite rebellion is largely gone, but its ideological backers still pose threat."
+      "summary": "Jason Arday was found dead on Friday, just days after resigning amid intense scrutiny over his academic work."
     },
     {
-      "title": "Aftermath of deadly Indonesia earthquake",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/15/aftermath-of-deadly-indonesia-earthquake?traffic_source=rss",
-      "pubDate": "Sat, 15 Aug 2026 11:19:56 +0000",
-      "source": "Al Jazeera",
-      "summary": "Dozens of people have been killed after a 7.7-magnitude earthquake off Indonesia’s Flores Island."
+      "title": "Eleven killed in Israeli strikes on southern Lebanon, authorities say",
+      "link": "https://www.bbc.co.uk/news/articles/c4gjygx4gjeo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Sat, 15 Aug 2026 16:02:49 GMT",
+      "source": "BBC",
+      "summary": "Israel's military said it had struck \"Hezbollah terror infrastructure\" in response to what it described as earlier action against its soldiers."
     },
     {
-      "title": "Japanese minister visits shrine to war dead, angering China, South Korea",
-      "link": "https://www.aljazeera.com/news/2026/8/15/japanese-minister-visits-shrine-to-war-dead-angering-china-south-korea?traffic_source=rss",
-      "pubDate": "Sat, 15 Aug 2026 11:09:27 +0000",
-      "source": "Al Jazeera",
-      "summary": "Defence Minister Koizumi's visit to Yasukuni Shrine comes on the 81st anniversary of Japan's surrender in WWII."
-    },
-    {
-      "title": "Israeli Strikes in Lebanon Kill 9, Health Officials Say",
-      "link": "https://www.nytimes.com/2026/08/15/world/middleeast/israel-strikes-lebanon-ansar.html",
-      "pubDate": "Sat, 15 Aug 2026 11:00:50 +0000",
+      "title": "Syrian Convicted in Austria of Civil War Abuses Is Detained in Syria",
+      "link": "https://www.nytimes.com/2026/08/15/world/middleeast/syria-austria-arrest-civil-war-crimes.html",
+      "pubDate": "Sat, 15 Aug 2026 15:28:28 +0000",
       "source": "NYT World",
-      "summary": "The Lebanese health ministry said several children were killed in a strike overnight, one of the deadliest attacks in months. Israel’s military said it was targeting Hezbollah infrastructure."
+      "summary": "Musab Abu Rukbah, a former police chief, left Austria after appealing his eight-year sentence for crimes committed during Syria’s civil war."
     },
     {
       "title": "South Korea proposes talks to officially end war with North",
       "link": "https://www.bbc.co.uk/news/articles/c8en2z9jp2xo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Sat, 15 Aug 2026 09:35:23 GMT",
+      "pubDate": "Sat, 15 Aug 2026 14:40:15 GMT",
       "source": "BBC",
       "summary": "Lee Jae Myung offers chance to end the conflict, which has been frozen since an armistice in 1953."
+    },
+    {
+      "title": "Powerful magnitude 7.7 earthquake kills at least 47 in Indonesia",
+      "link": "https://www.bbc.co.uk/news/articles/c5y0zz63gero?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Sat, 15 Aug 2026 13:35:57 GMT",
+      "source": "BBC",
+      "summary": "A search and rescue operation is under way to find survivors in Flores, an island in eastern Indonesia."
     },
     {
       "title": "The Iranian YouTube Show Posing Questions Few Dare Ask",
@@ -528,15 +571,8 @@
       "summary": "Azad, a popular online debate program, has tackled topics that push the limits of Iran’s authoritarian system. Some question how it has remained on air."
     },
     {
-      "title": "Canadian Petition to Expel U.S. Ambassador Pete Hoekstra Takes Off",
-      "link": "https://www.nytimes.com/2026/08/15/world/canada/hoekstra-ambassador-petition-canada-trump.html",
-      "pubDate": "Sat, 15 Aug 2026 09:02:14 +0000",
-      "source": "NYT World",
-      "summary": "Mr. Hoekstra has been President Trump’s faithful messenger in Canada amid a historic low in relations. More than 160,000 Canadians want him gone."
-    },
-    {
       "title": "Wary of Trump, Europe Seeks Role in Eventual Russia-Ukraine Talks",
-      "link": "https://www.nytimes.com/2026/08/15/world/europe/wary-of-trump-europe-seeks-role-in-any-russia-ukraine-talks.html",
+      "link": "https://www.nytimes.com/2026/08/15/world/europe/europe-russia-ukraine-talks.html",
       "pubDate": "Sat, 15 Aug 2026 04:01:09 +0000",
       "source": "NYT World",
       "summary": "French, German and British diplomats are working on a format for future negotiations — even if Russia has shown little interest."
@@ -693,6 +729,38 @@
   ],
   "syndicate_journal": [
     {
+      "title": "The Odyssey Is a Thrilling, Reactionary Lament",
+      "link": "",
+      "summary": ", Christopher Nolan’s cinematic retelling of Homer’s epic poem, has taken the country by storm. While on vacation back home in southern Illinois, I visited a Dolby theater with my family to experience it myself — and was not disappointed. The film delivered spectacular visuals, clever effects, and b",
+      "pubDate": "2026-08-15T13:53:17.925Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "Is This the World’s Oldest Image of a Mind‑altering Plant?",
+      "link": "https://nautil.us/is-this-the-worlds-oldest-image-of-a-mind%e2%80%91altering-plant-1283811/",
+      "summary": "A painted panel deep in a Spanish cave may push the human relationship with mind-altering plants back thousands of years, earlier than anything previously known\nThe post Is This the World’s Oldest Image of a Mind‑altering Plant? appeared first on Nautilus.",
+      "pubDate": "Sat, 15 Aug 2026 13:30:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "Trump Gets Real About US Dominance of Latin America",
+      "link": "",
+      "summary": "In 1914, addressing the University of Buenos Aires, President Theodore Roosevelt called the Monroe Doctrine a policy “which the United States promulgated, partly as a matter of policy in its own interest, partly as a matter of policy in the interest of all the republics of the New World.” Earlier th",
+      "pubDate": "2026-08-15T13:20:16.190Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "Karl Marx’s Vision of the Good Society",
+      "link": "",
+      "summary": "This argument has two aims. One is to develop an interpretation of Karl Marx’s vision of the good society that is more social than the prevailing interpretation. The second is to show that this interpretation represents an appealing account of the good society, one that offers a compelling alternati",
+      "pubDate": "2026-08-15T12:48:51.092Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
       "title": "Position: Reasoning is a Learnable Rule-Based Process",
       "link": "https://arxiv.org/abs/2608.12325",
       "summary": "arXiv:2608.12325v1 Announce Type: new \nAbstract: Autonomous reasoning is among the most scientifically and economically motivating topics in AI today. Historically the purview of symbolic AI, recent advances have mainly emerged from deep probabilistic generative models. Despite immense interest and ",
@@ -731,38 +799,6 @@
       "pubDate": "Fri, 14 Aug 2026 19:00:00 +0000",
       "domain": "science",
       "source": "Nautilus"
-    },
-    {
-      "title": "Amazon Is Spending Big Against NYC’s Delivery Protection Act",
-      "link": "",
-      "summary": "When Latrice Johnson learned that her brother had died, she was delivering Amazon packages in New York City. The next day, an Amazon manager gave her contact information for a grief counselor. Johnson called and spoke with the counselor, only to get another call telling her she wasn’t eligible for t",
-      "pubDate": "2026-08-14T18:48:39.182Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
-      "title": "The Conditions on a US Aircraft Carrier Sound Concerning",
-      "link": "https://nautil.us/the-conditions-on-a-us-aircraft-carrier-sound-concerning-1283806/",
-      "summary": "Can science point the way toward designing environments to maximize mental health in such situations?\nThe post The Conditions on a US Aircraft Carrier Sound Concerning appeared first on Nautilus.",
-      "pubDate": "Fri, 14 Aug 2026 18:00:02 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
-      "title": "Colombia and Israel’s Cynical Disaster Diplomacy",
-      "link": "",
-      "summary": "On the morning of August 10, a powerful 7.4 magnitude earthquake struck western Colombia,  nearly three hundred people dead, four thousand injured, and potentially thousands more  by the latest count. The crisis created an early test for new far-right President Abelardo de la Espriella, who was inau",
-      "pubDate": "2026-08-14T15:49:31.515Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
-      "title": "Help Us Break the Two-Party Stranglehold, James Carville",
-      "link": "",
-      "summary": "With his bald head, glasses, and Cajun accent, political consultant James Carville was long one of the most iconic representatives of the Democratic Party establishment. In the 1990s, he was often seen as a kind of  to President Bill Clinton. In the 2000s, he was everywhere on cable television offer",
-      "pubDate": "2026-08-14T14:08:13.971Z",
-      "domain": "politics",
-      "source": "Jacobin"
     },
     {
       "title": "How to Search JSTOR with Keywords",
@@ -957,25 +993,25 @@
       "source": "ROAR Magazine"
     },
     {
-      "title": "How mathematics homework types relate to mathematics academic performance via interest? A chain mediation analysis in the Chinese context",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1815534",
-      "summary": "The aim of this study is to investigate the relationship between eighth-grade students’ mathematics homework types and their combinations and their Mathematics Academic Performance (MAP) in the context of China’s “Double Reduction” policy, emphasizing the chain mediating role of mathematics homework",
+      "title": "Psychological resilience and depressive symptoms among family caregivers of disabled people: the mediating role of caregiver burden and the moderating role of family functioning",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1852506",
+      "summary": "BackgroundFamily caregivers of disabled older adults frequently face significant challenges that are associated with their mental health. Psychological resilience and family functioning may be associated with depressive symptoms among this population. Nevertheless, the mechanisms behind this relatio",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "Associations among individual cultural values, innovation effectiveness, and transformational leadership—evidence from international university students in Türkiye",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1786404",
-      "summary": "This study examines the associations among individual cultural values, innovation effectiveness, and transformational leadership among international students in higher education institutions in the Marmara Region of Türkiye. Adopting a quantitative, cross-sectional design, the study addresses the cu",
+      "title": "Reality erosion in digital environments: the concept of digital blur and scale development",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1884865",
+      "summary": "IntroductionPeople are exposed to thousands of videos and images for hours every day. However, the literature provides only limited insight into the impact of AI-generated images and videos on daily life. Driven by advancing technology, these materials influence the human mind and create psychologic",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "Is employment anxiety among vocal music students associated with AI replacement concerns? The roles of AI anxiety and vocal-performance replacement perception",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1923159",
-      "summary": "Artificial intelligence (AI) is reshaping students' expectations about learning, employability, and professional identity, but AI-related psychological responses may differ across disciplines. This cross-sectional study examined how broad AI anxiety and a vocal-performance-specific replacement appra",
+      "title": "Physical activity and social anxiety among rural-origin university students in Southwest China: exploring potential associative patterns of body image satisfaction and social capital",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1879490",
+      "summary": "BackgroundRural-origin university students in China face distinct psychosocial challenges, with social anxiety being particularly prevalent. Although physical activity is consistently associated with reduced social anxiety, its underlying mechanisms in this population remain unclear, especially rega",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
@@ -983,64 +1019,64 @@
   ],
   "misinfo_toilet": [
     {
-      "headline": "US aircraft carrier on way to relieve USS Lincoln after issues reported aboard",
-      "fragment": "An ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
-      "splice": "US aircraft carrier on way to relieve USS Lincoln after issues reported aboard while an ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
-      "seed": 20260827
-    },
-    {
-      "headline": "Canadian Petition to Expel U.S. Ambassador Pete Hoekstra Takes Off",
-      "fragment": "The technocrat is the natural friend of the dictator—computers and dictatorship.",
-      "splice": "Canadian Petition to Expel U.S. Ambassador Pete Hoekstra Takes Off insofar as the technocrat is the natural friend of the dictator—computers and dictatorship.",
-      "seed": 20260828
-    },
-    {
-      "headline": "Shahed-Type Drones Filmed During Mali Village Attacks",
-      "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "splice": "Shahed-Type Drones Filmed During Mali Village Attacks consequently it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "seed": 20260829
-    },
-    {
-      "headline": "Welcome to Dubai: Kinahan Cartel’s Visas Revealed",
-      "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "splice": "Welcome to Dubai: Kinahan Cartel’s Visas Revealed not unlike it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "seed": 20260830
-    },
-    {
-      "headline": "South Korea proposes talks to officially end war with North",
+      "headline": "Eleven killed in Israeli strikes on southern Lebanon, authorities say",
       "fragment": "It is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
-      "splice": "South Korea proposes talks to officially end war with North despite it is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
-      "seed": 20260831
-    },
-    {
-      "headline": "Has the Left Really Met Its Limit? ",
-      "fragment": "The privatization of the organs will only begin with the shame felt by man at the sight of man.",
-      "splice": "Has the Left Really Met Its Limit?  therefore the privatization of the organs will only begin with the shame felt by man at the sight of man.",
-      "seed": 20260832
-    },
-    {
-      "headline": "Will Ronaldo Cry​? World Cup Fans Bet Billions Through Prediction Markets",
-      "fragment": "Traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "splice": "Will Ronaldo Cry​? World Cup Fans Bet Billions Through Prediction Markets ...as traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
+      "splice": "Eleven killed in Israeli strikes on southern Lebanon, authorities say despite it is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
       "seed": 20260833
     },
     {
-      "headline": "Tennessee Plans Another Execution Despite Its Brutal Recent Mistakes",
-      "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
-      "splice": "Tennessee Plans Another Execution Despite Its Brutal Recent Mistakes insofar as the revolutionary lives in the gap which separates technical progress from social totality.",
+      "headline": "BBC seeks to subpoena Trump's family members in Panorama lawsuit",
+      "fragment": "The privatization of the organs will only begin with the shame felt by man at the sight of man.",
+      "splice": "BBC seeks to subpoena Trump's family members in Panorama lawsuit therefore the privatization of the organs will only begin with the shame felt by man at the sight of man.",
       "seed": 20260834
     },
     {
-      "headline": "Professor’s Death Leaves Behind Hard Questions for Cambridge on Race and Hiring",
-      "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
-      "splice": "Professor’s Death Leaves Behind Hard Questions for Cambridge on Race and Hiring which is to say the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "headline": "Welcome to Dubai: Kinahan Cartel’s Visas Revealed",
+      "fragment": "Traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
+      "splice": "Welcome to Dubai: Kinahan Cartel’s Visas Revealed ...as traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
       "seed": 20260835
     },
     {
-      "headline": "Afghan refugees face an uncertain future as Europe shifts to the right",
-      "fragment": "The truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
-      "splice": "Afghan refugees face an uncertain future as Europe shifts to the right underneath the truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
+      "headline": "Cleanup underway as Russian oil spill reaches Oman’s coastline",
+      "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
+      "splice": "Cleanup underway as Russian oil spill reaches Oman’s coastline insofar as the revolutionary lives in the gap which separates technical progress from social totality.",
       "seed": 20260836
+    },
+    {
+      "headline": "Powerful magnitude 7.7 earthquake kills at least 47 in Indonesia",
+      "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "splice": "Powerful magnitude 7.7 earthquake kills at least 47 in Indonesia which is to say the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "seed": 20260837
+    },
+    {
+      "headline": "Francesca Hong’s Loss in Wisconsin is a Win for AI Data Centers — for Now",
+      "fragment": "The truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
+      "splice": "Francesca Hong’s Loss in Wisconsin is a Win for AI Data Centers — for Now underneath the truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
+      "seed": 20260838
+    },
+    {
+      "headline": "Syrian Convicted in Austria of Civil War Abuses Is Detained in Syria",
+      "fragment": "Art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
+      "splice": "Syrian Convicted in Austria of Civil War Abuses Is Detained in Syria as if art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
+      "seed": 20260839
+    },
+    {
+      "headline": "Has the Left Really Met Its Limit? ",
+      "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
+      "splice": "Has the Left Really Met Its Limit?  consequently the breast is a machine that produces milk, and the mouth a machine coupled to it.",
+      "seed": 20260840
+    },
+    {
+      "headline": "US aircraft carrier expected to relieve USS Lincoln in Middle East",
+      "fragment": "The privatization of the organs will only begin with the shame felt by man at the sight of man.",
+      "splice": "US aircraft carrier expected to relieve USS Lincoln in Middle East while the privatization of the organs will only begin with the shame felt by man at the sight of man.",
+      "seed": 20260841
+    },
+    {
+      "headline": "Inter Milan sign England’s Djed Spence from Tottenham Hotspur",
+      "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "splice": "Inter Milan sign England’s Djed Spence from Tottenham Hotspur not unlike the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "seed": 20260842
     }
   ]
 }
