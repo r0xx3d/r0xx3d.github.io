@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T15:24:03.546Z",
+  "generated_at": "2026-08-16T18:32:46.113Z",
   "threat_intel": {
     "cisa_kev": [
       {
@@ -230,249 +230,260 @@
     ],
     "urlhaus": [
       {
-        "id": "3904409",
-        "date_added": "2026-08-16 15:02:27",
-        "url": "http://105.186.202.62:60041/i",
+        "id": "3904495",
+        "date_added": "2026-08-16 18:22:22",
+        "url": "http://110.39.224.167:59812/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
           "32-bit",
-          "arm",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3904494",
+        "date_added": "2026-08-16 18:16:05",
+        "url": "http://62.60.226.140/files/1372270670/0NOjfFC.exe",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "d52f85",
+          "dropped-by-amadey"
+        ]
+      },
+      {
+        "id": "3904493",
+        "date_added": "2026-08-16 18:11:07",
+        "url": "http://104.239.66.70/Bin/ScreenConnect.ClientSetup.exe",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "104-239-66-70",
+          "connectwise",
+          "exe",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3904492",
+        "date_added": "2026-08-16 18:08:27",
+        "url": "http://93.152.223.228/svc.exe",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "93-152-223-228",
+          "exe",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3904491",
+        "date_added": "2026-08-16 18:02:26",
+        "url": "http://110.39.224.167:59812/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3904490",
+        "date_added": "2026-08-16 18:00:20",
+        "url": "http://175.149.135.190:37738/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3904489",
+        "date_added": "2026-08-16 17:57:21",
+        "url": "http://110.36.86.0:40490/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3904488",
+        "date_added": "2026-08-16 17:34:19",
+        "url": "http://182.112.13.24:36195/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3904487",
+        "date_added": "2026-08-16 17:32:23",
+        "url": "http://94.154.43.122/bins/ppc",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "94-154-43-122",
           "elf",
           "mirai",
-          "Mozi"
+          "ua-wget"
         ]
       },
       {
-        "id": "3904407",
-        "date_added": "2026-08-16 14:50:16",
-        "url": "http://182.113.202.0:42578/bin.sh",
+        "id": "3904478",
+        "date_added": "2026-08-16 17:32:19",
+        "url": "http://94.154.43.122/bins/sh4",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "32-bit",
+          "94-154-43-122",
           "elf",
-          "mips",
-          "Mozi"
+          "mirai",
+          "ua-wget"
         ]
       },
       {
-        "id": "3904408",
-        "date_added": "2026-08-16 14:50:16",
-        "url": "http://112.239.102.100:56270/i",
+        "id": "3904479",
+        "date_added": "2026-08-16 17:32:19",
+        "url": "http://94.154.43.122/bins/x86",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "32-bit",
+          "94-154-43-122",
           "elf",
-          "mips",
-          "Mozi"
+          "mirai",
+          "ua-wget"
         ]
       },
       {
-        "id": "3904406",
-        "date_added": "2026-08-16 14:25:31",
-        "url": "http://42.239.150.62:42943/i",
+        "id": "3904480",
+        "date_added": "2026-08-16 17:32:19",
+        "url": "http://94.154.43.122/bins/arm6",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "32-bit",
+          "94-154-43-122",
           "elf",
-          "mips",
-          "Mozi"
+          "mirai",
+          "ua-wget"
         ]
       },
       {
-        "id": "3904405",
-        "date_added": "2026-08-16 14:24:37",
-        "url": "http://112.239.102.100:56270/bin.sh",
+        "id": "3904481",
+        "date_added": "2026-08-16 17:32:19",
+        "url": "http://94.154.43.122/bins/m68k",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "32-bit",
+          "94-154-43-122",
           "elf",
-          "mips",
-          "Mozi"
+          "mirai",
+          "ua-wget"
         ]
       },
       {
-        "id": "3904404",
-        "date_added": "2026-08-16 14:19:17",
-        "url": "http://123.4.203.194:35564/i",
+        "id": "3904482",
+        "date_added": "2026-08-16 17:32:19",
+        "url": "http://94.154.43.122/bins/arm7",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "32-bit",
+          "94-154-43-122",
           "elf",
-          "mips",
-          "Mozi"
+          "mirai",
+          "ua-wget"
         ]
       },
       {
-        "id": "3904403",
-        "date_added": "2026-08-16 14:10:29",
-        "url": "http://89.189.181.54:47685/i",
+        "id": "3904483",
+        "date_added": "2026-08-16 17:32:19",
+        "url": "http://94.154.43.122/bins/spc",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "32-bit",
+          "94-154-43-122",
           "elf",
-          "mips",
-          "Mozi"
+          "mirai",
+          "ua-wget"
         ]
       },
       {
-        "id": "3904402",
-        "date_added": "2026-08-16 14:07:23",
-        "url": "http://115.48.149.185:50547/i",
+        "id": "3904484",
+        "date_added": "2026-08-16 17:32:19",
+        "url": "http://94.154.43.122/bins/mipsel",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "32-bit",
+          "94-154-43-122",
           "elf",
-          "mips",
-          "Mozi"
+          "mirai",
+          "ua-wget"
         ]
       },
       {
-        "id": "3904401",
-        "date_added": "2026-08-16 13:56:19",
-        "url": "http://42.239.150.62:42943/bin.sh",
+        "id": "3904485",
+        "date_added": "2026-08-16 17:32:19",
+        "url": "http://94.154.43.122/bins/arm5",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "32-bit",
+          "94-154-43-122",
           "elf",
-          "mips",
-          "Mozi"
+          "mirai",
+          "ua-wget"
         ]
       },
       {
-        "id": "3904400",
-        "date_added": "2026-08-16 13:55:24",
-        "url": "http://27.194.27.62:59829/i",
+        "id": "3904486",
+        "date_added": "2026-08-16 17:32:19",
+        "url": "http://94.154.43.122/bins/mips",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "32-bit",
+          "94-154-43-122",
           "elf",
-          "mips",
-          "Mozi"
+          "mirai",
+          "ua-wget"
         ]
       },
       {
-        "id": "3904399",
-        "date_added": "2026-08-16 13:40:29",
-        "url": "http://220.192.252.142:56157/bin.sh",
+        "id": "3904477",
+        "date_added": "2026-08-16 17:32:17",
+        "url": "http://94.154.43.122/bins/x86_64",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "32-bit",
+          "94-154-43-122",
           "elf",
-          "mips",
-          "Mozi"
+          "mirai",
+          "ua-wget"
         ]
       },
       {
-        "id": "3904398",
-        "date_added": "2026-08-16 13:32:08",
-        "url": "http://125.44.196.40:38436/bin.sh",
+        "id": "3904475",
+        "date_added": "2026-08-16 17:31:16",
+        "url": "http://94.154.43.122/bins/arm",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3904397",
-        "date_added": "2026-08-16 13:17:23",
-        "url": "http://39.90.149.223:46931/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
+          "94-154-43-122",
           "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3904396",
-        "date_added": "2026-08-16 13:03:24",
-        "url": "http://191.44.112.89:889/gg11",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "elf",
-          "iot"
-        ]
-      },
-      {
-        "id": "3904395",
-        "date_added": "2026-08-16 13:03:23",
-        "url": "http://43.228.157.73/deploy.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "elf",
-          "iot"
-        ]
-      },
-      {
-        "id": "3904393",
-        "date_added": "2026-08-16 13:03:22",
-        "url": "http://59.96.138.214:53741/Mozi.m",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "elf",
-          "iot",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3904394",
-        "date_added": "2026-08-16 13:03:22",
-        "url": "http://194.26.192.87/rondo.rxx.sh",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "elf",
-          "iot"
-        ]
-      },
-      {
-        "id": "3904392",
-        "date_added": "2026-08-16 13:03:20",
-        "url": "http://176.65.139.248/sysorbit.apk",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "apk ",
-          "mirai"
-        ]
-      },
-      {
-        "id": "3904390",
-        "date_added": "2026-08-16 13:03:11",
-        "url": "http://91.92.242.236/files-129312398/files/file_e1a3f1926532a1e0.exe",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "c2-monitor-auto",
-          "dropped-by-amadey",
-          "rustystealer"
-        ]
-      },
-      {
-        "id": "3904391",
-        "date_added": "2026-08-16 13:03:11",
-        "url": "http://91.92.242.236/files-129312398/files/file_9022b6350736111c.exe",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "c2-monitor-auto",
-          "dropped-by-amadey"
+          "mirai",
+          "ua-wget"
         ]
       }
     ]
@@ -481,9 +492,58 @@
     {
       "title": "Russia says at least seven killed in largest Ukrainian attack of 2026",
       "link": "https://www.bbc.co.uk/news/articles/c1411pgje8xo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Sun, 16 Aug 2026 15:14:01 GMT",
+      "pubDate": "Sun, 16 Aug 2026 18:04:25 GMT",
       "source": "BBC",
       "summary": "Moscow also launched deadly strikes against Ukraine overnight, sparking fires across the capital Kyiv."
+    },
+    {
+      "title": "Former Israeli captive asks Ben-Gvir to let him execute Palestinian prisone",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/16/former-israeli-captive-asks-ben-gvir-to-let-him-execute-palestinian-prisone?traffic_source=rss",
+      "pubDate": "Sun, 16 Aug 2026 17:46:21 +0000",
+      "source": "Al Jazeera",
+      "summary": "Former Israeli captive Rom Braslavski asked Ben Gvir to allow him to execute Palestinian prisoners by hanging."
+    },
+    {
+      "title": "Israeli army besieges Palestinian homes in occupied West Bank",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/16/israeli-army-besieges-palestinian-homes-in-occupied-west-bank?traffic_source=rss",
+      "pubDate": "Sun, 16 Aug 2026 17:45:52 +0000",
+      "source": "Al Jazeera",
+      "summary": "Israeli troops have raided the village of Qusra, south of Nablus, in the occupied West Bank."
+    },
+    {
+      "title": "Two dead and hundreds evacuated as twin fires break out on Greek island",
+      "link": "https://www.bbc.co.uk/news/articles/c87nnwlpe5no?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Sun, 16 Aug 2026 17:44:23 GMT",
+      "source": "BBC",
+      "summary": "Nearly 200 firefighters are trying to keep the two fires apart on Salamina, Greek media report."
+    },
+    {
+      "title": "As Iran War Turns Into Economic Battle, a New U.S. Strategy Recalls Old Ones",
+      "link": "https://www.nytimes.com/2026/08/16/world/middleeast/iran-war-us-trump.html",
+      "pubDate": "Sun, 16 Aug 2026 17:39:39 +0000",
+      "source": "NYT World",
+      "summary": "The United States and Iran are poised to blow past a deadline they had set themselves to broker terms on peace and Iran’s nuclear program."
+    },
+    {
+      "title": "Why are sandwiches more regulated than AI?",
+      "link": "https://www.aljazeera.com/video/the-bottom-line/2026/8/16/why-are-sandwiches-more-regulated-than-ai?traffic_source=rss",
+      "pubDate": "Sun, 16 Aug 2026 17:36:02 +0000",
+      "source": "Al Jazeera",
+      "summary": "Futurist Max Tegmark wonders why sandwiches are more regulated than artificial intelligence in the US."
+    },
+    {
+      "title": "‘Water and salt’: Qusra residents trapped in Israeli settler siege",
+      "link": "https://www.aljazeera.com/news/2026/8/16/water-and-salt-qusra-residents-trapped-in-israeli-settler-siege?traffic_source=rss",
+      "pubDate": "Sun, 16 Aug 2026 17:18:00 +0000",
+      "source": "Al Jazeera",
+      "summary": "Israeli settlers and soldiers besiege Qusra families for eight days, blocking water and aid."
+    },
+    {
+      "title": "Cristiano Ronaldo hints at retirement at end of season",
+      "link": "https://www.aljazeera.com/sports/2026/8/16/cristiano-ronaldo-hints-at-retirement-at-the-end-of-the-football-season?traffic_source=rss",
+      "pubDate": "Sun, 16 Aug 2026 17:03:18 +0000",
+      "source": "Al Jazeera",
+      "summary": "Superstar forward gave his clearest indication yet that he might end his playing career after the current season."
     },
     {
       "title": "Art Heist: 4 Antonello da Messina Paintings Stolen From Sicily",
@@ -491,41 +551,6 @@
       "pubDate": "Sun, 16 Aug 2026 15:00:01 +0000",
       "source": "NYT World",
       "summary": "The works, by Antonello da Messina, were taken as the Sicilian city of Messina held a religious celebration."
-    },
-    {
-      "title": "Hurricane Lala weakens to a tropical storm, but flooding persists in Hawaii",
-      "link": "https://www.aljazeera.com/news/2026/8/16/hurricane-lala-weakens-to-a-tropical-storm-but-flooding-persists-in-hawaii?traffic_source=rss",
-      "pubDate": "Sun, 16 Aug 2026 14:55:51 +0000",
-      "source": "Al Jazeera",
-      "summary": "The devastating hurricane grazes the Big Island in Hawaii in the US, but avoids making landfall."
-    },
-    {
-      "title": "‘The Mediterranean is a bridge, not a border’",
-      "link": "https://www.aljazeera.com/video/talk-to-al-jazeera/2026/8/16/the-mediterranean-is-a-bridge-not-a?traffic_source=rss",
-      "pubDate": "Sun, 16 Aug 2026 14:40:38 +0000",
-      "source": "Al Jazeera",
-      "summary": "Chris Fearne says Europe must look beyond its borders to solve its migration problem."
-    },
-    {
-      "title": "Ben-Gvir calls for nightly killings of Palestinians in Gaza",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/16/ben-gvir-calls-for-nightly-killings-of-palestinians-in-gaza?traffic_source=rss",
-      "pubDate": "Sun, 16 Aug 2026 14:35:15 +0000",
-      "source": "Al Jazeera",
-      "summary": "Israel’s far-right national security minister Itamar Ben-Gvir has called for nightly killings in Gaza."
-    },
-    {
-      "title": "What is Tokyo’s Yasukuni Shrine, linked to Japan’s wartime atrocities?",
-      "link": "https://www.aljazeera.com/news/2026/8/16/what-is-tokyos-yasukuni-shrine-linked-to-japans-wartime-atrocities?traffic_source=rss",
-      "pubDate": "Sun, 16 Aug 2026 14:29:18 +0000",
-      "source": "Al Jazeera",
-      "summary": "About 2.5 million people, including Japanese war criminals who fought for the country, are enshrined at Yasukuni."
-    },
-    {
-      "title": "Who is DEI critic and Jason Arday accuser, Nathan Cofnas?",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/16/who-is-dei-critic-and-jason-arday-accuser-nathan-cofnas?traffic_source=rss",
-      "pubDate": "Sun, 16 Aug 2026 13:53:20 +0000",
-      "source": "Al Jazeera",
-      "summary": "Nathan Cofnas, who accused Jason Arday of plagiarism, believes intelligence varies between racial groups."
     },
     {
       "title": "Hurricane Lala sparks flash floods in Hawaii as strong winds and rain persist",
@@ -542,13 +567,6 @@
       "summary": "Hundreds of homes and public buildings have been severely damaged with at least 53 people killed."
     },
     {
-      "title": "Europe's tallest Virgin Mary statue unveiled in rural Poland",
-      "link": "https://www.bbc.co.uk/news/articles/cn5nnlq2pwpo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Sun, 16 Aug 2026 11:35:25 GMT",
-      "source": "BBC",
-      "summary": "The 55.6-metre (182ft) concrete figure is head-and-shoulders above Rio de Jaineiro's Christ the Redeemer."
-    },
-    {
       "title": "Twelve killed as Polish bus veers off Hungarian motorway",
       "link": "https://www.bbc.co.uk/news/articles/ckg4424zd7go?at_medium=RSS&at_campaign=rss",
       "pubDate": "Sun, 16 Aug 2026 10:53:50 GMT",
@@ -561,13 +579,6 @@
       "pubDate": "Sun, 16 Aug 2026 10:00:00 +0000",
       "source": "The Intercept",
       "summary": "With the case of Carlitos Ricardo Parias, the U.S. has broken its own record for holding a journalist in custody.\nThe post ICE Shot a Journalist and Threw Him in Detention. He’s Approaching 300 Days Behind Bars With a Festering Wound. appeared first "
-    },
-    {
-      "title": "As Iran War Turns Into Economic Battle, a New U.S. Strategy Recalls Old Ones",
-      "link": "https://www.nytimes.com/2026/08/16/world/middleeast/iran-war-us-trump.html",
-      "pubDate": "Sun, 16 Aug 2026 09:31:10 +0000",
-      "source": "NYT World",
-      "summary": "The United States and Iran are poised to blow past a deadline they had set themselves to broker terms on peace and Iran’s nuclear program."
     },
     {
       "title": "How a Ukrainian Bank Worker Came to Face Life in a Russian Prison",
@@ -889,6 +900,30 @@
       "source": "Public Domain Review"
     },
     {
+      "title": "Journey to Robbers Cave",
+      "link": "https://behavioralscientist.org/journey-to-robbers-cave/",
+      "summary": "The year was 1948. Only three years had passed since the Axis powers signed the instrument of surrender effectively ending the Second World War. Fifty nations had taken part in the conflict that saw genocide and the first use of nuclear weapons. An estimated 50 million lives were lost and another 19",
+      "pubDate": "Sun, 19 Jul 2026 22:58:46 +0000",
+      "domain": "psychology",
+      "source": "Behavioral Scientist"
+    },
+    {
+      "title": "What It’s Like to Be…an Airport CEO",
+      "link": "https://behavioralscientist.org/what-its-like-to-be-an-airport-ceo/",
+      "summary": "Pitching airline executives during route-planning speed dates, opening a $1.7 billion new terminal, and making space for emotional airport reunions with Christina Cassotis, CEO of Pittsburgh International Airport. Why does she have a beekeeper on contract? And what did a missing freight elevator tea",
+      "pubDate": "Tue, 14 Jul 2026 16:47:00 +0000",
+      "domain": "psychology",
+      "source": "Behavioral Scientist"
+    },
+    {
+      "title": "What It’s Like to Be…a Civil Aviation Engineer",
+      "link": "https://behavioralscientist.org/what-its-like-to-be-a-civil-aviation-engineer/",
+      "summary": "Designing runways for hot air and heavy planes, inspecting pavement cracks with measuring wheels, and protecting vicious little owls from construction crews with Eileen Vélez-Vega, a civil aviation engineer in Puerto Rico. What does the color of runway lights reveal to a pilot? And what's a “spall”?",
+      "pubDate": "Tue, 07 Jul 2026 16:44:00 +0000",
+      "domain": "psychology",
+      "source": "Behavioral Scientist"
+    },
+    {
       "title": "Best of SAPIENS 2025",
       "link": "https://www.sapiens.org/culture/best-of-sapiens-2025/",
       "summary": "In SAPIENS’ final year of publishing new stories, the magazine honors 10 standout contributions that carried anthropology into the hearts…\nThe post Best of SAPIENS 2025 appeared first on SAPIENS.",
@@ -963,64 +998,64 @@
   ],
   "misinfo_toilet": [
     {
-      "headline": "Twelve killed as Polish bus veers off Hungarian motorway",
-      "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "splice": "Twelve killed as Polish bus veers off Hungarian motorway consequently it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "seed": 20260831
-    },
-    {
-      "headline": "Trump’s Other Hold on the Americas: The Visa",
-      "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "splice": "Trump’s Other Hold on the Americas: The Visa not unlike it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "seed": 20260832
-    },
-    {
-      "headline": "Will Ronaldo Cry​? World Cup Fans Bet Billions Through Prediction Markets",
+      "headline": "Cristiano Ronaldo hints at retirement at end of season",
       "fragment": "It is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
-      "splice": "Will Ronaldo Cry​? World Cup Fans Bet Billions Through Prediction Markets despite it is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
-      "seed": 20260833
-    },
-    {
-      "headline": "Thousands displaced by deadly Indonesia earthquake as rescue efforts continue",
-      "fragment": "The privatization of the organs will only begin with the shame felt by man at the sight of man.",
-      "splice": "Thousands displaced by deadly Indonesia earthquake as rescue efforts continue therefore the privatization of the organs will only begin with the shame felt by man at the sight of man.",
+      "splice": "Cristiano Ronaldo hints at retirement at end of season despite it is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
       "seed": 20260834
     },
     {
-      "headline": "Art Heist: 4 Antonello da Messina Paintings Stolen From Sicily",
-      "fragment": "Traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "splice": "Art Heist: 4 Antonello da Messina Paintings Stolen From Sicily ...as traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
+      "headline": "How a Ukrainian Bank Worker Came to Face Life in a Russian Prison",
+      "fragment": "The privatization of the organs will only begin with the shame felt by man at the sight of man.",
+      "splice": "How a Ukrainian Bank Worker Came to Face Life in a Russian Prison therefore the privatization of the organs will only begin with the shame felt by man at the sight of man.",
       "seed": 20260835
     },
     {
-      "headline": "‘The Mediterranean is a bridge, not a border’",
-      "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
-      "splice": "‘The Mediterranean is a bridge, not a border’ insofar as the revolutionary lives in the gap which separates technical progress from social totality.",
+      "headline": "Welcome to Dubai: Kinahan Cartel’s Visas Revealed",
+      "fragment": "Traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
+      "splice": "Welcome to Dubai: Kinahan Cartel’s Visas Revealed ...as traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
       "seed": 20260836
     },
     {
-      "headline": "Welcome to Dubai: Kinahan Cartel’s Visas Revealed",
-      "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
-      "splice": "Welcome to Dubai: Kinahan Cartel’s Visas Revealed which is to say the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "headline": "Russia says at least seven killed in largest Ukrainian attack of 2026",
+      "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
+      "splice": "Russia says at least seven killed in largest Ukrainian attack of 2026 insofar as the revolutionary lives in the gap which separates technical progress from social totality.",
       "seed": 20260837
     },
     {
-      "headline": "Hurricane Lala weakens to a tropical storm, but flooding persists in Hawaii",
-      "fragment": "The truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
-      "splice": "Hurricane Lala weakens to a tropical storm, but flooding persists in Hawaii underneath the truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
+      "headline": "Thousands displaced by deadly Indonesia earthquake as rescue efforts continue",
+      "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "splice": "Thousands displaced by deadly Indonesia earthquake as rescue efforts continue which is to say the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
       "seed": 20260838
     },
     {
-      "headline": "Secret ICE Agent Tried to “Entice” Minneapolis Activists Into Confrontational Tactics",
-      "fragment": "Art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
-      "splice": "Secret ICE Agent Tried to “Entice” Minneapolis Activists Into Confrontational Tactics as if art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
+      "headline": "Israel Justified Its Wars by Calling Enemies “Crazy.” Now, the Warning Signs All Apply to Israel.",
+      "fragment": "The truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
+      "splice": "Israel Justified Its Wars by Calling Enemies “Crazy.” Now, the Warning Signs All Apply to Israel. underneath the truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
       "seed": 20260839
     },
     {
-      "headline": "ICE Shot a Journalist and Threw Him in Detention. He’s Approaching 300 Days Behind Bars With a Festering Wound.",
-      "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "splice": "ICE Shot a Journalist and Threw Him in Detention. He’s Approaching 300 Days Behind Bars With a Festering Wound. consequently the breast is a machine that produces milk, and the mouth a machine coupled to it.",
+      "headline": "Art Heist: 4 Antonello da Messina Paintings Stolen From Sicily",
+      "fragment": "Art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
+      "splice": "Art Heist: 4 Antonello da Messina Paintings Stolen From Sicily as if art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
       "seed": 20260840
+    },
+    {
+      "headline": "After Women in India Joined Protests, Online Harassment Followed",
+      "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
+      "splice": "After Women in India Joined Protests, Online Harassment Followed consequently the breast is a machine that produces milk, and the mouth a machine coupled to it.",
+      "seed": 20260841
+    },
+    {
+      "headline": "Former Israeli captive asks Ben-Gvir to let him execute Palestinian prisone",
+      "fragment": "The privatization of the organs will only begin with the shame felt by man at the sight of man.",
+      "splice": "Former Israeli captive asks Ben-Gvir to let him execute Palestinian prisone while the privatization of the organs will only begin with the shame felt by man at the sight of man.",
+      "seed": 20260842
+    },
+    {
+      "headline": "Two dead and hundreds evacuated as twin fires break out on Greek island",
+      "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "splice": "Two dead and hundreds evacuated as twin fires break out on Greek island not unlike the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "seed": 20260843
     }
   ]
 }
