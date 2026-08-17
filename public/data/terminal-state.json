@@ -1,7 +1,23 @@
 {
-  "generated_at": "2026-08-17T12:49:20.067Z",
+  "generated_at": "2026-08-17T15:27:17.782Z",
   "threat_intel": {
     "cisa_kev": [
+      {
+        "cveID": "CVE-2025-62593",
+        "vendorProject": "Ray-Project",
+        "product": "Ray",
+        "vulnerabilityName": "Ray-Project Ray Code Injection Vulnerability",
+        "dateAdded": "2026-08-18",
+        "shortDescription": "Ray-Project Ray contains a code injection vulnerability that could allow remote code execution. Developers using Ray as a development tool may be exposed to this vulnerability exploitable through Firefox and Safari.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-08-21",
+        "knownRansomwareCampaignUse": "Unknown",
+        "notes": "https://github.com/ray-project/ray/security/advisories/GHSA-q279-jhrf-cc6v ; https://github.com/ray-project/ray/commit/70e7c72780bdec075dba6cad1afe0832772bfe09 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2025-62593",
+        "cwes": [
+          "CWE-94",
+          "CWE-352"
+        ]
+      },
       {
         "cveID": "CVE-2026-20349",
         "vendorProject": "Cisco",
@@ -211,38 +227,13 @@
         "cwes": [
           "CWE-502"
         ]
-      },
-      {
-        "cveID": "CVE-2026-60137",
-        "vendorProject": "WordPress",
-        "product": "Core",
-        "vulnerabilityName": "WordPress Core SQL Injection Vulnerability",
-        "dateAdded": "2026-07-21",
-        "shortDescription": "WordPress Core contains a SQL injection vulnerability when a plugin or theme passes untrusted input to the parameter. This vulnerability can be chained with CVE-2026-63030 to allow an unauthenticated attacker to gain remote code execution on default WordPress installations.",
-        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "dueDate": "2026-08-04",
-        "knownRansomwareCampaignUse": "Unknown",
-        "notes": "https://wordpress.org/news/2026/07/wordpress-7-0-2-release/ ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-60137",
-        "cwes": [
-          "CWE-89"
-        ]
       }
     ],
     "urlhaus": [
       {
-        "id": "3904895",
-        "date_added": "2026-08-17 12:37:06",
-        "url": "http://123.12.17.244:47351/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3904894",
-        "date_added": "2026-08-17 12:24:20",
-        "url": "http://112.226.200.149:34560/i",
+        "id": "3904946",
+        "date_added": "2026-08-17 15:25:21",
+        "url": "http://182.126.80.97:57819/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -253,205 +244,188 @@
         ]
       },
       {
-        "id": "3904893",
-        "date_added": "2026-08-17 11:59:40",
-        "url": "http://112.226.200.149:34560/bin.sh",
+        "id": "3904945",
+        "date_added": "2026-08-17 15:25:09",
+        "url": "https://195.177.94.25/Bin/ScreenConnect.ClientSetup.exe",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "195-177-94-25",
+          "exe",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3904944",
+        "date_added": "2026-08-17 15:25:08",
+        "url": "https://195.177.94.25/bin/support.client.exe",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "195-177-94-25",
+          "exe",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3904943",
+        "date_added": "2026-08-17 15:24:08",
+        "url": "https://195.177.94.98/Bin/ScreenConnect.ClientSetup.exe",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "195-177-94-98",
+          "exe",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3904942",
+        "date_added": "2026-08-17 15:22:10",
+        "url": "http://104.249.10.175/Bin/ScreenConnect.ClientSetup.exe",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "104-249-10-175",
+          "exe",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3904941",
+        "date_added": "2026-08-17 15:22:07",
+        "url": "http://104.249.10.175/bin/support.client.exe",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "104-249-10-175",
+          "exe",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3904939",
+        "date_added": "2026-08-17 15:21:19",
+        "url": "http://36.88.136.194:37137/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
           "32-bit",
+          "arm",
           "elf",
-          "mips",
           "Mozi"
         ]
       },
       {
-        "id": "3904892",
-        "date_added": "2026-08-17 11:55:18",
-        "url": "http://212.164.115.235:52521/i",
+        "id": "3904940",
+        "date_added": "2026-08-17 15:21:19",
+        "url": "http://36.88.136.194:37137/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
           "32-bit",
+          "arm",
           "elf",
-          "mips",
           "Mozi"
         ]
       },
       {
-        "id": "3904891",
-        "date_added": "2026-08-17 11:50:26",
-        "url": "http://182.119.15.73:52944/i",
+        "id": "3904938",
+        "date_added": "2026-08-17 15:21:10",
+        "url": "https://195.177.94.107/Bin/ScreenConnect.ClientSetup.exe",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
+          "195-177-94-107",
+          "exe",
+          "ua-wget"
         ]
       },
       {
-        "id": "3904890",
-        "date_added": "2026-08-17 11:41:07",
-        "url": "http://210.208.111.2:53561/i",
+        "id": "3904937",
+        "date_added": "2026-08-17 15:21:06",
+        "url": "https://195.177.94.107/bin/support.client.exe",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "mirai"
+          "195-177-94-107",
+          "exe",
+          "ua-wget"
         ]
       },
       {
-        "id": "3904889",
-        "date_added": "2026-08-17 11:41:06",
-        "url": "http://39.89.94.52:43636/i",
+        "id": "3904936",
+        "date_added": "2026-08-17 15:11:10",
+        "url": "https://193.26.115.28/Bin/ScreenConnect.ClientSetup.exe",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "Mozi"
+          "193-26-115-28",
+          "exe",
+          "ua-wget"
         ]
       },
       {
-        "id": "3904888",
-        "date_added": "2026-08-17 11:26:17",
-        "url": "http://212.164.115.235:52521/bin.sh",
+        "id": "3904935",
+        "date_added": "2026-08-17 15:11:08",
+        "url": "https://193.26.115.28/bin/support.client.exe",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
+          "193-26-115-28",
+          "connectwise",
+          "exe",
+          "ua-wget"
         ]
       },
       {
-        "id": "3904887",
-        "date_added": "2026-08-17 11:17:07",
-        "url": "http://39.89.94.52:43636/bin.sh",
+        "id": "3904934",
+        "date_added": "2026-08-17 15:03:11",
+        "url": "https://94.154.32.8/Bin/ScreenConnect.ClientSetup.exe",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "Mozi"
+          "94-154-32-8",
+          "exe",
+          "ua-wget"
         ]
       },
       {
-        "id": "3904886",
-        "date_added": "2026-08-17 11:15:16",
-        "url": "http://45.194.25.221:36557/i",
+        "id": "3904933",
+        "date_added": "2026-08-17 15:03:10",
+        "url": "https://94.154.32.8/bin/support.client.exe",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
+          "94-154-32-8",
+          "exe",
+          "ua-wget"
         ]
       },
       {
-        "id": "3904885",
-        "date_added": "2026-08-17 11:14:19",
-        "url": "http://163.142.93.187:38525/i",
+        "id": "3904932",
+        "date_added": "2026-08-17 15:01:20",
+        "url": "https://purbalinggamandiri.com/144.exe",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
+          "SnappyClient"
         ]
       },
       {
-        "id": "3904884",
-        "date_added": "2026-08-17 11:10:23",
-        "url": "http://45.194.25.221:36557/bin.sh",
+        "id": "3904931",
+        "date_added": "2026-08-17 15:01:18",
+        "url": "https://purbalinggamandiri.com/3.exe",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
+          "CoinMiner"
         ]
       },
       {
-        "id": "3904883",
-        "date_added": "2026-08-17 11:07:05",
-        "url": "http://182.121.168.51:58015/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3904882",
-        "date_added": "2026-08-17 10:48:19",
-        "url": "http://110.36.75.82:45777/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3904881",
-        "date_added": "2026-08-17 10:44:15",
-        "url": "http://113.228.208.46:56903/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3904880",
-        "date_added": "2026-08-17 10:25:23",
-        "url": "http://125.41.72.148:43605/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3904879",
-        "date_added": "2026-08-17 10:23:21",
-        "url": "http://110.36.75.82:45777/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3904878",
-        "date_added": "2026-08-17 10:06:20",
-        "url": "http://115.48.37.12:47625/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3904877",
-        "date_added": "2026-08-17 10:01:31",
-        "url": "http://175.174.110.158:47459/bin.sh",
+        "id": "3904930",
+        "date_added": "2026-08-17 15:01:07",
+        "url": "http://196.251.107.186/zs/zs64.exe",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -459,73 +433,119 @@
         ]
       },
       {
-        "id": "3904876",
-        "date_added": "2026-08-17 10:01:30",
-        "url": "http://120.84.212.135:36545/i",
+        "id": "3904928",
+        "date_added": "2026-08-17 15:01:06",
+        "url": "http://103.77.246.150/get.sh",
         "url_status": "offline",
         "threat": "malware_download",
         "tags": [
+          "script"
+        ]
+      },
+      {
+        "id": "3904929",
+        "date_added": "2026-08-17 15:01:06",
+        "url": "http://196.251.107.186/clp.exe",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
           "None"
+        ]
+      },
+      {
+        "id": "3904926",
+        "date_added": "2026-08-17 15:00:36",
+        "url": "http://176.65.139.194/bachekuni/ohshit.arm6",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "176-65-139-194",
+          "DEU",
+          "elf",
+          "geofenced",
+          "mirai",
+          "ua-wget"
         ]
       }
     ]
   },
   "world_monitor": [
     {
-      "title": "Andy Burnham, UK Prime Minister, Exchanged Texts With Someone Posing as Trump’s Chief of Staff",
-      "link": "https://www.nytimes.com/2026/08/17/world/europe/andy-burnham-prime-minister-uk-fake-texts-trump.html",
-      "pubDate": "Mon, 17 Aug 2026 12:32:44 +0000",
+      "title": "Police execute controlled World War II–era Mine explosion",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/17/police-execute-controlled-world-war-ii-era-mine?traffic_source=rss",
+      "pubDate": "Mon, 17 Aug 2026 15:08:17 +0000",
+      "source": "Al Jazeera",
+      "summary": "Video footage released by police on Sunday shows Slovak bomb disposal experts executing a mine detonation."
+    },
+    {
+      "title": "Trump demands Iran ‘put up the white flag of surrender’ as MoU expires",
+      "link": "https://www.aljazeera.com/news/2026/8/17/trump-demands-iran-put-up-the-white-flag-of-surrender-as-mou-expires?traffic_source=rss",
+      "pubDate": "Mon, 17 Aug 2026 15:06:14 +0000",
+      "source": "Al Jazeera",
+      "summary": "President also claims US is in direct contact with IRGC, denies a rush to end conflict ahead of November's US midterms."
+    },
+    {
+      "title": "Trump threatens to bomb Oman if it 'gets in the way' over Iran issue",
+      "link": "https://www.bbc.co.uk/news/articles/cy5dzk0ryzdo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Mon, 17 Aug 2026 14:59:02 GMT",
+      "source": "BBC",
+      "summary": "The president also told Fox News the US had a direct backchannel with the Islamic Revolutionary Guard Corps - something it denies."
+    },
+    {
+      "title": "Iran signals readiness for ‘US ground operations’ as MoU expires",
+      "link": "https://www.aljazeera.com/news/2026/8/17/iran-signals-readiness-for-us-ground-operations-as-mou-expires?traffic_source=rss",
+      "pubDate": "Mon, 17 Aug 2026 14:15:17 +0000",
+      "source": "Al Jazeera",
+      "summary": "Iran's more offensive posture follows Trump's comment that the US would soon make the Strait of Hormuz its territory."
+    },
+    {
+      "title": "Boat sets sail from Bristol, aiming to break Israel’s siege of Gaza",
+      "link": "https://www.aljazeera.com/news/2026/8/17/boat-sets-sail-from-bristol-aiming-to-break-israels-siege-of-gaza?traffic_source=rss",
+      "pubDate": "Mon, 17 Aug 2026 14:12:08 +0000",
+      "source": "Al Jazeera",
+      "summary": "Twelve people including the captain are on board 'Kate', the latest vessel attempting to deliver aid."
+    },
+    {
+      "title": "Lula and Bolsonaro’s son launch rival bids for Brazil presidency",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/17/lula-and-bolsonaros-son-launch-rival-bids-for-brazil-presidency?traffic_source=rss",
+      "pubDate": "Mon, 17 Aug 2026 14:03:26 +0000",
+      "source": "Al Jazeera",
+      "summary": "Brazil’s presidential race is officially underway."
+    },
+    {
+      "title": "A Democratic Socialist Aims to Oust a Top AIPAC Beneficiary in Florida",
+      "link": "https://theintercept.com/2026/08/17/florida-congress-oliver-larkin-jared-moskowitz-aipac/",
+      "pubDate": "Mon, 17 Aug 2026 14:01:56 +0000",
+      "source": "The Intercept",
+      "summary": "Oliver Larkin is trying to unseat Rep. Jared Moskowitz, who is backed by AIPAC donors and an artificial intelligence super PAC.\nThe post A Democratic Socialist Aims to Oust a Top AIPAC Beneficiary in Florida appeared first on The Intercept."
+    },
+    {
+      "title": "How Ukraine’s Satellites Help Drive Its War Drones",
+      "link": "https://www.nytimes.com/2026/08/17/world/europe/from-the-sky-to-the-battlefield.html",
+      "pubDate": "Mon, 17 Aug 2026 13:32:38 +0000",
       "source": "NYT World",
-      "summary": "Prime Minister Andy Burnham messaged briefly with a person impersonating Susie Wiles, a British government official said."
+      "summary": "Ukrainian drone teams have a powerful new tool: near real-time information on troop movements and locations."
     },
     {
-      "title": "Trump envoy Kushner meets Netanyahu after Hamas talks on peace plan",
-      "link": "https://www.bbc.co.uk/news/articles/c77gg5vn44yo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Mon, 17 Aug 2026 12:27:11 GMT",
-      "source": "BBC",
-      "summary": "US President Trump's son-in-law Jared Kushner is seeking to gain Israeli backing for the US-backed Gaza peace plan."
+      "title": "Kushner Meets Netanyahu in Israel in Effort to Break Logjam Over Gaza",
+      "link": "https://www.nytimes.com/2026/08/17/world/middleeast/kushner-netanyahu-gaza-peace-deal.html",
+      "pubDate": "Mon, 17 Aug 2026 13:31:46 +0000",
+      "source": "NYT World",
+      "summary": "Prime Minister Benjamin Netanyahu of Israel has refused to pull back the country’s military until Hamas fully disarms. But the Trump administration is under pressure to show progress."
     },
     {
-      "title": "Israel’s religious right is changing the state from within",
-      "link": "https://www.aljazeera.com/opinions/2026/8/17/israels-religious-right-is-changing-the-state-from-within?traffic_source=rss",
-      "pubDate": "Mon, 17 Aug 2026 12:15:49 +0000",
-      "source": "Al Jazeera",
-      "summary": "Religious fundamentalism is advancing through Israel’s institutions, narrowing freedoms and deepening inequality."
-    },
-    {
-      "title": "Jason Arday’s death is institutional murder",
-      "link": "https://www.aljazeera.com/opinions/2026/8/17/jason-ardays-death-is-institutional-murder?traffic_source=rss",
-      "pubDate": "Mon, 17 Aug 2026 12:08:03 +0000",
-      "source": "Al Jazeera",
-      "summary": "Arday was subjected to a vicious campaign fuelled by anti-Black racism."
-    },
-    {
-      "title": "US-Iran Memorandum of Understanding expires: How and why it fell apart",
-      "link": "https://www.aljazeera.com/news/2026/8/17/us-iran-memorandum-of-understanding-expires-how-and-why-it-fell-apart?traffic_source=rss",
-      "pubDate": "Mon, 17 Aug 2026 12:07:23 +0000",
-      "source": "Al Jazeera",
-      "summary": "Trump deemed the MoU 'over' within a month of it being signed, as the two sides traded attacks despite a 'ceasefire'."
-    },
-    {
-      "title": "Arsenal preview: Key questions heading into 2026-27 Premier League season",
-      "link": "https://www.aljazeera.com/sports/2026/8/17/arsenal-preview-key-questions-heading-into-2026-27-premier-league-season?traffic_source=rss",
-      "pubDate": "Mon, 17 Aug 2026 11:44:01 +0000",
-      "source": "Al Jazeera",
-      "summary": "Does Guimaraes complete the midfield? Can they finally win the Champions League? And who is set for a breakout season?"
-    },
-    {
-      "title": "Trump orders US to scale back South Korea military drills",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/17/trump-orders-us-to-scale-back-south-korea-military-drills?traffic_source=rss",
-      "pubDate": "Mon, 17 Aug 2026 11:29:00 +0000",
-      "source": "Al Jazeera",
-      "summary": "Donald Trump has ordered the US military to scale back joint exercises with South Korea."
-    },
-    {
-      "title": "Ukrainian strikes kill six in Russia, acting governor says",
+      "title": "Russia and Ukraine trade more deadly strikes",
       "link": "https://www.bbc.co.uk/news/articles/cn7n4lm11vro?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Mon, 17 Aug 2026 11:14:39 GMT",
+      "pubDate": "Mon, 17 Aug 2026 13:16:50 GMT",
       "source": "BBC",
-      "summary": "A 14-year-old child was among four others injured, the acting governor of Russia's Belgorod region says."
+      "summary": "Moscow says nine people have been killed in the past 24 hours, while Kyiv reports four deaths."
+    },
+    {
+      "title": "US hiker dies after being struck by lightning on Mount Etna",
+      "link": "https://www.bbc.co.uk/news/articles/ce34rlkw6q7o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Mon, 17 Aug 2026 12:23:26 GMT",
+      "source": "BBC",
+      "summary": "The 30-year-old was on the active volcano when a thunderstorm developed, local media report."
     },
     {
       "title": "China Wants Its Data to Power the World’s A.I.",
@@ -549,13 +569,6 @@
       "summary": "Some 53 people were killed and thousands displaced by the earthquake, which struck early on Saturday."
     },
     {
-      "title": "Kushner Meets Netanyahu in Israel in Effort to Break Logjam Over Gaza",
-      "link": "https://www.nytimes.com/2026/08/17/world/middleeast/kushner-netanyahu-gaza-peace-deal.html",
-      "pubDate": "Mon, 17 Aug 2026 10:20:37 +0000",
-      "source": "NYT World",
-      "summary": "Prime Minister Benjamin Netanyahu of Israel has refused to pull back the country’s military until Hamas fully disarms. But the Trump administration is under pressure to show progress."
-    },
-    {
       "title": "Iran’s Supreme Leader Signals Intention to Keep Country on a War Footing",
       "link": "https://www.nytimes.com/2026/08/17/world/middleeast/iran-khamenei-military-leaders-war.html",
       "pubDate": "Mon, 17 Aug 2026 09:42:00 +0000",
@@ -568,13 +581,6 @@
       "pubDate": "Mon, 17 Aug 2026 06:24:31 GMT",
       "source": "BBC",
       "summary": "Trump cites his \"very good relationship\" with North Korea's leader in deciding to downsize the exercises."
-    },
-    {
-      "title": "Ebola outbreak in DR Congo becomes deadliest in its history",
-      "link": "https://www.bbc.co.uk/news/articles/cvgll74vvydo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Mon, 17 Aug 2026 04:41:31 GMT",
-      "source": "BBC",
-      "summary": "The outbreak was already the fastest growing on record, caused by a rare species of Ebola called Bundibugyo."
     },
     {
       "title": "ICE Shot a Journalist and Threw Him in Detention. He’s Approaching 300 Days Behind Bars With a Festering Wound.",
@@ -603,13 +609,6 @@
       "pubDate": "Fri, 14 Aug 2026 09:00:00 +0000",
       "source": "The Intercept",
       "summary": "Momodou Taal and Amandla Thomas-Johnson were finishing their graduate degrees abroad because of targeting by the Trump administration. Cornell is ordering them back to campus.\nThe post Cornell to Pro-Palestine Students Targeted by ICE: Come Back to t"
-    },
-    {
-      "title": "Israel Justified Its Wars by Calling Enemies “Crazy.” Now, the Warning Signs All Apply to Israel.",
-      "link": "https://theintercept.com/2026/08/13/israel-palestine-benjamin-netanyahu-likud-crazy/",
-      "pubDate": "Thu, 13 Aug 2026 09:57:00 +0000",
-      "source": "The Intercept",
-      "summary": "Benjamin Netanyahu shocked the world with violence in Gaza — then took an unhinged Israel to the mainstream.\nThe post Israel Justified Its Wars by Calling Enemies “Crazy.” Now, the Warning Signs All Apply to Israel. appeared first on The Intercept."
     },
     {
       "title": "Welcome to Dubai: Kinahan Cartel’s Visas Revealed",
@@ -714,6 +713,54 @@
   ],
   "syndicate_journal": [
     {
+      "title": "\"See me after class\"?",
+      "link": "https://languagelog.ldc.upenn.edu/nll/?p=74030&utm_source=rss&utm_medium=rss&utm_campaign=see-me-after-class",
+      "summary": "Prescriptivist peeving has faded from public discourse, but UK politics recently brought us a blast from the past: @Conservatives red-penciled two incomplete sentences (\"(I am) Absolutely thrilled…\" and \"(There is) lots to do…), which is a bit hypocritical since it's trivial to find similar things i",
+      "pubDate": "Mon, 17 Aug 2026 15:16:55 +0000",
+      "domain": "linguistics",
+      "source": "Language Log"
+    },
+    {
+      "title": "Theory of Fluids Enters the 21st Century",
+      "link": "https://www.quantamagazine.org/theory-of-fluids-enters-the-21st-century-20260817/",
+      "summary": "From the 1800s to the early 2000s, physicists used the same theory to understand the behavior of fluids. Now, using a modern insight, they have redefined fluids from the bottom up.            \nThe post Theory of Fluids Enters the 21st Century first appeared on Quanta Magazine",
+      "pubDate": "Mon, 17 Aug 2026 15:11:17 +0000",
+      "domain": "science",
+      "source": "Quanta"
+    },
+    {
+      "title": "Kate Bronfenbrenner, the Union Organizer’s Scholar",
+      "link": "",
+      "summary": "Kate Bronfenbrenner started by asking union organizers to walk her through their campaigns, from beginning to end.\nBronfenbrenner, who retired this year from Cornell University’s School of Industrial and Labor Relations (ILR) after more than twenty-five years teaching and researching there, has spen",
+      "pubDate": "2026-08-17T15:10:30.668Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "How Coffee Affects Your Sex Hormone Levels",
+      "link": "https://nautil.us/how-coffee-affects-your-sex-hormone-levels-1283854/",
+      "summary": "And I’ve just been drinking it for the caffeine\nThe post How Coffee Affects Your Sex Hormone Levels appeared first on Nautilus.",
+      "pubDate": "Mon, 17 Aug 2026 14:17:48 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "German Christian Democrats Are Paralyzed by a Far-Right Surge",
+      "link": "",
+      "summary": "Next month, three state elections will test whether Germany’s postwar consensus against governing with the far right will survive. On September 6, roughly two million voters in Saxony-Anhalt go to the polls; two weeks later, on September 20, they’ll be followed by voters in Mecklenburg-Western Pomer",
+      "pubDate": "2026-08-17T13:33:40.227Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "Ancient Rome: A City of Immigrants",
+      "link": "https://daily.jstor.org/ancient-rome-a-city-of-immigrants/",
+      "summary": "A neighborhood beyond the Tiber became home to generations of Jewish and Syrian migrants who reshaped the imperial capital.\nThe post Ancient Rome: A City of Immigrants appeared first on JSTOR Daily.",
+      "pubDate": "Mon, 17 Aug 2026 13:29:58 +0000",
+      "domain": "history",
+      "source": "JSTOR Daily"
+    },
+    {
       "title": "A Peek Inside the Black Box of Epigenetic Clocks",
       "link": "https://nautil.us/a-peek-inside-the-black-box-of-epigenetic-clocks-1283841/",
       "summary": "What are they really measuring?\nThe post A Peek Inside the Black Box of Epigenetic Clocks appeared first on Nautilus.",
@@ -778,36 +825,12 @@
       "source": "Jacobin"
     },
     {
-      "title": "The Dangerous Rise of Victimhood Nationalism",
-      "link": "",
-      "summary": "South Korea has strong traditions of class struggle and left-wing political organization. Unfortunately, this has generally not been reflected in the development of Korean radical theory, which has tended to be heavily derivative of work published in other countries and languages.\nLim Jie-hyun’s boo",
-      "pubDate": "2026-08-16T12:00:00.049Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
       "title": "AI and bureaucratic productivity",
       "link": "https://languagelog.ldc.upenn.edu/nll/?p=74020&utm_source=rss&utm_medium=rss&utm_campaign=ai-and-bureaucratic-productivity",
       "summary": "The August 6 Economist discussed AI threats to government bureaucracy: \"How AI is breaking the British state: Equipped with models and agents, citizens could bring government to a halt\" \"From parking tickets to planning, the state is under siege by AI: The people-versus-state arms race\" \"The tragedy",
       "pubDate": "Sun, 16 Aug 2026 10:23:47 +0000",
       "domain": "linguistics",
       "source": "Language Log"
-    },
-    {
-      "title": "The Odyssey Is a Thrilling, Reactionary Lament",
-      "link": "",
-      "summary": ", Christopher Nolan’s cinematic retelling of Homer’s epic poem, has taken the country by storm. While on vacation back home in southern Illinois, I visited a Dolby theater with my family to experience it myself — and was not disappointed. The film delivered spectacular visuals, clever effects, and b",
-      "pubDate": "2026-08-15T13:53:17.925Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
-      "title": "Is This the World’s Oldest Image of a Mind‑altering Plant?",
-      "link": "https://nautil.us/is-this-the-worlds-oldest-image-of-a-mind%e2%80%91altering-plant-1283811/",
-      "summary": "A painted panel deep in a Spanish cave may push the human relationship with mind-altering plants back thousands of years, earlier than anything previously known\nThe post Is This the World’s Oldest Image of a Mind‑altering Plant? appeared first on Nautilus.",
-      "pubDate": "Sat, 15 Aug 2026 13:30:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
     },
     {
       "title": "How to Search JSTOR with Keywords",
@@ -858,36 +881,12 @@
       "source": "Quanta"
     },
     {
-      "title": "How the Big Dig Changed Boston’s Landscape",
-      "link": "https://daily.jstor.org/how-the-big-dig-changed-bostons-landscape/",
-      "summary": "Created after the Big Dig, the Rose Kennedy Greenway shows how cities attempt to heal the scars of highway construction.\nThe post How the Big Dig Changed Boston’s Landscape appeared first on JSTOR Daily.",
-      "pubDate": "Wed, 12 Aug 2026 13:33:00 +0000",
-      "domain": "history",
-      "source": "JSTOR Daily"
-    },
-    {
-      "title": "Solidus",
-      "link": "https://languagelog.ldc.upenn.edu/nll/?p=74001&utm_source=rss&utm_medium=rss&utm_campaign=solidus",
-      "summary": "I was curious about the Unicode characters involved in the \"shrug\" text art: ̄\\_(ツ)_/ ̄ so I ran it through charnames.pl: ̄\\_(ツ)_/ ̄ | | 0x0020 \"SPACE\" |̄| 0x0304 \"COMBINING MACRON\" |\\| 0x005C \"REVERSE SOLIDUS\" |_| 0x005F \"LOW LINE\" |(| 0x0028 \"LEFT PARENTHESIS\" |ツ| 0x30C4 \"KATAKANA LETTER TU\" |)| 0",
-      "pubDate": "Tue, 11 Aug 2026 14:47:35 +0000",
-      "domain": "linguistics",
-      "source": "Language Log"
-    },
-    {
       "title": "What It’s Like to Be…a Mail Carrier",
       "link": "https://behavioralscientist.org/what-its-like-to-be-a-mail-carrier/",
       "summary": "Loading the mail truck before the day begins, dealing with aggressive dogs and bad weather, and keeping a neighborhood connected by showing up every day with John Ayala, a retired mail carrier in Los Angeles. How did a golf club help him deliver packages? And what does a mail carrier learn about us ",
       "pubDate": "Tue, 11 Aug 2026 12:30:27 +0000",
       "domain": "psychology",
       "source": "Behavioral Scientist"
-    },
-    {
-      "title": "Why Are Rivers So Mathematical?",
-      "link": "https://www.quantamagazine.org/why-are-rivers-so-mathematical-20260810/",
-      "summary": "A simple scaling law brings order to the chaos of flowing water, rock, and sediment. New findings have extended the law even further.             \nThe post Why Are Rivers So Mathematical? first appeared on Quanta Magazine",
-      "pubDate": "Mon, 10 Aug 2026 14:56:34 +0000",
-      "domain": "science",
-      "source": "Quanta"
     },
     {
       "title": "Artificial Intelligence: Ars Notoria and the Promise of Instant Knowledge\n",
@@ -978,25 +977,25 @@
       "source": "ROAR Magazine"
     },
     {
-      "title": "Assessing health, wellbeing, and working life impacts of a 4-day week: a multimodal protocol",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1894642",
-      "summary": "Long working hours can negatively affect workers' health, wellbeing, and work performance. Previous trials reducing working time have found improvements in multiple aspects of wellbeing, including sleep, job satisfaction, and reduced burnout, while maintaining performance. However, the potential psy",
+      "title": "Perceived commuting stress, residential nighttime light, and mental health: an environmental stress perspective",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1817776",
+      "summary": "Daily environmental stressors embedded in urban life may influence mental health not only through direct exposure but also through the ways individuals perceive and respond to these demands. Among these stressors, commuting represents a recurrent daily burden whose psychological impacts may vary acc",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "Sustaining physical activity following participation in a joint pain exercise and education rehabilitation programme; a qualitative longitudinal study",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1807688",
-      "summary": "BackgroundMusculoskeletal conditions are leading contributors to global disability and place a significant economic burden on health systems. Optimal physical activity is a key recommended strategy for managing musculoskeletal conditions, yet many individuals struggle to sustain activity levels foll",
+      "title": "Assessing multidimensional student engagement in studio-based design learning: a traceable multimodal framework for teacher-led inquiry",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1903940",
+      "summary": "IntroductionStudent engagement is a central construct in educational psychology, but it is difficult to assess in studio-based design learning because participation, emotion, cognitive effort, self-regulation, and design-process activity are distributed across classroom interaction, learning records",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "The relationship between motor skills and social development in 6–12 years old typically developing children: a systematic review",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1845725",
-      "summary": "BackgroundMotor skill development plays a pivotal role in children’s holistic development, including both physical fitness and social competence. This systematic review examined the specific relationships between motor skill components (gross and fine motor skills) and three core domains of social d",
+      "title": "Domain-specific and generalised motivational pathways to STEM degree attainment: a 10-year longitudinal mediation analysis",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1898011",
+      "summary": "Understanding how adolescent motivational beliefs relate to long-term STEM degree attainment is a central question in educational psychology. Drawing on expectancy-value theory, this study examined whether math self-efficacy (a domain-specific belief) and academic utility value (a generalised belief",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
@@ -1004,64 +1003,64 @@
   ],
   "misinfo_toilet": [
     {
-      "headline": "Andy Burnham, UK Prime Minister, Exchanged Texts With Someone Posing as Trump’s Chief of Staff",
+      "headline": "US hiker dies after being struck by lightning on Mount Etna",
       "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "splice": "Andy Burnham, UK Prime Minister, Exchanged Texts With Someone Posing as Trump’s Chief of Staff consequently it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "seed": 20260829
+      "splice": "US hiker dies after being struck by lightning on Mount Etna consequently it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
+      "seed": 20260832
     },
     {
-      "headline": "Ebola outbreak in DR Congo becomes deadliest in its history",
+      "headline": "Iran’s Supreme Leader Signals Intention to Keep Country on a War Footing",
       "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "splice": "Ebola outbreak in DR Congo becomes deadliest in its history not unlike it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "seed": 20260830
+      "splice": "Iran’s Supreme Leader Signals Intention to Keep Country on a War Footing not unlike it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
+      "seed": 20260833
     },
     {
       "headline": "Will Ronaldo Cry​? World Cup Fans Bet Billions Through Prediction Markets",
       "fragment": "It is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
       "splice": "Will Ronaldo Cry​? World Cup Fans Bet Billions Through Prediction Markets despite it is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
-      "seed": 20260831
-    },
-    {
-      "headline": "Trump’s Overture to North Korea Strains Alliance With the South",
-      "fragment": "The privatization of the organs will only begin with the shame felt by man at the sight of man.",
-      "splice": "Trump’s Overture to North Korea Strains Alliance With the South therefore the privatization of the organs will only begin with the shame felt by man at the sight of man.",
-      "seed": 20260832
+      "seed": 20260834
     },
     {
       "headline": "Kushner Meets Netanyahu in Israel in Effort to Break Logjam Over Gaza",
-      "fragment": "Traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "splice": "Kushner Meets Netanyahu in Israel in Effort to Break Logjam Over Gaza ...as traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "seed": 20260833
+      "fragment": "The privatization of the organs will only begin with the shame felt by man at the sight of man.",
+      "splice": "Kushner Meets Netanyahu in Israel in Effort to Break Logjam Over Gaza therefore the privatization of the organs will only begin with the shame felt by man at the sight of man.",
+      "seed": 20260835
     },
     {
-      "headline": "Jason Arday’s death is institutional murder",
+      "headline": "Police execute controlled World War II–era Mine explosion",
+      "fragment": "Traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
+      "splice": "Police execute controlled World War II–era Mine explosion ...as traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
+      "seed": 20260836
+    },
+    {
+      "headline": "Iran signals readiness for ‘US ground operations’ as MoU expires",
       "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
-      "splice": "Jason Arday’s death is institutional murder insofar as the revolutionary lives in the gap which separates technical progress from social totality.",
-      "seed": 20260834
+      "splice": "Iran signals readiness for ‘US ground operations’ as MoU expires insofar as the revolutionary lives in the gap which separates technical progress from social totality.",
+      "seed": 20260837
     },
     {
       "headline": "Welcome to Dubai: Kinahan Cartel’s Visas Revealed",
       "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
       "splice": "Welcome to Dubai: Kinahan Cartel’s Visas Revealed which is to say the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
-      "seed": 20260835
-    },
-    {
-      "headline": "US-Iran Memorandum of Understanding expires: How and why it fell apart",
-      "fragment": "The truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
-      "splice": "US-Iran Memorandum of Understanding expires: How and why it fell apart underneath the truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
-      "seed": 20260836
-    },
-    {
-      "headline": "Secret ICE Agent Tried to “Entice” Minneapolis Activists Into Confrontational Tactics",
-      "fragment": "Art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
-      "splice": "Secret ICE Agent Tried to “Entice” Minneapolis Activists Into Confrontational Tactics as if art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
-      "seed": 20260837
-    },
-    {
-      "headline": "Israel’s religious right is changing the state from within",
-      "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "splice": "Israel’s religious right is changing the state from within consequently the breast is a machine that produces milk, and the mouth a machine coupled to it.",
       "seed": 20260838
+    },
+    {
+      "headline": "Trump demands Iran ‘put up the white flag of surrender’ as MoU expires",
+      "fragment": "The truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
+      "splice": "Trump demands Iran ‘put up the white flag of surrender’ as MoU expires underneath the truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
+      "seed": 20260839
+    },
+    {
+      "headline": "ICE Shot a Journalist and Threw Him in Detention. He’s Approaching 300 Days Behind Bars With a Festering Wound.",
+      "fragment": "Art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
+      "splice": "ICE Shot a Journalist and Threw Him in Detention. He’s Approaching 300 Days Behind Bars With a Festering Wound. as if art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
+      "seed": 20260840
+    },
+    {
+      "headline": "China Wants Its Data to Power the World’s A.I.",
+      "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
+      "splice": "China Wants Its Data to Power the World’s A.I. consequently the breast is a machine that produces milk, and the mouth a machine coupled to it.",
+      "seed": 20260841
     }
   ]
 }
