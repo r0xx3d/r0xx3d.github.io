@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T15:27:17.782Z",
+  "generated_at": "2026-08-17T21:27:52.903Z",
   "threat_intel": {
     "cisa_kev": [
       {
@@ -7,10 +7,10 @@
         "vendorProject": "Ray-Project",
         "product": "Ray",
         "vulnerabilityName": "Ray-Project Ray Code Injection Vulnerability",
-        "dateAdded": "2026-08-18",
+        "dateAdded": "2026-08-17",
         "shortDescription": "Ray-Project Ray contains a code injection vulnerability that could allow remote code execution. Developers using Ray as a development tool may be exposed to this vulnerability exploitable through Firefox and Safari.",
         "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "dueDate": "2026-08-21",
+        "dueDate": "2026-08-20",
         "knownRansomwareCampaignUse": "Unknown",
         "notes": "https://github.com/ray-project/ray/security/advisories/GHSA-q279-jhrf-cc6v ; https://github.com/ray-project/ray/commit/70e7c72780bdec075dba6cad1afe0832772bfe09 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2025-62593",
         "cwes": [
@@ -231,9 +231,9 @@
     ],
     "urlhaus": [
       {
-        "id": "3904946",
-        "date_added": "2026-08-17 15:25:21",
-        "url": "http://182.126.80.97:57819/i",
+        "id": "3905015",
+        "date_added": "2026-08-17 21:22:21",
+        "url": "http://182.117.76.70:54885/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -244,208 +244,73 @@
         ]
       },
       {
-        "id": "3904945",
-        "date_added": "2026-08-17 15:25:09",
-        "url": "https://195.177.94.25/Bin/ScreenConnect.ClientSetup.exe",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "195-177-94-25",
-          "exe",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3904944",
-        "date_added": "2026-08-17 15:25:08",
-        "url": "https://195.177.94.25/bin/support.client.exe",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "195-177-94-25",
-          "exe",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3904943",
-        "date_added": "2026-08-17 15:24:08",
-        "url": "https://195.177.94.98/Bin/ScreenConnect.ClientSetup.exe",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "195-177-94-98",
-          "exe",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3904942",
-        "date_added": "2026-08-17 15:22:10",
-        "url": "http://104.249.10.175/Bin/ScreenConnect.ClientSetup.exe",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "104-249-10-175",
-          "exe",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3904941",
-        "date_added": "2026-08-17 15:22:07",
-        "url": "http://104.249.10.175/bin/support.client.exe",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "104-249-10-175",
-          "exe",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3904939",
-        "date_added": "2026-08-17 15:21:19",
-        "url": "http://36.88.136.194:37137/bin.sh",
+        "id": "3905014",
+        "date_added": "2026-08-17 21:15:27",
+        "url": "http://123.189.139.234:49221/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
           "32-bit",
-          "arm",
           "elf",
+          "mips",
           "Mozi"
         ]
       },
       {
-        "id": "3904940",
-        "date_added": "2026-08-17 15:21:19",
-        "url": "http://36.88.136.194:37137/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "arm",
-          "elf",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3904938",
-        "date_added": "2026-08-17 15:21:10",
-        "url": "https://195.177.94.107/Bin/ScreenConnect.ClientSetup.exe",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "195-177-94-107",
-          "exe",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3904937",
-        "date_added": "2026-08-17 15:21:06",
-        "url": "https://195.177.94.107/bin/support.client.exe",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "195-177-94-107",
-          "exe",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3904936",
-        "date_added": "2026-08-17 15:11:10",
-        "url": "https://193.26.115.28/Bin/ScreenConnect.ClientSetup.exe",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "193-26-115-28",
-          "exe",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3904935",
-        "date_added": "2026-08-17 15:11:08",
-        "url": "https://193.26.115.28/bin/support.client.exe",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "193-26-115-28",
-          "connectwise",
-          "exe",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3904934",
-        "date_added": "2026-08-17 15:03:11",
-        "url": "https://94.154.32.8/Bin/ScreenConnect.ClientSetup.exe",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "94-154-32-8",
-          "exe",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3904933",
-        "date_added": "2026-08-17 15:03:10",
-        "url": "https://94.154.32.8/bin/support.client.exe",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "94-154-32-8",
-          "exe",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3904932",
-        "date_added": "2026-08-17 15:01:20",
-        "url": "https://purbalinggamandiri.com/144.exe",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "SnappyClient"
-        ]
-      },
-      {
-        "id": "3904931",
-        "date_added": "2026-08-17 15:01:18",
-        "url": "https://purbalinggamandiri.com/3.exe",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "CoinMiner"
-        ]
-      },
-      {
-        "id": "3904930",
-        "date_added": "2026-08-17 15:01:07",
-        "url": "http://196.251.107.186/zs/zs64.exe",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3904928",
-        "date_added": "2026-08-17 15:01:06",
-        "url": "http://103.77.246.150/get.sh",
+        "id": "3905013",
+        "date_added": "2026-08-17 21:13:05",
+        "url": "http://62.60.226.140/files/8714097194/VicVgdL.exe",
         "url_status": "offline",
         "threat": "malware_download",
         "tags": [
-          "script"
+          "d52f85",
+          "dropped-by-amadey"
         ]
       },
       {
-        "id": "3904929",
-        "date_added": "2026-08-17 15:01:06",
-        "url": "http://196.251.107.186/clp.exe",
+        "id": "3905012",
+        "date_added": "2026-08-17 21:01:21",
+        "url": "http://125.44.52.238:45439/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3905011",
+        "date_added": "2026-08-17 20:59:14",
+        "url": "http://210.208.110.51:48541/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "mirai",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3905010",
+        "date_added": "2026-08-17 20:47:14",
+        "url": "http://115.48.150.119:50908/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3905009",
+        "date_added": "2026-08-17 20:46:07",
+        "url": "http://42.230.218.53:49708/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -453,64 +318,253 @@
         ]
       },
       {
-        "id": "3904926",
-        "date_added": "2026-08-17 15:00:36",
-        "url": "http://176.65.139.194/bachekuni/ohshit.arm6",
+        "id": "3905008",
+        "date_added": "2026-08-17 20:44:23",
+        "url": "http://14.188.143.100:53340/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "176-65-139-194",
-          "DEU",
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3905007",
+        "date_added": "2026-08-17 20:40:13",
+        "url": "http://125.44.52.238:45439/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3905006",
+        "date_added": "2026-08-17 20:37:21",
+        "url": "http://123.189.139.234:49221/bin.sh",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3905005",
+        "date_added": "2026-08-17 20:37:20",
+        "url": "http://210.208.110.51:48541/bin.sh",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3905004",
+        "date_added": "2026-08-17 20:23:23",
+        "url": "http://180.191.122.115:57936/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "mirai",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3905003",
+        "date_added": "2026-08-17 20:20:28",
+        "url": "http://180.191.122.115:57936/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "mirai",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3905002",
+        "date_added": "2026-08-17 20:14:08",
+        "url": "http://192.162.199.149/uploads/cl1786993325592.exe",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "6efb1e0ab361cda1dd534e37e543789c",
+          "dropped-by-remus"
+        ]
+      },
+      {
+        "id": "3905001",
+        "date_added": "2026-08-17 19:26:04",
+        "url": "http://62.60.226.140/files/8722997249/utRRFWX.exe",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "d52f85",
+          "dropped-by-amadey"
+        ]
+      },
+      {
+        "id": "3905000",
+        "date_added": "2026-08-17 19:21:21",
+        "url": "http://124.94.194.151:33197/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3904999",
+        "date_added": "2026-08-17 19:13:16",
+        "url": "http://42.53.241.188:49853/i",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "mirai",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3904998",
+        "date_added": "2026-08-17 18:26:22",
+        "url": "http://42.230.30.16:36416/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3904993",
+        "date_added": "2026-08-17 18:23:26",
+        "url": "http://176.65.139.233/a.sh",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "geofenced",
+          "opendir",
+          "sh",
+          "ua-wget",
+          "USA"
+        ]
+      },
+      {
+        "id": "3904994",
+        "date_added": "2026-08-17 18:23:26",
+        "url": "http://176.65.139.233/daredevil.i486",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
           "elf",
           "geofenced",
           "mirai",
-          "ua-wget"
+          "opendir",
+          "ua-wget",
+          "USA",
+          "x86"
         ]
       }
     ]
   },
   "world_monitor": [
     {
-      "title": "Police execute controlled World War II–era Mine explosion",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/17/police-execute-controlled-world-war-ii-era-mine?traffic_source=rss",
-      "pubDate": "Mon, 17 Aug 2026 15:08:17 +0000",
-      "source": "Al Jazeera",
-      "summary": "Video footage released by police on Sunday shows Slovak bomb disposal experts executing a mine detonation."
+      "title": "Kushner Meets Netanyahu in Israel in Effort to Break Logjam Over Gaza",
+      "link": "https://www.nytimes.com/2026/08/17/world/middleeast/kushner-netanyahu-gaza-peace-deal.html",
+      "pubDate": "Mon, 17 Aug 2026 21:00:42 +0000",
+      "source": "NYT World",
+      "summary": "Prime Minister Benjamin Netanyahu of Israel has refused to pull back the country’s military until Hamas fully disarms. But the Trump administration is under pressure to show progress."
     },
     {
-      "title": "Trump demands Iran ‘put up the white flag of surrender’ as MoU expires",
-      "link": "https://www.aljazeera.com/news/2026/8/17/trump-demands-iran-put-up-the-white-flag-of-surrender-as-mou-expires?traffic_source=rss",
-      "pubDate": "Mon, 17 Aug 2026 15:06:14 +0000",
+      "title": "Palestinian American reunites with family under siege in West Bank",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/17/palestinian-american-reunites-with-family-under-siege-in-west-bank?traffic_source=rss",
+      "pubDate": "Mon, 17 Aug 2026 20:57:19 +0000",
       "source": "Al Jazeera",
-      "summary": "President also claims US is in direct contact with IRGC, denies a rush to end conflict ahead of November's US midterms."
+      "summary": "Videos show the first moments Palestinian-American Loui Ridi arrived at his home in Qusra."
     },
     {
-      "title": "Trump threatens to bomb Oman if it 'gets in the way' over Iran issue",
+      "title": "Civilians paying price as Israeli military raises stakes in Lebanon: UNIFIL",
+      "link": "https://www.aljazeera.com/news/2026/8/17/civilians-pay-price-as-israeli-military-activity-rises-in-lebanon-unifil?traffic_source=rss",
+      "pubDate": "Mon, 17 Aug 2026 20:54:03 +0000",
+      "source": "Al Jazeera",
+      "summary": "UN peacekeeping force recorded an average of 137 projectiles fired daily in the region over the last two weeks."
+    },
+    {
+      "title": "Trump says Iran will not make the deal he believes is necessary",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/17/trump-says-iran-will-not-make-the-deal-he-believes-is-necessary?traffic_source=rss",
+      "pubDate": "Mon, 17 Aug 2026 20:49:30 +0000",
+      "source": "Al Jazeera",
+      "summary": "Trump says Iran will not make the deal he believes is necessary"
+    },
+    {
+      "title": "Trump loses second Supreme Court bid over E Jean Carroll sex abuse case",
+      "link": "https://www.aljazeera.com/news/2026/8/17/trump-loses-second-supreme-court-bid-over-e-jean-carroll-sex-abuse-case?traffic_source=rss",
+      "pubDate": "Mon, 17 Aug 2026 20:46:34 +0000",
+      "source": "Al Jazeera",
+      "summary": "E Jean Carroll secures another legal victory as US Supreme Court refuses Donald Trump’s appeal over 1996 abuse claims."
+    },
+    {
+      "title": "Torrential rains flood homes and roads across Lima, Peru",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/17/torrential-rains-flood-homes-and-roads-across-lima-peru?traffic_source=rss",
+      "pubDate": "Mon, 17 Aug 2026 20:41:39 +0000",
+      "source": "Al Jazeera",
+      "summary": "Heavy rains have flooded oads in Lima, while river overflows, landslides, and road closures continue to affect Peru."
+    },
+    {
+      "title": "How Ukraine’s Satellites Help Drive Its War Drones",
+      "link": "https://www.nytimes.com/2026/08/17/world/europe/from-the-sky-to-the-battlefield.html",
+      "pubDate": "Mon, 17 Aug 2026 20:38:44 +0000",
+      "source": "NYT World",
+      "summary": "Ukrainian drone teams have a powerful new tool: near real-time information on troop movements and locations."
+    },
+    {
+      "title": "Trump threatens to bomb US ally Oman if it 'gets in the way' over Iran deal",
       "link": "https://www.bbc.co.uk/news/articles/cy5dzk0ryzdo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Mon, 17 Aug 2026 14:59:02 GMT",
+      "pubDate": "Mon, 17 Aug 2026 19:25:05 GMT",
       "source": "BBC",
-      "summary": "The president also told Fox News the US had a direct backchannel with the Islamic Revolutionary Guard Corps - something it denies."
+      "summary": "Trump's threat on Oman, which has been holding its own talks with Iran to reopen the Strait of Hormuz, comes as a 60-day window for peace negotiations expires."
     },
     {
-      "title": "Iran signals readiness for ‘US ground operations’ as MoU expires",
-      "link": "https://www.aljazeera.com/news/2026/8/17/iran-signals-readiness-for-us-ground-operations-as-mou-expires?traffic_source=rss",
-      "pubDate": "Mon, 17 Aug 2026 14:15:17 +0000",
-      "source": "Al Jazeera",
-      "summary": "Iran's more offensive posture follows Trump's comment that the US would soon make the Strait of Hormuz its territory."
+      "title": "Mushroom murderer Erin Patterson is appealing - here's what you need to know",
+      "link": "https://www.bbc.co.uk/news/articles/cj9dx03jrgjo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Mon, 17 Aug 2026 18:03:23 GMT",
+      "source": "BBC",
+      "summary": "The Australian, who notoriously poisoned her family members, is trying to overturn her conviction."
     },
     {
-      "title": "Boat sets sail from Bristol, aiming to break Israel’s siege of Gaza",
-      "link": "https://www.aljazeera.com/news/2026/8/17/boat-sets-sail-from-bristol-aiming-to-break-israels-siege-of-gaza?traffic_source=rss",
-      "pubDate": "Mon, 17 Aug 2026 14:12:08 +0000",
-      "source": "Al Jazeera",
-      "summary": "Twelve people including the captain are on board 'Kate', the latest vessel attempting to deliver aid."
+      "title": "French PM heckled over wildfire response as blazes continue across Europe",
+      "link": "https://www.bbc.co.uk/news/articles/cx2rzx5g5yro?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Mon, 17 Aug 2026 18:00:55 GMT",
+      "source": "BBC",
+      "summary": "The prime minister announced on Monday €12m worth of aid to French regions that had been worst affected by the fires."
     },
     {
-      "title": "Lula and Bolsonaro’s son launch rival bids for Brazil presidency",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/17/lula-and-bolsonaros-son-launch-rival-bids-for-brazil-presidency?traffic_source=rss",
-      "pubDate": "Mon, 17 Aug 2026 14:03:26 +0000",
-      "source": "Al Jazeera",
-      "summary": "Brazil’s presidential race is officially underway."
+      "title": "Russia's prominent anti-war politician jailed for 11 years",
+      "link": "https://www.bbc.co.uk/news/articles/cj4kjnle2neo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Mon, 17 Aug 2026 16:17:34 GMT",
+      "source": "BBC",
+      "summary": "Lev Schlosberg is found guilty of \"discrediting\" Russia's army - a verdict he condemns as punishment for his political position."
     },
     {
       "title": "A Democratic Socialist Aims to Oust a Top AIPAC Beneficiary in Florida",
@@ -520,32 +574,11 @@
       "summary": "Oliver Larkin is trying to unseat Rep. Jared Moskowitz, who is backed by AIPAC donors and an artificial intelligence super PAC.\nThe post A Democratic Socialist Aims to Oust a Top AIPAC Beneficiary in Florida appeared first on The Intercept."
     },
     {
-      "title": "How Ukraine’s Satellites Help Drive Its War Drones",
-      "link": "https://www.nytimes.com/2026/08/17/world/europe/from-the-sky-to-the-battlefield.html",
-      "pubDate": "Mon, 17 Aug 2026 13:32:38 +0000",
-      "source": "NYT World",
-      "summary": "Ukrainian drone teams have a powerful new tool: near real-time information on troop movements and locations."
-    },
-    {
-      "title": "Kushner Meets Netanyahu in Israel in Effort to Break Logjam Over Gaza",
-      "link": "https://www.nytimes.com/2026/08/17/world/middleeast/kushner-netanyahu-gaza-peace-deal.html",
-      "pubDate": "Mon, 17 Aug 2026 13:31:46 +0000",
-      "source": "NYT World",
-      "summary": "Prime Minister Benjamin Netanyahu of Israel has refused to pull back the country’s military until Hamas fully disarms. But the Trump administration is under pressure to show progress."
-    },
-    {
       "title": "Russia and Ukraine trade more deadly strikes",
       "link": "https://www.bbc.co.uk/news/articles/cn7n4lm11vro?at_medium=RSS&at_campaign=rss",
       "pubDate": "Mon, 17 Aug 2026 13:16:50 GMT",
       "source": "BBC",
       "summary": "Moscow says nine people have been killed in the past 24 hours, while Kyiv reports four deaths."
-    },
-    {
-      "title": "US hiker dies after being struck by lightning on Mount Etna",
-      "link": "https://www.bbc.co.uk/news/articles/ce34rlkw6q7o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Mon, 17 Aug 2026 12:23:26 GMT",
-      "source": "BBC",
-      "summary": "The 30-year-old was on the active volcano when a thunderstorm developed, local media report."
     },
     {
       "title": "China Wants Its Data to Power the World’s A.I.",
@@ -557,16 +590,9 @@
     {
       "title": "Trump’s Overture to North Korea Strains Alliance With the South",
       "link": "https://www.nytimes.com/2026/08/17/world/asia/trump-korea-military-kim-jong-un.html",
-      "pubDate": "Mon, 17 Aug 2026 10:57:47 +0000",
+      "pubDate": "Mon, 17 Aug 2026 10:57:48 +0000",
       "source": "NYT World",
       "summary": "President Trump wants to curtail military exercises with South Korea, saying they were hostile to North Korea. But under Mr. Kim, the North has become increasingly belligerent toward the South."
-    },
-    {
-      "title": "Aid shortages and fears of starvation as Indonesia reels from deadly earthquake",
-      "link": "https://www.bbc.co.uk/news/articles/crl7686r71yo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Mon, 17 Aug 2026 10:39:24 GMT",
-      "source": "BBC",
-      "summary": "Some 53 people were killed and thousands displaced by the earthquake, which struck early on Saturday."
     },
     {
       "title": "Iran’s Supreme Leader Signals Intention to Keep Country on a War Footing",
@@ -574,13 +600,6 @@
       "pubDate": "Mon, 17 Aug 2026 09:42:00 +0000",
       "source": "NYT World",
       "summary": "Ayatollah Mojtaba Khamenei’s appointment of hard-line loyalists to top jobs suggests he is prepared to keep the country on a war footing and to quash domestic dissent."
-    },
-    {
-      "title": "Trump says US to reduce military drills with South Korea after it stayed out of Iran war",
-      "link": "https://www.bbc.co.uk/news/articles/cx2lll7zvn0o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Mon, 17 Aug 2026 06:24:31 GMT",
-      "source": "BBC",
-      "summary": "Trump cites his \"very good relationship\" with North Korea's leader in deciding to downsize the exercises."
     },
     {
       "title": "ICE Shot a Journalist and Threw Him in Detention. He’s Approaching 300 Days Behind Bars With a Festering Wound.",
@@ -713,6 +732,54 @@
   ],
   "syndicate_journal": [
     {
+      "title": "These Mammoth Ivory Carvings May Be the “Find of the Year”",
+      "link": "https://nautil.us/these-mammoth-ivory-carvings-may-be-the-find-of-the-year-1283903/",
+      "summary": "They’re 40,000 years old and about the size of your thumbnail\nThe post These Mammoth Ivory Carvings May Be the “Find of the Year” appeared first on Nautilus.",
+      "pubDate": "Mon, 17 Aug 2026 20:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "Our Ancient Ancestors in the Middle East Loved Dining on Lizards and Snakes",
+      "link": "https://nautil.us/our-ancient-ancestors-in-the-middle-east-loved-dining-on-lizards-and-snakes-1283857/",
+      "summary": "Reptiles made up a big portion of their diet\nThe post Our Ancient Ancestors in the Middle East Loved Dining on Lizards and Snakes appeared first on Nautilus.",
+      "pubDate": "Mon, 17 Aug 2026 19:01:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "Donald Trump’s Coalition Is Coming Apart",
+      "link": "",
+      "summary": "Republicans heralded Donald Trump’s 2024 victory as the birth of a new majority: a multiracial, working-class coalition powered by newfound support among black and Latino voters, particularly men, who had finally abandoned the Democrats over inflation, the cost of living, and immigration. While that",
+      "pubDate": "2026-08-17T18:33:59.857Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "Massive Prehistoric Crocodylians Took a Brutal Approach to Hunting",
+      "link": "https://nautil.us/massive-prehistoric-crocodylians-took-a-brutal-approach-to-hunting-1283897/",
+      "summary": "You wouldn’t want to see these eyes peering out of the swamp\nThe post Massive Prehistoric Crocodylians Took a Brutal Approach to Hunting appeared first on Nautilus.",
+      "pubDate": "Mon, 17 Aug 2026 18:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "The Trump Administration Has Been Spying on Labor Unions",
+      "link": "",
+      "summary": "Last week,  of a sweeping undercover investigation by the Department of Homeland Security (DHS) in Minnesota early this year to infiltrate and surveil meetings and obtain the financial records of nonprofit groups and two of the country’s largest unions, the Communications Workers of America (CWA) an",
+      "pubDate": "2026-08-17T17:43:32.635Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "Capitalism Is Killing Summer",
+      "link": "",
+      "summary": "It’s a “Hot Socialist Summer,”  the New York City Democratic Socialists of America Instagram. Indeed, it has been a summer of socialist victories, with more socialists winning electoral office in June than ever, including  and , who are headed to Congress; and the socialist New York City Mayor Zohra",
+      "pubDate": "2026-08-17T16:37:54.560Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
       "title": "\"See me after class\"?",
       "link": "https://languagelog.ldc.upenn.edu/nll/?p=74030&utm_source=rss&utm_medium=rss&utm_campaign=see-me-after-class",
       "summary": "Prescriptivist peeving has faded from public discourse, but UK politics recently brought us a blast from the past: @Conservatives red-penciled two incomplete sentences (\"(I am) Absolutely thrilled…\" and \"(There is) lots to do…), which is a bit hypocritical since it's trivial to find similar things i",
@@ -729,44 +796,12 @@
       "source": "Quanta"
     },
     {
-      "title": "Kate Bronfenbrenner, the Union Organizer’s Scholar",
-      "link": "",
-      "summary": "Kate Bronfenbrenner started by asking union organizers to walk her through their campaigns, from beginning to end.\nBronfenbrenner, who retired this year from Cornell University’s School of Industrial and Labor Relations (ILR) after more than twenty-five years teaching and researching there, has spen",
-      "pubDate": "2026-08-17T15:10:30.668Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
-      "title": "How Coffee Affects Your Sex Hormone Levels",
-      "link": "https://nautil.us/how-coffee-affects-your-sex-hormone-levels-1283854/",
-      "summary": "And I’ve just been drinking it for the caffeine\nThe post How Coffee Affects Your Sex Hormone Levels appeared first on Nautilus.",
-      "pubDate": "Mon, 17 Aug 2026 14:17:48 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
-      "title": "German Christian Democrats Are Paralyzed by a Far-Right Surge",
-      "link": "",
-      "summary": "Next month, three state elections will test whether Germany’s postwar consensus against governing with the far right will survive. On September 6, roughly two million voters in Saxony-Anhalt go to the polls; two weeks later, on September 20, they’ll be followed by voters in Mecklenburg-Western Pomer",
-      "pubDate": "2026-08-17T13:33:40.227Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
       "title": "Ancient Rome: A City of Immigrants",
       "link": "https://daily.jstor.org/ancient-rome-a-city-of-immigrants/",
       "summary": "A neighborhood beyond the Tiber became home to generations of Jewish and Syrian migrants who reshaped the imperial capital.\nThe post Ancient Rome: A City of Immigrants appeared first on JSTOR Daily.",
       "pubDate": "Mon, 17 Aug 2026 13:29:58 +0000",
       "domain": "history",
       "source": "JSTOR Daily"
-    },
-    {
-      "title": "A Peek Inside the Black Box of Epigenetic Clocks",
-      "link": "https://nautil.us/a-peek-inside-the-black-box-of-epigenetic-clocks-1283841/",
-      "summary": "What are they really measuring?\nThe post A Peek Inside the Black Box of Epigenetic Clocks appeared first on Nautilus.",
-      "pubDate": "Mon, 17 Aug 2026 12:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
     },
     {
       "title": "The World Famous Gopher Hole Museum",
@@ -807,22 +842,6 @@
       "pubDate": "Mon, 17 Aug 2026 00:00:00 -0400",
       "domain": "science",
       "source": "arXiv: cs.AI"
-    },
-    {
-      "title": "Female Treefrogs Get Overwhelmed by Too Many Noisy Male Suitors",
-      "link": "https://nautil.us/female-treefrogs-get-overwhelmed-by-too-many-noisy-male-suitors-1283821/",
-      "summary": "Take it easy on the croaking, boys\nThe post Female Treefrogs Get Overwhelmed by Too Many Noisy Male Suitors appeared first on Nautilus.",
-      "pubDate": "Sun, 16 Aug 2026 13:30:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
-      "title": "The Legal Paths to Hoarding Political and Economic Power",
-      "link": "",
-      "summary": "It’s a moment for both hope and hesitation: recent victories in Michigan, Colorado, Minnesota, and New York suggest gathering political momentum on the left. Yet a defeat in Wisconsin and a judge’s temporary  of New York City’s pied-à-terre tax offer reminders that every movement for social progress",
-      "pubDate": "2026-08-16T12:30:00.174Z",
-      "domain": "politics",
-      "source": "Jacobin"
     },
     {
       "title": "AI and bureaucratic productivity",
@@ -977,25 +996,25 @@
       "source": "ROAR Magazine"
     },
     {
-      "title": "Perceived commuting stress, residential nighttime light, and mental health: an environmental stress perspective",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1817776",
-      "summary": "Daily environmental stressors embedded in urban life may influence mental health not only through direct exposure but also through the ways individuals perceive and respond to these demands. Among these stressors, commuting represents a recurrent daily burden whose psychological impacts may vary acc",
+      "title": "The relationship between motor skills and social development in 6–12 years old typically developing children: a systematic review",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1845725",
+      "summary": "BackgroundMotor skill development plays a pivotal role in children’s holistic development, including both physical fitness and social competence. This systematic review examined the specific relationships between motor skill components (gross and fine motor skills) and three core domains of social d",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "Assessing multidimensional student engagement in studio-based design learning: a traceable multimodal framework for teacher-led inquiry",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1903940",
-      "summary": "IntroductionStudent engagement is a central construct in educational psychology, but it is difficult to assess in studio-based design learning because participation, emotion, cognitive effort, self-regulation, and design-process activity are distributed across classroom interaction, learning records",
+      "title": "Assessing health, wellbeing, and working life impacts of a 4-day week: a multimodal protocol",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1894642",
+      "summary": "Long working hours can negatively affect workers' health, wellbeing, and work performance. Previous trials reducing working time have found improvements in multiple aspects of wellbeing, including sleep, job satisfaction, and reduced burnout, while maintaining performance. However, the potential psy",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "Domain-specific and generalised motivational pathways to STEM degree attainment: a 10-year longitudinal mediation analysis",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1898011",
-      "summary": "Understanding how adolescent motivational beliefs relate to long-term STEM degree attainment is a central question in educational psychology. Drawing on expectancy-value theory, this study examined whether math self-efficacy (a domain-specific belief) and academic utility value (a generalised belief",
+      "title": "The mental internal friction scale (MIFS): development and psychometric validation of a culturally informed tripartite measure for Chinese university students",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1878188",
+      "summary": "IntroductionIn the context of intense academic and employment competition, Chinese university students frequently experience a culturally specific psychological state termed “mental internal friction,” characterized by overthinking, emotional exhaustion, and behavioral paralysis. However, existing p",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
@@ -1003,64 +1022,64 @@
   ],
   "misinfo_toilet": [
     {
-      "headline": "US hiker dies after being struck by lightning on Mount Etna",
-      "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "splice": "US hiker dies after being struck by lightning on Mount Etna consequently it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "seed": 20260832
-    },
-    {
-      "headline": "Iran’s Supreme Leader Signals Intention to Keep Country on a War Footing",
-      "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "splice": "Iran’s Supreme Leader Signals Intention to Keep Country on a War Footing not unlike it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "seed": 20260833
-    },
-    {
-      "headline": "Will Ronaldo Cry​? World Cup Fans Bet Billions Through Prediction Markets",
-      "fragment": "It is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
-      "splice": "Will Ronaldo Cry​? World Cup Fans Bet Billions Through Prediction Markets despite it is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
-      "seed": 20260834
-    },
-    {
-      "headline": "Kushner Meets Netanyahu in Israel in Effort to Break Logjam Over Gaza",
-      "fragment": "The privatization of the organs will only begin with the shame felt by man at the sight of man.",
-      "splice": "Kushner Meets Netanyahu in Israel in Effort to Break Logjam Over Gaza therefore the privatization of the organs will only begin with the shame felt by man at the sight of man.",
-      "seed": 20260835
-    },
-    {
-      "headline": "Police execute controlled World War II–era Mine explosion",
-      "fragment": "Traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "splice": "Police execute controlled World War II–era Mine explosion ...as traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "seed": 20260836
-    },
-    {
-      "headline": "Iran signals readiness for ‘US ground operations’ as MoU expires",
-      "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
-      "splice": "Iran signals readiness for ‘US ground operations’ as MoU expires insofar as the revolutionary lives in the gap which separates technical progress from social totality.",
-      "seed": 20260837
-    },
-    {
-      "headline": "Welcome to Dubai: Kinahan Cartel’s Visas Revealed",
-      "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
-      "splice": "Welcome to Dubai: Kinahan Cartel’s Visas Revealed which is to say the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "headline": "A Democratic Socialist Aims to Oust a Top AIPAC Beneficiary in Florida",
+      "fragment": "Pretending, or dissimulating, leaves the principle of reality intact: the difference is always clear, it is simply masked.",
+      "splice": "A Democratic Socialist Aims to Oust a Top AIPAC Beneficiary in Florida insofar as pretending, or dissimulating, leaves the principle of reality intact: the difference is always clear, it is simply masked.",
       "seed": 20260838
     },
     {
-      "headline": "Trump demands Iran ‘put up the white flag of surrender’ as MoU expires",
-      "fragment": "The truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
-      "splice": "Trump demands Iran ‘put up the white flag of surrender’ as MoU expires underneath the truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
+      "headline": "Mushroom murderer Erin Patterson is appealing - here's what you need to know",
+      "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
+      "splice": "Mushroom murderer Erin Patterson is appealing - here's what you need to know underneath the revolutionary lives in the gap which separates technical progress from social totality.",
       "seed": 20260839
     },
     {
-      "headline": "ICE Shot a Journalist and Threw Him in Detention. He’s Approaching 300 Days Behind Bars With a Festering Wound.",
-      "fragment": "Art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
-      "splice": "ICE Shot a Journalist and Threw Him in Detention. He’s Approaching 300 Days Behind Bars With a Festering Wound. as if art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
+      "headline": "Cornell to Pro-Palestine Students Targeted by ICE: Come Back to the U.S. or Lose Funding",
+      "fragment": "Antagonism is not now located externally, in the face-off between class blocs, but internally, in the psychology of the worker.",
+      "splice": "Cornell to Pro-Palestine Students Targeted by ICE: Come Back to the U.S. or Lose Funding within which antagonism is not now located externally, in the face-off between class blocs, but internally, in the psychology of the worker.",
       "seed": 20260840
     },
     {
-      "headline": "China Wants Its Data to Power the World’s A.I.",
-      "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "splice": "China Wants Its Data to Power the World’s A.I. consequently the breast is a machine that produces milk, and the mouth a machine coupled to it.",
+      "headline": "Secret ICE Agent Tried to “Entice” Minneapolis Activists Into Confrontational Tactics",
+      "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "splice": "Secret ICE Agent Tried to “Entice” Minneapolis Activists Into Confrontational Tactics the system notes that the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
       "seed": 20260841
+    },
+    {
+      "headline": "How Ukraine’s Satellites Help Drive Its War Drones",
+      "fragment": "Underneath all reason lies delirium and drift.",
+      "splice": "How Ukraine’s Satellites Help Drive Its War Drones consequently underneath all reason lies delirium and drift.",
+      "seed": 20260842
+    },
+    {
+      "headline": "Has the Left Really Met Its Limit? ",
+      "fragment": "Everywhere it is machines—real ones, not figurative ones: machines driving other machines, machines being driven by other machines, with all the necessary couplings and connections.",
+      "splice": "Has the Left Really Met Its Limit?  as if everywhere it is machines—real ones, not figurative ones: machines driving other machines, machines being driven by other machines, with all the necessary couplings and connections.",
+      "seed": 20260843
+    },
+    {
+      "headline": "Iran’s Supreme Leader Signals Intention to Keep Country on a War Footing",
+      "fragment": "Simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
+      "splice": "Iran’s Supreme Leader Signals Intention to Keep Country on a War Footing underneath simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
+      "seed": 20260844
+    },
+    {
+      "headline": "Russia and Ukraine trade more deadly strikes",
+      "fragment": "If it is true, for instance, that depression is caused by low serotonin levels, it would still be necessary to explain why particular individuals have low serotonin levels.",
+      "splice": "Russia and Ukraine trade more deadly strikes meanwhile if it is true, for instance, that depression is caused by low serotonin levels, it would still be necessary to explain why particular individuals have low serotonin levels.",
+      "seed": 20260845
+    },
+    {
+      "headline": "Palestinian American reunites with family under siege in West Bank",
+      "fragment": "The privatization of the organs will only begin with the shame felt by man at the sight of man.",
+      "splice": "Palestinian American reunites with family under siege in West Bank the system notes that the privatization of the organs will only begin with the shame felt by man at the sight of man.",
+      "seed": 20260846
+    },
+    {
+      "headline": "ICE Shot a Journalist and Threw Him in Detention. He’s Approaching 300 Days Behind Bars With a Festering Wound.",
+      "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
+      "splice": "ICE Shot a Journalist and Threw Him in Detention. He’s Approaching 300 Days Behind Bars With a Festering Wound. consequently the revolutionary lives in the gap which separates technical progress from social totality.",
+      "seed": 20260847
     }
   ]
 }
