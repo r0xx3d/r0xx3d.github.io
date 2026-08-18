@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T09:35:57.225Z",
+  "generated_at": "2026-08-18T12:51:24.101Z",
   "threat_intel": {
     "cisa_kev": [
       {
@@ -231,9 +231,9 @@
     ],
     "urlhaus": [
       {
-        "id": "3905169",
-        "date_added": "2026-08-18 09:23:25",
-        "url": "http://182.117.68.49:47422/i",
+        "id": "3905350",
+        "date_added": "2026-08-18 12:43:20",
+        "url": "http://83.228.109.209:34880/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -244,229 +244,317 @@
         ]
       },
       {
-        "id": "3905168",
-        "date_added": "2026-08-18 09:19:26",
-        "url": "http://42.232.225.154:44359/i",
+        "id": "3905349",
+        "date_added": "2026-08-18 12:42:13",
+        "url": "http://31.77.227.102/d/mini.mpsl",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "32-bit",
           "elf",
           "mips",
-          "Mozi"
+          "opendir",
+          "ua-wget"
         ]
       },
       {
-        "id": "3905167",
-        "date_added": "2026-08-18 09:16:10",
-        "url": "https://qorvi.pro/fdab9755.exe",
+        "id": "3905348",
+        "date_added": "2026-08-18 12:41:41",
+        "url": "http://31.77.227.102/d/xd.arm4",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "ClickFix"
-        ]
-      },
-      {
-        "id": "3905165",
-        "date_added": "2026-08-18 09:16:06",
-        "url": "http://103.77.246.150/mips.sh",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "ascii"
-        ]
-      },
-      {
-        "id": "3905166",
-        "date_added": "2026-08-18 09:16:06",
-        "url": "https://quill-flint.com/curl/2h0w4vtm7c/7b4cckfhojxjbrcjon.json",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          " amos",
-          " infostealer",
-          "ClickFix",
-          "macOS"
-        ]
-      },
-      {
-        "id": "3905164",
-        "date_added": "2026-08-18 09:02:06",
-        "url": "http://118.34.109.121:38226/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3905163",
-        "date_added": "2026-08-18 08:52:21",
-        "url": "http://42.232.225.154:44359/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3905162",
-        "date_added": "2026-08-18 08:52:08",
-        "url": "http://219.155.104.55:50766/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3905161",
-        "date_added": "2026-08-18 08:36:08",
-        "url": "http://219.155.104.55:50766/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3905160",
-        "date_added": "2026-08-18 08:32:08",
-        "url": "http://118.34.109.121:38226/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3905159",
-        "date_added": "2026-08-18 08:14:22",
-        "url": "http://115.55.219.43:42748/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3905158",
-        "date_added": "2026-08-18 08:04:21",
-        "url": "http://219.155.195.226:55894/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3905157",
-        "date_added": "2026-08-18 07:49:18",
-        "url": "http://37.54.31.40:58523/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3905156",
-        "date_added": "2026-08-18 07:43:29",
-        "url": "http://37.54.31.40:58523/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3905155",
-        "date_added": "2026-08-18 07:42:07",
-        "url": "http://123.11.69.200:37705/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3905154",
-        "date_added": "2026-08-18 07:42:06",
-        "url": "http://200.115.102.246:58251/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "mirai"
-        ]
-      },
-      {
-        "id": "3905153",
-        "date_added": "2026-08-18 07:32:08",
-        "url": "http://109.171.67.100:40657/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3905152",
-        "date_added": "2026-08-18 07:27:07",
-        "url": "http://123.129.132.69:54242/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3905151",
-        "date_added": "2026-08-18 07:22:06",
-        "url": "http://200.115.102.246:58251/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "mirai"
-        ]
-      },
-      {
-        "id": "3905150",
-        "date_added": "2026-08-18 07:17:14",
-        "url": "http://196.189.98.77:59901/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
           "arm",
           "elf",
-          "mirai",
-          "Mozi"
+          "opendir",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3905347",
+        "date_added": "2026-08-18 12:41:33",
+        "url": "http://31.77.227.102/d/xd.arm64",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "arm",
+          "elf",
+          "opendir",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3905336",
+        "date_added": "2026-08-18 12:41:30",
+        "url": "http://31.77.227.102/d/xd.mips",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "mips",
+          "opendir",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3905337",
+        "date_added": "2026-08-18 12:41:30",
+        "url": "http://31.77.227.102/d/xd.ppc",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "opendir",
+          "PowerPC",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3905338",
+        "date_added": "2026-08-18 12:41:30",
+        "url": "http://31.77.227.102/mpsl",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "mips",
+          "opendir",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3905339",
+        "date_added": "2026-08-18 12:41:30",
+        "url": "http://31.77.227.102/d/xd.ppc440fp",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "opendir",
+          "PowerPC",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3905340",
+        "date_added": "2026-08-18 12:41:30",
+        "url": "http://31.77.227.102/d/xd.mipsel",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "mips",
+          "opendir",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3905341",
+        "date_added": "2026-08-18 12:41:30",
+        "url": "http://31.77.227.102/mips",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "mips",
+          "opendir",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3905342",
+        "date_added": "2026-08-18 12:41:30",
+        "url": "http://31.77.227.102/arm64",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "arm",
+          "elf",
+          "opendir",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3905343",
+        "date_added": "2026-08-18 12:41:30",
+        "url": "http://31.77.227.102/d/xd.mips64",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "mips",
+          "opendir",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3905344",
+        "date_added": "2026-08-18 12:41:30",
+        "url": "http://31.77.227.102/d/xd.mpsl",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "mips",
+          "opendir",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3905345",
+        "date_added": "2026-08-18 12:41:30",
+        "url": "http://31.77.227.102/d/xd.powerpc",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "opendir",
+          "PowerPC",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3905346",
+        "date_added": "2026-08-18 12:41:30",
+        "url": "http://31.77.227.102/d/xd.aarch64",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "arm",
+          "elf",
+          "opendir",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3905311",
+        "date_added": "2026-08-18 12:41:29",
+        "url": "http://31.77.227.102/arm",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "arm",
+          "elf",
+          "opendir",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3905312",
+        "date_added": "2026-08-18 12:41:29",
+        "url": "http://31.77.227.102/d/xd.arm4n",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "arm",
+          "elf",
+          "opendir",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3905313",
+        "date_added": "2026-08-18 12:41:29",
+        "url": "http://31.77.227.102/d/xd.armv7l",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "arm",
+          "elf",
+          "opendir",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3905314",
+        "date_added": "2026-08-18 12:41:29",
+        "url": "http://31.77.227.102/d/xd.armv6l",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "arm",
+          "elf",
+          "opendir",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3905315",
+        "date_added": "2026-08-18 12:41:29",
+        "url": "http://31.77.227.102/d/mini.arm5",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "arm",
+          "elf",
+          "opendir",
+          "ua-wget"
         ]
       }
     ]
   },
   "world_monitor": [
     {
-      "title": "Russia warns UK will pay for supplying drones to Ukraine",
+      "title": "Bashar al-Assad’s cousin Wassim sentenced to death in Syria",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/18/bashar-al-assads-cousin-wassim-sentenced-to-death-in-syria?traffic_source=rss",
+      "pubDate": "Tue, 18 Aug 2026 12:41:33 +0000",
+      "source": "Al Jazeera",
+      "summary": "A Syrian court has sentenced Wassim al-Assad, cousin of Bashar al-Assad, to death for murder, torture and war crimes."
+    },
+    {
+      "title": "Qatar rejects Iran’s ‘false’ claims about missing pilots",
+      "link": "https://www.aljazeera.com/news/2026/8/18/qatar-rejects-irans-false-claims-about-missing-pilots?traffic_source=rss",
+      "pubDate": "Tue, 18 Aug 2026 12:39:43 +0000",
+      "source": "Al Jazeera",
+      "summary": "Majed al-Ansari says the Iranian planes 'violated Qatar’s sovereignty' and were dealt with in accordance with the law."
+    },
+    {
+      "title": "UK 'supports Ukraine 100%', Burnham says, after Russia's drone warning",
       "link": "https://www.bbc.co.uk/news/articles/cy5dz0kkn0wo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Tue, 18 Aug 2026 09:33:49 GMT",
+      "pubDate": "Tue, 18 Aug 2026 12:36:11 GMT",
       "source": "BBC",
-      "summary": "Russia accuses the UK after British-made drones were used in Ukrainian strikes, but the MoD says it stands against Russian aggression."
+      "summary": "Russia accuses the UK of escalating the Ukraine war by supplying British-made drones as the prime minister vows to support Kyiv in its \"hour of need\"."
+    },
+    {
+      "title": "Myanmar: The Architecture of Statelessness",
+      "link": "https://www.aljazeera.com/video/aljazeerauntangles/2026/8/18/myanmar-the-architecture-of-statelessness?traffic_source=rss",
+      "pubDate": "Tue, 18 Aug 2026 12:25:40 +0000",
+      "source": "Al Jazeera",
+      "summary": "How Myanmar stripped the Rohingya of citizenship, leading to mass expulsions and a genocide case at the ICJ."
+    },
+    {
+      "title": "Russia protests Japan PM’s comments after Putin’s Kuril visit",
+      "link": "https://www.aljazeera.com/news/2026/8/18/russia-protests-japan-pms-comments-after-putins-kuril-visit?traffic_source=rss",
+      "pubDate": "Tue, 18 Aug 2026 11:39:34 +0000",
+      "source": "Al Jazeera",
+      "summary": "Russia summons Japan's ambassador to Moscow over Prime Minister Sanae ⁠Takaichi's 'anti-Russian' remarks."
+    },
+    {
+      "title": "Why has Trump threatened to bomb Oman – for a second time?",
+      "link": "https://www.aljazeera.com/news/2026/8/18/why-has-trump-threatened-to-bomb-oman-for-a-second-time?traffic_source=rss",
+      "pubDate": "Tue, 18 Aug 2026 11:33:15 +0000",
+      "source": "Al Jazeera",
+      "summary": "The US president threatened to bomb Oman over Hormuz, with US-Iran peace negotiations in a deadlock."
+    },
+    {
+      "title": "Six Years in Provence: An Ancient Castle and a Feud Over a Troublesome Bridge",
+      "link": "https://www.nytimes.com/2026/08/18/world/europe/provence-chateau-village-feud.html",
+      "pubDate": "Tue, 18 Aug 2026 10:14:17 +0000",
+      "source": "NYT World",
+      "summary": "In a picturesque village, the mayor closed a road, setting off a storm with residents and the owners of a castle that once belonged to his family."
+    },
+    {
+      "title": "The Short Life of a Newborn During the Iran War",
+      "link": "https://theintercept.com/2026/08/18/iran-war-civilian-deaths-families-infant/",
+      "pubDate": "Tue, 18 Aug 2026 10:00:00 +0000",
+      "source": "The Intercept",
+      "summary": "“What crime had my 20-day-old grandchild committed?”\nThe post The Short Life of a Newborn During the Iran War appeared first on The Intercept."
+    },
+    {
+      "title": "How Israel’s Financial Chokehold Is Stifling the West Bank Economy",
+      "link": "https://www.nytimes.com/2026/08/18/world/middleeast/west-bank-economy.html",
+      "pubDate": "Tue, 18 Aug 2026 09:55:58 +0000",
+      "source": "NYT World",
+      "summary": "Intensifying restrictions have hit every part of the territory’s dealings, spurring worries about whether the Palestinian Authority can remain solvent."
     },
     {
       "title": "Chocó, Colombia, Faces Deeper Hardship After an Earthquake",
@@ -476,25 +564,11 @@
       "summary": "In Chocó, a remote region, “pain, hunger and homelessness await” survivors of last week’s earthquake, the governor said. Shakira visited to help draw awareness."
     },
     {
-      "title": "Pakistan top court orders Imran Khan’s hospital transfer amid access battle",
-      "link": "https://www.aljazeera.com/news/2026/8/18/pakistan-top-court-orders-imran-khans-hospital-transfer-amid-access-battle?traffic_source=rss",
-      "pubDate": "Tue, 18 Aug 2026 09:15:03 +0000",
-      "source": "Al Jazeera",
-      "summary": "Supreme Court grants jailed ex-PM Imran Khan transfer to hospital for a month after concerns raised over blood pressure."
-    },
-    {
       "title": "At Ex-Premier Zhu Rongji’s Funeral, China’s Past Shadows Its Present",
       "link": "https://www.nytimes.com/2026/08/18/world/asia/zhu-rongji-funeral-china.html",
       "pubDate": "Tue, 18 Aug 2026 09:11:52 +0000",
       "source": "NYT World",
       "summary": "Beijing wants to portray today’s China as carrying forward Zhu Rongji’s era of growth, but for many Chinese, the optimism of that time has since faded."
-    },
-    {
-      "title": "Six Years in Provence: An Ancient Castle and a Feud Over a Troublesome Bridge",
-      "link": "https://www.nytimes.com/2026/08/18/world/europe/provence-chateau-village-feud.html",
-      "pubDate": "Tue, 18 Aug 2026 09:02:07 +0000",
-      "source": "NYT World",
-      "summary": "In a picturesque village, the mayor closed a road, setting off a storm with residents and the owners of a castle that once belonged to his family."
     },
     {
       "title": "A Mother’s Quest to Rescue Her Son From Russian-Occupied Ukraine",
@@ -511,32 +585,11 @@
       "summary": "Internal emails indicate immigration agents complied with an Iranian request to hand over specific nationals — and accidentally sent the wrong person to Iran.\nThe post ICE Worked With Iranian Regime to Set Up Deportation Flights as Trump Laid Plans f"
     },
     {
-      "title": "Cincinnati Open: Williams sisters fall in doubles while Zverev advances",
-      "link": "https://www.aljazeera.com/sports/2026/8/18/cincinnati-open-williams-sisters-fall-in-doubles-while-zverev-advances?traffic_source=rss",
-      "pubDate": "Tue, 18 Aug 2026 08:56:14 +0000",
-      "source": "Al Jazeera",
-      "summary": "Alexander Zverev survives third-round scare versus Terrance Atmane while Venus, Serena Williams lose in doubles return."
-    },
-    {
-      "title": "Trump lashes out at CNN reporter over South Korea question",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/18/trump-lashes-out-at-cnn-reporter-over-south-korea-question?traffic_source=rss",
-      "pubDate": "Tue, 18 Aug 2026 08:33:46 +0000",
-      "source": "Al Jazeera",
-      "summary": "Trump lashes out at CNN reporter over South Korea question"
-    },
-    {
-      "title": "Syrian court sentences Wassim al-Assad to death",
-      "link": "https://www.aljazeera.com/news/2026/8/18/syrian-court-sentences-wassim-al-assad-to?traffic_source=rss",
-      "pubDate": "Tue, 18 Aug 2026 08:23:59 +0000",
-      "source": "Al Jazeera",
-      "summary": "Cousin of Bashar al-Assad and former regime figure found guilty of crimes including premeditated murder and torture"
-    },
-    {
-      "title": "Chinese company unveils new ‘Superman’ humanoid robot",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/18/chinese-company-unveils-new-superman-humanoid-robot?traffic_source=rss",
-      "pubDate": "Tue, 18 Aug 2026 08:10:36 +0000",
-      "source": "Al Jazeera",
-      "summary": "Chinese company unveils new ‘Superman’ humanoid robot"
+      "title": "Hayden Panettiere's ex Wladimir Klitschko says family in 'profound shock and grief'",
+      "link": "https://www.bbc.co.uk/news/articles/c5ywe951z80o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Tue, 18 Aug 2026 08:44:10 GMT",
+      "source": "BBC",
+      "summary": "The former heavyweight boxing champion shares a child with the Heroes actress, who died on Sunday."
     },
     {
       "title": "IVF staff accused of misleading UK parents about sperm and egg donors in northern Cyprus",
@@ -544,13 +597,6 @@
       "pubDate": "Tue, 18 Aug 2026 08:07:37 GMT",
       "source": "BBC",
       "summary": "Multiple children are feared to have been conceived using sperm and egg donors which were not the ones selected by the parents."
-    },
-    {
-      "title": "China censors public mourning as it holds former premier's funeral",
-      "link": "https://www.bbc.co.uk/news/articles/c8dn3rqlyrgo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Tue, 18 Aug 2026 07:17:07 GMT",
-      "source": "BBC",
-      "summary": "While hailing Zhu’s legacy, authorities are wary that the nostalgia could lead to criticisms of Xi’s rule."
     },
     {
       "title": "Tupac murder trial: 'All hell broke loose' night of rapper's shooting, witness says",
@@ -565,13 +611,6 @@
       "pubDate": "Tue, 18 Aug 2026 05:02:58 GMT",
       "source": "BBC",
       "summary": "German authorities seize dinghies and life jackets during their first raids under a new law that cracks down on smuggling."
-    },
-    {
-      "title": "It’s Crunchtime Again for Canada to Avoid New U.S. Tariffs",
-      "link": "https://www.nytimes.com/2026/08/18/world/canada/trade-tariffs-trump-carney.html",
-      "pubDate": "Tue, 18 Aug 2026 04:01:06 +0000",
-      "source": "NYT World",
-      "summary": "Canada is seeking a deal to dodge further economic pain at the hands of the Trump administration on midnight Tuesday. But at what cost?"
     },
     {
       "title": "A Democratic Socialist Aims to Oust a Top AIPAC Beneficiary in Florida",
@@ -593,13 +632,6 @@
       "pubDate": "Sat, 15 Aug 2026 22:38:25 +0000",
       "source": "The Intercept",
       "summary": "Documents from ICE’s investigation into the Sunrise Movement show an agent volunteered to build tools for “direct-action” protests.\nThe post Secret ICE Agent Tried to “Entice” Minneapolis Activists Into Confrontational Tactics appeared first on The I"
-    },
-    {
-      "title": "Has the Left Really Met Its Limit? ",
-      "link": "https://theintercept.com/2026/08/14/david-sirota-democratic-establishment/",
-      "pubDate": "Fri, 14 Aug 2026 10:00:00 +0000",
-      "source": "The Intercept",
-      "summary": "David Sirota on Francesca Hong’s defeat, what it means for the insurgent left, and how the American presidency has consolidated king-like power. \nThe post Has the Left Really Met Its Limit?  appeared first on The Intercept."
     },
     {
       "title": "Welcome to Dubai: Kinahan Cartel’s Visas Revealed",
@@ -639,6 +671,13 @@
   ],
   "syndication": [
     {
+      "title": "LLMs and Contextual Integrity",
+      "link": "https://www.schneier.com/blog/archives/2026/08/llms-and-contextual-integrity.html",
+      "pubDate": "2026-08-18T10:40:16.000Z",
+      "author": "Schneier on Security",
+      "content": "I have been thinking a lot about AI and integrity. Part of that is contextual integrity. I recently found two papers on the topic.\n“CIMemories: A Compositional Benchmark for Contextual Integrity of Persistent Memory in LLMs“:\nAbstract: Large Language Models (LLMs) increasingly use persistent memory "
+    },
+    {
       "title": "Hacking Public Wi-Fi DNS to Steal Credentials",
       "link": "https://www.schneier.com/blog/archives/2026/08/hacking-public-wi-fi-dns-to-steal-credentials.html",
       "pubDate": "2026-08-17T11:18:03.000Z",
@@ -658,13 +697,6 @@
       "pubDate": "2026-08-14T21:01:49.000Z",
       "author": "Schneier on Security",
       "content": "Fascinating video about searching for life undersea. The video basically makes the point that our bright white searchlights are scaring everything away, and that red light is more neutral. That, plus bait to attract sea creatures, is teaching us a lot about what’s going on down there. Lots of footag"
-    },
-    {
-      "title": "Upcoming Speaking Engagements",
-      "link": "https://www.schneier.com/blog/archives/2026/08/upcoming-speaking-engagements-59.html",
-      "pubDate": "2026-08-14T16:01:59.000Z",
-      "author": "Schneier on Security",
-      "content": "This is a current list of where and when I am scheduled to speak:\nI’m speaking, signing books, and participating in panel discussions at LAcon V in Anaheim, California, USA. My full schedule is here.\nI’m speaking online (via Zoom) at a League of Women Voters event on Tuesday, September 22, 2026, at "
     },
     {
       "title": "Who’s Tracking You? Use This New Service to Find Out",
@@ -704,6 +736,22 @@
   ],
   "syndicate_journal": [
     {
+      "title": "Is Immortality Possible?",
+      "link": "https://nautil.us/is-immortality-possible-1283865/",
+      "summary": "Nature has answered the same way for 3.5 billion years\nThe post Is Immortality Possible? appeared first on Nautilus.",
+      "pubDate": "Tue, 18 Aug 2026 12:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "In praise of zealotry",
+      "link": "https://aeon.co/essays/polite-debate-has-privilege-the-marginalised-need-zealotry",
+      "summary": "Early feminists like Mary Astell and Catharine Macaulay refused their male peers’ advice to remain polite in debate. Why?\n- by Geertje Bol\nRead on Aeon",
+      "pubDate": "Tue, 18 Aug 2026 10:00:00 GMT",
+      "domain": "philosophy",
+      "source": "Aeon"
+    },
+    {
       "title": "FLOPs vs Real Work: The Importance of Replication in AI Efficiency Assessment",
       "link": "https://arxiv.org/abs/2608.14550",
       "summary": "arXiv:2608.14550v1 Announce Type: new \nAbstract: AI efficiency has recently taken the spotlight in both academy and industry due to massive model scales, high energy demands, and environmental costs. While reporting Floating Point Operations (FLOPs) is a traditional approach for assessing computatio",
@@ -740,14 +788,6 @@
       "link": "https://nautil.us/these-mammoth-ivory-carvings-may-be-the-find-of-the-year-1283903/",
       "summary": "They’re 40,000 years old and about the size of your thumbnail\nThe post These Mammoth Ivory Carvings May Be the “Find of the Year” appeared first on Nautilus.",
       "pubDate": "Mon, 17 Aug 2026 20:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
-      "title": "Our Ancient Ancestors in the Middle East Loved Dining on Lizards and Snakes",
-      "link": "https://nautil.us/our-ancient-ancestors-in-the-middle-east-loved-dining-on-lizards-and-snakes-1283857/",
-      "summary": "Reptiles made up a big portion of their diet\nThe post Our Ancient Ancestors in the Middle East Loved Dining on Lizards and Snakes appeared first on Nautilus.",
-      "pubDate": "Mon, 17 Aug 2026 19:01:00 +0000",
       "domain": "science",
       "source": "Nautilus"
     },
@@ -838,14 +878,6 @@
       "pubDate": "Fri, 14 Aug 2026 13:10:26 +0000",
       "domain": "science",
       "source": "Quanta"
-    },
-    {
-      "title": "The neverending house",
-      "link": "https://aeon.co/essays/the-art-of-dwelling-in-santiagos-self-built-homes",
-      "summary": "The self-built homes of Santiago are precarious and ever changing. They are, always and at once, being and becoming\n- by Consuelo Araos\nRead on Aeon",
-      "pubDate": "Fri, 14 Aug 2026 10:00:00 GMT",
-      "domain": "philosophy",
-      "source": "Aeon"
     },
     {
       "title": "Dear Reader: 10 Epistolary Poems by Contemporary Writers",
@@ -968,25 +1000,25 @@
       "source": "ROAR Magazine"
     },
     {
-      "title": "Social value orientation and college students’ aggressive behaviors: the chain mediating effect of perspective taking and general trust",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1907962",
-      "summary": "To explore the chain mediating effect of perspective taking and general trust between social value orientation and college students’ aggressive behavior, and to provide scientific evidence for promoting college students’ mental health and reducing campus violence. The current study adopts a combinat",
-      "pubDate": "",
-      "domain": "psychology",
-      "source": "Frontiers Psychology"
-    },
-    {
-      "title": "Meritocracy beliefs and empathic concern among Chinese college students: a moderated serial mediation model of zero-sum thinking and Protestant work ethic",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1837514",
-      "summary": "As meritocratic values have become increasingly emphasized in educational contexts, it is important to understand how students’ endorsement of meritocracy belief is associated with empathic concern. Based on Bandura’s Social Cognitive Theory, this cross-sectional study constructed a moderated serial",
-      "pubDate": "",
-      "domain": "psychology",
-      "source": "Frontiers Psychology"
-    },
-    {
       "title": "Integrated physical education course experience and exercise adherence tendency among undergraduates in Sichuan Province, China: chain mediation and configurational evidence from SEM and fsQCA",
       "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1902785",
       "summary": "ObjectiveThis study examined the association between integrated physical education course experience and exercise adherence tendency among undergraduates in Sichuan Province, China. It focused on indirect associations involving exercise psychological need satisfaction and health belief and on config",
+      "pubDate": "",
+      "domain": "psychology",
+      "source": "Frontiers Psychology"
+    },
+    {
+      "title": "The psychology of manipulative visibility in the digital public sphere: a discourse analysis of audience reactions to deceptive Instagram content",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1848882",
+      "summary": "IntroductionThe digital public sphere has become a primary site for social learning and belief formation, yet the psychological mechanisms through which manipulative content gains social acceptance remain underexplored from an educational psychology perspective. This study examines how visibility me",
+      "pubDate": "",
+      "domain": "psychology",
+      "source": "Frontiers Psychology"
+    },
+    {
+      "title": "Validation of the comprehensive online sleep monitoring scale in a large population sample",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1840525",
+      "summary": "Researchers are increasingly studying cognitive and psychological constructs using automated online tools due to advantages in scalability, repeatability, accessibility and affordability. The online assessment of sleep presents a challenge, as the most popular instruments for reporting different asp",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
@@ -994,64 +1026,64 @@
   ],
   "misinfo_toilet": [
     {
-      "headline": "Inside secret police warehouse as Germany targets small boats gangs",
-      "fragment": "An ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
-      "splice": "Inside secret police warehouse as Germany targets small boats gangs while an ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
-      "seed": 20260827
-    },
-    {
-      "headline": "IVF staff accused of misleading UK parents about sperm and egg donors in northern Cyprus",
-      "fragment": "The technocrat is the natural friend of the dictator—computers and dictatorship.",
-      "splice": "IVF staff accused of misleading UK parents about sperm and egg donors in northern Cyprus insofar as the technocrat is the natural friend of the dictator—computers and dictatorship.",
-      "seed": 20260828
-    },
-    {
-      "headline": "Shahed-Type Drones Filmed During Mali Village Attacks",
+      "headline": "UK 'supports Ukraine 100%', Burnham says, after Russia's drone warning",
       "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "splice": "Shahed-Type Drones Filmed During Mali Village Attacks consequently it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "seed": 20260829
-    },
-    {
-      "headline": "Welcome to Dubai: Kinahan Cartel’s Visas Revealed",
-      "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "splice": "Welcome to Dubai: Kinahan Cartel’s Visas Revealed not unlike it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
+      "splice": "UK 'supports Ukraine 100%', Burnham says, after Russia's drone warning consequently it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
       "seed": 20260830
     },
     {
-      "headline": "Syrian court sentences Wassim al-Assad to death",
-      "fragment": "It is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
-      "splice": "Syrian court sentences Wassim al-Assad to death despite it is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
+      "headline": "IVF staff accused of misleading UK parents about sperm and egg donors in northern Cyprus",
+      "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
+      "splice": "IVF staff accused of misleading UK parents about sperm and egg donors in northern Cyprus not unlike it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
       "seed": 20260831
     },
     {
-      "headline": "It’s Crunchtime Again for Canada to Avoid New U.S. Tariffs",
-      "fragment": "The privatization of the organs will only begin with the shame felt by man at the sight of man.",
-      "splice": "It’s Crunchtime Again for Canada to Avoid New U.S. Tariffs therefore the privatization of the organs will only begin with the shame felt by man at the sight of man.",
+      "headline": "Will Ronaldo Cry​? World Cup Fans Bet Billions Through Prediction Markets",
+      "fragment": "It is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
+      "splice": "Will Ronaldo Cry​? World Cup Fans Bet Billions Through Prediction Markets despite it is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
       "seed": 20260832
     },
     {
-      "headline": "Will Ronaldo Cry​? World Cup Fans Bet Billions Through Prediction Markets",
-      "fragment": "Traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "splice": "Will Ronaldo Cry​? World Cup Fans Bet Billions Through Prediction Markets ...as traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
+      "headline": "Chocó, Colombia, Faces Deeper Hardship After an Earthquake",
+      "fragment": "The privatization of the organs will only begin with the shame felt by man at the sight of man.",
+      "splice": "Chocó, Colombia, Faces Deeper Hardship After an Earthquake therefore the privatization of the organs will only begin with the shame felt by man at the sight of man.",
       "seed": 20260833
     },
     {
-      "headline": "Secret ICE Agent Tried to “Entice” Minneapolis Activists Into Confrontational Tactics",
-      "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
-      "splice": "Secret ICE Agent Tried to “Entice” Minneapolis Activists Into Confrontational Tactics insofar as the revolutionary lives in the gap which separates technical progress from social totality.",
+      "headline": "A Mother’s Quest to Rescue Her Son From Russian-Occupied Ukraine",
+      "fragment": "Traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
+      "splice": "A Mother’s Quest to Rescue Her Son From Russian-Occupied Ukraine ...as traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
       "seed": 20260834
     },
     {
-      "headline": "At Ex-Premier Zhu Rongji’s Funeral, China’s Past Shadows Its Present",
-      "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
-      "splice": "At Ex-Premier Zhu Rongji’s Funeral, China’s Past Shadows Its Present which is to say the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "headline": "Myanmar: The Architecture of Statelessness",
+      "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
+      "splice": "Myanmar: The Architecture of Statelessness insofar as the revolutionary lives in the gap which separates technical progress from social totality.",
       "seed": 20260835
     },
     {
-      "headline": "Pakistan top court orders Imran Khan’s hospital transfer amid access battle",
-      "fragment": "The truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
-      "splice": "Pakistan top court orders Imran Khan’s hospital transfer amid access battle underneath the truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
+      "headline": "Welcome to Dubai: Kinahan Cartel’s Visas Revealed",
+      "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "splice": "Welcome to Dubai: Kinahan Cartel’s Visas Revealed which is to say the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
       "seed": 20260836
+    },
+    {
+      "headline": "Russia protests Japan PM’s comments after Putin’s Kuril visit",
+      "fragment": "The truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
+      "splice": "Russia protests Japan PM’s comments after Putin’s Kuril visit underneath the truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
+      "seed": 20260837
+    },
+    {
+      "headline": "Inside secret police warehouse as Germany targets small boats gangs",
+      "fragment": "Art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
+      "splice": "Inside secret police warehouse as Germany targets small boats gangs as if art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
+      "seed": 20260838
+    },
+    {
+      "headline": "Qatar rejects Iran’s ‘false’ claims about missing pilots",
+      "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
+      "splice": "Qatar rejects Iran’s ‘false’ claims about missing pilots consequently the breast is a machine that produces milk, and the mouth a machine coupled to it.",
+      "seed": 20260839
     }
   ]
 }
