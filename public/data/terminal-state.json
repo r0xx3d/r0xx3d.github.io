@@ -1,7 +1,22 @@
 {
-  "generated_at": "2026-08-19T15:33:53.977Z",
+  "generated_at": "2026-08-19T21:27:23.868Z",
   "threat_intel": {
     "cisa_kev": [
+      {
+        "cveID": "CVE-2026-64849",
+        "vendorProject": "MLflow",
+        "product": "MLflow",
+        "vulnerabilityName": "MLflow Server-Side Request Forgery Vulnerability",
+        "dateAdded": "2026-08-19",
+        "shortDescription": "MLflow contains a server-side request forgery vulnerability that can allow attackers to reach internal or cloud metadata services and receive response_status and response_body.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-09-02",
+        "knownRansomwareCampaignUse": "Unknown",
+        "notes": "https://github.com/mlflow/mlflow/pull/24258 ; https://github.com/mlflow/mlflow/issues/24179 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-64849",
+        "cwes": [
+          "CWE-918"
+        ]
+      },
       {
         "cveID": "CVE-2026-33824",
         "vendorProject": "Microsoft",
@@ -212,54 +227,13 @@
         "cwes": [
           "CWE-288"
         ]
-      },
-      {
-        "cveID": "CVE-2026-20316",
-        "vendorProject": "Cisco",
-        "product": "Secure Firewall Management Center (FMC)",
-        "vulnerabilityName": "Cisco Secure Firewall Management Center Use of Hard-coded Password Vulnerability",
-        "dateAdded": "2026-07-29",
-        "shortDescription": "Cisco Secure Firewall Management Center (FMC) formerly known as Firepower Management Center contains a use of hard-coded password vulnerability that could allow an unauthenticated, remote attacker to log in to an affected device using a low-privileged account to access sensitive data within the impacted systems.",
-        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "dueDate": "2026-08-01",
-        "knownRansomwareCampaignUse": "Unknown",
-        "notes": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-fmc-static-cred-BET3Cjh ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-20316",
-        "cwes": [
-          "CWE-259"
-        ]
       }
     ],
     "urlhaus": [
       {
-        "id": "3905845",
-        "date_added": "2026-08-19 15:27:20",
-        "url": "http://156.146.26.225:55397/i",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "arm",
-          "elf",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3905844",
-        "date_added": "2026-08-19 15:23:21",
-        "url": "http://42.224.121.161:40429/bin.sh",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3905843",
-        "date_added": "2026-08-19 15:07:18",
-        "url": "http://125.43.38.255:44908/bin.sh",
+        "id": "3905922",
+        "date_added": "2026-08-19 21:21:22",
+        "url": "http://182.123.210.94:55730/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -270,141 +244,10 @@
         ]
       },
       {
-        "id": "3905842",
-        "date_added": "2026-08-19 15:04:09",
-        "url": "http://2.58.56.49/ConnectProAgentSetup.msi",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "2-58-56-49",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3905841",
-        "date_added": "2026-08-19 14:56:06",
-        "url": "http://219.155.12.214:51034/i",
+        "id": "3905921",
+        "date_added": "2026-08-19 21:08:21",
+        "url": "http://27.37.229.46:46712/i",
         "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3905840",
-        "date_added": "2026-08-19 14:51:08",
-        "url": "https://192.142.53.225/Bin/ScreenConnect.ClientSetup.exe",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "192-142-53-225",
-          "connectwise",
-          "exe",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3905839",
-        "date_added": "2026-08-19 14:51:07",
-        "url": "https://192.142.53.225/bin/support.client.exe",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "192-142-53-225",
-          "connectwise",
-          "exe",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3905836",
-        "date_added": "2026-08-19 14:49:09",
-        "url": "https://hypercorevector5.lol/noncrypt/21-32/jhgkuyyg.exe",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "exe",
-          "opendir",
-          "RemusStealer"
-        ]
-      },
-      {
-        "id": "3905837",
-        "date_added": "2026-08-19 14:49:09",
-        "url": "https://hypercorevector5.lol/noncrypt/21-32/arFtU.exe",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "exe",
-          "opendir",
-          "RemusStealer"
-        ]
-      },
-      {
-        "id": "3905838",
-        "date_added": "2026-08-19 14:49:09",
-        "url": "https://hypercorevector5.lol/noncrypt/21-32/dflnglkfdmgs.exe",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "exe",
-          "opendir",
-          "RemusStealer"
-        ]
-      },
-      {
-        "id": "3905832",
-        "date_added": "2026-08-19 14:49:07",
-        "url": "https://hypercorevector5.lol/noncrypt/21-32/bjbh.exe",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "exe",
-          "opendir",
-          "RemusStealer"
-        ]
-      },
-      {
-        "id": "3905833",
-        "date_added": "2026-08-19 14:49:07",
-        "url": "https://hypercorevector5.lol/noncrypt/21-32/kJHGFDs.exe",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "exe",
-          "opendir",
-          "RemusStealer"
-        ]
-      },
-      {
-        "id": "3905834",
-        "date_added": "2026-08-19 14:49:07",
-        "url": "https://hypercorevector5.lol/noncrypt/21-32/hnmh.exe",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "exe",
-          "opendir",
-          "RemusStealer"
-        ]
-      },
-      {
-        "id": "3905835",
-        "date_added": "2026-08-19 14:49:07",
-        "url": "https://hypercorevector5.lol/noncrypt/21-32/KJHJHKJKJH.exe",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "exe",
-          "opendir",
-          "RemusStealer"
-        ]
-      },
-      {
-        "id": "3905831",
-        "date_added": "2026-08-19 14:48:13",
-        "url": "http://27.29.33.253:58457/i",
-        "url_status": "offline",
         "threat": "malware_download",
         "tags": [
           "32-bit",
@@ -414,10 +257,10 @@
         ]
       },
       {
-        "id": "3905830",
-        "date_added": "2026-08-19 14:48:12",
-        "url": "http://42.54.65.215:34323/i",
-        "url_status": "offline",
+        "id": "3905920",
+        "date_added": "2026-08-19 21:07:31",
+        "url": "http://42.231.218.95:36712/i",
+        "url_status": "online",
         "threat": "malware_download",
         "tags": [
           "32-bit",
@@ -427,118 +270,286 @@
         ]
       },
       {
-        "id": "3905829",
-        "date_added": "2026-08-19 14:48:08",
-        "url": "https://hypercorevector5.lol/noncrypt/21-32/kliulij.exe",
+        "id": "3905919",
+        "date_added": "2026-08-19 21:06:28",
+        "url": "http://27.37.229.46:46712/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "exe",
-          "opendir",
-          "RemusStealer"
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
         ]
       },
       {
-        "id": "3905826",
-        "date_added": "2026-08-19 14:48:07",
-        "url": "https://hypercorevector5.lol/noncrypt/obsh/R7.exe",
+        "id": "3905918",
+        "date_added": "2026-08-19 20:37:18",
+        "url": "http://182.123.210.94:55730/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "exe",
-          "opendir",
-          "RemusStealer"
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
         ]
       },
       {
-        "id": "3905827",
-        "date_added": "2026-08-19 14:48:07",
-        "url": "https://hypercorevector5.lol/noncrypt/obsh/mixnew2.exe",
+        "id": "3905917",
+        "date_added": "2026-08-19 20:31:07",
+        "url": "http://42.5.26.85:51916/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "exe",
-          "opendir",
-          "RemusStealer"
+          "None"
         ]
       },
       {
-        "id": "3905828",
-        "date_added": "2026-08-19 14:48:07",
-        "url": "https://hypercorevector5.lol/noncrypt/21-32/ojujn.exe",
+        "id": "3905916",
+        "date_added": "2026-08-19 20:26:06",
+        "url": "http://42.231.190.213:48304/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "exe",
-          "opendir",
-          "RemusStealer"
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3905915",
+        "date_added": "2026-08-19 20:06:25",
+        "url": "http://163.182.97.242:3654/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3905914",
+        "date_added": "2026-08-19 20:02:07",
+        "url": "http://42.231.190.213:48304/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3905913",
+        "date_added": "2026-08-19 19:03:20",
+        "url": "http://58.255.41.239:39378/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3905912",
+        "date_added": "2026-08-19 18:57:25",
+        "url": "http://119.185.241.8:42488/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3905911",
+        "date_added": "2026-08-19 18:52:06",
+        "url": "https://pub-1c4ef2a315ec4b89b9dfad9472afee69.r2.dev/zuyoking.png",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "AgentTesla"
+        ]
+      },
+      {
+        "id": "3905910",
+        "date_added": "2026-08-19 18:52:05",
+        "url": "https://one-graup.com/LUI.hta",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3905909",
+        "date_added": "2026-08-19 18:51:08",
+        "url": "https://pub-eab9eb7761644f51bceeecfefdf0ec2b.r2.dev/teddywon.hta",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "AgentTesla"
+        ]
+      },
+      {
+        "id": "3905908",
+        "date_added": "2026-08-19 18:51:06",
+        "url": "https://pub-1c4ef2a315ec4b89b9dfad9472afee69.r2.dev/radman.png",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "AgentTesla"
+        ]
+      },
+      {
+        "id": "3905907",
+        "date_added": "2026-08-19 18:45:07",
+        "url": "http://196.251.107.186/clpr6.exe",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3905906",
+        "date_added": "2026-08-19 18:44:07",
+        "url": "http://196.251.107.186/uniform_4.44_INSTALL.exe",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3905905",
+        "date_added": "2026-08-19 18:44:05",
+        "url": "http://196.251.107.186/zs/config.bin",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3905904",
+        "date_added": "2026-08-19 18:38:11",
+        "url": "http://125.40.68.15:56896/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3905903",
+        "date_added": "2026-08-19 18:28:09",
+        "url": "http://103.229.53.84:8443/bin",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "opendir"
         ]
       }
     ]
   },
   "world_monitor": [
     {
+      "title": "USS Lincoln woes highlight US Navy limits in prolonged Iran war: Experts",
+      "link": "https://www.aljazeera.com/news/2026/8/19/uss-lincoln-woes-highlight-us-navy-limits-in-prolonged-iran-war-experts?traffic_source=rss",
+      "pubDate": "Wed, 19 Aug 2026 21:01:54 +0000",
+      "source": "Al Jazeera",
+      "summary": "Reports of dire conditions underscore supply challenges, questions of US plans going forward, experts say."
+    },
+    {
+      "title": "Spain plans transfer of 500 migrant children from Ceuta to mainland",
+      "link": "https://www.aljazeera.com/news/2026/8/19/spain-plans-transfer-of-500-migrant-children-from-ceuta-to-mainland?traffic_source=rss",
+      "pubDate": "Wed, 19 Aug 2026 20:53:55 +0000",
+      "source": "Al Jazeera",
+      "summary": "Ceuta leaders want children returned to Morocco, but Madrid says deporting them is 'outrageous'."
+    },
+    {
+      "title": "Trump and Canada’s Carney Seem to Make Progress on a Tariff Deal, but Questions Linger",
+      "link": "https://www.nytimes.com/2026/08/19/world/canada/trump-canada-tariffs-carney-deal-trade.html",
+      "pubDate": "Wed, 19 Aug 2026 20:45:37 +0000",
+      "source": "NYT World",
+      "summary": "After a deadline extension, the latest U.S. tariff threats seemed headed toward resolution on Wednesday, but questions lingered about what Canada would give up, and what it would get in exchange."
+    },
+    {
+      "title": "Moderna, Merck unveil mRNA-based cancer vaccine that cuts spread",
+      "link": "https://www.aljazeera.com/news/2026/8/19/moderna-merck-unveil-mrna-based-cancer-vaccine-that-cuts-spread?traffic_source=rss",
+      "pubDate": "Wed, 19 Aug 2026 20:39:14 +0000",
+      "source": "Al Jazeera",
+      "summary": "Moderna's mRNA vaccine Intismeran shows promise, reducing melanoma recurrence and spread in late-stage trials."
+    },
+    {
+      "title": "Sacked Ukrainian defence minister calls for presidential election",
+      "link": "https://www.bbc.co.uk/news/articles/cdew8n9erlwo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Wed, 19 Aug 2026 20:34:39 GMT",
+      "source": "BBC",
+      "summary": "Martial law has been in place in Ukraine since February 2022, under which elections are suspended."
+    },
+    {
+      "title": "Israel Opens Criminal Investigation Into Killings of Hind Rajab and Gaza Medical Workers",
+      "link": "https://www.nytimes.com/2026/08/19/world/middleeast/israel-criminal-investigation-hind-rajab-gaza-workers.html",
+      "pubDate": "Wed, 19 Aug 2026 20:18:49 +0000",
+      "source": "NYT World",
+      "summary": "Two high-profile cases that had spurred international condemnation of the country’s conduct in Gaza were transferred to the military police. Such investigations have rarely led to convictions."
+    },
+    {
+      "title": "What’s behind Israel’s latest attack on Syria?",
+      "link": "https://www.aljazeera.com/video/inside-story/2026/8/19/whats-behind-israels-latest-attack-on-syria?traffic_source=rss",
+      "pubDate": "Wed, 19 Aug 2026 20:18:40 +0000",
+      "source": "Al Jazeera",
+      "summary": "US envoy warns Israel's strike could have sparked direct confrontation with Turkish forces."
+    },
+    {
+      "title": "Seven people, mostly foreign tourists, killed in helicopter crash in Kenya",
+      "link": "https://www.aljazeera.com/news/2026/8/19/seven-mostly-tourists-killed-in-helicopter-crash-in-northern-kenya?traffic_source=rss",
+      "pubDate": "Wed, 19 Aug 2026 19:53:12 +0000",
+      "source": "Al Jazeera",
+      "summary": "Ecuador's intelligence chief Michele Sensi-Contugi and NBCUniversal journalist Jose Suarez are among the dead."
+    },
+    {
+      "title": "South Korea shortens war games with US, citing Washington request",
+      "link": "https://www.bbc.co.uk/news/articles/cnvn0j31qj8o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Wed, 19 Aug 2026 17:39:49 GMT",
+      "source": "BBC",
+      "summary": "It comes after Trump announced plans to curtail joint military exercises with South Korea, citing a \"very good\" relationship with North Korea's Kim Jong Un."
+    },
+    {
+      "title": "Israel opens up bids for highly-sensitive West Bank settlement project",
+      "link": "https://www.bbc.co.uk/news/articles/cly50gn1e54o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Wed, 19 Aug 2026 17:16:28 GMT",
+      "source": "BBC",
+      "summary": "Israeli plans to build on the area east of Jerusalem - which would divide the occupied West Bank in two - have long been internationally condemned."
+    },
+    {
+      "title": "Ukrainian man arrested in Croatia over Nord Stream pipeline blasts",
+      "link": "https://www.bbc.co.uk/news/articles/c78gp7l5348o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Wed, 19 Aug 2026 16:31:48 GMT",
+      "source": "BBC",
+      "summary": "The man is alleged to have been one of the scuba divers who planted explosives on the pipelines in 2022."
+    },
+    {
+      "title": "U.A.E. Announces Halt to Trade With Iran Amid Trump’s Push To Isolate Tehran",
+      "link": "https://www.nytimes.com/2026/08/19/world/middleeast/uae-cuts-trade-ties-iran-missiles.html",
+      "pubDate": "Wed, 19 Aug 2026 16:00:04 +0000",
+      "source": "NYT World",
+      "summary": "The Emirates has long been a major trading hub for Iran, and analysts say it has been key to Iranian efforts to evade international sanctions, which Emirati officials deny."
+    },
+    {
       "title": "Israel confirms soldiers fired at car in which Hind Rajab was killed and opens criminal investigation",
       "link": "https://www.bbc.co.uk/news/articles/crl7yjlpx2po?at_medium=RSS&at_campaign=rss",
       "pubDate": "Wed, 19 Aug 2026 15:33:32 GMT",
       "source": "BBC",
       "summary": "The five-year old Gaza girl initially survived the attack and pleaded for help but her body was recovered later with those of six of her relatives."
-    },
-    {
-      "title": "U.A.E. Announces Halt to Trade With Iran Amid Trump’s Push To Isolate Tehran",
-      "link": "https://www.nytimes.com/2026/08/19/world/middleeast/uae-cuts-trade-ties-iran-missiles.html",
-      "pubDate": "Wed, 19 Aug 2026 15:27:01 +0000",
-      "source": "NYT World",
-      "summary": "The Emirates has long been a major trading hub for Iran, and analysts say it has been key to Iranian efforts to evade international sanctions, which Emirati officials deny."
-    },
-    {
-      "title": "Palestinian refugee and two relatives drown off English coast",
-      "link": "https://www.aljazeera.com/news/2026/8/19/three-people-from-palestinian-british-family-drown-off-uks-sussex-coast?traffic_source=rss",
-      "pubDate": "Wed, 19 Aug 2026 14:52:39 +0000",
-      "source": "Al Jazeera",
-      "summary": "A girl is taken to hospital in critical condition in what PM Burnham calls a 'terrible family tragedy'."
-    },
-    {
-      "title": "Israel numbers Palestinian detainee foreheads: What we know",
-      "link": "https://www.aljazeera.com/news/2026/8/19/israel-numbers-palestinian-detainee-foreheads-what-we-know?traffic_source=rss",
-      "pubDate": "Wed, 19 Aug 2026 14:48:55 +0000",
-      "source": "Al Jazeera",
-      "summary": "Palestinian news outlets reported a man with the number ‘44’ written on his forehead following a raid in Qabatiya."
-    },
-    {
-      "title": "Second Ukrainian national arrested over 2022 Nord Stream pipeline blast",
-      "link": "https://www.aljazeera.com/news/2026/8/19/second-ukrainian-national-arrested-over-2022-nord-stream-pipeline-blast?traffic_source=rss",
-      "pubDate": "Wed, 19 Aug 2026 14:44:09 +0000",
-      "source": "Al Jazeera",
-      "summary": "The suspect was arrested in Croatia a year after another, an ex-army officer, was held and transferred to Germany."
-    },
-    {
-      "title": "Premier League 2026-27 form guide: Title race, prediction, players to watch",
-      "link": "https://www.aljazeera.com/sports/2026/8/19/premier-league-2026-27-form-guide-title-race-prediction-players-to-watch?traffic_source=rss",
-      "pubDate": "Wed, 19 Aug 2026 14:37:13 +0000",
-      "source": "Al Jazeera",
-      "summary": "Will Arsenal repeat, could Man Utd win, what about Liverpool? Breaking down the top clubs’ chances for 2026-27 season."
-    },
-    {
-      "title": "Israel Opens Criminal Investigation Into Killings of Hind Rajab and Gaza Medical Workers",
-      "link": "https://www.nytimes.com/2026/08/19/world/middleeast/israel-criminal-investigation-hind-rajab-gaza-workers.html",
-      "pubDate": "Wed, 19 Aug 2026 14:28:39 +0000",
-      "source": "NYT World",
-      "summary": "Two high-profile cases that had spurred international condemnation of the country’s conduct in Gaza were transferred to the military police. Such investigations have rarely led to convictions."
-    },
-    {
-      "title": "South Korea shortens war games with US, citing Washington request",
-      "link": "https://www.bbc.co.uk/news/articles/cnvn0j31qj8o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Wed, 19 Aug 2026 14:16:27 GMT",
-      "source": "BBC",
-      "summary": "It comes after Trump announced plans to curtail joint military exercises with South Korea, citing a \"very good\" relationship with North Korea's Kim Jong Un."
-    },
-    {
-      "title": "Mourinho fires Real Madrid shot at Barcelona saying he ‘didn’t need’ Rodri",
-      "link": "https://www.aljazeera.com/sports/2026/8/19/mourinho-fires-real-madrid-shot-at-barcelona-saying-he-didnt-need-rodri?traffic_source=rss",
-      "pubDate": "Wed, 19 Aug 2026 13:24:34 +0000",
-      "source": "Al Jazeera",
-      "summary": "Jose Mourinho is back for a second spell at Real Madrid who, he says, didn't need Barcelona's new signing Rodri."
     },
     {
       "title": "Ukraine’s Ex-Defense Minister Calls for Election, Cementing Break With Zelensky",
@@ -548,13 +559,6 @@
       "summary": "Mykhailo Fedorov, a popular young leader who was fired last month, said Russia should not be allowed to dictate when Ukrainians can choose their next government."
     },
     {
-      "title": "Ukrainian man arrested in Croatia over Nord Stream pipeline blasts",
-      "link": "https://www.bbc.co.uk/news/articles/c78gp7l5348o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Wed, 19 Aug 2026 12:47:53 GMT",
-      "source": "BBC",
-      "summary": "The man is alleged to have been one of the scuba divers who planted explosives on the pipelines in 2022."
-    },
-    {
       "title": "Trump, With Limited Options in Iran, Tries Economic Pressure — Again",
       "link": "https://www.nytimes.com/2026/08/19/world/europe/iran-trump-economic-sanctions-leverage.html",
       "pubDate": "Wed, 19 Aug 2026 12:37:33 +0000",
@@ -562,25 +566,11 @@
       "summary": "Iran has survived decades of sanctions. Faced with more, it is likely to escalate rather than surrender, analysts said."
     },
     {
-      "title": "Trump Pauses 50 Percent Tariffs on Canada and Claims Deal Is Near",
-      "link": "https://www.nytimes.com/2026/08/18/world/canada/tariffs-trade-trump-carney.html",
-      "pubDate": "Wed, 19 Aug 2026 12:04:49 +0000",
-      "source": "NYT World",
-      "summary": "Prime Minister Mark Carney of Canada was less definitive about what the intense talks produced, saying “important work” remained."
-    },
-    {
-      "title": "Sacked Ukrainian defence minister calls for presidential election",
-      "link": "https://www.bbc.co.uk/news/articles/cdew8n9erlwo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Wed, 19 Aug 2026 11:00:21 GMT",
-      "source": "BBC",
-      "summary": "Martial law has been in place in Ukraine since February 2022, under which elections are suspended."
-    },
-    {
-      "title": "Trump pauses new tariffs on Canada for three days, saying deal close",
-      "link": "https://www.bbc.co.uk/news/articles/cy9wz79ze29o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Wed, 19 Aug 2026 03:56:35 GMT",
-      "source": "BBC",
-      "summary": "The US president says the two sides are finalising documents to avert import taxes targeting a range of Canadian goods."
+      "title": "What The Intercept Is Reading",
+      "link": "https://theintercept.com/2026/08/19/book-reading-recommendations/",
+      "pubDate": "Wed, 19 Aug 2026 10:00:00 +0000",
+      "source": "The Intercept",
+      "summary": "Book recommendations old and new, fiction and nonfiction, from staffers.\nThe post What The Intercept Is Reading appeared first on The Intercept."
     },
     {
       "title": "The Short Life of a Newborn During the Iran War",
@@ -609,13 +599,6 @@
       "pubDate": "Sun, 16 Aug 2026 10:00:00 +0000",
       "source": "The Intercept",
       "summary": "With the case of Carlitos Ricardo Parias, the U.S. has broken its own record for holding a journalist in custody.\nThe post ICE Shot a Journalist and Threw Him in Detention. He’s Approaching 300 Days Behind Bars With a Festering Wound. appeared first "
-    },
-    {
-      "title": "Secret ICE Agent Tried to “Entice” Minneapolis Activists Into Confrontational Tactics",
-      "link": "https://theintercept.com/2026/08/15/undercover-ice-agents-minneapolis-sunrise-movement/",
-      "pubDate": "Sat, 15 Aug 2026 22:38:25 +0000",
-      "source": "The Intercept",
-      "summary": "Documents from ICE’s investigation into the Sunrise Movement show an agent volunteered to build tools for “direct-action” protests.\nThe post Secret ICE Agent Tried to “Entice” Minneapolis Activists Into Confrontational Tactics appeared first on The I"
     },
     {
       "title": "Welcome to Dubai: Kinahan Cartel’s Visas Revealed",
@@ -720,26 +703,50 @@
   ],
   "syndicate_journal": [
     {
-      "title": "Puerto Rico’s Independence Movement Is Gaining Strength",
-      "link": "",
-      "summary": "In a recent  in the city of Nashville, former Democratic presidential candidate Kamala Harris spoke about the need to “revisit” several questions about the US political system: the Electoral College, the Supreme Court, and statehood for Puerto Rico and Washington, DC. While the US media was keen to ",
-      "pubDate": "2026-08-19T15:24:10.348Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
-      "title": "What a Blissful Psychedelic Trip Looks Like Inside the Brain",
-      "link": "https://nautil.us/what-a-blissful-psychedelic-trip-looks-like-inside-the-brain-1283982/",
-      "summary": "Personality and context shape the psilocybin experience in ways that show up on brain scans\nThe post What a Blissful Psychedelic Trip Looks Like Inside the Brain appeared first on Nautilus.",
-      "pubDate": "Wed, 19 Aug 2026 15:00:00 +0000",
+      "title": "How Listening to Ocean Waves Can Predict Volcanic Eruptions",
+      "link": "https://nautil.us/how-listening-to-ocean-waves-can-predict-volcanic-eruptions-1284014/",
+      "summary": "The speed of the soothing sounds could spell disaster \nThe post How Listening to Ocean Waves Can Predict Volcanic Eruptions appeared first on Nautilus.",
+      "pubDate": "Wed, 19 Aug 2026 20:00:00 +0000",
       "domain": "science",
       "source": "Nautilus"
     },
     {
-      "title": "The End of Oak Street Is Nostalgia Eating Itself",
+      "title": "Private Equity Is Buying Up the World of Football",
       "link": "",
-      "summary": "The most powerful impact created by , a lame nostalgia piece evoking Amblin Entertainment from four decades back, is that this sort of thing really must cease. For a while,  managed to pull off a rebooted 1980s Americana entertainment crossed with horror, but now that that’s over at last, it’d be gr",
-      "pubDate": "2026-08-19T14:53:02.437Z",
+      "summary": "Les Girondins de Bordeaux is one of France’s most historic and decorated , with a record of winning six League 1 titles and nurturing star players from Zinedine Zidane to Jules Koundé and Aurélien Tchouaméni. Yet at the start of the 2025–26 season, the club found itself on the verge of collapse, str",
+      "pubDate": "2026-08-19T19:24:04.236Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "The “Kerry Cow” Wasn’t a Cow at All—And It Upends Stone Age Irish History",
+      "link": "https://nautil.us/the-kerry-cow-wasnt-a-cow-at-all-and-it-upends-stone-age-irish-history-1283999/",
+      "summary": "R.I.P. “Kerry cow”\nThe post The “Kerry Cow” Wasn’t a Cow at All—And It Upends Stone Age Irish History appeared first on Nautilus.",
+      "pubDate": "Wed, 19 Aug 2026 18:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "In Peru, Keiko Fujimori Promises Order, Not Reconciliation",
+      "link": "",
+      "summary": "The polling stations had not long been open when Keiko Fujimori reached the cemetery with her younger sister and her teenage daughters. Dressed uniformly in starch white blouses and blue-wash jeans, they proceeded across the lawn, each carrying a sheaf of roses and carnations. The elder women knelt ",
+      "pubDate": "2026-08-19T16:50:06.592Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "Why It Might Be Time to Rethink the Human Family Tree",
+      "link": "https://nautil.us/why-it-might-be-time-to-rethink-the-human-family-tree-1283985/",
+      "summary": "The way we classify humanity’s ancient relatives is a mess. But there’s a simple fix.\nThe post Why It Might Be Time to Rethink the Human Family Tree appeared first on Nautilus.",
+      "pubDate": "Wed, 19 Aug 2026 16:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "Puerto Rico’s Independence Movement Is Gaining Strength",
+      "link": "",
+      "summary": "In a recent  in the city of Nashville, former Democratic presidential candidate Kamala Harris spoke about the need to “revisit” several questions about the US political system: the Electoral College, the Supreme Court, and statehood for Puerto Rico and Washington, DC. While the US media was keen to ",
+      "pubDate": "2026-08-19T15:24:10.348Z",
       "domain": "politics",
       "source": "Jacobin"
     },
@@ -750,22 +757,6 @@
       "pubDate": "Wed, 19 Aug 2026 14:16:03 +0000",
       "domain": "science",
       "source": "Quanta"
-    },
-    {
-      "title": "TikTok Discovered a Blind, Pale, Worm-Like Fish",
-      "link": "https://nautil.us/tiktok-discovered-a-blind-pale-worm-like-fish-1283977/",
-      "summary": "Researchers had a tough time locating it\nThe post TikTok Discovered a Blind, Pale, Worm-Like Fish appeared first on Nautilus.",
-      "pubDate": "Wed, 19 Aug 2026 14:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
-      "title": "Minnesota Unions Are a Threat to Trump’s Authoritarianism",
-      "link": "",
-      "summary": "Federal officers had already been arresting Minneapolis activists for months, but the Trump administration’s sweeping  of fifteen union members and leaders in June especially turned heads. The charges are centered around 18 U.S.C. § 372: Conspiracy to Impede or Injure a Federal Officer, allegations ",
-      "pubDate": "2026-08-19T13:51:36.140Z",
-      "domain": "politics",
-      "source": "Jacobin"
     },
     {
       "title": "Where Did All the Public Bathrooms Go?",
@@ -782,14 +773,6 @@
       "pubDate": "Wed, 19 Aug 2026 12:33:05 +0000",
       "domain": "linguistics",
       "source": "Language Log"
-    },
-    {
-      "title": "The Best Ocean Photos of the Year",
-      "link": "https://nautil.us/the-best-ocean-photos-of-the-year-1283951/",
-      "summary": "Drone, coastal, and underwater perspectives\nThe post The Best Ocean Photos of the Year appeared first on Nautilus.",
-      "pubDate": "Wed, 19 Aug 2026 12:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
     },
     {
       "title": "The conscience files",
@@ -984,25 +967,25 @@
       "source": "ROAR Magazine"
     },
     {
-      "title": "Effects of the Empowering Coaching™ training program on the coach created motivational climate, psychological need satisfaction and team cohesion",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1566111",
-      "summary": "IntroductionThis study examined the longitudinal effects of a coach education program (based on Empowering Coaching™), implemented in a school-based setting across the sport season, on young athletes’ perceptions of the motivational climate, satisfaction of basic psychological needs, and team cohesi",
+      "title": "A ritual way of ageing well: a qualitative study of a comprehensive, culturally grounded ritual-based health programme for older adults in urban China",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1887093",
+      "summary": "IntroductionRapid population ageing, urban migration, and the weakening of multigenerational households have left many older adults in Chinese cities facing intertwined physical decline, psychological distress, social loss, and a diminished sense of purpose. Conventional responses tend to be special",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "Best friends’ and adolescents’ depressive symptoms in early adolescence: gendered pathways and distinct roles of peer acceptance",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1909249",
-      "summary": "IntroductionAlthough best friends’ depressive symptoms have been linked to adolescents’ own depressive symptoms, inconsistent findings point to the need to examine potential pathways and the peer-status contexts in which these links unfold.MethodsUsing cross-sectional data from 939 Chinese early ado",
-      "pubDate": "",
-      "domain": "psychology",
-      "source": "Frontiers Psychology"
-    },
-    {
-      "title": "Editorial: At the borders of movement, art, and neurosciences, volume II",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1947462",
+      "title": "Editorial: Motivations for physical activity—volume IV",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1952408",
       "summary": "",
+      "pubDate": "",
+      "domain": "psychology",
+      "source": "Frontiers Psychology"
+    },
+    {
+      "title": "Exploring the impact of teacher expectations on student behavior and academic performance using cognitive behavioral therapy",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1827270",
+      "summary": "This study evaluated the effectiveness of using a cognitive-behavioral therapy based teacher training program to change teachers’ expectations of students and improve student behavior and academic performance. This paper designs and uses a quasi experimental approach with a non equivalent control gr",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
@@ -1010,64 +993,64 @@
   ],
   "misinfo_toilet": [
     {
-      "headline": "South Korea shortens war games with US, citing Washington request",
-      "fragment": "It is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
-      "splice": "South Korea shortens war games with US, citing Washington request despite it is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
-      "seed": 20260834
-    },
-    {
-      "headline": "Sacked Ukrainian defence minister calls for presidential election",
-      "fragment": "The privatization of the organs will only begin with the shame felt by man at the sight of man.",
-      "splice": "Sacked Ukrainian defence minister calls for presidential election therefore the privatization of the organs will only begin with the shame felt by man at the sight of man.",
-      "seed": 20260835
-    },
-    {
-      "headline": "Welcome to Dubai: Kinahan Cartel’s Visas Revealed",
-      "fragment": "Traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "splice": "Welcome to Dubai: Kinahan Cartel’s Visas Revealed ...as traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "seed": 20260836
-    },
-    {
-      "headline": "Israel confirms soldiers fired at car in which Hind Rajab was killed and opens criminal investigation",
-      "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
-      "splice": "Israel confirms soldiers fired at car in which Hind Rajab was killed and opens criminal investigation insofar as the revolutionary lives in the gap which separates technical progress from social totality.",
-      "seed": 20260837
-    },
-    {
-      "headline": "Ukrainian man arrested in Croatia over Nord Stream pipeline blasts",
-      "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
-      "splice": "Ukrainian man arrested in Croatia over Nord Stream pipeline blasts which is to say the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
-      "seed": 20260838
-    },
-    {
-      "headline": "Secret ICE Agent Tried to “Entice” Minneapolis Activists Into Confrontational Tactics",
-      "fragment": "The truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
-      "splice": "Secret ICE Agent Tried to “Entice” Minneapolis Activists Into Confrontational Tactics underneath the truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
-      "seed": 20260839
-    },
-    {
-      "headline": "Mourinho fires Real Madrid shot at Barcelona saying he ‘didn’t need’ Rodri",
-      "fragment": "Art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
-      "splice": "Mourinho fires Real Madrid shot at Barcelona saying he ‘didn’t need’ Rodri as if art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
+      "headline": "U.A.E. Announces Halt to Trade With Iran Amid Trump’s Push To Isolate Tehran",
+      "fragment": "Pretending, or dissimulating, leaves the principle of reality intact: the difference is always clear, it is simply masked.",
+      "splice": "U.A.E. Announces Halt to Trade With Iran Amid Trump’s Push To Isolate Tehran insofar as pretending, or dissimulating, leaves the principle of reality intact: the difference is always clear, it is simply masked.",
       "seed": 20260840
     },
     {
-      "headline": "The Short Life of a Newborn During the Iran War",
-      "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "splice": "The Short Life of a Newborn During the Iran War consequently the breast is a machine that produces milk, and the mouth a machine coupled to it.",
+      "headline": "Israel Opens Criminal Investigation Into Killings of Hind Rajab and Gaza Medical Workers",
+      "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
+      "splice": "Israel Opens Criminal Investigation Into Killings of Hind Rajab and Gaza Medical Workers underneath the revolutionary lives in the gap which separates technical progress from social totality.",
       "seed": 20260841
     },
     {
-      "headline": "U.A.E. Announces Halt to Trade With Iran Amid Trump’s Push To Isolate Tehran",
-      "fragment": "The privatization of the organs will only begin with the shame felt by man at the sight of man.",
-      "splice": "U.A.E. Announces Halt to Trade With Iran Amid Trump’s Push To Isolate Tehran while the privatization of the organs will only begin with the shame felt by man at the sight of man.",
+      "headline": "ICE Shot a Journalist and Threw Him in Detention. He’s Approaching 300 Days Behind Bars With a Festering Wound.",
+      "fragment": "Antagonism is not now located externally, in the face-off between class blocs, but internally, in the psychology of the worker.",
+      "splice": "ICE Shot a Journalist and Threw Him in Detention. He’s Approaching 300 Days Behind Bars With a Festering Wound. within which antagonism is not now located externally, in the face-off between class blocs, but internally, in the psychology of the worker.",
       "seed": 20260842
     },
     {
-      "headline": "Israel numbers Palestinian detainee foreheads: What we know",
+      "headline": "ICE Worked With Iranian Regime to Set Up Deportation Flights as Trump Laid Plans for War",
       "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
-      "splice": "Israel numbers Palestinian detainee foreheads: What we know not unlike the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "splice": "ICE Worked With Iranian Regime to Set Up Deportation Flights as Trump Laid Plans for War the system notes that the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
       "seed": 20260843
+    },
+    {
+      "headline": "South Korea shortens war games with US, citing Washington request",
+      "fragment": "Underneath all reason lies delirium and drift.",
+      "splice": "South Korea shortens war games with US, citing Washington request consequently underneath all reason lies delirium and drift.",
+      "seed": 20260844
+    },
+    {
+      "headline": "A Democratic Socialist Aims to Oust a Top AIPAC Beneficiary in Florida",
+      "fragment": "Everywhere it is machines—real ones, not figurative ones: machines driving other machines, machines being driven by other machines, with all the necessary couplings and connections.",
+      "splice": "A Democratic Socialist Aims to Oust a Top AIPAC Beneficiary in Florida as if everywhere it is machines—real ones, not figurative ones: machines driving other machines, machines being driven by other machines, with all the necessary couplings and connections.",
+      "seed": 20260845
+    },
+    {
+      "headline": "What The Intercept Is Reading",
+      "fragment": "Simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
+      "splice": "What The Intercept Is Reading underneath simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
+      "seed": 20260846
+    },
+    {
+      "headline": "What’s behind Israel’s latest attack on Syria?",
+      "fragment": "If it is true, for instance, that depression is caused by low serotonin levels, it would still be necessary to explain why particular individuals have low serotonin levels.",
+      "splice": "What’s behind Israel’s latest attack on Syria? meanwhile if it is true, for instance, that depression is caused by low serotonin levels, it would still be necessary to explain why particular individuals have low serotonin levels.",
+      "seed": 20260847
+    },
+    {
+      "headline": "USS Lincoln woes highlight US Navy limits in prolonged Iran war: Experts",
+      "fragment": "The privatization of the organs will only begin with the shame felt by man at the sight of man.",
+      "splice": "USS Lincoln woes highlight US Navy limits in prolonged Iran war: Experts the system notes that the privatization of the organs will only begin with the shame felt by man at the sight of man.",
+      "seed": 20260848
+    },
+    {
+      "headline": "The Short Life of a Newborn During the Iran War",
+      "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
+      "splice": "The Short Life of a Newborn During the Iran War consequently the revolutionary lives in the gap which separates technical progress from social totality.",
+      "seed": 20260849
     }
   ]
 }
