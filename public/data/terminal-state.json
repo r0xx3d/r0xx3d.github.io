@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T12:54:27.668Z",
+  "generated_at": "2026-08-20T15:36:06.627Z",
   "threat_intel": {
     "cisa_kev": [
       {
@@ -231,250 +231,291 @@
     ],
     "urlhaus": [
       {
-        "id": "3906171",
-        "date_added": "2026-08-20 12:37:23",
-        "url": "http://123.14.178.128:40955/i",
+        "id": "3906255",
+        "date_added": "2026-08-20 15:22:08",
+        "url": "http://182.112.89.53:48165/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "32-bit",
-          "elf",
-          "mips",
           "Mozi"
         ]
       },
       {
-        "id": "3906170",
-        "date_added": "2026-08-20 12:31:23",
-        "url": "http://123.14.178.128:40955/bin.sh",
+        "id": "3906254",
+        "date_added": "2026-08-20 15:11:08",
+        "url": "http://www.2goelectricity.cloud/img_122332.png",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
+          "rat",
+          "RemcosRAT"
         ]
       },
       {
-        "id": "3906169",
-        "date_added": "2026-08-20 12:14:22",
-        "url": "http://85.108.86.149:50272/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3906168",
-        "date_added": "2026-08-20 12:00:48",
-        "url": "http://60.217.123.198:46902/bin.sh",
+        "id": "3906253",
+        "date_added": "2026-08-20 15:10:08",
+        "url": "http://178.16.53.176/PW/prcrypted.ps1",
         "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "ascii",
+          "Formbook",
+          "powershell",
+          "ps1"
+        ]
+      },
+      {
+        "id": "3906252",
+        "date_added": "2026-08-20 15:07:06",
+        "url": "http://178.16.53.176/PW/pr2crypted.ps1",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "ascii",
+          "powershell",
+          "ps1",
+          "VIPKeylogger"
+        ]
+      },
+      {
+        "id": "3906251",
+        "date_added": "2026-08-20 15:06:06",
+        "url": "http://178.16.53.176/PW/EZcrypted.ps1",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "ascii",
+          "powershell",
+          "ps1",
+          "VIPKeylogger"
+        ]
+      },
+      {
+        "id": "3906250",
+        "date_added": "2026-08-20 15:05:10",
+        "url": "https://pub-45a83f302a1943ed8d62418c2af947ef.r2.dev/bin001.png",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "xworm"
+        ]
+      },
+      {
+        "id": "3906249",
+        "date_added": "2026-08-20 15:04:07",
+        "url": "https://pub-a06eb79f0ebe4a6999bcc71a2227d8e3.r2.dev/app330.png",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "xworm"
+        ]
+      },
+      {
+        "id": "3906248",
+        "date_added": "2026-08-20 15:03:25",
+        "url": "http://115.58.177.63:33235/i",
+        "url_status": "online",
         "threat": "malware_download",
         "tags": [
           "32-bit",
           "arm",
           "elf",
+          "mirai",
           "Mozi"
         ]
       },
       {
-        "id": "3906167",
-        "date_added": "2026-08-20 11:57:15",
-        "url": "http://42.178.23.194:35659/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3906166",
-        "date_added": "2026-08-20 11:53:20",
-        "url": "http://61.137.206.166:45619/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3906165",
-        "date_added": "2026-08-20 11:32:23",
-        "url": "http://42.178.23.194:35659/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3906164",
-        "date_added": "2026-08-20 11:26:07",
-        "url": "http://182.117.51.201:37109/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3906163",
-        "date_added": "2026-08-20 11:23:23",
-        "url": "http://182.121.247.247:43842/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3906162",
-        "date_added": "2026-08-20 11:22:07",
-        "url": "http://182.114.49.31:47819/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3906161",
-        "date_added": "2026-08-20 11:02:07",
-        "url": "http://182.117.51.201:37109/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3906160",
-        "date_added": "2026-08-20 10:52:06",
-        "url": "http://222.138.103.241:51367/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3906159",
-        "date_added": "2026-08-20 10:29:22",
-        "url": "http://36.5.87.54:4370/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3906158",
-        "date_added": "2026-08-20 10:11:07",
-        "url": "http://61.52.159.178:51500/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3906157",
-        "date_added": "2026-08-20 10:06:25",
-        "url": "http://211.229.127.206:53013/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3906156",
-        "date_added": "2026-08-20 10:02:16",
-        "url": "http://119.117.108.130:33716/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3906155",
-        "date_added": "2026-08-20 10:01:09",
-        "url": "http://121.40.213.105:9384/linux",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3906153",
-        "date_added": "2026-08-20 10:01:06",
-        "url": "http://85.137.246.220:9705/linux",
+        "id": "3906236",
+        "date_added": "2026-08-20 14:48:05",
+        "url": "http://5.182.210.174/a9eeb4",
         "url_status": "offline",
         "threat": "malware_download",
         "tags": [
-          "None"
+          "ua-wget"
         ]
       },
       {
-        "id": "3906154",
-        "date_added": "2026-08-20 10:01:06",
-        "url": "http://120.84.215.27:44835/bin.sh",
+        "id": "3906237",
+        "date_added": "2026-08-20 14:48:05",
+        "url": "http://5.182.210.174/63d2dd",
         "url_status": "offline",
         "threat": "malware_download",
         "tags": [
-          "None"
+          "ua-wget"
         ]
       },
       {
-        "id": "3906152",
-        "date_added": "2026-08-20 09:58:15",
-        "url": "http://182.119.6.45:53526/bin.sh",
-        "url_status": "online",
+        "id": "3906238",
+        "date_added": "2026-08-20 14:48:05",
+        "url": "http://5.182.210.174/1e596c",
+        "url_status": "offline",
         "threat": "malware_download",
         "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3906239",
+        "date_added": "2026-08-20 14:48:05",
+        "url": "http://5.182.210.174/59e4b9",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3906240",
+        "date_added": "2026-08-20 14:48:05",
+        "url": "http://5.182.210.174/229db9",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3906241",
+        "date_added": "2026-08-20 14:48:05",
+        "url": "http://5.182.210.174/6711b4",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3906242",
+        "date_added": "2026-08-20 14:48:05",
+        "url": "http://5.182.210.174/f61d73",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3906243",
+        "date_added": "2026-08-20 14:48:05",
+        "url": "http://5.182.210.174/833d99",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3906244",
+        "date_added": "2026-08-20 14:48:05",
+        "url": "http://5.182.210.174/908e60",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3906245",
+        "date_added": "2026-08-20 14:48:05",
+        "url": "http://5.182.210.174/e6a806",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3906246",
+        "date_added": "2026-08-20 14:48:05",
+        "url": "http://5.182.210.174/e27047",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3906247",
+        "date_added": "2026-08-20 14:48:05",
+        "url": "http://5.182.210.174/646d52",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "ua-wget"
         ]
       }
     ]
   },
   "world_monitor": [
     {
-      "title": "Russian Missiles Kill at Least 15 in Kyiv as Air Defenses Dwindle",
+      "title": "Man Utd preview: Five key talking points for 2026-27 Premier League season",
+      "link": "https://www.aljazeera.com/sports/2026/8/20/man-utd-preview-five-key-talking-points-for-2026-27-premier-league-season?traffic_source=rss",
+      "pubDate": "Thu, 20 Aug 2026 15:00:43 +0000",
+      "source": "Al Jazeera",
+      "summary": "From Bruno Fernandes's future to a Champions League return, all to know about Manchester United before the new season."
+    },
+    {
+      "title": "How China and Russia could hobble Trump’s plans to isolate Iran",
+      "link": "https://www.aljazeera.com/news/2026/8/20/how-china-and-russia-could-hobble-trumps-plans-to-isolate-iran?traffic_source=rss",
+      "pubDate": "Thu, 20 Aug 2026 14:55:47 +0000",
+      "source": "Al Jazeera",
+      "summary": "Iran's deep trade ties with Beijing and Moscow could prove difficult for the US to disrupt, say analysts."
+    },
+    {
+      "title": "Governments brace for historic El Nino impacts on global weather extremes",
+      "link": "https://www.aljazeera.com/news/2026/8/20/governments-brace-for-historic-el-nino-impacts-on-global-weather-extremes?traffic_source=rss",
+      "pubDate": "Thu, 20 Aug 2026 14:45:55 +0000",
+      "source": "Al Jazeera",
+      "summary": "Sri Lanka earmarks $14m to fight severe drought, offering families 75 litres of water every two-three days."
+    },
+    {
+      "title": "‘Tremendous costs’: Can Trump stop other countries from trading with Iran?",
+      "link": "https://www.aljazeera.com/news/2026/8/20/tremendous-costs-can-trump-stop-other-countries-from-trading-with-iran?traffic_source=rss",
+      "pubDate": "Thu, 20 Aug 2026 14:40:51 +0000",
+      "source": "Al Jazeera",
+      "summary": "Iran's foreign minister has dismissed Trump’s latest threats, calling them a “diversion\" from America’s own crisis.\""
+    },
+    {
+      "title": "USS Washington arrives in Middle East after aircraft carrier outcry",
+      "link": "https://www.aljazeera.com/news/2026/8/20/uss-washington-arrives-in-middle-east-after-aircraft-carrier-outcry?traffic_source=rss",
+      "pubDate": "Thu, 20 Aug 2026 14:36:35 +0000",
+      "source": "Al Jazeera",
+      "summary": "Vessel expected to replace USS Lincoln after reports of dire conditions on board raised questions over US war planning."
+    },
+    {
+      "title": "After Six Years, Harry and Meghan Are Coming Home. What Changed?",
+      "link": "https://www.nytimes.com/2026/08/20/world/europe/harry-meghan-britain-return.html",
+      "pubDate": "Thu, 20 Aug 2026 14:23:34 +0000",
+      "source": "NYT World",
+      "summary": "Just last year, Prince Harry said he couldn’t imagine ever bringing his family back to Britain."
+    },
+    {
+      "title": "Missile Barrage Shows Russia’s Doubt That Ukraine Can Defend Itself",
       "link": "https://www.nytimes.com/2026/08/20/world/europe/ukraine-kyiv-missiles-russia-war.html",
-      "pubDate": "Thu, 20 Aug 2026 12:13:01 +0000",
+      "pubDate": "Thu, 20 Aug 2026 14:20:36 +0000",
       "source": "NYT World",
       "summary": "Moscow is taking advantage of Ukraine’s depleted stock of interceptors and is intensifying attacks, worsening the civilian death toll."
+    },
+    {
+      "title": "At least 15 killed in Kyiv as Ukraine grapples with air defence shortages",
+      "link": "https://www.bbc.co.uk/news/articles/c98vzmden5yo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Thu, 20 Aug 2026 13:56:25 GMT",
+      "source": "BBC",
+      "summary": "Blocks of flats and warehouses were targeted in the \"massive attack\" on Thursday, Ukrainian officials say."
+    },
+    {
+      "title": "Immigrant Wants to Pay $368,000 in Fines, but Broken Payment System Won’t Let Him",
+      "link": "https://theintercept.com/2026/08/20/trump-immigration-civil-fines-deport/",
+      "pubDate": "Thu, 20 Aug 2026 13:47:09 +0000",
+      "source": "The Intercept",
+      "summary": "The fines, for not “willfully” leaving the country, can accrue interest and harm people in immigration proceedings.\nThe post Immigrant Wants to Pay $368,000 in Fines, but Broken Payment System Won’t Let Him appeared first on The Intercept."
+    },
+    {
+      "title": "Assad officer extradited to Syria on war crimes charges for first time",
+      "link": "https://www.bbc.co.uk/news/articles/cvgjdy8q766o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Thu, 20 Aug 2026 12:38:35 GMT",
+      "source": "BBC",
+      "summary": "Lebanon handed over former General Adel Issa, as Syria steps up its pursuit of wanted members of the former regime."
     },
     {
       "title": "The Indian City Where AI Is Creating Jobs for Humans",
@@ -484,53 +525,11 @@
       "summary": "In the fast-growing field of data annotation, workers in a small city in south India train A.I. to improve how it performs tasks traditionally done by people."
     },
     {
-      "title": "Bangladesh’s government under pressure as youth demand jobs",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/20/20-08-reported-tanvir-chowdhury-bangladesh-bn?traffic_source=rss",
-      "pubDate": "Thu, 20 Aug 2026 11:49:36 +0000",
-      "source": "Al Jazeera",
-      "summary": "Six months into Prime Minister Tariq Rahman’s term, Bangladesh faces an energy crisis and rising prices."
-    },
-    {
-      "title": "Who was Hind Rajab and why is Israel investigating her killing?",
-      "link": "https://www.aljazeera.com/news/2026/8/20/who-was-hind-rajab-and-why-is-israel-investigating-her-killing?traffic_source=rss",
-      "pubDate": "Thu, 20 Aug 2026 11:48:18 +0000",
-      "source": "Al Jazeera",
-      "summary": "After two years of denial, Israel admits firing on the 5-year-old's car. But her family and others don't expect justice."
-    },
-    {
-      "title": "Israel is betting on Islamophobia to save its standing in the West",
-      "link": "https://www.aljazeera.com/opinions/2026/8/20/israel-is-betting-on-islamophobia-to-save-its-standing-in-the-west?traffic_source=rss",
-      "pubDate": "Thu, 20 Aug 2026 11:44:15 +0000",
-      "source": "Al Jazeera",
-      "summary": "Netanyahu’s government is using anti-Muslim fear to rally a Western right increasingly receptive to its message."
-    },
-    {
-      "title": "After Six Years, Harry and Meghan Are Coming Home. What Changed?",
-      "link": "https://www.nytimes.com/2026/08/20/world/europe/harry-meghan-britain-return.html",
-      "pubDate": "Thu, 20 Aug 2026 11:28:17 +0000",
+      "title": "China Sentences Evergrande Founder to Life in Prison",
+      "link": "https://www.nytimes.com/2026/08/20/business/evergrande-founder-life-prison.html",
+      "pubDate": "Thu, 20 Aug 2026 10:28:27 +0000",
       "source": "NYT World",
-      "summary": "Just last year, Prince Harry said he couldn’t imagine ever bringing his family back to Britain."
-    },
-    {
-      "title": "PSG forced to move opening league match as heatwave in France damages pitch",
-      "link": "https://www.aljazeera.com/sports/2026/8/20/psg-forced-to-move-opening-league-match-as-heatwave-in-france-damages-pitch?traffic_source=rss",
-      "pubDate": "Thu, 20 Aug 2026 11:21:50 +0000",
-      "source": "Al Jazeera",
-      "summary": "Paris Saint-Germain moves its opening league game to Rennes after heatwave causes damage to pitch at Parc des Princes."
-    },
-    {
-      "title": "At least 15 killed in Kyiv as Ukraine grapples with air defence shortages",
-      "link": "https://www.bbc.co.uk/news/articles/c98vzmden5yo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Thu, 20 Aug 2026 11:06:54 GMT",
-      "source": "BBC",
-      "summary": "Blocks of flats and warehouses were targeted in the \"massive attack\" on Thursday, Ukrainian officials say."
-    },
-    {
-      "title": "How Myanmar’s war drives the Rohingya crisis",
-      "link": "https://www.aljazeera.com/video/investigations/2026/8/20/how-myanmars-war-drives-the-rohingya-crisis?traffic_source=rss",
-      "pubDate": "Thu, 20 Aug 2026 11:00:00 +0000",
-      "source": "Al Jazeera",
-      "summary": "Al Jazeera exposes atrocities committed against the Rohingya ethnic minority group during Myanmar’s civil war."
+      "summary": "Hui Ka Yan’s punishment caps the downfall of a property empire whose collapse set off a prolonged crisis in the Chinese economy."
     },
     {
       "title": "Belgian car salesman becomes prince after royal parentage confirmed",
@@ -538,13 +537,6 @@
       "pubDate": "Thu, 20 Aug 2026 10:14:47 GMT",
       "source": "BBC",
       "summary": "Clément Vandenkerckhove was quietly brought into Prince Laurent's family at a town hall ceremony."
-    },
-    {
-      "title": "Bare Grocery Shelves Are a New Wartime Hardship for Ukrainians",
-      "link": "https://www.nytimes.com/2026/08/20/world/europe/ukraine-grocery-stores-shortages.html",
-      "pubDate": "Thu, 20 Aug 2026 09:28:09 +0000",
-      "source": "NYT World",
-      "summary": "After years of pounding power plants and cities, Russia’s air war has taken aim at Ukraine’s supermarket warehouses."
     },
     {
       "title": "Trump vows tougher economic measures on Iran and supporting countries",
@@ -559,13 +551,6 @@
       "pubDate": "Thu, 20 Aug 2026 09:04:07 +0000",
       "source": "NYT World",
       "summary": "For weeks, there has been no diplomatic progress, but also no full-scale fighting, as both sides seem to believe they can hold out longer than the other."
-    },
-    {
-      "title": "Mushroom killer must stay in jail forever for 'truly dreadful' crime, appeal court told",
-      "link": "https://www.bbc.co.uk/news/articles/ckg3j3yn4exo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Thu, 20 Aug 2026 07:08:35 GMT",
-      "source": "BBC",
-      "summary": "Prosecutors say Erin Patterson's sentence was \"manifestly inadequate\" as it allows for the possibility of parole."
     },
     {
       "title": "Founder of collapsed Chinese property giant Evergrande sentenced to life in prison",
@@ -601,13 +586,6 @@
       "pubDate": "Mon, 17 Aug 2026 14:01:56 +0000",
       "source": "The Intercept",
       "summary": "Oliver Larkin is trying to unseat Rep. Jared Moskowitz, who is backed by AIPAC donors and an artificial intelligence super PAC.\nThe post A Democratic Socialist Aims to Oust a Top AIPAC Beneficiary in Florida appeared first on The Intercept."
-    },
-    {
-      "title": "ICE Shot a Journalist and Threw Him in Detention. He’s Approaching 300 Days Behind Bars With a Festering Wound.",
-      "link": "https://theintercept.com/2026/08/16/ricardo-parias-ice-detention-journalist-los-angeles/",
-      "pubDate": "Sun, 16 Aug 2026 10:00:00 +0000",
-      "source": "The Intercept",
-      "summary": "With the case of Carlitos Ricardo Parias, the U.S. has broken its own record for holding a journalist in custody.\nThe post ICE Shot a Journalist and Threw Him in Detention. He’s Approaching 300 Days Behind Bars With a Festering Wound. appeared first "
     },
     {
       "title": "Welcome to Dubai: Kinahan Cartel’s Visas Revealed",
@@ -712,10 +690,50 @@
   ],
   "syndicate_journal": [
     {
+      "title": "Immanuel Wallerstein Predicted the Fall of the US Empire",
+      "link": "",
+      "summary": "In July 2002, Immanuel Wallerstein appeared on C-SPAN’s morning . He had just written an  for  magazine with a provocative title: “The Eagle Has Crash Landed.” Wallerstein argued that the US position of dominance on the world stage was in decline.call-in programessayForeign Policy\nAs he was speaking",
+      "pubDate": "2026-08-20T14:50:13.907Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "Utopia Is a Promise Worth Fighting For",
+      "link": "",
+      "summary": "The haunting impossibility of a society that lives up to our stated ideals can feel painful when set against the actual societies that fall so far short of them. This is why the dream of utopia, or “no place,” has disturbed the sleep of many thinkers for so long it can feel instead like a nightmare.",
+      "pubDate": "2026-08-20T14:10:31.947Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "Are We Thinking Correctly About AI Intelligence?",
+      "link": "https://www.quantamagazine.org/are-we-thinking-correctly-about-ai-intelligence-20260820/",
+      "summary": "Computer scientist Melanie Mitchell discusses why artificial intelligence doesn’t “think” or “reason” like humans, and how we can create better methods for measuring machine cognition.            \nThe post Are We Thinking Correctly About AI Intelligence? first appeared on Quanta Magazine",
+      "pubDate": "Thu, 20 Aug 2026 14:04:40 +0000",
+      "domain": "science",
+      "source": "Quanta"
+    },
+    {
+      "title": "No One Knows How Whale Sharks Give Birth—But This Neonatal Shark Discovery Provides Some Clues",
+      "link": "https://nautil.us/no-one-knows-how-whale-sharks-give-birth-but-this-neonatal-shark-discovery-provides-some-clues-1284017/",
+      "summary": "A rare find on a fishing expedition\nThe post No One Knows How Whale Sharks Give Birth—But This Neonatal Shark Discovery Provides Some Clues appeared first on Nautilus.",
+      "pubDate": "Thu, 20 Aug 2026 14:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "The Culture Wars of The Phantom of the Opera",
+      "link": "https://daily.jstor.org/the-culture-wars-of-the-phantom-of-the-opera/",
+      "summary": "The hit musical became a battleground for competing ideas about capitalism, artistic value, and commercial theater.\nThe post The Culture Wars of The Phantom of the Opera appeared first on JSTOR Daily.",
+      "pubDate": "Thu, 20 Aug 2026 13:32:58 +0000",
+      "domain": "history",
+      "source": "JSTOR Daily"
+    },
+    {
       "title": "German Greens Bet the Future on More Weapons Spending",
       "link": "",
       "summary": "According to the famous “garbage can” model of political decision-making, there isn’t much rationality in politics.  in the 1970s, this model resists the idea that collective choices are the outcome of political professionals intentionally looking for optimal solutions for well-defined problems. Rat",
-      "pubDate": "2026-08-20T12:50:28.864Z",
+      "pubDate": "2026-08-20T12:50:28.865Z",
       "domain": "politics",
       "source": "Jacobin"
     },
@@ -784,30 +802,6 @@
       "source": "Nautilus"
     },
     {
-      "title": "How Listening to Ocean Waves Can Predict Volcanic Eruptions",
-      "link": "https://nautil.us/how-listening-to-ocean-waves-can-predict-volcanic-eruptions-1284014/",
-      "summary": "The speed of the soothing sounds could spell disaster \nThe post How Listening to Ocean Waves Can Predict Volcanic Eruptions appeared first on Nautilus.",
-      "pubDate": "Wed, 19 Aug 2026 20:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
-      "title": "Private Equity Is Buying Up the World of Football",
-      "link": "",
-      "summary": "Les Girondins de Bordeaux is one of France’s most historic and decorated , with a record of winning six League 1 titles and nurturing star players from Zinedine Zidane to Jules Koundé and Aurélien Tchouaméni. Yet at the start of the 2025–26 season, the club found itself on the verge of collapse, str",
-      "pubDate": "2026-08-19T19:24:04.236Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
-      "title": "In Peru, Keiko Fujimori Promises Order, Not Reconciliation",
-      "link": "",
-      "summary": "The polling stations had not long been open when Keiko Fujimori reached the cemetery with her younger sister and her teenage daughters. Dressed uniformly in starch white blouses and blue-wash jeans, they proceeded across the lawn, each carrying a sheaf of roses and carnations. The elder women knelt ",
-      "pubDate": "2026-08-19T16:50:06.592Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
       "title": "Building a Quantum Computer, One Fragile Qubit at a Time",
       "link": "https://www.quantamagazine.org/building-a-quantum-computer-one-fragile-qubit-at-a-time-20260819/",
       "summary": "No one yet knows which technology will power the quantum computers of the future, but the race to create them has already produced some of science’s most intricate machinery.            \nThe post Building a Quantum Computer, One Fragile Qubit at a Time first appeared on Quanta Magazine",
@@ -864,30 +858,6 @@
       "source": "Quanta"
     },
     {
-      "title": "Ancient Rome: A City of Immigrants",
-      "link": "https://daily.jstor.org/ancient-rome-a-city-of-immigrants/",
-      "summary": "A neighborhood beyond the Tiber became home to generations of Jewish and Syrian migrants who reshaped the imperial capital.\nThe post Ancient Rome: A City of Immigrants appeared first on JSTOR Daily.",
-      "pubDate": "Mon, 17 Aug 2026 13:29:58 +0000",
-      "domain": "history",
-      "source": "JSTOR Daily"
-    },
-    {
-      "title": "Why Aging May Be a Program, Not a Breakdown",
-      "link": "https://www.quantamagazine.org/why-aging-may-be-a-program-not-a-breakdown-20260814/",
-      "summary": "By deciphering the molecular signatures of millions of mouse cells, Junyue Cao has found that aging is not haphazard wear and tear but rather a “remodeling of the cell society.”            \nThe post Why Aging May Be a Program, Not a Breakdown first appeared on Quanta Magazine",
-      "pubDate": "Fri, 14 Aug 2026 13:10:26 +0000",
-      "domain": "science",
-      "source": "Quanta"
-    },
-    {
-      "title": "What It’s Like to Be…a Mail Carrier",
-      "link": "https://behavioralscientist.org/what-its-like-to-be-a-mail-carrier/",
-      "summary": "Loading the mail truck before the day begins, dealing with aggressive dogs and bad weather, and keeping a neighborhood connected by showing up every day with John Ayala, a retired mail carrier in Los Angeles. How did a golf club help him deliver packages? And what does a mail carrier learn about us ",
-      "pubDate": "Tue, 11 Aug 2026 12:30:27 +0000",
-      "domain": "psychology",
-      "source": "Behavioral Scientist"
-    },
-    {
       "title": "Artificial Intelligence: Ars Notoria and the Promise of Instant Knowledge\n",
       "link": "https://publicdomainreview.org/essay/ars-notoria",
       "summary": "Centuries before Neo instantly mastered Kung Fu in *The Matrix*, medieval scholars found a shortcut to years of difficult study: a magical manuscript that promised to fast-track advanced learning. Anne Lawrence-Mathers investigates the *Ars notoria*, its supposed powers, and the demonic influence it",
@@ -910,22 +880,6 @@
       "pubDate": "Tue, 28 Jul 2026 19:02:00 GMT",
       "domain": "history",
       "source": "Public Domain Review"
-    },
-    {
-      "title": "What It’s Like to Be…a Hotshot",
-      "link": "https://behavioralscientist.org/what-its-like-to-be-a-hotshot/",
-      "summary": "Digging line to redirect the country's fiercest wildland fires, sleeping in the dirt after a 16-hour day, and turning physical endurance into a public service with Ben Strahan, a hotshot crew superintendent in California. What does a wildfire sound like up close? And where does a crew go when the fi",
-      "pubDate": "Tue, 28 Jul 2026 12:23:34 +0000",
-      "domain": "psychology",
-      "source": "Behavioral Scientist"
-    },
-    {
-      "title": "Journey to Robbers Cave",
-      "link": "https://behavioralscientist.org/journey-to-robbers-cave/",
-      "summary": "The year was 1948. Only three years had passed since the Axis powers signed the instrument of surrender effectively ending the Second World War. Fifty nations had taken part in the conflict that saw genocide and the first use of nuclear weapons. An estimated 50 million lives were lost and another 19",
-      "pubDate": "Sun, 19 Jul 2026 22:58:46 +0000",
-      "domain": "psychology",
-      "source": "Behavioral Scientist"
     },
     {
       "title": "Best of SAPIENS 2025",
@@ -984,9 +938,9 @@
       "source": "Frontiers Psychology"
     },
     {
-      "title": "Artificial-intelligence–based developmental screening for pre-school children (ages 3–6): a scoping review of deployed tools, clinical validity, equity, and implementation in guidance-center settings",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1913332",
-      "summary": "BackgroundEarly identification of neurodevelopmental conditions during the pre-school years (ages 3–6) is critical for timely intervention, yet traditional questionnaire-based screeners suffer from low positive predictive value, late detection, and inequitable access. Artificial intelligence (AI) an",
+      "title": "Correction: How is mental health associated with teenagers' attitudes toward sport participation? — The chain mediating role of exercise self-efficacy and sport confidence",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1940329",
+      "summary": "",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
@@ -1002,64 +956,64 @@
   ],
   "misinfo_toilet": [
     {
-      "headline": "Bare Grocery Shelves Are a New Wartime Hardship for Ukrainians",
-      "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "splice": "Bare Grocery Shelves Are a New Wartime Hardship for Ukrainians consequently it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "seed": 20260832
-    },
-    {
-      "headline": "Founder of collapsed Chinese property giant Evergrande sentenced to life in prison",
-      "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "splice": "Founder of collapsed Chinese property giant Evergrande sentenced to life in prison not unlike it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "seed": 20260833
-    },
-    {
-      "headline": "Will Ronaldo Cry​? World Cup Fans Bet Billions Through Prediction Markets",
+      "headline": "Belgian car salesman becomes prince after royal parentage confirmed",
       "fragment": "It is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
-      "splice": "Will Ronaldo Cry​? World Cup Fans Bet Billions Through Prediction Markets despite it is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
-      "seed": 20260834
-    },
-    {
-      "headline": "How Myanmar’s war drives the Rohingya crisis",
-      "fragment": "The privatization of the organs will only begin with the shame felt by man at the sight of man.",
-      "splice": "How Myanmar’s war drives the Rohingya crisis therefore the privatization of the organs will only begin with the shame felt by man at the sight of man.",
+      "splice": "Belgian car salesman becomes prince after royal parentage confirmed despite it is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
       "seed": 20260835
     },
     {
-      "headline": "Russian Missiles Kill at Least 15 in Kyiv as Air Defenses Dwindle",
-      "fragment": "Traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "splice": "Russian Missiles Kill at Least 15 in Kyiv as Air Defenses Dwindle ...as traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
+      "headline": "Assad officer extradited to Syria on war crimes charges for first time",
+      "fragment": "The privatization of the organs will only begin with the shame felt by man at the sight of man.",
+      "splice": "Assad officer extradited to Syria on war crimes charges for first time therefore the privatization of the organs will only begin with the shame felt by man at the sight of man.",
       "seed": 20260836
     },
     {
-      "headline": "Who was Hind Rajab and why is Israel investigating her killing?",
-      "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
-      "splice": "Who was Hind Rajab and why is Israel investigating her killing? insofar as the revolutionary lives in the gap which separates technical progress from social totality.",
+      "headline": "Welcome to Dubai: Kinahan Cartel’s Visas Revealed",
+      "fragment": "Traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
+      "splice": "Welcome to Dubai: Kinahan Cartel’s Visas Revealed ...as traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
       "seed": 20260837
     },
     {
-      "headline": "Welcome to Dubai: Kinahan Cartel’s Visas Revealed",
-      "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
-      "splice": "Welcome to Dubai: Kinahan Cartel’s Visas Revealed which is to say the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "headline": "ICE Worked With Iranian Regime to Set Up Deportation Flights as Trump Laid Plans for War",
+      "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
+      "splice": "ICE Worked With Iranian Regime to Set Up Deportation Flights as Trump Laid Plans for War insofar as the revolutionary lives in the gap which separates technical progress from social totality.",
       "seed": 20260838
     },
     {
-      "headline": "The Indian City Where AI Is Creating Jobs for Humans",
-      "fragment": "The truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
-      "splice": "The Indian City Where AI Is Creating Jobs for Humans underneath the truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
+      "headline": "At least 15 killed in Kyiv as Ukraine grapples with air defence shortages",
+      "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "splice": "At least 15 killed in Kyiv as Ukraine grapples with air defence shortages which is to say the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
       "seed": 20260839
     },
     {
-      "headline": "The Short Life of a Newborn During the Iran War",
-      "fragment": "Art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
-      "splice": "The Short Life of a Newborn During the Iran War as if art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
+      "headline": "A Democratic Socialist Aims to Oust a Top AIPAC Beneficiary in Florida",
+      "fragment": "The truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
+      "splice": "A Democratic Socialist Aims to Oust a Top AIPAC Beneficiary in Florida underneath the truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
       "seed": 20260840
     },
     {
       "headline": "Trump vows tougher economic measures on Iran and supporting countries",
-      "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "splice": "Trump vows tougher economic measures on Iran and supporting countries consequently the breast is a machine that produces milk, and the mouth a machine coupled to it.",
+      "fragment": "Art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
+      "splice": "Trump vows tougher economic measures on Iran and supporting countries as if art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
       "seed": 20260841
+    },
+    {
+      "headline": "What The Intercept Is Reading",
+      "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
+      "splice": "What The Intercept Is Reading consequently the breast is a machine that produces milk, and the mouth a machine coupled to it.",
+      "seed": 20260842
+    },
+    {
+      "headline": "How China and Russia could hobble Trump’s plans to isolate Iran",
+      "fragment": "The privatization of the organs will only begin with the shame felt by man at the sight of man.",
+      "splice": "How China and Russia could hobble Trump’s plans to isolate Iran while the privatization of the organs will only begin with the shame felt by man at the sight of man.",
+      "seed": 20260843
+    },
+    {
+      "headline": "The Short Life of a Newborn During the Iran War",
+      "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "splice": "The Short Life of a Newborn During the Iran War not unlike the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "seed": 20260844
     }
   ]
 }
