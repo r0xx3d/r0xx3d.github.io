@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T03:56:20.122Z",
+  "generated_at": "2026-08-24T07:03:04.163Z",
   "threat_intel": {
     "cisa_kev": [
       {
@@ -231,329 +231,318 @@
     ],
     "urlhaus": [
       {
-        "id": "3907428",
-        "date_added": "2026-08-24 03:51:49",
-        "url": "http://150.241.65.250:889/http_files/pito.x86",
+        "id": "3907449",
+        "date_added": "2026-08-24 06:59:16",
+        "url": "http://42.236.222.173:59854/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "elf",
-          "mirai",
-          "opendir",
-          "ua-wget",
-          "x86"
-        ]
-      },
-      {
-        "id": "3907427",
-        "date_added": "2026-08-24 03:51:43",
-        "url": "http://150.241.65.250:889/venv/lib64/python3.12/site-packages/nacl/_sodium.abi3.so",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "elf",
-          "opendir",
-          "ua-wget",
-          "x86"
-        ]
-      },
-      {
-        "id": "3907426",
-        "date_added": "2026-08-24 03:51:39",
-        "url": "http://150.241.65.250:889/venv/bin/python3",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "elf",
-          "mirai",
-          "opendir",
-          "ua-wget",
-          "x86"
-        ]
-      },
-      {
-        "id": "3907425",
-        "date_added": "2026-08-24 03:51:37",
-        "url": "http://150.241.65.250:889/venv/lib64/python3.12/site-packages/cryptography/hazmat/bindings/_rust.abi3.so",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "elf",
-          "mirai",
-          "opendir",
-          "ua-wget",
-          "x86"
-        ]
-      },
-      {
-        "id": "3907418",
-        "date_added": "2026-08-24 03:51:36",
-        "url": "http://150.241.65.250:889/raul.armv7l",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "arm",
-          "elf",
-          "opendir",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3907419",
-        "date_added": "2026-08-24 03:51:36",
-        "url": "http://150.241.65.250:889/http_files/gg11",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "elf",
-          "opendir",
-          "ua-wget",
-          "x86"
-        ]
-      },
-      {
-        "id": "3907420",
-        "date_added": "2026-08-24 03:51:36",
-        "url": "http://150.241.65.250:889/venv/bin/python3.12",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "elf",
-          "mirai",
-          "opendir",
-          "ua-wget",
-          "x86"
-        ]
-      },
-      {
-        "id": "3907421",
-        "date_added": "2026-08-24 03:51:36",
-        "url": "http://150.241.65.250:889/venv/lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust.abi3.so",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "elf",
-          "mirai",
-          "opendir",
-          "ua-wget",
-          "x86"
-        ]
-      },
-      {
-        "id": "3907422",
-        "date_added": "2026-08-24 03:51:36",
-        "url": "http://150.241.65.250:889/venv/bin/python",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "elf",
-          "mirai",
-          "opendir",
-          "ua-wget",
-          "x86"
-        ]
-      },
-      {
-        "id": "3907423",
-        "date_added": "2026-08-24 03:51:36",
-        "url": "http://150.241.65.250:889/http_files/pito.arm5",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "arm",
-          "elf",
-          "mirai",
-          "opendir",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3907424",
-        "date_added": "2026-08-24 03:51:36",
-        "url": "http://150.241.65.250:889/raul.mips",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
+          "32-bit",
           "elf",
           "mips",
-          "opendir",
-          "ua-wget"
+          "Mozi"
         ]
       },
       {
-        "id": "3907417",
-        "date_added": "2026-08-24 03:51:35",
-        "url": "http://150.241.65.250:889/dropper",
+        "id": "3907448",
+        "date_added": "2026-08-24 06:47:20",
+        "url": "http://27.204.195.233:38896/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "elf",
-          "opendir",
-          "ua-wget",
-          "x86"
-        ]
-      },
-      {
-        "id": "3907415",
-        "date_added": "2026-08-24 03:51:33",
-        "url": "http://150.241.65.250:889/raul.armv6l",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "arm",
-          "elf",
-          "opendir",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3907416",
-        "date_added": "2026-08-24 03:51:33",
-        "url": "http://150.241.65.250:889/.bash_history",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "opendir",
-          "sh",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3907411",
-        "date_added": "2026-08-24 03:51:31",
-        "url": "http://150.241.65.250:889/http_files/pito.x64",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "elf",
-          "mirai",
-          "opendir",
-          "ua-wget",
-          "x86"
-        ]
-      },
-      {
-        "id": "3907412",
-        "date_added": "2026-08-24 03:51:31",
-        "url": "http://150.241.65.250:889/raul.mipsel",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
+          "32-bit",
           "elf",
           "mips",
-          "opendir",
-          "ua-wget"
+          "Mozi"
         ]
       },
       {
-        "id": "3907413",
-        "date_added": "2026-08-24 03:51:31",
-        "url": "http://150.241.65.250:889/raul.armv4l",
+        "id": "3907447",
+        "date_added": "2026-08-24 06:43:11",
+        "url": "http://27.44.145.75:51284/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3907446",
+        "date_added": "2026-08-24 06:31:23",
+        "url": "http://219.156.115.142:56363/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3907445",
+        "date_added": "2026-08-24 06:26:19",
+        "url": "http://193.31.201.20:41118/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3907444",
+        "date_added": "2026-08-24 06:25:19",
+        "url": "http://96.245.232.186:44492/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3907443",
+        "date_added": "2026-08-24 06:07:13",
+        "url": "http://219.156.115.142:56363/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3907442",
+        "date_added": "2026-08-24 05:46:08",
+        "url": "http://123.14.32.199:49971/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3907441",
+        "date_added": "2026-08-24 05:15:15",
+        "url": "http://180.190.202.146:33639/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
           "arm",
           "elf",
-          "opendir",
-          "ua-wget"
+          "mirai",
+          "Mozi"
         ]
       },
       {
-        "id": "3907414",
-        "date_added": "2026-08-24 03:51:31",
-        "url": "http://150.241.65.250:889/bot",
+        "id": "3907440",
+        "date_added": "2026-08-24 05:11:08",
+        "url": "http://115.63.245.15:43804/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
+          "32-bit",
           "elf",
-          "opendir",
-          "ua-wget",
-          "x86"
+          "mips",
+          "Mozi"
         ]
       },
       {
-        "id": "3907399",
-        "date_added": "2026-08-24 03:51:30",
-        "url": "http://150.241.65.250:889/venv/lib/python3.12/site-packages/_cffi_backend.cpython-312-x86_64-linux-gnu.so",
+        "id": "3907439",
+        "date_added": "2026-08-24 05:04:16",
+        "url": "http://123.5.126.253:47935/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
+          "32-bit",
           "elf",
-          "opendir",
-          "ua-wget",
-          "x86"
+          "mips",
+          "Mozi"
         ]
       },
       {
-        "id": "3907400",
-        "date_added": "2026-08-24 03:51:30",
-        "url": "http://150.241.65.250:889/venv/lib64/python3.12/site-packages/pip/_vendor/packaging/__pycache__/_musllinux.cpython-312.pyc",
+        "id": "3907438",
+        "date_added": "2026-08-24 04:47:09",
+        "url": "http://115.63.245.15:43804/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3907437",
+        "date_added": "2026-08-24 04:39:22",
+        "url": "http://46.236.65.160:41635/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
           "elf",
-          "opendir",
-          "ua-wget"
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3907436",
+        "date_added": "2026-08-24 04:35:28",
+        "url": "http://123.5.126.253:47935/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3907435",
+        "date_added": "2026-08-24 04:32:09",
+        "url": "http://61.52.156.240:45646/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3907434",
+        "date_added": "2026-08-24 04:32:08",
+        "url": "http://61.53.74.116:56778/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3907433",
+        "date_added": "2026-08-24 04:31:24",
+        "url": "http://210.208.110.147:41851/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "mirai",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3907432",
+        "date_added": "2026-08-24 04:16:12",
+        "url": "http://42.230.40.70:54217/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3907431",
+        "date_added": "2026-08-24 04:02:18",
+        "url": "http://210.208.110.147:41851/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "mirai",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3907430",
+        "date_added": "2026-08-24 04:02:07",
+        "url": "http://120.57.123.42:57417/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
         ]
       }
     ]
   },
   "world_monitor": [
     {
-      "title": "Nearly 3 million Teslas recalled in China over hidden door handles",
-      "link": "https://www.bbc.co.uk/news/articles/c4g6ggdg030o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Mon, 24 Aug 2026 03:27:11 GMT",
-      "source": "BBC",
-      "summary": "Other brands affected by the recall include Chinese carmakers XPeng, Xiaomi and Geely."
-    },
-    {
-      "title": "Human-caused Nevada wildfire forces 42,000 people to evacuate",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/24/08-24-26-nevada-forest-fire-sv?traffic_source=rss",
-      "pubDate": "Mon, 24 Aug 2026 02:55:39 +0000",
-      "source": "Al Jazeera",
-      "summary": "A fast-moving wildfire near Reno, Nevada, has forced 42,000 people to evacuate and put another 45,000 on alert."
-    },
-    {
-      "title": "Can Kenya’s AI ambitions coexist with Naivasha’s water needs?",
-      "link": "https://www.aljazeera.com/economy/2026/8/24/can-kenyas-ai-ambitions-coexist-with-naivashas-water-needs?traffic_source=rss",
-      "pubDate": "Mon, 24 Aug 2026 02:09:40 +0000",
-      "source": "Al Jazeera",
-      "summary": "As Kenya courts data-centre investment, communities fear growing pressure on an already stressed water system."
-    },
-    {
       "title": "Shein aims for almost $27bn valuation in stock market debut",
       "link": "https://www.bbc.co.uk/news/articles/cdeweewjdxno?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Mon, 24 Aug 2026 02:05:04 GMT",
+      "pubDate": "Mon, 24 Aug 2026 07:00:53 GMT",
       "source": "BBC",
       "summary": "The fast-fashion giant's shares are due to start trading in Hong Kong on 1 September."
     },
     {
-      "title": "Ebola cases in DRC hit 5,515 as Pope Leo urges global action to save lives",
-      "link": "https://www.aljazeera.com/news/2026/8/24/ebola-cases-in-drc-top-5515-as-pope-leo-urges-global-action-to-save-lives?traffic_source=rss",
-      "pubDate": "Mon, 24 Aug 2026 02:02:28 +0000",
+      "title": "Pakistan’s army chief Munir returns to Iran: Can he break US war deadlock?",
+      "link": "https://www.aljazeera.com/news/2026/8/24/pakistans-army-chief-munir-returns-to-iran-can-he-break-us-war-deadlock?traffic_source=rss",
+      "pubDate": "Mon, 24 Aug 2026 06:30:37 +0000",
       "source": "Al Jazeera",
-      "summary": "Case fatality rate climbs to nearly 48 percent in DRC, meaning almost one in two people infected with Ebola are dying."
+      "summary": "Pakistan says it can offer a channel between Tehran and Washington, but analysts differ over how much influence it has."
     },
     {
-      "title": "India crushes cockroach dissent as ‘Fix Schools’ campaign riles Modi",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/24/india-crushes-cockroach-dissent-as-fix-schools-campaign-riles-modi?traffic_source=rss",
-      "pubDate": "Mon, 24 Aug 2026 01:51:40 +0000",
+      "title": "Salah scores two goals, has two disallowed in first start for Trabzonspor",
+      "link": "https://www.aljazeera.com/sports/2026/8/24/salah-scores-two-goals-has-two-disallowed-in-first-start-for-trabzonspor?traffic_source=rss",
+      "pubDate": "Mon, 24 Aug 2026 06:18:32 +0000",
       "source": "Al Jazeera",
-      "summary": "The Cockroach Janta Party’s ‘Fix the Schools’ campaign in India is facing pushback from BJP leaders and supporters."
+      "summary": "Salah started his first game for the Turkish Super Lig side, whom he joined on a free transfer earlier this month."
     },
     {
-      "title": "Large forest fire burns close to residential areas in Ankara",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/24/large-forest-fire-burns-close-to-residential-areas-in-ankara?traffic_source=rss",
-      "pubDate": "Mon, 24 Aug 2026 00:30:00 +0000",
+      "title": "Ceferin won’t challenge Infantino for FIFA presidency but tells him to quit",
+      "link": "https://www.aljazeera.com/sports/2026/8/24/ceferin-wont-challenge-infantino-for-fifa-presidency-but-tells-him-to-quit?traffic_source=rss",
+      "pubDate": "Mon, 24 Aug 2026 06:09:24 +0000",
       "source": "Al Jazeera",
-      "summary": "A large forest fire is threatening homes near residential areas of Mamak on the outskirts of the Turkish capital."
+      "summary": "European football chief doesn't want to lose credibility over FIFA job but says Infantino will face a challenger."
     },
     {
-      "title": "Burnham to visit Kyiv on first foreign trip and reaffirm UK support for Ukraine",
-      "link": "https://www.bbc.co.uk/news/articles/clyqypkrzq5o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Sun, 23 Aug 2026 23:07:10 GMT",
+      "title": "Gauff, Fils win Cincinnati tennis titles in run-up to US Open",
+      "link": "https://www.aljazeera.com/sports/2026/8/24/gauff-fils-win-cincinnati-tennis-titles-in-run-up-to-us-open?traffic_source=rss",
+      "pubDate": "Mon, 24 Aug 2026 06:08:15 +0000",
+      "source": "Al Jazeera",
+      "summary": "Gauff beat Pegula for her second Cincinnati Open trophy and Fils overcame Tiafoe for his first Masters 1000 title."
+    },
+    {
+      "title": "China probes use of formaldehyde to keep cabbages fresh",
+      "link": "https://www.bbc.co.uk/news/articles/cy9ze48l2yeo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Mon, 24 Aug 2026 05:40:48 GMT",
       "source": "BBC",
-      "summary": "It comes after Moscow warned of \"consequences\" over the reported use of British drones by Ukraine."
+      "summary": "Using the carcinogen to preserve food is prohibited in China, the world's largest producer of cabbages."
+    },
+    {
+      "title": "Divorce, smartphones and control - BBC sees how Taliban run Afghanistan",
+      "link": "https://www.bbc.co.uk/news/articles/ckgvk9p2n7ko?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Mon, 24 Aug 2026 05:00:22 GMT",
+      "source": "BBC",
+      "summary": "Five years after the Taliban’s return, the BBC follows senior figures as the group reshapes the country."
+    },
+    {
+      "title": "Maradona’s ‘Hand of God’ ball from Mexico sells for $3.35m",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/24/08-24-26-mardona-ball-sold-clip?traffic_source=rss",
+      "pubDate": "Mon, 24 Aug 2026 04:19:46 +0000",
+      "source": "Al Jazeera",
+      "summary": "Maradona’s 1986 World Cup ball sold for $3.35m. He used his hand to score against England, dubbing it the ‘Hand of God’."
+    },
+    {
+      "title": "Ex-cricket captains urge 'proper medical care' for Imran Khan",
+      "link": "https://www.bbc.co.uk/news/articles/cx2z889l0dxo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Mon, 24 Aug 2026 03:55:35 GMT",
+      "source": "BBC",
+      "summary": "The former skippers say it is \"basic decency\" for Pakistan to comply with a court-ordered medical assessment."
     },
     {
       "title": "Trump says Canada wants 'benefits' of being US state after trade talks collapse",
@@ -561,13 +550,6 @@
       "pubDate": "Sun, 23 Aug 2026 19:11:30 GMT",
       "source": "BBC",
       "summary": "Canada's PM said he was \"reluctantly\" announcing retaliatory tariffs and accused the US of starting a trade war."
-    },
-    {
-      "title": "Guinea rubbish landfill collapse kills 30",
-      "link": "https://www.bbc.co.uk/news/articles/c4g3g36z7p6o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Sun, 23 Aug 2026 18:17:37 GMT",
-      "source": "BBC",
-      "summary": "A mound of rubbish at a major waste site buried several homes in the capital, the government says."
     },
     {
       "title": "What to Know About the Ebola Outbreak Centered in Congo",
@@ -741,6 +723,30 @@
     }
   ],
   "syndicate_journal": [
+    {
+      "title": "SDAD: Spec-Driven Agentic Development for the AI-Native SDLC",
+      "link": "https://arxiv.org/abs/2608.20341",
+      "summary": "arXiv:2608.20341v1 Announce Type: new \nAbstract: Frontier coding agents backed by large language models with context windows from hundreds of thousands to millions of tokens are restructuring the Software Development Life Cycle (SDLC). Rich context handling and multi-step reasoning now allow substan",
+      "pubDate": "Mon, 24 Aug 2026 00:00:00 -0400",
+      "domain": "science",
+      "source": "arXiv: cs.AI"
+    },
+    {
+      "title": "PrimeAgentOrchestrator: Memory-Primed Agent Spawning for Personal AI Infrastructure",
+      "link": "https://arxiv.org/abs/2608.20342",
+      "summary": "arXiv:2608.20342v1 Announce Type: new \nAbstract: Large language model (LLM) coding agents start each session with an empty context window, discarding accumulated knowledge from prior work. We present PrimeAgentOrchestrator (PAO), a system that spawns new instances of Claude Code -- Anthropic's termi",
+      "pubDate": "Mon, 24 Aug 2026 00:00:00 -0400",
+      "domain": "science",
+      "source": "arXiv: cs.AI"
+    },
+    {
+      "title": "Truth Lies Deep: Countering Semantic Camouflage via Latent Intent Verification",
+      "link": "https://arxiv.org/abs/2608.20378",
+      "summary": "arXiv:2608.20378v1 Announce Type: new \nAbstract: Safety alignment in Large Language Models (LLMs) is often superficial, relying on refusal mechanisms that trigger only at the final stages of generation without erasing the foundational knowledge of harmful concepts acquired during pretraining. This s",
+      "pubDate": "Mon, 24 Aug 2026 00:00:00 -0400",
+      "domain": "science",
+      "source": "arXiv: cs.AI"
+    },
     {
       "title": "The Politics of Falling in Love",
       "link": "",
@@ -982,25 +988,25 @@
       "source": "ROAR Magazine"
     },
     {
-      "title": "An avoidance trap? Within-person dynamics between social interaction anxiety and the tendency to avoid physical activity and sport among Chinese university students: a four-wave random-intercept cross-lagged panel study",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1914632",
-      "summary": "Physical activity and sport settings may become socially threatening when students anticipate negative evaluation of their bodies, competence, or behavior. Yet it remains unclear whether social interaction anxiety precedes exercise-related avoidance and whether such avoidance, in turn, precedes late",
+      "title": "Piecewise latent growth modeling as the methodological standard for evaluation research",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1830316",
+      "summary": "Evaluation research across applied domains—clinical intervention, psychotherapy, curriculum reform, organizational change—has long relied on the pre–post difference score as its primary evidence of change. This paper argues that this reliance reflects not merely a methodological habit but a systemat",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "Approach-avoidance sequencing shapes embodied simulation of interpersonal closeness-distance: evidence from second-person episodes in Spanish and Chinese",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1925565",
-      "summary": "We investigated how approach and avoidance motivational sequences shape evaluations of interpersonal closeness-distance during second-person verbally simulated interaction episodes, and whether these effects are modulated by linguistic formulation and language context. Two parallel behavioral experi",
+      "title": "Perceived community environment and depressive symptoms among older adults in China: a cross-sectional analysis of physical activity as a moderator",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1893833",
+      "summary": "IntroductionPerceived community environment is an important contextual factor related to depressive symptoms in later life. However, few studies have examined whether physical activity (PA), a modifiable behavioral factor, moderates this association, particularly across specific aspects of perceived",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "Students' experiences of using ChatGPT for English language learning: a qualitative study in a Malaysian higher education institution",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1875727",
-      "summary": "A qualitative thematic analysis was conducted with 25 students from a Malaysian institution to gain a deeper understanding of their motivation for using ChatGPT in English language learning. The study employed Self-Determination Theory (SDT) and the results demonstrated that ChatGPT has the potentia",
+      "title": "Problem-oriented or solution-oriented? The effects of climate narratives on pro-environmental behavioral intention",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1878805",
+      "summary": "IntroductionThis study addresses a key gap in climate communication research by examining the differential effects of problem-oriented versus solution-oriented climate narratives on pro-environmental behavioral intention (PEBI) and the underlying mechanisms.MethodsWe conducted two online survey expe",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
@@ -1008,64 +1014,64 @@
   ],
   "misinfo_toilet": [
     {
-      "headline": "Four Years Ago, a Crypto Boss Went Missing. Now His Successor Has.",
-      "fragment": "An ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
-      "splice": "Four Years Ago, a Crypto Boss Went Missing. Now His Successor Has. while an ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
-      "seed": 20260827
-    },
-    {
-      "headline": "Iran Warns Gulf States Not to Join Trump’s Economic War",
-      "fragment": "The technocrat is the natural friend of the dictator—computers and dictatorship.",
-      "splice": "Iran Warns Gulf States Not to Join Trump’s Economic War insofar as the technocrat is the natural friend of the dictator—computers and dictatorship.",
-      "seed": 20260828
-    },
-    {
-      "headline": "Will Ronaldo Cry​? World Cup Fans Bet Billions Through Prediction Markets",
+      "headline": "What to Know About the Ebola Outbreak Centered in Congo",
       "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "splice": "Will Ronaldo Cry​? World Cup Fans Bet Billions Through Prediction Markets consequently it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "seed": 20260829
-    },
-    {
-      "headline": "The Mossad Suffers a Crushing Defeat Entirely of Its Own Making",
-      "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "splice": "The Mossad Suffers a Crushing Defeat Entirely of Its Own Making not unlike it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "seed": 20260830
-    },
-    {
-      "headline": "Guinea rubbish landfill collapse kills 30",
-      "fragment": "It is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
-      "splice": "Guinea rubbish landfill collapse kills 30 despite it is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
+      "splice": "What to Know About the Ebola Outbreak Centered in Congo consequently it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
       "seed": 20260831
     },
     {
-      "headline": "Echoing Trump, Latin America’s Leaders Boost Allies Across Borders",
-      "fragment": "The privatization of the organs will only begin with the shame felt by man at the sight of man.",
-      "splice": "Echoing Trump, Latin America’s Leaders Boost Allies Across Borders therefore the privatization of the organs will only begin with the shame felt by man at the sight of man.",
+      "headline": "Four Years Ago, a Crypto Boss Went Missing. Now His Successor Has.",
+      "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
+      "splice": "Four Years Ago, a Crypto Boss Went Missing. Now His Successor Has. not unlike it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
       "seed": 20260832
     },
     {
       "headline": "Welcome to Dubai: Kinahan Cartel’s Visas Revealed",
-      "fragment": "Traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "splice": "Welcome to Dubai: Kinahan Cartel’s Visas Revealed ...as traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
+      "fragment": "It is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
+      "splice": "Welcome to Dubai: Kinahan Cartel’s Visas Revealed despite it is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
       "seed": 20260833
     },
     {
-      "headline": "This Mysterious “Astroturf” Group Popped Up to Defend the Paramount Merger",
-      "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
-      "splice": "This Mysterious “Astroturf” Group Popped Up to Defend the Paramount Merger insofar as the revolutionary lives in the gap which separates technical progress from social totality.",
+      "headline": "Ex-cricket captains urge 'proper medical care' for Imran Khan",
+      "fragment": "The privatization of the organs will only begin with the shame felt by man at the sight of man.",
+      "splice": "Ex-cricket captains urge 'proper medical care' for Imran Khan therefore the privatization of the organs will only begin with the shame felt by man at the sight of man.",
       "seed": 20260834
     },
     {
-      "headline": "Shein aims for almost $27bn valuation in stock market debut",
-      "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
-      "splice": "Shein aims for almost $27bn valuation in stock market debut which is to say the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "headline": "Pakistan’s army chief Munir returns to Iran: Can he break US war deadlock?",
+      "fragment": "Traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
+      "splice": "Pakistan’s army chief Munir returns to Iran: Can he break US war deadlock? ...as traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
       "seed": 20260835
     },
     {
-      "headline": "Can Kenya’s AI ambitions coexist with Naivasha’s water needs?",
-      "fragment": "The truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
-      "splice": "Can Kenya’s AI ambitions coexist with Naivasha’s water needs? underneath the truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
+      "headline": "Ceferin won’t challenge Infantino for FIFA presidency but tells him to quit",
+      "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
+      "splice": "Ceferin won’t challenge Infantino for FIFA presidency but tells him to quit insofar as the revolutionary lives in the gap which separates technical progress from social totality.",
       "seed": 20260836
+    },
+    {
+      "headline": "The Mossad Suffers a Crushing Defeat Entirely of Its Own Making",
+      "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "splice": "The Mossad Suffers a Crushing Defeat Entirely of Its Own Making which is to say the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "seed": 20260837
+    },
+    {
+      "headline": "Salah scores two goals, has two disallowed in first start for Trabzonspor",
+      "fragment": "The truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
+      "splice": "Salah scores two goals, has two disallowed in first start for Trabzonspor underneath the truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
+      "seed": 20260838
+    },
+    {
+      "headline": "RIP to the Russiagate Liberals",
+      "fragment": "Art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
+      "splice": "RIP to the Russiagate Liberals as if art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
+      "seed": 20260839
+    },
+    {
+      "headline": "Iran Warns Gulf States Not to Join Trump’s Economic War",
+      "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
+      "splice": "Iran Warns Gulf States Not to Join Trump’s Economic War consequently the breast is a machine that produces milk, and the mouth a machine coupled to it.",
+      "seed": 20260840
     }
   ]
 }
