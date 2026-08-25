@@ -1,7 +1,22 @@
 {
-  "generated_at": "2026-08-25T15:44:02.077Z",
+  "generated_at": "2026-08-25T18:42:09.122Z",
   "threat_intel": {
     "cisa_kev": [
+      {
+        "cveID": "CVE-2026-60004",
+        "vendorProject": "Gitea",
+        "product": "Gitea",
+        "vulnerabilityName": "Gitea Code Injection Vulnerability",
+        "dateAdded": "2026-08-25",
+        "shortDescription": "Gitea contains a code injection vulnerability that allows an attacker with repository write access to send a malicious patch to the diffpatch API endpoint to plant an executable Git hook and run shell commands as the Gitea service account.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-08-28",
+        "knownRansomwareCampaignUse": "Unknown",
+        "notes": "https://github.com/go-gitea/gitea/security/advisories/GHSA-rcr6-4jqh-j84m ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-60004",
+        "cwes": [
+          "CWE-94"
+        ]
+      },
       {
         "cveID": "CVE-2026-21962",
         "vendorProject": "Oracle",
@@ -212,24 +227,241 @@
         "cwes": [
           "CWE-77"
         ]
-      },
-      {
-        "cveID": "CVE-2026-63077",
-        "vendorProject": "JetBrains",
-        "product": "TeamCity",
-        "vulnerabilityName": "JetBrains TeamCity Deserialization of Untrusted Data Vulnerability",
-        "dateAdded": "2026-08-05",
-        "shortDescription": "JetBrains TeamCity contains a deserialization of untrusted data vulnerability that could allow unauthenticated remote code execution via the agent polling protocol.",
-        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "dueDate": "2026-08-08",
-        "knownRansomwareCampaignUse": "Unknown",
-        "notes": "https://blog.jetbrains.com/teamcity/2026/07/cve-2026-63077/; https://www.jetbrains.com/privacy-security/issues-fixed/ ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-63077",
-        "cwes": [
-          "CWE-502"
-        ]
       }
     ],
     "urlhaus": [
+      {
+        "id": "3908105",
+        "date_added": "2026-08-25 18:27:05",
+        "url": "http://196.189.35.172:34687/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "mirai"
+        ]
+      },
+      {
+        "id": "3908104",
+        "date_added": "2026-08-25 18:24:13",
+        "url": "http://91.92.242.236/files-129312398/files/file_2dedd67a4922be21.exe",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "54e64e",
+          "dropped-by-amadey",
+          "rustystealer"
+        ]
+      },
+      {
+        "id": "3908103",
+        "date_added": "2026-08-25 18:20:21",
+        "url": "http://210.208.111.100:60334/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "mirai",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3908102",
+        "date_added": "2026-08-25 18:19:18",
+        "url": "http://182.114.250.133:60170/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3908101",
+        "date_added": "2026-08-25 18:01:21",
+        "url": "https://paretandassociates.screenconnect.com/Bin/ScreenConnect.ClientSetup.msi?e=Access&y=Guest&c=Eye%20Clinic&c=&c=Surgery&c=Personal&c=&c=&c=&c=",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3908100",
+        "date_added": "2026-08-25 17:59:16",
+        "url": "http://112.109.205.48:35136/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "mirai",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3908099",
+        "date_added": "2026-08-25 17:43:42",
+        "url": "http://150.241.65.250:889/venv/lib64/python3.12/site-packages/cryptography/hazmat/bindings/_rust.abi3.so",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3908098",
+        "date_added": "2026-08-25 17:39:06",
+        "url": "http://91.92.242.236/files-129312398/files/file_6d132da8983cd728.exe",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "54e64e",
+          "dropped-by-amadey"
+        ]
+      },
+      {
+        "id": "3908097",
+        "date_added": "2026-08-25 17:35:19",
+        "url": "http://112.109.205.48:35136/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "mirai",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3908096",
+        "date_added": "2026-08-25 17:26:09",
+        "url": "http://122.241.8.175:37163/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "mirai"
+        ]
+      },
+      {
+        "id": "3908095",
+        "date_added": "2026-08-25 17:14:10",
+        "url": "http://116.138.107.198:36190/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3908094",
+        "date_added": "2026-08-25 17:03:16",
+        "url": "http://116.138.107.198:36190/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3908093",
+        "date_added": "2026-08-25 17:02:19",
+        "url": "http://42.233.138.140:60584/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3908092",
+        "date_added": "2026-08-25 16:52:14",
+        "url": "http://125.41.8.60:36872/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3908091",
+        "date_added": "2026-08-25 16:51:18",
+        "url": "http://42.231.64.103:58110/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3908090",
+        "date_added": "2026-08-25 16:40:17",
+        "url": "http://115.57.60.24:40928/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3908089",
+        "date_added": "2026-08-25 16:37:07",
+        "url": "http://115.55.54.253:54557/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3908088",
+        "date_added": "2026-08-25 16:23:22",
+        "url": "http://42.231.64.103:58110/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3908087",
+        "date_added": "2026-08-25 15:47:22",
+        "url": "http://222.141.141.133:42626/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
       {
         "id": "3908086",
         "date_added": "2026-08-25 15:09:35",
@@ -242,276 +474,86 @@
           "mips",
           "Mozi"
         ]
-      },
-      {
-        "id": "3908085",
-        "date_added": "2026-08-25 15:02:20",
-        "url": "https://kolpa.lol/d/fb2232aa883b4a33ac3877a402c0126c",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "IRAHook",
-          "rat",
-          "stealer"
-        ]
-      },
-      {
-        "id": "3908084",
-        "date_added": "2026-08-25 15:01:09",
-        "url": "http://193.221.200.26:5001/odens.exe",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "SalatStealer",
-          "stealer"
-        ]
-      },
-      {
-        "id": "3908083",
-        "date_added": "2026-08-25 14:46:18",
-        "url": "http://150.241.65.250:889/venv/lib64/python3.12/site-packages/pip/_vendor/urllib3/__pycache__/fields.cpython-312.pyc",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3908082",
-        "date_added": "2026-08-25 14:24:46",
-        "url": "https://kolpa.lol/d/3c547dbeb28c4b8d937a771d0debff39",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "IRAHook",
-          "rat",
-          "stealer"
-        ]
-      },
-      {
-        "id": "3908081",
-        "date_added": "2026-08-25 14:24:31",
-        "url": "https://kolpa.lol/d/9077ca9a63a44186add67faed923847e",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "IRAHook",
-          "rat",
-          "stealer"
-        ]
-      },
-      {
-        "id": "3908080",
-        "date_added": "2026-08-25 14:23:33",
-        "url": "https://kolpa.lol/d/049e625ea690455ba545c97cf546fd8d",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "IRAHook",
-          "rat",
-          "stealer"
-        ]
-      },
-      {
-        "id": "3908079",
-        "date_added": "2026-08-25 14:19:17",
-        "url": "https://plutotvshow.biz/exe/backup_svc-release.exe",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          " exe",
-          " MicroClip",
-          " stealer",
-          "ClickFix"
-        ]
-      },
-      {
-        "id": "3908078",
-        "date_added": "2026-08-25 14:11:09",
-        "url": "http://172.86.114.3/wepu/cryptedd.ps1",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "ascii",
-          "opendir",
-          "powershell",
-          "ps1"
-        ]
-      },
-      {
-        "id": "3908077",
-        "date_added": "2026-08-25 14:10:19",
-        "url": "http://172.86.114.3/wepu/crypted.ps1",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "ascii",
-          "opendir",
-          "powershell",
-          "ps1",
-          "rat",
-          "RemcosRAT"
-        ]
-      },
-      {
-        "id": "3908076",
-        "date_added": "2026-08-25 13:55:25",
-        "url": "http://219.155.209.50:45888/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3908075",
-        "date_added": "2026-08-25 13:52:11",
-        "url": "https://architekten-schreiner.de/modules/mod_login/tocvpyg/aijontc/osefrak/OJcrypted.ps1",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "ascii",
-          "powershell",
-          "ps1",
-          "VIPKeylogger"
-        ]
-      },
-      {
-        "id": "3908074",
-        "date_added": "2026-08-25 13:29:18",
-        "url": "http://223.151.72.214:44130/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "arm",
-          "elf",
-          "mirai",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3908073",
-        "date_added": "2026-08-25 13:20:17",
-        "url": "http://212.164.115.235:53007/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3908072",
-        "date_added": "2026-08-25 12:56:12",
-        "url": "http://212.164.115.235:53007/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3908071",
-        "date_added": "2026-08-25 12:52:07",
-        "url": "http://109.171.67.100:18713/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3908070",
-        "date_added": "2026-08-25 12:44:19",
-        "url": "http://182.119.13.119:44968/bin.sh",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3908069",
-        "date_added": "2026-08-25 12:38:26",
-        "url": "https://wordtax.ink/down/setup.aac",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3908068",
-        "date_added": "2026-08-25 12:38:19",
-        "url": "http://182.119.13.119:44968/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3908067",
-        "date_added": "2026-08-25 12:38:07",
-        "url": "https://final-aura.top/f1",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
       }
     ]
   },
   "world_monitor": [
     {
-      "title": "Canada Fires Back in Trade War Against Trump With Up to 50% Tariffs",
-      "link": "https://www.nytimes.com/2026/08/25/world/canada/canada-tariffs-trump-carney-retaliatory.html",
-      "pubDate": "Tue, 25 Aug 2026 15:28:25 +0000",
+      "title": "Iran May Have Little to Lose as U.S. Tries to Squeeze Its Economy",
+      "link": "https://www.nytimes.com/2026/08/25/world/middleeast/iran-us-economy-sanctions.html",
+      "pubDate": "Tue, 25 Aug 2026 18:28:39 +0000",
       "source": "NYT World",
-      "summary": "Canada said the higher levies, on items from aluminum foil to dishwashers to fish, would help protect workers, producers and manufacturers harmed by new Trump tariffs."
+      "summary": "Experts warn that a campaign aimed at avoiding military escalation could instead provoke it, as Iranian leaders vow retaliation across the oil-rich Gulf."
     },
     {
-      "title": "CIA chief in Moscow for unannounced talks, US media reports",
+      "title": "Syria ‘shakes off’ past with removal from US ‘terror’ list, says al-Sharaa",
+      "link": "https://www.aljazeera.com/news/2026/8/25/syriashakes-offpast-with-removal-from-us-terror-list-says-al-sharaa?traffic_source=rss",
+      "pubDate": "Tue, 25 Aug 2026 18:13:37 +0000",
+      "source": "Al Jazeera",
+      "summary": "Removal of decades-old designation offers major sanctions relief for Syria, aiming to boost post-war reconstruction."
+    },
+    {
+      "title": "Christian Convert Who Fled Iran and Was Deported By Trump Finds New Home",
+      "link": "https://www.nytimes.com/2026/08/25/world/middleeast/artemis-ghasemzadeh-iran-christian-us-deported-canada-asylum.html",
+      "pubDate": "Tue, 25 Aug 2026 18:12:05 +0000",
+      "source": "NYT World",
+      "summary": "Artemis Ghasemzadeh, who had escaped religious persecution, was deported to Panama under Trump’s immigration crackdown. Now, Canada has given her asylum."
+    },
+    {
+      "title": "Kremlin denies planned talks with US envoys amid reports CIA head in Russia",
+      "link": "https://www.aljazeera.com/news/2026/8/25/kremlin-denies-planned-talks-with-us-envoys-amid-reports-cia-head-in-russia?traffic_source=rss",
+      "pubDate": "Tue, 25 Aug 2026 18:01:37 +0000",
+      "source": "Al Jazeera",
+      "summary": "Washington reportedly alerted Ukraine to refrain from strikes until delegation leaves Moscow, US media reports."
+    },
+    {
+      "title": "India’s Summer of Youth Protests Is Boiling Over",
+      "link": "https://www.nytimes.com/2026/08/25/world/asia/indias-youth-protests-cockroach.html",
+      "pubDate": "Tue, 25 Aug 2026 17:59:06 +0000",
+      "source": "NYT World",
+      "summary": "The police fired water cannons at protesters in the state of Bihar, while the leaders of the ‘Cockroach’ student movement vowed to return to Delhi’s streets."
+    },
+    {
+      "title": "Canada announces 'dollar-for-dollar' retaliatory tariffs on US as high as 50%",
+      "link": "https://www.bbc.co.uk/news/articles/c3v4xg5klx7o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Tue, 25 Aug 2026 17:54:03 GMT",
+      "source": "BBC",
+      "summary": "The latest escalation in an ongoing trade war between the US and Canada will see new levies on goods from steel to furniture, fresh tuna and makeup."
+    },
+    {
+      "title": "Fatah, Dahlan bloc hold reconciliation talks ahead of Palestinian elections",
+      "link": "https://www.aljazeera.com/news/2026/8/25/fatah-dahlan-bloc-hold-reconciliation-talks-ahead-of-palestinian-elections?traffic_source=rss",
+      "pubDate": "Tue, 25 Aug 2026 17:39:22 +0000",
+      "source": "Al Jazeera",
+      "summary": "Fatah and Dahlan's Democratic Reform hold talks in Alamein as fears grow over a potential opposition coalition."
+    },
+    {
+      "title": "Spain requests emergency funding from the EU over Ceuta migrants",
+      "link": "https://www.aljazeera.com/news/2026/8/25/spain-requests-emergency-funding-from-the-eu-over-ceuta-migrants?traffic_source=rss",
+      "pubDate": "Tue, 25 Aug 2026 17:31:09 +0000",
+      "source": "Al Jazeera",
+      "summary": "European Commission says it is 'assessing' Spain's request after some 70,000 migrants surged into North African enclave."
+    },
+    {
+      "title": "Most US Democrats in early 2028 primary states oppose aid to Israel: Poll",
+      "link": "https://www.aljazeera.com/news/2026/8/25/most-us-democrats-in-early-2028-primary-states-oppose-aid-to-israel-poll?traffic_source=rss",
+      "pubDate": "Tue, 25 Aug 2026 17:27:01 +0000",
+      "source": "Al Jazeera",
+      "summary": "Survey indicates majority of Democrats in first six states to vote for 2028 nominee believe Israel committing genocide."
+    },
+    {
+      "title": "CIA chief travels to Moscow for unannounced talks, US media reports",
       "link": "https://www.bbc.co.uk/news/articles/c87vg9x5d7do?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Tue, 25 Aug 2026 15:27:48 GMT",
+      "pubDate": "Tue, 25 Aug 2026 16:56:20 GMT",
       "source": "BBC",
       "summary": "Flight tracking data confirms an American military aircraft travelled to Russia from the US via Latvia on Tuesday."
     },
     {
-      "title": "Nine years of Rohingya refugee crisis",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/25/nine-years-of-rohingya-refugee-crisis?traffic_source=rss",
-      "pubDate": "Tue, 25 Aug 2026 15:24:31 +0000",
-      "source": "Al Jazeera",
-      "summary": "Nine years of Rohingya refugee crisis"
-    },
-    {
-      "title": "Gaza marks one year since Mariam Dagga was killed in Israeli strike",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/25/gaza-marks-one-year-since-mariam-dagga-was-killed-in-israeli-strike?traffic_source=rss",
-      "pubDate": "Tue, 25 Aug 2026 15:23:17 +0000",
-      "source": "Al Jazeera",
-      "summary": "A ceremony was held in Gaza to mark one year since an Israeli double strike killed 22 Palestinians in a hospital."
-    },
-    {
-      "title": "Qatar says US sanctions on Iran are unilateral",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/25/qatar-says-us-sanctions-on-iran-are-unilateral?traffic_source=rss",
-      "pubDate": "Tue, 25 Aug 2026 15:17:05 +0000",
-      "source": "Al Jazeera",
-      "summary": "Qatar’s Foreign Ministry said in a briefing on Tuesday that the US sanctions on Iran are unilateral."
+      "title": "Canada Fires Back in Trade War Against Trump With Up to 50% Tariffs",
+      "link": "https://www.nytimes.com/2026/08/25/world/canada/canada-tariffs-trump-carney-retaliatory.html",
+      "pubDate": "Tue, 25 Aug 2026 16:34:25 +0000",
+      "source": "NYT World",
+      "summary": "Canada said the higher levies, on items from aluminum foil to dishwashers to fish, would help protect workers, producers and manufacturers harmed by new Trump tariffs."
     },
     {
       "title": "Sixty More U.S. Soldiers Reported Injured in Iran War",
@@ -519,34 +561,6 @@
       "pubDate": "Tue, 25 Aug 2026 15:15:45 +0000",
       "source": "The Intercept",
       "summary": "A government official accused the Pentagon of “an accounting trick” in its slow tally of Iran war casualties.\nThe post Sixty More U.S. Soldiers Reported Injured in Iran War appeared first on The Intercept."
-    },
-    {
-      "title": "US launches Economic war on Iran",
-      "link": "https://www.aljazeera.com/videos/newsfeed/2026/8/25/us-launches-economic-war-on-iran?traffic_source=rss",
-      "pubDate": "Tue, 25 Aug 2026 15:12:00 +0000",
-      "source": "Al Jazeera",
-      "summary": "The US says it has launched ‘Operation Economic Outcast’, expanding sanctions on Iran"
-    },
-    {
-      "title": "One year since Gaza journalist killed by Israel",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/25/one-year-since-gaza-journalist-killed-by-israel?traffic_source=rss",
-      "pubDate": "Tue, 25 Aug 2026 15:09:10 +0000",
-      "source": "Al Jazeera",
-      "summary": "It’s been one year since AP journalist Mariam Dagga was killed in Israeli strikes on Gaza’s Nasser Hospital."
-    },
-    {
-      "title": "Two unvaccinated people die of measles in Pennsylvania ",
-      "link": "https://www.bbc.co.uk/news/articles/c5yednen30go?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Tue, 25 Aug 2026 14:54:34 GMT",
-      "source": "BBC",
-      "summary": "Cases in the US have hit the highest point since the virus was eliminated, as vaccination rates decline."
-    },
-    {
-      "title": "How U.S.-Canada Tariff Negotiations Turned Into an All-Out Trade War",
-      "link": "https://www.nytimes.com/2026/08/25/world/canada/trump-carney-trade-war-tariffs.html",
-      "pubDate": "Tue, 25 Aug 2026 12:39:20 +0000",
-      "source": "NYT World",
-      "summary": "Detailed accounts of the final hours of the negotiations show that, while the United States offered Canada what it said was the best deal of any country, what Canada had to give up in exchange was seen as unthinkable."
     },
     {
       "title": "Brain disease in dead NFL players 'higher than previously shown'",
@@ -568,20 +582,6 @@
       "pubDate": "Tue, 25 Aug 2026 11:00:00 +0000",
       "source": "The Intercept",
       "summary": "Illinois law prohibits local collaboration with immigration enforcement officials, but the cops often find workarounds.\nThe post Local Cops Flout Sanctuary Law to Help ICE Deport Immigrants appeared first on The Intercept."
-    },
-    {
-      "title": "Iran May Have Little to Lose as U.S. Tries to Squeeze Its Economy",
-      "link": "https://www.nytimes.com/2026/08/25/world/middleeast/iran-us-economy-sanctions.html",
-      "pubDate": "Tue, 25 Aug 2026 10:47:25 +0000",
-      "source": "NYT World",
-      "summary": "Experts warn that a campaign aimed at avoiding military escalation could instead provoke it, as Iranian leaders vow retaliation across the oil-rich Gulf."
-    },
-    {
-      "title": "Trump Administration to Return Diplomats to Middle East Embassies",
-      "link": "https://www.nytimes.com/2026/08/25/world/middleeast/us-diplomats-middle-east-embassies.html",
-      "pubDate": "Tue, 25 Aug 2026 09:32:55 +0000",
-      "source": "NYT World",
-      "summary": "Evacuated foreign service officers could begin heading back to their posts as early as this week, an internal document shows, suggesting Washington does not anticipate a renewal of full-scale conflict with Iran."
     },
     {
       "title": "What Happened to the Coveted Western Tanks Sent to Ukraine?",
@@ -721,6 +721,38 @@
   ],
   "syndicate_journal": [
     {
+      "title": "Goodbye to the Grifters Harry and Meghan",
+      "link": "",
+      "summary": "Six years after “Megxit,” Prince Harry and Meghan Markle are reversing course — at least partially. The Duke and Duchess of Sussex will reportedly  to Britain later this month for an extended stay, settling with their children Archie and Lilibet in a private residence outside London while the childr",
+      "pubDate": "2026-08-25T18:06:17.480Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "20 Minutes of Exercise Is as Good as a 90-Minute Nap If You’re Sleep Deprived",
+      "link": "https://nautil.us/20-minutes-of-exercise-is-as-good-as-a-90-minute-nap-if-youre-sleep-deprived-1284348/",
+      "summary": "Don’t sleep on this new finding\nThe post 20 Minutes of Exercise Is as Good as a 90-Minute Nap If You’re Sleep Deprived appeared first on Nautilus.",
+      "pubDate": "Tue, 25 Aug 2026 18:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "Put AI Under Social Ownership for Social Purposes",
+      "link": "",
+      "summary": "A lively debate has been taking place in  over what to do about artificial intelligence. AI is clearly a technology with potential for enormous benefit and harm — and perhaps both at the same time. Financially, it could put even more income in the hands of billionaires, or it could produce a bubble ",
+      "pubDate": "2026-08-25T16:56:14.530Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "This “One-in-a-Million” Fossil Has 450-Million-Year-Old Soft Tissue",
+      "link": "https://nautil.us/this-one-in-a-million-fossil-has-450-million-year-old-soft-tissue-1284340/",
+      "summary": "Only the second fossil of its type to be discovered\nThe post This “One-in-a-Million” Fossil Has 450-Million-Year-Old Soft Tissue appeared first on Nautilus.",
+      "pubDate": "Tue, 25 Aug 2026 16:30:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
       "title": "The Return of Industrial Policy",
       "link": "",
       "summary": "Advanced capitalist countries have recently rediscovered the role of industrial policy to build out key economic sectors like semiconductors and AI. But what happens if business is the one calling all the shots?\nIn this episode of the  podcast , Vivek Chibber discusses how developing countries used ",
@@ -745,22 +777,6 @@
       "source": "JSTOR Daily"
     },
     {
-      "title": "Berlin’s Election Can Make Socialized Housing a Reality",
-      "link": "",
-      "summary": "On September 20, Berliners will elect a new state parliament in a contest that has already become a referendum on a referendum.\nFive years ago, 59.1 percent of the city voted to socialize the holdings of Berlin’s largest for-profit landlords. Following a long campaign to force a vote, the referendum",
-      "pubDate": "2026-08-25T12:52:27.241Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
-      "title": "Small Iguanodon Fossil Sheds Light on Dino Diversity",
-      "link": "https://nautil.us/small-iguanodon-fossil-sheds-light-on-dino-diversity-1284182/",
-      "summary": "It lived in Japan long before Japan was an island\nThe post Small Iguanodon Fossil Sheds Light on Dino Diversity appeared first on Nautilus.",
-      "pubDate": "Tue, 25 Aug 2026 12:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
       "title": "KVBoost: Chunk-Level Key-Value Cache Reuse with Deviation-Guided Recomputation for Efficient Large Language Model Inference",
       "link": "https://arxiv.org/abs/2608.21362",
       "summary": "arXiv:2608.21362v1 Announce Type: new \nAbstract: Transformer-based large language models (LLMs) incur high prefill latency because key-value (KV) tensors must be recomputed for each request. Existing prefix-caching systems reduce this cost but require prompts to share a leading contiguous prefix, li",
@@ -783,22 +799,6 @@
       "pubDate": "Tue, 25 Aug 2026 00:00:00 -0400",
       "domain": "science",
       "source": "arXiv: cs.AI"
-    },
-    {
-      "title": "Five Images, Six Decades: Capturing the Iconic “Earthrise” Photo",
-      "link": "https://nautil.us/five-images-six-decades-capturing-the-iconic-earthrise-photo-1284171/",
-      "summary": "The first was taken August 23, 1966\nThe post Five Images, Six Decades: Capturing the Iconic “Earthrise” Photo appeared first on Nautilus.",
-      "pubDate": "Mon, 24 Aug 2026 22:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
-      "title": "Class Traitors Are Welcome in the Socialist Movement",
-      "link": "",
-      "summary": "We are in a moment of particular fascination with the Democratic Socialists of America (DSA) across the nation. With the victory of congressional candidates like , , , and , DSA has arrived on the political stage, proving that the election of Zohran Mamdani was not a fluke but a harbinger of a growi",
-      "pubDate": "2026-08-24T20:13:04.999Z",
-      "domain": "politics",
-      "source": "Jacobin"
     },
     {
       "title": "A New Framework for How the Brain Compresses Our Noisy World",
@@ -985,25 +985,25 @@
       "source": "ROAR Magazine"
     },
     {
-      "title": "Getting unstuck from a stagnant career: examining the role of perceived mentor proactivity in the relationship between protégés career plateaus and workplace avoidance behavior",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1920144",
-      "summary": "Drawing on affective events theory, this study examines how protégés’ career plateaus influence workplace avoidance behavior through job frustration and how perceived mentor proactivity shapes this process. Using a three-wave, time-lagged, multi-source design with data collected from 401 mentor–prot",
+      "title": "Why do teachers procrastinate? The role of fear of negative evaluation and intolerance of uncertainty",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1881258",
+      "summary": "Academic procrastination has increasingly been recognized as a significant source of stress and professional dysfunction among teachers. However, the psychological mechanisms underlying this behavior are not yet fully understood. This study aimed to examine the associations among academic procrastin",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "AI-based interviews and applicant perceptions: insights from China and Pakistan",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1886963",
-      "summary": "IntroductionArtificial intelligence (AI) technology is increasingly integrated into recruitment processes, yet cross-cultural differences in job applicant responses to AI-based interviews remain understudied. Drawing on Signaling Theory and Fairness Heuristic Theory, this study examines how applican",
+      "title": "Baseline trust moderates risk appraisal in guided aerial adventure sports: a three-wave field study",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1868476",
+      "summary": "Guided aerial adventure sports combine environmental uncertainty with reliance on pilots, equipment, and safety systems, making trust a plausible resource in risk appraisal. This three-wave field study examined whether baseline trust moderated associations between pre-activity risk perception and po",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "Cognitive and skill acquisition trajectories in school-based music education: evidence from Chinese classrooms",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1905847",
-      "summary": "School-based music education in China constitutes one of the largest deployments of vocal training in the world, yet the skill-acquisition trajectories of learners in such settings, as reflected in note-level singing accuracy, have rarely been quantified at scale. Drawing on a corpus of 2,432 studen",
+      "title": "Partial substitution in the hidden curriculum of children’s media: a comparative corpus analysis of religion-oriented and general-educational Turkish public broadcasting",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1887219",
+      "summary": "Research on social–emotional learning (SEL) has accumulated extensive evidence on programmatic outcomes but devoted less attention to the lexical-semantic shape of the educational input that children actually encounter. This study asks how religion-oriented and general-educational children’s broadca",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
@@ -1011,64 +1011,64 @@
   ],
   "misinfo_toilet": [
     {
-      "headline": "China hits out at 'illegal' new US sanctions on Iran and trading partners",
-      "fragment": "Pretending, or dissimulating, leaves the principle of reality intact: the difference is always clear, it is simply masked.",
-      "splice": "China hits out at 'illegal' new US sanctions on Iran and trading partners insofar as pretending, or dissimulating, leaves the principle of reality intact: the difference is always clear, it is simply masked.",
-      "seed": 20260840
-    },
-    {
-      "headline": "Sixty More U.S. Soldiers Reported Injured in Iran War",
-      "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
-      "splice": "Sixty More U.S. Soldiers Reported Injured in Iran War underneath the revolutionary lives in the gap which separates technical progress from social totality.",
-      "seed": 20260841
-    },
-    {
-      "headline": "The Dawn of a New Cold War",
+      "headline": "Canada Fires Back in Trade War Against Trump With Up to 50% Tariffs",
       "fragment": "Antagonism is not now located externally, in the face-off between class blocs, but internally, in the psychology of the worker.",
-      "splice": "The Dawn of a New Cold War within which antagonism is not now located externally, in the face-off between class blocs, but internally, in the psychology of the worker.",
-      "seed": 20260842
-    },
-    {
-      "headline": "Tornado tears through French village, leaving dozens hurt and homes ravaged",
-      "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
-      "splice": "Tornado tears through French village, leaving dozens hurt and homes ravaged the system notes that the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "splice": "Canada Fires Back in Trade War Against Trump With Up to 50% Tariffs within which antagonism is not now located externally, in the face-off between class blocs, but internally, in the psychology of the worker.",
       "seed": 20260843
     },
     {
-      "headline": "Two unvaccinated people die of measles in Pennsylvania ",
-      "fragment": "Underneath all reason lies delirium and drift.",
-      "splice": "Two unvaccinated people die of measles in Pennsylvania  consequently underneath all reason lies delirium and drift.",
+      "headline": "Fatah, Dahlan bloc hold reconciliation talks ahead of Palestinian elections",
+      "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "splice": "Fatah, Dahlan bloc hold reconciliation talks ahead of Palestinian elections the system notes that the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
       "seed": 20260844
     },
     {
-      "headline": "Pentagon Spokesperson Admits There’s a Secret Blacklist of Journalists",
-      "fragment": "Everywhere it is machines—real ones, not figurative ones: machines driving other machines, machines being driven by other machines, with all the necessary couplings and connections.",
-      "splice": "Pentagon Spokesperson Admits There’s a Secret Blacklist of Journalists as if everywhere it is machines—real ones, not figurative ones: machines driving other machines, machines being driven by other machines, with all the necessary couplings and connections.",
+      "headline": "Spain requests emergency funding from the EU over Ceuta migrants",
+      "fragment": "Underneath all reason lies delirium and drift.",
+      "splice": "Spain requests emergency funding from the EU over Ceuta migrants consequently underneath all reason lies delirium and drift.",
       "seed": 20260845
     },
     {
-      "headline": "What Happened to the Coveted Western Tanks Sent to Ukraine?",
-      "fragment": "Simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
-      "splice": "What Happened to the Coveted Western Tanks Sent to Ukraine? underneath simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
+      "headline": "India’s Summer of Youth Protests Is Boiling Over",
+      "fragment": "Everywhere it is machines—real ones, not figurative ones: machines driving other machines, machines being driven by other machines, with all the necessary couplings and connections.",
+      "splice": "India’s Summer of Youth Protests Is Boiling Over as if everywhere it is machines—real ones, not figurative ones: machines driving other machines, machines being driven by other machines, with all the necessary couplings and connections.",
       "seed": 20260846
     },
     {
-      "headline": "US launches Economic war on Iran",
-      "fragment": "If it is true, for instance, that depression is caused by low serotonin levels, it would still be necessary to explain why particular individuals have low serotonin levels.",
-      "splice": "US launches Economic war on Iran meanwhile if it is true, for instance, that depression is caused by low serotonin levels, it would still be necessary to explain why particular individuals have low serotonin levels.",
+      "headline": "Kremlin denies planned talks with US envoys amid reports CIA head in Russia",
+      "fragment": "Simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
+      "splice": "Kremlin denies planned talks with US envoys amid reports CIA head in Russia underneath simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
       "seed": 20260847
     },
     {
-      "headline": "Canada Fires Back in Trade War Against Trump With Up to 50% Tariffs",
-      "fragment": "The privatization of the organs will only begin with the shame felt by man at the sight of man.",
-      "splice": "Canada Fires Back in Trade War Against Trump With Up to 50% Tariffs the system notes that the privatization of the organs will only begin with the shame felt by man at the sight of man.",
+      "headline": "China hits out at 'illegal' new US sanctions on Iran and trading partners",
+      "fragment": "If it is true, for instance, that depression is caused by low serotonin levels, it would still be necessary to explain why particular individuals have low serotonin levels.",
+      "splice": "China hits out at 'illegal' new US sanctions on Iran and trading partners meanwhile if it is true, for instance, that depression is caused by low serotonin levels, it would still be necessary to explain why particular individuals have low serotonin levels.",
       "seed": 20260848
     },
     {
-      "headline": "Tracking a Sanctioned Russian Vessel’s West African Odyssey",
-      "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
-      "splice": "Tracking a Sanctioned Russian Vessel’s West African Odyssey consequently the revolutionary lives in the gap which separates technical progress from social totality.",
+      "headline": "Sixty More U.S. Soldiers Reported Injured in Iran War",
+      "fragment": "The privatization of the organs will only begin with the shame felt by man at the sight of man.",
+      "splice": "Sixty More U.S. Soldiers Reported Injured in Iran War the system notes that the privatization of the organs will only begin with the shame felt by man at the sight of man.",
       "seed": 20260849
+    },
+    {
+      "headline": "Syria ‘shakes off’ past with removal from US ‘terror’ list, says al-Sharaa",
+      "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
+      "splice": "Syria ‘shakes off’ past with removal from US ‘terror’ list, says al-Sharaa consequently the revolutionary lives in the gap which separates technical progress from social totality.",
+      "seed": 20260850
+    },
+    {
+      "headline": "Iran May Have Little to Lose as U.S. Tries to Squeeze Its Economy",
+      "fragment": "Over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
+      "splice": "Iran May Have Little to Lose as U.S. Tries to Squeeze Its Economy despite over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
+      "seed": 20260851
+    },
+    {
+      "headline": "Tracking a Sanctioned Russian Vessel’s West African Odyssey",
+      "fragment": "It is at work everywhere, functioning smoothly at times, at other times in fits and starts. It breathes, it heats, it eats. It shits and fucks.",
+      "splice": "Tracking a Sanctioned Russian Vessel’s West African Odyssey as if it is at work everywhere, functioning smoothly at times, at other times in fits and starts. It breathes, it heats, it eats. It shits and fucks.",
+      "seed": 20260852
     }
   ]
 }
