@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T21:31:58.836Z",
+  "generated_at": "2026-08-25T01:23:46.337Z",
   "threat_intel": {
     "cisa_kev": [
       {
@@ -231,9 +231,84 @@
     ],
     "urlhaus": [
       {
-        "id": "3907761",
-        "date_added": "2026-08-24 21:23:25",
-        "url": "http://157.66.146.183:33678/bin.sh",
+        "id": "3907787",
+        "date_added": "2026-08-25 01:16:20",
+        "url": "http://112.93.137.230:51284/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3907786",
+        "date_added": "2026-08-25 01:15:22",
+        "url": "http://182.119.225.171:43881/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3907785",
+        "date_added": "2026-08-25 01:11:15",
+        "url": "http://110.186.230.69:47843/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "mirai"
+        ]
+      },
+      {
+        "id": "3907784",
+        "date_added": "2026-08-25 00:53:27",
+        "url": "http://182.119.225.171:43881/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3907783",
+        "date_added": "2026-08-25 00:53:18",
+        "url": "http://27.202.243.181:48929/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3907782",
+        "date_added": "2026-08-25 00:35:40",
+        "url": "http://27.202.243.181:48929/bin.sh",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3907781",
+        "date_added": "2026-08-25 00:34:29",
+        "url": "http://27.222.48.192:43573/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -245,23 +320,9 @@
         ]
       },
       {
-        "id": "3907760",
-        "date_added": "2026-08-24 21:03:24",
-        "url": "http://27.222.48.192:43573/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "arm",
-          "elf",
-          "mirai",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3907759",
-        "date_added": "2026-08-24 20:59:29",
-        "url": "http://42.224.29.91:43741/i",
+        "id": "3907780",
+        "date_added": "2026-08-24 23:50:22",
+        "url": "http://163.142.93.139:40959/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -272,170 +333,9 @@
         ]
       },
       {
-        "id": "3907758",
-        "date_added": "2026-08-24 20:29:29",
-        "url": "http://182.116.35.246:42450/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3907757",
-        "date_added": "2026-08-24 20:21:21",
-        "url": "http://42.224.29.91:43741/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3907756",
-        "date_added": "2026-08-24 19:56:28",
-        "url": "http://84.54.33.215:8080/Payroll_statement.pdf.pdf",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "84-54-33-215-8080",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3907754",
-        "date_added": "2026-08-24 19:50:18",
-        "url": "http://84.54.33.215:8080/Invoice.zip",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "84-54-33-215-8080",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3907755",
-        "date_added": "2026-08-24 19:50:18",
-        "url": "http://84.54.33.215:8080/Invoice.lnk",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "84-54-33-215-8080",
-          "lnk",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3907753",
-        "date_added": "2026-08-24 19:50:17",
-        "url": "http://84.54.33.215:8080/Invoice.ps1",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "84-54-33-215-8080",
-          "powershell",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3907752",
-        "date_added": "2026-08-24 19:50:15",
-        "url": "http://84.54.33.215:8080/main.py",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "84-54-33-215-8080",
-          "python",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3907751",
-        "date_added": "2026-08-24 19:41:32",
-        "url": "http://176.65.139.202/tplinkrouter.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "176-65-139-202",
-          "sh",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3907750",
-        "date_added": "2026-08-24 19:40:22",
-        "url": "http://176.65.139.202/totolink.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "176-65-139-202",
-          "sh",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3907749",
-        "date_added": "2026-08-24 19:37:17",
-        "url": "http://182.90.186.25:54136/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "arm",
-          "elf",
-          "mirai",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3907748",
-        "date_added": "2026-08-24 19:35:25",
-        "url": "http://182.116.35.246:42450/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3907747",
-        "date_added": "2026-08-24 19:32:24",
-        "url": "http://115.53.200.242:58837/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3907746",
-        "date_added": "2026-08-24 19:17:28",
-        "url": "http://42.7.150.192:54189/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3907744",
-        "date_added": "2026-08-24 19:16:12",
-        "url": "http://42.228.104.73:32923/i",
+        "id": "3907779",
+        "date_added": "2026-08-24 23:37:05",
+        "url": "http://113.228.254.228:59701/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -443,9 +343,55 @@
         ]
       },
       {
-        "id": "3907745",
-        "date_added": "2026-08-24 19:16:12",
-        "url": "http://42.228.104.73:32923/bin.sh",
+        "id": "3907778",
+        "date_added": "2026-08-24 23:30:23",
+        "url": "http://112.248.142.44:32773/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3907777",
+        "date_added": "2026-08-24 23:28:21",
+        "url": "http://59.96.143.190:39217/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3907776",
+        "date_added": "2026-08-24 23:21:09",
+        "url": "http://182.127.109.97:40474/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3907775",
+        "date_added": "2026-08-24 23:17:06",
+        "url": "http://103.157.210.26:37655/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3907774",
+        "date_added": "2026-08-24 23:12:07",
+        "url": "http://113.228.254.228:59701/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -453,75 +399,143 @@
         ]
       },
       {
-        "id": "3907741",
-        "date_added": "2026-08-24 19:13:18",
-        "url": "http://176.65.139.139/arm",
+        "id": "3907773",
+        "date_added": "2026-08-24 23:08:28",
+        "url": "http://42.7.150.192:54189/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "176-65-139-139",
+          "32-bit",
           "elf",
-          "mirai",
-          "ua-wget"
+          "mips",
+          "Mozi"
         ]
       },
       {
-        "id": "3907742",
-        "date_added": "2026-08-24 19:13:18",
-        "url": "http://176.65.139.139/arc",
+        "id": "3907772",
+        "date_added": "2026-08-24 23:05:42",
+        "url": "http://112.248.142.44:32773/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "176-65-139-139",
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3907771",
+        "date_added": "2026-08-24 23:03:28",
+        "url": "http://175.0.60.188:40182/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
           "elf",
           "mirai",
-          "ua-wget"
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3907770",
+        "date_added": "2026-08-24 22:57:18",
+        "url": "http://182.34.62.251:59959/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "mirai"
+        ]
+      },
+      {
+        "id": "3907769",
+        "date_added": "2026-08-24 22:51:25",
+        "url": "http://42.4.17.29:54916/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3907768",
+        "date_added": "2026-08-24 22:37:12",
+        "url": "http://182.126.82.125:50246/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "Mozi"
         ]
       }
     ]
   },
   "world_monitor": [
     {
-      "title": "Displaced Palestinians in Gaza face intensifying Israeli strikes",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/24/displaced-palestinians-in-gaza-face-intensifying-israeli-strikes?traffic_source=rss",
-      "pubDate": "Mon, 24 Aug 2026 21:12:06 +0000",
+      "title": "US plans to revoke business, tourism visas of 200,000 asylum seekers",
+      "link": "https://www.aljazeera.com/news/2026/8/25/us-plans-to-revoke-business-tourism-visas-of-200000-asylum-seekers?traffic_source=rss",
+      "pubDate": "Tue, 25 Aug 2026 01:01:44 +0000",
       "source": "Al Jazeera",
-      "summary": "Israel struck a makeshift tent sheltering displaced Palestinians in Deir al-Balah, killing one man."
+      "summary": "If the action happens, it will be the largest single mass revocation of visas in US history, AP reports."
     },
     {
-      "title": "What’s behind domestic political pressure on Ukraine’s president?",
-      "link": "https://www.aljazeera.com/video/inside-story/2026/8/24/whats-behind-domestic-political-pressure-on-ukraines-president?traffic_source=rss",
-      "pubDate": "Mon, 24 Aug 2026 20:54:38 +0000",
+      "title": "DRC’s constitutional battle: The fight over the 2028 vote",
+      "link": "https://www.aljazeera.com/news/2026/8/25/drcs-constitutional-battle-the-fight-over-the-2028-vote?traffic_source=rss",
+      "pubDate": "Tue, 25 Aug 2026 00:34:29 +0000",
       "source": "Al Jazeera",
-      "summary": "Zelenskyy rejects call from sacked minister for wartime elections."
+      "summary": "President Tshisekedi’s reform push is fuelling a battle over DRC’s 2028 succession."
     },
     {
-      "title": "Video: Iran reacts to US ‘economic D-Day’ sanctions",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/24/video-iran-reacts-to-us-economic-d-day-sanctions?traffic_source=rss",
-      "pubDate": "Mon, 24 Aug 2026 20:48:21 +0000",
+      "title": "Search continues in Tunisia as migrant boat sinking sparks protests",
+      "link": "https://www.aljazeera.com/news/2026/8/25/search-continues-in-tunisia-after-migrant-boat-sinking-sparks-protests?traffic_source=rss",
+      "pubDate": "Tue, 25 Aug 2026 00:18:42 +0000",
       "source": "Al Jazeera",
-      "summary": "Iran’s Minister of Economy Ali Madani-Zadeh has responded to the US announcement of a new economic pressure campaign."
+      "summary": "Tunisia's Ben Guerdane reels from violent protests after a boat carrying 15 people sinks, killing at least 12."
     },
     {
-      "title": "Ceasefire monitoring mission arrives in Democratic Republic of Congo",
-      "link": "https://www.aljazeera.com/news/2026/8/24/ceasefire-monitoring-mission-arrives-in-democratic-republic-of-congo?traffic_source=rss",
-      "pubDate": "Mon, 24 Aug 2026 20:48:09 +0000",
-      "source": "Al Jazeera",
-      "summary": "Fighting persists in the mineral-rich region despite ceasefire agreements."
+      "title": "US removes Syria from list of state sponsors of terrorism",
+      "link": "https://www.bbc.co.uk/news/articles/c33knmyl0y5o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Tue, 25 Aug 2026 00:17:25 GMT",
+      "source": "BBC",
+      "summary": "The Trump administration has embraced Syria's new president, former al-Qaeda linked militant Ahmed al-Sharaa."
     },
     {
-      "title": "Ambush in South Sudan kills peacekeeping troops",
-      "link": "https://www.aljazeera.com/news/2026/8/24/ambush-in-south-sudan-kills-peacekeeping-troops?traffic_source=rss",
-      "pubDate": "Mon, 24 Aug 2026 20:47:24 +0000",
+      "title": "Moment tornado tears through southern France",
+      "link": "https://www.bbc.co.uk/news/videos/ckg8wkd0j7do?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Tue, 25 Aug 2026 00:16:35 GMT",
+      "source": "BBC",
+      "summary": "The tornado has injured more than 40 people and destroyed homes in villages."
+    },
+    {
+      "title": "Iran war live: US slaps new sanctions on Iran, warns Tehran trade partners",
+      "link": "https://www.aljazeera.com/news/liveblog/2026/8/25/iran-war-live-drat?traffic_source=rss",
+      "pubDate": "Tue, 25 Aug 2026 00:00:00 +0000",
       "source": "Al Jazeera",
-      "summary": "Armed men injured three additional peacekeepers as fears grow of the country relapsing into civil war."
+      "summary": "US tells countries to choose between Washington and Tehran, warns Iran's trade partners they will face consequences."
     },
     {
       "title": "Iran faces 'greatest financial offensive ever', says US treasury secretary",
       "link": "https://www.bbc.co.uk/news/articles/c0qxew81y83o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Mon, 24 Aug 2026 19:12:35 GMT",
+      "pubDate": "Mon, 24 Aug 2026 23:48:25 GMT",
       "source": "BBC",
       "summary": "Scott Bessent says the US will sever all economic ties with the country and that any nation partnering with Iran financially will also be isolated."
+    },
+    {
+      "title": "How US sanctions on Iran ripple through global markets and consumers",
+      "link": "https://www.aljazeera.com/economy/2026/8/24/how-us-sanctions-on-iran-ripple-through-global-markets-and-consumers?traffic_source=rss",
+      "pubDate": "Mon, 24 Aug 2026 22:46:02 +0000",
+      "source": "Al Jazeera",
+      "summary": "New sanctions hit Iran's aviation, tech, and shipping sectors, amplifying pressure on global markets and energy prices."
+    },
+    {
+      "title": "UK Prime Minister Burnham Arrives in Ukraine as Russia Amps Up Warnings",
+      "link": "https://www.nytimes.com/2026/08/24/world/europe/uk-andy-burnham-ukraine-russia.html",
+      "pubDate": "Mon, 24 Aug 2026 22:16:57 +0000",
+      "source": "NYT World",
+      "summary": "In his first foreign trip since taking office, the British prime minister pledged to stand by Kyiv despite new warnings of potential consequences."
     },
     {
       "title": "Can ‘Argentina’s Texas’ Save the Country’s Economy?",
@@ -538,13 +552,6 @@
       "summary": "The unusual weather pattern and dried out peatlands, a kind of wetland, have been behind some of the country’s worst fire seasons. This year could be one."
     },
     {
-      "title": "UK Prime Minister Burnham Arrives in Ukraine as Russia Amps Up Warnings",
-      "link": "https://www.nytimes.com/2026/08/24/world/europe/uk-andy-burnham-ukraine-russia.html",
-      "pubDate": "Mon, 24 Aug 2026 17:47:04 +0000",
-      "source": "NYT World",
-      "summary": "In his first foreign trip since taking office, the British prime minister pledged to stand by Kyiv despite new warnings of potential consequences."
-    },
-    {
       "title": "UK PM Burnham vows support for Ukraine despite 'outrageous threats' from Russia",
       "link": "https://www.bbc.co.uk/news/articles/clyqypkrzq5o?at_medium=RSS&at_campaign=rss",
       "pubDate": "Mon, 24 Aug 2026 17:29:59 GMT",
@@ -559,25 +566,11 @@
       "summary": "An attack by what Ukrainian officials said was a Russian drone with an Nvidia chip presages a dystopian future of weaponry untethered to humans."
     },
     {
-      "title": "Israel warns of 'forceful' response to kites flown from Gaza",
-      "link": "https://www.bbc.co.uk/news/articles/c5y58g2dp3xo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Mon, 24 Aug 2026 13:56:22 GMT",
-      "source": "BBC",
-      "summary": "Hamas says the kites found in Israeli border communities in recent days were launched by children in Gaza."
-    },
-    {
       "title": "Iran Cracks Down on One Luxury Left to Its Youth: Coffee Shops",
       "link": "https://www.nytimes.com/2026/08/24/world/middleeast/iran-cafe-closures.html",
       "pubDate": "Mon, 24 Aug 2026 11:49:32 +0000",
       "source": "NYT World",
       "summary": "In recent weeks, the police have closed dozens of cafes, often citing laws that stipulate women must veil in public. Experts say the closures are part of an effort to control public space."
-    },
-    {
-      "title": "Russia's second-biggest online retailer targeted in Ukrainian strikes",
-      "link": "https://www.bbc.co.uk/news/articles/cg598yvrzpro?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Mon, 24 Aug 2026 10:40:22 GMT",
-      "source": "BBC",
-      "summary": "Ozon says its warehouses across southern Russia, including in Dagestan and Krasnodar, were hit in the overnight strikes."
     },
     {
       "title": "Pentagon Spokesperson Admits There’s a Secret Blacklist of Journalists",
@@ -724,6 +717,14 @@
   ],
   "syndicate_journal": [
     {
+      "title": "Five Images, Six Decades: Capturing the Iconic “Earthrise” Photo",
+      "link": "https://nautil.us/five-images-six-decades-capturing-the-iconic-earthrise-photo-1284171/",
+      "summary": "The first was taken August 23, 1966\nThe post Five Images, Six Decades: Capturing the Iconic “Earthrise” Photo appeared first on Nautilus.",
+      "pubDate": "Mon, 24 Aug 2026 22:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
       "title": "Class Traitors Are Welcome in the Socialist Movement",
       "link": "",
       "summary": "We are in a moment of particular fascination with the Democratic Socialists of America (DSA) across the nation. With the victory of congressional candidates like , , , and , DSA has arrived on the political stage, proving that the election of Zohran Mamdani was not a fluke but a harbinger of a growi",
@@ -762,14 +763,6 @@
       "pubDate": "2026-08-24T17:04:37.553Z",
       "domain": "politics",
       "source": "Jacobin"
-    },
-    {
-      "title": "Babies Born Under Sugar Rationing Grew Into Adults with Lower Cancer Risk",
-      "link": "https://nautil.us/babies-born-under-sugar-rationing-grew-into-adults-with-lower-cancer-risk-1284136/",
-      "summary": "Britain’s postwar sugar rationing was an accidental experiment. Decades on, it’s revealing how early diet shapes cancer risk, aging and eating habits for life.\nThe post Babies Born Under Sugar Rationing Grew Into Adults with Lower Cancer Risk appeared first on Nautilus.",
-      "pubDate": "Mon, 24 Aug 2026 16:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
     },
     {
       "title": "A New Framework for How the Brain Compresses Our Noisy World",
@@ -1014,64 +1007,64 @@
   ],
   "misinfo_toilet": [
     {
-      "headline": "UK PM Burnham vows support for Ukraine despite 'outrageous threats' from Russia",
-      "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "splice": "UK PM Burnham vows support for Ukraine despite 'outrageous threats' from Russia consequently the breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "seed": 20260845
-    },
-    {
-      "headline": "Iran faces 'greatest financial offensive ever', says US treasury secretary",
-      "fragment": "The privatization of the organs will only begin with the shame felt by man at the sight of man.",
-      "splice": "Iran faces 'greatest financial offensive ever', says US treasury secretary while the privatization of the organs will only begin with the shame felt by man at the sight of man.",
-      "seed": 20260846
-    },
-    {
-      "headline": "Can ‘Argentina’s Texas’ Save the Country’s Economy?",
-      "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
-      "splice": "Can ‘Argentina’s Texas’ Save the Country’s Economy? not unlike the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
-      "seed": 20260847
-    },
-    {
-      "headline": "Ceasefire monitoring mission arrives in Democratic Republic of Congo",
-      "fragment": "Reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
-      "splice": "Ceasefire monitoring mission arrives in Democratic Republic of Congo as if reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
-      "seed": 20260848
-    },
-    {
-      "headline": "Video: Iran reacts to US ‘economic D-Day’ sanctions",
-      "fragment": "Art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
-      "splice": "Video: Iran reacts to US ‘economic D-Day’ sanctions insofar as art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
-      "seed": 20260849
-    },
-    {
-      "headline": "Iran Cracks Down on One Luxury Left to Its Youth: Coffee Shops",
-      "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "splice": "Iran Cracks Down on One Luxury Left to Its Youth: Coffee Shops underneath the breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "seed": 20260850
-    },
-    {
-      "headline": "A Drone Killed Three Ukrainians. It Was Guided Entirely by A.I.",
-      "fragment": "There is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
-      "splice": "A Drone Killed Three Ukrainians. It Was Guided Entirely by A.I. meanwhile there is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
-      "seed": 20260851
-    },
-    {
-      "headline": "Displaced Palestinians in Gaza face intensifying Israeli strikes",
-      "fragment": "The privatization of the organs will only begin with the shame felt by man at the sight of man.",
-      "splice": "Displaced Palestinians in Gaza face intensifying Israeli strikes underneath the privatization of the organs will only begin with the shame felt by man at the sight of man.",
-      "seed": 20260852
+      "headline": "As El Niño Dries Indonesia, Wildfires Intensify",
+      "fragment": "An ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
+      "splice": "As El Niño Dries Indonesia, Wildfires Intensify while an ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
+      "seed": 20260826
     },
     {
       "headline": "King of Norway's health has worsened, palace says",
-      "fragment": "Why do men fight for their servitude as stubbornly as though it were their salvation?",
-      "splice": "King of Norway's health has worsened, palace says ...as why do men fight for their servitude as stubbornly as though it were their salvation?",
-      "seed": 20260853
+      "fragment": "The technocrat is the natural friend of the dictator—computers and dictatorship.",
+      "splice": "King of Norway's health has worsened, palace says insofar as the technocrat is the natural friend of the dictator—computers and dictatorship.",
+      "seed": 20260827
     },
     {
-      "headline": "Russia's second-biggest online retailer targeted in Ukrainian strikes",
-      "fragment": "Over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
-      "splice": "Russia's second-biggest online retailer targeted in Ukrainian strikes insofar as over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
-      "seed": 20260854
+      "headline": "Will Ronaldo Cry​? World Cup Fans Bet Billions Through Prediction Markets",
+      "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
+      "splice": "Will Ronaldo Cry​? World Cup Fans Bet Billions Through Prediction Markets consequently it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
+      "seed": 20260828
+    },
+    {
+      "headline": "A Drone Killed Three Ukrainians. It Was Guided Entirely by A.I.",
+      "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
+      "splice": "A Drone Killed Three Ukrainians. It Was Guided Entirely by A.I. not unlike it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
+      "seed": 20260829
+    },
+    {
+      "headline": "US removes Syria from list of state sponsors of terrorism",
+      "fragment": "It is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
+      "splice": "US removes Syria from list of state sponsors of terrorism despite it is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
+      "seed": 20260830
+    },
+    {
+      "headline": "Moment tornado tears through southern France",
+      "fragment": "The privatization of the organs will only begin with the shame felt by man at the sight of man.",
+      "splice": "Moment tornado tears through southern France therefore the privatization of the organs will only begin with the shame felt by man at the sight of man.",
+      "seed": 20260831
+    },
+    {
+      "headline": "Welcome to Dubai: Kinahan Cartel’s Visas Revealed",
+      "fragment": "Traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
+      "splice": "Welcome to Dubai: Kinahan Cartel’s Visas Revealed ...as traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
+      "seed": 20260832
+    },
+    {
+      "headline": "Iran war live: US slaps new sanctions on Iran, warns Tehran trade partners",
+      "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
+      "splice": "Iran war live: US slaps new sanctions on Iran, warns Tehran trade partners insofar as the revolutionary lives in the gap which separates technical progress from social totality.",
+      "seed": 20260833
+    },
+    {
+      "headline": "RIP to the Russiagate Liberals",
+      "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "splice": "RIP to the Russiagate Liberals which is to say the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "seed": 20260834
+    },
+    {
+      "headline": "How US sanctions on Iran ripple through global markets and consumers",
+      "fragment": "The truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
+      "splice": "How US sanctions on Iran ripple through global markets and consumers underneath the truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
+      "seed": 20260835
     }
   ]
 }
