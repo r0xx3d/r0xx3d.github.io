@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T01:23:46.337Z",
+  "generated_at": "2026-08-25T15:44:02.077Z",
   "threat_intel": {
     "cisa_kev": [
       {
@@ -231,9 +231,9 @@
     ],
     "urlhaus": [
       {
-        "id": "3907787",
-        "date_added": "2026-08-25 01:16:20",
-        "url": "http://112.93.137.230:51284/i",
+        "id": "3908086",
+        "date_added": "2026-08-25 15:09:35",
+        "url": "http://175.165.76.134:43930/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -244,9 +244,119 @@
         ]
       },
       {
-        "id": "3907786",
-        "date_added": "2026-08-25 01:15:22",
-        "url": "http://182.119.225.171:43881/i",
+        "id": "3908085",
+        "date_added": "2026-08-25 15:02:20",
+        "url": "https://kolpa.lol/d/fb2232aa883b4a33ac3877a402c0126c",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "IRAHook",
+          "rat",
+          "stealer"
+        ]
+      },
+      {
+        "id": "3908084",
+        "date_added": "2026-08-25 15:01:09",
+        "url": "http://193.221.200.26:5001/odens.exe",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "SalatStealer",
+          "stealer"
+        ]
+      },
+      {
+        "id": "3908083",
+        "date_added": "2026-08-25 14:46:18",
+        "url": "http://150.241.65.250:889/venv/lib64/python3.12/site-packages/pip/_vendor/urllib3/__pycache__/fields.cpython-312.pyc",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3908082",
+        "date_added": "2026-08-25 14:24:46",
+        "url": "https://kolpa.lol/d/3c547dbeb28c4b8d937a771d0debff39",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "IRAHook",
+          "rat",
+          "stealer"
+        ]
+      },
+      {
+        "id": "3908081",
+        "date_added": "2026-08-25 14:24:31",
+        "url": "https://kolpa.lol/d/9077ca9a63a44186add67faed923847e",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "IRAHook",
+          "rat",
+          "stealer"
+        ]
+      },
+      {
+        "id": "3908080",
+        "date_added": "2026-08-25 14:23:33",
+        "url": "https://kolpa.lol/d/049e625ea690455ba545c97cf546fd8d",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "IRAHook",
+          "rat",
+          "stealer"
+        ]
+      },
+      {
+        "id": "3908079",
+        "date_added": "2026-08-25 14:19:17",
+        "url": "https://plutotvshow.biz/exe/backup_svc-release.exe",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          " exe",
+          " MicroClip",
+          " stealer",
+          "ClickFix"
+        ]
+      },
+      {
+        "id": "3908078",
+        "date_added": "2026-08-25 14:11:09",
+        "url": "http://172.86.114.3/wepu/cryptedd.ps1",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "ascii",
+          "opendir",
+          "powershell",
+          "ps1"
+        ]
+      },
+      {
+        "id": "3908077",
+        "date_added": "2026-08-25 14:10:19",
+        "url": "http://172.86.114.3/wepu/crypted.ps1",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "ascii",
+          "opendir",
+          "powershell",
+          "ps1",
+          "rat",
+          "RemcosRAT"
+        ]
+      },
+      {
+        "id": "3908076",
+        "date_added": "2026-08-25 13:55:25",
+        "url": "http://219.155.209.50:45888/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -257,19 +367,36 @@
         ]
       },
       {
-        "id": "3907785",
-        "date_added": "2026-08-25 01:11:15",
-        "url": "http://110.186.230.69:47843/bin.sh",
+        "id": "3908075",
+        "date_added": "2026-08-25 13:52:11",
+        "url": "https://architekten-schreiner.de/modules/mod_login/tocvpyg/aijontc/osefrak/OJcrypted.ps1",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "mirai"
+          "ascii",
+          "powershell",
+          "ps1",
+          "VIPKeylogger"
         ]
       },
       {
-        "id": "3907784",
-        "date_added": "2026-08-25 00:53:27",
-        "url": "http://182.119.225.171:43881/bin.sh",
+        "id": "3908074",
+        "date_added": "2026-08-25 13:29:18",
+        "url": "http://223.151.72.214:44130/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "mirai",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3908073",
+        "date_added": "2026-08-25 13:20:17",
+        "url": "http://212.164.115.235:53007/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -280,9 +407,9 @@
         ]
       },
       {
-        "id": "3907783",
-        "date_added": "2026-08-25 00:53:18",
-        "url": "http://27.202.243.181:48929/i",
+        "id": "3908072",
+        "date_added": "2026-08-25 12:56:12",
+        "url": "http://212.164.115.235:53007/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -293,9 +420,19 @@
         ]
       },
       {
-        "id": "3907782",
-        "date_added": "2026-08-25 00:35:40",
-        "url": "http://27.202.243.181:48929/bin.sh",
+        "id": "3908071",
+        "date_added": "2026-08-25 12:52:07",
+        "url": "http://109.171.67.100:18713/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3908070",
+        "date_added": "2026-08-25 12:44:19",
+        "url": "http://182.119.13.119:44968/bin.sh",
         "url_status": "offline",
         "threat": "malware_download",
         "tags": [
@@ -306,36 +443,9 @@
         ]
       },
       {
-        "id": "3907781",
-        "date_added": "2026-08-25 00:34:29",
-        "url": "http://27.222.48.192:43573/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "arm",
-          "elf",
-          "mirai",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3907780",
-        "date_added": "2026-08-24 23:50:22",
-        "url": "http://163.142.93.139:40959/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3907779",
-        "date_added": "2026-08-24 23:37:05",
-        "url": "http://113.228.254.228:59701/i",
+        "id": "3908069",
+        "date_added": "2026-08-25 12:38:26",
+        "url": "https://wordtax.ink/down/setup.aac",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -343,9 +453,9 @@
         ]
       },
       {
-        "id": "3907778",
-        "date_added": "2026-08-24 23:30:23",
-        "url": "http://112.248.142.44:32773/i",
+        "id": "3908068",
+        "date_added": "2026-08-25 12:38:19",
+        "url": "http://182.119.13.119:44968/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -356,221 +466,143 @@
         ]
       },
       {
-        "id": "3907777",
-        "date_added": "2026-08-24 23:28:21",
-        "url": "http://59.96.143.190:39217/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3907776",
-        "date_added": "2026-08-24 23:21:09",
-        "url": "http://182.127.109.97:40474/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3907775",
-        "date_added": "2026-08-24 23:17:06",
-        "url": "http://103.157.210.26:37655/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3907774",
-        "date_added": "2026-08-24 23:12:07",
-        "url": "http://113.228.254.228:59701/bin.sh",
-        "url_status": "online",
+        "id": "3908067",
+        "date_added": "2026-08-25 12:38:07",
+        "url": "https://final-aura.top/f1",
+        "url_status": "offline",
         "threat": "malware_download",
         "tags": [
           "None"
-        ]
-      },
-      {
-        "id": "3907773",
-        "date_added": "2026-08-24 23:08:28",
-        "url": "http://42.7.150.192:54189/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3907772",
-        "date_added": "2026-08-24 23:05:42",
-        "url": "http://112.248.142.44:32773/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3907771",
-        "date_added": "2026-08-24 23:03:28",
-        "url": "http://175.0.60.188:40182/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "arm",
-          "elf",
-          "mirai",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3907770",
-        "date_added": "2026-08-24 22:57:18",
-        "url": "http://182.34.62.251:59959/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "mirai"
-        ]
-      },
-      {
-        "id": "3907769",
-        "date_added": "2026-08-24 22:51:25",
-        "url": "http://42.4.17.29:54916/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3907768",
-        "date_added": "2026-08-24 22:37:12",
-        "url": "http://182.126.82.125:50246/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
         ]
       }
     ]
   },
   "world_monitor": [
     {
-      "title": "US plans to revoke business, tourism visas of 200,000 asylum seekers",
-      "link": "https://www.aljazeera.com/news/2026/8/25/us-plans-to-revoke-business-tourism-visas-of-200000-asylum-seekers?traffic_source=rss",
-      "pubDate": "Tue, 25 Aug 2026 01:01:44 +0000",
-      "source": "Al Jazeera",
-      "summary": "If the action happens, it will be the largest single mass revocation of visas in US history, AP reports."
+      "title": "Canada Fires Back in Trade War Against Trump With Up to 50% Tariffs",
+      "link": "https://www.nytimes.com/2026/08/25/world/canada/canada-tariffs-trump-carney-retaliatory.html",
+      "pubDate": "Tue, 25 Aug 2026 15:28:25 +0000",
+      "source": "NYT World",
+      "summary": "Canada said the higher levies, on items from aluminum foil to dishwashers to fish, would help protect workers, producers and manufacturers harmed by new Trump tariffs."
     },
     {
-      "title": "DRC’s constitutional battle: The fight over the 2028 vote",
-      "link": "https://www.aljazeera.com/news/2026/8/25/drcs-constitutional-battle-the-fight-over-the-2028-vote?traffic_source=rss",
-      "pubDate": "Tue, 25 Aug 2026 00:34:29 +0000",
-      "source": "Al Jazeera",
-      "summary": "President Tshisekedi’s reform push is fuelling a battle over DRC’s 2028 succession."
-    },
-    {
-      "title": "Search continues in Tunisia as migrant boat sinking sparks protests",
-      "link": "https://www.aljazeera.com/news/2026/8/25/search-continues-in-tunisia-after-migrant-boat-sinking-sparks-protests?traffic_source=rss",
-      "pubDate": "Tue, 25 Aug 2026 00:18:42 +0000",
-      "source": "Al Jazeera",
-      "summary": "Tunisia's Ben Guerdane reels from violent protests after a boat carrying 15 people sinks, killing at least 12."
-    },
-    {
-      "title": "US removes Syria from list of state sponsors of terrorism",
-      "link": "https://www.bbc.co.uk/news/articles/c33knmyl0y5o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Tue, 25 Aug 2026 00:17:25 GMT",
+      "title": "CIA chief in Moscow for unannounced talks, US media reports",
+      "link": "https://www.bbc.co.uk/news/articles/c87vg9x5d7do?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Tue, 25 Aug 2026 15:27:48 GMT",
       "source": "BBC",
-      "summary": "The Trump administration has embraced Syria's new president, former al-Qaeda linked militant Ahmed al-Sharaa."
+      "summary": "Flight tracking data confirms an American military aircraft travelled to Russia from the US via Latvia on Tuesday."
     },
     {
-      "title": "Moment tornado tears through southern France",
-      "link": "https://www.bbc.co.uk/news/videos/ckg8wkd0j7do?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Tue, 25 Aug 2026 00:16:35 GMT",
-      "source": "BBC",
-      "summary": "The tornado has injured more than 40 people and destroyed homes in villages."
-    },
-    {
-      "title": "Iran war live: US slaps new sanctions on Iran, warns Tehran trade partners",
-      "link": "https://www.aljazeera.com/news/liveblog/2026/8/25/iran-war-live-drat?traffic_source=rss",
-      "pubDate": "Tue, 25 Aug 2026 00:00:00 +0000",
+      "title": "Nine years of Rohingya refugee crisis",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/25/nine-years-of-rohingya-refugee-crisis?traffic_source=rss",
+      "pubDate": "Tue, 25 Aug 2026 15:24:31 +0000",
       "source": "Al Jazeera",
-      "summary": "US tells countries to choose between Washington and Tehran, warns Iran's trade partners they will face consequences."
+      "summary": "Nine years of Rohingya refugee crisis"
     },
     {
-      "title": "Iran faces 'greatest financial offensive ever', says US treasury secretary",
-      "link": "https://www.bbc.co.uk/news/articles/c0qxew81y83o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Mon, 24 Aug 2026 23:48:25 GMT",
-      "source": "BBC",
-      "summary": "Scott Bessent says the US will sever all economic ties with the country and that any nation partnering with Iran financially will also be isolated."
-    },
-    {
-      "title": "How US sanctions on Iran ripple through global markets and consumers",
-      "link": "https://www.aljazeera.com/economy/2026/8/24/how-us-sanctions-on-iran-ripple-through-global-markets-and-consumers?traffic_source=rss",
-      "pubDate": "Mon, 24 Aug 2026 22:46:02 +0000",
+      "title": "Gaza marks one year since Mariam Dagga was killed in Israeli strike",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/25/gaza-marks-one-year-since-mariam-dagga-was-killed-in-israeli-strike?traffic_source=rss",
+      "pubDate": "Tue, 25 Aug 2026 15:23:17 +0000",
       "source": "Al Jazeera",
-      "summary": "New sanctions hit Iran's aviation, tech, and shipping sectors, amplifying pressure on global markets and energy prices."
+      "summary": "A ceremony was held in Gaza to mark one year since an Israeli double strike killed 22 Palestinians in a hospital."
     },
     {
-      "title": "UK Prime Minister Burnham Arrives in Ukraine as Russia Amps Up Warnings",
-      "link": "https://www.nytimes.com/2026/08/24/world/europe/uk-andy-burnham-ukraine-russia.html",
-      "pubDate": "Mon, 24 Aug 2026 22:16:57 +0000",
-      "source": "NYT World",
-      "summary": "In his first foreign trip since taking office, the British prime minister pledged to stand by Kyiv despite new warnings of potential consequences."
+      "title": "Qatar says US sanctions on Iran are unilateral",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/25/qatar-says-us-sanctions-on-iran-are-unilateral?traffic_source=rss",
+      "pubDate": "Tue, 25 Aug 2026 15:17:05 +0000",
+      "source": "Al Jazeera",
+      "summary": "Qatar’s Foreign Ministry said in a briefing on Tuesday that the US sanctions on Iran are unilateral."
     },
     {
-      "title": "Can ‘Argentina’s Texas’ Save the Country’s Economy?",
-      "link": "https://www.nytimes.com/2026/08/24/world/americas/argentina-oil-patagonia-milei.html",
-      "pubDate": "Mon, 24 Aug 2026 18:38:37 +0000",
-      "source": "NYT World",
-      "summary": "Thousands of Argentines are flocking to a remote stretch of Patagonia, seeking work with only backpacks, tents and the hope that they and their country can turn around their fortunes."
+      "title": "Sixty More U.S. Soldiers Reported Injured in Iran War",
+      "link": "https://theintercept.com/2026/08/25/military-soldiers-wounded-casualties-iran-war/",
+      "pubDate": "Tue, 25 Aug 2026 15:15:45 +0000",
+      "source": "The Intercept",
+      "summary": "A government official accused the Pentagon of “an accounting trick” in its slow tally of Iran war casualties.\nThe post Sixty More U.S. Soldiers Reported Injured in Iran War appeared first on The Intercept."
     },
     {
-      "title": "As El Niño Dries Indonesia, Wildfires Intensify",
-      "link": "https://www.nytimes.com/2026/08/24/world/asia/indonesia-el-nino-borneo-fire.html",
-      "pubDate": "Mon, 24 Aug 2026 18:14:15 +0000",
-      "source": "NYT World",
-      "summary": "The unusual weather pattern and dried out peatlands, a kind of wetland, have been behind some of the country’s worst fire seasons. This year could be one."
+      "title": "US launches Economic war on Iran",
+      "link": "https://www.aljazeera.com/videos/newsfeed/2026/8/25/us-launches-economic-war-on-iran?traffic_source=rss",
+      "pubDate": "Tue, 25 Aug 2026 15:12:00 +0000",
+      "source": "Al Jazeera",
+      "summary": "The US says it has launched ‘Operation Economic Outcast’, expanding sanctions on Iran"
     },
     {
-      "title": "UK PM Burnham vows support for Ukraine despite 'outrageous threats' from Russia",
-      "link": "https://www.bbc.co.uk/news/articles/clyqypkrzq5o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Mon, 24 Aug 2026 17:29:59 GMT",
+      "title": "One year since Gaza journalist killed by Israel",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/25/one-year-since-gaza-journalist-killed-by-israel?traffic_source=rss",
+      "pubDate": "Tue, 25 Aug 2026 15:09:10 +0000",
+      "source": "Al Jazeera",
+      "summary": "It’s been one year since AP journalist Mariam Dagga was killed in Israeli strikes on Gaza’s Nasser Hospital."
+    },
+    {
+      "title": "Two unvaccinated people die of measles in Pennsylvania ",
+      "link": "https://www.bbc.co.uk/news/articles/c5yednen30go?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Tue, 25 Aug 2026 14:54:34 GMT",
       "source": "BBC",
-      "summary": "It comes after Moscow warned of \"consequences\" over the reported use of British drones by Ukraine."
+      "summary": "Cases in the US have hit the highest point since the virus was eliminated, as vaccination rates decline."
     },
     {
-      "title": "A Drone Killed Three Ukrainians. It Was Guided Entirely by A.I.",
-      "link": "https://www.nytimes.com/2026/08/24/world/europe/russia-drones-autonomous-ai-kill-ukraine-war.html",
-      "pubDate": "Mon, 24 Aug 2026 14:24:53 +0000",
+      "title": "How U.S.-Canada Tariff Negotiations Turned Into an All-Out Trade War",
+      "link": "https://www.nytimes.com/2026/08/25/world/canada/trump-carney-trade-war-tariffs.html",
+      "pubDate": "Tue, 25 Aug 2026 12:39:20 +0000",
       "source": "NYT World",
-      "summary": "An attack by what Ukrainian officials said was a Russian drone with an Nvidia chip presages a dystopian future of weaponry untethered to humans."
+      "summary": "Detailed accounts of the final hours of the negotiations show that, while the United States offered Canada what it said was the best deal of any country, what Canada had to give up in exchange was seen as unthinkable."
     },
     {
-      "title": "Iran Cracks Down on One Luxury Left to Its Youth: Coffee Shops",
-      "link": "https://www.nytimes.com/2026/08/24/world/middleeast/iran-cafe-closures.html",
-      "pubDate": "Mon, 24 Aug 2026 11:49:32 +0000",
+      "title": "Brain disease in dead NFL players 'higher than previously shown'",
+      "link": "https://www.bbc.co.uk/sport/american-football/articles/cew9l95kyp0o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Tue, 25 Aug 2026 11:54:40 GMT",
+      "source": "BBC",
+      "summary": "A new study says at least one in four ex-NFL players who died between 2016 and 2021 had a degenerative brain disease but the true figure could be much higher."
+    },
+    {
+      "title": "China hits out at 'illegal' new US sanctions on Iran and trading partners",
+      "link": "https://www.bbc.co.uk/news/articles/clyl8965j5go?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Tue, 25 Aug 2026 11:53:36 GMT",
+      "source": "BBC",
+      "summary": "The US has threatened to isolate nations that continue to do business with Tehran, which sells much of its oil to Beijing."
+    },
+    {
+      "title": "Local Cops Flout Sanctuary Law to Help ICE Deport Immigrants",
+      "link": "https://theintercept.com/2026/08/25/illinois-trust-act-ice-deport-police-collaboration/",
+      "pubDate": "Tue, 25 Aug 2026 11:00:00 +0000",
+      "source": "The Intercept",
+      "summary": "Illinois law prohibits local collaboration with immigration enforcement officials, but the cops often find workarounds.\nThe post Local Cops Flout Sanctuary Law to Help ICE Deport Immigrants appeared first on The Intercept."
+    },
+    {
+      "title": "Iran May Have Little to Lose as U.S. Tries to Squeeze Its Economy",
+      "link": "https://www.nytimes.com/2026/08/25/world/middleeast/iran-us-economy-sanctions.html",
+      "pubDate": "Tue, 25 Aug 2026 10:47:25 +0000",
       "source": "NYT World",
-      "summary": "In recent weeks, the police have closed dozens of cafes, often citing laws that stipulate women must veil in public. Experts say the closures are part of an effort to control public space."
+      "summary": "Experts warn that a campaign aimed at avoiding military escalation could instead provoke it, as Iranian leaders vow retaliation across the oil-rich Gulf."
+    },
+    {
+      "title": "Trump Administration to Return Diplomats to Middle East Embassies",
+      "link": "https://www.nytimes.com/2026/08/25/world/middleeast/us-diplomats-middle-east-embassies.html",
+      "pubDate": "Tue, 25 Aug 2026 09:32:55 +0000",
+      "source": "NYT World",
+      "summary": "Evacuated foreign service officers could begin heading back to their posts as early as this week, an internal document shows, suggesting Washington does not anticipate a renewal of full-scale conflict with Iran."
+    },
+    {
+      "title": "What Happened to the Coveted Western Tanks Sent to Ukraine?",
+      "link": "https://www.nytimes.com/2026/08/25/world/europe/ukraine-russia-tanks.html",
+      "pubDate": "Tue, 25 Aug 2026 09:01:55 +0000",
+      "source": "NYT World",
+      "summary": "Ukraine pleaded for the expensive weapons, and ultimately got them, but drones have rendered them almost unusable."
+    },
+    {
+      "title": "Tracking a Sanctioned Russian Vessel’s West African Odyssey",
+      "link": "https://www.bellingcat.com/news/africa/2026/08/25/patria-sanctioned-russian-vessel-russia-us-africa-cameroon-gabon-lagos-nigeria/",
+      "pubDate": "Tue, 25 Aug 2026 08:52:50 +0000",
+      "source": "Bellingcat",
+      "summary": "Sign up here to receive Bellingcat’s biggest investigations by email as soon as they are published. A sanctioned vessel that was previously reported to have transported weapons destined for Russian mercenaries has been traversing ports on the west co"
+    },
+    {
+      "title": "Tornado tears through French village, leaving dozens hurt and homes ravaged",
+      "link": "https://www.bbc.co.uk/news/articles/c0m3npvpgdno?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Tue, 25 Aug 2026 08:52:17 GMT",
+      "source": "BBC",
+      "summary": "The south-western village of Pomas was hardest hit, with hundreds of homes damaged and fifteen people taken to hospital."
     },
     {
       "title": "Pentagon Spokesperson Admits There’s a Secret Blacklist of Journalists",
@@ -578,13 +610,6 @@
       "pubDate": "Mon, 24 Aug 2026 09:52:00 +0000",
       "source": "The Intercept",
       "summary": "When pressed about the Iran war, a CENTCOM press official threatened to put an Intercept reporter on a “list of people to disregard.”\nThe post Pentagon Spokesperson Admits There’s a Secret Blacklist of Journalists appeared first on The Intercept."
-    },
-    {
-      "title": "King of Norway's health has worsened, palace says",
-      "link": "https://www.bbc.co.uk/news/articles/c36lnekj659o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Mon, 24 Aug 2026 08:31:55 GMT",
-      "source": "BBC",
-      "summary": "Norway's King Harald remains in hospital receiving antibiotics for a bloodstream bacterial infection."
     },
     {
       "title": "The Dawn of a New Cold War",
@@ -599,20 +624,6 @@
       "pubDate": "Sat, 22 Aug 2026 10:21:00 +0000",
       "source": "The Intercept",
       "summary": "With Alex Vindman and George Conway’s losses, Democratic voters are forcefully rejecting the notion that Russia is to blame for America’s ills.\nThe post RIP to the Russiagate Liberals appeared first on The Intercept."
-    },
-    {
-      "title": "What American Doctors Saw in Gaza",
-      "link": "https://theintercept.com/2026/08/21/gaza-hospitals-american-doctor-documentary/",
-      "pubDate": "Fri, 21 Aug 2026 10:00:00 +0000",
-      "source": "The Intercept",
-      "summary": "A new documentary follows three physicians facing the odds: limited medical supplies, Israeli bombing, and upon returning home, media bias and indifference.\nThe post What American Doctors Saw in Gaza appeared first on The Intercept."
-    },
-    {
-      "title": "This Mysterious “Astroturf” Group Popped Up to Defend the Paramount Merger",
-      "link": "https://theintercept.com/2026/08/21/paramount-merger-warner-discovery-david-ellison-antitrust/",
-      "pubDate": "Fri, 21 Aug 2026 08:50:00 +0000",
-      "source": "The Intercept",
-      "summary": "In text messages, the newly formed group boosted reported threats by CEO David Ellison to move Paramount out of California.\nThe post This Mysterious “Astroturf” Group Popped Up to Defend the Paramount Merger appeared first on The Intercept."
     },
     {
       "title": "Satellite Imagery Documents New Border Patrol Road Construction in Big Bend National Park",
@@ -641,16 +652,16 @@
       "pubDate": "Fri, 24 Jul 2026 15:39:05 +0000",
       "source": "Bellingcat",
       "summary": "Bellingcat has geolocated footage showing Shahed-136 type kamikaze drones in operation in Mali. Defence Blog and France 24 previously published reports that these drones were being deployed on the battlefield in northern Mali. But Bellingcat and Jeun"
-    },
-    {
-      "title": "Identifying the Crypto Entrepreneur Linked to Popular Forum Trading in ‘Leaked’ Nudes of Women",
-      "link": "https://www.bellingcat.com/news/2026/07/16/leakedbb-crypto-entrepreneur/",
-      "pubDate": "Thu, 16 Jul 2026 16:00:01 +0000",
-      "source": "Bellingcat",
-      "summary": "This investigation is a collaboration between Bellingcat and New Zealand news site The Press. You can read The Press’ piece here.  Content warning: This article discusses non-consensual sexually explicit content and child sexual abuse material. In 20"
     }
   ],
   "syndication": [
+    {
+      "title": "Black Hat State of Security Vendors",
+      "link": "https://www.schneier.com/blog/archives/2026/08/black-hat-state-of-security-vendors.html",
+      "pubDate": "2026-08-25T10:54:50.000Z",
+      "author": "Schneier on Security",
+      "content": "Andy Ellis has a roundup of the security vendors at Black Hat this year.\nKey Takeaways: We have entered into an AI world.  While nearly half of booths didn’t directly mention AI or agents in their taglines, the effects of AI are everywhere.  Multiple spaces (Identity, SaaS, AppSec, Data) have almost"
+    },
     {
       "title": "Pluralistic: How Canada can help Americans and defeat America (23 Aug 2026)",
       "link": "https://pluralistic.net/2026/08/24/elbows-really-up/",
@@ -678,13 +689,6 @@
       "pubDate": "2026-08-21T21:07:20.000Z",
       "author": "Schneier on Security",
       "content": "The neon flying squid can fly in formation.\nThe shoal of about 100 squid rose unexpectedly from a patch of the Pacific Ocean around 370 miles from Tokyo and glided near the boat for about 30 metres. The astonished researchers were the first to capture photographs of such a thing, which looked like t"
-    },
-    {
-      "title": "AI Is Learning to Write Genetic Code",
-      "link": "https://www.schneier.com/blog/archives/2026/08/ai-is-learning-to-write-genetic-code.html",
-      "pubDate": "2026-08-21T16:51:50.000Z",
-      "author": "Schneier on Security",
-      "content": "This sort of research is both exciting and terrifying:\nThe two models in question were told to generate complete genomes for a viable bacteriophage—a type of virus able to infect and replicate itself inside bacteria, destroying them from the inside.\nUsing an existing bacteriophage as an example—ΦX17"
     },
     {
       "title": "Pluralistic: The actual epistemic crisis (20 Aug 2026)",
@@ -717,6 +721,70 @@
   ],
   "syndicate_journal": [
     {
+      "title": "The Return of Industrial Policy",
+      "link": "",
+      "summary": "Advanced capitalist countries have recently rediscovered the role of industrial policy to build out key economic sectors like semiconductors and AI. But what happens if business is the one calling all the shots?\nIn this episode of the  podcast , Vivek Chibber discusses how developing countries used ",
+      "pubDate": "2026-08-25T15:27:46.538Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "The Resistance Is Here",
+      "link": "https://nautil.us/the-resistance-is-here-1283887/",
+      "summary": "They didn’t plan to be activists. But scientists have united to overturn Trump’s drastic cuts to science.\nThe post The Resistance Is Here appeared first on Nautilus.",
+      "pubDate": "Tue, 25 Aug 2026 14:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "Not All Boredom Is the Same",
+      "link": "https://daily.jstor.org/not-all-boredom-is-the-same/",
+      "summary": "Psychology suggests that boredom is a signal. Understanding its cause can help us decide how to respond.\nThe post Not All Boredom Is the Same appeared first on JSTOR Daily.",
+      "pubDate": "Tue, 25 Aug 2026 13:39:31 +0000",
+      "domain": "history",
+      "source": "JSTOR Daily"
+    },
+    {
+      "title": "Berlin’s Election Can Make Socialized Housing a Reality",
+      "link": "",
+      "summary": "On September 20, Berliners will elect a new state parliament in a contest that has already become a referendum on a referendum.\nFive years ago, 59.1 percent of the city voted to socialize the holdings of Berlin’s largest for-profit landlords. Following a long campaign to force a vote, the referendum",
+      "pubDate": "2026-08-25T12:52:27.241Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "Small Iguanodon Fossil Sheds Light on Dino Diversity",
+      "link": "https://nautil.us/small-iguanodon-fossil-sheds-light-on-dino-diversity-1284182/",
+      "summary": "It lived in Japan long before Japan was an island\nThe post Small Iguanodon Fossil Sheds Light on Dino Diversity appeared first on Nautilus.",
+      "pubDate": "Tue, 25 Aug 2026 12:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "KVBoost: Chunk-Level Key-Value Cache Reuse with Deviation-Guided Recomputation for Efficient Large Language Model Inference",
+      "link": "https://arxiv.org/abs/2608.21362",
+      "summary": "arXiv:2608.21362v1 Announce Type: new \nAbstract: Transformer-based large language models (LLMs) incur high prefill latency because key-value (KV) tensors must be recomputed for each request. Existing prefix-caching systems reduce this cost but require prompts to share a leading contiguous prefix, li",
+      "pubDate": "Tue, 25 Aug 2026 00:00:00 -0400",
+      "domain": "science",
+      "source": "arXiv: cs.AI"
+    },
+    {
+      "title": "AIREP: A Protocol for Per-Decision Evidence in AI Runtime Governance",
+      "link": "https://arxiv.org/abs/2608.21363",
+      "summary": "arXiv:2608.21363v1 Announce Type: new \nAbstract: A protocol is presented for recording the governance decisions of automated AI runtimes. When a runtime releases, blocks, defers, redacts, or escalates an individual output, AIREP records that decision as a single signed object that any party can chec",
+      "pubDate": "Tue, 25 Aug 2026 00:00:00 -0400",
+      "domain": "science",
+      "source": "arXiv: cs.AI"
+    },
+    {
+      "title": "Reviewing Model Collapse and Countermeasures",
+      "link": "https://arxiv.org/abs/2608.21366",
+      "summary": "arXiv:2608.21366v1 Announce Type: new \nAbstract: Driven by massive amounts of web-scale data, generative AI (GenAI) has achieved remarkable progress, enabling various applications in diverse sectors. The advances of GenAI have actuated practitioners to use AI-synthesized data for training next-gener",
+      "pubDate": "Tue, 25 Aug 2026 00:00:00 -0400",
+      "domain": "science",
+      "source": "arXiv: cs.AI"
+    },
+    {
       "title": "Five Images, Six Decades: Capturing the Iconic “Earthrise” Photo",
       "link": "https://nautil.us/five-images-six-decades-capturing-the-iconic-earthrise-photo-1284171/",
       "summary": "The first was taken August 23, 1966\nThe post Five Images, Six Decades: Capturing the Iconic “Earthrise” Photo appeared first on Nautilus.",
@@ -729,38 +797,6 @@
       "link": "",
       "summary": "We are in a moment of particular fascination with the Democratic Socialists of America (DSA) across the nation. With the victory of congressional candidates like , , , and , DSA has arrived on the political stage, proving that the election of Zohran Mamdani was not a fluke but a harbinger of a growi",
       "pubDate": "2026-08-24T20:13:04.999Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
-      "title": "Doctors May Ignore Your Messages If They’re Not Well-Written",
-      "link": "https://nautil.us/doctors-may-ignore-your-messages-if-theyre-not-well-written-1284166/",
-      "summary": "One simple change can help\nThe post Doctors May Ignore Your Messages If They’re Not Well-Written appeared first on Nautilus.",
-      "pubDate": "Mon, 24 Aug 2026 20:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
-      "title": "This Cookie Was a Plastic Bottle",
-      "link": "https://nautil.us/this-cookie-was-a-plastic-bottle-1284161/",
-      "summary": "Would you eat a trashy treat?\nThe post This Cookie Was a Plastic Bottle appeared first on Nautilus.",
-      "pubDate": "Mon, 24 Aug 2026 19:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
-      "title": "Socialists’ Winning Streak Is an Opportunity for Unions",
-      "link": "",
-      "summary": "The surge in the political power of the Democratic Socialists of America (DSA) is real. That much, everyone agrees on. Reactions to this reality, though, cover the full spectrum. “About time,” say veteran leftists, for whom the current moment feels like the culmination of decades of hard organizing.",
-      "pubDate": "2026-08-24T17:40:12.800Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
-      "title": "6 Ways to Rebuild Unions at the State and Local Levels Now",
-      "link": "",
-      "summary": "If unions are going to grow, they will need new state and local policy.\nOver the summer, primary victories for pro-worker candidates running for US Congress like Abdul El-Sayed have stolen headlines. But the numerous candidates who won downballot, like Janeese Lewis George for mayor in Washington, D",
-      "pubDate": "2026-08-24T17:04:37.553Z",
       "domain": "politics",
       "source": "Jacobin"
     },
@@ -787,30 +823,6 @@
       "pubDate": "Mon, 24 Aug 2026 11:53:27 +0000",
       "domain": "linguistics",
       "source": "Language Log"
-    },
-    {
-      "title": "SDAD: Spec-Driven Agentic Development for the AI-Native SDLC",
-      "link": "https://arxiv.org/abs/2608.20341",
-      "summary": "arXiv:2608.20341v1 Announce Type: new \nAbstract: Frontier coding agents backed by large language models with context windows from hundreds of thousands to millions of tokens are restructuring the Software Development Life Cycle (SDLC). Rich context handling and multi-step reasoning now allow substan",
-      "pubDate": "Mon, 24 Aug 2026 00:00:00 -0400",
-      "domain": "science",
-      "source": "arXiv: cs.AI"
-    },
-    {
-      "title": "PrimeAgentOrchestrator: Memory-Primed Agent Spawning for Personal AI Infrastructure",
-      "link": "https://arxiv.org/abs/2608.20342",
-      "summary": "arXiv:2608.20342v1 Announce Type: new \nAbstract: Large language model (LLM) coding agents start each session with an empty context window, discarding accumulated knowledge from prior work. We present PrimeAgentOrchestrator (PAO), a system that spawns new instances of Claude Code -- Anthropic's termi",
-      "pubDate": "Mon, 24 Aug 2026 00:00:00 -0400",
-      "domain": "science",
-      "source": "arXiv: cs.AI"
-    },
-    {
-      "title": "Truth Lies Deep: Countering Semantic Camouflage via Latent Intent Verification",
-      "link": "https://arxiv.org/abs/2608.20378",
-      "summary": "arXiv:2608.20378v1 Announce Type: new \nAbstract: Safety alignment in Large Language Models (LLMs) is often superficial, relying on refusal mechanisms that trigger only at the final stages of generation without erasing the foundational knowledge of harmful concepts acquired during pretraining. This s",
-      "pubDate": "Mon, 24 Aug 2026 00:00:00 -0400",
-      "domain": "science",
-      "source": "arXiv: cs.AI"
     },
     {
       "title": "\"We shall fight on the Bloombergs\"",
@@ -851,14 +863,6 @@
       "pubDate": "Thu, 20 Aug 2026 14:04:40 +0000",
       "domain": "science",
       "source": "Quanta"
-    },
-    {
-      "title": "The Culture Wars of The Phantom of the Opera",
-      "link": "https://daily.jstor.org/the-culture-wars-of-the-phantom-of-the-opera/",
-      "summary": "The hit musical became a battleground for competing ideas about capitalism, artistic value, and commercial theater.\nThe post The Culture Wars of The Phantom of the Opera appeared first on JSTOR Daily.",
-      "pubDate": "Thu, 20 Aug 2026 13:32:58 +0000",
-      "domain": "history",
-      "source": "JSTOR Daily"
     },
     {
       "title": "Caveman linguistics",
@@ -981,25 +985,25 @@
       "source": "ROAR Magazine"
     },
     {
-      "title": "Temporal dynamics of students’ physiological arousal in personalized learning contexts: a quasi-experimental study based on electrodermal activity",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1872311",
-      "summary": "Physiological arousal varies throughout classroom learning, yet its temporal dynamics during personalized learning in authentic primary-school classrooms remain unclear. This quasi-experimental study used electrodermal activity (EDA) to examine the lesson-wide temporal trend, dynamic trajectory, and",
+      "title": "Getting unstuck from a stagnant career: examining the role of perceived mentor proactivity in the relationship between protégés career plateaus and workplace avoidance behavior",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1920144",
+      "summary": "Drawing on affective events theory, this study examines how protégés’ career plateaus influence workplace avoidance behavior through job frustration and how perceived mentor proactivity shapes this process. Using a three-wave, time-lagged, multi-source design with data collected from 401 mentor–prot",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "An exploratory pilot study of artificial intelligence-based instructional program for developing productive thinking skills among female King Faisal University students",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1812540",
-      "summary": "IntroductionThis study aimed to investigate the effectiveness of a teaching program based on artificial intelligence in developing productive thinking skills among female university students.MethodsThe study adopted a quasi-experimental design with a single experimental group. The participants were ",
+      "title": "AI-based interviews and applicant perceptions: insights from China and Pakistan",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1886963",
+      "summary": "IntroductionArtificial intelligence (AI) technology is increasingly integrated into recruitment processes, yet cross-cultural differences in job applicant responses to AI-based interviews remain understudied. Drawing on Signaling Theory and Fairness Heuristic Theory, this study examines how applican",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "Therapists’ experiences with non-verbal communication in videopsychotherapy: a qualitative interview study",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1785382",
-      "summary": "BackgroundVideopsychotherapy (VPT) has gained in importance since the Corona pandemic. As non-verbal communication (NVC) differs from the face-to-face (FtF) therapy, its practical assessment is crucial for long-term quality improvement.ObjectiveThe aim of the study is to investigate how psychotherap",
+      "title": "Cognitive and skill acquisition trajectories in school-based music education: evidence from Chinese classrooms",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1905847",
+      "summary": "School-based music education in China constitutes one of the largest deployments of vocal training in the world, yet the skill-acquisition trajectories of learners in such settings, as reflected in note-level singing accuracy, have rarely been quantified at scale. Drawing on a corpus of 2,432 studen",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
@@ -1007,64 +1011,64 @@
   ],
   "misinfo_toilet": [
     {
-      "headline": "As El Niño Dries Indonesia, Wildfires Intensify",
-      "fragment": "An ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
-      "splice": "As El Niño Dries Indonesia, Wildfires Intensify while an ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
-      "seed": 20260826
+      "headline": "China hits out at 'illegal' new US sanctions on Iran and trading partners",
+      "fragment": "Pretending, or dissimulating, leaves the principle of reality intact: the difference is always clear, it is simply masked.",
+      "splice": "China hits out at 'illegal' new US sanctions on Iran and trading partners insofar as pretending, or dissimulating, leaves the principle of reality intact: the difference is always clear, it is simply masked.",
+      "seed": 20260840
     },
     {
-      "headline": "King of Norway's health has worsened, palace says",
-      "fragment": "The technocrat is the natural friend of the dictator—computers and dictatorship.",
-      "splice": "King of Norway's health has worsened, palace says insofar as the technocrat is the natural friend of the dictator—computers and dictatorship.",
-      "seed": 20260827
-    },
-    {
-      "headline": "Will Ronaldo Cry​? World Cup Fans Bet Billions Through Prediction Markets",
-      "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "splice": "Will Ronaldo Cry​? World Cup Fans Bet Billions Through Prediction Markets consequently it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "seed": 20260828
-    },
-    {
-      "headline": "A Drone Killed Three Ukrainians. It Was Guided Entirely by A.I.",
-      "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "splice": "A Drone Killed Three Ukrainians. It Was Guided Entirely by A.I. not unlike it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "seed": 20260829
-    },
-    {
-      "headline": "US removes Syria from list of state sponsors of terrorism",
-      "fragment": "It is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
-      "splice": "US removes Syria from list of state sponsors of terrorism despite it is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
-      "seed": 20260830
-    },
-    {
-      "headline": "Moment tornado tears through southern France",
-      "fragment": "The privatization of the organs will only begin with the shame felt by man at the sight of man.",
-      "splice": "Moment tornado tears through southern France therefore the privatization of the organs will only begin with the shame felt by man at the sight of man.",
-      "seed": 20260831
-    },
-    {
-      "headline": "Welcome to Dubai: Kinahan Cartel’s Visas Revealed",
-      "fragment": "Traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "splice": "Welcome to Dubai: Kinahan Cartel’s Visas Revealed ...as traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "seed": 20260832
-    },
-    {
-      "headline": "Iran war live: US slaps new sanctions on Iran, warns Tehran trade partners",
+      "headline": "Sixty More U.S. Soldiers Reported Injured in Iran War",
       "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
-      "splice": "Iran war live: US slaps new sanctions on Iran, warns Tehran trade partners insofar as the revolutionary lives in the gap which separates technical progress from social totality.",
-      "seed": 20260833
+      "splice": "Sixty More U.S. Soldiers Reported Injured in Iran War underneath the revolutionary lives in the gap which separates technical progress from social totality.",
+      "seed": 20260841
     },
     {
-      "headline": "RIP to the Russiagate Liberals",
+      "headline": "The Dawn of a New Cold War",
+      "fragment": "Antagonism is not now located externally, in the face-off between class blocs, but internally, in the psychology of the worker.",
+      "splice": "The Dawn of a New Cold War within which antagonism is not now located externally, in the face-off between class blocs, but internally, in the psychology of the worker.",
+      "seed": 20260842
+    },
+    {
+      "headline": "Tornado tears through French village, leaving dozens hurt and homes ravaged",
       "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
-      "splice": "RIP to the Russiagate Liberals which is to say the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
-      "seed": 20260834
+      "splice": "Tornado tears through French village, leaving dozens hurt and homes ravaged the system notes that the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "seed": 20260843
     },
     {
-      "headline": "How US sanctions on Iran ripple through global markets and consumers",
-      "fragment": "The truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
-      "splice": "How US sanctions on Iran ripple through global markets and consumers underneath the truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
-      "seed": 20260835
+      "headline": "Two unvaccinated people die of measles in Pennsylvania ",
+      "fragment": "Underneath all reason lies delirium and drift.",
+      "splice": "Two unvaccinated people die of measles in Pennsylvania  consequently underneath all reason lies delirium and drift.",
+      "seed": 20260844
+    },
+    {
+      "headline": "Pentagon Spokesperson Admits There’s a Secret Blacklist of Journalists",
+      "fragment": "Everywhere it is machines—real ones, not figurative ones: machines driving other machines, machines being driven by other machines, with all the necessary couplings and connections.",
+      "splice": "Pentagon Spokesperson Admits There’s a Secret Blacklist of Journalists as if everywhere it is machines—real ones, not figurative ones: machines driving other machines, machines being driven by other machines, with all the necessary couplings and connections.",
+      "seed": 20260845
+    },
+    {
+      "headline": "What Happened to the Coveted Western Tanks Sent to Ukraine?",
+      "fragment": "Simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
+      "splice": "What Happened to the Coveted Western Tanks Sent to Ukraine? underneath simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
+      "seed": 20260846
+    },
+    {
+      "headline": "US launches Economic war on Iran",
+      "fragment": "If it is true, for instance, that depression is caused by low serotonin levels, it would still be necessary to explain why particular individuals have low serotonin levels.",
+      "splice": "US launches Economic war on Iran meanwhile if it is true, for instance, that depression is caused by low serotonin levels, it would still be necessary to explain why particular individuals have low serotonin levels.",
+      "seed": 20260847
+    },
+    {
+      "headline": "Canada Fires Back in Trade War Against Trump With Up to 50% Tariffs",
+      "fragment": "The privatization of the organs will only begin with the shame felt by man at the sight of man.",
+      "splice": "Canada Fires Back in Trade War Against Trump With Up to 50% Tariffs the system notes that the privatization of the organs will only begin with the shame felt by man at the sight of man.",
+      "seed": 20260848
+    },
+    {
+      "headline": "Tracking a Sanctioned Russian Vessel’s West African Odyssey",
+      "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
+      "splice": "Tracking a Sanctioned Russian Vessel’s West African Odyssey consequently the revolutionary lives in the gap which separates technical progress from social totality.",
+      "seed": 20260849
     }
   ]
 }
