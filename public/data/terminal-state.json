@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T01:27:00.319Z",
+  "generated_at": "2026-08-26T03:54:59.910Z",
   "threat_intel": {
     "cisa_kev": [
       {
@@ -231,10 +231,195 @@
     ],
     "urlhaus": [
       {
+        "id": "3908158",
+        "date_added": "2026-08-26 03:28:31",
+        "url": "http://27.202.161.162:51956/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3908157",
+        "date_added": "2026-08-26 03:20:30",
+        "url": "http://219.157.23.252:47875/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3908154",
+        "date_added": "2026-08-26 03:12:28",
+        "url": "http://220.158.234.4/ppc",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "mirai",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3908155",
+        "date_added": "2026-08-26 03:12:28",
+        "url": "http://220.158.234.4/x86_64",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "mirai",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3908156",
+        "date_added": "2026-08-26 03:12:28",
+        "url": "http://220.158.234.4/spc",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "mirai",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3908150",
+        "date_added": "2026-08-26 03:11:16",
+        "url": "http://220.158.234.4/mips",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "mirai",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3908151",
+        "date_added": "2026-08-26 03:11:16",
+        "url": "http://220.158.234.4/arm7",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "mirai",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3908152",
+        "date_added": "2026-08-26 03:11:16",
+        "url": "http://220.158.234.4/sh4",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "mirai",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3908153",
+        "date_added": "2026-08-26 03:11:16",
+        "url": "http://220.158.234.4/x86",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "mirai",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3908149",
+        "date_added": "2026-08-26 03:03:33",
+        "url": "http://115.56.161.197:48934/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3908148",
+        "date_added": "2026-08-26 02:59:27",
+        "url": "http://115.56.161.197:48934/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3908147",
+        "date_added": "2026-08-26 02:43:14",
+        "url": "http://175.146.244.227:57019/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3908146",
+        "date_added": "2026-08-26 01:40:15",
+        "url": "http://175.146.244.227:57019/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3908145",
+        "date_added": "2026-08-26 01:37:40",
+        "url": "http://150.241.65.250:889/venv/lib/python3.12/site-packages/pip/_vendor/urllib3/fields.py",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3908144",
+        "date_added": "2026-08-26 01:20:21",
+        "url": "http://175.148.76.63:43235/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
         "id": "3908143",
         "date_added": "2026-08-26 01:13:14",
         "url": "http://27.37.100.83:50864/i",
-        "url_status": "online",
+        "url_status": "offline",
         "threat": "malware_download",
         "tags": [
           "32-bit",
@@ -289,217 +474,51 @@
         "tags": [
           "Mozi"
         ]
-      },
-      {
-        "id": "3908138",
-        "date_added": "2026-08-25 23:20:24",
-        "url": "http://119.179.236.207:55846/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3908137",
-        "date_added": "2026-08-25 23:15:18",
-        "url": "http://91.92.242.236/files-129312398/files/file_124c8c2143039ea5.exe",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "54e64e",
-          "dropped-by-amadey"
-        ]
-      },
-      {
-        "id": "3908136",
-        "date_added": "2026-08-25 23:11:20",
-        "url": "http://115.55.238.97:40942/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3908135",
-        "date_added": "2026-08-25 23:06:28",
-        "url": "http://119.179.236.207:55846/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3908134",
-        "date_added": "2026-08-25 23:00:30",
-        "url": "http://123.10.70.54:56681/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "arm",
-          "elf",
-          "mirai",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3908133",
-        "date_added": "2026-08-25 22:58:25",
-        "url": "http://60.18.214.19:38553/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3908132",
-        "date_added": "2026-08-25 22:52:16",
-        "url": "http://115.55.238.97:40942/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3908131",
-        "date_added": "2026-08-25 22:50:04",
-        "url": "http://150.241.65.250:889/venv/lib/python3.12/site-packages/bcrypt/_bcrypt.abi3.so",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3908130",
-        "date_added": "2026-08-25 22:43:30",
-        "url": "http://200.115.102.2:40835/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "arm",
-          "elf",
-          "mirai",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3908129",
-        "date_added": "2026-08-25 22:36:14",
-        "url": "http://125.41.5.177:44402/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3908128",
-        "date_added": "2026-08-25 22:22:16",
-        "url": "http://27.219.44.37:46482/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3908126",
-        "date_added": "2026-08-25 21:59:23",
-        "url": "http://115.57.60.24:40928/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3908127",
-        "date_added": "2026-08-25 21:59:23",
-        "url": "http://125.40.39.65:60395/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3908125",
-        "date_added": "2026-08-25 21:46:10",
-        "url": "http://103.249.199.5:39552/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "arm",
-          "elf",
-          "mirai",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3908124",
-        "date_added": "2026-08-25 21:20:27",
-        "url": "http://150.241.65.250:889/venv/lib/python3.12/site-packages/_cffi_backend.cpython-312-x86_64-linux-gnu.so",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
       }
     ]
   },
   "world_monitor": [
     {
-      "title": "Is Sudan’s battlefield shaping the terms of its next political phase?",
-      "link": "https://www.aljazeera.com/news/2026/8/26/is-sudans-battlefield-shaping-the-terms-of-its-next-political-phase?traffic_source=rss",
-      "pubDate": "Wed, 26 Aug 2026 01:00:17 +0000",
+      "title": "Instagram chief testifies at Meta trial, says few teens used safety feature",
+      "link": "https://www.aljazeera.com/news/2026/8/26/instagram-chief-testifies-at-meta-trial-says-few-teens-used-safety-feature?traffic_source=rss",
+      "pubDate": "Wed, 26 Aug 2026 03:40:26 +0000",
       "source": "Al Jazeera",
-      "summary": "Army gains, RSF defections and al-Burhan’s political push point to a possible shift in Sudan’s war."
+      "summary": "Meta is on trial over claims it hooked young users on its platforms despite mental health risks."
     },
     {
-      "title": "Human rights situation in Myanmar ‘plummets to new low’, UN says",
-      "link": "https://www.aljazeera.com/news/2026/8/26/rights-abuses-in-myanmar-plummets-to-new-low-un-says?traffic_source=rss",
-      "pubDate": "Wed, 26 Aug 2026 00:29:01 +0000",
+      "title": "Who were the Syrian Democratic Forces and why dissolve?",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/26/who-were-the-syrian-democratic-forces-and-why-dissolve?traffic_source=rss",
+      "pubDate": "Wed, 26 Aug 2026 03:28:43 +0000",
       "source": "Al Jazeera",
-      "summary": "New report says abuses against Rohingya and unchecked resource exploitation deepening crisis in Myanmar."
+      "summary": "Syria’s Democratic Forces, which led the fight against ISIL, have declared they are disbanding."
     },
     {
-      "title": "Iran war live: Iran says Hormuz remains closed despite Oman route deal",
-      "link": "https://www.aljazeera.com/news/liveblog/2026/8/26/iran-war-live-iran-says-hormuz-remains-closed-despite-oman-rout-deal?traffic_source=rss",
-      "pubDate": "Wed, 26 Aug 2026 00:00:00 +0000",
+      "title": "Canada Fires Back in Trade War Against Trump With Up to 50% Tariffs",
+      "link": "https://www.nytimes.com/2026/08/25/world/canada/canada-tariffs-trump-carney-retaliatory.html",
+      "pubDate": "Wed, 26 Aug 2026 03:02:19 +0000",
+      "source": "NYT World",
+      "summary": "Canada said the higher levies, on items from aluminum foil to dishwashers to fish, would help protect workers, producers and manufacturers harmed by new Trump tariffs."
+    },
+    {
+      "title": "Israeli soldiers block Knesset member from besieged Palestinian home",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/26/israeli-soldiers-block-knesset-member-from-besieged-palestinian-home?traffic_source=rss",
+      "pubDate": "Wed, 26 Aug 2026 02:54:12 +0000",
       "source": "Al Jazeera",
-      "summary": "Tehran says the agreement with Oman on routes through Hormuz does not indicate that the strait is open."
+      "summary": "Israeli soldiers blocked Knesset member Ofer Cassif from reaching a Palestinian family home in the occupied West Bank."
+    },
+    {
+      "title": "Mamdani opposes Hindu nationalist event in New York",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/26/mamdani-opposes-hindu-nationalist-event-in-new-york?traffic_source=rss",
+      "pubDate": "Wed, 26 Aug 2026 02:47:02 +0000",
+      "source": "Al Jazeera",
+      "summary": "Zohran Mamdani says he opposes a right-wing Hindu nationalist event scheduled for next week at Madison Square Garden."
+    },
+    {
+      "title": "Water crisis makes life in Sudan’s El Obeid refugee camps even worse",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/26/water-crisis-makes-life-in-sudans-el-obeid-refugee-camps-even-worse?traffic_source=rss",
+      "pubDate": "Wed, 26 Aug 2026 01:54:00 +0000",
+      "source": "Al Jazeera",
+      "summary": "Families displaced by war in Sudan’s El Obeid refugee camps face crippling water shortages."
     },
     {
       "title": "Christian Convert Who Fled Iran and Was Deported By Trump Finds New Home",
@@ -507,20 +526,6 @@
       "pubDate": "Tue, 25 Aug 2026 23:58:04 +0000",
       "source": "NYT World",
       "summary": "Artemis Ghasemzadeh, who had escaped religious persecution, was deported to Panama under Trump’s immigration crackdown. Now, Canada has given her asylum."
-    },
-    {
-      "title": "Brazil fines TikTok $30m for child data privacy violations",
-      "link": "https://www.aljazeera.com/news/2026/8/25/brazil-fines-tiktok-30m-for-child-data-privacy-violations?traffic_source=rss",
-      "pubDate": "Tue, 25 Aug 2026 22:06:49 +0000",
-      "source": "Al Jazeera",
-      "summary": "Owner ByteDance ordered to erase illegally obtained child data in Brazil as crackdown on tech giants intensifies."
-    },
-    {
-      "title": "Why can’t America agree on what time it is?",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/25/why-cant-america-agree-on-what-time-it-is?traffic_source=rss",
-      "pubDate": "Tue, 25 Aug 2026 22:05:42 +0000",
-      "source": "Al Jazeera",
-      "summary": "Why can’t America agree on what time it is?"
     },
     {
       "title": "Conservative Groups Side With Minneapolis Protesters Against Trump Crackdown",
@@ -556,13 +561,6 @@
       "pubDate": "Tue, 25 Aug 2026 18:52:03 +0000",
       "source": "NYT World",
       "summary": "Videos showed Israeli troops standing by as Zvi Sukkot attacked the monument with a sledgehammer. The military said soldiers had stopped the demolition."
-    },
-    {
-      "title": "Canada Fires Back in Trade War Against Trump With Up to 50% Tariffs",
-      "link": "https://www.nytimes.com/2026/08/25/world/canada/canada-tariffs-trump-carney-retaliatory.html",
-      "pubDate": "Tue, 25 Aug 2026 18:42:59 +0000",
-      "source": "NYT World",
-      "summary": "Canada said the higher levies, on items from aluminum foil to dishwashers to fish, would help protect workers, producers and manufacturers harmed by new Trump tariffs."
     },
     {
       "title": "Iran May Have Little to Lose as U.S. Tries to Squeeze Its Economy",
@@ -658,6 +656,13 @@
   ],
   "syndication": [
     {
+      "title": "Pluralistic: The age of disinvention (25 Aug 2026)",
+      "link": "https://pluralistic.net/2026/08/25/gammamax/",
+      "pubDate": "Wed, 26 Aug 2026 03:21:38 +0000",
+      "author": "Pluralistic",
+      "content": "Today's links The age of disinvention: 🟥1️⃣2️⃣0️⃣0️⃣🟥1️⃣2️⃣0️⃣0️⃣🟥️1️⃣2️⃣0️⃣0️⃣🟥1️⃣2️⃣0️⃣0️⃣🟥1️⃣2️⃣0️⃣0️⃣🟥1️⃣2️⃣0️⃣0️⃣🟥 Hey look at this: Delights to delectate. Object permanence: Metacrap; CmdrTaco retires; Chalk memorial for Jack Layton; By all means tread on these people. Upcoming appearan"
+    },
+    {
       "title": "Black Hat State of Security Vendors",
       "link": "https://www.schneier.com/blog/archives/2026/08/black-hat-state-of-security-vendors.html",
       "pubDate": "2026-08-25T10:54:50.000Z",
@@ -691,13 +696,6 @@
       "pubDate": "2026-08-21T21:07:20.000Z",
       "author": "Schneier on Security",
       "content": "The neon flying squid can fly in formation.\nThe shoal of about 100 squid rose unexpectedly from a patch of the Pacific Ocean around 370 miles from Tokyo and glided near the boat for about 30 metres. The astonished researchers were the first to capture photographs of such a thing, which looked like t"
-    },
-    {
-      "title": "Pluralistic: The actual epistemic crisis (20 Aug 2026)",
-      "link": "https://pluralistic.net/2026/08/20/epistemic-void/",
-      "pubDate": "Thu, 20 Aug 2026 23:41:21 +0000",
-      "author": "Pluralistic",
-      "content": "Today's links The actual epistemic crisis: AI's assault on reality is an opportunistic infection. Hey look at this: Delights to delectate. Object permanence: Disney goths; Running a con room party; Equation Group's fuggly sourcecode; \"Bubble\"; \"The Weight.\" Upcoming appearances: Sydney, Melbourne, B"
     },
     {
       "title": "Who’s Tracking You? Use This New Service to Find Out",
@@ -995,9 +993,9 @@
       "source": "Frontiers Psychology"
     },
     {
-      "title": "Sustaining educational and psychological support during protracted war: a regional laboratory model from Ukraine",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1939975",
-      "summary": "Protracted wars create challenges that extend beyond immediate educational disruption and humanitarian response. As crisis conditions become embedded within everyday life, educational communities must continuously adapt to emerging psychological, social, and educational needs affecting children, fam",
+      "title": "Baseline trust moderates risk appraisal in guided aerial adventure sports: a three-wave field study",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1868476",
+      "summary": "Guided aerial adventure sports combine environmental uncertainty with reliance on pilots, equipment, and safety systems, making trust a plausible resource in risk appraisal. This three-wave field study examined whether baseline trust moderated associations between pre-activity risk perception and po",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
@@ -1013,64 +1011,64 @@
   ],
   "misinfo_toilet": [
     {
-      "headline": "Brain disease in dead NFL players 'higher than previously shown'",
-      "fragment": "An ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
-      "splice": "Brain disease in dead NFL players 'higher than previously shown' while an ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
-      "seed": 20260827
-    },
-    {
-      "headline": "Canada Fires Back in Trade War Against Trump With Up to 50% Tariffs",
-      "fragment": "The technocrat is the natural friend of the dictator—computers and dictatorship.",
-      "splice": "Canada Fires Back in Trade War Against Trump With Up to 50% Tariffs insofar as the technocrat is the natural friend of the dictator—computers and dictatorship.",
-      "seed": 20260828
-    },
-    {
-      "headline": "Welcome to Dubai: Kinahan Cartel’s Visas Revealed",
+      "headline": "Instagram chief testifies at Meta trial, says few teens used safety feature",
       "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "splice": "Welcome to Dubai: Kinahan Cartel’s Visas Revealed consequently it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
+      "splice": "Instagram chief testifies at Meta trial, says few teens used safety feature consequently it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
       "seed": 20260829
     },
     {
-      "headline": "The Dawn of a New Cold War",
+      "headline": "Brain disease in dead NFL players 'higher than previously shown'",
       "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "splice": "The Dawn of a New Cold War not unlike it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
+      "splice": "Brain disease in dead NFL players 'higher than previously shown' not unlike it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
       "seed": 20260830
     },
     {
-      "headline": "Mass arrests in global crackdown on West African cyber-crime networks",
+      "headline": "Satellite Imagery Documents New Border Patrol Road Construction in Big Bend National Park",
       "fragment": "It is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
-      "splice": "Mass arrests in global crackdown on West African cyber-crime networks despite it is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
+      "splice": "Satellite Imagery Documents New Border Patrol Road Construction in Big Bend National Park despite it is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
       "seed": 20260831
     },
     {
-      "headline": "China hits out at 'illegal' new US sanctions on Iran and trading partners",
+      "headline": "CIA chief travels to Moscow for unannounced talks, US media reports",
       "fragment": "The privatization of the organs will only begin with the shame felt by man at the sight of man.",
-      "splice": "China hits out at 'illegal' new US sanctions on Iran and trading partners therefore the privatization of the organs will only begin with the shame felt by man at the sight of man.",
+      "splice": "CIA chief travels to Moscow for unannounced talks, US media reports therefore the privatization of the organs will only begin with the shame felt by man at the sight of man.",
       "seed": 20260832
     },
     {
-      "headline": "Satellite Imagery Documents New Border Patrol Road Construction in Big Bend National Park",
+      "headline": "Israeli Lawmaker Smashes Palestinian Monument in West Bank",
       "fragment": "Traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "splice": "Satellite Imagery Documents New Border Patrol Road Construction in Big Bend National Park ...as traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
+      "splice": "Israeli Lawmaker Smashes Palestinian Monument in West Bank ...as traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
       "seed": 20260833
     },
     {
-      "headline": "Tracking a Sanctioned Russian Vessel’s West African Odyssey",
+      "headline": "Israeli soldiers block Knesset member from besieged Palestinian home",
       "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
-      "splice": "Tracking a Sanctioned Russian Vessel’s West African Odyssey insofar as the revolutionary lives in the gap which separates technical progress from social totality.",
+      "splice": "Israeli soldiers block Knesset member from besieged Palestinian home insofar as the revolutionary lives in the gap which separates technical progress from social totality.",
       "seed": 20260834
     },
     {
-      "headline": "Christian Convert Who Fled Iran and Was Deported By Trump Finds New Home",
+      "headline": "The Dawn of a New Cold War",
       "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
-      "splice": "Christian Convert Who Fled Iran and Was Deported By Trump Finds New Home which is to say the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "splice": "The Dawn of a New Cold War which is to say the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
       "seed": 20260835
     },
     {
-      "headline": "Iran war live: Iran says Hormuz remains closed despite Oman route deal",
+      "headline": "Mamdani opposes Hindu nationalist event in New York",
       "fragment": "The truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
-      "splice": "Iran war live: Iran says Hormuz remains closed despite Oman route deal underneath the truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
+      "splice": "Mamdani opposes Hindu nationalist event in New York underneath the truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
       "seed": 20260836
+    },
+    {
+      "headline": "Local Cops Flout Sanctuary Law to Help ICE Deport Immigrants",
+      "fragment": "Art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
+      "splice": "Local Cops Flout Sanctuary Law to Help ICE Deport Immigrants as if art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
+      "seed": 20260837
+    },
+    {
+      "headline": "Canada Fires Back in Trade War Against Trump With Up to 50% Tariffs",
+      "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
+      "splice": "Canada Fires Back in Trade War Against Trump With Up to 50% Tariffs consequently the breast is a machine that produces milk, and the mouth a machine coupled to it.",
+      "seed": 20260838
     }
   ]
 }
