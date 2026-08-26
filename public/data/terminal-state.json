@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T06:53:44.839Z",
+  "generated_at": "2026-08-26T12:56:52.264Z",
   "threat_intel": {
     "cisa_kev": [
       {
@@ -231,286 +231,309 @@
     ],
     "urlhaus": [
       {
-        "id": "3908202",
-        "date_added": "2026-08-26 06:28:12",
-        "url": "http://115.62.159.162:33981/bin.sh",
+        "id": "3908489",
+        "date_added": "2026-08-26 12:47:02",
+        "url": "https://pancar.lol/d/049e625ea690455ba545c97cf546fd8d",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3908201",
-        "date_added": "2026-08-26 06:26:22",
-        "url": "http://163.182.97.242:3654/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3908200",
-        "date_added": "2026-08-26 06:18:17",
-        "url": "http://115.55.165.198:32844/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3908199",
-        "date_added": "2026-08-26 06:00:16",
-        "url": "http://115.58.169.37:40154/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3908198",
-        "date_added": "2026-08-26 05:58:22",
-        "url": "http://115.58.169.37:40154/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3908197",
-        "date_added": "2026-08-26 05:56:15",
-        "url": "http://113.221.11.164:42753/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "arm",
-          "elf",
-          "mirai",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3908196",
-        "date_added": "2026-08-26 05:48:18",
-        "url": "http://115.55.165.198:32844/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3908195",
-        "date_added": "2026-08-26 05:37:20",
-        "url": "http://213.232.114.14/X86_64",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "botnet",
-          "ddos",
-          "elf",
-          "iot",
-          "KHserver",
-          "mirai"
-        ]
-      },
-      {
-        "id": "3908194",
-        "date_added": "2026-08-26 05:37:19",
-        "url": "http://213.232.114.14/ARMV4L",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "botnet",
-          "ddos",
-          "elf",
-          "iot",
-          "KHserver",
-          "mirai"
-        ]
-      },
-      {
-        "id": "3908193",
-        "date_added": "2026-08-26 05:37:17",
-        "url": "http://213.232.114.14/handshakebins.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "ascii"
-        ]
-      },
-      {
-        "id": "3908190",
-        "date_added": "2026-08-26 05:37:16",
-        "url": "http://43.228.157.102/w.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "elf",
-          "iot"
-        ]
-      },
-      {
-        "id": "3908191",
-        "date_added": "2026-08-26 05:37:16",
-        "url": "http://43.228.157.102/wget.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "elf",
-          "iot"
-        ]
-      },
-      {
-        "id": "3908192",
-        "date_added": "2026-08-26 05:37:16",
-        "url": "http://43.228.157.102/c.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "elf",
-          "iot"
-        ]
-      },
-      {
-        "id": "3908189",
-        "date_added": "2026-08-26 05:37:15",
-        "url": "http://146.158.4.238:41633/Mozi.m",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "elf",
-          "iot",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3908187",
-        "date_added": "2026-08-26 05:37:08",
-        "url": "https://linen-harbor.com/curl/rnulrjfa/init.sh",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "atomic-stealer",
-          "infostealer",
-          "macOS"
-        ]
-      },
-      {
-        "id": "3908188",
-        "date_added": "2026-08-26 05:37:08",
-        "url": "https://limewire.com/d/Zu5qk#xAzqnkJLlq",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3908186",
-        "date_added": "2026-08-26 05:37:07",
-        "url": "https://fujiarte.com/.well-known/acme-challenge/settings.php",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "binzosg",
-          "downloader",
-          "Sketchfab-ripper",
+          "IRAHook",
+          "rat",
           "stealer"
         ]
       },
       {
-        "id": "3908180",
-        "date_added": "2026-08-26 05:37:06",
-        "url": "http://91.92.242.236/files-129312398/files/file_78e3bf48f47b45f3.exe",
-        "url_status": "offline",
+        "id": "3908488",
+        "date_added": "2026-08-26 12:47:01",
+        "url": "https://pancar.lol/d/3c547dbeb28c4b8d937a771d0debff39",
+        "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "c2-monitor-auto",
-          "dropped-by-amadey"
+          "IRAHook",
+          "rat",
+          "stealer"
         ]
       },
       {
-        "id": "3908181",
-        "date_added": "2026-08-26 05:37:06",
-        "url": "http://91.92.242.236/files-129312398/files/file_1bb45bd969bb0ee8.exe",
-        "url_status": "offline",
+        "id": "3908487",
+        "date_added": "2026-08-26 12:46:42",
+        "url": "https://pancar.lol/d/9077ca9a63a44186add67faed923847e",
+        "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "c2-monitor-auto",
-          "dropped-by-amadey"
+          "IRAHook",
+          "rat",
+          "stealer"
         ]
       },
       {
-        "id": "3908182",
-        "date_added": "2026-08-26 05:37:06",
-        "url": "https://iploglab.store/api/terminal/connect-runner?flag=1",
+        "id": "3908486",
+        "date_added": "2026-08-26 12:45:46",
+        "url": "https://pancar.lol/d/fb2232aa883b4a33ac3877a402c0126c",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "IRAHook",
+          "rat",
+          "stealer"
+        ]
+      },
+      {
+        "id": "3908485",
+        "date_added": "2026-08-26 12:45:28",
+        "url": "https://andrewtreks.com/ScreenConnect.ClientSetup.exe",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "connectwise",
+          "CRA",
+          "exe",
+          "rat",
+          "screenconnect"
+        ]
+      },
+      {
+        "id": "3908484",
+        "date_added": "2026-08-26 12:45:27",
+        "url": "https://app.static-file.lol/Telegram_v12.8.3.apk",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "android",
+          "apk "
+        ]
+      },
+      {
+        "id": "3908483",
+        "date_added": "2026-08-26 12:45:15",
+        "url": "https://wappingerbicornshaps.com/s4r7aa2f7f74b7ac2ab0af7589004c3a8ef07971edb98",
         "url_status": "offline",
         "threat": "malware_download",
         "tags": [
           "None"
+        ]
+      },
+      {
+        "id": "3908482",
+        "date_added": "2026-08-26 12:45:14",
+        "url": "http://91.92.242.236/files-129312398/files/file_42c98f5185e31ea5.exe",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3908479",
+        "date_added": "2026-08-26 12:42:26",
+        "url": "http://43.228.157.102/jah.arm7",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "mirai",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3908480",
+        "date_added": "2026-08-26 12:42:26",
+        "url": "http://43.228.157.102/jah.arm4",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3908481",
+        "date_added": "2026-08-26 12:42:26",
+        "url": "http://43.228.157.102/jah.arm6",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "mirai",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3908478",
+        "date_added": "2026-08-26 12:42:16",
+        "url": "http://43.228.157.102/jah.arm5",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3908477",
+        "date_added": "2026-08-26 12:41:25",
+        "url": "http://27.215.120.175:49260/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3908476",
+        "date_added": "2026-08-26 12:33:29",
+        "url": "http://27.215.120.175:49260/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3908475",
+        "date_added": "2026-08-26 12:31:14",
+        "url": "https://inventorychanger.com/getNjRat?=InventoryChanger.exe",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "d52f85",
+          "dropped-by-amadey"
+        ]
+      },
+      {
+        "id": "3908474",
+        "date_added": "2026-08-26 12:01:09",
+        "url": "http://91.92.242.236/files-129312398/files/file_4f50090ebd20a9b0.exe",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "9d2ca3",
+          "dropped-by-amadey"
+        ]
+      },
+      {
+        "id": "3908473",
+        "date_added": "2026-08-26 11:47:20",
+        "url": "http://42.56.192.38:39074/i",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3908472",
+        "date_added": "2026-08-26 11:12:22",
+        "url": "http://115.57.194.252:46354/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3908471",
+        "date_added": "2026-08-26 11:11:32",
+        "url": "http://112.254.188.159:37492/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3908470",
+        "date_added": "2026-08-26 11:11:14",
+        "url": "http://91.92.242.236/files-129312398/files/file_e93516a8d03749ce.exe",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "54e64e",
+          "dropped-by-amadey",
+          "rustystealer"
         ]
       }
     ]
   },
   "world_monitor": [
     {
-      "title": "Top official says Iran, Oman have agreed new temporary route in Hormuz",
-      "link": "https://www.aljazeera.com/economy/2026/8/26/top-official-says-iran-oman-have-agreed-new-temporary-hormuz-route?traffic_source=rss",
-      "pubDate": "Wed, 26 Aug 2026 06:02:13 +0000",
+      "title": "Deadly flash floods sweep through northern Nepal",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/26/deadly-flash-floods-sweep-through-northern-nepal?traffic_source=rss",
+      "pubDate": "Wed, 26 Aug 2026 12:44:14 +0000",
       "source": "Al Jazeera",
-      "summary": "Deputy foreign minster says the route's entry as well as part of the exit would run through Iranian territorial waters."
+      "summary": "Flash floods have swept through northern Nepal, killing at least eight people and washing away homes."
     },
     {
-      "title": "Iran bets economic pain will pressure Trump in game of ‘chicken’",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/26/iran-bets-economic-pain-will-pressure-trump-in-game-of?traffic_source=rss",
-      "pubDate": "Wed, 26 Aug 2026 05:20:17 +0000",
+      "title": "CCTV captures terrifying mudslide engulfing Nepal-China border",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/26/cctv-captures-terrifying-mudslide-engulfing-nepal-china-border?traffic_source=rss",
+      "pubDate": "Wed, 26 Aug 2026 12:36:34 +0000",
       "source": "Al Jazeera",
-      "summary": "Iran is betting global economic fallout and Republicans worried about the midterms will force Trump's retreat."
+      "summary": "CCTV footage shows people fleeing seconds before a massive mudslide engulfs a crossing on the Nepal-China border."
     },
     {
-      "title": "Fireworks factory goes up in smoke in Mexico",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/26/fireworks-factory-goes-up-in-smoke-in-mexico?traffic_source=rss",
-      "pubDate": "Wed, 26 Aug 2026 05:17:40 +0000",
-      "source": "Al Jazeera",
-      "summary": "Two explosions have hit a fireworks facility in Tultepec, Mexico, sending a spectacular mix of flames and explosions"
+      "title": "Door was locked at Pakistan hospital where fire killed 14 babies, witnesses say",
+      "link": "https://www.bbc.co.uk/news/articles/czdz13elezlo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Wed, 26 Aug 2026 12:32:47 GMT",
+      "source": "BBC",
+      "summary": "A hospital official told the BBC that the door to the ward was not locked, but manned with security guards, to protect the babies."
     },
     {
-      "title": "Massive natural gas leak in Wisconsin puts community on alert",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/26/massive-natural-gas-leak-in-wisconsin-puts-community-on-alert?traffic_source=rss",
-      "pubDate": "Wed, 26 Aug 2026 05:15:51 +0000",
+      "title": "When is the Champions League draw, which teams are in, and what are the dates?",
+      "link": "https://www.aljazeera.com/sports/2026/8/26/when-is-the-champions-league-draw-which-teams-are-in-and-what-are-the-dates?traffic_source=rss",
+      "pubDate": "Wed, 26 Aug 2026 12:24:07 +0000",
       "source": "Al Jazeera",
-      "summary": "A truck hit a natural gas pipeline near Saxon, Wisconsin prompted nearby residents to evacuate."
+      "summary": "Thirty-six teams will learn their fate in a draw for the group phase, which will be followed by knockout rounds."
     },
     {
-      "title": "Russia’s ‘Amazon’ Wildberries comes under Ukraine attack again",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/26/russias-amazon-wildberries-comes-under-ukraine-attack-again?traffic_source=rss",
-      "pubDate": "Wed, 26 Aug 2026 04:54:38 +0000",
+      "title": "Photos: Avalanche floods kill eight, hundreds missing in Nepal’s Himalayas",
+      "link": "https://www.aljazeera.com/gallery/2026/8/26/photos-avalanche-floods-kill-eight-hundreds-missing-in-nepals-himalayas?traffic_source=rss",
+      "pubDate": "Wed, 26 Aug 2026 12:22:53 +0000",
       "source": "Al Jazeera",
-      "summary": "Russia’s biggest online retailer, Wildberries, has once again been attacked in a drone strike by Ukraine."
+      "summary": "Flash floods devastate Nepal's Himalayas, washing away villages and infrastructure along the Bhotekoshi river."
+    },
+    {
+      "title": "England footballer Sterling charged with dangerous driving after collision",
+      "link": "https://www.aljazeera.com/sports/2026/8/26/england-footballer-sterling-charged-with-dangerous-driving-after-collision?traffic_source=rss",
+      "pubDate": "Wed, 26 Aug 2026 12:22:18 +0000",
+      "source": "Al Jazeera",
+      "summary": "Raheem Sterling has also been accused of possession ​of nitrous oxide and will appear in court on September 15."
+    },
+    {
+      "title": "German airport worker dies of malaria after 'mosquito arrives on plane'",
+      "link": "https://www.bbc.co.uk/news/articles/cz6zwgg9y8go?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Wed, 26 Aug 2026 11:02:22 GMT",
+      "source": "BBC",
+      "summary": "Five other airport workers are also receiving treatment following the rare outbreak at German's busiest airport."
+    },
+    {
+      "title": "It’s Time to Rein in Lethal AI Drones",
+      "link": "https://theintercept.com/2026/08/26/ai-drone-warfare-russia-ukraine-openai-anthropic/",
+      "pubDate": "Wed, 26 Aug 2026 10:00:00 +0000",
+      "source": "The Intercept",
+      "summary": "Humans need to act, as AI agents scheme in the digital shadows.\nThe post It’s Time to Rein in Lethal AI Drones appeared first on The Intercept."
+    },
+    {
+      "title": "Far-right Israeli lawmaker damages Palestinian memorial with sledgehammer",
+      "link": "https://www.bbc.co.uk/news/articles/c0lrw8325pzo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Wed, 26 Aug 2026 08:17:45 GMT",
+      "source": "BBC",
+      "summary": "Zvi Sukkot's actions have drawn widespread condemnation, including from Israeli Prime Minister Benjamin Netanyahu."
+    },
+    {
+      "title": "Libyan who was cleared after Lockerbie bombing trial dies aged 70",
+      "link": "https://www.bbc.co.uk/news/articles/cy0zgx6wlz3o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Wed, 26 Aug 2026 08:01:56 GMT",
+      "source": "BBC",
+      "summary": "A Facebook post by Libyan Airlines announced the death of Al Amin Khalifah Fhimah and expressed the company's condolences to his family."
     },
     {
       "title": "Canada Fires Back in Trade War Against Trump With Up to 50% Tariffs",
@@ -541,20 +564,6 @@
       "summary": "The latest escalation in an ongoing trade war between the US and Canada will see new levies on goods from steel to furniture, fresh tuna and makeup."
     },
     {
-      "title": "CIA chief travels to Moscow for unannounced talks, US media reports",
-      "link": "https://www.bbc.co.uk/news/articles/c87vg9x5d7do?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Tue, 25 Aug 2026 19:48:14 GMT",
-      "source": "BBC",
-      "summary": "Flight tracking data confirms an American military aircraft travelled to Russia from the US via Latvia on Tuesday."
-    },
-    {
-      "title": "Mass arrests in global crackdown on West African cyber-crime networks",
-      "link": "https://www.bbc.co.uk/news/articles/cq5xdnxppl4o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Tue, 25 Aug 2026 19:30:37 GMT",
-      "source": "BBC",
-      "summary": "The operation included the arrest of 39 people in South Africa for romance and investment scams."
-    },
-    {
       "title": "Israeli Lawmaker Smashes Palestinian Monument in West Bank",
       "link": "https://www.nytimes.com/2026/08/25/world/middleeast/israel-lawmaker-palestinian-monument.html",
       "pubDate": "Tue, 25 Aug 2026 18:52:03 +0000",
@@ -574,20 +583,6 @@
       "pubDate": "Tue, 25 Aug 2026 15:15:45 +0000",
       "source": "The Intercept",
       "summary": "A government official accused the Pentagon of “an accounting trick” in its slow tally of Iran war casualties.\nThe post Sixty More U.S. Soldiers Reported Injured in Iran War appeared first on The Intercept."
-    },
-    {
-      "title": "Brain disease in dead NFL players 'higher than previously shown'",
-      "link": "https://www.bbc.co.uk/sport/american-football/articles/cew9l95kyp0o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Tue, 25 Aug 2026 11:54:40 GMT",
-      "source": "BBC",
-      "summary": "A new study says at least one in four ex-NFL players who died between 2016 and 2021 had a degenerative brain disease but the true figure could be much higher."
-    },
-    {
-      "title": "China hits out at 'illegal' new US sanctions on Iran and trading partners",
-      "link": "https://www.bbc.co.uk/news/articles/clyl8965j5go?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Tue, 25 Aug 2026 11:53:36 GMT",
-      "source": "BBC",
-      "summary": "The US has threatened to isolate nations that continue to do business with Tehran, which sells much of its oil to Beijing."
     },
     {
       "title": "Local Cops Flout Sanctuary Law to Help ICE Deport Immigrants",
@@ -616,13 +611,6 @@
       "pubDate": "Mon, 24 Aug 2026 09:52:00 +0000",
       "source": "The Intercept",
       "summary": "When pressed about the Iran war, a CENTCOM press official threatened to put an Intercept reporter on a “list of people to disregard.”\nThe post Pentagon Spokesperson Admits There’s a Secret Blacklist of Journalists appeared first on The Intercept."
-    },
-    {
-      "title": "The Dawn of a New Cold War",
-      "link": "https://theintercept.com/2026/08/23/trump-china-ai-chips-rare-earth/",
-      "pubDate": "Sun, 23 Aug 2026 10:10:00 +0000",
-      "source": "The Intercept",
-      "summary": "The growing tension between the United States and China boils down to a battle over resources.\nThe post The Dawn of a New Cold War appeared first on The Intercept."
     },
     {
       "title": "Satellite Imagery Documents New Border Patrol Road Construction in Big Bend National Park",
@@ -654,6 +642,13 @@
     }
   ],
   "syndication": [
+    {
+      "title": "Spyware for Babies",
+      "link": "https://www.schneier.com/blog/archives/2026/08/spyware-for-babies.html",
+      "pubDate": "2026-08-26T12:05:52.000Z",
+      "author": "Schneier on Security",
+      "content": "The New York Times has a long article (alt link) on surveillance systems aimed at babies. They are increasingly using AI.\nNanit and its rivals want to own 24/7 health tracking for the sub-four-foot set. And their already astonishing levels of baby data collection are just the beginning. Nanit recent"
+    },
     {
       "title": "Pluralistic: The age of disinvention (25 Aug 2026)",
       "link": "https://pluralistic.net/2026/08/25/gammamax/",
@@ -690,13 +685,6 @@
       "content": "Today's links Born on technology's third base: Material forces shape life-chances. Hey look at this: Delights to delectate. Object permanence: Glue; iPods v unions; RIP Jack Layton; Gibson on cities; Britain's sweatshop for terminally ill help-hcalls; NYPL's open CDN; Radical juries. Upcoming appear"
     },
     {
-      "title": "Friday Squid Blogging: Neon Flying Squid",
-      "link": "https://www.schneier.com/blog/archives/2026/08/friday-squid-blogging-neon-flying-squid.html",
-      "pubDate": "2026-08-21T21:07:20.000Z",
-      "author": "Schneier on Security",
-      "content": "The neon flying squid can fly in formation.\nThe shoal of about 100 squid rose unexpectedly from a patch of the Pacific Ocean around 370 miles from Tokyo and glided near the boat for about 30 metres. The astonished researchers were the first to capture photographs of such a thing, which looked like t"
-    },
-    {
       "title": "Who’s Tracking You? Use This New Service to Find Out",
       "link": "https://krebsonsecurity.com/2026/08/whos-tracking-you-use-this-new-service-to-find-out/",
       "pubDate": "Fri, 14 Aug 2026 11:24:35 +0000",
@@ -719,6 +707,22 @@
     }
   ],
   "syndicate_journal": [
+    {
+      "title": "FIFA’s Gianni Infantino Must Resign",
+      "link": "",
+      "summary": "Gianni Infantino must be shocked. He’s spent his near-decade-long tenure as FIFA president squeezing football for every cent possible. Now he’s weathering a global revolt against his leadership just for doing what he’s always done, after he quite literally tried to sell the World Cup to the highest ",
+      "pubDate": "2026-08-26T12:46:48.746Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "This Hidden Glacier Has Enough Water to Fill 600 Olympic Swimming Pools",
+      "link": "https://nautil.us/this-hidden-glacier-has-enough-water-to-fill-600-olympic-swimming-pools-1284443/",
+      "summary": "And there are more than 50,000 others like it worldwide\nThe post This Hidden Glacier Has Enough Water to Fill 600 Olympic Swimming Pools appeared first on Nautilus.",
+      "pubDate": "Wed, 26 Aug 2026 11:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
     {
       "title": "RENDER: Controlling Reader-Facing Evidence in LLM Memory Evaluation",
       "link": "https://arxiv.org/abs/2608.23568",
@@ -772,22 +776,6 @@
       "link": "https://nautil.us/20-minutes-of-exercise-is-as-good-as-a-90-minute-nap-if-youre-sleep-deprived-1284348/",
       "summary": "Don’t sleep on this new finding\nThe post 20 Minutes of Exercise Is as Good as a 90-Minute Nap If You’re Sleep Deprived appeared first on Nautilus.",
       "pubDate": "Tue, 25 Aug 2026 18:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
-      "title": "Put AI Under Social Ownership for Social Purposes",
-      "link": "",
-      "summary": "A lively debate has been taking place in  over what to do about artificial intelligence. AI is clearly a technology with potential for enormous benefit and harm — and perhaps both at the same time. Financially, it could put even more income in the hands of billionaires, or it could produce a bubble ",
-      "pubDate": "2026-08-25T16:56:14.530Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
-      "title": "This “One-in-a-Million” Fossil Has 450-Million-Year-Old Soft Tissue",
-      "link": "https://nautil.us/this-one-in-a-million-fossil-has-450-million-year-old-soft-tissue-1284340/",
-      "summary": "Only the second fossil of its type to be discovered\nThe post This “One-in-a-Million” Fossil Has 450-Million-Year-Old Soft Tissue appeared first on Nautilus.",
-      "pubDate": "Tue, 25 Aug 2026 16:30:00 +0000",
       "domain": "science",
       "source": "Nautilus"
     },
@@ -1000,9 +988,9 @@
       "source": "Frontiers Psychology"
     },
     {
-      "title": "Language comprehension in mild cognitive impairment: a bibliometric study of research trends and thematic structures",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1886461",
-      "summary": "ObjectiveA decline in language comprehension may represent a potential indicator of progressive cognitive deterioration in people with neurodegenerative diseases, and this sign often becomes noticeable as early as the mild cognitive impairment (MCI) stage. This study aimed to map the knowledge domai",
+      "title": "Association between breakfast frequency, community space environment, and psychological symptoms: a cross-sectional study of Chinese adolescents",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1871118",
+      "summary": "BackgroundMental disorders among adolescents are a key global public health issue. This study aims to investigate the association between breakfast frequency and the community's space environment to promote the mental health of adolescents in China.MethodsThis study employed a stratified random clus",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
@@ -1010,64 +998,64 @@
   ],
   "misinfo_toilet": [
     {
-      "headline": "Mass arrests in global crackdown on West African cyber-crime networks",
-      "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "splice": "Mass arrests in global crackdown on West African cyber-crime networks consequently it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "seed": 20260832
-    },
-    {
-      "headline": "Brain disease in dead NFL players 'higher than previously shown'",
-      "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "splice": "Brain disease in dead NFL players 'higher than previously shown' not unlike it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "seed": 20260833
-    },
-    {
-      "headline": "Satellite Imagery Documents New Border Patrol Road Construction in Big Bend National Park",
-      "fragment": "It is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
-      "splice": "Satellite Imagery Documents New Border Patrol Road Construction in Big Bend National Park despite it is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
-      "seed": 20260834
-    },
-    {
-      "headline": "Canada announces 'dollar-for-dollar' retaliatory tariffs on US as high as 50%",
-      "fragment": "The privatization of the organs will only begin with the shame felt by man at the sight of man.",
-      "splice": "Canada announces 'dollar-for-dollar' retaliatory tariffs on US as high as 50% therefore the privatization of the organs will only begin with the shame felt by man at the sight of man.",
-      "seed": 20260835
-    },
-    {
-      "headline": "Top official says Iran, Oman have agreed new temporary route in Hormuz",
-      "fragment": "Traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "splice": "Top official says Iran, Oman have agreed new temporary route in Hormuz ...as traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "seed": 20260836
-    },
-    {
-      "headline": "Massive natural gas leak in Wisconsin puts community on alert",
-      "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
-      "splice": "Massive natural gas leak in Wisconsin puts community on alert insofar as the revolutionary lives in the gap which separates technical progress from social totality.",
-      "seed": 20260837
-    },
-    {
-      "headline": "The Dawn of a New Cold War",
-      "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
-      "splice": "The Dawn of a New Cold War which is to say the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "headline": "Christian Convert Who Fled Iran and Was Deported By Trump Finds New Home",
+      "fragment": "Pretending, or dissimulating, leaves the principle of reality intact: the difference is always clear, it is simply masked.",
+      "splice": "Christian Convert Who Fled Iran and Was Deported By Trump Finds New Home insofar as pretending, or dissimulating, leaves the principle of reality intact: the difference is always clear, it is simply masked.",
       "seed": 20260838
     },
     {
-      "headline": "Iran bets economic pain will pressure Trump in game of ‘chicken’",
-      "fragment": "The truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
-      "splice": "Iran bets economic pain will pressure Trump in game of ‘chicken’ underneath the truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
+      "headline": "Far-right Israeli lawmaker damages Palestinian memorial with sledgehammer",
+      "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
+      "splice": "Far-right Israeli lawmaker damages Palestinian memorial with sledgehammer underneath the revolutionary lives in the gap which separates technical progress from social totality.",
       "seed": 20260839
     },
     {
-      "headline": "Local Cops Flout Sanctuary Law to Help ICE Deport Immigrants",
-      "fragment": "Art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
-      "splice": "Local Cops Flout Sanctuary Law to Help ICE Deport Immigrants as if art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
+      "headline": "Tracking a Sanctioned Russian Vessel’s West African Odyssey",
+      "fragment": "Antagonism is not now located externally, in the face-off between class blocs, but internally, in the psychology of the worker.",
+      "splice": "Tracking a Sanctioned Russian Vessel’s West African Odyssey within which antagonism is not now located externally, in the face-off between class blocs, but internally, in the psychology of the worker.",
       "seed": 20260840
     },
     {
-      "headline": "Israeli Lawmaker Smashes Palestinian Monument in West Bank",
-      "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "splice": "Israeli Lawmaker Smashes Palestinian Monument in West Bank consequently the breast is a machine that produces milk, and the mouth a machine coupled to it.",
+      "headline": "Local Cops Flout Sanctuary Law to Help ICE Deport Immigrants",
+      "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "splice": "Local Cops Flout Sanctuary Law to Help ICE Deport Immigrants the system notes that the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
       "seed": 20260841
+    },
+    {
+      "headline": "German airport worker dies of malaria after 'mosquito arrives on plane'",
+      "fragment": "Underneath all reason lies delirium and drift.",
+      "splice": "German airport worker dies of malaria after 'mosquito arrives on plane' consequently underneath all reason lies delirium and drift.",
+      "seed": 20260842
+    },
+    {
+      "headline": "What Happened to the Coveted Western Tanks Sent to Ukraine?",
+      "fragment": "Everywhere it is machines—real ones, not figurative ones: machines driving other machines, machines being driven by other machines, with all the necessary couplings and connections.",
+      "splice": "What Happened to the Coveted Western Tanks Sent to Ukraine? as if everywhere it is machines—real ones, not figurative ones: machines driving other machines, machines being driven by other machines, with all the necessary couplings and connections.",
+      "seed": 20260843
+    },
+    {
+      "headline": "Iran May Have Little to Lose as U.S. Tries to Squeeze Its Economy",
+      "fragment": "Simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
+      "splice": "Iran May Have Little to Lose as U.S. Tries to Squeeze Its Economy underneath simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
+      "seed": 20260844
+    },
+    {
+      "headline": "Conservative Groups Side With Minneapolis Protesters Against Trump Crackdown",
+      "fragment": "If it is true, for instance, that depression is caused by low serotonin levels, it would still be necessary to explain why particular individuals have low serotonin levels.",
+      "splice": "Conservative Groups Side With Minneapolis Protesters Against Trump Crackdown meanwhile if it is true, for instance, that depression is caused by low serotonin levels, it would still be necessary to explain why particular individuals have low serotonin levels.",
+      "seed": 20260845
+    },
+    {
+      "headline": "CCTV captures terrifying mudslide engulfing Nepal-China border",
+      "fragment": "The privatization of the organs will only begin with the shame felt by man at the sight of man.",
+      "splice": "CCTV captures terrifying mudslide engulfing Nepal-China border the system notes that the privatization of the organs will only begin with the shame felt by man at the sight of man.",
+      "seed": 20260846
+    },
+    {
+      "headline": "Sixty More U.S. Soldiers Reported Injured in Iran War",
+      "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
+      "splice": "Sixty More U.S. Soldiers Reported Injured in Iran War consequently the revolutionary lives in the gap which separates technical progress from social totality.",
+      "seed": 20260847
     }
   ]
 }
