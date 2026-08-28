@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28T00:17:40.817Z",
+  "generated_at": "2026-08-28T15:07:24.518Z",
   "threat_intel": {
     "cisa_kev": [
       {
@@ -222,19 +222,45 @@
     ],
     "urlhaus": [
       {
-        "id": "3909046",
-        "date_added": "2026-08-28 00:07:14",
-        "url": "http://180.191.42.15:52214/bin.sh",
+        "id": "3909327",
+        "date_added": "2026-08-28 14:56:11",
+        "url": "https://easyaround.st/MSI_PRO.png",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "None"
+          "rat",
+          "RemcosRAT",
+          "stego"
         ]
       },
       {
-        "id": "3909045",
-        "date_added": "2026-08-28 00:00:17",
-        "url": "http://123.4.232.69:32795/bin.sh",
+        "id": "3909328",
+        "date_added": "2026-08-28 14:56:11",
+        "url": "https://easyaround.st/img_111847.png",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "rat",
+          "RemcosRAT",
+          "stego"
+        ]
+      },
+      {
+        "id": "3909326",
+        "date_added": "2026-08-28 14:46:13",
+        "url": "https://coolairesgroup.com/img_051638.png",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "rat",
+          "RemcosRAT",
+          "stego"
+        ]
+      },
+      {
+        "id": "3909325",
+        "date_added": "2026-08-28 14:42:20",
+        "url": "http://60.23.192.74:53491/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -245,9 +271,21 @@
         ]
       },
       {
-        "id": "3909044",
-        "date_added": "2026-08-27 23:09:31",
-        "url": "http://163.142.93.233:38525/i",
+        "id": "3909324",
+        "date_added": "2026-08-28 14:41:15",
+        "url": "https://tmcksa.com/APAGO/pago.exe",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "exe",
+          "rat",
+          "RemcosRAT"
+        ]
+      },
+      {
+        "id": "3909323",
+        "date_added": "2026-08-28 14:31:24",
+        "url": "http://220.202.64.84:54898/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -258,9 +296,9 @@
         ]
       },
       {
-        "id": "3909043",
-        "date_added": "2026-08-27 22:22:09",
-        "url": "http://115.55.47.135:39299/bin.sh",
+        "id": "3909322",
+        "date_added": "2026-08-28 14:24:11",
+        "url": "http://42.239.158.155:44102/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -271,20 +309,107 @@
         ]
       },
       {
-        "id": "3909042",
-        "date_added": "2026-08-27 22:06:09",
-        "url": "https://github-software.su/helper/main.exe",
+        "id": "3909321",
+        "date_added": "2026-08-28 14:22:15",
+        "url": "https://dipre.com.tr/25/stego_i7rkf2ladi.png",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "d7d7f50ed686001c727dbd987b7fc7e7",
-          "dropped-by-remus"
+          "rat",
+          "RemcosRAT",
+          "stego"
         ]
       },
       {
-        "id": "3909041",
-        "date_added": "2026-08-27 22:03:23",
-        "url": "http://125.46.131.9:49040/bin.sh",
+        "id": "3909320",
+        "date_added": "2026-08-28 14:22:14",
+        "url": "https://alphasaling.site/stego_95t70lfg5l.png",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "rat",
+          "RemcosRAT",
+          "stego"
+        ]
+      },
+      {
+        "id": "3909318",
+        "date_added": "2026-08-28 14:14:10",
+        "url": "https://lively-fog-af49.pablosoftwareplus.workers.dev/ZEOuA",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "stego",
+          "xworm"
+        ]
+      },
+      {
+        "id": "3909319",
+        "date_added": "2026-08-28 14:14:10",
+        "url": "https://pub-a06eb79f0ebe4a6999bcc71a2227d8e3.r2.dev/EEDC.png",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "stego",
+          "xworm"
+        ]
+      },
+      {
+        "id": "3909316",
+        "date_added": "2026-08-28 14:12:15",
+        "url": "https://tokidsa.com/SOA/SOA.rar",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "opendir",
+          "rar"
+        ]
+      },
+      {
+        "id": "3909317",
+        "date_added": "2026-08-28 14:12:15",
+        "url": "https://tokidsa.com/SOA/SOA.js",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "ascii",
+          "js",
+          "opendir",
+          "xworm"
+        ]
+      },
+      {
+        "id": "3909315",
+        "date_added": "2026-08-28 14:12:14",
+        "url": "https://tokidsa.com/SOA/crypted.ps1",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "ascii",
+          "opendir",
+          "powershell",
+          "ps1",
+          "xworm"
+        ]
+      },
+      {
+        "id": "3909314",
+        "date_added": "2026-08-28 14:10:33",
+        "url": "https://www.eleganceclub.xyz/wp-includes/vi/crypted.ps1",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "ascii",
+          "AveMariaRAT",
+          "powershell",
+          "ps1",
+          "rat"
+        ]
+      },
+      {
+        "id": "3909313",
+        "date_added": "2026-08-28 14:10:27",
+        "url": "http://60.23.192.74:53491/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -295,251 +420,163 @@
         ]
       },
       {
-        "id": "3909040",
-        "date_added": "2026-08-27 22:01:26",
-        "url": "http://27.215.54.219:55163/i",
+        "id": "3909312",
+        "date_added": "2026-08-28 14:07:13",
+        "url": "https://gaiadeqi.com/stego_cdyg6hf6tx.png",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
+          "PureLogsStealer",
+          "stego"
         ]
       },
       {
-        "id": "3909039",
-        "date_added": "2026-08-27 21:46:22",
-        "url": "http://182.121.177.176:36990/i",
+        "id": "3909310",
+        "date_added": "2026-08-28 14:04:15",
+        "url": "https://pub-1614932a526c40d79fe5bf23e71e3ff7.r2.dev/hcxael.png",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
+          "AgentTesla",
+          "stego"
         ]
       },
       {
-        "id": "3909038",
-        "date_added": "2026-08-27 21:44:25",
-        "url": "http://124.131.128.79:49267/i",
+        "id": "3909311",
+        "date_added": "2026-08-28 14:04:15",
+        "url": "https://pub-d56457612c0b43ebbaf5c25537f2fb18.r2.dev/hdenga.png",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
+          "AgentTesla",
+          "stego"
         ]
       },
       {
-        "id": "3909037",
-        "date_added": "2026-08-27 21:35:30",
-        "url": "http://42.228.46.234:49037/i",
+        "id": "3909309",
+        "date_added": "2026-08-28 14:02:15",
+        "url": "https://munihuacho.gob.pe//sifyWeb/MSI_PRO.png",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3909036",
-        "date_added": "2026-08-27 21:35:17",
-        "url": "http://27.215.54.219:55163/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3909035",
-        "date_added": "2026-08-27 21:28:27",
-        "url": "http://42.56.35.155:55769/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3909034",
-        "date_added": "2026-08-27 21:09:29",
-        "url": "http://42.56.35.155:55769/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3909033",
-        "date_added": "2026-08-27 21:07:40",
-        "url": "http://42.228.46.234:49037/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3909032",
-        "date_added": "2026-08-27 21:04:14",
-        "url": "http://91.92.242.236/files-129312398/files/file_75af83cd52936be4.exe",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "54e64e",
-          "dropped-by-amadey"
-        ]
-      },
-      {
-        "id": "3909031",
-        "date_added": "2026-08-27 20:58:28",
-        "url": "http://179.108.89.220:60440/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "arm",
-          "elf",
-          "mirai",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3909030",
-        "date_added": "2026-08-27 20:14:21",
-        "url": "http://124.131.128.79:49267/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3909029",
-        "date_added": "2026-08-27 20:01:26",
-        "url": "http://123.12.232.76:41158/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3909028",
-        "date_added": "2026-08-27 19:57:20",
-        "url": "http://222.142.253.198:55164/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3909027",
-        "date_added": "2026-08-27 19:55:26",
-        "url": "http://119.179.252.91:42980/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
+          "AgentTesla",
+          "stego"
         ]
       }
     ]
   },
   "world_monitor": [
     {
-      "title": "Iran war live: Tehran prepares conditions to open Strait of Hormuz",
-      "link": "https://www.aljazeera.com/news/liveblog/2026/8/28/iran-war-live-tehran-prepares-conditions-to-open-strait-of-hormuz?traffic_source=rss",
-      "pubDate": "Fri, 28 Aug 2026 00:00:00 +0000",
-      "source": "Al Jazeera",
-      "summary": "Iran says it is preparing to draft conditions to open the Strait of Hormuz following mediator requests."
-    },
-    {
-      "title": "US charges 81 in Puerto Rico gang case, as Trump cartel crackdown continues",
-      "link": "https://www.aljazeera.com/news/2026/8/27/us-charges-81-in-puerto-rico-gang-case-as-trump-cartel-crackdown-continues?traffic_source=rss",
-      "pubDate": "Thu, 27 Aug 2026 23:58:26 +0000",
-      "source": "Al Jazeera",
-      "summary": "The arrests are part of a federal task force initiative targeting criminal gangs and transnational organisations."
-    },
-    {
-      "title": "Live Updates: Rescuers Search for Missing and Stranded Under Threat of More Floods",
-      "link": "https://www.nytimes.com/live/2026/08/27/world/nepal-tibet-flash-floods",
-      "pubDate": "Thu, 27 Aug 2026 23:37:11 +0000",
+      "title": "Live Updates: Nepal Nearly Doubles Number of Missing to 1,900 Amid Desperate Search for Survivors",
+      "link": "https://www.nytimes.com/live/2026/08/28/world/nepal-tibet-flash-floods",
+      "pubDate": "Fri, 28 Aug 2026 14:50:55 +0000",
       "source": "NYT World",
-      "summary": "Officials said hundreds were killed in Nepal and Tibet, and more than 1,400 people are missing. Stunned witnesses described a torrent of debris and water carrying away villages in minutes."
+      "summary": "A spokeswoman for the disaster relief agency said the tally grew after some 900 people were reported missing from hydropower projects. Rescue efforts were complicated by fears of new possible flooding."
     },
     {
-      "title": "US judge questions the push to add Trump’s name back to the Kennedy Center",
-      "link": "https://www.aljazeera.com/news/2026/8/27/us-judge-questions-the-push-to-add-trumps-name-back-to-the-kennedy-center?traffic_source=rss",
-      "pubDate": "Thu, 27 Aug 2026 23:29:49 +0000",
-      "source": "Al Jazeera",
-      "summary": "Venue's board of directors, stacked with supporters of the president, voted to add his name again despite past ruling."
-    },
-    {
-      "title": "Syria’s president appoints ex-commander of Kurdish-led SDF as advisor",
-      "link": "https://www.aljazeera.com/news/2026/8/27/syrias-president-appoints-ex-commander-of-kurdish-led-sdf-as-advisor?traffic_source=rss",
-      "pubDate": "Thu, 27 Aug 2026 23:09:41 +0000",
-      "source": "Al Jazeera",
-      "summary": "Syrian President Ahmed al-Sharaa appoints Mazloum Abdi as presidential advisor, three days after dissolution of SDF."
-    },
-    {
-      "title": "What we know about deadly Nepal-Tibet floods",
-      "link": "https://www.bbc.co.uk/news/articles/cd948kn02e5o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Thu, 27 Aug 2026 22:54:28 GMT",
-      "source": "BBC",
-      "summary": "Hundreds have died or are missing in Wednesday's flooding and landslides on the border of Nepal and Tibet."
-    },
-    {
-      "title": "Haiti police confront public frustration after deadly gang attack kills 47",
-      "link": "https://www.aljazeera.com/news/2026/8/27/haiti-police-confront-public-frustration-after-deadly-gang-attack-kills-47?traffic_source=rss",
-      "pubDate": "Thu, 27 Aug 2026 22:51:44 +0000",
-      "source": "Al Jazeera",
-      "summary": "The attack in Kenscoff, a community where crime had been declining, has raised questions about Haiti's security."
-    },
-    {
-      "title": "Jury deliberating in trial of Lindsay Clancy, US woman accused of killing her children",
-      "link": "https://www.bbc.co.uk/news/articles/c33keeyyv70o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Thu, 27 Aug 2026 20:39:16 GMT",
-      "source": "BBC",
-      "summary": "Prosecutors argued Clancy made a calculated decision to murder the children, while the defence argued that she was suffering from postpartum psychosis."
-    },
-    {
-      "title": "Canada Hires U.S. Scholars From Harvard and Other Top Universities",
-      "link": "https://www.nytimes.com/2026/08/27/world/canada/canada-universities-hire-us-researchers.html",
-      "pubDate": "Thu, 27 Aug 2026 18:39:24 +0000",
+      "title": "Inside Afghanistan’s Secret Schools for Girls",
+      "link": "https://www.nytimes.com/2026/08/28/world/asia/afghanistan-girls-education.html",
+      "pubDate": "Fri, 28 Aug 2026 14:36:29 +0000",
       "source": "NYT World",
-      "summary": "A crackdown on American academia by the Trump administration has handed Canadian universities a rare opportunity to lure some top researchers north."
+      "summary": "The Taliban have banned education for millions of Afghan girls. Times journalists examined classrooms where students, teachers and parents continue to resist by defying the rules."
+    },
+    {
+      "title": "Can Trump really rename Lake Ontario, ‘Lake America’?",
+      "link": "https://www.aljazeera.com/news/2026/8/28/can-trump-really-rename-lake-ontario-lake-america?traffic_source=rss",
+      "pubDate": "Fri, 28 Aug 2026 14:36:19 +0000",
+      "source": "Al Jazeera",
+      "summary": "Amid tariff war with Canada, Trump has signed an executive order renaming the shared lake."
+    },
+    {
+      "title": "Oneness or Hindu supremacy? RSS chief Bhagwat’s secretive New York hosts",
+      "link": "https://www.aljazeera.com/news/2026/8/28/oneness-or-hindu-supremacy-rss-chief-bhagwats-secretive-new-york-hosts?traffic_source=rss",
+      "pubDate": "Fri, 28 Aug 2026 14:20:40 +0000",
+      "source": "Al Jazeera",
+      "summary": "RSS chief Mohan Bhagwat is scheduled to speak at an event in New York on Saturday."
+    },
+    {
+      "title": "Oslo mayor calls off wedding ceremony after death of Norway's king",
+      "link": "https://www.bbc.co.uk/news/articles/c5ydgk3v60eo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Fri, 28 Aug 2026 13:50:34 GMT",
+      "source": "BBC",
+      "summary": "Anne Lindboe, the mayor of Norway's capital, had planned to marry her fiance on Friday."
+    },
+    {
+      "title": "UK has billions in contracts with firms tied to illegal Israeli settlements",
+      "link": "https://www.aljazeera.com/news/2026/8/28/uk-has-billions-in-contracts-with-firms-tied-to-illegal-israeli-settlements?traffic_source=rss",
+      "pubDate": "Fri, 28 Aug 2026 13:40:04 +0000",
+      "source": "Al Jazeera",
+      "summary": "Al Jazeera investigation reveals UK public money flowing to companies linked to Israeli settlements in occupied land."
+    },
+    {
+      "title": "Europa League draw: Bournemouth, Sunderland get glamour ties with AC Milan",
+      "link": "https://www.aljazeera.com/sports/2026/8/28/europa-league-draw-bournemouth-sunderland-get-glamour-ties-with-ac-milan?traffic_source=rss",
+      "pubDate": "Fri, 28 Aug 2026 13:33:25 +0000",
+      "source": "Al Jazeera",
+      "summary": "Teams playing in UEFA's Europa League and Conference League find out their opponents as league phase draws made."
+    },
+    {
+      "title": "Qatar pledges support for efforts to end Libya’s political division",
+      "link": "https://www.aljazeera.com/news/2026/8/28/qatar-pledges-support-for-efforts-to-end-libyas-political-division?traffic_source=rss",
+      "pubDate": "Fri, 28 Aug 2026 13:18:37 +0000",
+      "source": "Al Jazeera",
+      "summary": "Qatari minister meets army chief amid efforts to bridge longstanding political divisions in Libya."
+    },
+    {
+      "title": "Dutch court sentences man to life over Rwanda genocide",
+      "link": "https://www.bbc.co.uk/news/articles/ce8x96rw79ro?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Fri, 28 Aug 2026 12:15:46 GMT",
+      "source": "BBC",
+      "summary": "The court in The Hague convicted the 66-year-old of war crimes and the crime of genocide."
+    },
+    {
+      "title": "World's youngest reigning traditional monarch dies aged 34",
+      "link": "https://www.bbc.co.uk/news/articles/c0j38d9v40po?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Fri, 28 Aug 2026 11:13:24 GMT",
+      "source": "BBC",
+      "summary": "King Oyo ascended to the throne of Uganda's Tooro kingdom when he was just three years old."
+    },
+    {
+      "title": "Watch: Why rescuers fear new barrier lake could cause another Nepal-Tibet flood",
+      "link": "https://www.bbc.co.uk/news/videos/cj06j16vpr5o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Fri, 28 Aug 2026 10:35:06 GMT",
+      "source": "BBC",
+      "summary": "Laura Bicker explains how a lake which formed after the recent landslide near the Nepal-Tibet border is raising fears of a second flood."
+    },
+    {
+      "title": "Right-Wing Trans Hate Comes for the WNBA",
+      "link": "https://theintercept.com/2026/08/28/wnba-women-basketball-sports-trans/",
+      "pubDate": "Fri, 28 Aug 2026 10:00:00 +0000",
+      "source": "The Intercept",
+      "summary": "How the right’s attacks on trans people have infiltrated a sports league with no trans women.\nThe post Right-Wing Trans Hate Comes for the WNBA appeared first on The Intercept."
+    },
+    {
+      "title": "Fear Over Malaysia’s Plan to Send Back Rohingya Migrants to Myanmar",
+      "link": "https://www.nytimes.com/2026/08/28/world/asia/rohingya-refugees-malaysia-myanmar.html",
+      "pubDate": "Fri, 28 Aug 2026 09:04:28 +0000",
+      "source": "NYT World",
+      "summary": "The announcement has sent panic through a community that fled its country’s brutal military rule, civil war, religious persecution or some combination of the three."
+    },
+    {
+      "title": "Why Many Iranians Are Losing Hope After Six Months of War",
+      "link": "https://www.nytimes.com/2026/08/28/world/middleeast/iran-war-six-months-israel-us.html",
+      "pubDate": "Fri, 28 Aug 2026 08:58:35 +0000",
+      "source": "NYT World",
+      "summary": "Iranians have become increasingly desperate, as they grapple with an economic crisis made worse by the conflict and grow increasingly skeptical about President Trump’s motives."
+    },
+    {
+      "title": "Six Months In, Iran Appears Stronger and U.S. Goals Unclear",
+      "link": "https://www.nytimes.com/2026/08/28/world/europe/iran-regime-war-us.html",
+      "pubDate": "Fri, 28 Aug 2026 08:55:52 +0000",
+      "source": "NYT World",
+      "summary": "Trump’s replacement of a military war with a heightened economic one is not expected to alter Iran’s strategy, while further impoverishing its people."
+    },
+    {
+      "title": "Trump signs order to rename Lake Ontario as Lake America ",
+      "link": "https://www.bbc.co.uk/news/articles/ckgwdn1g58yo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Fri, 28 Aug 2026 08:26:09 GMT",
+      "source": "BBC",
+      "summary": "Canada has rejected the new name of the lake, which straddles both countries, as their row deepens."
     },
     {
       "title": "“They Want People Scared”: Former Palestine Action Member Blasts Trump’s Terror Sanctions",
@@ -549,53 +586,11 @@
       "summary": "Anti-genocide organizers say the “terrorism” label is intended to crush direct action against Israeli weapons shipments.\nThe post “They Want People Scared”: Former Palestine Action Member Blasts Trump’s Terror Sanctions appeared first on The Intercep"
     },
     {
-      "title": "Norwegians lay flowers at palace as King Harald's condition worsens",
-      "link": "https://www.bbc.co.uk/news/articles/cqxvrnvrr5do?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Thu, 27 Aug 2026 17:42:04 GMT",
-      "source": "BBC",
-      "summary": "The 89-year-old's condition is described as \"extremely serious\" and members of his family have visited him in hospital."
-    },
-    {
-      "title": "Convicted Bosnian Serb war criminal Mladić dies aged 84",
-      "link": "https://www.bbc.co.uk/news/articles/c5ywxpryj95o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Thu, 27 Aug 2026 17:05:22 GMT",
-      "source": "BBC",
-      "summary": "He was jailed for life in 2017 for genocide, war crimes and crimes against  humanity during the wars in the ex-Yugoslavia in 1992-95."
-    },
-    {
-      "title": "Greenlandic Women Will Finally Get Money for Forced Contraception",
-      "link": "https://www.nytimes.com/2026/08/27/world/europe/denmark-greenland-forced-contraception-compensation.html",
-      "pubDate": "Thu, 27 Aug 2026 16:39:47 +0000",
-      "source": "NYT World",
-      "summary": "For decades, Denmark implanted intrauterine devices in women in Greenland in an effort to keep down the island’s population. On Thursday, the government passed a compensation bill."
-    },
-    {
-      "title": "Russian Sanctions Are Fueling a Canadian Car Theft Epidemic",
-      "link": "https://www.nytimes.com/2026/08/27/world/canada/canada-car-theft-russia-sanctions.html",
-      "pubDate": "Thu, 27 Aug 2026 11:38:20 +0000",
-      "source": "NYT World",
-      "summary": "Russia is the largest destination for stolen Canadian cars. Smugglers are meeting the demand of a booming black market."
-    },
-    {
-      "title": "Where Drones Cannot See, the Ukraine War Is a Deadly Game of Cat and Mouse",
-      "link": "https://www.nytimes.com/2026/08/27/world/europe/ukraine-russia-war-zaporizhzhia-frontline-fighting.html",
-      "pubDate": "Thu, 27 Aug 2026 10:23:22 +0000",
-      "source": "NYT World",
-      "summary": "Russian troops are trying to infiltrate the vast, overgrown reservoir basin of a dam they blew up three years ago as Ukrainian soldiers hunt them at close quarters."
-    },
-    {
       "title": "Trump Admin Said She Was Lying About Stillbirth in ICE Custody. New Evidence Points to Lack of Prenatal Care.",
       "link": "https://theintercept.com/2026/08/27/trump-ice-custody-pregnancy-stillbirth-deport/",
       "pubDate": "Thu, 27 Aug 2026 10:00:00 +0000",
       "source": "The Intercept",
       "summary": "The Trump administration claimed Iris Dayana Monterroso Lemus received “FULL medical, prenatal care” in ICE custody.\nThe post Trump Admin Said She Was Lying About Stillbirth in ICE Custody. New Evidence Points to Lack of Prenatal Care. appeared first"
-    },
-    {
-      "title": "Collapsed glacier likely caused devastating Nepal-Tibet floods, scientists say",
-      "link": "https://www.bbc.co.uk/news/articles/cly464k252yo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Thu, 27 Aug 2026 09:50:10 GMT",
-      "source": "BBC",
-      "summary": "Preliminary investigations by scientists have pointed to a collapsed glacier as the cause, highlighting the issue of rapidly melting Himalayan ice."
     },
     {
       "title": "A New Tree-Sit Movement to Block Trump’s Border Wall",
@@ -610,13 +605,6 @@
       "pubDate": "Wed, 26 Aug 2026 16:27:37 +0000",
       "source": "The Intercept",
       "summary": "In the besieged West Bank village of Qusra, the workers were building a fence for keeping settlers out. Soldiers allowed the settlers to trespass.\nThe post Palestinians Asked for Help Against Settlers. Israelis Detained Palestinian Workers Instead. a"
-    },
-    {
-      "title": "It’s Time to Rein in Lethal AI Drones",
-      "link": "https://theintercept.com/2026/08/26/ai-drone-warfare-russia-ukraine-openai-anthropic/",
-      "pubDate": "Wed, 26 Aug 2026 10:00:00 +0000",
-      "source": "The Intercept",
-      "summary": "Humans need to act, as AI agents scheme in the digital shadows.\nThe post It’s Time to Rein in Lethal AI Drones appeared first on The Intercept."
     },
     {
       "title": "Tracking a Sanctioned Russian Vessel’s West African Odyssey",
@@ -656,6 +644,13 @@
   ],
   "syndication": [
     {
+      "title": "AI Doesn’t Mean the End of Mathematics—at Least Not Yet",
+      "link": "https://www.schneier.com/blog/archives/2026/08/ai-doesnt-mean-the-end-of-mathematics-at-least-not-yet.html",
+      "pubDate": "2026-08-28T11:02:22.000Z",
+      "author": "Schneier on Security",
+      "content": "This essay was written with Kasra Rafi, and originally appeared in The Guardian.\nEarlier this month, about 40 top mathematicians gathered at OpenAI’s offices to discuss the future of their profession. The meeting was off-the-record, but if recent articles by mathematicians are any guide, it was most"
+    },
+    {
       "title": "Two Alleged ‘TeamPCP’ Hackers Arrested in Australia",
       "link": "https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/",
       "pubDate": "Thu, 27 Aug 2026 11:04:15 +0000",
@@ -682,13 +677,6 @@
       "pubDate": "Wed, 26 Aug 2026 03:21:38 +0000",
       "author": "Pluralistic",
       "content": "Today's links The age of disinvention: 🟥1️⃣2️⃣0️⃣0️⃣🟥1️⃣2️⃣0️⃣0️⃣🟥️1️⃣2️⃣0️⃣0️⃣🟥1️⃣2️⃣0️⃣0️⃣🟥1️⃣2️⃣0️⃣0️⃣🟥1️⃣2️⃣0️⃣0️⃣🟥 Hey look at this: Delights to delectate. Object permanence: Metacrap; CmdrTaco retires; Chalk memorial for Jack Layton; By all means tread on these people. Upcoming appearan"
-    },
-    {
-      "title": "Black Hat State of Security Vendors",
-      "link": "https://www.schneier.com/blog/archives/2026/08/black-hat-state-of-security-vendors.html",
-      "pubDate": "2026-08-25T10:54:50.000Z",
-      "author": "Schneier on Security",
-      "content": "Andy Ellis has a roundup of the security vendors at Black Hat this year.\nKey Takeaways: We have entered into an AI world.  While nearly half of booths didn’t directly mention AI or agents in their taglines, the effects of AI are everywhere.  Multiple spaces (Identity, SaaS, AppSec, Data) have almost"
     },
     {
       "title": "Pluralistic: How Canada can help Americans and defeat America (23 Aug 2026)",
@@ -721,6 +709,102 @@
   ],
   "syndicate_journal": [
     {
+      "title": "James Lawson Was the Civil Rights Movement’s Drill Sergeant",
+      "link": "",
+      "summary": "Reverend James Lawson Jr did not attend the 1963 March on Washington for Jobs and Freedom. Most of the movement’s boldfaced names — the “Big Six” civil rights leaders, labor leaders and religious figures, celebrities and entertainers — were there, in front of a quarter million people up on the Linco",
+      "pubDate": "2026-08-28T14:19:12.733Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "The Customer Is Always Watching",
+      "link": "",
+      "summary": "Toru Hinkle was stocking shelves at Target when two customers appeared. Toru asked if they needed help. The men wanted a price check on an item that cost $20, but even after Hinkle told them the price, they kept asking. Eventually Hinkle noticed a blinking light on one customer’s glasses.\nMia Sato  ",
+      "pubDate": "2026-08-28T14:11:35.375Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "Cyborg Roaches Could Be the Future of Triage Medicine",
+      "link": "https://nautil.us/cyborg-roaches-could-be-the-future-of-triage-medicine-1284583/",
+      "summary": "The augmented insects could deliver life-saving care to disaster victims\nThe post Cyborg Roaches Could Be the Future of Triage Medicine appeared first on Nautilus.",
+      "pubDate": "Fri, 28 Aug 2026 14:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "Does Computer Science Need Computers?",
+      "link": "https://www.quantamagazine.org/does-computer-science-need-computers-20260828/",
+      "summary": "The theoretical side of the field doesn’t require computing machines. But many questions would never have been posed without them.             \nThe post Does Computer Science Need Computers? first appeared on Quanta Magazine",
+      "pubDate": "Fri, 28 Aug 2026 13:30:34 +0000",
+      "domain": "science",
+      "source": "Quanta"
+    },
+    {
+      "title": "Trump’s Art of the Bad Deal Comes to Canada",
+      "link": "",
+      "summary": "Canadian Prime Minister Mark Carney’s  to withdraw his trade negotiating team from Washington last Friday was surprising and refreshing. Surprising because Carney clearly wanted a deal and has a  of conceding to Donald Trump  and , to no effect, in hopes of securing one. Refreshing because the deal ",
+      "pubDate": "2026-08-28T13:30:20.798Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "Why Is Leadership Riskier for Women?",
+      "link": "https://daily.jstor.org/why-is-leadership-riskier-for-women/",
+      "summary": "Research shows that harsher penalties for failure can discourage women from pursuing top positions.\nThe post Why Is Leadership Riskier for Women? appeared first on JSTOR Daily.",
+      "pubDate": "Fri, 28 Aug 2026 13:28:42 +0000",
+      "domain": "history",
+      "source": "JSTOR Daily"
+    },
+    {
+      "title": "The First Moon Spaceport Is Coming. But First We’ll Need Moon Traffic Control",
+      "link": "https://nautil.us/the-first-moon-spaceport-is-coming-but-first-well-need-moon-traffic-control-1284577/",
+      "summary": "If we don’t manage air traffic well, we risk spacecraft being sent way off course—without the rocket fuel necessary to get back \nThe post The First Moon Spaceport Is Coming. But First We’ll Need Moon Traffic Control appeared first on Nautilus.",
+      "pubDate": "Fri, 28 Aug 2026 12:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "\"David Advanced Plus+\"",
+      "link": "https://languagelog.ldc.upenn.edu/nll/?p=74121&utm_source=rss&utm_medium=rss&utm_campaign=david-advanced-plus",
+      "summary": "Stephen Collins' August 14 comic in the Guardian, \"Meet David Advance Plus+, genius of toothpaste marketing\", starts with these four panels: David Advanced Plus+ introduces himself: And he magically transforms the product line: What they are, obviously, is plus+:",
+      "pubDate": "Fri, 28 Aug 2026 11:23:51 +0000",
+      "domain": "linguistics",
+      "source": "Language Log"
+    },
+    {
+      "title": "Tariffs",
+      "link": "https://languagelog.ldc.upenn.edu/nll/?p=74119&utm_source=rss&utm_medium=rss&utm_campaign=tariffs-2",
+      "summary": "The latest xkcd: The mouseover title: \"\"You legs may have a comparative advantage at running, but we arms have a competitive advantage at swinging hammers, so unless you accept that we're the dominant limbs and stop hogging the oxygen, that running advantage won't be around for long.\"\" The associate",
+      "pubDate": "Fri, 28 Aug 2026 09:41:44 +0000",
+      "domain": "linguistics",
+      "source": "Language Log"
+    },
+    {
+      "title": "EduRiskX: A Neuro-Symbolic Framework with F-Logic Reasoning for Early Academic Risk Prediction",
+      "link": "https://arxiv.org/abs/2608.26107",
+      "summary": "arXiv:2608.26107v1 Announce Type: new \nAbstract: Predicting students' academic risk in online education is crucial for enabling timely interventions that can improve retention and learning outcomes. However, existing models often suffer from limited early detection capability and insufficient interp",
+      "pubDate": "Fri, 28 Aug 2026 00:00:00 -0400",
+      "domain": "science",
+      "source": "arXiv: cs.AI"
+    },
+    {
+      "title": "Standalone LLM and a Pre-specified Agentic Pipeline for Explaining ICU Mortality Predictions: a Feasibility Study on the eICU Demo Dataset",
+      "link": "https://arxiv.org/abs/2608.26109",
+      "summary": "arXiv:2608.26109v1 Announce Type: new \nAbstract: Machine-learning models can predict ICU mortality accurately, but feature-attribution methods alone rarely provide the clinical narrative needed for bedside use. Large language models (LLMs) may bridge this gap, and multi-step agentic pipelines are a ",
+      "pubDate": "Fri, 28 Aug 2026 00:00:00 -0400",
+      "domain": "science",
+      "source": "arXiv: cs.AI"
+    },
+    {
+      "title": "Large Models for Battery Prognostics and Health Management: A Review and Future Roadmap",
+      "link": "https://arxiv.org/abs/2608.26111",
+      "summary": "arXiv:2608.26111v1 Announce Type: new \nAbstract: Battery Prognostics and Health Management (BPHM) is critical for ensuring the safe, reliable, and cost-effective operation of batteries across electric vehicles, grid storage, and consumer electronics. Conventional BPHM approaches, including physics-b",
+      "pubDate": "Fri, 28 Aug 2026 00:00:00 -0400",
+      "domain": "science",
+      "source": "arXiv: cs.AI"
+    },
+    {
       "title": "This Is What Happens When 1,000 People Bury Their Underwear for Science",
       "link": "https://nautil.us/this-is-what-happens-when-1000-people-bury-their-underwear-for-science-1284574/",
       "summary": "Talk about getting to the bottom of things\nThe post This Is What Happens When 1,000 People Bury Their Underwear for Science appeared first on Nautilus.",
@@ -729,76 +813,12 @@
       "source": "Nautilus"
     },
     {
-      "title": "Fact-Checking the Biohackers Who Claim Metformin is an Anti-Aging Wonder Drug",
-      "link": "https://nautil.us/fact-checking-the-biohackers-who-claim-metformin-is-an-anti-aging-wonder-drug-1284568/",
-      "summary": "What the science says about their DIY one-person clinical trials\nThe post Fact-Checking the Biohackers Who Claim Metformin is an Anti-Aging Wonder Drug appeared first on Nautilus.",
-      "pubDate": "Thu, 27 Aug 2026 21:01:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
-      "title": "In Photos: The Sea Creatures Lurking Off the Shores of Nantucket",
-      "link": "https://nautil.us/in-photos-the-sea-creatures-lurking-off-the-shores-of-nantucket-1284552/",
-      "summary": "An aerial survey captures images of marine megafauna aplenty in the Atlantic Ocean near the coast of Massachusetts\nThe post In Photos: The Sea Creatures Lurking Off the Shores of Nantucket appeared first on Nautilus.",
-      "pubDate": "Thu, 27 Aug 2026 20:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
-      "title": "Mike Rogers Pushed for War With Iran for Two Decades",
-      "link": "",
-      "summary": "It’s not a secret that Mike Rogers supports the Iran war. Since Donald Trump launched the war six months ago, the Michigan Republican candidate for Senate  Iran “an imminent threat to our country” that “must not have a nuclear weapon,”  the war was “absolutely right” and “a win-win-win for us,”  “we",
-      "pubDate": "2026-08-27T17:00:29.437Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
-      "title": "The Fight Over Data Centers Is Dividing the Labor Movement",
-      "link": "",
-      "summary": "Several weeks ago, Jason Kelce (football player, podcaster, Taylor Swift’s brother-in-law) starred in an  asking Americans to pee in jars and send them to their nearest artificial intelligence data center. The spot — a collaboration between Liquid Death and Kelce’s own Garage Beer — was nominally ab",
-      "pubDate": "2026-08-27T14:58:11.005Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
-      "title": "The United Auto Workers Are Voting for Their Top Leadership",
-      "link": "",
-      "summary": "United Auto Workers (UAW) members are voting by mail ballot for their top officers, for the second time in the union’s ninety-one years. Ballots went out August 21 and are due back by October 5.\nThe contest will decide whether President Shawn Fain, who became famous for leading 2023’s “” against the",
-      "pubDate": "2026-08-27T14:17:05.611Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
       "title": "Back to School",
       "link": "https://daily.jstor.org/editors-picks-back-school/",
       "summary": "Stories from JSTOR Daily about education, libraries, learning, and student life.\nThe post Back to School appeared first on JSTOR Daily.",
       "pubDate": "Thu, 27 Aug 2026 13:37:29 +0000",
       "domain": "history",
       "source": "JSTOR Daily"
-    },
-    {
-      "title": "RENDER: Controlling Reader-Facing Evidence in LLM Memory Evaluation",
-      "link": "https://arxiv.org/abs/2608.23568",
-      "summary": "arXiv:2608.23568v1 Announce Type: new \nAbstract: Memory and RAG evaluations often treat the answering model's input as an implementation detail, even though systems may render the same history as a memory entry, summary, typed record, or raw excerpt. We introduce RENDER, a benchmark control that fix",
-      "pubDate": "Thu, 27 Aug 2026 00:00:00 -0400",
-      "domain": "science",
-      "source": "arXiv: cs.AI"
-    },
-    {
-      "title": "ESQ-Bench: A Multi-Tier Enterprise Oracle Benchmark for Evaluating NL2SQL Dialect Generalization and Silent Semantic Divergence",
-      "link": "https://arxiv.org/abs/2608.23569",
-      "summary": "arXiv:2608.23569v1 Announce Type: new \nAbstract: State-of-the-art Natural Language to SQL (NL2SQL) models report execution accuracy exceeding 89 percent on established benchmarks such as Spider and BIRD. However, these benchmarks rely on simplified academic schemas and open-source SQL dialects that ",
-      "pubDate": "Thu, 27 Aug 2026 00:00:00 -0400",
-      "domain": "science",
-      "source": "arXiv: cs.AI"
-    },
-    {
-      "title": "LLM Agents Perform Controlled Experiments Using Simulation Models",
-      "link": "https://arxiv.org/abs/2608.23622",
-      "summary": "arXiv:2608.23622v1 Announce Type: new \nAbstract: Large language models (LLMs) have shown strong capabilities in reasoning, planning, and tool use, but many scientific and engineering tasks require more than plausible text and code generation. They require understanding how a system responds to inter",
-      "pubDate": "Thu, 27 Aug 2026 00:00:00 -0400",
-      "domain": "science",
-      "source": "arXiv: cs.AI"
     },
     {
       "title": "In Hilbert Space, All Things Are Quantumly Possible",
@@ -813,14 +833,6 @@
       "link": "https://daily.jstor.org/how-kudzu-was-supposed-to-save-the-south/",
       "summary": "Before it became a notorious invasive plant, kudzu was promoted as a solution to widespread soil erosion.\nThe post How Kudzu Was Supposed to Save the South appeared first on JSTOR Daily.",
       "pubDate": "Wed, 26 Aug 2026 13:39:00 +0000",
-      "domain": "history",
-      "source": "JSTOR Daily"
-    },
-    {
-      "title": "Not All Boredom Is the Same",
-      "link": "https://daily.jstor.org/not-all-boredom-is-the-same/",
-      "summary": "Psychology suggests that boredom is a signal. Understanding its cause can help us decide how to respond.\nThe post Not All Boredom Is the Same appeared first on JSTOR Daily.",
-      "pubDate": "Tue, 25 Aug 2026 13:39:31 +0000",
       "domain": "history",
       "source": "JSTOR Daily"
     },
@@ -841,36 +853,12 @@
       "source": "Language Log"
     },
     {
-      "title": "\"We shall fight on the Bloombergs\"",
-      "link": "https://languagelog.ldc.upenn.edu/nll/?p=74058&utm_source=rss&utm_medium=rss&utm_campaign=we-shall-fight-on-the-bloombergs",
-      "summary": "Paul Krugman's latest Substack echoes Winston Churchill's famous 1940 speech: President Trump's remark about military intervention in the bond markets actually happened — here's a transcription in context: Q: Did you direct Secretary Bessent to intervene in the bond market? A: No. Not at all. No, he",
-      "pubDate": "Sat, 22 Aug 2026 09:57:43 +0000",
-      "domain": "linguistics",
-      "source": "Language Log"
-    },
-    {
-      "title": "‘Huge Breakthrough’ in the Math of Imbalance",
-      "link": "https://www.quantamagazine.org/huge-breakthrough-in-the-math-of-imbalance-20260821/",
-      "summary": "For the first time in 30 years, computer scientists have found a better way to allocate objects evenly between two groups.            \nThe post ‘Huge Breakthrough’ in the Math of Imbalance first appeared on Quanta Magazine",
-      "pubDate": "Fri, 21 Aug 2026 14:53:32 +0000",
-      "domain": "science",
-      "source": "Quanta"
-    },
-    {
       "title": "The fog of hunger",
       "link": "https://aeon.co/essays/a-hungry-woman-is-easier-to-dismiss-than-a-well-fed-woman",
       "summary": "From childhood, women are trained to restrict their appetite. And there’s a huge, hidden, cognitive price to pay for it\n- by Sarah Berg\nRead on Aeon",
       "pubDate": "Fri, 21 Aug 2026 10:00:00 GMT",
       "domain": "philosophy",
       "source": "Aeon"
-    },
-    {
-      "title": "Caveman linguistics",
-      "link": "https://languagelog.ldc.upenn.edu/nll/?p=74049&utm_source=rss&utm_medium=rss&utm_campaign=caveman-linguistics",
-      "summary": "Today's SMBC: The mouseover title: \"I was trying to figure out why cavemen sometimes do and sometimes don't drop prepositions. Anyone have a theory?\" The Aftercomic: If \"cavemen\" were early members of our species, and if their languages were like those of recent hunter-gatherer peoples, linguists' h",
-      "pubDate": "Thu, 20 Aug 2026 11:52:38 +0000",
-      "domain": "linguistics",
-      "source": "Language Log"
     },
     {
       "title": "A vocabulary for the future: touch",
@@ -985,25 +973,25 @@
       "source": "ROAR Magazine"
     },
     {
-      "title": "A machine learning approach to behavioral signals of burnout in audit and control professions",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1792200",
-      "summary": "Burnout is a persistent and growing concern in audit- and control-oriented professions, where prolonged cognitive demands and sustained performance pressure may manifest as observable behavioral withdrawal. This study examines absenteeism as an objective behavioral proxy for burnout and evaluates it",
+      "title": "Applied evolutionary psychology in moral education: a quasi-experimental study exploring the longitudinal associations of compassion training with emotion regulation and prosocial ethical development",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1916084",
+      "summary": "IntroductionMoral education increasingly requires psychologically realistic approaches that explain how students transform moral knowledge into stable prosocial action. Drawing on applied evolutionary psychology, this longitudinal study examined whether compassion-training engagement in moral educat",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "From perceived typicality of in-vehicle stylistic cues to autonomous vehicle acceptance: the roles of perceived behavioral control and trust",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1917454",
-      "summary": "IntroductionAlthough autonomous driving technology has advanced, limited public acceptance remains a major barrier. Moving beyond studies focused on isolated design domains, this study examined whether the perceived typicality of stylistic cues across automated driving behavior, vehicle interior des",
+      "title": "Measuring health literacy among older inpatients after elective surgery: evaluation of the European Health Literacy Survey Questionnaire-short form (HLS-EU-Q16)",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1935428",
+      "summary": "IntroductionHealth literacy (HL) has been recognized as a central construct in healthcare that contributes to individual health and serves as a predictor of various health outcomes. Recently, vulnerable groups such as older adults have increasingly become the focus of studies examining HL. In this c",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "Neonatal unit (NU) Infant Medical Trauma and the lifelong implications for children and their families",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1803035",
-      "summary": "IntroductionInfant Medical Trauma (IMT) is a result of prolonged toxic experiences usually experienced by patients in the neonatal unit (NU), and is associated with significant sequalae.MethodThis article describes the pathophysiology of IMT and the short- and long-term impacts. The possible methods",
+      "title": "Relationship between sleep–wake patterns, occupational stress and sickness absence among nurses",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1935070",
+      "summary": "Individual sleep–wake characteristics play an important role in daily functioning and adaptation to shift work. They are associated with alertness, sleep quality, cognitive performance, concentration, and the ability to cope with occupational demands. High levels of occupational stress and chronic f",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
@@ -1011,64 +999,64 @@
   ],
   "misinfo_toilet": [
     {
-      "headline": "Where Drones Cannot See, the Ukraine War Is a Deadly Game of Cat and Mouse",
-      "fragment": "An ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
-      "splice": "Where Drones Cannot See, the Ukraine War Is a Deadly Game of Cat and Mouse while an ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
-      "seed": 20260828
+      "headline": "Watch: Why rescuers fear new barrier lake could cause another Nepal-Tibet flood",
+      "fragment": "Antagonism is not now located externally, in the face-off between class blocs, but internally, in the psychology of the worker.",
+      "splice": "Watch: Why rescuers fear new barrier lake could cause another Nepal-Tibet flood within which antagonism is not now located externally, in the face-off between class blocs, but internally, in the psychology of the worker.",
+      "seed": 20260843
     },
     {
-      "headline": "Convicted Bosnian Serb war criminal Mladić dies aged 84",
-      "fragment": "The technocrat is the natural friend of the dictator—computers and dictatorship.",
-      "splice": "Convicted Bosnian Serb war criminal Mladić dies aged 84 insofar as the technocrat is the natural friend of the dictator—computers and dictatorship.",
-      "seed": 20260829
+      "headline": "Europa League draw: Bournemouth, Sunderland get glamour ties with AC Milan",
+      "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "splice": "Europa League draw: Bournemouth, Sunderland get glamour ties with AC Milan the system notes that the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "seed": 20260844
     },
     {
-      "headline": "Welcome to Dubai: Kinahan Cartel’s Visas Revealed",
-      "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "splice": "Welcome to Dubai: Kinahan Cartel’s Visas Revealed consequently it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "seed": 20260830
+      "headline": "Qatar pledges support for efforts to end Libya’s political division",
+      "fragment": "Underneath all reason lies delirium and drift.",
+      "splice": "Qatar pledges support for efforts to end Libya’s political division consequently underneath all reason lies delirium and drift.",
+      "seed": 20260845
     },
     {
-      "headline": "Tracking a Sanctioned Russian Vessel’s West African Odyssey",
-      "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "splice": "Tracking a Sanctioned Russian Vessel’s West African Odyssey not unlike it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "seed": 20260831
+      "headline": "Oslo mayor calls off wedding ceremony after death of Norway's king",
+      "fragment": "Everywhere it is machines—real ones, not figurative ones: machines driving other machines, machines being driven by other machines, with all the necessary couplings and connections.",
+      "splice": "Oslo mayor calls off wedding ceremony after death of Norway's king as if everywhere it is machines—real ones, not figurative ones: machines driving other machines, machines being driven by other machines, with all the necessary couplings and connections.",
+      "seed": 20260846
+    },
+    {
+      "headline": "Oneness or Hindu supremacy? RSS chief Bhagwat’s secretive New York hosts",
+      "fragment": "Simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
+      "splice": "Oneness or Hindu supremacy? RSS chief Bhagwat’s secretive New York hosts underneath simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
+      "seed": 20260847
+    },
+    {
+      "headline": "Why Many Iranians Are Losing Hope After Six Months of War",
+      "fragment": "If it is true, for instance, that depression is caused by low serotonin levels, it would still be necessary to explain why particular individuals have low serotonin levels.",
+      "splice": "Why Many Iranians Are Losing Hope After Six Months of War meanwhile if it is true, for instance, that depression is caused by low serotonin levels, it would still be necessary to explain why particular individuals have low serotonin levels.",
+      "seed": 20260848
+    },
+    {
+      "headline": "Right-Wing Trans Hate Comes for the WNBA",
+      "fragment": "The privatization of the organs will only begin with the shame felt by man at the sight of man.",
+      "splice": "Right-Wing Trans Hate Comes for the WNBA the system notes that the privatization of the organs will only begin with the shame felt by man at the sight of man.",
+      "seed": 20260849
+    },
+    {
+      "headline": "Inside Afghanistan’s Secret Schools for Girls",
+      "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
+      "splice": "Inside Afghanistan’s Secret Schools for Girls consequently the revolutionary lives in the gap which separates technical progress from social totality.",
+      "seed": 20260850
+    },
+    {
+      "headline": "Live Updates: Nepal Nearly Doubles Number of Missing to 1,900 Amid Desperate Search for Survivors",
+      "fragment": "Over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
+      "splice": "Live Updates: Nepal Nearly Doubles Number of Missing to 1,900 Amid Desperate Search for Survivors despite over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
+      "seed": 20260851
     },
     {
       "headline": "“They Want People Scared”: Former Palestine Action Member Blasts Trump’s Terror Sanctions",
-      "fragment": "It is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
-      "splice": "“They Want People Scared”: Former Palestine Action Member Blasts Trump’s Terror Sanctions despite it is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
-      "seed": 20260832
-    },
-    {
-      "headline": "Trump Admin Said She Was Lying About Stillbirth in ICE Custody. New Evidence Points to Lack of Prenatal Care.",
-      "fragment": "The privatization of the organs will only begin with the shame felt by man at the sight of man.",
-      "splice": "Trump Admin Said She Was Lying About Stillbirth in ICE Custody. New Evidence Points to Lack of Prenatal Care. therefore the privatization of the organs will only begin with the shame felt by man at the sight of man.",
-      "seed": 20260833
-    },
-    {
-      "headline": "Satellite Imagery Documents New Border Patrol Road Construction in Big Bend National Park",
-      "fragment": "Traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "splice": "Satellite Imagery Documents New Border Patrol Road Construction in Big Bend National Park ...as traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "seed": 20260834
-    },
-    {
-      "headline": "Palestinians Asked for Help Against Settlers. Israelis Detained Palestinian Workers Instead.",
-      "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
-      "splice": "Palestinians Asked for Help Against Settlers. Israelis Detained Palestinian Workers Instead. insofar as the revolutionary lives in the gap which separates technical progress from social totality.",
-      "seed": 20260835
-    },
-    {
-      "headline": "Live Updates: Rescuers Search for Missing and Stranded Under Threat of More Floods",
-      "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
-      "splice": "Live Updates: Rescuers Search for Missing and Stranded Under Threat of More Floods which is to say the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
-      "seed": 20260836
-    },
-    {
-      "headline": "US charges 81 in Puerto Rico gang case, as Trump cartel crackdown continues",
-      "fragment": "The truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
-      "splice": "US charges 81 in Puerto Rico gang case, as Trump cartel crackdown continues underneath the truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
-      "seed": 20260837
+      "fragment": "It is at work everywhere, functioning smoothly at times, at other times in fits and starts. It breathes, it heats, it eats. It shits and fucks.",
+      "splice": "“They Want People Scared”: Former Palestine Action Member Blasts Trump’s Terror Sanctions as if it is at work everywhere, functioning smoothly at times, at other times in fits and starts. It breathes, it heats, it eats. It shits and fucks.",
+      "seed": 20260852
     }
   ]
 }
