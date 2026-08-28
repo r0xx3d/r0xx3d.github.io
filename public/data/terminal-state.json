@@ -1,7 +1,50 @@
 {
-  "generated_at": "2026-08-27T13:55:55.059Z",
+  "generated_at": "2026-08-28T00:17:40.817Z",
   "threat_intel": {
     "cisa_kev": [
+      {
+        "cveID": "CVE-2023-49105",
+        "vendorProject": "ownCloud",
+        "product": "ownCloud",
+        "vulnerabilityName": "ownCloud Improper Authentication Vulnerability",
+        "dateAdded": "2026-08-27",
+        "shortDescription": "ownCloud contains an improper authentication vulnerability that allows an attacker to access, modify, or delete any file without authentication if the username of a victim is known, and the victim has no signing-key configured.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-08-30",
+        "knownRansomwareCampaignUse": "Unknown",
+        "notes": "https://owncloud.org/security ; https://owncloud.com/security-advisories/webdav-api-authentication-bypass-using-pre-signed-urls/ ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2023-49105",
+        "cwes": [
+          "CWE-287"
+        ]
+      },
+      {
+        "cveID": "CVE-2026-53362",
+        "vendorProject": "Linux",
+        "product": "Kernel",
+        "vulnerabilityName": "Linux Kernel Unspecified Vulnerability",
+        "dateAdded": "2026-08-27",
+        "shortDescription": "Linux Kernel contains an unspecified vulnerability that can allow for privilege escalation via IPv6 networking subsystem. This vulnerability can impact multiple products, including but not limited to Suse, Red Hat, and other products using Linux. ",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-08-30",
+        "knownRansomwareCampaignUse": "Unknown",
+        "notes": "This vulnerability affects an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: ; https://git.kernel.org/stable/c/14200d435af9a9eeb444f529fc2f689a236b7962; https://git.kernel.org/stable/c/65fb14cbebb0cd0eff903a22d33537ddc8b95769; https://git.kernel.org/stable/c/46f201f8b4c39633a1fa3dc12459f506d470993d; https://git.kernel.org/stable/c/6374fb9edf72c67a118a2c214a0dddd04c921e0a; https://git.kernel.org/stable/c/e9eacf19281ea2498b36291b56c9606118c2d74e; https://git.kernel.org/stable/c/736b380e28d0480c7bc3e022f1950f31fe53a7c5 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-53362",
+        "cwes": []
+      },
+      {
+        "cveID": "CVE-2026-66384",
+        "vendorProject": "JFrog",
+        "product": "Artifactory",
+        "vulnerabilityName": "JFrog Artifactory Improper Limitation of a Pathname to a Restricted Directory Vulnerability",
+        "dateAdded": "2026-08-27",
+        "shortDescription": "JFrog Artifactory contains an improper limitation of a pathname to a restricted directory vulnerability. This can allow an authenticated user to write data outside the intended Docker cache path under specific remote-repository conditions.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-09-10",
+        "knownRansomwareCampaignUse": "Unknown",
+        "notes": "https://docs.jfrog.com/releases/docs/jfrog-security-advisories ; https://docs.jfrog.com/releases/docs/artifactory-self-managed-releases ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-66384",
+        "cwes": [
+          "CWE-22"
+        ]
+      },
       {
         "cveID": "CVE-2021-23758",
         "vendorProject": "Ajax.NET Professional",
@@ -175,72 +218,23 @@
         "cwes": [
           "CWE-918"
         ]
-      },
-      {
-        "cveID": "CVE-2026-33824",
-        "vendorProject": "Microsoft",
-        "product": "Internet Key Exchange (IKE) Service Extensions",
-        "vulnerabilityName": "Microsoft Internet Key Exchange (IKE) Service Extensions Double Free Vulnerability",
-        "dateAdded": "2026-08-18",
-        "shortDescription": "Microsoft Internet Key Exchange (IKE) Service Extensions contains a double free vulnerability that could enable remote code execution.",
-        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "dueDate": "2026-08-21",
-        "knownRansomwareCampaignUse": "Unknown",
-        "notes": "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2026-33824 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-33824",
-        "cwes": [
-          "CWE-415"
-        ]
-      },
-      {
-        "cveID": "CVE-2026-59310",
-        "vendorProject": "Broadcom",
-        "product": "VMware vCenter",
-        "vulnerabilityName": "Broadcom VMware vCenter Path Traversal Vulnerability",
-        "dateAdded": "2026-08-18",
-        "shortDescription": "Broadcom VMware vCenter contains a path traversal vulnerability which could allow a threat actor with network access to vCenter to execute arbitrary code.",
-        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "dueDate": "2026-08-21",
-        "knownRansomwareCampaignUse": "Unknown",
-        "notes": "https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/38017 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-59310",
-        "cwes": [
-          "CWE-22"
-        ]
-      },
-      {
-        "cveID": "CVE-2026-55040",
-        "vendorProject": "Microsoft",
-        "product": "SharePoint",
-        "vulnerabilityName": "Microsoft SharePoint Weak Authentication Vulnerability",
-        "dateAdded": "2026-08-18",
-        "shortDescription": "Microsoft SharePoint contains a weak authentication vulnerability which allows an unauthorized attacker to bypass a security feature over a network.",
-        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "dueDate": "2026-08-21",
-        "knownRansomwareCampaignUse": "Unknown",
-        "notes": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-55040 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-55040",
-        "cwes": [
-          "CWE-1390"
-        ]
       }
     ],
     "urlhaus": [
       {
-        "id": "3908969",
-        "date_added": "2026-08-27 13:40:28",
-        "url": "http://196.190.11.194:48645/bin.sh",
+        "id": "3909046",
+        "date_added": "2026-08-28 00:07:14",
+        "url": "http://180.191.42.15:52214/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "32-bit",
-          "arm",
-          "elf",
-          "mirai",
-          "Mozi"
+          "None"
         ]
       },
       {
-        "id": "3908968",
-        "date_added": "2026-08-27 13:33:17",
-        "url": "http://42.56.161.38:49976/i",
+        "id": "3909045",
+        "date_added": "2026-08-28 00:00:17",
+        "url": "http://123.4.232.69:32795/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -251,57 +245,188 @@
         ]
       },
       {
-        "id": "3908967",
-        "date_added": "2026-08-27 13:22:17",
-        "url": "http://45.172.218.181:42968/bin.sh",
+        "id": "3909044",
+        "date_added": "2026-08-27 23:09:31",
+        "url": "http://163.142.93.233:38525/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
           "32-bit",
-          "arm",
           "elf",
-          "mirai",
+          "mips",
           "Mozi"
         ]
       },
       {
-        "id": "3908966",
-        "date_added": "2026-08-27 13:18:42",
-        "url": "https://dy.dpwqwaapp.xyz/p10/BraveBrows.zip",
+        "id": "3909043",
+        "date_added": "2026-08-27 22:22:09",
+        "url": "http://115.55.47.135:39299/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "SilverFox",
-          "ValleyRAT"
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
         ]
       },
       {
-        "id": "3908965",
-        "date_added": "2026-08-27 13:18:09",
-        "url": "http://91.92.242.236/files-129312398/files/file_c1651781064790ad.exe",
+        "id": "3909042",
+        "date_added": "2026-08-27 22:06:09",
+        "url": "https://github-software.su/helper/main.exe",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "c2-monitor-auto",
-          "dropped-by-amadey",
-          "Stealc"
+          "d7d7f50ed686001c727dbd987b7fc7e7",
+          "dropped-by-remus"
         ]
       },
       {
-        "id": "3908964",
-        "date_added": "2026-08-27 12:35:06",
-        "url": "http://62.60.226.140/files/7969923390/YZvtV2H.exe",
-        "url_status": "offline",
+        "id": "3909041",
+        "date_added": "2026-08-27 22:03:23",
+        "url": "http://125.46.131.9:49040/bin.sh",
+        "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "d52f85",
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3909040",
+        "date_added": "2026-08-27 22:01:26",
+        "url": "http://27.215.54.219:55163/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3909039",
+        "date_added": "2026-08-27 21:46:22",
+        "url": "http://182.121.177.176:36990/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3909038",
+        "date_added": "2026-08-27 21:44:25",
+        "url": "http://124.131.128.79:49267/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3909037",
+        "date_added": "2026-08-27 21:35:30",
+        "url": "http://42.228.46.234:49037/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3909036",
+        "date_added": "2026-08-27 21:35:17",
+        "url": "http://27.215.54.219:55163/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3909035",
+        "date_added": "2026-08-27 21:28:27",
+        "url": "http://42.56.35.155:55769/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3909034",
+        "date_added": "2026-08-27 21:09:29",
+        "url": "http://42.56.35.155:55769/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3909033",
+        "date_added": "2026-08-27 21:07:40",
+        "url": "http://42.228.46.234:49037/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3909032",
+        "date_added": "2026-08-27 21:04:14",
+        "url": "http://91.92.242.236/files-129312398/files/file_75af83cd52936be4.exe",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "54e64e",
           "dropped-by-amadey"
         ]
       },
       {
-        "id": "3908963",
-        "date_added": "2026-08-27 12:33:22",
-        "url": "http://115.48.151.132:36550/i",
+        "id": "3909031",
+        "date_added": "2026-08-27 20:58:28",
+        "url": "http://179.108.89.220:60440/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "mirai",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3909030",
+        "date_added": "2026-08-27 20:14:21",
+        "url": "http://124.131.128.79:49267/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -312,9 +437,9 @@
         ]
       },
       {
-        "id": "3908962",
-        "date_added": "2026-08-27 12:32:21",
-        "url": "http://119.116.34.176:47926/i",
+        "id": "3909029",
+        "date_added": "2026-08-27 20:01:26",
+        "url": "http://123.12.232.76:41158/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -325,9 +450,9 @@
         ]
       },
       {
-        "id": "3908961",
-        "date_added": "2026-08-27 12:25:28",
-        "url": "http://115.48.151.132:36550/bin.sh",
+        "id": "3909028",
+        "date_added": "2026-08-27 19:57:20",
+        "url": "http://222.142.253.198:55164/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -338,9 +463,9 @@
         ]
       },
       {
-        "id": "3908960",
-        "date_added": "2026-08-27 12:23:31",
-        "url": "http://182.126.124.161:50960/i",
+        "id": "3909027",
+        "date_added": "2026-08-27 19:55:26",
+        "url": "http://119.179.252.91:42980/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -348,204 +473,101 @@
           "elf",
           "mips",
           "Mozi"
-        ]
-      },
-      {
-        "id": "3908959",
-        "date_added": "2026-08-27 12:08:32",
-        "url": "http://219.155.10.234:34322/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3908958",
-        "date_added": "2026-08-27 12:08:29",
-        "url": "http://85.11.167.203/i-5.8-6.SNOOPY",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "elf",
-          "gafgyt",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3908957",
-        "date_added": "2026-08-27 12:07:29",
-        "url": "http://85.11.167.203/a-r.m-5.SNOOPY",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "elf",
-          "gafgyt",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3908956",
-        "date_added": "2026-08-27 12:07:19",
-        "url": "https://weybli.com/QW1.exe",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "3",
-          "dropped-by-Stealc"
-        ]
-      },
-      {
-        "id": "3908955",
-        "date_added": "2026-08-27 12:06:25",
-        "url": "http://182.126.124.161:50960/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3908954",
-        "date_added": "2026-08-27 12:04:33",
-        "url": "http://119.116.34.176:47926/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3908953",
-        "date_added": "2026-08-27 11:48:14",
-        "url": "https://files.catbox.moe/3j9gfp.png",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "HypeAgent",
-          "stego"
-        ]
-      },
-      {
-        "id": "3908952",
-        "date_added": "2026-08-27 11:47:23",
-        "url": "http://220.201.29.161:55723/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3908951",
-        "date_added": "2026-08-27 11:46:41",
-        "url": "https://cloud.calltop.com.br/apps/web/linux.bin",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "CoinMiner",
-          "cryptomining",
-          "CVE-2026-60004",
-          "elf",
-          "Gitea",
-          "Linuxsys",
-          "monero",
-          "xmrig"
-        ]
-      },
-      {
-        "id": "3908950",
-        "date_added": "2026-08-27 11:46:33",
-        "url": "http://puschl.langhaar-schaeferhunde.com/plugins/linux.bin",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "cryptomining",
-          "CVE-2026-60004",
-          "elf",
-          "Gitea",
-          "Linuxsys",
-          "monero",
-          "xmrig"
         ]
       }
     ]
   },
   "world_monitor": [
     {
-      "title": "Live Updates: Helicopters Rescue Nepal Flood Survivors, With More Than 1,000 Still Missing",
+      "title": "Iran war live: Tehran prepares conditions to open Strait of Hormuz",
+      "link": "https://www.aljazeera.com/news/liveblog/2026/8/28/iran-war-live-tehran-prepares-conditions-to-open-strait-of-hormuz?traffic_source=rss",
+      "pubDate": "Fri, 28 Aug 2026 00:00:00 +0000",
+      "source": "Al Jazeera",
+      "summary": "Iran says it is preparing to draft conditions to open the Strait of Hormuz following mediator requests."
+    },
+    {
+      "title": "US charges 81 in Puerto Rico gang case, as Trump cartel crackdown continues",
+      "link": "https://www.aljazeera.com/news/2026/8/27/us-charges-81-in-puerto-rico-gang-case-as-trump-cartel-crackdown-continues?traffic_source=rss",
+      "pubDate": "Thu, 27 Aug 2026 23:58:26 +0000",
+      "source": "Al Jazeera",
+      "summary": "The arrests are part of a federal task force initiative targeting criminal gangs and transnational organisations."
+    },
+    {
+      "title": "Live Updates: Rescuers Search for Missing and Stranded Under Threat of More Floods",
       "link": "https://www.nytimes.com/live/2026/08/27/world/nepal-tibet-flash-floods",
-      "pubDate": "Thu, 27 Aug 2026 13:50:56 +0000",
+      "pubDate": "Thu, 27 Aug 2026 23:37:11 +0000",
       "source": "NYT World",
-      "summary": "Officials said hundreds were killed in Nepal and Tibet. New York Times reporters flew with rescuers to remote Himalayan areas, where shocked survivors described a torrent of mud sweeping away villages."
+      "summary": "Officials said hundreds were killed in Nepal and Tibet, and more than 1,400 people are missing. Stunned witnesses described a torrent of debris and water carrying away villages in minutes."
+    },
+    {
+      "title": "US judge questions the push to add Trump’s name back to the Kennedy Center",
+      "link": "https://www.aljazeera.com/news/2026/8/27/us-judge-questions-the-push-to-add-trumps-name-back-to-the-kennedy-center?traffic_source=rss",
+      "pubDate": "Thu, 27 Aug 2026 23:29:49 +0000",
+      "source": "Al Jazeera",
+      "summary": "Venue's board of directors, stacked with supporters of the president, voted to add his name again despite past ruling."
+    },
+    {
+      "title": "Syria’s president appoints ex-commander of Kurdish-led SDF as advisor",
+      "link": "https://www.aljazeera.com/news/2026/8/27/syrias-president-appoints-ex-commander-of-kurdish-led-sdf-as-advisor?traffic_source=rss",
+      "pubDate": "Thu, 27 Aug 2026 23:09:41 +0000",
+      "source": "Al Jazeera",
+      "summary": "Syrian President Ahmed al-Sharaa appoints Mazloum Abdi as presidential advisor, three days after dissolution of SDF."
+    },
+    {
+      "title": "What we know about deadly Nepal-Tibet floods",
+      "link": "https://www.bbc.co.uk/news/articles/cd948kn02e5o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Thu, 27 Aug 2026 22:54:28 GMT",
+      "source": "BBC",
+      "summary": "Hundreds have died or are missing in Wednesday's flooding and landslides on the border of Nepal and Tibet."
+    },
+    {
+      "title": "Haiti police confront public frustration after deadly gang attack kills 47",
+      "link": "https://www.aljazeera.com/news/2026/8/27/haiti-police-confront-public-frustration-after-deadly-gang-attack-kills-47?traffic_source=rss",
+      "pubDate": "Thu, 27 Aug 2026 22:51:44 +0000",
+      "source": "Al Jazeera",
+      "summary": "The attack in Kenscoff, a community where crime had been declining, has raised questions about Haiti's security."
+    },
+    {
+      "title": "Jury deliberating in trial of Lindsay Clancy, US woman accused of killing her children",
+      "link": "https://www.bbc.co.uk/news/articles/c33keeyyv70o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Thu, 27 Aug 2026 20:39:16 GMT",
+      "source": "BBC",
+      "summary": "Prosecutors argued Clancy made a calculated decision to murder the children, while the defence argued that she was suffering from postpartum psychosis."
+    },
+    {
+      "title": "Canada Hires U.S. Scholars From Harvard and Other Top Universities",
+      "link": "https://www.nytimes.com/2026/08/27/world/canada/canada-universities-hire-us-researchers.html",
+      "pubDate": "Thu, 27 Aug 2026 18:39:24 +0000",
+      "source": "NYT World",
+      "summary": "A crackdown on American academia by the Trump administration has handed Canadian universities a rare opportunity to lure some top researchers north."
+    },
+    {
+      "title": "“They Want People Scared”: Former Palestine Action Member Blasts Trump’s Terror Sanctions",
+      "link": "https://theintercept.com/2026/08/27/palestine-action-terrorism-sanctions-trump-ban-israel/",
+      "pubDate": "Thu, 27 Aug 2026 17:59:57 +0000",
+      "source": "The Intercept",
+      "summary": "Anti-genocide organizers say the “terrorism” label is intended to crush direct action against Israeli weapons shipments.\nThe post “They Want People Scared”: Former Palestine Action Member Blasts Trump’s Terror Sanctions appeared first on The Intercep"
+    },
+    {
+      "title": "Norwegians lay flowers at palace as King Harald's condition worsens",
+      "link": "https://www.bbc.co.uk/news/articles/cqxvrnvrr5do?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Thu, 27 Aug 2026 17:42:04 GMT",
+      "source": "BBC",
+      "summary": "The 89-year-old's condition is described as \"extremely serious\" and members of his family have visited him in hospital."
     },
     {
       "title": "Convicted Bosnian Serb war criminal Mladić dies aged 84",
       "link": "https://www.bbc.co.uk/news/articles/c5ywxpryj95o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Thu, 27 Aug 2026 13:46:40 GMT",
+      "pubDate": "Thu, 27 Aug 2026 17:05:22 GMT",
       "source": "BBC",
       "summary": "He was jailed for life in 2017 for genocide, war crimes and crimes against  humanity during the wars in the ex-Yugoslavia in 1992-95."
     },
     {
-      "title": "Israeli settlers targeting Palestinian factories to force workers off land",
-      "link": "https://www.aljazeera.com/economy/2026/8/27/israeli-settlers-targeting-palestinian-factories-to-force-workers-off-land?traffic_source=rss",
-      "pubDate": "Thu, 27 Aug 2026 13:21:20 +0000",
-      "source": "Al Jazeera",
-      "summary": "Settler violence threatens to collapse the fragile Palestinian economy."
-    },
-    {
-      "title": "World Cup 2034 hosts Saudi Arabia back Infantino amid FIFA crisis",
-      "link": "https://www.aljazeera.com/sports/2026/8/27/world-cup-2034-hosts-saudi-arabia-back-infantino-amid-fifa-crisis?traffic_source=rss",
-      "pubDate": "Thu, 27 Aug 2026 13:18:03 +0000",
-      "source": "Al Jazeera",
-      "summary": "Saudi football federation says it supports Infantino's ​'efforts' as he garners support to remain in power as president."
-    },
-    {
-      "title": "After Whiskey With His Captors, Cuban Dissident Lands in a Miami Maelstrom",
-      "link": "https://www.nytimes.com/2026/08/27/world/americas/cuba-exile-otero-alcantara.html",
-      "pubDate": "Thu, 27 Aug 2026 13:09:09 +0000",
+      "title": "Greenlandic Women Will Finally Get Money for Forced Contraception",
+      "link": "https://www.nytimes.com/2026/08/27/world/europe/denmark-greenland-forced-contraception-compensation.html",
+      "pubDate": "Thu, 27 Aug 2026 16:39:47 +0000",
       "source": "NYT World",
-      "summary": "The former political prisoner Luis Manuel Otero Alcántara is unpacking 4,000 paintings he brought to Miami from Cuba and dodging criticism from exiles who once welcomed him."
-    },
-    {
-      "title": "Bosnian Serb general and convicted war criminal Ratko Mladic dies",
-      "link": "https://www.aljazeera.com/news/2026/8/27/bosnian-serb-general-ratko-mladic-has-died-un-official-says?traffic_source=rss",
-      "pubDate": "Thu, 27 Aug 2026 13:02:53 +0000",
-      "source": "Al Jazeera",
-      "summary": "Reports say 'butcher of Bosnia' died in a UN prison hospital in The Hague, Netherlands."
-    },
-    {
-      "title": "Russia warns it could target UK in response to Kyiv firing British missiles",
-      "link": "https://www.aljazeera.com/news/2026/8/27/russia-warns-it-could-target-uk-in-response-to-kyiv-firing-british-missiles?traffic_source=rss",
-      "pubDate": "Thu, 27 Aug 2026 12:58:11 +0000",
-      "source": "Al Jazeera",
-      "summary": "Foreign ministry warns against 'terrorism' of firing long-range British cruise missiles at targets in Russia."
-    },
-    {
-      "title": "Sri Lanka salvage draw in second Test after battling Dinusha denies India",
-      "link": "https://www.aljazeera.com/sports/2026/8/27/sri-lanka-salvage-draw-in-second-test-after-battling-dinusha-denies-india?traffic_source=rss",
-      "pubDate": "Thu, 27 Aug 2026 12:55:55 +0000",
-      "source": "Al Jazeera",
-      "summary": "Dinusha's 133 not out, his second century of the match and third in four innings, helps the hosts avoid defeat."
-    },
-    {
-      "title": "Saudi Response to Houthis’ Attacks on Ships May Be a New War",
-      "link": "https://www.nytimes.com/2026/08/27/world/middleeast/saudi-arabia-yemen-houthis-war.html",
-      "pubDate": "Thu, 27 Aug 2026 11:59:43 +0000",
-      "source": "NYT World",
-      "summary": "Analysts say that weeks of Houthi attacks on Saudi targets have brought the kingdom and the Iranian-backed militia to the brink of full-blown conflict, and could open a new front in the Iran war."
+      "summary": "For decades, Denmark implanted intrauterine devices in women in Greenland in an effort to keep down the island’s population. On Thursday, the government passed a compensation bill."
     },
     {
       "title": "Russian Sanctions Are Fueling a Canadian Car Theft Epidemic",
@@ -553,20 +575,6 @@
       "pubDate": "Thu, 27 Aug 2026 11:38:20 +0000",
       "source": "NYT World",
       "summary": "Russia is the largest destination for stolen Canadian cars. Smugglers are meeting the demand of a booming black market."
-    },
-    {
-      "title": "Man who attacked nun on CCTV in Jerusalem acquitted on grounds of mental health",
-      "link": "https://www.bbc.co.uk/news/articles/cpwl54kddeko?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Thu, 27 Aug 2026 11:23:28 GMT",
-      "source": "BBC",
-      "summary": "A Jerusalem court said the Jewish attacker was having a psychotic episode when he assaulted the nun, in an incident which caused outrage."
-    },
-    {
-      "title": "Norway's royal family gathers at King Harald's bedside as his condition worsens",
-      "link": "https://www.bbc.co.uk/news/articles/cqxvrnvrr5do?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Thu, 27 Aug 2026 11:20:49 GMT",
-      "source": "BBC",
-      "summary": "The 89-year-old has been in hospital for over a week receiving treatment for a rare blood condition."
     },
     {
       "title": "Where Drones Cannot See, the Ukraine War Is a Deadly Game of Cat and Mouse",
@@ -583,13 +591,6 @@
       "summary": "The Trump administration claimed Iris Dayana Monterroso Lemus received “FULL medical, prenatal care” in ICE custody.\nThe post Trump Admin Said She Was Lying About Stillbirth in ICE Custody. New Evidence Points to Lack of Prenatal Care. appeared first"
     },
     {
-      "title": "What we know about deadly Nepal-Tibet floods",
-      "link": "https://www.bbc.co.uk/news/articles/cd948kn02e5o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Thu, 27 Aug 2026 09:55:02 GMT",
-      "source": "BBC",
-      "summary": "Hundreds have died in flooding and landslides on the border of Nepal and Tibet."
-    },
-    {
       "title": "Collapsed glacier likely caused devastating Nepal-Tibet floods, scientists say",
       "link": "https://www.bbc.co.uk/news/articles/cly464k252yo?at_medium=RSS&at_campaign=rss",
       "pubDate": "Thu, 27 Aug 2026 09:50:10 GMT",
@@ -597,11 +598,11 @@
       "summary": "Preliminary investigations by scientists have pointed to a collapsed glacier as the cause, highlighting the issue of rapidly melting Himalayan ice."
     },
     {
-      "title": "A Giant “Grandmother” Tree Sparked a New Struggle to Block Trump’s Border Wall",
+      "title": "A New Tree-Sit Movement to Block Trump’s Border Wall",
       "link": "https://theintercept.com/2026/08/27/trump-us-mexico-border-wall-tree-sit-arizona/",
       "pubDate": "Thu, 27 Aug 2026 09:00:00 +0000",
       "source": "The Intercept",
-      "summary": "A single tree sit harnessed a cross-border movement to defend the Arizona borderland ecology. So far, the activists are blocking Trump’s wall.\nThe post A Giant “Grandmother” Tree Sparked a New Struggle to Block Trump’s Border Wall appeared first on T"
+      "summary": "A single tree sit grew into a cross-border continuous protest to defend the Arizona borderland ecology. So far, activists are succeeding.\nThe post A New Tree-Sit Movement to Block Trump’s Border Wall appeared first on The Intercept."
     },
     {
       "title": "Palestinians Asked for Help Against Settlers. Israelis Detained Palestinian Workers Instead.",
@@ -616,13 +617,6 @@
       "pubDate": "Wed, 26 Aug 2026 10:00:00 +0000",
       "source": "The Intercept",
       "summary": "Humans need to act, as AI agents scheme in the digital shadows.\nThe post It’s Time to Rein in Lethal AI Drones appeared first on The Intercept."
-    },
-    {
-      "title": "Conservative Groups Side With Minneapolis Protesters Against Trump Crackdown",
-      "link": "https://theintercept.com/2026/08/25/minneapolis-ice-protesters-undercover-agents/",
-      "pubDate": "Tue, 25 Aug 2026 20:10:42 +0000",
-      "source": "The Intercept",
-      "summary": "Right-leaning and libertarian groups told the court that ICE engaged in illegal “ideological targeting” of the left in the Minneapolis 15 case.\nThe post Conservative Groups Side With Minneapolis Protesters Against Trump Crackdown appeared first on Th"
     },
     {
       "title": "Tracking a Sanctioned Russian Vessel’s West African Odyssey",
@@ -727,36 +721,60 @@
   ],
   "syndicate_journal": [
     {
+      "title": "This Is What Happens When 1,000 People Bury Their Underwear for Science",
+      "link": "https://nautil.us/this-is-what-happens-when-1000-people-bury-their-underwear-for-science-1284574/",
+      "summary": "Talk about getting to the bottom of things\nThe post This Is What Happens When 1,000 People Bury Their Underwear for Science appeared first on Nautilus.",
+      "pubDate": "Thu, 27 Aug 2026 22:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "Fact-Checking the Biohackers Who Claim Metformin is an Anti-Aging Wonder Drug",
+      "link": "https://nautil.us/fact-checking-the-biohackers-who-claim-metformin-is-an-anti-aging-wonder-drug-1284568/",
+      "summary": "What the science says about their DIY one-person clinical trials\nThe post Fact-Checking the Biohackers Who Claim Metformin is an Anti-Aging Wonder Drug appeared first on Nautilus.",
+      "pubDate": "Thu, 27 Aug 2026 21:01:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "In Photos: The Sea Creatures Lurking Off the Shores of Nantucket",
+      "link": "https://nautil.us/in-photos-the-sea-creatures-lurking-off-the-shores-of-nantucket-1284552/",
+      "summary": "An aerial survey captures images of marine megafauna aplenty in the Atlantic Ocean near the coast of Massachusetts\nThe post In Photos: The Sea Creatures Lurking Off the Shores of Nantucket appeared first on Nautilus.",
+      "pubDate": "Thu, 27 Aug 2026 20:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "Mike Rogers Pushed for War With Iran for Two Decades",
+      "link": "",
+      "summary": "It’s not a secret that Mike Rogers supports the Iran war. Since Donald Trump launched the war six months ago, the Michigan Republican candidate for Senate  Iran “an imminent threat to our country” that “must not have a nuclear weapon,”  the war was “absolutely right” and “a win-win-win for us,”  “we",
+      "pubDate": "2026-08-27T17:00:29.437Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "The Fight Over Data Centers Is Dividing the Labor Movement",
+      "link": "",
+      "summary": "Several weeks ago, Jason Kelce (football player, podcaster, Taylor Swift’s brother-in-law) starred in an  asking Americans to pee in jars and send them to their nearest artificial intelligence data center. The spot — a collaboration between Liquid Death and Kelce’s own Garage Beer — was nominally ab",
+      "pubDate": "2026-08-27T14:58:11.005Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "The United Auto Workers Are Voting for Their Top Leadership",
+      "link": "",
+      "summary": "United Auto Workers (UAW) members are voting by mail ballot for their top officers, for the second time in the union’s ninety-one years. Ballots went out August 21 and are due back by October 5.\nThe contest will decide whether President Shawn Fain, who became famous for leading 2023’s “” against the",
+      "pubDate": "2026-08-27T14:17:05.611Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
       "title": "Back to School",
       "link": "https://daily.jstor.org/editors-picks-back-school/",
       "summary": "Stories from JSTOR Daily about education, libraries, learning, and student life.\nThe post Back to School appeared first on JSTOR Daily.",
       "pubDate": "Thu, 27 Aug 2026 13:37:29 +0000",
       "domain": "history",
       "source": "JSTOR Daily"
-    },
-    {
-      "title": "Democrats Are Losing the Billionaire Primary",
-      "link": "",
-      "summary": "Democrats enter this year’s midterms with a host of political advantages: a deeply  Republican president, a faltering , and a  base. But Republicans hold a clear edge in at least one crucial area. With Election Day less than three months out, fundraising data shows the GOP with vastly  on hand. That",
-      "pubDate": "2026-08-27T13:13:52.448Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
-      "title": "Italian Rapper Caparezza Has Voted Communist All His Life",
-      "link": "",
-      "summary": "Over the last two decades, Caparezza has been one of the most original voices in Italian music. A constantly evolving rapper, he has a vast and loyal audience who have followed him through ever-changing concept albums mixing languages, musical genres, and imagery. His most recent album, , released l",
-      "pubDate": "2026-08-27T12:48:02.278Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
-      "title": "NASA Has Begun the Countdown to the Launch of the Nancy Grace Roman Space Telescope",
-      "link": "https://nautil.us/nasa-is-counting-down-to-the-launch-of-the-nancy-grace-roman-space-telescope-1284513/",
-      "summary": "The new space telescope will help astronomers unravel the mysteries of the universe\nThe post NASA Has Begun the Countdown to the Launch of the Nancy Grace Roman Space Telescope appeared first on Nautilus.",
-      "pubDate": "Thu, 27 Aug 2026 12:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
     },
     {
       "title": "RENDER: Controlling Reader-Facing Evidence in LLM Memory Evaluation",
@@ -781,30 +799,6 @@
       "pubDate": "Thu, 27 Aug 2026 00:00:00 -0400",
       "domain": "science",
       "source": "arXiv: cs.AI"
-    },
-    {
-      "title": "Tim Curry Was Never Not Having Fun",
-      "link": "",
-      "summary": "It’s our miserable fate to lose Dolly Parton and Tim Curry in a one-two punch at the end of summer 2026. Both died at eighty years old, and it seems damned unfair that both didn’t live to be 120 and die mid-performance, which was Parton’s stated goal.\nWhat unites Parton and Curry is their joy. Two h",
-      "pubDate": "2026-08-26T21:41:07.979Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
-      "title": "The Kitchen of the Realm: Even the Commoners Ate Well in Ancient Osaka",
-      "link": "https://nautil.us/the-kitchen-of-the-realm-even-the-commoners-ate-well-in-ancient-osaka-1284509/",
-      "summary": "But their dental hygiene may leave something to be desired\nThe post The Kitchen of the Realm: Even the Commoners Ate Well in Ancient Osaka appeared first on Nautilus.",
-      "pubDate": "Wed, 26 Aug 2026 21:30:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
-      "title": "How We Decide Who Deserves Our Help",
-      "link": "https://nautil.us/how-we-decide-who-deserves-our-help-1284505/",
-      "summary": "Cooperation is a double-edged sword\nThe post How We Decide Who Deserves Our Help appeared first on Nautilus.",
-      "pubDate": "Wed, 26 Aug 2026 20:30:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
     },
     {
       "title": "In Hilbert Space, All Things Are Quantumly Possible",
@@ -999,9 +993,9 @@
       "source": "Frontiers Psychology"
     },
     {
-      "title": "Contact, agency, and haptic experience in sport: a conceptual analysis of embodied skill, interpersonal touch, and digital mediation",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1914946",
-      "summary": "Sport is often analyzed through visual, physiological, or cognitive models, yet athletes also act through pressure, flow, friction, rebound, thermal change, bodily guidance, proximity, and vibration. These phenomena are usually examined separately in research on perceptual skill, coaching and safegu",
+      "title": "From perceived typicality of in-vehicle stylistic cues to autonomous vehicle acceptance: the roles of perceived behavioral control and trust",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1917454",
+      "summary": "IntroductionAlthough autonomous driving technology has advanced, limited public acceptance remains a major barrier. Moving beyond studies focused on isolated design domains, this study examined whether the perceived typicality of stylistic cues across automated driving behavior, vehicle interior des",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
@@ -1017,64 +1011,64 @@
   ],
   "misinfo_toilet": [
     {
-      "headline": "Norway's royal family gathers at King Harald's bedside as his condition worsens",
-      "fragment": "Pretending, or dissimulating, leaves the principle of reality intact: the difference is always clear, it is simply masked.",
-      "splice": "Norway's royal family gathers at King Harald's bedside as his condition worsens insofar as pretending, or dissimulating, leaves the principle of reality intact: the difference is always clear, it is simply masked.",
-      "seed": 20260840
+      "headline": "Where Drones Cannot See, the Ukraine War Is a Deadly Game of Cat and Mouse",
+      "fragment": "An ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
+      "splice": "Where Drones Cannot See, the Ukraine War Is a Deadly Game of Cat and Mouse while an ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
+      "seed": 20260828
     },
     {
-      "headline": "Bosnian Serb general and convicted war criminal Ratko Mladic dies",
-      "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
-      "splice": "Bosnian Serb general and convicted war criminal Ratko Mladic dies underneath the revolutionary lives in the gap which separates technical progress from social totality.",
-      "seed": 20260841
+      "headline": "Convicted Bosnian Serb war criminal Mladić dies aged 84",
+      "fragment": "The technocrat is the natural friend of the dictator—computers and dictatorship.",
+      "splice": "Convicted Bosnian Serb war criminal Mladić dies aged 84 insofar as the technocrat is the natural friend of the dictator—computers and dictatorship.",
+      "seed": 20260829
     },
     {
-      "headline": "Conservative Groups Side With Minneapolis Protesters Against Trump Crackdown",
-      "fragment": "Antagonism is not now located externally, in the face-off between class blocs, but internally, in the psychology of the worker.",
-      "splice": "Conservative Groups Side With Minneapolis Protesters Against Trump Crackdown within which antagonism is not now located externally, in the face-off between class blocs, but internally, in the psychology of the worker.",
-      "seed": 20260842
+      "headline": "Welcome to Dubai: Kinahan Cartel’s Visas Revealed",
+      "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
+      "splice": "Welcome to Dubai: Kinahan Cartel’s Visas Revealed consequently it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
+      "seed": 20260830
+    },
+    {
+      "headline": "Tracking a Sanctioned Russian Vessel’s West African Odyssey",
+      "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
+      "splice": "Tracking a Sanctioned Russian Vessel’s West African Odyssey not unlike it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
+      "seed": 20260831
+    },
+    {
+      "headline": "“They Want People Scared”: Former Palestine Action Member Blasts Trump’s Terror Sanctions",
+      "fragment": "It is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
+      "splice": "“They Want People Scared”: Former Palestine Action Member Blasts Trump’s Terror Sanctions despite it is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
+      "seed": 20260832
+    },
+    {
+      "headline": "Trump Admin Said She Was Lying About Stillbirth in ICE Custody. New Evidence Points to Lack of Prenatal Care.",
+      "fragment": "The privatization of the organs will only begin with the shame felt by man at the sight of man.",
+      "splice": "Trump Admin Said She Was Lying About Stillbirth in ICE Custody. New Evidence Points to Lack of Prenatal Care. therefore the privatization of the organs will only begin with the shame felt by man at the sight of man.",
+      "seed": 20260833
+    },
+    {
+      "headline": "Satellite Imagery Documents New Border Patrol Road Construction in Big Bend National Park",
+      "fragment": "Traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
+      "splice": "Satellite Imagery Documents New Border Patrol Road Construction in Big Bend National Park ...as traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
+      "seed": 20260834
     },
     {
       "headline": "Palestinians Asked for Help Against Settlers. Israelis Detained Palestinian Workers Instead.",
-      "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
-      "splice": "Palestinians Asked for Help Against Settlers. Israelis Detained Palestinian Workers Instead. the system notes that the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
-      "seed": 20260843
-    },
-    {
-      "headline": "Saudi Response to Houthis’ Attacks on Ships May Be a New War",
-      "fragment": "Underneath all reason lies delirium and drift.",
-      "splice": "Saudi Response to Houthis’ Attacks on Ships May Be a New War consequently underneath all reason lies delirium and drift.",
-      "seed": 20260844
-    },
-    {
-      "headline": "It’s Time to Rein in Lethal AI Drones",
-      "fragment": "Everywhere it is machines—real ones, not figurative ones: machines driving other machines, machines being driven by other machines, with all the necessary couplings and connections.",
-      "splice": "It’s Time to Rein in Lethal AI Drones as if everywhere it is machines—real ones, not figurative ones: machines driving other machines, machines being driven by other machines, with all the necessary couplings and connections.",
-      "seed": 20260845
-    },
-    {
-      "headline": "Collapsed glacier likely caused devastating Nepal-Tibet floods, scientists say",
-      "fragment": "Simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
-      "splice": "Collapsed glacier likely caused devastating Nepal-Tibet floods, scientists say underneath simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
-      "seed": 20260846
-    },
-    {
-      "headline": "Russia warns it could target UK in response to Kyiv firing British missiles",
-      "fragment": "If it is true, for instance, that depression is caused by low serotonin levels, it would still be necessary to explain why particular individuals have low serotonin levels.",
-      "splice": "Russia warns it could target UK in response to Kyiv firing British missiles meanwhile if it is true, for instance, that depression is caused by low serotonin levels, it would still be necessary to explain why particular individuals have low serotonin levels.",
-      "seed": 20260847
-    },
-    {
-      "headline": "Live Updates: Helicopters Rescue Nepal Flood Survivors, With More Than 1,000 Still Missing",
-      "fragment": "The privatization of the organs will only begin with the shame felt by man at the sight of man.",
-      "splice": "Live Updates: Helicopters Rescue Nepal Flood Survivors, With More Than 1,000 Still Missing the system notes that the privatization of the organs will only begin with the shame felt by man at the sight of man.",
-      "seed": 20260848
-    },
-    {
-      "headline": "A Giant “Grandmother” Tree Sparked a New Struggle to Block Trump’s Border Wall",
       "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
-      "splice": "A Giant “Grandmother” Tree Sparked a New Struggle to Block Trump’s Border Wall consequently the revolutionary lives in the gap which separates technical progress from social totality.",
-      "seed": 20260849
+      "splice": "Palestinians Asked for Help Against Settlers. Israelis Detained Palestinian Workers Instead. insofar as the revolutionary lives in the gap which separates technical progress from social totality.",
+      "seed": 20260835
+    },
+    {
+      "headline": "Live Updates: Rescuers Search for Missing and Stranded Under Threat of More Floods",
+      "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "splice": "Live Updates: Rescuers Search for Missing and Stranded Under Threat of More Floods which is to say the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "seed": 20260836
+    },
+    {
+      "headline": "US charges 81 in Puerto Rico gang case, as Trump cartel crackdown continues",
+      "fragment": "The truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
+      "splice": "US charges 81 in Puerto Rico gang case, as Trump cartel crackdown continues underneath the truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
+      "seed": 20260837
     }
   ]
 }
