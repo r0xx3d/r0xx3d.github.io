@@ -1,7 +1,37 @@
 {
-  "generated_at": "2026-08-31T13:04:26.685Z",
+  "generated_at": "2026-08-31T20:42:22.557Z",
   "threat_intel": {
     "cisa_kev": [
+      {
+        "cveID": "CVE-2026-82078",
+        "vendorProject": "PaperCut",
+        "product": "NG/MF",
+        "vulnerabilityName": "PaperCut NG/MF Unsafe Reflection Vulnerability",
+        "dateAdded": "2026-08-31",
+        "shortDescription": "PaperCut NG/MF contains an unsafe reflection vulnerability that allows an attacker to manipulate system configuration parameters and execute arbitrary Java bytecode residing on the application classpath under the security context of the PaperCut server process. This vulnerability can be chained with CVE-2026-81578.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-09-14",
+        "knownRansomwareCampaignUse": "Unknown",
+        "notes": "https://www.papercut.com/kb/Main/security-bulletin-27-aug-2026-urgent-security-advisory/?lid=2oneu2wt0ct4 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-82078",
+        "cwes": [
+          "CWE-470"
+        ]
+      },
+      {
+        "cveID": "CVE-2026-81578",
+        "vendorProject": "PaperCut",
+        "product": "NG/MF",
+        "vulnerabilityName": "PaperCut NG/MF Missing Authentication for Critical Function Vulnerability",
+        "dateAdded": "2026-08-31",
+        "shortDescription": "PaperCut NG/MF contains a missing authentication for critical function vulnerability which allows an unauthenticated remote attacker to modify certain system configurations. This vulnerability can be chained with CVE-2026-82078.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-09-14",
+        "knownRansomwareCampaignUse": "Unknown",
+        "notes": "https://www.papercut.com/kb/Main/security-bulletin-27-aug-2026-urgent-security-advisory/ ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-81578",
+        "cwes": [
+          "CWE-306"
+        ]
+      },
       {
         "cveID": "CVE-2023-49105",
         "vendorProject": "ownCloud",
@@ -188,55 +218,39 @@
         "cwes": [
           "CWE-94"
         ]
-      },
-      {
-        "cveID": "CVE-2026-72529",
-        "vendorProject": "TrueConf",
-        "product": "Server",
-        "vulnerabilityName": "TrueConf Server Missing Authentication for Critical Function Vulnerability",
-        "dateAdded": "2026-08-20",
-        "shortDescription": "TrueConf Server contains a missing authentication for critical function vulnerability which could allow a remote unauthorized attacker with network access via port 4307/TCP to execute an arbitrary script.",
-        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "dueDate": "2026-08-23",
-        "knownRansomwareCampaignUse": "Unknown",
-        "notes": "https://trueconf.com/blog/news/security-fixes-updates-and-advisories ; https://ics-cert.kaspersky.com/advisories/2026/08/11/trueconf-server-missing-authentication-for-critical-function/ ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-72529",
-        "cwes": [
-          "CWE-306"
-        ]
-      },
-      {
-        "cveID": "CVE-2026-64849",
-        "vendorProject": "MLflow",
-        "product": "MLflow",
-        "vulnerabilityName": "MLflow Server-Side Request Forgery Vulnerability",
-        "dateAdded": "2026-08-19",
-        "shortDescription": "MLflow contains a server-side request forgery vulnerability that can allow attackers to reach internal or cloud metadata services and receive response_status and response_body.",
-        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "dueDate": "2026-09-02",
-        "knownRansomwareCampaignUse": "Unknown",
-        "notes": "https://github.com/mlflow/mlflow/pull/24258 ; https://github.com/mlflow/mlflow/issues/24179 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-64849",
-        "cwes": [
-          "CWE-918"
-        ]
       }
     ],
     "urlhaus": [
       {
-        "id": "3910520",
-        "date_added": "2026-08-31 12:59:24",
-        "url": "http://124.94.244.212:33038/Mozi.a",
-        "url_status": "offline",
+        "id": "3910613",
+        "date_added": "2026-08-31 20:31:19",
+        "url": "http://36.251.0.14:33623/bin.sh",
+        "url_status": "online",
         "threat": "malware_download",
         "tags": [
+          "32-bit",
+          "arm",
           "elf",
-          "iot",
           "Mozi"
         ]
       },
       {
-        "id": "3910519",
-        "date_added": "2026-08-31 12:54:18",
-        "url": "http://196.188.135.20:48063/i",
+        "id": "3910612",
+        "date_added": "2026-08-31 20:31:18",
+        "url": "http://42.224.123.140:48397/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3910611",
+        "date_added": "2026-08-31 19:46:18",
+        "url": "http://110.186.228.150:48917/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -248,9 +262,9 @@
         ]
       },
       {
-        "id": "3910518",
-        "date_added": "2026-08-31 12:46:12",
-        "url": "http://103.203.210.102:46614/i",
+        "id": "3910610",
+        "date_added": "2026-08-31 19:35:27",
+        "url": "http://42.224.148.91:42007/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -261,23 +275,9 @@
         ]
       },
       {
-        "id": "3910517",
-        "date_added": "2026-08-31 12:44:24",
-        "url": "http://196.188.135.20:48063/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "arm",
-          "elf",
-          "mirai",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3910516",
-        "date_added": "2026-08-31 12:34:13",
-        "url": "http://175.148.87.144:40832/i",
+        "id": "3910609",
+        "date_added": "2026-08-31 19:07:22",
+        "url": "http://119.115.36.109:51030/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -288,9 +288,9 @@
         ]
       },
       {
-        "id": "3910515",
-        "date_added": "2026-08-31 12:13:17",
-        "url": "http://175.148.87.144:40832/bin.sh",
+        "id": "3910608",
+        "date_added": "2026-08-31 18:15:28",
+        "url": "http://59.97.253.172:56845/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -301,95 +301,31 @@
         ]
       },
       {
-        "id": "3910514",
-        "date_added": "2026-08-31 11:51:08",
-        "url": "http://115.49.248.199:52384/i",
+        "id": "3910607",
+        "date_added": "2026-08-31 17:59:17",
+        "url": "https://38.54.37.216/main.exe",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "Mozi"
+          "38-54-37-216",
+          "exe",
+          "ua-wget"
         ]
       },
       {
-        "id": "3910513",
-        "date_added": "2026-08-31 11:36:19",
-        "url": "http://42.7.222.97:33110/bin.sh",
+        "id": "3910606",
+        "date_added": "2026-08-31 17:58:33",
+        "url": "http://64.89.163.22/test.elf",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
+          "elf"
         ]
       },
       {
-        "id": "3910512",
-        "date_added": "2026-08-31 11:30:08",
-        "url": "http://94.183.174.77/juan.apk",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "apk ",
-          "mirai"
-        ]
-      },
-      {
-        "id": "3910511",
-        "date_added": "2026-08-31 11:28:17",
-        "url": "http://119.114.107.134:40959/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3910510",
-        "date_added": "2026-08-31 11:04:22",
-        "url": "http://222.137.22.49:45468/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3910509",
-        "date_added": "2026-08-31 10:59:09",
-        "url": "http://182.116.113.244:34641/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3910507",
-        "date_added": "2026-08-31 10:53:09",
-        "url": "https://hotelmate.asia/wp-includes/theme-compat/xmorule/qapwsbu/nwshuf1/UWcrypted.ps1",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "ascii",
-          "opendir",
-          "powershell",
-          "ps1"
-        ]
-      },
-      {
-        "id": "3910508",
-        "date_added": "2026-08-31 10:53:09",
-        "url": "http://91.92.242.236/files-129312398/files/file_01625d1c89de2be0.exe",
+        "id": "3910605",
+        "date_added": "2026-08-31 17:55:13",
+        "url": "http://91.92.242.236/files-129312398/files/file_37d17c54c9f9f26a.exe",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -398,48 +334,9 @@
         ]
       },
       {
-        "id": "3910505",
-        "date_added": "2026-08-31 10:53:08",
-        "url": "https://hotelmate.asia/wp-includes/theme-compat/xmorule/qapwsbu/nwshuf1/KMcrypted.ps1",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "ascii",
-          "opendir",
-          "powershell",
-          "ps1"
-        ]
-      },
-      {
-        "id": "3910506",
-        "date_added": "2026-08-31 10:53:08",
-        "url": "https://hotelmate.asia/wp-includes/theme-compat/xmorule/qapwsbu/nwshuf1/millscrypted.ps1",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "ascii",
-          "opendir",
-          "powershell",
-          "ps1"
-        ]
-      },
-      {
-        "id": "3910504",
-        "date_added": "2026-08-31 10:51:10",
-        "url": "https://hotelmate.asia/wp-includes/theme-compat/xmorule/qapwsbu/nwshuf1/crypted.ps1",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "ascii",
-          "Formbook",
-          "powershell",
-          "ps1"
-        ]
-      },
-      {
-        "id": "3910503",
-        "date_added": "2026-08-31 10:49:25",
-        "url": "http://123.14.85.245:47055/bin.sh",
+        "id": "3910604",
+        "date_added": "2026-08-31 17:49:22",
+        "url": "http://60.18.56.204:38296/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -450,129 +347,236 @@
         ]
       },
       {
-        "id": "3910502",
-        "date_added": "2026-08-31 10:26:10",
-        "url": "http://120.28.218.170:57492/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "mirai"
-        ]
-      },
-      {
-        "id": "3910501",
-        "date_added": "2026-08-31 10:09:26",
-        "url": "http://154.223.128.215:42469/i",
-        "url_status": "online",
+        "id": "3910603",
+        "date_added": "2026-08-31 17:46:18",
+        "url": "http://59.97.253.172:56845/bin.sh",
+        "url_status": "offline",
         "threat": "malware_download",
         "tags": [
           "32-bit",
-          "arm",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3910602",
+        "date_added": "2026-08-31 17:45:08",
+        "url": "https://192.253.248.52/dl",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "192-253-248-52",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3910601",
+        "date_added": "2026-08-31 17:44:07",
+        "url": "https://192.253.248.52/get",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "192-253-248-52",
+          "NetSupport",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3910600",
+        "date_added": "2026-08-31 17:42:17",
+        "url": "http://185.242.3.87/w3.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "185-242-3-87",
+          "sh",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3910599",
+        "date_added": "2026-08-31 17:42:16",
+        "url": "http://185.242.3.87/run.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "185-242-3-87",
+          "sh",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3910597",
+        "date_added": "2026-08-31 17:41:14",
+        "url": "http://185.242.3.87/check3.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "185-242-3-87",
+          "sh",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3910598",
+        "date_added": "2026-08-31 17:41:14",
+        "url": "http://185.242.3.87/softwaretech",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "185-242-3-87",
           "elf",
           "mirai",
-          "Mozi"
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3910596",
+        "date_added": "2026-08-31 17:39:23",
+        "url": "http://64.89.163.22/9c.elf",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "64-89-163-22",
+          "elf",
+          "Mettle",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3910594",
+        "date_added": "2026-08-31 17:39:18",
+        "url": "http://64.89.163.22/auto.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "64-89-163-22",
+          "Mettle",
+          "sh",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3910595",
+        "date_added": "2026-08-31 17:39:18",
+        "url": "http://64.89.163.22/test.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "64-89-163-22",
+          "Mettle",
+          "sh",
+          "ua-wget"
         ]
       }
     ]
   },
   "world_monitor": [
     {
+      "title": "Israel and Greece Reach $3.5 Billion Defense Deal",
+      "link": "https://www.nytimes.com/2026/08/31/world/middleeast/israel-greece-defense-deal.html",
+      "pubDate": "Mon, 31 Aug 2026 20:25:59 +0000",
+      "source": "NYT World",
+      "summary": "Despite the growing diplomatic isolation of the government, the agreement makes clear that the Israeli defense industry is still finding considerable demand abroad."
+    },
+    {
+      "title": "How will the Mecca agreement become an operational framework?",
+      "link": "https://www.aljazeera.com/video/inside-story/2026/8/31/how-will-the-mecca-agreement-become-an-operational-framework?traffic_source=rss",
+      "pubDate": "Mon, 31 Aug 2026 20:13:18 +0000",
+      "source": "Al Jazeera",
+      "summary": "Officials from Turkiye, Saudi Arabia and Pakistan meet to discuss implementing the pact."
+    },
+    {
+      "title": "Ukrainians mourn community leader killed in Russian strike on Myla",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/31/ukrainians-mourn-community-leader-killed-in-russian-strike-on-myla?traffic_source=rss",
+      "pubDate": "Mon, 31 Aug 2026 19:51:46 +0000",
+      "source": "Al Jazeera",
+      "summary": "Ukrainians gathered to mourn Taras Didych, who was killed while rushing to help after a Russian strike."
+    },
+    {
+      "title": "GTA 6: Why is the world’s most anticipated game facing backlash?",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/31/gta-6-why-is-the-worlds-most-anticipated-game-facing-backlash-2?traffic_source=rss",
+      "pubDate": "Mon, 31 Aug 2026 19:44:20 +0000",
+      "source": "Al Jazeera",
+      "summary": "You paid for it. But do you actually own it? GTA 6 is exposing a bigger battle over the future of gaming."
+    },
+    {
+      "title": "What to know: US court hearing held for alleged Lockerbie bombmaker",
+      "link": "https://www.aljazeera.com/news/2026/8/31/what-to-know-us-court-hearing-held-for-alleged-lockerbie-bombmaker?traffic_source=rss",
+      "pubDate": "Mon, 31 Aug 2026 19:41:33 +0000",
+      "source": "Al Jazeera",
+      "summary": "Abu Agila Mohammad Mas’ud Kheir Al-Marimi is the third person charged in the downing of Pan Am Flight 103."
+    },
+    {
+      "title": "Far-right Israeli Minister Ben-Gvir and settlers storm Al-Aqsa Mosque",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/31/far-right-israeli-minister-ben-gvir-and-settlers-storm-al-aqsa-mosque?traffic_source=rss",
+      "pubDate": "Mon, 31 Aug 2026 19:30:46 +0000",
+      "source": "Al Jazeera",
+      "summary": "Israeli Minister Ben-Gvir storms Al-Aqsa Mosque compound with settlers, violating decades-old status quo arrangement."
+    },
+    {
+      "title": "For Nepal’s Young Leader, Flood Recovery Will Be a Herculean Task",
+      "link": "https://www.nytimes.com/2026/08/31/world/asia/nepal-floods-balen-shah-gen-z.html",
+      "pubDate": "Mon, 31 Aug 2026 18:44:21 +0000",
+      "source": "NYT World",
+      "summary": "Prime Minister Balendra Shah, 36, rose to power this year on the back of youth anger with graft and mismanagement. His fledgling government now faces a huge test."
+    },
+    {
+      "title": "US singer D4vd's celebrity lawyers withdraw from murder case",
+      "link": "https://www.bbc.co.uk/news/articles/crr451lpl4no?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Mon, 31 Aug 2026 17:54:23 GMT",
+      "source": "BBC",
+      "summary": "The singer, 21, will be now represented by a public defender in the murder trial of 14-year-old Celeste Rivas Hernandez. He has pleaded not guilty."
+    },
+    {
+      "title": "‘The Nest of Snakes’: Warring Cartels Target Women in Mexico",
+      "link": "https://www.nytimes.com/2026/08/31/world/americas/warring-cartels-target-women-in-mexico.html",
+      "pubDate": "Mon, 31 Aug 2026 17:52:03 +0000",
+      "source": "NYT World",
+      "summary": "A two-year war between rival Sinaloa Cartel factions is driving a surge in killings and disappearances targeting women."
+    },
+    {
+      "title": "Nepal rescuers blast hillside in search of hydropower workers as families wait anxiously",
+      "link": "https://www.bbc.co.uk/news/articles/c5ylvgq9q71o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Mon, 31 Aug 2026 17:30:47 GMT",
+      "source": "BBC",
+      "summary": "Rescuers have resorted to explosives as they struggle to reach trapped workers, as the flooding death toll reaches 939."
+    },
+    {
+      "title": "Nonstop Russian Drones Make for Dangerous New Phase of War in Kyiv",
+      "link": "https://www.nytimes.com/2026/08/31/world/europe/ukraine-kyiv-drones-russia-sirens.html",
+      "pubDate": "Mon, 31 Aug 2026 15:42:20 +0000",
+      "source": "NYT World",
+      "summary": "The nearly constant air raids, a shift from years of largely overnight attacks, have left residents exhausted and on edge."
+    },
+    {
+      "title": "'She slipped out of my hand' - children missing after ferry sinks off northern Cyprus",
+      "link": "https://www.bbc.co.uk/news/articles/c1mv5ggg1l8o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Mon, 31 Aug 2026 14:50:36 GMT",
+      "source": "BBC",
+      "summary": "Ayten and Hayri Bicer's two young children are among 20 missing in an incident that killed eight people."
+    },
+    {
+      "title": "US and Iran trade strikes for first time in weeks",
+      "link": "https://www.bbc.co.uk/news/articles/cx2z72x5z1po?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Mon, 31 Aug 2026 13:47:30 GMT",
+      "source": "BBC",
+      "summary": "The attack on Larak Island in the Strait of Hormuz - the first known US strike since late July - has killed two people and injured two others."
+    },
+    {
+      "title": "Man arrested after Swiss rave shooting that killed woman",
+      "link": "https://www.bbc.co.uk/news/articles/cddv92n194vo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Mon, 31 Aug 2026 13:11:35 GMT",
+      "source": "BBC",
+      "summary": "A 22-year-old Italian woman was killed and several injured at a techno rave in Aarau."
+    },
+    {
       "title": "Investigating a Murder: Public Records Uncover New Clues in Chinatown Cold Case",
       "link": "https://www.bellingcat.com/news/us-canada/2026/08/31/investigating-a-murder-public-records-uncover-new-clues-in-chinatown-cold-case/",
       "pubDate": "Mon, 31 Aug 2026 12:58:31 +0000",
       "source": "Bellingcat",
       "summary": "Sign up here to receive Bellingcat’s biggest investigations by email as soon as they are published. On a June night in 1996, in a basement apartment in Boston’s Chinatown, a killer put a pistol to the back of a young man’s head and pulled the trigger"
-    },
-    {
-      "title": "Spanish Leader Says 5,000 Migrants Are Still in Ceuta, Weeks After Border Surge",
-      "link": "https://www.nytimes.com/2026/08/31/world/europe/ceuta-migrants-pedro-sanchez-north-africa.html",
-      "pubDate": "Mon, 31 Aug 2026 12:23:59 +0000",
-      "source": "NYT World",
-      "summary": "Their continued presence has roiled the Spanish territory in Africa and heaped pressure on Prime Minister Pedro Sánchez."
-    },
-    {
-      "title": "Who are the economic winners and losers of the US-Israel war on Iran?",
-      "link": "https://www.aljazeera.com/economy/2026/8/31/who-are-the-economic-winners-and-losers-of-the-us-israel-war-on-iran?traffic_source=rss",
-      "pubDate": "Mon, 31 Aug 2026 12:01:18 +0000",
-      "source": "Al Jazeera",
-      "summary": "Airlines and automakers have taken a hit, while banks and energy firms have raked in big profits."
-    },
-    {
-      "title": "Rescuers search for 18 missing after boat capsizes off Northern Cyprus",
-      "link": "https://www.aljazeera.com/news/2026/8/31/rescue-teams-continue-search-for-missing-after-north-cyprus-ferry-sinking?traffic_source=rss",
-      "pubDate": "Mon, 31 Aug 2026 11:59:37 +0000",
-      "source": "Al Jazeera",
-      "summary": "The captain and crew of the ferry have been brought before a judge and placed under formal arrest."
-    },
-    {
-      "title": "Fire breaks out after unidentified explosions at oil refinery in Baghdad",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/31/fire-breaks-out-after-unidentified-explosions-at-oil-refinery-in-baghdad-2?traffic_source=rss",
-      "pubDate": "Mon, 31 Aug 2026 11:58:57 +0000",
-      "source": "Al Jazeera",
-      "summary": "A fire broke out following unidentified explosions at the Al-Dora power plant south of the Iraqi capital, Baghdad."
-    },
-    {
-      "title": "The jury's options in Lindsay Clancy's murder trial",
-      "link": "https://www.bbc.co.uk/news/articles/c93vgv4kr49o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Mon, 31 Aug 2026 11:53:21 GMT",
-      "source": "BBC",
-      "summary": "Jurors have five options before them as they decide the fate of the former nurse charged with killing her three children."
-    },
-    {
-      "title": "Turkiye, Saudi Arabia, Pakistan hold first Mecca defence pact meeting",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/31/turkiye-saudi-arabia-pakistan-hold-first-mecca-defence-pact-meeting?traffic_source=rss",
-      "pubDate": "Mon, 31 Aug 2026 11:49:03 +0000",
-      "source": "Al Jazeera",
-      "summary": "Turkiye, Saudi Arabia, Pakistan hold first Mecca defence pact meeting"
-    },
-    {
-      "title": "Man arrested after Swiss rave shooting that killed woman",
-      "link": "https://www.bbc.co.uk/news/articles/cddv92n194vo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Mon, 31 Aug 2026 11:41:40 GMT",
-      "source": "BBC",
-      "summary": "A 22-year-old Italian woman was killed and several injured at a techno rave in Aarau."
-    },
-    {
-      "title": "Search continues for 18 passengers after ferry capsized in northern Cyprus",
-      "link": "https://www.bbc.co.uk/news/articles/c1mv5ggg1l8o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Mon, 31 Aug 2026 11:41:05 GMT",
-      "source": "BBC",
-      "summary": "Eight people have died after the ferry started taking on water shortly after setting off for Turkey."
-    },
-    {
-      "title": "Wartime Presidents of Russia and Iran Rally With Chinese and Indian Leaders",
-      "link": "https://www.nytimes.com/2026/08/31/world/asia/putin-xi-modi-sco.html",
-      "pubDate": "Mon, 31 Aug 2026 11:31:35 +0000",
-      "source": "NYT World",
-      "summary": "The two-day summit of the 10-nation Shanghai Cooperation Organization in Kyrgyzstan shows the limits of U.S. economic warfare."
-    },
-    {
-      "title": "UAE intercepts drone after US and Iran exchange attacks",
-      "link": "https://www.aljazeera.com/news/2026/8/31/uae-intercepts-drone-after-us-and-iran-exchange-attacks?traffic_source=rss",
-      "pubDate": "Mon, 31 Aug 2026 11:25:43 +0000",
-      "source": "Al Jazeera",
-      "summary": "The UAE says it intercepted a drone coming from Iran and rejected 'false' reports of an attack on its Al Menhad airbase."
-    },
-    {
-      "title": "South African airline defends low-altitude aerial stunt over packed stadium",
-      "link": "https://www.bbc.co.uk/news/articles/c3rew8jqny5o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Mon, 31 Aug 2026 10:18:07 GMT",
-      "source": "BBC",
-      "summary": "Airlink says the manoeuvre with two planes in close formation involved careful and precise planning."
-    },
-    {
-      "title": "Nonstop Russian Drones Make for Dangerous New Phase of War in Kyiv",
-      "link": "https://www.nytimes.com/2026/08/31/world/europe/ukraine-kyiv-drones-russia-sirens.html",
-      "pubDate": "Mon, 31 Aug 2026 10:14:04 +0000",
-      "source": "NYT World",
-      "summary": "The nearly constant air raids, a shift from years of largely overnight attacks, have left residents exhausted and on edge."
-    },
-    {
-      "title": "For Nepal’s Young Leader, Flood Recovery Will Be a Herculean Task",
-      "link": "https://www.nytimes.com/2026/08/31/world/asia/nepal-floods-balen-shah-gen-z.html",
-      "pubDate": "Mon, 31 Aug 2026 09:40:22 +0000",
-      "source": "NYT World",
-      "summary": "Prime Minister Balendra Shah, 36, rose to power this year on the back of youth anger with graft and mismanagement. His fledgling government now faces a huge test."
     },
     {
       "title": "These Generals Fought for Israel. Now They See ‘Jewish Terrorism’ as the Threat.",
@@ -587,13 +591,6 @@
       "pubDate": "Mon, 31 Aug 2026 09:00:00 +0000",
       "source": "The Intercept",
       "summary": "The U.S.–Israeli war has caused massive environmental devastation, adding to the long history of American wars with toxic legacies.\nThe post Ecocide in Iran appeared first on The Intercept."
-    },
-    {
-      "title": "US and Iran trade strikes for first time in weeks",
-      "link": "https://www.bbc.co.uk/news/articles/cx2z72x5z1po?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Mon, 31 Aug 2026 08:34:25 GMT",
-      "source": "BBC",
-      "summary": "The attack on Larak Island in the Strait of Hormuz - the first known US strike since late July - has killed two people and injured two others."
     },
     {
       "title": "Western North Carolina Pleaded for Hurricane Help. It Got ICE Instead.",
@@ -654,6 +651,13 @@
   ],
   "syndication": [
     {
+      "title": "Is Someone Hacking DoD Refrigerators?",
+      "link": "https://www.schneier.com/blog/archives/2026/08/is-someone-hacking-dod-refrigerators.html",
+      "pubDate": "2026-08-31T18:20:35.000Z",
+      "author": "Schneier on Security",
+      "content": "It sure seems like it.\nThe stores confirmed to be affected include Fort Irwin, Calif.; F.E. Warren Air Force Base, Wyo.; Fort Huachuca, Ariz.; Naval Station Newport, R.I.; Columbus Air Force Base, Miss.; and Travis Air Force Base, Calif., according to announcements made online by each installation.\n"
+    },
+    {
       "title": "Hiding Prompt Injection in Legal Filing",
       "link": "https://www.schneier.com/blog/archives/2026/08/hiding-prompt-injection-in-legal-filing.html",
       "pubDate": "2026-08-31T11:03:40.000Z",
@@ -666,13 +670,6 @@
       "pubDate": "2026-08-28T21:02:44.000Z",
       "author": "Schneier on Security",
       "content": "Ugh:\nA tractor-trailer rollover sent a truckload of squid spilling into a Rhode Island roadway, leaving a stench as they sat in the road for hours in the summer heat. Local authorities have dubbed it the “Squidpocalypse of ’26.”\n\nThat would be twenty tons of squid.\nAs usual, you can also use this sq"
-    },
-    {
-      "title": "AI Doesn’t Mean the End of Mathematics—at Least Not Yet",
-      "link": "https://www.schneier.com/blog/archives/2026/08/ai-doesnt-mean-the-end-of-mathematics-at-least-not-yet.html",
-      "pubDate": "2026-08-28T11:02:22.000Z",
-      "author": "Schneier on Security",
-      "content": "This essay was written with Kasra Rafi, and originally appeared in The Guardian.\nEarlier this month, about 40 top mathematicians gathered at OpenAI’s offices to discuss the future of their profession. The meeting was off-the-record, but if recent articles by mathematicians are any guide, it was most"
     },
     {
       "title": "Two Alleged ‘TeamPCP’ Hackers Arrested in Australia",
@@ -719,12 +716,68 @@
   ],
   "syndicate_journal": [
     {
-      "title": "An Expert Pieced Together This Roman Document Like a Jigsaw Puzzle. You’ll Never Guess What It’s About",
-      "link": "https://nautil.us/an-expert-pieced-together-this-roman-document-like-a-jigsaw-puzzle-youll-never-guess-what-its-about-1284616/",
-      "summary": "Classics researchers think it was part of a reference booklet traveling officials carried with them\nThe post An Expert Pieced Together This Roman Document Like a Jigsaw Puzzle. You’ll Never Guess What It’s About appeared first on Nautilus.",
-      "pubDate": "Mon, 31 Aug 2026 12:00:00 +0000",
+      "title": "New Test for Broken-Heart Syndrome Offers Insights into the Mysterious Disease",
+      "link": "https://nautil.us/new-test-for-broken-heart-syndrome-offers-insights-into-the-mysterious-disease-1284666/",
+      "summary": "It could prevent unnecessary invasive procedures\nThe post New Test for Broken-Heart Syndrome Offers Insights into the Mysterious Disease appeared first on Nautilus.",
+      "pubDate": "Mon, 31 Aug 2026 20:30:00 +0000",
       "domain": "science",
       "source": "Nautilus"
+    },
+    {
+      "title": "Volunteers Were the Key to NYC-DSA’s Socialist Sweep",
+      "link": "",
+      "summary": "Since the Democratic Socialists of America (DSA) swept the New York primaries in June, conservative and liberal media alike have tried to make sense of DSA’s meteoric rise by tying them to ascendant New York City Mayor Zohran Mamdani and his “kingmaking” abilities. Beyond a cursory nod to the army o",
+      "pubDate": "2026-08-31T18:30:04.844Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "The Extinct Tasmanian Tiger’s Bite Was Unlike Any Other Predatory Mammal’s",
+      "link": "https://nautil.us/the-extinct-tasmanian-tigers-bite-was-unlike-any-other-predatory-mammals-1284660/",
+      "summary": "Which makes its extinction even more tragic\nThe post The Extinct Tasmanian Tiger’s Bite Was Unlike Any Other Predatory Mammal’s appeared first on Nautilus.",
+      "pubDate": "Mon, 31 Aug 2026 18:30:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "HBO’s Burning Man Documentary Omits the Festival’s Workers",
+      "link": "",
+      "summary": "It’s been a precarious decade for Burning Man. The legendary counterculture gathering was canceled two years in a row due to COVID-19 and has yet to recover its record pre-pandemic attendance numbers. In 2023, the indulgent spectacle was marred by sensational headlines about attendees being trapped ",
+      "pubDate": "2026-08-31T16:13:18.642Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "This Viking Dress Survived for 1,300 Years, Protected by Its Metal Ornaments",
+      "link": "https://nautil.us/this-viking-dress-survived-for-1300-years-protected-by-its-metal-ornaments-1284625/",
+      "summary": "Such delicate textiles typically decompose within a few years\nThe post This Viking Dress Survived for 1,300 Years, Protected by Its Metal Ornaments appeared first on Nautilus.",
+      "pubDate": "Mon, 31 Aug 2026 16:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "Nancy Fraser’s Theory of Capitalism Is Politically Vital",
+      "link": "",
+      "summary": "Nancy Fraser’s work has had a significant influence on anti-capitalist politics over the past couple of decades. Some of her insights about the relationship between “redistribution” and “recognition” or the “dangerous liaison” of liberal feminism and anti-racism with neoliberal economic agendas have",
+      "pubDate": "2026-08-31T15:03:49.740Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "‘Stunning’ Percolation Proof Solves Decades-Old Puzzle About Phase Transitions",
+      "link": "https://www.quantamagazine.org/stunning-percolation-proof-solves-decades-old-puzzle-about-phase-transitions-20260831/",
+      "summary": "Mathematicians found that a broad class of networks will abruptly shift behavior past a critical point.            \nThe post ‘Stunning’ Percolation Proof Solves Decades-Old Puzzle About Phase Transitions first appeared on Quanta Magazine",
+      "pubDate": "Mon, 31 Aug 2026 14:24:27 +0000",
+      "domain": "science",
+      "source": "Quanta"
+    },
+    {
+      "title": "The Jewish Labor Bund’s Anti-Zionist Legacy",
+      "link": "https://daily.jstor.org/the-jewish-labor-bunds-anti-zionist-legacy/",
+      "summary": "For many Jewish leftists before 1948, Zionism was far from the only vision for the Jewish future.\nThe post The Jewish Labor Bund’s Anti-Zionist Legacy appeared first on JSTOR Daily.",
+      "pubDate": "Mon, 31 Aug 2026 13:40:43 +0000",
+      "domain": "history",
+      "source": "JSTOR Daily"
     },
     {
       "title": "Evolution of laughing",
@@ -743,52 +796,12 @@
       "source": "Aeon"
     },
     {
-      "title": "Indonesia Still Hasn’t Come to Terms With Suharto’s Crimes",
-      "link": "",
-      "summary": "On July 27 this year, a black covering fell from a bronze statue in the courtyard at the headquarters of the Indonesian Democratic Party of Struggle (PDI-P) in central Jakarta. The sculpture revealed a woman with her mouth open in a cry, her arms wrapped around five figures whose heads bend beneath ",
-      "pubDate": "2026-08-30T13:00:00.149Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
-      "title": "The American Plutocracy Wants Workers Trapped in Debt",
-      "link": "",
-      "summary": "In May 2026, the White House’s top economist went on Fox Business to make an argument that would probably have gotten him laughed out of any economics seminar twenty years ago. Kevin Hassett  Maria Bartiromo that “the consumer is really, really firing on all cylinders,” pointing to a fresh surge in ",
-      "pubDate": "2026-08-30T12:30:00.021Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
-      "title": "AI Isn’t Coming for Our Jobs. It’s Coming for Our Wages.",
-      "link": "",
-      "summary": "recently ran a cover entitled “,” citing widespread fear among the American public of artificial-intelligence-induced job losses. Such fearmongering is far from new. Information technology breakthroughs have led to many such announcements over the last few decades.The EconomistPrepare for an AI jobs",
-      "pubDate": "2026-08-30T12:00:00.248Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
       "title": "Unusual risks",
       "link": "https://languagelog.ldc.upenn.edu/nll/?p=74130&utm_source=rss&utm_medium=rss&utm_campaign=unusual-risks",
       "summary": "The title of Sal Mercogliano's latest \"What's Going on With Shipping?\" vlog offers two idiom extensions: \"Understanding Global Shipping Risks: Black Swans, Black Jellyfish & Black Elephants\". The \"black swan\" metaphor starts from Juvenal (Satire VI, line 165), who described a virtuous wife as \"Rara ",
       "pubDate": "Sat, 29 Aug 2026 14:10:38 +0000",
       "domain": "linguistics",
       "source": "Language Log"
-    },
-    {
-      "title": "I’m Part of the Team Writing the Next Bible of Psychiatry—For the First Time, the DSM Will Use Biology to Understand Mental Disorders",
-      "link": "https://nautil.us/im-part-of-the-team-writing-the-next-bible-of-psychiatry-for-the-first-time-the-dsm-will-use-biology-to-understand-mental-disorders-1284613/",
-      "summary": "Part of the challenge of finding a biomarker for mental illness is the environment’s significant influence\nThe post I’m Part of the Team Writing the Next Bible of Psychiatry—For the First Time, the DSM Will Use Biology to Understand Mental Disorders appeared first on Nautilus.",
-      "pubDate": "Sat, 29 Aug 2026 12:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
-      "title": "Watch This Shrimp-Like Fish Walk Backwards",
-      "link": "https://nautil.us/watch-this-shrimp-like-fish-walk-backwards-1284607/",
-      "summary": "A deep-sea denizen with an identity crisis\nThe post Watch This Shrimp-Like Fish Walk Backwards appeared first on Nautilus.",
-      "pubDate": "Fri, 28 Aug 2026 22:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
     },
     {
       "title": "Does Computer Science Need Computers?",
@@ -827,22 +840,6 @@
       "link": "https://www.quantamagazine.org/in-hilbert-space-all-things-are-quantumly-possible-20260826/",
       "summary": "To explore quantum phenomena, we must leave the familiar world and enter the abstract realm of Hilbert space.            \nThe post In Hilbert Space, All Things Are Quantumly Possible first appeared on Quanta Magazine",
       "pubDate": "Wed, 26 Aug 2026 14:30:35 +0000",
-      "domain": "science",
-      "source": "Quanta"
-    },
-    {
-      "title": "How Kudzu Was Supposed to Save the South",
-      "link": "https://daily.jstor.org/how-kudzu-was-supposed-to-save-the-south/",
-      "summary": "Before it became a notorious invasive plant, kudzu was promoted as a solution to widespread soil erosion.\nThe post How Kudzu Was Supposed to Save the South appeared first on JSTOR Daily.",
-      "pubDate": "Wed, 26 Aug 2026 13:39:00 +0000",
-      "domain": "history",
-      "source": "JSTOR Daily"
-    },
-    {
-      "title": "A New Framework for How the Brain Compresses Our Noisy World",
-      "link": "https://www.quantamagazine.org/a-new-framework-for-how-the-brain-compresses-our-noisy-world-20260824/",
-      "summary": "An updated view of categorization reflects the modern understanding that the nervous system is more of a prediction engine than a filing cabinet.            \nThe post A New Framework for How the Brain Compresses Our Noisy World first appeared on Quanta Magazine",
-      "pubDate": "Mon, 24 Aug 2026 14:00:55 +0000",
       "domain": "science",
       "source": "Quanta"
     },
@@ -985,64 +982,64 @@
   ],
   "misinfo_toilet": [
     {
-      "headline": "Wartime Presidents of Russia and Iran Rally With Chinese and Indian Leaders",
-      "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "splice": "Wartime Presidents of Russia and Iran Rally With Chinese and Indian Leaders consequently the breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "seed": 20260844
-    },
-    {
-      "headline": "Turkiye, Saudi Arabia, Pakistan hold first Mecca defence pact meeting",
-      "fragment": "The privatization of the organs will only begin with the shame felt by man at the sight of man.",
-      "splice": "Turkiye, Saudi Arabia, Pakistan hold first Mecca defence pact meeting while the privatization of the organs will only begin with the shame felt by man at the sight of man.",
-      "seed": 20260845
-    },
-    {
-      "headline": "UAE intercepts drone after US and Iran exchange attacks",
-      "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
-      "splice": "UAE intercepts drone after US and Iran exchange attacks not unlike the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
-      "seed": 20260846
-    },
-    {
-      "headline": "Rescuers search for 18 missing after boat capsizes off Northern Cyprus",
-      "fragment": "Reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
-      "splice": "Rescuers search for 18 missing after boat capsizes off Northern Cyprus as if reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
-      "seed": 20260847
-    },
-    {
-      "headline": "Fire breaks out after unidentified explosions at oil refinery in Baghdad",
-      "fragment": "Art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
-      "splice": "Fire breaks out after unidentified explosions at oil refinery in Baghdad insofar as art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
-      "seed": 20260848
-    },
-    {
-      "headline": "Nonstop Russian Drones Make for Dangerous New Phase of War in Kyiv",
-      "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "splice": "Nonstop Russian Drones Make for Dangerous New Phase of War in Kyiv underneath the breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "seed": 20260849
-    },
-    {
-      "headline": "Investigating a Murder: Public Records Uncover New Clues in Chinatown Cold Case",
-      "fragment": "There is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
-      "splice": "Investigating a Murder: Public Records Uncover New Clues in Chinatown Cold Case meanwhile there is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
-      "seed": 20260850
-    },
-    {
-      "headline": "Search continues for 18 passengers after ferry capsized in northern Cyprus",
-      "fragment": "The privatization of the organs will only begin with the shame felt by man at the sight of man.",
-      "splice": "Search continues for 18 passengers after ferry capsized in northern Cyprus underneath the privatization of the organs will only begin with the shame felt by man at the sight of man.",
+      "headline": "US singer D4vd's celebrity lawyers withdraw from murder case",
+      "fragment": "If it is true, for instance, that depression is caused by low serotonin levels, it would still be necessary to explain why particular individuals have low serotonin levels.",
+      "splice": "US singer D4vd's celebrity lawyers withdraw from murder case meanwhile if it is true, for instance, that depression is caused by low serotonin levels, it would still be necessary to explain why particular individuals have low serotonin levels.",
       "seed": 20260851
     },
     {
-      "headline": "Ecocide in Iran",
-      "fragment": "Why do men fight for their servitude as stubbornly as though it were their salvation?",
-      "splice": "Ecocide in Iran ...as why do men fight for their servitude as stubbornly as though it were their salvation?",
+      "headline": "Investigating a Murder: Public Records Uncover New Clues in Chinatown Cold Case",
+      "fragment": "The privatization of the organs will only begin with the shame felt by man at the sight of man.",
+      "splice": "Investigating a Murder: Public Records Uncover New Clues in Chinatown Cold Case the system notes that the privatization of the organs will only begin with the shame felt by man at the sight of man.",
       "seed": 20260852
     },
     {
-      "headline": "For Nepal’s Young Leader, Flood Recovery Will Be a Herculean Task",
-      "fragment": "Over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
-      "splice": "For Nepal’s Young Leader, Flood Recovery Will Be a Herculean Task insofar as over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
+      "headline": "Ecocide in Iran",
+      "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
+      "splice": "Ecocide in Iran consequently the revolutionary lives in the gap which separates technical progress from social totality.",
       "seed": 20260853
+    },
+    {
+      "headline": "‘The Nest of Snakes’: Warring Cartels Target Women in Mexico",
+      "fragment": "Over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
+      "splice": "‘The Nest of Snakes’: Warring Cartels Target Women in Mexico despite over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
+      "seed": 20260854
+    },
+    {
+      "headline": "These Generals Fought for Israel. Now They See ‘Jewish Terrorism’ as the Threat.",
+      "fragment": "It is at work everywhere, functioning smoothly at times, at other times in fits and starts. It breathes, it heats, it eats. It shits and fucks.",
+      "splice": "These Generals Fought for Israel. Now They See ‘Jewish Terrorism’ as the Threat. as if it is at work everywhere, functioning smoothly at times, at other times in fits and starts. It breathes, it heats, it eats. It shits and fucks.",
+      "seed": 20260855
+    },
+    {
+      "headline": "Will Ronaldo Cry​? World Cup Fans Bet Billions Through Prediction Markets",
+      "fragment": "An ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
+      "splice": "Will Ronaldo Cry​? World Cup Fans Bet Billions Through Prediction Markets despite an ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
+      "seed": 20260856
+    },
+    {
+      "headline": "GTA 6: Why is the world’s most anticipated game facing backlash?",
+      "fragment": "To dissimulate is to pretend not to have what one has. To simulate is to feign to have what one doesn't have. One implies a presence, the other an absence.",
+      "splice": "GTA 6: Why is the world’s most anticipated game facing backlash? the signal resolves into to dissimulate is to pretend not to have what one has. To simulate is to feign to have what one doesn't have. One implies a presence, the other an absence.",
+      "seed": 20260857
+    },
+    {
+      "headline": "US and Iran trade strikes for first time in weeks",
+      "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
+      "splice": "US and Iran trade strikes for first time in weeks as if the revolutionary lives in the gap which separates technical progress from social totality.",
+      "seed": 20260858
+    },
+    {
+      "headline": "What to know: US court hearing held for alleged Lockerbie bombmaker",
+      "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "splice": "What to know: US court hearing held for alleged Lockerbie bombmaker ...as the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "seed": 20260859
+    },
+    {
+      "headline": "Man arrested after Swiss rave shooting that killed woman",
+      "fragment": "It is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
+      "splice": "Man arrested after Swiss rave shooting that killed woman because it is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
+      "seed": 20260860
     }
   ]
 }
