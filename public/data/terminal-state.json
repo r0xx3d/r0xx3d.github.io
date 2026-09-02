@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T18:14:51.871Z",
+  "generated_at": "2026-09-02T03:36:22.429Z",
   "threat_intel": {
     "cisa_kev": [
       {
@@ -12,6 +12,7 @@
         "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
         "dueDate": "2026-09-14",
         "knownRansomwareCampaignUse": "Unknown",
+        "forensicTriage": "No",
         "notes": "https://www.papercut.com/kb/Main/security-bulletin-27-aug-2026-urgent-security-advisory/?lid=2oneu2wt0ct4 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-82078",
         "cwes": [
           "CWE-470"
@@ -27,6 +28,7 @@
         "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
         "dueDate": "2026-09-14",
         "knownRansomwareCampaignUse": "Unknown",
+        "forensicTriage": "No",
         "notes": "https://www.papercut.com/kb/Main/security-bulletin-27-aug-2026-urgent-security-advisory/ ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-81578",
         "cwes": [
           "CWE-306"
@@ -42,6 +44,7 @@
         "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
         "dueDate": "2026-08-30",
         "knownRansomwareCampaignUse": "Unknown",
+        "forensicTriage": "Yes",
         "notes": "https://owncloud.org/security ; https://owncloud.com/security-advisories/webdav-api-authentication-bypass-using-pre-signed-urls/ ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2023-49105",
         "cwes": [
           "CWE-287"
@@ -57,6 +60,7 @@
         "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
         "dueDate": "2026-08-30",
         "knownRansomwareCampaignUse": "Unknown",
+        "forensicTriage": "Yes",
         "notes": "This vulnerability affects an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: ; https://git.kernel.org/stable/c/14200d435af9a9eeb444f529fc2f689a236b7962; https://git.kernel.org/stable/c/65fb14cbebb0cd0eff903a22d33537ddc8b95769; https://git.kernel.org/stable/c/46f201f8b4c39633a1fa3dc12459f506d470993d; https://git.kernel.org/stable/c/6374fb9edf72c67a118a2c214a0dddd04c921e0a; https://git.kernel.org/stable/c/e9eacf19281ea2498b36291b56c9606118c2d74e; https://git.kernel.org/stable/c/736b380e28d0480c7bc3e022f1950f31fe53a7c5 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-53362",
         "cwes": []
       },
@@ -70,6 +74,7 @@
         "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
         "dueDate": "2026-09-10",
         "knownRansomwareCampaignUse": "Unknown",
+        "forensicTriage": "No",
         "notes": "https://docs.jfrog.com/releases/docs/jfrog-security-advisories ; https://docs.jfrog.com/releases/docs/artifactory-self-managed-releases ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-66384",
         "cwes": [
           "CWE-22"
@@ -85,6 +90,7 @@
         "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
         "dueDate": "2026-09-09",
         "knownRansomwareCampaignUse": "Unknown",
+        "forensicTriage": "No",
         "notes": "This vulnerability affects an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: https://github.com/michaelschwarz/Ajax.NET-Professional/commit/b0e63be5f0bb20dfce507cb8a1a9568f6e73de57 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2021-23758",
         "cwes": [
           "CWE-502"
@@ -100,6 +106,7 @@
         "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
         "dueDate": "2026-09-09",
         "knownRansomwareCampaignUse": "Unknown",
+        "forensicTriage": "No",
         "notes": "This vulnerability affects an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: https://access.redhat.com/articles/1537873 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2015-3246",
         "cwes": []
       },
@@ -113,6 +120,7 @@
         "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
         "dueDate": "2026-09-09",
         "knownRansomwareCampaignUse": "Unknown",
+        "forensicTriage": "No",
         "notes": "This vulnerability affects an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: https://github.com/abrt/abrt/commit/3c1b60cfa62d39e5fff5a53a5bc53dae189e740e ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2015-5287",
         "cwes": []
       },
@@ -126,6 +134,7 @@
         "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
         "dueDate": "2026-09-09",
         "knownRansomwareCampaignUse": "Unknown",
+        "forensicTriage": "No",
         "notes": "This vulnerability affects an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=93ce93587d36493f2f86921fa79921b3cba63fbb ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2022-0995",
         "cwes": [
           "CWE-787"
@@ -141,6 +150,7 @@
         "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
         "dueDate": "2026-08-29",
         "knownRansomwareCampaignUse": "Unknown",
+        "forensicTriage": "No",
         "notes": "https://support.citrix.com/support-home/kbsearch/article?articleNumber=CTX696604 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-8452",
         "cwes": [
           "CWE-119"
@@ -156,6 +166,7 @@
         "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
         "dueDate": "2026-08-29",
         "knownRansomwareCampaignUse": "Unknown",
+        "forensicTriage": "Yes",
         "notes": "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2019-1068 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2019-1068",
         "cwes": []
       },
@@ -169,6 +180,7 @@
         "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
         "dueDate": "2026-08-28",
         "knownRansomwareCampaignUse": "Unknown",
+        "forensicTriage": "Yes",
         "notes": "https://github.com/go-gitea/gitea/security/advisories/GHSA-rcr6-4jqh-j84m ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-60004",
         "cwes": [
           "CWE-94"
@@ -184,6 +196,7 @@
         "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
         "dueDate": "2026-08-27",
         "knownRansomwareCampaignUse": "Unknown",
+        "forensicTriage": "Yes",
         "notes": "https://www.oracle.com/security-alerts/cpujan2026.html ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-21962",
         "cwes": [
           "CWE-284"
@@ -199,6 +212,7 @@
         "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
         "dueDate": "2026-08-24",
         "knownRansomwareCampaignUse": "Unknown",
+        "forensicTriage": "Yes",
         "notes": "https://wiki.zimbra.com/wiki/Zimbra_Security_Advisories ; https://blog.zimbra.com/2026/07/patch-release-update-zimbra-10-1-20/ ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-73570",
         "cwes": [
           "CWE-78"
@@ -214,6 +228,7 @@
         "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
         "dueDate": "2026-09-03",
         "knownRansomwareCampaignUse": "Unknown",
+        "forensicTriage": "No",
         "notes": "https://trueconf.com/blog/news/security-fixes-updates-and-advisories ; https://ics-cert.kaspersky.com/advisories/2026/08/11/trueconf-server-breakout-from-isolated-environment/ ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-72530",
         "cwes": [
           "CWE-94"
@@ -222,9 +237,29 @@
     ],
     "urlhaus": [
       {
-        "id": "3911042",
-        "date_added": "2026-09-01 17:59:17",
-        "url": "http://115.55.235.183:35287/i",
+        "id": "3911093",
+        "date_added": "2026-09-02 03:12:07",
+        "url": "http://42.231.70.134:33566/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3911094",
+        "date_added": "2026-09-02 03:12:07",
+        "url": "http://42.231.70.134:33566/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3911092",
+        "date_added": "2026-09-02 03:04:21",
+        "url": "http://219.155.104.50:48910/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -235,9 +270,22 @@
         ]
       },
       {
-        "id": "3911040",
-        "date_added": "2026-09-01 17:56:20",
-        "url": "http://95.56.232.109:45950/i",
+        "id": "3911091",
+        "date_added": "2026-09-02 02:36:15",
+        "url": "http://219.155.104.50:48910/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3911090",
+        "date_added": "2026-09-02 02:21:22",
+        "url": "http://105.225.86.238:41431/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -249,179 +297,46 @@
         ]
       },
       {
-        "id": "3911041",
-        "date_added": "2026-09-01 17:56:20",
-        "url": "http://115.55.235.183:35287/bin.sh",
+        "id": "3911089",
+        "date_added": "2026-09-02 02:06:07",
+        "url": "http://105.186.165.243:34131/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
+          "mirai"
         ]
       },
       {
-        "id": "3911039",
-        "date_added": "2026-09-01 17:45:16",
-        "url": "http://222.137.145.114:43346/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3911038",
-        "date_added": "2026-09-01 17:26:13",
-        "url": "http://180.245.43.93:37596/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "arm",
-          "elf",
-          "mirai",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3911037",
-        "date_added": "2026-09-01 17:23:23",
-        "url": "http://45.194.88.27:44517/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3911036",
-        "date_added": "2026-09-01 17:15:25",
-        "url": "http://160.176.145.10:61000/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3911035",
-        "date_added": "2026-09-01 17:14:17",
-        "url": "http://180.245.43.93:37596/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "arm",
-          "elf",
-          "mirai",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3911034",
-        "date_added": "2026-09-01 17:12:07",
-        "url": "http://31.42.176.91:5001/Bin/ScreenConnect.ClientSetup.exe",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "31-42-176-91-5001",
-          "connectwise",
-          "exe",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3911033",
-        "date_added": "2026-09-01 17:12:06",
-        "url": "http://31.42.176.91:5001/bin/support.client.exe",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "31-42-176-91-5001",
-          "connectwise",
-          "exe",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3911032",
-        "date_added": "2026-09-01 17:07:17",
-        "url": "http://42.59.89.223:55257/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3911031",
-        "date_added": "2026-09-01 17:00:12",
-        "url": "http://113.94.58.6:51014/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3911030",
-        "date_added": "2026-09-01 16:55:19",
-        "url": "http://130.12.209.153:42397/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "arm",
-          "elf",
-          "mirai",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3911029",
-        "date_added": "2026-09-01 16:42:27",
-        "url": "http://141.98.11.207/dl/bot_linux_x86_32",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "141-98-11-207",
-          "elf",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3911028",
-        "date_added": "2026-09-01 16:42:25",
-        "url": "http://141.98.11.207/dl/bot_linux_x86_64",
+        "id": "3911088",
+        "date_added": "2026-09-02 02:04:18",
+        "url": "http://115.59.37.238:56506/bin.sh",
         "url_status": "offline",
         "threat": "malware_download",
         "tags": [
-          "141-98-11-207",
+          "32-bit",
           "elf",
-          "ua-wget"
+          "mips",
+          "Mozi"
         ]
       },
       {
-        "id": "3911027",
-        "date_added": "2026-09-01 16:31:12",
-        "url": "http://113.94.58.6:51014/bin.sh",
+        "id": "3911087",
+        "date_added": "2026-09-02 02:02:17",
+        "url": "http://105.225.86.238:41431/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "mirai",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3911086",
+        "date_added": "2026-09-02 02:02:16",
+        "url": "http://222.113.196.55:39794/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -432,9 +347,9 @@
         ]
       },
       {
-        "id": "3911026",
-        "date_added": "2026-09-01 16:30:12",
-        "url": "http://42.59.89.223:55257/bin.sh",
+        "id": "3911085",
+        "date_added": "2026-09-02 02:00:16",
+        "url": "http://115.55.190.64:35735/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -445,108 +360,217 @@
         ]
       },
       {
-        "id": "3911025",
-        "date_added": "2026-09-01 16:29:22",
-        "url": "http://150.241.100.243/185.exe",
+        "id": "3911084",
+        "date_added": "2026-09-02 01:54:14",
+        "url": "http://115.55.190.64:35735/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "150-241-100-243",
-          "exe",
-          "ua-wget"
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
         ]
       },
       {
-        "id": "3911024",
-        "date_added": "2026-09-01 16:24:30",
-        "url": "http://185.113.223.93/kushnet.x64-test",
+        "id": "3911083",
+        "date_added": "2026-09-02 01:51:21",
+        "url": "http://182.122.232.225:45123/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "185-113-223-93",
+          "32-bit",
           "elf",
-          "mirai",
-          "ua-wget"
+          "mips",
+          "Mozi"
         ]
       },
       {
-        "id": "3911013",
-        "date_added": "2026-09-01 16:24:29",
-        "url": "http://185.113.223.93/kushnet.ppc",
+        "id": "3911082",
+        "date_added": "2026-09-02 01:36:19",
+        "url": "http://210.208.110.147:49159/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "185-113-223-93",
+          "mirai"
+        ]
+      },
+      {
+        "id": "3911081",
+        "date_added": "2026-09-02 01:06:20",
+        "url": "http://182.126.113.144:33201/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3911080",
+        "date_added": "2026-09-02 00:53:12",
+        "url": "http://120.28.199.24:36535/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
           "elf",
           "mirai",
-          "ua-wget"
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3911079",
+        "date_added": "2026-09-02 00:52:17",
+        "url": "http://60.22.29.230:41723/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3911078",
+        "date_added": "2026-09-02 00:51:06",
+        "url": "http://39.74.18.45:57987/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3911077",
+        "date_added": "2026-09-02 00:44:19",
+        "url": "http://222.141.117.155:41936/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3911076",
+        "date_added": "2026-09-02 00:35:22",
+        "url": "http://42.228.124.66:38416/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3911075",
+        "date_added": "2026-09-02 00:34:19",
+        "url": "http://105.184.68.41:40227/i",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "mirai",
+          "Mozi"
         ]
       }
     ]
   },
   "world_monitor": [
     {
-      "title": "As Michigan Senate race heats up, Vance calls El-Sayed 'evil' ",
-      "link": "https://www.bbc.co.uk/news/articles/cn9w39py48xo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Tue, 01 Sep 2026 18:06:58 GMT",
+      "title": "Iran retaliates after US strikes kill four at wedding party, state media reports",
+      "link": "https://www.bbc.co.uk/news/articles/cj06q4ynpmjo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Wed, 02 Sep 2026 03:19:44 GMT",
       "source": "BBC",
-      "summary": "El-Sayed faces Trump ally Mike Rogers in what has quickly become a senate race characterised by personal attacks and insults between the two."
+      "summary": "Iran has launched attacks on US military bases in Iraq and Jordan, according to local state media and the Jordanian Armed Forces."
     },
     {
       "title": "China or the U.S.? Two Meetings Offer Competing Showcases of Global Power.",
       "link": "https://www.nytimes.com/2026/09/01/world/asia/g20-meeting-china-trump-bishkek.html",
-      "pubDate": "Tue, 01 Sep 2026 17:57:37 +0000",
+      "pubDate": "Wed, 02 Sep 2026 03:04:58 +0000",
       "source": "NYT World",
       "summary": "As Xi Jinping gathered with the leaders of Russia and Iran, Europe challenged the Trump administration at the G20, offering a split-screen view of a changing world."
     },
     {
-      "title": "US health authorities contradict state officials on measles-related deaths",
-      "link": "https://www.aljazeera.com/news/2026/9/1/us-health-authorities-contradict-state-officials-on-measles-related-deaths?traffic_source=rss",
-      "pubDate": "Tue, 01 Sep 2026 17:48:28 +0000",
+      "title": "Honduran court drops case against ex-President Hernandez after Trump pardon",
+      "link": "https://www.aljazeera.com/news/2026/9/2/honduran-court-drops-case-against-ex-president-hernandez-after-trump-pardon?traffic_source=rss",
+      "pubDate": "Wed, 02 Sep 2026 02:34:52 +0000",
       "source": "Al Jazeera",
-      "summary": "Clash with Pennsylvania comes as US records highest number of measles cases in decades."
+      "summary": "Juan Orlando Hernandez had been accused of money laundering and fraud as part of a government corruption scheme."
     },
     {
-      "title": "The US military began striking targets in Iran, CENTCOM says",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/9/1/the-us-military-began-striking-targets-in-iran-centcom-says?traffic_source=rss",
-      "pubDate": "Tue, 01 Sep 2026 17:39:29 +0000",
+      "title": "Top US lawmaker Mike Johnson says lying is part of some Iranians’ religion",
+      "link": "https://www.aljazeera.com/news/2026/9/2/top-us-lawmaker-mike-johnson-says-lying-is-part-of-some-iranians-religion?traffic_source=rss",
+      "pubDate": "Wed, 02 Sep 2026 02:20:45 +0000",
       "source": "Al Jazeera",
-      "summary": "The US military said it has begun striking targets in Iran."
-    },
-    {
-      "title": "Weeks After Failed Drone Attack, Germany Points Finger at Russia",
-      "link": "https://www.nytimes.com/2026/09/01/world/europe/germany-russia-drone-airport.html",
-      "pubDate": "Tue, 01 Sep 2026 17:37:49 +0000",
-      "source": "NYT World",
-      "summary": "The country said Moscow was behind an explosive-laden drone found near a Ukrainian plane at a German airport last month. Russia said Germany had provided no evidence."
-    },
-    {
-      "title": "John Ternus succeeds Tim Cook as Apple CEO after 15 years",
-      "link": "https://www.aljazeera.com/economy/2026/9/1/john-ternus-succeeds-tim-cook-as-apple-ceo-after-15-years?traffic_source=rss",
-      "pubDate": "Tue, 01 Sep 2026 17:36:33 +0000",
-      "source": "Al Jazeera",
-      "summary": "Apple gears up for innovation under Ternus before a new product launch event that could include foldable phones."
-    },
-    {
-      "title": "Pitso Mosimane appointed by South Africa ahead of AFCON qualifiers",
-      "link": "https://www.aljazeera.com/sports/2026/9/1/pitso-mosimane-appointed-by-south-africa-ahead-of-afcon-qualifiers?traffic_source=rss",
-      "pubDate": "Tue, 01 Sep 2026 17:25:45 +0000",
-      "source": "Al Jazeera",
-      "summary": "Pitso Mosimane replaces Hugo Broos as manager of the South Africa national football team following World Cup exit."
-    },
-    {
-      "title": "China’s Xi makes first visit to Egypt in a decade, amid regional turmoil",
-      "link": "https://www.aljazeera.com/economy/2026/9/1/chinas-xi-makes-first-visit-to-egypt-in-a-decade-amid-regional-turmoil?traffic_source=rss",
-      "pubDate": "Tue, 01 Sep 2026 16:59:22 +0000",
-      "source": "Al Jazeera",
-      "summary": "Chinese President Xi visits Egypt to deepen economic ties and align strategies amid Middle East crises."
+      "summary": "The Republican House speaker defends the US-Israel war on Iran and praises Trump's 'steady hands at the wheel'."
     },
     {
       "title": "Germany says Russia behind Leipzig airport drone attack",
       "link": "https://www.bbc.co.uk/news/articles/c5ylm3m67n2o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Tue, 01 Sep 2026 16:53:40 GMT",
+      "pubDate": "Wed, 02 Sep 2026 01:59:54 GMT",
       "source": "BBC",
       "summary": "A drone carrying an explosive device was discovered at the airport close to Ukrainian cargo planes on 4 August."
+    },
+    {
+      "title": "What to know about Germany’s drone attack accusations against Russia",
+      "link": "https://www.aljazeera.com/news/2026/9/2/what-to-know-about-germanys-drone-attack-accusations-against-russia?traffic_source=rss",
+      "pubDate": "Wed, 02 Sep 2026 01:40:01 +0000",
+      "source": "Al Jazeera",
+      "summary": "German intelligence has concluded that an explosive-laden drone was linked to Russia. Officials promise consequences."
+    },
+    {
+      "title": "Iran says US bombed a wedding party in Sirik, killing five",
+      "link": "https://www.aljazeera.com/news/2026/9/2/iran-says-us-strikes-hit-a-wedding-party-in-sirik-killing-five?traffic_source=rss",
+      "pubDate": "Wed, 02 Sep 2026 01:34:55 +0000",
+      "source": "Al Jazeera",
+      "summary": "Officials say at least 63 others wounded in attack on city of Kuhestak, including women and children."
+    },
+    {
+      "title": "IAEA says Syria built a nuclear reactor in Deir Az Zor under al-Assad",
+      "link": "https://www.aljazeera.com/news/2026/9/2/iaea-says-syria-built-a-nuclear-reactor-in-deir-az-zor-under-al-assad?traffic_source=rss",
+      "pubDate": "Wed, 02 Sep 2026 01:21:06 +0000",
+      "source": "Al Jazeera",
+      "summary": "UN watchdog says Syria 'failed to report nuclear material, facilities and activities' under Bashar al-Assad's rule."
+    },
+    {
+      "title": "Weeks After Failed Drone Attack, Germany Points Finger at Russia",
+      "link": "https://www.nytimes.com/2026/09/01/world/europe/germany-russia-drone-airport.html",
+      "pubDate": "Tue, 01 Sep 2026 23:38:03 +0000",
+      "source": "NYT World",
+      "summary": "The country said Moscow was behind an explosive-laden drone found near a Ukrainian plane at a German airport last month. President Vladimir Putin of Russia called the accusation “a grave mistake.”"
+    },
+    {
+      "title": "The Ritual of Coffin Making in a City Hit by Ebola",
+      "link": "https://www.nytimes.com/2026/09/01/world/africa/congo-ebola-coffins.html",
+      "pubDate": "Tue, 01 Sep 2026 21:26:24 +0000",
+      "source": "NYT World",
+      "summary": "While several coffin makers in Bunia said they were providing a public service, the virus has put them at the center of a debate around safe burials."
+    },
+    {
+      "title": "CBS News Spins El-Sayed’s 9/11 Tweets Into a Manufactured Anti-Muslim Scandal",
+      "link": "https://theintercept.com/2026/09/01/cbs-news-abdul-el-sayed-9-11-tweets/",
+      "pubDate": "Tue, 01 Sep 2026 21:14:44 +0000",
+      "source": "The Intercept",
+      "summary": "Centrist Democrats opened the door for anti-Muslim attacks on their party’s nominee in Michigan — finding common cause with right-wing bigots.\nThe post CBS News Spins El-Sayed’s 9/11 Tweets Into a Manufactured Anti-Muslim Scandal appeared first on Th"
+    },
+    {
+      "title": "China Censors and Punishes to Shape Narrative on Floods in Tibet, a Contrast to Nepal",
+      "link": "https://www.nytimes.com/2026/09/01/world/asia/china-tibet-floods-nepal-censorship.html",
+      "pubDate": "Tue, 01 Sep 2026 21:10:03 +0000",
+      "source": "NYT World",
+      "summary": "While journalists can report freely on grief and anger in Nepal, China’s official media have presented a sanitized disaster aftermath in Tibet."
     },
     {
       "title": "River water smashed into tunnel and chased me for 20 minutes, Nepal worker tells BBC",
@@ -563,13 +587,6 @@
       "summary": "Most migrants have returned to neighbouring Morocco, but as many as 5,000 remain in the Spanish exclave."
     },
     {
-      "title": "The Ritual of Coffin Making in a City Hit by Ebola",
-      "link": "https://www.nytimes.com/2026/09/01/world/africa/congo-ebola-coffins.html",
-      "pubDate": "Tue, 01 Sep 2026 15:07:06 +0000",
-      "source": "NYT World",
-      "summary": "While several coffin makers in Bunia said they were providing a public service, the virus has put them at the center of a debate around safe burials."
-    },
-    {
       "title": "U.S. Sanctions on Iran Cut Off Students From Tests Needed for Study Abroad",
       "link": "https://www.nytimes.com/2026/09/01/world/middleeast/iran-study-abroad-sanctions.html",
       "pubDate": "Tue, 01 Sep 2026 15:04:17 +0000",
@@ -582,13 +599,6 @@
       "pubDate": "Tue, 01 Sep 2026 12:46:23 +0000",
       "source": "The Intercept",
       "summary": "A settlement with the Christian Employers Alliance blocks the EEOC from ever investigating the group’s members for gender identity discrimination.\nThe post Christian Employers Can Now Discriminate Against Trans People appeared first on The Intercept."
-    },
-    {
-      "title": "China Censors and Punishes to Shape Narrative on Floods in Tibet, a Contrast to Nepal",
-      "link": "https://www.nytimes.com/2026/09/01/world/asia/china-tibet-floods-nepal-censorship.html",
-      "pubDate": "Tue, 01 Sep 2026 10:44:07 +0000",
-      "source": "NYT World",
-      "summary": "While journalists can report freely on grief and anger in Nepal, China’s official media have presented a sanitized disaster aftermath in Tibet."
     },
     {
       "title": "'I've never been to Afghanistan': Six million deportees forced to start over under the Taliban",
@@ -626,13 +636,6 @@
       "summary": "Trump designated an Italian web-hosting provider as a foreign “terror” group. It could take antifascist sites in the U.S. offline.\nThe post Trump Goes After Anonymous Email Provider in Italy. The Real Target Is Free Speech in the U.S. appeared first "
     },
     {
-      "title": "Right-Wing Trans Hate Comes for the WNBA",
-      "link": "https://theintercept.com/2026/08/28/wnba-women-basketball-sports-trans/",
-      "pubDate": "Fri, 28 Aug 2026 10:00:00 +0000",
-      "source": "The Intercept",
-      "summary": "How the right’s attacks on trans people have infiltrated a sports league with no trans women.\nThe post Right-Wing Trans Hate Comes for the WNBA appeared first on The Intercept."
-    },
-    {
       "title": "Tracking a Sanctioned Russian Vessel’s West African Odyssey",
       "link": "https://www.bellingcat.com/news/africa/2026/08/25/patria-sanctioned-russian-vessel-russia-us-africa-cameroon-gabon-lagos-nigeria/",
       "pubDate": "Tue, 25 Aug 2026 08:52:50 +0000",
@@ -662,6 +665,13 @@
     }
   ],
   "syndication": [
+    {
+      "title": "FBI Probes Service Selling 153M+ Drivers Licenses",
+      "link": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
+      "pubDate": "Tue, 01 Sep 2026 22:40:28 +0000",
+      "author": "KrebsOnSecurity",
+      "content": "A new identity theft service launched on the dark web this week is selling digital scans of more than 153 million drivers licenses from people in the United States and Canada. Based on interviews with individuals whose licenses are available for purchase on this service, it appears to be siphoning i"
+    },
     {
       "title": "What’s the Scam?",
       "link": "https://www.schneier.com/blog/archives/2026/09/whats-the-scam.html",
@@ -717,16 +727,25 @@
       "pubDate": "Fri, 14 Aug 2026 11:24:35 +0000",
       "author": "KrebsOnSecurity",
       "content": "It can be daunting to determine who's responsible for showing ads on the websites we visit, or who's harvesting data from the mobile apps we use every day. That information is already semi-public, but it is not easily parsed and traditionally much of it has remained walled away in the hands of large"
-    },
-    {
-      "title": "Microsoft Plugs Nearly 400 Security Holes",
-      "link": "https://krebsonsecurity.com/2026/08/microsoft-plugs-nearly-400-security-holes/",
-      "pubDate": "Tue, 11 Aug 2026 21:28:35 +0000",
-      "author": "KrebsOnSecurity",
-      "content": "Microsoft today released updates to remedy at least 398 security vulnerabilities in its Windows operating systems and supported software, including one weakness that is already being actively exploited and two others that were publicly detailed prior to today."
     }
   ],
   "syndicate_journal": [
+    {
+      "title": "New Heart Attack Definitions Could Lead to Better Care for Women",
+      "link": "https://nautil.us/new-heart-attack-definitions-could-lead-to-better-care-for-women-1284697/",
+      "summary": "Uncommon heart attack causes disproportionately affect them\nThe post New Heart Attack Definitions Could Lead to Better Care for Women appeared first on Nautilus.",
+      "pubDate": "Tue, 01 Sep 2026 20:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "Centrist Democrats Are Trying to Throw the Michigan Race",
+      "link": "",
+      "summary": "In Michigan, where progressive Abdul El-Sayed is facing off for the must-win Senate seat against Donald Trump–backed Mike Rogers, Democrats have a problem. How to reconcile their distaste for their own party’s nominee with the imperative to care about winning?\nAttorney General Dana Nessel modeled a ",
+      "pubDate": "2026-09-01T19:57:45.230Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
     {
       "title": "Your Organs Age at Different Paces—And They’re Coordinating With Each Other",
       "link": "https://nautil.us/your-organs-age-at-different-paces-and-theyre-coordinating-with-each-other-1284694/",
@@ -758,22 +777,6 @@
       "pubDate": "2026-09-01T15:03:13.390Z",
       "domain": "politics",
       "source": "Jacobin"
-    },
-    {
-      "title": "The Human Soul of the Fight to Control AI",
-      "link": "",
-      "summary": "During World War II, bomber pilots would tell each other, “if you’re taking flak, you’re over the target.” Don’t demur, you’ve struck a nerve. Opposition, at times, isn’t all that bad a sign — if anything, it could point to something good, or at least true. Judged by that standard, the reception of ",
-      "pubDate": "2026-09-01T14:10:08.672Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
-      "title": "Your Ability to Cope with Stress Changes with the Seasons and Your Own Biological Clocks",
-      "link": "https://nautil.us/your-ability-to-cope-with-stress-changes-with-the-seasons-and-your-own-biological-clocks-1284678/",
-      "summary": "Stress resilience is a dynamic balance rather than a fixed trait\nThe post Your Ability to Cope with Stress Changes with the Seasons and Your Own Biological Clocks appeared first on Nautilus.",
-      "pubDate": "Tue, 01 Sep 2026 14:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
     },
     {
       "title": "What Civics Class Is For",
@@ -992,9 +995,9 @@
       "source": "ROAR Magazine"
     },
     {
-      "title": "Differential pathways linking social interaction and Loneliness among university students in the age of artificial intelligence: the mediating role of Social Capital",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1884079",
-      "summary": "Based on Social Capital theory, this study explores the mechanisms linking emerging forms of social interaction and individual Loneliness among university students in the age of artificial intelligence (AI), from the perspective of Social Capital accumulation within AI-mediated social environments. ",
+      "title": "Follower proactive behavior reducing supervisory abuse: the role of leader future orientation and follower in-role performance",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1916692",
+      "summary": "IntroductionDespite growing interest in leaders’ responses to employee proactivity, it remains largely unanswered whether and when subordinate proactive behavior mitigates supervisory abuse.MethodsWe propose a model grounded in the logic of moral exclusion, in which subordinate proactive behavior re",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
@@ -1008,9 +1011,9 @@
       "source": "Frontiers Psychology"
     },
     {
-      "title": "Normal gains: estimators of learning rates in pretest-posttest settings",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1901493",
-      "summary": "IntroductionNonlinear transformations of pretest and posttest scores are widely used in educational and psychological measurement to estimate group-level change, yet the statistical behavior of estimators derived from such transformations under measurement error remains poorly understood. We examine",
+      "title": "Mindfulness and learning engagement among undergraduate dance majors: the serial mediating roles of self-efficacy and academic burnout",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1852116",
+      "summary": "BackgroundIn recent years, China has continued to strengthen arts education reform and the development of aesthetic education. The training regimen for dance majors is characterized by high intensity, high repetition, precise error correction, and continuous assessment; the stress resulting from the",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
@@ -1018,64 +1021,64 @@
   ],
   "misinfo_toilet": [
     {
-      "headline": "China or the U.S.? Two Meetings Offer Competing Showcases of Global Power.",
-      "fragment": "Why do men fight for their servitude as stubbornly as though it were their salvation?",
-      "splice": "China or the U.S.? Two Meetings Offer Competing Showcases of Global Power. ...as why do men fight for their servitude as stubbornly as though it were their salvation?",
-      "seed": 20260919
+      "headline": "Iran retaliates after US strikes kill four at wedding party, state media reports",
+      "fragment": "An ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
+      "splice": "Iran retaliates after US strikes kill four at wedding party, state media reports in the void where an ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
+      "seed": 20260905
     },
     {
-      "headline": "Pitso Mosimane appointed by South Africa ahead of AFCON qualifiers",
+      "headline": "China or the U.S.? Two Meetings Offer Competing Showcases of Global Power.",
+      "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
+      "splice": "China or the U.S.? Two Meetings Offer Competing Showcases of Global Power. consequently the breast is a machine that produces milk, and the mouth a machine coupled to it.",
+      "seed": 20260906
+    },
+    {
+      "headline": "IAEA says Syria built a nuclear reactor in Deir Az Zor under al-Assad",
       "fragment": "The current ruling ontology denies any possibility of a social causation of mental illness. The chemico-biologization of mental illness is of course strictly commensurate with its depoliticization.",
-      "splice": "Pitso Mosimane appointed by South Africa ahead of AFCON qualifiers consequently the current ruling ontology denies any possibility of a social causation of mental illness. The chemico-biologization of mental illness is of course strictly commensurate with its depoliticization.",
-      "seed": 20260920
+      "splice": "IAEA says Syria built a nuclear reactor in Deir Az Zor under al-Assad meanwhile the current ruling ontology denies any possibility of a social causation of mental illness. The chemico-biologization of mental illness is of course strictly commensurate with its depoliticization.",
+      "seed": 20260907
+    },
+    {
+      "headline": "Top US lawmaker Mike Johnson says lying is part of some Iranians’ religion",
+      "fragment": "Everywhere it is machines—real ones, not figurative ones: machines driving other machines, machines being driven by other machines, with all the necessary couplings and connections.",
+      "splice": "Top US lawmaker Mike Johnson says lying is part of some Iranians’ religion within which everywhere it is machines—real ones, not figurative ones: machines driving other machines, machines being driven by other machines, with all the necessary couplings and connections.",
+      "seed": 20260908
+    },
+    {
+      "headline": "Will Ronaldo Cry​? World Cup Fans Bet Billions Through Prediction Markets",
+      "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
+      "splice": "Will Ronaldo Cry​? World Cup Fans Bet Billions Through Prediction Markets the signal resolves into it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
+      "seed": 20260909
+    },
+    {
+      "headline": "U.S. Sanctions on Iran Cut Off Students From Tests Needed for Study Abroad",
+      "fragment": "Art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
+      "splice": "U.S. Sanctions on Iran Cut Off Students From Tests Needed for Study Abroad while art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
+      "seed": 20260910
+    },
+    {
+      "headline": "Tracking a Sanctioned Russian Vessel’s West African Odyssey",
+      "fragment": "This is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
+      "splice": "Tracking a Sanctioned Russian Vessel’s West African Odyssey the system notes that this is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
+      "seed": 20260911
+    },
+    {
+      "headline": "Honduran court drops case against ex-President Hernandez after Trump pardon",
+      "fragment": "Why do men fight for their servitude as stubbornly as though it were their salvation?",
+      "splice": "Honduran court drops case against ex-President Hernandez after Trump pardon ...as why do men fight for their servitude as stubbornly as though it were their salvation?",
+      "seed": 20260912
+    },
+    {
+      "headline": "Investigating a Murder: Public Records Uncover New Clues in Chinatown Cold Case",
+      "fragment": "The current ruling ontology denies any possibility of a social causation of mental illness. The chemico-biologization of mental illness is of course strictly commensurate with its depoliticization.",
+      "splice": "Investigating a Murder: Public Records Uncover New Clues in Chinatown Cold Case consequently the current ruling ontology denies any possibility of a social causation of mental illness. The chemico-biologization of mental illness is of course strictly commensurate with its depoliticization.",
+      "seed": 20260913
     },
     {
       "headline": "Sexual assaults happening almost every day in Ceuta, prosecutors say",
       "fragment": "Everywhere it is machines—real ones, not figurative ones: machines driving other machines, machines being driven by other machines, with all the necessary couplings and connections.",
       "splice": "Sexual assaults happening almost every day in Ceuta, prosecutors say insofar as everywhere it is machines—real ones, not figurative ones: machines driving other machines, machines being driven by other machines, with all the necessary couplings and connections.",
-      "seed": 20260921
-    },
-    {
-      "headline": "US health authorities contradict state officials on measles-related deaths",
-      "fragment": "There is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
-      "splice": "US health authorities contradict state officials on measles-related deaths within which there is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
-      "seed": 20260922
-    },
-    {
-      "headline": "Germany says Russia behind Leipzig airport drone attack",
-      "fragment": "The simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
-      "splice": "Germany says Russia behind Leipzig airport drone attack consequently the simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
-      "seed": 20260923
-    },
-    {
-      "headline": "Welcome to Dubai: Kinahan Cartel’s Visas Revealed",
-      "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "splice": "Welcome to Dubai: Kinahan Cartel’s Visas Revealed which is to say the breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "seed": 20260924
-    },
-    {
-      "headline": "Christian Employers Can Now Discriminate Against Trans People",
-      "fragment": "The technocrat is the natural friend of the dictator—computers and dictatorship.",
-      "splice": "Christian Employers Can Now Discriminate Against Trans People as if the technocrat is the natural friend of the dictator—computers and dictatorship.",
-      "seed": 20260925
-    },
-    {
-      "headline": "China’s Xi makes first visit to Egypt in a decade, amid regional turmoil",
-      "fragment": "Reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
-      "splice": "China’s Xi makes first visit to Egypt in a decade, amid regional turmoil despite reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
-      "seed": 20260926
-    },
-    {
-      "headline": "Trump Goes After Anonymous Email Provider in Italy. The Real Target Is Free Speech in the U.S.",
-      "fragment": "The truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
-      "splice": "Trump Goes After Anonymous Email Provider in Italy. The Real Target Is Free Speech in the U.S. insofar as the truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
-      "seed": 20260927
-    },
-    {
-      "headline": "As Michigan Senate race heats up, Vance calls El-Sayed 'evil' ",
-      "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "splice": "As Michigan Senate race heats up, Vance calls El-Sayed 'evil'  underneath the breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "seed": 20260928
+      "seed": 20260914
     }
   ]
 }
