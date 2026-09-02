@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T10:53:54.724Z",
+  "generated_at": "2026-09-02T16:12:59.074Z",
   "threat_intel": {
     "cisa_kev": [
       {
@@ -237,9 +237,19 @@
     ],
     "urlhaus": [
       {
-        "id": "3911345",
-        "date_added": "2026-09-02 10:22:27",
-        "url": "http://222.246.41.226:44313/i",
+        "id": "3911407",
+        "date_added": "2026-09-02 16:01:08",
+        "url": "http://105.184.31.171:41073/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3911404",
+        "date_added": "2026-09-02 15:48:22",
+        "url": "http://117.131.92.150:59473/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -251,9 +261,189 @@
         ]
       },
       {
-        "id": "3911344",
-        "date_added": "2026-09-02 10:07:21",
-        "url": "http://222.141.117.155:41936/bin.sh",
+        "id": "3911403",
+        "date_added": "2026-09-02 15:30:06",
+        "url": "http://62.60.226.140/files/1372270670/R0DFXXB.exe",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "d52f85",
+          "dropped-by-amadey"
+        ]
+      },
+      {
+        "id": "3911402",
+        "date_added": "2026-09-02 15:24:13",
+        "url": "https://odinclient.dev/api/download",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          ".jar malware",
+          "hypixel",
+          "minecraft",
+          "trojan"
+        ]
+      },
+      {
+        "id": "3911401",
+        "date_added": "2026-09-02 15:24:10",
+        "url": "http://180.93.111.142/AGbot.x86_64",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3911390",
+        "date_added": "2026-09-02 15:24:08",
+        "url": "http://180.93.111.142/AGbot.armv6l",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3911391",
+        "date_added": "2026-09-02 15:24:08",
+        "url": "http://180.93.111.142/AGbot.mips",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3911392",
+        "date_added": "2026-09-02 15:24:08",
+        "url": "http://180.93.111.142/all.sh",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3911393",
+        "date_added": "2026-09-02 15:24:08",
+        "url": "http://180.93.111.142/AGbot.armv7l",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3911394",
+        "date_added": "2026-09-02 15:24:08",
+        "url": "http://180.93.111.142/AGbot.i686",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3911395",
+        "date_added": "2026-09-02 15:24:08",
+        "url": "http://180.93.111.142/AGbot.i486",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3911396",
+        "date_added": "2026-09-02 15:24:08",
+        "url": "http://180.93.111.142/AGbot.armv4l",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3911397",
+        "date_added": "2026-09-02 15:24:08",
+        "url": "http://180.93.111.142/AGbot.i586",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3911398",
+        "date_added": "2026-09-02 15:24:08",
+        "url": "http://180.93.111.142/AGbot.powerpc",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3911399",
+        "date_added": "2026-09-02 15:24:08",
+        "url": "http://180.93.111.142/AGbot.mipsel",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3911400",
+        "date_added": "2026-09-02 15:24:08",
+        "url": "http://180.93.111.142/AGbot.armv5l",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3911389",
+        "date_added": "2026-09-02 15:21:06",
+        "url": "http://113.239.211.197:60107/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3911388",
+        "date_added": "2026-09-02 15:02:28",
+        "url": "http://110.138.3.140:53454/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "mirai",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3911387",
+        "date_added": "2026-09-02 14:53:12",
+        "url": "http://91.92.242.236/files-129312398/files/file_3357265371188090.exe",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "c2-monitor-auto",
+          "dropped-by-amadey",
+          "Vidar"
+        ]
+      },
+      {
+        "id": "3911386",
+        "date_added": "2026-09-02 14:42:14",
+        "url": "http://125.42.14.164:53770/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -262,238 +452,121 @@
           "mips",
           "Mozi"
         ]
-      },
-      {
-        "id": "3911343",
-        "date_added": "2026-09-02 10:06:07",
-        "url": "http://105.186.83.56:41911/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "mirai"
-        ]
-      },
-      {
-        "id": "3911342",
-        "date_added": "2026-09-02 10:02:03",
-        "url": "http://112.239.122.120:56039/i",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3911341",
-        "date_added": "2026-09-02 10:01:50",
-        "url": "http://183.158.162.161:47195/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "mirai"
-        ]
-      },
-      {
-        "id": "3911340",
-        "date_added": "2026-09-02 10:01:43",
-        "url": "http://113.221.47.202:40057/bin.sh",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3911339",
-        "date_added": "2026-09-02 10:01:38",
-        "url": "http://58.255.40.142:44835/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3911338",
-        "date_added": "2026-09-02 10:01:37",
-        "url": "http://122.99.60.138:56774/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "mirai"
-        ]
-      },
-      {
-        "id": "3911333",
-        "date_added": "2026-09-02 10:01:36",
-        "url": "http://103.28.35.195/x86_64",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "mirai"
-        ]
-      },
-      {
-        "id": "3911334",
-        "date_added": "2026-09-02 10:01:36",
-        "url": "http://58.22.18.152:33899/Mozi.m",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "mirai"
-        ]
-      },
-      {
-        "id": "3911335",
-        "date_added": "2026-09-02 10:01:36",
-        "url": "http://115.49.73.224:59218/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3911336",
-        "date_added": "2026-09-02 10:01:36",
-        "url": "http://42.85.203.26:39846/i",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3911337",
-        "date_added": "2026-09-02 10:01:36",
-        "url": "http://175.175.22.43:45156/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3911320",
-        "date_added": "2026-09-02 10:01:35",
-        "url": "http://183.150.141.1:57127/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "mirai"
-        ]
-      },
-      {
-        "id": "3911321",
-        "date_added": "2026-09-02 10:01:35",
-        "url": "http://77.39.107.229:31816/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3911322",
-        "date_added": "2026-09-02 10:01:35",
-        "url": "http://123.14.123.154:33340/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3911323",
-        "date_added": "2026-09-02 10:01:35",
-        "url": "http://42.52.200.244:35103/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3911324",
-        "date_added": "2026-09-02 10:01:35",
-        "url": "http://119.116.121.152:35357/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "mirai"
-        ]
-      },
-      {
-        "id": "3911325",
-        "date_added": "2026-09-02 10:01:35",
-        "url": "http://45.171.177.193:36258/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "mirai"
-        ]
-      },
-      {
-        "id": "3911326",
-        "date_added": "2026-09-02 10:01:35",
-        "url": "http://220.192.240.230:47099/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
       }
     ]
   },
   "world_monitor": [
     {
-      "title": "How indie cinema is beating Hollywood in 2026",
-      "link": "https://www.aljazeera.com/video/money-works/2026/9/2/how-indie-cinema-is-beating-hollywood-in-2026?traffic_source=rss",
-      "pubDate": "Wed, 02 Sep 2026 10:20:57 +0000",
-      "source": "Al Jazeera",
-      "summary": "How indie cinema is beating Hollywood in 2026"
-    },
-    {
-      "title": "5,000 US sailors descend on Thailand as USS Abraham Lincoln docks",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/9/2/5000-us-sailors-descend-on-thailand-as-uss-abraham-lincoln-docks?traffic_source=rss",
-      "pubDate": "Wed, 02 Sep 2026 10:08:44 +0000",
-      "source": "Al Jazeera",
-      "summary": "Thailand’s Pattaya is expecting a business boost as 5,000 US sailors arrive aboard the USS Abraham Lincoln."
-    },
-    {
-      "title": "Thousands still missing as Nepal-Tibet flood relief and recovery intensifies",
-      "link": "https://www.bbc.co.uk/news/articles/c8xk45k9r1go?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Wed, 02 Sep 2026 10:07:02 GMT",
+      "title": "Zelensky says airlines should avoid Russian airspace as Ukraine escalates drone operations",
+      "link": "https://www.bbc.co.uk/news/articles/c9v9yydy2wvo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Wed, 02 Sep 2026 16:12:43 GMT",
       "source": "BBC",
-      "summary": "More than 1, 000 people have died and thousands are missing, with communities relying on airlifted supplies."
+      "summary": "Chinese and Gulf state airlines are among those still using Russian airspace. Meanwhile, Russia says it will intensify its own attacks on Ukraine."
     },
     {
-      "title": "US sailors arrive at Thailand's Pattaya after record 250 days at sea",
+      "title": "Iran says US strike killed four at wedding in 'war crime' as US denies targeting civilians",
+      "link": "https://www.bbc.co.uk/news/articles/cj06q4ynpmjo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Wed, 02 Sep 2026 15:33:19 GMT",
+      "source": "BBC",
+      "summary": "Iranian media reports two children were among those killed when shrapnel hit a home. Iran then launched missiles and drones at US targets in the Middle East."
+    },
+    {
+      "title": "Aubameyang ‘humiliated’ as ex-Arsenal striker quits Gabon national team",
+      "link": "https://www.aljazeera.com/sports/2026/9/2/aubameyang-humiliated-as-ex-arsenal-striker-quits-gabon-national-team?traffic_source=rss",
+      "pubDate": "Wed, 02 Sep 2026 15:21:43 +0000",
+      "source": "Al Jazeera",
+      "summary": "Pierre-Emerick Aubameyang cites 2025 Africa Cup of Nations treatment as captain steps away from Gabon duty."
+    },
+    {
+      "title": "The ‘Miracle House’ That Survived Nepal’s Floods",
+      "link": "https://www.nytimes.com/2026/09/02/world/asia/nepal-flood-miracle-house-dhunge-bazaar.html",
+      "pubDate": "Wed, 02 Sep 2026 15:21:31 +0000",
+      "source": "NYT World",
+      "summary": "People are coming to take photos of the green-painted house, which kept the Pyakurel family safe as the area all around them was destroyed by rampaging floodwaters."
+    },
+    {
+      "title": "Nepal PM links deadly floods to climate change",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/9/2/nepal-pm-links-deadly-floods-to-climate-change?traffic_source=rss",
+      "pubDate": "Wed, 02 Sep 2026 15:11:19 +0000",
+      "source": "Al Jazeera",
+      "summary": "Nepal PM links deadly floods to climate change"
+    },
+    {
+      "title": "U.S. and Iran Survey the Damage After a Night of Intense Strikes",
+      "link": "https://www.nytimes.com/2026/09/02/world/middleeast/us-iran-strikes.html",
+      "pubDate": "Wed, 02 Sep 2026 15:01:41 +0000",
+      "source": "NYT World",
+      "summary": "The American military said its barrage was retaliation against recent attacks on U.S. forces and marine traffic. Iranian officials said a wedding was hit and civilians killed."
+    },
+    {
+      "title": "China’s Xi visits Egypt’s el-Sisi: Why it matters",
+      "link": "https://www.aljazeera.com/news/2026/9/2/chinas-xi-visits-egypts-el-sisi-why-it-matters?traffic_source=rss",
+      "pubDate": "Wed, 02 Sep 2026 15:00:30 +0000",
+      "source": "Al Jazeera",
+      "summary": "Xi Jinping's historic Egypt visit aims to strengthen China-Egypt ties amid rising Middle East tensions."
+    },
+    {
+      "title": "Can Ukraine’s drones shut Russian airspace? What that means for airlines",
+      "link": "https://www.aljazeera.com/features/2026/9/2/can-ukraines-drones-shut-russian-airspace-what-that-means-for-airlines?traffic_source=rss",
+      "pubDate": "Wed, 02 Sep 2026 14:55:16 +0000",
+      "source": "Al Jazeera",
+      "summary": "What happens if the airspace of the world's largest country by land mass is out of bounds because of Ukrainian drones?"
+    },
+    {
+      "title": "Gaza Civil Defence worker finds 21 relatives beneath rubble",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/9/2/gaza-civil-defence-worker-finds-21-relatives-beneath-rubble?traffic_source=rss",
+      "pubDate": "Wed, 02 Sep 2026 14:45:26 +0000",
+      "source": "Al Jazeera",
+      "summary": "A Gaza Civil Defence worker helped recover the bodies of 21 of his relatives from beneath the rubble."
+    },
+    {
+      "title": "ICE Is Paying a Controversial AI Firm to Hide the Identities of Agents",
+      "link": "https://theintercept.com/2026/09/02/ice-ai-whistleblower-doxing-zerofox/",
+      "pubDate": "Wed, 02 Sep 2026 14:39:36 +0000",
+      "source": "The Intercept",
+      "summary": "In a leaked memo, an ICE official tells employees the new AI tech will protect them from doxing. Some worry it could be used to root out whistleblowers.\nThe post ICE Is Paying a Controversial AI Firm to Hide the Identities of Agents appeared first on"
+    },
+    {
+      "title": "EU and Nato vow to step up pressure on Russia after 'new escalation' in Germany",
+      "link": "https://www.bbc.co.uk/news/articles/ce9e810pg7ko?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Wed, 02 Sep 2026 14:34:22 GMT",
+      "source": "BBC",
+      "summary": "Russia is accused of growing increasingly reckless after Berlin blamed Russia for a failed drone attack on Leipzig airport."
+    },
+    {
+      "title": "Rosenberg: Putin's veiled threat to UK part of Russia's campaign against West",
+      "link": "https://www.bbc.co.uk/news/articles/c62j50n131mo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Wed, 02 Sep 2026 11:47:11 GMT",
+      "source": "BBC",
+      "summary": "The Russian president wants to keep Britain guessing - and stressing - over Moscow's real intentions."
+    },
+    {
+      "title": "US sailors arrive in Thailand's Pattaya after record 250 days at sea",
       "link": "https://www.bbc.co.uk/news/articles/cg7k09z4lj9o?at_medium=RSS&at_campaign=rss",
       "pubDate": "Wed, 02 Sep 2026 10:04:28 GMT",
       "source": "BBC",
       "summary": "The USS Abraham Lincoln is docking close to Pattaya, known for its neon-lit nightlife, and for sex tourism."
     },
     {
-      "title": "Zelensky says airlines should avoid Russian airspace as Ukraine escalates drone operations",
-      "link": "https://www.bbc.co.uk/news/articles/c9v9yydy2wvo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Wed, 02 Sep 2026 10:00:08 GMT",
-      "source": "BBC",
-      "summary": "Chinese and Gulf state airlines are among those still using Russian airspace. Meanwhile, Russia says it will intensify its own attacks on Ukraine."
+      "title": "U.S.S. Abraham Lincoln Docks in Thailand, Giving Weary Crew a Break",
+      "link": "https://www.nytimes.com/2026/09/02/world/asia/uss-lincoln-arrives-thailand.html",
+      "pubDate": "Wed, 02 Sep 2026 09:32:29 +0000",
+      "source": "NYT World",
+      "summary": "Thousands of sailors and Marines serve on the U.S.S. Abraham Lincoln, which came into the spotlight because of a tough deployment in the war in Iran."
     },
     {
-      "title": "Nepal search operations continue a week after catastrophic floods",
-      "link": "https://www.aljazeera.com/news/2026/9/2/nepal-search-operations-continue-a-week-after-catastrophic-floods?traffic_source=rss",
-      "pubDate": "Wed, 02 Sep 2026 09:45:52 +0000",
-      "source": "Al Jazeera",
-      "summary": "The UN says the disaster has left at least 2.2 million tonnes of debris, according to a preliminary estimate."
+      "title": "Attacks in Black Sea Threaten to Strangle Global Grain Supply",
+      "link": "https://www.nytimes.com/2026/09/02/world/europe/russia-ukraine-port-attacks-farmers-grain.html",
+      "pubDate": "Wed, 02 Sep 2026 09:05:50 +0000",
+      "source": "NYT World",
+      "summary": "Strikes on ports and vessels by both Russia and Ukraine have left farmers facing ruin and could cause another worldwide food shock."
     },
     {
-      "title": "What we know about jailed HK activist Joshua Wong’s latest charge",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/9/2/what-we-know-about-jailed-hk-activist-joshua-wongs-latest-charge?traffic_source=rss",
-      "pubDate": "Wed, 02 Sep 2026 09:17:49 +0000",
-      "source": "Al Jazeera",
-      "summary": "What we know about jailed HK activist Joshua Wong’s latest charge"
+      "title": "Inside the Fight Against a Flesh-Eating Fly in Mexico",
+      "link": "https://www.nytimes.com/2026/09/02/world/americas/screwworm-facility-mexico.html",
+      "pubDate": "Wed, 02 Sep 2026 09:01:07 +0000",
+      "source": "NYT World",
+      "summary": "For the first time in a year, the U.S.-Mexico border partly reopened to cattle imports following a screwworm infestation across the region. The battle against the flesh-eating fly has only just begun deep in Mexico."
     },
     {
       "title": "The U.S. Has Killed 227 Civilians in Boat Strikes During “A Year of Murders”",
@@ -503,67 +576,11 @@
       "summary": "“The boat strikes are, perhaps, the most stark testament to the lawlessness of the Trump administration.”\nThe post The U.S. Has Killed 227 Civilians in Boat Strikes During “A Year of Murders” appeared first on The Intercept."
     },
     {
-      "title": "Iran, US exchange new attacks: Who was hit in latest strikes?",
-      "link": "https://www.aljazeera.com/news/2026/9/2/iran-us-exchange-new-attacks-who-was-hit-in-latest-strikes?traffic_source=rss",
-      "pubDate": "Wed, 02 Sep 2026 08:55:20 +0000",
-      "source": "Al Jazeera",
-      "summary": "Iran says the US bombed a wedding near the Strait of Hormuz; hits Kuwait, Bahrain, and Jordan in retaliation."
-    },
-    {
-      "title": "Why US troops have a history in this raucous Thai city",
-      "link": "https://www.bbc.co.uk/news/videos/c5yw03jr892o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Wed, 02 Sep 2026 07:18:39 GMT",
-      "source": "BBC",
-      "summary": "The BBC's Jonathan Head looks at the historical echoes of US troops arriving in Pattaya, a beach resort famous for its racy bars."
-    },
-    {
-      "title": "BBC travels inside occupied Lebanon as officials say Israel expanding positions",
-      "link": "https://www.bbc.co.uk/news/articles/cge41d19gq9o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Wed, 02 Sep 2026 05:03:09 GMT",
-      "source": "BBC",
-      "summary": "A BBC team joined a humanitarian mission of the UN peacekeeping force, which says Israeli troops are fortifying positions and continuing demolitions."
-    },
-    {
-      "title": "China or the U.S.? Two Meetings Offer Competing Showcases of Global Power.",
-      "link": "https://www.nytimes.com/2026/09/01/world/asia/g20-meeting-china-trump-bishkek.html",
-      "pubDate": "Wed, 02 Sep 2026 03:04:58 +0000",
-      "source": "NYT World",
-      "summary": "As Xi Jinping gathered with the leaders of Russia and Iran, Europe challenged the Trump administration at the G20, offering a split-screen view of a changing world."
-    },
-    {
-      "title": "Weeks After Failed Drone Attack, Germany Points Finger at Russia",
-      "link": "https://www.nytimes.com/2026/09/01/world/europe/germany-russia-drone-airport.html",
-      "pubDate": "Tue, 01 Sep 2026 23:38:03 +0000",
-      "source": "NYT World",
-      "summary": "The country said Moscow was behind an explosive-laden drone found near a Ukrainian plane at a German airport last month. President Vladimir Putin of Russia called the accusation “a grave mistake.”"
-    },
-    {
-      "title": "The Ritual of Coffin Making in a City Hit by Ebola",
-      "link": "https://www.nytimes.com/2026/09/01/world/africa/congo-ebola-coffins.html",
-      "pubDate": "Tue, 01 Sep 2026 21:26:24 +0000",
-      "source": "NYT World",
-      "summary": "While several coffin makers in Bunia said they were providing a public service, the virus has put them at the center of a debate around safe burials."
-    },
-    {
       "title": "CBS News Spins El-Sayed’s 9/11 Tweets Into a Manufactured Anti-Muslim Scandal",
       "link": "https://theintercept.com/2026/09/01/cbs-news-abdul-el-sayed-9-11-tweets/",
       "pubDate": "Tue, 01 Sep 2026 21:14:44 +0000",
       "source": "The Intercept",
       "summary": "Centrist Democrats opened the door for anti-Muslim attacks on their party’s nominee in Michigan — finding common cause with right-wing bigots.\nThe post CBS News Spins El-Sayed’s 9/11 Tweets Into a Manufactured Anti-Muslim Scandal appeared first on Th"
-    },
-    {
-      "title": "China Censors and Punishes to Shape Narrative on Floods in Tibet, a Contrast to Nepal",
-      "link": "https://www.nytimes.com/2026/09/01/world/asia/china-tibet-floods-nepal-censorship.html",
-      "pubDate": "Tue, 01 Sep 2026 21:10:03 +0000",
-      "source": "NYT World",
-      "summary": "While journalists can report freely on grief and anger in Nepal, China’s official media have presented a sanitized disaster aftermath in Tibet."
-    },
-    {
-      "title": "U.S. Sanctions on Iran Cut Off Students From Tests Needed for Study Abroad",
-      "link": "https://www.nytimes.com/2026/09/01/world/middleeast/iran-study-abroad-sanctions.html",
-      "pubDate": "Tue, 01 Sep 2026 15:04:17 +0000",
-      "source": "NYT World",
-      "summary": "The latest measures have forced the cancellation of English proficiency and graduate exams, isolating many Iranians most eager to foster ties with the world."
     },
     {
       "title": "Christian Employers Can Now Discriminate Against Trans People",
@@ -585,13 +602,6 @@
       "pubDate": "Mon, 31 Aug 2026 09:00:00 +0000",
       "source": "The Intercept",
       "summary": "The U.S.–Israeli war has caused massive environmental devastation, adding to the long history of American wars with toxic legacies.\nThe post Ecocide in Iran appeared first on The Intercept."
-    },
-    {
-      "title": "Western North Carolina Pleaded for Hurricane Help. It Got ICE Instead.",
-      "link": "https://theintercept.com/2026/08/29/hurricane-helene-ice-asheville-nc-g20-trump/",
-      "pubDate": "Sat, 29 Aug 2026 10:00:00 +0000",
-      "source": "The Intercept",
-      "summary": "As the G20 descends on Asheville, the communities that helped rebuild after Hurricane Helene live in fear of Trump’s immigration regime.\nThe post Western North Carolina Pleaded for Hurricane Help. It Got ICE Instead. appeared first on The Intercept."
     },
     {
       "title": "Tracking a Sanctioned Russian Vessel’s West African Odyssey",
@@ -689,6 +699,70 @@
   ],
   "syndicate_journal": [
     {
+      "title": "How Music Sparks Imagination",
+      "link": "https://nautil.us/how-music-sparks-imagination-1284721/",
+      "summary": "Songs are closely linked to narrative and language\nThe post How Music Sparks Imagination appeared first on Nautilus.",
+      "pubDate": "Wed, 02 Sep 2026 16:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "How Your Genes Shape Your Personality",
+      "link": "https://nautil.us/how-your-genes-shape-your-personality-1284718/",
+      "summary": "A new study probes genetic variants linked to the big five personality traits\nThe post How Your Genes Shape Your Personality appeared first on Nautilus.",
+      "pubDate": "Wed, 02 Sep 2026 15:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "Genome Duplication Is a Radical Evolutionary Gamble",
+      "link": "https://www.quantamagazine.org/genome-duplication-is-a-radical-evolutionary-gamble-20260902/",
+      "summary": "By doubling their entire genome, organisms can evolve extremely rapidly — or they can lose it all. New studies reveal how to survive the high-risk, high-reward evolutionary event.            \nThe post Genome Duplication Is a Radical Evolutionary Gamble first appeared on Quanta Magazine",
+      "pubDate": "Wed, 02 Sep 2026 14:21:02 +0000",
+      "domain": "science",
+      "source": "Quanta"
+    },
+    {
+      "title": "Will AI Destroy the Meritocracy?",
+      "link": "",
+      "summary": "There is a lot of debate about whether artificial intelligence, large language models (LLMs) in particular, will make people smarter or dumber. The case for dumber is that LLMs can be used as a substitute for learning. Rather than struggling through a subject and working your brain around understand",
+      "pubDate": "2026-09-02T14:18:38.766Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "Why Do Male Chimpanzees Throw Rocks at the Same Trees for More Than a Decade?",
+      "link": "https://nautil.us/why-do-male-chimpanzees-throw-rocks-at-the-same-trees-for-more-than-a-decade-1284704/",
+      "summary": "Accumulative stone throwing is a rare, potentially cultural, behavior that has been observed among four groups of wild chimpanzees in West Africa\nThe post Why Do Male Chimpanzees Throw Rocks at the Same Trees for More Than a Decade? appeared first on Nautilus.",
+      "pubDate": "Wed, 02 Sep 2026 14:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "A Brief History of Women’s Underwear",
+      "link": "https://daily.jstor.org/a-brief-history-of-womens-underwear/",
+      "summary": "The University of Wyoming’s Historic Clothing Collection offers a revealing look beneath the fashions of the past.\nThe post A Brief History of Women’s Underwear appeared first on JSTOR Daily.",
+      "pubDate": "Wed, 02 Sep 2026 13:45:00 +0000",
+      "domain": "history",
+      "source": "JSTOR Daily"
+    },
+    {
+      "title": "Spiking Bond Yields Pay the Rich and Squeeze Everyone Else",
+      "link": "",
+      "summary": "The recent rise in long-term US Treasury yields has revived a familiar story about fiscal irresponsibility. Commentators point to large federal deficits, growing public debt, and the volume of Treasury securities coming onto the market. From this perspective, higher yields are the market’s response ",
+      "pubDate": "2026-09-02T13:33:47.977Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "A Strong Welfare State Changes the Meaning of Unemployment",
+      "link": "",
+      "summary": "On a fall evening in 2015, I accepted — with some reluctance — an invitation to a gathering at the home of Nina Witoszek, a popular émigré writer and gadfly in Oslo. I did not know Nina well, though for years I had read her columns in , Norway’s largest newspaper. I had also seen firsthand how her a",
+      "pubDate": "2026-09-02T12:43:46.700Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
       "title": "HyperWorld: Hypergraph-Structured State Serialization Improves Learned Textual World Models",
       "link": "https://arxiv.org/abs/2609.00002",
       "summary": "arXiv:2609.00002v1 Announce Type: new \nAbstract: World models enable language-model agents to predict environment dynamics and plan before acting. In text environments, the model must learn symbolic action effects from serialized state descriptions, but the role of serialization structure remains un",
@@ -711,54 +785,6 @@
       "pubDate": "Wed, 02 Sep 2026 00:00:00 -0400",
       "domain": "science",
       "source": "arXiv: cs.AI"
-    },
-    {
-      "title": "New Heart Attack Definitions Could Lead to Better Care for Women",
-      "link": "https://nautil.us/new-heart-attack-definitions-could-lead-to-better-care-for-women-1284697/",
-      "summary": "Uncommon heart attack causes disproportionately affect them\nThe post New Heart Attack Definitions Could Lead to Better Care for Women appeared first on Nautilus.",
-      "pubDate": "Tue, 01 Sep 2026 20:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
-      "title": "Centrist Democrats Are Trying to Throw the Michigan Race",
-      "link": "",
-      "summary": "In Michigan, where progressive Abdul El-Sayed is facing off for the must-win Senate seat against Donald Trump–backed Mike Rogers, Democrats have a problem. How to reconcile their distaste for their own party’s nominee with the imperative to care about winning?\nAttorney General Dana Nessel modeled a ",
-      "pubDate": "2026-09-01T19:57:45.230Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
-      "title": "Your Organs Age at Different Paces—And They’re Coordinating With Each Other",
-      "link": "https://nautil.us/your-organs-age-at-different-paces-and-theyre-coordinating-with-each-other-1284694/",
-      "summary": "Your colon and prostate may have synchronized their watches \nThe post Your Organs Age at Different Paces—And They’re Coordinating With Each Other appeared first on Nautilus.",
-      "pubDate": "Tue, 01 Sep 2026 18:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
-      "title": "Schizophrenia’s Cruel Roulette Wheel",
-      "link": "https://nautil.us/schizophrenias-cruel-roulette-wheel-1284681/",
-      "summary": "Genetics and stress can combine in ways we don’t yet fully understand\nThe post Schizophrenia’s Cruel Roulette Wheel appeared first on Nautilus.",
-      "pubDate": "Tue, 01 Sep 2026 16:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
-      "title": "The Dog Stars Is a Western in Postapocalyptic Drag",
-      "link": "",
-      "summary": "The dullest yet most enraging film of the year may very well be , a draggy postapocalyptic thriller with no thrills, even of the grim dystopian kind.The Dog Stars\nThis latest effort by director Ridley Scott, from a screenplay by Mark L. Smith () based on the 2012 novel of the same name by Peter Hell",
-      "pubDate": "2026-09-01T15:47:52.890Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
-      "title": "The Scandal That Could Break the Latin American Far Right",
-      "link": "",
-      "summary": "On Tuesday, August 18, an Argentine citizen named Fernando Cerimedo was  at the Viru Viru International Airport in Santa Cruz de la Sierra, Bolivia. Cerimedo, age forty-five, was charged with the attempted homicide of his ex-partner, Bolivian lawyer Nadia Beller, and ordered held for 180 days of pre",
-      "pubDate": "2026-09-01T15:03:13.390Z",
-      "domain": "politics",
-      "source": "Jacobin"
     },
     {
       "title": "What Civics Class Is For",
@@ -829,22 +855,6 @@
       "link": "https://www.quantamagazine.org/does-computer-science-need-computers-20260828/",
       "summary": "The theoretical side of the field doesn’t require computing machines. But many questions would never have been posed without them.             \nThe post Does Computer Science Need Computers? first appeared on Quanta Magazine",
       "pubDate": "Fri, 28 Aug 2026 13:30:34 +0000",
-      "domain": "science",
-      "source": "Quanta"
-    },
-    {
-      "title": "Why Is Leadership Riskier for Women?",
-      "link": "https://daily.jstor.org/why-is-leadership-riskier-for-women/",
-      "summary": "Research shows that harsher penalties for failure can discourage women from pursuing top positions.\nThe post Why Is Leadership Riskier for Women? appeared first on JSTOR Daily.",
-      "pubDate": "Fri, 28 Aug 2026 13:28:42 +0000",
-      "domain": "history",
-      "source": "JSTOR Daily"
-    },
-    {
-      "title": "In Hilbert Space, All Things Are Quantumly Possible",
-      "link": "https://www.quantamagazine.org/in-hilbert-space-all-things-are-quantumly-possible-20260826/",
-      "summary": "To explore quantum phenomena, we must leave the familiar world and enter the abstract realm of Hilbert space.            \nThe post In Hilbert Space, All Things Are Quantumly Possible first appeared on Quanta Magazine",
-      "pubDate": "Wed, 26 Aug 2026 14:30:35 +0000",
       "domain": "science",
       "source": "Quanta"
     },
@@ -953,25 +963,25 @@
       "source": "ROAR Magazine"
     },
     {
-      "title": "Tracing narrative development in children with speech, language, and communication difficulties: a CiteSpace analysis",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1838439",
-      "summary": "Narrative development is central to children’s language, communication, and academic functioning, yet children with speech, language, and communication difficulties often experience challenges in organizing and expressing coherent stories. This study used CiteSpace to analyze 628 articles and review",
+      "title": "Beyond the negative view of music teacher stress: how stress enhances occupational well-being through teacher agency",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1865707",
+      "summary": "This study aims to examine the relationship between teacher stress and occupational well-being among Chinese in-service primary and secondary school music teachers, with particular attention to its non-linear effects and the serial mediating roles of teacher agency and job burnout. A quantitative re",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "Editorial: Applied psychoanalysis and psychoanalytically informed research",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1956380",
+      "title": "Correction: Family coping profiles in patients with chronic heart failure: a latent profile analysis",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1951178",
       "summary": "",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "Language enjoyment and emotional engagement: are they distinct or congruent constructs?",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1893004",
-      "summary": "Emotional engagement and foreign language enjoyment are two widely studied affective constructs in second language acquisition (SLA) research, yet their empirical distinctiveness has never been formally tested. Substantial item-level overlap between their measurement instruments and consistently hig",
+      "title": "Tracing narrative development in children with speech, language, and communication difficulties: a CiteSpace analysis",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1838439",
+      "summary": "Narrative development is central to children’s language, communication, and academic functioning, yet children with speech, language, and communication difficulties often experience challenges in organizing and expressing coherent stories. This study used CiteSpace to analyze 628 articles and review",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
@@ -979,64 +989,64 @@
   ],
   "misinfo_toilet": [
     {
-      "headline": "How indie cinema is beating Hollywood in 2026",
-      "fragment": "Reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
-      "splice": "How indie cinema is beating Hollywood in 2026 consequently reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
-      "seed": 20260912
-    },
-    {
-      "headline": "5,000 US sailors descend on Thailand as USS Abraham Lincoln docks",
-      "fragment": "Traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "splice": "5,000 US sailors descend on Thailand as USS Abraham Lincoln docks the signal resolves into traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "seed": 20260913
-    },
-    {
-      "headline": "Why US troops have a history in this raucous Thai city",
-      "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "splice": "Why US troops have a history in this raucous Thai city the system notes that it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "seed": 20260914
-    },
-    {
-      "headline": "Nepal search operations continue a week after catastrophic floods",
-      "fragment": "Simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
-      "splice": "Nepal search operations continue a week after catastrophic floods therefore simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
-      "seed": 20260915
-    },
-    {
-      "headline": "Weeks After Failed Drone Attack, Germany Points Finger at Russia",
-      "fragment": "Art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
-      "splice": "Weeks After Failed Drone Attack, Germany Points Finger at Russia despite art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
-      "seed": 20260916
-    },
-    {
-      "headline": "China or the U.S.? Two Meetings Offer Competing Showcases of Global Power.",
-      "fragment": "Pretending, or dissimulating, leaves the principle of reality intact: the difference is always clear, it is simply masked.",
-      "splice": "China or the U.S.? Two Meetings Offer Competing Showcases of Global Power. not unlike pretending, or dissimulating, leaves the principle of reality intact: the difference is always clear, it is simply masked.",
-      "seed": 20260917
-    },
-    {
-      "headline": "What we know about jailed HK activist Joshua Wong’s latest charge",
-      "fragment": "Everywhere it is machines—real ones, not figurative ones: machines driving other machines, machines being driven by other machines, with all the necessary couplings and connections.",
-      "splice": "What we know about jailed HK activist Joshua Wong’s latest charge consequently everywhere it is machines—real ones, not figurative ones: machines driving other machines, machines being driven by other machines, with all the necessary couplings and connections.",
+      "headline": "Zelensky says airlines should avoid Russian airspace as Ukraine escalates drone operations",
+      "fragment": "This is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
+      "splice": "Zelensky says airlines should avoid Russian airspace as Ukraine escalates drone operations the system notes that this is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
       "seed": 20260918
     },
     {
-      "headline": "BBC travels inside occupied Lebanon as officials say Israel expanding positions",
-      "fragment": "Traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "splice": "BBC travels inside occupied Lebanon as officials say Israel expanding positions despite traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
+      "headline": "Tracking a Sanctioned Russian Vessel’s West African Odyssey",
+      "fragment": "Why do men fight for their servitude as stubbornly as though it were their salvation?",
+      "splice": "Tracking a Sanctioned Russian Vessel’s West African Odyssey ...as why do men fight for their servitude as stubbornly as though it were their salvation?",
       "seed": 20260919
     },
     {
-      "headline": "Tracking a Sanctioned Russian Vessel’s West African Odyssey",
-      "fragment": "Traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "splice": "Tracking a Sanctioned Russian Vessel’s West African Odyssey because traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
+      "headline": "Can Ukraine’s drones shut Russian airspace? What that means for airlines",
+      "fragment": "The current ruling ontology denies any possibility of a social causation of mental illness. The chemico-biologization of mental illness is of course strictly commensurate with its depoliticization.",
+      "splice": "Can Ukraine’s drones shut Russian airspace? What that means for airlines consequently the current ruling ontology denies any possibility of a social causation of mental illness. The chemico-biologization of mental illness is of course strictly commensurate with its depoliticization.",
       "seed": 20260920
     },
     {
-      "headline": "Zelensky says airlines should avoid Russian airspace as Ukraine escalates drone operations",
-      "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "splice": "Zelensky says airlines should avoid Russian airspace as Ukraine escalates drone operations consequently the breast is a machine that produces milk, and the mouth a machine coupled to it.",
+      "headline": "Welcome to Dubai: Kinahan Cartel’s Visas Revealed",
+      "fragment": "Everywhere it is machines—real ones, not figurative ones: machines driving other machines, machines being driven by other machines, with all the necessary couplings and connections.",
+      "splice": "Welcome to Dubai: Kinahan Cartel’s Visas Revealed insofar as everywhere it is machines—real ones, not figurative ones: machines driving other machines, machines being driven by other machines, with all the necessary couplings and connections.",
       "seed": 20260921
+    },
+    {
+      "headline": "Rosenberg: Putin's veiled threat to UK part of Russia's campaign against West",
+      "fragment": "There is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
+      "splice": "Rosenberg: Putin's veiled threat to UK part of Russia's campaign against West within which there is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
+      "seed": 20260922
+    },
+    {
+      "headline": "The ‘Miracle House’ That Survived Nepal’s Floods",
+      "fragment": "The simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
+      "splice": "The ‘Miracle House’ That Survived Nepal’s Floods consequently the simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
+      "seed": 20260923
+    },
+    {
+      "headline": "Satellite Imagery Documents New Border Patrol Road Construction in Big Bend National Park",
+      "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
+      "splice": "Satellite Imagery Documents New Border Patrol Road Construction in Big Bend National Park which is to say the breast is a machine that produces milk, and the mouth a machine coupled to it.",
+      "seed": 20260924
+    },
+    {
+      "headline": "Christian Employers Can Now Discriminate Against Trans People",
+      "fragment": "The technocrat is the natural friend of the dictator—computers and dictatorship.",
+      "splice": "Christian Employers Can Now Discriminate Against Trans People as if the technocrat is the natural friend of the dictator—computers and dictatorship.",
+      "seed": 20260925
+    },
+    {
+      "headline": "ICE Is Paying a Controversial AI Firm to Hide the Identities of Agents",
+      "fragment": "Reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
+      "splice": "ICE Is Paying a Controversial AI Firm to Hide the Identities of Agents despite reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
+      "seed": 20260926
+    },
+    {
+      "headline": "Attacks in Black Sea Threaten to Strangle Global Grain Supply",
+      "fragment": "The truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
+      "splice": "Attacks in Black Sea Threaten to Strangle Global Grain Supply insofar as the truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
+      "seed": 20260927
     }
   ]
 }
