@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T10:53:19.598Z",
+  "generated_at": "2026-09-03T20:42:21.551Z",
   "threat_intel": {
     "cisa_kev": [
       {
@@ -244,236 +244,317 @@
     ],
     "urlhaus": [
       {
-        "id": "3911956",
-        "date_added": "2026-09-03 10:14:08",
-        "url": "https://nonspamplsgood.vercel.app/?download=1",
+        "id": "3912054",
+        "date_added": "2026-09-03 20:35:23",
+        "url": "http://115.57.80.149:55734/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "apk ",
-          "mamont"
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
         ]
       },
       {
-        "id": "3911955",
-        "date_added": "2026-09-03 10:02:19",
-        "url": "http://124.6.167.121:45202/Mozi.m",
+        "id": "3912053",
+        "date_added": "2026-09-03 20:25:21",
+        "url": "http://66.212.173.225:46177/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "mirai",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3912052",
+        "date_added": "2026-09-03 20:19:30",
+        "url": "http://91.92.242.236/files-129312398/files/file_f560a93d91a75b5c.exe",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "c2-monitor-auto",
+          "dropped-by-amadey",
+          "rustystealer"
+        ]
+      },
+      {
+        "id": "3912051",
+        "date_added": "2026-09-03 20:19:28",
+        "url": "http://b2b.jewmailer.net/arm7",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "botnetdomain",
           "mirai"
         ]
       },
       {
-        "id": "3911954",
-        "date_added": "2026-09-03 10:01:54",
-        "url": "http://112.198.186.249:39708/i",
+        "id": "3912047",
+        "date_added": "2026-09-03 20:19:25",
+        "url": "http://b2b.jewmailer.net/android-arm64",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
+          "botnetdomain",
           "mirai"
         ]
       },
       {
-        "id": "3911952",
-        "date_added": "2026-09-03 10:01:40",
-        "url": "http://113.228.253.15:50802/bin.sh",
+        "id": "3912048",
+        "date_added": "2026-09-03 20:19:25",
+        "url": "http://b2b.jewmailer.net/reflect/or1k",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "botnetdomain",
+          "mirai"
+        ]
+      },
+      {
+        "id": "3912049",
+        "date_added": "2026-09-03 20:19:25",
+        "url": "http://b2b.jewmailer.net/working.Services.apk",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "botnetdomain",
+          "mirai"
+        ]
+      },
+      {
+        "id": "3912050",
+        "date_added": "2026-09-03 20:19:25",
+        "url": "http://b2b.jewmailer.net/hiddenbin/reflect.x86_64",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "botnetdomain",
+          "mirai"
+        ]
+      },
+      {
+        "id": "3912040",
+        "date_added": "2026-09-03 20:19:24",
+        "url": "http://b2b.jewmailer.net/persist.arm7",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "botnetdomain",
+          "mirai"
+        ]
+      },
+      {
+        "id": "3912041",
+        "date_added": "2026-09-03 20:19:24",
+        "url": "http://b2b.jewmailer.net/hiddenbin/reflect.sh4",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "botnetdomain",
+          "mirai"
+        ]
+      },
+      {
+        "id": "3912042",
+        "date_added": "2026-09-03 20:19:24",
+        "url": "http://b2b.jewmailer.net/hiddenbin/reflect.arm",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "botnetdomain",
+          "mirai"
+        ]
+      },
+      {
+        "id": "3912043",
+        "date_added": "2026-09-03 20:19:24",
+        "url": "http://b2b.jewmailer.net/reflect/android-arm",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "botnetdomain",
+          "mirai"
+        ]
+      },
+      {
+        "id": "3912044",
+        "date_added": "2026-09-03 20:19:24",
+        "url": "http://b2b.jewmailer.net/reflect/android-arm64",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "botnetdomain",
+          "mirai"
+        ]
+      },
+      {
+        "id": "3912045",
+        "date_added": "2026-09-03 20:19:24",
+        "url": "http://b2b.jewmailer.net/x86_64",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "botnetdomain",
+          "mirai"
+        ]
+      },
+      {
+        "id": "3912046",
+        "date_added": "2026-09-03 20:19:24",
+        "url": "http://b2b.jewmailer.net/android-arm",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "botnetdomain",
+          "mirai"
+        ]
+      },
+      {
+        "id": "3912036",
+        "date_added": "2026-09-03 20:19:23",
+        "url": "http://b2b.jewmailer.net/reflect/mips",
         "url_status": "offline",
         "threat": "malware_download",
         "tags": [
-          "None"
+          "botnetdomain",
+          "mirai"
         ]
       },
       {
-        "id": "3911953",
-        "date_added": "2026-09-03 10:01:40",
-        "url": "http://27.215.84.25:44698/bin.sh",
+        "id": "3912037",
+        "date_added": "2026-09-03 20:19:23",
+        "url": "http://b2b.jewmailer.net/x86",
         "url_status": "offline",
         "threat": "malware_download",
         "tags": [
-          "None"
+          "botnetdomain",
+          "mirai"
         ]
       },
       {
-        "id": "3911951",
-        "date_added": "2026-09-03 10:01:39",
-        "url": "http://220.177.11.172:54471/i",
+        "id": "3912038",
+        "date_added": "2026-09-03 20:19:23",
+        "url": "http://b2b.jewmailer.net/hiddenbin/reflect.arm5",
         "url_status": "offline",
         "threat": "malware_download",
         "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3911950",
-        "date_added": "2026-09-03 10:01:38",
-        "url": "http://182.126.201.152:43849/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3911939",
-        "date_added": "2026-09-03 10:01:37",
-        "url": "http://175.150.74.42:43235/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3911940",
-        "date_added": "2026-09-03 10:01:37",
-        "url": "http://42.224.78.23:39508/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3911941",
-        "date_added": "2026-09-03 10:01:37",
-        "url": "http://112.248.108.140:41002/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3911942",
-        "date_added": "2026-09-03 10:01:37",
-        "url": "http://61.144.102.183:42035/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3911943",
-        "date_added": "2026-09-03 10:01:37",
-        "url": "http://37.34.242.99:41845/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3911944",
-        "date_added": "2026-09-03 10:01:37",
-        "url": "http://182.120.43.111:47591/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
+          "botnetdomain",
           "mirai"
         ]
       },
       {
-        "id": "3911945",
-        "date_added": "2026-09-03 10:01:37",
-        "url": "http://112.198.130.112:42547/bin.sh",
-        "url_status": "online",
+        "id": "3912039",
+        "date_added": "2026-09-03 20:19:23",
+        "url": "http://b2b.jewmailer.net/riscv64",
+        "url_status": "offline",
         "threat": "malware_download",
         "tags": [
+          "botnetdomain",
           "mirai"
         ]
       },
       {
-        "id": "3911946",
-        "date_added": "2026-09-03 10:01:37",
-        "url": "http://130.12.209.147:43312/i",
-        "url_status": "online",
+        "id": "3912027",
+        "date_added": "2026-09-03 20:19:22",
+        "url": "http://b2b.jewmailer.net/hiddenbin/reflect.arm7",
+        "url_status": "offline",
         "threat": "malware_download",
         "tags": [
+          "botnetdomain",
           "mirai"
-        ]
-      },
-      {
-        "id": "3911947",
-        "date_added": "2026-09-03 10:01:37",
-        "url": "http://124.234.200.151:54858/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "mirai"
-        ]
-      },
-      {
-        "id": "3911948",
-        "date_added": "2026-09-03 10:01:37",
-        "url": "http://182.126.201.152:43849/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3911949",
-        "date_added": "2026-09-03 10:01:37",
-        "url": "http://123.189.150.115:50311/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3911934",
-        "date_added": "2026-09-03 10:01:36",
-        "url": "http://114.226.120.28:35996/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "mirai"
-        ]
-      },
-      {
-        "id": "3911935",
-        "date_added": "2026-09-03 10:01:36",
-        "url": "http://182.119.68.47:43814/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
         ]
       }
     ]
   },
   "world_monitor": [
     {
-      "title": "The New Jet-Powered Drones That Are Breeding Anxiety in Ukraine",
-      "link": "https://www.nytimes.com/2026/09/03/world/europe/ukraine-russia-jet-powered-drones.html",
-      "pubDate": "Thu, 03 Sep 2026 10:44:22 +0000",
+      "title": "Norway Seizes Russian Research Ship in the High Arctic",
+      "link": "https://www.nytimes.com/2026/09/03/world/europe/norway-russian-research-ship-arctic.html",
+      "pubDate": "Thu, 03 Sep 2026 20:32:44 +0000",
       "source": "NYT World",
-      "summary": "These Russian drones are more destructive, faster and harder to shoot down than the propeller-driven models that Moscow has used throughout the war."
+      "summary": "Empowered by an international court order, Norway captured the vessel as part of a global effort to seize Russian assets. The Russians called it “piracy.”"
     },
     {
-      "title": "More than 80 migrants feared dead after boat rescued off Canary Islands",
-      "link": "https://www.bbc.co.uk/news/articles/c33kzv7kly4o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Thu, 03 Sep 2026 10:37:06 GMT",
-      "source": "BBC",
-      "summary": "Rescuers found 44 survivors on board the vessel but bad weather meant they had to leave five bodies behind."
+      "title": "Train crashes into truck at railway crossing in Gdansk, Poland",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/9/3/train-crashes-into-truck-at-railway-crossing-in-gdansk-poland?traffic_source=rss",
+      "pubDate": "Thu, 03 Sep 2026 20:08:19 +0000",
+      "source": "Al Jazeera",
+      "summary": "CCTV footage shows the moment a train collided with a truck at a railway crossing in northern Poland."
     },
     {
-      "title": "Trump $1 coin makes him first living president on US currency in a century",
-      "link": "https://www.bbc.co.uk/news/articles/c7507g9v992o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Thu, 03 Sep 2026 10:25:43 GMT",
-      "source": "BBC",
-      "summary": "The US Mint special edition is stamped with a portrait of Trump alongside the words \"LIBERTY\" and \"IN GOD WE TRUST\""
+      "title": "Funeral held for child killed in US strike on Iranian wedding",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/9/3/09-03-iran-child-funeral-minisv?traffic_source=rss",
+      "pubDate": "Thu, 03 Sep 2026 20:00:40 +0000",
+      "source": "Al Jazeera",
+      "summary": "Mourners carried the coffin of a child killed in a US strike on a wedding in Kuhestak, along the Strait of Hormuz."
     },
     {
-      "title": "Feminist activist and journalist Gloria Steinem dies at 92",
+      "title": "Leaders of Thailand and Singapore perform Beatles song, “Let It Be”",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/9/3/leaders-of-thailand-and-singapore-perform-beatles-song-let-it?traffic_source=rss",
+      "pubDate": "Thu, 03 Sep 2026 20:00:02 +0000",
+      "source": "Al Jazeera",
+      "summary": "Thai Prime Minister Anutin Charnvirakul and Singapore’s Prime Minister Lawrence Wong performed the Beatles song."
+    },
+    {
+      "title": "FIFA blasts UEFA ‘smear campaign,’ fights World Cup plan disclosures",
+      "link": "https://www.aljazeera.com/sports/2026/9/3/fifa-blasts-uefa-smear-campaign-fights-world-cup-plan-disclosures?traffic_source=rss",
+      "pubDate": "Thu, 03 Sep 2026 19:43:07 +0000",
+      "source": "Al Jazeera",
+      "summary": "UEFA seeks US testimony, documents for possible lawsuit; FIFA asks US court to defer or let it oppose UEFA's request."
+    },
+    {
+      "title": "Serbia welcomes return of war criminal Mladic’s body with military honours",
+      "link": "https://www.aljazeera.com/news/2026/9/3/serbia-welcomes-return-of-war-criminal-mladics-body-with-military-honours?traffic_source=rss",
+      "pubDate": "Thu, 03 Sep 2026 19:27:34 +0000",
+      "source": "Al Jazeera",
+      "summary": "Ratko Mladic received a life sentence from a UN court for committing atrocities during the 1992-1995 Bosnian War."
+    },
+    {
+      "title": "Spain’s Leader Questions Morocco Border Control During Ceuta Migrant Surge",
+      "link": "https://www.nytimes.com/2026/09/03/world/europe/spain-morocco-ceuta-sanchez.html",
+      "pubDate": "Thu, 03 Sep 2026 18:38:47 +0000",
+      "source": "NYT World",
+      "summary": "Prime Minister Pedro Sánchez of Spain said the role of Moroccan authorities at key moments needed to be “clarified.” But he rejected any suggestion they had planned the crisis."
+    },
+    {
+      "title": "Feminist activist and journalist Gloria Steinem dies, aged 92",
       "link": "https://www.bbc.co.uk/news/articles/clyeq3ngwe4o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Thu, 03 Sep 2026 10:24:26 GMT",
+      "pubDate": "Thu, 03 Sep 2026 18:04:34 GMT",
       "source": "BBC",
       "summary": "Her foundation said she \"passed away peacefully\" at her home in New York City, \"surrounded by many who loved her\"."
+    },
+    {
+      "title": "ICE Gave New Hires Access to Restricted Info on Palantir App Before They Passed Background Checks",
+      "link": "https://theintercept.com/2026/09/03/ice-palantir-privacy-personal-info-access/",
+      "pubDate": "Thu, 03 Sep 2026 16:26:09 +0000",
+      "source": "The Intercept",
+      "summary": "Palantir created ELITE, a powerful new app for ICE to target immigrants. The feds never published a legally required privacy assessment for it.\nThe post ICE Gave New Hires Access to Restricted Info on Palantir App Before They Passed Background Checks"
+    },
+    {
+      "title": "Palestinian teens killed during settler attack on West Bank village, officials say",
+      "link": "https://www.bbc.co.uk/news/articles/cj6482r6yl4o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Thu, 03 Sep 2026 15:05:57 GMT",
+      "source": "BBC",
+      "summary": "Al-Mughayyir's council says they were trying to stop settlers stealing sheep, but the Israeli military says they threw stones at its troops."
+    },
+    {
+      "title": "Toxic wildfire haze spreads across South East Asia as 'super' El Niño intensifies",
+      "link": "https://www.bbc.co.uk/news/articles/clyqw44w142o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Thu, 03 Sep 2026 11:35:52 GMT",
+      "source": "BBC",
+      "summary": "Millions of people have been exposed to the smog, with more than 12,000 children suffering respiratory issues."
+    },
+    {
+      "title": "For Russia and Ukraine, an Escalating Spiral With No End in Sight",
+      "link": "https://www.nytimes.com/2026/09/03/world/europe/russia-ukraine-escalation.html",
+      "pubDate": "Thu, 03 Sep 2026 11:35:44 +0000",
+      "source": "NYT World",
+      "summary": "Each side is using missiles and drones to try to pound the other into giving up, breeding ceaseless human suffering. But there is no sign that either country’s determination will weaken."
     },
     {
       "title": "“Board of Peace” Billionaire Backs AIPAC Fund Targeting Pro-Palestine Candidates",
@@ -483,53 +564,11 @@
       "summary": "Marc Rowan, a Trump appointee overseeing Gaza’s redevelopment, has given $1.5 million to AIPAC’s super PAC this cycle.\nThe post “Board of Peace” Billionaire Backs AIPAC Fund Targeting Pro-Palestine Candidates appeared first on The Intercept."
     },
     {
-      "title": "Green Party leader Zack Polanski to stand in by-election for Starmer’s seat",
-      "link": "https://www.aljazeera.com/news/2026/9/3/green-party-leader-zack-polanski-to-stand-in-by-election-for-starmers-seat?traffic_source=rss",
-      "pubDate": "Thu, 03 Sep 2026 09:57:25 +0000",
-      "source": "Al Jazeera",
-      "summary": "Zack Polanski announces candidacy for the Holborn and St Pancras seat to be vacated by British ex-PM Keir Starmer."
-    },
-    {
-      "title": "Yair Netanyahu, Israeli PM’s son, angers UK right over Falklands comment",
-      "link": "https://www.aljazeera.com/news/2026/9/3/yair-netanyahu-israeli-pms-son-angers-uk-right-over-falklands-comment?traffic_source=rss",
-      "pubDate": "Thu, 03 Sep 2026 09:54:15 +0000",
-      "source": "Al Jazeera",
-      "summary": "Accusing the UK government of ‘hypocrisy’, Yair Netanyahu backs Argentina’s claims to the British-held Falkland Islands."
-    },
-    {
-      "title": "Will the US or China emerge as the AI superpower?",
-      "link": "https://www.aljazeera.com/video/counting-the-cost/2026/9/3/will-the-us-or-china-emerge-as-the-ai-superpower?traffic_source=rss",
-      "pubDate": "Thu, 03 Sep 2026 09:52:38 +0000",
-      "source": "Al Jazeera",
-      "summary": "The US and China race to produce the world's leading artificial intelligence."
-    },
-    {
-      "title": "Rescue efforts continue as Nepal-China flood death toll surpasses 1,270",
-      "link": "https://www.aljazeera.com/news/2026/9/3/rescue-efforts-continue-as-nepal-china-flood-death-toll-surpasses-1270?traffic_source=rss",
-      "pubDate": "Thu, 03 Sep 2026 09:38:14 +0000",
-      "source": "Al Jazeera",
-      "summary": "Authorities in Nepal use helicopters and zip lines to reach remote flood-stricken villages amid widespread destruction."
-    },
-    {
-      "title": "EU foreign ministers fail to break deadlock over Israel and Ukraine",
-      "link": "https://www.aljazeera.com/news/2026/9/3/eu-foreign-ministers-fail-to-break-deadlock-over-israel-and-ukraine?traffic_source=rss",
-      "pubDate": "Thu, 03 Sep 2026 09:34:09 +0000",
-      "source": "Al Jazeera",
-      "summary": "EU officials met in Ireland but failed to agree on imposing trade sanctions on Israel or military support for Ukraine."
-    },
-    {
-      "title": "For Russia and Ukraine, an Escalating Spiral With No End in Sight",
-      "link": "https://www.nytimes.com/2026/09/03/world/europe/russia-ukraine-escalation.html",
-      "pubDate": "Thu, 03 Sep 2026 09:08:39 +0000",
-      "source": "NYT World",
-      "summary": "Each side is using missiles and drones to try to pound the other into giving up, breeding ceaseless human suffering. But there is no sign that either country’s determination will weaken."
-    },
-    {
-      "title": "Many Italians Long Resisted Air-Conditioning. Then Europe Got Hotter.",
-      "link": "https://www.nytimes.com/2026/09/03/world/europe/italy-air-conditioning-heat.html",
-      "pubDate": "Thu, 03 Sep 2026 09:03:13 +0000",
-      "source": "NYT World",
-      "summary": "Amid record-breaking temperatures on the continent, households and businesses in Italy are increasingly installing cooling units."
+      "title": "'Beautiful, vibrant' Disney star Carla Jeffery dies aged 33",
+      "link": "https://www.bbc.co.uk/news/articles/ceq8r5gjygno?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Thu, 03 Sep 2026 09:37:34 GMT",
+      "source": "BBC",
+      "summary": "Jeffery was known for playing cheerleader Bree in 2018 Disney Channel movie Zombies and two sequels."
     },
     {
       "title": "How Do You Run for Office in a Gang War?",
@@ -544,13 +583,6 @@
       "pubDate": "Thu, 03 Sep 2026 06:01:54 GMT",
       "source": "BBC",
       "summary": "The WMO has warned that the natural weather phenomenon could bring disruption to global economies."
-    },
-    {
-      "title": "Channel smuggling gangs resort to 'mega-dinghies' as crackdown limits small boat supply",
-      "link": "https://www.bbc.co.uk/news/articles/ce3rn93de9eo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Thu, 03 Sep 2026 05:00:04 GMT",
-      "source": "BBC",
-      "summary": "Once-rival criminal groups are being forced to work together because of a shortage of small boats, a BBC investigation has found."
     },
     {
       "title": "Syrians Want Justice for Assad-Era Killings and Torture",
@@ -579,13 +611,6 @@
       "pubDate": "Wed, 02 Sep 2026 14:39:36 +0000",
       "source": "The Intercept",
       "summary": "In a leaked memo, an ICE official tells employees the new AI tech will protect them from doxing. Some worry it could be used to root out whistleblowers.\nThe post ICE Is Paying a Controversial AI Firm to Hide the Identities of Agents appeared first on"
-    },
-    {
-      "title": "The U.S. Has Killed 227 Civilians in Boat Strikes During “A Year of Murders”",
-      "link": "https://theintercept.com/2026/09/02/military-boat-strikes-killings-year/",
-      "pubDate": "Wed, 02 Sep 2026 09:00:00 +0000",
-      "source": "The Intercept",
-      "summary": "“The boat strikes are, perhaps, the most stark testament to the lawlessness of the Trump administration.”\nThe post The U.S. Has Killed 227 Civilians in Boat Strikes During “A Year of Murders” appeared first on The Intercept."
     },
     {
       "title": "Investigating a Murder: Public Records Uncover New Clues in Chinatown Cold Case",
@@ -625,6 +650,13 @@
   ],
   "syndication": [
     {
+      "title": "Researching Employment Scams",
+      "link": "https://www.schneier.com/blog/archives/2026/09/researching-employment-scams.html",
+      "pubDate": "2026-09-03T11:18:14.000Z",
+      "author": "Schneier on Security",
+      "content": "Researchers built a fake company to study fake employee scams."
+    },
+    {
       "title": "Pluralistic: Preparing for a post-Trump internet (03 Sep 2026)",
       "link": "https://pluralistic.net/2026/09/03/broken-arrows/",
       "pubDate": "Thu, 03 Sep 2026 08:45:19 +0000",
@@ -660,13 +692,6 @@
       "content": "A new identity theft service launched on the dark web this week is selling digital scans of more than 153 million drivers licenses from people in the United States and Canada. Based on interviews with individuals whose licenses are available for purchase on this service, it appears to be siphoning i"
     },
     {
-      "title": "What’s the Scam?",
-      "link": "https://www.schneier.com/blog/archives/2026/09/whats-the-scam.html",
-      "pubDate": "2026-09-01T17:36:13.000Z",
-      "author": "Schneier on Security",
-      "content": "To subscribe to my monthly email newsletter, you have to enter your information on the webpage, and then reply to an automatically generated email. This is, of course, to prevent people from subscribing addresses other than their own.\nStarting last weekend, I have been receiving a lot of individual "
-    },
-    {
       "title": "Two Alleged ‘TeamPCP’ Hackers Arrested in Australia",
       "link": "https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/",
       "pubDate": "Thu, 27 Aug 2026 11:04:15 +0000",
@@ -689,6 +714,86 @@
     }
   ],
   "syndicate_journal": [
+    {
+      "title": "Your Home is Crawling With Microplastics",
+      "link": "https://nautil.us/your-home-is-crawling-with-microplastics-1284761/",
+      "summary": "And vacuuming might make things worse\nThe post Your Home is Crawling With Microplastics appeared first on Nautilus.",
+      "pubDate": "Thu, 03 Sep 2026 20:05:57 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "Backronym of the year",
+      "link": "https://languagelog.ldc.upenn.edu/nll/?p=74168&utm_source=rss&utm_medium=rss&utm_campaign=backronym-of-the-year",
+      "summary": "…is ACHOO — \"Ever sneeze immediately after stepping into the sun? It's not a coincidence\": Picture this: You walk out the door on a bright, sunny morning. And before you’ve even reached the car, you sneeze. Maybe even two or three times in a row. It’s not allergies, and it’s not a coincidence. It’s ",
+      "pubDate": "Thu, 03 Sep 2026 18:49:14 +0000",
+      "domain": "linguistics",
+      "source": "Language Log"
+    },
+    {
+      "title": "No Two People Age in the Same Way",
+      "link": "https://nautil.us/no-two-people-age-in-the-same-way-1284757/",
+      "summary": "At least at the molecular level\nThe post No Two People Age in the Same Way appeared first on Nautilus.",
+      "pubDate": "Thu, 03 Sep 2026 18:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "With Anti-DSA Bill, Congress Is Red-Baiting Like It’s 1955",
+      "link": "",
+      "summary": "As summer turns into fall, the United States remains mired in a wildly unpopular war in Iran. On the home front, inflation is stubbornly persistent. All indications point to the president’s party suffering major losses in the November midterms — if, that is, the various Republican attempts to interf",
+      "pubDate": "2026-09-03T17:32:30.295Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "Envy at the Ballot Box",
+      "link": "https://nautil.us/envy-at-the-ballot-box-1284752/",
+      "summary": "Majority voting may make us less willing to tolerate advantages for others\nThe post Envy at the Ballot Box appeared first on Nautilus.",
+      "pubDate": "Thu, 03 Sep 2026 16:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "The Rise of the Billionaire Lobby",
+      "link": "",
+      "summary": "You’ve heard of the oil lobby, the tobacco lobby, the Israel lobby, the charter school lobby. Behind all of these are billionaires who benefit from the underlying industries or sectors, and whose corporations use their resources to lobby the government for favorable policies. Now, in reaction to a C",
+      "pubDate": "2026-09-03T15:56:07.050Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "Decades of Growing Inequality Powered MAGA’s Rise",
+      "link": "",
+      "summary": "What lies behind the ascendance of Donald Trump and his Make America Great Again movement? All sorts of demagogic political appeals — racism, sexism, anti-immigrant stereotyping — have played integral roles in the rise of the Right, of course. But a fundamental underlying driver is popular disillusi",
+      "pubDate": "2026-09-03T14:08:32.584Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "Why Is Raja Ravi Varma’s Art So Valuable Today?",
+      "link": "https://daily.jstor.org/why-is-raja-ravi-varmas-art-so-valuable-today/",
+      "summary": "A record-breaking auction spotlights the artist who transformed Hindu imagery and helped shape modern Indian visual culture.\nThe post Why Is Raja Ravi Varma’s Art So Valuable Today? appeared first on JSTOR Daily.",
+      "pubDate": "Thu, 03 Sep 2026 13:42:00 +0000",
+      "domain": "history",
+      "source": "JSTOR Daily"
+    },
+    {
+      "title": "Live from ICM 2026: What Is Math For in the Age of AI?",
+      "link": "https://www.quantamagazine.org/live-from-icm-2026-what-is-math-for-in-the-age-of-ai-20260903/",
+      "summary": "In this special live recording from the International Congress of Mathematicians in Philadelphia, July 2026, the central question discussed was what do mathematicians really value about doing mathematics in the first place?            \nThe post Live from ICM 2026: What Is Math For in the Age of AI? ",
+      "pubDate": "Thu, 03 Sep 2026 13:41:48 +0000",
+      "domain": "science",
+      "source": "Quanta"
+    },
+    {
+      "title": "In an Age of AI, a Physicist Seeks What Endures",
+      "link": "https://www.quantamagazine.org/in-an-age-of-ai-a-physicist-seeks-what-endures-20260903/",
+      "summary": "Sarah Demers, chair of the physics department at Yale University, sees the potential for large language models to both help and harm her field.            \nThe post In an Age of AI, a Physicist Seeks What Endures first appeared on Quanta Magazine",
+      "pubDate": "Thu, 03 Sep 2026 13:35:59 +0000",
+      "domain": "science",
+      "source": "Quanta"
+    },
     {
       "title": "Neuroqueering on the lawn",
       "link": "https://aeon.co/essays/neuroqueer-expression-and-the-limits-of-social-tolerance",
@@ -722,60 +827,12 @@
       "source": "arXiv: cs.AI"
     },
     {
-      "title": "New Species of Giant Armadillo Has Convoluted History",
-      "link": "https://nautil.us/new-species-of-giant-armadillo-has-convoluted-history-1284734/",
-      "summary": "Meet Glyptotherium deuterophractum\nThe post New Species of Giant Armadillo Has Convoluted History appeared first on Nautilus.",
-      "pubDate": "Wed, 02 Sep 2026 21:10:08 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
-      "title": "The Secret of Chronic Pain Could Lie in the Skull",
-      "link": "https://nautil.us/the-secret-of-chronic-pain-could-lie-in-the-skull-1284730/",
-      "summary": "Skull bone marrow has become an exciting research topic\nThe post The Secret of Chronic Pain Could Lie in the Skull appeared first on Nautilus.",
-      "pubDate": "Wed, 02 Sep 2026 18:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
-      "title": "Under Israeli Settler Attacks, I Feel I Am Not Alive",
-      "link": "",
-      "summary": "In the West Bank village of At-Tuwani this July 19, Ruqayya Rabe’i, three months pregnant, lay in her room beside her four sleeping daughters. At 12:30 a.m., the first stones hit her home. She rushed to check the front door. There in the living room, she found her fifteen-year-old son, Usayd, sleepi",
-      "pubDate": "2026-09-02T16:21:24.274Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
-      "title": "Trump’s Oil Deal Is a Return to Venezuela’s Colonial Past",
-      "link": "",
-      "summary": "On Friday evening, US President Donald Trump announced — via  post — the “biggest  in world history,” which would see the United States take partial control of a shocking sixty-five billion barrels of Venezuelan oil, more than doubling the United States’ current reserves.Truth Socialoil deal\nSecreta",
-      "pubDate": "2026-09-02T16:14:17.359Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
-      "title": "How Music Sparks Imagination",
-      "link": "https://nautil.us/how-music-sparks-imagination-1284721/",
-      "summary": "Songs are closely linked to narrative and language\nThe post How Music Sparks Imagination appeared first on Nautilus.",
-      "pubDate": "Wed, 02 Sep 2026 16:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
       "title": "Genome Duplication Is a Radical Evolutionary Gamble",
       "link": "https://www.quantamagazine.org/genome-duplication-is-a-radical-evolutionary-gamble-20260902/",
       "summary": "By doubling their entire genome, organisms can evolve extremely rapidly — or they can lose it all. New studies reveal how to survive the high-risk, high-reward evolutionary event.            \nThe post Genome Duplication Is a Radical Evolutionary Gamble first appeared on Quanta Magazine",
       "pubDate": "Wed, 02 Sep 2026 14:21:02 +0000",
       "domain": "science",
       "source": "Quanta"
-    },
-    {
-      "title": "Will AI Destroy the Meritocracy?",
-      "link": "",
-      "summary": "There is a lot of debate about whether artificial intelligence, large language models (LLMs) in particular, will make people smarter or dumber. The case for dumber is that LLMs can be used as a substitute for learning. Rather than struggling through a subject and working your brain around understand",
-      "pubDate": "2026-09-02T14:18:38.766Z",
-      "domain": "politics",
-      "source": "Jacobin"
     },
     {
       "title": "A Brief History of Women’s Underwear",
@@ -810,22 +867,6 @@
       "source": "Aeon"
     },
     {
-      "title": "‘Stunning’ Percolation Proof Solves Decades-Old Puzzle About Phase Transitions",
-      "link": "https://www.quantamagazine.org/stunning-percolation-proof-solves-decades-old-puzzle-about-phase-transitions-20260831/",
-      "summary": "Mathematicians found that a broad class of networks will abruptly shift behavior past a critical point.            \nThe post ‘Stunning’ Percolation Proof Solves Decades-Old Puzzle About Phase Transitions first appeared on Quanta Magazine",
-      "pubDate": "Mon, 31 Aug 2026 14:24:27 +0000",
-      "domain": "science",
-      "source": "Quanta"
-    },
-    {
-      "title": "The Jewish Labor Bund’s Anti-Zionist Legacy",
-      "link": "https://daily.jstor.org/the-jewish-labor-bunds-anti-zionist-legacy/",
-      "summary": "For many Jewish leftists before 1948, Zionism was far from the only vision for the Jewish future.\nThe post The Jewish Labor Bund’s Anti-Zionist Legacy appeared first on JSTOR Daily.",
-      "pubDate": "Mon, 31 Aug 2026 13:40:43 +0000",
-      "domain": "history",
-      "source": "JSTOR Daily"
-    },
-    {
       "title": "Evolution of laughing",
       "link": "https://languagelog.ldc.upenn.edu/nll/?p=74149&utm_source=rss&utm_medium=rss&utm_campaign=evolution-of-laughing",
       "summary": "…and speech? or at least \"vocal control\"? Chiara De Gregorio, Marina Davila-Ross, & Adriano R. Lameira, \"Rhythm and timing in laughter reveal that human vocal plasticity falls on a hominid continuum\", Nature Communications Biology, 6/25/2026: Laughter is an important, universal form of human non-lin",
@@ -840,22 +881,6 @@
       "pubDate": "Mon, 31 Aug 2026 10:00:00 GMT",
       "domain": "philosophy",
       "source": "Aeon"
-    },
-    {
-      "title": "Unusual risks",
-      "link": "https://languagelog.ldc.upenn.edu/nll/?p=74130&utm_source=rss&utm_medium=rss&utm_campaign=unusual-risks",
-      "summary": "The title of Sal Mercogliano's latest \"What's Going on With Shipping?\" vlog offers two idiom extensions: \"Understanding Global Shipping Risks: Black Swans, Black Jellyfish & Black Elephants\". The \"black swan\" metaphor starts from Juvenal (Satire VI, line 165), who described a virtuous wife as \"Rara ",
-      "pubDate": "Sat, 29 Aug 2026 14:10:38 +0000",
-      "domain": "linguistics",
-      "source": "Language Log"
-    },
-    {
-      "title": "Does Computer Science Need Computers?",
-      "link": "https://www.quantamagazine.org/does-computer-science-need-computers-20260828/",
-      "summary": "The theoretical side of the field doesn’t require computing machines. But many questions would never have been posed without them.             \nThe post Does Computer Science Need Computers? first appeared on Quanta Magazine",
-      "pubDate": "Fri, 28 Aug 2026 13:30:34 +0000",
-      "domain": "science",
-      "source": "Quanta"
     },
     {
       "title": "What It’s Like to Be…a Mail Carrier",
@@ -980,64 +1005,64 @@
   ],
   "misinfo_toilet": [
     {
-      "headline": "More than 80 migrants feared dead after boat rescued off Canary Islands",
-      "fragment": "Reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
-      "splice": "More than 80 migrants feared dead after boat rescued off Canary Islands consequently reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
-      "seed": 20260913
+      "headline": "Norway Seizes Russian Research Ship in the High Arctic",
+      "fragment": "Why do men fight for their servitude as stubbornly as though it were their salvation?",
+      "splice": "Norway Seizes Russian Research Ship in the High Arctic ...as why do men fight for their servitude as stubbornly as though it were their salvation?",
+      "seed": 20260923
     },
     {
-      "headline": "The New Jet-Powered Drones That Are Breeding Anxiety in Ukraine",
-      "fragment": "Traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "splice": "The New Jet-Powered Drones That Are Breeding Anxiety in Ukraine the signal resolves into traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "seed": 20260914
+      "headline": "Train crashes into truck at railway crossing in Gdansk, Poland",
+      "fragment": "The current ruling ontology denies any possibility of a social causation of mental illness. The chemico-biologization of mental illness is of course strictly commensurate with its depoliticization.",
+      "splice": "Train crashes into truck at railway crossing in Gdansk, Poland consequently the current ruling ontology denies any possibility of a social causation of mental illness. The chemico-biologization of mental illness is of course strictly commensurate with its depoliticization.",
+      "seed": 20260924
     },
     {
-      "headline": "Feminist activist and journalist Gloria Steinem dies at 92",
-      "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "splice": "Feminist activist and journalist Gloria Steinem dies at 92 the system notes that it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "seed": 20260915
-    },
-    {
-      "headline": "EU foreign ministers fail to break deadlock over Israel and Ukraine",
-      "fragment": "Simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
-      "splice": "EU foreign ministers fail to break deadlock over Israel and Ukraine therefore simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
-      "seed": 20260916
-    },
-    {
-      "headline": "How Do You Run for Office in a Gang War?",
-      "fragment": "Art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
-      "splice": "How Do You Run for Office in a Gang War? despite art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
-      "seed": 20260917
-    },
-    {
-      "headline": "Rescue efforts continue as Nepal-China flood death toll surpasses 1,270",
-      "fragment": "Pretending, or dissimulating, leaves the principle of reality intact: the difference is always clear, it is simply masked.",
-      "splice": "Rescue efforts continue as Nepal-China flood death toll surpasses 1,270 not unlike pretending, or dissimulating, leaves the principle of reality intact: the difference is always clear, it is simply masked.",
-      "seed": 20260918
-    },
-    {
-      "headline": "“Board of Peace” Billionaire Backs AIPAC Fund Targeting Pro-Palestine Candidates",
+      "headline": "Funeral held for child killed in US strike on Iranian wedding",
       "fragment": "Everywhere it is machines—real ones, not figurative ones: machines driving other machines, machines being driven by other machines, with all the necessary couplings and connections.",
-      "splice": "“Board of Peace” Billionaire Backs AIPAC Fund Targeting Pro-Palestine Candidates consequently everywhere it is machines—real ones, not figurative ones: machines driving other machines, machines being driven by other machines, with all the necessary couplings and connections.",
-      "seed": 20260919
+      "splice": "Funeral held for child killed in US strike on Iranian wedding insofar as everywhere it is machines—real ones, not figurative ones: machines driving other machines, machines being driven by other machines, with all the necessary couplings and connections.",
+      "seed": 20260925
     },
     {
-      "headline": "Green Party leader Zack Polanski to stand in by-election for Starmer’s seat",
-      "fragment": "Traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "splice": "Green Party leader Zack Polanski to stand in by-election for Starmer’s seat despite traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "seed": 20260920
+      "headline": "Palestinian teens killed during settler attack on West Bank village, officials say",
+      "fragment": "There is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
+      "splice": "Palestinian teens killed during settler attack on West Bank village, officials say within which there is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
+      "seed": 20260926
     },
     {
-      "headline": "Tracking a Sanctioned Russian Vessel’s West African Odyssey",
-      "fragment": "Traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "splice": "Tracking a Sanctioned Russian Vessel’s West African Odyssey because traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "seed": 20260921
+      "headline": "Leaders of Thailand and Singapore perform Beatles song, “Let It Be”",
+      "fragment": "The simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
+      "splice": "Leaders of Thailand and Singapore perform Beatles song, “Let It Be” consequently the simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
+      "seed": 20260927
     },
     {
-      "headline": "Trump $1 coin makes him first living president on US currency in a century",
+      "headline": "Welcome to Dubai: Kinahan Cartel’s Visas Revealed",
       "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "splice": "Trump $1 coin makes him first living president on US currency in a century consequently the breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "seed": 20260922
+      "splice": "Welcome to Dubai: Kinahan Cartel’s Visas Revealed which is to say the breast is a machine that produces milk, and the mouth a machine coupled to it.",
+      "seed": 20260928
+    },
+    {
+      "headline": "'Beautiful, vibrant' Disney star Carla Jeffery dies aged 33",
+      "fragment": "The technocrat is the natural friend of the dictator—computers and dictatorship.",
+      "splice": "'Beautiful, vibrant' Disney star Carla Jeffery dies aged 33 as if the technocrat is the natural friend of the dictator—computers and dictatorship.",
+      "seed": 20260929
+    },
+    {
+      "headline": "Spain’s Leader Questions Morocco Border Control During Ceuta Migrant Surge",
+      "fragment": "Reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
+      "splice": "Spain’s Leader Questions Morocco Border Control During Ceuta Migrant Surge despite reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
+      "seed": 20260930
+    },
+    {
+      "headline": "ICE Is Paying a Controversial AI Firm to Hide the Identities of Agents",
+      "fragment": "The truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
+      "splice": "ICE Is Paying a Controversial AI Firm to Hide the Identities of Agents insofar as the truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
+      "seed": 20260931
+    },
+    {
+      "headline": "Feminist activist and journalist Gloria Steinem dies, aged 92",
+      "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
+      "splice": "Feminist activist and journalist Gloria Steinem dies, aged 92 underneath the breast is a machine that produces milk, and the mouth a machine coupled to it.",
+      "seed": 20260932
     }
   ]
 }
