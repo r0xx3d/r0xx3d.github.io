@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T20:42:21.551Z",
+  "generated_at": "2026-09-03T23:03:49.783Z",
   "threat_intel": {
     "cisa_kev": [
       {
@@ -244,6 +244,108 @@
     ],
     "urlhaus": [
       {
+        "id": "3912062",
+        "date_added": "2026-09-03 22:46:40",
+        "url": "http://112.230.155.183:39618/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3912061",
+        "date_added": "2026-09-03 22:02:11",
+        "url": "http://61.176.69.173:36353/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3912060",
+        "date_added": "2026-09-03 21:48:34",
+        "url": "http://173.92.213.119:52110/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3912059",
+        "date_added": "2026-09-03 21:44:34",
+        "url": "http://182.126.93.33:37461/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3912058",
+        "date_added": "2026-09-03 21:34:12",
+        "url": "http://119.179.254.3:36720/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3912057",
+        "date_added": "2026-09-03 21:08:30",
+        "url": "http://119.179.254.3:36720/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3912056",
+        "date_added": "2026-09-03 21:05:29",
+        "url": "http://122.241.130.212:45870/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "mirai",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3912055",
+        "date_added": "2026-09-03 20:49:29",
+        "url": "http://66.212.173.225:46177/i",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "Mozi"
+        ]
+      },
+      {
         "id": "3912054",
         "date_added": "2026-09-03 20:35:23",
         "url": "http://115.57.80.149:55734/i",
@@ -380,139 +482,51 @@
           "botnetdomain",
           "mirai"
         ]
-      },
-      {
-        "id": "3912044",
-        "date_added": "2026-09-03 20:19:24",
-        "url": "http://b2b.jewmailer.net/reflect/android-arm64",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "botnetdomain",
-          "mirai"
-        ]
-      },
-      {
-        "id": "3912045",
-        "date_added": "2026-09-03 20:19:24",
-        "url": "http://b2b.jewmailer.net/x86_64",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "botnetdomain",
-          "mirai"
-        ]
-      },
-      {
-        "id": "3912046",
-        "date_added": "2026-09-03 20:19:24",
-        "url": "http://b2b.jewmailer.net/android-arm",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "botnetdomain",
-          "mirai"
-        ]
-      },
-      {
-        "id": "3912036",
-        "date_added": "2026-09-03 20:19:23",
-        "url": "http://b2b.jewmailer.net/reflect/mips",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "botnetdomain",
-          "mirai"
-        ]
-      },
-      {
-        "id": "3912037",
-        "date_added": "2026-09-03 20:19:23",
-        "url": "http://b2b.jewmailer.net/x86",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "botnetdomain",
-          "mirai"
-        ]
-      },
-      {
-        "id": "3912038",
-        "date_added": "2026-09-03 20:19:23",
-        "url": "http://b2b.jewmailer.net/hiddenbin/reflect.arm5",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "botnetdomain",
-          "mirai"
-        ]
-      },
-      {
-        "id": "3912039",
-        "date_added": "2026-09-03 20:19:23",
-        "url": "http://b2b.jewmailer.net/riscv64",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "botnetdomain",
-          "mirai"
-        ]
-      },
-      {
-        "id": "3912027",
-        "date_added": "2026-09-03 20:19:22",
-        "url": "http://b2b.jewmailer.net/hiddenbin/reflect.arm7",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "botnetdomain",
-          "mirai"
-        ]
       }
     ]
   },
   "world_monitor": [
     {
-      "title": "Norway Seizes Russian Research Ship in the High Arctic",
+      "title": "Why are people calling Venezuela oil deal a new form of US colonialism?",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/9/3/aje-onl-nf_us-venezuela-oil-deal_colonialism-030926?traffic_source=rss",
+      "pubDate": "Thu, 03 Sep 2026 22:08:33 +0000",
+      "source": "Al Jazeera",
+      "summary": "Critics call the US multi-billion-dollar oil deal in Venezuela modern-day colonialism."
+    },
+    {
+      "title": "Burnham, Macron talk border security and stronger Europe-UK ties",
+      "link": "https://www.aljazeera.com/news/2026/9/3/burnham-macron-talk-border-security-and-stronger-europe-uk-ties?traffic_source=rss",
+      "pubDate": "Thu, 03 Sep 2026 21:40:42 +0000",
+      "source": "Al Jazeera",
+      "summary": "New UK Prime Minister Andy Burnham discussed shared challenges in his first official meeting with the French president."
+    },
+    {
+      "title": "NYC’s AI ban through grade 8 sets stage for rest of US, experts say",
+      "link": "https://www.aljazeera.com/economy/2026/9/3/nycs-ai-ban-through-grade-8-sets-stage-for-rest-of-us-experts-say?traffic_source=rss",
+      "pubDate": "Thu, 03 Sep 2026 21:32:55 +0000",
+      "source": "Al Jazeera",
+      "summary": "The ban will last for one year and affect 600,000 students."
+    },
+    {
+      "title": "Norway Seizes Russian Ship, Testing Moscow in the High Arctic",
       "link": "https://www.nytimes.com/2026/09/03/world/europe/norway-russian-research-ship-arctic.html",
-      "pubDate": "Thu, 03 Sep 2026 20:32:44 +0000",
+      "pubDate": "Thu, 03 Sep 2026 21:12:44 +0000",
       "source": "NYT World",
       "summary": "Empowered by an international court order, Norway captured the vessel as part of a global effort to seize Russian assets. The Russians called it “piracy.”"
     },
     {
-      "title": "Train crashes into truck at railway crossing in Gdansk, Poland",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/9/3/train-crashes-into-truck-at-railway-crossing-in-gdansk-poland?traffic_source=rss",
-      "pubDate": "Thu, 03 Sep 2026 20:08:19 +0000",
+      "title": "Nepal flood victims to be identified through DNA",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/9/3/nepal-flood-victims-to-be-identified-through-dna?traffic_source=rss",
+      "pubDate": "Thu, 03 Sep 2026 21:11:18 +0000",
       "source": "Al Jazeera",
-      "summary": "CCTV footage shows the moment a train collided with a truck at a railway crossing in northern Poland."
+      "summary": "Nepal flood victims to be identified through DNA"
     },
     {
-      "title": "Funeral held for child killed in US strike on Iranian wedding",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/9/3/09-03-iran-child-funeral-minisv?traffic_source=rss",
-      "pubDate": "Thu, 03 Sep 2026 20:00:40 +0000",
+      "title": "El Nino: A phenomenon supercharged by climate change",
+      "link": "https://www.aljazeera.com/features/2026/9/3/el-nino-a-phenomenon-supercharged-by-climate-change?traffic_source=rss",
+      "pubDate": "Thu, 03 Sep 2026 21:09:39 +0000",
       "source": "Al Jazeera",
-      "summary": "Mourners carried the coffin of a child killed in a US strike on a wedding in Kuhestak, along the Strait of Hormuz."
-    },
-    {
-      "title": "Leaders of Thailand and Singapore perform Beatles song, “Let It Be”",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/9/3/leaders-of-thailand-and-singapore-perform-beatles-song-let-it?traffic_source=rss",
-      "pubDate": "Thu, 03 Sep 2026 20:00:02 +0000",
-      "source": "Al Jazeera",
-      "summary": "Thai Prime Minister Anutin Charnvirakul and Singapore’s Prime Minister Lawrence Wong performed the Beatles song."
-    },
-    {
-      "title": "FIFA blasts UEFA ‘smear campaign,’ fights World Cup plan disclosures",
-      "link": "https://www.aljazeera.com/sports/2026/9/3/fifa-blasts-uefa-smear-campaign-fights-world-cup-plan-disclosures?traffic_source=rss",
-      "pubDate": "Thu, 03 Sep 2026 19:43:07 +0000",
-      "source": "Al Jazeera",
-      "summary": "UEFA seeks US testimony, documents for possible lawsuit; FIFA asks US court to defer or let it oppose UEFA's request."
-    },
-    {
-      "title": "Serbia welcomes return of war criminal Mladic’s body with military honours",
-      "link": "https://www.aljazeera.com/news/2026/9/3/serbia-welcomes-return-of-war-criminal-mladics-body-with-military-honours?traffic_source=rss",
-      "pubDate": "Thu, 03 Sep 2026 19:27:34 +0000",
-      "source": "Al Jazeera",
-      "summary": "Ratko Mladic received a life sentence from a UN court for committing atrocities during the 1992-1995 Bosnian War."
+      "summary": "Scientists warn the 2026-27 El Nino could become the strongest ever, exacerbating global heat, droughts and floods."
     },
     {
       "title": "Spain’s Leader Questions Morocco Border Control During Ceuta Migrant Surge",
@@ -715,6 +729,14 @@
   ],
   "syndicate_journal": [
     {
+      "title": "Deadly Livestock Virus Found Lurking in Ancient Texts",
+      "link": "https://nautil.us/deadly-livestock-virus-found-lurking-in-ancient-texts-1284770/",
+      "summary": "Take a look, it’s in a book\nThe post Deadly Livestock Virus Found Lurking in Ancient Texts appeared first on Nautilus.",
+      "pubDate": "Thu, 03 Sep 2026 22:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
       "title": "Your Home is Crawling With Microplastics",
       "link": "https://nautil.us/your-home-is-crawling-with-microplastics-1284761/",
       "summary": "And vacuuming might make things worse\nThe post Your Home is Crawling With Microplastics appeared first on Nautilus.",
@@ -745,14 +767,6 @@
       "pubDate": "2026-09-03T17:32:30.295Z",
       "domain": "politics",
       "source": "Jacobin"
-    },
-    {
-      "title": "Envy at the Ballot Box",
-      "link": "https://nautil.us/envy-at-the-ballot-box-1284752/",
-      "summary": "Majority voting may make us less willing to tolerate advantages for others\nThe post Envy at the Ballot Box appeared first on Nautilus.",
-      "pubDate": "Thu, 03 Sep 2026 16:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
     },
     {
       "title": "The Rise of the Billionaire Lobby",
@@ -1005,64 +1019,64 @@
   ],
   "misinfo_toilet": [
     {
-      "headline": "Norway Seizes Russian Research Ship in the High Arctic",
-      "fragment": "Why do men fight for their servitude as stubbornly as though it were their salvation?",
-      "splice": "Norway Seizes Russian Research Ship in the High Arctic ...as why do men fight for their servitude as stubbornly as though it were their salvation?",
-      "seed": 20260923
-    },
-    {
-      "headline": "Train crashes into truck at railway crossing in Gdansk, Poland",
-      "fragment": "The current ruling ontology denies any possibility of a social causation of mental illness. The chemico-biologization of mental illness is of course strictly commensurate with its depoliticization.",
-      "splice": "Train crashes into truck at railway crossing in Gdansk, Poland consequently the current ruling ontology denies any possibility of a social causation of mental illness. The chemico-biologization of mental illness is of course strictly commensurate with its depoliticization.",
-      "seed": 20260924
-    },
-    {
-      "headline": "Funeral held for child killed in US strike on Iranian wedding",
-      "fragment": "Everywhere it is machines—real ones, not figurative ones: machines driving other machines, machines being driven by other machines, with all the necessary couplings and connections.",
-      "splice": "Funeral held for child killed in US strike on Iranian wedding insofar as everywhere it is machines—real ones, not figurative ones: machines driving other machines, machines being driven by other machines, with all the necessary couplings and connections.",
-      "seed": 20260925
-    },
-    {
-      "headline": "Palestinian teens killed during settler attack on West Bank village, officials say",
-      "fragment": "There is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
-      "splice": "Palestinian teens killed during settler attack on West Bank village, officials say within which there is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
+      "headline": "Why are people calling Venezuela oil deal a new form of US colonialism?",
+      "fragment": "Traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
+      "splice": "Why are people calling Venezuela oil deal a new form of US colonialism? despite traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
       "seed": 20260926
     },
     {
-      "headline": "Leaders of Thailand and Singapore perform Beatles song, “Let It Be”",
-      "fragment": "The simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
-      "splice": "Leaders of Thailand and Singapore perform Beatles song, “Let It Be” consequently the simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
+      "headline": "Burnham, Macron talk border security and stronger Europe-UK ties",
+      "fragment": "Traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
+      "splice": "Burnham, Macron talk border security and stronger Europe-UK ties because traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
       "seed": 20260927
-    },
-    {
-      "headline": "Welcome to Dubai: Kinahan Cartel’s Visas Revealed",
-      "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "splice": "Welcome to Dubai: Kinahan Cartel’s Visas Revealed which is to say the breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "seed": 20260928
-    },
-    {
-      "headline": "'Beautiful, vibrant' Disney star Carla Jeffery dies aged 33",
-      "fragment": "The technocrat is the natural friend of the dictator—computers and dictatorship.",
-      "splice": "'Beautiful, vibrant' Disney star Carla Jeffery dies aged 33 as if the technocrat is the natural friend of the dictator—computers and dictatorship.",
-      "seed": 20260929
-    },
-    {
-      "headline": "Spain’s Leader Questions Morocco Border Control During Ceuta Migrant Surge",
-      "fragment": "Reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
-      "splice": "Spain’s Leader Questions Morocco Border Control During Ceuta Migrant Surge despite reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
-      "seed": 20260930
-    },
-    {
-      "headline": "ICE Is Paying a Controversial AI Firm to Hide the Identities of Agents",
-      "fragment": "The truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
-      "splice": "ICE Is Paying a Controversial AI Firm to Hide the Identities of Agents insofar as the truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
-      "seed": 20260931
     },
     {
       "headline": "Feminist activist and journalist Gloria Steinem dies, aged 92",
       "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "splice": "Feminist activist and journalist Gloria Steinem dies, aged 92 underneath the breast is a machine that produces milk, and the mouth a machine coupled to it.",
+      "splice": "Feminist activist and journalist Gloria Steinem dies, aged 92 consequently the breast is a machine that produces milk, and the mouth a machine coupled to it.",
+      "seed": 20260928
+    },
+    {
+      "headline": "El Nino: A phenomenon supercharged by climate change",
+      "fragment": "In the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
+      "splice": "El Nino: A phenomenon supercharged by climate change insofar as in the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
+      "seed": 20260929
+    },
+    {
+      "headline": "Will Ronaldo Cry​? World Cup Fans Bet Billions Through Prediction Markets",
+      "fragment": "The privatization of the organs will only begin with the shame felt by man at the sight of man.",
+      "splice": "Will Ronaldo Cry​? World Cup Fans Bet Billions Through Prediction Markets the system notes that the privatization of the organs will only begin with the shame felt by man at the sight of man.",
+      "seed": 20260930
+    },
+    {
+      "headline": "Nepal flood victims to be identified through DNA",
+      "fragment": "Why do men fight for their servitude as stubbornly as though it were their salvation?",
+      "splice": "Nepal flood victims to be identified through DNA within which why do men fight for their servitude as stubbornly as though it were their salvation?",
+      "seed": 20260931
+    },
+    {
+      "headline": "Satellite Imagery Documents New Border Patrol Road Construction in Big Bend National Park",
+      "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
+      "splice": "Satellite Imagery Documents New Border Patrol Road Construction in Big Bend National Park consequently the revolutionary lives in the gap which separates technical progress from social totality.",
       "seed": 20260932
+    },
+    {
+      "headline": "Toxic wildfire haze spreads across South East Asia as 'super' El Niño intensifies",
+      "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "splice": "Toxic wildfire haze spreads across South East Asia as 'super' El Niño intensifies underneath the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "seed": 20260933
+    },
+    {
+      "headline": "“Board of Peace” Billionaire Backs AIPAC Fund Targeting Pro-Palestine Candidates",
+      "fragment": "Why do men fight for their servitude as stubbornly as though it were their salvation?",
+      "splice": "“Board of Peace” Billionaire Backs AIPAC Fund Targeting Pro-Palestine Candidates within which why do men fight for their servitude as stubbornly as though it were their salvation?",
+      "seed": 20260934
+    },
+    {
+      "headline": "Seth Moulton Sold Out Trans Kids — and Lost His Senate Race",
+      "fragment": "The simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
+      "splice": "Seth Moulton Sold Out Trans Kids — and Lost His Senate Race insofar as the simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
+      "seed": 20260935
     }
   ]
 }
