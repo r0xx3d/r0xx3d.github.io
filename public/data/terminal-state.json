@@ -1,7 +1,23 @@
 {
-  "generated_at": "2026-09-04T10:59:38.216Z",
+  "generated_at": "2026-09-04T20:29:01.788Z",
   "threat_intel": {
     "cisa_kev": [
+      {
+        "cveID": "CVE-2026-85046",
+        "vendorProject": "Google",
+        "product": "Chromium V8",
+        "vulnerabilityName": "Google Chromium V8 Type Confusion Vulnerability",
+        "dateAdded": "2026-09-04",
+        "shortDescription": "Google Chromium V8 contains a type confusion vulnerability that allows a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. This vulnerability could affect multiple web browsers that utilize Chromium, including, but not limited to, Google Chrome, Microsoft Edge, and Opera.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-09-18",
+        "knownRansomwareCampaignUse": "Unknown",
+        "forensicTriage": "No",
+        "notes": "https://chromereleases.googleblog.com/2026/09/stable-channel-update-for-desktop_01882797386.html ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-85046",
+        "cwes": [
+          "CWE-843"
+        ]
+      },
       {
         "cveID": "CVE-2026-59822",
         "vendorProject": "BerriAI",
@@ -226,27 +242,65 @@
         "forensicTriage": "No",
         "notes": "This vulnerability affects an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: https://access.redhat.com/articles/1537873 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2015-3246",
         "cwes": []
-      },
-      {
-        "cveID": "CVE-2015-5287",
-        "vendorProject": "Red Hat",
-        "product": "Automatic Bug Reporting Tool",
-        "vulnerabilityName": "Red Hat Automatic Bug Reporting Tool Privilege Escalation Vulnerability",
-        "dateAdded": "2026-08-26",
-        "shortDescription": "Red Hat Automatic Bug Reporting Tool (ABRT) contains a privilege escalation vulnerability that could allow local users with certain permissions to gain privileges via a symlink attack on a file with a predictable name. The impacted product(s) could be end-of-life (EoL) and/or end-of-service (EoS). Users are advised to discontinue use and/or transition to a supported version.",
-        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "dueDate": "2026-09-09",
-        "knownRansomwareCampaignUse": "Unknown",
-        "forensicTriage": "No",
-        "notes": "This vulnerability affects an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: https://github.com/abrt/abrt/commit/3c1b60cfa62d39e5fff5a53a5bc53dae189e740e ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2015-5287",
-        "cwes": []
       }
     ],
     "urlhaus": [
       {
-        "id": "3912374",
-        "date_added": "2026-09-04 10:01:54",
-        "url": "http://42.233.190.252:58887/i",
+        "id": "3912445",
+        "date_added": "2026-09-04 20:17:16",
+        "url": "http://182.124.41.251:59176/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3912444",
+        "date_added": "2026-09-04 19:51:21",
+        "url": "http://182.124.41.251:59176/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3912443",
+        "date_added": "2026-09-04 19:21:19",
+        "url": "http://42.230.24.16:58927/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3912442",
+        "date_added": "2026-09-04 19:17:12",
+        "url": "http://125.41.229.38:58416/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3912441",
+        "date_added": "2026-09-04 19:11:52",
+        "url": "http://150.241.65.250:889/venv/lib/python3.12/site-packages/cffi-2.1.1.dist-info/METADATA",
         "url_status": "offline",
         "threat": "malware_download",
         "tags": [
@@ -254,19 +308,101 @@
         ]
       },
       {
-        "id": "3912373",
-        "date_added": "2026-09-04 10:01:52",
-        "url": "http://112.248.110.76:56451/bin.sh",
+        "id": "3912440",
+        "date_added": "2026-09-04 19:05:20",
+        "url": "http://39.86.247.62:38819/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
+          "32-bit",
+          "elf",
+          "mips",
           "Mozi"
         ]
       },
       {
-        "id": "3912372",
-        "date_added": "2026-09-04 10:01:45",
-        "url": "http://182.126.124.244:57970/i",
+        "id": "3912439",
+        "date_added": "2026-09-04 19:03:23",
+        "url": "http://125.45.49.209:37734/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3912438",
+        "date_added": "2026-09-04 18:55:20",
+        "url": "http://124.131.133.51:53693/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3912437",
+        "date_added": "2026-09-04 18:52:20",
+        "url": "http://124.131.133.51:53693/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3912436",
+        "date_added": "2026-09-04 18:50:20",
+        "url": "http://125.41.229.38:58416/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3912435",
+        "date_added": "2026-09-04 18:38:20",
+        "url": "http://218.29.147.41:58663/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3912434",
+        "date_added": "2026-09-04 18:15:19",
+        "url": "http://105.184.42.145:36337/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "mirai",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3912432",
+        "date_added": "2026-09-04 18:01:05",
+        "url": "http://115.63.245.146:39613/bin.sh",
         "url_status": "offline",
         "threat": "malware_download",
         "tags": [
@@ -274,9 +410,9 @@
         ]
       },
       {
-        "id": "3912371",
-        "date_added": "2026-09-04 10:01:44",
-        "url": "http://113.221.26.56:55726/i",
+        "id": "3912433",
+        "date_added": "2026-09-04 18:01:05",
+        "url": "http://115.63.245.146:39613/i",
         "url_status": "offline",
         "threat": "malware_download",
         "tags": [
@@ -284,216 +420,165 @@
         ]
       },
       {
-        "id": "3912369",
-        "date_added": "2026-09-04 10:01:43",
-        "url": "http://113.228.158.110:48412/i",
+        "id": "3912431",
+        "date_added": "2026-09-04 17:57:12",
+        "url": "http://182.114.193.191:34589/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3912430",
+        "date_added": "2026-09-04 17:42:20",
+        "url": "http://105.184.42.145:36337/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "mirai",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3912429",
+        "date_added": "2026-09-04 17:33:19",
+        "url": "http://222.127.158.71:56426/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "mirai",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3912428",
+        "date_added": "2026-09-04 16:49:20",
+        "url": "http://219.155.83.56:57148/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3912427",
+        "date_added": "2026-09-04 16:20:26",
+        "url": "http://219.155.83.56:57148/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3912426",
+        "date_added": "2026-09-04 16:10:12",
+        "url": "http://202.189.12.244/66666.bin",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
           "None"
-        ]
-      },
-      {
-        "id": "3912370",
-        "date_added": "2026-09-04 10:01:43",
-        "url": "http://112.248.110.76:56451/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3912360",
-        "date_added": "2026-09-04 10:01:42",
-        "url": "http://119.179.238.67:49003/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3912361",
-        "date_added": "2026-09-04 10:01:42",
-        "url": "http://182.112.30.71:38364/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3912362",
-        "date_added": "2026-09-04 10:01:42",
-        "url": "http://42.226.68.209:53631/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3912363",
-        "date_added": "2026-09-04 10:01:42",
-        "url": "http://193.90.12.80/aminer.gz",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3912364",
-        "date_added": "2026-09-04 10:01:42",
-        "url": "http://123.190.28.100:58407/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3912365",
-        "date_added": "2026-09-04 10:01:42",
-        "url": "http://119.179.238.67:49003/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3912366",
-        "date_added": "2026-09-04 10:01:42",
-        "url": "http://182.117.68.170:45884/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3912367",
-        "date_added": "2026-09-04 10:01:42",
-        "url": "http://42.55.48.13:57019/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3912368",
-        "date_added": "2026-09-04 10:01:42",
-        "url": "http://113.237.97.124:52097/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3912358",
-        "date_added": "2026-09-04 10:01:41",
-        "url": "http://115.57.12.233:39540/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3912359",
-        "date_added": "2026-09-04 10:01:41",
-        "url": "http://183.12.173.166:35769/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3912356",
-        "date_added": "2026-09-04 10:01:40",
-        "url": "http://219.157.183.84:33148/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3912357",
-        "date_added": "2026-09-04 10:01:40",
-        "url": "http://123.190.28.100:58407/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3912339",
-        "date_added": "2026-09-04 10:01:39",
-        "url": "http://219.157.167.99:33777/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "mirai"
         ]
       }
     ]
   },
   "world_monitor": [
     {
-      "title": "US diesel prices hit an all-time-high",
-      "link": "https://www.bbc.co.uk/news/articles/c7903r0grx0o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Fri, 04 Sep 2026 10:52:56 GMT",
+      "title": "Israeli drones drop bombs on southern Lebanon’s Mansouri",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/9/4/04-09-sv-israel-drone-bombs-mansouri-lb-fm?traffic_source=rss",
+      "pubDate": "Fri, 04 Sep 2026 20:04:13 +0000",
+      "source": "Al Jazeera",
+      "summary": "Several explosions rocked the southern Lebanese town of Mansouri after Israeli military drones dropped explosives in the"
+    },
+    {
+      "title": "Israeli strike kills two in southern Lebanon amid ongoing escalation",
+      "link": "https://www.aljazeera.com/news/2026/9/4/israeli-strike-kills-two-in-southern-lebanon-amid-ongoing-escalation?traffic_source=rss",
+      "pubDate": "Fri, 04 Sep 2026 19:48:25 +0000",
+      "source": "Al Jazeera",
+      "summary": "Israeli attacks against villages and towns in southern Lebanon continue despite truce agreements and diplomacy."
+    },
+    {
+      "title": "Andrew Tate indicted in Romania for trafficking minors, money laundering",
+      "link": "https://www.aljazeera.com/news/2026/9/4/andrew-tate-indicted-in-romania-for-trafficking-minors-money-laundering?traffic_source=rss",
+      "pubDate": "Fri, 04 Sep 2026 19:44:47 +0000",
+      "source": "Al Jazeera",
+      "summary": "The influencer and his brother are in a Miami prison pending potential extradition to the UK on rape charges"
+    },
+    {
+      "title": "UN votes to adopt new world map that reflects Africa’s true size",
+      "link": "https://www.aljazeera.com/news/2026/9/4/un-votes-to-adopt-new-world-map-that-reflects-africas-true-size?traffic_source=rss",
+      "pubDate": "Fri, 04 Sep 2026 19:25:08 +0000",
+      "source": "Al Jazeera",
+      "summary": "The widely-used Mercator map is often criticised for visually exaggerating and centralising Western nations."
+    },
+    {
+      "title": "Five EU nations inch towards deal on migrant ‘return hubs’ by 2027",
+      "link": "https://www.aljazeera.com/news/2026/9/4/five-eu-nations-inch-towards-deal-on-migrant-return-hubs-by-2027?traffic_source=rss",
+      "pubDate": "Fri, 04 Sep 2026 18:52:28 +0000",
+      "source": "Al Jazeera",
+      "summary": "Germany, Austria, ⁠Greece, Denmark and the Netherlands did not outline where the centres would be located."
+    },
+    {
+      "title": "Russian Drone Strikes Office of Ukraine’s Intelligence Chief",
+      "link": "https://www.nytimes.com/2026/09/04/world/europe/russia-drone-attack-kyiv-security-service.html",
+      "pubDate": "Fri, 04 Sep 2026 18:42:04 +0000",
+      "source": "NYT World",
+      "summary": "The attack came as the American envoys Steve Witkoff and Jared Kushner were said to be planning imminent visits to Kyiv and to Moscow."
+    },
+    {
+      "title": "Europe targeted by spiralling campaign of sabotage - and Russia is the chief suspect",
+      "link": "https://www.bbc.co.uk/news/articles/c5y4g6meekro?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Fri, 04 Sep 2026 16:49:15 GMT",
       "source": "BBC",
-      "summary": "Fuel prices have soared since the Iran conflict began at the end of February, mirroring the surge in wholesale oil prices."
+      "summary": "Germany has blamed Russia for an attack on Leipzig airport but there has been a series of suspicious incidents elsewhere."
     },
     {
-      "title": "Reform UK officials step down as new funding scandal hits far-right party",
-      "link": "https://www.aljazeera.com/news/2026/9/4/reform-uk-officials-step-down-as-new-funding-scandal-hits-far-right-party?traffic_source=rss",
-      "pubDate": "Fri, 04 Sep 2026 10:26:42 +0000",
-      "source": "Al Jazeera",
-      "summary": "Resignations come after documentary alleges party arranged for overseas company to fund polling."
+      "title": "Russia hits Ukrainian security headquarters in drone attack, Zelensky says",
+      "link": "https://www.bbc.co.uk/news/articles/c5yep7y48x2o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Fri, 04 Sep 2026 16:02:32 GMT",
+      "source": "BBC",
+      "summary": "The unmanned aerial vehicle struck without warning in the heart of the Ukrainian capital."
     },
     {
-      "title": "Argentina’s Milei threatens sanctions as he refocuses on Falklands",
-      "link": "https://www.aljazeera.com/news/2026/9/4/argentinas-milei-threatens-sanctions-as-he-refocuses-on-falklands?traffic_source=rss",
-      "pubDate": "Fri, 04 Sep 2026 10:17:47 +0000",
-      "source": "Al Jazeera",
-      "summary": "Argentina's president accused of political machinations as he eyes shifting US stance on Las Malvinas."
+      "title": "'A rare moment of joy': Nepal tunnel rescues bring hope for more flood survivors",
+      "link": "https://www.bbc.co.uk/news/videos/cd79vp91321o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Fri, 04 Sep 2026 14:40:00 GMT",
+      "source": "BBC",
+      "summary": "There are still hundreds of workers trapped in a network of tunnels that run along the Trishuli river."
     },
     {
       "title": "Families Turn to Symbolic Cremation After Nepal Floods",
       "link": "https://www.nytimes.com/2026/09/04/world/asia/nepal-symbolic-cremation-floods.html",
-      "pubDate": "Fri, 04 Sep 2026 10:14:41 +0000",
+      "pubDate": "Fri, 04 Sep 2026 12:35:48 +0000",
       "source": "NYT World",
       "summary": "Thousands are missing, and some families have lost hope of recovering their bodies. To carry out his sacred duty, a son lights the funeral pyre for a straw effigy of his father."
     },
     {
-      "title": "‘Build The Wall’: White House arcade games face backlash",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/9/4/build-the-wall-white-house-arcade-games-face-backlash?traffic_source=rss",
-      "pubDate": "Fri, 04 Sep 2026 10:10:58 +0000",
-      "source": "Al Jazeera",
-      "summary": "The White House has unveiled five arcade-style games to promote Trump's 'MAGA' agenda."
-    },
-    {
-      "title": "Inside the Nepal Tunnel Rescue Operation",
-      "link": "https://www.nytimes.com/2026/09/04/world/asia/nepal-flood-tunnel-rescue-operation-trishuli.html",
-      "pubDate": "Fri, 04 Sep 2026 10:06:41 +0000",
-      "source": "NYT World",
-      "summary": "An Australian engineer advising the effort described how two men were freed after nine days trapped in a tunnel at the Upper Trishuli 3A hydropower plant."
-    },
-    {
-      "title": "Europe targeted by spiralling campaign of sabotage and Russia is the chief suspect",
-      "link": "https://www.bbc.co.uk/news/articles/c5y4g6meekro?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Fri, 04 Sep 2026 10:00:18 GMT",
+      "title": "UK support for Falkland Islands 'unwavering' after Argentina restates claims, No 10 says",
+      "link": "https://www.bbc.co.uk/news/articles/cn45jg3zlz4o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Fri, 04 Sep 2026 11:54:51 GMT",
       "source": "BBC",
-      "summary": "Germany has blamed Russia for an attack on Leipzig airport but there has been a series of suspicious incidents elsewhere."
+      "summary": "The comments come as Argentinian president Javier Milei says the \"winds of change\" favoured his country's claim on the British overseas territory."
+    },
+    {
+      "title": "Alejandro Betancourt, Trump’s Partner in Venezuelan Oil Deal, Has Faced Investigations",
+      "link": "https://www.nytimes.com/2026/09/04/world/americas/venezuela-oil-trump-alejandro-betancourt.html",
+      "pubDate": "Fri, 04 Sep 2026 11:05:48 +0000",
+      "source": "NYT World",
+      "summary": "Alejandro Betancourt has been targeted by multiple investigations. Now he’s the U.S. government’s unrivaled partner in President Trump’s bid to control Venezuelan oil resources."
     },
     {
       "title": "25 Years After 9/11, Muslims Are Still Politicians’ Favorite Scapegoat",
@@ -501,27 +586,6 @@
       "pubDate": "Fri, 04 Sep 2026 10:00:00 +0000",
       "source": "The Intercept",
       "summary": "Rozina Ali on the rise of Islamophobia in America and the vague terrorism laws now being wielded against dissidents like the Prairieland protesters.\nThe post 25 Years After 9/11, Muslims Are Still Politicians’ Favorite Scapegoat appeared first on The"
-    },
-    {
-      "title": "Meloni sets a record, leading Italy’s longest-serving government since WWII",
-      "link": "https://www.aljazeera.com/news/2026/9/4/meloni-sets-a-record-leading-italys-longest-serving-government-since-wwii?traffic_source=rss",
-      "pubDate": "Fri, 04 Sep 2026 09:50:29 +0000",
-      "source": "Al Jazeera",
-      "summary": "As supporters celebrate the milestone, analysts warn longevity is not tantamount to stability."
-    },
-    {
-      "title": "Nigel Farage to Speak at Reform UK Conference Amid Scrutiny Over Party Finances",
-      "link": "https://www.nytimes.com/2026/09/04/world/europe/farage-reform-uk-conference-donations.html",
-      "pubDate": "Fri, 04 Sep 2026 09:42:38 +0000",
-      "source": "NYT World",
-      "summary": "Advisers to the Reform U.K. leader Nigel Farage were captured on film apparently arranging contributions from a man posing as a foreign donor."
-    },
-    {
-      "title": "Israel takes its war on Palestine into the AI age",
-      "link": "https://www.aljazeera.com/opinions/2026/9/4/israel-takes-its-war-on-palestine-into-the-ai-age?traffic_source=rss",
-      "pubDate": "Fri, 04 Sep 2026 09:42:02 +0000",
-      "source": "Al Jazeera",
-      "summary": "The Hanover affair exposes a new front in Israel’s long-running effort to shape how Palestinians are understood."
     },
     {
       "title": "The Risk of Russian Sabotage in Europe: A Fight That Spirals Out of Control",
@@ -545,25 +609,11 @@
       "summary": "Mayors and governors control many of Flock’s contracts for its AI-powered surveillance cameras. It’s donating to their associations.\nThe post Flock Donations to Local Politicians’ Groups Skyrocket as Protests Against AI Cameras Mount appeared first o"
     },
     {
-      "title": "'Layer upon layer of miracles': How Nepal flood survivors were rescued from tunnel",
-      "link": "https://www.bbc.co.uk/news/articles/c9dwjv96qyqo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Fri, 04 Sep 2026 08:23:05 GMT",
+      "title": "Steve Irwin's family celebrates 'superhero' dad, 20 years after shock death",
+      "link": "https://www.bbc.co.uk/news/articles/cjrx75ldydwo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Fri, 04 Sep 2026 04:06:41 GMT",
       "source": "BBC",
-      "summary": "From searching for a buried tunnel entrance to blowing up rocks the size of cars, rescuers had to surmount multiple challenges to reach survivors."
-    },
-    {
-      "title": "Argentine leader threatens to sanction oil firms and reiterates Falklands claim",
-      "link": "https://www.bbc.co.uk/news/articles/clyk18g1l8ko?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Fri, 04 Sep 2026 06:52:29 GMT",
-      "source": "BBC",
-      "summary": "Javier Milei reiterates his country's claim on the British overseas territory, saying the \"winds of change\" favour it."
-    },
-    {
-      "title": "Tensions flare as judge declines to remove juror in Lindsay Clancy trial",
-      "link": "https://www.bbc.co.uk/news/articles/c7v4n7pv5epo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Fri, 04 Sep 2026 00:54:46 GMT",
-      "source": "BBC",
-      "summary": "The defence lawyer is upset after the judge decides not to remove a holdout in the triple murder case."
+      "summary": "The Australian icon was killed in 2006, after a stingray's barb pierced his chest during filming."
     },
     {
       "title": "ICE Gave New Hires Access to Restricted Info on Palantir App Before They Passed Background Checks",
@@ -624,6 +674,20 @@
   ],
   "syndication": [
     {
+      "title": "Using a VM to Contain an AI Agent",
+      "link": "https://www.schneier.com/blog/archives/2026/09/using-a-vm-to-contain-an-ai-agent.html",
+      "pubDate": "2026-09-04T16:31:38.000Z",
+      "author": "Schneier on Security",
+      "content": "It won’t work:\nMy suspicion was that GPT 5.6-Cyber would succeed, but the frequency and manner of its success removed all doubt. We have to reassess sandboxing quality for capable AI agents, and in general the software stack with which they interact.\nAn off-the-shelf VM is not enough to contain a mo"
+    },
+    {
+      "title": "Security Vulnerability in a Voting System",
+      "link": "https://www.schneier.com/blog/archives/2026/09/security-vulnerability-in-a-voting-system.html",
+      "pubDate": "2026-09-04T11:09:35.000Z",
+      "author": "Schneier on Security",
+      "content": "It’s a vulnerability that allows someone to recover the order of ballots cast, newly exploited with AI tools.\nNearly four years since the original vulnerability was disclosed, I was still able to use it to analyze voter behavior in Georgia (one of the 21 states that uses affected scanners) in the re"
+    },
+    {
       "title": "AI Coding Agents Are Installing Unknown/Untrusted Code on Corporate Networks",
       "link": "https://www.schneier.com/blog/archives/2026/09/ai-coding-agents-are-installing-unknown-untrusted-code-on-corporate-networks.html",
       "pubDate": "2026-09-04T10:35:17.000Z",
@@ -638,25 +702,11 @@
       "content": "Today's links Amazon achieves enshittification inception: Cheating on your fraud is a hell of a thing. Hey look at this: Delights to delectate. Object permanence: Electrolite is back; Mafia rules; Aaronsw on Wikipedia; Proctorio's memory hole. Upcoming appearances: Dąbrowa Górnicza, Warsaw, Brighton"
     },
     {
-      "title": "Researching Employment Scams",
-      "link": "https://www.schneier.com/blog/archives/2026/09/researching-employment-scams.html",
-      "pubDate": "2026-09-03T11:18:14.000Z",
-      "author": "Schneier on Security",
-      "content": "Researchers built a fake company to study fake employee scams."
-    },
-    {
       "title": "Pluralistic: Preparing for a post-Trump internet (03 Sep 2026)",
       "link": "https://pluralistic.net/2026/09/03/broken-arrows/",
       "pubDate": "Thu, 03 Sep 2026 08:45:19 +0000",
       "author": "Pluralistic",
       "content": "Today's links Preparing for a post-Trump internet: You'd better hope it's also a post-American internet. Hey look at this: Delights to delectate. Object permanence: Barnum and Bailey v journalism; Wired's Wikipedia article is a wiki; Singapore's national wifi; Twitter arguments. Upcoming appearances"
-    },
-    {
-      "title": "AI Agents Are Now Emailing Me with Their Security Concerns",
-      "link": "https://www.schneier.com/blog/archives/2026/09/ai-agents-are-now-emailing-me-with-their-security-concerns.html",
-      "pubDate": "2026-09-02T18:28:08.000Z",
-      "author": "Schneier on Security",
-      "content": "I received the two emails below earlier in the month. They’re vaguely coherent. I suppose I shouldn’t be surprised that the corpus that AIs are training on contain data suggesting that I am someone to write to with random computer and network security problems. After all, I observe that behavior in "
     },
     {
       "title": "Pluralistic: Unpermissioned research (02 Sep 2026)",
@@ -688,6 +738,70 @@
     }
   ],
   "syndicate_journal": [
+    {
+      "title": "Can Nature Benefit You If You’re Already Well?",
+      "link": "https://nautil.us/can-nature-benefit-you-if-youre-already-well-1284801/",
+      "summary": "A conversation with a neuroscientist about how nature can fortify the strong and support resilience\nThe post Can Nature Benefit You If You’re Already Well? appeared first on Nautilus.",
+      "pubDate": "Fri, 04 Sep 2026 19:30:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "Chimps Have Accents, Too",
+      "link": "https://nautil.us/chimps-have-accents-too-1284795/",
+      "summary": "And they could shed light on our own language acquisition\nThe post Chimps Have Accents, Too appeared first on Nautilus.",
+      "pubDate": "Fri, 04 Sep 2026 18:30:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "Ruth First’s Legacy Has Outlived the Regime That Killed Her",
+      "link": "",
+      "summary": "In August 1982, a parcel bomb went off at the Center for African Studies at Eduardo Mondlane University in Maputo, Mozambique. Sent by the South African government’s Special Branch, its target and victim was Ruth First, a lifelong member of the South African Communist Party (SACP), who was fifty-sev",
+      "pubDate": "2026-09-04T15:02:14.726Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "The Extinct “American Cheetah” Wasn’t a Cheetah After All",
+      "link": "https://nautil.us/the-extinct-american-cheetah-wasnt-a-cheetah-after-all-1284777/",
+      "summary": "And, unlike African cheetahs, it was a flexible carnivore\nThe post The Extinct “American Cheetah” Wasn’t a Cheetah After All appeared first on Nautilus.",
+      "pubDate": "Fri, 04 Sep 2026 15:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "Private Equity’s Pension Heist",
+      "link": "",
+      "summary": "From 2024 to 2025, the two hundred largest pension funds in the United States increased their investment in private credit by . It’s now gone up around 650 percent over the past five years. Private credit is the other side of the coin to private equity (PE) — among other things, it provides the loan",
+      "pubDate": "2026-09-04T14:02:11.900Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "The Chinese-Only Schools of the Jim Crow South",
+      "link": "https://daily.jstor.org/the-chinese-only-schools-of-the-jim-crow-south/",
+      "summary": "A 1920s court battle over a Chinese American student exposed the complicated racial boundaries of school segregation.\nThe post The Chinese-Only Schools of the Jim Crow South appeared first on JSTOR Daily.",
+      "pubDate": "Fri, 04 Sep 2026 13:44:23 +0000",
+      "domain": "history",
+      "source": "JSTOR Daily"
+    },
+    {
+      "title": "Francis Fukuyama: The American Right Has Gone Off the Deep End",
+      "link": "",
+      "summary": "In 1989, Francis Fukuyama wrote a sweeping philosophical polemic in which he argued that liberal democratic capitalism was the only viable economic and political system. Countries would either converge on its model or drift into dysfunction. What prevented states and individuals from accepting this ",
+      "pubDate": "2026-09-04T13:32:40.369Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "\"Illiterate Boyfriend\" tests",
+      "link": "https://languagelog.ldc.upenn.edu/nll/?p=74172&utm_source=rss&utm_medium=rss&utm_campaign=74172",
+      "summary": "Alaina Demopoulos, \"Women are giving their partners the ‘Illiterate Boyfriend’ test: ‘Do your best to pronounce these words’\", The Guardian 9/3/2026: There are common non-negotiables we look for in a prospective partner. They should be kind, caring and thoughtful. Having a shared interest helps. So ",
+      "pubDate": "Fri, 04 Sep 2026 13:01:07 +0000",
+      "domain": "linguistics",
+      "source": "Language Log"
+    },
     {
       "title": "Upend the trickle-down",
       "link": "https://aeon.co/essays/why-western-democracy-is-ailing-and-how-to-fix-it",
@@ -721,60 +835,12 @@
       "source": "arXiv: cs.AI"
     },
     {
-      "title": "Deadly Livestock Virus Found Lurking in Ancient Texts",
-      "link": "https://nautil.us/deadly-livestock-virus-found-lurking-in-ancient-texts-1284770/",
-      "summary": "Take a look, it’s in a book\nThe post Deadly Livestock Virus Found Lurking in Ancient Texts appeared first on Nautilus.",
-      "pubDate": "Thu, 03 Sep 2026 22:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
-      "title": "Your Home is Crawling With Microplastics",
-      "link": "https://nautil.us/your-home-is-crawling-with-microplastics-1284761/",
-      "summary": "And vacuuming might make things worse\nThe post Your Home is Crawling With Microplastics appeared first on Nautilus.",
-      "pubDate": "Thu, 03 Sep 2026 20:05:57 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
       "title": "Backronym of the year",
       "link": "https://languagelog.ldc.upenn.edu/nll/?p=74168&utm_source=rss&utm_medium=rss&utm_campaign=backronym-of-the-year",
       "summary": "…is ACHOO — \"Ever sneeze immediately after stepping into the sun? It's not a coincidence\": Picture this: You walk out the door on a bright, sunny morning. And before you’ve even reached the car, you sneeze. Maybe even two or three times in a row. It’s not allergies, and it’s not a coincidence. It’s ",
       "pubDate": "Thu, 03 Sep 2026 18:49:14 +0000",
       "domain": "linguistics",
       "source": "Language Log"
-    },
-    {
-      "title": "No Two People Age in the Same Way",
-      "link": "https://nautil.us/no-two-people-age-in-the-same-way-1284757/",
-      "summary": "At least at the molecular level\nThe post No Two People Age in the Same Way appeared first on Nautilus.",
-      "pubDate": "Thu, 03 Sep 2026 18:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
-      "title": "With Anti-DSA Bill, Congress Is Red-Baiting Like It’s 1955",
-      "link": "",
-      "summary": "As summer turns into fall, the United States remains mired in a wildly unpopular war in Iran. On the home front, inflation is stubbornly persistent. All indications point to the president’s party suffering major losses in the November midterms — if, that is, the various Republican attempts to interf",
-      "pubDate": "2026-09-03T17:32:30.295Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
-      "title": "The Rise of the Billionaire Lobby",
-      "link": "",
-      "summary": "You’ve heard of the oil lobby, the tobacco lobby, the Israel lobby, the charter school lobby. Behind all of these are billionaires who benefit from the underlying industries or sectors, and whose corporations use their resources to lobby the government for favorable policies. Now, in reaction to a C",
-      "pubDate": "2026-09-03T15:56:07.050Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
-      "title": "Decades of Growing Inequality Powered MAGA’s Rise",
-      "link": "",
-      "summary": "What lies behind the ascendance of Donald Trump and his Make America Great Again movement? All sorts of demagogic political appeals — racism, sexism, anti-immigrant stereotyping — have played integral roles in the rise of the Right, of course. But a fundamental underlying driver is popular disillusi",
-      "pubDate": "2026-09-03T14:08:32.584Z",
-      "domain": "politics",
-      "source": "Jacobin"
     },
     {
       "title": "Why Is Raja Ravi Varma’s Art So Valuable Today?",
@@ -825,14 +891,6 @@
       "source": "JSTOR Daily"
     },
     {
-      "title": "What Civics Class Is For",
-      "link": "https://daily.jstor.org/what-civics-class-is-for/",
-      "summary": "Should schools tackle controversial political issues? A 1903 educator thought doing so was essential to preparing future voters.\nThe post What Civics Class Is For appeared first on JSTOR Daily.",
-      "pubDate": "Tue, 01 Sep 2026 13:32:02 +0000",
-      "domain": "history",
-      "source": "JSTOR Daily"
-    },
-    {
       "title": "\"Colonel Tom Parker\" == Andreas Conelis van Kuijk",
       "link": "https://languagelog.ldc.upenn.edu/nll/?p=74163&utm_source=rss&utm_medium=rss&utm_campaign=colonel-tom-parker-andreas-conelis-van-kuijk",
       "summary": "Dolly Parton's passing inspired Josh Marshall to dive deeper into one of the adjacent \"Mysteries of Americana\", namely how Andreas Cornelis van Kuijk \"hopped off a ship in New York City\" at the age of 20, in 1929, and eventually managed to set himself up as Elvis Presley's manager Colonel Tom Parker",
@@ -847,22 +905,6 @@
       "pubDate": "Tue, 01 Sep 2026 10:00:00 GMT",
       "domain": "philosophy",
       "source": "Aeon"
-    },
-    {
-      "title": "Evolution of laughing",
-      "link": "https://languagelog.ldc.upenn.edu/nll/?p=74149&utm_source=rss&utm_medium=rss&utm_campaign=evolution-of-laughing",
-      "summary": "…and speech? or at least \"vocal control\"? Chiara De Gregorio, Marina Davila-Ross, & Adriano R. Lameira, \"Rhythm and timing in laughter reveal that human vocal plasticity falls on a hominid continuum\", Nature Communications Biology, 6/25/2026: Laughter is an important, universal form of human non-lin",
-      "pubDate": "Mon, 31 Aug 2026 10:13:51 +0000",
-      "domain": "linguistics",
-      "source": "Language Log"
-    },
-    {
-      "title": "What It’s Like to Be…a Mail Carrier",
-      "link": "https://behavioralscientist.org/what-its-like-to-be-a-mail-carrier/",
-      "summary": "Loading the mail truck before the day begins, dealing with aggressive dogs and bad weather, and keeping a neighborhood connected by showing up every day with John Ayala, a retired mail carrier in Los Angeles. How did a golf club help him deliver packages? And what does a mail carrier learn about us ",
-      "pubDate": "Tue, 11 Aug 2026 12:30:27 +0000",
-      "domain": "psychology",
-      "source": "Behavioral Scientist"
     },
     {
       "title": "Artificial Intelligence: Ars Notoria and the Promise of Instant Knowledge\n",
@@ -887,22 +929,6 @@
       "pubDate": "Tue, 28 Jul 2026 19:02:00 GMT",
       "domain": "history",
       "source": "Public Domain Review"
-    },
-    {
-      "title": "What It’s Like to Be…a Hotshot",
-      "link": "https://behavioralscientist.org/what-its-like-to-be-a-hotshot/",
-      "summary": "Digging line to redirect the country's fiercest wildland fires, sleeping in the dirt after a 16-hour day, and turning physical endurance into a public service with Ben Strahan, a hotshot crew superintendent in California. What does a wildfire sound like up close? And where does a crew go when the fi",
-      "pubDate": "Tue, 28 Jul 2026 12:23:34 +0000",
-      "domain": "psychology",
-      "source": "Behavioral Scientist"
-    },
-    {
-      "title": "Journey to Robbers Cave",
-      "link": "https://behavioralscientist.org/journey-to-robbers-cave/",
-      "summary": "The year was 1948. Only three years had passed since the Axis powers signed the instrument of surrender effectively ending the Second World War. Fifty nations had taken part in the conflict that saw genocide and the first use of nuclear weapons. An estimated 50 million lives were lost and another 19",
-      "pubDate": "Sun, 19 Jul 2026 22:58:46 +0000",
-      "domain": "psychology",
-      "source": "Behavioral Scientist"
     },
     {
       "title": "Best of SAPIENS 2025",
@@ -953,25 +979,25 @@
       "source": "ROAR Magazine"
     },
     {
-      "title": "The “Sunday Blues”: a qualitative exploration of manifestations, contributing factors, and coping strategies among employees",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1882556",
-      "summary": "IntroductionMany employees experience a decline in mood as the weekend ends, often referred to in popular culture as the “Sunday Blues.” Despite its widespread recognition, the phenomenon remains scientifically underexplored and conceptually unclear. This study examined how the “Sunday Blues” manife",
+      "title": "The association between parental phubbing and pathological digital use among children and adolescents: a meta-analysis of Chinese samples",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1883060",
+      "summary": "As a typical manifestation of parental emotional neglect, parental phubbing shows associations with pathological digital use among children and adolescents and is also adversely associated with their physical and mental wellbeing. Nevertheless, existing empirical studies have reached inconsistent co",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "Longitudinal dynamics between other-gender peer contact quality and gender-stereotypical trait norms in coeducational physical education: a four-wave random-intercept cross-lagged panel study",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1923110",
-      "summary": "Coeducational physical education (PE) may reproduce or challenge gender norms depending on the quality of students’ interactions with other-gender peers. This four-wave longitudinal study examined between-person and within-person prospective associations between other-gender peer contact quality in ",
+      "title": "Does negative marriage discourse on social media deter marriage? Evidence from Weibo users in urban China",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1902706",
+      "summary": "IntroductionMarriage-related discourse on social media has become a prominent source of social influence, yet its impact on women’s marriage-related cognitions in contemporary China remains underexplored. This study integrates the Elaboration Likelihood Model (ELM) and the Theory of Planned Behaviou",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "A study of the correlation among adolescents’ personal belief in a just world, resilience and teacher-student relationship: a second-order and mediation model",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1878362",
-      "summary": "IntroductionClarifying the relation among adolescents’ personal belief in a just world (PBJW), resilience, and teacher-student relationship (TSR) can inform efforts to support youth mental health. Currently, many scholars probe into the pairwise relation among PBJW, resilience, and TSR, but investig",
+      "title": "Visual perception of landscape renovation in Qinyang’s historical and cultural streets: evidence from eye tracking of static streetscape images",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1848298",
+      "summary": "Using eye-tracking technology, this study examined how landscape renovation schemes for historical and cultural streets (HCSs) influence public visual attention allocation under static streetscape image-viewing conditions. Ten HCS nodes in the central urban area of Qinyang were selected as the study",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
@@ -979,64 +1005,64 @@
   ],
   "misinfo_toilet": [
     {
-      "headline": "US diesel prices hit an all-time-high",
-      "fragment": "Reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
-      "splice": "US diesel prices hit an all-time-high consequently reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
-      "seed": 20260914
-    },
-    {
-      "headline": "Reform UK officials step down as new funding scandal hits far-right party",
+      "headline": "Israeli drones drop bombs on southern Lebanon’s Mansouri",
       "fragment": "Traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "splice": "Reform UK officials step down as new funding scandal hits far-right party the signal resolves into traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "seed": 20260915
+      "splice": "Israeli drones drop bombs on southern Lebanon’s Mansouri despite traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
+      "seed": 20260924
     },
     {
-      "headline": "Argentina’s Milei threatens sanctions as he refocuses on Falklands",
-      "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "splice": "Argentina’s Milei threatens sanctions as he refocuses on Falklands the system notes that it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "seed": 20260916
-    },
-    {
-      "headline": "Nigel Farage to Speak at Reform UK Conference Amid Scrutiny Over Party Finances",
-      "fragment": "Simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
-      "splice": "Nigel Farage to Speak at Reform UK Conference Amid Scrutiny Over Party Finances therefore simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
-      "seed": 20260917
-    },
-    {
-      "headline": "Germany’s Far Right, Edging Close to Power, Remains Close to Extremists",
-      "fragment": "Art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
-      "splice": "Germany’s Far Right, Edging Close to Power, Remains Close to Extremists despite art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
-      "seed": 20260918
-    },
-    {
-      "headline": "Meloni sets a record, leading Italy’s longest-serving government since WWII",
-      "fragment": "Pretending, or dissimulating, leaves the principle of reality intact: the difference is always clear, it is simply masked.",
-      "splice": "Meloni sets a record, leading Italy’s longest-serving government since WWII not unlike pretending, or dissimulating, leaves the principle of reality intact: the difference is always clear, it is simply masked.",
-      "seed": 20260919
-    },
-    {
-      "headline": "‘Build The Wall’: White House arcade games face backlash",
-      "fragment": "Everywhere it is machines—real ones, not figurative ones: machines driving other machines, machines being driven by other machines, with all the necessary couplings and connections.",
-      "splice": "‘Build The Wall’: White House arcade games face backlash consequently everywhere it is machines—real ones, not figurative ones: machines driving other machines, machines being driven by other machines, with all the necessary couplings and connections.",
-      "seed": 20260920
-    },
-    {
-      "headline": "Inside the Nepal Tunnel Rescue Operation",
+      "headline": "Israeli strike kills two in southern Lebanon amid ongoing escalation",
       "fragment": "Traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "splice": "Inside the Nepal Tunnel Rescue Operation despite traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "seed": 20260921
+      "splice": "Israeli strike kills two in southern Lebanon amid ongoing escalation because traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
+      "seed": 20260925
     },
     {
-      "headline": "Tracking a Sanctioned Russian Vessel’s West African Odyssey",
-      "fragment": "Traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "splice": "Tracking a Sanctioned Russian Vessel’s West African Odyssey because traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "seed": 20260922
-    },
-    {
-      "headline": "Families Turn to Symbolic Cremation After Nepal Floods",
+      "headline": "Andrew Tate indicted in Romania for trafficking minors, money laundering",
       "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "splice": "Families Turn to Symbolic Cremation After Nepal Floods consequently the breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "seed": 20260923
+      "splice": "Andrew Tate indicted in Romania for trafficking minors, money laundering consequently the breast is a machine that produces milk, and the mouth a machine coupled to it.",
+      "seed": 20260926
+    },
+    {
+      "headline": "'A rare moment of joy': Nepal tunnel rescues bring hope for more flood survivors",
+      "fragment": "In the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
+      "splice": "'A rare moment of joy': Nepal tunnel rescues bring hope for more flood survivors insofar as in the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
+      "seed": 20260927
+    },
+    {
+      "headline": "Will Ronaldo Cry​? World Cup Fans Bet Billions Through Prediction Markets",
+      "fragment": "The privatization of the organs will only begin with the shame felt by man at the sight of man.",
+      "splice": "Will Ronaldo Cry​? World Cup Fans Bet Billions Through Prediction Markets the system notes that the privatization of the organs will only begin with the shame felt by man at the sight of man.",
+      "seed": 20260928
+    },
+    {
+      "headline": "Russian Drone Strikes Office of Ukraine’s Intelligence Chief",
+      "fragment": "Why do men fight for their servitude as stubbornly as though it were their salvation?",
+      "splice": "Russian Drone Strikes Office of Ukraine’s Intelligence Chief within which why do men fight for their servitude as stubbornly as though it were their salvation?",
+      "seed": 20260929
+    },
+    {
+      "headline": "Satellite Imagery Documents New Border Patrol Road Construction in Big Bend National Park",
+      "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
+      "splice": "Satellite Imagery Documents New Border Patrol Road Construction in Big Bend National Park consequently the revolutionary lives in the gap which separates technical progress from social totality.",
+      "seed": 20260930
+    },
+    {
+      "headline": "25 Years After 9/11, Muslims Are Still Politicians’ Favorite Scapegoat",
+      "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "splice": "25 Years After 9/11, Muslims Are Still Politicians’ Favorite Scapegoat underneath the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "seed": 20260931
+    },
+    {
+      "headline": "UN votes to adopt new world map that reflects Africa’s true size",
+      "fragment": "Why do men fight for their servitude as stubbornly as though it were their salvation?",
+      "splice": "UN votes to adopt new world map that reflects Africa’s true size within which why do men fight for their servitude as stubbornly as though it were their salvation?",
+      "seed": 20260932
+    },
+    {
+      "headline": "Investigating a Murder: Public Records Uncover New Clues in Chinatown Cold Case",
+      "fragment": "The simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
+      "splice": "Investigating a Murder: Public Records Uncover New Clues in Chinatown Cold Case insofar as the simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
+      "seed": 20260933
     }
   ]
 }
