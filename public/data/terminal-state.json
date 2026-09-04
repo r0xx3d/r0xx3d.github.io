@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T20:29:01.788Z",
+  "generated_at": "2026-09-04T22:51:53.648Z",
   "threat_intel": {
     "cisa_kev": [
       {
@@ -246,10 +246,185 @@
     ],
     "urlhaus": [
       {
+        "id": "3912459",
+        "date_added": "2026-09-04 22:27:25",
+        "url": "http://115.48.146.57:50353/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3912458",
+        "date_added": "2026-09-04 22:25:24",
+        "url": "http://115.48.146.57:50353/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3912457",
+        "date_added": "2026-09-04 22:18:29",
+        "url": "http://182.121.216.74:42289/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3912456",
+        "date_added": "2026-09-04 22:06:31",
+        "url": "http://58.65.210.197:57970/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "mirai",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3912455",
+        "date_added": "2026-09-04 22:03:22",
+        "url": "http://182.127.123.120:45115/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3912454",
+        "date_added": "2026-09-04 22:01:30",
+        "url": "http://27.206.202.203:55701/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3912453",
+        "date_added": "2026-09-04 21:59:22",
+        "url": "http://58.65.210.197:57970/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "mirai",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3912452",
+        "date_added": "2026-09-04 21:56:20",
+        "url": "http://182.127.123.120:45115/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3912451",
+        "date_added": "2026-09-04 21:51:20",
+        "url": "http://182.121.216.74:42289/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3912450",
+        "date_added": "2026-09-04 21:35:19",
+        "url": "http://27.206.202.203:55701/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3912449",
+        "date_added": "2026-09-04 21:32:07",
+        "url": "http://120.84.213.251:54475/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3912448",
+        "date_added": "2026-09-04 21:18:12",
+        "url": "http://218.29.147.41:58663/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3912447",
+        "date_added": "2026-09-04 20:58:54",
+        "url": "http://150.241.65.250:889/venv/lib/python3.12/site-packages/bcrypt/_bcrypt.abi3.so",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3912446",
+        "date_added": "2026-09-04 20:37:04",
+        "url": "http://150.241.65.250:889/venv/lib64/python3.12/site-packages/cryptography/hazmat/bindings/_rust.abi3.so",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
         "id": "3912445",
         "date_added": "2026-09-04 20:17:16",
         "url": "http://182.124.41.251:59176/i",
-        "url_status": "online",
+        "url_status": "offline",
         "threat": "malware_download",
         "tags": [
           "32-bit",
@@ -275,7 +450,7 @@
         "id": "3912443",
         "date_added": "2026-09-04 19:21:19",
         "url": "http://42.230.24.16:58927/i",
-        "url_status": "online",
+        "url_status": "offline",
         "threat": "malware_download",
         "tags": [
           "32-bit",
@@ -319,217 +494,51 @@
           "mips",
           "Mozi"
         ]
-      },
-      {
-        "id": "3912439",
-        "date_added": "2026-09-04 19:03:23",
-        "url": "http://125.45.49.209:37734/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3912438",
-        "date_added": "2026-09-04 18:55:20",
-        "url": "http://124.131.133.51:53693/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3912437",
-        "date_added": "2026-09-04 18:52:20",
-        "url": "http://124.131.133.51:53693/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3912436",
-        "date_added": "2026-09-04 18:50:20",
-        "url": "http://125.41.229.38:58416/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3912435",
-        "date_added": "2026-09-04 18:38:20",
-        "url": "http://218.29.147.41:58663/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3912434",
-        "date_added": "2026-09-04 18:15:19",
-        "url": "http://105.184.42.145:36337/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "arm",
-          "elf",
-          "mirai",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3912432",
-        "date_added": "2026-09-04 18:01:05",
-        "url": "http://115.63.245.146:39613/bin.sh",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3912433",
-        "date_added": "2026-09-04 18:01:05",
-        "url": "http://115.63.245.146:39613/i",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3912431",
-        "date_added": "2026-09-04 17:57:12",
-        "url": "http://182.114.193.191:34589/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3912430",
-        "date_added": "2026-09-04 17:42:20",
-        "url": "http://105.184.42.145:36337/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "arm",
-          "elf",
-          "mirai",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3912429",
-        "date_added": "2026-09-04 17:33:19",
-        "url": "http://222.127.158.71:56426/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "arm",
-          "elf",
-          "mirai",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3912428",
-        "date_added": "2026-09-04 16:49:20",
-        "url": "http://219.155.83.56:57148/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3912427",
-        "date_added": "2026-09-04 16:20:26",
-        "url": "http://219.155.83.56:57148/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3912426",
-        "date_added": "2026-09-04 16:10:12",
-        "url": "http://202.189.12.244/66666.bin",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
       }
     ]
   },
   "world_monitor": [
     {
-      "title": "Israeli drones drop bombs on southern Lebanon’s Mansouri",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/9/4/04-09-sv-israel-drone-bombs-mansouri-lb-fm?traffic_source=rss",
-      "pubDate": "Fri, 04 Sep 2026 20:04:13 +0000",
+      "title": "Israeli police kill Palestinian in Jerusalem as army blocks aid for Qusra",
+      "link": "https://www.aljazeera.com/news/2026/9/4/israeli-police-kill-palestinian-in-jerusalem-as-army-blocks-aid-for-qusra?traffic_source=rss",
+      "pubDate": "Fri, 04 Sep 2026 21:58:47 +0000",
       "source": "Al Jazeera",
-      "summary": "Several explosions rocked the southern Lebanese town of Mansouri after Israeli military drones dropped explosives in the"
+      "summary": "Israeli forces bar Israeli and Palestinian activists from delivering food and medicine to homes besieged by settlers."
     },
     {
-      "title": "Israeli strike kills two in southern Lebanon amid ongoing escalation",
-      "link": "https://www.aljazeera.com/news/2026/9/4/israeli-strike-kills-two-in-southern-lebanon-amid-ongoing-escalation?traffic_source=rss",
-      "pubDate": "Fri, 04 Sep 2026 19:48:25 +0000",
+      "title": "Costa Rican president signals openness to domestic US military operations",
+      "link": "https://www.aljazeera.com/news/2026/9/4/costa-rican-president-signals-openness-to-domestic-us-military-operations?traffic_source=rss",
+      "pubDate": "Fri, 04 Sep 2026 21:45:56 +0000",
       "source": "Al Jazeera",
-      "summary": "Israeli attacks against villages and towns in southern Lebanon continue despite truce agreements and diplomacy."
+      "summary": "President Laura Fernandez notes that Congress would need to approve any US military operations within the country."
     },
     {
-      "title": "Andrew Tate indicted in Romania for trafficking minors, money laundering",
-      "link": "https://www.aljazeera.com/news/2026/9/4/andrew-tate-indicted-in-romania-for-trafficking-minors-money-laundering?traffic_source=rss",
-      "pubDate": "Fri, 04 Sep 2026 19:44:47 +0000",
+      "title": "Betis beat Real Madrid as Mbappe misses penalty in first La Liga defeat",
+      "link": "https://www.aljazeera.com/sports/2026/9/4/real-madrid-beaten-by-betis-as-mourinho-suffers-first-defeat-on-return?traffic_source=rss",
+      "pubDate": "Fri, 04 Sep 2026 21:37:56 +0000",
       "source": "Al Jazeera",
-      "summary": "The influencer and his brother are in a Miami prison pending potential extradition to the UK on rape charges"
+      "summary": "Jose Mourinho's winning start to his second spell at Real Madrid ends with a 1-0 La Liga defeat at Real Betis."
     },
     {
-      "title": "UN votes to adopt new world map that reflects Africa’s true size",
-      "link": "https://www.aljazeera.com/news/2026/9/4/un-votes-to-adopt-new-world-map-that-reflects-africas-true-size?traffic_source=rss",
-      "pubDate": "Fri, 04 Sep 2026 19:25:08 +0000",
+      "title": "US regulator opens safety investigation as Tesla launches driverless taxis",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/9/4/us-regulator-opens-safety-investigation-as-tesla-launches-driverless-taxis?traffic_source=rss",
+      "pubDate": "Fri, 04 Sep 2026 21:27:26 +0000",
       "source": "Al Jazeera",
-      "summary": "The widely-used Mercator map is often criticised for visually exaggerating and centralising Western nations."
+      "summary": "The US National Highway Traffic Safety Administration has opened up an investigation into Tesla’s new self-driving car."
     },
     {
-      "title": "Five EU nations inch towards deal on migrant ‘return hubs’ by 2027",
-      "link": "https://www.aljazeera.com/news/2026/9/4/five-eu-nations-inch-towards-deal-on-migrant-return-hubs-by-2027?traffic_source=rss",
-      "pubDate": "Fri, 04 Sep 2026 18:52:28 +0000",
+      "title": "Witkoff and Kushner will travel to ‘end’ Russia’s war in Ukraine: Trump",
+      "link": "https://www.aljazeera.com/news/2026/9/4/witkoff-and-kushner-will-travel-to-end-russias-war-in-ukraine-trump?traffic_source=rss",
+      "pubDate": "Fri, 04 Sep 2026 21:19:05 +0000",
       "source": "Al Jazeera",
-      "summary": "Germany, Austria, ⁠Greece, Denmark and the Netherlands did not outline where the centres would be located."
+      "summary": "Steve Witkoff and Jared Kushner will travel to Ukraine and Russia this weekend to help restart peace negotiations."
+    },
+    {
+      "title": "Alejandro Betancourt, Trump’s Partner in Venezuelan Oil Deal, Has Faced Investigations",
+      "link": "https://www.nytimes.com/2026/09/04/world/americas/venezuela-oil-trump-alejandro-betancourt.html",
+      "pubDate": "Fri, 04 Sep 2026 20:55:12 +0000",
+      "source": "NYT World",
+      "summary": "Alejandro Betancourt has been targeted by multiple investigations. Now he’s the U.S. government’s unrivaled partner in President Trump’s bid to control Venezuelan oil resources."
     },
     {
       "title": "Russian Drone Strikes Office of Ukraine’s Intelligence Chief",
@@ -572,13 +581,6 @@
       "pubDate": "Fri, 04 Sep 2026 11:54:51 GMT",
       "source": "BBC",
       "summary": "The comments come as Argentinian president Javier Milei says the \"winds of change\" favoured his country's claim on the British overseas territory."
-    },
-    {
-      "title": "Alejandro Betancourt, Trump’s Partner in Venezuelan Oil Deal, Has Faced Investigations",
-      "link": "https://www.nytimes.com/2026/09/04/world/americas/venezuela-oil-trump-alejandro-betancourt.html",
-      "pubDate": "Fri, 04 Sep 2026 11:05:48 +0000",
-      "source": "NYT World",
-      "summary": "Alejandro Betancourt has been targeted by multiple investigations. Now he’s the U.S. government’s unrivaled partner in President Trump’s bid to control Venezuelan oil resources."
     },
     {
       "title": "25 Years After 9/11, Muslims Are Still Politicians’ Favorite Scapegoat",
@@ -674,6 +676,13 @@
   ],
   "syndication": [
     {
+      "title": "Friday Squid Blogging: Squid on a Stick at the New York State Fair",
+      "link": "https://www.schneier.com/blog/archives/2026/09/friday-squid-blogging-squid-on-a-stick-at-the-new-york-state-fair.html",
+      "pubDate": "2026-09-04T21:01:35.000Z",
+      "author": "Schneier on Security",
+      "content": "Looks tasty.\nAs usual, you can also use this squid post to talk about the security stories in the news that I haven’t covered.\nBlog moderation policy."
+    },
+    {
       "title": "Using a VM to Contain an AI Agent",
       "link": "https://www.schneier.com/blog/archives/2026/09/using-a-vm-to-contain-an-ai-agent.html",
       "pubDate": "2026-09-04T16:31:38.000Z",
@@ -686,13 +695,6 @@
       "pubDate": "2026-09-04T11:09:35.000Z",
       "author": "Schneier on Security",
       "content": "It’s a vulnerability that allows someone to recover the order of ballots cast, newly exploited with AI tools.\nNearly four years since the original vulnerability was disclosed, I was still able to use it to analyze voter behavior in Georgia (one of the 21 states that uses affected scanners) in the re"
-    },
-    {
-      "title": "AI Coding Agents Are Installing Unknown/Untrusted Code on Corporate Networks",
-      "link": "https://www.schneier.com/blog/archives/2026/09/ai-coding-agents-are-installing-unknown-untrusted-code-on-corporate-networks.html",
-      "pubDate": "2026-09-04T10:35:17.000Z",
-      "author": "Schneier on Security",
-      "content": "We cannot forget that AI coding agents are not yet trustworthy:\nResearchers at a stealth startup in Israel scanned 6,214 live domains belonging to defense contractors, Fortune 500, and Big Tech companies. Of the 8,265 llms.txt and llms-full.txt files they found (many sites hosted both an llms.txt an"
     },
     {
       "title": "Pluralistic: Amazon achieves enshittification inception (04 Sep 2026)",
@@ -739,18 +741,34 @@
   ],
   "syndicate_journal": [
     {
-      "title": "Can Nature Benefit You If You’re Already Well?",
-      "link": "https://nautil.us/can-nature-benefit-you-if-youre-already-well-1284801/",
-      "summary": "A conversation with a neuroscientist about how nature can fortify the strong and support resilience\nThe post Can Nature Benefit You If You’re Already Well? appeared first on Nautilus.",
-      "pubDate": "Fri, 04 Sep 2026 19:30:00 +0000",
+      "title": "Ancient Coins Reveal a Wealth of Information About the Roman Republic",
+      "link": "https://nautil.us/ancient-coins-reveal-a-wealth-of-information-about-the-roman-republic-1284847/",
+      "summary": "Change you can believe in\nThe post Ancient Coins Reveal a Wealth of Information About the Roman Republic appeared first on Nautilus.",
+      "pubDate": "Fri, 04 Sep 2026 22:30:00 +0000",
       "domain": "science",
       "source": "Nautilus"
     },
     {
-      "title": "Chimps Have Accents, Too",
-      "link": "https://nautil.us/chimps-have-accents-too-1284795/",
-      "summary": "And they could shed light on our own language acquisition\nThe post Chimps Have Accents, Too appeared first on Nautilus.",
-      "pubDate": "Fri, 04 Sep 2026 18:30:00 +0000",
+      "title": "Gloria Steinem Was the Godmother of Neoliberal Feminism",
+      "link": "",
+      "summary": "Gloria Steinem, the establishment’s favorite radical feminist, died on September 2.\nThe mainstream media has gone all out in praising her, with the  and   united in their adulation. The  called her the “personification of the women’s movement” and credited her with helping to usher in “sweeping cult",
+      "pubDate": "2026-09-04T21:04:46.632Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "Your Smartwatch May Not be as Smart as You Think it is",
+      "link": "https://nautil.us/your-smartwatch-may-not-be-as-smart-as-you-think-it-is-1284836/",
+      "summary": "They’re great at telling time, though\nThe post Your Smartwatch May Not be as Smart as You Think it is appeared first on Nautilus.",
+      "pubDate": "Fri, 04 Sep 2026 20:30:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "Can Nature Benefit You If You’re Already Well?",
+      "link": "https://nautil.us/can-nature-benefit-you-if-youre-already-well-1284801/",
+      "summary": "A conversation with a neuroscientist about how nature can fortify the strong and support resilience\nThe post Can Nature Benefit You If You’re Already Well? appeared first on Nautilus.",
+      "pubDate": "Fri, 04 Sep 2026 19:30:00 +0000",
       "domain": "science",
       "source": "Nautilus"
     },
@@ -761,14 +779,6 @@
       "pubDate": "2026-09-04T15:02:14.726Z",
       "domain": "politics",
       "source": "Jacobin"
-    },
-    {
-      "title": "The Extinct “American Cheetah” Wasn’t a Cheetah After All",
-      "link": "https://nautil.us/the-extinct-american-cheetah-wasnt-a-cheetah-after-all-1284777/",
-      "summary": "And, unlike African cheetahs, it was a flexible carnivore\nThe post The Extinct “American Cheetah” Wasn’t a Cheetah After All appeared first on Nautilus.",
-      "pubDate": "Fri, 04 Sep 2026 15:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
     },
     {
       "title": "Private Equity’s Pension Heist",
@@ -785,14 +795,6 @@
       "pubDate": "Fri, 04 Sep 2026 13:44:23 +0000",
       "domain": "history",
       "source": "JSTOR Daily"
-    },
-    {
-      "title": "Francis Fukuyama: The American Right Has Gone Off the Deep End",
-      "link": "",
-      "summary": "In 1989, Francis Fukuyama wrote a sweeping philosophical polemic in which he argued that liberal democratic capitalism was the only viable economic and political system. Countries would either converge on its model or drift into dysfunction. What prevented states and individuals from accepting this ",
-      "pubDate": "2026-09-04T13:32:40.369Z",
-      "domain": "politics",
-      "source": "Jacobin"
     },
     {
       "title": "\"Illiterate Boyfriend\" tests",
@@ -907,6 +909,14 @@
       "source": "Aeon"
     },
     {
+      "title": "What It’s Like to Be…a Mail Carrier",
+      "link": "https://behavioralscientist.org/what-its-like-to-be-a-mail-carrier/",
+      "summary": "Loading the mail truck before the day begins, dealing with aggressive dogs and bad weather, and keeping a neighborhood connected by showing up every day with John Ayala, a retired mail carrier in Los Angeles. How did a golf club help him deliver packages? And what does a mail carrier learn about us ",
+      "pubDate": "Tue, 11 Aug 2026 12:30:27 +0000",
+      "domain": "psychology",
+      "source": "Behavioral Scientist"
+    },
+    {
       "title": "Artificial Intelligence: Ars Notoria and the Promise of Instant Knowledge\n",
       "link": "https://publicdomainreview.org/essay/ars-notoria",
       "summary": "Centuries before Neo instantly mastered Kung Fu in *The Matrix*, medieval scholars found a shortcut to years of difficult study: a magical manuscript that promised to fast-track advanced learning. Anne Lawrence-Mathers investigates the *Ars notoria*, its supposed powers, and the demonic influence it",
@@ -929,6 +939,22 @@
       "pubDate": "Tue, 28 Jul 2026 19:02:00 GMT",
       "domain": "history",
       "source": "Public Domain Review"
+    },
+    {
+      "title": "What It’s Like to Be…a Hotshot",
+      "link": "https://behavioralscientist.org/what-its-like-to-be-a-hotshot/",
+      "summary": "Digging line to redirect the country's fiercest wildland fires, sleeping in the dirt after a 16-hour day, and turning physical endurance into a public service with Ben Strahan, a hotshot crew superintendent in California. What does a wildfire sound like up close? And where does a crew go when the fi",
+      "pubDate": "Tue, 28 Jul 2026 12:23:34 +0000",
+      "domain": "psychology",
+      "source": "Behavioral Scientist"
+    },
+    {
+      "title": "Journey to Robbers Cave",
+      "link": "https://behavioralscientist.org/journey-to-robbers-cave/",
+      "summary": "The year was 1948. Only three years had passed since the Axis powers signed the instrument of surrender effectively ending the Second World War. Fifty nations had taken part in the conflict that saw genocide and the first use of nuclear weapons. An estimated 50 million lives were lost and another 19",
+      "pubDate": "Sun, 19 Jul 2026 22:58:46 +0000",
+      "domain": "psychology",
+      "source": "Behavioral Scientist"
     },
     {
       "title": "Best of SAPIENS 2025",
@@ -979,25 +1005,25 @@
       "source": "ROAR Magazine"
     },
     {
-      "title": "The association between parental phubbing and pathological digital use among children and adolescents: a meta-analysis of Chinese samples",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1883060",
-      "summary": "As a typical manifestation of parental emotional neglect, parental phubbing shows associations with pathological digital use among children and adolescents and is also adversely associated with their physical and mental wellbeing. Nevertheless, existing empirical studies have reached inconsistent co",
+      "title": "The relationship between AI anxiety and academic motivation among university students: the mediating role of emotion regulation and the moderating role of gender",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1918525",
+      "summary": "BackgroundGenerative artificial intelligence (AI) is increasingly embedded in university students’ writing, information retrieval, knowledge organisation and task completion. Although AI tools may improve learning convenience and access to resources, they may also generate technological uncertainty,",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "Does negative marriage discourse on social media deter marriage? Evidence from Weibo users in urban China",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1902706",
-      "summary": "IntroductionMarriage-related discourse on social media has become a prominent source of social influence, yet its impact on women’s marriage-related cognitions in contemporary China remains underexplored. This study integrates the Elaboration Likelihood Model (ELM) and the Theory of Planned Behaviou",
+      "title": "A cognitive model of moral and nonmoral self-criticism: the role of judgment criteria",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1824090",
+      "summary": "Several authors have developed authoritative theoretical models of self-criticism (SC), each offering unique perspectives that emphasize different aspects of its phenomenology. Through a critical examination of these models, this article proposes a new cognitive framework: the Cognitive model of sel",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "Visual perception of landscape renovation in Qinyang’s historical and cultural streets: evidence from eye tracking of static streetscape images",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1848298",
-      "summary": "Using eye-tracking technology, this study examined how landscape renovation schemes for historical and cultural streets (HCSs) influence public visual attention allocation under static streetscape image-viewing conditions. Ten HCS nodes in the central urban area of Qinyang were selected as the study",
+      "title": "The relationship between parenting stress and preschool children’s screen dependence: the chain mediating role of parent–child interaction quality and executive function",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1934713",
+      "summary": "This study examined the association between parenting stress and preschool children’s screen dependence, with particular attention to the potential serial indirect associations through parent–child interaction quality and children’s executive function. A cross-sectional survey was conducted among 69",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
@@ -1005,64 +1031,64 @@
   ],
   "misinfo_toilet": [
     {
-      "headline": "Israeli drones drop bombs on southern Lebanon’s Mansouri",
+      "headline": "Israeli police kill Palestinian in Jerusalem as army blocks aid for Qusra",
       "fragment": "Traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "splice": "Israeli drones drop bombs on southern Lebanon’s Mansouri despite traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "seed": 20260924
-    },
-    {
-      "headline": "Israeli strike kills two in southern Lebanon amid ongoing escalation",
-      "fragment": "Traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "splice": "Israeli strike kills two in southern Lebanon amid ongoing escalation because traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "seed": 20260925
-    },
-    {
-      "headline": "Andrew Tate indicted in Romania for trafficking minors, money laundering",
-      "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "splice": "Andrew Tate indicted in Romania for trafficking minors, money laundering consequently the breast is a machine that produces milk, and the mouth a machine coupled to it.",
+      "splice": "Israeli police kill Palestinian in Jerusalem as army blocks aid for Qusra despite traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
       "seed": 20260926
     },
     {
-      "headline": "'A rare moment of joy': Nepal tunnel rescues bring hope for more flood survivors",
-      "fragment": "In the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
-      "splice": "'A rare moment of joy': Nepal tunnel rescues bring hope for more flood survivors insofar as in the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
+      "headline": "Costa Rican president signals openness to domestic US military operations",
+      "fragment": "Traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
+      "splice": "Costa Rican president signals openness to domestic US military operations because traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
       "seed": 20260927
+    },
+    {
+      "headline": "Europe targeted by spiralling campaign of sabotage - and Russia is the chief suspect",
+      "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
+      "splice": "Europe targeted by spiralling campaign of sabotage - and Russia is the chief suspect consequently the breast is a machine that produces milk, and the mouth a machine coupled to it.",
+      "seed": 20260928
+    },
+    {
+      "headline": "Alejandro Betancourt, Trump’s Partner in Venezuelan Oil Deal, Has Faced Investigations",
+      "fragment": "In the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
+      "splice": "Alejandro Betancourt, Trump’s Partner in Venezuelan Oil Deal, Has Faced Investigations insofar as in the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
+      "seed": 20260929
     },
     {
       "headline": "Will Ronaldo Cry​? World Cup Fans Bet Billions Through Prediction Markets",
       "fragment": "The privatization of the organs will only begin with the shame felt by man at the sight of man.",
       "splice": "Will Ronaldo Cry​? World Cup Fans Bet Billions Through Prediction Markets the system notes that the privatization of the organs will only begin with the shame felt by man at the sight of man.",
-      "seed": 20260928
+      "seed": 20260930
     },
     {
-      "headline": "Russian Drone Strikes Office of Ukraine’s Intelligence Chief",
+      "headline": "Witkoff and Kushner will travel to ‘end’ Russia’s war in Ukraine: Trump",
       "fragment": "Why do men fight for their servitude as stubbornly as though it were their salvation?",
-      "splice": "Russian Drone Strikes Office of Ukraine’s Intelligence Chief within which why do men fight for their servitude as stubbornly as though it were their salvation?",
-      "seed": 20260929
+      "splice": "Witkoff and Kushner will travel to ‘end’ Russia’s war in Ukraine: Trump within which why do men fight for their servitude as stubbornly as though it were their salvation?",
+      "seed": 20260931
     },
     {
       "headline": "Satellite Imagery Documents New Border Patrol Road Construction in Big Bend National Park",
       "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
       "splice": "Satellite Imagery Documents New Border Patrol Road Construction in Big Bend National Park consequently the revolutionary lives in the gap which separates technical progress from social totality.",
-      "seed": 20260930
-    },
-    {
-      "headline": "25 Years After 9/11, Muslims Are Still Politicians’ Favorite Scapegoat",
-      "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
-      "splice": "25 Years After 9/11, Muslims Are Still Politicians’ Favorite Scapegoat underneath the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
-      "seed": 20260931
-    },
-    {
-      "headline": "UN votes to adopt new world map that reflects Africa’s true size",
-      "fragment": "Why do men fight for their servitude as stubbornly as though it were their salvation?",
-      "splice": "UN votes to adopt new world map that reflects Africa’s true size within which why do men fight for their servitude as stubbornly as though it were their salvation?",
       "seed": 20260932
     },
     {
-      "headline": "Investigating a Murder: Public Records Uncover New Clues in Chinatown Cold Case",
-      "fragment": "The simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
-      "splice": "Investigating a Murder: Public Records Uncover New Clues in Chinatown Cold Case insofar as the simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
+      "headline": "Families Turn to Symbolic Cremation After Nepal Floods",
+      "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "splice": "Families Turn to Symbolic Cremation After Nepal Floods underneath the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
       "seed": 20260933
+    },
+    {
+      "headline": "25 Years After 9/11, Muslims Are Still Politicians’ Favorite Scapegoat",
+      "fragment": "Why do men fight for their servitude as stubbornly as though it were their salvation?",
+      "splice": "25 Years After 9/11, Muslims Are Still Politicians’ Favorite Scapegoat within which why do men fight for their servitude as stubbornly as though it were their salvation?",
+      "seed": 20260934
+    },
+    {
+      "headline": "“Board of Peace” Billionaire Backs AIPAC Fund Targeting Pro-Palestine Candidates",
+      "fragment": "The simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
+      "splice": "“Board of Peace” Billionaire Backs AIPAC Fund Targeting Pro-Palestine Candidates insofar as the simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
+      "seed": 20260935
     }
   ]
 }
