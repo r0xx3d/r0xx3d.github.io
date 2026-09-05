@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T20:05:18.045Z",
+  "generated_at": "2026-09-05T22:42:09.857Z",
   "threat_intel": {
     "cisa_kev": [
       {
@@ -246,6 +246,150 @@
     ],
     "urlhaus": [
       {
+        "id": "3912734",
+        "date_added": "2026-09-05 22:12:11",
+        "url": "http://42.225.13.97:57686/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "mirai"
+        ]
+      },
+      {
+        "id": "3912732",
+        "date_added": "2026-09-05 22:01:26",
+        "url": "http://42.224.175.96:36970/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3912733",
+        "date_added": "2026-09-05 22:01:26",
+        "url": "http://42.224.175.96:36970/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3912731",
+        "date_added": "2026-09-05 21:34:23",
+        "url": "http://42.232.237.170:52434/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3912730",
+        "date_added": "2026-09-05 21:14:15",
+        "url": "http://42.232.237.170:52434/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3912729",
+        "date_added": "2026-09-05 20:58:24",
+        "url": "http://123.4.136.2:48734/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3912728",
+        "date_added": "2026-09-05 20:57:05",
+        "url": "http://219.157.161.10:60183/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3912727",
+        "date_added": "2026-09-05 20:51:18",
+        "url": "http://182.113.199.122:58281/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3912726",
+        "date_added": "2026-09-05 20:39:17",
+        "url": "http://42.228.36.55:54911/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3912725",
+        "date_added": "2026-09-05 20:31:21",
+        "url": "http://123.4.136.2:48734/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3912723",
+        "date_added": "2026-09-05 20:17:06",
+        "url": "http://220.201.147.91:35994/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3912724",
+        "date_added": "2026-09-05 20:17:06",
+        "url": "http://27.210.37.1:42263/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "Mozi"
+        ]
+      },
+      {
         "id": "3912722",
         "date_added": "2026-09-05 19:52:07",
         "url": "http://219.157.161.10:60183/bin.sh",
@@ -259,7 +403,7 @@
         "id": "3912721",
         "date_added": "2026-09-05 19:42:07",
         "url": "http://220.201.147.91:35994/bin.sh",
-        "url_status": "online",
+        "url_status": "offline",
         "threat": "malware_download",
         "tags": [
           "None"
@@ -269,7 +413,7 @@
         "id": "3912720",
         "date_added": "2026-09-05 19:36:20",
         "url": "http://106.40.242.20:46263/bin.sh",
-        "url_status": "online",
+        "url_status": "offline",
         "threat": "malware_download",
         "tags": [
           "32-bit",
@@ -322,7 +466,7 @@
         "id": "3912716",
         "date_added": "2026-09-05 18:00:21",
         "url": "http://58.47.111.175:42894/i",
-        "url_status": "online",
+        "url_status": "offline",
         "threat": "malware_download",
         "tags": [
           "32-bit",
@@ -344,223 +488,79 @@
           "mips",
           "Mozi"
         ]
-      },
-      {
-        "id": "3912714",
-        "date_added": "2026-09-05 17:37:07",
-        "url": "http://170.84.132.250:39933/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "mirai"
-        ]
-      },
-      {
-        "id": "3912713",
-        "date_added": "2026-09-05 17:18:10",
-        "url": "http://115.53.243.171:36990/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3912712",
-        "date_added": "2026-09-05 17:18:09",
-        "url": "http://58.47.111.175:42894/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "arm",
-          "elf",
-          "mirai",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3912710",
-        "date_added": "2026-09-05 17:07:23",
-        "url": "http://125.41.240.68:40451/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3912711",
-        "date_added": "2026-09-05 17:07:23",
-        "url": "http://125.41.240.68:40451/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3912709",
-        "date_added": "2026-09-05 16:48:18",
-        "url": "http://115.193.205.187:58343/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "arm",
-          "elf",
-          "mirai",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3912708",
-        "date_added": "2026-09-05 16:23:16",
-        "url": "http://115.193.205.187:58343/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "arm",
-          "elf",
-          "mirai",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3912707",
-        "date_added": "2026-09-05 15:56:06",
-        "url": "http://125.43.26.183:35880/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3912706",
-        "date_added": "2026-09-05 15:55:26",
-        "url": "http://202.1.26.70:47005/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3912705",
-        "date_added": "2026-09-05 15:54:24",
-        "url": "http://123.245.97.124:58336/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "arm",
-          "elf",
-          "mirai",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3912704",
-        "date_added": "2026-09-05 15:51:24",
-        "url": "http://42.227.201.3:41673/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3912703",
-        "date_added": "2026-09-05 15:46:06",
-        "url": "http://182.126.107.136:58026/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
       }
     ]
   },
   "world_monitor": [
     {
-      "title": "Jerusalem Daily: raids, settlers & sieges",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/9/5/jerusalem-daily-raids-settlers-sieges?traffic_source=rss",
-      "pubDate": "Sat, 05 Sep 2026 19:37:10 +0000",
-      "source": "Al Jazeera",
-      "summary": "Mike Huckabee visits as settlers attack Palestinians, Israeli forces carry out raids and arrests."
-    },
-    {
-      "title": "Cuban and Afghan immigrants deported from US under Trump arrive in Guyana",
-      "link": "https://www.aljazeera.com/news/2026/9/5/cuban-and-afghan-immigrants-deported-from-us-under-trump-arrive-in-guyana?traffic_source=rss",
-      "pubDate": "Sat, 05 Sep 2026 19:19:52 +0000",
-      "source": "Al Jazeera",
-      "summary": "The Trump administration has sought to expand third-country deportations, with more than 30 deals struck so far."
-    },
-    {
-      "title": "Woman beaten to death as bystanders watch in India’s Gujarat",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/9/5/5-09-sv-woman-beaten-to-death-in-gujarat-in?traffic_source=rss",
-      "pubDate": "Sat, 05 Sep 2026 19:13:29 +0000",
-      "source": "Al Jazeera",
-      "summary": "A woman was beaten to death at a crowded bus station in India, with CCTV showing bystanders watching."
-    },
-    {
-      "title": "U.S. Strikes Three Iranian ‘Shadow Network’ Oil Tankers, Military Says",
-      "link": "https://www.nytimes.com/2026/09/05/world/middleeast/iran-us-kharg-oil-tanker-attack.html",
-      "pubDate": "Sat, 05 Sep 2026 19:12:58 +0000",
-      "source": "NYT World",
-      "summary": "The U.S. military said it retaliated after Iran launched missiles at two warships. The strikes came days after the two sides exchanged some of their most intense fire in weeks."
+      "title": "US and Iran trade retaliatory attacks on ships as conflict flares",
+      "link": "https://www.bbc.co.uk/news/articles/cj64rrne643o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Sat, 05 Sep 2026 22:35:35 GMT",
+      "source": "BBC",
+      "summary": "The US says it hit three Iranian oil tankers, while Iran says it targeted three US-linked ships."
     },
     {
       "title": "US envoys meet Putin in Moscow for Ukraine talks",
       "link": "https://www.bbc.co.uk/news/articles/cx2zqp46g8eo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Sat, 05 Sep 2026 19:01:31 GMT",
+      "pubDate": "Sat, 05 Sep 2026 21:39:02 GMT",
       "source": "BBC",
       "summary": "Footage shows Vladimir Putin greeting Steve Witkoff and Jared Kushner, before saying the current situation \"is not so easy\"."
     },
     {
-      "title": "Shoppers interact with Hong Kong’s first robot shopkeeper",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/9/5/shoppers-interact-with-hong-kongs-first-robot-shopkeeper?traffic_source=rss",
-      "pubDate": "Sat, 05 Sep 2026 18:57:56 +0000",
+      "title": "US envoys Witkoff, Kushner meet Putin for talks on Ukraine war",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/9/5/us-envoys-witkoff-kushner-meet-putin-for-talks-on-ukraine-war?traffic_source=rss",
+      "pubDate": "Sat, 05 Sep 2026 21:23:06 +0000",
       "source": "Al Jazeera",
-      "summary": "Humanoid robots have begun serving shoppers at convenience stores in Hong Kong."
+      "summary": "US envoys Steve Witkoff and Jared Kushner met Russian President Vladimir Putin at the Kremlin on Saturday."
+    },
+    {
+      "title": "Building collapses after heavy rain in northern India",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/9/5/09-05-sv-india-building-collapse-mp4?traffic_source=rss",
+      "pubDate": "Sat, 05 Sep 2026 21:11:25 +0000",
+      "source": "Al Jazeera",
+      "summary": "A building collapsed in Muradabad, northern India, tearing through power lines and sending sparks into the street."
+    },
+    {
+      "title": "U.S. Strikes Three Iranian ‘Shadow Network’ Oil Tankers, Military Says",
+      "link": "https://www.nytimes.com/2026/09/05/world/middleeast/iran-us-kharg-oil-tanker-attack.html",
+      "pubDate": "Sat, 05 Sep 2026 21:09:39 +0000",
+      "source": "NYT World",
+      "summary": "The U.S. military said it retaliated after Iran launched missiles at two warships. The strikes came days after the two sides exchanged some of their most intense fire in weeks."
     },
     {
       "title": "Putin Meets Witkoff and Kushner in Moscow to Discuss Ukraine War",
       "link": "https://www.nytimes.com/2026/09/05/world/europe/russia-ukraine-witkoff-kushner-moscow.html",
-      "pubDate": "Sat, 05 Sep 2026 18:56:34 +0000",
+      "pubDate": "Sat, 05 Sep 2026 21:08:44 +0000",
       "source": "NYT World",
       "summary": "President Vladimir V. Putin ordered a pause in strikes on Ukraine’s capital, Kyiv, ahead of the meeting with President Trump’s envoys: his son-in-law Jared Kushner and the businessman Steve Witkoff."
     },
     {
-      "title": "US hits three Iranian oil tankers after saying its warships were targeted",
-      "link": "https://www.bbc.co.uk/news/articles/cj64rrne643o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Sat, 05 Sep 2026 18:48:37 GMT",
+      "title": "Prince William to attend King Harald's funeral in Norway",
+      "link": "https://www.bbc.co.uk/news/articles/cp301rw6kvro?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Sat, 05 Sep 2026 21:00:02 GMT",
       "source": "BBC",
-      "summary": "The strikes come nearly a week after fighting between the US and Iran flared again following weeks of relative calm."
+      "summary": "The Prince of Wales will represent the King at the funeral of Harald V in Oslo next week."
     },
     {
-      "title": "Two pilots killed after Greek fighter jet crashes during an air show",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/9/5/two-pilots-killed-after-greek-fighter-jet-crashes-during-an-air-show?traffic_source=rss",
-      "pubDate": "Sat, 05 Sep 2026 18:44:41 +0000",
+      "title": "Why is Argentina reigniting the Falklands dispute?",
+      "link": "https://www.aljazeera.com/video/inside-story/2026/9/5/why-is-argentina-reigniting-the-falklands-dispute?traffic_source=rss",
+      "pubDate": "Sat, 05 Sep 2026 20:14:55 +0000",
       "source": "Al Jazeera",
-      "summary": "Greek authorities say that the two pilots onboard an F-4 Phantom fighter jet have been killed after it crashed."
+      "summary": "President Javier Milei says sovereignty over the islands remains a national objective."
+    },
+    {
+      "title": "Everton vs Manchester United: Premier League – prediction, teams, lineups",
+      "link": "https://www.aljazeera.com/sports/2026/9/5/everton-vs-manchester-united-premier-league-prediction-teams-lineups?traffic_source=rss",
+      "pubDate": "Sat, 05 Sep 2026 20:04:30 +0000",
+      "source": "Al Jazeera",
+      "summary": "Manchester United outspent in transfer window, but boss Michael Carrick says team ready to fire ahead of Everton trip."
+    },
+    {
+      "title": "Colombian government reports three killed in rebel attack on military post",
+      "link": "https://www.aljazeera.com/news/2026/9/5/colombian-government-reports-three-killed-in-rebel-attack-on-military-post?traffic_source=rss",
+      "pubDate": "Sat, 05 Sep 2026 20:03:29 +0000",
+      "source": "Al Jazeera",
+      "summary": "Colombian authorities blame ELN rebel group for attack that reportedly included drones dropping explosives on compound."
     },
     {
       "title": "Nepal Floods Buried a House. The Woman Inside Was Still Alive.",
@@ -575,13 +575,6 @@
       "pubDate": "Sat, 05 Sep 2026 16:34:03 +0000",
       "source": "NYT World",
       "summary": "Mike Huckabee, the U.S. ambassador to Israel, made a rare trip to meet with Palestinians after international backlash over attacks by Israeli settlers."
-    },
-    {
-      "title": "What different world maps get right - and what they get wrong",
-      "link": "https://www.bbc.co.uk/news/articles/cly5r60v4mro?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Sat, 05 Sep 2026 16:14:24 GMT",
-      "source": "BBC",
-      "summary": "As the UN adopts a new world map to reflect Africa's true size, let's take a closer look at what different maps get right and wrong."
     },
     {
       "title": "At least two dead in blast at Bolivia military barracks",
@@ -886,14 +879,6 @@
       "source": "Aeon"
     },
     {
-      "title": "What It’s Like to Be…a Mail Carrier",
-      "link": "https://behavioralscientist.org/what-its-like-to-be-a-mail-carrier/",
-      "summary": "Loading the mail truck before the day begins, dealing with aggressive dogs and bad weather, and keeping a neighborhood connected by showing up every day with John Ayala, a retired mail carrier in Los Angeles. How did a golf club help him deliver packages? And what does a mail carrier learn about us ",
-      "pubDate": "Tue, 11 Aug 2026 12:30:27 +0000",
-      "domain": "psychology",
-      "source": "Behavioral Scientist"
-    },
-    {
       "title": "Artificial Intelligence: Ars Notoria and the Promise of Instant Knowledge\n",
       "link": "https://publicdomainreview.org/essay/ars-notoria",
       "summary": "Centuries before Neo instantly mastered Kung Fu in *The Matrix*, medieval scholars found a shortcut to years of difficult study: a magical manuscript that promised to fast-track advanced learning. Anne Lawrence-Mathers investigates the *Ars notoria*, its supposed powers, and the demonic influence it",
@@ -916,22 +901,6 @@
       "pubDate": "Tue, 28 Jul 2026 19:02:00 GMT",
       "domain": "history",
       "source": "Public Domain Review"
-    },
-    {
-      "title": "What It’s Like to Be…a Hotshot",
-      "link": "https://behavioralscientist.org/what-its-like-to-be-a-hotshot/",
-      "summary": "Digging line to redirect the country's fiercest wildland fires, sleeping in the dirt after a 16-hour day, and turning physical endurance into a public service with Ben Strahan, a hotshot crew superintendent in California. What does a wildfire sound like up close? And where does a crew go when the fi",
-      "pubDate": "Tue, 28 Jul 2026 12:23:34 +0000",
-      "domain": "psychology",
-      "source": "Behavioral Scientist"
-    },
-    {
-      "title": "Journey to Robbers Cave",
-      "link": "https://behavioralscientist.org/journey-to-robbers-cave/",
-      "summary": "The year was 1948. Only three years had passed since the Axis powers signed the instrument of surrender effectively ending the Second World War. Fifty nations had taken part in the conflict that saw genocide and the first use of nuclear weapons. An estimated 50 million lives were lost and another 19",
-      "pubDate": "Sun, 19 Jul 2026 22:58:46 +0000",
-      "domain": "psychology",
-      "source": "Behavioral Scientist"
     },
     {
       "title": "Best of SAPIENS 2025",
@@ -1008,64 +977,64 @@
   ],
   "misinfo_toilet": [
     {
-      "headline": "Jerusalem Daily: raids, settlers & sieges",
-      "fragment": "Traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "splice": "Jerusalem Daily: raids, settlers & sieges despite traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "seed": 20260925
-    },
-    {
-      "headline": "Cuban and Afghan immigrants deported from US under Trump arrive in Guyana",
-      "fragment": "Traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "splice": "Cuban and Afghan immigrants deported from US under Trump arrive in Guyana because traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "seed": 20260926
-    },
-    {
-      "headline": "Nepal Floods Buried a House. The Woman Inside Was Still Alive.",
-      "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "splice": "Nepal Floods Buried a House. The Woman Inside Was Still Alive. consequently the breast is a machine that produces milk, and the mouth a machine coupled to it.",
+      "headline": "Welcome to Dubai: Kinahan Cartel’s Visas Revealed",
+      "fragment": "There is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
+      "splice": "Welcome to Dubai: Kinahan Cartel’s Visas Revealed within which there is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
       "seed": 20260927
     },
     {
-      "headline": "US hits three Iranian oil tankers after saying its warships were targeted",
-      "fragment": "In the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
-      "splice": "US hits three Iranian oil tankers after saying its warships were targeted insofar as in the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
+      "headline": "Building collapses after heavy rain in northern India",
+      "fragment": "The simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
+      "splice": "Building collapses after heavy rain in northern India consequently the simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
       "seed": 20260928
     },
     {
-      "headline": "Will Ronaldo Cry​? World Cup Fans Bet Billions Through Prediction Markets",
-      "fragment": "The privatization of the organs will only begin with the shame felt by man at the sight of man.",
-      "splice": "Will Ronaldo Cry​? World Cup Fans Bet Billions Through Prediction Markets the system notes that the privatization of the organs will only begin with the shame felt by man at the sight of man.",
+      "headline": "US and Iran trade retaliatory attacks on ships as conflict flares",
+      "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
+      "splice": "US and Iran trade retaliatory attacks on ships as conflict flares which is to say the breast is a machine that produces milk, and the mouth a machine coupled to it.",
       "seed": 20260929
     },
     {
-      "headline": "Shoppers interact with Hong Kong’s first robot shopkeeper",
-      "fragment": "Why do men fight for their servitude as stubbornly as though it were their salvation?",
-      "splice": "Shoppers interact with Hong Kong’s first robot shopkeeper within which why do men fight for their servitude as stubbornly as though it were their salvation?",
+      "headline": "“Board of Peace” Billionaire Backs AIPAC Fund Targeting Pro-Palestine Candidates",
+      "fragment": "The technocrat is the natural friend of the dictator—computers and dictatorship.",
+      "splice": "“Board of Peace” Billionaire Backs AIPAC Fund Targeting Pro-Palestine Candidates as if the technocrat is the natural friend of the dictator—computers and dictatorship.",
       "seed": 20260930
     },
     {
-      "headline": "Satellite Imagery Documents New Border Patrol Road Construction in Big Bend National Park",
-      "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
-      "splice": "Satellite Imagery Documents New Border Patrol Road Construction in Big Bend National Park consequently the revolutionary lives in the gap which separates technical progress from social totality.",
+      "headline": "Tracking a Sanctioned Russian Vessel’s West African Odyssey",
+      "fragment": "Reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
+      "splice": "Tracking a Sanctioned Russian Vessel’s West African Odyssey despite reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
       "seed": 20260931
     },
     {
-      "headline": "At least two dead in blast at Bolivia military barracks",
-      "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
-      "splice": "At least two dead in blast at Bolivia military barracks underneath the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "headline": "Everton vs Manchester United: Premier League – prediction, teams, lineups",
+      "fragment": "The truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
+      "splice": "Everton vs Manchester United: Premier League – prediction, teams, lineups insofar as the truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
       "seed": 20260932
     },
     {
-      "headline": "Putin Meets Witkoff and Kushner in Moscow to Discuss Ukraine War",
-      "fragment": "Why do men fight for their servitude as stubbornly as though it were their salvation?",
-      "splice": "Putin Meets Witkoff and Kushner in Moscow to Discuss Ukraine War within which why do men fight for their servitude as stubbornly as though it were their salvation?",
+      "headline": "Prince William to attend King Harald's funeral in Norway",
+      "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
+      "splice": "Prince William to attend King Harald's funeral in Norway underneath the breast is a machine that produces milk, and the mouth a machine coupled to it.",
       "seed": 20260933
     },
     {
       "headline": "Investigating a Murder: Public Records Uncover New Clues in Chinatown Cold Case",
-      "fragment": "The simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
-      "splice": "Investigating a Murder: Public Records Uncover New Clues in Chinatown Cold Case insofar as the simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
+      "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "splice": "Investigating a Murder: Public Records Uncover New Clues in Chinatown Cold Case despite the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
       "seed": 20260934
+    },
+    {
+      "headline": "Huckabee Condemns ‘Terrorist’ Attacks on Palestinians in West Bank Town Hall",
+      "fragment": "The truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
+      "splice": "Huckabee Condemns ‘Terrorist’ Attacks on Palestinians in West Bank Town Hall while the truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
+      "seed": 20260935
+    },
+    {
+      "headline": "US envoys meet Putin in Moscow for Ukraine talks",
+      "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
+      "splice": "US envoys meet Putin in Moscow for Ukraine talks despite the revolutionary lives in the gap which separates technical progress from social totality.",
+      "seed": 20260936
     }
   ]
 }
