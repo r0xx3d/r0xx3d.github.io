@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T17:37:30.357Z",
+  "generated_at": "2026-09-07T21:17:04.957Z",
   "threat_intel": {
     "cisa_kev": [
       {
@@ -246,309 +246,317 @@
     ],
     "urlhaus": [
       {
-        "id": "3913461",
-        "date_added": "2026-09-07 17:28:12",
-        "url": "http://45.61.170.146/linux",
+        "id": "3913651",
+        "date_added": "2026-09-07 21:04:27",
+        "url": "http://123.11.9.52:42487/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "45-61-170-146",
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3913652",
+        "date_added": "2026-09-07 21:04:27",
+        "url": "http://123.11.9.52:42487/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3913650",
+        "date_added": "2026-09-07 19:07:20",
+        "url": "http://87.120.196.16:889/agustin51",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "iot",
+          "mirai"
+        ]
+      },
+      {
+        "id": "3913649",
+        "date_added": "2026-09-07 19:07:08",
+        "url": "http://91.92.242.236/files-129312398/files/file_d428ecd0038c581e.exe",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "c2-monitor-auto",
+          "dropped-by-amadey"
+        ]
+      },
+      {
+        "id": "3913648",
+        "date_added": "2026-09-07 19:05:08",
+        "url": "http://45.61.150.229:8080/pear.exe",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "45-61-150-229-8080",
+          "exe",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3913646",
+        "date_added": "2026-09-07 19:05:07",
+        "url": "http://45.61.150.229:8080/dlr.vbs",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "45-61-150-229-8080",
+          "ua-wget",
+          "vbs"
+        ]
+      },
+      {
+        "id": "3913647",
+        "date_added": "2026-09-07 19:05:07",
+        "url": "http://45.61.150.229:8080/dl.hta",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "45-61-150-229-8080",
+          "hta",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3913644",
+        "date_added": "2026-09-07 18:53:19",
+        "url": "http://iloveboats.st:8081/titan.ppc",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "botnetdomain",
+          "elf",
+          "iloveboats-st-8081",
+          "mirai",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3913645",
+        "date_added": "2026-09-07 18:53:19",
+        "url": "http://quietsurfwi.help:8081/titan.mips",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "botnetdomain",
+          "elf",
+          "mirai",
+          "quietsurfwi-help-8081",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3913643",
+        "date_added": "2026-09-07 18:53:17",
+        "url": "http://quietsurfwi.help:8081/titan.mipsel",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "botnetdomain",
+          "elf",
+          "mirai",
+          "quietsurfwi-help-8081",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3913630",
+        "date_added": "2026-09-07 18:53:16",
+        "url": "http://94.154.43.192:8081/titan.arm4tl",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "94-154-43-192-8081",
           "elf",
           "ua-wget"
         ]
       },
       {
-        "id": "3913460",
-        "date_added": "2026-09-07 16:03:21",
-        "url": "http://182.122.195.174:51347/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "arm",
-          "elf",
-          "mirai",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3913459",
-        "date_added": "2026-09-07 15:59:24",
-        "url": "http://210.208.111.36:50488/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "arm",
-          "elf",
-          "mirai",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3913458",
-        "date_added": "2026-09-07 15:59:23",
-        "url": "http://176.65.139.206/mips",
+        "id": "3913631",
+        "date_added": "2026-09-07 18:53:16",
+        "url": "http://94.154.43.192:8081/titan.sh4",
         "url_status": "offline",
         "threat": "malware_download",
         "tags": [
+          "94-154-43-192-8081",
           "elf",
-          "mirai",
-          "Mozi"
+          "ua-wget"
         ]
       },
       {
-        "id": "3913451",
-        "date_added": "2026-09-07 15:59:22",
-        "url": "http://176.65.139.206/x86",
+        "id": "3913632",
+        "date_added": "2026-09-07 18:53:16",
+        "url": "http://94.154.43.192:8081/titan.arm6",
         "url_status": "offline",
         "threat": "malware_download",
         "tags": [
+          "94-154-43-192-8081",
           "elf",
-          "mirai",
-          "Mozi"
+          "ua-wget"
         ]
       },
       {
-        "id": "3913452",
-        "date_added": "2026-09-07 15:59:22",
-        "url": "http://176.65.139.206/sh4",
+        "id": "3913633",
+        "date_added": "2026-09-07 18:53:16",
+        "url": "http://94.154.43.192:8081/titan.ppc440",
         "url_status": "offline",
         "threat": "malware_download",
         "tags": [
+          "94-154-43-192-8081",
           "elf",
-          "mirai",
-          "Mozi"
+          "ua-wget"
         ]
       },
       {
-        "id": "3913453",
-        "date_added": "2026-09-07 15:59:22",
-        "url": "http://176.65.139.206/spc",
+        "id": "3913634",
+        "date_added": "2026-09-07 18:53:16",
+        "url": "http://94.154.43.192:8081/titan.m68k",
         "url_status": "offline",
         "threat": "malware_download",
         "tags": [
+          "94-154-43-192-8081",
           "elf",
-          "mirai",
-          "Mozi"
+          "ua-wget"
         ]
       },
       {
-        "id": "3913454",
-        "date_added": "2026-09-07 15:59:22",
-        "url": "http://176.65.139.206/dbg",
+        "id": "3913635",
+        "date_added": "2026-09-07 18:53:16",
+        "url": "http://94.154.43.192:8081/titan.ppc",
         "url_status": "offline",
         "threat": "malware_download",
         "tags": [
+          "94-154-43-192-8081",
           "elf",
-          "mirai",
-          "Mozi"
+          "ua-wget"
         ]
       },
       {
-        "id": "3913455",
-        "date_added": "2026-09-07 15:59:22",
-        "url": "http://176.65.139.206/arm7",
+        "id": "3913636",
+        "date_added": "2026-09-07 18:53:16",
+        "url": "http://94.154.43.192:8081/titan.x32",
         "url_status": "offline",
         "threat": "malware_download",
         "tags": [
-          "arm",
+          "94-154-43-192-8081",
           "elf",
-          "mirai",
-          "Mozi"
+          "ua-wget"
         ]
       },
       {
-        "id": "3913456",
-        "date_added": "2026-09-07 15:59:22",
-        "url": "http://176.65.139.206/i686",
+        "id": "3913637",
+        "date_added": "2026-09-07 18:53:16",
+        "url": "http://94.154.43.192:8081/titan.x64-test",
         "url_status": "offline",
         "threat": "malware_download",
         "tags": [
+          "94-154-43-192-8081",
           "elf",
-          "mirai",
-          "Mozi"
+          "ua-wget"
         ]
       },
       {
-        "id": "3913457",
-        "date_added": "2026-09-07 15:59:22",
-        "url": "http://176.65.139.206/arm",
+        "id": "3913638",
+        "date_added": "2026-09-07 18:53:16",
+        "url": "http://94.154.43.192:8081/titan.mips",
         "url_status": "offline",
         "threat": "malware_download",
         "tags": [
-          "arm",
+          "94-154-43-192-8081",
           "elf",
-          "mirai",
-          "Mozi"
+          "ua-wget"
         ]
       },
       {
-        "id": "3913444",
-        "date_added": "2026-09-07 15:59:17",
-        "url": "http://176.65.139.206/mpsl",
+        "id": "3913639",
+        "date_added": "2026-09-07 18:53:16",
+        "url": "http://94.154.43.192:8081/titan.mipsel",
         "url_status": "offline",
         "threat": "malware_download",
         "tags": [
+          "94-154-43-192-8081",
           "elf",
-          "mirai",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3913445",
-        "date_added": "2026-09-07 15:59:17",
-        "url": "http://176.65.139.206/musl",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "elf",
-          "mirai",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3913446",
-        "date_added": "2026-09-07 15:59:17",
-        "url": "http://176.65.139.206/x86_64",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "elf",
-          "mirai",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3913447",
-        "date_added": "2026-09-07 15:59:17",
-        "url": "http://176.65.139.206/m68k",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "elf",
-          "mirai",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3913448",
-        "date_added": "2026-09-07 15:59:17",
-        "url": "http://176.65.139.206/arm5",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "arm",
-          "elf",
-          "mirai",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3913449",
-        "date_added": "2026-09-07 15:59:17",
-        "url": "http://176.65.139.206/arm6",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "arm",
-          "elf",
-          "mirai",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3913450",
-        "date_added": "2026-09-07 15:59:17",
-        "url": "http://176.65.139.206/ppc",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "elf",
-          "mirai",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3913443",
-        "date_added": "2026-09-07 15:59:05",
-        "url": "http://176.65.139.206/w.sh",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "mirai",
-          "Mozi",
-          "script"
-        ]
-      },
-      {
-        "id": "3913442",
-        "date_added": "2026-09-07 15:55:16",
-        "url": "https://github.com/appcloudinstaller/Bifinex/releases/download/v6.0.0/Bitfinex.bat",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "None"
+          "ua-wget"
         ]
       }
     ]
   },
   "world_monitor": [
     {
+      "title": "Israel’s removal of Gaza rubble risk to war crimes evidence: UN",
+      "link": "https://www.aljazeera.com/news/2026/9/7/israels-removal-of-gaza-rubble-risk-to-war-crimes-evidence-un?traffic_source=rss",
+      "pubDate": "Mon, 07 Sep 2026 21:00:58 +0000",
+      "source": "Al Jazeera",
+      "summary": "International Court of Justice ordered Israel in 2024 to prevent the destruction of evidence related to war crimes."
+    },
+    {
+      "title": "Yemen fighting escalates as forces battle for Bab al-Mandeb Strait",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/9/7/yemen-fighting-escalates-as-forces-battle-for-bab-al-mandeb-strait?traffic_source=rss",
+      "pubDate": "Mon, 07 Sep 2026 20:59:56 +0000",
+      "source": "Al Jazeera",
+      "summary": "Fighting is intensifying in Yemen as government-aligned forces launch counterattacks against the Iran-backed Houthis."
+    },
+    {
+      "title": "Robots protest in Poland over AI regulation concerns",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/9/7/robots-protest-in-poland-over-ai-regulation-concerns?traffic_source=rss",
+      "pubDate": "Mon, 07 Sep 2026 20:59:12 +0000",
+      "source": "Al Jazeera",
+      "summary": "Robots protest in Poland over AI regulation concerns"
+    },
+    {
+      "title": "Canada’s Retaliatory Tariffs Set to Take Effect as Trump Threatens to Escalate",
+      "link": "https://www.nytimes.com/2026/09/07/world/canada/tariffs-trade-war-carney-trump.html",
+      "pubDate": "Mon, 07 Sep 2026 20:36:13 +0000",
+      "source": "NYT World",
+      "summary": "New Canadian levies of up to 50 percent are expected to begin Tuesday, even as Washington warns of a new round of American tariffs."
+    },
+    {
+      "title": "Britain Set to Target Israeli West Bank Settlements With Trade Ban",
+      "link": "https://www.nytimes.com/2026/09/07/world/middleeast/britain-sanctions-israeli-settlers.html",
+      "pubDate": "Mon, 07 Sep 2026 20:33:50 +0000",
+      "source": "NYT World",
+      "summary": "The expected move will be announced on Tuesday, officials said, and underscored Israel’s mounting isolation over its policies toward Palestinians following the war in Gaza."
+    },
+    {
+      "title": "Cuba says no negotiations with US despite ‘genocidal’ blockade",
+      "link": "https://www.aljazeera.com/economy/2026/9/7/cuba-says-no-negotiations-with-us-despite-genocidal-blockade?traffic_source=rss",
+      "pubDate": "Mon, 07 Sep 2026 19:58:48 +0000",
+      "source": "Al Jazeera",
+      "summary": "Cuba reports record losses from the US embargo as foreign minister describes months of punishing blackouts."
+    },
+    {
+      "title": "What are the implications of AfD’s electoral rise for Germany and Europe?",
+      "link": "https://www.aljazeera.com/video/inside-story/2026/9/7/what-are-the-implications-of-afds-electoral-rise-for-germany-and-europe?traffic_source=rss",
+      "pubDate": "Mon, 07 Sep 2026 19:50:05 +0000",
+      "source": "Al Jazeera",
+      "summary": "The far-right Alternative for Germany is just short of a majority in a regional election."
+    },
+    {
+      "title": "Germany’s ‘Firewall’ Against the Far Right Is Being Tested as Never Before",
+      "link": "https://www.nytimes.com/2026/09/07/world/europe/germany-afd-election-saxony-anhalt-election.html",
+      "pubDate": "Mon, 07 Sep 2026 18:35:45 +0000",
+      "source": "NYT World",
+      "summary": "A blowout win by the far-right Alternative for Germany party in a state election has revealed a split among voters about whether to uphold a decades-old strategy for sidelining extremists."
+    },
+    {
       "title": "Israel Launches Deadly Strikes in Lebanon as Military Campaign Intensifies",
       "link": "https://www.nytimes.com/2026/09/07/world/middleeast/israel-lebanon-strikes-hezbollah.html",
       "pubDate": "Mon, 07 Sep 2026 17:30:14 +0000",
       "source": "NYT World",
       "summary": "The bombardment killed 11 people, Lebanese officials said, after days of attacks that have spurred worries that Israel is looking to push deeper into Lebanese territory."
-    },
-    {
-      "title": "Philippines Lawmaker, Cousin of Marcos, Charged With Taking Kickbacks",
-      "link": "https://www.nytimes.com/2026/09/07/world/asia/philippines-romualdez-arrest-kickbacks.html",
-      "pubDate": "Mon, 07 Sep 2026 17:29:39 +0000",
-      "source": "NYT World",
-      "summary": "A cousin of President Ferdinand Marcos Jr. was charged with plundering public funds meant for flood control in the Southeast Asian country. He has denied wrongdoing."
-    },
-    {
-      "title": "Gaza: Genocide in Real Time?",
-      "link": "https://www.aljazeera.com/video/aljazeerauntangles/2026/9/7/gaza-genocide-in-real-time?traffic_source=rss",
-      "pubDate": "Mon, 07 Sep 2026 17:23:01 +0000",
-      "source": "Al Jazeera",
-      "summary": "B'Tselem Executive Directo"
-    },
-    {
-      "title": "Serbian government sets up snap vote with call to dissolve parliament",
-      "link": "https://www.aljazeera.com/news/2026/9/7/serbian-government-opens-route-to-snap-vote-with-call-to-dissolve-parliament?traffic_source=rss",
-      "pubDate": "Mon, 07 Sep 2026 17:09:47 +0000",
-      "source": "Al Jazeera",
-      "summary": "Upcoming election viewed as bid to tighten President Vucic's rule after months of mass street protests."
-    },
-    {
-      "title": "Canada’s Retaliatory Tariffs Set to Take Effect as Trump Threatens to Escalate",
-      "link": "https://www.nytimes.com/2026/09/07/world/canada/tariffs-trade-war-carney-trump.html",
-      "pubDate": "Mon, 07 Sep 2026 16:59:20 +0000",
-      "source": "NYT World",
-      "summary": "New Canadian levies of up to 50 percent are expected to begin Tuesday, even as Washington warns of a new round of American tariffs."
-    },
-    {
-      "title": "When does a family meal become a luxury in Nigeria?",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/9/7/when-does-a-family-meal-become-a-luxury-in-nigeria?traffic_source=rss",
-      "pubDate": "Mon, 07 Sep 2026 16:53:11 +0000",
-      "source": "Al Jazeera",
-      "summary": "‘5,000 naira used to make a pot of soup, now 10,000 naira isn't enough.’"
-    },
-    {
-      "title": "Kosovo signs up to US-led Gaza stabilisation force",
-      "link": "https://www.aljazeera.com/news/2026/9/7/kosovo-signs-up-to-us-led-gaza-stabilisation-force?traffic_source=rss",
-      "pubDate": "Mon, 07 Sep 2026 16:52:57 +0000",
-      "source": "Al Jazeera",
-      "summary": "Balkan state joins short list of countries agreeing to send peacekeepers to Palestinian enclave."
-    },
-    {
-      "title": "Claimed Israeli capture of Lebanese ridge reshapes negotiation dynamics",
-      "link": "https://www.aljazeera.com/features/2026/9/7/claimed-israeli-capture-of-lebanese-ridge-reshapes-negotiation-dynamics?traffic_source=rss",
-      "pubDate": "Mon, 07 Sep 2026 16:42:51 +0000",
-      "source": "Al Jazeera",
-      "summary": "Israel's continued strikes challenge Lebanon's push for an elusive peace agreement and stability."
     },
     {
       "title": "Grindr to pay £26m to settle claims it allegedly shared users' HIV status",
@@ -572,13 +580,6 @@
       "summary": "The far-right party is trying to form a government in the state after falling three seats short of a majority."
     },
     {
-      "title": "Germany’s ‘Firewall’ Against the Far Right Is Being Tested as Never Before",
-      "link": "https://www.nytimes.com/2026/09/07/world/europe/germany-afd-election-saxony-anhalt-election.html",
-      "pubDate": "Mon, 07 Sep 2026 13:54:51 +0000",
-      "source": "NYT World",
-      "summary": "A blowout win by the far-right Alternative for Germany party in a state election has revealed a split among voters about whether to uphold a decades-old strategy for sidelining extremists."
-    },
-    {
       "title": "Israeli strikes in southern Lebanese village kill 12",
       "link": "https://www.bbc.co.uk/news/articles/c5yl96vz0edo?at_medium=RSS&at_campaign=rss",
       "pubDate": "Mon, 07 Sep 2026 13:39:23 GMT",
@@ -600,11 +601,11 @@
       "summary": "By elevating Kirk to a martyr, the right made his ridicule a logical reaction to their repression.\nThe post Right-Wing Speech Crackdowns Turned Charlie Kirk Into a Meme appeared first on The Intercept."
     },
     {
-      "title": "Probe begins into why cargo plane overran Miami runway",
-      "link": "https://www.bbc.co.uk/news/articles/c0e3p1j7n3ro?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Mon, 07 Sep 2026 09:54:40 GMT",
+      "title": "Nepal observes national day of mourning for victims of flash flood disaster",
+      "link": "https://www.bbc.co.uk/news/articles/c2kw1qek7gdo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Mon, 07 Sep 2026 09:31:26 GMT",
       "source": "BBC",
-      "summary": "Five people died and five others were injured as the Amazon plane overshot the runway after landing at Miami International Airport."
+      "summary": "Flags flew at half mast on the 13th day since the disaster, the last day of the Hindu mourning period."
     },
     {
       "title": "A True-Crime Star’s Lurid Claims Sent a Man to Die. Her Key Witness Just Recanted.",
@@ -905,14 +906,6 @@
       "source": "Quanta"
     },
     {
-      "title": "What It’s Like to Be…a Mail Carrier",
-      "link": "https://behavioralscientist.org/what-its-like-to-be-a-mail-carrier/",
-      "summary": "Loading the mail truck before the day begins, dealing with aggressive dogs and bad weather, and keeping a neighborhood connected by showing up every day with John Ayala, a retired mail carrier in Los Angeles. How did a golf club help him deliver packages? And what does a mail carrier learn about us ",
-      "pubDate": "Tue, 11 Aug 2026 12:30:27 +0000",
-      "domain": "psychology",
-      "source": "Behavioral Scientist"
-    },
-    {
       "title": "Artificial Intelligence: Ars Notoria and the Promise of Instant Knowledge\n",
       "link": "https://publicdomainreview.org/essay/ars-notoria",
       "summary": "Centuries before Neo instantly mastered Kung Fu in *The Matrix*, medieval scholars found a shortcut to years of difficult study: a magical manuscript that promised to fast-track advanced learning. Anne Lawrence-Mathers investigates the *Ars notoria*, its supposed powers, and the demonic influence it",
@@ -935,22 +928,6 @@
       "pubDate": "Tue, 28 Jul 2026 19:02:00 GMT",
       "domain": "history",
       "source": "Public Domain Review"
-    },
-    {
-      "title": "What It’s Like to Be…a Hotshot",
-      "link": "https://behavioralscientist.org/what-its-like-to-be-a-hotshot/",
-      "summary": "Digging line to redirect the country's fiercest wildland fires, sleeping in the dirt after a 16-hour day, and turning physical endurance into a public service with Ben Strahan, a hotshot crew superintendent in California. What does a wildfire sound like up close? And where does a crew go when the fi",
-      "pubDate": "Tue, 28 Jul 2026 12:23:34 +0000",
-      "domain": "psychology",
-      "source": "Behavioral Scientist"
-    },
-    {
-      "title": "Journey to Robbers Cave",
-      "link": "https://behavioralscientist.org/journey-to-robbers-cave/",
-      "summary": "The year was 1948. Only three years had passed since the Axis powers signed the instrument of surrender effectively ending the Second World War. Fifty nations had taken part in the conflict that saw genocide and the first use of nuclear weapons. An estimated 50 million lives were lost and another 19",
-      "pubDate": "Sun, 19 Jul 2026 22:58:46 +0000",
-      "domain": "psychology",
-      "source": "Behavioral Scientist"
     },
     {
       "title": "Best of SAPIENS 2025",
@@ -1027,64 +1004,64 @@
   ],
   "misinfo_toilet": [
     {
-      "headline": "Israel Launches Deadly Strikes in Lebanon as Military Campaign Intensifies",
-      "fragment": "Traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "splice": "Israel Launches Deadly Strikes in Lebanon as Military Campaign Intensifies despite traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "seed": 20260924
-    },
-    {
-      "headline": "Philippines Lawmaker, Cousin of Marcos, Charged With Taking Kickbacks",
-      "fragment": "Traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "splice": "Philippines Lawmaker, Cousin of Marcos, Charged With Taking Kickbacks because traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "seed": 20260925
-    },
-    {
-      "headline": "Gaza: Genocide in Real Time?",
-      "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "splice": "Gaza: Genocide in Real Time? consequently the breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "seed": 20260926
-    },
-    {
-      "headline": "Grindr to pay £26m to settle claims it allegedly shared users' HIV status",
-      "fragment": "In the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
-      "splice": "Grindr to pay £26m to settle claims it allegedly shared users' HIV status insofar as in the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
-      "seed": 20260927
-    },
-    {
-      "headline": "Will Ronaldo Cry​? World Cup Fans Bet Billions Through Prediction Markets",
-      "fragment": "The privatization of the organs will only begin with the shame felt by man at the sight of man.",
-      "splice": "Will Ronaldo Cry​? World Cup Fans Bet Billions Through Prediction Markets the system notes that the privatization of the organs will only begin with the shame felt by man at the sight of man.",
+      "headline": "Welcome to Dubai: Kinahan Cartel’s Visas Revealed",
+      "fragment": "There is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
+      "splice": "Welcome to Dubai: Kinahan Cartel’s Visas Revealed within which there is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
       "seed": 20260928
     },
     {
-      "headline": "When does a family meal become a luxury in Nigeria?",
-      "fragment": "Why do men fight for their servitude as stubbornly as though it were their salvation?",
-      "splice": "When does a family meal become a luxury in Nigeria? within which why do men fight for their servitude as stubbornly as though it were their salvation?",
+      "headline": "Robots protest in Poland over AI regulation concerns",
+      "fragment": "The simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
+      "splice": "Robots protest in Poland over AI regulation concerns consequently the simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
       "seed": 20260929
     },
     {
-      "headline": "Satellite Imagery Documents New Border Patrol Road Construction in Big Bend National Park",
-      "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
-      "splice": "Satellite Imagery Documents New Border Patrol Road Construction in Big Bend National Park consequently the revolutionary lives in the gap which separates technical progress from social totality.",
+      "headline": "Yemen fighting escalates as forces battle for Bab al-Mandeb Strait",
+      "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
+      "splice": "Yemen fighting escalates as forces battle for Bab al-Mandeb Strait which is to say the breast is a machine that produces milk, and the mouth a machine coupled to it.",
       "seed": 20260930
     },
     {
-      "headline": "Israeli strikes in southern Lebanese village kill 12",
-      "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
-      "splice": "Israeli strikes in southern Lebanese village kill 12 underneath the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "headline": "Flock Donations to Local Politicians’ Groups Skyrocket as Protests Against AI Cameras Mount",
+      "fragment": "The technocrat is the natural friend of the dictator—computers and dictatorship.",
+      "splice": "Flock Donations to Local Politicians’ Groups Skyrocket as Protests Against AI Cameras Mount as if the technocrat is the natural friend of the dictator—computers and dictatorship.",
       "seed": 20260931
     },
     {
-      "headline": "Serbian government sets up snap vote with call to dissolve parliament",
-      "fragment": "Why do men fight for their servitude as stubbornly as though it were their salvation?",
-      "splice": "Serbian government sets up snap vote with call to dissolve parliament within which why do men fight for their servitude as stubbornly as though it were their salvation?",
+      "headline": "Tracking a Sanctioned Russian Vessel’s West African Odyssey",
+      "fragment": "Reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
+      "splice": "Tracking a Sanctioned Russian Vessel’s West African Odyssey despite reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
       "seed": 20260932
     },
     {
-      "headline": "Investigating a Murder: Public Records Uncover New Clues in Chinatown Cold Case",
-      "fragment": "The simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
-      "splice": "Investigating a Murder: Public Records Uncover New Clues in Chinatown Cold Case insofar as the simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
+      "headline": "What are the implications of AfD’s electoral rise for Germany and Europe?",
+      "fragment": "The truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
+      "splice": "What are the implications of AfD’s electoral rise for Germany and Europe? insofar as the truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
       "seed": 20260933
+    },
+    {
+      "headline": "Cuba says no negotiations with US despite ‘genocidal’ blockade",
+      "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
+      "splice": "Cuba says no negotiations with US despite ‘genocidal’ blockade underneath the breast is a machine that produces milk, and the mouth a machine coupled to it.",
+      "seed": 20260934
+    },
+    {
+      "headline": "Investigating a Murder: Public Records Uncover New Clues in Chinatown Cold Case",
+      "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "splice": "Investigating a Murder: Public Records Uncover New Clues in Chinatown Cold Case despite the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "seed": 20260935
+    },
+    {
+      "headline": "Grindr to pay £26m to settle claims it allegedly shared users' HIV status",
+      "fragment": "The truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
+      "splice": "Grindr to pay £26m to settle claims it allegedly shared users' HIV status while the truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
+      "seed": 20260936
+    },
+    {
+      "headline": "Germany’s ‘Firewall’ Against the Far Right Is Being Tested as Never Before",
+      "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
+      "splice": "Germany’s ‘Firewall’ Against the Far Right Is Being Tested as Never Before despite the revolutionary lives in the gap which separates technical progress from social totality.",
+      "seed": 20260937
     }
   ]
 }
