@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T20:40:21.187Z",
+  "generated_at": "2026-09-09T23:02:31.335Z",
   "threat_intel": {
     "cisa_kev": [
       {
@@ -253,6 +253,154 @@
     ],
     "urlhaus": [
       {
+        "id": "3914590",
+        "date_added": "2026-09-09 22:50:25",
+        "url": "http://103.179.240.227:38264/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3914589",
+        "date_added": "2026-09-09 22:49:32",
+        "url": "http://105.184.180.148:36857/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "mirai",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3914588",
+        "date_added": "2026-09-09 22:25:30",
+        "url": "http://105.184.180.148:36857/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "mirai",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3914587",
+        "date_added": "2026-09-09 22:15:21",
+        "url": "http://182.118.244.134:34417/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3914586",
+        "date_added": "2026-09-09 22:07:28",
+        "url": "http://115.230.76.101:37221/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "mirai",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3914585",
+        "date_added": "2026-09-09 22:04:26",
+        "url": "http://38.75.202.173:44405/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "mirai",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3914584",
+        "date_added": "2026-09-09 22:03:28",
+        "url": "http://182.112.182.6:41117/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3914583",
+        "date_added": "2026-09-09 21:40:29",
+        "url": "http://38.75.202.173:44405/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "mirai",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3914582",
+        "date_added": "2026-09-09 21:03:17",
+        "url": "http://113.238.99.109:46495/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3914581",
+        "date_added": "2026-09-09 20:58:29",
+        "url": "http://182.118.244.134:34417/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3914580",
+        "date_added": "2026-09-09 20:37:24",
+        "url": "http://113.238.99.109:46495/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
         "id": "3914579",
         "date_added": "2026-09-09 20:33:21",
         "url": "http://210.208.111.234:49349/bin.sh",
@@ -262,6 +410,7 @@
           "32-bit",
           "arm",
           "elf",
+          "mirai",
           "Mozi"
         ]
       },
@@ -269,7 +418,7 @@
         "id": "3914578",
         "date_added": "2026-09-09 20:32:24",
         "url": "http://175.173.129.69:57947/bin.sh",
-        "url_status": "online",
+        "url_status": "offline",
         "threat": "malware_download",
         "tags": [
           "32-bit",
@@ -282,7 +431,7 @@
         "id": "3914577",
         "date_added": "2026-09-09 19:01:17",
         "url": "https://globalsupportupdate.top/enc.exe",
-        "url_status": "online",
+        "url_status": "offline",
         "threat": "malware_download",
         "tags": [
           "dropped-by-Stealc",
@@ -320,7 +469,7 @@
         "id": "3914574",
         "date_added": "2026-09-09 18:51:26",
         "url": "http://105.225.100.208:33755/bin.sh",
-        "url_status": "online",
+        "url_status": "offline",
         "threat": "malware_download",
         "tags": [
           "32-bit",
@@ -370,149 +519,59 @@
           "rat",
           "RemcosRAT"
         ]
-      },
-      {
-        "id": "3914570",
-        "date_added": "2026-09-09 18:43:17",
-        "url": "https://drive.google.com/uc?export=download&id=1KH3sfRGqojZzIETO2SQVXeZfnrv9gPoi",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "encrypted",
-          "GuLoader",
-          "rat",
-          "RemcosRAT"
-        ]
-      },
-      {
-        "id": "3914568",
-        "date_added": "2026-09-09 18:42:17",
-        "url": "https://drive.google.com/uc?export=download&id=15PE9xs7YgZwZpsEZTl__yTsrk0OsjiKB",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Encoded",
-          "GuLoader",
-          "rat",
-          "RemcosRAT"
-        ]
-      },
-      {
-        "id": "3914569",
-        "date_added": "2026-09-09 18:42:17",
-        "url": "https://drive.google.com/uc?export=download&id=1x4p5eilCDCy_aBTKjv4LQnQNWStlk3MX",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "ascii",
-          "Encoded",
-          "GuLoader",
-          "rat",
-          "RemcosRAT"
-        ]
-      },
-      {
-        "id": "3914567",
-        "date_added": "2026-09-09 18:41:18",
-        "url": "https://drive.google.com/uc?export=download&id=1TEl5dE_u2rdOAUcVgIgBxuVV4E94FU_D",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "ascii",
-          "Encoded",
-          "GuLoader",
-          "rat",
-          "RemcosRAT"
-        ]
-      },
-      {
-        "id": "3914566",
-        "date_added": "2026-09-09 18:41:13",
-        "url": "http://62.60.226.140/files/1372270670/EsIdVtS.exe",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "d52f85",
-          "dropped-by-amadey"
-        ]
-      },
-      {
-        "id": "3914565",
-        "date_added": "2026-09-09 18:39:21",
-        "url": "https://abilityindisabilityindia.org/wewe.exe",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "exe",
-          "PureLogsStealer"
-        ]
-      },
-      {
-        "id": "3914563",
-        "date_added": "2026-09-09 18:38:13",
-        "url": "https://drive.google.com/uc?export=download&id=18Sk2_goSIJdTQeofy4br2IZZSSWUj6q2",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "encrypted",
-          "GuLoader",
-          "rat",
-          "RemcosRAT"
-        ]
-      },
-      {
-        "id": "3914564",
-        "date_added": "2026-09-09 18:38:13",
-        "url": "https://drive.google.com/uc?export=download&id=1HS8TsqD0A4pQPLmjPMAShT74KCIb_yMk",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "ascii",
-          "Encoded",
-          "GuLoader",
-          "rat",
-          "RemcosRAT"
-        ]
-      },
-      {
-        "id": "3914562",
-        "date_added": "2026-09-09 18:36:17",
-        "url": "https://od.lk/s/MTZfMjA1NjE4Mjg1X3Uwdk5H/img_233217.png",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "rat",
-          "RemcosRAT",
-          "stego"
-        ]
-      },
-      {
-        "id": "3914560",
-        "date_added": "2026-09-09 18:36:16",
-        "url": "https://web.opendrive.com/api/v1/download/file.json/MTZfMjA1NjE3OTY2X2c4UG1u?inline=1",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "rat",
-          "RemcosRAT",
-          "stego"
-        ]
-      },
-      {
-        "id": "3914561",
-        "date_added": "2026-09-09 18:36:16",
-        "url": "https://web.opendrive.com/api/v1/download/file.json/MTZfMjA1NjE4Mjg1X3Uwdk5H?inline=1",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "rat",
-          "RemcosRAT",
-          "stego"
-        ]
       }
     ]
   },
   "world_monitor": [
+    {
+      "title": "Gauff beats Andreeva to reach US Open semifinals in comeback win",
+      "link": "https://www.aljazeera.com/sports/2026/9/9/gauff-beats-andreeva-to-reach-us-open-semifinals-in-comeback-win?traffic_source=rss",
+      "pubDate": "Wed, 09 Sep 2026 22:08:01 +0000",
+      "source": "Al Jazeera",
+      "summary": "Coco Gauff sets up US Open semifinal with Elena Rybakina after saving two match points against Mirra Andreeva."
+    },
+    {
+      "title": "‘Everyone’s had their holidays ruined’: outrage after UK airport chaos",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/9/9/everyones-had-their-holidays-ruined-outrage-after-uk-airport-chaos?traffic_source=rss",
+      "pubDate": "Wed, 09 Sep 2026 22:06:25 +0000",
+      "source": "Al Jazeera",
+      "summary": "The UK's independent aerospace regulator has been instructed to review an air traffic control system outage on Tuesday."
+    },
+    {
+      "title": "US court denies Tate brothers’ bid to be released from Miami jail",
+      "link": "https://www.aljazeera.com/news/2026/9/9/us-court-denies-tate-brothers-bid-to-be-released-from-miami-jail?traffic_source=rss",
+      "pubDate": "Wed, 09 Sep 2026 21:28:16 +0000",
+      "source": "Al Jazeera",
+      "summary": "A judge rules the brothers are a 'quintessential flight risk' due to their wealth and frequent international travel."
+    },
+    {
+      "title": "Spanish intelligence warned of Ceuta mass crossing plans before surge",
+      "link": "https://www.bbc.co.uk/news/articles/ced7vj2gv82o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Wed, 09 Sep 2026 21:23:45 GMT",
+      "source": "BBC",
+      "summary": "Declassified documents show Spanish and Moroccan authorities were alerted to social media calls for a mass migrant crossing the day before tens of thousands entered Ceuta."
+    },
+    {
+      "title": "Misfiring Arsenal beat Napoli with Odegaard stunner in Champions League",
+      "link": "https://www.aljazeera.com/sports/2026/9/9/misfiring-arsenal-beat-napoli-with-odegaard-stunner-in-champions-league?traffic_source=rss",
+      "pubDate": "Wed, 09 Sep 2026 21:20:20 +0000",
+      "source": "Al Jazeera",
+      "summary": "Arsenal dominated play but needed a screamer from Martin Odegaard to seal three points in Napoli to open league phase."
+    },
+    {
+      "title": "Manchester United vs Sabah: UEFA Champions League – preview, team news",
+      "link": "https://www.aljazeera.com/sports/2026/9/9/carrick-confident-man-utd-can-go-far-in-magical-champions-league?traffic_source=rss",
+      "pubDate": "Wed, 09 Sep 2026 21:15:04 +0000",
+      "source": "Al Jazeera",
+      "summary": "Man Utd have taken four points from their first four Premier League games, but Michael Carrick says team ready to rise."
+    },
+    {
+      "title": "Yemen Tilts Toward Full-Scale War as Saudi-Houthi Clashes Escalate",
+      "link": "https://www.nytimes.com/2026/09/09/world/middleeast/saudi-yemen-strilkes.html",
+      "pubDate": "Wed, 09 Sep 2026 21:09:08 +0000",
+      "source": "NYT World",
+      "summary": "With its oil-export routes once again under threat, Saudi Arabia is stepping up its military campaign against an old antagonist."
+    },
     {
       "title": "Iran referred to UN Security Council for nuclear non-compliance",
       "link": "https://www.bbc.co.uk/news/articles/ckgwj4kl5lno?at_medium=RSS&at_campaign=rss",
@@ -521,53 +580,11 @@
       "summary": "Tehran condemns the resolution, blaming US and Israeli strikes on its nuclear facilities for disrupting inspections."
     },
     {
-      "title": "Yemen Tilts Toward Full-Scale War as Saudi-Houthi Clashes Escalate",
-      "link": "https://www.nytimes.com/2026/09/09/world/middleeast/saudi-yemen-strilkes.html",
-      "pubDate": "Wed, 09 Sep 2026 20:22:45 +0000",
-      "source": "NYT World",
-      "summary": "With its oil-export routes once again under threat, Saudi Arabia is stepping up its military campaign against an old antagonist."
-    },
-    {
-      "title": "Yemen envoy warns of wider war as Houthis threaten Bab al-Mandeb Strait",
-      "link": "https://www.aljazeera.com/news/2026/9/9/yemen-envoy-warns-of-wider-war-as-houthis-threaten-bab-al-mandeb-strait?traffic_source=rss",
-      "pubDate": "Wed, 09 Sep 2026 20:05:48 +0000",
-      "source": "Al Jazeera",
-      "summary": "In an interview with Al Jazeera, Yemen's ambassador warns Houthi attacks threaten global shipping."
-    },
-    {
-      "title": "Iraqi graduates protest for govt jobs amid unemployment crisis",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/9/9/09-09-reported-iraq-grad-protests?traffic_source=rss",
-      "pubDate": "Wed, 09 Sep 2026 20:05:22 +0000",
-      "source": "Al Jazeera",
-      "summary": "More than 1,000 medical and health graduates have taken to Baghdad’s streets demanding government jobs."
-    },
-    {
-      "title": "Apple debuts $1,999 passport-shaped foldable phone, called Duo",
-      "link": "https://www.aljazeera.com/economy/2026/9/9/apple-debuts-1999-passport-shaped-foldable-phone-called-duo?traffic_source=rss",
-      "pubDate": "Wed, 09 Sep 2026 20:00:35 +0000",
-      "source": "Al Jazeera",
-      "summary": "The Duo launch, first with new CEO John Ternus, is the most noticeable overhaul of Apple's flagship product since 2017."
-    },
-    {
       "title": "How a Driver’s Sudden Death Triggered Ebola Panic in Congo",
       "link": "https://www.nytimes.com/2026/09/09/world/africa/ebola-congo-truck-driver.html",
       "pubDate": "Wed, 09 Sep 2026 19:43:37 +0000",
       "source": "NYT World",
       "summary": "When a truck driver unexpectedly collapsed and died in a remote village, frontline medical staff scrambled to safely isolate his body, triggering a standoff."
-    },
-    {
-      "title": "Israeli strike targets home in Gaza’s al-Shati refugee camp",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/9/9/israeli-strike-targets-home-in-gazas-al-shati-refugee-camp?traffic_source=rss",
-      "pubDate": "Wed, 09 Sep 2026 19:37:47 +0000",
-      "source": "Al Jazeera",
-      "summary": "An Israeli strike devastated a home in Gaza City’s al-Shati refugee camp, heavily damaging surrounding homes."
-    },
-    {
-      "title": "Two rescued after plane makes emergency landing in Black Sea",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/9/9/two-rescued-after-plane-makes-emergency-landing-in-black-sea?traffic_source=rss",
-      "pubDate": "Wed, 09 Sep 2026 19:27:18 +0000",
-      "source": "Al Jazeera",
-      "summary": "Two Belgian nationals were rescued by Turkish authorities after their private aircraft suffered engine failure."
     },
     {
       "title": "Spain Declassifies Warning to Morocco About Migrant Crossing Plans",
@@ -617,13 +634,6 @@
       "pubDate": "Wed, 09 Sep 2026 12:15:45 +0000",
       "source": "NYT World",
       "summary": "Britain once followed in France’s slipstream when it came to pressuring Israel. Under new leadership, it is spearheading opposition to Israeli settlements, risking American anger."
-    },
-    {
-      "title": "US to ban imports of some Canadian alcohol, dairy goods and motorbikes",
-      "link": "https://www.bbc.co.uk/news/articles/c99dm1000p7o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Wed, 09 Sep 2026 10:20:40 GMT",
-      "source": "BBC",
-      "summary": "It is the latest strike in a long trade war, and comes after Canadian counter-tariffs on US goods come into force."
     },
     {
       "title": "Cops Are Using Flock to Spy on People for the Crime of Standing Around",
@@ -756,6 +766,14 @@
   ],
   "syndicate_journal": [
     {
+      "title": "Could You Survive the Oregon Trail?",
+      "link": "https://nautil.us/could-you-survive-the-oregon-trail-1284907/",
+      "summary": "You might not die of dysentery on the trail these days, but there is still plenty of danger outdoors\nThe post Could You Survive the Oregon Trail? appeared first on Nautilus.",
+      "pubDate": "Wed, 09 Sep 2026 22:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
       "title": "Elephants Think Before They Act",
       "link": "https://nautil.us/elephants-think-before-they-act-1284893/",
       "summary": "It’s a remarkable act of impulse control\nThe post Elephants Think Before They Act appeared first on Nautilus.",
@@ -802,14 +820,6 @@
       "pubDate": "Wed, 09 Sep 2026 14:44:13 +0000",
       "domain": "science",
       "source": "Quanta"
-    },
-    {
-      "title": "An Astrophysicist’s Favorite Books on Cosmology",
-      "link": "https://nautil.us/an-astrophysicists-favorite-books-on-cosmology-1284896/",
-      "summary": "This reading list takes you to the stars\nThe post An Astrophysicist’s Favorite Books on Cosmology appeared first on Nautilus.",
-      "pubDate": "Wed, 09 Sep 2026 14:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
     },
     {
       "title": "What Came Before the American Suburb?",
@@ -996,25 +1006,25 @@
       "source": "ROAR Magazine"
     },
     {
-      "title": "Human–AI co-creation in generative AI video: content characteristics, flow experience, and continued creation intention—a hybrid SEM–ANN study",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1897624",
-      "summary": "IntroductionGrounded in the stimulus–organism–response (S-O-R) theory and flow theory, this study investigates the pathways through which five dimensions of artificial intelligence (AI) video content characteristics—generation quality, emotional resonance, visual novelty, interaction, and narrative ",
-      "pubDate": "",
-      "domain": "psychology",
-      "source": "Frontiers Psychology"
-    },
-    {
-      "title": "From body shaping to character formation: international research progress and mechanisms of exercise training interventions for juvenile delinquency",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1888577",
-      "summary": "Juvenile delinquency is a global public health concern requiring effective prevention strategies. This narrative review summarizes and synthesizes international evidence on structured exercise and sport-based interventions for juvenile delinquency, examining theoretical frameworks, mechanisms, progr",
-      "pubDate": "",
-      "domain": "psychology",
-      "source": "Frontiers Psychology"
-    },
-    {
       "title": "Head nurses’ scientific research and innovation leadership and nurses’ innovative work behavior: the mediating role of intra-team competition perception and the moderating role of harmonious work passion",
       "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1900030",
       "summary": "BackgroundNurses’ innovative work behavior represents an important form of proactive workplace behavior in healthcare organizations. Although head nurses’ scientific research and innovation leadership may create conditions that support innovation, how such leadership is translated into nurses’ innov",
+      "pubDate": "",
+      "domain": "psychology",
+      "source": "Frontiers Psychology"
+    },
+    {
+      "title": "Effects of different types of physical exercise interventions on aggressive behavior among children and adolescents: a network meta-analysis",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1927181",
+      "summary": "IntroductionAggressive behavior is a common and important externalizing problem during childhood and adolescence, closely associated with poor social adjustment, subpar academic performance, and adverse mental health outcomes. Although physical exercise has been regarded as a viable nonpharmacologic",
+      "pubDate": "",
+      "domain": "psychology",
+      "source": "Frontiers Psychology"
+    },
+    {
+      "title": "Body percussion and the biomechanical calibration of musical meter: the somatic externalization of meter hypothesis",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1905062",
+      "summary": "Musical meter takes specific forms, a preferred tempo and a small set of stable subdivisions, that existing accounts do not fully explain. I propose the Somatic Externalization of Meter (SEM) hypothesis: that these parameters are calibrated to the oscillatory dynamics of the moving body, so meter in",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
@@ -1022,64 +1032,64 @@
   ],
   "misinfo_toilet": [
     {
-      "headline": "Satellite Imagery Documents New Border Patrol Road Construction in Big Bend National Park",
-      "fragment": "In the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
-      "splice": "Satellite Imagery Documents New Border Patrol Road Construction in Big Bend National Park insofar as in the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
-      "seed": 20260929
-    },
-    {
-      "headline": "Iran referred to UN Security Council for nuclear non-compliance",
-      "fragment": "The privatization of the organs will only begin with the shame felt by man at the sight of man.",
-      "splice": "Iran referred to UN Security Council for nuclear non-compliance the system notes that the privatization of the organs will only begin with the shame felt by man at the sight of man.",
-      "seed": 20260930
-    },
-    {
-      "headline": "Iraqi graduates protest for govt jobs amid unemployment crisis",
-      "fragment": "Why do men fight for their servitude as stubbornly as though it were their salvation?",
-      "splice": "Iraqi graduates protest for govt jobs amid unemployment crisis within which why do men fight for their servitude as stubbornly as though it were their salvation?",
-      "seed": 20260931
-    },
-    {
-      "headline": "The Pentagon Asked OpenAI for Artificial Intelligence Designed to Rarely Say No",
-      "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
-      "splice": "The Pentagon Asked OpenAI for Artificial Intelligence Designed to Rarely Say No consequently the revolutionary lives in the gap which separates technical progress from social totality.",
+      "headline": "Gauff beats Andreeva to reach US Open semifinals in comeback win",
+      "fragment": "Reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
+      "splice": "Gauff beats Andreeva to reach US Open semifinals in comeback win despite reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
       "seed": 20260932
     },
     {
-      "headline": "Investigating a Murder: Public Records Uncover New Clues in Chinatown Cold Case",
-      "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
-      "splice": "Investigating a Murder: Public Records Uncover New Clues in Chinatown Cold Case underneath the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "headline": "Yemen Tilts Toward Full-Scale War as Saudi-Houthi Clashes Escalate",
+      "fragment": "The truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
+      "splice": "Yemen Tilts Toward Full-Scale War as Saudi-Houthi Clashes Escalate insofar as the truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
       "seed": 20260933
     },
     {
-      "headline": "Spain Declassifies Warning to Morocco About Migrant Crossing Plans",
-      "fragment": "Why do men fight for their servitude as stubbornly as though it were their salvation?",
-      "splice": "Spain Declassifies Warning to Morocco About Migrant Crossing Plans within which why do men fight for their servitude as stubbornly as though it were their salvation?",
+      "headline": "‘Everyone’s had their holidays ruined’: outrage after UK airport chaos",
+      "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
+      "splice": "‘Everyone’s had their holidays ruined’: outrage after UK airport chaos underneath the breast is a machine that produces milk, and the mouth a machine coupled to it.",
       "seed": 20260934
     },
     {
-      "headline": "AI Giants Work Hand-in-Hand With the Pentagon, Contracts Reveal",
-      "fragment": "The simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
-      "splice": "AI Giants Work Hand-in-Hand With the Pentagon, Contracts Reveal insofar as the simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
+      "headline": "Satellite Imagery Documents New Border Patrol Road Construction in Big Bend National Park",
+      "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "splice": "Satellite Imagery Documents New Border Patrol Road Construction in Big Bend National Park despite the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
       "seed": 20260935
     },
     {
-      "headline": "Will Ronaldo Cry​? World Cup Fans Bet Billions Through Prediction Markets",
-      "fragment": "There is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
-      "splice": "Will Ronaldo Cry​? World Cup Fans Bet Billions Through Prediction Markets within which there is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
+      "headline": "Spanish intelligence warned of Ceuta mass crossing plans before surge",
+      "fragment": "The truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
+      "splice": "Spanish intelligence warned of Ceuta mass crossing plans before surge while the truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
       "seed": 20260936
     },
     {
-      "headline": "Israeli strike targets home in Gaza’s al-Shati refugee camp",
-      "fragment": "The privatization of the organs will only begin with the shame felt by man at the sight of man.",
-      "splice": "Israeli strike targets home in Gaza’s al-Shati refugee camp therefore the privatization of the organs will only begin with the shame felt by man at the sight of man.",
+      "headline": "Iran referred to UN Security Council for nuclear non-compliance",
+      "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
+      "splice": "Iran referred to UN Security Council for nuclear non-compliance despite the revolutionary lives in the gap which separates technical progress from social totality.",
       "seed": 20260937
     },
     {
-      "headline": "United Airlines Ships War Materiel to Israel Aboard Passenger Flights",
-      "fragment": "Simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
-      "splice": "United Airlines Ships War Materiel to Israel Aboard Passenger Flights because simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
+      "headline": "Investigating a Murder: Public Records Uncover New Clues in Chinatown Cold Case",
+      "fragment": "The truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
+      "splice": "Investigating a Murder: Public Records Uncover New Clues in Chinatown Cold Case as if the truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
       "seed": 20260938
+    },
+    {
+      "headline": "14 Killed in Weapons Depot Blast in Northwest Syria",
+      "fragment": "We live in a world where there is more and more information, and less and less meaning.",
+      "splice": "14 Killed in Weapons Depot Blast in Northwest Syria while we live in a world where there is more and more information, and less and less meaning.",
+      "seed": 20260939
+    },
+    {
+      "headline": "Cops Are Using Flock to Spy on People for the Crime of Standing Around",
+      "fragment": "It is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
+      "splice": "Cops Are Using Flock to Spy on People for the Crime of Standing Around the signal resolves into it is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
+      "seed": 20260940
+    },
+    {
+      "headline": "Misfiring Arsenal beat Napoli with Odegaard stunner in Champions League",
+      "fragment": "In the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
+      "splice": "Misfiring Arsenal beat Napoli with Odegaard stunner in Champions League meanwhile in the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
+      "seed": 20260941
     }
   ]
 }
