@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T20:35:42.606Z",
+  "generated_at": "2026-09-11T03:43:28.803Z",
   "threat_intel": {
     "cisa_kev": [
       {
@@ -252,9 +252,9 @@
     ],
     "urlhaus": [
       {
-        "id": "3915019",
-        "date_added": "2026-09-10 20:21:28",
-        "url": "http://115.55.151.48:39130/bin.sh",
+        "id": "3915040",
+        "date_added": "2026-09-11 03:02:12",
+        "url": "http://125.41.2.160:45493/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -265,9 +265,9 @@
         ]
       },
       {
-        "id": "3915018",
-        "date_added": "2026-09-10 19:39:21",
-        "url": "http://182.113.28.110:45510/i",
+        "id": "3915039",
+        "date_added": "2026-09-11 02:52:25",
+        "url": "http://42.227.202.111:40117/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -278,9 +278,9 @@
         ]
       },
       {
-        "id": "3915017",
-        "date_added": "2026-09-10 19:32:23",
-        "url": "http://123.4.249.119:44171/i",
+        "id": "3915038",
+        "date_added": "2026-09-11 02:38:30",
+        "url": "http://125.41.2.160:45493/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -291,19 +291,9 @@
         ]
       },
       {
-        "id": "3915016",
-        "date_added": "2026-09-10 19:01:17",
-        "url": "http://125.41.140.229:40577/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3915015",
-        "date_added": "2026-09-10 18:55:17",
-        "url": "http://101.74.52.251:15884/i",
+        "id": "3915037",
+        "date_added": "2026-09-11 02:38:24",
+        "url": "http://61.53.87.97:37876/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -314,118 +304,57 @@
         ]
       },
       {
-        "id": "3915014",
-        "date_added": "2026-09-10 18:34:29",
-        "url": "http://3.133.139.254/tiny_bot.arm",
+        "id": "3915036",
+        "date_added": "2026-09-11 02:26:12",
+        "url": "http://182.126.80.204:55543/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3915035",
+        "date_added": "2026-09-11 01:13:11",
+        "url": "http://115.48.151.136:42193/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3915034",
+        "date_added": "2026-09-11 01:12:17",
+        "url": "http://94.249.188.204/bins/x86",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
           "elf",
-          "mirai"
+          "ua-wget"
         ]
       },
       {
-        "id": "3915011",
-        "date_added": "2026-09-10 18:34:26",
-        "url": "http://3.133.139.254/mirai.mips",
+        "id": "3915033",
+        "date_added": "2026-09-11 01:12:16",
+        "url": "http://176.65.149.210/bins/x86",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
           "elf",
-          "mirai"
+          "ua-wget"
         ]
       },
       {
-        "id": "3915012",
-        "date_added": "2026-09-10 18:34:26",
-        "url": "http://3.133.139.254/tiny_bot.mipsel",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "elf",
-          "mirai"
-        ]
-      },
-      {
-        "id": "3915013",
-        "date_added": "2026-09-10 18:34:26",
-        "url": "http://3.133.139.254/mirai.mipsel",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "elf",
-          "mirai"
-        ]
-      },
-      {
-        "id": "3915006",
-        "date_added": "2026-09-10 18:34:25",
-        "url": "http://3.133.139.254/tiny_bot.x86_64",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "elf",
-          "mirai"
-        ]
-      },
-      {
-        "id": "3915007",
-        "date_added": "2026-09-10 18:34:25",
-        "url": "http://3.133.139.254/mirai.arm",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "elf",
-          "mirai"
-        ]
-      },
-      {
-        "id": "3915008",
-        "date_added": "2026-09-10 18:34:25",
-        "url": "http://3.133.139.254/tiny_bot.arm64",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "elf",
-          "mirai"
-        ]
-      },
-      {
-        "id": "3915009",
-        "date_added": "2026-09-10 18:34:25",
-        "url": "http://3.133.139.254/tiny_bot.arm7",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "elf",
-          "mirai"
-        ]
-      },
-      {
-        "id": "3915010",
-        "date_added": "2026-09-10 18:34:25",
-        "url": "http://3.133.139.254/tiny_bot.mips",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "elf",
-          "mirai"
-        ]
-      },
-      {
-        "id": "3915000",
-        "date_added": "2026-09-10 18:34:14",
-        "url": "http://3.133.139.254/bot_macos",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "mirai"
-        ]
-      },
-      {
-        "id": "3915001",
-        "date_added": "2026-09-10 18:34:14",
-        "url": "http://92.119.167.102:8000/x86",
+        "id": "3915032",
+        "date_added": "2026-09-11 00:57:08",
+        "url": "http://113.231.121.170:60738/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -433,9 +362,42 @@
         ]
       },
       {
-        "id": "3915002",
-        "date_added": "2026-09-10 18:34:14",
-        "url": "http://92.119.167.102:8000/mipsel",
+        "id": "3915031",
+        "date_added": "2026-09-11 00:44:23",
+        "url": "http://115.48.151.136:42193/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3915030",
+        "date_added": "2026-09-11 00:11:09",
+        "url": "http://27.215.212.148:34367/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3915028",
+        "date_added": "2026-09-10 23:57:07",
+        "url": "http://27.215.212.148:34367/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3915029",
+        "date_added": "2026-09-10 23:57:07",
+        "url": "http://123.189.150.115:50311/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -443,65 +405,131 @@
         ]
       },
       {
-        "id": "3915003",
-        "date_added": "2026-09-10 18:34:14",
-        "url": "http://92.119.167.102:8000/mips-bk",
+        "id": "3915027",
+        "date_added": "2026-09-10 23:51:16",
+        "url": "http://219.155.203.63:47994/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "None"
+          "Mozi"
         ]
       },
       {
-        "id": "3915004",
-        "date_added": "2026-09-10 18:34:14",
-        "url": "http://92.119.167.102:8000/mips",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3915005",
-        "date_added": "2026-09-10 18:34:14",
-        "url": "http://92.119.167.102:8000/arm",
+        "id": "3915026",
+        "date_added": "2026-09-10 23:47:13",
+        "url": "http://112.198.195.40:49502/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
           "mirai"
+        ]
+      },
+      {
+        "id": "3915025",
+        "date_added": "2026-09-10 23:28:30",
+        "url": "http://59.96.141.74:37653/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3915024",
+        "date_added": "2026-09-10 23:24:21",
+        "url": "http://219.155.203.63:47994/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3915023",
+        "date_added": "2026-09-10 23:16:13",
+        "url": "http://182.126.80.204:55543/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3915022",
+        "date_added": "2026-09-10 23:02:30",
+        "url": "http://59.96.141.74:37653/bin.sh",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3915021",
+        "date_added": "2026-09-10 21:45:25",
+        "url": "http://61.54.41.118:40394/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
         ]
       }
     ]
   },
   "world_monitor": [
     {
+      "title": "Taiwan vice president makes rare Europe visit for conference on democracy",
+      "link": "https://www.aljazeera.com/news/2026/9/11/taiwan-vice-president-makes-rare-europe-visit-for-conference-on-democracy?traffic_source=rss",
+      "pubDate": "Fri, 11 Sep 2026 03:15:44 +0000",
+      "source": "Al Jazeera",
+      "summary": "European Parliament's Pina Picierno says Hsiao's visit 'was kept secret until her arrival to protect her participation'."
+    },
+    {
+      "title": "Young republicans break with Trump over Iran war",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/9/11/young-republicans-break-with-trump-over-iran-war?traffic_source=rss",
+      "pubDate": "Fri, 11 Sep 2026 02:45:52 +0000",
+      "source": "Al Jazeera",
+      "summary": "A clear generational divide between younger and older republicans is forming at the RNC Midterm Convention."
+    },
+    {
+      "title": "Putin lands in India for BRICs summit, shadowed by Iran and Ukraine wars",
+      "link": "https://www.aljazeera.com/news/2026/9/11/putin-lands-in-india-for-brics-summit-shadowed-by-iran-and-ukraine-wars?traffic_source=rss",
+      "pubDate": "Fri, 11 Sep 2026 02:40:19 +0000",
+      "source": "Al Jazeera",
+      "summary": "Russian, Iranian leaders due to hold talks with India's Modi at summit dominated by wars in Middle East and Ukraine."
+    },
+    {
+      "title": "Brazil’s Supreme Court shuts down early as political chaos mounts",
+      "link": "https://www.aljazeera.com/news/2026/9/11/brazils-supreme-court-shuts-down-early-as-political-chaos-mounts?traffic_source=rss",
+      "pubDate": "Fri, 11 Sep 2026 02:04:50 +0000",
+      "source": "Al Jazeera",
+      "summary": "Members of the high court have exchanged accusations after one justice was accused of involvement in a bank scandal."
+    },
+    {
+      "title": "Unveiling of Charlie Kirk statue sparks chaos in Times Square",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/9/11/aje-onl-nf_charlie-kirk-statue-sparks-chaos-in-times-square-100926?traffic_source=rss",
+      "pubDate": "Fri, 11 Sep 2026 01:24:27 +0000",
+      "source": "Al Jazeera",
+      "summary": "The unveiling of a statue honouring Charlie Kirk in Times Square has sparked clashes between supporters and protesters."
+    },
+    {
       "title": "Ancient Tombs, Untouched by Looters, Are Found Under Peru’s Sands",
       "link": "https://www.nytimes.com/2026/09/10/world/americas/peru-tombs-chimu-archaeology.html",
       "pubDate": "Thu, 10 Sep 2026 20:28:06 +0000",
       "source": "NYT World",
       "summary": "One archaeologist called the tombs “the discovery of the decade” as the first burials from the Chimu kingdom to have escaped centuries of plunder."
-    },
-    {
-      "title": "US appeals court rejects Trump bid to implement new vote-by-mail rules",
-      "link": "https://www.aljazeera.com/news/2026/9/10/us-appeals-court-rejects-trump-bid-to-implement-new-vote-by-mail-rules?traffic_source=rss",
-      "pubDate": "Thu, 10 Sep 2026 20:10:56 +0000",
-      "source": "Al Jazeera",
-      "summary": "The ruling is a blow to Trump administration's efforts to change how mail-in voting works ahead of November elections."
-    },
-    {
-      "title": "Man jailed after threatening to kill son's teacher in French village",
-      "link": "https://www.bbc.co.uk/news/articles/c62jln7n2vvo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Thu, 10 Sep 2026 20:10:51 GMT",
-      "source": "BBC",
-      "summary": "The father had threatened to behead a female primary school teacher near Toulouse."
-    },
-    {
-      "title": "Could Pakistan enter Yemen conflict under Mecca agreement?",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/9/10/10-09-sv-pakistan-yemen-mecca-pk?traffic_source=rss",
-      "pubDate": "Thu, 10 Sep 2026 20:06:04 +0000",
-      "source": "Al Jazeera",
-      "summary": "Pakistan says no military response has been discussed under its new defence pact with Saudi Arabia and Turkiye."
     },
     {
       "title": "After a Difficult Loss, Nigeria Has Become a Source of Pain for Chimamanda Ngozi Adichie",
@@ -511,32 +539,18 @@
       "summary": "Adichie has moved countless readers with her novels about Nigerians at home and abroad. After the death in Lagos of her toddler son, her homeland no longer feels as much like home."
     },
     {
-      "title": "Algeria cuts diplomatic ties with UAE: What we know",
-      "link": "https://www.aljazeera.com/news/2026/9/10/algeria-cuts-diplomatic-ties-with-uae-what-we-know?traffic_source=rss",
-      "pubDate": "Thu, 10 Sep 2026 19:51:59 +0000",
-      "source": "Al Jazeera",
-      "summary": "Algiers ends relations with Gulf state over 'provocative and hostile' actions, after years of tensions."
-    },
-    {
       "title": "Houthis Seize Strategic Red Sea Port, a Major Victory for Iranian Ally",
       "link": "https://www.nytimes.com/2026/09/10/world/middleeast/yemens-houthis-seize-strategic-red-sea-port-officials-say.html",
-      "pubDate": "Thu, 10 Sep 2026 19:31:30 +0000",
+      "pubDate": "Thu, 10 Sep 2026 19:31:31 +0000",
       "source": "NYT World",
       "summary": "The Iran-backed militia routed Yemeni government forces in Mokha, putting the group in a stronger position to attack ships in a crucial waterway for global trade."
     },
     {
-      "title": "Jimmy Kimmel moves Senate interview to YouTube in latest collision with FCC",
-      "link": "https://www.aljazeera.com/news/2026/9/10/jimmy-kimmel-moves-senate-interview-to-youtube-in-latest-collision-with-fcc?traffic_source=rss",
-      "pubDate": "Thu, 10 Sep 2026 19:03:14 +0000",
-      "source": "Al Jazeera",
-      "summary": "The decision follows a year of surging regulatory hurdles over candidate appearances on the Disney-owned network."
-    },
-    {
-      "title": "Amnesty accuses Russia of trafficking foreigners to fight in Ukraine",
-      "link": "https://www.aljazeera.com/news/2026/9/10/amnesty-accuses-russia-of-trafficking-foreigners-to-fight-in-ukraine?traffic_source=rss",
-      "pubDate": "Thu, 10 Sep 2026 19:02:30 +0000",
-      "source": "Al Jazeera",
-      "summary": "Report reveals foreign nationals were misled with job offers, then forced into Russia's army upon arrival."
+      "title": "More than 20 children killed in DR Congo school fire",
+      "link": "https://www.bbc.co.uk/news/articles/cgjq15j7318o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Thu, 10 Sep 2026 19:16:24 GMT",
+      "source": "BBC",
+      "summary": "Officials say there was a stampede as they fled a fire that engulfed two schools in the eastern rebel-held city of Bukavu."
     },
     {
       "title": "Moscow Claims Ukraine Planned to Start a War Between Russia and the U.K.",
@@ -718,6 +732,22 @@
   ],
   "syndicate_journal": [
     {
+      "title": "AI Engineers Are Having Their Oppenheimer “Destroyer of Worlds” Moment",
+      "link": "https://nautil.us/ai-engineers-are-having-their-oppenheimer-destroyer-of-worlds-moment-1284956/",
+      "summary": "A cascade of regret and apocalyptic short-term forecasts hit social media this week\nThe post AI Engineers Are Having Their Oppenheimer “Destroyer of Worlds” Moment appeared first on Nautilus.",
+      "pubDate": "Fri, 11 Sep 2026 01:08:30 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "A Natural Solution to the Replication Crisis in Science",
+      "link": "https://nautil.us/a-natural-solution-to-the-replication-crisis-in-science-1284942/",
+      "summary": "Dear scientists: Follow the ants\nThe post A Natural Solution to the Replication Crisis in Science appeared first on Nautilus.",
+      "pubDate": "Thu, 10 Sep 2026 21:30:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
       "title": "The GOP’s Enemy #1 for the Midterms: Socialism",
       "link": "",
       "summary": "A very old joke imagines two elderly Jewish men sitting on a park bench. The first reads the local Yiddish-language newspaper. The second reads an antisemitic, pro-fascist paper. After a few minutes, the first turns to the second and asks, “How can you read that garbage?”\nThe second replies, “When I",
@@ -748,22 +778,6 @@
       "pubDate": "2026-09-10T16:29:27.705Z",
       "domain": "politics",
       "source": "Jacobin"
-    },
-    {
-      "title": "Rethinking the Mechanisms of Alzheimer’s Disease",
-      "link": "https://nautil.us/rethinking-the-mechanisms-of-alzheimers-disease-1284912/",
-      "summary": "Alzheimer’s disease is the most common form of dementia, but memory isn’t the only thing it affects\nThe post Rethinking the Mechanisms of Alzheimer’s Disease appeared first on Nautilus.",
-      "pubDate": "Thu, 10 Sep 2026 16:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
-      "title": "How Did Birds Outlive the Other Dinosaurs?",
-      "link": "https://nautil.us/how-did-birds-outlive-the-other-dinosaurs-1284920/",
-      "summary": "A preserved feather provides some essential clues\nThe post How Did Birds Outlive the Other Dinosaurs? appeared first on Nautilus.",
-      "pubDate": "Thu, 10 Sep 2026 15:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
     },
     {
       "title": "The Discreet Charm of John Berger",
@@ -1008,64 +1022,64 @@
   ],
   "misinfo_toilet": [
     {
-      "headline": "Satellite Imagery Documents New Border Patrol Road Construction in Big Bend National Park",
-      "fragment": "In the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
-      "splice": "Satellite Imagery Documents New Border Patrol Road Construction in Big Bend National Park insofar as in the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
-      "seed": 20260930
+      "headline": "Taiwan vice president makes rare Europe visit for conference on democracy",
+      "fragment": "Reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
+      "splice": "Taiwan vice president makes rare Europe visit for conference on democracy consequently reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
+      "seed": 20260914
     },
     {
-      "headline": "Man jailed after threatening to kill son's teacher in French village",
-      "fragment": "The privatization of the organs will only begin with the shame felt by man at the sight of man.",
-      "splice": "Man jailed after threatening to kill son's teacher in French village the system notes that the privatization of the organs will only begin with the shame felt by man at the sight of man.",
-      "seed": 20260931
+      "headline": "Young republicans break with Trump over Iran war",
+      "fragment": "Traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
+      "splice": "Young republicans break with Trump over Iran war the signal resolves into traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
+      "seed": 20260915
     },
     {
-      "headline": "Could Pakistan enter Yemen conflict under Mecca agreement?",
-      "fragment": "Why do men fight for their servitude as stubbornly as though it were their salvation?",
-      "splice": "Could Pakistan enter Yemen conflict under Mecca agreement? within which why do men fight for their servitude as stubbornly as though it were their salvation?",
-      "seed": 20260932
+      "headline": "Putin lands in India for BRICs summit, shadowed by Iran and Ukraine wars",
+      "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
+      "splice": "Putin lands in India for BRICs summit, shadowed by Iran and Ukraine wars the system notes that it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
+      "seed": 20260916
     },
     {
-      "headline": "Cops Are Using Flock to Spy on People for the Crime of Standing Around",
-      "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
-      "splice": "Cops Are Using Flock to Spy on People for the Crime of Standing Around consequently the revolutionary lives in the gap which separates technical progress from social totality.",
-      "seed": 20260933
-    },
-    {
-      "headline": "Investigating a Murder: Public Records Uncover New Clues in Chinatown Cold Case",
-      "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
-      "splice": "Investigating a Murder: Public Records Uncover New Clues in Chinatown Cold Case underneath the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
-      "seed": 20260934
-    },
-    {
-      "headline": "Amnesty accuses Russia of trafficking foreigners to fight in Ukraine",
-      "fragment": "Why do men fight for their servitude as stubbornly as though it were their salvation?",
-      "splice": "Amnesty accuses Russia of trafficking foreigners to fight in Ukraine within which why do men fight for their servitude as stubbornly as though it were their salvation?",
-      "seed": 20260935
-    },
-    {
-      "headline": "FAA Investigates Drone Pilot Who Films Animal Abusers",
-      "fragment": "The simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
-      "splice": "FAA Investigates Drone Pilot Who Films Animal Abusers insofar as the simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
-      "seed": 20260936
-    },
-    {
-      "headline": "Will Ronaldo Cry​? World Cup Fans Bet Billions Through Prediction Markets",
-      "fragment": "There is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
-      "splice": "Will Ronaldo Cry​? World Cup Fans Bet Billions Through Prediction Markets within which there is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
-      "seed": 20260937
-    },
-    {
-      "headline": "Houthis Seize Strategic Red Sea Port, a Major Victory for Iranian Ally",
-      "fragment": "The privatization of the organs will only begin with the shame felt by man at the sight of man.",
-      "splice": "Houthis Seize Strategic Red Sea Port, a Major Victory for Iranian Ally therefore the privatization of the organs will only begin with the shame felt by man at the sight of man.",
-      "seed": 20260938
-    },
-    {
-      "headline": "Yemen's Houthis reportedly seize strategic Red Sea port of Mokha",
+      "headline": "Moscow Claims Ukraine Planned to Start a War Between Russia and the U.K.",
       "fragment": "Simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
-      "splice": "Yemen's Houthis reportedly seize strategic Red Sea port of Mokha because simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
-      "seed": 20260939
+      "splice": "Moscow Claims Ukraine Planned to Start a War Between Russia and the U.K. therefore simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
+      "seed": 20260917
+    },
+    {
+      "headline": "Pilot warned Amazon cargo plane going too fast before deadly crash, data shows ",
+      "fragment": "Art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
+      "splice": "Pilot warned Amazon cargo plane going too fast before deadly crash, data shows  despite art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
+      "seed": 20260918
+    },
+    {
+      "headline": "More than 20 children killed in DR Congo school fire",
+      "fragment": "Pretending, or dissimulating, leaves the principle of reality intact: the difference is always clear, it is simply masked.",
+      "splice": "More than 20 children killed in DR Congo school fire not unlike pretending, or dissimulating, leaves the principle of reality intact: the difference is always clear, it is simply masked.",
+      "seed": 20260919
+    },
+    {
+      "headline": "Unveiling of Charlie Kirk statue sparks chaos in Times Square",
+      "fragment": "Everywhere it is machines—real ones, not figurative ones: machines driving other machines, machines being driven by other machines, with all the necessary couplings and connections.",
+      "splice": "Unveiling of Charlie Kirk statue sparks chaos in Times Square consequently everywhere it is machines—real ones, not figurative ones: machines driving other machines, machines being driven by other machines, with all the necessary couplings and connections.",
+      "seed": 20260920
+    },
+    {
+      "headline": "Ancient Tombs, Untouched by Looters, Are Found Under Peru’s Sands",
+      "fragment": "Traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
+      "splice": "Ancient Tombs, Untouched by Looters, Are Found Under Peru’s Sands despite traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
+      "seed": 20260921
+    },
+    {
+      "headline": "Tracking a Sanctioned Russian Vessel’s West African Odyssey",
+      "fragment": "Traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
+      "splice": "Tracking a Sanctioned Russian Vessel’s West African Odyssey because traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
+      "seed": 20260922
+    },
+    {
+      "headline": "Brazil’s Supreme Court shuts down early as political chaos mounts",
+      "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
+      "splice": "Brazil’s Supreme Court shuts down early as political chaos mounts consequently the breast is a machine that produces milk, and the mouth a machine coupled to it.",
+      "seed": 20260923
     }
   ]
 }
