@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T20:40:28.593Z",
+  "generated_at": "2026-09-11T23:03:41.900Z",
   "threat_intel": {
     "cisa_kev": [
       {
@@ -249,10 +249,225 @@
     ],
     "urlhaus": [
       {
+        "id": "3915363",
+        "date_added": "2026-09-11 22:58:22",
+        "url": "http://175.148.133.84:52725/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3915362",
+        "date_added": "2026-09-11 22:40:09",
+        "url": "http://62.60.226.140/files/7782139129/swm3mLn.exe",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "d52f85",
+          "dropped-by-amadey"
+        ]
+      },
+      {
+        "id": "3915361",
+        "date_added": "2026-09-11 22:37:17",
+        "url": "http://115.50.218.143:58288/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3915360",
+        "date_added": "2026-09-11 22:37:16",
+        "url": "http://42.231.47.159:47811/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3915359",
+        "date_added": "2026-09-11 22:36:02",
+        "url": "http://175.148.133.84:52725/bin.sh",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3915358",
+        "date_added": "2026-09-11 22:28:23",
+        "url": "http://119.165.254.83:53777/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "mirai",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3915357",
+        "date_added": "2026-09-11 22:28:22",
+        "url": "http://196.189.130.28:60910/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "mirai",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3915356",
+        "date_added": "2026-09-11 22:16:12",
+        "url": "http://196.189.101.82:48478/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "mirai"
+        ]
+      },
+      {
+        "id": "3915355",
+        "date_added": "2026-09-11 22:06:18",
+        "url": "http://196.189.130.28:60910/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "mirai",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3915354",
+        "date_added": "2026-09-11 22:01:28",
+        "url": "http://196.189.101.82:48478/bin.sh",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3915353",
+        "date_added": "2026-09-11 22:00:22",
+        "url": "http://119.165.254.83:53777/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "mirai",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3915352",
+        "date_added": "2026-09-11 21:52:12",
+        "url": "http://221.14.171.222:49473/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3915351",
+        "date_added": "2026-09-11 21:46:22",
+        "url": "http://115.61.243.173:56716/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3915350",
+        "date_added": "2026-09-11 21:32:21",
+        "url": "http://203.177.28.149:58260/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3915349",
+        "date_added": "2026-09-11 21:30:17",
+        "url": "http://112.198.128.164:47005/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "mirai",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3915348",
+        "date_added": "2026-09-11 21:20:21",
+        "url": "http://203.177.28.149:58260/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3915347",
+        "date_added": "2026-09-11 20:58:21",
+        "url": "http://116.75.87.176:43639/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
         "id": "3915346",
         "date_added": "2026-09-11 20:30:35",
         "url": "http://59.180.144.106:42402/i",
-        "url_status": "online",
+        "url_status": "offline",
         "threat": "malware_download",
         "tags": [
           "32-bit",
@@ -265,7 +480,7 @@
         "id": "3915345",
         "date_added": "2026-09-11 20:18:18",
         "url": "https://adpayworks.b-cdn.net/download/1.1.2/AdPayWorks.exe",
-        "url_status": "online",
+        "url_status": "offline",
         "threat": "malware_download",
         "tags": [
           "msstore",
@@ -286,224 +501,6 @@
           "signed",
           "WailsLoader"
         ]
-      },
-      {
-        "id": "3915343",
-        "date_added": "2026-09-11 20:09:25",
-        "url": "http://221.14.173.32:33059/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3915342",
-        "date_added": "2026-09-11 20:01:24",
-        "url": "http://42.58.171.35:34835/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3915341",
-        "date_added": "2026-09-11 19:50:24",
-        "url": "http://222.127.55.224:47900/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "arm",
-          "elf",
-          "mirai",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3915340",
-        "date_added": "2026-09-11 19:46:27",
-        "url": "http://222.127.55.224:47900/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "arm",
-          "elf",
-          "mirai",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3915339",
-        "date_added": "2026-09-11 19:18:20",
-        "url": "http://119.179.215.67:52251/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3915338",
-        "date_added": "2026-09-11 19:12:13",
-        "url": "http://105.184.213.176:55983/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "arm",
-          "elf",
-          "mirai",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3915337",
-        "date_added": "2026-09-11 19:10:13",
-        "url": "http://167.235.91.194/v",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "167-235-91-194",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3915336",
-        "date_added": "2026-09-11 19:06:23",
-        "url": "http://105.184.213.176:55983/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "arm",
-          "elf",
-          "mirai",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3915335",
-        "date_added": "2026-09-11 19:01:24",
-        "url": "http://42.231.207.203:40714/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3915334",
-        "date_added": "2026-09-11 18:56:19",
-        "url": "http://123.190.27.84:51494/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3915333",
-        "date_added": "2026-09-11 18:54:17",
-        "url": "http://168.119.85.190/bash.sh",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "168-119-85-190",
-          "sh",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3915331",
-        "date_added": "2026-09-11 18:42:23",
-        "url": "http://176.9.88.12/miner",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "176-9-88-12",
-          "sh",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3915332",
-        "date_added": "2026-09-11 18:42:23",
-        "url": "http://103.171.168.74:33809/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3915329",
-        "date_added": "2026-09-11 18:40:26",
-        "url": "http://176.9.104.142/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "176-9-104-142",
-          "elf",
-          "sh",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3915330",
-        "date_added": "2026-09-11 18:40:26",
-        "url": "http://176.9.104.142/ohshit.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "176-9-104-142",
-          "sh",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3915328",
-        "date_added": "2026-09-11 18:30:25",
-        "url": "http://123.190.27.84:51494/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3915327",
-        "date_added": "2026-09-11 17:56:13",
-        "url": "http://62.60.226.140/files/gold/file.exe",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "d52f85",
-          "dropped-by-amadey"
-        ]
       }
     ]
   },
@@ -511,51 +508,58 @@
     {
       "title": "Houthis Seize a Key Red Sea Island, Threatening Another Global Oil Route",
       "link": "https://www.nytimes.com/2026/09/11/world/middleeast/yemen-houthis-bab-al-mandab.html",
-      "pubDate": "Fri, 11 Sep 2026 20:36:02 +0000",
+      "pubDate": "Fri, 11 Sep 2026 22:22:16 +0000",
       "source": "NYT World",
-      "summary": "The Iran-backed militia’s ground offensive has reached Bab al-Mandab, a Red Sea strait that is a choke point for global trade."
+      "summary": "The militia captured the island in the Bab al-Mandab Strait, a choke point for trade. Saudi Arabia also announced it had shut down a critical oil pipeline after a drone attack launched from Iraq."
     },
     {
       "title": "Houthis claim major advance in Yemen and tighten grip on Red Sea shipping lane",
       "link": "https://www.bbc.co.uk/news/articles/c23x72yx2rvo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Fri, 11 Sep 2026 20:11:47 GMT",
+      "pubDate": "Fri, 11 Sep 2026 22:17:45 GMT",
       "source": "BBC",
       "summary": "The Iran-backed Houthis are also reported to have seized Perim - a strategic island on the major shipping route."
     },
     {
-      "title": "Razaullah’s six-hitting debut caps Pakistan’s fightback against England",
-      "link": "https://www.aljazeera.com/sports/2026/9/11/razaullahs-six-hitting-debut-caps-pakistans-fightback-against-england?traffic_source=rss",
-      "pubDate": "Fri, 11 Sep 2026 20:07:15 +0000",
+      "title": "Israeli demolitions threaten schools and homes in Masafer Yatta",
+      "link": "https://www.aljazeera.com/features/2026/9/11/israeli-demolitions-threaten-schools-and-homes-in-masafer-yatta?traffic_source=rss",
+      "pubDate": "Fri, 11 Sep 2026 21:53:34 +0000",
       "source": "Al Jazeera",
-      "summary": "Pakistan all out with a second innings lead of 130 at the close on day three of the third Test at Edgbaston."
+      "summary": "Students pledge to continue learning as Masafer Yatta demolitions target homes, schools, and their right to education."
     },
     {
-      "title": "Can BRICS help reshape global order by strengthening emerging economies?",
-      "link": "https://www.aljazeera.com/video/inside-story/2026/9/11/can-brics-help-reshape-global-order-by-strengthening-emerging-economies?traffic_source=rss",
-      "pubDate": "Fri, 11 Sep 2026 20:04:02 +0000",
+      "title": "Saudi Arabia says East-West pipeline hit by drones launched from Iraq",
+      "link": "https://www.aljazeera.com/news/2026/9/11/saudi-arabia-says-east-west-pipeline-hit-by-drones-launched-from-iraq?traffic_source=rss",
+      "pubDate": "Fri, 11 Sep 2026 21:30:47 +0000",
       "source": "Al Jazeera",
-      "summary": "Leaders of BRICS member states are meeting at a summit in New Delhi, India."
+      "summary": "Iraq condemns the attack, says Prime ⁠Minister Ali al-Zaidi orders an ⁠investigation ​into ⁠those responsible."
     },
     {
-      "title": "Hot pursuit: Man who robbed Indian bank using chilli powder arrested",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/9/11/hot-pursuit-man-who-robbed-indian-bank-using-chilli-powder-arrested?traffic_source=rss",
-      "pubDate": "Fri, 11 Sep 2026 20:00:55 +0000",
+      "title": "Sabalenka vs Rybakina: US Open women’s singles final – start, prize, form",
+      "link": "https://www.aljazeera.com/sports/2026/9/11/sabalenka-rybakina-us-open-2026-womens-singles-final-time-form-head-to-head?traffic_source=rss",
+      "pubDate": "Fri, 11 Sep 2026 21:28:34 +0000",
       "source": "Al Jazeera",
-      "summary": "A man posing as a customer threw chilli powder into the eyes of employees at a bank in Nagpur city, western India."
+      "summary": "Top seeds Aryna Sabalenka and Elena Rybakina clash in a Grand Slam final for the second time this year."
     },
     {
-      "title": "Declassified documents show UK aware of Israeli war crimes for 24 years",
-      "link": "https://www.aljazeera.com/news/2026/9/11/declassified-documents-show-uk-aware-of-israeli-war-crimes-for-24-years?traffic_source=rss",
-      "pubDate": "Fri, 11 Sep 2026 19:59:41 +0000",
+      "title": "Somber tributes as US marks the 25th anniversary of September 11 attacks",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/9/11/somber-tributes-as-us-marks-the-25th-anniversary-of-september-11-attacks?traffic_source=rss",
+      "pubDate": "Fri, 11 Sep 2026 21:23:51 +0000",
       "source": "Al Jazeera",
-      "summary": "UK Foreign Office files, public since 2024, record warnings about Israeli violence and rights abuses since 2002."
+      "summary": "Families are remembering the loved ones they lost in the September 11, 2001 attacks on the US."
     },
     {
-      "title": "City boss Enzo Maresca says spotlight not on him ahead of Manchester derby",
-      "link": "https://www.aljazeera.com/sports/2026/9/11/enzo-maresca-manchester-city-man-united-derby-football?traffic_source=rss",
-      "pubDate": "Fri, 11 Sep 2026 19:37:17 +0000",
+      "title": "Zohran Mamdani commemorates 9/11 amid widespread criticism",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/9/11/zohran-mamdani-commemorates-9-11-amid-widespread?traffic_source=rss",
+      "pubDate": "Fri, 11 Sep 2026 21:01:23 +0000",
       "source": "Al Jazeera",
-      "summary": "Maresca's Man City lead the Premier League standings, with three wins out of three, ahead of Sunday's derby."
+      "summary": "NYC Mayor Zohran Mamdani commemorated the 25th anniversary of 9/11, calling it the “darkest day” in the city's history."
+    },
+    {
+      "title": "Why Emerging Powers Keep Joining BRICS, Even When They Disagree",
+      "link": "https://www.nytimes.com/2026/09/11/world/asia/brics-meeting-summit-delhi.html",
+      "pubDate": "Fri, 11 Sep 2026 20:45:24 +0000",
+      "source": "NYT World",
+      "summary": "The leaders of China, Russia, India, Iran and other nations in the BRICS club gather in New Delhi this weekend, but wars and soaring energy prices divide them."
     },
     {
       "title": "As Russia Again Draws Near, a Frontline City Fears Obliteration This Time",
@@ -563,13 +567,6 @@
       "pubDate": "Fri, 11 Sep 2026 18:08:17 +0000",
       "source": "NYT World",
       "summary": "The Ukrainian city of Izium still bears the scars of Russian occupation from four years ago. As Moscow’s forces approach, residents are bracing for the worst."
-    },
-    {
-      "title": "Why Emerging Powers Keep Joining BRICS, Even When They Disagree",
-      "link": "https://www.nytimes.com/2026/09/11/world/asia/brics-meeting-summit-delhi.html",
-      "pubDate": "Fri, 11 Sep 2026 16:29:25 +0000",
-      "source": "NYT World",
-      "summary": "The leaders of China, Russia, India, Iran and other nations in the BRICS club gather in New Delhi this weekend, but wars and soaring energy prices divide them."
     },
     {
       "title": "Norway's Princess Astrid dies two days after attending brother King Harald's funeral",
@@ -686,6 +683,13 @@
   ],
   "syndication": [
     {
+      "title": "Friday Squid Blogging: Rotting Squid on a Beached California Boat",
+      "link": "https://www.schneier.com/blog/archives/2026/09/friday-squid-blogging-rotting-squid-on-a-beached-california-boat.html",
+      "pubDate": "2026-09-11T21:03:27.000Z",
+      "author": "Schneier on Security",
+      "content": "Smells awful:\n But an estimated 30 to 50 tons of dead squid remain inside the boat’s catch tank, where they have been decomposing for days. “That is nasty. I wouldn’t want to do that,” said commercial fisherman Dick Ogg of the Bodega Bay Fishermen’s Marketing Association.\nOgg said anyone familiar wi"
+    },
+    {
       "title": "My Talk at DEF CON",
       "link": "https://www.schneier.com/blog/archives/2026/09/my-talk-at-def-con.html",
       "pubDate": "2026-09-11T18:06:24.000Z",
@@ -705,13 +709,6 @@
       "pubDate": "2026-09-11T11:09:55.000Z",
       "author": "Schneier on Security",
       "content": "In August, Cliff Stoll gave a talk at DEF CON, remembering the wily hacker he stalked forty years ago.\nGreat fun."
-    },
-    {
-      "title": "AIs Compress Exploit Timeline",
-      "link": "https://www.schneier.com/blog/archives/2026/09/ais-compress-exploit-timeline.html",
-      "pubDate": "2026-09-10T10:40:35.000Z",
-      "author": "Schneier on Security",
-      "content": "Give an AI agent a mere rumor of an exploit, and it’s enough for them to find it.\nWhat’s worse, I found I could use my own agents to find the exploit just by knowing roughly what it was about and so could have been exploiting it well before the public patch was available! Given that just the rumour "
     },
     {
       "title": "Pluralistic: Anti-vax/anti-trust (09 Sep 2026)",
@@ -751,6 +748,22 @@
   ],
   "syndicate_journal": [
     {
+      "title": "The Giant Squids of the Jurassic Period",
+      "link": "https://nautil.us/the-giant-squids-of-the-jurassic-period-1285002/",
+      "summary": "This belemnite swam in what used to be Wyoming seas \nThe post The Giant Squids of the Jurassic Period appeared first on Nautilus.",
+      "pubDate": "Fri, 11 Sep 2026 22:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "Even 10 Minutes of “Slow Running” Can Give Your Brain a Boost",
+      "link": "https://nautil.us/even-10-minutes-of-slow-running-can-give-your-brain-a-boost-1284996/",
+      "summary": "It’s all in the head bob\nThe post Even 10 Minutes of “Slow Running” Can Give Your Brain a Boost appeared first on Nautilus.",
+      "pubDate": "Fri, 11 Sep 2026 21:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
       "title": "Are Too Many Americans Taking Antidepressants?",
       "link": "https://nautil.us/are-too-many-americans-taking-antidepressants-1284975/",
       "summary": "Rates of anxiety and depression have grown since the COVID-19 pandemic—as have prescriptions for antidepressants\nThe post Are Too Many Americans Taking Antidepressants? appeared first on Nautilus.",
@@ -765,22 +778,6 @@
       "pubDate": "2026-09-11T19:13:32.267Z",
       "domain": "politics",
       "source": "Jacobin"
-    },
-    {
-      "title": "Genetically Engineered Yeast Could Transform Martian Soil into Living Building Materials",
-      "link": "https://nautil.us/genetically-engineered-yeast-could-transform-martian-soil-into-living-building-materials-1284972/",
-      "summary": "Living yeast yurts on Mars!\nThe post Genetically Engineered Yeast Could Transform Martian Soil into Living Building Materials appeared first on Nautilus.",
-      "pubDate": "Fri, 11 Sep 2026 19:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
-      "title": "Nighttime Light May Change the Shape of Your Heart",
-      "link": "https://nautil.us/nighttime-light-may-change-the-shape-of-your-heart-1284967/",
-      "summary": "It’s a glowing, growing problem\nThe post Nighttime Light May Change the Shape of Your Heart appeared first on Nautilus.",
-      "pubDate": "Fri, 11 Sep 2026 18:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
     },
     {
       "title": "Film Workers Should Fight for Good Movies, Not Just Jobs",
@@ -1041,64 +1038,64 @@
   ],
   "misinfo_toilet": [
     {
-      "headline": "Houthis claim major advance in Yemen and tighten grip on Red Sea shipping lane",
-      "fragment": "Reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
-      "splice": "Houthis claim major advance in Yemen and tighten grip on Red Sea shipping lane despite reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
-      "seed": 20260931
-    },
-    {
-      "headline": "City boss Enzo Maresca says spotlight not on him ahead of Manchester derby",
+      "headline": "Tracking a Sanctioned Russian Vessel’s West African Odyssey",
       "fragment": "The truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
-      "splice": "City boss Enzo Maresca says spotlight not on him ahead of Manchester derby insofar as the truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
-      "seed": 20260932
-    },
-    {
-      "headline": "Razaullah’s six-hitting debut caps Pakistan’s fightback against England",
-      "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "splice": "Razaullah’s six-hitting debut caps Pakistan’s fightback against England underneath the breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "seed": 20260933
-    },
-    {
-      "headline": "Satellite Imagery Documents New Border Patrol Road Construction in Big Bend National Park",
-      "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
-      "splice": "Satellite Imagery Documents New Border Patrol Road Construction in Big Bend National Park despite the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "splice": "Tracking a Sanctioned Russian Vessel’s West African Odyssey insofar as the truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
       "seed": 20260934
     },
     {
-      "headline": "Can BRICS help reshape global order by strengthening emerging economies?",
-      "fragment": "The truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
-      "splice": "Can BRICS help reshape global order by strengthening emerging economies? while the truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
+      "headline": "Houthis Seize a Key Red Sea Island, Threatening Another Global Oil Route",
+      "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
+      "splice": "Houthis Seize a Key Red Sea Island, Threatening Another Global Oil Route underneath the breast is a machine that produces milk, and the mouth a machine coupled to it.",
       "seed": 20260935
     },
     {
-      "headline": "As Russia Again Draws Near, a Frontline City Fears Obliteration This Time",
-      "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
-      "splice": "As Russia Again Draws Near, a Frontline City Fears Obliteration This Time despite the revolutionary lives in the gap which separates technical progress from social totality.",
+      "headline": "Pentagon Employee DataRepublican Posts Inside Info About Hacks Against the Far Left",
+      "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "splice": "Pentagon Employee DataRepublican Posts Inside Info About Hacks Against the Far Left despite the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
       "seed": 20260936
     },
     {
-      "headline": "Investigating a Murder: Public Records Uncover New Clues in Chinatown Cold Case",
+      "headline": "Why Emerging Powers Keep Joining BRICS, Even When They Disagree",
       "fragment": "The truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
-      "splice": "Investigating a Murder: Public Records Uncover New Clues in Chinatown Cold Case as if the truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
+      "splice": "Why Emerging Powers Keep Joining BRICS, Even When They Disagree while the truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
       "seed": 20260937
     },
     {
-      "headline": "Israel says it has destroyed major underground Hezbollah base",
-      "fragment": "We live in a world where there is more and more information, and less and less meaning.",
-      "splice": "Israel says it has destroyed major underground Hezbollah base while we live in a world where there is more and more information, and less and less meaning.",
+      "headline": "Cops Are Using Flock to Spy on People for the Crime of Standing Around",
+      "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
+      "splice": "Cops Are Using Flock to Spy on People for the Crime of Standing Around despite the revolutionary lives in the gap which separates technical progress from social totality.",
       "seed": 20260938
     },
     {
-      "headline": "Fired After the Charlie Kirk Revenge Purge, They’re Still Unemployed",
-      "fragment": "It is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
-      "splice": "Fired After the Charlie Kirk Revenge Purge, They’re Still Unemployed the signal resolves into it is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
+      "headline": "Houthis claim major advance in Yemen and tighten grip on Red Sea shipping lane",
+      "fragment": "The truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
+      "splice": "Houthis claim major advance in Yemen and tighten grip on Red Sea shipping lane as if the truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
       "seed": 20260939
     },
     {
-      "headline": "Hot pursuit: Man who robbed Indian bank using chilli powder arrested",
-      "fragment": "In the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
-      "splice": "Hot pursuit: Man who robbed Indian bank using chilli powder arrested meanwhile in the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
+      "headline": "Welcome to Dubai: Kinahan Cartel’s Visas Revealed",
+      "fragment": "We live in a world where there is more and more information, and less and less meaning.",
+      "splice": "Welcome to Dubai: Kinahan Cartel’s Visas Revealed while we live in a world where there is more and more information, and less and less meaning.",
       "seed": 20260940
+    },
+    {
+      "headline": "United Airlines Ships War Materiel to Israel Aboard Passenger Flights",
+      "fragment": "It is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
+      "splice": "United Airlines Ships War Materiel to Israel Aboard Passenger Flights the signal resolves into it is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
+      "seed": 20260941
+    },
+    {
+      "headline": "Satellite Imagery Documents New Border Patrol Road Construction in Big Bend National Park",
+      "fragment": "In the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
+      "splice": "Satellite Imagery Documents New Border Patrol Road Construction in Big Bend National Park meanwhile in the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
+      "seed": 20260942
+    },
+    {
+      "headline": "Buddhist monk arrested in suspected $3m embezzlement scandal",
+      "fragment": "The current ruling ontology denies any possibility of a social causation of mental illness. The chemico-biologization of mental illness is of course strictly commensurate with its depoliticization.",
+      "splice": "Buddhist monk arrested in suspected $3m embezzlement scandal because the current ruling ontology denies any possibility of a social causation of mental illness. The chemico-biologization of mental illness is of course strictly commensurate with its depoliticization.",
+      "seed": 20260943
     }
   ]
 }
