@@ -1,7 +1,72 @@
 {
-  "generated_at": "2026-09-11T16:06:45.454Z",
+  "generated_at": "2026-09-11T20:40:28.593Z",
   "threat_intel": {
     "cisa_kev": [
+      {
+        "cveID": "CVE-2026-84869",
+        "vendorProject": "ConnectWise",
+        "product": "ScreenConnect",
+        "vulnerabilityName": "ConnectWise ScreenConnect Improper Privilege Management and Missing Authorization Vulnerability",
+        "dateAdded": "2026-09-11",
+        "shortDescription": "ConnectWise ScreenConnect contains both an improper privilege management and missing authorization vulnerability that may allow an attacker to file transfer and execution through an active remote sessions without authorization or host confirmation.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-09-14",
+        "knownRansomwareCampaignUse": "Unknown",
+        "forensicTriage": "Yes",
+        "notes": "https://www.connectwise.com/company/trust/security-bulletins/2026-09-08-screenconnect-bulletin ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-84869",
+        "cwes": [
+          "CWE-269",
+          "CWE-862"
+        ]
+      },
+      {
+        "cveID": "CVE-2026-42016",
+        "vendorProject": "JFrog",
+        "product": "Artifactory",
+        "vulnerabilityName": "JFrog Artifactory Incorrect Authorization Vulnerability",
+        "dateAdded": "2026-09-11",
+        "shortDescription": "JFrog Artifactory contains an incorrect authorization vulnerability that allows leads to privilege escalation attack due to a validation check of the token signature/issuer and not the token’s scope.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-09-25",
+        "knownRansomwareCampaignUse": "Unknown",
+        "forensicTriage": "No",
+        "notes": "https://docs.jfrog.com/releases/docs/jfrog-security-advisories ; https://docs.jfrog.com/releases/docs/artifactory-self-managed-releases ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-42016",
+        "cwes": [
+          "CWE-863"
+        ]
+      },
+      {
+        "cveID": "CVE-2026-42018",
+        "vendorProject": "JFrog",
+        "product": "Artifactory",
+        "vulnerabilityName": "JFrog Artifactory Improper Authentication Vulnerability",
+        "dateAdded": "2026-09-11",
+        "shortDescription": "JFrog Artifactory contains an improper authentication vulnerability that could return an internal anonymous-user token to an unauthenticated caller when anonymous access is disabled, potentially exposing sensitive resources.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-09-25",
+        "knownRansomwareCampaignUse": "Unknown",
+        "forensicTriage": "No",
+        "notes": "https://docs.jfrog.com/releases/docs/jfrog-security-advisories ; https://docs.jfrog.com/releases/docs/artifactory-self-managed-releases ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-42018",
+        "cwes": [
+          "CWE-287"
+        ]
+      },
+      {
+        "cveID": "CVE-2026-85706",
+        "vendorProject": "GitLab",
+        "product": "Community Edition and Enterprise Edition",
+        "vulnerabilityName": "GitLab Community Edition and Enterprise Edition Path Traversal Vulnerability",
+        "dateAdded": "2026-09-11",
+        "shortDescription": "GitLab Community Edition and Enterprise Edition contains a path traversal vulnerability that allows an unauthenticated user to read arbitrary files due to an improper path confinement and missing authentication enforcement in the repository commits API.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-09-14",
+        "knownRansomwareCampaignUse": "Unknown",
+        "forensicTriage": "Yes",
+        "notes": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-3-2-released/ ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-85706",
+        "cwes": [
+          "CWE-35"
+        ]
+      },
       {
         "cveID": "CVE-2026-86060",
         "vendorProject": "MikroTik",
@@ -180,378 +245,345 @@
         "cwes": [
           "CWE-843"
         ]
-      },
-      {
-        "cveID": "CVE-2026-59822",
-        "vendorProject": "BerriAI",
-        "product": "LiteLLM",
-        "vulnerabilityName": "BerriAI LiteLLM Improper Authentication Vulnerability",
-        "dateAdded": "2026-09-02",
-        "shortDescription": "BerriAI LiteLLM contains an improper authentication vulnerability in the MCP Streamable HTTP endpoint that could allow an unauthenticated attacker to establish an authenticated MCP session using an arbitrary Bearer token.",
-        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "dueDate": "2026-09-16",
-        "knownRansomwareCampaignUse": "Unknown",
-        "forensicTriage": "No",
-        "notes": "https://github.com/BerriAI/litellm/security/advisories/GHSA-7488-6r32-c95q ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-59822",
-        "cwes": [
-          "CWE-287",
-          "CWE-306"
-        ]
-      },
-      {
-        "cveID": "CVE-2026-48710",
-        "vendorProject": "Kludex",
-        "product": "Starlette",
-        "vulnerabilityName": "Kludex Starlette HTTP Request/Response Smuggling Vulnerability",
-        "dateAdded": "2026-09-02",
-        "shortDescription": "Kludex Starlette contains a HTTP request/response smuggling vulnerability that could allow attackers to inject paths into the host part, prepending the actual path leading to issues such as authentication bypass when the authentication depends on the reconstructed URL’s path. This vulnerability could be chaned with CVE-2026-42271.",
-        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "dueDate": "2026-09-16",
-        "knownRansomwareCampaignUse": "Unknown",
-        "forensicTriage": "No",
-        "notes": "This vulnerability affects an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: https://github.com/Kludex/starlette/security/advisories/GHSA-86qp-5c8j-p5mr ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-48710",
-        "cwes": [
-          "CWE-444"
-        ]
-      },
-      {
-        "cveID": "CVE-2026-49869",
-        "vendorProject": "Kestra",
-        "product": "Kestra OSS",
-        "vulnerabilityName": "Kestra OSS OS Command Injection Vulnerability",
-        "dateAdded": "2026-09-02",
-        "shortDescription": "Kestra OSS contains an OS command injection vulnerability that could allow an unauthenticated remote attacker to create and execute arbitrary workflows without credentials.",
-        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "dueDate": "2026-09-05",
-        "knownRansomwareCampaignUse": "Unknown",
-        "forensicTriage": "Yes",
-        "notes": "This vulnerability affects an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: https://github.com/kestra-io/kestra/security/advisories/GHSA-5vc5-wxxq-3fjx ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-49869",
-        "cwes": [
-          "CWE-78",
-          "CWE-184",
-          "CWE-287",
-          "CWE-918"
-        ]
-      },
-      {
-        "cveID": "CVE-2026-82329",
-        "vendorProject": "JFrog",
-        "product": "Artifactory",
-        "vulnerabilityName": "JFrog Artifactory Improper Authentication Vulnerability",
-        "dateAdded": "2026-09-02",
-        "shortDescription": "JFrog Artifactory contains an improper authentication vulnerability that under default configuration can allow an unauthenticated attacker with network access to obtain administrative privileges. ",
-        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "dueDate": "2026-09-05",
-        "knownRansomwareCampaignUse": "Unknown",
-        "forensicTriage": "Yes",
-        "notes": "https://docs.jfrog.com/releases/docs/jfrog-security-advisories ; https://docs.jfrog.com/releases/docs/artifactory-self-managed-releases ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-82329",
-        "cwes": [
-          "CWE-287"
-        ]
       }
     ],
     "urlhaus": [
       {
-        "id": "3915318",
-        "date_added": "2026-09-11 16:03:18",
-        "url": "http://194.102.105.70/8jdjZhdf7/Plugins/clip.dll",
+        "id": "3915346",
+        "date_added": "2026-09-11 20:30:35",
+        "url": "http://59.180.144.106:42402/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "0d20ad",
-          "clip.dll",
-          "dropped-by-amadey",
-          "plugin"
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
         ]
       },
       {
-        "id": "3915319",
-        "date_added": "2026-09-11 16:03:18",
-        "url": "http://194.102.105.70/8jdjZhdf7/Plugins/clip64.dll",
+        "id": "3915345",
+        "date_added": "2026-09-11 20:18:18",
+        "url": "https://adpayworks.b-cdn.net/download/1.1.2/AdPayWorks.exe",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "0d20ad",
-          "clip64.dll",
-          "dropped-by-amadey",
-          "plugin"
+          "msstore",
+          "revoked-cert",
+          "signed",
+          "WailsLoader"
         ]
       },
       {
-        "id": "3915320",
-        "date_added": "2026-09-11 16:03:18",
-        "url": "http://194.102.105.70/8jdjZhdf7/Plugins/cred64.dll",
+        "id": "3915344",
+        "date_added": "2026-09-11 20:17:15",
+        "url": "https://raw.githubusercontent.com/HartayKirjonrw/sa4/refs/heads/main/Signature%20Nib.exe",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "0d20ad",
-          "cred64.dll",
-          "dropped-by-amadey",
-          "plugin"
+          "msstore",
+          "revoked-cert",
+          "signed",
+          "WailsLoader"
         ]
       },
       {
-        "id": "3915321",
-        "date_added": "2026-09-11 16:03:18",
-        "url": "http://194.102.105.70/8jdjZhdf7/Plugins/cred.dll",
+        "id": "3915343",
+        "date_added": "2026-09-11 20:09:25",
+        "url": "http://221.14.173.32:33059/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "0d20ad",
-          "cred.dll",
-          "dropped-by-amadey",
-          "plugin"
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
         ]
       },
       {
-        "id": "3915317",
-        "date_added": "2026-09-11 16:02:15",
-        "url": "http://194.102.105.70/soru.exe",
+        "id": "3915342",
+        "date_added": "2026-09-11 20:01:24",
+        "url": "http://42.58.171.35:34835/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "0d20ad",
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3915341",
+        "date_added": "2026-09-11 19:50:24",
+        "url": "http://222.127.55.224:47900/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "mirai",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3915340",
+        "date_added": "2026-09-11 19:46:27",
+        "url": "http://222.127.55.224:47900/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "mirai",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3915339",
+        "date_added": "2026-09-11 19:18:20",
+        "url": "http://119.179.215.67:52251/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3915338",
+        "date_added": "2026-09-11 19:12:13",
+        "url": "http://105.184.213.176:55983/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "mirai",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3915337",
+        "date_added": "2026-09-11 19:10:13",
+        "url": "http://167.235.91.194/v",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "167-235-91-194",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3915336",
+        "date_added": "2026-09-11 19:06:23",
+        "url": "http://105.184.213.176:55983/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "mirai",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3915335",
+        "date_added": "2026-09-11 19:01:24",
+        "url": "http://42.231.207.203:40714/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3915334",
+        "date_added": "2026-09-11 18:56:19",
+        "url": "http://123.190.27.84:51494/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3915333",
+        "date_added": "2026-09-11 18:54:17",
+        "url": "http://168.119.85.190/bash.sh",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "168-119-85-190",
+          "sh",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3915331",
+        "date_added": "2026-09-11 18:42:23",
+        "url": "http://176.9.88.12/miner",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "176-9-88-12",
+          "sh",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3915332",
+        "date_added": "2026-09-11 18:42:23",
+        "url": "http://103.171.168.74:33809/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3915329",
+        "date_added": "2026-09-11 18:40:26",
+        "url": "http://176.9.104.142/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "176-9-104-142",
+          "elf",
+          "sh",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3915330",
+        "date_added": "2026-09-11 18:40:26",
+        "url": "http://176.9.104.142/ohshit.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "176-9-104-142",
+          "sh",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3915328",
+        "date_added": "2026-09-11 18:30:25",
+        "url": "http://123.190.27.84:51494/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3915327",
+        "date_added": "2026-09-11 17:56:13",
+        "url": "http://62.60.226.140/files/gold/file.exe",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "d52f85",
           "dropped-by-amadey"
-        ]
-      },
-      {
-        "id": "3915316",
-        "date_added": "2026-09-11 15:41:22",
-        "url": "http://193.187.101.227:51082/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "arm",
-          "elf",
-          "mirai",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3915315",
-        "date_added": "2026-09-11 15:36:29",
-        "url": "http://123.14.221.85:59265/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3915314",
-        "date_added": "2026-09-11 15:29:22",
-        "url": "http://125.41.169.4:59406/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3915313",
-        "date_added": "2026-09-11 15:02:11",
-        "url": "http://125.41.169.4:59406/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3915312",
-        "date_added": "2026-09-11 14:55:21",
-        "url": "http://123.14.221.85:59265/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3915311",
-        "date_added": "2026-09-11 14:46:12",
-        "url": "http://125.41.228.123:58883/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3915310",
-        "date_added": "2026-09-11 14:37:12",
-        "url": "http://125.41.228.123:58883/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3915309",
-        "date_added": "2026-09-11 13:57:21",
-        "url": "https://cid.gov.so/tmp/msvsmon.exe",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3915308",
-        "date_added": "2026-09-11 13:57:18",
-        "url": "https://www.0akw8w.com/down910",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "SilverFox",
-          "ValleyRAT"
-        ]
-      },
-      {
-        "id": "3915307",
-        "date_added": "2026-09-11 13:42:14",
-        "url": "http://103.125.31.101:58368/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "arm",
-          "elf",
-          "mirai",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3915306",
-        "date_added": "2026-09-11 13:41:23",
-        "url": "http://61.53.87.97:37876/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3915305",
-        "date_added": "2026-09-11 13:37:22",
-        "url": "http://221.202.103.35:46188/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3915291",
-        "date_added": "2026-09-11 13:05:19",
-        "url": "http://198.251.85.84:8080/bot_ppc64",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "elf",
-          "mirai"
-        ]
-      },
-      {
-        "id": "3915292",
-        "date_added": "2026-09-11 13:05:19",
-        "url": "http://198.251.85.84:8080/bot_s390x",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "elf",
-          "mirai"
-        ]
-      },
-      {
-        "id": "3915293",
-        "date_added": "2026-09-11 13:05:19",
-        "url": "http://198.251.85.84:8080/bot_armv7l",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "elf",
-          "mirai"
         ]
       }
     ]
   },
   "world_monitor": [
     {
+      "title": "Houthis Seize a Key Red Sea Island, Threatening Another Global Oil Route",
+      "link": "https://www.nytimes.com/2026/09/11/world/middleeast/yemen-houthis-bab-al-mandab.html",
+      "pubDate": "Fri, 11 Sep 2026 20:36:02 +0000",
+      "source": "NYT World",
+      "summary": "The Iran-backed militia’s ground offensive has reached Bab al-Mandab, a Red Sea strait that is a choke point for global trade."
+    },
+    {
+      "title": "Houthis claim major advance in Yemen and tighten grip on Red Sea shipping lane",
+      "link": "https://www.bbc.co.uk/news/articles/c23x72yx2rvo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Fri, 11 Sep 2026 20:11:47 GMT",
+      "source": "BBC",
+      "summary": "The Iran-backed Houthis are also reported to have seized Perim - a strategic island on the major shipping route."
+    },
+    {
+      "title": "Razaullah’s six-hitting debut caps Pakistan’s fightback against England",
+      "link": "https://www.aljazeera.com/sports/2026/9/11/razaullahs-six-hitting-debut-caps-pakistans-fightback-against-england?traffic_source=rss",
+      "pubDate": "Fri, 11 Sep 2026 20:07:15 +0000",
+      "source": "Al Jazeera",
+      "summary": "Pakistan all out with a second innings lead of 130 at the close on day three of the third Test at Edgbaston."
+    },
+    {
+      "title": "Can BRICS help reshape global order by strengthening emerging economies?",
+      "link": "https://www.aljazeera.com/video/inside-story/2026/9/11/can-brics-help-reshape-global-order-by-strengthening-emerging-economies?traffic_source=rss",
+      "pubDate": "Fri, 11 Sep 2026 20:04:02 +0000",
+      "source": "Al Jazeera",
+      "summary": "Leaders of BRICS member states are meeting at a summit in New Delhi, India."
+    },
+    {
+      "title": "Hot pursuit: Man who robbed Indian bank using chilli powder arrested",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/9/11/hot-pursuit-man-who-robbed-indian-bank-using-chilli-powder-arrested?traffic_source=rss",
+      "pubDate": "Fri, 11 Sep 2026 20:00:55 +0000",
+      "source": "Al Jazeera",
+      "summary": "A man posing as a customer threw chilli powder into the eyes of employees at a bank in Nagpur city, western India."
+    },
+    {
+      "title": "Declassified documents show UK aware of Israeli war crimes for 24 years",
+      "link": "https://www.aljazeera.com/news/2026/9/11/declassified-documents-show-uk-aware-of-israeli-war-crimes-for-24-years?traffic_source=rss",
+      "pubDate": "Fri, 11 Sep 2026 19:59:41 +0000",
+      "source": "Al Jazeera",
+      "summary": "UK Foreign Office files, public since 2024, record warnings about Israeli violence and rights abuses since 2002."
+    },
+    {
+      "title": "City boss Enzo Maresca says spotlight not on him ahead of Manchester derby",
+      "link": "https://www.aljazeera.com/sports/2026/9/11/enzo-maresca-manchester-city-man-united-derby-football?traffic_source=rss",
+      "pubDate": "Fri, 11 Sep 2026 19:37:17 +0000",
+      "source": "Al Jazeera",
+      "summary": "Maresca's Man City lead the Premier League standings, with three wins out of three, ahead of Sunday's derby."
+    },
+    {
+      "title": "As Russia Again Draws Near, a Frontline City Fears Obliteration This Time",
+      "link": "https://www.nytimes.com/2026/09/11/world/europe/ukraine-russia-izium-donetsk.html",
+      "pubDate": "Fri, 11 Sep 2026 18:08:17 +0000",
+      "source": "NYT World",
+      "summary": "The Ukrainian city of Izium still bears the scars of Russian occupation from four years ago. As Moscow’s forces approach, residents are bracing for the worst."
+    },
+    {
+      "title": "Why Emerging Powers Keep Joining BRICS, Even When They Disagree",
+      "link": "https://www.nytimes.com/2026/09/11/world/asia/brics-meeting-summit-delhi.html",
+      "pubDate": "Fri, 11 Sep 2026 16:29:25 +0000",
+      "source": "NYT World",
+      "summary": "The leaders of China, Russia, India, Iran and other nations in the BRICS club gather in New Delhi this weekend, but wars and soaring energy prices divide them."
+    },
+    {
+      "title": "Norway's Princess Astrid dies two days after attending brother King Harald's funeral",
+      "link": "https://www.bbc.co.uk/news/articles/cgjq1qy98vjo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Fri, 11 Sep 2026 16:00:59 GMT",
+      "source": "BBC",
+      "summary": "Princess Astrid \"represented the Royal House in a warm and dutiful manner\", the new king, Haakon VIII, said in a tribute to his aunt."
+    },
+    {
       "title": "Israel says it has destroyed major underground Hezbollah base",
       "link": "https://www.bbc.co.uk/news/articles/c4gl92lw8vpo?at_medium=RSS&at_campaign=rss",
       "pubDate": "Fri, 11 Sep 2026 15:50:23 GMT",
       "source": "BBC",
       "summary": "The powerful blast registered as the equivalent of a magnitude 4.1 earthquake, according to the US Geological Survey."
-    },
-    {
-      "title": "Why Emerging Powers Keep Joining BRICS, Even When They Disagree",
-      "link": "https://www.nytimes.com/2026/09/11/world/asia/brics-meeting-summit-delhi.html",
-      "pubDate": "Fri, 11 Sep 2026 15:45:13 +0000",
-      "source": "NYT World",
-      "summary": "The leaders of China, Russia, India, Iran and other nations in the BRICS club gather in New Delhi this weekend, but wars and soaring energy prices divide them."
-    },
-    {
-      "title": "Houthis Seize a Key Red Sea Island, Threatening Yet Another Global Oil Route",
-      "link": "https://www.nytimes.com/2026/09/11/world/middleeast/yemen-houthis-bab-al-mandab.html",
-      "pubDate": "Fri, 11 Sep 2026 15:42:31 +0000",
-      "source": "NYT World",
-      "summary": "The Iran-backed militia’s ground offensive has reached the Bab al-Mandab, a Red Sea strait that is a choke point for global trade."
-    },
-    {
-      "title": "Houthis take control of Yemen’s entire Red Sea coast, reports say",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/9/11/houthis-take-control-of-yemens-entire-red-sea-coast-reports-say?traffic_source=rss",
-      "pubDate": "Fri, 11 Sep 2026 15:34:30 +0000",
-      "source": "Al Jazeera",
-      "summary": "The Iran-backed Houthi forces have taken control over most of the western Red Sea coastal line"
-    },
-    {
-      "title": "Four former US presidents mark 25th anniversary of 9/11 in New York City",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/9/11/four-former-us-presidents-mark-25th-anniversary-of-9-11-in-new-york?traffic_source=rss",
-      "pubDate": "Fri, 11 Sep 2026 15:33:07 +0000",
-      "source": "Al Jazeera",
-      "summary": "Former US Presidents Joe Biden, Barack Obama, George W. Bush, and Bill Clinton are remembering the victims of the 9/11."
-    },
-    {
-      "title": "‘Tool of oppression’: Rising number of UK pro-Palestine voices debanked",
-      "link": "https://www.aljazeera.com/news/2026/9/11/tool-of-oppression-rising-number-of-uk-pro-palestine-voices-debanked?traffic_source=rss",
-      "pubDate": "Fri, 11 Sep 2026 15:22:21 +0000",
-      "source": "Al Jazeera",
-      "summary": "A Palestine Action prisoner's mother, politician George Galloway and a leftist news outlet are among those speaking up."
-    },
-    {
-      "title": "Nigeria suspends official visits to South Africa over anti-migrant violence",
-      "link": "https://www.aljazeera.com/news/2026/9/11/nigeria-suspends-official-visits-to-south-africa-over-anti-migrant-violence?traffic_source=rss",
-      "pubDate": "Fri, 11 Sep 2026 15:12:23 +0000",
-      "source": "Al Jazeera",
-      "summary": "Months of anti-foreigner protests across South Africa have forced tens of thousands to leave the country."
-    },
-    {
-      "title": "Can the Houthis close the Red Sea after seizing the Yemen coast?",
-      "link": "https://www.aljazeera.com/news/2026/9/11/can-the-houthis-close-the-red-sea-after-seizing-the-yemen-coast?traffic_source=rss",
-      "pubDate": "Fri, 11 Sep 2026 14:47:12 +0000",
-      "source": "Al Jazeera",
-      "summary": "Some observers see a force that has improved impressively in the past years, but others doubt the Houthis can sustain wins."
     },
     {
       "title": "Princess Diana's 'revenge dress' goes up for auction",
@@ -587,27 +619,6 @@
       "pubDate": "Fri, 11 Sep 2026 10:00:00 +0000",
       "source": "The Intercept",
       "summary": "The architect of the September 11 attacks dreamed of the destruction of America. In the last 25 years, his wish has come true.\nThe post Osama Bin Laden Won appeared first on The Intercept."
-    },
-    {
-      "title": "As Russia Again Draws Near, a Frontline City Fears Obliteration This Time",
-      "link": "https://www.nytimes.com/2026/09/11/world/europe/ukraine-russia-izium-donetsk.html",
-      "pubDate": "Fri, 11 Sep 2026 09:00:38 +0000",
-      "source": "NYT World",
-      "summary": "The Ukrainian city of Izium still bears the scars of Russian occupation from four years ago. As Moscow’s forces approach, residents are bracing for the worst."
-    },
-    {
-      "title": "Anthropic blocks possible attempt to use AI to make biological weapons",
-      "link": "https://www.bbc.co.uk/news/articles/cx2zrrpkx20o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Fri, 11 Sep 2026 08:15:25 GMT",
-      "source": "BBC",
-      "summary": "The revelations in Anthropic's threat intelligence report come after a former top researcher at the company warned of the risks of AI to humanity."
-    },
-    {
-      "title": "Hong Kong's Tiananmen activists sentenced to up to seven years in prison",
-      "link": "https://www.bbc.co.uk/news/articles/cvgyvk2djk4o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Fri, 11 Sep 2026 05:41:54 GMT",
-      "source": "BBC",
-      "summary": "Hong Kong used to be one of the only places in Chinese territory where people could gather to mark the 1989 crackdown."
     },
     {
       "title": "Fired After the Charlie Kirk Revenge Purge, They’re Still Unemployed",
@@ -675,6 +686,13 @@
   ],
   "syndication": [
     {
+      "title": "My Talk at DEF CON",
+      "link": "https://www.schneier.com/blog/archives/2026/09/my-talk-at-def-con.html",
+      "pubDate": "2026-09-11T18:06:24.000Z",
+      "author": "Schneier on Security",
+      "content": "Last month, I gave a talk at DEF CON on AI hacking: what happens when AIs become hackers. It’s a combination of the potentialities I raised in my 2022 book A Hacker’s Mind and the lessons we’re learning from current AI models engaging in hacking behavior. I’m really proud of the talk, and the fact t"
+    },
+    {
       "title": "Pluralistic: Inefficiency is bad, actually (11 Sep 2026)",
       "link": "https://pluralistic.net/2026/09/11/mazzucato-thought/",
       "pubDate": "Fri, 11 Sep 2026 14:55:56 +0000",
@@ -694,13 +712,6 @@
       "pubDate": "2026-09-10T10:40:35.000Z",
       "author": "Schneier on Security",
       "content": "Give an AI agent a mere rumor of an exploit, and it’s enough for them to find it.\nWhat’s worse, I found I could use my own agents to find the exploit just by knowing roughly what it was about and so could have been exploiting it well before the public patch was available! Given that just the rumour "
-    },
-    {
-      "title": "Driver’s License Data for Sale",
-      "link": "https://www.schneier.com/blog/archives/2026/09/drivers-license-data-for-sale.html",
-      "pubDate": "2026-09-09T16:05:00.000Z",
-      "author": "Schneier on Security",
-      "content": "A database of 153 million drivers licenses is for sale on the dark web. Brian Krebs has more detail."
     },
     {
       "title": "Pluralistic: Anti-vax/anti-trust (09 Sep 2026)",
@@ -740,6 +751,46 @@
   ],
   "syndicate_journal": [
     {
+      "title": "Are Too Many Americans Taking Antidepressants?",
+      "link": "https://nautil.us/are-too-many-americans-taking-antidepressants-1284975/",
+      "summary": "Rates of anxiety and depression have grown since the COVID-19 pandemic—as have prescriptions for antidepressants\nThe post Are Too Many Americans Taking Antidepressants? appeared first on Nautilus.",
+      "pubDate": "Fri, 11 Sep 2026 20:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "When the Market Destroys a Community",
+      "link": "",
+      "summary": "In 1985, when I was four months old, my family moved from Kiruna to Luleå, a city in northern Sweden. My father had found a job with the Swedish State Railways, and we were given a firsthand rental contract for a four-room apartment in Hertsön, one of the city’s largest housing estates. Hertsön had ",
+      "pubDate": "2026-09-11T19:13:32.267Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "Genetically Engineered Yeast Could Transform Martian Soil into Living Building Materials",
+      "link": "https://nautil.us/genetically-engineered-yeast-could-transform-martian-soil-into-living-building-materials-1284972/",
+      "summary": "Living yeast yurts on Mars!\nThe post Genetically Engineered Yeast Could Transform Martian Soil into Living Building Materials appeared first on Nautilus.",
+      "pubDate": "Fri, 11 Sep 2026 19:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "Nighttime Light May Change the Shape of Your Heart",
+      "link": "https://nautil.us/nighttime-light-may-change-the-shape-of-your-heart-1284967/",
+      "summary": "It’s a glowing, growing problem\nThe post Nighttime Light May Change the Shape of Your Heart appeared first on Nautilus.",
+      "pubDate": "Fri, 11 Sep 2026 18:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "Film Workers Should Fight for Good Movies, Not Just Jobs",
+      "link": "",
+      "summary": "It’s hard getting normal people to care about the politics of the film industry. Our demands always have to be hitched to some other kind of politics. California Senator Adam Schiff recently tried national security: “We have a lot of our influence around the world as a result of American film and TV",
+      "pubDate": "2026-09-11T17:02:13.750Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
       "title": "The AfD's Economic Populism Could Hardly Be Shallower",
       "link": "",
       "summary": "It took less than an hour. No sooner had it become clear, this Sunday, that the Alternative für Deutschland (AfD) was by far the strongest party in Saxony-Anhalt than Elon Musk offered his  on X. The nationalist party’s lead candidate, Ulrich Siegmund,  immediately, in English, offering “strong and ",
@@ -756,22 +807,6 @@
       "source": "Quanta"
     },
     {
-      "title": "25 Years After 9/11, the Zombie War on Terror Stumbles On",
-      "link": "",
-      "summary": "What does it mean to “Never Forget,” as we’re often asked to do when it comes to the September 11 attacks that killed nearly three thousand people? After all, few people who witnessed the crime in real time  ever forget it or the horrors in its wake: the bodies falling, the survivors crushed beneath",
-      "pubDate": "2026-09-11T14:09:07.636Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
-      "title": "The Moon May Have Been Created in Just Five Hours",
-      "link": "https://nautil.us/the-moon-may-have-been-created-in-just-five-hours-1284952/",
-      "summary": "Researchers played out the impact between Earth and the hypothetical ancient planet Theia\nThe post The Moon May Have Been Created in Just Five Hours appeared first on Nautilus.",
-      "pubDate": "Fri, 11 Sep 2026 14:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
       "title": "How to Refine Your JSTOR Search",
       "link": "https://daily.jstor.org/how-to-refine-your-jstor-search/",
       "summary": "Too many JSTOR results? Learn how filters and Advanced Search can help you quickly identify sources that fit your research topic.\nThe post How to Refine Your JSTOR Search appeared first on JSTOR Daily.",
@@ -780,28 +815,12 @@
       "source": "JSTOR Daily"
     },
     {
-      "title": "Why Is It So Hard to Imagine the End of American Empire?",
-      "link": "",
-      "summary": "The September 11, 2001, attacks on New York City and Washington, DC, as the saying goes, “changed everything.” After the Soviet Union collapsed in 1991, the global American empire, created in the 1940s to combat communism, was left without a . While foreign policymakers spent the 1990s searching for",
-      "pubDate": "2026-09-11T13:12:22.272Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
       "title": "The psychology and history of English genitives",
       "link": "https://languagelog.ldc.upenn.edu/nll/?p=74219&utm_source=rss&utm_medium=rss&utm_campaign=the-psychology-and-history-of-english-genitives",
       "summary": "In \"A correlate of animacy\" (9/27/2008) I noted that \"A traditional and characteristic example of the role of animacy in English syntax is the way it affects the choice between the two ways of expressing genitive relations, X's Y vs. the Y of X.\". I illustrated the effect with this table (from the d",
       "pubDate": "Fri, 11 Sep 2026 12:04:24 +0000",
       "domain": "linguistics",
       "source": "Language Log"
-    },
-    {
-      "title": "Inside IBM’s New Quantum Computing Fridges, 180 Times Colder Than Deep Space",
-      "link": "https://nautil.us/inside-ibms-new-quantum-computing-fridges-180-times-colder-than-deep-space-1284948/",
-      "summary": "These bulky units can link qubits together like never before\nThe post Inside IBM’s New Quantum Computing Fridges, 180 Times Colder Than Deep Space appeared first on Nautilus.",
-      "pubDate": "Fri, 11 Sep 2026 12:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
     },
     {
       "title": "Penchants of the polymaths",
@@ -834,14 +853,6 @@
       "pubDate": "Fri, 11 Sep 2026 00:00:00 -0400",
       "domain": "science",
       "source": "arXiv: cs.AI"
-    },
-    {
-      "title": "AI Engineers Are Having Their Oppenheimer “Destroyer of Worlds” Moment",
-      "link": "https://nautil.us/ai-engineers-are-having-their-oppenheimer-destroyer-of-worlds-moment-1284956/",
-      "summary": "A cascade of regret and apocalyptic short-term forecasts hit social media this week\nThe post AI Engineers Are Having Their Oppenheimer “Destroyer of Worlds” Moment appeared first on Nautilus.",
-      "pubDate": "Fri, 11 Sep 2026 01:08:30 +0000",
-      "domain": "science",
-      "source": "Nautilus"
     },
     {
       "title": "Metamorphosis: Transformations in the Early Modern Flap Book (early 19th century)\n",
@@ -1004,25 +1015,25 @@
       "source": "ROAR Magazine"
     },
     {
-      "title": "Student-AI interaction in computer-assisted consecutive interpreting: patterns and performance",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1890808",
-      "summary": "While student-AI interaction patterns have been explored in self-paced cross-linguistic tasks such as L2 writing and translation post-editing, little is known about how students interact with AI in bilingual tasks under intense cognitive and temporal constraints. This study uses computer-assisted co",
+      "title": "Cybervictimization, self-esteem, and cyberaggression endorsement in Thai university students: evidence from a two-part zero-inflated model",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1863842",
+      "summary": "BackgroundCybervictimization and cyberaggression are increasingly recognized as public health concerns among university students; however, evidence from Thailand remains limited.ObjectiveThis study examined whether cybervictimization was associated with cyberaggression endorsement and whether self-e",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "Case Report: From somatic pain to shared narrative—mentalization and intergenerational trauma in a transcultural group consultation",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1933126",
-      "summary": "IntroductionSomatic symptoms in migrant and trauma-affected young people often resist a strictly biomedical reading. Trauma, forced migration and family silences may disrupt the parental reflective function, leaving experience unsymbolized and the body as the primary site of expression. Group-based ",
+      "title": "The effect of anchor attraction on the buying behavior of carbon labeled agricultural products: incorporating anchor attraction into TPB",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1948256",
+      "summary": "Carbon emissions from agriculture can be reduced by adding carbon labels on agricultural products. The growing trend of live streaming agricultural products is a significant tool for promoting low-carbon consumption. We investigates the influence of anchor attraction on consumer purchases of carbon-",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "Professional ethics cultivation as a driver of faculty development: an analysis of its four underlying logics",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1840284",
-      "summary": "IntroductionProfessional ethics cultivation serves as a vital approach to building a high-quality teaching workforce, exerting a foundational and endogenously driving effect on the development of university faculty.MethodsGrounded in the perspective of individual teachers’ self-moral cultivation, th",
+      "title": "“It’s the modern way of doing things”: a qualitative study of user-experience, acceptability, and content validity of a digital mental health screener for refugees",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1902434",
+      "summary": "BackgroundDigital mental health tools hold potential to bridge barriers to services, and efficient screening could facilitate access and assessment. An internet-based tiered assessment procedure (i-TAP) screening for common psychiatric symptoms among refugees has been developed and validated in prev",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
@@ -1030,64 +1041,64 @@
   ],
   "misinfo_toilet": [
     {
-      "headline": "Welcome to Dubai: Kinahan Cartel’s Visas Revealed",
-      "fragment": "There is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
-      "splice": "Welcome to Dubai: Kinahan Cartel’s Visas Revealed within which there is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
-      "seed": 20260927
-    },
-    {
-      "headline": "Houthis take control of Yemen’s entire Red Sea coast, reports say",
-      "fragment": "The simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
-      "splice": "Houthis take control of Yemen’s entire Red Sea coast, reports say consequently the simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
-      "seed": 20260928
-    },
-    {
-      "headline": "Israel says it has destroyed major underground Hezbollah base",
-      "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "splice": "Israel says it has destroyed major underground Hezbollah base which is to say the breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "seed": 20260929
-    },
-    {
-      "headline": "Cops Are Using Flock to Spy on People for the Crime of Standing Around",
-      "fragment": "The technocrat is the natural friend of the dictator—computers and dictatorship.",
-      "splice": "Cops Are Using Flock to Spy on People for the Crime of Standing Around as if the technocrat is the natural friend of the dictator—computers and dictatorship.",
-      "seed": 20260930
-    },
-    {
-      "headline": "Tracking a Sanctioned Russian Vessel’s West African Odyssey",
+      "headline": "Houthis claim major advance in Yemen and tighten grip on Red Sea shipping lane",
       "fragment": "Reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
-      "splice": "Tracking a Sanctioned Russian Vessel’s West African Odyssey despite reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
+      "splice": "Houthis claim major advance in Yemen and tighten grip on Red Sea shipping lane despite reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
       "seed": 20260931
     },
     {
-      "headline": "Princess Diana's 'revenge dress' goes up for auction",
+      "headline": "City boss Enzo Maresca says spotlight not on him ahead of Manchester derby",
       "fragment": "The truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
-      "splice": "Princess Diana's 'revenge dress' goes up for auction insofar as the truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
+      "splice": "City boss Enzo Maresca says spotlight not on him ahead of Manchester derby insofar as the truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
       "seed": 20260932
     },
     {
-      "headline": "Nigeria suspends official visits to South Africa over anti-migrant violence",
+      "headline": "Razaullah’s six-hitting debut caps Pakistan’s fightback against England",
       "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "splice": "Nigeria suspends official visits to South Africa over anti-migrant violence underneath the breast is a machine that produces milk, and the mouth a machine coupled to it.",
+      "splice": "Razaullah’s six-hitting debut caps Pakistan’s fightback against England underneath the breast is a machine that produces milk, and the mouth a machine coupled to it.",
       "seed": 20260933
     },
     {
-      "headline": "Investigating a Murder: Public Records Uncover New Clues in Chinatown Cold Case",
+      "headline": "Satellite Imagery Documents New Border Patrol Road Construction in Big Bend National Park",
       "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
-      "splice": "Investigating a Murder: Public Records Uncover New Clues in Chinatown Cold Case despite the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "splice": "Satellite Imagery Documents New Border Patrol Road Construction in Big Bend National Park despite the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
       "seed": 20260934
     },
     {
-      "headline": "Buddhist monk arrested in suspected $3m embezzlement scandal",
+      "headline": "Can BRICS help reshape global order by strengthening emerging economies?",
       "fragment": "The truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
-      "splice": "Buddhist monk arrested in suspected $3m embezzlement scandal while the truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
+      "splice": "Can BRICS help reshape global order by strengthening emerging economies? while the truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
       "seed": 20260935
     },
     {
-      "headline": "Why Emerging Powers Keep Joining BRICS, Even When They Disagree",
+      "headline": "As Russia Again Draws Near, a Frontline City Fears Obliteration This Time",
       "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
-      "splice": "Why Emerging Powers Keep Joining BRICS, Even When They Disagree despite the revolutionary lives in the gap which separates technical progress from social totality.",
+      "splice": "As Russia Again Draws Near, a Frontline City Fears Obliteration This Time despite the revolutionary lives in the gap which separates technical progress from social totality.",
       "seed": 20260936
+    },
+    {
+      "headline": "Investigating a Murder: Public Records Uncover New Clues in Chinatown Cold Case",
+      "fragment": "The truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
+      "splice": "Investigating a Murder: Public Records Uncover New Clues in Chinatown Cold Case as if the truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
+      "seed": 20260937
+    },
+    {
+      "headline": "Israel says it has destroyed major underground Hezbollah base",
+      "fragment": "We live in a world where there is more and more information, and less and less meaning.",
+      "splice": "Israel says it has destroyed major underground Hezbollah base while we live in a world where there is more and more information, and less and less meaning.",
+      "seed": 20260938
+    },
+    {
+      "headline": "Fired After the Charlie Kirk Revenge Purge, They’re Still Unemployed",
+      "fragment": "It is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
+      "splice": "Fired After the Charlie Kirk Revenge Purge, They’re Still Unemployed the signal resolves into it is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
+      "seed": 20260939
+    },
+    {
+      "headline": "Hot pursuit: Man who robbed Indian bank using chilli powder arrested",
+      "fragment": "In the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
+      "splice": "Hot pursuit: Man who robbed Indian bank using chilli powder arrested meanwhile in the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
+      "seed": 20260940
     }
   ]
 }
