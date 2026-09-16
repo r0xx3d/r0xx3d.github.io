@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T16:25:36.021Z",
+  "generated_at": "2026-09-16T21:02:09.264Z",
   "threat_intel": {
     "cisa_kev": [
       {
@@ -16,6 +16,38 @@
         "notes": "https://source.android.com/docs/security/bulletin/pixel/2026/2026-09-01 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-58704",
         "cwes": [
           "CWE-693"
+        ]
+      },
+      {
+        "cveID": "CVE-2026-76460",
+        "vendorProject": "Cisco",
+        "product": "Identity Services Engine",
+        "vulnerabilityName": "Cisco Identity Services Engine Incorrect Use of Privileged APIs Vulnerability",
+        "dateAdded": "2026-09-16",
+        "shortDescription": "Cisco Identity Services Engine (ISE) and Cisco ISE Passive Identity Connector (ISE-PIC) contain an incorrect use of privileged APIs vulnerability that could allow an unauthenticated, remote attacker to gain unauthorized access to the affected device by bypassing the web-based management interface.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-09-19",
+        "knownRansomwareCampaignUse": "Unknown",
+        "forensicTriage": "Yes",
+        "notes": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ISE-ABP-VNSW7Tn5 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-76460",
+        "cwes": [
+          "CWE-648"
+        ]
+      },
+      {
+        "cveID": "CVE-2026-87886",
+        "vendorProject": "Acronis",
+        "product": "Backup",
+        "vulnerabilityName": "Acronis Backup Incorrect Default Permissions Vulnerability",
+        "dateAdded": "2026-09-16",
+        "shortDescription": "Acronis Backup plugin for cPanel & WHM and extension for Plesk contains an incorrect default permissions vulnerability that could allow for privilege escalation.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-09-19",
+        "knownRansomwareCampaignUse": "Unknown",
+        "forensicTriage": "Yes",
+        "notes": "https://security-advisory.acronis.com/advisories/SEC-10986 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-87886",
+        "cwes": [
+          "CWE-276"
         ]
       },
       {
@@ -211,59 +243,13 @@
         "cwes": [
           "CWE-1336"
         ]
-      },
-      {
-        "cveID": "CVE-2026-81963",
-        "vendorProject": "Microsoft",
-        "product": "Windows",
-        "vulnerabilityName": "Microsoft Windows Link Following Vulnerability",
-        "dateAdded": "2026-09-08",
-        "shortDescription": "Microsoft Windows Update Stack contains a link following vulnerability that allows a local attacker to escalate privileges locally up to SYSTEM.",
-        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "dueDate": "2026-09-22",
-        "knownRansomwareCampaignUse": "Unknown",
-        "forensicTriage": "No",
-        "notes": "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2026-81963 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-81963",
-        "cwes": [
-          "CWE-59",
-          "CWE-284"
-        ]
-      },
-      {
-        "cveID": "CVE-2026-86218",
-        "vendorProject": "N-able",
-        "product": "N-central",
-        "vulnerabilityName": "N-able N-central Static Code Injection Vulnerability",
-        "dateAdded": "2026-09-08",
-        "shortDescription": "N-able N-central contains a static code injection vulnerability that could allow for pre-authentication remote code execution.",
-        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "dueDate": "2026-09-11",
-        "knownRansomwareCampaignUse": "Unknown",
-        "forensicTriage": "Yes",
-        "notes": "https://status.n-able.com/2026/09/06/n-central-2026-3-hotfix-4-cve-2026-86218/ ; https://me.n-able.com/s/security-advisory/aArVy0000002Ld3KAE/cve202686218-preauthentication-remote-code-execution ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-86218",
-        "cwes": [
-          "CWE-96"
-        ]
       }
     ],
     "urlhaus": [
       {
-        "id": "3917827",
-        "date_added": "2026-09-16 16:17:21",
-        "url": "http://42.55.5.239:44015/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3917826",
-        "date_added": "2026-09-16 16:17:13",
-        "url": "http://121.9.71.102:41772/i",
+        "id": "3917849",
+        "date_added": "2026-09-16 20:53:10",
+        "url": "http://182.124.13.13:34809/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -271,9 +257,9 @@
         ]
       },
       {
-        "id": "3917824",
-        "date_added": "2026-09-16 16:15:27",
-        "url": "http://42.226.64.10:47116/i",
+        "id": "3917848",
+        "date_added": "2026-09-16 20:47:22",
+        "url": "http://89.189.181.54:60243/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -284,22 +270,9 @@
         ]
       },
       {
-        "id": "3917825",
-        "date_added": "2026-09-16 16:15:27",
-        "url": "http://120.28.215.200:38097/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "arm",
-          "elf",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3917823",
-        "date_added": "2026-09-16 16:02:27",
-        "url": "http://42.6.143.173:37885/bin.sh",
+        "id": "3917847",
+        "date_added": "2026-09-16 20:26:19",
+        "url": "http://60.23.232.20:51644/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -310,36 +283,42 @@
         ]
       },
       {
-        "id": "3917822",
-        "date_added": "2026-09-16 15:49:24",
-        "url": "http://175.43.154.55:58959/i",
+        "id": "3917846",
+        "date_added": "2026-09-16 20:11:33",
+        "url": "https://github.com/serhat9611/pruva-download/releases/download/v0.1.7/Pruva-Buyuk-0.1.7.exe",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "32-bit",
-          "arm",
-          "elf",
-          "mirai",
-          "Mozi"
+          "d52f85",
+          "dropped-by-amadey"
         ]
       },
       {
-        "id": "3917821",
-        "date_added": "2026-09-16 15:47:22",
-        "url": "http://42.226.64.10:47116/bin.sh",
+        "id": "3917845",
+        "date_added": "2026-09-16 20:10:21",
+        "url": "https://userhotels.org/Adobe%20Acrobat_Reader.exe",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
+          "d52f85",
+          "dropped-by-amadey"
         ]
       },
       {
-        "id": "3917820",
-        "date_added": "2026-09-16 15:46:25",
-        "url": "http://175.43.154.55:58959/bin.sh",
+        "id": "3917844",
+        "date_added": "2026-09-16 20:10:12",
+        "url": "http://62.60.226.140/files/7299809293/Zar7QE5.exe",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "d52f85",
+          "dropped-by-amadey"
+        ]
+      },
+      {
+        "id": "3917843",
+        "date_added": "2026-09-16 18:41:24",
+        "url": "http://171.36.18.157:35519/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -351,9 +330,9 @@
         ]
       },
       {
-        "id": "3917819",
-        "date_added": "2026-09-16 15:40:27",
-        "url": "http://113.237.37.213:60329/bin.sh",
+        "id": "3917842",
+        "date_added": "2026-09-16 18:38:24",
+        "url": "http://125.46.198.87:41297/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -364,35 +343,9 @@
         ]
       },
       {
-        "id": "3917818",
-        "date_added": "2026-09-16 15:17:15",
-        "url": "http://180.110.39.190:3588/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3917817",
-        "date_added": "2026-09-16 15:16:33",
-        "url": "http://125.99.198.27:34353/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3917816",
-        "date_added": "2026-09-16 15:11:19",
-        "url": "http://105.184.131.46:59191/i",
+        "id": "3917841",
+        "date_added": "2026-09-16 18:19:23",
+        "url": "http://216.126.86.6:57863/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -404,94 +357,253 @@
         ]
       },
       {
-        "id": "3917815",
-        "date_added": "2026-09-16 15:09:30",
-        "url": "https://gpsmarocpro.com/Setup.exe",
+        "id": "3917840",
+        "date_added": "2026-09-16 18:17:26",
+        "url": "http://125.46.198.87:41297/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "None"
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
         ]
       },
       {
-        "id": "3917814",
-        "date_added": "2026-09-16 15:09:18",
-        "url": "https://gpsmarocpro.com/3.exe",
+        "id": "3917839",
+        "date_added": "2026-09-16 18:15:18",
+        "url": "http://124.158.191.121:53328/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "None"
+          "32-bit",
+          "arm",
+          "elf",
+          "mirai",
+          "Mozi"
         ]
       },
       {
-        "id": "3917811",
-        "date_added": "2026-09-16 15:09:13",
-        "url": "http://94.154.43.227/bins/cirqueira.sh_sh4.sh",
-        "url_status": "online",
+        "id": "3917838",
+        "date_added": "2026-09-16 18:13:27",
+        "url": "http://amaamn.com/cursor.ps1",
+        "url_status": "offline",
         "threat": "malware_download",
         "tags": [
-          "None"
+          "363d88e5a9c1d1a3f45f3741a6e2fcaa",
+          "dropped-by-vidar"
         ]
       },
       {
-        "id": "3917812",
-        "date_added": "2026-09-16 15:09:13",
-        "url": "http://94.154.43.227/bins/cirqueira.sh_i686.sh",
+        "id": "3917837",
+        "date_added": "2026-09-16 18:05:35",
+        "url": "http://216.126.86.6:57863/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "None"
+          "32-bit",
+          "arm",
+          "elf",
+          "mirai",
+          "Mozi"
         ]
       },
       {
-        "id": "3917813",
-        "date_added": "2026-09-16 15:09:13",
-        "url": "http://94.154.43.227/bins/cirqueira.sh_i586.sh",
+        "id": "3917836",
+        "date_added": "2026-09-16 18:04:23",
+        "url": "http://78.85.226.138:46350/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "None"
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
         ]
       },
       {
-        "id": "3917810",
-        "date_added": "2026-09-16 15:08:16",
-        "url": "https://gpsmarocpro.com/ChromeSetup.exe",
+        "id": "3917835",
+        "date_added": "2026-09-16 17:31:26",
+        "url": "http://78.85.226.138:46350/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "None"
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
         ]
       },
       {
-        "id": "3917804",
-        "date_added": "2026-09-16 15:08:15",
-        "url": "http://94.154.43.227/bins/cirqueira.sh_m68k.sh",
+        "id": "3917834",
+        "date_added": "2026-09-16 17:23:18",
+        "url": "http://115.48.160.255:52757/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "None"
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
         ]
       },
       {
-        "id": "3917805",
-        "date_added": "2026-09-16 15:08:15",
-        "url": "http://94.154.43.227/bins/cirqueira.sh_x86_64.sh",
+        "id": "3917831",
+        "date_added": "2026-09-16 16:46:23",
+        "url": "http://27.207.224.71:51240/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "None"
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3917832",
+        "date_added": "2026-09-16 16:46:23",
+        "url": "http://123.10.203.156:35020/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3917833",
+        "date_added": "2026-09-16 16:46:23",
+        "url": "http://121.224.220.11:54375/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "mirai",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3917830",
+        "date_added": "2026-09-16 16:46:18",
+        "url": "http://196.190.1.39:40480/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "mirai"
         ]
       }
     ]
   },
   "world_monitor": [
     {
-      "title": "Belarus Releases 25 Political Prisoners in Exchange for U.S. Easing of Sanctions",
+      "title": "Displaced Syrians dig through hills of garbage to make a living",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/9/16/displaced-syrians-dig-through-hills-of-garbage-to-make-a-living?traffic_source=rss",
+      "pubDate": "Wed, 16 Sep 2026 20:29:41 +0000",
+      "source": "Al Jazeera",
+      "summary": "Displaced Syrians are digging through mountains of burning garbage searching for recyclable materials to make a living."
+    },
+    {
+      "title": "At Least 21 Dead in Gaza After Building Collapse, Officials Say",
+      "link": "https://www.nytimes.com/2026/09/16/world/middleeast/gaza-building-collapse.html",
+      "pubDate": "Wed, 16 Sep 2026 20:13:21 +0000",
+      "source": "NYT World",
+      "summary": "The Israeli military said in a statement it “did not strike the building,” but did not say whether any strikes on nearby targets could have caused the damage."
+    },
+    {
+      "title": "New video claims to show Saudi fighter jet Houthis say they shot down",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/9/16/new-video-claims-to-show-saudi-fighter-jet-houthis-say-they-shot-down?traffic_source=rss",
+      "pubDate": "Wed, 16 Sep 2026 20:12:25 +0000",
+      "source": "Al Jazeera",
+      "summary": "Houthi forces have released a video claiming to show a Saudi fighter jet the group says was shot down in Yemen’s Marib."
+    },
+    {
+      "title": "Syria abolishes al-Assad-era ‘terrorism’ court as Kurdish tensions flare",
+      "link": "https://www.aljazeera.com/news/2026/9/16/syria-abolishes-al-assad-era-terrorism-court-as-kurdish-tensions-flare?traffic_source=rss",
+      "pubDate": "Wed, 16 Sep 2026 20:08:50 +0000",
+      "source": "Al Jazeera",
+      "summary": "Discontent is testing President Ahmed al-Sharaa's ability to unify a country emerging from 14 years of conflict."
+    },
+    {
+      "title": "Efforts underway for Zelenskyy-Trump meeting at UN next week",
+      "link": "https://www.aljazeera.com/news/2026/9/16/efforts-underway-for-zelenskyy-trump-meeting-at-un-next-week?traffic_source=rss",
+      "pubDate": "Wed, 16 Sep 2026 20:05:51 +0000",
+      "source": "Al Jazeera",
+      "summary": "Trump pushes for a solution to end Moscow's war against Kyiv as civilian deaths in Ukraine rise."
+    },
+    {
+      "title": "US House votes to hold billionaire Epstein associate Leon Black in contempt",
+      "link": "https://www.bbc.co.uk/news/articles/c62l8g8qlr0ko?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Wed, 16 Sep 2026 19:59:57 GMT",
+      "source": "BBC",
+      "summary": "Black - who had business ties to Epstein - declined to appear and provide documents related to the convicted sex offender."
+    },
+    {
+      "title": "Al-Mughayyir: A village under siege",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/9/16/al-mughayyir-a-village-under-siege?traffic_source=rss",
+      "pubDate": "Wed, 16 Sep 2026 19:48:05 +0000",
+      "source": "Al Jazeera",
+      "summary": "In al-Mughayyir, Palestinians say they are being squeezed into a smaller part of their own village in the West Bank."
+    },
+    {
+      "title": "The New York Times Conveniently Forgets the Real Stakes of Attacks on Free Speech",
+      "link": "https://theintercept.com/2026/09/16/new-york-times-trump-free-speech-press-threat/",
+      "pubDate": "Wed, 16 Sep 2026 19:44:28 +0000",
+      "source": "The Intercept",
+      "summary": "The paper published a long recounting of Trump’s attacks on the press, without ever mentioning Israel, Gaza, or ICE.\nThe post The New York Times Conveniently Forgets the Real Stakes of Attacks on Free Speech appeared first on The Intercept."
+    },
+    {
+      "title": "E.U.-Canada Ambitions Face Reality Check",
+      "link": "https://www.nytimes.com/2026/09/16/world/canada/eu-canada-associate-member-trade.html",
+      "pubDate": "Wed, 16 Sep 2026 19:30:23 +0000",
+      "source": "NYT World",
+      "summary": "The bloc’s offer of “associate member” status to Ottawa shows how U.S. allies are pulling closer together. But their plans face significant obstacles."
+    },
+    {
+      "title": "Belarus Frees 25 Political Prisoners in Exchange for U.S. Sanctions Relief",
       "link": "https://www.nytimes.com/2026/09/16/world/europe/belarus-political-prisoner-release-us-sanctions.html",
-      "pubDate": "Wed, 16 Sep 2026 16:21:51 +0000",
+      "pubDate": "Wed, 16 Sep 2026 19:25:40 +0000",
       "source": "NYT World",
       "summary": "The deal is part of the Trump administration’s more transactional approach to a close Russian ally that Europe has tried to isolate."
+    },
+    {
+      "title": "Gold Mine Collapse in Sudan Kills at Least 70",
+      "link": "https://www.nytimes.com/2026/09/16/world/africa/sudan-gold-mine-collapse.html",
+      "pubDate": "Wed, 16 Sep 2026 18:49:34 +0000",
+      "source": "NYT World",
+      "summary": "Dozens more are missing after shafts collapsed on Sunday, according to a charity, which said that the chances of rescuing those trapped were “limited” because of a lack of specialized equipment."
+    },
+    {
+      "title": "Photos show widespread damage at US sites from Iranian attacks",
+      "link": "https://www.bbc.co.uk/news/articles/c8g49e0gwxeno?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Wed, 16 Sep 2026 18:36:16 GMT",
+      "source": "BBC",
+      "summary": "A wrecked air force plane and destroyed buildings are among the images obtained by the BBC's partner CBS News."
+    },
+    {
+      "title": "Ed Sheeran’s Craven “Neutrality” Is a Watershed Moment for Mainstreaming Palestine Solidarity",
+      "link": "https://theintercept.com/2026/09/16/ed-sheeran-israel-palestine-macklemore/",
+      "pubDate": "Wed, 16 Sep 2026 17:23:48 +0000",
+      "source": "The Intercept",
+      "summary": "Ed Sheeran’s entire tour quitting in solidarity with Palestine and Macklemore proves the logic of BDS.\nThe post Ed Sheeran’s Craven “Neutrality” Is a Watershed Moment for Mainstreaming Palestine Solidarity appeared first on The Intercept."
+    },
+    {
+      "title": "Eight children among 21 killed after war-damaged Gaza building collapses, rescuers say",
+      "link": "https://www.bbc.co.uk/news/articles/cvp8d00j9gg5o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Wed, 16 Sep 2026 17:16:47 GMT",
+      "source": "BBC",
+      "summary": "Some 10 families had reportedly been living in the six-storey building in Gaza City that was hit by an Israeli strike last year."
+    },
+    {
+      "title": "After a Desperate Search for Survivors, Rescuers Find Bodies at Nepal Power Plant",
+      "link": "https://www.nytimes.com/2026/09/16/world/asia/nepal-floods-chillime-hydropower-plant.html",
+      "pubDate": "Wed, 16 Sep 2026 17:12:02 +0000",
+      "source": "NYT World",
+      "summary": "An expert team spent days trying to find six men who were trapped underground after catastrophic floods, as families clung to fading hopes."
     },
     {
       "title": "“A Recurring Pattern”: Civilians Paying the Price in Mali’s Drone Campaign",
@@ -501,62 +613,6 @@
       "summary": "Sign up here to receive Bellingcat’s biggest investigations by email as soon as they are published. WARNING: This report contains links to graphic images and footage. A joint Bellingcat and Jeune Afrique investigation into drone strikes carried out b"
     },
     {
-      "title": "Sweden expels Iran embassy employee, citing security concerns",
-      "link": "https://www.aljazeera.com/news/2026/9/16/sweden-expels-iran-embassy-employee-citing-security-concerns?traffic_source=rss",
-      "pubDate": "Wed, 16 Sep 2026 15:53:38 +0000",
-      "source": "Al Jazeera",
-      "summary": "Stockholm says Iran-backed groups are plotting against 'Jewish and Israeli interests' in the country."
-    },
-    {
-      "title": "Ex-Trump ally Marjorie Taylor Greene says war on Iran must ‘stop’",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/9/16/ex-trump-ally-marjorie-taylor-greene-says-war-on-iran-must?traffic_source=rss",
-      "pubDate": "Wed, 16 Sep 2026 15:23:51 +0000",
-      "source": "Al Jazeera",
-      "summary": "Former Republican Congresswoman Marjorie Taylor Greene slammed US President Donald Trump’s war on Iran."
-    },
-    {
-      "title": "Djibouti calls for assistance as thousands of Yemenis flee to country",
-      "link": "https://www.aljazeera.com/news/2026/9/16/djibouti-calls-for-assistance-as-thousands-of-yemenis-flee-to-country?traffic_source=rss",
-      "pubDate": "Wed, 16 Sep 2026 15:16:07 +0000",
-      "source": "Al Jazeera",
-      "summary": "Djibouti's interior minister has warned that number of people arriving in the country already exceeds national capacity."
-    },
-    {
-      "title": "At Least 21 Dead in Gaza After Building Collapse, Officials Say",
-      "link": "https://www.nytimes.com/2026/09/16/world/middleeast/gaza-building-collapse.html",
-      "pubDate": "Wed, 16 Sep 2026 15:14:28 +0000",
-      "source": "NYT World",
-      "summary": "The building was previously damaged by an Israeli strike, the local rescue service said. Its fall underscored the precarious conditions for people living among Gaza’s ruins."
-    },
-    {
-      "title": "Israeli ‘double-tap’ air strike responsible for killing schoolboy in Gaza",
-      "link": "https://www.aljazeera.com/news/2026/9/16/israeli-double-tap-air-strike-responsible-for-killing-schoolboy-in-gaza?traffic_source=rss",
-      "pubDate": "Wed, 16 Sep 2026 15:00:20 +0000",
-      "source": "Al Jazeera",
-      "summary": "Two people were killed in the assault on Gaza City - a paramedic and a 15-year-old boy returning from school."
-    },
-    {
-      "title": "Iran war has cost the US $38bn: How will it impact US economy, politics?",
-      "link": "https://www.aljazeera.com/news/2026/9/16/iran-war-has-cost-the-us-38bn-how-is-it-impacting-us-economy-politics?traffic_source=rss",
-      "pubDate": "Wed, 16 Sep 2026 14:53:51 +0000",
-      "source": "Al Jazeera",
-      "summary": "High energy costs at the pump and strategic setback for US in the Iran war will likely cost Trump in the midterms."
-    },
-    {
-      "title": "Eight German state premiers back Merz amid speculation over future",
-      "link": "https://www.bbc.co.uk/news/articles/c6dj4nn0n97ro?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Wed, 16 Sep 2026 14:50:26 GMT",
-      "source": "BBC",
-      "summary": "Christian Democratic Union leadership throws its weight behind the chancellor ahead of two state elections this weekend."
-    },
-    {
-      "title": "In a Signal to Trump, Beijing Hosts Iranian Diplomat Ahead of U.S.-China Summit",
-      "link": "https://www.nytimes.com/2026/09/16/world/asia/iran-war-china-trump-summit.html",
-      "pubDate": "Wed, 16 Sep 2026 14:15:35 +0000",
-      "source": "NYT World",
-      "summary": "China renewed calls for an end to the fighting in the Middle East while demonstrating its influence over Tehran."
-    },
-    {
       "title": "NYPD Misconduct Payouts Still Soar Under Mamdani — And May Keep Growing",
       "link": "https://theintercept.com/2026/09/16/nypd-mamdani-police-misconduct-settlement-payouts/",
       "pubDate": "Wed, 16 Sep 2026 13:50:15 +0000",
@@ -564,39 +620,11 @@
       "summary": "So far, settlement payouts under Mamdani are holdover cases. Without policy changes, however, they might keep growing toward a $1 billion total since 2018.\nThe post NYPD Misconduct Payouts Still Soar Under Mamdani — And May Keep Growing appeared firs"
     },
     {
-      "title": "Eight children among 21 killed after war-damaged Gaza building collapses, rescuers say",
-      "link": "https://www.bbc.co.uk/news/articles/cvp8d00j9gg5o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Wed, 16 Sep 2026 13:28:46 GMT",
-      "source": "BBC",
-      "summary": "Dozens of people are missing beneath the rubble of a building hit by an Israeli strike last year, where some 10 families had been living."
-    },
-    {
-      "title": "Turkey Begins Broad Crackdown on L.G.B.T.Q. Community",
-      "link": "https://www.nytimes.com/2026/09/16/world/middleeast/lgbtq-arrests-erdogan-turkey.html",
-      "pubDate": "Wed, 16 Sep 2026 13:10:23 +0000",
-      "source": "NYT World",
-      "summary": "The government has called the campaign an effort to protect families. Rights organizations have accused the authorities of criminalizing L.G.B.T.Q. people and of seeking to thwart political activism."
-    },
-    {
-      "title": "How Sept. 11 Paved the Way to Mideast Power for Iran",
-      "link": "https://www.nytimes.com/2026/09/16/world/middleeast/sept-11-iran-islamic-state-iraq.html",
-      "pubDate": "Wed, 16 Sep 2026 12:49:05 +0000",
-      "source": "NYT World",
-      "summary": "The American invasion of Iraq in 2003 set the path for Tehran to dominate its neighbor and whetted its appetite to expand its influence across the greater Middle East."
-    },
-    {
       "title": "EU chief backs plan for Canada to become 'associate member'",
       "link": "https://www.bbc.co.uk/news/articles/cjwyzrr9d3dko?at_medium=RSS&at_campaign=rss",
       "pubDate": "Wed, 16 Sep 2026 12:36:51 GMT",
       "source": "BBC",
       "summary": "Canada is seeking closer ties with EU after a breakdown in relations with the US and its president Donald Trump."
-    },
-    {
-      "title": "US accuses Russia of trying to kill Ukrainian allies overseas",
-      "link": "https://www.bbc.co.uk/news/articles/cjp3077led9qo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Wed, 16 Sep 2026 12:26:00 GMT",
-      "source": "BBC",
-      "summary": "The FBI says five men \"conspired to intimidate, threaten, or murder people on US soil and around the world\"."
     },
     {
       "title": "OpenAI boss says world 'right to be afraid' but should trust AI firms",
@@ -618,20 +646,6 @@
       "pubDate": "Tue, 15 Sep 2026 18:48:27 +0000",
       "source": "The Intercept",
       "summary": "While many fixated on the man who refused to acquit Lindsay Clancy, Georgia is set to kill Stacey Humphreys despite “extreme juror misconduct.”\nThe post A Lone Juror Hijacked Deliberations. This Time, a Man Faces Execution. appeared first on The Inte"
-    },
-    {
-      "title": "Iran War Has the U.S. Military on the Brink of a “Breakdown”",
-      "link": "https://theintercept.com/2026/09/15/iran-war-us-military-bases/",
-      "pubDate": "Tue, 15 Sep 2026 10:00:00 +0000",
-      "source": "The Intercept",
-      "summary": "As the U.S. military faces relentless attacks on its bases, the Iran conflict is “ultimately unsustainable,” one U.S. official told The Intercept.\nThe post Iran War Has the U.S. Military on the Brink of a “Breakdown” appeared first on The Intercept."
-    },
-    {
-      "title": "Tech CEOs’ Doomsaying Is a Distraction from Real, Existing Harms of AI",
-      "link": "https://theintercept.com/2026/09/14/ai-doom-apocalypse-risk/",
-      "pubDate": "Mon, 14 Sep 2026 19:20:37 +0000",
-      "source": "The Intercept",
-      "summary": "The binary between AI apocalypse and AI redemption asks us to ignore data centers and AI war machines — all as tech executives get incredibly rich.\nThe post Tech CEOs’ Doomsaying Is a Distraction from Real, Existing Harms of AI appeared first on The "
     },
     {
       "title": "Bellingcat Official Merch Design Contest",
@@ -663,6 +677,13 @@
     }
   ],
   "syndication": [
+    {
+      "title": "Data Broker Radaris Loses Domains in Privacy Fight",
+      "link": "https://krebsonsecurity.com/2026/09/data-broker-radaris-loses-domains-in-privacy-fight/",
+      "pubDate": "Wed, 16 Sep 2026 18:14:22 +0000",
+      "author": "KrebsOnSecurity",
+      "content": "The consumer data broker Radaris.com has long had a reputation for ignoring requests to remove personal information from its vast empire of people-search services online. That reputation caught up with the company recently in a lawsuit alleging Radaris violated a New Jersey privacy law that provides"
+    },
     {
       "title": "Fake CAPTCHA Scams",
       "link": "https://www.schneier.com/blog/archives/2026/09/fake-captcha-scams.html",
@@ -718,23 +739,48 @@
       "pubDate": "Tue, 01 Sep 2026 22:40:28 +0000",
       "author": "KrebsOnSecurity",
       "content": "A new identity theft service launched on the dark web this week is selling digital scans of more than 153 million drivers licenses from people in the United States and Canada. Based on interviews with individuals whose licenses are available for purchase on this service, it appears to be siphoning i"
-    },
-    {
-      "title": "Two Alleged ‘TeamPCP’ Hackers Arrested in Australia",
-      "link": "https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/",
-      "pubDate": "Thu, 27 Aug 2026 11:04:15 +0000",
-      "author": "KrebsOnSecurity",
-      "content": "Authorities in Australia have arrested two men believed to be members of TeamPCP, a prolific cybercrime and data extortion group blamed for perpetrating the longest running spree of software supply chain attacks ever.\r\n\r\nIn a statement released today, the Australian Federal Police (AFP) said two unn"
     }
   ],
   "syndicate_journal": [
     {
-      "title": "The Crescent Nebula: A Gas Bubble Surrounding a Violently Dying Star",
-      "link": "https://nautil.us/the-crescent-nebula-a-gas-bubble-surrounding-a-violently-dying-star-1285062/",
-      "summary": "A light show that will get even more dramatic in time\nThe post The Crescent Nebula: A Gas Bubble Surrounding a Violently Dying Star appeared first on Nautilus.",
-      "pubDate": "Wed, 16 Sep 2026 16:00:00 +0000",
+      "title": "What Grok and Claude Have to Say about the AI Apocalypse",
+      "link": "https://nautil.us/what-grok-and-claude-have-to-say-about-the-ai-apocalypse-1285077/",
+      "summary": "A maniacal villain and a polite librarian on the risk that AI could end humanity\nThe post What Grok and Claude Have to Say about the AI Apocalypse appeared first on Nautilus.",
+      "pubDate": "Wed, 16 Sep 2026 20:31:02 +0000",
       "domain": "science",
       "source": "Nautilus"
+    },
+    {
+      "title": "We Finally Know Tyrannosaurus Rex’s Body Temperature",
+      "link": "https://nautil.us/we-finally-know-tyrannosaurus-rexs-body-temperature-1285067/",
+      "summary": "Check it and see\nThe post We Finally Know Tyrannosaurus Rex’s Body Temperature appeared first on Nautilus.",
+      "pubDate": "Wed, 16 Sep 2026 20:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "The Ancient Mammal That Changes Our Understanding of Dinosaur Origins",
+      "link": "https://nautil.us/the-ancient-mammal-that-changes-our-understanding-of-dinosaur-origins-1285071/",
+      "summary": "Tanzania’s Nyasasaurus may not have been the first dinosaur on Earth after all\nThe post The Ancient Mammal That Changes Our Understanding of Dinosaur Origins appeared first on Nautilus.",
+      "pubDate": "Wed, 16 Sep 2026 19:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "Deregulation, Not Data Centers, Broke the Grid",
+      "link": "",
+      "summary": "The public attribution of  for rising electricity costs is half right. Data centers are indeed driving the first sustained surge in American electricity demand in more than a generation. But the historical record shows that electricity demand — what the industry calls “load” — has grown this quickly",
+      "pubDate": "2026-09-16T18:22:19.161Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "Ansar Allah’s Red Sea Advance Has Exposed Saudi Weakness",
+      "link": "",
+      "summary": "On September 9, Yemen’s Ansar Allah, or “Houthis” as they are also known, descended from the highlands down roads and riverbeds to the Tihamah coastal plain and captured the port of Mokha from the Saudi-based government the following day. By September 11, they had taken Perim Island in the Bab al-Ma",
+      "pubDate": "2026-09-16T16:28:23.366Z",
+      "domain": "politics",
+      "source": "Jacobin"
     },
     {
       "title": "Ctenophores Aren’t Just Beautiful. They’re Biological Wonders.",
@@ -761,36 +807,12 @@
       "source": "Public Domain Review"
     },
     {
-      "title": "AI Doomsaying Is an Aggressive Sales Pitch",
-      "link": "",
-      "summary": "It seems a strange publicity gambit for an industry to assert that its own product could wipe out humanity. In the lingo of our evolving tech empire, though, this is exactly what is meant by “criti-hype.” The term was coined by Lee Vinsel at Virginia Tech, who defined it as “criticism that both feed",
-      "pubDate": "2026-09-16T14:07:12.647Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
-      "title": "The Rhythm of Your Breath Leaves a Fingerprint on Your Thoughts",
-      "link": "https://nautil.us/the-rhythm-of-your-breath-leaves-a-fingerprint-on-your-thoughts-1285059/",
-      "summary": "Subtle variations in the breath trace electrical signaling in the brain\nThe post The Rhythm of Your Breath Leaves a Fingerprint on Your Thoughts appeared first on Nautilus.",
-      "pubDate": "Wed, 16 Sep 2026 14:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
       "title": "How the Railways Killed a Medieval Law",
       "link": "https://daily.jstor.org/how-the-railways-killed-a-medieval-law/",
       "summary": "Deodands put a price on objects that caused death, sometimes providing compensation to bereaved families.\nThe post How the Railways Killed a Medieval Law appeared first on JSTOR Daily.",
       "pubDate": "Wed, 16 Sep 2026 13:42:00 +0000",
       "domain": "history",
       "source": "JSTOR Daily"
-    },
-    {
-      "title": "Does Dollar Supremacy Help Americans?",
-      "link": "",
-      "summary": "It is scarcely possible to explain the convulsions of the twenty-first century without accounting for the pivotal role of the global dollar system. The financial crisis, the emergence of a new global monied elite, and the rise of China are inseparable from the dollar’s status as the world’s preemine",
-      "pubDate": "2026-09-16T13:00:00.000Z",
-      "domain": "politics",
-      "source": "Jacobin"
     },
     {
       "title": "The meaning of fake marble",
@@ -823,14 +845,6 @@
       "pubDate": "Wed, 16 Sep 2026 00:00:00 -0400",
       "domain": "science",
       "source": "arXiv: cs.AI"
-    },
-    {
-      "title": "Did Wildfires Spark the Invention of Pottery?",
-      "link": "https://nautil.us/did-wildfires-spark-the-invention-of-pottery-1285052/",
-      "summary": "Introducing the “natural kiln hypothesis”\nThe post Did Wildfires Spark the Invention of Pottery? appeared first on Nautilus.",
-      "pubDate": "Tue, 15 Sep 2026 23:30:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
     },
     {
       "title": "It’s “A Cat-astrophe”! (1919)\n",
@@ -1019,64 +1033,64 @@
   ],
   "misinfo_toilet": [
     {
-      "headline": "Belarus Releases 25 Political Prisoners in Exchange for U.S. Easing of Sanctions",
-      "fragment": "Reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
-      "splice": "Belarus Releases 25 Political Prisoners in Exchange for U.S. Easing of Sanctions despite reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
-      "seed": 20260932
-    },
-    {
-      "headline": "Israeli ‘double-tap’ air strike responsible for killing schoolboy in Gaza",
-      "fragment": "The truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
-      "splice": "Israeli ‘double-tap’ air strike responsible for killing schoolboy in Gaza insofar as the truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
-      "seed": 20260933
-    },
-    {
-      "headline": "“A Recurring Pattern”: Civilians Paying the Price in Mali’s Drone Campaign",
-      "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "splice": "“A Recurring Pattern”: Civilians Paying the Price in Mali’s Drone Campaign underneath the breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "seed": 20260934
-    },
-    {
-      "headline": "Investigating a Murder: Public Records Uncover New Clues in Chinatown Cold Case",
+      "headline": "A Lone Juror Hijacked Deliberations. This Time, a Man Faces Execution.",
       "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
-      "splice": "Investigating a Murder: Public Records Uncover New Clues in Chinatown Cold Case despite the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
-      "seed": 20260935
-    },
-    {
-      "headline": "Ex-Trump ally Marjorie Taylor Greene says war on Iran must ‘stop’",
-      "fragment": "The truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
-      "splice": "Ex-Trump ally Marjorie Taylor Greene says war on Iran must ‘stop’ while the truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
-      "seed": 20260936
-    },
-    {
-      "headline": "Iran war has cost the US $38bn: How will it impact US economy, politics?",
-      "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
-      "splice": "Iran war has cost the US $38bn: How will it impact US economy, politics? despite the revolutionary lives in the gap which separates technical progress from social totality.",
+      "splice": "A Lone Juror Hijacked Deliberations. This Time, a Man Faces Execution. despite the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
       "seed": 20260937
     },
     {
-      "headline": "Tech CEOs’ Doomsaying Is a Distraction from Real, Existing Harms of AI",
+      "headline": "Displaced Syrians dig through hills of garbage to make a living",
       "fragment": "The truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
-      "splice": "Tech CEOs’ Doomsaying Is a Distraction from Real, Existing Harms of AI as if the truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
+      "splice": "Displaced Syrians dig through hills of garbage to make a living while the truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
       "seed": 20260938
     },
     {
       "headline": "NYPD Misconduct Payouts Still Soar Under Mamdani — And May Keep Growing",
-      "fragment": "We live in a world where there is more and more information, and less and less meaning.",
-      "splice": "NYPD Misconduct Payouts Still Soar Under Mamdani — And May Keep Growing while we live in a world where there is more and more information, and less and less meaning.",
+      "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
+      "splice": "NYPD Misconduct Payouts Still Soar Under Mamdani — And May Keep Growing despite the revolutionary lives in the gap which separates technical progress from social totality.",
       "seed": 20260939
     },
     {
-      "headline": "OpenAI boss says world 'right to be afraid' but should trust AI firms",
-      "fragment": "It is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
-      "splice": "OpenAI boss says world 'right to be afraid' but should trust AI firms the signal resolves into it is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
+      "headline": "Efforts underway for Zelenskyy-Trump meeting at UN next week",
+      "fragment": "The truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
+      "splice": "Efforts underway for Zelenskyy-Trump meeting at UN next week as if the truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
       "seed": 20260940
     },
     {
-      "headline": "Djibouti calls for assistance as thousands of Yemenis flee to country",
-      "fragment": "In the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
-      "splice": "Djibouti calls for assistance as thousands of Yemenis flee to country meanwhile in the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
+      "headline": "OpenAI boss says world 'right to be afraid' but should trust AI firms",
+      "fragment": "We live in a world where there is more and more information, and less and less meaning.",
+      "splice": "OpenAI boss says world 'right to be afraid' but should trust AI firms while we live in a world where there is more and more information, and less and less meaning.",
       "seed": 20260941
+    },
+    {
+      "headline": "Syria abolishes al-Assad-era ‘terrorism’ court as Kurdish tensions flare",
+      "fragment": "It is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
+      "splice": "Syria abolishes al-Assad-era ‘terrorism’ court as Kurdish tensions flare the signal resolves into it is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
+      "seed": 20260942
+    },
+    {
+      "headline": "Investigating a Murder: Public Records Uncover New Clues in Chinatown Cold Case",
+      "fragment": "In the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
+      "splice": "Investigating a Murder: Public Records Uncover New Clues in Chinatown Cold Case meanwhile in the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
+      "seed": 20260943
+    },
+    {
+      "headline": "EU chief backs plan for Canada to become 'associate member'",
+      "fragment": "The current ruling ontology denies any possibility of a social causation of mental illness. The chemico-biologization of mental illness is of course strictly commensurate with its depoliticization.",
+      "splice": "EU chief backs plan for Canada to become 'associate member' because the current ruling ontology denies any possibility of a social causation of mental illness. The chemico-biologization of mental illness is of course strictly commensurate with its depoliticization.",
+      "seed": 20260944
+    },
+    {
+      "headline": "Bellingcat Official Merch Design Contest",
+      "fragment": "Art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
+      "splice": "Bellingcat Official Merch Design Contest underneath art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
+      "seed": 20260945
+    },
+    {
+      "headline": "Eight children among 21 killed after war-damaged Gaza building collapses, rescuers say",
+      "fragment": "Simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
+      "splice": "Eight children among 21 killed after war-damaged Gaza building collapses, rescuers say within which simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
+      "seed": 20260946
     }
   ]
 }
