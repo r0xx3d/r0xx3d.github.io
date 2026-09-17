@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T21:02:09.264Z",
+  "generated_at": "2026-09-17T11:15:06.950Z",
   "threat_intel": {
     "cisa_kev": [
       {
@@ -247,9 +247,198 @@
     ],
     "urlhaus": [
       {
-        "id": "3917849",
-        "date_added": "2026-09-16 20:53:10",
-        "url": "http://182.124.13.13:34809/i",
+        "id": "3917978",
+        "date_added": "2026-09-17 10:59:24",
+        "url": "http://119.180.62.17:32897/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3917977",
+        "date_added": "2026-09-17 10:55:29",
+        "url": "http://119.180.62.17:32897/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3917976",
+        "date_added": "2026-09-17 10:44:27",
+        "url": "http://103.140.87.105:43482/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "mirai",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3917975",
+        "date_added": "2026-09-17 10:26:33",
+        "url": "https://foundrysourcings.co.uk/Ad0be/download.php",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "screenconnect"
+        ]
+      },
+      {
+        "id": "3917974",
+        "date_added": "2026-09-17 10:24:29",
+        "url": "http://103.140.87.105:43482/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "mirai",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3917973",
+        "date_added": "2026-09-17 09:52:15",
+        "url": "http://62.60.226.140/files/5356600191/WAom4nk.exe",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "d52f85",
+          "dropped-by-amadey"
+        ]
+      },
+      {
+        "id": "3917972",
+        "date_added": "2026-09-17 09:03:17",
+        "url": "http://42.228.39.193:33505/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "mirai"
+        ]
+      },
+      {
+        "id": "3917971",
+        "date_added": "2026-09-17 08:49:24",
+        "url": "http://115.57.238.102:33308/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3917970",
+        "date_added": "2026-09-17 08:43:18",
+        "url": "http://42.228.39.193:33505/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "mirai"
+        ]
+      },
+      {
+        "id": "3917969",
+        "date_added": "2026-09-17 08:34:28",
+        "url": "http://113.17.176.184:42461/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "mirai",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3917967",
+        "date_added": "2026-09-17 08:21:26",
+        "url": "http://115.57.238.102:33308/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3917968",
+        "date_added": "2026-09-17 08:21:26",
+        "url": "http://222.246.41.42:44313/i",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "mirai",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3917966",
+        "date_added": "2026-09-17 08:09:30",
+        "url": "http://125.106.122.6:34466/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "mirai",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3917965",
+        "date_added": "2026-09-17 08:08:27",
+        "url": "http://113.255.193.216:43347/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3917964",
+        "date_added": "2026-09-17 08:02:30",
+        "url": "http://182.183.25.199:51904/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3917963",
+        "date_added": "2026-09-17 07:46:19",
+        "url": "http://115.61.112.176:54918/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -257,297 +446,167 @@
         ]
       },
       {
-        "id": "3917848",
-        "date_added": "2026-09-16 20:47:22",
-        "url": "http://89.189.181.54:60243/bin.sh",
+        "id": "3917955",
+        "date_added": "2026-09-17 07:44:22",
+        "url": "http://45.198.224.168/arm",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3917847",
-        "date_added": "2026-09-16 20:26:19",
-        "url": "http://60.23.232.20:51644/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3917846",
-        "date_added": "2026-09-16 20:11:33",
-        "url": "https://github.com/serhat9611/pruva-download/releases/download/v0.1.7/Pruva-Buyuk-0.1.7.exe",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "d52f85",
-          "dropped-by-amadey"
-        ]
-      },
-      {
-        "id": "3917845",
-        "date_added": "2026-09-16 20:10:21",
-        "url": "https://userhotels.org/Adobe%20Acrobat_Reader.exe",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "d52f85",
-          "dropped-by-amadey"
-        ]
-      },
-      {
-        "id": "3917844",
-        "date_added": "2026-09-16 20:10:12",
-        "url": "http://62.60.226.140/files/7299809293/Zar7QE5.exe",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "d52f85",
-          "dropped-by-amadey"
-        ]
-      },
-      {
-        "id": "3917843",
-        "date_added": "2026-09-16 18:41:24",
-        "url": "http://171.36.18.157:35519/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "arm",
           "elf",
           "mirai",
-          "Mozi"
+          "ua-wget"
         ]
       },
       {
-        "id": "3917842",
-        "date_added": "2026-09-16 18:38:24",
-        "url": "http://125.46.198.87:41297/i",
+        "id": "3917956",
+        "date_added": "2026-09-17 07:44:22",
+        "url": "http://45.198.224.168/arm7",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3917841",
-        "date_added": "2026-09-16 18:19:23",
-        "url": "http://216.126.86.6:57863/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "arm",
           "elf",
           "mirai",
-          "Mozi"
+          "ua-wget"
         ]
       },
       {
-        "id": "3917840",
-        "date_added": "2026-09-16 18:17:26",
-        "url": "http://125.46.198.87:41297/bin.sh",
+        "id": "3917957",
+        "date_added": "2026-09-17 07:44:22",
+        "url": "http://45.198.224.168/arm6",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3917839",
-        "date_added": "2026-09-16 18:15:18",
-        "url": "http://124.158.191.121:53328/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "arm",
           "elf",
           "mirai",
-          "Mozi"
+          "ua-wget"
         ]
       },
       {
-        "id": "3917838",
-        "date_added": "2026-09-16 18:13:27",
-        "url": "http://amaamn.com/cursor.ps1",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "363d88e5a9c1d1a3f45f3741a6e2fcaa",
-          "dropped-by-vidar"
-        ]
-      },
-      {
-        "id": "3917837",
-        "date_added": "2026-09-16 18:05:35",
-        "url": "http://216.126.86.6:57863/bin.sh",
+        "id": "3917958",
+        "date_added": "2026-09-17 07:44:22",
+        "url": "http://45.198.224.168/mips",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "32-bit",
-          "arm",
           "elf",
           "mirai",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3917836",
-        "date_added": "2026-09-16 18:04:23",
-        "url": "http://78.85.226.138:46350/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3917835",
-        "date_added": "2026-09-16 17:31:26",
-        "url": "http://78.85.226.138:46350/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3917834",
-        "date_added": "2026-09-16 17:23:18",
-        "url": "http://115.48.160.255:52757/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3917831",
-        "date_added": "2026-09-16 16:46:23",
-        "url": "http://27.207.224.71:51240/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3917832",
-        "date_added": "2026-09-16 16:46:23",
-        "url": "http://123.10.203.156:35020/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3917833",
-        "date_added": "2026-09-16 16:46:23",
-        "url": "http://121.224.220.11:54375/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "arm",
-          "elf",
-          "mirai",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3917830",
-        "date_added": "2026-09-16 16:46:18",
-        "url": "http://196.190.1.39:40480/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "mirai"
+          "ua-wget"
         ]
       }
     ]
   },
   "world_monitor": [
     {
-      "title": "Displaced Syrians dig through hills of garbage to make a living",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/9/16/displaced-syrians-dig-through-hills-of-garbage-to-make-a-living?traffic_source=rss",
-      "pubDate": "Wed, 16 Sep 2026 20:29:41 +0000",
-      "source": "Al Jazeera",
-      "summary": "Displaced Syrians are digging through mountains of burning garbage searching for recyclable materials to make a living."
-    },
-    {
-      "title": "At Least 21 Dead in Gaza After Building Collapse, Officials Say",
-      "link": "https://www.nytimes.com/2026/09/16/world/middleeast/gaza-building-collapse.html",
-      "pubDate": "Wed, 16 Sep 2026 20:13:21 +0000",
+      "title": "Carney Calls for E.U.-Canada Pact Amid ‘Ferocious Storm’",
+      "link": "https://www.nytimes.com/2026/09/17/world/europe/canada-carney-eu.html",
+      "pubDate": "Thu, 17 Sep 2026 10:59:01 +0000",
       "source": "NYT World",
-      "summary": "The Israeli military said in a statement it “did not strike the building,” but did not say whether any strikes on nearby targets could have caused the damage."
+      "summary": "Prime Minister Mark Carney told European lawmakers that an alliance would help to secure sovereignty and independence for his country. The moves come amid a historic low for U.S. ties with Canada."
     },
     {
-      "title": "New video claims to show Saudi fighter jet Houthis say they shot down",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/9/16/new-video-claims-to-show-saudi-fighter-jet-houthis-say-they-shot-down?traffic_source=rss",
-      "pubDate": "Wed, 16 Sep 2026 20:12:25 +0000",
+      "title": "Why is inflation rising again around the world?",
+      "link": "https://www.aljazeera.com/video/counting-the-cost/2026/9/17/why-is-inflation-rising-again-around-the-world?traffic_source=rss",
+      "pubDate": "Thu, 17 Sep 2026 10:50:54 +0000",
       "source": "Al Jazeera",
-      "summary": "Houthi forces have released a video claiming to show a Saudi fighter jet the group says was shot down in Yemen’s Marib."
+      "summary": "Rising energy prices are pushing inflation higher again, forcing major central banks to raise interest rates."
     },
     {
-      "title": "Syria abolishes al-Assad-era ‘terrorism’ court as Kurdish tensions flare",
-      "link": "https://www.aljazeera.com/news/2026/9/16/syria-abolishes-al-assad-era-terrorism-court-as-kurdish-tensions-flare?traffic_source=rss",
-      "pubDate": "Wed, 16 Sep 2026 20:08:50 +0000",
-      "source": "Al Jazeera",
-      "summary": "Discontent is testing President Ahmed al-Sharaa's ability to unify a country emerging from 14 years of conflict."
-    },
-    {
-      "title": "Efforts underway for Zelenskyy-Trump meeting at UN next week",
-      "link": "https://www.aljazeera.com/news/2026/9/16/efforts-underway-for-zelenskyy-trump-meeting-at-un-next-week?traffic_source=rss",
-      "pubDate": "Wed, 16 Sep 2026 20:05:51 +0000",
-      "source": "Al Jazeera",
-      "summary": "Trump pushes for a solution to end Moscow's war against Kyiv as civilian deaths in Ukraine rise."
-    },
-    {
-      "title": "US House votes to hold billionaire Epstein associate Leon Black in contempt",
-      "link": "https://www.bbc.co.uk/news/articles/c62l8g8qlr0ko?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Wed, 16 Sep 2026 19:59:57 GMT",
+      "title": "Ninth woman's body found as South African police investigate string of deaths",
+      "link": "https://www.bbc.co.uk/news/articles/cqx2zgk8k8xvo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Thu, 17 Sep 2026 10:40:31 GMT",
       "source": "BBC",
-      "summary": "Black - who had business ties to Epstein - declined to appear and provide documents related to the convicted sex offender."
+      "summary": "South Africa police have cautioned against assuming that all the killings are linked but many women are afraid."
     },
     {
-      "title": "Al-Mughayyir: A village under siege",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/9/16/al-mughayyir-a-village-under-siege?traffic_source=rss",
-      "pubDate": "Wed, 16 Sep 2026 19:48:05 +0000",
+      "title": "Trump claims direct talks with Iran: Is diplomacy picking up again?",
+      "link": "https://www.aljazeera.com/news/2026/9/17/trump-claims-direct-talks-with-iran-is-diplomacy-picking-up-again?traffic_source=rss",
+      "pubDate": "Thu, 17 Sep 2026 10:32:46 +0000",
       "source": "Al Jazeera",
-      "summary": "In al-Mughayyir, Palestinians say they are being squeezed into a smaller part of their own village in the West Bank."
+      "summary": "The US president says Washington is 'hopefully toward the end' of Iran war, as global energy prices remain high."
+    },
+    {
+      "title": "A New Play in Budapest Signals a Cultural Reawakening for Hungary",
+      "link": "https://www.nytimes.com/2026/09/17/world/europe/play-budapest-culture-hungary.html",
+      "pubDate": "Thu, 17 Sep 2026 10:23:16 +0000",
+      "source": "NYT World",
+      "summary": "A one-woman show about the perils of authoritarianism draws on a memoir by the Hungarian-American writer Kati Marton. Under Viktor Orban’s government, it might not have happened."
+    },
+    {
+      "title": "Lebanon security talks in Paris to focus on post-UNIFIL alternatives",
+      "link": "https://www.aljazeera.com/news/2026/9/17/lebanon-security-talks-in-paris-to-focus-on-post-unifil-alternatives?traffic_source=rss",
+      "pubDate": "Thu, 17 Sep 2026 10:20:20 +0000",
+      "source": "Al Jazeera",
+      "summary": "The security talks come as Israeli forces continue attacks across southern Lebanon despite a \"ceasefire\"."
+    },
+    {
+      "title": "UK charities, protest groups condemn Israeli ban threat after sanctions",
+      "link": "https://www.aljazeera.com/news/2026/9/17/uk-charities-protest-groups-condemn-israeli-ban-threat-after-sanctions?traffic_source=rss",
+      "pubDate": "Thu, 17 Sep 2026 10:19:24 +0000",
+      "source": "Al Jazeera",
+      "summary": "Having warned London of 'consequences' for sanctions, Israel targets UK charities, campaign groups and Palestine Action."
+    },
+    {
+      "title": "NBA star Irving pledges to pay Al-Shaair’s NFL fine over Hind Rajab message",
+      "link": "https://www.aljazeera.com/sports/2026/9/17/nba-star-irving-pledges-to-pay-al-shaairs-nfl-fine-over-hind-rajab-message?traffic_source=rss",
+      "pubDate": "Thu, 17 Sep 2026 10:10:47 +0000",
+      "source": "Al Jazeera",
+      "summary": "Houston Texans' linebacker Azeez Al-Shaair was fined for wearing the name of Hind Rajab on his eye black."
+    },
+    {
+      "title": "EU announces plan to restrict social media access for under-15s",
+      "link": "https://www.bbc.co.uk/news/articles/c3j4jz8vpz1xo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Thu, 17 Sep 2026 10:00:14 GMT",
+      "source": "BBC",
+      "summary": "Under the plans, only children over 15 would be able to set up their own social media accounts."
+    },
+    {
+      "title": "Facing Outraged Residents, Flock Got Help From Group That Uses AI to Rally Public Support",
+      "link": "https://theintercept.com/2026/09/17/flock-cameras-ai-astroturf-support/",
+      "pubDate": "Thu, 17 Sep 2026 09:30:00 +0000",
+      "source": "The Intercept",
+      "summary": "Beset by critics in Knoxville, Flock partnered with a nonprofit accused of “astroturfing” for a campaign to generate support for its surveillance cameras.\nThe post Facing Outraged Residents, Flock Got Help From Group That Uses AI to Rally Public Supp"
+    },
+    {
+      "title": "Trump Sanctions on Cuba Strands Thousands Of Shipping Containers",
+      "link": "https://www.nytimes.com/2026/09/17/world/americas/trump-sanctions-cuba-shipping-containers.html",
+      "pubDate": "Thu, 17 Sep 2026 09:03:51 +0000",
+      "source": "NYT World",
+      "summary": "The U.S. says its sanctions are not aimed at depriving Cuba of essential goods. Thousands of stranded shipping containers tell a different story."
+    },
+    {
+      "title": "Mexico City Has a Toxic ‘Sacrifice Zone’ Where Cancer Is Surging",
+      "link": "https://www.nytimes.com/2026/09/17/world/americas/mexico-city-endho-dam.html",
+      "pubDate": "Thu, 17 Sep 2026 09:00:26 +0000",
+      "source": "NYT World",
+      "summary": "For decades, the Mexican authorities have sacrificed a rural valley to flush away the capital’s waste and power the economy. Now, local communities are paying for that decision — often with peoples’ lives."
+    },
+    {
+      "title": "Uncontrolled AI could lead to 'silicon species' rivalling humans, warns Microsoft",
+      "link": "https://www.bbc.co.uk/news/articles/c6n07ypqz8kzo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Thu, 17 Sep 2026 08:22:12 GMT",
+      "source": "BBC",
+      "summary": "Mustafa Suleyman says he believes rival AI firm Anthropic is in effect teaching Claude it \"may be conscious\"."
+    },
+    {
+      "title": "Assad regime planned US journalist's kidnap for weeks, BBC finds",
+      "link": "https://www.bbc.co.uk/news/articles/cv0lrxw6ygl2o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Thu, 17 Sep 2026 05:00:18 GMT",
+      "source": "BBC",
+      "summary": "Austin Tice’s abduction was approved by Syria’s former leader Bashar al-Assad, a source claims."
+    },
+    {
+      "title": "The Hidden Human Cost of Kim Jong-un’s New Power",
+      "link": "https://www.nytimes.com/2026/09/17/world/asia/north-korea-exploitation-kim.html",
+      "pubDate": "Thu, 17 Sep 2026 04:11:08 +0000",
+      "source": "NYT World",
+      "summary": "The North Korean leader’s financial and diplomatic leverage rests on the brutal exploitation of his own people, from coal miners to diplomats, at home and abroad."
+    },
+    {
+      "title": "US interest rates raised for first time in three years",
+      "link": "https://www.bbc.co.uk/news/articles/cw4gmlyvj422o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Thu, 17 Sep 2026 00:40:17 GMT",
+      "source": "BBC",
+      "summary": "Rates were hiked in a unanimous decision despite fierce opposition from President Donald Trump, who had called for a cut."
     },
     {
       "title": "The New York Times Conveniently Forgets the Real Stakes of Attacks on Free Speech",
@@ -557,53 +616,11 @@
       "summary": "The paper published a long recounting of Trump’s attacks on the press, without ever mentioning Israel, Gaza, or ICE.\nThe post The New York Times Conveniently Forgets the Real Stakes of Attacks on Free Speech appeared first on The Intercept."
     },
     {
-      "title": "E.U.-Canada Ambitions Face Reality Check",
-      "link": "https://www.nytimes.com/2026/09/16/world/canada/eu-canada-associate-member-trade.html",
-      "pubDate": "Wed, 16 Sep 2026 19:30:23 +0000",
-      "source": "NYT World",
-      "summary": "The bloc’s offer of “associate member” status to Ottawa shows how U.S. allies are pulling closer together. But their plans face significant obstacles."
-    },
-    {
-      "title": "Belarus Frees 25 Political Prisoners in Exchange for U.S. Sanctions Relief",
-      "link": "https://www.nytimes.com/2026/09/16/world/europe/belarus-political-prisoner-release-us-sanctions.html",
-      "pubDate": "Wed, 16 Sep 2026 19:25:40 +0000",
-      "source": "NYT World",
-      "summary": "The deal is part of the Trump administration’s more transactional approach to a close Russian ally that Europe has tried to isolate."
-    },
-    {
-      "title": "Gold Mine Collapse in Sudan Kills at Least 70",
-      "link": "https://www.nytimes.com/2026/09/16/world/africa/sudan-gold-mine-collapse.html",
-      "pubDate": "Wed, 16 Sep 2026 18:49:34 +0000",
-      "source": "NYT World",
-      "summary": "Dozens more are missing after shafts collapsed on Sunday, according to a charity, which said that the chances of rescuing those trapped were “limited” because of a lack of specialized equipment."
-    },
-    {
-      "title": "Photos show widespread damage at US sites from Iranian attacks",
-      "link": "https://www.bbc.co.uk/news/articles/c8g49e0gwxeno?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Wed, 16 Sep 2026 18:36:16 GMT",
-      "source": "BBC",
-      "summary": "A wrecked air force plane and destroyed buildings are among the images obtained by the BBC's partner CBS News."
-    },
-    {
       "title": "Ed Sheeran’s Craven “Neutrality” Is a Watershed Moment for Mainstreaming Palestine Solidarity",
       "link": "https://theintercept.com/2026/09/16/ed-sheeran-israel-palestine-macklemore/",
       "pubDate": "Wed, 16 Sep 2026 17:23:48 +0000",
       "source": "The Intercept",
       "summary": "Ed Sheeran’s entire tour quitting in solidarity with Palestine and Macklemore proves the logic of BDS.\nThe post Ed Sheeran’s Craven “Neutrality” Is a Watershed Moment for Mainstreaming Palestine Solidarity appeared first on The Intercept."
-    },
-    {
-      "title": "Eight children among 21 killed after war-damaged Gaza building collapses, rescuers say",
-      "link": "https://www.bbc.co.uk/news/articles/cvp8d00j9gg5o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Wed, 16 Sep 2026 17:16:47 GMT",
-      "source": "BBC",
-      "summary": "Some 10 families had reportedly been living in the six-storey building in Gaza City that was hit by an Israeli strike last year."
-    },
-    {
-      "title": "After a Desperate Search for Survivors, Rescuers Find Bodies at Nepal Power Plant",
-      "link": "https://www.nytimes.com/2026/09/16/world/asia/nepal-floods-chillime-hydropower-plant.html",
-      "pubDate": "Wed, 16 Sep 2026 17:12:02 +0000",
-      "source": "NYT World",
-      "summary": "An expert team spent days trying to find six men who were trapped underground after catastrophic floods, as families clung to fading hopes."
     },
     {
       "title": "“A Recurring Pattern”: Civilians Paying the Price in Mali’s Drone Campaign",
@@ -620,32 +637,11 @@
       "summary": "So far, settlement payouts under Mamdani are holdover cases. Without policy changes, however, they might keep growing toward a $1 billion total since 2018.\nThe post NYPD Misconduct Payouts Still Soar Under Mamdani — And May Keep Growing appeared firs"
     },
     {
-      "title": "EU chief backs plan for Canada to become 'associate member'",
-      "link": "https://www.bbc.co.uk/news/articles/cjwyzrr9d3dko?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Wed, 16 Sep 2026 12:36:51 GMT",
-      "source": "BBC",
-      "summary": "Canada is seeking closer ties with EU after a breakdown in relations with the US and its president Donald Trump."
-    },
-    {
-      "title": "OpenAI boss says world 'right to be afraid' but should trust AI firms",
-      "link": "https://www.bbc.co.uk/news/articles/cqx2zpj4y525o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Wed, 16 Sep 2026 10:02:05 GMT",
-      "source": "BBC",
-      "summary": "Sam Altman and other tech CEOs say there are incentives to limit advancements in AI, as fears grow over the threats it poses to humanity."
-    },
-    {
       "title": "Crypto Darling Gillibrand’s 11th-Hour Flip-Flop Helps Block Trump Crypto Bill",
       "link": "https://theintercept.com/2026/09/15/congress-trump-crypto-clarity-blocked/",
       "pubDate": "Tue, 15 Sep 2026 21:02:30 +0000",
       "source": "The Intercept",
       "summary": "Just hours before switching sides, Sen. Kirsten Gillibrand was lobbying fellow Democrats to advance the bill.\nThe post Crypto Darling Gillibrand’s 11th-Hour Flip-Flop Helps Block Trump Crypto Bill appeared first on The Intercept."
-    },
-    {
-      "title": "A Lone Juror Hijacked Deliberations. This Time, a Man Faces Execution.",
-      "link": "https://theintercept.com/2026/09/15/juror-stacey-humphreys-georgia-execution/",
-      "pubDate": "Tue, 15 Sep 2026 18:48:27 +0000",
-      "source": "The Intercept",
-      "summary": "While many fixated on the man who refused to acquit Lindsay Clancy, Georgia is set to kill Stacey Humphreys despite “extreme juror misconduct.”\nThe post A Lone Juror Hijacked Deliberations. This Time, a Man Faces Execution. appeared first on The Inte"
     },
     {
       "title": "Bellingcat Official Merch Design Contest",
@@ -678,6 +674,20 @@
   ],
   "syndication": [
     {
+      "title": "How Candidates Could Use AI for Good",
+      "link": "https://www.schneier.com/blog/archives/2026/09/how-candidates-could-use-ai-for-good.html",
+      "pubDate": "2026-09-17T11:06:31.000Z",
+      "author": "Schneier on Security",
+      "content": "This essay was written with Nathan E. Sanders, and originally appeared in The Guardian.\nThere are plenty of signs that AI will make all of our experiences of the US midterm elections worse. Voters have anxiety about AI’s impacts on the country. Politicos are using AI deepfakes to spread lies. The Wh"
+    },
+    {
+      "title": "Pluralistic: On the sincerity of AI bosses (17 Sep 2026)",
+      "link": "https://pluralistic.net/2026/09/17/porque-no-los-dos/",
+      "pubDate": "Thu, 17 Sep 2026 07:35:12 +0000",
+      "author": "Pluralistic",
+      "content": "Today's links On the sincerity of AI bosses: Fascism is always an incoherent bundle. Hey look at this: Delights to delectate. Object permanence: 9/11 v spam; PalmOS x WTC collapse; Wifi x WTC rubble; Berlusconi sex rings; Tesco bans writing down prices; AI psychosis and the warped mirror; Conspirato"
+    },
+    {
       "title": "Data Broker Radaris Loses Domains in Privacy Fight",
       "link": "https://krebsonsecurity.com/2026/09/data-broker-radaris-loses-domains-in-privacy-fight/",
       "pubDate": "Wed, 16 Sep 2026 18:14:22 +0000",
@@ -706,25 +716,11 @@
       "content": "This essay was written with Cindy Cohn, and originally appeared in Lawfare.\nOne of the many legacies of the terrorist attacks of Sept. 11 is the government-wide shift from targeted surveillance—such as individual wiretaps or pen register/trap and trace orders—to mass surveillance techniques—such as "
     },
     {
-      "title": "On the NSA’s Supercomputer from the 1960s",
-      "link": "https://www.schneier.com/blog/archives/2026/09/on-the-nsas-supercomputer-from-the-1960s.html",
-      "pubDate": "2026-09-15T10:16:24.000Z",
-      "author": "Schneier on Security",
-      "content": "Really interesting story about Harvest, a specialized code breaking computer built in the 1960s by IBM for the NSA."
-    },
-    {
       "title": "Pluralistic: Everybody pees (15 Sep 2026)",
       "link": "https://pluralistic.net/2026/09/15/bitter-lemon-energy-drink/",
       "pubDate": "Tue, 15 Sep 2026 07:27:02 +0000",
       "author": "Pluralistic",
       "content": "Today's links Everybody pees: Even Jeff Bezos. Hey look at this: Delights to delectate. Object permanence: Zune won't play Microsoft files; Papercraft 1:1 Mustang; Third gender for Aussie passports; France hacked Canada; EC v links; Welcome to Night Vale; University spends librarian's bequest on foo"
-    },
-    {
-      "title": "Pluralistic: But do you use keyboard shortcuts? (14 Sep 2026)",
-      "link": "https://pluralistic.net/2026/09/14/cult-taylorism/",
-      "pubDate": "Mon, 14 Sep 2026 11:02:27 +0000",
-      "author": "Pluralistic",
-      "content": "Today's links But do you use keyboard shortcuts?: AI people are WEIRD. Hey look at this: Delights to delectate. Object permanence: \"Changeling\"; Sony Rootkit vs CD drives; Google's scumbag lobbyists; NJ's e-voting coverup; Spying sex toys; Scott Walker dark money leak; \"REAMDE\"; Snowden's pardon. Up"
     },
     {
       "title": "Microsoft Plugs Nearly 1,000 Security Holes",
@@ -743,26 +739,66 @@
   ],
   "syndicate_journal": [
     {
+      "title": "Animal eye",
+      "link": "https://aeon.co/videos/the-alien-worlds-beside-our-own-a-journey-into-animal-eyes",
+      "summary": "Probing the biology, beauty and mystery of animal eyes, this short poetic documentary explores an alien world\n- by Aeon Video\nWatch on Aeon",
+      "pubDate": "Thu, 17 Sep 2026 10:01:00 GMT",
+      "domain": "philosophy",
+      "source": "Aeon"
+    },
+    {
+      "title": "Who will taste the cherries?",
+      "link": "https://aeon.co/essays/if-computers-count-all-the-petals-who-tastes-the-cherries",
+      "summary": "The computist has one dream: to debug the subjectivity out of all of human knowledge, creating a pure, frictionless world\n- by Liam Spradlin\nRead on Aeon",
+      "pubDate": "Thu, 17 Sep 2026 10:00:00 GMT",
+      "domain": "philosophy",
+      "source": "Aeon"
+    },
+    {
+      "title": "Making AI-Assisted Claims Independently Challengeable: Publication Authority and a Protocol for Falsifiable Publication Records",
+      "link": "https://arxiv.org/abs/2609.17631",
+      "summary": "arXiv:2609.17631v1 Announce Type: new \nAbstract: AI-assisted claims can appear authoritative when evidence, analysis, human authorization, presentation, and correction history refer to different states. Provenance, attestation, and transparency expose history but alone do not specify the publication",
+      "pubDate": "Thu, 17 Sep 2026 00:00:00 -0400",
+      "domain": "science",
+      "source": "arXiv: cs.AI"
+    },
+    {
+      "title": "EvolveTrade: Experience-Driven Policy Refinement for Self-Evolving LLM Trading Agents",
+      "link": "https://arxiv.org/abs/2609.17632",
+      "summary": "arXiv:2609.17632v1 Announce Type: new \nAbstract: Large language model (LLM) trading agents can combine market data, news, and executable analysis, but their behavior is often controlled by static hand-written tool-use policies that are fixed before deployment. This limits their ability to adapt how ",
+      "pubDate": "Thu, 17 Sep 2026 00:00:00 -0400",
+      "domain": "science",
+      "source": "arXiv: cs.AI"
+    },
+    {
+      "title": "One Color Preprocessing Improves DSATUR",
+      "link": "https://arxiv.org/abs/2609.17633",
+      "summary": "arXiv:2609.17633v1 Announce Type: new \nAbstract: The Graph Coloring Problem (GCP) is NP-hard and DSATUR stands as one of the fastest heuristics for it despite producing colorings that typically use more colors than state-of-the-art coloring algorithms. We propose SSLD (Semidefinite Spectral Learning",
+      "pubDate": "Thu, 17 Sep 2026 00:00:00 -0400",
+      "domain": "science",
+      "source": "arXiv: cs.AI"
+    },
+    {
+      "title": "Chimps Hand Down Tools Across Generations",
+      "link": "https://nautil.us/chimps-hand-down-tools-across-generations-1285081/",
+      "summary": "Social learning boosts feeding success of young’uns\nThe post Chimps Hand Down Tools Across Generations appeared first on Nautilus.",
+      "pubDate": "Wed, 16 Sep 2026 22:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "Cold Weather Could Predict an Increase in Heart Attacks Three Days in Advance",
+      "link": "https://nautil.us/cold-weather-could-predict-an-increase-in-heart-attacks-three-days-in-advance-1285074/",
+      "summary": "And the holidays are especially bad \nThe post Cold Weather Could Predict an Increase in Heart Attacks Three Days in Advance appeared first on Nautilus.",
+      "pubDate": "Wed, 16 Sep 2026 21:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
       "title": "What Grok and Claude Have to Say about the AI Apocalypse",
       "link": "https://nautil.us/what-grok-and-claude-have-to-say-about-the-ai-apocalypse-1285077/",
       "summary": "A maniacal villain and a polite librarian on the risk that AI could end humanity\nThe post What Grok and Claude Have to Say about the AI Apocalypse appeared first on Nautilus.",
       "pubDate": "Wed, 16 Sep 2026 20:31:02 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
-      "title": "We Finally Know Tyrannosaurus Rex’s Body Temperature",
-      "link": "https://nautil.us/we-finally-know-tyrannosaurus-rexs-body-temperature-1285067/",
-      "summary": "Check it and see\nThe post We Finally Know Tyrannosaurus Rex’s Body Temperature appeared first on Nautilus.",
-      "pubDate": "Wed, 16 Sep 2026 20:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
-      "title": "The Ancient Mammal That Changes Our Understanding of Dinosaur Origins",
-      "link": "https://nautil.us/the-ancient-mammal-that-changes-our-understanding-of-dinosaur-origins-1285071/",
-      "summary": "Tanzania’s Nyasasaurus may not have been the first dinosaur on Earth after all\nThe post The Ancient Mammal That Changes Our Understanding of Dinosaur Origins appeared first on Nautilus.",
-      "pubDate": "Wed, 16 Sep 2026 19:00:00 +0000",
       "domain": "science",
       "source": "Nautilus"
     },
@@ -823,30 +859,6 @@
       "source": "Aeon"
     },
     {
-      "title": "Optimal Pruning for Neural Architectures using Fisher Information Distances",
-      "link": "https://arxiv.org/abs/2609.16129",
-      "summary": "arXiv:2609.16129v1 Announce Type: new \nAbstract: A new scheme for parameter pruning is introduced, derived from the differential-geometric distance in model space. Pruning a parameter sets its value to zero, representing a displacement of the model to the hypersurface on which that parameter vanishe",
-      "pubDate": "Wed, 16 Sep 2026 00:00:00 -0400",
-      "domain": "science",
-      "source": "arXiv: cs.AI"
-    },
-    {
-      "title": "Safe Error Correction for Language Models: Frozen-Base Adjustment with Capability Preservation",
-      "link": "https://arxiv.org/abs/2609.16145",
-      "summary": "arXiv:2609.16145v1 Announce Type: new \nAbstract: We study a practical question: can a small correction module fix errors in a frozen language model's outputs without degrading its base capabilities? We propose CRN v2, a lightweight logit-level correction module (~34M trainable parameters, 0.73% of t",
-      "pubDate": "Wed, 16 Sep 2026 00:00:00 -0400",
-      "domain": "science",
-      "source": "arXiv: cs.AI"
-    },
-    {
-      "title": "GPEvac: GNN-Based PPO for Adaptive Evacuation Routing During Shooting Events",
-      "link": "https://arxiv.org/abs/2609.16163",
-      "summary": "arXiv:2609.16163v1 Announce Type: new \nAbstract: The sharp increase in mass shootings underscores an urgent need for systems that guide victims to safety in real time. An effective evacuation system must minimize threat exposure while also accounting for adversarial uncertainty and crowding dynamics",
-      "pubDate": "Wed, 16 Sep 2026 00:00:00 -0400",
-      "domain": "science",
-      "source": "arXiv: cs.AI"
-    },
-    {
       "title": "It’s “A Cat-astrophe”! (1919)\n",
       "link": "https://publicdomainreview.org/collection/cat-astrophe",
       "summary": "“A Cat-astrophe” came on the tail end of an odd 1918 boom in cat-themed music.",
@@ -863,14 +875,6 @@
       "source": "JSTOR Daily"
     },
     {
-      "title": "Chasing la dolce vita",
-      "link": "https://aeon.co/essays/italianness-is-a-state-of-travelling-in-both-directions",
-      "summary": "Homecomings, fantasies, food and ghosts – how the myth of eternal return keeps the Italian diaspora in a state of longing\n- by Ben Faccini\nRead on Aeon",
-      "pubDate": "Tue, 15 Sep 2026 10:00:00 GMT",
-      "domain": "philosophy",
-      "source": "Aeon"
-    },
-    {
       "title": "Black Holes or Black Hole Stars? Astronomers Spar Over Webb Telescope’s ‘Little Red Dots.’",
       "link": "https://www.quantamagazine.org/black-holes-or-black-hole-stars-astronomers-spar-over-webb-telescopes-little-red-dots-20260914/",
       "summary": "The James Webb Space Telescope spots mysterious “little red dots” everywhere. A bold new theory suggests they’re suns dozens of times larger than our entire solar system.             \nThe post Black Holes or Black Hole Stars? Astronomers Spar Over Webb Telescope’s ‘Little Red Dots.’ first appeared o",
@@ -885,14 +889,6 @@
       "pubDate": "Mon, 14 Sep 2026 13:35:08 +0000",
       "domain": "history",
       "source": "JSTOR Daily"
-    },
-    {
-      "title": "Once upon a screen: explosive paradox",
-      "link": "https://aeon.co/videos/are-we-ever-really-done-seeing-a-movie-on-platoon-and-memory",
-      "summary": "Decades after seeing ‘Platoon’, Kevin recalls how the film stirred generational trauma in his family and racism at school\n- by Aeon Video\nWatch on Aeon",
-      "pubDate": "Mon, 14 Sep 2026 10:01:00 GMT",
-      "domain": "philosophy",
-      "source": "Aeon"
     },
     {
       "title": "Why Do These Fossil Shells Flip Their Spirals Every Few Millennia?",
@@ -1007,25 +1003,25 @@
       "source": "ROAR Magazine"
     },
     {
-      "title": "Psychosocial transformation in women new to fitness: a phenomenological study on body image, self-confidence, and identity construction",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1882501",
-      "summary": "IntroductionDespite the increase in gym memberships in recent years, women’s participation in physical activity continues to lag behind men’s. Studies that holistically address the experiences of women newly starting fitness are limited in the literature. Aiming to fill this gap, this research seeks",
+      "title": "“When emotions teach”: a multilevel moderated mediation model of teacher emotion display, classroom climate, and student emotional intelligence on academic risk-taking",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1882004",
+      "summary": "IntroductionThis study examines the association between teacher emotional display and students’ academic risk-taking behavior, focusing on the mediating role of classroom climate and the moderating role of student emotional intelligence.MethodsData were collected from 419 undergraduate students nest",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "Grandparenting, intergenerational coparenting, and mental health of vulnerable children in Chinese families: risks, resilience, and clinical implications",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1934788",
-      "summary": "In China, grandparents serve as primary or co-caregivers for millions of children, particularly those separated from rural-to-urban migrant parents. This short communication synthesizes evidence on how grandparenting quality and intergenerational coparenting dynamics shape the mental health outcomes",
+      "title": "Psychometric properties of the Turkish version of the Flexible or Rigid Control of Eating Scale in women",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1826677",
+      "summary": "BackgroundEating control is a central construct in eating disorder research; however, existing measures often insufficiently capture its multidimensional nature and rarely distinguish rigid and flexible regulatory styles. The Flexible or Rigid Control of Eating Scale (FORCES) was developed to addres",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "Basic psychological need satisfaction and creativity among university students: the mediating role of intrinsic motivation",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1940043",
-      "summary": "Creativity has received considerable attention as a core competency in higher education, yet the psychological processes associated with everyday creative ideation remain insufficiently understood. Drawing on self-determination theory and the componential theory of creativity, this study examined th",
+      "title": "Bullying, cyberbullying, and social network addiction among adolescents with typical and non-typical development in Omani schools",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1865563",
+      "summary": "IntroductionResearch on the prevalence of school bullying, cyberbullying, and social network addiction in Arab countries is limited. In Oman, these issues are of significant concern due to the country’s unique sociocultural context.MethodsThis cross-sectional study examines the prevalence and associ",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
@@ -1033,64 +1029,64 @@
   ],
   "misinfo_toilet": [
     {
-      "headline": "A Lone Juror Hijacked Deliberations. This Time, a Man Faces Execution.",
-      "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
-      "splice": "A Lone Juror Hijacked Deliberations. This Time, a Man Faces Execution. despite the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
-      "seed": 20260937
+      "headline": "Tracking a Sanctioned Russian Vessel’s West African Odyssey",
+      "fragment": "There is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
+      "splice": "Tracking a Sanctioned Russian Vessel’s West African Odyssey within which there is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
+      "seed": 20260928
     },
     {
-      "headline": "Displaced Syrians dig through hills of garbage to make a living",
-      "fragment": "The truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
-      "splice": "Displaced Syrians dig through hills of garbage to make a living while the truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
-      "seed": 20260938
+      "headline": "Ninth woman's body found as South African police investigate string of deaths",
+      "fragment": "The simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
+      "splice": "Ninth woman's body found as South African police investigate string of deaths consequently the simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
+      "seed": 20260929
+    },
+    {
+      "headline": "Why is inflation rising again around the world?",
+      "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
+      "splice": "Why is inflation rising again around the world? which is to say the breast is a machine that produces milk, and the mouth a machine coupled to it.",
+      "seed": 20260930
     },
     {
       "headline": "NYPD Misconduct Payouts Still Soar Under Mamdani — And May Keep Growing",
-      "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
-      "splice": "NYPD Misconduct Payouts Still Soar Under Mamdani — And May Keep Growing despite the revolutionary lives in the gap which separates technical progress from social totality.",
-      "seed": 20260939
-    },
-    {
-      "headline": "Efforts underway for Zelenskyy-Trump meeting at UN next week",
-      "fragment": "The truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
-      "splice": "Efforts underway for Zelenskyy-Trump meeting at UN next week as if the truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
-      "seed": 20260940
-    },
-    {
-      "headline": "OpenAI boss says world 'right to be afraid' but should trust AI firms",
-      "fragment": "We live in a world where there is more and more information, and less and less meaning.",
-      "splice": "OpenAI boss says world 'right to be afraid' but should trust AI firms while we live in a world where there is more and more information, and less and less meaning.",
-      "seed": 20260941
-    },
-    {
-      "headline": "Syria abolishes al-Assad-era ‘terrorism’ court as Kurdish tensions flare",
-      "fragment": "It is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
-      "splice": "Syria abolishes al-Assad-era ‘terrorism’ court as Kurdish tensions flare the signal resolves into it is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
-      "seed": 20260942
-    },
-    {
-      "headline": "Investigating a Murder: Public Records Uncover New Clues in Chinatown Cold Case",
-      "fragment": "In the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
-      "splice": "Investigating a Murder: Public Records Uncover New Clues in Chinatown Cold Case meanwhile in the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
-      "seed": 20260943
-    },
-    {
-      "headline": "EU chief backs plan for Canada to become 'associate member'",
-      "fragment": "The current ruling ontology denies any possibility of a social causation of mental illness. The chemico-biologization of mental illness is of course strictly commensurate with its depoliticization.",
-      "splice": "EU chief backs plan for Canada to become 'associate member' because the current ruling ontology denies any possibility of a social causation of mental illness. The chemico-biologization of mental illness is of course strictly commensurate with its depoliticization.",
-      "seed": 20260944
+      "fragment": "The technocrat is the natural friend of the dictator—computers and dictatorship.",
+      "splice": "NYPD Misconduct Payouts Still Soar Under Mamdani — And May Keep Growing as if the technocrat is the natural friend of the dictator—computers and dictatorship.",
+      "seed": 20260931
     },
     {
       "headline": "Bellingcat Official Merch Design Contest",
-      "fragment": "Art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
-      "splice": "Bellingcat Official Merch Design Contest underneath art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
-      "seed": 20260945
+      "fragment": "Reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
+      "splice": "Bellingcat Official Merch Design Contest despite reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
+      "seed": 20260932
     },
     {
-      "headline": "Eight children among 21 killed after war-damaged Gaza building collapses, rescuers say",
-      "fragment": "Simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
-      "splice": "Eight children among 21 killed after war-damaged Gaza building collapses, rescuers say within which simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
-      "seed": 20260946
+      "headline": "UK charities, protest groups condemn Israeli ban threat after sanctions",
+      "fragment": "The truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
+      "splice": "UK charities, protest groups condemn Israeli ban threat after sanctions insofar as the truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
+      "seed": 20260933
+    },
+    {
+      "headline": "Lebanon security talks in Paris to focus on post-UNIFIL alternatives",
+      "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
+      "splice": "Lebanon security talks in Paris to focus on post-UNIFIL alternatives underneath the breast is a machine that produces milk, and the mouth a machine coupled to it.",
+      "seed": 20260934
+    },
+    {
+      "headline": "Crypto Darling Gillibrand’s 11th-Hour Flip-Flop Helps Block Trump Crypto Bill",
+      "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "splice": "Crypto Darling Gillibrand’s 11th-Hour Flip-Flop Helps Block Trump Crypto Bill despite the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "seed": 20260935
+    },
+    {
+      "headline": "Facing Outraged Residents, Flock Got Help From Group That Uses AI to Rally Public Support",
+      "fragment": "The truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
+      "splice": "Facing Outraged Residents, Flock Got Help From Group That Uses AI to Rally Public Support while the truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
+      "seed": 20260936
+    },
+    {
+      "headline": "NBA star Irving pledges to pay Al-Shaair’s NFL fine over Hind Rajab message",
+      "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
+      "splice": "NBA star Irving pledges to pay Al-Shaair’s NFL fine over Hind Rajab message despite the revolutionary lives in the gap which separates technical progress from social totality.",
+      "seed": 20260937
     }
   ]
 }
