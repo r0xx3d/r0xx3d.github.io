@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T16:03:32.111Z",
+  "generated_at": "2026-09-18T20:36:59.603Z",
   "threat_intel": {
     "cisa_kev": [
       {
@@ -32,6 +32,22 @@
         "notes": "This vulnerability affects an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: ; https://git.kernel.org/stable/c/bf84ad7c7a9ede46e31afaa41a1ba06a159e8c87; https://git.kernel.org/stable/c/76280b78cc9f23bdc6438e10ad6dff148ef8375b; https://git.kernel.org/stable/c/b7e91939ba9be805a62a257fa4e227dffbb88fa0; https://git.kernel.org/stable/c/afd64b59c3de9bbbdd3759e834fdc55cda716e0b; https://git.kernel.org/stable/c/153ea96c806aea395daba907a4f88480b6ad5093; https://git.kernel.org/stable/c/b18675263db1147c8e1cab625400c13a0d87bd2d; https://git.kernel.org/stable/c/c9b5ff59feffb92a147a84a5aa28acd2cb8ff4c5; https://git.kernel.org/stable/c/67ba971ae02514d85818fe0c32549ab4bfa3bf49 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-53266",
         "cwes": [
           "CWE-787"
+        ]
+      },
+      {
+        "cveID": "CVE-2025-39682",
+        "vendorProject": "Linux",
+        "product": "Kernel",
+        "vulnerabilityName": "Linux Kernel Improper Check for Unusual or Exceptional Conditions Vulnerability",
+        "dateAdded": "2026-09-18",
+        "shortDescription": "Linux Kernel contains an improper check for unusual or exceptional conditions vulnerability in the TLS receive path which allows a zero-length record retrieved from the rx_list to bypass the intended recvmsg() record-type handling, potentially causing subsequent TLS records to be processed using incorrect zero-copy and queuing assumptions. The impacted product(s) could be end-of-life (EoL) and/or end-of-service (EoS). Users are advised to discontinue use and/or transition to a supported version.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-09-21",
+        "knownRansomwareCampaignUse": "Unknown",
+        "forensicTriage": "Yes",
+        "notes": "This vulnerability affects an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: ; https://git.kernel.org/stable/c/2902c3ebcca52ca845c03182000e8d71d3a5196f; https://git.kernel.org/stable/c/c09dd3773b5950e9cfb6c9b9a5f6e36d06c62677; https://git.kernel.org/stable/c/3439c15ae91a517cf3c650ea15a8987699416ad9; https://git.kernel.org/stable/c/29c0ce3c8cdb6dc5d61139c937f34cb888a6f42e; https://git.kernel.org/stable/c/62708b9452f8eb77513115b17c4f8d1a22ebf843 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2025-39682",
+        "cwes": [
+          "CWE-754"
         ]
       },
       {
@@ -227,29 +243,13 @@
           "CWE-122",
           "CWE-787"
         ]
-      },
-      {
-        "cveID": "CVE-2026-87491",
-        "vendorProject": "Google",
-        "product": "Chromium V8",
-        "vulnerabilityName": "Google Chromium V8 Out of Bounds Write Vulnerability",
-        "dateAdded": "2026-09-09",
-        "shortDescription": "Google Chromium V8 contains an out of bounds write vulnerability that allows a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. This vulnerability could affect multiple web browsers that utilize Chromium, including, but not limited to, Google Chrome, Microsoft Edge, and Opera.",
-        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "dueDate": "2026-09-23",
-        "knownRansomwareCampaignUse": "Unknown",
-        "forensicTriage": "No",
-        "notes": "https://chromereleases.googleblog.com/2026/09/stable-channel-update-for-desktop_0808145027.html ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-87491 ",
-        "cwes": [
-          "CWE-787"
-        ]
       }
     ],
     "urlhaus": [
       {
-        "id": "3918623",
-        "date_added": "2026-09-18 15:51:15",
-        "url": "http://112.239.101.210:52848/i",
+        "id": "3918659",
+        "date_added": "2026-09-18 20:04:23",
+        "url": "http://42.231.201.3:41551/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -260,301 +260,380 @@
         ]
       },
       {
-        "id": "3918622",
-        "date_added": "2026-09-18 15:50:17",
-        "url": "http://42.230.33.233:54464/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3918621",
-        "date_added": "2026-09-18 15:39:17",
-        "url": "http://182.113.212.56:33107/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3918606",
-        "date_added": "2026-09-18 15:34:24",
-        "url": "http://176.65.139.206/main_x86_64",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "elf",
-          "mirai",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3918607",
-        "date_added": "2026-09-18 15:34:24",
-        "url": "http://176.65.139.206/main_ppc",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "elf",
-          "mirai",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3918608",
-        "date_added": "2026-09-18 15:34:24",
-        "url": "http://176.65.139.206/main_mips",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "elf",
-          "mirai",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3918609",
-        "date_added": "2026-09-18 15:34:24",
-        "url": "http://176.65.139.206/main_arm7",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "elf",
-          "mirai",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3918610",
-        "date_added": "2026-09-18 15:34:24",
-        "url": "http://46.151.182.200/arm5",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "elf",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3918611",
-        "date_added": "2026-09-18 15:34:24",
-        "url": "http://46.151.182.200/i686",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "elf",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3918612",
-        "date_added": "2026-09-18 15:34:24",
-        "url": "http://46.151.182.200/arc",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "elf",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3918613",
-        "date_added": "2026-09-18 15:34:24",
-        "url": "http://46.151.182.200/i586",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "elf",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3918614",
-        "date_added": "2026-09-18 15:34:24",
-        "url": "http://46.151.182.200/mips",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "elf",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3918615",
-        "date_added": "2026-09-18 15:34:24",
-        "url": "http://46.151.182.200/sparc",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "elf",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3918616",
-        "date_added": "2026-09-18 15:34:24",
-        "url": "http://46.151.182.200/mipsel",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "elf",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3918617",
-        "date_added": "2026-09-18 15:34:24",
-        "url": "http://46.151.182.200/m68k",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "elf",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3918618",
-        "date_added": "2026-09-18 15:34:24",
-        "url": "http://46.151.182.200/arm4",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "elf",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3918619",
-        "date_added": "2026-09-18 15:34:24",
-        "url": "http://46.151.182.200/ppc",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "elf",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3918620",
-        "date_added": "2026-09-18 15:34:24",
-        "url": "http://46.151.182.200/arm6",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "elf",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3918600",
-        "date_added": "2026-09-18 15:34:19",
-        "url": "http://176.65.139.206/main_arm",
+        "id": "3918657",
+        "date_added": "2026-09-18 20:02:09",
+        "url": "http://62.60.226.140/files/7782139129/8I85ZiR.exe",
         "url_status": "offline",
         "threat": "malware_download",
         "tags": [
-          "elf",
-          "ua-wget"
+          "d52f85",
+          "dropped-by-amadey"
         ]
       },
       {
-        "id": "3918601",
-        "date_added": "2026-09-18 15:34:19",
-        "url": "http://176.65.139.206/main_x86",
+        "id": "3918658",
+        "date_added": "2026-09-18 20:02:09",
+        "url": "http://62.60.226.140/files/7782139129/ICc4pxM.exe",
         "url_status": "offline",
         "threat": "malware_download",
         "tags": [
+          "d52f85",
+          "dropped-by-amadey"
+        ]
+      },
+      {
+        "id": "3918656",
+        "date_added": "2026-09-18 19:34:16",
+        "url": "http://105.184.31.186:51557/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "mirai"
+        ]
+      },
+      {
+        "id": "3918655",
+        "date_added": "2026-09-18 19:30:28",
+        "url": "http://182.117.124.53:38038/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
           "elf",
-          "ua-wget"
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3918654",
+        "date_added": "2026-09-18 19:24:18",
+        "url": "http://60.19.240.88:49386/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3918653",
+        "date_added": "2026-09-18 19:17:18",
+        "url": "http://125.65.145.0:52445/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "mirai",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3918652",
+        "date_added": "2026-09-18 19:12:21",
+        "url": "https://genovaw.com/loader/agent/001e07c934e19b9d10f621c6b7546b43b2fb1c7b8fce2625fc7b767dfb626336",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "Amos",
+          "backdoor",
+          "ClickFix",
+          "macho",
+          "macOS",
+          "MacSync",
+          "safeguard-build",
+          "stealer",
+          "token-001e07c9",
+          "UnstoppableDomains",
+          "zsh"
+        ]
+      },
+      {
+        "id": "3918649",
+        "date_added": "2026-09-18 19:12:13",
+        "url": "https://genovaw.com/curl/001e07c934e19b9d10f621c6b7546b43b2fb1c7b8fce2625fc7b767dfb626336",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "Amos",
+          "ClickFix",
+          "macOS",
+          "MacSync",
+          "safeguard-build",
+          "stealer",
+          "token-001e07c9",
+          "UnstoppableDomains",
+          "zsh",
+          "zsh-stage1"
+        ]
+      },
+      {
+        "id": "3918650",
+        "date_added": "2026-09-18 19:12:13",
+        "url": "https://implantdentistrytx.com/curl/b54cc90c9143f757e0ac59356414f14447d5f9cbbae0b0e61cf6b4e8ced28f42",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "Amos",
+          "ClickFix",
+          "macOS",
+          "MacSync",
+          "old-build-mirror",
+          "safeguard-build",
+          "stealer",
+          "token-b54cc90c",
+          "UnstoppableDomains",
+          "zsh",
+          "zsh-stage1"
+        ]
+      },
+      {
+        "id": "3918651",
+        "date_added": "2026-09-18 19:12:13",
+        "url": "http://139.144.207.208/wget",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "cowrie",
+          "honeypot"
+        ]
+      },
+      {
+        "id": "3918648",
+        "date_added": "2026-09-18 19:05:16",
+        "url": "http://105.184.31.186:51557/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "mirai"
+        ]
+      },
+      {
+        "id": "3918647",
+        "date_added": "2026-09-18 19:03:21",
+        "url": "http://125.65.145.0:52445/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "mirai",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3918646",
+        "date_added": "2026-09-18 19:00:29",
+        "url": "http://180.190.108.2:59238/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "mirai",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3918645",
+        "date_added": "2026-09-18 18:49:18",
+        "url": "http://180.190.108.2:59238/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "mirai",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3918643",
+        "date_added": "2026-09-18 18:47:21",
+        "url": "http://58.65.210.9:32979/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "mirai",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3918644",
+        "date_added": "2026-09-18 18:47:21",
+        "url": "http://105.186.118.54:40687/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "mirai",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3918642",
+        "date_added": "2026-09-18 18:24:21",
+        "url": "http://58.65.210.9:32979/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "mirai",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3918641",
+        "date_added": "2026-09-18 18:14:23",
+        "url": "http://219.156.99.138:35757/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "mirai",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3918640",
+        "date_added": "2026-09-18 18:09:12",
+        "url": "http://62.60.226.140/files/8824255239/kdXmkaA.exe",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "d52f85",
+          "dropped-by-amadey"
         ]
       }
     ]
   },
   "world_monitor": [
     {
-      "title": "Nigerian forces fire at protesters rallying over deaths of detained miners",
-      "link": "https://www.aljazeera.com/news/2026/9/18/nigerian-forces-fire-at-protesters-rallying-over-deaths-of-detained-miners?traffic_source=rss",
-      "pubDate": "Fri, 18 Sep 2026 15:45:45 +0000",
-      "source": "Al Jazeera",
-      "summary": "Government has promised to fully investigate after 37 miners died while being held in police custody in Niger State."
-    },
-    {
-      "title": "37 Miners in Nigeria Die in Police Custody, Sparking Protests",
-      "link": "https://www.nytimes.com/2026/09/18/world/africa/nigeria-miners-dead-police-minna.html",
-      "pubDate": "Fri, 18 Sep 2026 15:27:09 +0000",
-      "source": "NYT World",
-      "summary": "One survivor told The New York Times that dozens were packed into a single cell with barely any ventilation, food, or water."
-    },
-    {
-      "title": "Police hit migrants with batons during camp transfer in Ceuta",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/9/18/police-hit-migrants-with-batons-during-camp-transfer-in-ceuta?traffic_source=rss",
-      "pubDate": "Fri, 18 Sep 2026 15:24:18 +0000",
-      "source": "Al Jazeera",
-      "summary": "Police in Ceuta used batons and fired shots into the air as they began moving migrants from beaches to a new camp."
-    },
-    {
-      "title": "Carrick brushes off questions over his Manchester United future",
-      "link": "https://www.aljazeera.com/sports/2026/9/18/carrick-brushes-off-questions-over-his-manchester-united-future?traffic_source=rss",
-      "pubDate": "Fri, 18 Sep 2026 15:21:45 +0000",
-      "source": "Al Jazeera",
-      "summary": "Michael Carrick says he expected tough season start as he rebuffs questions about his role as Manchester United manager."
-    },
-    {
-      "title": "Russian hybrid attacks against Europe intensifying, says Macron",
-      "link": "https://www.bbc.co.uk/news/articles/cm2dw1w9d3yjo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Fri, 18 Sep 2026 15:14:35 GMT",
+      "title": "Donald Trump says he is banning CNN and Politico from White House",
+      "link": "https://www.bbc.co.uk/news/articles/c6e30580jqjpo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Fri, 18 Sep 2026 20:28:09 GMT",
       "source": "BBC",
-      "summary": "The French president says he has tasked the government with protecting critical infrastructure and defence industry sites."
+      "summary": "The US president has had a tense and fiery relationship with the US media since returning to office."
     },
     {
-      "title": "Why Autocrats Care What People Think",
-      "link": "https://www.nytimes.com/2026/09/18/world/europe/putin-russia-election-ideas.html",
-      "pubDate": "Fri, 18 Sep 2026 15:14:31 +0000",
-      "source": "NYT World",
-      "summary": "Russia is staging an election that matters to almost no one — except President Vladimir V. Putin and his inner circle."
+      "title": "Syria arrests five former al-Assad-era officers over strikes on civilians",
+      "link": "https://www.aljazeera.com/news/2026/9/18/syria-arrests-five-former-al-assad-era-officers-over-strikes-on-civilians?traffic_source=rss",
+      "pubDate": "Fri, 18 Sep 2026 20:20:23 +0000",
+      "source": "Al Jazeera",
+      "summary": "Former air officers, including an air force general, were arrested in a series of operations."
     },
     {
-      "title": "A Central African Hotel Has Become a Nightmare Prison for U.S. Deportations",
-      "link": "https://www.nytimes.com/2026/09/18/world/africa/us-deportation-hotel-equatorial-guinea.html",
-      "pubDate": "Fri, 18 Sep 2026 15:10:35 +0000",
-      "source": "NYT World",
-      "summary": "Witnesses say men were hooded and beaten in Equatorial Guinea. The autocratic government there is a partner in President Trump’s deportation program."
-    },
-    {
-      "title": "At least 17 killed after vehicle loaded with explosives rams Pakistan mosque",
+      "title": "At least 21 killed after vehicle loaded with explosives rams Pakistan mosque",
       "link": "https://www.bbc.co.uk/news/articles/ckn9wenz8wjwo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Fri, 18 Sep 2026 15:08:12 GMT",
+      "pubDate": "Fri, 18 Sep 2026 20:17:50 GMT",
       "source": "BBC",
       "summary": "A four-year-old child is among those killed in the attack, during which gunmen also opened fire on a police facility."
     },
     {
+      "title": "Protests Erupt in Nigeria After Police Pack 66 Miners Into One Cell",
+      "link": "https://www.nytimes.com/2026/09/18/world/africa/nigeria-miners-dead-police-minna.html",
+      "pubDate": "Fri, 18 Sep 2026 19:45:51 +0000",
+      "source": "NYT World",
+      "summary": "Thirty-seven people died in the authorities’ custody, officials said. Survivors said the cell had barely any ventilation, food, or water and people began “collapsing and dying.”"
+    },
+    {
+      "title": "Russia labels Cannes-winning director Andrey Zvyagintsev a ‘foreign agent’",
+      "link": "https://www.aljazeera.com/news/2026/9/18/russia-labels-cannes-winning-director-andrey-zvyagintsev-a-foreign-agent?traffic_source=rss",
+      "pubDate": "Fri, 18 Sep 2026 19:39:16 +0000",
+      "source": "Al Jazeera",
+      "summary": "Acclaimed Russian film director who won 2026 Grand Prix award at Cannes, ⁠has been critical of the war in Ukraine."
+    },
+    {
+      "title": "Lebanese artist turns Israeli missile debris into art",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/9/18/lebanese-artist-turns-israeli-missile-debris-into-art?traffic_source=rss",
+      "pubDate": "Fri, 18 Sep 2026 19:31:32 +0000",
+      "source": "Al Jazeera",
+      "summary": "In southern Lebanon, visual artist Lina Jouni transforms debris from Israeli missile strikes into pieces of art."
+    },
+    {
+      "title": "Trump bans CNN, MS NOW, Politico from the White House for ‘fake news’",
+      "link": "https://www.aljazeera.com/news/2026/9/18/trump-bans-news-outlets-cnn-ms-now-and-politico-from-white-house?traffic_source=rss",
+      "pubDate": "Fri, 18 Sep 2026 19:25:04 +0000",
+      "source": "Al Jazeera",
+      "summary": "The US president insists media outlets report 'fiction and lies' as he enforces new bans on White House access."
+    },
+    {
+      "title": "Two injured by Israeli shelling as troops advance in southern Lebanon",
+      "link": "https://www.aljazeera.com/news/2026/9/18/two-injured-by-israeli-shelling-as-troops-advance-in-southern-lebanon?traffic_source=rss",
+      "pubDate": "Fri, 18 Sep 2026 19:14:41 +0000",
+      "source": "Al Jazeera",
+      "summary": "Israeli forces withdraw from outskirts of a town in southern Lebanon after a standoff with Lebanese forces."
+    },
+    {
+      "title": "A Central African Hotel Has Become a Nightmare Prison for U.S. Deportees",
+      "link": "https://www.nytimes.com/2026/09/18/world/africa/us-deportation-hotel-equatorial-guinea.html",
+      "pubDate": "Fri, 18 Sep 2026 19:06:40 +0000",
+      "source": "NYT World",
+      "summary": "Witnesses say men were hooded and beaten in Equatorial Guinea. The autocratic government there is a partner in President Trump’s deportation program."
+    },
+    {
+      "title": "Is the Kennedy Center losing 'hundreds of millions of dollars'?",
+      "link": "https://www.bbc.co.uk/news/videos/cqy4zw4xr717o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Fri, 18 Sep 2026 18:56:17 GMT",
+      "source": "BBC",
+      "summary": "Records in 2024 show the venue had a surplus of millions of dollars once  contributions and grants had been factored in."
+    },
+    {
+      "title": "Russian hybrid attacks against Europe intensifying, says Macron",
+      "link": "https://www.bbc.co.uk/news/articles/cm2dw1w9d3yjo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Fri, 18 Sep 2026 18:04:38 GMT",
+      "source": "BBC",
+      "summary": "The French president says he has tasked the government with protecting critical infrastructure and defence industry sites."
+    },
+    {
+      "title": "ICE Revives Former “Hellhole” Prison — And Hires the Same Company To Run It",
+      "link": "https://theintercept.com/2026/09/18/leavenworth-kansas-corecivic-prison-ice-staffing/",
+      "pubDate": "Fri, 18 Sep 2026 16:43:48 +0000",
+      "source": "The Intercept",
+      "summary": "At Leavenworth, former workers say CoreCivic made conditions dangerous, which led to a near-death attack.\nThe post ICE Revives Former “Hellhole” Prison — And Hires the Same Company To Run It appeared first on The Intercept."
+    },
+    {
+      "title": "Robert Kraft Claims His Donations Help Palestinians. Turns Out He’s Funding Friends of the IDF.",
+      "link": "https://theintercept.com/2026/09/18/robert-kraft-macklemore-ed-sheeran-israel-donations/",
+      "pubDate": "Fri, 18 Sep 2026 16:16:11 +0000",
+      "source": "The Intercept",
+      "summary": "An analysis of tax forms by The Intercept show Kraft’s charity and LLC have donated to Friends of the IDF and AIPAC’s super PAC.\nThe post Robert Kraft Claims His Donations Help Palestinians. Turns Out He’s Funding Friends of the IDF. appeared first o"
+    },
+    {
+      "title": "F.B.I. Temporarily Halted Cooperation With Canada Over References to 9/11",
+      "link": "https://www.nytimes.com/2026/09/18/us/politics/fbi-canada-cbc-9-11.html",
+      "pubDate": "Fri, 18 Sep 2026 16:04:19 +0000",
+      "source": "NYT World",
+      "summary": "The abrupt move by Kash Patel, the bureau’s director, came as President Trump was ramping up his attacks on the country."
+    },
+    {
+      "title": "Why Autocrats Care What People Think",
+      "link": "https://www.nytimes.com/2026/09/18/world/europe/putin-russia-election-ideas.html",
+      "pubDate": "Fri, 18 Sep 2026 15:14:32 +0000",
+      "source": "NYT World",
+      "summary": "Russia is staging an election that matters to almost no one — except President Vladimir V. Putin and his inner circle."
+    },
+    {
       "title": "German Art Institutions Prepare for a Fight as Far Right Looks to Take Power",
       "link": "https://www.nytimes.com/2026/09/18/world/europe/germany-afd-bauhaus-culture.html",
-      "pubDate": "Fri, 18 Sep 2026 14:51:05 +0000",
+      "pubDate": "Fri, 18 Sep 2026 14:51:06 +0000",
       "source": "NYT World",
       "summary": "As the Alternative for Germany party seeks to control a state government for the first time, its push for “patriotic” art has drawn comparisons with Nazi policies."
-    },
-    {
-      "title": "Real Madrid President says Ceuta visit not related to ‘recent news’",
-      "link": "https://www.aljazeera.com/sports/2026/9/18/real-madrid-president-says-ceuta-visit-not-related-to-recent-news?traffic_source=rss",
-      "pubDate": "Fri, 18 Sep 2026 14:37:30 +0000",
-      "source": "Al Jazeera",
-      "summary": "Real Madrid stars including Kylian Mbappe rolled up T-shirts showing support for Ceuta, but President trip 'unrelated'."
-    },
-    {
-      "title": "Real Madrid’s Kylian Mbappe ends Nike partnership to join Swiss brand On",
-      "link": "https://www.aljazeera.com/sports/2026/9/18/real-madrids-kylian-mbappe-ends-nike-partnership-to-join-swiss-brand-on?traffic_source=rss",
-      "pubDate": "Fri, 18 Sep 2026 14:30:18 +0000",
-      "source": "Al Jazeera",
-      "summary": "On, which is set to launch its first football boots next year, also appointed Thierry Henry as its football director."
     },
     {
       "title": "Apocalypse Now: Naomi Klein and Astra Taylor Investigate the End-Timers Alliance",
@@ -564,32 +643,11 @@
       "summary": "What’s driving religious fundamentalists, tech accelerationists, and anti-immigrant ethnonationalists to bring about the end of the world?\nThe post Apocalypse Now: Naomi Klein and Astra Taylor Investigate the End-Timers Alliance appeared first on The"
     },
     {
-      "title": "Police begin operation to move migrants from Ceuta beaches",
+      "title": "Shots heard as police start moving migrants from Ceuta beaches",
       "link": "https://www.bbc.co.uk/news/articles/c6vgy80ge1z7o?at_medium=RSS&at_campaign=rss",
       "pubDate": "Fri, 18 Sep 2026 11:59:42 GMT",
       "source": "BBC",
       "summary": "Police reportedly fired into the air on Friday morning as they struggled to contain crowds jostling to secure a place at the tented site."
-    },
-    {
-      "title": "Lindsay Clancy holdout juror says he had no doubt she deliberately killed her children",
-      "link": "https://www.bbc.co.uk/news/articles/c54g7jdmw032o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Fri, 18 Sep 2026 11:49:46 GMT",
-      "source": "BBC",
-      "summary": "It is the first time the juror, who refused to side with the others and acquit Clancy, has spoken publicly about his decision."
-    },
-    {
-      "title": "Three dead and eight injured in Philippines school shooting",
-      "link": "https://www.bbc.co.uk/news/articles/c6x2z4dlzyr0o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Fri, 18 Sep 2026 11:01:46 GMT",
-      "source": "BBC",
-      "summary": "The gunman is among the dead in what is the third school shooting in the country since June."
-    },
-    {
-      "title": "Saint Pierre and Miquelon, France, In the Spotlight as Macron and Carney Visit",
-      "link": "https://www.nytimes.com/2026/09/18/world/canada/saint-pierre-miquelon-france-canada-macron-carney.html",
-      "pubDate": "Fri, 18 Sep 2026 09:02:50 +0000",
-      "source": "NYT World",
-      "summary": "Saint Pierre and Miquelon, the French territory off the coast of Canada’s Newfoundland, is experiencing a surge in visitors after three unrelated events raised its profile."
     },
     {
       "title": "Pete Hegseth’s Unholy War",
@@ -604,20 +662,6 @@
       "pubDate": "Thu, 17 Sep 2026 09:30:00 +0000",
       "source": "The Intercept",
       "summary": "Beset by critics in Knoxville, Flock partnered with a nonprofit accused of “astroturfing” for a campaign to generate support for its surveillance cameras.\nThe post Facing Outraged Residents, Flock Got Help From Group That Uses AI to Rally Public Supp"
-    },
-    {
-      "title": "The New York Times Conveniently Forgets the Real Stakes of Attacks on Free Speech",
-      "link": "https://theintercept.com/2026/09/16/new-york-times-trump-free-speech-press-threat/",
-      "pubDate": "Wed, 16 Sep 2026 19:44:28 +0000",
-      "source": "The Intercept",
-      "summary": "The paper published a long recounting of Trump’s attacks on the press, without ever mentioning Israel, Gaza, or ICE.\nThe post The New York Times Conveniently Forgets the Real Stakes of Attacks on Free Speech appeared first on The Intercept."
-    },
-    {
-      "title": "Ed Sheeran’s Craven “Neutrality” Is a Watershed Moment for Mainstreaming Palestine Solidarity",
-      "link": "https://theintercept.com/2026/09/16/ed-sheeran-israel-palestine-macklemore/",
-      "pubDate": "Wed, 16 Sep 2026 17:23:48 +0000",
-      "source": "The Intercept",
-      "summary": "Ed Sheeran’s entire tour quitting in solidarity with Palestine and Macklemore proves the logic of BDS.\nThe post Ed Sheeran’s Craven “Neutrality” Is a Watershed Moment for Mainstreaming Palestine Solidarity appeared first on The Intercept."
     },
     {
       "title": "“A Recurring Pattern”: Civilians Paying the Price in Mali’s Drone Campaign",
@@ -722,20 +766,52 @@
   ],
   "syndicate_journal": [
     {
+      "title": "The “Most Complete” Mastodon Tooth Ever Found",
+      "link": "https://nautil.us/the-most-complete-mastodon-tooth-ever-found-1285135/",
+      "summary": "Peering 10,000 years into the past\nThe post The “Most Complete” Mastodon Tooth Ever Found appeared first on Nautilus.",
+      "pubDate": "Fri, 18 Sep 2026 20:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "Debating Victor Serge",
+      "link": "",
+      "summary": "When I began writing , I expected to write a biography in keeping with the image common on the left of Serge as an uncompromising enemy of Stalinism who never fell into anti-communism and fought all his life for revolutionary socialism. This is what we find in the many writings of Richard Greeman, w",
+      "pubDate": "2026-09-18T19:58:05.363Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "This Stray Cat Turned Out to Be the First New Cat Species Discovered in Over a Century",
+      "link": "https://nautil.us/this-stray-cat-turned-out-to-be-the-first-new-cat-species-discovered-in-over-a-century-1285132/",
+      "summary": "It was living on a diet of rice, noodles, and eggs\nThe post This Stray Cat Turned Out to Be the First New Cat Species Discovered in Over a Century appeared first on Nautilus.",
+      "pubDate": "Fri, 18 Sep 2026 18:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "Texas Wasn’t Always a Right-Wing Evangelical Powerhouse",
+      "link": "",
+      "summary": "There’s a common view of religious history that holds that the further back you go, the stronger the smell of brimstone and the more conservative the beliefs. It isn’t true, and it obscures how much the human hand makes the world, including our ideas of the sacred. Joseph L. Locke’s   is an importan",
+      "pubDate": "2026-09-18T16:24:55.304Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "Muscle Loss is a Big Warning Sign of Dementia",
+      "link": "https://nautil.us/muscle-loss-is-a-big-warning-sign-of-dementia-1285125/",
+      "summary": "But obesity has a more complicated relationship with the disease\nThe post Muscle Loss is a Big Warning Sign of Dementia appeared first on Nautilus.",
+      "pubDate": "Fri, 18 Sep 2026 16:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
       "title": "Frances Stonor Saunders Exposed the Cultural Cold War",
       "link": "",
       "summary": "With her landmark 1999 debut, , Frances Stonor Saunders “single-handedly established a new branch of sub-history,” as novelist Ian McEwan observed. The book won many accolades, though sympathizers of Western anti-communism clamored to downplay its revelations: that between 1950 and 1967, intelligenc",
       "pubDate": "2026-09-18T15:00:05.158Z",
       "domain": "politics",
       "source": "Jacobin"
-    },
-    {
-      "title": "Is This Massive New Study on the Benefits of Whole Grains Part of the “War on Protein” RFK Jr. is Ending?",
-      "link": "https://nautil.us/is-this-massive-new-study-on-the-benefits-of-whole-grains-part-of-the-war-on-protein-rfk-jr-is-ending-1285119/",
-      "summary": "When it comes to whole grains and health, a new analysis suggests the more the better\nThe post Is This Massive New Study on the Benefits of Whole Grains Part of the “War on Protein” RFK Jr. is Ending? appeared first on Nautilus.",
-      "pubDate": "Fri, 18 Sep 2026 14:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
     },
     {
       "title": "Mathematicians Build Long-Awaited Graph Sandwich",
@@ -752,30 +828,6 @@
       "pubDate": "Fri, 18 Sep 2026 13:42:42 +0000",
       "domain": "history",
       "source": "JSTOR Daily"
-    },
-    {
-      "title": "Is Trump Crashing the Dollar Empire?",
-      "link": "",
-      "summary": "With more than half of global trade conducted in dollars, the United States is still the world’s largest economy as well as its dominant military and political power. But Donald Trump, in his second presidential term, has put both these facts at unprecedented risk, using America’s global position fo",
-      "pubDate": "2026-09-18T13:30:00.000Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
-      "title": "Social Democracy Won the Century and Lost the Future",
-      "link": "",
-      "summary": "On Sunday, Sweden’s Social Democratic Party (SAP) emerged as the largest party in an election that will be remembered for all the wrong reasons. Magdalena Andersson is poised to return as prime minister, with her four-party bloc holding a one-seat majority in a 349-seat Riksdag. The SAP won just 28 ",
-      "pubDate": "2026-09-18T12:47:11.290Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
-      "title": "You Have Two Brains, Not One",
-      "link": "https://nautil.us/you-have-two-brains-not-one-1285111/",
-      "summary": "Being of two minds may be more than just an idiom\nThe post You Have Two Brains, Not One appeared first on Nautilus.",
-      "pubDate": "Fri, 18 Sep 2026 12:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
     },
     {
       "title": "Cosmic amnesia",
@@ -808,14 +860,6 @@
       "pubDate": "Fri, 18 Sep 2026 00:00:00 -0400",
       "domain": "science",
       "source": "arXiv: cs.AI"
-    },
-    {
-      "title": "Humpback Whales Grieve for Lost Offspring, Video Evidence Shows",
-      "link": "https://nautil.us/humpback-whales-grieve-for-lost-offspring-video-evidence-shows-1285114/",
-      "summary": "Behavior we’ve never seen before\nThe post Humpback Whales Grieve for Lost Offspring, Video Evidence Shows appeared first on Nautilus.",
-      "pubDate": "Thu, 17 Sep 2026 22:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
     },
     {
       "title": "Where Does the Quantum World End and Ours Begin?",
@@ -986,25 +1030,25 @@
       "source": "ROAR Magazine"
     },
     {
-      "title": "How key opinion leader characteristics influence women’s participation in soccer referee training",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1938303",
-      "summary": "IntroductionDrawing on the Stimulus–Organism–Response (SOR) framework, this study developed a theoretical model linking key opinion leader (KOL) characteristics,perceived value, perceived fit, participation intention, and participation behavior to examine how key opinion leaders influence women’s pa",
+      "title": "Exploring the effects of digital literacy training on college students’ self-leadership: a longitudinal randomized controlled trial",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1954656",
+      "summary": "ObjectiveSelf-leadership is recognized as a critical self-regulatory capacity for academic success and personal development. While prior correlational studies have linked digital literacy to self-regulated learning, experimental evidence for a potential directional pathway from digital literacy enha",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "The double-edged sword of rotational shift work: a qualitative study of worker perceptions in Saudi Arabia",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1871679",
-      "summary": "BackgroundRotational shift work is a defining feature of 24/7 industries, yet its psychological consequences remain poorly understood, particularly outside Western healthcare contexts.MethodsGrounded in the Job Demands-Resources (JD-R) framework, this qualitative phenomenological study examined how ",
+      "title": "Evaluation of primary school teachers’ use and perceptions of artificial intelligence in primary school mathematics instruction: a mixed-methods study",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1741116",
+      "summary": "IntroductionThis study examined primary school teachers’ reported perceptions and self-reported uses of artificial intelligence (AI) in primary school mathematics instruction, with particular attention to how perceptions vary according to teachers’ demographic characteristics and AI-related experien",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "Sport specialization predicts athletic identity exclusivity in youth athletes: a three-wave RI-CLPM study of controlling coaching and non-sport peer restriction with implications for adolescent care",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1933284",
-      "summary": "BackgroundSport specialization has usually been examined through biomedical outcomes such as overuse injury, burnout, and premature dropout. Less is known about whether specialization is prospectively associated with adolescent identity development by narrowing opportunities for exploration beyond s",
+      "title": "Cognitive and existential-motivational pathways from empathy to prosocial behavior: a parallel mediation study in a Chinese university sample",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1912571",
+      "summary": "ObjectiveThis study examined a parallel mediation model in which empathy was hypothesized to be associated with prosocial behavior through two theoretically distinct pathways: a capability-oriented pathway via self-efficacy and an existential-motivational pathway via meaning in life, among Chinese u",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
@@ -1012,64 +1056,64 @@
   ],
   "misinfo_toilet": [
     {
-      "headline": "Bellingcat Official Merch Design Contest",
-      "fragment": "The truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
-      "splice": "Bellingcat Official Merch Design Contest insofar as the truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
-      "seed": 20260934
-    },
-    {
-      "headline": "Nigerian forces fire at protesters rallying over deaths of detained miners",
-      "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "splice": "Nigerian forces fire at protesters rallying over deaths of detained miners underneath the breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "seed": 20260935
-    },
-    {
-      "headline": "Facing Outraged Residents, Flock Got Help From Group That Uses AI to Rally Public Support",
-      "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
-      "splice": "Facing Outraged Residents, Flock Got Help From Group That Uses AI to Rally Public Support despite the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
-      "seed": 20260936
-    },
-    {
-      "headline": "At least 17 killed after vehicle loaded with explosives rams Pakistan mosque",
-      "fragment": "The truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
-      "splice": "At least 17 killed after vehicle loaded with explosives rams Pakistan mosque while the truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
-      "seed": 20260937
-    },
-    {
-      "headline": "Ed Sheeran’s Craven “Neutrality” Is a Watershed Moment for Mainstreaming Palestine Solidarity",
-      "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
-      "splice": "Ed Sheeran’s Craven “Neutrality” Is a Watershed Moment for Mainstreaming Palestine Solidarity despite the revolutionary lives in the gap which separates technical progress from social totality.",
+      "headline": "Protests Erupt in Nigeria After Police Pack 66 Miners Into One Cell",
+      "fragment": "Why do men fight for their servitude as stubbornly as though it were their salvation?",
+      "splice": "Protests Erupt in Nigeria After Police Pack 66 Miners Into One Cell within which why do men fight for their servitude as stubbornly as though it were their salvation?",
       "seed": 20260938
     },
     {
-      "headline": "37 Miners in Nigeria Die in Police Custody, Sparking Protests",
-      "fragment": "The truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
-      "splice": "37 Miners in Nigeria Die in Police Custody, Sparking Protests as if the truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
+      "headline": "Lebanese artist turns Israeli missile debris into art",
+      "fragment": "The simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
+      "splice": "Lebanese artist turns Israeli missile debris into art insofar as the simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
       "seed": 20260939
     },
     {
-      "headline": "Tracking a Sanctioned Russian Vessel’s West African Odyssey",
-      "fragment": "We live in a world where there is more and more information, and less and less meaning.",
-      "splice": "Tracking a Sanctioned Russian Vessel’s West African Odyssey while we live in a world where there is more and more information, and less and less meaning.",
+      "headline": "Investigating a Murder: Public Records Uncover New Clues in Chinatown Cold Case",
+      "fragment": "There is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
+      "splice": "Investigating a Murder: Public Records Uncover New Clues in Chinatown Cold Case within which there is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
       "seed": 20260940
     },
     {
-      "headline": "The New York Times Conveniently Forgets the Real Stakes of Attacks on Free Speech",
-      "fragment": "It is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
-      "splice": "The New York Times Conveniently Forgets the Real Stakes of Attacks on Free Speech the signal resolves into it is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
+      "headline": "“A Recurring Pattern”: Civilians Paying the Price in Mali’s Drone Campaign",
+      "fragment": "The privatization of the organs will only begin with the shame felt by man at the sight of man.",
+      "splice": "“A Recurring Pattern”: Civilians Paying the Price in Mali’s Drone Campaign therefore the privatization of the organs will only begin with the shame felt by man at the sight of man.",
       "seed": 20260941
     },
     {
-      "headline": "Investigating a Murder: Public Records Uncover New Clues in Chinatown Cold Case",
-      "fragment": "In the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
-      "splice": "Investigating a Murder: Public Records Uncover New Clues in Chinatown Cold Case meanwhile in the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
+      "headline": "Syria arrests five former al-Assad-era officers over strikes on civilians",
+      "fragment": "Simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
+      "splice": "Syria arrests five former al-Assad-era officers over strikes on civilians because simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
       "seed": 20260942
     },
     {
-      "headline": "Three dead and eight injured in Philippines school shooting",
-      "fragment": "The current ruling ontology denies any possibility of a social causation of mental illness. The chemico-biologization of mental illness is of course strictly commensurate with its depoliticization.",
-      "splice": "Three dead and eight injured in Philippines school shooting because the current ruling ontology denies any possibility of a social causation of mental illness. The chemico-biologization of mental illness is of course strictly commensurate with its depoliticization.",
+      "headline": "Bellingcat Official Merch Design Contest",
+      "fragment": "Over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
+      "splice": "Bellingcat Official Merch Design Contest which is to say over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
       "seed": 20260943
+    },
+    {
+      "headline": "At least 21 killed after vehicle loaded with explosives rams Pakistan mosque",
+      "fragment": "It is at work everywhere, functioning smoothly at times, at other times in fits and starts. It breathes, it heats, it eats. It shits and fucks.",
+      "splice": "At least 21 killed after vehicle loaded with explosives rams Pakistan mosque not unlike it is at work everywhere, functioning smoothly at times, at other times in fits and starts. It breathes, it heats, it eats. It shits and fucks.",
+      "seed": 20260944
+    },
+    {
+      "headline": "A Central African Hotel Has Become a Nightmare Prison for U.S. Deportees",
+      "fragment": "It is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
+      "splice": "A Central African Hotel Has Become a Nightmare Prison for U.S. Deportees the system notes that it is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
+      "seed": 20260945
+    },
+    {
+      "headline": "Apocalypse Now: Naomi Klein and Astra Taylor Investigate the End-Timers Alliance",
+      "fragment": "Over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
+      "splice": "Apocalypse Now: Naomi Klein and Astra Taylor Investigate the End-Timers Alliance while over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
+      "seed": 20260946
+    },
+    {
+      "headline": "Why Autocrats Care What People Think",
+      "fragment": "The truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
+      "splice": "Why Autocrats Care What People Think insofar as the truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
+      "seed": 20260947
     }
   ]
 }
