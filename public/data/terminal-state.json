@@ -1,7 +1,23 @@
 {
-  "generated_at": "2026-09-21T12:20:07.871Z",
+  "generated_at": "2026-09-21T19:53:46.942Z",
   "threat_intel": {
     "cisa_kev": [
+      {
+        "cveID": "CVE-2026-7273",
+        "vendorProject": "Zyxel",
+        "product": "GS1900 Series Switches",
+        "vulnerabilityName": "Zyxel GS1900 Series Switches Stack-Based Buffer Overflow Vulnerability",
+        "dateAdded": "2026-09-21",
+        "shortDescription": "Zyxel GS1900 series switches contain a stack-based buffer overflow vulnerability in the CGI program which could allow a LAN-based, unauthenticated attacker to exploit the flaw and potentially execute OS commands via a crafted HTTP request.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-09-24",
+        "knownRansomwareCampaignUse": "Unknown",
+        "forensicTriage": "Yes",
+        "notes": "https://www.zyxel.com/global/en/support/security-advisories/zyxel-security-advisory-for-stack-based-buffer-overflow-vulnerability-in-gs1900-series-switches-06-16-2026 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-7273",
+        "cwes": [
+          "CWE-121"
+        ]
+      },
       {
         "cveID": "CVE-2025-39964",
         "vendorProject": "Linux",
@@ -226,60 +242,13 @@
         "cwes": [
           "CWE-288"
         ]
-      },
-      {
-        "cveID": "CVE-2025-25249",
-        "vendorProject": "Fortinet",
-        "product": "Multiple Products",
-        "vulnerabilityName": "Fortinet Multiple Products Heap-based Buffer Overflow Vulnerability",
-        "dateAdded": "2026-09-09",
-        "shortDescription": "Fortinet FortiOS, FortiSwitchManager, and FortiSASE contain a heap-based buffer overflow vulnerability that allows an attacker to execute unauthorized code or commands via specially crafted packets.",
-        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "dueDate": "2026-09-12",
-        "knownRansomwareCampaignUse": "Unknown",
-        "forensicTriage": "Yes",
-        "notes": "https://fortiguard.fortinet.com/psirt/FG-IR-25-084 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2025-25249",
-        "cwes": [
-          "CWE-122",
-          "CWE-787"
-        ]
       }
     ],
     "urlhaus": [
       {
-        "id": "3919973",
-        "date_added": "2026-09-21 12:05:18",
-        "url": "http://182.191.69.89:57535/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3919971",
-        "date_added": "2026-09-21 12:05:15",
-        "url": "http://58.65.210.245:55712/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "mirai"
-        ]
-      },
-      {
-        "id": "3919972",
-        "date_added": "2026-09-21 12:05:15",
-        "url": "http://115.48.149.116:37345/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3919969",
-        "date_added": "2026-09-21 11:49:15",
-        "url": "http://119.116.87.232:48737/bin.sh",
+        "id": "3920259",
+        "date_added": "2026-09-21 19:47:16",
+        "url": "http://125.118.23.70:55415/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -287,74 +256,69 @@
         ]
       },
       {
-        "id": "3919970",
-        "date_added": "2026-09-21 11:49:15",
-        "url": "http://105.186.183.234:37999/i",
+        "id": "3920257",
+        "date_added": "2026-09-21 19:47:14",
+        "url": "http://59.96.140.242:56865/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "mirai"
+          "None"
         ]
       },
       {
-        "id": "3919968",
-        "date_added": "2026-09-21 11:45:18",
-        "url": "http://176.65.139.206/hiddenbin/Space.mips64",
-        "url_status": "offline",
+        "id": "3920258",
+        "date_added": "2026-09-21 19:47:14",
+        "url": "http://59.96.140.242:56865/i",
+        "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "elf",
-          "ua-wget"
+          "None"
         ]
       },
       {
-        "id": "3919965",
-        "date_added": "2026-09-21 11:45:17",
-        "url": "http://176.65.139.206/iran.i486",
-        "url_status": "offline",
+        "id": "3920256",
+        "date_added": "2026-09-21 19:47:12",
+        "url": "http://85.12.237.201:51522/i",
+        "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "elf",
-          "ua-wget"
+          "None"
         ]
       },
       {
-        "id": "3919966",
-        "date_added": "2026-09-21 11:45:17",
-        "url": "http://176.65.139.206/hiddenbin/Space.sparc",
-        "url_status": "offline",
+        "id": "3920254",
+        "date_added": "2026-09-21 19:32:11",
+        "url": "http://27.37.227.211:43711/i",
+        "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "elf",
-          "ua-wget"
+          "None"
         ]
       },
       {
-        "id": "3919967",
-        "date_added": "2026-09-21 11:45:17",
-        "url": "http://176.65.139.217/ar-15/ar15.i468",
-        "url_status": "offline",
+        "id": "3920255",
+        "date_added": "2026-09-21 19:32:11",
+        "url": "http://175.165.242.85:33109/bin.sh",
+        "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "elf",
-          "ua-wget"
+          "None"
         ]
       },
       {
-        "id": "3919964",
-        "date_added": "2026-09-21 11:44:22",
-        "url": "http://176.65.139.206/iran.aarch64",
-        "url_status": "offline",
+        "id": "3920253",
+        "date_added": "2026-09-21 19:32:10",
+        "url": "http://5.59.107.34:56712/bin.sh",
+        "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "elf",
-          "ua-wget"
+          "None"
         ]
       },
       {
-        "id": "3919963",
-        "date_added": "2026-09-21 11:36:26",
-        "url": "http://61.137.200.53:50262/i",
+        "id": "3920252",
+        "date_added": "2026-09-21 19:18:21",
+        "url": "http://112.246.93.6:52379/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -365,9 +329,22 @@
         ]
       },
       {
-        "id": "3919961",
-        "date_added": "2026-09-21 11:35:18",
-        "url": "http://58.65.210.245:55712/bin.sh",
+        "id": "3920251",
+        "date_added": "2026-09-21 19:16:22",
+        "url": "http://120.84.213.149:52695/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3920249",
+        "date_added": "2026-09-21 19:02:12",
+        "url": "http://114.226.171.203:38256/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -375,9 +352,19 @@
         ]
       },
       {
-        "id": "3919962",
-        "date_added": "2026-09-21 11:35:18",
-        "url": "http://115.55.53.12:45668/i",
+        "id": "3920250",
+        "date_added": "2026-09-21 19:02:12",
+        "url": "http://36.88.136.194:58699/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "mirai"
+        ]
+      },
+      {
+        "id": "3920248",
+        "date_added": "2026-09-21 18:48:16",
+        "url": "http://182.126.126.236:40817/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -385,9 +372,63 @@
         ]
       },
       {
-        "id": "3919960",
-        "date_added": "2026-09-21 11:35:17",
-        "url": "http://113.236.4.237:50901/i",
+        "id": "3920247",
+        "date_added": "2026-09-21 18:47:12",
+        "url": "http://115.55.225.187:35091/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3920246",
+        "date_added": "2026-09-21 18:35:31",
+        "url": "http://125.40.35.137:44251/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "mirai",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3920245",
+        "date_added": "2026-09-21 18:31:18",
+        "url": "http://219.156.114.110:51923/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3920243",
+        "date_added": "2026-09-21 18:31:17",
+        "url": "http://114.226.171.203:38256/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "mirai"
+        ]
+      },
+      {
+        "id": "3920244",
+        "date_added": "2026-09-21 18:31:17",
+        "url": "http://110.139.17.234:53059/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "mirai"
+        ]
+      },
+      {
+        "id": "3920240",
+        "date_added": "2026-09-21 18:31:16",
+        "url": "http://108.168.0.60:40402/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -395,42 +436,9 @@
         ]
       },
       {
-        "id": "3919957",
-        "date_added": "2026-09-21 11:30:21",
-        "url": "http://176.65.139.131/bins/sparc",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "elf",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3919958",
-        "date_added": "2026-09-21 11:30:21",
-        "url": "http://176.65.139.131/bins/mips64",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "elf",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3919959",
-        "date_added": "2026-09-21 11:30:21",
-        "url": "http://176.65.139.131/bins/i586",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "elf",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3919956",
-        "date_added": "2026-09-21 11:20:44",
-        "url": "http://59.180.157.90:52591/i",
+        "id": "3920241",
+        "date_added": "2026-09-21 18:31:16",
+        "url": "http://182.126.126.236:40817/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -438,132 +446,129 @@
         ]
       },
       {
-        "id": "3919952",
-        "date_added": "2026-09-21 11:20:21",
-        "url": "http://42.231.78.38:40390/i",
+        "id": "3920242",
+        "date_added": "2026-09-21 18:31:16",
+        "url": "http://219.155.209.247:42165/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
           "Mozi"
-        ]
-      },
-      {
-        "id": "3919953",
-        "date_added": "2026-09-21 11:20:21",
-        "url": "http://105.186.183.234:37999/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "mirai"
         ]
       }
     ]
   },
   "world_monitor": [
     {
-      "title": "Seven Ethiopian rebel groups form new alliance",
-      "link": "https://www.bbc.co.uk/news/articles/ckp84pj8zpngo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Mon, 21 Sep 2026 11:46:39 GMT",
-      "source": "BBC",
-      "summary": "The groups have been active in Ethiopia's most populous regions for years and now say they will work together."
-    },
-    {
-      "title": "CNN, MS NOW and Politico to file lawsuit against Trump's White House ban",
-      "link": "https://www.bbc.co.uk/news/articles/cm0e32rwvrryo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Mon, 21 Sep 2026 11:42:35 GMT",
-      "source": "BBC",
-      "summary": "The US media outlets say they are defending \"the principle that the government does not decide what the press reports or publishes\"."
-    },
-    {
-      "title": "NFL’s Azeez Al-Shaair pays tribute to slain Palestinian girl Wafaa Akila",
-      "link": "https://www.aljazeera.com/sports/2026/9/21/nfls-azeez-al-shaair-pays-tribute-to-slain-palestinian-girl-wafaa-akila?traffic_source=rss",
-      "pubDate": "Mon, 21 Sep 2026 11:26:41 +0000",
-      "source": "Al Jazeera",
-      "summary": "Al-Shaair wears eye black with Akila's name despite being fined for displaying messages about Israel's genocide in Gaza."
-    },
-    {
-      "title": "Why do Sudan’s humanitarian truces keep failing and who is to blame?",
-      "link": "https://www.aljazeera.com/news/2026/9/21/why-do-sudans-humanitarian-truces-keep-failing-and-who-is-to-blame?traffic_source=rss",
-      "pubDate": "Mon, 21 Sep 2026 11:22:40 +0000",
-      "source": "Al Jazeera",
-      "summary": "Efforts to bring about humanitarian truces in Sudan hit a dead end as warring factions prioritise battlefield victories."
-    },
-    {
-      "title": "At 92, the Bard of Bollywood Is Still Writing About Love",
-      "link": "https://www.nytimes.com/2026/09/21/world/asia/bollywood-india-gulzar.html",
-      "pubDate": "Mon, 21 Sep 2026 11:13:55 +0000",
+      "title": "Iraq’s Prime Minister Al-Zaidi Vows to Disarm Iran-backed Militias",
+      "link": "https://www.nytimes.com/2026/09/21/world/middleeast/iraq-prime-minister-interview-disarm-militias.html",
+      "pubDate": "Mon, 21 Sep 2026 19:36:51 +0000",
       "source": "NYT World",
-      "summary": "The poet and lyricist Gulzar has profoundly shaped the idea of tender romance in India through his verse and songs in more than 150 musicals."
+      "summary": "Ali al-Zaidi is a political neophyte hoping to succeed where previous leaders failed. In an interview, he laid out an ambitious timeline that could prove hard to meet."
     },
     {
-      "title": "‘Way Too Hot’: Britain’s Hospitals Were Not Built for 96-Degree Summers",
-      "link": "https://www.nytimes.com/2026/09/21/world/europe/uk-hospitals-heat-waves-climate.html",
-      "pubDate": "Mon, 21 Sep 2026 11:04:16 +0000",
+      "title": "Immigration Roulette: Husband Granted Asylum, Wife Locked Up Awaiting Deportation",
+      "link": "https://theintercept.com/2026/09/21/asylum-iranian-couple-detention-deport/",
+      "pubDate": "Mon, 21 Sep 2026 19:36:03 +0000",
+      "source": "The Intercept",
+      "summary": "An Iranian couple seeking refuge in the United States faces a cruel new form of family separation.\nThe post Immigration Roulette: Husband Granted Asylum, Wife Locked Up Awaiting Deportation appeared first on The Intercept."
+    },
+    {
+      "title": "Protesters blockade Elbit Systems factory over Israel weapons supply",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/9/21/protesters-blockade-elbit-systems-factory-over-israel-weapons-supply?traffic_source=rss",
+      "pubDate": "Mon, 21 Sep 2026 19:22:15 +0000",
+      "source": "Al Jazeera",
+      "summary": "Nine protesters blocked access to Elbit Systems’ factory in Staffordshire by attaching themselves to five ‘lock-ons’."
+    },
+    {
+      "title": "U.S. Strikes on Alleged Drug Boats Could Be Criminal, U.N. Expert Says",
+      "link": "https://www.nytimes.com/2026/09/21/world/americas/us-boat-strikes-crimes-un.html",
+      "pubDate": "Mon, 21 Sep 2026 19:16:45 +0000",
       "source": "NYT World",
-      "summary": "Patients and workers in one of the country’s largest hospitals sweltered in a heat wave last month. Experts say the whole country must urgently adapt."
+      "summary": "A U.N. human rights investigator, like other experts, concluded that the Trump administration’s deadly attacks violate international law, and said the strikes could be crimes against humanity."
     },
     {
-      "title": "Why is the US trying ‘regime change’ again?",
-      "link": "https://www.aljazeera.com/video/project-force-2/2026/9/21/why-is-the-us-trying-regime-change-again?traffic_source=rss",
-      "pubDate": "Mon, 21 Sep 2026 11:00:49 +0000",
+      "title": "Trump’s approval rating hits record low amid Iran war, economy fallout",
+      "link": "https://www.aljazeera.com/news/2026/9/21/trumps-approval-rating-hits-record-low-amid-iran-war-economy-fallout?traffic_source=rss",
+      "pubDate": "Mon, 21 Sep 2026 19:10:52 +0000",
       "source": "Al Jazeera",
-      "summary": "The US invasions after 9/11 were disasters -- but the US is trying again in Iran anyway"
+      "summary": "Republican support for Trump dips to 73 percent, down from 82 percent, as war and inflation concerns dominate polls."
     },
     {
-      "title": "How oil, gas losses have shrunk Iran’s GDP by 10 percent during war",
-      "link": "https://www.aljazeera.com/news/2026/9/21/how-oil-gas-losses-have-shrunk-irans-gdp-by-10-percent-during-war?traffic_source=rss",
-      "pubDate": "Mon, 21 Sep 2026 10:38:41 +0000",
+      "title": "Photos: Gaza’s children return to class in tents and ruins",
+      "link": "https://www.aljazeera.com/gallery/2026/9/21/photos-gazas-children-return-to-class-in-tents-and-ruins?traffic_source=rss",
+      "pubDate": "Mon, 21 Sep 2026 18:40:26 +0000",
       "source": "Al Jazeera",
-      "summary": "The oil and gas sector shrank 26 percent, new official data shows, pointing to the costs of the US-Israel war on Iran."
+      "summary": "Gaza children return to classrooms after three years, facing challenges of damaged schools, tents, and scarce supplies."
     },
     {
-      "title": "Three arrested in South Africa over one of nine women's body finds",
-      "link": "https://www.bbc.co.uk/news/articles/c617j2x01epjo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Mon, 21 Sep 2026 10:35:01 GMT",
+      "title": "Russia’s Election Was Engineered to Send a Message: Putin Remains in Control",
+      "link": "https://www.nytimes.com/2026/09/21/world/europe/russia-duma-election.html",
+      "pubDate": "Mon, 21 Sep 2026 18:09:23 +0000",
+      "source": "NYT World",
+      "summary": "A parliamentary vote demonstrated that President Vladimir V. Putin’s autocratic system was still able to deliver the results he wanted, analysts said."
+    },
+    {
+      "title": "Protesters march on Islamabad over soaring fuel prices",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/9/21/protesters-march-on-islamabad-over-soaring-fuel-prices?traffic_source=rss",
+      "pubDate": "Mon, 21 Sep 2026 17:48:51 +0000",
+      "source": "Al Jazeera",
+      "summary": "Pakistan’s Jamaat-e-Islami party has launched a protest march towards Islamabad over soaring fuel prices."
+    },
+    {
+      "title": "First UK charges brought over 1994 Rwanda genocide",
+      "link": "https://www.bbc.co.uk/news/articles/cr2092216nywo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Mon, 21 Sep 2026 17:48:23 GMT",
       "source": "BBC",
-      "summary": "The body of Jabulile Ntimba was the ninth to be found recently in an area east of Johannesburg."
+      "summary": "Dr Vincent Brown, formerly Dr Vincent Bajinya, 65, will appear at Westminster Magistrates’ Court on Tuesday charged with seven offences."
     },
     {
-      "title": "Mystery object spotted hovering over Tehran",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/9/21/mystery-object-spotted-hovering-over-tehran?traffic_source=rss",
-      "pubDate": "Mon, 21 Sep 2026 10:10:14 +0000",
+      "title": "Ceuta solidarity shirt row: How the crisis engulfed Spanish football",
+      "link": "https://www.aljazeera.com/sports/2026/9/21/ceuta-solidarity-shirt-row-how-the-crisis-engulfed-spanish-football?traffic_source=rss",
+      "pubDate": "Mon, 21 Sep 2026 17:45:40 +0000",
       "source": "Al Jazeera",
-      "summary": "A mysterious object filmed hovering over Tehran has sparked online speculation."
+      "summary": "Football has been dragged into growing tensions over the influx of migrants from Morocco to the Spanish enclave Ceuta."
     },
     {
       "title": "U.N. General Assembly to Confront Familiar Crises, New Conflicts and A.I.",
       "link": "https://www.nytimes.com/2026/09/21/world/americas/un-general-assembly-ai.html",
-      "pubDate": "Mon, 21 Sep 2026 09:04:28 +0000",
+      "pubDate": "Mon, 21 Sep 2026 17:01:23 +0000",
       "source": "NYT World",
       "summary": "The United Nations is also searching for a replacement for António Guterres, who has served two terms as the secretary general and is stepping down."
     },
     {
-      "title": "Challenges to Identity, Real and Imagined, Drive Europe’s Far Right",
-      "link": "https://www.nytimes.com/2026/09/21/world/europe/germany-afd-far-right.html",
-      "pubDate": "Mon, 21 Sep 2026 09:02:23 +0000",
-      "source": "NYT World",
-      "summary": "The populist emphasis on national identity and pride, rather than the sins of the past, finds a deep response in voters adrift in a world they no longer understand."
-    },
-    {
-      "title": "German Chancellor Merz calls state election a 'disaster' for his party but vows to stay on",
-      "link": "https://www.bbc.co.uk/news/articles/cvwyz29n0nn2o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Mon, 21 Sep 2026 08:56:27 GMT",
+      "title": "Merz vows to keep coalition together for Germany's 'democratic future'",
+      "link": "https://www.bbc.co.uk/news/articles/cqm27p8enwmko?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Mon, 21 Sep 2026 16:54:56 GMT",
       "source": "BBC",
-      "summary": "Exit polls show damaging losses for Merz's centre-right CDU party in the state of Mecklenburg-Vorpommern and Berlin."
+      "summary": "The chancellor has come under increasing pressure after resounding state election defeats, but says the results \"go far beyond my own person\""
     },
     {
-      "title": "One Issue That Could Upend Fragile U.S.-China Ties: Taiwan Arms",
-      "link": "https://www.nytimes.com/2026/09/21/world/asia/china-trump-taiwan-arms-sales.html",
-      "pubDate": "Mon, 21 Sep 2026 04:01:07 +0000",
-      "source": "NYT World",
-      "summary": "As Beijing presses President Trump to freeze a proposed $14 billion weapons sale to the island, Taiwan is trying to show that its security is in U.S. interests."
-    },
-    {
-      "title": "Russia's elections had few surprises - but how the Kremlin uses the results will be crucial",
-      "link": "https://www.bbc.co.uk/news/articles/cx4gqv239043o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Mon, 21 Sep 2026 00:05:11 GMT",
+      "title": "CNN, MS NOW and Politico file lawsuit against Trump's White House ban",
+      "link": "https://www.bbc.co.uk/news/articles/cm0e32rwvrryo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Mon, 21 Sep 2026 15:58:53 GMT",
       "source": "BBC",
-      "summary": "Vladimir Putin will likely use the result to claim most Russians back the so-called special military operation in Ukraine, writes the BBC's Steve Rosenberg."
+      "summary": "Major US networks later suspended White House TV coverage of Trump as he heads to New York for the UN summit."
+    },
+    {
+      "title": "Why the Iran-Backed Houthis in Yemen and Saudi Arabia Are Back at War",
+      "link": "https://www.nytimes.com/2026/09/21/world/middleeast/yemen-houthis-saudi-war.html",
+      "pubDate": "Mon, 21 Sep 2026 15:56:43 +0000",
+      "source": "NYT World",
+      "summary": "The conflict has opened a second front in the Middle East after the United States and Israel attacked Iran, adding to global uncertainty and turmoil in energy markets."
+    },
+    {
+      "title": "Yemenis flee across Red Sea as Houthis and Saudi-backed forces escalate war",
+      "link": "https://www.bbc.co.uk/news/articles/cw4gm7l742dmo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Mon, 21 Sep 2026 14:14:16 GMT",
+      "source": "BBC",
+      "summary": "The BBC's Frank Gardner speaks to some of those who have fled the war by crossing the Red Sea to Djibouti."
+    },
+    {
+      "title": "Millions urged to evacuate as powerful Typhoon Dujuan hits Japan ",
+      "link": "https://www.bbc.co.uk/news/articles/cm3wj2lexl97o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Mon, 21 Sep 2026 14:06:12 GMT",
+      "source": "BBC",
+      "summary": "The country's meteorological agency had warned of an \"imminent threat to life,\" but this has now been downgraded in most areas."
     },
     {
       "title": "Decision on Charging Renee Good and Alex Pretti’s Killers Looms Over Minneapolis DA Race",
@@ -601,13 +606,6 @@
       "summary": "What’s driving religious fundamentalists, tech accelerationists, and anti-immigrant ethnonationalists to bring about the end of the world?\nThe post Apocalypse Now: Naomi Klein and Astra Taylor Investigate the End-Timers Alliance appeared first on The"
     },
     {
-      "title": "Pete Hegseth’s Unholy War",
-      "link": "https://theintercept.com/2026/09/17/hegseth-christianity-jesus-iran-war/",
-      "pubDate": "Thu, 17 Sep 2026 15:10:43 +0000",
-      "source": "The Intercept",
-      "summary": "What kind of Christianity is being proclaimed when the language of Jesus is attached to military power? \nThe post Pete Hegseth’s Unholy War appeared first on The Intercept."
-    },
-    {
       "title": "“A Recurring Pattern”: Civilians Paying the Price in Mali’s Drone Campaign",
       "link": "https://www.bellingcat.com/news/2026/09/16/drone-strike-civilians-killed-aes-sahel-mali-russia-africa-corps-guilt-by-location-jeune-afrique/",
       "pubDate": "Wed, 16 Sep 2026 16:04:19 +0000",
@@ -638,6 +636,13 @@
   ],
   "syndication": [
     {
+      "title": "Reverse-Engineering Flock Cameras",
+      "link": "https://www.schneier.com/blog/archives/2026/09/reverse-engineering-flock-cameras.html",
+      "pubDate": "2026-09-21T14:37:45.000Z",
+      "author": "Schneier on Security",
+      "content": "Hackers captured a Flock camera and got a look (alternate link) at the software:\nWhile much of the automatic license plate reader’s (ALPR) most sensitive storage remained encrypted and inaccessible, the joint analysis of the recovered data shows that software running on the device explicitly detects"
+    },
+    {
       "title": "Pluralistic: The Claude Delusion (21 Sep 2026)",
       "link": "https://pluralistic.net/2026/09/21/sunsetting/",
       "pubDate": "Mon, 21 Sep 2026 11:24:31 +0000",
@@ -664,13 +669,6 @@
       "pubDate": "Fri, 18 Sep 2026 07:45:10 +0000",
       "author": "Pluralistic",
       "content": "Today's links Textured: The surprises are what matter. Hey look at this: Delights to delectate. Object permanence: RIP Mr Dressup; Oligarch sucker-punch; ICC v CEOs. Upcoming appearances: Berkeley, Edmonton, Boston, South Bend, Hudson, Calgary, Winnipeg, Vancouver, Victoria, Ottawa, Kilkenny, Montre"
-    },
-    {
-      "title": "How Candidates Could Use AI for Good",
-      "link": "https://www.schneier.com/blog/archives/2026/09/how-candidates-could-use-ai-for-good.html",
-      "pubDate": "2026-09-17T11:06:31.000Z",
-      "author": "Schneier on Security",
-      "content": "This essay was written with Nathan E. Sanders, and originally appeared in The Guardian.\nThere are plenty of signs that AI will make all of our experiences of the US midterm elections worse. Voters have anxiety about AI’s impacts on the country. Politicos are using AI deepfakes to spread lies. The Wh"
     },
     {
       "title": "Pluralistic: On the sincerity of AI bosses (17 Sep 2026)",
@@ -703,12 +701,68 @@
   ],
   "syndicate_journal": [
     {
-      "title": "The Oldest Evidence of Drug Use is Also a Story About Addiction",
-      "link": "https://nautil.us/the-oldest-evidence-of-drug-use-is-also-a-story-about-addiction-1285144/",
-      "summary": "A 25,000-year-old cautionary tale\nThe post The Oldest Evidence of Drug Use is Also a Story About Addiction appeared first on Nautilus.",
-      "pubDate": "Mon, 21 Sep 2026 12:00:00 +0000",
+      "title": "Why it’s So Hard to Measure the Depth of the Ocean",
+      "link": "https://nautil.us/why-its-so-hard-to-measure-the-depth-of-the-ocean-1285163/",
+      "summary": "There are a lot of variables\nThe post Why it’s So Hard to Measure the Depth of the Ocean appeared first on Nautilus.",
+      "pubDate": "Mon, 21 Sep 2026 18:00:00 +0000",
       "domain": "science",
       "source": "Nautilus"
+    },
+    {
+      "title": "Zach Cregger Made a Resident Evil Movie With Bite",
+      "link": "",
+      "summary": "Zach Cregger’s horror-comedy  is a real blast of a movie, fast, funny, scary, and inspired. Only an exuberant film lover could come up with such a gleefully inventive ninety-five-minute thrill ride as this one.Resident Evil\nI gather that Cregger is a fan of the  video game franchise. That seems like",
+      "pubDate": "2026-09-21T17:06:05.585Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "German Centrists Are Smearing Die Linke as Antisemites",
+      "link": "",
+      "summary": "Let’s be clear: Die Linke, Germany’s leading left-wing force, which resoundingly won Sunday’s elections , is not an antisemitic party. It does not have an “antisemitism problem,” nor is it a menace to Jews in Germany or Berlin. While some Jews in the city perceive the Left as a threat, this percepti",
+      "pubDate": "2026-09-21T17:01:42.691Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "Are Our Antidepressants Harming Fish?",
+      "link": "https://nautil.us/are-our-antidepressants-harming-fish-1285159/",
+      "summary": "It’s hard to say, but we’re definitely exposing them to our monoamine drugs\nThe post Are Our Antidepressants Harming Fish? appeared first on Nautilus.",
+      "pubDate": "Mon, 21 Sep 2026 16:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "The US Gives Impunity to Israel and Sanctions Its Critics",
+      "link": "",
+      "summary": "“It’s the first time, as a lawyer, I’m about to defend myself, not the people I work for.” Speaking as the United Nations’ Human Rights Council in Geneva discussed Palestine this March, Raji Sourani complained of attacks on human rights defenders’ most basic duties.\nSourani, who is the director of t",
+      "pubDate": "2026-09-21T15:15:11.002Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "How Virus-like ‘Jumping Genes’ Became Our Partners in Evolution",
+      "link": "https://www.quantamagazine.org/how-virus-like-jumping-genes-became-our-partners-in-evolution-20260921/",
+      "summary": "Half of our genome is made of transposons — snips of DNA that can move and copy themselves. But they’re more than parasites or genetic junk.            \nThe post How Virus-like ‘Jumping Genes’ Became Our Partners in Evolution first appeared on Quanta Magazine",
+      "pubDate": "Mon, 21 Sep 2026 14:12:36 +0000",
+      "domain": "science",
+      "source": "Quanta"
+    },
+    {
+      "title": "Could AI Have Consciousness That Isn’t Human-Like?",
+      "link": "https://nautil.us/could-ai-have-consciousness-that-isnt-human-like-1285156/",
+      "summary": "Philosopher Peter Godfrey-Smith on AI consciousness and existential risk\nThe post Could AI Have Consciousness That Isn’t Human-Like? appeared first on Nautilus.",
+      "pubDate": "Mon, 21 Sep 2026 14:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "Ancient Rome’s Complicated Border",
+      "link": "https://daily.jstor.org/ancient-romes-complicated-border/",
+      "summary": "What did Hadrian’s Wall actually do? Its history challenges the idea that walls simply separate one side from another.\nThe post Ancient Rome’s Complicated Border appeared first on JSTOR Daily.",
+      "pubDate": "Mon, 21 Sep 2026 13:52:07 +0000",
+      "domain": "history",
+      "source": "JSTOR Daily"
     },
     {
       "title": "Sound guardians",
@@ -751,52 +805,12 @@
       "source": "arXiv: cs.AI"
     },
     {
-      "title": "“Ferritin Face” Is Trending—But Can Your Skin Really Reveal Low Iron?",
-      "link": "https://nautil.us/ferritin-face-is-trending-but-can-your-skin-really-reveal-low-iron-1285150/",
-      "summary": "There’s a kernel of truth to it, but it’s not the whole story\nThe post “Ferritin Face” Is Trending—But Can Your Skin Really Reveal Low Iron? appeared first on Nautilus.",
-      "pubDate": "Mon, 21 Sep 2026 00:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
-      "title": "Hardt and Negri’s Empire Got Everything Wrong",
-      "link": "",
-      "summary": "A few months ago, my partner and I met a liberal, fortysomething history professor who told us that for his next book he’d been reading up on late-1990s alter-globalization . As the millennium neared, global capitalism seemingly stood unchallenged. Social democrats and ex-communists praised the free",
-      "pubDate": "2026-09-20T13:46:11.877Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
-      "title": "How Intelligence Agencies Bend Universities to Their Will",
-      "link": "",
-      "summary": "With a series of US military operations underway over the past year, intelligence agencies have come under the spotlight again. Media coverage has tended to offer flattering narratives of their exploits, recounting the “” played by the Central Intelligence Agency (CIA) in Nicolás Maduro’s  that make",
-      "pubDate": "2026-09-20T13:00:00.157Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
-      "title": "Americans Are Turning to GoFundMe Just to Get By",
-      "link": "",
-      "summary": "At this point, you have to have been trapped in space for the last two years not to notice that the cost of living is onerously high. Or you could just be the .Treasury secretary\nIn any case, there’s no shortage of metrics that show Americans are struggling: rising credit card , a spike in  ,   for ",
-      "pubDate": "2026-09-20T12:30:00.276Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
       "title": "Icons, symbols, metaphors, analogies, …",
       "link": "https://languagelog.ldc.upenn.edu/nll/?p=74243&utm_source=rss&utm_medium=rss&utm_campaign=icons-symbols-metaphors-analogies",
       "summary": "As counterpoint to Scott Alexander's impressive \"King Ludd\" exploration, consider this thematic image from The Spectator magazine (\"The autistocracy: the men on the spectrum who rule our world\"), featuring caricatures of Elon Musk, Dario Amodei, and Sam Altman engaged in modeling a cubical world: Th",
       "pubDate": "Sun, 20 Sep 2026 11:40:42 +0000",
       "domain": "linguistics",
       "source": "Language Log"
-    },
-    {
-      "title": "This Dolphin Steals from Fish for Its Meals",
-      "link": "https://nautil.us/this-dolphin-steals-from-fish-for-its-meals-1285147/",
-      "summary": "Putting a dent in dolphins’ reputation as the “good guys of the sea”\nThe post This Dolphin Steals from Fish for Its Meals appeared first on Nautilus.",
-      "pubDate": "Sat, 19 Sep 2026 12:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
     },
     {
       "title": "Mathematicians Build Long-Awaited Graph Sandwich",
@@ -847,28 +861,12 @@
       "source": "JSTOR Daily"
     },
     {
-      "title": "Ctenophores Aren’t Just Beautiful. They’re Biological Wonders.",
-      "link": "https://www.quantamagazine.org/ctenophores-arent-just-beautiful-theyre-biological-wonders-20260916/",
-      "summary": "Comb jellies are helping answer fundamental questions in biology, from how the earliest nervous systems evolved to how bioluminescence works.             \nThe post Ctenophores Aren’t Just Beautiful. They’re Biological Wonders. first appeared on Quanta Magazine",
-      "pubDate": "Wed, 16 Sep 2026 15:56:27 +0000",
-      "domain": "science",
-      "source": "Quanta"
-    },
-    {
       "title": "Veronese&#39;s Dogs\n",
       "link": "https://publicdomainreview.org/essay/veroneses-dogs",
       "summary": "“Oh, if I could only pray”, Luther once said of his dog Tölpel, “the way this dog watches the meat”. Attending to attentive canine figures in half a dozen paintings by Paolo Veronese, Thomas W. Laqueur explores the work of an artist whose love of dogs landed him in hot water with the Inquisition.",
       "pubDate": "Wed, 16 Sep 2026 14:16:00 GMT",
       "domain": "history",
       "source": "Public Domain Review"
-    },
-    {
-      "title": "How the Railways Killed a Medieval Law",
-      "link": "https://daily.jstor.org/how-the-railways-killed-a-medieval-law/",
-      "summary": "Deodands put a price on objects that caused death, sometimes providing compensation to bereaved families.\nThe post How the Railways Killed a Medieval Law appeared first on JSTOR Daily.",
-      "pubDate": "Wed, 16 Sep 2026 13:42:00 +0000",
-      "domain": "history",
-      "source": "JSTOR Daily"
     },
     {
       "title": "It’s “A Cat-astrophe”! (1919)\n",
@@ -893,30 +891,6 @@
       "pubDate": "Thu, 10 Sep 2026 17:19:00 GMT",
       "domain": "history",
       "source": "Public Domain Review"
-    },
-    {
-      "title": "What It’s Like to Be…a Mail Carrier",
-      "link": "https://behavioralscientist.org/what-its-like-to-be-a-mail-carrier/",
-      "summary": "Loading the mail truck before the day begins, dealing with aggressive dogs and bad weather, and keeping a neighborhood connected by showing up every day with John Ayala, a retired mail carrier in Los Angeles. How did a golf club help him deliver packages? And what does a mail carrier learn about us ",
-      "pubDate": "Tue, 11 Aug 2026 12:30:27 +0000",
-      "domain": "psychology",
-      "source": "Behavioral Scientist"
-    },
-    {
-      "title": "What It’s Like to Be…a Hotshot",
-      "link": "https://behavioralscientist.org/what-its-like-to-be-a-hotshot/",
-      "summary": "Digging line to redirect the country's fiercest wildland fires, sleeping in the dirt after a 16-hour day, and turning physical endurance into a public service with Ben Strahan, a hotshot crew superintendent in California. What does a wildfire sound like up close? And where does a crew go when the fi",
-      "pubDate": "Tue, 28 Jul 2026 12:23:34 +0000",
-      "domain": "psychology",
-      "source": "Behavioral Scientist"
-    },
-    {
-      "title": "Journey to Robbers Cave",
-      "link": "https://behavioralscientist.org/journey-to-robbers-cave/",
-      "summary": "The year was 1948. Only three years had passed since the Axis powers signed the instrument of surrender effectively ending the Second World War. Fifty nations had taken part in the conflict that saw genocide and the first use of nuclear weapons. An estimated 50 million lives were lost and another 19",
-      "pubDate": "Sun, 19 Jul 2026 22:58:46 +0000",
-      "domain": "psychology",
-      "source": "Behavioral Scientist"
     },
     {
       "title": "Best of SAPIENS 2025",
@@ -967,17 +941,17 @@
       "source": "ROAR Magazine"
     },
     {
-      "title": "Artificial intelligence and twice-exceptional (2e) learners in educational settings: a scoping review of an emerging evidence base (2020–2026)",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1927003",
-      "summary": "Twice-exceptional (2e) students are intellectually or creatively gifted and also have one or more disabilities, and they require provision that develops talent and addresses disability at the same time. Artificial intelligence (AI) is increasingly promoted as a route to personalized instruction, and",
+      "title": "Relationship between students’ perceived parent–teacher–student relationships, sense of school belonging, and well-being in China: investigating the difference between primary and secondary students",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1906317",
+      "summary": "ObjectivesStudents’ well-being is a critical indicator of their academic performance, pro-social behavior, and future development. Students’ perceived relationships with parents, teachers, and peers, along with their sense of school belonging, are significantly associated with their well-being. This",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "Relationship between students’ perceived parent–teacher–student relationships, sense of school belonging, and well-being in China: investigating the difference between primary and secondary students",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1906317",
-      "summary": "ObjectivesStudents’ well-being is a critical indicator of their academic performance, pro-social behavior, and future development. Students’ perceived relationships with parents, teachers, and peers, along with their sense of school belonging, are significantly associated with their well-being. This",
+      "title": "Academic involution behavior, perceived academic involution climate, and English learning intention among college students: the indirect role of psychological distress",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1943950",
+      "summary": "BackgroundAcademic involution may be experienced both as students' own excessive competitive behavior and as their perception that peers engage in such behavior. This study examined how academic involution behavior and perceived academic involution climate were concurrently associated with English l",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
@@ -993,64 +967,64 @@
   ],
   "misinfo_toilet": [
     {
-      "headline": "CNN, MS NOW and Politico to file lawsuit against Trump's White House ban",
-      "fragment": "Reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
-      "splice": "CNN, MS NOW and Politico to file lawsuit against Trump's White House ban despite reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
-      "seed": 20260933
-    },
-    {
-      "headline": "Why is the US trying ‘regime change’ again?",
-      "fragment": "The truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
-      "splice": "Why is the US trying ‘regime change’ again? insofar as the truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
-      "seed": 20260934
-    },
-    {
-      "headline": "Why do Sudan’s humanitarian truces keep failing and who is to blame?",
-      "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "splice": "Why do Sudan’s humanitarian truces keep failing and who is to blame? underneath the breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "seed": 20260935
-    },
-    {
-      "headline": "Bellingcat Official Merch Design Contest",
-      "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
-      "splice": "Bellingcat Official Merch Design Contest despite the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
-      "seed": 20260936
-    },
-    {
-      "headline": "‘Way Too Hot’: Britain’s Hospitals Were Not Built for 96-Degree Summers",
-      "fragment": "The truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
-      "splice": "‘Way Too Hot’: Britain’s Hospitals Were Not Built for 96-Degree Summers while the truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
-      "seed": 20260937
-    },
-    {
-      "headline": "How oil, gas losses have shrunk Iran’s GDP by 10 percent during war",
-      "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
-      "splice": "How oil, gas losses have shrunk Iran’s GDP by 10 percent during war despite the revolutionary lives in the gap which separates technical progress from social totality.",
-      "seed": 20260938
-    },
-    {
-      "headline": "Pete Hegseth’s Unholy War",
-      "fragment": "The truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
-      "splice": "Pete Hegseth’s Unholy War as if the truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
-      "seed": 20260939
-    },
-    {
-      "headline": "U.N. General Assembly to Confront Familiar Crises, New Conflicts and A.I.",
-      "fragment": "We live in a world where there is more and more information, and less and less meaning.",
-      "splice": "U.N. General Assembly to Confront Familiar Crises, New Conflicts and A.I. while we live in a world where there is more and more information, and less and less meaning.",
+      "headline": "Robert Kraft Claims His Donations Help Palestinians. Turns Out He’s Funding Friends of the IDF.",
+      "fragment": "There is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
+      "splice": "Robert Kraft Claims His Donations Help Palestinians. Turns Out He’s Funding Friends of the IDF. within which there is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
       "seed": 20260940
     },
     {
-      "headline": "Christy Kinahan’s UAE Residence Visa Cancelled",
-      "fragment": "It is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
-      "splice": "Christy Kinahan’s UAE Residence Visa Cancelled the signal resolves into it is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
+      "headline": "Protesters blockade Elbit Systems factory over Israel weapons supply",
+      "fragment": "The privatization of the organs will only begin with the shame felt by man at the sight of man.",
+      "splice": "Protesters blockade Elbit Systems factory over Israel weapons supply therefore the privatization of the organs will only begin with the shame felt by man at the sight of man.",
       "seed": 20260941
     },
     {
-      "headline": "At 92, the Bard of Bollywood Is Still Writing About Love",
-      "fragment": "In the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
-      "splice": "At 92, the Bard of Bollywood Is Still Writing About Love meanwhile in the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
+      "headline": "Trump’s approval rating hits record low amid Iran war, economy fallout",
+      "fragment": "Simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
+      "splice": "Trump’s approval rating hits record low amid Iran war, economy fallout because simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
       "seed": 20260942
+    },
+    {
+      "headline": "Millions urged to evacuate as powerful Typhoon Dujuan hits Japan ",
+      "fragment": "Over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
+      "splice": "Millions urged to evacuate as powerful Typhoon Dujuan hits Japan  which is to say over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
+      "seed": 20260943
+    },
+    {
+      "headline": "Immigration Roulette: Husband Granted Asylum, Wife Locked Up Awaiting Deportation",
+      "fragment": "It is at work everywhere, functioning smoothly at times, at other times in fits and starts. It breathes, it heats, it eats. It shits and fucks.",
+      "splice": "Immigration Roulette: Husband Granted Asylum, Wife Locked Up Awaiting Deportation not unlike it is at work everywhere, functioning smoothly at times, at other times in fits and starts. It breathes, it heats, it eats. It shits and fucks.",
+      "seed": 20260944
+    },
+    {
+      "headline": "Protesters march on Islamabad over soaring fuel prices",
+      "fragment": "It is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
+      "splice": "Protesters march on Islamabad over soaring fuel prices the system notes that it is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
+      "seed": 20260945
+    },
+    {
+      "headline": "“A Recurring Pattern”: Civilians Paying the Price in Mali’s Drone Campaign",
+      "fragment": "Over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
+      "splice": "“A Recurring Pattern”: Civilians Paying the Price in Mali’s Drone Campaign while over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
+      "seed": 20260946
+    },
+    {
+      "headline": "Christy Kinahan’s UAE Residence Visa Cancelled",
+      "fragment": "The truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
+      "splice": "Christy Kinahan’s UAE Residence Visa Cancelled insofar as the truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
+      "seed": 20260947
+    },
+    {
+      "headline": "Iraq’s Prime Minister Al-Zaidi Vows to Disarm Iran-backed Militias",
+      "fragment": "Reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
+      "splice": "Iraq’s Prime Minister Al-Zaidi Vows to Disarm Iran-backed Militias consequently reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
+      "seed": 20260948
+    },
+    {
+      "headline": "U.S. Strikes on Alleged Drug Boats Could Be Criminal, U.N. Expert Says",
+      "fragment": "To dissimulate is to pretend not to have what one has. To simulate is to feign to have what one doesn't have. One implies a presence, the other an absence.",
+      "splice": "U.S. Strikes on Alleged Drug Boats Could Be Criminal, U.N. Expert Says meanwhile to dissimulate is to pretend not to have what one has. To simulate is to feign to have what one doesn't have. One implies a presence, the other an absence.",
+      "seed": 20260949
     }
   ]
 }
