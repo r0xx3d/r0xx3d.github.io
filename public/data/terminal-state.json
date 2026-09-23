@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T21:01:23.035Z",
+  "generated_at": "2026-09-23T11:02:51.439Z",
   "threat_intel": {
     "cisa_kev": [
       {
@@ -246,69 +246,35 @@
     ],
     "urlhaus": [
       {
-        "id": "3921137",
-        "date_added": "2026-09-22 20:47:16",
-        "url": "http://175.107.229.228:33309/bin.sh",
+        "id": "3921580",
+        "date_added": "2026-09-23 10:55:20",
+        "url": "https://drive.google.com/uc?export=download&id=1wQeOlHRJFrYBOhRlmG_7bDAnGfy7DrE3",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "mirai"
+          "ascii",
+          "Encoded",
+          "GuLoader",
+          "rat",
+          "RemcosRAT"
         ]
       },
       {
-        "id": "3921136",
-        "date_added": "2026-09-22 20:47:15",
-        "url": "http://60.23.233.134:56485/bin.sh",
+        "id": "3921579",
+        "date_added": "2026-09-23 10:55:18",
+        "url": "http://31.70.122.27/80/ece.hta",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "None"
+          "hta",
+          "rat",
+          "RemcosRAT"
         ]
       },
       {
-        "id": "3921135",
-        "date_added": "2026-09-22 20:47:14",
-        "url": "http://105.186.247.212:56463/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "mirai"
-        ]
-      },
-      {
-        "id": "3921133",
-        "date_added": "2026-09-22 20:47:13",
-        "url": "http://36.70.231.123:42661/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "mirai"
-        ]
-      },
-      {
-        "id": "3921134",
-        "date_added": "2026-09-22 20:47:13",
-        "url": "http://89.189.188.39:37505/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3921132",
-        "date_added": "2026-09-22 20:32:18",
-        "url": "http://115.226.182.76:42320/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "mirai"
-        ]
-      },
-      {
-        "id": "3921131",
-        "date_added": "2026-09-22 20:32:16",
-        "url": "http://61.52.228.233:55020/i",
+        "id": "3921578",
+        "date_added": "2026-09-23 10:46:14",
+        "url": "http://61.53.121.122:56888/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -316,9 +282,21 @@
         ]
       },
       {
-        "id": "3921127",
-        "date_added": "2026-09-22 20:32:15",
-        "url": "http://27.202.51.67:50097/bin.sh",
+        "id": "3921577",
+        "date_added": "2026-09-23 10:43:25",
+        "url": "http://59.97.253.249:44510/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips"
+        ]
+      },
+      {
+        "id": "3921576",
+        "date_added": "2026-09-23 10:32:18",
+        "url": "http://125.44.39.250:33852/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -326,99 +304,9 @@
         ]
       },
       {
-        "id": "3921128",
-        "date_added": "2026-09-22 20:32:15",
-        "url": "http://189.127.169.20:48562/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "mirai"
-        ]
-      },
-      {
-        "id": "3921129",
-        "date_added": "2026-09-22 20:32:15",
-        "url": "http://27.202.51.67:50097/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3921130",
-        "date_added": "2026-09-22 20:32:15",
-        "url": "http://105.186.248.189:51667/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "mirai"
-        ]
-      },
-      {
-        "id": "3921126",
-        "date_added": "2026-09-22 20:17:24",
-        "url": "http://42.52.127.223:39285/bin.sh",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3921125",
-        "date_added": "2026-09-22 20:17:20",
-        "url": "http://181.197.146.98:55755/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3921123",
-        "date_added": "2026-09-22 20:17:12",
-        "url": "http://219.157.32.156:51347/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "mirai"
-        ]
-      },
-      {
-        "id": "3921124",
-        "date_added": "2026-09-22 20:17:12",
-        "url": "http://39.61.30.138:51345/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3921121",
-        "date_added": "2026-09-22 20:17:11",
-        "url": "http://116.138.35.161:37833/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3921122",
-        "date_added": "2026-09-22 20:17:11",
-        "url": "http://105.186.80.120:59103/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "mirai"
-        ]
-      },
-      {
-        "id": "3921120",
-        "date_added": "2026-09-22 20:10:26",
-        "url": "http://42.230.190.172:55630/bin.sh",
+        "id": "3921574",
+        "date_added": "2026-09-23 10:24:23",
+        "url": "http://123.11.125.96:40919/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -429,9 +317,52 @@
         ]
       },
       {
-        "id": "3921119",
-        "date_added": "2026-09-22 20:02:33",
-        "url": "http://59.180.143.92:53134/i",
+        "id": "3921575",
+        "date_added": "2026-09-23 10:24:23",
+        "url": "http://125.45.67.67:36279/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3921573",
+        "date_added": "2026-09-23 10:17:28",
+        "url": "http://82.209.204.6:43726/i",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3921572",
+        "date_added": "2026-09-23 10:17:19",
+        "url": "http://115.206.222.83:55415/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "mirai"
+        ]
+      },
+      {
+        "id": "3921571",
+        "date_added": "2026-09-23 10:17:17",
+        "url": "http://27.21.25.15:50054/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "mirai"
+        ]
+      },
+      {
+        "id": "3921569",
+        "date_added": "2026-09-23 10:17:16",
+        "url": "http://59.180.155.217:43572/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -439,24 +370,188 @@
         ]
       },
       {
-        "id": "3921118",
-        "date_added": "2026-09-22 20:02:29",
-        "url": "http://124.162.246.201:40539/i",
+        "id": "3921570",
+        "date_added": "2026-09-23 10:17:16",
+        "url": "http://182.113.37.110:60859/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3921568",
+        "date_added": "2026-09-23 10:17:15",
+        "url": "http://31.133.76.30:34609/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3921567",
+        "date_added": "2026-09-23 10:12:33",
+        "url": "http://123.11.125.96:40919/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3921566",
+        "date_added": "2026-09-23 10:08:36",
+        "url": "http://210.208.110.130:51661/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "mirai"
+        ]
+      },
+      {
+        "id": "3921565",
+        "date_added": "2026-09-23 10:08:32",
+        "url": "http://165.154.42.153/frpc",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3921564",
+        "date_added": "2026-09-23 10:08:30",
+        "url": "http://183.23.135.253:54790/bin.sh",
         "url_status": "offline",
         "threat": "malware_download",
         "tags": [
           "None"
+        ]
+      },
+      {
+        "id": "3921563",
+        "date_added": "2026-09-23 10:08:29",
+        "url": "http://39.40.150.166:34578/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3921561",
+        "date_added": "2026-09-23 10:08:25",
+        "url": "http://8.153.207.91:9575/linux",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3921562",
+        "date_added": "2026-09-23 10:08:25",
+        "url": "https://drive.google.com/uc?export=download&id=1c-bLtoODj59nLzb41a-pqCBvoqmoxv6C",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "ascii",
+          "Encoded",
+          "GuLoader",
+          "rat",
+          "RemcosRAT"
         ]
       }
     ]
   },
   "world_monitor": [
     {
-      "title": "U.N. Live Updates: Trump Says He Faces Choice to Make a Deal or ‘Annihilate’ Iran",
+      "title": "As AI leaders warn of catastrophe, US and China shun slowdown calls",
+      "link": "https://www.aljazeera.com/economy/2026/9/23/as-ai-leaders-warn-of-catastrophe-us-and-china-shun-slowdown-calls?traffic_source=rss",
+      "pubDate": "Wed, 23 Sep 2026 10:27:38 +0000",
+      "source": "Al Jazeera",
+      "summary": "Presidents Donald Trump and Xi Jinping are expected to agree to only limited cooperation on AI safety at summit."
+    },
+    {
+      "title": "Yemen government forces claim control of Mount Qarfan in Taiz",
+      "link": "https://www.aljazeera.com/news/2026/9/23/yemen-government-forces-claim-control-of-mount-qarfan-in-taiz?traffic_source=rss",
+      "pubDate": "Wed, 23 Sep 2026 10:15:37 +0000",
+      "source": "Al Jazeera",
+      "summary": "Mountain’s capture disrupts Houthis' defences and impacts their advances along Red Sea coast."
+    },
+    {
+      "title": "World leaders say UN Security Council failing to function",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/9/23/world-leaders-say-un-security-council-failing-to-function?traffic_source=rss",
+      "pubDate": "Wed, 23 Sep 2026 10:04:35 +0000",
+      "source": "Al Jazeera",
+      "summary": "World leaders say UN Security Council failing to function"
+    },
+    {
+      "title": "Europe’s centrists are finally paying the price of their extremism",
+      "link": "https://www.aljazeera.com/opinions/2026/9/23/europes-centrists-are-finally-paying-the-price-of-their-extremism?traffic_source=rss",
+      "pubDate": "Wed, 23 Sep 2026 10:02:50 +0000",
+      "source": "Al Jazeera",
+      "summary": "The centre’s blind adherence to austerity has devastated European societies."
+    },
+    {
+      "title": "Ethiopian Airlines suspends flights to three northern Tigray airports",
+      "link": "https://www.aljazeera.com/news/2026/9/23/ethiopian-airlines-suspends-flights-to-three-northern-tigray-airports?traffic_source=rss",
+      "pubDate": "Wed, 23 Sep 2026 09:58:51 +0000",
+      "source": "Al Jazeera",
+      "summary": "The suspension comes after Tigrayan forces took control of Mekelle airport."
+    },
+    {
+      "title": "U.N. Updates: As Trump Threatens Iran, Other Leaders Warn of Deep Divisions",
       "link": "https://www.nytimes.com/live/2026/09/22/world/un-general-assembly-trump-speech-news",
-      "pubDate": "Tue, 22 Sep 2026 20:56:48 +0000",
+      "pubDate": "Wed, 23 Sep 2026 09:48:19 +0000",
       "source": "NYT World",
-      "summary": "President Trump delivered the remark before a gathering where world leaders typically present themselves as champions of global harmony. Earlier, António Guterres, the U.N. secretary general, called on leaders to end conflicts."
+      "summary": "President Trump said he must decide whether to make a deal or “annihilate” Iran, in a gathering where world leaders typically focus on declarations of global harmony."
+    },
+    {
+      "title": "Trump Praises Burnham as ‘Natural Business Person’ After First Meeting",
+      "link": "https://www.nytimes.com/2026/09/22/world/europe/trump-burnham-meeting-un-us-uk.html",
+      "pubDate": "Wed, 23 Sep 2026 09:15:00 +0000",
+      "source": "NYT World",
+      "summary": "Prime Minister Andy Burnham of Britain met with President Trump for the first time on the sidelines of the U.N. General Assembly on Tuesday."
+    },
+    {
+      "title": "Eleven killed in mass shooting at house in South Africa",
+      "link": "https://www.bbc.co.uk/news/articles/crgjqxzl097eo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Wed, 23 Sep 2026 07:02:52 GMT",
+      "source": "BBC",
+      "summary": "One of those killed is believed to be a pregnant woman, police said."
+    },
+    {
+      "title": "Trump administration accuses banned media outlets of 'falsehoods' ahead of court hearing",
+      "link": "https://www.bbc.co.uk/news/articles/c6790yrgzq25o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Wed, 23 Sep 2026 06:47:49 GMT",
+      "source": "BBC",
+      "summary": "The US Justice Department's response to a lawsuit filed by CNN, Politico and MS NOW also cites national security."
+    },
+    {
+      "title": "US and Iran hold first talks since June after Trump's 'annihilation' threat",
+      "link": "https://www.bbc.co.uk/news/articles/ck62m1631d7po?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Wed, 23 Sep 2026 06:12:56 GMT",
+      "source": "BBC",
+      "summary": "The talks are the first since a ceasefire collapsed in June, with the sides exchanging fire intermittently."
+    },
+    {
+      "title": "Reports of violence against women in Gaza surge, UN agency finds",
+      "link": "https://www.bbc.co.uk/news/articles/c94gm7dp40y0o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Wed, 23 Sep 2026 05:02:26 GMT",
+      "source": "BBC",
+      "summary": "The UN Population Fund also says there has been a \"severe escalation\" in the number of early and forced marriages."
+    },
+    {
+      "title": "US to build two military bases in Greenland under new deal with Denmark",
+      "link": "https://www.bbc.co.uk/news/articles/c9dr74g32g8go?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Tue, 22 Sep 2026 21:36:55 GMT",
+      "source": "BBC",
+      "summary": "The defence deal signed at the UN General Assembly also re-affirms Denmark's sovereignty over its semi-autonomous Arctic territory."
     },
     {
       "title": "Another U.S. Soldier Is Dead as Iran War Casualties Rise",
@@ -466,41 +561,6 @@
       "summary": "An additional 66 U.S. personnel were wounded in action this month, pushing the official count of Iran war casualties above 850.\nThe post Another U.S. Soldier Is Dead as Iran War Casualties Rise appeared first on The Intercept."
     },
     {
-      "title": "Trump: US-Iran meeting at UN was ‘very good’",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/9/22/trump-us-iran-meeting-at-un-was-very?traffic_source=rss",
-      "pubDate": "Tue, 22 Sep 2026 20:23:48 +0000",
-      "source": "Al Jazeera",
-      "summary": "US President Donald Trump says he had a ‘very good’ three-hour meeting with Iranian officials at the UN."
-    },
-    {
-      "title": "NYC Mayor Mamdani reaches record DoorDash settlement for underpaid workers",
-      "link": "https://www.aljazeera.com/economy/2026/9/22/nyc-mayor-mamdani-reaches-record-doordash-settlement-for-underpaid-workers?traffic_source=rss",
-      "pubDate": "Tue, 22 Sep 2026 20:03:50 +0000",
-      "source": "Al Jazeera",
-      "summary": "Settlement is largest of its kind in any US city and is set to affect 260,000 delivery drivers."
-    },
-    {
-      "title": "Brazil’s Lula: Gaza’s ‘pain and trauma’ will last generations",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/9/22/brazils-lula-gazas-pain-and-trauma-will-last-generations?traffic_source=rss",
-      "pubDate": "Tue, 22 Sep 2026 19:59:36 +0000",
-      "source": "Al Jazeera",
-      "summary": "Brazilian President Luiz Inacio Lula da Silva condemned the “pain and trauma” inflicted by Israel’s government in Gaza."
-    },
-    {
-      "title": "Djibouti minister appeals for aid for Yemeni refugees",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/9/22/djibouti-minister-appeals-for-aid-for-yemeni-refugees?traffic_source=rss",
-      "pubDate": "Tue, 22 Sep 2026 19:56:02 +0000",
-      "source": "Al Jazeera",
-      "summary": "Djibouti’s Minister of Social Affairs and Solidarity, Ouloufa Ismail Abdo, appeals for aid for Yemeni refugees"
-    },
-    {
-      "title": "Trump admin asks top US court to reverse pro-Palestinian scholar’s release",
-      "link": "https://www.aljazeera.com/news/2026/9/22/trump-admin-asks-top-us-court-to-reverse-pro-palestinian-scholars-release?traffic_source=rss",
-      "pubDate": "Tue, 22 Sep 2026 19:52:16 +0000",
-      "source": "Al Jazeera",
-      "summary": "US solicitor general challenges lower court's ruling on Georgetown scholar's detention, sparking constitutional debates."
-    },
-    {
       "title": "Ethiopian Rebel Groups Join Forces Against the Government",
       "link": "https://www.nytimes.com/2026/09/22/world/africa/ethiopia-rebel-alliance.html",
       "pubDate": "Tue, 22 Sep 2026 19:47:49 +0000",
@@ -508,39 +568,11 @@
       "summary": "Half a dozen groups, accusing the prime minister of being dictatorial, announced the formation of a coalition in a country already scarred by war."
     },
     {
-      "title": "Sri Lanka court convicts 15 men over deadly Easter Sunday bombings",
-      "link": "https://www.bbc.co.uk/news/articles/cqy7z275yx65o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Tue, 22 Sep 2026 19:47:44 GMT",
-      "source": "BBC",
-      "summary": "Three churches and three luxury hotels were targeted in the 2019 attacks which killed 270."
-    },
-    {
-      "title": "Trump Praises Burnham as ‘Natural Business Person’ After First Meeting",
-      "link": "https://www.nytimes.com/2026/09/22/world/europe/trump-burnham-meeting-un-us-uk.html",
-      "pubDate": "Tue, 22 Sep 2026 19:47:04 +0000",
-      "source": "NYT World",
-      "summary": "Prime Minister Andy Burnham of Britain met with President Trump for the first time on the sidelines of the U.N. General Assembly on Tuesday."
-    },
-    {
       "title": "Sri Lanka Convicts 15 in Easter 2019 Bomb Attacks",
       "link": "https://www.nytimes.com/2026/09/22/world/asia/sri-lanka-convictions-easter-2019-bomb-attacks.html",
       "pubDate": "Tue, 22 Sep 2026 19:14:00 +0000",
       "source": "NYT World",
       "summary": "A court found 15 men guilty of coordinating a series of suicide bombings in hotels and churches, which killed more than 300 people."
-    },
-    {
-      "title": "Ukraine anger as EU removes Russian oligarchs from sanctions list",
-      "link": "https://www.bbc.co.uk/news/articles/c6dj4k98107do?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Tue, 22 Sep 2026 19:06:06 GMT",
-      "source": "BBC",
-      "summary": "Alisher Usmanov and Mikhail Fridman both have close ties to President Putin, and Kyiv said the move sent Moscow the wrong signals."
-    },
-    {
-      "title": "US to build two military bases in Greenland under new deal with Denmark",
-      "link": "https://www.bbc.co.uk/news/articles/c9dr74g32g8go?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Tue, 22 Sep 2026 18:43:29 GMT",
-      "source": "BBC",
-      "summary": "The defence deal signed at the UN General Assembly also re-affirms Denmark's sovereignty over its semi-autonomous Arctic territory."
     },
     {
       "title": "How a Small Kansas City Became a Critical Hub for Trump’s Deportation Regime Against Its Will",
@@ -564,25 +596,11 @@
       "summary": "After a sprawling world tour, Praxis, a New York-based, crypto-backed “digital nation,” has signed a deal to build a physical city in Uruguay."
     },
     {
-      "title": "Developing El Niño becomes strongest on record weeks before expected peak",
-      "link": "https://www.bbc.co.uk/weather/articles/cmvgy4nv9d62o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Tue, 22 Sep 2026 12:54:14 GMT",
-      "source": "BBC",
-      "summary": "Scientists say the developing El Niño is now the strongest on record with weather impacts already being felt around the world."
-    },
-    {
-      "title": "Eleven injured in shooting outside Turkish school",
-      "link": "https://www.bbc.co.uk/news/articles/c6y0z4gv0le4o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Tue, 22 Sep 2026 10:42:47 GMT",
-      "source": "BBC",
-      "summary": "Footage appears to show a male in the area carrying a firearm, while officials say the attacker has been captured."
-    },
-    {
       "title": "Pink Supported Macklemore’s Firing. Now Activists Want UNICEF to Cut Ties With Her.",
       "link": "https://theintercept.com/2026/09/22/pink-macklemore-palestine-israel-unicef/",
       "pubDate": "Tue, 22 Sep 2026 09:00:00 +0000",
       "source": "The Intercept",
-      "summary": "Activists with Swifties Against Genocide want to impose a cost for trampling pro-Palestine voices.\nThe post Pink Supported Macklemore’s Firing. Now Activists Want UNICEF to Cut Ties With Her. appeared first on The Intercept."
+      "summary": "Activists with Swifties Against Genocide want to impose a cost on trampling pro-Palestine voices.\nThe post Pink Supported Macklemore’s Firing. Now Activists Want UNICEF to Cut Ties With Her. appeared first on The Intercept."
     },
     {
       "title": "John Fetterman Is Fundraising on GOP Donor Email Lists",
@@ -694,6 +712,46 @@
   ],
   "syndicate_journal": [
     {
+      "title": "How the West was fun",
+      "link": "https://aeon.co/videos/at-an-old-west-theme-park-tourists-play-in-a-past-that-never-existed",
+      "summary": "Be it movie mythos or nostalgia for a ‘simpler’ time, there’s an undeniable allure in stepping into the American West\n- by Aeon Video\nWatch on Aeon",
+      "pubDate": "Wed, 23 Sep 2026 10:01:00 GMT",
+      "domain": "philosophy",
+      "source": "Aeon"
+    },
+    {
+      "title": "Didactic knowledge or Clinical Cases? How Data Types Shape Medical Large Language Models",
+      "link": "https://arxiv.org/abs/2609.22161",
+      "summary": "arXiv:2609.22161v1 Announce Type: new \nAbstract: Medical large language models are commonly trained on mixtures of didactic data (e.g., textbooks) and clinical data (e.g., patient records), yet how these data types differentially shape model capabilities remains unclear. We address this issue with t",
+      "pubDate": "Wed, 23 Sep 2026 00:00:00 -0400",
+      "domain": "science",
+      "source": "arXiv: cs.AI"
+    },
+    {
+      "title": "An Affordable AI-Integrated Smart Cane for Multimodal Mobility Assistance of Visually Impaired Users",
+      "link": "https://arxiv.org/abs/2609.22277",
+      "summary": "arXiv:2609.22277v1 Announce Type: new \nAbstract: Visual impairment affects over 2.2 billion people worldwide, yet conventional white canes cannot detect elevated hazards or provide semantic environmental context. Existing AI-assisted navigation systems typically rely on expensive hardware or cloud c",
+      "pubDate": "Wed, 23 Sep 2026 00:00:00 -0400",
+      "domain": "science",
+      "source": "arXiv: cs.AI"
+    },
+    {
+      "title": "PAANI : On Device Visual Evidence Fusion and Explainable Guidance for River Robot Simulation",
+      "link": "https://arxiv.org/abs/2609.22353",
+      "summary": "arXiv:2609.22353v1 Announce Type: new \nAbstract: Mobile river monitoring robots must interpret obstacles and water boundaries that geographic waypoints alone cannot describe. On resource constrained platforms, converting imperfect visual predictions into timely and inspectable guidance is a distinct",
+      "pubDate": "Wed, 23 Sep 2026 00:00:00 -0400",
+      "domain": "science",
+      "source": "arXiv: cs.AI"
+    },
+    {
+      "title": "Why Activating Brown Fat to Treat Obesity is So Hard",
+      "link": "https://nautil.us/why-activating-brown-fat-to-treat-obesity-is-so-hard-1285206/",
+      "summary": "And why the failures are just as important\nThe post Why Activating Brown Fat to Treat Obesity is So Hard appeared first on Nautilus.",
+      "pubDate": "Tue, 22 Sep 2026 22:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
       "title": "The Mysterious Migrant Potters of Ancient Tampa Bay",
       "link": "https://nautil.us/the-mysterious-migrant-potters-of-ancient-tampa-bay-1285200/",
       "summary": "Another archaeological cold case solved\nThe post The Mysterious Migrant Potters of Ancient Tampa Bay appeared first on Nautilus.",
@@ -716,14 +774,6 @@
       "pubDate": "2026-09-22T16:49:12.097Z",
       "domain": "politics",
       "source": "Jacobin"
-    },
-    {
-      "title": "Peptides Are Spreading on Social Media. Here’s How Platforms Can Better Protect Public Health",
-      "link": "https://nautil.us/peptides-are-spreading-on-social-media-heres-how-platforms-can-better-protect-public-health-1285182/",
-      "summary": "For starters, they need to take the same approach they did to vaping\nThe post Peptides Are Spreading on Social Media. Here’s How Platforms Can Better Protect Public Health appeared first on Nautilus.",
-      "pubDate": "Tue, 22 Sep 2026 16:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
     },
     {
       "title": "The Last Revolutionary Filmmaker",
@@ -766,30 +816,6 @@
       "source": "Aeon"
     },
     {
-      "title": "RBS-Attention: Radius-Bounded Sparse Prefill for Long-Context Large Language Models",
-      "link": "https://arxiv.org/abs/2609.20971",
-      "summary": "arXiv:2609.20971v1 Announce Type: new \nAbstract: Long-context large language model inference is increasingly limited by prefill, where dense self-attention processes the entire prompt before generation begins. Sparse block selection can reduce this cost, but a block centroid may hide a highly releva",
-      "pubDate": "Tue, 22 Sep 2026 00:00:00 -0400",
-      "domain": "science",
-      "source": "arXiv: cs.AI"
-    },
-    {
-      "title": "Attention-Aware Routing: Coupling Routing and Attention in MoEs",
-      "link": "https://arxiv.org/abs/2609.20974",
-      "summary": "arXiv:2609.20974v1 Announce Type: new \nAbstract: In Mixture-of-Experts language models, the router typically selects and weights experts based on the token's hidden state, utilizing limited contextual information. We propose Attention-Aware Routing (AAR), which augments the router with temporal and ",
-      "pubDate": "Tue, 22 Sep 2026 00:00:00 -0400",
-      "domain": "science",
-      "source": "arXiv: cs.AI"
-    },
-    {
-      "title": "CaLR: Causal Latent Revision for Robust Diffusion Reasoning",
-      "link": "https://arxiv.org/abs/2609.20981",
-      "summary": "arXiv:2609.20981v1 Announce Type: new \nAbstract: Autoregressive (AR) models suffer from local greediness, while diffusion language models (DLMs) often lack the strict causal structure required for reasoning. To combine the advantages and overcome the drawbacks of the dual, we propose Causal Latent R",
-      "pubDate": "Tue, 22 Sep 2026 00:00:00 -0400",
-      "domain": "science",
-      "source": "arXiv: cs.AI"
-    },
-    {
       "title": "How Virus-like ‘Jumping Genes’ Became Our Partners in Evolution",
       "link": "https://www.quantamagazine.org/how-virus-like-jumping-genes-became-our-partners-in-evolution-20260921/",
       "summary": "Half of our genome is made of transposons — snips of DNA that can move and copy themselves. But they’re more than parasites or genetic junk.            \nThe post How Virus-like ‘Jumping Genes’ Became Our Partners in Evolution first appeared on Quanta Magazine",
@@ -810,14 +836,6 @@
       "link": "https://aeon.co/videos/indonesia-is-building-a-new-capital-city-whats-being-lost",
       "summary": "As Indonesia builds a new capital city, the race is on to preserve the sounds of the rainforest before they vanish forever\n- by Aeon Video\nWatch on Aeon",
       "pubDate": "Mon, 21 Sep 2026 10:01:00 GMT",
-      "domain": "philosophy",
-      "source": "Aeon"
-    },
-    {
-      "title": "He was probably right",
-      "link": "https://aeon.co/essays/a-good-sceptic-has-more-than-doubt-and-less-than-certainty",
-      "summary": "Cicero’s life and thought are a testament to the idea of probabilia: we should be confident in our beliefs, but never certain\n- by Massimo Pigliucci\nRead on Aeon",
-      "pubDate": "Mon, 21 Sep 2026 10:00:00 GMT",
       "domain": "philosophy",
       "source": "Aeon"
     },
@@ -958,25 +976,25 @@
       "source": "ROAR Magazine"
     },
     {
-      "title": "GenAI literacy and GenAI-assisted self-regulated learning behaviors: the roles of learning agency and challenge emotions",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1902668",
-      "summary": "The integration of generative artificial intelligence (GenAI) into education raises important questions about how learners' GenAI-related competencies are associated with their self-regulatory behaviors in GenAI-supported learning. Drawing on a serial mediation framework, this study examined the rol",
+      "title": "Links between psychological distress, late chronotype, and impaired sleep quality in survivors of sexual assault",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1753513",
+      "summary": "IntroductionSexual assault is a pervasive issue with profound psychological and physical impacts, including significant sleep disturbances. Although psychological distress is a well-established mediator in the relationship between sexual assault and poor sleep quality, the role of the circadian syst",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "When AI threatens my future career: growth mindset and perceived employability in Chinese college students' career decision making anxiety",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1933842",
-      "summary": "BackgroundArtificial intelligence (AI) is rapidly reshaping the labor market and may intensify college students' uncertainty and anxiety about future career decisions. This study examined the psychological mechanism linking AI employment threat perception to career decision-making anxiety, focusing ",
+      "title": "A study on teachers’ classroom discourse strategies from the perspective of complex dynamic systems theory: lag sequential analysis based on pragmatic annotation and mental state transition",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1924971",
+      "summary": "Teachers’ classroom discourse is a key window into the quality of teaching. However, traditional research has mostly focused on the frequency distribution of discourse behaviors, overlooking the dynamic characteristics of discourse in the time dimension. From the perspective of Complex Dynamic Syste",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "Compassionate mind training as school-based social and emotional learning: extension to younger pupils and effects of programme dosage",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1861788",
-      "summary": "IntroductionThe transition from primary/elementary to high-school education is associated with increased mental health difficulties, especially anxiety. Previously, compassionate mind training (CMT) has been demonstrated to stem anxiety increases and improve prosocial behaviours in children aged 11–",
+      "title": "Psychosocial outcomes of folk dance interventions compared with other dance forms: a meta-analysis",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1930540",
+      "summary": "IntroductionThis study aimed to determine the effects of folk dance interventions on individuals’ psychosocial outcomes and to compare these effects with those of other dance forms.MethodsA meta-analytic design was used, and experimental and quasi-experimental studies published between 2000 and 2026",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
@@ -984,64 +1002,64 @@
   ],
   "misinfo_toilet": [
     {
-      "headline": "John Fetterman Is Fundraising on GOP Donor Email Lists",
-      "fragment": "There is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
-      "splice": "John Fetterman Is Fundraising on GOP Donor Email Lists within which there is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
-      "seed": 20260943
+      "headline": "“A Recurring Pattern”: Civilians Paying the Price in Mali’s Drone Campaign",
+      "fragment": "The truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
+      "splice": "“A Recurring Pattern”: Civilians Paying the Price in Mali’s Drone Campaign insofar as the truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
+      "seed": 20260934
     },
     {
-      "headline": "NYC Mayor Mamdani reaches record DoorDash settlement for underpaid workers",
-      "fragment": "The privatization of the organs will only begin with the shame felt by man at the sight of man.",
-      "splice": "NYC Mayor Mamdani reaches record DoorDash settlement for underpaid workers therefore the privatization of the organs will only begin with the shame felt by man at the sight of man.",
-      "seed": 20260944
-    },
-    {
-      "headline": "Another U.S. Soldier Is Dead as Iran War Casualties Rise",
-      "fragment": "Simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
-      "splice": "Another U.S. Soldier Is Dead as Iran War Casualties Rise because simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
-      "seed": 20260945
+      "headline": "As AI leaders warn of catastrophe, US and China shun slowdown calls",
+      "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
+      "splice": "As AI leaders warn of catastrophe, US and China shun slowdown calls underneath the breast is a machine that produces milk, and the mouth a machine coupled to it.",
+      "seed": 20260935
     },
     {
       "headline": "Tech-Utopian Movement Praxis Says It Has Found a Home in Uruguay",
-      "fragment": "Over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
-      "splice": "Tech-Utopian Movement Praxis Says It Has Found a Home in Uruguay which is to say over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
-      "seed": 20260946
+      "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "splice": "Tech-Utopian Movement Praxis Says It Has Found a Home in Uruguay despite the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "seed": 20260936
     },
     {
-      "headline": "Trump admin asks top US court to reverse pro-Palestinian scholar’s release",
-      "fragment": "It is at work everywhere, functioning smoothly at times, at other times in fits and starts. It breathes, it heats, it eats. It shits and fucks.",
-      "splice": "Trump admin asks top US court to reverse pro-Palestinian scholar’s release not unlike it is at work everywhere, functioning smoothly at times, at other times in fits and starts. It breathes, it heats, it eats. It shits and fucks.",
-      "seed": 20260947
-    },
-    {
-      "headline": "U.N. Live Updates: Trump Says He Faces Choice to Make a Deal or ‘Annihilate’ Iran",
-      "fragment": "It is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
-      "splice": "U.N. Live Updates: Trump Says He Faces Choice to Make a Deal or ‘Annihilate’ Iran the system notes that it is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
-      "seed": 20260948
-    },
-    {
-      "headline": "“A Recurring Pattern”: Civilians Paying the Price in Mali’s Drone Campaign",
-      "fragment": "Over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
-      "splice": "“A Recurring Pattern”: Civilians Paying the Price in Mali’s Drone Campaign while over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
-      "seed": 20260949
-    },
-    {
-      "headline": "Eleven injured in shooting outside Turkish school",
+      "headline": "Eleven killed in mass shooting at house in South Africa",
       "fragment": "The truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
-      "splice": "Eleven injured in shooting outside Turkish school insofar as the truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
-      "seed": 20260950
+      "splice": "Eleven killed in mass shooting at house in South Africa while the truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
+      "seed": 20260937
     },
     {
-      "headline": "Trump: US-Iran meeting at UN was ‘very good’",
-      "fragment": "Reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
-      "splice": "Trump: US-Iran meeting at UN was ‘very good’ consequently reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
-      "seed": 20260951
+      "headline": "John Fetterman Is Fundraising on GOP Donor Email Lists",
+      "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
+      "splice": "John Fetterman Is Fundraising on GOP Donor Email Lists despite the revolutionary lives in the gap which separates technical progress from social totality.",
+      "seed": 20260938
     },
     {
-      "headline": "Brazil’s Lula: Gaza’s ‘pain and trauma’ will last generations",
-      "fragment": "To dissimulate is to pretend not to have what one has. To simulate is to feign to have what one doesn't have. One implies a presence, the other an absence.",
-      "splice": "Brazil’s Lula: Gaza’s ‘pain and trauma’ will last generations meanwhile to dissimulate is to pretend not to have what one has. To simulate is to feign to have what one doesn't have. One implies a presence, the other an absence.",
-      "seed": 20260952
+      "headline": "Yemen government forces claim control of Mount Qarfan in Taiz",
+      "fragment": "The truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
+      "splice": "Yemen government forces claim control of Mount Qarfan in Taiz as if the truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
+      "seed": 20260939
+    },
+    {
+      "headline": "Investigating a Murder: Public Records Uncover New Clues in Chinatown Cold Case",
+      "fragment": "We live in a world where there is more and more information, and less and less meaning.",
+      "splice": "Investigating a Murder: Public Records Uncover New Clues in Chinatown Cold Case while we live in a world where there is more and more information, and less and less meaning.",
+      "seed": 20260940
+    },
+    {
+      "headline": "Pink Supported Macklemore’s Firing. Now Activists Want UNICEF to Cut Ties With Her.",
+      "fragment": "It is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
+      "splice": "Pink Supported Macklemore’s Firing. Now Activists Want UNICEF to Cut Ties With Her. the signal resolves into it is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
+      "seed": 20260941
+    },
+    {
+      "headline": "Bellingcat Official Merch Design Contest",
+      "fragment": "In the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
+      "splice": "Bellingcat Official Merch Design Contest meanwhile in the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
+      "seed": 20260942
+    },
+    {
+      "headline": "Sri Lanka Convicts 15 in Easter 2019 Bomb Attacks",
+      "fragment": "The current ruling ontology denies any possibility of a social causation of mental illness. The chemico-biologization of mental illness is of course strictly commensurate with its depoliticization.",
+      "splice": "Sri Lanka Convicts 15 in Easter 2019 Bomb Attacks because the current ruling ontology denies any possibility of a social causation of mental illness. The chemico-biologization of mental illness is of course strictly commensurate with its depoliticization.",
+      "seed": 20260943
     }
   ]
 }
