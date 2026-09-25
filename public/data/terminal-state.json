@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T16:50:37.606Z",
+  "generated_at": "2026-09-25T21:15:12.202Z",
   "threat_intel": {
     "cisa_kev": [
       {
@@ -32,6 +32,22 @@
         "notes": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-65660 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-65660",
         "cwes": [
           "CWE-94"
+        ]
+      },
+      {
+        "cveID": "CVE-2026-87902",
+        "vendorProject": "WordPress",
+        "product": "Core",
+        "vulnerabilityName": "WordPress Core Remote File Inclusion Vulnerability",
+        "dateAdded": "2026-09-25",
+        "shortDescription": "WordPress Core contains a remote file inclusion vulnerability which could allow an unauthenticated attacker to make page-template resolution include a chosen readable local `.php` file outside the active theme directories, leading to remote code execution.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-09-28",
+        "knownRansomwareCampaignUse": "Unknown",
+        "forensicTriage": "Yes",
+        "notes": "https://github.com/WordPress/wordpress-develop/security/advisories/GHSA-7hp8-65ch-5whp ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-87902",
+        "cwes": [
+          "CWE-98"
         ]
       },
       {
@@ -225,29 +241,35 @@
         "cwes": [
           "CWE-648"
         ]
-      },
-      {
-        "cveID": "CVE-2026-87886",
-        "vendorProject": "Acronis",
-        "product": "Backup",
-        "vulnerabilityName": "Acronis Backup Incorrect Default Permissions Vulnerability",
-        "dateAdded": "2026-09-16",
-        "shortDescription": "Acronis Backup plugin for cPanel & WHM and extension for Plesk contains an incorrect default permissions vulnerability that could allow for privilege escalation.",
-        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "dueDate": "2026-09-19",
-        "knownRansomwareCampaignUse": "Unknown",
-        "forensicTriage": "Yes",
-        "notes": "https://security-advisory.acronis.com/advisories/SEC-10986 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-87886",
-        "cwes": [
-          "CWE-276"
-        ]
       }
     ],
     "urlhaus": [
       {
-        "id": "3922669",
-        "date_added": "2026-09-25 16:32:15",
-        "url": "http://59.97.253.177:43604/bin.sh",
+        "id": "3922772",
+        "date_added": "2026-09-25 21:07:52",
+        "url": "https://github.com/serhat9611/pruva-download/releases/download/v2.0.25/PruvaAgent.exe",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "d52f85",
+          "dropped-by-amadey"
+        ]
+      },
+      {
+        "id": "3922771",
+        "date_added": "2026-09-25 21:05:09",
+        "url": "http://62.60.226.140/files/5279938618/4hSB4m0.exe",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "d52f85",
+          "dropped-by-amadey"
+        ]
+      },
+      {
+        "id": "3922770",
+        "date_added": "2026-09-25 21:02:18",
+        "url": "http://42.224.96.58:52702/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -255,9 +277,9 @@
         ]
       },
       {
-        "id": "3922666",
-        "date_added": "2026-09-25 16:32:14",
-        "url": "http://59.103.116.83:39200/bin.sh",
+        "id": "3922765",
+        "date_added": "2026-09-25 21:02:17",
+        "url": "http://115.57.255.95:49758/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -265,9 +287,9 @@
         ]
       },
       {
-        "id": "3922667",
-        "date_added": "2026-09-25 16:32:14",
-        "url": "http://42.52.205.169:34621/i",
+        "id": "3922766",
+        "date_added": "2026-09-25 21:02:17",
+        "url": "http://116.139.183.68:57579/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -275,9 +297,9 @@
         ]
       },
       {
-        "id": "3922668",
-        "date_added": "2026-09-25 16:32:14",
-        "url": "http://219.155.203.251:47473/i",
+        "id": "3922767",
+        "date_added": "2026-09-25 21:02:17",
+        "url": "http://27.215.126.230:38041/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -285,9 +307,39 @@
         ]
       },
       {
-        "id": "3922665",
-        "date_added": "2026-09-25 16:32:13",
-        "url": "http://123.132.175.6:34454/i",
+        "id": "3922768",
+        "date_added": "2026-09-25 21:02:17",
+        "url": "http://222.127.63.144:52226/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "mirai"
+        ]
+      },
+      {
+        "id": "3922769",
+        "date_added": "2026-09-25 21:02:17",
+        "url": "http://221.202.231.52:35908/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3922764",
+        "date_added": "2026-09-25 21:01:11",
+        "url": "http://116.139.183.68:57579/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3922763",
+        "date_added": "2026-09-25 20:46:17",
+        "url": "http://39.57.99.253:52777/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -295,23 +347,89 @@
         ]
       },
       {
-        "id": "3922664",
-        "date_added": "2026-09-25 16:29:26",
-        "url": "http://222.127.55.82:44114/i",
+        "id": "3922761",
+        "date_added": "2026-09-25 20:46:16",
+        "url": "http://115.52.20.128:47139/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "32-bit",
-          "arm",
-          "elf",
-          "mirai",
           "Mozi"
         ]
       },
       {
-        "id": "3922663",
-        "date_added": "2026-09-25 16:25:27",
-        "url": "http://125.47.34.226:50997/bin.sh",
+        "id": "3922762",
+        "date_added": "2026-09-25 20:46:16",
+        "url": "http://112.248.186.181:38154/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3922760",
+        "date_added": "2026-09-25 20:46:15",
+        "url": "http://78.188.196.206:51773/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3922759",
+        "date_added": "2026-09-25 20:32:21",
+        "url": "http://72.255.35.69:52879/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3922758",
+        "date_added": "2026-09-25 20:32:15",
+        "url": "http://123.10.239.207:43751/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3922756",
+        "date_added": "2026-09-25 20:32:14",
+        "url": "http://59.96.137.244:57162/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3922757",
+        "date_added": "2026-09-25 20:32:14",
+        "url": "http://115.52.20.128:47139/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3922755",
+        "date_added": "2026-09-25 20:32:13",
+        "url": "http://196.189.35.226:45550/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "mirai"
+        ]
+      },
+      {
+        "id": "3922754",
+        "date_added": "2026-09-25 20:29:23",
+        "url": "http://115.48.20.227:40728/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -322,207 +440,110 @@
         ]
       },
       {
-        "id": "3922662",
-        "date_added": "2026-09-25 16:17:12",
-        "url": "http://112.255.78.191:35941/i",
+        "id": "3922752",
+        "date_added": "2026-09-25 20:22:28",
+        "url": "http://45.148.10.165:8000/beacon_linux_amd64_p_7b574e59d96d49",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "mirai"
-        ]
-      },
-      {
-        "id": "3922659",
-        "date_added": "2026-09-25 16:17:11",
-        "url": "http://223.105.50.190:36537/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3922660",
-        "date_added": "2026-09-25 16:17:11",
-        "url": "http://222.137.39.215:55530/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3922661",
-        "date_added": "2026-09-25 16:17:11",
-        "url": "http://42.52.205.169:34621/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3922658",
-        "date_added": "2026-09-25 16:02:13",
-        "url": "http://123.132.175.6:34454/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3922657",
-        "date_added": "2026-09-25 16:01:17",
-        "url": "http://219.155.203.251:47473/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3922656",
-        "date_added": "2026-09-25 15:47:15",
-        "url": "http://121.202.142.137:63861/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3922654",
-        "date_added": "2026-09-25 15:32:09",
-        "url": "http://115.57.255.95:49758/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3922655",
-        "date_added": "2026-09-25 15:32:09",
-        "url": "http://124.235.239.197:35644/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "mirai"
-        ]
-      },
-      {
-        "id": "3922652",
-        "date_added": "2026-09-25 15:32:08",
-        "url": "http://123.7.220.108:47783/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3922653",
-        "date_added": "2026-09-25 15:32:08",
-        "url": "http://182.127.4.126:41823/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3922651",
-        "date_added": "2026-09-25 15:31:34",
-        "url": "http://196.190.224.62:45874/i",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3922650",
-        "date_added": "2026-09-25 15:31:21",
-        "url": "http://196.190.224.62:45874/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "mirai"
+          "45-148-10-165-8000",
+          "elf",
+          "ua-wget"
         ]
       }
     ]
   },
   "world_monitor": [
     {
-      "title": "Supreme Court revives controversial US data system for citizenship checks ",
+      "title": "Russia targeting 'ordinary life' with attacks on Ukraine's data centres, Zelensky says",
+      "link": "https://www.bbc.co.uk/news/articles/c84gkwgk7d06o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Fri, 25 Sep 2026 20:47:49 GMT",
+      "source": "BBC",
+      "summary": "Such strikes aim to disrupt \"people's ability to stay connected, study, work\", says Ukraine's president."
+    },
+    {
+      "title": "Huge fire on vehicle ferry off Mykonos prompts mass evacuation",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/9/25/huge-fire-on-vehicle-ferry-off-mykonos-prompts-mass-evacuation?traffic_source=rss",
+      "pubDate": "Fri, 25 Sep 2026 20:46:15 +0000",
+      "source": "Al Jazeera",
+      "summary": "A fire erupted aboard the vehicle ferry Blue Carrier 2 north of the Greek island of Mykonos, prompting a major emergency"
+    },
+    {
+      "title": "Afghan taxi drivers defy the Taliban’s music ban",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/9/25/afghan-taxi-drivers-defy-the-talibans-music-ban?traffic_source=rss",
+      "pubDate": "Fri, 25 Sep 2026 20:42:47 +0000",
+      "source": "Al Jazeera",
+      "summary": "Afghan taxi drivers are playing music in their cars despite it being banned by the Taliban."
+    },
+    {
+      "title": "His Novel Had a Shot at a Top Book Prize. Then Someone Ran an A.I. Test.",
+      "link": "https://www.nytimes.com/2026/09/25/world/europe/thelyson-orelien-ai-canada-haiti-france.html",
+      "pubDate": "Fri, 25 Sep 2026 20:11:40 +0000",
+      "source": "NYT World",
+      "summary": "“It Was Either That Or Die,” by the Haitian-Canadian author Thélyson Orélien, was the hit of the French literary season. Now it has been pulled from the shortlist for a prestigious prize."
+    },
+    {
+      "title": "Carney Seeks New Trade Partners for Canada, But Knows the Limits",
+      "link": "https://www.nytimes.com/2026/09/25/world/canada/carney-canada-european-union-china-india.html",
+      "pubDate": "Fri, 25 Sep 2026 20:05:17 +0000",
+      "source": "NYT World",
+      "summary": "Canada’s prime minister is pursuing deeper trade, defense and cultural ties with China, India and the European Union, but none are likely to replace ties to the United States."
+    },
+    {
+      "title": "U.N. Releases New List of Companies It Says Do Business With Israeli Settlements",
+      "link": "https://www.nytimes.com/2026/09/25/world/middleeast/un-companies-westbank-settlements.html",
+      "pubDate": "Fri, 25 Sep 2026 19:55:36 +0000",
+      "source": "NYT World",
+      "summary": "Israel condemned the database of firms tied to activity in the occupied West Bank as a “political tool” to advance “a smear campaign.”"
+    },
+    {
+      "title": "Which countries walked out of Netanyahu’s UNGA speech?",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/9/25/which-countries-walked-out-of-netanyahus-unga-speech?traffic_source=rss",
+      "pubDate": "Fri, 25 Sep 2026 19:50:00 +0000",
+      "source": "Al Jazeera",
+      "summary": "Which countries walked out of Netanyahu’s UNGA speech?"
+    },
+    {
+      "title": "Jerusalem Daily: What was Netanyahu’s UNGA speech really about?",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/9/25/jerusalem-daily-what-was-netanyahus-unga-speech-really-about?traffic_source=rss",
+      "pubDate": "Fri, 25 Sep 2026 19:48:37 +0000",
+      "source": "Al Jazeera",
+      "summary": "Dozens of countries’ delegations walked out of or were absent for Israeli PM Benjamin Netanyahu’s UNGA speech."
+    },
+    {
+      "title": "Pakistan PM calls Houthi threats to Saudi holy sites a ‘red line’",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/9/25/pakistan-pm-calls-houthi-threats-to-saudi-holy-sites-a-red?traffic_source=rss",
+      "pubDate": "Fri, 25 Sep 2026 19:38:21 +0000",
+      "source": "Al Jazeera",
+      "summary": "Pakistan PM, a signatory to the Mecca Joint Defence Agreement, condemned Houthi attacks on Saudi Arabia at UNGA 81."
+    },
+    {
+      "title": "Supreme Court allows Trump to use controversial database to check voter citizenship",
       "link": "https://www.bbc.co.uk/news/articles/ck05rrj3jeylo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Fri, 25 Sep 2026 16:35:01 GMT",
+      "pubDate": "Fri, 25 Sep 2026 19:13:35 GMT",
       "source": "BBC",
-      "summary": "The system uses citizenship information and other sensitive data to filter alleged non-citizen voting."
+      "summary": "Critics have questioned the reliability of the data, warning it could  result in US citizens being wrongly removed from electoral rolls."
     },
     {
-      "title": "Ethiopia’s new rebel alliance faces an old problem",
-      "link": "https://www.aljazeera.com/opinions/2026/9/25/ethiopias-new-rebel-alliance-faces-an-old-problem?traffic_source=rss",
-      "pubDate": "Fri, 25 Sep 2026 16:10:55 +0000",
-      "source": "Al Jazeera",
-      "summary": "Former enemies have united against Abiy Ahmed, but disputes over territory, power and command could pull them apart."
-    },
-    {
-      "title": "More than 55,000 Sudanese refugees flee to Chad as UN calls for funding",
-      "link": "https://www.aljazeera.com/news/2026/9/25/more-than-55000-sudanese-refugees-flee-to-chad-as-un-calls-for-funding?traffic_source=rss",
-      "pubDate": "Fri, 25 Sep 2026 16:06:45 +0000",
-      "source": "Al Jazeera",
-      "summary": "UN refugee agency says 400 people a day, about 20 times the previous daily rate, now cross from Sudan into eastern Chad."
-    },
-    {
-      "title": "African Presidents Call for Permanent African Seats on U.N. Security Council",
-      "link": "https://www.nytimes.com/2026/09/25/world/africa/africa-security-council-representation.html",
-      "pubDate": "Fri, 25 Sep 2026 16:06:38 +0000",
-      "source": "NYT World",
-      "summary": "A host of African leaders including the presidents of Ghana, Liberia, Kenya and Namibia demanded the reform, while the U.N. Secretary General said the lack of a permanent African seat was “indefensible.”"
-    },
-    {
-      "title": "LIVE: Turkiye vs France – UEFA Nations League",
-      "link": "https://www.aljazeera.com/sports/liveblog/2026/9/25/live-turkiye-vs-france-uefa-nations-league?traffic_source=rss",
-      "pubDate": "Fri, 25 Sep 2026 15:47:07 +0000",
-      "source": "Al Jazeera",
-      "summary": "Follow the updates, with build-up, predictions, team news and lineups, from our live text commentary stream coverage."
-    },
-    {
-      "title": "Leo XIV, Trying to Be Everyone’s Pope, Tours Secular France",
-      "link": "https://www.nytimes.com/2026/09/25/world/europe/pope-leo-france-visit.html",
-      "pubDate": "Fri, 25 Sep 2026 15:38:35 +0000",
-      "source": "NYT World",
-      "summary": "After visiting Africa, Pope Leo’s four-day trip to France shows how he is seeking to appeal to Roman Catholicism’s original heartlands as well as to the church’s newest strongholds."
-    },
-    {
-      "title": "Students strike across Germany in protest against military service",
-      "link": "https://www.bbc.co.uk/news/articles/cxnvlnve52qdo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Fri, 25 Sep 2026 15:36:22 GMT",
+      "title": "Trump's plans for massive arch move ahead",
+      "link": "https://www.bbc.co.uk/news/articles/cq0lrr8kxy0lo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Fri, 25 Sep 2026 18:27:46 GMT",
       "source": "BBC",
-      "summary": "A law establishing voluntary military service came into effect in January, but protest organisers fear compulsory service could follow."
+      "summary": "Opposition to building the 250-foot arch, and using it for military purposes, is growing with one Democrat blasting Trump's plans as \"foolhardy\"."
+    },
+    {
+      "title": "The Backlash to “NAZA” Shows How Little Israeli Citizenship Really Means",
+      "link": "https://theintercept.com/2026/09/25/naza-documentary-film-netanyahu-israel-revoke-citizenship/",
+      "pubDate": "Fri, 25 Sep 2026 18:25:41 +0000",
+      "source": "The Intercept",
+      "summary": "By threatening the filmmakers, Netanyahu lays bare how fragile the notion of what it means to be Israeli is in the age of its genocide in Gaza.\nThe post The Backlash to “NAZA” Shows How Little Israeli Citizenship Really Means appeared first on The In"
     },
     {
       "title": "Netanyahu Said to Have Been Warned by Emirati Leader About Hamas Attack Before Oct. 7",
       "link": "https://www.nytimes.com/2026/09/25/world/middleeast/netanyahu-warning-oct-7-uae.html",
-      "pubDate": "Fri, 25 Sep 2026 15:29:00 +0000",
+      "pubDate": "Fri, 25 Sep 2026 17:15:17 +0000",
       "source": "NYT World",
       "summary": "The warning from the leader of the United Arab Emirates, which lacked specific details about the nature of an attack, never reached the chiefs of Israel’s security establishment, Israeli officials said."
-    },
-    {
-      "title": "What the Trump-Xi meeting revealed about global power",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/9/25/what-the-trump-xi-meeting-revealed-about-global-power?traffic_source=rss",
-      "pubDate": "Fri, 25 Sep 2026 15:26:56 +0000",
-      "source": "Al Jazeera",
-      "summary": "Donald Trump and Xi Jinping met in Washington as world leaders gathered at the UN General Assembly in New York."
-    },
-    {
-      "title": "Trump hails ‘very productive’ talks with China’s Xi",
-      "link": "https://www.aljazeera.com/news/2026/9/25/trump-hails-very-productive-talks-with-chinas-xi?traffic_source=rss",
-      "pubDate": "Fri, 25 Sep 2026 15:19:34 +0000",
-      "source": "Al Jazeera",
-      "summary": "Washington and Beijing to continue discussions on AI, technology transfer licensing after state visit by Chinese leader."
     },
     {
       "title": "Pope warns against 'losing humanity' to AI machines",
@@ -546,25 +567,11 @@
       "summary": "After suffering major losses last election cycle, Justice Democrats resurrected itself, helping put democratic socialism on the map. So what changed?\nThe post The Blueprint for Democrats to Win Back Voters  appeared first on The Intercept."
     },
     {
-      "title": "This Tiny Village Is Picture Perfect, Apart From All the Tourists",
-      "link": "https://www.nytimes.com/2026/09/25/world/europe/slovakia-village-tourism.html",
-      "pubDate": "Fri, 25 Sep 2026 09:01:37 +0000",
-      "source": "NYT World",
-      "summary": "The residents of Vlkolinec in Slovakia — there are 17 — say that since the place was named a world heritage site, gawking hordes have made it unlivable."
-    },
-    {
       "title": "Russian Attacks Destroy Millions of Books, the Heart of Ukrainian Culture",
       "link": "https://www.nytimes.com/2026/09/25/world/europe/russia-ukraine-books-attacks.html",
       "pubDate": "Fri, 25 Sep 2026 09:01:18 +0000",
       "source": "NYT World",
       "summary": "A publisher whose warehouse was hit twice said Moscow “thinks that books are more dangerous for them than military equipment.”"
-    },
-    {
-      "title": "Xi got Trump's red carpet welcome - but not everything he wanted",
-      "link": "https://www.bbc.co.uk/news/articles/cr93e4x7kdjjo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Fri, 25 Sep 2026 03:57:09 GMT",
-      "source": "BBC",
-      "summary": "China wanted progress on trade, technology and Taiwan - but hasn't got as much as it would have hoped for."
     },
     {
       "title": "Flock Wants the Most Detailed Map of Its Surveillance Cameras Taken Offline",
@@ -586,13 +593,6 @@
       "pubDate": "Thu, 24 Sep 2026 18:20:46 +0000",
       "source": "The Intercept",
       "summary": "Trump’s Bureau of Land Management is pushing to aggressively expand solar farms into the Mojave Desert, which advocates say would decimate its vast biodiversity.\nThe post Green Energy Is Coming for the Desert appeared first on The Intercept."
-    },
-    {
-      "title": "As the Pentagon Expands Across the Pacific, Guam Offers a Warning",
-      "link": "https://theintercept.com/2026/09/24/guam-military-buildup-base-pollution/",
-      "pubDate": "Thu, 24 Sep 2026 08:45:00 +0000",
-      "source": "The Intercept",
-      "summary": "The U.S. militarization of Guam has left its residents living with a legacy of pollution, environmental degradation, and cultural loss. Other Pacific islands may be next.\nThe post As the Pentagon Expands Across the Pacific, Guam Offers a Warning appe"
     },
     {
       "title": "Christy Kinahan’s UAE Residence Visa Cancelled",
@@ -632,6 +632,20 @@
   ],
   "syndication": [
     {
+      "title": "Friday Squid Blogging: Participatory Squid Dissection in October in Tennessee",
+      "link": "https://www.schneier.com/blog/archives/2026/09/friday-squid-blogging-participatory-squid-dissection-in-october-in-tennessee.html",
+      "pubDate": "2026-09-25T21:08:14.000Z",
+      "author": "Schneier on Security",
+      "content": "I feel like someone who reads this blog will want to go to this:\nFamilies are invited to dive into the fascinating world of marine biology during an exciting, hands-on Family Squid Dissection at the Hands-On Science Center. Designed for curious learners of all ages, this unique experience combines a"
+    },
+    {
+      "title": "Pluralistic: Itch scratching (25 Sep 2026)",
+      "link": "https://pluralistic.net/2026/09/25/other-people/",
+      "pubDate": "Fri, 25 Sep 2026 18:56:20 +0000",
+      "author": "Pluralistic",
+      "content": "Today's links Itch scratching: Love, care and self-actualization. Hey look at this: Delights to delectate. Object permanence: 9/11 x Viridians; Announcing Wikipedia; Infinite Copyright Mickey; Floppy shoulder bag; Wells Fargo's long sleaze; Corbyn wins Labour leadership; Interop v internet monopolie"
+    },
+    {
       "title": "On Anthropic’s AI Misuse Report",
       "link": "https://www.schneier.com/blog/archives/2026/09/on-anthropics-ai-misuse-report.html",
       "pubDate": "2026-09-25T11:07:22.000Z",
@@ -646,13 +660,6 @@
       "content": "This is an impressive piece of malware. Its sophistication says nation-state to me, but there is no direct evidence and certainly no attribution."
     },
     {
-      "title": "Research on Models Engaging in Genie-Like Behavior",
-      "link": "https://www.schneier.com/blog/archives/2026/09/research-on-models-engaging-in-genie-like-behavior.html",
-      "pubDate": "2026-09-23T11:03:36.000Z",
-      "author": "Schneier on Security",
-      "content": "New paper: “Self-Jailbreaking: Language Models Can Reason Themselves Out of Safety Alignment After Benign Reasoning Training.”\nAbstract: We discover a novel and surprising phenomenon of unintentional misalignment in reasoning language models (RLMs), which we call self-jailbreaking. Specifically, aft"
-    },
-    {
       "title": "Pluralistic: Bonta sold us out to Trump's oligarchs (22 Sep 2026)",
       "link": "https://pluralistic.net/2026/09/22/happy-chudmas/",
       "pubDate": "Tue, 22 Sep 2026 08:19:01 +0000",
@@ -665,13 +672,6 @@
       "pubDate": "Mon, 21 Sep 2026 11:24:31 +0000",
       "author": "Pluralistic",
       "content": "Today's links The Claude Delusion: What if we're the ones having hallucinations? Hey look at this: Delights to delectate. Object permanence: 9/11 v sex; 9/11 v flags; US customs v diplomatic Vegemite; CIA torture survivors speak; HP's inky timebomb; \"The Raven\" pop-up; Forex v Zimbabwe's internet; S"
-    },
-    {
-      "title": "Pluralistic: Textured (18 Sep 2026)",
-      "link": "https://pluralistic.net/2026/09/18/surprise/",
-      "pubDate": "Fri, 18 Sep 2026 07:45:10 +0000",
-      "author": "Pluralistic",
-      "content": "Today's links Textured: The surprises are what matter. Hey look at this: Delights to delectate. Object permanence: RIP Mr Dressup; Oligarch sucker-punch; ICC v CEOs. Upcoming appearances: Berkeley, Edmonton, Boston, South Bend, Hudson, Calgary, Winnipeg, Vancouver, Victoria, Ottawa, Kilkenny, Montre"
     },
     {
       "title": "Data Broker Radaris Loses Domains in Privacy Fight",
@@ -696,6 +696,30 @@
     }
   ],
   "syndicate_journal": [
+    {
+      "title": "How Gentle Tapping on the Shin Heals the Brain",
+      "link": "https://nautil.us/how-gentle-tapping-on-the-shin-heals-the-brain-1285299/",
+      "summary": "The shin bone’s connected to the… brain?\nThe post How Gentle Tapping on the Shin Heals the Brain appeared first on Nautilus.",
+      "pubDate": "Fri, 25 Sep 2026 20:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "Why We Stay Afraid",
+      "link": "https://nautil.us/why-we-stay-afraid-1285292/",
+      "summary": "A newly discovered brain region in mice solves a longstanding mystery about how fear lingers after threats fade\nThe post Why We Stay Afraid appeared first on Nautilus.",
+      "pubDate": "Fri, 25 Sep 2026 18:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "Saudi Arabia’s Yemen Strategy Has Fallen to Pieces",
+      "link": "",
+      "summary": "Over the past few weeks, Yemen’s Ansar Allah movement, also known as the Huthis, has launched an offensive and made big territorial gains. The latest turn in the Yemeni civil war could have major implications for the world economy, as it involves one of its most important trade routes through the Re",
+      "pubDate": "2026-09-25T17:37:26.925Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
     {
       "title": "Greed and Economic Desperation Are Fueling Sudan’s Civil War",
       "link": "",
@@ -729,14 +753,6 @@
       "source": "Jacobin"
     },
     {
-      "title": "Why is This Octopus Hitching a Ride on a Dolphin?",
-      "link": "https://nautil.us/why-is-this-octopus-hitching-a-ride-on-a-dolphin-1285278/",
-      "summary": "A quirky little climate change story\nThe post Why is This Octopus Hitching a Ride on a Dolphin? appeared first on Nautilus.",
-      "pubDate": "Fri, 25 Sep 2026 14:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
       "title": "Artificial",
       "link": "https://languagelog.ldc.upenn.edu/nll/?p=74288&utm_source=rss&utm_medium=rss&utm_campaign=artificial",
       "summary": "From Donald Trump's recent UN speech: Your browser does not support the audio element. The United States also totally rejects any attempt to construct a globalist scheme to control for the artificial intelligence being spoken of so much now, hereinafter officially called Super Intelligence, changing",
@@ -745,28 +761,12 @@
       "source": "Language Log"
     },
     {
-      "title": "The First Walmart Union Contract in North America",
-      "link": "",
-      "summary": "Eight hundred workers at a Walmart distribution center in Mississauga, Ontario, succeeded where others have not: they are now working under a two-year contract with North America’s largest logistics giant.\nThe landmark collective bargaining agreement went into effect on July 1, nearly two years afte",
-      "pubDate": "2026-09-25T13:32:35.147Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
       "title": "What Does an Earthquake Sound Like?",
       "link": "https://daily.jstor.org/what-does-an-earthquake-sound-like/",
       "summary": "Seismologist Hugo Benioff spent decades turning seismic vibrations into signals he could study—and, eventually, hear.\nThe post What Does an Earthquake Sound Like? appeared first on JSTOR Daily.",
       "pubDate": "Fri, 25 Sep 2026 13:27:16 +0000",
       "domain": "history",
       "source": "JSTOR Daily"
-    },
-    {
-      "title": "Behold, Crawzilla, the Not-Quite-Biggest Crayfish Ever Caught",
-      "link": "https://nautil.us/behold-crawzilla-the-not-quite-biggest-crayfish-ever-caught-1285273/",
-      "summary": "And what it can teach us about body size\nThe post Behold, Crawzilla, the Not-Quite-Biggest Crayfish Ever Caught appeared first on Nautilus.",
-      "pubDate": "Fri, 25 Sep 2026 12:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
     },
     {
       "title": "Teriffic",
@@ -961,25 +961,25 @@
       "source": "ROAR Magazine"
     },
     {
-      "title": "Impact of augmented reality on narrative-related outcomes in children with Autism Spectrum Disorder: a within-subject design",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1926566",
-      "summary": "InroductionAutism Spectrum Disorder (ASD) is commonly associated with impairments in social communication, narrative abilities, and socio-cognitive functioning. This study explored whether augmented reality (AR) could enhance narrative production, comprehension, use of mental state language, and rea",
-      "pubDate": "",
-      "domain": "psychology",
-      "source": "Frontiers Psychology"
-    },
-    {
-      "title": "The embodied meaningful place framework: integrating symbolic, personal, and internal environments in virtual reality",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1891764",
+      "title": "Operational and organizational training for managing work stress among police investigation officers: a global perspective",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1919749",
       "summary": "",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "Physical exercise and depressive symptoms among older adults: a serial mediation model of self-rated health and subjective wellbeing",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1877978",
-      "summary": "ObjectivePhysical exercise is an important health-promoting behavior for older adults, while depressive symptoms are a major psychological factor affecting their quality of life and active aging. This study aimed to examine the associations between physical exercise and depressive symptoms among old",
+      "title": "Sociodemographic and workload-related determinants of cognitive perception among university faculty members: a cross-sectional survey study",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1866788",
+      "summary": "Cognitive failure describes everyday lapses in memory, attention, and task performance during routine activities. In academic settings, faculty members frequently manage demanding teaching loads, research commitments, and administrative duties, all of which may contribute to cognitive overload. Soci",
+      "pubDate": "",
+      "domain": "psychology",
+      "source": "Frontiers Psychology"
+    },
+    {
+      "title": "Grandparent involvement and children’s emotional and behavioral problems: the mediating role of social competence and the moderating role of family functioning",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1851087",
+      "summary": "This study examined whether social competence accounts for part of the association between grandparent involvement and children’s emotional and behavioral problems, and whether family functioning modifies the strength of the association between grandparent involvement and social adaptability. Data w",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
@@ -987,64 +987,64 @@
   ],
   "misinfo_toilet": [
     {
-      "headline": "As the Pentagon Expands Across the Pacific, Guam Offers a Warning",
+      "headline": "Special agents' blood and urine test results stolen in FBI hack",
       "fragment": "There is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
-      "splice": "As the Pentagon Expands Across the Pacific, Guam Offers a Warning within which there is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
-      "seed": 20260941
-    },
-    {
-      "headline": "Supreme Court revives controversial US data system for citizenship checks ",
-      "fragment": "The privatization of the organs will only begin with the shame felt by man at the sight of man.",
-      "splice": "Supreme Court revives controversial US data system for citizenship checks  therefore the privatization of the organs will only begin with the shame felt by man at the sight of man.",
-      "seed": 20260942
-    },
-    {
-      "headline": "More than 55,000 Sudanese refugees flee to Chad as UN calls for funding",
-      "fragment": "Simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
-      "splice": "More than 55,000 Sudanese refugees flee to Chad as UN calls for funding because simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
-      "seed": 20260943
-    },
-    {
-      "headline": "Xi got Trump's red carpet welcome - but not everything he wanted",
-      "fragment": "Over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
-      "splice": "Xi got Trump's red carpet welcome - but not everything he wanted which is to say over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
-      "seed": 20260944
-    },
-    {
-      "headline": "LIVE: Turkiye vs France – UEFA Nations League",
-      "fragment": "It is at work everywhere, functioning smoothly at times, at other times in fits and starts. It breathes, it heats, it eats. It shits and fucks.",
-      "splice": "LIVE: Turkiye vs France – UEFA Nations League not unlike it is at work everywhere, functioning smoothly at times, at other times in fits and starts. It breathes, it heats, it eats. It shits and fucks.",
-      "seed": 20260945
-    },
-    {
-      "headline": "Netanyahu Said to Have Been Warned by Emirati Leader About Hamas Attack Before Oct. 7",
-      "fragment": "It is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
-      "splice": "Netanyahu Said to Have Been Warned by Emirati Leader About Hamas Attack Before Oct. 7 the system notes that it is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
+      "splice": "Special agents' blood and urine test results stolen in FBI hack within which there is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
       "seed": 20260946
     },
     {
-      "headline": "“A Recurring Pattern”: Civilians Paying the Price in Mali’s Drone Campaign",
-      "fragment": "Over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
-      "splice": "“A Recurring Pattern”: Civilians Paying the Price in Mali’s Drone Campaign while over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
+      "headline": "Afghan taxi drivers defy the Taliban’s music ban",
+      "fragment": "The privatization of the organs will only begin with the shame felt by man at the sight of man.",
+      "splice": "Afghan taxi drivers defy the Taliban’s music ban therefore the privatization of the organs will only begin with the shame felt by man at the sight of man.",
       "seed": 20260947
     },
     {
-      "headline": "Congress Failed Again to Stop Trump’s Iran War. This Group Is Trying Through the Courts.",
-      "fragment": "The truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
-      "splice": "Congress Failed Again to Stop Trump’s Iran War. This Group Is Trying Through the Courts. insofar as the truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
+      "headline": "“A Recurring Pattern”: Civilians Paying the Price in Mali’s Drone Campaign",
+      "fragment": "Simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
+      "splice": "“A Recurring Pattern”: Civilians Paying the Price in Mali’s Drone Campaign because simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
       "seed": 20260948
     },
     {
-      "headline": "African Presidents Call for Permanent African Seats on U.N. Security Council",
-      "fragment": "Reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
-      "splice": "African Presidents Call for Permanent African Seats on U.N. Security Council consequently reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
+      "headline": "Huge fire on vehicle ferry off Mykonos prompts mass evacuation",
+      "fragment": "Over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
+      "splice": "Huge fire on vehicle ferry off Mykonos prompts mass evacuation which is to say over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
       "seed": 20260949
     },
     {
-      "headline": "Ethiopia’s new rebel alliance faces an old problem",
-      "fragment": "To dissimulate is to pretend not to have what one has. To simulate is to feign to have what one doesn't have. One implies a presence, the other an absence.",
-      "splice": "Ethiopia’s new rebel alliance faces an old problem meanwhile to dissimulate is to pretend not to have what one has. To simulate is to feign to have what one doesn't have. One implies a presence, the other an absence.",
+      "headline": "Green Energy Is Coming for the Desert",
+      "fragment": "It is at work everywhere, functioning smoothly at times, at other times in fits and starts. It breathes, it heats, it eats. It shits and fucks.",
+      "splice": "Green Energy Is Coming for the Desert not unlike it is at work everywhere, functioning smoothly at times, at other times in fits and starts. It breathes, it heats, it eats. It shits and fucks.",
       "seed": 20260950
+    },
+    {
+      "headline": "Russia targeting 'ordinary life' with attacks on Ukraine's data centres, Zelensky says",
+      "fragment": "It is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
+      "splice": "Russia targeting 'ordinary life' with attacks on Ukraine's data centres, Zelensky says the system notes that it is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
+      "seed": 20260951
+    },
+    {
+      "headline": "Flock Wants the Most Detailed Map of Its Surveillance Cameras Taken Offline",
+      "fragment": "Over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
+      "splice": "Flock Wants the Most Detailed Map of Its Surveillance Cameras Taken Offline while over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
+      "seed": 20260952
+    },
+    {
+      "headline": "Carney Seeks New Trade Partners for Canada, But Knows the Limits",
+      "fragment": "The truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
+      "splice": "Carney Seeks New Trade Partners for Canada, But Knows the Limits insofar as the truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
+      "seed": 20260953
+    },
+    {
+      "headline": "U.N. Releases New List of Companies It Says Do Business With Israeli Settlements",
+      "fragment": "Reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
+      "splice": "U.N. Releases New List of Companies It Says Do Business With Israeli Settlements consequently reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
+      "seed": 20260954
+    },
+    {
+      "headline": "Tracking a Sanctioned Russian Vessel’s West African Odyssey",
+      "fragment": "To dissimulate is to pretend not to have what one has. To simulate is to feign to have what one doesn't have. One implies a presence, the other an absence.",
+      "splice": "Tracking a Sanctioned Russian Vessel’s West African Odyssey meanwhile to dissimulate is to pretend not to have what one has. To simulate is to feign to have what one doesn't have. One implies a presence, the other an absence.",
+      "seed": 20260955
     }
   ]
 }
