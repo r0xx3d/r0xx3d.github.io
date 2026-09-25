@@ -1,7 +1,39 @@
 {
-  "generated_at": "2026-09-25T11:26:22.516Z",
+  "generated_at": "2026-09-25T16:50:37.606Z",
   "threat_intel": {
     "cisa_kev": [
+      {
+        "cveID": "CVE-2026-67279",
+        "vendorProject": "MikroTik",
+        "product": "RouterOS",
+        "vulnerabilityName": "Mikrotik RouterOS Improper Enforcement of Behavioral Workflow Vulnerability",
+        "dateAdded": "2026-09-25",
+        "shortDescription": "Mikrotik RouterOS contains an improper enforcement of behavioral workflow vulnerability that could allow an unauthenticated client to open a session channel and send an exec request. This vulnerability can be chained to achieve unauthenticated exploitation of CVE-2026-86060.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-09-28",
+        "knownRansomwareCampaignUse": "Unknown",
+        "forensicTriage": "No",
+        "notes": "https://mikrotik.com/supportsec/september-2026-vulnerability/?utm_source=chatgpt.com ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-67279",
+        "cwes": [
+          "CWE-841"
+        ]
+      },
+      {
+        "cveID": "CVE-2026-65660",
+        "vendorProject": "Microsoft",
+        "product": "SharePoint",
+        "vulnerabilityName": "Microsoft SharePoint Code Injection Vulnerability",
+        "dateAdded": "2026-09-25",
+        "shortDescription": "Microsoft SharePoint contains a code injection vulnerability which could allow an authorized attacker to execute code over a network.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-09-28",
+        "knownRansomwareCampaignUse": "Unknown",
+        "forensicTriage": "Yes",
+        "notes": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-65660 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-65660",
+        "cwes": [
+          "CWE-94"
+        ]
+      },
       {
         "cveID": "CVE-2026-5430",
         "vendorProject": "WSO2",
@@ -209,126 +241,13 @@
         "cwes": [
           "CWE-276"
         ]
-      },
-      {
-        "cveID": "CVE-2026-76461",
-        "vendorProject": "Cisco",
-        "product": "Secure Email Gateway",
-        "vulnerabilityName": "Cisco Secure Email Gateway SQL Injection Vulnerability",
-        "dateAdded": "2026-09-14",
-        "shortDescription": "Cisco AsyncOS software for Cisco Secure Email Gateway (SEG) contains a SQL injection vulnerability that could allow an unauthenticated, remote attacker to execute arbitrary commands with root privileges on the underlying operating system.",
-        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "dueDate": "2026-09-17",
-        "knownRansomwareCampaignUse": "Unknown",
-        "forensicTriage": "Yes",
-        "notes": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-esa-inj-2bLVGmhX ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-76461",
-        "cwes": [
-          "CWE-89"
-        ]
-      },
-      {
-        "cveID": "CVE-2026-84869",
-        "vendorProject": "ConnectWise",
-        "product": "ScreenConnect",
-        "vulnerabilityName": "ConnectWise ScreenConnect Improper Privilege Management and Missing Authorization Vulnerability",
-        "dateAdded": "2026-09-11",
-        "shortDescription": "ConnectWise ScreenConnect contains both an improper privilege management and missing authorization vulnerability that may allow an attacker to transfer and execute files through an active remote session without authorization or host confirmation.",
-        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "dueDate": "2026-09-14",
-        "knownRansomwareCampaignUse": "Unknown",
-        "forensicTriage": "Yes",
-        "notes": "https://www.connectwise.com/company/trust/security-bulletins/2026-09-08-screenconnect-bulletin ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-84869",
-        "cwes": [
-          "CWE-269",
-          "CWE-862"
-        ]
       }
     ],
     "urlhaus": [
       {
-        "id": "3922545",
-        "date_added": "2026-09-25 11:17:12",
-        "url": "http://203.177.28.149:50563/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3922544",
-        "date_added": "2026-09-25 11:16:24",
-        "url": "http://120.28.137.87:41909/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3922541",
-        "date_added": "2026-09-25 11:16:20",
-        "url": "http://125.44.56.29:38573/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3922542",
-        "date_added": "2026-09-25 11:16:20",
-        "url": "http://125.44.56.29:38573/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3922543",
-        "date_added": "2026-09-25 11:16:20",
-        "url": "http://115.48.22.47:53805/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3922539",
-        "date_added": "2026-09-25 11:16:19",
-        "url": "http://61.52.229.44:58850/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3922540",
-        "date_added": "2026-09-25 11:16:19",
-        "url": "http://175.148.157.138:40977/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3922538",
-        "date_added": "2026-09-25 11:03:12",
-        "url": "http://115.63.228.64:45363/i",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3922537",
-        "date_added": "2026-09-25 11:02:18",
-        "url": "http://39.40.170.210:34578/i",
+        "id": "3922669",
+        "date_added": "2026-09-25 16:32:15",
+        "url": "http://59.97.253.177:43604/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -336,9 +255,9 @@
         ]
       },
       {
-        "id": "3922536",
-        "date_added": "2026-09-25 11:02:13",
-        "url": "http://115.48.151.50:39755/bin.sh",
+        "id": "3922666",
+        "date_added": "2026-09-25 16:32:14",
+        "url": "http://59.103.116.83:39200/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -346,9 +265,19 @@
         ]
       },
       {
-        "id": "3922532",
-        "date_added": "2026-09-25 11:02:12",
-        "url": "http://182.117.122.144:38998/i",
+        "id": "3922667",
+        "date_added": "2026-09-25 16:32:14",
+        "url": "http://42.52.205.169:34621/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3922668",
+        "date_added": "2026-09-25 16:32:14",
+        "url": "http://219.155.203.251:47473/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -356,9 +285,9 @@
         ]
       },
       {
-        "id": "3922533",
-        "date_added": "2026-09-25 11:02:12",
-        "url": "http://182.119.63.98:40987/bin.sh",
+        "id": "3922665",
+        "date_added": "2026-09-25 16:32:13",
+        "url": "http://123.132.175.6:34454/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -366,39 +295,36 @@
         ]
       },
       {
-        "id": "3922534",
-        "date_added": "2026-09-25 11:02:12",
-        "url": "http://219.155.202.88:54319/bin.sh",
+        "id": "3922664",
+        "date_added": "2026-09-25 16:29:26",
+        "url": "http://222.127.55.82:44114/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "mirai",
           "Mozi"
         ]
       },
       {
-        "id": "3922535",
-        "date_added": "2026-09-25 11:02:12",
-        "url": "http://123.12.193.128:51533/i",
+        "id": "3922663",
+        "date_added": "2026-09-25 16:25:27",
+        "url": "http://125.47.34.226:50997/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
+          "32-bit",
+          "elf",
+          "mips",
           "Mozi"
         ]
       },
       {
-        "id": "3922530",
-        "date_added": "2026-09-25 11:02:11",
-        "url": "http://115.50.13.178:58965/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3922531",
-        "date_added": "2026-09-25 11:02:11",
-        "url": "http://91.127.103.137:36732/i",
+        "id": "3922662",
+        "date_added": "2026-09-25 16:17:12",
+        "url": "http://112.255.78.191:35941/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -406,29 +332,19 @@
         ]
       },
       {
-        "id": "3922529",
-        "date_added": "2026-09-25 10:47:31",
-        "url": "http://182.127.120.181:57224/bin.sh",
-        "url_status": "offline",
+        "id": "3922659",
+        "date_added": "2026-09-25 16:17:11",
+        "url": "http://223.105.50.190:36537/bin.sh",
+        "url_status": "online",
         "threat": "malware_download",
         "tags": [
           "None"
         ]
       },
       {
-        "id": "3922528",
-        "date_added": "2026-09-25 10:47:14",
-        "url": "http://112.109.210.146:36461/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "mirai"
-        ]
-      },
-      {
-        "id": "3922526",
-        "date_added": "2026-09-25 10:47:12",
-        "url": "http://115.48.162.115:58008/i",
+        "id": "3922660",
+        "date_added": "2026-09-25 16:17:11",
+        "url": "http://222.137.39.215:55530/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -436,73 +352,191 @@
         ]
       },
       {
-        "id": "3922527",
-        "date_added": "2026-09-25 10:47:12",
-        "url": "http://175.165.83.136:42857/i",
+        "id": "3922661",
+        "date_added": "2026-09-25 16:17:11",
+        "url": "http://42.52.205.169:34621/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
           "None"
+        ]
+      },
+      {
+        "id": "3922658",
+        "date_added": "2026-09-25 16:02:13",
+        "url": "http://123.132.175.6:34454/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3922657",
+        "date_added": "2026-09-25 16:01:17",
+        "url": "http://219.155.203.251:47473/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3922656",
+        "date_added": "2026-09-25 15:47:15",
+        "url": "http://121.202.142.137:63861/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3922654",
+        "date_added": "2026-09-25 15:32:09",
+        "url": "http://115.57.255.95:49758/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3922655",
+        "date_added": "2026-09-25 15:32:09",
+        "url": "http://124.235.239.197:35644/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "mirai"
+        ]
+      },
+      {
+        "id": "3922652",
+        "date_added": "2026-09-25 15:32:08",
+        "url": "http://123.7.220.108:47783/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3922653",
+        "date_added": "2026-09-25 15:32:08",
+        "url": "http://182.127.4.126:41823/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3922651",
+        "date_added": "2026-09-25 15:31:34",
+        "url": "http://196.190.224.62:45874/i",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3922650",
+        "date_added": "2026-09-25 15:31:21",
+        "url": "http://196.190.224.62:45874/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "mirai"
         ]
       }
     ]
   },
   "world_monitor": [
     {
+      "title": "Supreme Court revives controversial US data system for citizenship checks ",
+      "link": "https://www.bbc.co.uk/news/articles/ck05rrj3jeylo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Fri, 25 Sep 2026 16:35:01 GMT",
+      "source": "BBC",
+      "summary": "The system uses citizenship information and other sensitive data to filter alleged non-citizen voting."
+    },
+    {
+      "title": "Ethiopia’s new rebel alliance faces an old problem",
+      "link": "https://www.aljazeera.com/opinions/2026/9/25/ethiopias-new-rebel-alliance-faces-an-old-problem?traffic_source=rss",
+      "pubDate": "Fri, 25 Sep 2026 16:10:55 +0000",
+      "source": "Al Jazeera",
+      "summary": "Former enemies have united against Abiy Ahmed, but disputes over territory, power and command could pull them apart."
+    },
+    {
+      "title": "More than 55,000 Sudanese refugees flee to Chad as UN calls for funding",
+      "link": "https://www.aljazeera.com/news/2026/9/25/more-than-55000-sudanese-refugees-flee-to-chad-as-un-calls-for-funding?traffic_source=rss",
+      "pubDate": "Fri, 25 Sep 2026 16:06:45 +0000",
+      "source": "Al Jazeera",
+      "summary": "UN refugee agency says 400 people a day, about 20 times the previous daily rate, now cross from Sudan into eastern Chad."
+    },
+    {
+      "title": "African Presidents Call for Permanent African Seats on U.N. Security Council",
+      "link": "https://www.nytimes.com/2026/09/25/world/africa/africa-security-council-representation.html",
+      "pubDate": "Fri, 25 Sep 2026 16:06:38 +0000",
+      "source": "NYT World",
+      "summary": "A host of African leaders including the presidents of Ghana, Liberia, Kenya and Namibia demanded the reform, while the U.N. Secretary General said the lack of a permanent African seat was “indefensible.”"
+    },
+    {
+      "title": "LIVE: Turkiye vs France – UEFA Nations League",
+      "link": "https://www.aljazeera.com/sports/liveblog/2026/9/25/live-turkiye-vs-france-uefa-nations-league?traffic_source=rss",
+      "pubDate": "Fri, 25 Sep 2026 15:47:07 +0000",
+      "source": "Al Jazeera",
+      "summary": "Follow the updates, with build-up, predictions, team news and lineups, from our live text commentary stream coverage."
+    },
+    {
       "title": "Leo XIV, Trying to Be Everyone’s Pope, Tours Secular France",
       "link": "https://www.nytimes.com/2026/09/25/world/europe/pope-leo-france-visit.html",
-      "pubDate": "Fri, 25 Sep 2026 11:15:14 +0000",
+      "pubDate": "Fri, 25 Sep 2026 15:38:35 +0000",
       "source": "NYT World",
       "summary": "After visiting Africa, Pope Leo’s four-day trip to France shows how he is seeking to appeal to Roman Catholicism’s original heartlands as well as to the church’s newest strongholds."
     },
     {
-      "title": "UN General Assembly live: Leaders from Lebanon, Iraq, Pakistan to speak",
-      "link": "https://www.aljazeera.com/news/liveblog/2026/9/25/un-general-assembly-live-leaders-from-lebanon-iraq-pakistan-to-speak?traffic_source=rss",
-      "pubDate": "Fri, 25 Sep 2026 11:00:00 +0000",
-      "source": "Al Jazeera",
-      "summary": "The US-Israel war on Iran will continue to be a focus as the UNGA enters its fourth day."
-    },
-    {
-      "title": "What’s in Iran’s seven-day plan to reopen the Strait of Hormuz?",
-      "link": "https://www.aljazeera.com/news/2026/9/25/whats-in-irans-seven-day-plan-to-reopen-the-strait-of-hormuz?traffic_source=rss",
-      "pubDate": "Fri, 25 Sep 2026 10:49:48 +0000",
-      "source": "Al Jazeera",
-      "summary": "Tehran’s offer comes as high fuel prices put pressure on Trump ahead of the US midterm elections."
-    },
-    {
-      "title": "OpenAI Agents Hacked Into an Australian Government Website. Who’s Responsible?",
-      "link": "https://www.nytimes.com/2026/09/25/world/australia/openai-hack-australia.html",
-      "pubDate": "Fri, 25 Sep 2026 10:40:30 +0000",
-      "source": "NYT World",
-      "summary": "The first known breach of a government website by rogue artificial intelligence agents has prompted global calls for more regulation of the technology."
-    },
-    {
-      "title": "Trump and Xi exchange warm words at state dinner but little progress on key issues",
-      "link": "https://www.bbc.co.uk/news/articles/cxq63dqp93n1o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Fri, 25 Sep 2026 10:36:55 GMT",
+      "title": "Students strike across Germany in protest against military service",
+      "link": "https://www.bbc.co.uk/news/articles/cxnvlnve52qdo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Fri, 25 Sep 2026 15:36:22 GMT",
       "source": "BBC",
-      "summary": "Despite diplomatic niceties and gifts, little was shared on substantial issues separating the leaders."
+      "summary": "A law establishing voluntary military service came into effect in January, but protest organisers fear compulsory service could follow."
     },
     {
-      "title": "Once Sentenced to Death, Mary Jane Veloso Receives Pardon in the Philippines",
-      "link": "https://www.nytimes.com/2026/09/25/world/asia/mary-jane-veloso-philippines-pardon.html",
-      "pubDate": "Fri, 25 Sep 2026 10:17:37 +0000",
+      "title": "Netanyahu Said to Have Been Warned by Emirati Leader About Hamas Attack Before Oct. 7",
+      "link": "https://www.nytimes.com/2026/09/25/world/middleeast/netanyahu-warning-oct-7-uae.html",
+      "pubDate": "Fri, 25 Sep 2026 15:29:00 +0000",
       "source": "NYT World",
-      "summary": "Mary Jane Veloso was convicted of drug smuggling and nearly killed by a firing squad in Indonesia. On Friday, more than a decade later, she was pardoned in the Philippines."
+      "summary": "The warning from the leader of the United Arab Emirates, which lacked specific details about the nature of an attack, never reached the chiefs of Israel’s security establishment, Israeli officials said."
     },
     {
-      "title": "Rising malnutrition in Nigeria as US war on Iran raises food costs",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/9/25/rising-malnutrition-in-nigeria-as-us-war-on-iran-raises-food-costs?traffic_source=rss",
-      "pubDate": "Fri, 25 Sep 2026 10:10:33 +0000",
+      "title": "What the Trump-Xi meeting revealed about global power",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/9/25/what-the-trump-xi-meeting-revealed-about-global-power?traffic_source=rss",
+      "pubDate": "Fri, 25 Sep 2026 15:26:56 +0000",
       "source": "Al Jazeera",
-      "summary": "The war on Iran is raising the cost of living in Nigeria."
+      "summary": "Donald Trump and Xi Jinping met in Washington as world leaders gathered at the UN General Assembly in New York."
     },
     {
-      "title": "Premier League and La Liga lead FIFA reform calls after ‘exploitative’ plan",
-      "link": "https://www.aljazeera.com/sports/2026/9/25/premier-league-and-la-liga-lead-fifa-reform-calls-after-infantino-plan?traffic_source=rss",
-      "pubDate": "Fri, 25 Sep 2026 10:00:17 +0000",
+      "title": "Trump hails ‘very productive’ talks with China’s Xi",
+      "link": "https://www.aljazeera.com/news/2026/9/25/trump-hails-very-productive-talks-with-chinas-xi?traffic_source=rss",
+      "pubDate": "Fri, 25 Sep 2026 15:19:34 +0000",
       "source": "Al Jazeera",
-      "summary": "Europe's top leagues, from England, Spain, Italy and Germany, add pressure on Gianni Infantino after World Cup plan."
+      "summary": "Washington and Beijing to continue discussions on AI, technology transfer licensing after state visit by Chinese leader."
+    },
+    {
+      "title": "Pope warns against 'losing humanity' to AI machines",
+      "link": "https://www.bbc.co.uk/news/articles/cmq8j904212po?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Fri, 25 Sep 2026 15:06:41 GMT",
+      "source": "BBC",
+      "summary": "The pontiff delivered the warning on the first day of his trip to France on Friday."
+    },
+    {
+      "title": "Special agents' blood and urine test results stolen in FBI hack",
+      "link": "https://www.bbc.co.uk/news/articles/cw62me2vlj07o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Fri, 25 Sep 2026 13:56:16 GMT",
+      "source": "BBC",
+      "summary": "Experts say the hack could leave agents vulnerable to scams, blackmail and targeted attacks."
     },
     {
       "title": "The Blueprint for Democrats to Win Back Voters ",
@@ -510,20 +544,6 @@
       "pubDate": "Fri, 25 Sep 2026 10:00:00 +0000",
       "source": "The Intercept",
       "summary": "After suffering major losses last election cycle, Justice Democrats resurrected itself, helping put democratic socialism on the map. So what changed?\nThe post The Blueprint for Democrats to Win Back Voters  appeared first on The Intercept."
-    },
-    {
-      "title": "Iran pitches seven-day roadmap to end conflict with US",
-      "link": "https://www.aljazeera.com/news/2026/9/25/iran-pitches-seven-day-roadmap-to-end-conflict-with-us?traffic_source=rss",
-      "pubDate": "Fri, 25 Sep 2026 09:54:40 +0000",
-      "source": "Al Jazeera",
-      "summary": "Tehran seeks rapid implementation failed ceasefire deal, offering to open Hormuz if regional conflicts halted."
-    },
-    {
-      "title": "Hundreds of thousands expected in Paris for Pope's visit",
-      "link": "https://www.bbc.co.uk/news/articles/cmq8j904212po?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Fri, 25 Sep 2026 09:35:37 GMT",
-      "source": "BBC",
-      "summary": "The highpoint of his time in Paris will be a giant Mass attended by more than half a million people."
     },
     {
       "title": "This Tiny Village Is Picture Perfect, Apart From All the Tourists",
@@ -545,20 +565,6 @@
       "pubDate": "Fri, 25 Sep 2026 03:57:09 GMT",
       "source": "BBC",
       "summary": "China wanted progress on trade, technology and Taiwan - but hasn't got as much as it would have hoped for."
-    },
-    {
-      "title": "Media outlets banned by Trump denied access to White House dinner despite judge's order",
-      "link": "https://www.bbc.co.uk/news/articles/cqe8ek7608mlo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Fri, 25 Sep 2026 01:10:35 GMT",
-      "source": "BBC",
-      "summary": "CNN and MS NOW reporters say they were barred from covering a state dinner after a judge ruled their passes should be restored."
-    },
-    {
-      "title": "Netanyahu defends Israeli military action as delegates walk out before UN speech",
-      "link": "https://www.bbc.co.uk/news/articles/c3y0z7kxlegdo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Fri, 25 Sep 2026 00:44:04 GMT",
-      "source": "BBC",
-      "summary": "The Israeli leader labels those who left his speech at the UN General Assembly as \"moral cowards\"."
     },
     {
       "title": "Flock Wants the Most Detailed Map of Its Surveillance Cameras Taken Offline",
@@ -691,6 +697,78 @@
   ],
   "syndicate_journal": [
     {
+      "title": "Greed and Economic Desperation Are Fueling Sudan’s Civil War",
+      "link": "",
+      "summary": "I used to pass the biscuit factory in Soba without going in. People I knew went in for a twelve-hour shift on a line that smelled of sugar and oil. In 2021, the number that stuck was 1,500 pounds for the shift.\nIn Haj Yousif, where Iqbal lived, the rent for a single room was 30,000 pounds a month. Y",
+      "pubDate": "2026-09-25T16:02:43.367Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "How the Pro‑Nicotine “Wellness” Movement Rebranded an Addictive Drug",
+      "link": "https://nautil.us/how-the-pro%e2%80%91nicotine-wellness-movement-rebranded-an-addictive-drug-1285282/",
+      "summary": "The movement is focused on the idea of “clean” nicotine use, such as pouches, which don’t contain tobacco\nThe post How the Pro‑Nicotine “Wellness” Movement Rebranded an Addictive Drug appeared first on Nautilus.",
+      "pubDate": "Fri, 25 Sep 2026 16:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "Gravity Seems Holographic. What Does That Mean for Reality?",
+      "link": "https://www.quantamagazine.org/gravity-seems-holographic-what-does-that-mean-for-reality-20260925/",
+      "summary": "The biggest breakthrough in modern theoretical physics is the discovery that gravity can collapse the dimensions of space. Physicists don’t yet understand the implications.            \nThe post Gravity Seems Holographic. What Does That Mean for Reality? first appeared on Quanta Magazine",
+      "pubDate": "Fri, 25 Sep 2026 14:40:26 +0000",
+      "domain": "science",
+      "source": "Quanta"
+    },
+    {
+      "title": "A Union Feud Shouldn’t Sink California’s Billionaire Tax",
+      "link": "",
+      "summary": "America’s already threadbare welfare state is on the brink of total collapse. Over the next ten years, national funding for Medicaid, whose benefits 81 million Americans rely upon, will be cut by about . States that expanded Medicaid access under the Affordable Care Act will be hit especially hard. ",
+      "pubDate": "2026-09-25T14:30:52.902Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "Why is This Octopus Hitching a Ride on a Dolphin?",
+      "link": "https://nautil.us/why-is-this-octopus-hitching-a-ride-on-a-dolphin-1285278/",
+      "summary": "A quirky little climate change story\nThe post Why is This Octopus Hitching a Ride on a Dolphin? appeared first on Nautilus.",
+      "pubDate": "Fri, 25 Sep 2026 14:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "Artificial",
+      "link": "https://languagelog.ldc.upenn.edu/nll/?p=74288&utm_source=rss&utm_medium=rss&utm_campaign=artificial",
+      "summary": "From Donald Trump's recent UN speech: Your browser does not support the audio element. The United States also totally rejects any attempt to construct a globalist scheme to control for the artificial intelligence being spoken of so much now, hereinafter officially called Super Intelligence, changing",
+      "pubDate": "Fri, 25 Sep 2026 13:58:11 +0000",
+      "domain": "linguistics",
+      "source": "Language Log"
+    },
+    {
+      "title": "The First Walmart Union Contract in North America",
+      "link": "",
+      "summary": "Eight hundred workers at a Walmart distribution center in Mississauga, Ontario, succeeded where others have not: they are now working under a two-year contract with North America’s largest logistics giant.\nThe landmark collective bargaining agreement went into effect on July 1, nearly two years afte",
+      "pubDate": "2026-09-25T13:32:35.147Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "What Does an Earthquake Sound Like?",
+      "link": "https://daily.jstor.org/what-does-an-earthquake-sound-like/",
+      "summary": "Seismologist Hugo Benioff spent decades turning seismic vibrations into signals he could study—and, eventually, hear.\nThe post What Does an Earthquake Sound Like? appeared first on JSTOR Daily.",
+      "pubDate": "Fri, 25 Sep 2026 13:27:16 +0000",
+      "domain": "history",
+      "source": "JSTOR Daily"
+    },
+    {
+      "title": "Behold, Crawzilla, the Not-Quite-Biggest Crayfish Ever Caught",
+      "link": "https://nautil.us/behold-crawzilla-the-not-quite-biggest-crayfish-ever-caught-1285273/",
+      "summary": "And what it can teach us about body size\nThe post Behold, Crawzilla, the Not-Quite-Biggest Crayfish Ever Caught appeared first on Nautilus.",
+      "pubDate": "Fri, 25 Sep 2026 12:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
       "title": "Teriffic",
       "link": "https://languagelog.ldc.upenn.edu/nll/?p=74283&utm_source=rss&utm_medium=rss&utm_campaign=teriffic",
       "summary": "A recent congratulatory email, from a successful scientist to a member of his lab: Teriffic! I make similar mistakes myself all the time, and felt the need to check that the correct spelling is actually \"terrific\". See \"Conservation of (orthographic) gemination\" (3/29/2004) for a nerdish exploration",
@@ -729,54 +807,6 @@
       "pubDate": "Fri, 25 Sep 2026 00:00:00 -0400",
       "domain": "science",
       "source": "arXiv: cs.AI"
-    },
-    {
-      "title": "Gentle Exercise May be More Effective Than Medications at Managing Chronic Pain",
-      "link": "https://nautil.us/gentle-exercise-may-be-more-effective-than-medications-at-managing-chronic-pain-1285269/",
-      "summary": "Side effects may include an improved mood\nThe post Gentle Exercise May be More Effective Than Medications at Managing Chronic Pain appeared first on Nautilus.",
-      "pubDate": "Thu, 24 Sep 2026 22:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
-      "title": "In a Culture Obsessed with Staying Young, We Ignore the Many Benefits of Aging",
-      "link": "https://nautil.us/in-a-culture-obsessed-with-staying-young-we-ignore-the-many-benefits-of-aging-1285263/",
-      "summary": "Things can get better with age\nThe post In a Culture Obsessed with Staying Young, We Ignore the Many Benefits of Aging appeared first on Nautilus.",
-      "pubDate": "Thu, 24 Sep 2026 20:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
-      "title": "Can a Drug Reverse Age-Related Muscle Weakness?",
-      "link": "https://nautil.us/can-a-drug-reverse-age-related-muscle-weakness-1285260/",
-      "summary": "New research focuses on the neuromuscular junction\nThe post Can a Drug Reverse Age-Related Muscle Weakness? appeared first on Nautilus.",
-      "pubDate": "Thu, 24 Sep 2026 19:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
-      "title": "AI Destruction Isn’t Hypothetical. It’s Already Here.",
-      "link": "",
-      "summary": "We’re several weeks into a fierce debate over whether artificial intelligence (AI) will kill us all. Triggered by a spate of former workers at major AI firms coming forward to warn that a future superintelligent AI could lead to human extinction, the debate has inspired a kaleidoscopic array of view",
-      "pubDate": "2026-09-24T18:23:23.815Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
-      "title": "History Is Back. Fukuyama Is Neither Surprised nor Thrilled.",
-      "link": "",
-      "summary": "In his new autobiography, Francis Fukuyama boasts that for decades “students in introductory classes in international relations all over the world were required to read [Samuel Huntington’s ] alongside .” The flex is warranted; during my undergrad we were assigned both essays in one of my classes on",
-      "pubDate": "2026-09-24T15:54:51.184Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
-      "title": "The Iran War Is Starving India",
-      "link": "",
-      "summary": "At the edge of Hazrat Nizamuddin railway station, families cluster along the platform, their belongings packed into cloth bundles and plastic sacks. Children lie half asleep in their mothers’ laps as announcements echo overhead. Trains heading toward Bihar, Uttar Pradesh, and beyond are full. Over t",
-      "pubDate": "2026-09-24T14:30:00.000Z",
-      "domain": "politics",
-      "source": "Jacobin"
     },
     {
       "title": "Teaching Students to Follow an Idea",
@@ -835,34 +865,10 @@
       "source": "Public Domain Review"
     },
     {
-      "title": "Why Italian Fascists Loved Samurai",
-      "link": "https://daily.jstor.org/why-italian-fascists-loved-samurai/",
-      "summary": "Japan offered Italian Fascists a powerful example of how ancient traditions could serve modern nationalism.\nThe post Why Italian Fascists Loved Samurai appeared first on JSTOR Daily.",
-      "pubDate": "Tue, 22 Sep 2026 13:32:40 +0000",
-      "domain": "history",
-      "source": "JSTOR Daily"
-    },
-    {
-      "title": "\"Hannibal Holiday\"",
-      "link": "https://languagelog.ldc.upenn.edu/nll/?p=74265&utm_source=rss&utm_medium=rss&utm_campaign=hannibal-holiday",
-      "summary": "Today's Frazz: Caulfield substitutes day for way, in the English translation of the Latin phrase \"Aut inveniam viam aut faciam\", which Wikipedia tells us \"has been spuriously attributed to Carthaginian General Hannibal, in response to his generals statement that it was impossible to cross the Alps b",
-      "pubDate": "Tue, 22 Sep 2026 12:03:48 +0000",
-      "domain": "linguistics",
-      "source": "Language Log"
-    },
-    {
       "title": "How Virus-like ‘Jumping Genes’ Became Our Partners in Evolution",
       "link": "https://www.quantamagazine.org/how-virus-like-jumping-genes-became-our-partners-in-evolution-20260921/",
       "summary": "Half of our genome is made of transposons — snips of DNA that can move and copy themselves. But they’re more than parasites or genetic junk.            \nThe post How Virus-like ‘Jumping Genes’ Became Our Partners in Evolution first appeared on Quanta Magazine",
       "pubDate": "Mon, 21 Sep 2026 14:12:36 +0000",
-      "domain": "science",
-      "source": "Quanta"
-    },
-    {
-      "title": "Mathematicians Build Long-Awaited Graph Sandwich",
-      "link": "https://www.quantamagazine.org/mathematicians-build-long-awaited-graph-sandwich-20260918/",
-      "summary": "The proof of a decades-old conjecture has given researchers a new way to understand complex networks.            \nThe post Mathematicians Build Long-Awaited Graph Sandwich first appeared on Quanta Magazine",
-      "pubDate": "Fri, 18 Sep 2026 13:55:50 +0000",
       "domain": "science",
       "source": "Quanta"
     },
@@ -955,6 +961,14 @@
       "source": "ROAR Magazine"
     },
     {
+      "title": "Impact of augmented reality on narrative-related outcomes in children with Autism Spectrum Disorder: a within-subject design",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1926566",
+      "summary": "InroductionAutism Spectrum Disorder (ASD) is commonly associated with impairments in social communication, narrative abilities, and socio-cognitive functioning. This study explored whether augmented reality (AR) could enhance narrative production, comprehension, use of mental state language, and rea",
+      "pubDate": "",
+      "domain": "psychology",
+      "source": "Frontiers Psychology"
+    },
+    {
       "title": "The embodied meaningful place framework: integrating symbolic, personal, and internal environments in virtual reality",
       "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1891764",
       "summary": "",
@@ -963,17 +977,9 @@
       "source": "Frontiers Psychology"
     },
     {
-      "title": "The experience of motherhood in a container city: the effects of the earthquake and changing needs",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1924330",
-      "summary": "IntroductionThe twin earthquakes that struck on February 6, 2023, centered in Kahramanmaraş/Türkiye, caused widespread destruction in the region and completely transformed daily life. This study aims to examine the earthquake’s impact on children, the experience of motherhood following the earthquak",
-      "pubDate": "",
-      "domain": "psychology",
-      "source": "Frontiers Psychology"
-    },
-    {
-      "title": "Operational and organizational training for managing work stress among police investigation officers: a global perspective",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1919749",
-      "summary": "",
+      "title": "Physical exercise and depressive symptoms among older adults: a serial mediation model of self-rated health and subjective wellbeing",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1877978",
+      "summary": "ObjectivePhysical exercise is an important health-promoting behavior for older adults, while depressive symptoms are a major psychological factor affecting their quality of life and active aging. This study aimed to examine the associations between physical exercise and depressive symptoms among old",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
@@ -981,64 +987,64 @@
   ],
   "misinfo_toilet": [
     {
-      "headline": "Christy Kinahan’s UAE Residence Visa Cancelled",
-      "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
-      "splice": "Christy Kinahan’s UAE Residence Visa Cancelled despite the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
-      "seed": 20260936
-    },
-    {
-      "headline": "UN General Assembly live: Leaders from Lebanon, Iraq, Pakistan to speak",
-      "fragment": "The truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
-      "splice": "UN General Assembly live: Leaders from Lebanon, Iraq, Pakistan to speak while the truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
-      "seed": 20260937
-    },
-    {
-      "headline": "Flock Wants the Most Detailed Map of Its Surveillance Cameras Taken Offline",
-      "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
-      "splice": "Flock Wants the Most Detailed Map of Its Surveillance Cameras Taken Offline despite the revolutionary lives in the gap which separates technical progress from social totality.",
-      "seed": 20260938
-    },
-    {
-      "headline": "Trump and Xi exchange warm words at state dinner but little progress on key issues",
-      "fragment": "The truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
-      "splice": "Trump and Xi exchange warm words at state dinner but little progress on key issues as if the truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
-      "seed": 20260939
-    },
-    {
-      "headline": "Green Energy Is Coming for the Desert",
-      "fragment": "We live in a world where there is more and more information, and less and less meaning.",
-      "splice": "Green Energy Is Coming for the Desert while we live in a world where there is more and more information, and less and less meaning.",
-      "seed": 20260940
-    },
-    {
-      "headline": "OpenAI Agents Hacked Into an Australian Government Website. Who’s Responsible?",
-      "fragment": "It is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
-      "splice": "OpenAI Agents Hacked Into an Australian Government Website. Who’s Responsible? the signal resolves into it is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
+      "headline": "As the Pentagon Expands Across the Pacific, Guam Offers a Warning",
+      "fragment": "There is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
+      "splice": "As the Pentagon Expands Across the Pacific, Guam Offers a Warning within which there is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
       "seed": 20260941
     },
     {
-      "headline": "Bellingcat Official Merch Design Contest",
-      "fragment": "In the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
-      "splice": "Bellingcat Official Merch Design Contest meanwhile in the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
+      "headline": "Supreme Court revives controversial US data system for citizenship checks ",
+      "fragment": "The privatization of the organs will only begin with the shame felt by man at the sight of man.",
+      "splice": "Supreme Court revives controversial US data system for citizenship checks  therefore the privatization of the organs will only begin with the shame felt by man at the sight of man.",
       "seed": 20260942
     },
     {
-      "headline": "Congress Failed Again to Stop Trump’s Iran War. This Group Is Trying Through the Courts.",
-      "fragment": "The current ruling ontology denies any possibility of a social causation of mental illness. The chemico-biologization of mental illness is of course strictly commensurate with its depoliticization.",
-      "splice": "Congress Failed Again to Stop Trump’s Iran War. This Group Is Trying Through the Courts. because the current ruling ontology denies any possibility of a social causation of mental illness. The chemico-biologization of mental illness is of course strictly commensurate with its depoliticization.",
+      "headline": "More than 55,000 Sudanese refugees flee to Chad as UN calls for funding",
+      "fragment": "Simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
+      "splice": "More than 55,000 Sudanese refugees flee to Chad as UN calls for funding because simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
       "seed": 20260943
     },
     {
-      "headline": "“A Recurring Pattern”: Civilians Paying the Price in Mali’s Drone Campaign",
-      "fragment": "Art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
-      "splice": "“A Recurring Pattern”: Civilians Paying the Price in Mali’s Drone Campaign underneath art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
+      "headline": "Xi got Trump's red carpet welcome - but not everything he wanted",
+      "fragment": "Over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
+      "splice": "Xi got Trump's red carpet welcome - but not everything he wanted which is to say over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
       "seed": 20260944
     },
     {
-      "headline": "Xi got Trump's red carpet welcome - but not everything he wanted",
-      "fragment": "Simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
-      "splice": "Xi got Trump's red carpet welcome - but not everything he wanted within which simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
+      "headline": "LIVE: Turkiye vs France – UEFA Nations League",
+      "fragment": "It is at work everywhere, functioning smoothly at times, at other times in fits and starts. It breathes, it heats, it eats. It shits and fucks.",
+      "splice": "LIVE: Turkiye vs France – UEFA Nations League not unlike it is at work everywhere, functioning smoothly at times, at other times in fits and starts. It breathes, it heats, it eats. It shits and fucks.",
       "seed": 20260945
+    },
+    {
+      "headline": "Netanyahu Said to Have Been Warned by Emirati Leader About Hamas Attack Before Oct. 7",
+      "fragment": "It is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
+      "splice": "Netanyahu Said to Have Been Warned by Emirati Leader About Hamas Attack Before Oct. 7 the system notes that it is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
+      "seed": 20260946
+    },
+    {
+      "headline": "“A Recurring Pattern”: Civilians Paying the Price in Mali’s Drone Campaign",
+      "fragment": "Over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
+      "splice": "“A Recurring Pattern”: Civilians Paying the Price in Mali’s Drone Campaign while over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
+      "seed": 20260947
+    },
+    {
+      "headline": "Congress Failed Again to Stop Trump’s Iran War. This Group Is Trying Through the Courts.",
+      "fragment": "The truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
+      "splice": "Congress Failed Again to Stop Trump’s Iran War. This Group Is Trying Through the Courts. insofar as the truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
+      "seed": 20260948
+    },
+    {
+      "headline": "African Presidents Call for Permanent African Seats on U.N. Security Council",
+      "fragment": "Reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
+      "splice": "African Presidents Call for Permanent African Seats on U.N. Security Council consequently reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
+      "seed": 20260949
+    },
+    {
+      "headline": "Ethiopia’s new rebel alliance faces an old problem",
+      "fragment": "To dissimulate is to pretend not to have what one has. To simulate is to feign to have what one doesn't have. One implies a presence, the other an absence.",
+      "splice": "Ethiopia’s new rebel alliance faces an old problem meanwhile to dissimulate is to pretend not to have what one has. To simulate is to feign to have what one doesn't have. One implies a presence, the other an absence.",
+      "seed": 20260950
     }
   ]
 }
