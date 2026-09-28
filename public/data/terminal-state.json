@@ -1,7 +1,39 @@
 {
-  "generated_at": "2026-09-27T16:38:41.216Z",
+  "generated_at": "2026-09-28T04:26:08.474Z",
   "threat_intel": {
     "cisa_kev": [
+      {
+        "cveID": "CVE-2026-88772",
+        "vendorProject": "Citrix",
+        "product": "NetScaler",
+        "vulnerabilityName": "Citrix NetScaler Improper Restriction of Operations within the Bounds of a Memory Buffer Vulnerability",
+        "dateAdded": "2026-09-27",
+        "shortDescription": "Citrix NetScaler ADC and NetScaler Gateway contain an improper restriction of operations within the bounds of a memory buffer vulnerability that could allow for remote code execution or denial of service",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-09-30",
+        "knownRansomwareCampaignUse": "Unknown",
+        "forensicTriage": "Yes",
+        "notes": "Running the provided IOCs in the NetScaler console may help identify indicators of exploitation. Customers must conduct forensic triage as directed by BOD 26‑04 and follow Citrix’s published guidance for mitigations. For more information, please see: https://community.citrix.com/techzone-blogs/110_security-updates/netscaler-adc-and-netscaler-gateway-security-bulletin-for-cve-2026-88771-through-cve-2026-88778 ; https://support.citrix.com/support-home/kbsearch/article?articleNumber=CTX697096 ; https://support.citrix.com/external/article/CTX694799/steps-to-take-if-netscaler-adc-is-suspec.html ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-88772",
+        "cwes": [
+          "CWE-119"
+        ]
+      },
+      {
+        "cveID": "CVE-2026-88771",
+        "vendorProject": "Citrix",
+        "product": "NetScaler",
+        "vulnerabilityName": "Citrix NetScaler Improper Input Validation Vulnerability",
+        "dateAdded": "2026-09-27",
+        "shortDescription": "Citrix NetScaler ADC and NetScaler Gateway contain an improper input validation vulnerability that could allow an unauthenticated attacker to execute arbitrary commands.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-09-30",
+        "knownRansomwareCampaignUse": "Unknown",
+        "forensicTriage": "Yes",
+        "notes": "Running the provided IOCs in the NetScaler console may help identify indicators of exploitation. Customers must conduct forensic triage as directed by BOD 26‑04 and follow Citrix’s published guidance for mitigations. For more information, please see: https://community.citrix.com/techzone-blogs/110_security-updates/netscaler-adc-and-netscaler-gateway-security-bulletin-for-cve-2026-88771-through-cve-2026-88778 ; https://support.citrix.com/support-home/kbsearch/article?articleNumber=CTX697096 ; https://support.citrix.com/external/article/CTX694799/steps-to-take-if-netscaler-adc-is-suspec.html ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-88772",
+        "cwes": [
+          "CWE-119"
+        ]
+      },
       {
         "cveID": "CVE-2026-67279",
         "vendorProject": "MikroTik",
@@ -209,45 +241,13 @@
         "cwes": [
           "CWE-754"
         ]
-      },
-      {
-        "cveID": "CVE-2026-58704",
-        "vendorProject": "Google",
-        "product": "Pixel",
-        "vulnerabilityName": "Google Pixel Improper Authorization Vulnerability",
-        "dateAdded": "2026-09-16",
-        "shortDescription": "Google Pixel devices contain an improper authorization vulnerability in the cellular modem. A logic error may allow an attacker to bypass permission checks and escalate privileges.",
-        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "dueDate": "2026-09-19",
-        "knownRansomwareCampaignUse": "Unknown",
-        "forensicTriage": "Yes",
-        "notes": "https://source.android.com/docs/security/bulletin/pixel/2026/2026-09-01 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-58704",
-        "cwes": [
-          "CWE-693"
-        ]
-      },
-      {
-        "cveID": "CVE-2026-76460",
-        "vendorProject": "Cisco",
-        "product": "Identity Services Engine",
-        "vulnerabilityName": "Cisco Identity Services Engine Incorrect Use of Privileged APIs Vulnerability",
-        "dateAdded": "2026-09-16",
-        "shortDescription": "Cisco Identity Services Engine (ISE) and Cisco ISE Passive Identity Connector (ISE-PIC) contain an incorrect use of privileged APIs vulnerability that could allow an unauthenticated, remote attacker to gain unauthorized access to the affected device by bypassing the web-based management interface.",
-        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "dueDate": "2026-09-19",
-        "knownRansomwareCampaignUse": "Unknown",
-        "forensicTriage": "Yes",
-        "notes": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ISE-ABP-VNSW7Tn5 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-76460",
-        "cwes": [
-          "CWE-648"
-        ]
       }
     ],
     "urlhaus": [
       {
-        "id": "3923855",
-        "date_added": "2026-09-27 16:32:16",
-        "url": "http://182.240.27.0:47109/bin.sh",
+        "id": "3924075",
+        "date_added": "2026-09-28 04:16:18",
+        "url": "http://221.15.197.104:37975/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -255,32 +255,9 @@
         ]
       },
       {
-        "id": "3923854",
-        "date_added": "2026-09-27 16:15:31",
-        "url": "http://222.137.38.80:41257/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3923852",
-        "date_added": "2026-09-27 16:02:11",
-        "url": "http://210.208.111.234:37888/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "mirai"
-        ]
-      },
-      {
-        "id": "3923853",
-        "date_added": "2026-09-27 16:02:11",
-        "url": "http://182.127.100.126:59062/bin.sh",
+        "id": "3924076",
+        "date_added": "2026-09-28 04:16:18",
+        "url": "http://182.116.81.35:60844/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -288,9 +265,9 @@
         ]
       },
       {
-        "id": "3923851",
-        "date_added": "2026-09-27 16:01:16",
-        "url": "http://95.72.177.85:49028/bin.sh",
+        "id": "3924077",
+        "date_added": "2026-09-28 04:16:18",
+        "url": "http://110.188.42.252:46077/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -298,9 +275,69 @@
         ]
       },
       {
-        "id": "3923850",
-        "date_added": "2026-09-27 16:01:15",
-        "url": "http://45.186.52.25:53182/bin.sh",
+        "id": "3924070",
+        "date_added": "2026-09-28 04:16:17",
+        "url": "http://79.106.74.167:32981/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3924071",
+        "date_added": "2026-09-28 04:16:17",
+        "url": "http://123.189.21.253:48644/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3924072",
+        "date_added": "2026-09-28 04:16:17",
+        "url": "http://196.189.96.59:33642/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3924073",
+        "date_added": "2026-09-28 04:16:17",
+        "url": "http://61.137.234.20:47690/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3924074",
+        "date_added": "2026-09-28 04:16:17",
+        "url": "http://39.90.150.253:46719/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3924068",
+        "date_added": "2026-09-28 04:02:14",
+        "url": "http://42.58.16.215:50144/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3924069",
+        "date_added": "2026-09-28 04:02:14",
+        "url": "http://171.213.207.77:33055/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -308,69 +345,19 @@
         ]
       },
       {
-        "id": "3923846",
-        "date_added": "2026-09-27 15:47:12",
-        "url": "http://219.156.96.131:50997/bin.sh",
+        "id": "3924067",
+        "date_added": "2026-09-28 04:01:16",
+        "url": "http://123.189.21.253:48644/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "Mozi"
+          "None"
         ]
       },
       {
-        "id": "3923847",
-        "date_added": "2026-09-27 15:47:12",
-        "url": "http://210.208.111.234:37888/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "mirai"
-        ]
-      },
-      {
-        "id": "3923848",
-        "date_added": "2026-09-27 15:47:12",
-        "url": "http://120.28.194.130:53799/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "mirai"
-        ]
-      },
-      {
-        "id": "3923849",
-        "date_added": "2026-09-27 15:47:12",
-        "url": "http://95.239.101.161:40458/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "mirai"
-        ]
-      },
-      {
-        "id": "3923841",
-        "date_added": "2026-09-27 15:31:23",
-        "url": "http://27.205.107.142:38155/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "mirai"
-        ]
-      },
-      {
-        "id": "3923842",
-        "date_added": "2026-09-27 15:31:23",
-        "url": "http://219.156.117.114:37129/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "mirai"
-        ]
-      },
-      {
-        "id": "3923843",
-        "date_added": "2026-09-27 15:31:23",
-        "url": "http://115.56.67.57:50496/i",
+        "id": "3924064",
+        "date_added": "2026-09-28 04:01:15",
+        "url": "http://115.53.209.112:44166/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -378,9 +365,19 @@
         ]
       },
       {
-        "id": "3923844",
-        "date_added": "2026-09-27 15:31:23",
-        "url": "http://125.160.217.48:56229/bin.sh",
+        "id": "3924065",
+        "date_added": "2026-09-28 04:01:15",
+        "url": "http://61.52.159.140:53921/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3924066",
+        "date_added": "2026-09-28 04:01:15",
+        "url": "http://79.106.74.167:32981/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -388,124 +385,151 @@
         ]
       },
       {
-        "id": "3923845",
-        "date_added": "2026-09-27 15:31:23",
-        "url": "http://219.157.142.32:41661/bin.sh",
+        "id": "3924063",
+        "date_added": "2026-09-28 03:47:15",
+        "url": "http://78.178.89.120:36217/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3924061",
+        "date_added": "2026-09-28 03:31:19",
+        "url": "http://39.40.171.208:54287/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3924062",
+        "date_added": "2026-09-28 03:31:19",
+        "url": "http://78.178.89.120:36217/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3924060",
+        "date_added": "2026-09-28 03:31:16",
+        "url": "http://202.1.26.68:53153/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3924056",
+        "date_added": "2026-09-28 03:17:14",
+        "url": "http://171.213.207.77:33055/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "mirai"
+        ]
+      },
+      {
+        "id": "3924057",
+        "date_added": "2026-09-28 03:17:14",
+        "url": "http://61.137.234.20:47690/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
           "None"
-        ]
-      },
-      {
-        "id": "3923840",
-        "date_added": "2026-09-27 15:31:22",
-        "url": "http://103.151.42.13:44491/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "mirai"
-        ]
-      },
-      {
-        "id": "3923837",
-        "date_added": "2026-09-27 15:19:17",
-        "url": "http://94.154.43.7:8899/poc/q28f1a8dd.xml",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "ActiveMQ"
-        ]
-      },
-      {
-        "id": "3923838",
-        "date_added": "2026-09-27 15:19:17",
-        "url": "http://94.154.43.7:8899/poc/qe8be141e.xml",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "ActiveMQ"
-        ]
-      },
-      {
-        "id": "3923839",
-        "date_added": "2026-09-27 15:19:17",
-        "url": "http://91.92.242.236/files-129312398/files/file_16077168462e2e06.exe",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "c2-monitor-auto",
-          "dropped-by-amadey"
-        ]
-      },
-      {
-        "id": "3923836",
-        "date_added": "2026-09-27 15:17:15",
-        "url": "http://101.108.96.224:48439/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "mirai"
         ]
       }
     ]
   },
   "world_monitor": [
     {
-      "title": "Ten climbers missing after avalanche hits Himalayan base camp",
-      "link": "https://www.bbc.co.uk/news/articles/cwjdvml9e897o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Sun, 27 Sep 2026 16:22:37 GMT",
+      "title": "Anthropic CEO Amodei to have dinner with Trump at White House",
+      "link": "https://www.aljazeera.com/economy/2026/9/28/anthropic-ceo-amodei-to-have-dinner-with-trump-at-white-house?traffic_source=rss",
+      "pubDate": "Mon, 28 Sep 2026 02:57:28 +0000",
+      "source": "Al Jazeera",
+      "summary": "Private dinner will be the first one-on-one meeting between the two men, according to reports."
+    },
+    {
+      "title": "Venezuelans rally for opposition leader’s return and presidential elections",
+      "link": "https://www.aljazeera.com/news/2026/9/28/venezuelans-rally-for-opposition-leaders-return-and-presidential-elections?traffic_source=rss",
+      "pubDate": "Mon, 28 Sep 2026 02:36:00 +0000",
+      "source": "Al Jazeera",
+      "summary": "Nobel laureate Maria Corina Machado has been living in exile, with plans to return to Venezuela spoiled multiple times."
+    },
+    {
+      "title": "Palestine Action protesters arrested outside UK Labour Party conference",
+      "link": "https://www.aljazeera.com/news/2026/9/28/palestine-action-protesters-arrested-outside-uk-labour-party-conference?traffic_source=rss",
+      "pubDate": "Mon, 28 Sep 2026 02:23:30 +0000",
+      "source": "Al Jazeera",
+      "summary": "Demonstrators protest against UK government's proscription of Palestine Action as a 'terrorist' organisation."
+    },
+    {
+      "title": "Ireland beats Israel 3-0 wearing black armbands to support Gaza",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/9/28/27-09-sv-ireland-beats-israel-ie?traffic_source=rss",
+      "pubDate": "Mon, 28 Sep 2026 01:39:02 +0000",
+      "source": "Al Jazeera",
+      "summary": "Ireland scored a 3-0 victory over Israel in a politically-charged UEFA Nations League match played in Hungary."
+    },
+    {
+      "title": "UK Foreign Secretary confronted by activists over Palestine Action ban",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/9/28/uk-foreign-secretary-confronted-by-activists-over-palestine-action-ban?traffic_source=rss",
+      "pubDate": "Mon, 28 Sep 2026 01:37:27 +0000",
+      "source": "Al Jazeera",
+      "summary": "UK Foreign Secretary Ed Miliband was confronted by activists at a restaurant over the proscription of Palestine Action."
+    },
+    {
+      "title": "A Transcript From The Times Interview with Prime Minister Mark Carney of Canada",
+      "link": "https://www.nytimes.com/2026/09/27/world/canada/mark-carney-interview-transcript.html",
+      "pubDate": "Sun, 27 Sep 2026 22:11:12 +0000",
+      "source": "NYT World",
+      "summary": "New York Times journalists pressed the Canadian prime minister about a range of topics in an hourlong interview last week. Here’s a transcript of their conversation."
+    },
+    {
+      "title": "Iran Still Awaits ‘Official’ U.S. Response Despite Trump’s Rebuff of Cease-Fire Offer",
+      "link": "https://www.nytimes.com/2026/09/27/world/middleeast/iran-trump-ceasefire-strait-of-hormuz.html",
+      "pubDate": "Sun, 27 Sep 2026 21:36:22 +0000",
+      "source": "NYT World",
+      "summary": "Abbas Araghchi, Iran’s foreign minister, said a history of contradictory messaging meant that President Trump’s rejection might not be a final position."
+    },
+    {
+      "title": "Serbia’s Longtime President Aleksandar Vucic Resigns Post",
+      "link": "https://www.nytimes.com/2026/09/27/world/europe/serbia-president-aleksandar-vucicto-resigns.html",
+      "pubDate": "Sun, 27 Sep 2026 21:22:29 +0000",
+      "source": "NYT World",
+      "summary": "Aleksandar Vucic, one of Europe’s longest-serving leaders, resigned as president, paving the way for him to become prime minister after elections next month."
+    },
+    {
+      "title": "Inside Yemen's front-line city as Houthis battle for control",
+      "link": "https://www.bbc.co.uk/news/articles/cw98005ndz7no?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Sun, 27 Sep 2026 21:16:31 GMT",
       "source": "BBC",
-      "summary": "The Nepali team was preparing to take overseas climbers up the Himlung Himal peak."
+      "summary": "In rare access to Yemen's conflict zone the BBC travels to the front line with pro-government soldiers."
     },
     {
-      "title": "The Surprising Reasons China Is Skeptical of A.I. Safety Calls",
-      "link": "https://www.nytimes.com/2026/09/27/world/asia/china-us-ai-distrust.html",
-      "pubDate": "Sun, 27 Sep 2026 16:07:26 +0000",
-      "source": "NYT World",
-      "summary": "In China, A.I. doomsday warnings can feel distinctly Western or like a ploy to stop Chinese A.I. companies from trying to overtake their U.S. rivals."
-    },
-    {
-      "title": "Afghanistan says 28 fighters killed as Islamabad, Kabul trade accusations",
-      "link": "https://www.aljazeera.com/news/2026/9/27/afghanistan-says-28-fighters-killed-as-islamabad-kabul-trade-accusations?traffic_source=rss",
-      "pubDate": "Sun, 27 Sep 2026 16:05:49 +0000",
-      "source": "Al Jazeera",
-      "summary": "Relations strain further as Afghanistan and Pakistan trade accusations over terrorism and cross-border violence."
-    },
-    {
-      "title": "LIVE: Norway vs Portugal – Nations League",
-      "link": "https://www.aljazeera.com/sports/liveblog/2026/9/27/live-norway-vs-portugal-nations-league?traffic_source=rss",
-      "pubDate": "Sun, 27 Sep 2026 16:00:35 +0000",
-      "source": "Al Jazeera",
-      "summary": "Follow updates as Norway host Portugal for a Group A4 clash, including the build-up, analysis and live text commentary."
-    },
-    {
-      "title": "Who is Gavin Bazunu, and why is he boycotting the Ireland vs Israel match?",
-      "link": "https://www.aljazeera.com/sports/2026/9/27/who-is-gavin-bazunu-and-why-is-he-boycotting-the-ireland-vs-israel-match?traffic_source=rss",
-      "pubDate": "Sun, 27 Sep 2026 15:51:18 +0000",
-      "source": "Al Jazeera",
-      "summary": "Bazunu says his decision to withdraw was based on a 'personal belief that the killing of innocent people is wrong'."
-    },
-    {
-      "title": "The longevity boom is getting ahead of the science",
-      "link": "https://www.aljazeera.com/opinions/2026/9/27/the-longevity-boom-is-getting-ahead-of-the-science?traffic_source=rss",
-      "pubDate": "Sun, 27 Sep 2026 15:48:16 +0000",
-      "source": "Al Jazeera",
-      "summary": "Billions are pouring into anti-ageing biotech, but manipulating ageing has risks we are only beginning to understand."
-    },
-    {
-      "title": "Finding Desert Angels: Searching for the missing at the US-Mexico border",
-      "link": "https://www.aljazeera.com/video/witness/2026/9/27/finding-desert-angels-searching-for-the-missing-at-the-us-mexico-border?traffic_source=rss",
-      "pubDate": "Sun, 27 Sep 2026 15:30:00 +0000",
-      "source": "Al Jazeera",
-      "summary": "An ageing trailblazer of search and rescue risks his life to find a woman’s missing son in the US-Mexico borderlands."
-    },
-    {
-      "title": "5 Men Arrested on Suspicion of Terrorism Offenses Near RAF Fairford, Air Base Used by U.S.",
+      "title": "5 Arrested on Suspicion of Terrorism Near RAF Fairford Air Base in UK",
       "link": "https://www.nytimes.com/2026/09/27/world/europe/raf-fairford-airbase-arrests.html",
-      "pubDate": "Sun, 27 Sep 2026 15:19:19 +0000",
+      "pubDate": "Sun, 27 Sep 2026 20:20:19 +0000",
       "source": "NYT World",
-      "summary": "British counterterrorism police said the men were arrested after three suspicious vehicles appeared to be traveling toward R.A.F. Fairford early on Sunday."
+      "summary": "The British counterterrorism police say the men were arrested after three suspicious vehicles appeared to be traveling toward R.A.F. Fairford early on Sunday."
+    },
+    {
+      "title": "Embattled Serbian president resigns, paving way for early elections",
+      "link": "https://www.bbc.co.uk/news/articles/ckpq0g7z5pjjo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Sun, 27 Sep 2026 20:04:21 GMT",
+      "source": "BBC",
+      "summary": "Aleksandar Vučić's administration has been dogged by prolonged protests over allegations of corruption."
+    },
+    {
+      "title": "Two bodies found after avalanche hits Himalayan climbing group",
+      "link": "https://www.bbc.co.uk/news/articles/cwjdvml9e897o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Sun, 27 Sep 2026 17:05:26 GMT",
+      "source": "BBC",
+      "summary": "Rescuers are looking for at least 10 Nepalese people who were preparing to take climbers up the Himlung Himal peak."
     },
     {
       "title": "Two mass shootings in South Africa leave 27 dead",
@@ -515,13 +539,6 @@
       "summary": "The two attacks hours apart come as the country struggles to stop high levels of gang-related armed violence."
     },
     {
-      "title": "At Least 27 Killed in 2 Overnight Mass Shootings in South Africa",
-      "link": "https://www.nytimes.com/2026/09/27/world/africa/south-africa-mass-shootings-tavern.html",
-      "pubDate": "Sun, 27 Sep 2026 11:37:20 +0000",
-      "source": "NYT World",
-      "summary": "These were the latest deadly incidents at bars or taverns in a nation with one of the world’s highest murder rates."
-    },
-    {
       "title": "The “Satanic Panic” Made Her a True-Crime Obsession. The Truth Is More Haunting.",
       "link": "https://theintercept.com/2026/09/27/christa-pike-execution-women-death-row/",
       "pubDate": "Sun, 27 Sep 2026 11:00:00 +0000",
@@ -529,25 +546,11 @@
       "summary": "After 30 years on death row, Christa Pike faces execution for a grisly murder she committed at 18.\nThe post The “Satanic Panic” Made Her a True-Crime Obsession. The Truth Is More Haunting. appeared first on The Intercept."
     },
     {
-      "title": "The Raffles’ Singapore Sling Costs $40. There’s a Reason Tourists Still Love It.",
-      "link": "https://www.nytimes.com/2026/09/27/world/asia/singapore-sling-raffles-hotel-cocktail.html",
-      "pubDate": "Sun, 27 Sep 2026 09:11:54 +0000",
-      "source": "NYT World",
-      "summary": "You can still buy a Singapore Sling in the colonial-era hotel where it’s said to have been invented more than a century ago. Custom versions have arisen nearby."
-    },
-    {
       "title": "What the Prairieland Jury Never Got to Hear",
       "link": "https://theintercept.com/2026/09/27/prairieland-appeal-gun-bullet-ricochet-benjamin-song/",
       "pubDate": "Sun, 27 Sep 2026 09:00:00 +0000",
       "source": "The Intercept",
       "summary": "Lawyers for an anti-ICE protester tried to argue his shot was a ricochet. The theory was squashed by gaps in the evidence and a judge’s suppression.\nThe post What the Prairieland Jury Never Got to Hear appeared first on The Intercept."
-    },
-    {
-      "title": "Iranian minister says only negotiation can end conflict after Trump rejects Hormuz deal",
-      "link": "https://www.bbc.co.uk/news/articles/cmvgyyw2jeego?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Sun, 27 Sep 2026 07:44:11 GMT",
-      "source": "BBC",
-      "summary": "The foreign minister says Tehran is waiting for an official rejection of a deal, despite the US President's comments."
     },
     {
       "title": "Recreational Aerial Craft Become Weapons in Myanmar’s War",
@@ -562,13 +565,6 @@
       "pubDate": "Sun, 27 Sep 2026 02:43:10 GMT",
       "source": "BBC",
       "summary": "The victims of the crash have not yet been identified, Quebec provincial police told the BBC."
-    },
-    {
-      "title": "Killer Christa Pike is to be executed within days, but her defence say she's a victim too",
-      "link": "https://www.bbc.co.uk/news/articles/c6pwl9g9ne1lo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Sat, 26 Sep 2026 23:04:08 GMT",
-      "source": "BBC",
-      "summary": "Lawyers for Pike, who killed a fellow student in 1995, say she should get clemency and would not be sentenced to death if the crime happened today."
     },
     {
       "title": "The Backlash to “NAZA” Shows How Little Israeli Citizenship Really Means",
@@ -694,6 +690,38 @@
   ],
   "syndicate_journal": [
     {
+      "title": "Bringing AI to Autonomous Systems -- From Cognition to Collective Intelligence",
+      "link": "https://arxiv.org/abs/2609.30291",
+      "summary": "arXiv:2609.30291v1 Announce Type: new \nAbstract: The purpose of this article is to highlight the central role of autonomous systems as the ultimate stage in the development of AI, to explain the underlying technical challenges that require a combination of connectionist AI and symbolic AI, and to in",
+      "pubDate": "Mon, 28 Sep 2026 00:00:00 -0400",
+      "domain": "science",
+      "source": "arXiv: cs.AI"
+    },
+    {
+      "title": "ScopeBench: Do Agents Preserve Engagement Boundaries Under Goal Pressure?",
+      "link": "https://arxiv.org/abs/2609.30325",
+      "summary": "arXiv:2609.30325v1 Announce Type: new \nAbstract: Agents are increasingly deployed with real autonomy in web application and network penetration testing, where a single out-of-scope action can breach a client's engagement boundary. Existing offensive-security benchmarks measure raw hacking capability",
+      "pubDate": "Mon, 28 Sep 2026 00:00:00 -0400",
+      "domain": "science",
+      "source": "arXiv: cs.AI"
+    },
+    {
+      "title": "When Is a Multi-Agent Code Judge Actually Grounded? Two Label-Free Measurements, and a Judge That Declines to Guess",
+      "link": "https://arxiv.org/abs/2609.30328",
+      "summary": "arXiv:2609.30328v1 Announce Type: new \nAbstract: When one language model judges whether another's code is correct, it does not report the absence of evidence. It returns a confident verdict with reasoning attached, indistinguishable from a verdict it had grounds for. Multi-agent verification, which ",
+      "pubDate": "Mon, 28 Sep 2026 00:00:00 -0400",
+      "domain": "science",
+      "source": "arXiv: cs.AI"
+    },
+    {
+      "title": "Will the president nationalize boating?",
+      "link": "https://languagelog.ldc.upenn.edu/nll/?p=74316&utm_source=rss&utm_medium=rss&utm_campaign=will-the-president-nationalize-boating",
+      "summary": "Myriam Toua, \"Donald Trump's advisers 'urge him to declare martial law' amid latest grim poll\", The Mirrorus 9/26/2026: [emphasis added] Martial law in the US would mean the temporary replacement of government and regular law enforcement by a solely military force. Standard civil liberties, such as ",
+      "pubDate": "Sun, 27 Sep 2026 17:32:26 +0000",
+      "domain": "linguistics",
+      "source": "Language Log"
+    },
+    {
       "title": "How Brazilian Cinema Survived Fascism",
       "link": "",
       "summary": "When writer-director Kleber Mendonça Filho was on a press junket with his sensational genre-twisting, furiously satirical 2019 film, , Brazilian cinema was in a state of crisis. Jair Bolsonaro’s oppressive right-wing government targeted the national cinema for destruction, aggressively slashing budg",
@@ -704,7 +732,7 @@
     {
       "title": "Unsportsmanlike Conduct?",
       "link": "https://languagelog.ldc.upenn.edu/nll/?p=74299&utm_source=rss&utm_medium=rss&utm_campaign=unsportsmanlike-conduct",
-      "summary": "The latest Tank McNamara strip imagines a conversation between referees before today's Ravens versus Cowboys game in Rio: What Cristo Redentor is signaling, visible from near Estádio do Maracanã (though probably not from inside it): How the ref is interpreting that gesture: In my opinion, the orient",
+      "summary": "The latest Tank McNamara strip imagines a conversation between referees before today's Ravens versus Cowboys game in Rio: What Cristo Redentor is signaling, visible from near Estádio do Maracanã (though probably not from inside it): How the comic strip ref is interpreting that gesture: In my opinion",
       "pubDate": "Sun, 27 Sep 2026 13:26:48 +0000",
       "domain": "linguistics",
       "source": "Language Log"
@@ -772,14 +800,6 @@
       "pubDate": "Fri, 25 Sep 2026 13:27:16 +0000",
       "domain": "history",
       "source": "JSTOR Daily"
-    },
-    {
-      "title": "Teriffic",
-      "link": "https://languagelog.ldc.upenn.edu/nll/?p=74283&utm_source=rss&utm_medium=rss&utm_campaign=teriffic",
-      "summary": "A recent congratulatory email, from a successful scientist to a member of his lab: Teriffic! I make similar mistakes myself all the time, and felt the need to check that the correct spelling is actually \"terrific\". See \"Conservation of (orthographic) gemination\" (3/29/2004) for a nerdish exploration",
-      "pubDate": "Fri, 25 Sep 2026 10:58:54 +0000",
-      "domain": "linguistics",
-      "source": "Language Log"
     },
     {
       "title": "Reasoning together",
@@ -934,25 +954,25 @@
       "source": "ROAR Magazine"
     },
     {
-      "title": "Impact of augmented reality on narrative-related outcomes in children with Autism Spectrum Disorder: a within-subject design",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1926566",
-      "summary": "InroductionAutism Spectrum Disorder (ASD) is commonly associated with impairments in social communication, narrative abilities, and socio-cognitive functioning. This study explored whether augmented reality (AR) could enhance narrative production, comprehension, use of mental state language, and rea",
+      "title": "Stress recovery and restorative effects of viewing different types of peony garden landscapes: a preliminary experiment",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1935645",
+      "summary": "BackgroundSubstantial evidence supports the health benefits of urban green spaces, yet most studies focus on general landscapes, leaving a gap regarding specialized gardens with topographic variations (flatland, tableland, mountain land). This study explored the restorative effects of peony garden s",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "The embodied meaningful place framework: integrating symbolic, personal, and internal environments in virtual reality",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1891764",
-      "summary": "",
+      "title": "Peripheral vision as a key factor for decision-making in soccer",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1907506",
+      "summary": "Peripheral vision is critical for processing dynamic visual information in team sports such as soccer; however, yet little is known about how individual differences in peripheral visual field extent relate to decision-making efficiency under time pressure. This study investigated whether peripheral ",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "Physical exercise and depressive symptoms among older adults: a serial mediation model of self-rated health and subjective wellbeing",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1877978",
-      "summary": "ObjectivePhysical exercise is an important health-promoting behavior for older adults, while depressive symptoms are a major psychological factor affecting their quality of life and active aging. This study aimed to examine the associations between physical exercise and depressive symptoms among old",
+      "title": "The effect of project-based learning on students’ motivation in school-based physical Education and behavioral intention toward sport participation: a theoretical and empirical perspective in educational sport contexts",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1915768",
+      "summary": "This study examined the association of Project-Based Learning (PBL) with students’ motivation in physical education (PE) and behavioral intention toward sport participation within an integrated theoretical framework combining Self-Determination Theory (SDT), constructivist learning theory, and socia",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
@@ -960,64 +980,64 @@
   ],
   "misinfo_toilet": [
     {
-      "headline": "Flock Wants the Most Detailed Map of Its Surveillance Cameras Taken Offline",
-      "fragment": "There is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
-      "splice": "Flock Wants the Most Detailed Map of Its Surveillance Cameras Taken Offline within which there is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
-      "seed": 20260943
+      "headline": "Anthropic CEO Amodei to have dinner with Trump at White House",
+      "fragment": "Reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
+      "splice": "Anthropic CEO Amodei to have dinner with Trump at White House despite reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
+      "seed": 20260932
     },
     {
-      "headline": "LIVE: Norway vs Portugal – Nations League",
-      "fragment": "The privatization of the organs will only begin with the shame felt by man at the sight of man.",
-      "splice": "LIVE: Norway vs Portugal – Nations League therefore the privatization of the organs will only begin with the shame felt by man at the sight of man.",
-      "seed": 20260944
+      "headline": "Iran Still Awaits ‘Official’ U.S. Response Despite Trump’s Rebuff of Cease-Fire Offer",
+      "fragment": "The truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
+      "splice": "Iran Still Awaits ‘Official’ U.S. Response Despite Trump’s Rebuff of Cease-Fire Offer insofar as the truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
+      "seed": 20260933
     },
     {
-      "headline": "The Surprising Reasons China Is Skeptical of A.I. Safety Calls",
-      "fragment": "Simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
-      "splice": "The Surprising Reasons China Is Skeptical of A.I. Safety Calls because simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
-      "seed": 20260945
+      "headline": "Venezuelans rally for opposition leader’s return and presidential elections",
+      "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
+      "splice": "Venezuelans rally for opposition leader’s return and presidential elections underneath the breast is a machine that produces milk, and the mouth a machine coupled to it.",
+      "seed": 20260934
+    },
+    {
+      "headline": "Bellingcat Official Merch Design Contest",
+      "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "splice": "Bellingcat Official Merch Design Contest despite the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "seed": 20260935
+    },
+    {
+      "headline": "Ireland beats Israel 3-0 wearing black armbands to support Gaza",
+      "fragment": "The truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
+      "splice": "Ireland beats Israel 3-0 wearing black armbands to support Gaza while the truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
+      "seed": 20260936
+    },
+    {
+      "headline": "Serbia’s Longtime President Aleksandar Vucic Resigns Post",
+      "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
+      "splice": "Serbia’s Longtime President Aleksandar Vucic Resigns Post despite the revolutionary lives in the gap which separates technical progress from social totality.",
+      "seed": 20260937
+    },
+    {
+      "headline": "Christy Kinahan’s UAE Residence Visa Cancelled",
+      "fragment": "The truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
+      "splice": "Christy Kinahan’s UAE Residence Visa Cancelled as if the truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
+      "seed": 20260938
+    },
+    {
+      "headline": "Embattled Serbian president resigns, paving way for early elections",
+      "fragment": "We live in a world where there is more and more information, and less and less meaning.",
+      "splice": "Embattled Serbian president resigns, paving way for early elections while we live in a world where there is more and more information, and less and less meaning.",
+      "seed": 20260939
     },
     {
       "headline": "Four killed in helicopter crash near Montreal",
-      "fragment": "Over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
-      "splice": "Four killed in helicopter crash near Montreal which is to say over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
-      "seed": 20260946
+      "fragment": "It is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
+      "splice": "Four killed in helicopter crash near Montreal the signal resolves into it is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
+      "seed": 20260940
     },
     {
-      "headline": "Finding Desert Angels: Searching for the missing at the US-Mexico border",
-      "fragment": "It is at work everywhere, functioning smoothly at times, at other times in fits and starts. It breathes, it heats, it eats. It shits and fucks.",
-      "splice": "Finding Desert Angels: Searching for the missing at the US-Mexico border not unlike it is at work everywhere, functioning smoothly at times, at other times in fits and starts. It breathes, it heats, it eats. It shits and fucks.",
-      "seed": 20260947
-    },
-    {
-      "headline": "Ten climbers missing after avalanche hits Himalayan base camp",
-      "fragment": "It is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
-      "splice": "Ten climbers missing after avalanche hits Himalayan base camp the system notes that it is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
-      "seed": 20260948
-    },
-    {
-      "headline": "“A Recurring Pattern”: Civilians Paying the Price in Mali’s Drone Campaign",
-      "fragment": "Over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
-      "splice": "“A Recurring Pattern”: Civilians Paying the Price in Mali’s Drone Campaign while over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
-      "seed": 20260949
-    },
-    {
-      "headline": "The Backlash to “NAZA” Shows How Little Israeli Citizenship Really Means",
-      "fragment": "The truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
-      "splice": "The Backlash to “NAZA” Shows How Little Israeli Citizenship Really Means insofar as the truth is that sexuality is everywhere: the way a bureaucrat fondles his records, a judge administers justice, a businessman causes money to circulate.",
-      "seed": 20260950
-    },
-    {
-      "headline": "Afghanistan says 28 fighters killed as Islamabad, Kabul trade accusations",
-      "fragment": "Reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
-      "splice": "Afghanistan says 28 fighters killed as Islamabad, Kabul trade accusations consequently reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
-      "seed": 20260951
-    },
-    {
-      "headline": "Who is Gavin Bazunu, and why is he boycotting the Ireland vs Israel match?",
-      "fragment": "To dissimulate is to pretend not to have what one has. To simulate is to feign to have what one doesn't have. One implies a presence, the other an absence.",
-      "splice": "Who is Gavin Bazunu, and why is he boycotting the Ireland vs Israel match? meanwhile to dissimulate is to pretend not to have what one has. To simulate is to feign to have what one doesn't have. One implies a presence, the other an absence.",
-      "seed": 20260952
+      "headline": "UK Foreign Secretary confronted by activists over Palestine Action ban",
+      "fragment": "In the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
+      "splice": "UK Foreign Secretary confronted by activists over Palestine Action ban meanwhile in the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
+      "seed": 20260941
     }
   ]
 }
