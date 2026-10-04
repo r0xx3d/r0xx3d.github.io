@@ -1,7 +1,23 @@
 {
-  "generated_at": "2026-10-04T11:57:51.300Z",
+  "generated_at": "2026-10-04T21:01:23.391Z",
   "threat_intel": {
     "cisa_kev": [
+      {
+        "cveID": "CVE-2026-88779",
+        "vendorProject": "Citrix",
+        "product": "NetScaler",
+        "vulnerabilityName": "Citrix NetScaler Improper Restriction of Operations within the Bounds of a Memory Buffer Vulnerability",
+        "dateAdded": "2026-10-04",
+        "shortDescription": "Citrix NetScaler ADC (formerly Citrix ADC) and Citrix NetScaler Gateway (formerly Citrix Gateway) contain an improper restriction of operations within the bounds of a memory buffer vulnerability that could allow for a denial of service.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-10-07",
+        "knownRansomwareCampaignUse": "Unknown",
+        "forensicTriage": "Yes",
+        "notes": "https://support.citrix.com/support-home/kbsearch/article?articleNumber=CTX697174 ; https://community.citrix.com/techzone-blogs/110_security-updates/understanding-and-addressing-cve-2026-88779-in-citrix-netscaler-adc-and-citrix-netscaler-gateway/ ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-88779",
+        "cwes": [
+          "CWE-119"
+        ]
+      },
       {
         "cveID": "CVE-2026-102490",
         "vendorProject": "Zammad GmbH",
@@ -226,41 +242,13 @@
         "cwes": [
           "CWE-122"
         ]
-      },
-      {
-        "cveID": "CVE-2026-93616",
-        "vendorProject": "Check Point",
-        "product": "Multiple Products",
-        "vulnerabilityName": "Check Point Multiple Products Path Traversal Vulnerability",
-        "dateAdded": "2026-09-22",
-        "shortDescription": "Check Point Security Management Server, Multi-Domain Security Management Server, Log Server, Multi-Domain Log Server, and SmartEvent contain a path traversal vulnerability that allows an unauthenticated attacker to upload and execute arbitrary scripts.",
-        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "dueDate": "2026-09-25",
-        "knownRansomwareCampaignUse": "Unknown",
-        "forensicTriage": "Yes",
-        "notes": "https://support.checkpoint.com/results/sk/sk1000171/ ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-93616",
-        "cwes": [
-          "CWE-22"
-        ]
       }
     ],
     "urlhaus": [
       {
-        "id": "3928498",
-        "date_added": "2026-10-04 11:49:26",
-        "url": "http://176.65.139.201:8080/nyx_bot_linux_mipsle_packed",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips"
-        ]
-      },
-      {
-        "id": "3928497",
-        "date_added": "2026-10-04 11:48:20",
-        "url": "http://119.114.154.93:34836/i",
+        "id": "3928675",
+        "date_added": "2026-10-04 20:52:19",
+        "url": "http://220.201.74.15:44269/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -271,29 +259,9 @@
         ]
       },
       {
-        "id": "3928496",
-        "date_added": "2026-10-04 11:47:28",
-        "url": "http://103.111.23.12:36304/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "mirai"
-        ]
-      },
-      {
-        "id": "3928495",
-        "date_added": "2026-10-04 11:47:18",
-        "url": "http://111.179.218.238:60664/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "mirai"
-        ]
-      },
-      {
-        "id": "3928494",
-        "date_added": "2026-10-04 11:47:16",
-        "url": "http://42.239.255.6:34597/i",
+        "id": "3928674",
+        "date_added": "2026-10-04 20:48:09",
+        "url": "http://123.5.9.104:45417/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -301,9 +269,9 @@
         ]
       },
       {
-        "id": "3928492",
-        "date_added": "2026-10-04 11:47:15",
-        "url": "http://182.116.120.45:55146/bin.sh",
+        "id": "3928673",
+        "date_added": "2026-10-04 20:47:14",
+        "url": "http://123.5.9.104:45417/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -311,9 +279,9 @@
         ]
       },
       {
-        "id": "3928493",
-        "date_added": "2026-10-04 11:47:15",
-        "url": "http://182.116.120.45:55146/i",
+        "id": "3928671",
+        "date_added": "2026-10-04 20:47:13",
+        "url": "http://125.41.73.51:35908/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -321,9 +289,9 @@
         ]
       },
       {
-        "id": "3928491",
-        "date_added": "2026-10-04 11:32:14",
-        "url": "http://117.26.227.140:50457/i",
+        "id": "3928672",
+        "date_added": "2026-10-04 20:47:13",
+        "url": "http://120.28.137.240:54685/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -331,43 +299,42 @@
         ]
       },
       {
-        "id": "3928490",
-        "date_added": "2026-10-04 11:31:17",
-        "url": "http://45.168.132.19:37511/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "mirai"
-        ]
-      },
-      {
-        "id": "3928489",
-        "date_added": "2026-10-04 11:29:35",
-        "url": "http://112.225.218.8:38471/bin.sh",
+        "id": "3928670",
+        "date_added": "2026-10-04 20:45:26",
+        "url": "http://123.190.224.122:34015/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
           "32-bit",
-          "arm",
           "elf",
-          "mirai",
+          "mips",
           "Mozi"
         ]
       },
       {
-        "id": "3928488",
-        "date_added": "2026-10-04 11:17:12",
-        "url": "http://61.54.253.190:51985/bin.sh",
+        "id": "3928668",
+        "date_added": "2026-10-04 20:32:14",
+        "url": "http://175.167.160.231:39578/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "Mozi"
+          "None"
         ]
       },
       {
-        "id": "3928487",
-        "date_added": "2026-10-04 11:01:40",
-        "url": "http://117.26.227.140:50457/bin.sh",
+        "id": "3928669",
+        "date_added": "2026-10-04 20:32:14",
+        "url": "http://115.48.144.54:50368/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3928666",
+        "date_added": "2026-10-04 20:32:13",
+        "url": "http://120.28.195.142:55751/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -375,9 +342,39 @@
         ]
       },
       {
-        "id": "3928485",
-        "date_added": "2026-10-04 11:01:35",
-        "url": "http://182.121.146.13:36203/bin.sh",
+        "id": "3928667",
+        "date_added": "2026-10-04 20:32:13",
+        "url": "http://113.237.104.148:53693/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3928665",
+        "date_added": "2026-10-04 20:17:13",
+        "url": "http://42.56.41.233:56405/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3928663",
+        "date_added": "2026-10-04 20:17:12",
+        "url": "http://175.165.86.203:54160/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3928664",
+        "date_added": "2026-10-04 20:17:12",
+        "url": "http://27.219.3.204:49278/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -385,151 +382,181 @@
         ]
       },
       {
-        "id": "3928486",
-        "date_added": "2026-10-04 11:01:35",
-        "url": "http://182.121.146.13:36203/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3928484",
-        "date_added": "2026-10-04 11:01:34",
-        "url": "http://182.124.23.70:52164/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3928483",
-        "date_added": "2026-10-04 11:01:29",
-        "url": "http://182.126.81.217:41612/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3928481",
-        "date_added": "2026-10-04 10:47:12",
-        "url": "http://39.65.211.9:41473/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "mirai"
-        ]
-      },
-      {
-        "id": "3928482",
-        "date_added": "2026-10-04 10:47:12",
-        "url": "http://221.15.144.165:40651/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3928480",
-        "date_added": "2026-10-04 10:36:20",
-        "url": "http://115.56.128.124:35336/bin.sh",
+        "id": "3928662",
+        "date_added": "2026-10-04 20:16:22",
+        "url": "http://123.190.224.122:34015/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
           "32-bit",
-          "arm",
           "elf",
-          "mirai",
+          "mips",
           "Mozi"
         ]
       },
       {
-        "id": "3928479",
-        "date_added": "2026-10-04 10:32:31",
-        "url": "http://125.44.18.119:34090/i",
+        "id": "3928661",
+        "date_added": "2026-10-04 20:02:16",
+        "url": "http://175.151.104.143:37585/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "Mozi"
+          "None"
+        ]
+      },
+      {
+        "id": "3928660",
+        "date_added": "2026-10-04 20:02:14",
+        "url": "http://60.23.170.10:54006/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3928658",
+        "date_added": "2026-10-04 20:02:13",
+        "url": "http://92.243.113.232:16844/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3928659",
+        "date_added": "2026-10-04 20:02:13",
+        "url": "http://175.165.81.126:43499/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3928657",
+        "date_added": "2026-10-04 19:53:24",
+        "url": "http://179.61.221.162/bins/morte.i686",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mirai",
+          "x86-32"
+        ]
+      },
+      {
+        "id": "3928656",
+        "date_added": "2026-10-04 19:47:14",
+        "url": "http://202.107.98.237:54547/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "None"
         ]
       }
     ]
   },
   "world_monitor": [
     {
-      "title": "Israeli Authorities Trade Blame for Failure to Flag FlyDubai Co-Pilot",
-      "link": "https://www.nytimes.com/2026/10/04/world/middleeast/flydubai-israel-debate-pilot-security.html",
-      "pubDate": "Sun, 04 Oct 2026 11:34:40 +0000",
-      "source": "NYT World",
-      "summary": "The Omani co-pilot who officials said tried to crash the plane was said to have embraced extremist Islamist views."
-    },
-    {
-      "title": "Kyiv bridge hit in further Russian drone attack as German chancellor makes surprise visit",
-      "link": "https://www.bbc.co.uk/news/articles/ckreyjzzzywqo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Sun, 04 Oct 2026 11:25:35 GMT",
-      "source": "BBC",
-      "summary": "Footage shows a drone hitting the Pivnichyi (Northern) Bridge as vehicles move across it, creating a large fireball."
-    },
-    {
-      "title": "Brazil votes in deeply polarised election pitting Lula against Bolsonaro",
-      "link": "https://www.aljazeera.com/news/2026/10/4/brazil-votes-in-deeply-polarised-election-pitting-lula-against-bolsonaro?traffic_source=rss",
-      "pubDate": "Sun, 04 Oct 2026 11:15:34 +0000",
+      "title": "Debris found near Nantucket believed to be from missing medical plane",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/10/4/debris-found-near-nantucket-believed-to-be-from-missing-medical-plane?traffic_source=rss",
+      "pubDate": "Sun, 04 Oct 2026 20:21:09 +0000",
       "source": "Al Jazeera",
-      "summary": "Close race expected as left-wing leader Lula seeks fourth nonconsecutive term against right-wing Flavio Bolsonaro."
+      "summary": "The US Coast Guard says a field of debris found near Nantucket is believed to be from an emergency medical plane."
     },
     {
-      "title": "Iran says Hormuz to remain closed until US meets conditions",
-      "link": "https://www.aljazeera.com/news/2026/10/4/iran-says-strait-of-hormuz-to-remain-closed-until-us-meets-conditions?traffic_source=rss",
-      "pubDate": "Sun, 04 Oct 2026 11:11:30 +0000",
+      "title": "Brazil election results live: Lula and Bolsonaro locked in a tight race",
+      "link": "https://www.aljazeera.com/news/liveblog/2026/10/4/brazil-election-results-live-lula-and-bolsonaro-locked-in-a-tight-race?traffic_source=rss",
+      "pubDate": "Sun, 04 Oct 2026 20:00:05 +0000",
       "source": "Al Jazeera",
-      "summary": "Tehran says reopening Strait of Hormuz has been its main goal, while the US continues to focus on nuclear talks."
+      "summary": "Leftist incumbent Lula is seeking a fourth term in office, facing off against right-wing Senator Flavio Bolsonaro."
     },
     {
-      "title": "Ethiopian government forces seize Tigray capital Mekelle as TPLF withdraws",
-      "link": "https://www.aljazeera.com/news/2026/10/4/government-forces-seize-capital-of-ethiopias-tigray-region-from-rebels?traffic_source=rss",
-      "pubDate": "Sun, 04 Oct 2026 11:05:02 +0000",
+      "title": "Imran Khan’s party launches march to Islamabad demanding his release",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/10/4/imran-khans-party-launches-march-to-islamabad-demanding-his-release?traffic_source=rss",
+      "pubDate": "Sun, 04 Oct 2026 19:53:55 +0000",
       "source": "Al Jazeera",
-      "summary": "Federal troops and allied fighters seen in control of the city after capturing main regional airport."
+      "summary": "Supporters of jailed former Pakistani prime minister Imran Khan have launched a long march towards Islamabad."
     },
     {
-      "title": "Red Bull’s Verstappen wins rain-delayed Bahrain GP F1 race in Sepang",
-      "link": "https://www.aljazeera.com/sports/2026/10/4/red-bulls-verstappen-wins-rain-delayed-bahrain-gp-f1-race-in-sepang?traffic_source=rss",
-      "pubDate": "Sun, 04 Oct 2026 11:02:33 +0000",
+      "title": "Will elections bring change to multi-ethnic Bosnia and Herzegovina?",
+      "link": "https://www.aljazeera.com/video/inside-story/2026/10/4/will-elections-bring-change-to-multi-ethnic-bosnia-and-herzegovina?traffic_source=rss",
+      "pubDate": "Sun, 04 Oct 2026 19:46:34 +0000",
       "source": "Al Jazeera",
-      "summary": "Championship leader Kimi Antonelli of Mercedes and Ferrari's Lewis Hamilton finish second and third."
+      "summary": "Balkan nation seeks EU membership, but divisions threaten that goal."
     },
     {
-      "title": "Is the Sudanese army gaining momentum against the RSF?",
-      "link": "https://www.aljazeera.com/news/2026/10/4/is-the-sudanese-army-gaining-momentum-against-the-rsf?traffic_source=rss",
-      "pubDate": "Sun, 04 Oct 2026 10:56:12 +0000",
+      "title": "France to shutter up to 500 schools as more student protests called",
+      "link": "https://www.aljazeera.com/news/2026/10/4/france-to-shutter-up-to-500-schools-as-more-student-protests-called?traffic_source=rss",
+      "pubDate": "Sun, 04 Oct 2026 19:41:04 +0000",
       "source": "Al Jazeera",
-      "summary": "The SAF claims victory in a vital North Kordofan town, weakening RSF’s access to fighters and supply routes."
+      "summary": "Education minister cites safety concerns for closures as organisers call for resumption of protests."
     },
     {
       "title": "Houthis Claim Attack on Aramco as Yemen Conflict Escalates",
       "link": "https://www.nytimes.com/2026/10/04/world/middleeast/houthis-oil-attack-saudi-arabia-yemen.html",
-      "pubDate": "Sun, 04 Oct 2026 10:45:50 +0000",
+      "pubDate": "Sun, 04 Oct 2026 19:14:05 +0000",
       "source": "NYT World",
-      "summary": "The Iran-backed militia said it targeted an Aramco site in Saudi Arabia’s capital, Riyadh, and fresh airstrikes hit the Yemeni capital, raising fears of a widening war."
+      "summary": "The announcement follows weeks of fighting with the Iran-allied armed group and threatens to deepen U.S. involvement in the widening Middle East conflict."
     },
     {
-      "title": "Brazil Election: What to Know as Lula and Bolsonaro Face Off in 2026 Presidential Race",
+      "title": "Israeli Authorities Trade Blame for Failure to Flag FlyDubai Co-Pilot",
+      "link": "https://www.nytimes.com/2026/10/04/world/middleeast/flydubai-israel-debate-pilot-security.html",
+      "pubDate": "Sun, 04 Oct 2026 19:07:36 +0000",
+      "source": "NYT World",
+      "summary": "The Omani co-pilot who officials said tried to crash the plane was said to have embraced extremist Islamist views."
+    },
+    {
+      "title": "Iran’s Top Security Official Warns of Dire Economic Crisis",
+      "link": "https://www.nytimes.com/2026/10/04/world/middleeast/iran-economy-rial.html",
+      "pubDate": "Sun, 04 Oct 2026 18:47:12 +0000",
+      "source": "NYT World",
+      "summary": "The rare admission from Mohsen Rezaei, the security chief, came weeks after the U.S. tightened sanctions and its naval blockade."
+    },
+    {
+      "title": "Yemen's government announces all-out war to reclaim land from Houthis",
+      "link": "https://www.bbc.co.uk/news/articles/cx8dzj9vpp01o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Sun, 04 Oct 2026 16:51:30 GMT",
+      "source": "BBC",
+      "summary": "The Yemeni president's announcement comes amid an exchange of strikes between the Houthis and the Saudi-led coalition."
+    },
+    {
+      "title": "Christa Pike's prognosis still unclear after failed execution, lawyer says",
+      "link": "https://www.bbc.co.uk/news/articles/ckgelynyg7d3o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Sun, 04 Oct 2026 16:24:48 GMT",
+      "source": "BBC",
+      "summary": "Pike's lawyer says doctors are still trying to clear two lethal doses of pentobarbital from her body."
+    },
+    {
+      "title": "Watch: What we know about Russian strikes on Kyiv bridges",
+      "link": "https://www.bbc.co.uk/news/videos/cmglwkyl9djyo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Sun, 04 Oct 2026 14:25:32 GMT",
+      "source": "BBC",
+      "summary": "BBC Ukraine correspondent Dan Johnson is near Kyiv's Northern Bridge, which has been hit for the second day in a row."
+    },
+    {
+      "title": "Ethiopian rebel forces withdraw from Tigray regional capital",
+      "link": "https://www.bbc.co.uk/news/articles/cqm249v07j4xo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Sun, 04 Oct 2026 13:33:05 GMT",
+      "source": "BBC",
+      "summary": "Two residents in Mekelle tell the BBC pro-government forces have taken control of the city."
+    },
+    {
+      "title": "Kyiv bridge hit in further Russian drone attack as German chancellor makes surprise visit",
+      "link": "https://www.bbc.co.uk/news/articles/ckreyjzzzywqo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Sun, 04 Oct 2026 12:09:04 GMT",
+      "source": "BBC",
+      "summary": "Footage shows a drone hitting the Pivnichyi (Northern) Bridge as vehicles move across it, creating a large fireball."
+    },
+    {
+      "title": "2026 Brazil Elections: What to Know as Lula and Bolsonaro Face Off",
       "link": "https://www.nytimes.com/2026/10/04/world/americas/brazil-election-2026-president-race-lula-bolsonaro.html",
-      "pubDate": "Sun, 04 Oct 2026 09:02:22 +0000",
+      "pubDate": "Sun, 04 Oct 2026 09:02:23 +0000",
       "source": "NYT World",
       "summary": "Luiz Inácio Lula da Silva, the leftist incumbent, and Flávio Bolsonaro, the right-wing challenger, face off in a race that could define the future of Latin America."
-    },
-    {
-      "title": "Russians Snap Up Chinese E.V.s as Ukrainian Attacks Make Fuel Scarce",
-      "link": "https://www.nytimes.com/2026/10/04/world/europe/russia-ukraine-war-ev-sales.html",
-      "pubDate": "Sun, 04 Oct 2026 09:01:49 +0000",
-      "source": "NYT World",
-      "summary": "As Ukraine increasingly takes the war to Russia, the effects may be most visible on the roads."
     },
     {
       "title": "Superpowers Race to Put Nuclear Reactors on the Moon",
@@ -537,34 +564,6 @@
       "pubDate": "Sun, 04 Oct 2026 09:00:29 +0000",
       "source": "NYT World",
       "summary": "The United States wants a reactor on the moon by 2030. A Russian-Chinese alliance is working on one for 2036. Some leading scientists say the danger is great."
-    },
-    {
-      "title": "Australia investigating Flydubai co-pilot's links to country",
-      "link": "https://www.bbc.co.uk/news/articles/cxly4nym57q9o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Sun, 04 Oct 2026 06:19:17 GMT",
-      "source": "BBC",
-      "summary": "State police and the country's security agency are looking into the co-pilot, who attempted to take control of a Flydubai plane travelling to Israel."
-    },
-    {
-      "title": "'Anger in the streets': Tens of thousands protest in Spain over housing crisis",
-      "link": "https://www.bbc.co.uk/news/articles/cm2kej47095no?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Sun, 04 Oct 2026 03:42:15 GMT",
-      "source": "BBC",
-      "summary": "More than 50 protests took place on Saturday after the government failed to get emergency legislation through parliament."
-    },
-    {
-      "title": "Cornell president says university 'must do better' after frat house rape allegations",
-      "link": "https://www.bbc.co.uk/news/articles/ckly0leelnz4o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Sun, 04 Oct 2026 00:11:25 GMT",
-      "source": "BBC",
-      "summary": "Michael Kotlikoff described the allegations of a woman who says she was drugged and gang raped as \"deeply disturbing\"."
-    },
-    {
-      "title": "Tennessee prison chief to resign after Christa Pike's failed execution",
-      "link": "https://www.bbc.co.uk/news/articles/c8zxl62yzxzxo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Sat, 03 Oct 2026 17:48:42 GMT",
-      "source": "BBC",
-      "summary": "Pike's lawyers said the failure \"goes far beyond any one person\". Pike is in critical condition after surviving two lethal injections."
     },
     {
       "title": "Public Radio Station Forced to Call Gulf of Mexico the “Gulf of America”",
@@ -704,50 +703,50 @@
   ],
   "syndicate_journal": [
     {
+      "title": "Was There Really a Female King in Ancient Egypt 5,000 Years Ago?",
+      "link": "https://nautil.us/was-there-really-a-female-king-in-ancient-egypt-5000-years-ago-1285520/",
+      "summary": "A new study says yes\nThe post Was There Really a Female King in Ancient Egypt 5,000 Years Ago? appeared first on Nautilus.",
+      "pubDate": "Sun, 04 Oct 2026 18:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "Coral Reef-Like Rock Layers on Mars Reveal Ancient Climate Secrets",
+      "link": "https://nautil.us/coral-reef-like-rock-layers-on-mars-reveal-ancient-climate-secrets-1285515/",
+      "summary": "A landscape painted by rocks, wind, and water\nThe post Coral Reef-Like Rock Layers on Mars Reveal Ancient Climate Secrets appeared first on Nautilus.",
+      "pubDate": "Sun, 04 Oct 2026 15:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "Getting Fired from Mother Jones Made Michael Moore",
+      "link": "https://jacobin.com/2026/10/how-a-fight-over-the-contras-bankrolled-roger-me",
+      "summary": "Before Paul Berman became a liberal hawk, he was a New Left veteran who edited a book called . In 1986, his long-standing anxiety about the authoritarian left may have produced a casualty: Michael Moore’s magazine career.Quotations from the Anarchists\nMoore had edited  for five months when he tried ",
+      "pubDate": "2026-10-04T13:46:11.877Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "Reckoning With the Failures of Tech Worker Organizing",
+      "link": "https://jacobin.com/2026/10/labor-organizing-big-tech-google-twitter",
+      "summary": "In early 2022, a group of Twitter employees were quietly trying to unionize the company. They called themselves the “Starlings” after the birds whose synchronized flight patterns offer one another safety and warmth. The workers mapped out their coworkers and assessed their pro- or antiunion sentimen",
+      "pubDate": "2026-10-04T13:00:00.119Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "Trump’s Politically Driven Deportations Are Quietly Rising",
+      "link": "https://jacobin.com/2026/10/political-deportation-trump-sarsour-mahdawi-khalil",
+      "summary": "Donald Trump’s approval on immigration is so deathly low, and his ongoing deportation raids so unpopular even in red states, that you’d be forgiven for thinking his administration has pumped the brakes on the issue. Instead the White House is advancing a radical agenda that is increasingly targeted ",
+      "pubDate": "2026-10-04T12:30:00.037Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
       "title": "How Sugar from Outer Space Became One of the Backbones of Life on Earth",
       "link": "https://nautil.us/how-sugar-from-outer-space-became-one-of-the-backbones-of-life-on-earth-1285504/",
       "summary": "Is there life elsewhere, or is Earth unique in the universe? This is one of humanity’s great unanswered questions.\nOne way to approach this mystery is to investigate how life began here on Earth. Our research explores the conditions where a mixture of molecules somehow transformed from chemistry int",
       "pubDate": "Sat, 03 Oct 2026 16:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
-      "title": "Do Calorie‑Restricted Diets Work?",
-      "link": "https://nautil.us/do-calorie%e2%80%91restricted-diets-work-1285497/",
-      "summary": "Or will I just re‑gain the weight?\nThe post Do Calorie‑Restricted Diets Work? appeared first on Nautilus.",
-      "pubDate": "Sat, 03 Oct 2026 14:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
-      "title": "Congress Must Investigate War Profiteers Once Again",
-      "link": "https://jacobin.com/2026/10/congress-must-investigate-war-profiteers-once-again",
-      "summary": "In April, President Donald Trump requested a $445 billion increase to the defense budget, meaning the United States will be spending around  on the military. Much of the largesse will benefit the  war contractors: Boeing, General Dynamics, Lockheed Martin, Northrop Grumman, and RTX (formerly Raytheo",
-      "pubDate": "2026-10-03T13:46:11.877Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
-      "title": "Bernie Sanders’s 2016 Campaign Lit a Spark Beyond Elections",
-      "link": "https://jacobin.com/2026/10/sanders-campaigns-labor-social-movements",
-      "summary": "Bernie Sanders’s impact on the American left is not typically measured in social movement terms. The story normally goes that democratic socialism returned to national politics after 2015, tens of thousands of people joined the Democratic Socialists of America (DSA), a new generation of socialist ca",
-      "pubDate": "2026-10-03T12:30:00.092Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
-      "title": "US Meddling in Brazil May Decide Latin America’s Future",
-      "link": "https://jacobin.com/2026/10/brazil-bolsonaro-trump-election-interference",
-      "summary": "As Brazil heads toward Sunday’s presidential election first round, the contest is on a knife-edge. Polls show left-wing president Luiz Inácio Lula da Silva neck and neck with the ultraconservative Flávio Bolsonaro, the oldest of his imprisoned father’s brood.\nJair Bolsonaro was defeated in 2022, as ",
-      "pubDate": "2026-10-03T12:00:00.059Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
-      "title": "“Floating Scarecrow” Demonstrates the Enduring Power of Eyes in the Natural World",
-      "link": "https://nautil.us/floating-scarecrow-demonstrates-the-enduring-power-of-eyes-in-the-natural-world-1285493/",
-      "summary": "No one likes being watched\nThe post “Floating Scarecrow” Demonstrates the Enduring Power of Eyes in the Natural World appeared first on Nautilus.",
-      "pubDate": "Sat, 03 Oct 2026 12:00:00 +0000",
       "domain": "science",
       "source": "Nautilus"
     },
@@ -920,30 +919,6 @@
       "source": "Sapiens"
     },
     {
-      "title": "Weiss Casino Kifizetés: Gyors és Megbízható Pénzfelvételi Módszerek",
-      "link": "https://roarmag.org/2025/08/11/weiss-casino-kifizet-s-gyors-s-megb-zhat-p-nzfelv-teli-m-dszerek/",
-      "summary": "Ez a cikk részletes áttekintést nyújt a Weiss Casino kifizetési lehetőségeiről, különös figyelmet fordítva a gyors és megbízható pénzfelvételi módszerekre. A játékosok számára elengedhetetlen, hogy ismerjék a különböző opciókat, amelyek segítenek a nyeremények gyors hozzáférésében. A Weiss Casino kü",
-      "pubDate": "Mon, 11 Aug 2025 00:00:00 +0000",
-      "domain": "politics",
-      "source": "ROAR Magazine"
-    },
-    {
-      "title": "Cara Menggunakan Link Alternatif RP888 Casino Online dengan Aman",
-      "link": "https://roarmag.org/2025/08/06/cara-menggunakan-link-alternatif-rp888-casino-online-dengan-aman/",
-      "summary": "Dalam artikel ini, kita akan membahas cara menggunakan link alternatif rp888 slot casino dengan aman. Banyak pemain yang mencari cara untuk mengakses RP888 Casino secara efektif, terutama ketika menghadapi kendala akses. Kami akan mengeksplorasi berbagai metode, berbagi pengalaman nyata dari pemain,",
-      "pubDate": "Wed, 06 Aug 2025 00:00:00 +0000",
-      "domain": "politics",
-      "source": "ROAR Magazine"
-    },
-    {
-      "title": "Common issues with withdrawal delays and how to avoid them",
-      "link": "https://roarmag.org/2025/07/18/common-issues-with-withdrawal-delays-and-how-to/",
-      "summary": "Common Issues with Withdrawal Delays Understanding Withdrawal Processes Withdrawal processes can vary significantly across financial institutions and online platforms. Generally, users can request withdrawals through various methods, including: Bank transfers E-wallets (e.g., PayPal, Skrill) Cryptoc",
-      "pubDate": "Fri, 18 Jul 2025 12:19:14 +0000",
-      "domain": "politics",
-      "source": "ROAR Magazine"
-    },
-    {
       "title": "Understanding teachers’ technostress creators due to IT use at work: a mixed-methods study",
       "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1887403",
       "summary": "With the digitization of education, the use of information technology (IT) at work has become a requirement for teachers, rather than an option. However, IT is a double-edged sword that brings teachers great benefits and additional challenges (e.g., technostress). The present study employed a mixed-",
@@ -970,64 +945,64 @@
   ],
   "misinfo_toilet": [
     {
-      "headline": "'Anger in the streets': Tens of thousands protest in Spain over housing crisis",
-      "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "splice": "'Anger in the streets': Tens of thousands protest in Spain over housing crisis therefore the breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "seed": 20261015
-    },
-    {
-      "headline": "Public Radio Station Forced to Call Gulf of Mexico the “Gulf of America”",
-      "fragment": "The privatization of the organs will only begin with the shame felt by man at the sight of man.",
-      "splice": "Public Radio Station Forced to Call Gulf of Mexico the “Gulf of America” ...as the privatization of the organs will only begin with the shame felt by man at the sight of man.",
-      "seed": 20261016
-    },
-    {
-      "headline": "Brazil votes in deeply polarised election pitting Lula against Bolsonaro",
-      "fragment": "It is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
-      "splice": "Brazil votes in deeply polarised election pitting Lula against Bolsonaro which is to say it is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
-      "seed": 20261017
-    },
-    {
-      "headline": "Mahmoud Khalil: “We Can’t Afford to Stay Silent”",
-      "fragment": "Simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
-      "splice": "Mahmoud Khalil: “We Can’t Afford to Stay Silent” therefore simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
-      "seed": 20261018
-    },
-    {
-      "headline": "Kyiv bridge hit in further Russian drone attack as German chancellor makes surprise visit",
-      "fragment": "Everywhere it is machines—real ones, not figurative ones: machines driving other machines, machines being driven by other machines, with all the necessary couplings and connections.",
-      "splice": "Kyiv bridge hit in further Russian drone attack as German chancellor makes surprise visit the signal resolves into everywhere it is machines—real ones, not figurative ones: machines driving other machines, machines being driven by other machines, with all the necessary couplings and connections.",
-      "seed": 20261019
-    },
-    {
-      "headline": "Tennessee prison chief to resign after Christa Pike's failed execution",
-      "fragment": "An ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
-      "splice": "Tennessee prison chief to resign after Christa Pike's failed execution which is to say an ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
-      "seed": 20261020
-    },
-    {
-      "headline": "Superpowers Race to Put Nuclear Reactors on the Moon",
-      "fragment": "Reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
-      "splice": "Superpowers Race to Put Nuclear Reactors on the Moon underneath reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
-      "seed": 20261021
-    },
-    {
-      "headline": "Christy Kinahan’s UAE Residence Visa Cancelled",
+      "headline": "Yemen's government announces all-out war to reclaim land from Houthis",
       "fragment": "Why do men fight for their servitude as stubbornly as though it were their salvation?",
-      "splice": "Christy Kinahan’s UAE Residence Visa Cancelled which is to say why do men fight for their servitude as stubbornly as though it were their salvation?",
-      "seed": 20261022
+      "splice": "Yemen's government announces all-out war to reclaim land from Houthis which is to say why do men fight for their servitude as stubbornly as though it were their salvation?",
+      "seed": 20261025
+    },
+    {
+      "headline": "Debris found near Nantucket believed to be from missing medical plane",
+      "fragment": "We live in a world where there is more and more information, and less and less meaning.",
+      "splice": "Debris found near Nantucket believed to be from missing medical plane therefore we live in a world where there is more and more information, and less and less meaning.",
+      "seed": 20261026
     },
     {
       "headline": "Bellingcat Official Merch Design Contest",
-      "fragment": "We live in a world where there is more and more information, and less and less meaning.",
-      "splice": "Bellingcat Official Merch Design Contest therefore we live in a world where there is more and more information, and less and less meaning.",
-      "seed": 20261023
+      "fragment": "Art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
+      "splice": "Bellingcat Official Merch Design Contest ...as art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
+      "seed": 20261027
+    },
+    {
+      "headline": "Watch: What we know about Russian strikes on Kyiv bridges",
+      "fragment": "The privatization of the organs will only begin with the shame felt by man at the sight of man.",
+      "splice": "Watch: What we know about Russian strikes on Kyiv bridges consequently the privatization of the organs will only begin with the shame felt by man at the sight of man.",
+      "seed": 20261028
+    },
+    {
+      "headline": "Viral Google Maps Images Shared Widely This Week Show Gaza Ruins. We Obtained More Recent Satellite Imagery",
+      "fragment": "It is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
+      "splice": "Viral Google Maps Images Shared Widely This Week Show Gaza Ruins. We Obtained More Recent Satellite Imagery the signal resolves into it is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
+      "seed": 20261029
+    },
+    {
+      "headline": "2026 Brazil Elections: What to Know as Lula and Bolsonaro Face Off",
+      "fragment": "Why do men fight for their servitude as stubbornly as though it were their salvation?",
+      "splice": "2026 Brazil Elections: What to Know as Lula and Bolsonaro Face Off consequently why do men fight for their servitude as stubbornly as though it were their salvation?",
+      "seed": 20261030
+    },
+    {
+      "headline": "Superpowers Race to Put Nuclear Reactors on the Moon",
+      "fragment": "It is at work everywhere, functioning smoothly at times, at other times in fits and starts. It breathes, it heats, it eats. It shits and fucks.",
+      "splice": "Superpowers Race to Put Nuclear Reactors on the Moon despite it is at work everywhere, functioning smoothly at times, at other times in fits and starts. It breathes, it heats, it eats. It shits and fucks.",
+      "seed": 20261031
+    },
+    {
+      "headline": "Mahmoud Khalil: “We Can’t Afford to Stay Silent”",
+      "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
+      "splice": "Mahmoud Khalil: “We Can’t Afford to Stay Silent” which is to say the breast is a machine that produces milk, and the mouth a machine coupled to it.",
+      "seed": 20261032
     },
     {
       "headline": "Oregon Police Are Charging a Local News Outlet $2.5M for Records About One Cop",
-      "fragment": "Art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
-      "splice": "Oregon Police Are Charging a Local News Outlet $2.5M for Records About One Cop ...as art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
-      "seed": 20261024
+      "fragment": "This is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
+      "splice": "Oregon Police Are Charging a Local News Outlet $2.5M for Records About One Cop which is to say this is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
+      "seed": 20261033
+    },
+    {
+      "headline": "Israeli Authorities Trade Blame for Failure to Flag FlyDubai Co-Pilot",
+      "fragment": "To dissimulate is to pretend not to have what one has. To simulate is to feign to have what one doesn't have. One implies a presence, the other an absence.",
+      "splice": "Israeli Authorities Trade Blame for Failure to Flag FlyDubai Co-Pilot the signal resolves into to dissimulate is to pretend not to have what one has. To simulate is to feign to have what one doesn't have. One implies a presence, the other an absence.",
+      "seed": 20261034
     }
   ]
 }
