@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T21:52:57.654Z",
+  "generated_at": "2026-10-06T05:32:03.118Z",
   "threat_intel": {
     "cisa_kev": [
       {
@@ -246,63 +246,221 @@
     ],
     "urlhaus": [
       {
-        "id": "3929492",
-        "date_added": "2026-10-05 21:47:32",
-        "url": "http://59.180.141.164:51827/i",
+        "id": "3929701",
+        "date_added": "2026-10-06 05:19:30",
+        "url": "http://217.60.195.187/qv3.mips",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "None"
+          "217-60-195-187",
+          "elf",
+          "ua-wget"
         ]
       },
       {
-        "id": "3929490",
-        "date_added": "2026-10-05 21:47:14",
-        "url": "http://180.180.120.72:60846/i",
+        "id": "3929702",
+        "date_added": "2026-10-06 05:19:30",
+        "url": "http://217.60.195.187/qv3-host",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3929491",
-        "date_added": "2026-10-05 21:47:14",
-        "url": "http://175.150.51.60:36561/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3929489",
-        "date_added": "2026-10-05 21:47:13",
-        "url": "http://120.84.215.197:60936/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3929488",
-        "date_added": "2026-10-05 21:41:24",
-        "url": "http://171.213.166.96:41669/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "arm",
+          "217-60-195-187",
           "elf",
           "mirai",
-          "Mozi"
+          "ua-wget"
         ]
       },
       {
-        "id": "3929487",
-        "date_added": "2026-10-05 21:31:35",
-        "url": "http://112.242.23.5:45984/i",
+        "id": "3929703",
+        "date_added": "2026-10-06 05:19:30",
+        "url": "http://217.60.195.187/qv3.armv5l",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "217-60-195-187",
+          "elf",
+          "mirai",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3929704",
+        "date_added": "2026-10-06 05:19:30",
+        "url": "http://217.60.195.187/qv3.i686",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "217-60-195-187",
+          "elf",
+          "mirai",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3929705",
+        "date_added": "2026-10-06 05:19:30",
+        "url": "http://217.60.195.187/qv3.i486",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "217-60-195-187",
+          "elf",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3929706",
+        "date_added": "2026-10-06 05:19:30",
+        "url": "http://217.60.195.187/qv3.mipsel",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "217-60-195-187",
+          "elf",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3929707",
+        "date_added": "2026-10-06 05:19:30",
+        "url": "http://217.60.195.187/qv3.powerpc-440fp",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "217-60-195-187",
+          "elf",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3929708",
+        "date_added": "2026-10-06 05:19:30",
+        "url": "http://217.60.195.187/qv3.powerpc",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "217-60-195-187",
+          "elf",
+          "mirai",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3929709",
+        "date_added": "2026-10-06 05:19:30",
+        "url": "http://217.60.195.187/qv3.armv7l",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "217-60-195-187",
+          "elf",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3929710",
+        "date_added": "2026-10-06 05:19:30",
+        "url": "http://217.60.195.187/qv3.armv4l",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "217-60-195-187",
+          "elf",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3929711",
+        "date_added": "2026-10-06 05:19:30",
+        "url": "http://217.60.195.187/x86_64_dbg2",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "217-60-195-187",
+          "elf",
+          "mirai",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3929712",
+        "date_added": "2026-10-06 05:19:30",
+        "url": "http://217.60.195.187/qv3.m68k",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "217-60-195-187",
+          "elf",
+          "mirai",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3929713",
+        "date_added": "2026-10-06 05:19:30",
+        "url": "http://217.60.195.187/qv3.armv6l",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "217-60-195-187",
+          "elf",
+          "mirai",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3929714",
+        "date_added": "2026-10-06 05:19:30",
+        "url": "http://217.60.195.187/qv3.x86_64",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "217-60-195-187",
+          "elf",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3929715",
+        "date_added": "2026-10-06 05:19:30",
+        "url": "http://217.60.195.187/qv3.sh4",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "217-60-195-187",
+          "elf",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3929716",
+        "date_added": "2026-10-06 05:19:30",
+        "url": "http://217.60.195.187/qv3.i586",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "217-60-195-187",
+          "elf",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3929717",
+        "date_added": "2026-10-06 05:19:30",
+        "url": "http://217.60.195.187/qv3.arc",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "217-60-195-187",
+          "elf",
+          "mirai",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3929698",
+        "date_added": "2026-10-06 05:17:16",
+        "url": "http://60.23.235.4:55385/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -310,9 +468,9 @@
         ]
       },
       {
-        "id": "3929486",
-        "date_added": "2026-10-05 21:31:16",
-        "url": "http://42.226.70.47:34014/i",
+        "id": "3929699",
+        "date_added": "2026-10-06 05:17:16",
+        "url": "http://123.5.171.111:55766/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -320,129 +478,9 @@
         ]
       },
       {
-        "id": "3929483",
-        "date_added": "2026-10-05 21:17:15",
-        "url": "http://61.52.1.251:59868/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3929484",
-        "date_added": "2026-10-05 21:17:15",
-        "url": "http://123.185.245.137:43701/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "mirai"
-        ]
-      },
-      {
-        "id": "3929485",
-        "date_added": "2026-10-05 21:17:15",
-        "url": "http://112.198.195.40:50034/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "mirai"
-        ]
-      },
-      {
-        "id": "3929481",
-        "date_added": "2026-10-05 21:02:12",
-        "url": "http://42.225.202.233:45104/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3929482",
-        "date_added": "2026-10-05 21:02:12",
-        "url": "http://103.87.194.109:41026/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "mirai"
-        ]
-      },
-      {
-        "id": "3929479",
-        "date_added": "2026-10-05 21:01:19",
-        "url": "http://60.23.237.141:57528/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3929480",
-        "date_added": "2026-10-05 21:01:19",
-        "url": "http://61.52.1.251:59868/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3929477",
-        "date_added": "2026-10-05 21:01:18",
-        "url": "http://118.174.171.111:51224/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "mirai"
-        ]
-      },
-      {
-        "id": "3929478",
-        "date_added": "2026-10-05 21:01:18",
-        "url": "http://61.137.200.25:38220/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3929476",
-        "date_added": "2026-10-05 20:47:16",
-        "url": "http://118.174.171.111:51224/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "mirai"
-        ]
-      },
-      {
-        "id": "3929475",
-        "date_added": "2026-10-05 20:47:15",
-        "url": "http://115.57.251.137:46903/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3929474",
-        "date_added": "2026-10-05 20:32:14",
-        "url": "http://114.239.44.32:48797/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3929473",
-        "date_added": "2026-10-05 20:32:13",
-        "url": "http://115.62.176.165:39661/i",
+        "id": "3929700",
+        "date_added": "2026-10-06 05:17:16",
+        "url": "http://42.239.238.224:40215/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -453,11 +491,67 @@
   },
   "world_monitor": [
     {
+      "title": "Violent clashes erupt after mass housing protest in Barcelona",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/10/6/10-6-barcelona-protests-clip-mp4?traffic_source=rss",
+      "pubDate": "Tue, 06 Oct 2026 04:34:51 +0000",
+      "source": "Al Jazeera",
+      "summary": "Protesters in Barcelona set fires, built barricades and hurled projectiles as violence erupted at a housing protest."
+    },
+    {
+      "title": "Quebec separatists win election reviving push for independence",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/10/6/quebec-separatists-win-election-reviving-push-for-independence?traffic_source=rss",
+      "pubDate": "Tue, 06 Oct 2026 04:34:16 +0000",
+      "source": "Al Jazeera",
+      "summary": "Parti Quebecois leader Paul St-Pierre Plamondon vows a future referendum on independence from Canada."
+    },
+    {
       "title": "Trump says 'threat' led US to pull bombers from RAF Fairford",
       "link": "https://www.bbc.co.uk/news/articles/cwj3413e5m1lo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Mon, 05 Oct 2026 21:46:22 GMT",
+      "pubDate": "Tue, 06 Oct 2026 04:25:22 GMT",
       "source": "BBC",
       "summary": "The Pentagon confirmed on Sunday it had removed the B1 bombers from the base in England back to their home stations in America."
+    },
+    {
+      "title": "Mexican and Colombian cartel mercenaries filmed fighting in Ukraine",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/10/6/mexican-and-colombian-cartel-mercenaries-filmed-fighting-in-ukraine?traffic_source=rss",
+      "pubDate": "Tue, 06 Oct 2026 04:07:48 +0000",
+      "source": "Al Jazeera",
+      "summary": "Members of Mexican and Colombian cartels are reportedly joining Ukraine’s International Legion to learn drone warfare."
+    },
+    {
+      "title": "Secessionist party wins Quebec election in Canada",
+      "link": "https://www.aljazeera.com/news/2026/10/6/secessionist-parti-quebecois-wins-quebec-election-in-canada?traffic_source=rss",
+      "pubDate": "Tue, 06 Oct 2026 03:11:44 +0000",
+      "source": "Al Jazeera",
+      "summary": "Parti Quebecois returns to power, promising a third referendum on Quebec's independence from Canada."
+    },
+    {
+      "title": "UN rights council condemns attacks on civilians in Sudan, calls for truce",
+      "link": "https://www.aljazeera.com/news/2026/10/6/un-rights-council-condemns-attacks-on-civilians-in-sudan-calls-for-truce?traffic_source=rss",
+      "pubDate": "Tue, 06 Oct 2026 02:54:31 +0000",
+      "source": "Al Jazeera",
+      "summary": "Resolution demands an immediate ceasefire and extends the mandate of the mission investigating abuses in Sudan."
+    },
+    {
+      "title": "Separatist party projected to win Quebec election, adding new test to Canada's unity",
+      "link": "https://www.bbc.co.uk/news/articles/crly09gz7ew4o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Tue, 06 Oct 2026 02:37:46 GMT",
+      "source": "BBC",
+      "summary": "The Parti Québécois, which secured a minority, has vowed to hold an independence referendum in the years to come."
+    },
+    {
+      "title": "Europe is pouring billions into space. Can Glasgow's satellite industry keep up?",
+      "link": "https://www.bbc.co.uk/news/articles/cm2kedyp348lo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Mon, 05 Oct 2026 23:07:08 GMT",
+      "source": "BBC",
+      "summary": "The city's space boom raises questions about the role of the state in backing important industries."
+    },
+    {
+      "title": "Saudi Arabia urged to spare man sentenced to death over Facebook post",
+      "link": "https://www.bbc.co.uk/news/articles/cq14d438vx24o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Mon, 05 Oct 2026 22:28:02 GMT",
+      "source": "BBC",
+      "summary": "Anojan Sivarasa faces execution after he was found guilty of blasphemy over a Facebook comment."
     },
     {
       "title": "In a Major Boost for the Right, Another Bolsonaro Nears Brazil’s Presidency",
@@ -481,53 +575,11 @@
       "summary": "France prepares for a day of protests in support of students who’ve been demanding more investment in education."
     },
     {
-      "title": "Super-subs help France demolish Belgium with late flurry",
-      "link": "https://www.aljazeera.com/sports/2026/10/5/super-subs-help-france-demolish-belgium-with-late-flurry?traffic_source=rss",
-      "pubDate": "Mon, 05 Oct 2026 21:13:38 +0000",
-      "source": "Al Jazeera",
-      "summary": "Michael Olise scores twice and assists as France come from 1-0 with 13 minutes left to beat Belgium 4-1"
-    },
-    {
-      "title": "Ethiopia’s PM insists on access to Red Sea despite regional conflict threat",
-      "link": "https://www.aljazeera.com/news/2026/10/5/ethiopias-pm-insists-on-access-to-red-sea-despite-regional-conflict-threat?traffic_source=rss",
-      "pubDate": "Mon, 05 Oct 2026 21:10:43 +0000",
-      "source": "Al Jazeera",
-      "summary": "Neighbouring countries say coastal states must govern Red Sea as fighting escalates in northern Ethiopia."
-    },
-    {
-      "title": "Trump says US ready to aid Russia with plague outbreak in Siberia",
-      "link": "https://www.aljazeera.com/news/2026/10/5/trump-says-us-ready-to-aid-russia-with-plague-outbreak-in-siberia?traffic_source=rss",
-      "pubDate": "Mon, 05 Oct 2026 21:03:21 +0000",
-      "source": "Al Jazeera",
-      "summary": "Russian authorities quarantine hospital, monitor 200 contacts after suspected pneumonic plague death in Siberia."
-    },
-    {
-      "title": "Brazil’s presidential race head for a tough runoff",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/10/5/brazils-presidential-race-head-for-a-tough-runoff?traffic_source=rss",
-      "pubDate": "Mon, 05 Oct 2026 21:00:59 +0000",
-      "source": "Al Jazeera",
-      "summary": "Brazil is heading into a fiercely contested presidential runoff after the first round revealed major gains for Bolsonaro"
-    },
-    {
-      "title": "What’s next for Bosnia after elections?",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/10/5/whats-next-for-bosnia-after-elections?traffic_source=rss",
-      "pubDate": "Mon, 05 Oct 2026 20:54:57 +0000",
-      "source": "Al Jazeera",
-      "summary": "Bosnia and Herzegovina’s election strengthened nationalist parties."
-    },
-    {
       "title": "Brazil Election Could Give Bolsonaro a Key Role in Trump’s Latin America Map",
       "link": "https://www.nytimes.com/2026/10/05/world/americas/brazil-election-bolsonaro-trump.html",
       "pubDate": "Mon, 05 Oct 2026 20:27:02 +0000",
       "source": "NYT World",
       "summary": "Flávio Bolsonaro, now the favorite to win Brazil’s presidency, would give President Trump a critical new ally in Latin America, particularly on security."
-    },
-    {
-      "title": "Spain PM pins hopes on housing crisis to help win snap election",
-      "link": "https://www.bbc.co.uk/news/articles/ck5yn81qqde0o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Mon, 05 Oct 2026 19:30:50 GMT",
-      "source": "BBC",
-      "summary": "Calling of a snap election was not a knee-jerk reaction from Pedro Sánchez but a carefully thought-out manoeuvre, Guy Hedgecoe reports from Madrid."
     },
     {
       "title": "Spain’s Leader Calls an Early Election",
@@ -539,23 +591,9 @@
     {
       "title": "Why Saudi Arabia’s Last War in Yemen Turned Into a Quagmire",
       "link": "https://www.nytimes.com/2026/10/05/world/middleeast/saudi-arabia-war-yemen-houthis-quagmire.html",
-      "pubDate": "Mon, 05 Oct 2026 15:32:43 +0000",
+      "pubDate": "Mon, 05 Oct 2026 15:32:44 +0000",
       "source": "NYT World",
       "summary": "A Saudi-led coalition has announced a military campaign against the Iran-backed Houthi militia in the country, reviving memories of its previous effort."
-    },
-    {
-      "title": "Zelensky condemns 'horrific' Russian strike on boat carrying corn in Black Sea",
-      "link": "https://www.bbc.co.uk/news/articles/cr0j0w3p8453o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Mon, 05 Oct 2026 15:17:23 GMT",
-      "source": "BBC",
-      "summary": "The vessel's captain was killed and 11 crew members were rescued after the attack on the Turkish-owned ship, Ukraine's leader says."
-    },
-    {
-      "title": "Flydubai co-pilot planned to crash plane into Tel Aviv airport or building, reports say",
-      "link": "https://www.bbc.co.uk/news/articles/cm3691y79xp5o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Mon, 05 Oct 2026 11:34:59 GMT",
-      "source": "BBC",
-      "summary": "The Omani national was a \"lone wolf\" extremist, according to the reports."
     },
     {
       "title": "Susan Collins’s Committee Bought Trucks the Army Didn’t Want. Then Campaign Donations Poured In.",
@@ -695,6 +733,14 @@
   ],
   "syndicate_journal": [
     {
+      "title": "Fat Cells May Retain a Memory of Obesity",
+      "link": "https://nautil.us/fat-cells-may-retain-a-memory-of-obesity-1285557/",
+      "summary": "Which could be why weight regain is so common\nThe post Fat Cells May Retain a Memory of Obesity appeared first on Nautilus.",
+      "pubDate": "Mon, 05 Oct 2026 22:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
       "title": "Do Babies Feel Shame?",
       "link": "https://nautil.us/do-babies-feel-shame-1285554/",
       "summary": "Research suggests they may be capable of self-conscious emotion much earlier than we thought\nThe post Do Babies Feel Shame? appeared first on Nautilus.",
@@ -725,14 +771,6 @@
       "pubDate": "2026-10-05T18:36:28.853Z",
       "domain": "politics",
       "source": "Jacobin"
-    },
-    {
-      "title": "Pigeon Dads Step Up in Tough Times",
-      "link": "https://nautil.us/pigeon-dads-step-up-in-tough-times-1285543/",
-      "summary": "Pairs team up to endure food scarcity\nThe post Pigeon Dads Step Up in Tough Times appeared first on Nautilus.",
-      "pubDate": "Mon, 05 Oct 2026 18:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
     },
     {
       "title": "Richie Floyd: Bernie’s 2016 Campaign Changed My Life",
@@ -773,30 +811,6 @@
       "pubDate": "Mon, 05 Oct 2026 10:00:00 GMT",
       "domain": "philosophy",
       "source": "Aeon"
-    },
-    {
-      "title": "MintFlow: Minimal Trajectory Intervention for Constrained Flow Matching",
-      "link": "https://arxiv.org/abs/2610.02260",
-      "summary": "arXiv:2610.02260v1 Announce Type: new \nAbstract: Flow matching models excel at generative modeling, and many downstream applications require their samples to satisfy prescribed constraints, such as observed measurements and physical laws. However, existing constrained samplers often face a trade-off",
-      "pubDate": "Mon, 05 Oct 2026 00:00:00 -0400",
-      "domain": "science",
-      "source": "arXiv: cs.AI"
-    },
-    {
-      "title": "Fast Models, Slow Evidence: A Paired and Self-Audited Evaluation of System-1 Decision Models for LLM Agent Harnesses",
-      "link": "https://arxiv.org/abs/2610.02267",
-      "summary": "arXiv:2610.02267v1 Announce Type: new \nAbstract: Agent harnesses make many small, typed decisions per task: which model to call, which tool to use, whether retrieved text is relevant, whether an input carries an injection. System-1 decision models answer such questions in a single forward pass with ",
-      "pubDate": "Mon, 05 Oct 2026 00:00:00 -0400",
-      "domain": "science",
-      "source": "arXiv: cs.AI"
-    },
-    {
-      "title": "The AI Risk Observatory: What Can We Learn from AI Disclosures in Annual Reports About Societal Resilience?",
-      "link": "https://arxiv.org/abs/2610.02281",
-      "summary": "arXiv:2610.02281v1 Announce Type: new \nAbstract: Societal resilience research relies on access to useful and actionable data, which motivates our main research question: Can annual reports, processed at scale with LLMs, provide a useful signal about how companies disclose their response to AI? We te",
-      "pubDate": "Mon, 05 Oct 2026 00:00:00 -0400",
-      "domain": "science",
-      "source": "arXiv: cs.AI"
     },
     {
       "title": "Sea Monkeys Show Scientists How To Rewrite a Rule of Turbulence",
@@ -935,25 +949,25 @@
       "source": "Sapiens"
     },
     {
-      "title": "Luminous vs. nocturnal canopy: a comparative qualitative study of two VR horticultural scenes for relaxation",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1932971",
-      "summary": "IntroductionVirtual reality (VR) horticultural environments are an emerging area, yet little is known about how environmental visual tonevisual tone, as one dimension of the overall environment, may be associated with influences user experience in therapeutic contexts.MethodsWe designed two VR horti",
+      "title": "The relationship between colleagues’ social support and burnout: a scoping review of quantitative research",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1858058",
+      "summary": "IntroductionSocial support, particularly from colleagues, is recognized as an important protective factor against burnout. However, the literature on this association is fragmented, making it difficult to draw any conclusions and orient future research. To fill this gap, this study seeks to map the ",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "Validation of the Chinese version of the adaptive functions of music listening scale among Chinese university students",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1881426",
-      "summary": "BackgroundA multidimensional measure of music-listening functions is needed in the Chinese context. This study evaluated the psychometric properties of the Adaptive Functions of Music Listening Scale (AFML) among Chinese university students.MethodsA total of 2,829 university students were recruited ",
+      "title": "Gray matter volume moderates the effect of acute physical activity on cognitive load and relates to reading comprehension in adolescents: the Cogni-Action Project",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1930058",
+      "summary": "BackgroundAcute physical activity reduces cognitive load (CL) and improves reading comprehension; however, the role of gray matter volume in these effects is unknown. This study examined how gray matter volume moderates the effects of physical activity on cognitive load, and explored its association",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "Exploring antecedents and consequences of value co-creation of women entrepreneurs: a conceptual framework and research agenda",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1569735",
-      "summary": "This study examines the antecedents and outcomes of value co-creation among women entrepreneurs, emphasizing the importance of addressing the unique challenges they encounter in entrepreneurial activities. While prior studies have investigated women’s entrepreneurial motivations and barriers, the co",
+      "title": "Weight-inclusive intuitive eating course associated with reductions in disordered eating in adults: a mixed methods study",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1953974",
+      "summary": "IntroductionMany employee health promotion programs encourage lifestyle changes such as eating more fruits and vegetables or getting more physical activity. Most of these programs operate from a weight-normative lens, meaning they encourage such changes with the primary goal of weight change (typica",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
@@ -961,64 +975,64 @@
   ],
   "misinfo_toilet": [
     {
-      "headline": "What’s next for Bosnia after elections?",
-      "fragment": "Why do men fight for their servitude as stubbornly as though it were their salvation?",
-      "splice": "What’s next for Bosnia after elections? which is to say why do men fight for their servitude as stubbornly as though it were their salvation?",
-      "seed": 20261026
+      "headline": "Spain’s Leader Calls an Early Election",
+      "fragment": "In the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
+      "splice": "Spain’s Leader Calls an Early Election not unlike in the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
+      "seed": 20261011
     },
     {
-      "headline": "France braces for national day of school protests after injuries and mass arrests",
-      "fragment": "We live in a world where there is more and more information, and less and less meaning.",
-      "splice": "France braces for national day of school protests after injuries and mass arrests therefore we live in a world where there is more and more information, and less and less meaning.",
-      "seed": 20261027
+      "headline": "Quebec separatists win election reviving push for independence",
+      "fragment": "Pretending, or dissimulating, leaves the principle of reality intact: the difference is always clear, it is simply masked.",
+      "splice": "Quebec separatists win election reviving push for independence the signal resolves into pretending, or dissimulating, leaves the principle of reality intact: the difference is always clear, it is simply masked.",
+      "seed": 20261012
     },
     {
-      "headline": "Bellingcat Official Merch Design Contest",
-      "fragment": "Art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
-      "splice": "Bellingcat Official Merch Design Contest ...as art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
-      "seed": 20261028
+      "headline": "Christy Kinahan’s UAE Residence Visa Cancelled",
+      "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
+      "splice": "Christy Kinahan’s UAE Residence Visa Cancelled therefore the breast is a machine that produces milk, and the mouth a machine coupled to it.",
+      "seed": 20261013
     },
     {
-      "headline": "Spain PM pins hopes on housing crisis to help win snap election",
+      "headline": "Violent clashes erupt after mass housing protest in Barcelona",
       "fragment": "The privatization of the organs will only begin with the shame felt by man at the sight of man.",
-      "splice": "Spain PM pins hopes on housing crisis to help win snap election consequently the privatization of the organs will only begin with the shame felt by man at the sight of man.",
-      "seed": 20261029
-    },
-    {
-      "headline": "Oregon Police Are Charging a Local News Outlet $2.5M for Records About One Cop",
-      "fragment": "It is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
-      "splice": "Oregon Police Are Charging a Local News Outlet $2.5M for Records About One Cop the signal resolves into it is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
-      "seed": 20261030
-    },
-    {
-      "headline": "Zelensky condemns 'horrific' Russian strike on boat carrying corn in Black Sea",
-      "fragment": "Why do men fight for their servitude as stubbornly as though it were their salvation?",
-      "splice": "Zelensky condemns 'horrific' Russian strike on boat carrying corn in Black Sea consequently why do men fight for their servitude as stubbornly as though it were their salvation?",
-      "seed": 20261031
-    },
-    {
-      "headline": "Flydubai co-pilot planned to crash plane into Tel Aviv airport or building, reports say",
-      "fragment": "It is at work everywhere, functioning smoothly at times, at other times in fits and starts. It breathes, it heats, it eats. It shits and fucks.",
-      "splice": "Flydubai co-pilot planned to crash plane into Tel Aviv airport or building, reports say despite it is at work everywhere, functioning smoothly at times, at other times in fits and starts. It breathes, it heats, it eats. It shits and fucks.",
-      "seed": 20261032
+      "splice": "Violent clashes erupt after mass housing protest in Barcelona ...as the privatization of the organs will only begin with the shame felt by man at the sight of man.",
+      "seed": 20261014
     },
     {
       "headline": "Public Radio Station Forced to Call Gulf of Mexico the “Gulf of America”",
-      "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "splice": "Public Radio Station Forced to Call Gulf of Mexico the “Gulf of America” which is to say the breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "seed": 20261033
+      "fragment": "It is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
+      "splice": "Public Radio Station Forced to Call Gulf of Mexico the “Gulf of America” which is to say it is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
+      "seed": 20261015
+    },
+    {
+      "headline": "Viral Google Maps Images Shared Widely This Week Show Gaza Ruins. We Obtained More Recent Satellite Imagery",
+      "fragment": "Simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
+      "splice": "Viral Google Maps Images Shared Widely This Week Show Gaza Ruins. We Obtained More Recent Satellite Imagery therefore simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
+      "seed": 20261016
+    },
+    {
+      "headline": "France braces for national day of school protests after injuries and mass arrests",
+      "fragment": "Everywhere it is machines—real ones, not figurative ones: machines driving other machines, machines being driven by other machines, with all the necessary couplings and connections.",
+      "splice": "France braces for national day of school protests after injuries and mass arrests the signal resolves into everywhere it is machines—real ones, not figurative ones: machines driving other machines, machines being driven by other machines, with all the necessary couplings and connections.",
+      "seed": 20261017
+    },
+    {
+      "headline": "“A Recurring Pattern”: Civilians Paying the Price in Mali’s Drone Campaign",
+      "fragment": "An ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
+      "splice": "“A Recurring Pattern”: Civilians Paying the Price in Mali’s Drone Campaign which is to say an ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
+      "seed": 20261018
     },
     {
       "headline": "Mahmoud Khalil: “We Can’t Afford to Stay Silent”",
-      "fragment": "This is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
-      "splice": "Mahmoud Khalil: “We Can’t Afford to Stay Silent” which is to say this is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
-      "seed": 20261034
+      "fragment": "Reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
+      "splice": "Mahmoud Khalil: “We Can’t Afford to Stay Silent” underneath reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
+      "seed": 20261019
     },
     {
-      "headline": "Trump says US ready to aid Russia with plague outbreak in Siberia",
-      "fragment": "To dissimulate is to pretend not to have what one has. To simulate is to feign to have what one doesn't have. One implies a presence, the other an absence.",
-      "splice": "Trump says US ready to aid Russia with plague outbreak in Siberia the signal resolves into to dissimulate is to pretend not to have what one has. To simulate is to feign to have what one doesn't have. One implies a presence, the other an absence.",
-      "seed": 20261035
+      "headline": "Investigating a Murder: Public Records Uncover New Clues in Chinatown Cold Case",
+      "fragment": "Why do men fight for their servitude as stubbornly as though it were their salvation?",
+      "splice": "Investigating a Murder: Public Records Uncover New Clues in Chinatown Cold Case which is to say why do men fight for their servitude as stubbornly as though it were their salvation?",
+      "seed": 20261020
     }
   ]
 }
