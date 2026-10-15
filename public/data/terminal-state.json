@@ -1,7 +1,23 @@
 {
-  "generated_at": "2026-10-15T16:33:41.007Z",
+  "generated_at": "2026-10-15T21:04:20.380Z",
   "threat_intel": {
     "cisa_kev": [
+      {
+        "cveID": "CVE-2026-21589",
+        "vendorProject": "Atlassian",
+        "product": "Multiple Products",
+        "vulnerabilityName": "Atlassian Multiple Products Files or Directories Accessible to External Parties Vulnerability",
+        "dateAdded": "2026-10-15",
+        "shortDescription": "Multiple Atlassian products (Bitbucket Data Center ,Confluence Data Center, Jira Service Management Data Center, Jira Software Data Center, Bamboo Data Center, Crowd Data Center, Crucible and Fisheye) contain a files or directories accessible to external parties vulnerability which could allow an unauthenticated attacker to access specific files within the web application root directory in affected versions.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-10-18",
+        "knownRansomwareCampaignUse": "Unknown",
+        "forensicTriage": "Yes",
+        "notes": "https://confluence.atlassian.com/security/cve-2026-21589-arbitrary-file-access-vulnerability-impacts-multiple-products-1870495748.html?ref=labs.watchtowr.com ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-21589",
+        "cwes": [
+          "CWE-552"
+        ]
+      },
       {
         "cveID": "CVE-2026-105134",
         "vendorProject": "Ahsay",
@@ -226,74 +242,13 @@
         "cwes": [
           "CWE-384"
         ]
-      },
-      {
-        "cveID": "CVE-2026-104286",
-        "vendorProject": "Fortinet",
-        "product": "FortiMail",
-        "vulnerabilityName": "Fortinet FortiMail Path Traversal Vulnerability",
-        "dateAdded": "2026-10-01",
-        "shortDescription": "Fortinet FortiMail contains a path traversal and an improper neutralization of NULL byte or NULL character vulnerability that may allow an unauthenticated attacker to write arbitrary files on the underlying system via crafted HTTP or HTTPS requests.",
-        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "dueDate": "2026-10-04",
-        "knownRansomwareCampaignUse": "Unknown",
-        "forensicTriage": "Yes",
-        "notes": "https://fortiguard.fortinet.com/psirt/FG-IR-26-175 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-104286",
-        "cwes": [
-          "CWE-22",
-          "CWE-158"
-        ]
       }
     ],
     "urlhaus": [
       {
-        "id": "3950535",
-        "date_added": "2026-10-15 16:18:10",
-        "url": "http://124.6.169.54:35063/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "arm",
-          "elf",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3950534",
-        "date_added": "2026-10-15 16:12:08",
-        "url": "http://d-j-d.com/g84kfS5n/Uploads/inject-test.exe_Melted.exe",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "dropped-by-amadey",
-          "f4d9f4"
-        ]
-      },
-      {
-        "id": "3950532",
-        "date_added": "2026-10-15 16:02:06",
-        "url": "http://61.52.185.167:57511/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3950533",
-        "date_added": "2026-10-15 16:02:06",
-        "url": "http://61.137.159.194:34929/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3950531",
-        "date_added": "2026-10-15 15:58:10",
-        "url": "http://61.52.222.63:41021/bin.sh",
+        "id": "3950679",
+        "date_added": "2026-10-15 20:56:21",
+        "url": "http://42.230.42.54:53636/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -304,9 +259,62 @@
         ]
       },
       {
-        "id": "3950530",
-        "date_added": "2026-10-15 15:55:11",
-        "url": "http://101.59.79.119:45459/bin.sh",
+        "id": "3950678",
+        "date_added": "2026-10-15 20:47:19",
+        "url": "http://125.42.32.7:39513/i",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3950677",
+        "date_added": "2026-10-15 20:47:07",
+        "url": "http://124.94.170.244:51983/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3950676",
+        "date_added": "2026-10-15 20:47:06",
+        "url": "http://59.97.248.127:54669/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3950675",
+        "date_added": "2026-10-15 20:32:10",
+        "url": "http://45.166.188.48:51478/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3950674",
+        "date_added": "2026-10-15 20:30:19",
+        "url": "http://42.230.42.54:53636/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3950673",
+        "date_added": "2026-10-15 20:24:10",
+        "url": "http://117.131.92.150:57383/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -317,9 +325,9 @@
         ]
       },
       {
-        "id": "3950529",
-        "date_added": "2026-10-15 15:48:15",
-        "url": "http://125.42.225.92:38465/i",
+        "id": "3950672",
+        "date_added": "2026-10-15 20:17:27",
+        "url": "http://106.58.126.200:60807/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -327,9 +335,42 @@
         ]
       },
       {
-        "id": "3950528",
-        "date_added": "2026-10-15 15:47:27",
-        "url": "http://119.189.172.143:50999/i",
+        "id": "3950671",
+        "date_added": "2026-10-15 20:17:09",
+        "url": "http://220.191.125.250:48161/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3950670",
+        "date_added": "2026-10-15 20:17:07",
+        "url": "http://221.15.185.193:48623/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3950669",
+        "date_added": "2026-10-15 20:04:21",
+        "url": "http://221.214.181.197:39806/i",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3950668",
+        "date_added": "2026-10-15 20:02:21",
+        "url": "http://115.61.118.122:60549/bin.sh",
         "url_status": "offline",
         "threat": "malware_download",
         "tags": [
@@ -337,9 +378,9 @@
         ]
       },
       {
-        "id": "3950527",
-        "date_added": "2026-10-15 15:47:09",
-        "url": "http://123.12.230.43:56724/i",
+        "id": "3950667",
+        "date_added": "2026-10-15 20:02:11",
+        "url": "http://182.121.213.133:34850/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -347,124 +388,182 @@
         ]
       },
       {
-        "id": "3950525",
-        "date_added": "2026-10-15 15:38:08",
-        "url": "http://v-w-v.com/g84kfS5n/Plugins/clip64.dll",
+        "id": "3950666",
+        "date_added": "2026-10-15 20:02:10",
+        "url": "http://101.109.199.229:46550/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "dll"
+          "None"
         ]
       },
       {
-        "id": "3950526",
-        "date_added": "2026-10-15 15:38:08",
-        "url": "http://d-j-d.com/g84kfS5n/Plugins/clip.dll",
+        "id": "3950660",
+        "date_added": "2026-10-15 20:02:09",
+        "url": "http://182.113.34.105:54101/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "dll"
+          "None"
         ]
       },
       {
-        "id": "3950524",
-        "date_added": "2026-10-15 15:37:17",
-        "url": "http://v-w-v.com/g84kfS5n/Uploads/build_amd.exe_Melted.exe",
+        "id": "3950661",
+        "date_added": "2026-10-15 20:02:09",
+        "url": "http://182.121.85.243:40929/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "exe"
+          "None"
         ]
       },
       {
-        "id": "3950523",
-        "date_added": "2026-10-15 15:37:16",
-        "url": "http://c-f-u.com/g84kfS5n/Uploads/build_amd.exe_Melted.exe",
+        "id": "3950662",
+        "date_added": "2026-10-15 20:02:09",
+        "url": "http://182.122.233.48:46273/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "exe"
+          "None"
         ]
       },
       {
-        "id": "3950518",
-        "date_added": "2026-10-15 15:37:13",
-        "url": "http://d-j-d.com/g84kfS5n/Plugins/cred.dll",
+        "id": "3950663",
+        "date_added": "2026-10-15 20:02:09",
+        "url": "http://115.57.180.160:35655/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "dll"
+          "None"
         ]
       },
       {
-        "id": "3950519",
-        "date_added": "2026-10-15 15:37:13",
-        "url": "http://c-f-u.com/g84kfS5n/Plugins/cred.dll",
+        "id": "3950664",
+        "date_added": "2026-10-15 20:02:09",
+        "url": "http://105.225.25.212:47629/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "dll"
+          "None"
         ]
       },
       {
-        "id": "3950520",
-        "date_added": "2026-10-15 15:37:13",
-        "url": "http://v-w-v.com/g84kfS5n/Plugins/cred.dll",
+        "id": "3950665",
+        "date_added": "2026-10-15 20:02:09",
+        "url": "http://115.57.180.160:35655/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "dll"
-        ]
-      },
-      {
-        "id": "3950521",
-        "date_added": "2026-10-15 15:37:13",
-        "url": "http://c-f-u.com/g84kfS5n/Plugins/cred64.dll",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "dll"
-        ]
-      },
-      {
-        "id": "3950522",
-        "date_added": "2026-10-15 15:37:13",
-        "url": "http://v-w-v.com/g84kfS5n/Plugins/cred64.dll",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "dll"
-        ]
-      },
-      {
-        "id": "3950513",
-        "date_added": "2026-10-15 15:37:12",
-        "url": "http://c-f-u.com/g84kfS5n/Plugins/clip64.dll",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "dll"
-        ]
-      },
-      {
-        "id": "3950514",
-        "date_added": "2026-10-15 15:37:12",
-        "url": "http://v-w-v.com/g84kfS5n/Plugins/clip.dll",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "dll"
+          "None"
         ]
       }
     ]
   },
   "world_monitor": [
     {
+      "title": "At least 7 crew members missing after drone attacks on ships in Black Sea",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/10/15/at-least-7-crew-members-missing-after-drone-attacks-on-ships-in-black-sea?traffic_source=rss",
+      "pubDate": "Thu, 15 Oct 2026 20:29:52 +0000",
+      "source": "Al Jazeera",
+      "summary": "Emergency teams are searching for 7 missing crew after two chemical tankers were attacked in the Black Sea."
+    },
+    {
+      "title": "Why are migrants risking their lives at sea to reach Yemen?",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/10/15/why-are-migrants-risking-their-lives-at-sea-to-reach-yemen?traffic_source=rss",
+      "pubDate": "Thu, 15 Oct 2026 20:13:01 +0000",
+      "source": "Al Jazeera",
+      "summary": "Al Jazeera’s Al Anoud Al Aqeedi explains why migrants are risking their lives to make the journey to Yemen."
+    },
+    {
+      "title": "Northern Ireland ex-DUP leader Donaldson sentenced to 15 years for child sex crimes",
+      "link": "https://www.aljazeera.com/news/2026/10/15/northern-ireland-ex-dup-leader-donaldson-sentenced-to-15-years-for-child-sex-crimes?traffic_source=rss",
+      "pubDate": "Thu, 15 Oct 2026 20:12:27 +0000",
+      "source": "Al Jazeera",
+      "summary": "Judge says Jeffrey Donaldson never apologised to victims as politician seeks to appeal his convictions."
+    },
+    {
+      "title": "Poll shows Bolsonaro with slight lead over Lula ahead of Brazilian run-off",
+      "link": "https://www.aljazeera.com/news/2026/10/15/poll-shows-bolsonaro-with-slight-lead-over-lula-ahead-of-brazilian-run-off?traffic_source=rss",
+      "pubDate": "Thu, 15 Oct 2026 20:07:58 +0000",
+      "source": "Al Jazeera",
+      "summary": "Poll shows right-wing candidate with two percent advantage over Lula going into second round of voting on October 25."
+    },
+    {
+      "title": "Somalia says it will hold elections in 2027",
+      "link": "https://www.aljazeera.com/news/2026/10/15/somalia-says-it-will-hold-elections-in-2027?traffic_source=rss",
+      "pubDate": "Thu, 15 Oct 2026 20:04:02 +0000",
+      "source": "Al Jazeera",
+      "summary": "Critics say unilateral decision to call polls is a recipe for more conflict."
+    },
+    {
+      "title": "Iran-Backed Houthis Strike Presidential Palace, Yemen Says",
+      "link": "https://www.nytimes.com/2026/10/15/world/middleeast/yemen-strike-aden-palace.html",
+      "pubDate": "Thu, 15 Oct 2026 19:05:03 +0000",
+      "source": "NYT World",
+      "summary": "Two were killed when Houthi missiles struck the Maashiq Presidential Palace in Aden, a Yemeni minister said. Saudi Arabia has said Iran is fueling the country’s escalating conflict."
+    },
+    {
+      "title": "Dublin Hotel Accused of Revoking Bookings for an Event to Combat Antisemitism",
+      "link": "https://www.nytimes.com/2026/10/15/world/europe/ireland-dublin-hotel-antisemitism.html",
+      "pubDate": "Thu, 15 Oct 2026 18:18:46 +0000",
+      "source": "NYT World",
+      "summary": "A leader of the Jewish community in Ireland said a hotel canceled a deal for 70 rooms when it learned they were reserved for guests attending the international forum."
+    },
+    {
+      "title": "Trump Is Targeting Ilhan Omar. Where’s the Elite Media Outrage?",
+      "link": "https://theintercept.com/2026/10/15/ilhan-omar-raid-corporate-media-coverage/",
+      "pubDate": "Thu, 15 Oct 2026 17:54:35 +0000",
+      "source": "The Intercept",
+      "summary": "Unlike the raid on John Bolton, the targeting of Omar has elicited zero condemnation from NYT, WSJ, and Washington Post.\nThe post Trump Is Targeting Ilhan Omar. Where’s the Elite Media Outrage? appeared first on The Intercept."
+    },
+    {
       "title": "Trump calls off livestream of Fort Hood attacker's execution by firing squad",
       "link": "https://www.bbc.co.uk/news/articles/crx23qlnj27qo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Thu, 15 Oct 2026 16:28:10 GMT",
+      "pubDate": "Thu, 15 Oct 2026 17:47:22 GMT",
       "source": "BBC",
       "summary": "Trump said some would \"rather not watch\" the killing of Nidal Hasan, the first military execution in over 60 years."
+    },
+    {
+      "title": "Second Ebola Infection Announced in Kenya",
+      "link": "https://www.nytimes.com/2026/10/15/world/africa/kenya-ebola-infections.html",
+      "pubDate": "Thu, 15 Oct 2026 17:38:52 +0000",
+      "source": "NYT World",
+      "summary": "The case is likely to raise alarms in the country and increase scrutiny of the government’s surveillance measures."
+    },
+    {
+      "title": "Houthi missile attack on Yemeni presidential palace kills two, minister says",
+      "link": "https://www.bbc.co.uk/news/articles/cm62y6lp73zdo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Thu, 15 Oct 2026 17:18:49 GMT",
+      "source": "BBC",
+      "summary": "Yemen's information minister says the prime minister and other ministers were unhurt when ballistic missiles hit al-Maashiq Palace."
+    },
+    {
+      "title": "America’s Sordid History of Filming Executions as Entertainment",
+      "link": "https://theintercept.com/2026/10/15/public-execution-livestream-hegseth-trump/",
+      "pubDate": "Thu, 15 Oct 2026 17:11:14 +0000",
+      "source": "The Intercept",
+      "summary": "Hegseth’s plan to livestream an execution was not without precedent — it tapped into a dark and forgotten U.S. tradition.\nThe post America’s Sordid History of Filming Executions as Entertainment appeared first on The Intercept."
+    },
+    {
+      "title": "Maduro pleads not guilty to new torture-related charges in New York",
+      "link": "https://www.bbc.co.uk/news/articles/cqwyrn1l74zro?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Thu, 15 Oct 2026 16:52:44 GMT",
+      "source": "BBC",
+      "summary": "\"I reject this document entirely,\" Maduro said in court, responding to newly added torture-related charges."
+    },
+    {
+      "title": "Russia accuses Ukraine of attacking oil refinery after Zelensky says strikes to resume",
+      "link": "https://www.bbc.co.uk/news/articles/cqwyrnwd9dw1o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Thu, 15 Oct 2026 16:50:18 GMT",
+      "source": "BBC",
+      "summary": "Ukraine's president says a pause on striking energy sites is over following fresh Russian attacks."
+    },
+    {
+      "title": "Violent Protests in Albania",
+      "link": "https://www.nytimes.com/2026/10/15/world/europe/albania-student-protests-violence.html",
+      "pubDate": "Thu, 15 Oct 2026 16:20:51 +0000",
+      "source": "NYT World",
+      "summary": "Opposition to a luxury resort project linked to Jared Kushner has collided with rising discontent over corruption and the cost of living."
     },
     {
       "title": "Inside ICE, Officials Question String of Trump Admin “Midterm Panic Moves”",
@@ -481,81 +580,11 @@
       "summary": "Moscow is not winning on the battlefield. Instead, it is seizing an opening to inflict immense human suffering in Ukrainian cities."
     },
     {
-      "title": "Venezuela’s Maduro pleads not guilty to US conspiracy to torture charges",
-      "link": "https://www.aljazeera.com/news/2026/10/15/venezuelas-maduro-pleads-not-guilty-to-us-conspiracy-to-torture-charges?traffic_source=rss",
-      "pubDate": "Thu, 15 Oct 2026 16:04:58 +0000",
-      "source": "Al Jazeera",
-      "summary": "Maduro and wife appear in New York City court after new 'conspiracy to commit torture' charges."
-    },
-    {
-      "title": "What is the ‘Mother of All Bombs’ US could use in Iran?",
-      "link": "https://www.aljazeera.com/news/2026/10/15/what-is-the-mother-of-all-bombs-us-could-use-in-iran?traffic_source=rss",
-      "pubDate": "Thu, 15 Oct 2026 15:46:41 +0000",
-      "source": "Al Jazeera",
-      "summary": "US media reports military considering plans to use GBU-43/B Massive Ordnance Air Blast Bomb (MOAB)"
-    },
-    {
-      "title": "Zelensky Says Ukraine Will Resume Russian Refinery Strikes, Defying Trump",
-      "link": "https://www.nytimes.com/2026/10/15/world/europe/ukraine-russia-oil-strikes-zelensky-us-intelligence.html",
-      "pubDate": "Thu, 15 Oct 2026 15:27:09 +0000",
-      "source": "NYT World",
-      "summary": "President Volodymyr Zelensky expressed overt frustration with the United States in an interview with The Financial Times. He had paused the strikes to comply with a demand from the United States."
-    },
-    {
       "title": "At least 33 pupils and teacher killed after school roof collapses in Pakistan ",
       "link": "https://www.bbc.co.uk/news/articles/cked326llddgo?at_medium=RSS&at_campaign=rss",
       "pubDate": "Thu, 15 Oct 2026 15:26:16 GMT",
       "source": "BBC",
       "summary": "Children were buried under the debris after the roof crashed through three classrooms, police say."
-    },
-    {
-      "title": "Syrian court sentences two to death over 2025 coastal violence",
-      "link": "https://www.aljazeera.com/news/2026/10/15/syrian-court-sentences-two-to-death-over-2025-coastal-violence?traffic_source=rss",
-      "pubDate": "Thu, 15 Oct 2026 15:19:18 +0000",
-      "source": "Al Jazeera",
-      "summary": "Court rulings concern violence and killings during March 2025 uprising by pro-Assad forces and retaliatory attacks."
-    },
-    {
-      "title": "French football body urges fans and students to keep politics out of stadiums",
-      "link": "https://www.aljazeera.com/sports/2026/10/15/french-football-body-urges-fans-and-students-to-keep-politics-out-of-stadia?traffic_source=rss",
-      "pubDate": "Thu, 15 Oct 2026 15:16:05 +0000",
-      "source": "Al Jazeera",
-      "summary": "French Football Federation's ethics body calls for neutrality amid student protests."
-    },
-    {
-      "title": "Delegates walk out as Israeli president addresses summit",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/10/15/delegates-walk-out-as-israeli-president-addresses-summit?traffic_source=rss",
-      "pubDate": "Thu, 15 Oct 2026 15:14:00 +0000",
-      "source": "Al Jazeera",
-      "summary": "Officials from more than 10 countries walked out during an address by Israeli President Isaac Herzog at a summit in Baku"
-    },
-    {
-      "title": "Russia accuses Ukraine of attacking oil refinery after Zelensky says strikes to resume",
-      "link": "https://www.bbc.co.uk/news/articles/cqwyrnwd9dw1o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Thu, 15 Oct 2026 15:09:15 GMT",
-      "source": "BBC",
-      "summary": "Ukraine's president says a pause on striking energy sites is over following fresh Russian attacks."
-    },
-    {
-      "title": "Seven crew missing after drone attack leaves tanker ablaze off Romania's coast",
-      "link": "https://www.bbc.co.uk/news/articles/c60qkgpp592yo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Thu, 15 Oct 2026 14:51:30 GMT",
-      "source": "BBC",
-      "summary": "A search and rescue operation is under way in the Black Sea after the latest attack in the area."
-    },
-    {
-      "title": "Why Does Saudi Arabia Struggle to Stop Houthi Attacks?",
-      "link": "https://www.nytimes.com/2026/10/15/world/middleeast/saudi-arabia-defense-houthi-attacks-yemen.html",
-      "pubDate": "Thu, 15 Oct 2026 14:06:33 +0000",
-      "source": "NYT World",
-      "summary": "The Saudi military has expensive equipment, but the missiles and drones used by the Yemeni militia are difficult to detect and stop."
-    },
-    {
-      "title": "Meet Neha Bora, Activist and Face of India’s Young Protesters",
-      "link": "https://www.nytimes.com/2026/10/15/world/asia/india-student-leader-neha.html",
-      "pubDate": "Thu, 15 Oct 2026 11:54:35 +0000",
-      "source": "NYT World",
-      "summary": "When police cracked down, Neha Bora helped rally Gen Z protesters with a mix of boundless energy, street theatrics and satirical humor."
     },
     {
       "title": "Mother Sues ICE Contractor for Jailing Her and Her Baby in a Hotel Room",
@@ -565,25 +594,11 @@
       "summary": "The lawsuit alleges that the contractor MVM Inc. and the hotel chain Sonesta detained the family for profit.\nThe post Mother Sues ICE Contractor for Jailing Her and Her Baby in a Hotel Room appeared first on The Intercept."
     },
     {
-      "title": "Satellite Images Show Extent of Trump Admin’s Tree-Felling at DC Golf Course, Despite ‘Furious’ Judge’s Order",
-      "link": "https://www.bellingcat.com/news/us-canada/2026/10/15/satellite-images-show-extent-of-trump-admins-tree-felling-at-dc-golf-course-despite-furious-judges-order/",
+      "title": "Satellite Images Show Extent of Trump Admin’s Tree-Felling at DC Golf Course",
+      "link": "https://www.bellingcat.com/news/us-canada/2026/10/15/satellite-images-show-extent-of-trump-admins-tree-felling-at-dc-golf-course/",
       "pubDate": "Thu, 15 Oct 2026 10:33:36 +0000",
       "source": "Bellingcat",
       "summary": "Sign up here to receive Bellingcat’s biggest investigations by email as soon as they are published. Satellite imagery obtained by Bellingcat lays bare the extent of tree-felling at a Washington DC golf course that President Trump is reportedly seekin"
-    },
-    {
-      "title": "Two dead in Istanbul after heaviest rainfall in 84 years, governor says",
-      "link": "https://www.bbc.co.uk/news/articles/cq398x7j1lrwo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Thu, 15 Oct 2026 10:05:29 GMT",
-      "source": "BBC",
-      "summary": "Residents have been told to avoid leaving their homes unless absolutely necessary."
-    },
-    {
-      "title": "The Race to Defend Kyiv Against Terrifying New Jet-Powered Drones",
-      "link": "https://www.nytimes.com/2026/10/15/world/europe/ukraine-jet-drone-interceptor.html",
-      "pubDate": "Thu, 15 Oct 2026 09:03:54 +0000",
-      "source": "NYT World",
-      "summary": "Ukrainian engineers are rushing to perfect A.I.-guided, jet-driven interceptors. Their goal: to stop a fast Russian threat in the latest round of a deadly tech duel."
     },
     {
       "title": "Reflecting on the Trump Era",
@@ -591,20 +606,6 @@
       "pubDate": "Wed, 14 Oct 2026 16:34:59 +0000",
       "source": "The Intercept",
       "summary": "Trump’s Lincoln Memorial Reflecting Pool renovation should have been an easy lift. But it quickly became a monument to failure.\nThe post Reflecting on the Trump Era appeared first on The Intercept."
-    },
-    {
-      "title": "An Arkansas Mom Obtained Public Records About a New Data Center. Then She Got Sued.",
-      "link": "https://theintercept.com/2026/10/13/google-data-center-slapp-lawsuit/",
-      "pubDate": "Tue, 13 Oct 2026 10:51:00 +0000",
-      "source": "The Intercept",
-      "summary": "Cases in Arkansas and California show how desperately we need a federal law against lawsuits intended to chill free speech.\nThe post An Arkansas Mom Obtained Public Records About a New Data Center. Then She Got Sued. appeared first on The Intercept."
-    },
-    {
-      "title": "Don’t Stop at ICE, Says Progressive Dem: Abolish the Department of Homeland Security",
-      "link": "https://theintercept.com/2026/10/13/abolish-ice-dhs-delia-ramirez-ilhan-omar/",
-      "pubDate": "Tue, 13 Oct 2026 09:49:00 +0000",
-      "source": "The Intercept",
-      "summary": "Rep. Delia Ramirez is bringing a bill to eliminate DHS a day after the raid on Rep. Ilhan Omar’s home.\nThe post Don’t Stop at ICE, Says Progressive Dem: Abolish the Department of Homeland Security appeared first on The Intercept."
     },
     {
       "title": "Groups Associated With India’s Far-Right Receive Millions Through US Donor-Advised Funds",
@@ -702,26 +703,50 @@
   ],
   "syndicate_journal": [
     {
-      "title": "Climate Policies Can Bring Relief on Affordability and Beyond",
-      "link": "https://jacobin.com/2026/10/climate-change-affordability-energy-extreme-weather",
-      "summary": "As the US midterm elections approach, one word keeps coming up in campaign promises and headlines: “.” That working people in the United States are  to afford basic necessities is a problem that many are willing to acknowledge, but there is  agreement on what should be done to tackle a core driver o",
-      "pubDate": "2026-10-15T15:48:11.606Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
-      "title": "Was This Neanderthal Murdered?",
-      "link": "https://nautil.us/was-this-neanderthal-murdered-1285819/",
-      "summary": "A prehistoric cold case\nThe post Was This Neanderthal Murdered? appeared first on Nautilus.",
-      "pubDate": "Thu, 15 Oct 2026 15:00:00 +0000",
+      "title": "How Prehistoric People Survived After One of the Worst Volcanic Eruptions in History",
+      "link": "https://nautil.us/how-prehistoric-people-survived-after-one-of-the-worst-volcanic-eruptions-in-history-1285836/",
+      "summary": "It’s a story of human resilience\nThe post How Prehistoric People Survived After One of the Worst Volcanic Eruptions in History appeared first on Nautilus.",
+      "pubDate": "Thu, 15 Oct 2026 20:00:00 +0000",
       "domain": "science",
       "source": "Nautilus"
     },
     {
-      "title": "Historian Eric Hobsbawm Was a “Communist Polymath”",
-      "link": "https://jacobin.com/2026/10/hobsbawm-history-europe-university-communism",
-      "summary": "Eric Hobsbawm’s life began just as the “long nineteenth century” was drawing to a close. Born in Alexandria, Egypt, and formed as a youth in  and Weimar-era Berlin, he came to intellectual maturity in interwar Cambridge and postwar London. His Ages tetralogy firmly established him on course syllabi ",
-      "pubDate": "2026-10-15T14:36:09.353Z",
+      "title": "Turkey Risks Being Drawn Into Saudi Arabia’s War in Yemen",
+      "link": "https://jacobin.com/2026/10/turkey-yemen-saudi-mecca-agreement",
+      "summary": "There are few places outside Turkey that occupy such a mournful place in the country’s popular memory as Yemen.\nFor generations, Turks who knew little about the politics of the Arabian Peninsula nevertheless knew Yemen through folk songs. They were ballads about young men sent from Anatolia to fight",
+      "pubDate": "2026-10-15T19:06:51.523Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "Here’s How Freaky the Universe Would Look If Light Slowed to 3 Miles Per Hour",
+      "link": "https://nautil.us/heres-how-freaky-the-universe-would-look-if-light-slowed-to-3-miles-per-hour-1285830/",
+      "summary": "Einstein’s theories in a virtual theme park\nThe post Here’s How Freaky the Universe Would Look If Light Slowed to 3 Miles Per Hour appeared first on Nautilus.",
+      "pubDate": "Thu, 15 Oct 2026 19:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "It Won’t Stop With Ilhan Omar",
+      "link": "https://jacobin.com/2026/10/trump-vance-politicized-deportation-omar",
+      "summary": "Up until now, the Donald Trump-J. D. Vance administration has been  weaponizing the US immigration system against fairly low-level political opponents: college students protesting US support for Israel’s genocide, independent journalists applying scrutiny to government policies, or random tourists w",
+      "pubDate": "2026-10-15T18:39:04.044Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "Why Story and Playtime Really Matter",
+      "link": "https://nautil.us/why-story-and-playtime-really-matter-1285825/",
+      "summary": "Face-to-face interaction trumps screens for social and language learning\nThe post Why Story and Playtime Really Matter appeared first on Nautilus.",
+      "pubDate": "Thu, 15 Oct 2026 18:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "Climate Policies Can Bring Relief on Affordability and Beyond",
+      "link": "https://jacobin.com/2026/10/climate-change-affordability-energy-extreme-weather",
+      "summary": "As the US midterm elections approach, one word keeps coming up in campaign promises and headlines: “.” That working people in the United States are  to afford basic necessities is a problem that many are willing to acknowledge, but there is  agreement on what should be done to tackle a core driver o",
+      "pubDate": "2026-10-15T15:48:11.606Z",
       "domain": "politics",
       "source": "Jacobin"
     },
@@ -732,14 +757,6 @@
       "pubDate": "Thu, 15 Oct 2026 13:47:00 +0000",
       "domain": "history",
       "source": "JSTOR Daily"
-    },
-    {
-      "title": "How Bernie’s Campaigns Reorganized the Organized Left",
-      "link": "https://jacobin.com/2026/10/bernie-campaigns-iso-democrats-strategy",
-      "summary": "Ten years ago, while socialist Bernie Sanders was making his historic run for the Democratic presidential nomination that drew millions of supporters and promised a “political revolution” to live long past his campaign, I was part of a small revolutionary organization that pooh-poohed him as a faux ",
-      "pubDate": "2026-10-15T13:45:25.036Z",
-      "domain": "politics",
-      "source": "Jacobin"
     },
     {
       "title": "How Do Fungi Keep the Planet Healthy?",
@@ -796,22 +813,6 @@
       "pubDate": "Thu, 15 Oct 2026 00:00:00 -0400",
       "domain": "science",
       "source": "arXiv: cs.AI"
-    },
-    {
-      "title": "New Feathered Dinosaur is the First Megaraptor Discovered in Europe",
-      "link": "https://nautil.us/new-feathered-dinosaur-is-the-first-megaraptor-discovered-in-europe-1285813/",
-      "summary": "Its name means “unconquered female warrior”\nThe post New Feathered Dinosaur is the First Megaraptor Discovered in Europe appeared first on Nautilus.",
-      "pubDate": "Wed, 14 Oct 2026 22:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
-      "title": "ISS Astronaut Spots Moon-like Mountains From Space",
-      "link": "https://nautil.us/iss-astronaut-spots-moon-like-mountains-from-space-1285807/",
-      "summary": "Earth and the moon have a shared geological history\nThe post ISS Astronaut Spots Moon-like Mountains From Space appeared first on Nautilus.",
-      "pubDate": "Wed, 14 Oct 2026 20:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
     },
     {
       "title": "Triplet of ‘Ghostly’ Galaxies Hints at What Dark Matter Is — and Isn’t",
@@ -942,9 +943,9 @@
       "source": "Sapiens"
     },
     {
-      "title": "Long-term sport participation is associated with a selective auditory-musical performance profile",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1758520",
-      "summary": "Long-term sport participation has been associated with selective differences in temporal and perceptual-cognitive processing, but it remains unclear whether such differences extend to auditory-musical perception. We examined overall and component-level performance on the Montreal Battery of Evaluati",
+      "title": "Ageism toward older adults during COVID-19: associations with emotional coping and intergenerational contact",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1949869",
+      "summary": "IntroductionThe COVID-19 pandemic brought substantial social and emotional stressors, alongside widespread messaging that framed older adults as particularly vulnerable. It remains unclear whether these conditions were associated with hostile and benevolent ageist perspectives of older people. Thus,",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
@@ -968,64 +969,64 @@
   ],
   "misinfo_toilet": [
     {
-      "headline": "Syrian court sentences two to death over 2025 coastal violence",
-      "fragment": "To dissimulate is to pretend not to have what one has. To simulate is to feign to have what one doesn't have. One implies a presence, the other an absence.",
-      "splice": "Syrian court sentences two to death over 2025 coastal violence not unlike to dissimulate is to pretend not to have what one has. To simulate is to feign to have what one doesn't have. One implies a presence, the other an absence.",
-      "seed": 20261031
-    },
-    {
-      "headline": "Russia accuses Ukraine of attacking oil refinery after Zelensky says strikes to resume",
-      "fragment": "There is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
-      "splice": "Russia accuses Ukraine of attacking oil refinery after Zelensky says strikes to resume in the void where there is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
-      "seed": 20261032
-    },
-    {
-      "headline": "Viral Google Maps Images Shared Widely This Week Show Gaza Ruins. We Obtained More Recent Satellite Imagery",
-      "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "splice": "Viral Google Maps Images Shared Widely This Week Show Gaza Ruins. We Obtained More Recent Satellite Imagery despite it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "seed": 20261033
-    },
-    {
-      "headline": "Seven crew missing after drone attack leaves tanker ablaze off Romania's coast",
-      "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "splice": "Seven crew missing after drone attack leaves tanker ablaze off Romania's coast meanwhile the breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "seed": 20261034
-    },
-    {
-      "headline": "The Race to Defend Kyiv Against Terrifying New Jet-Powered Drones",
-      "fragment": "There is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
-      "splice": "The Race to Defend Kyiv Against Terrifying New Jet-Powered Drones consequently there is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
-      "seed": 20261035
-    },
-    {
-      "headline": "Why Does Saudi Arabia Struggle to Stop Houthi Attacks?",
-      "fragment": "In the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
-      "splice": "Why Does Saudi Arabia Struggle to Stop Houthi Attacks? the system notes that in the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
+      "headline": "Iran-Backed Houthis Strike Presidential Palace, Yemen Says",
+      "fragment": "It is at work everywhere, functioning smoothly at times, at other times in fits and starts. It breathes, it heats, it eats. It shits and fucks.",
+      "splice": "Iran-Backed Houthis Strike Presidential Palace, Yemen Says despite it is at work everywhere, functioning smoothly at times, at other times in fits and starts. It breathes, it heats, it eats. It shits and fucks.",
       "seed": 20261036
     },
     {
-      "headline": "Satellite Images Show Extent of Trump Admin’s Tree-Felling at DC Golf Course, Despite ‘Furious’ Judge’s Order",
-      "fragment": "Antagonism is not now located externally, in the face-off between class blocs, but internally, in the psychology of the worker.",
-      "splice": "Satellite Images Show Extent of Trump Admin’s Tree-Felling at DC Golf Course, Despite ‘Furious’ Judge’s Order ...as antagonism is not now located externally, in the face-off between class blocs, but internally, in the psychology of the worker.",
+      "headline": "Christy Kinahan’s UAE Residence Visa Cancelled",
+      "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
+      "splice": "Christy Kinahan’s UAE Residence Visa Cancelled which is to say the breast is a machine that produces milk, and the mouth a machine coupled to it.",
       "seed": 20261037
     },
     {
-      "headline": "“A Recurring Pattern”: Civilians Paying the Price in Mali’s Drone Campaign",
-      "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "splice": "“A Recurring Pattern”: Civilians Paying the Price in Mali’s Drone Campaign consequently it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
+      "headline": "Violent Protests in Albania",
+      "fragment": "This is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
+      "splice": "Violent Protests in Albania which is to say this is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
       "seed": 20261038
     },
     {
-      "headline": "Meet Neha Bora, Activist and Face of India’s Young Protesters",
-      "fragment": "Traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "splice": "Meet Neha Bora, Activist and Face of India’s Young Protesters the system notes that traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
+      "headline": "Trump Is Targeting Ilhan Omar. Where’s the Elite Media Outrage?",
+      "fragment": "To dissimulate is to pretend not to have what one has. To simulate is to feign to have what one doesn't have. One implies a presence, the other an absence.",
+      "splice": "Trump Is Targeting Ilhan Omar. Where’s the Elite Media Outrage? the signal resolves into to dissimulate is to pretend not to have what one has. To simulate is to feign to have what one doesn't have. One implies a presence, the other an absence.",
       "seed": 20261039
     },
     {
-      "headline": "Groups Associated With India’s Far-Right Receive Millions Through US Donor-Advised Funds",
-      "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
-      "splice": "Groups Associated With India’s Far-Right Receive Millions Through US Donor-Advised Funds which is to say the revolutionary lives in the gap which separates technical progress from social totality.",
+      "headline": "Reflecting on the Trump Era",
+      "fragment": "There is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
+      "splice": "Reflecting on the Trump Era within which there is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
       "seed": 20261040
+    },
+    {
+      "headline": "Northern Ireland ex-DUP leader Donaldson sentenced to 15 years for child sex crimes",
+      "fragment": "Art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
+      "splice": "Northern Ireland ex-DUP leader Donaldson sentenced to 15 years for child sex crimes insofar as art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
+      "seed": 20261041
+    },
+    {
+      "headline": "Inside ICE, Officials Question String of Trump Admin “Midterm Panic Moves”",
+      "fragment": "In the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
+      "splice": "Inside ICE, Officials Question String of Trump Admin “Midterm Panic Moves” consequently in the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
+      "seed": 20261042
+    },
+    {
+      "headline": "Maduro pleads not guilty to new torture-related charges in New York",
+      "fragment": "We live in a world where there is more and more information, and less and less meaning.",
+      "splice": "Maduro pleads not guilty to new torture-related charges in New York within which we live in a world where there is more and more information, and less and less meaning.",
+      "seed": 20261043
+    },
+    {
+      "headline": "Houthi missile attack on Yemeni presidential palace kills two, minister says",
+      "fragment": "Simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
+      "splice": "Houthi missile attack on Yemeni presidential palace kills two, minister says consequently simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
+      "seed": 20261044
+    },
+    {
+      "headline": "Viral Google Maps Images Shared Widely This Week Show Gaza Ruins. We Obtained More Recent Satellite Imagery",
+      "fragment": "Underneath all reason lies delirium and drift.",
+      "splice": "Viral Google Maps Images Shared Widely This Week Show Gaza Ruins. We Obtained More Recent Satellite Imagery meanwhile underneath all reason lies delirium and drift.",
+      "seed": 20261045
     }
   ]
 }
