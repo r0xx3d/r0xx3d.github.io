@@ -1,7 +1,39 @@
 {
-  "generated_at": "2026-10-16T10:58:49.759Z",
+  "generated_at": "2026-10-16T20:40:29.423Z",
   "threat_intel": {
     "cisa_kev": [
+      {
+        "cveID": "CVE-2026-102764",
+        "vendorProject": "BeyondTrust",
+        "product": "Remote Support",
+        "vulnerabilityName": "BeyondTrust Remote Support Authentication Bypass by Spoofing Vulnerability",
+        "dateAdded": "2026-10-16",
+        "shortDescription": "BeyondTrust Remote Support contains an authentication bypass by spoofing vulnerability that could allow a remote attacker to perform file operations on the appliance.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-10-19",
+        "knownRansomwareCampaignUse": "Unknown",
+        "forensicTriage": "Yes",
+        "notes": "https://www.beyondtrust.com/trust-center/security-advisories/bt26-05 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-102764",
+        "cwes": [
+          "CWE-290"
+        ]
+      },
+      {
+        "cveID": "CVE-2025-61624",
+        "vendorProject": "Fortinet",
+        "product": "Multiple Products",
+        "vulnerabilityName": "Fortinet Multiple Products Path Traversal Vulnerability",
+        "dateAdded": "2026-10-16",
+        "shortDescription": "FortiOS, FortiPAM, FortiProxy, and FortiSwitchManager contain a path traversal vulnerability that may allow an authenticated attacker with admin profile and at least read-write permissions to write or delete arbitrary files via specific CLI commands.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-10-19",
+        "knownRansomwareCampaignUse": "Unknown",
+        "forensicTriage": "Yes",
+        "notes": "https://fortiguard.fortinet.com/psirt/FG-IR-26-122 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2025-61624",
+        "cwes": [
+          "CWE-22"
+        ]
+      },
       {
         "cveID": "CVE-2026-21589",
         "vendorProject": "Atlassian",
@@ -210,177 +242,36 @@
         "cwes": [
           "CWE-119"
         ]
-      },
-      {
-        "cveID": "CVE-2026-102490",
-        "vendorProject": "Zammad GmbH",
-        "product": "Zammad",
-        "vulnerabilityName": "Zammad GmbH Zammad Improper Privilege Management Vulnerability",
-        "dateAdded": "2026-10-02",
-        "shortDescription": "Zammad GmbH Zammad contains an improper privilege management vulnerability that can allow the local zammad user to escalate privileges to root. This vulnerability can be chained with CVE-2026-102489.",
-        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "dueDate": "2026-10-05",
-        "knownRansomwareCampaignUse": "Unknown",
-        "forensicTriage": "Yes",
-        "notes": "https://zammad.com/en/product/releases/ ; https://community.zammad.org/t/take-care-local-privilege-escalation-cve-2026-102490-is-reported-as-being-actively-exploited/21297/2 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-102490",
-        "cwes": [
-          "CWE-269"
-        ]
-      },
-      {
-        "cveID": "CVE-2026-102489",
-        "vendorProject": "Zammad GmbH",
-        "product": "Zammad",
-        "vulnerabilityName": "Zammad GmbH Zammad Session Fixation Vulnerability",
-        "dateAdded": "2026-10-02",
-        "shortDescription": "Zammad GmbH Zammad contains a session fixation vulnerability that can lead to remote code execution as the zammad user. This vulnerability can be chained with CVE-2026-102490.",
-        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "dueDate": "2026-10-05",
-        "knownRansomwareCampaignUse": "Unknown",
-        "forensicTriage": "Yes",
-        "notes": "https://zammad.com/en/product/releases/ ; https://community.zammad.org/t/take-care-local-privilege-escalation-cve-2026-102490-is-reported-as-being-actively-exploited/21297/2 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-102489",
-        "cwes": [
-          "CWE-384"
-        ]
       }
     ],
     "urlhaus": [
       {
-        "id": "3950911",
-        "date_added": "2026-10-16 10:50:52",
-        "url": "https://cdn.discordapp.com/attachments/1547710119960252437/1560338083763986483/bundle.zip?ex=6ad25994&is=6ad10814&hm=f4a36d7a4f14fb8800499fa9fffeb8b082cf2127db775c601dec42b49a573474&",
+        "id": "3951052",
+        "date_added": "2026-10-16 20:34:27",
+        "url": "http://123.158.52.136:57199/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "IRAHook"
-        ]
-      },
-      {
-        "id": "3950910",
-        "date_added": "2026-10-16 10:50:40",
-        "url": "https://cdn.discordapp.com/attachments/1559223274288713738/1560457391433060432/bundle.zip?ex=6ad2c8b2&is=6ad17732&hm=8ff43d5336ebb70a80c7f9de77aa39606c42d7955178679b375d3b4fca33ad06&",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "IRAHook"
-        ]
-      },
-      {
-        "id": "3950909",
-        "date_added": "2026-10-16 10:50:26",
-        "url": "https://cdn.discordapp.com/attachments/1558584819267412038/1560294290767478965/bundle.zip?ex=6ad230cb&is=6ad0df4b&hm=1bb32a99846de97b638781c36dafa178727d543eeb9f1d5185b834464f480fd4&",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "IRAHook"
-        ]
-      },
-      {
-        "id": "3950908",
-        "date_added": "2026-10-16 10:50:25",
-        "url": "https://cdn.discordapp.com/attachments/1557740644179517531/1560598231719743639/bundle.zip?ex=6ad34bdc&is=6ad1fa5c&hm=ba7473688cdaf3172f3046c5a553fdfdf74a4c0e8ad527f9d95f1a2d0fbbad87&",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "IRAHook"
-        ]
-      },
-      {
-        "id": "3950905",
-        "date_added": "2026-10-16 10:50:09",
-        "url": "http://37.34.181.111:53143/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "cowrie",
-          "elf",
-          "honeypot",
-          "mipsel",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3950906",
-        "date_added": "2026-10-16 10:50:09",
-        "url": "http://220.191.125.250:48161/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
+          "32-bit",
           "arm",
-          "cowrie",
           "elf",
-          "honeypot",
           "Mozi"
         ]
       },
       {
-        "id": "3950907",
-        "date_added": "2026-10-16 10:50:09",
-        "url": "http://23.160.56.223/new.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "cowrie",
-          "honeypot"
-        ]
-      },
-      {
-        "id": "3950904",
-        "date_added": "2026-10-16 10:50:08",
-        "url": "https://tribot.co.uk/Mina.jar",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "CoinMiner",
-          "runelure",
-          "xmrig"
-        ]
-      },
-      {
-        "id": "3950902",
-        "date_added": "2026-10-16 10:50:07",
-        "url": "https://cdn.discordapp.com/attachments/1559625975262617600/1559629592422125628/bundle.zip?ex=6acfc5bf&is=6ace743f&hm=3de5df75df58da3c7fd212f355d7a4b8ab4ad7db064e94d6598c9c4d7a4f395c&",
+        "id": "3951051",
+        "date_added": "2026-10-16 20:32:32",
+        "url": "http://42.52.234.252:60329/i",
         "url_status": "offline",
         "threat": "malware_download",
         "tags": [
-          "IRAHook"
+          "None"
         ]
       },
       {
-        "id": "3950903",
-        "date_added": "2026-10-16 10:50:07",
-        "url": "https://cdn.discordapp.com/attachments/1560044170599731202/1560044268515491890/bundle.zip?ex=6ad147f1&is=6acff671&hm=dceaa64eba1ccfcbd97e3e682461449d930a26201aa03260eadb5a8a056ef723&",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "IRAHook"
-        ]
-      },
-      {
-        "id": "3950901",
-        "date_added": "2026-10-16 10:50:06",
-        "url": "https://cdn.discordapp.com/attachments/1558076945571512441/1560112093611434094/bundle.zip?ex=6ad1871c&is=6ad0359c&hm=926575998512a186d00f9c706381a93fe81a4480f66aeecd6b3e98d7f10b9221&",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "IRAHook"
-        ]
-      },
-      {
-        "id": "3950900",
-        "date_added": "2026-10-16 10:49:07",
-        "url": "http://62.60.226.140/files/8614381788/Ju5y7TH.exe",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "d52f85",
-          "dropped-by-amadey"
-        ]
-      },
-      {
-        "id": "3950899",
-        "date_added": "2026-10-16 10:48:08",
-        "url": "http://42.238.139.12:50347/bin.sh",
+        "id": "3951050",
+        "date_added": "2026-10-16 20:32:20",
+        "url": "http://42.239.254.3:48124/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -388,9 +279,9 @@
         ]
       },
       {
-        "id": "3950898",
-        "date_added": "2026-10-16 10:47:07",
-        "url": "http://42.237.44.123:57470/bin.sh",
+        "id": "3951048",
+        "date_added": "2026-10-16 20:32:19",
+        "url": "http://182.117.77.40:40047/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -398,9 +289,42 @@
         ]
       },
       {
-        "id": "3950897",
-        "date_added": "2026-10-16 10:32:24",
-        "url": "http://41.248.22.74:58977/i",
+        "id": "3951049",
+        "date_added": "2026-10-16 20:32:19",
+        "url": "http://182.116.15.211:52271/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3951047",
+        "date_added": "2026-10-16 20:17:16",
+        "url": "http://178.141.18.236:33626/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3951046",
+        "date_added": "2026-10-16 20:14:20",
+        "url": "http://45.168.132.19:45710/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3951045",
+        "date_added": "2026-10-16 19:59:15",
+        "url": "http://182.121.145.198:56262/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -411,9 +335,22 @@
         ]
       },
       {
-        "id": "3950896",
-        "date_added": "2026-10-16 10:17:06",
-        "url": "http://103.126.201.130:59221/i",
+        "id": "3951044",
+        "date_added": "2026-10-16 19:49:35",
+        "url": "http://182.121.145.198:56262/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3951043",
+        "date_added": "2026-10-16 19:47:15",
+        "url": "http://221.15.173.51:41661/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -421,103 +358,213 @@
         ]
       },
       {
-        "id": "3950894",
-        "date_added": "2026-10-16 10:02:08",
-        "url": "http://222.141.74.123:44870/i",
+        "id": "3951042",
+        "date_added": "2026-10-16 19:45:29",
+        "url": "http://45.168.132.19:45710/bin.sh",
         "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3951041",
+        "date_added": "2026-10-16 19:37:24",
+        "url": "http://59.96.141.30:53283/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3951040",
+        "date_added": "2026-10-16 19:34:14",
+        "url": "http://130.12.180.32/arm64",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3951039",
+        "date_added": "2026-10-16 19:34:13",
+        "url": "http://117.24.216.241:47558/i",
+        "url_status": "offline",
         "threat": "malware_download",
         "tags": [
           "None"
         ]
       },
       {
-        "id": "3950895",
-        "date_added": "2026-10-16 10:02:08",
-        "url": "http://221.14.17.75:51621/i",
-        "url_status": "online",
+        "id": "3951037",
+        "date_added": "2026-10-16 19:34:06",
+        "url": "http://185.228.72.128/jklarm",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "cowrie",
+          "honeypot"
+        ]
+      },
+      {
+        "id": "3951038",
+        "date_added": "2026-10-16 19:34:06",
+        "url": "http://130.12.180.32/armv5",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3951036",
+        "date_added": "2026-10-16 19:33:58",
+        "url": "http://130.12.180.32/armv7l",
+        "url_status": "offline",
+        "threat": "malware_download",
+        "tags": [
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3951035",
+        "date_added": "2026-10-16 19:33:52",
+        "url": "http://45.130.191.2:53241/i",
+        "url_status": "offline",
         "threat": "malware_download",
         "tags": [
           "None"
         ]
       },
       {
-        "id": "3950891",
-        "date_added": "2026-10-16 10:02:07",
-        "url": "http://222.142.221.213:36728/bin.sh",
-        "url_status": "online",
+        "id": "3951034",
+        "date_added": "2026-10-16 19:33:50",
+        "url": "http://185.228.72.128/jklmips",
+        "url_status": "offline",
         "threat": "malware_download",
         "tags": [
-          "None"
+          "cowrie",
+          "honeypot"
         ]
       },
       {
-        "id": "3950892",
-        "date_added": "2026-10-16 10:02:07",
-        "url": "http://222.127.60.98:59083/i",
-        "url_status": "online",
+        "id": "3951033",
+        "date_added": "2026-10-16 19:33:49",
+        "url": "http://130.12.180.32/x86",
+        "url_status": "offline",
         "threat": "malware_download",
         "tags": [
-          "None"
+          "ua-wget"
         ]
       }
     ]
   },
   "world_monitor": [
     {
-      "title": "What Life Is Like in Kyiv as Russia Tries to Make It Unlivable",
-      "link": "https://www.nytimes.com/2026/10/16/world/europe/ukraine-war-life-in-kyiv.html",
-      "pubDate": "Fri, 16 Oct 2026 10:45:55 +0000",
+      "title": "Oregon community mourns victims of school shooting",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/10/16/oregon-community-mourns-victims-of-school-shooting?traffic_source=rss",
+      "pubDate": "Fri, 16 Oct 2026 20:08:52 +0000",
+      "source": "Al Jazeera",
+      "summary": "Mourners quietly grieved at a makeshift memorial outside an elementary school in Bend, Oregon."
+    },
+    {
+      "title": "AOC transfers $1m to Michigan candidate El-Sayed in progressive push",
+      "link": "https://www.aljazeera.com/news/2026/10/16/aoc-transfers-1m-to-michigan-candidate-el-sayed-in-progressive-push?traffic_source=rss",
+      "pubDate": "Fri, 16 Oct 2026 20:07:25 +0000",
+      "source": "Al Jazeera",
+      "summary": "Progressive stalwart, who is seen as potential 2028 candidate, says she wants to combat 'smears' against El-Sayed."
+    },
+    {
+      "title": "Trump told new press secretary to ‘reconsider’ role",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/10/16/trump-told-new-press-secretary-to-reconsider-role?traffic_source=rss",
+      "pubDate": "Fri, 16 Oct 2026 19:41:15 +0000",
+      "source": "Al Jazeera",
+      "summary": "Al Jazeera has confirmed that White House press secretary Katie Zacharia is “transitioning out” of her role."
+    },
+    {
+      "title": "Trump denies limiting Ukraine access to Starlink network",
+      "link": "https://www.bbc.co.uk/news/articles/ckz65g34wyd8o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Fri, 16 Oct 2026 19:33:48 GMT",
+      "source": "BBC",
+      "summary": "Speed curbs limited Ukraine's defences against deadly Russian attacks on Tuesday night."
+    },
+    {
+      "title": "Can diplomacy resolve longstanding Ethiopia-Eritrea differences?",
+      "link": "https://www.aljazeera.com/video/inside-story/2026/10/16/can-diplomacy-resolve-long-standing-ethiopia-eritrea-differences?traffic_source=rss",
+      "pubDate": "Fri, 16 Oct 2026 19:18:13 +0000",
+      "source": "Al Jazeera",
+      "summary": "The United States calls for dialogue as regional East Africa tension escalates."
+    },
+    {
+      "title": "The Rupturing Trump-Zelensky Relationship Stands to Hurt Ukraine and Its European Allies",
+      "link": "https://www.nytimes.com/2026/10/16/world/europe/trump-zelensky-ukraine-war.html",
+      "pubDate": "Fri, 16 Oct 2026 19:12:25 +0000",
       "source": "NYT World",
-      "summary": "A day in the Ukrainian capital, a new kind of battlefield far from the front, where daily life means assessing — and accepting — deadly risks."
+      "summary": "Where the two presidents’ war of words will end is anybody’s guess. But if it continues, it could threaten the crucial operational help that Ukraine still gets from the United States."
     },
     {
-      "title": "India vs West India: Fifth T20 International – teams, start, lineups, Hope",
-      "link": "https://www.aljazeera.com/sports/2026/10/16/india-vs-west-india-firth-t20-international-teams-prediction-lineups?traffic_source=rss",
-      "pubDate": "Fri, 16 Oct 2026 10:37:48 +0000",
+      "title": "Pope Asks Putin for a Cease-Fire for a Ukrainian City Under Siege",
+      "link": "https://www.nytimes.com/2026/10/16/world/europe/pope-leo-putin-ukraine-cease-fire.html",
+      "pubDate": "Fri, 16 Oct 2026 19:04:56 +0000",
+      "source": "NYT World",
+      "summary": "Recovering from lung cancer surgery, Pope Leo XIV spoke with Vladimir V. Putin to make a plea for Oleshky, where mines and drones have trapped some 2,000 people who are at risk of starvation."
+    },
+    {
+      "title": "White House press secretary Katie Zacharia fired after five days on the job",
+      "link": "https://www.aljazeera.com/news/2026/10/16/white-house-press-secretary-katie-zacharia-fired-after-five-days-on-the-job?traffic_source=rss",
+      "pubDate": "Fri, 16 Oct 2026 18:58:06 +0000",
       "source": "Al Jazeera",
-      "summary": "India host West Indies in the final match of the tour on Saturday with an all-time classic T20 series level at 2-2."
+      "summary": "Trump advised Katie Zacharia to reconsider her press secretary role due to media backlash over her credentials."
     },
     {
-      "title": "Zelensky rallies EU support as Trump says Ukraine leader 'more difficult to deal with than Putin'",
-      "link": "https://www.bbc.co.uk/news/articles/c58jz174w89ro?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Fri, 16 Oct 2026 10:37:47 GMT",
+      "title": "Inside Ukrainian offensive pushing Russia back - with Starlink playing a key role",
+      "link": "https://www.bbc.co.uk/news/articles/cvx284w16z1po?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Fri, 16 Oct 2026 16:00:30 GMT",
       "source": "BBC",
-      "summary": "The US president launches a new wave of blistering criticism at Volodymyr Zelensky ahead of a meeting of EU leaders in Brussels."
+      "summary": "The BBC joins Ukraine's Operation Vivaldi as it regains crucial territory in the Donbas, but optimism has been dampened by souring relations with President Trump."
     },
     {
-      "title": "Children aged 5, 8 and 11 killed in US school shooting before suspect shot by bystander",
-      "link": "https://www.bbc.co.uk/news/articles/cm89zp48k4kzo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Fri, 16 Oct 2026 10:36:50 GMT",
+      "title": "Houthi Attacks on Saudi Arabia Put In Doubt Kingdom’s Sports and Business Events",
+      "link": "https://www.nytimes.com/2026/10/16/world/middleeast/saudi-arabia-houthi-attack-fii-events.html",
+      "pubDate": "Fri, 16 Oct 2026 15:52:50 +0000",
+      "source": "NYT World",
+      "summary": "The Iran-backed group’s attacks have disrupted sports tournaments and threatened business events that the kingdom has long used to attract investment and raise its profile."
+    },
+    {
+      "title": "Deadly School Roof Collapse in Pakistan Raises Questions Over Regulation",
+      "link": "https://www.nytimes.com/2026/10/16/world/asia/pakistan-peshawar-school-roof-collapse.html",
+      "pubDate": "Fri, 16 Oct 2026 15:22:54 +0000",
+      "source": "NYT World",
+      "summary": "A roof collapse that killed 32 children and a teacher in northwest Pakistan has prompted safety inspections of schools across the region."
+    },
+    {
+      "title": "Pope pictured for first time since surgery and cancer diagnosis",
+      "link": "https://www.bbc.co.uk/news/articles/cw146ej00yn7o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Fri, 16 Oct 2026 14:36:39 GMT",
       "source": "BBC",
-      "summary": "A teacher was also killed in the attack at the Silver Rail Elementary School in the city of Bend, Oregon, police say."
+      "summary": "The pontiff was diagnosed with lung cancer after having surgery at Rome's Gemelli Hospital on Tuesday."
     },
     {
-      "title": "Palestinian olive trees torched as settler pogroms escalate during harvest",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/10/16/palestinian-olive-trees-torched-as-settler-pogroms-escalate-during-harvest?traffic_source=rss",
-      "pubDate": "Fri, 16 Oct 2026 10:27:20 +0000",
-      "source": "Al Jazeera",
-      "summary": "It is Palestine’s olive harvest, but settlers have set their trees and vehicles on fire."
+      "title": "Palestinians and US journalist injured by Israeli settlers in West Bank harvest attack",
+      "link": "https://www.bbc.co.uk/news/articles/c65ynk7212vqo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Fri, 16 Oct 2026 14:31:04 GMT",
+      "source": "BBC",
+      "summary": "The BBC sees masked settlers attack Palestinians trying to harvest olives, amid a surge in similar incidents."
     },
     {
-      "title": "Trump rules out using a nuclear bomb on Iran: Why that matters",
-      "link": "https://www.aljazeera.com/news/2026/10/16/trump-rules-out-using-a-nuclear-bomb-on-iran-why-that-matters?traffic_source=rss",
-      "pubDate": "Fri, 16 Oct 2026 10:21:12 +0000",
-      "source": "Al Jazeera",
-      "summary": "It is the first time the president has addressed nuclear weapons, but he didn't deny US could use 'mother of all bombs'."
-    },
-    {
-      "title": "UN warns nearly 1 million in Gaza face flood risks as winter approaches",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/10/16/un-warns-nearly-1-million-in-gaza-face-flood-risks-as-winter-approaches?traffic_source=rss",
-      "pubDate": "Fri, 16 Oct 2026 10:12:34 +0000",
-      "source": "Al Jazeera",
-      "summary": "The UN is warning that nearly one million displaced Palestinians face flooding risks as winter approaches."
-    },
-    {
-      "title": "India’s mass voter purge is hollowing out democracy",
-      "link": "https://www.aljazeera.com/opinions/2026/10/16/indias-mass-voter-purge-is-hollowing-out-democracy?traffic_source=rss",
-      "pubDate": "Fri, 16 Oct 2026 10:00:01 +0000",
-      "source": "Al Jazeera",
-      "summary": "The SIR is disenfranchising marginalised communities and advancing the Hindu nationalist project."
+      "title": "India's 'cockroach' party founder detained ahead of protest",
+      "link": "https://www.bbc.co.uk/news/articles/cmx237n1y9lzo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Fri, 16 Oct 2026 11:44:31 GMT",
+      "source": "BBC",
+      "summary": "The youth-led movement had called for a Delhi protest after mass detentions last week and the jailing of two leaders."
     },
     {
       "title": "DHS Was Designed as a Weapon",
@@ -534,53 +581,11 @@
       "summary": "Mansour Abbas, a dentist-turned-lawmaker, helped oust Benjamin Netanyahu once before. Now, he and a Jewish ex-police commander have teamed up to try to do it again."
     },
     {
-      "title": "Caracas Is Eerily Safe After Deadly Police Raids in Venezuela Killed Thousands",
-      "link": "https://www.nytimes.com/2026/10/16/world/americas/caracas-venezuela-crime-raids-icc.html",
-      "pubDate": "Fri, 16 Oct 2026 09:00:14 +0000",
-      "source": "NYT World",
-      "summary": "Crime plunged after police raids killed thousands. Venezuela is now withdrawing from the International Criminal Court as it investigates this blood-soaked campaign."
-    },
-    {
-      "title": "China tells Israel to stop 'forced establishment' of West Bank settlements",
-      "link": "https://www.bbc.co.uk/news/articles/cq1j3wdxy48ro?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Fri, 16 Oct 2026 08:45:54 GMT",
-      "source": "BBC",
-      "summary": "Chinese Foreign Minister Wang Yi spoke to Israeli President Isaac Herzog on the sidelines of a conference."
-    },
-    {
       "title": "Long After the Maui Fires, Toxic Metals Linger in Residents’ Bodies",
       "link": "https://theintercept.com/2026/10/16/maui-wildfire-toxic-metals/",
       "pubDate": "Fri, 16 Oct 2026 08:45:00 +0000",
       "source": "The Intercept",
       "summary": "The toxic exposures didn’t begin with the flames. Researchers are examining how fires affected a community already harmed by plantation agriculture, development, and colonialism.\nThe post Long After the Maui Fires, Toxic Metals Linger in Residents’ B"
-    },
-    {
-      "title": "'It's really hard to believe' - How Oregon primary school shooting unfolded",
-      "link": "https://www.bbc.co.uk/news/videos/cwe8r29mjd05o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Fri, 16 Oct 2026 08:27:16 GMT",
-      "source": "BBC",
-      "summary": "Three children aged 5, 8 and 11 and a teacher were killed after a 16-year-old suspect opened fire in the city of Bend, local police say."
-    },
-    {
-      "title": "The Sexual Abuse Crisis in Paris’s Public Schools",
-      "link": "https://www.nytimes.com/2026/10/16/world/europe/paris-schools-abuse-crisis.html",
-      "pubDate": "Fri, 16 Oct 2026 08:22:09 +0000",
-      "source": "NYT World",
-      "summary": "A surge of abuse accusations has led Parisian authorities to acknowledge a “collective failure” to prevent sexual offenders from working in schools."
-    },
-    {
-      "title": "Ship attack reports near Hormuz reach record high as oil exports slow",
-      "link": "https://www.bbc.co.uk/news/articles/cmde8dpg8g0no?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Fri, 16 Oct 2026 05:00:17 GMT",
-      "source": "BBC",
-      "summary": "BBC Verify analysis of data from a UK maritime agency shows 12 vessels were struck in a week."
-    },
-    {
-      "title": "El Niño Threatens Global Sugar Supply",
-      "link": "https://www.nytimes.com/2026/10/16/climate/india-sugarcane-production-sugar-prices.html",
-      "pubDate": "Fri, 16 Oct 2026 04:00:14 +0000",
-      "source": "NYT World",
-      "summary": "A poor sugarcane crop in India, the world’s second-largest producer, is hurting consumers and farmers — plus undermining the country’s energy security goals."
     },
     {
       "title": "Lockheed Martin Showered Susan Collins With Cash as F-35 Program Hit Turbulence",
@@ -641,6 +646,13 @@
   ],
   "syndication": [
     {
+      "title": "Backdooring Open-Weight AI Models",
+      "link": "https://www.schneier.com/blog/archives/2026/10/backdooring-open-weight-ai-models.html",
+      "pubDate": "2026-10-16T11:04:53.000Z",
+      "author": "Schneier on Security",
+      "content": "This is a problem:\nAny open model whose weights have been edited can carry a backdoor, whether it’s a task-specific fine-tune, a merged adapter or an abliterated build. We have abliterated models in the title because it’s the most popular reason people download modified weights without verifying wha"
+    },
+    {
       "title": "Pluralistic: Load-bearing (16 Oct 2026)",
       "link": "https://pluralistic.net/2026/10/15/sovereign-it/",
       "pubDate": "Fri, 16 Oct 2026 06:40:02 +0000",
@@ -667,13 +679,6 @@
       "pubDate": "2026-10-14T16:02:17.000Z",
       "author": "Schneier on Security",
       "content": "This is a current list of where and when I am scheduled to speak:\nI’m speaking at ATTENTION: Democracy, Rebuilt in Montreal, Quebec, Canada. The event runs October 21–23, 2026, and my talk is on Wednesday, October 21.\nI’m speaking at the University of Toronto in Toronto, Ontario, Canada, at 5 PM ET "
-    },
-    {
-      "title": "The Future of AI Cryptanalysis",
-      "link": "https://www.schneier.com/blog/archives/2026/10/the-future-of-ai-cryptanalysis.html",
-      "pubDate": "2026-10-14T14:24:18.000Z",
-      "author": "Schneier on Security",
-      "content": "Matthew Green has been writing a rather pessimistic series of posts about the potential for AI systems to vastly outperform humans in cryptanalysis of both symmetric and public-key ciphers.\nI am more optimistic than he is. That is, I have stronger faith in the over-engineering cryptographers tend to"
     },
     {
       "title": "U.K. Sanctions Cryptomus for RU Money Laundering",
@@ -706,6 +711,78 @@
   ],
   "syndicate_journal": [
     {
+      "title": "Workers Who Fear AI May be More Prone to Slacking Off",
+      "link": "https://nautil.us/workers-who-fear-ai-may-be-more-prone-to-slacking-off-1285865/",
+      "summary": "“Jobs apocalypse” or not, threats have consequences\nThe post Workers Who Fear AI May be More Prone to Slacking Off appeared first on Nautilus.",
+      "pubDate": "Fri, 16 Oct 2026 20:30:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "How Our Skin Reveals the Link Between Insomnia and Fear",
+      "link": "https://nautil.us/how-our-skin-reveals-the-link-between-insomnia-and-fear-1285862/",
+      "summary": "It’s an exhausting cycle\nThe post How Our Skin Reveals the Link Between Insomnia and Fear appeared first on Nautilus.",
+      "pubDate": "Fri, 16 Oct 2026 18:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "Dattner’s Architects Say They Want a Union",
+      "link": "https://jacobin.com/2026/10/dattner-architects-union-iam-nyc",
+      "summary": "On the west side of Manhattan, near the entrance to the Holland Tunnel, there is a nearly seventy-foot-tall concrete building containing five thousand tons of road salt. The walls of the Spring Street Salt Shed slope inward and outward in enormous pale planes; the whole thing is meant to resemble a ",
+      "pubDate": "2026-10-16T17:55:36.165Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "Meet Loki the Sea Cucumber, One of 57 Newly Discovered Deep-Sea Species",
+      "link": "https://nautil.us/meet-loki-the-sea-cucumber-one-of-57-newly-discovered-deep-sea-species-1285856/",
+      "summary": "It looks friendly at least\nThe post Meet Loki the Sea Cucumber, One of 57 Newly Discovered Deep-Sea Species appeared first on Nautilus.",
+      "pubDate": "Fri, 16 Oct 2026 17:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "In India, “Cockroaches” Are Leading the Fight for Democracy",
+      "link": "https://jacobin.com/2026/10/india-cockroach-protests-elections-democracy",
+      "summary": "On October 10, India’s capital city, New Delhi, was turned into a fortress as protesters tried to oppose a countrywide exercise to revise the electoral rolls. The protests were called by the Gen Z movement known as the Cockroach Janta Party (CJP), working with left-wing student groups, which forced ",
+      "pubDate": "2026-10-16T16:55:21.318Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "The Social Reckoning Needed David Fincher",
+      "link": "https://jacobin.com/2026/10/review-sorkin-social-reckoning-facebook-zuckerberg",
+      "summary": "Reporting on how badly Aaron Sorkin’s Facebook drama  is flopping, I won’t bother to do any better than ’s , “Moviegoers are unfriending The Social ReckoningUSA TodayThe Social Reckoning.”mild zinger\nMeanwhile, the critically panned horror film  is crushing it at the box office. But that’s unsurpris",
+      "pubDate": "2026-10-16T15:22:46.420Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "The Women Breaking the Rules of Balinese Dance",
+      "link": "https://daily.jstor.org/the-women-breaking-the-rules-of-balinese-dance/",
+      "summary": "Middle-aged performers are taking on roles once reserved for men, challenging expectations about age and gender in Bali.\nThe post The Women Breaking the Rules of Balinese Dance appeared first on JSTOR Daily.",
+      "pubDate": "Fri, 16 Oct 2026 13:45:52 +0000",
+      "domain": "history",
+      "source": "JSTOR Daily"
+    },
+    {
+      "title": "He Wants AI Benchmarking To Be a Science, Not a Dark Art",
+      "link": "https://www.quantamagazine.org/he-wants-ai-benchmarking-to-be-a-science-not-a-dark-art-20261016/",
+      "summary": "Moritz Hardt, author of a new book on benchmarks, believes these “standardized tests” for artificial intelligence are fundamentally broken — but not unfixable.            \nThe post He Wants AI Benchmarking To Be a Science, Not a Dark Art first appeared on Quanta Magazine",
+      "pubDate": "Fri, 16 Oct 2026 13:25:08 +0000",
+      "domain": "science",
+      "source": "Quanta"
+    },
+    {
+      "title": "Skit hits back at AI job interviews",
+      "link": "https://languagelog.ldc.upenn.edu/nll/?p=74427&utm_source=rss&utm_medium=rss&utm_campaign=skit-hits-back-at-ai-job-interviews",
+      "summary": "\"AI is doing job interviews now—but candidates say they’d rather risk staying unemployed than talk to another robot\", Fortune 8/2/2025: AI is replacing human hiring managers in job interviews—and candidates are pushing back. Despite being unemployed, professionals told Fortune they’re refusing to ta",
+      "pubDate": "Fri, 16 Oct 2026 11:29:56 +0000",
+      "domain": "linguistics",
+      "source": "Language Log"
+    },
+    {
       "title": "How to be a (Roman) man",
       "link": "https://aeon.co/essays/the-politics-of-masculinity-at-the-end-of-the-roman-republic",
       "summary": "Cicero’s ideal of manly virtue stressed the performance of self-control and bravery, not boastful egotism and domination\n- by Catharine Edwards\nRead on Aeon",
@@ -736,54 +813,6 @@
       "pubDate": "Fri, 16 Oct 2026 00:00:00 -0400",
       "domain": "science",
       "source": "arXiv: cs.AI"
-    },
-    {
-      "title": "Even Dogs Seem to Experience the Mysterious Bouba/Kiki Effect",
-      "link": "https://nautil.us/even-dogs-seem-to-experience-the-mysterious-bouba-kiki-effect-1285842/",
-      "summary": "But why?\nThe post Even Dogs Seem to Experience the Mysterious Bouba/Kiki Effect appeared first on Nautilus.",
-      "pubDate": "Thu, 15 Oct 2026 22:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
-      "title": "This Fish Is the Kobayashi of the Sea",
-      "link": "https://nautil.us/this-fish-is-the-kobayashi-of-the-sea-1285839/",
-      "summary": "It can swallow prey up to 10 times its weight\nThe post This Fish Is the Kobayashi of the Sea appeared first on Nautilus.",
-      "pubDate": "Thu, 15 Oct 2026 21:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
-      "title": "How Prehistoric People Survived After One of the Worst Volcanic Eruptions in History",
-      "link": "https://nautil.us/how-prehistoric-people-survived-after-one-of-the-worst-volcanic-eruptions-in-history-1285836/",
-      "summary": "It’s a story of human resilience\nThe post How Prehistoric People Survived After One of the Worst Volcanic Eruptions in History appeared first on Nautilus.",
-      "pubDate": "Thu, 15 Oct 2026 20:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
-      "title": "Turkey Risks Being Drawn Into Saudi Arabia’s War in Yemen",
-      "link": "https://jacobin.com/2026/10/turkey-yemen-saudi-mecca-agreement",
-      "summary": "There are few places outside Turkey that occupy such a mournful place in the country’s popular memory as Yemen.\nFor generations, Turks who knew little about the politics of the Arabian Peninsula nevertheless knew Yemen through folk songs. They were ballads about young men sent from Anatolia to fight",
-      "pubDate": "2026-10-15T19:06:51.523Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
-      "title": "It Won’t Stop With Ilhan Omar",
-      "link": "https://jacobin.com/2026/10/trump-vance-politicized-deportation-omar",
-      "summary": "Up until now, the Donald Trump-J. D. Vance administration has been  weaponizing the US immigration system against fairly low-level political opponents: college students protesting US support for Israel’s genocide, independent journalists applying scrutiny to government policies, or random tourists w",
-      "pubDate": "2026-10-15T18:39:04.044Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
-      "title": "Climate Policies Can Bring Relief on Affordability and Beyond",
-      "link": "https://jacobin.com/2026/10/climate-change-affordability-energy-extreme-weather",
-      "summary": "As the US midterm elections approach, one word keeps coming up in campaign promises and headlines: “.” That working people in the United States are  to afford basic necessities is a problem that many are willing to acknowledge, but there is  agreement on what should be done to tackle a core driver o",
-      "pubDate": "2026-10-15T15:48:11.606Z",
-      "domain": "politics",
-      "source": "Jacobin"
     },
     {
       "title": "Ten Poems about Sleep and Dreaming",
@@ -858,14 +887,6 @@
       "source": "Language Log"
     },
     {
-      "title": "What Do Cops Train For?",
-      "link": "https://daily.jstor.org/what-do-cops-train-for/",
-      "summary": "Research on police training finds that realistic simulations may reinforce expectations of violence instead of preventing it.\nThe post What Do Cops Train For? appeared first on JSTOR Daily.",
-      "pubDate": "Tue, 13 Oct 2026 13:32:47 +0000",
-      "domain": "history",
-      "source": "JSTOR Daily"
-    },
-    {
       "title": "Rudolf Kalvach’s Wiener Werkstätte Postcards (1907)\n",
       "link": "https://publicdomainreview.org/collection/kalvach-postcards",
       "summary": "Postcards that summon medieval grotesques and brightly coloured folk art, but also feel distinctly modern.",
@@ -874,26 +895,10 @@
       "source": "Public Domain Review"
     },
     {
-      "title": "Is ‘Attention’ the Essence of Intelligence?",
-      "link": "https://www.quantamagazine.org/is-attention-the-essence-of-intelligence-20261012/",
-      "summary": "A mathematical mechanism enables AI models to process language at scale, undergirding the current AI revolution. Our columnist asks: Why is attention the key?            \nThe post Is ‘Attention’ the Essence of Intelligence? first appeared on Quanta Magazine",
-      "pubDate": "Mon, 12 Oct 2026 14:20:30 +0000",
-      "domain": "science",
-      "source": "Quanta"
-    },
-    {
       "title": "English adjectives as adverbs?",
       "link": "https://languagelog.ldc.upenn.edu/nll/?p=74409&utm_source=rss&utm_medium=rss&utm_campaign=english-adjectives-as-adverbs",
       "summary": "Some of the comments on \"Filthy comfortable\" (10/9/2026) related to the issue of an adjective being used as an adverbial intensifier, which is a fairly common though always irregular development. We can start with very, for which Wiktonary gives the etymology From Middle English verray, from Old Fre",
       "pubDate": "Sun, 11 Oct 2026 16:26:28 +0000",
-      "domain": "linguistics",
-      "source": "Language Log"
-    },
-    {
-      "title": "Victor Mair and Benjamin Franklin",
-      "link": "https://languagelog.ldc.upenn.edu/nll/?p=74414&utm_source=rss&utm_medium=rss&utm_campaign=victor-mair-and-benjamin-franklin",
-      "summary": "Wikipedia’s article on Benjamin Franklin starts this way: Benjamin Franklin was an American polymath active as a physicist, philosopher, statesman and inventor. The article goes on to list (some of) his other achievements, including his role as a writer, and as the founder of institutions such as th",
-      "pubDate": "Sun, 11 Oct 2026 14:21:01 +0000",
       "domain": "linguistics",
       "source": "Language Log"
     },
@@ -946,25 +951,25 @@
       "source": "Sapiens"
     },
     {
-      "title": "Associations of self-reported physical activity, sedentary behavior, and sleep duration with mental and behavioral health among civil aviation flight students: a cross-sectional study",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1914711",
-      "summary": "ObjectiveTo examine the associations of self-reported physical activity at different intensities, total sedentary time, and sleep duration with mental and behavioral health indicators among civil aviation flight students.MethodsA cross-sectional questionnaire survey was conducted at a civil aviation",
+      "title": "Combinatorial structure of iconic strategies in the manual-visual modality: evidence from silent gestures by hearing non-signers",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1917740",
+      "summary": "Iconicity, understood as perceived resemblance between aspects of form and meaning, provides a central basis for representing conceptual information in the manual-visual modality. Previous research on silent gesture has shown systematic associations between semantic categories and particular iconic ",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "Validity evidence for the Clinic Screening Tool for HIV (CST-HIV) addressing factors that undermine health-related quality of life in people living with HIV",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1940441",
-      "summary": "BackgroundThis study evaluated the psychometric properties and clinical validity of the Clinic Screening Tool for HIV (CST-HIV) to determine whether the CST-HIV demonstrates a reliable multidimensional structure and clinically meaningful associations with established patient-reported outcome measure",
+      "title": "The impact of air quality on public attention to depressive emotions: an empirical examination based on Chinese urban panel data",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1969885",
+      "summary": "Depressive emotions have emerged as a critical public health concern, with their etiology closely linked to the natural environment, particularly air quality. Grounded in environmental stress theory and social support theory, this study utilizes panel data from 277 prefecture-level cities in China s",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "Positive error-handling in TGfU-based basketball instruction: effects on tactical decision-making and the role of perceived classroom psychological safety",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1984425",
-      "summary": "BackgroundBasketball learning involves rapid decisions and visible mistakes that may carry interpersonal risk. This study examined whether positive error-handling within Teaching Games for Understanding (TGfU) improved tactical decision-making and whether improvements were associated with changes in",
+      "title": "Comprehension under threat: outgroup threat predicts perceived accent strength, ease of comprehension, and speaker evaluations",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1835739",
+      "summary": "Nonnative speakers, influenced by their first language, often produce accented speech that systematically deviates from that of native speakers. Nonnative-accented speech is often judged more harshly than native-accented speech, in part due to increased comprehension difficulty. However, non-linguis",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
@@ -972,64 +977,64 @@
   ],
   "misinfo_toilet": [
     {
-      "headline": "DHS Was Designed as a Weapon",
-      "fragment": "Why do men fight for their servitude as stubbornly as though it were their salvation?",
-      "splice": "DHS Was Designed as a Weapon which is to say why do men fight for their servitude as stubbornly as though it were their salvation?",
-      "seed": 20261026
-    },
-    {
-      "headline": "Children aged 5, 8 and 11 killed in US school shooting before suspect shot by bystander",
-      "fragment": "We live in a world where there is more and more information, and less and less meaning.",
-      "splice": "Children aged 5, 8 and 11 killed in US school shooting before suspect shot by bystander therefore we live in a world where there is more and more information, and less and less meaning.",
-      "seed": 20261027
+      "headline": "The Rupturing Trump-Zelensky Relationship Stands to Hurt Ukraine and Its European Allies",
+      "fragment": "It is at work everywhere, functioning smoothly at times, at other times in fits and starts. It breathes, it heats, it eats. It shits and fucks.",
+      "splice": "The Rupturing Trump-Zelensky Relationship Stands to Hurt Ukraine and Its European Allies despite it is at work everywhere, functioning smoothly at times, at other times in fits and starts. It breathes, it heats, it eats. It shits and fucks.",
+      "seed": 20261036
     },
     {
       "headline": "Christy Kinahan’s UAE Residence Visa Cancelled",
-      "fragment": "Art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
-      "splice": "Christy Kinahan’s UAE Residence Visa Cancelled ...as art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
-      "seed": 20261028
-    },
-    {
-      "headline": "Caracas Is Eerily Safe After Deadly Police Raids in Venezuela Killed Thousands",
-      "fragment": "The privatization of the organs will only begin with the shame felt by man at the sight of man.",
-      "splice": "Caracas Is Eerily Safe After Deadly Police Raids in Venezuela Killed Thousands consequently the privatization of the organs will only begin with the shame felt by man at the sight of man.",
-      "seed": 20261029
-    },
-    {
-      "headline": "Trump Is Targeting Ilhan Omar. Where’s the Elite Media Outrage?",
-      "fragment": "It is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
-      "splice": "Trump Is Targeting Ilhan Omar. Where’s the Elite Media Outrage? the signal resolves into it is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
-      "seed": 20261030
-    },
-    {
-      "headline": "'It's really hard to believe' - How Oregon primary school shooting unfolded",
-      "fragment": "Why do men fight for their servitude as stubbornly as though it were their salvation?",
-      "splice": "'It's really hard to believe' - How Oregon primary school shooting unfolded consequently why do men fight for their servitude as stubbornly as though it were their salvation?",
-      "seed": 20261031
-    },
-    {
-      "headline": "The Sexual Abuse Crisis in Paris’s Public Schools",
-      "fragment": "It is at work everywhere, functioning smoothly at times, at other times in fits and starts. It breathes, it heats, it eats. It shits and fucks.",
-      "splice": "The Sexual Abuse Crisis in Paris’s Public Schools despite it is at work everywhere, functioning smoothly at times, at other times in fits and starts. It breathes, it heats, it eats. It shits and fucks.",
-      "seed": 20261032
-    },
-    {
-      "headline": "El Niño Threatens Global Sugar Supply",
       "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "splice": "El Niño Threatens Global Sugar Supply which is to say the breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "seed": 20261033
+      "splice": "Christy Kinahan’s UAE Residence Visa Cancelled which is to say the breast is a machine that produces milk, and the mouth a machine coupled to it.",
+      "seed": 20261037
     },
     {
-      "headline": "Lockheed Martin Showered Susan Collins With Cash as F-35 Program Hit Turbulence",
+      "headline": "DHS Was Designed as a Weapon",
       "fragment": "This is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
-      "splice": "Lockheed Martin Showered Susan Collins With Cash as F-35 Program Hit Turbulence which is to say this is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
-      "seed": 20261034
+      "splice": "DHS Was Designed as a Weapon which is to say this is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
+      "seed": 20261038
     },
     {
-      "headline": "UN warns nearly 1 million in Gaza face flood risks as winter approaches",
+      "headline": "White House press secretary Katie Zacharia fired after five days on the job",
       "fragment": "To dissimulate is to pretend not to have what one has. To simulate is to feign to have what one doesn't have. One implies a presence, the other an absence.",
-      "splice": "UN warns nearly 1 million in Gaza face flood risks as winter approaches the signal resolves into to dissimulate is to pretend not to have what one has. To simulate is to feign to have what one doesn't have. One implies a presence, the other an absence.",
-      "seed": 20261035
+      "splice": "White House press secretary Katie Zacharia fired after five days on the job the signal resolves into to dissimulate is to pretend not to have what one has. To simulate is to feign to have what one doesn't have. One implies a presence, the other an absence.",
+      "seed": 20261039
+    },
+    {
+      "headline": "Satellite Images Show Extent of Trump Admin’s Tree-Felling at DC Golf Course",
+      "fragment": "There is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
+      "splice": "Satellite Images Show Extent of Trump Admin’s Tree-Felling at DC Golf Course within which there is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
+      "seed": 20261040
+    },
+    {
+      "headline": "Trump told new press secretary to ‘reconsider’ role",
+      "fragment": "Art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
+      "splice": "Trump told new press secretary to ‘reconsider’ role insofar as art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
+      "seed": 20261041
+    },
+    {
+      "headline": "The Arab Kingmaker in Israel’s Election Who Wants a Partnership With Jews",
+      "fragment": "In the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
+      "splice": "The Arab Kingmaker in Israel’s Election Who Wants a Partnership With Jews consequently in the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
+      "seed": 20261042
+    },
+    {
+      "headline": "Palestinians and US journalist injured by Israeli settlers in West Bank harvest attack",
+      "fragment": "We live in a world where there is more and more information, and less and less meaning.",
+      "splice": "Palestinians and US journalist injured by Israeli settlers in West Bank harvest attack within which we live in a world where there is more and more information, and less and less meaning.",
+      "seed": 20261043
+    },
+    {
+      "headline": "Deadly School Roof Collapse in Pakistan Raises Questions Over Regulation",
+      "fragment": "Simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
+      "splice": "Deadly School Roof Collapse in Pakistan Raises Questions Over Regulation consequently simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
+      "seed": 20261044
+    },
+    {
+      "headline": "Viral Google Maps Images Shared Widely This Week Show Gaza Ruins. We Obtained More Recent Satellite Imagery",
+      "fragment": "Underneath all reason lies delirium and drift.",
+      "splice": "Viral Google Maps Images Shared Widely This Week Show Gaza Ruins. We Obtained More Recent Satellite Imagery meanwhile underneath all reason lies delirium and drift.",
+      "seed": 20261045
     }
   ]
 }
