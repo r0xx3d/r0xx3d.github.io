@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T10:20:25.355Z",
+  "generated_at": "2026-10-17T15:13:09.863Z",
   "threat_intel": {
     "cisa_kev": [
       {
@@ -246,9 +246,61 @@
     ],
     "urlhaus": [
       {
-        "id": "3951268",
-        "date_added": "2026-10-17 10:09:13",
-        "url": "http://115.55.223.86:46236/bin.sh",
+        "id": "3951402",
+        "date_added": "2026-10-17 15:06:12",
+        "url": "http://38.46.31.127:45662/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3951401",
+        "date_added": "2026-10-17 14:52:13",
+        "url": "http://27.215.213.101:39345/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "elf",
+          "mips"
+        ]
+      },
+      {
+        "id": "3951400",
+        "date_added": "2026-10-17 14:46:18",
+        "url": "http://42.234.234.147:56866/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3951399",
+        "date_added": "2026-10-17 14:46:17",
+        "url": "http://115.61.119.59:40112/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3951398",
+        "date_added": "2026-10-17 14:46:16",
+        "url": "http://42.228.127.105:38484/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3951397",
+        "date_added": "2026-10-17 14:41:16",
+        "url": "http://182.127.127.58:40976/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -259,203 +311,88 @@
         ]
       },
       {
-        "id": "3951267",
-        "date_added": "2026-10-17 10:02:10",
-        "url": "http://115.61.119.59:40112/i",
+        "id": "3951396",
+        "date_added": "2026-10-17 14:11:28",
+        "url": "http://182.117.69.59:36762/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3951266",
-        "date_added": "2026-10-17 10:01:26",
-        "url": "http://39.164.132.26:9128/linux",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3951265",
-        "date_added": "2026-10-17 10:01:12",
-        "url": "http://31.56.209.73:32461/b/linux",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3951264",
-        "date_added": "2026-10-17 09:55:23",
-        "url": "https://31.77.183.191/Bin/ScreenConnect.ClientSetup.exe",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "31-77-183-191",
-          "exe",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3951263",
-        "date_added": "2026-10-17 09:55:14",
-        "url": "https://31.77.183.191/bin/support.client.exe",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "31-77-183-191",
-          "exe",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3951262",
-        "date_added": "2026-10-17 09:49:12",
-        "url": "http://oopz.app/s",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "exe",
-          "oopz-app",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3951260",
-        "date_added": "2026-10-17 09:48:11",
-        "url": "http://176.65.144.144/s.ps1",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "176-65-144-144",
-          "powershell",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3951261",
-        "date_added": "2026-10-17 09:48:11",
-        "url": "http://176.65.144.144/s",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "176-65-144-144",
-          "exe",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3951259",
-        "date_added": "2026-10-17 09:47:14",
-        "url": "http://171.38.199.52:55020/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3951258",
-        "date_added": "2026-10-17 09:46:13",
-        "url": "https://103.168.66.129/Bin/ScreenConnect.ClientSetup.exe",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "103-168-66-129",
-          "exe",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3951257",
-        "date_added": "2026-10-17 09:46:12",
-        "url": "https://103.168.66.129/bin/support.client.exe",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "103-168-66-129",
-          "exe",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3951256",
-        "date_added": "2026-10-17 09:42:23",
-        "url": "http://195.178.110.204/g",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "195-178-110-204",
-          "sh",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3951255",
-        "date_added": "2026-10-17 09:36:24",
-        "url": "http://78.153.140.16/ce.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "78-153-140-16",
-          "sh",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3951254",
-        "date_added": "2026-10-17 09:35:22",
-        "url": "http://78.153.140.16/h.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "78-153-140-16",
-          "sh",
-          "ua-wget"
-        ]
-      },
-      {
-        "id": "3951253",
-        "date_added": "2026-10-17 09:32:10",
-        "url": "http://115.49.31.170:42403/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3951252",
-        "date_added": "2026-10-17 09:28:25",
-        "url": "http://217.60.77.44/system",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "217-60-77-44",
+          "32-bit",
           "elf",
-          "ua-wget"
+          "mips",
+          "Mozi"
         ]
       },
       {
-        "id": "3951251",
-        "date_added": "2026-10-17 09:28:23",
-        "url": "http://217.60.77.44/b",
+        "id": "3951395",
+        "date_added": "2026-10-17 13:57:20",
+        "url": "http://216.126.86.152:59607/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "217-60-77-44",
+          "32-bit",
+          "arm",
           "elf",
-          "ua-wget"
+          "Mozi"
         ]
       },
       {
-        "id": "3951250",
-        "date_added": "2026-10-17 09:26:19",
-        "url": "http://176.99.112.253:38473/i",
+        "id": "3951394",
+        "date_added": "2026-10-17 13:50:23",
+        "url": "http://117.26.72.155:59476/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3951391",
+        "date_added": "2026-10-17 13:47:16",
+        "url": "http://182.123.193.27:46399/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3951392",
+        "date_added": "2026-10-17 13:47:16",
+        "url": "http://182.123.193.27:46399/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3951393",
+        "date_added": "2026-10-17 13:47:16",
+        "url": "http://42.237.59.178:56477/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3951390",
+        "date_added": "2026-10-17 13:31:15",
+        "url": "http://61.53.80.192:35155/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
+      },
+      {
+        "id": "3951389",
+        "date_added": "2026-10-17 13:26:20",
+        "url": "http://113.160.0.30:39548/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -463,9 +400,35 @@
         ]
       },
       {
-        "id": "3951249",
-        "date_added": "2026-10-17 09:23:13",
-        "url": "http://27.215.210.92:56082/bin.sh",
+        "id": "3951388",
+        "date_added": "2026-10-17 13:20:27",
+        "url": "http://117.26.72.155:59476/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3951387",
+        "date_added": "2026-10-17 13:17:17",
+        "url": "http://60.209.142.144:57707/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3951386",
+        "date_added": "2026-10-17 13:06:23",
+        "url": "http://123.14.218.232:42072/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -474,19 +437,129 @@
           "mips",
           "Mozi"
         ]
+      },
+      {
+        "id": "3951385",
+        "date_added": "2026-10-17 13:04:27",
+        "url": "http://216.126.86.152:59607/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3951384",
+        "date_added": "2026-10-17 12:50:25",
+        "url": "http://42.225.193.19:42706/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf"
+        ]
+      },
+      {
+        "id": "3951382",
+        "date_added": "2026-10-17 12:47:16",
+        "url": "http://27.204.225.149:34994/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "None"
+        ]
       }
     ]
   },
   "world_monitor": [
     {
-      "title": "Vatican Says Pope Leo Will Leave Hospital on Saturday, Days After Lung Surgery",
+      "title": "‘I Am Much Better, Thank You’: Pope Leo Leaves Hospital, Days After Lung Surgery",
       "link": "https://www.nytimes.com/2026/10/17/world/europe/pope-leo-discharged-hospital.html",
-      "pubDate": "Sat, 17 Oct 2026 10:03:58 +0000",
+      "pubDate": "Sat, 17 Oct 2026 14:59:22 +0000",
       "source": "NYT World",
       "summary": "Leo XIV had been treated for lung cancer at Gemelli Hospital in Rome."
     },
     {
-      "title": "Oregon teacher fought school attacker before armed dad shot suspect 'multiple times'",
+      "title": "Thousands rally for biggest protest in years against Tunisia’s Saied",
+      "link": "https://www.aljazeera.com/news/2026/10/17/thousands-rally-for-biggest-protest-in-years-against-tunisias-saied?traffic_source=rss",
+      "pubDate": "Sat, 17 Oct 2026 14:57:24 +0000",
+      "source": "Al Jazeera",
+      "summary": "Unions, opposition groups unite to demonstrate against poor living conditions and restrictions on political freedoms."
+    },
+    {
+      "title": "Why adults are going back to summer camp",
+      "link": "https://www.aljazeera.com/features/longform/2026/10/17/why-adults-are-going-back-to-summer-camp?traffic_source=rss",
+      "pubDate": "Sat, 17 Oct 2026 14:36:25 +0000",
+      "source": "Al Jazeera",
+      "summary": "Loneliness and burnout are sending adults around the world back to bunk beds and bonfires."
+    },
+    {
+      "title": "Hurricane Trudy makes its way towards Mexico, threatening heavy rain",
+      "link": "https://www.aljazeera.com/news/2026/10/17/hurricane-trudy-makes-its-way-towards-mexico-threatening-heavy-rain?traffic_source=rss",
+      "pubDate": "Sat, 17 Oct 2026 14:28:07 +0000",
+      "source": "Al Jazeera",
+      "summary": "Trudy is the latest in successive storms that have hit Mexico's Pacific coast this year."
+    },
+    {
+      "title": "Nottingham Forest vs Arsenal: Premier League – preview, teams, prediction",
+      "link": "https://www.aljazeera.com/sports/2026/10/17/nottingham-forest-vs-arsenal-premier-league-preview-teams?traffic_source=rss",
+      "pubDate": "Sat, 17 Oct 2026 14:06:41 +0000",
+      "source": "Al Jazeera",
+      "summary": "The Gunners failed to score in their last two visits to the City Ground, as both matches ended in goalless draws."
+    },
+    {
+      "title": "Egypt’s Sisi seeks authorisation for defence assistance to Saudi Arabia",
+      "link": "https://www.aljazeera.com/economy/2026/10/17/egypts-sisi-seeks-authorisation-for-defence-assistance-to-saudi-arabia?traffic_source=rss",
+      "pubDate": "Sat, 17 Oct 2026 14:00:24 +0000",
+      "source": "Al Jazeera",
+      "summary": "Egyptian president pledges 'any measure' to help defend Saudi Arabia 'if it is requested of us'."
+    },
+    {
+      "title": "Uncertainty Over Pope’s Health Fuels Familiar Debate Over Vatican’s Candor",
+      "link": "https://www.nytimes.com/2026/10/17/world/europe/pope-leo-vatican-transparency-cancer.html",
+      "pubDate": "Sat, 17 Oct 2026 13:42:27 +0000",
+      "source": "NYT World",
+      "summary": "By announcing his lung condition himself, Leo has been more forthcoming than many popes. But mysteries remain, prompting scrutiny of papal statements for hidden meaning."
+    },
+    {
+      "title": "Why Are There Protests in France?",
+      "link": "https://www.nytimes.com/2026/10/17/world/europe/france-student-protests-why.html",
+      "pubDate": "Sat, 17 Oct 2026 13:13:08 +0000",
+      "source": "NYT World",
+      "summary": "Student demonstrations converged on Saturday with a broader protest movement against rising living costs, heightening a national reckoning."
+    },
+    {
+      "title": "A Wayward Shark Becomes a Celebrity in South Korea",
+      "link": "https://www.nytimes.com/2026/10/16/world/asia/south-korea-busan-shark.html",
+      "pubDate": "Sat, 17 Oct 2026 12:55:52 +0000",
+      "source": "NYT World",
+      "summary": "Stranded in a port waterway for weeks, the 10-foot fish has attracted more than a million spectators, while officials try to guide her back to open sea."
+    },
+    {
+      "title": "How Bally Bagayoko, a 53-Year-Old Mayor, Became the Face of France’s Youth Protests",
+      "link": "https://www.nytimes.com/2026/10/17/france-protests-mayor-bally-bagayoko.html",
+      "pubDate": "Sat, 17 Oct 2026 12:23:26 +0000",
+      "source": "NYT World",
+      "summary": "Bally Bagayoko, the mayor of a working-class suburb near Paris, has been a regular presence at student demonstrations, prompting both applause and condemnation."
+    },
+    {
+      "title": "Nursery owner in China jailed for life after hundreds of children poisoned",
+      "link": "https://www.bbc.co.uk/news/articles/cqe9lx54g7x9o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Sat, 17 Oct 2026 12:11:58 GMT",
+      "source": "BBC",
+      "summary": "She and five staff members were found to have used the inedible paint in meals to make them look more appealing."
+    },
+    {
+      "title": "Trump waives several Russia sanctions as row with Zelensky intensifies",
+      "link": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Sat, 17 Oct 2026 11:56:06 GMT",
+      "source": "BBC",
+      "summary": "The US president temporarily ends many restrictions on Moscow recently passed by Congress over \"national security\" concerns."
+    },
+    {
+      "title": "Teacher fought US school attacker before armed dad shot suspect 'multiple times'",
       "link": "https://www.bbc.co.uk/news/articles/cv98zw1k8kp3o?at_medium=RSS&at_campaign=rss",
       "pubDate": "Sat, 17 Oct 2026 09:58:17 GMT",
       "source": "BBC",
@@ -500,69 +573,6 @@
       "summary": "With Democrats campaigning on ending the war, advocates want them to put their money where their mouth is and risk a lame-duck shutdown.\nThe post Dems Have an Opportunity to Force an End to the Iran War. Will They Take It? appeared first on The Inter"
     },
     {
-      "title": "LIVE: India vs West Indies – fifth T20 International",
-      "link": "https://www.aljazeera.com/sports/liveblog/2026/10/17/live-india-vs-west-indies-fifth-t20-international?traffic_source=rss",
-      "pubDate": "Sat, 17 Oct 2026 09:54:49 +0000",
-      "source": "Al Jazeera",
-      "summary": "Follow updates, including toss and team news, from our live text commentary stream of the series decider."
-    },
-    {
-      "title": "As Israel blocks PA funding, the West Bank’s healthcare system is failing",
-      "link": "https://www.aljazeera.com/news/2026/10/17/as-israel-blocks-pa-funding-the-west-banks-healthcare-system-is-failing?traffic_source=rss",
-      "pubDate": "Sat, 17 Oct 2026 09:47:55 +0000",
-      "source": "Al Jazeera",
-      "summary": "Hospitals across the occupied West Bank have been hit by a funding shortage."
-    },
-    {
-      "title": "Sudan’s army claims dozens of RSF fighters killed in Nyala attack",
-      "link": "https://www.aljazeera.com/news/2026/10/17/2550?traffic_source=rss",
-      "pubDate": "Sat, 17 Oct 2026 09:44:47 +0000",
-      "source": "Al Jazeera",
-      "summary": "Rapid Support Forces accuses army of killing 30 civilians in attack on Nyala's busy livestock market."
-    },
-    {
-      "title": "Trump waives several Russia sanctions as row with Zelensky intensifies",
-      "link": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Sat, 17 Oct 2026 09:42:13 GMT",
-      "source": "BBC",
-      "summary": "The US president temporarily ends many restrictions on Moscow recently passed by Congress over \"national security\" concerns."
-    },
-    {
-      "title": "IMF urges support for poorer nations facing high inflation, war spillovers",
-      "link": "https://www.aljazeera.com/economy/2026/10/17/war-spillovers-debt-threaten-low-income-nations-imf-chief-warns?traffic_source=rss",
-      "pubDate": "Sat, 17 Oct 2026 09:31:47 +0000",
-      "source": "Al Jazeera",
-      "summary": "Low-income countries spend up to 14 percent of their revenue on debt repayments, IMF chief says."
-    },
-    {
-      "title": "Houthis strike Yemen’s Aden: What that means",
-      "link": "https://www.aljazeera.com/news/2026/10/17/iran-backed-houthis-strike-yemens-aden-what-that-means?traffic_source=rss",
-      "pubDate": "Sat, 17 Oct 2026 09:16:48 +0000",
-      "source": "Al Jazeera",
-      "summary": "What we know about the Houthi strikes on Aden’s presidential palace and airport, and why they matter."
-    },
-    {
-      "title": "Uncertainty Over Pope’s Health Fuels Familiar Debate Over Vatican’s Candor",
-      "link": "https://www.nytimes.com/2026/10/17/world/europe/pope-leo-vatican-transparency-cancer.html",
-      "pubDate": "Sat, 17 Oct 2026 08:18:15 +0000",
-      "source": "NYT World",
-      "summary": "By announcing his lung condition himself, Leo has been more forthcoming than many popes. But mysteries remain, prompting scrutiny of papal statements for hidden meaning."
-    },
-    {
-      "title": "Why Are France’s Students Protesting?",
-      "link": "https://www.nytimes.com/2026/10/17/world/europe/france-student-protests-why.html",
-      "pubDate": "Sat, 17 Oct 2026 08:09:16 +0000",
-      "source": "NYT World",
-      "summary": "Student demonstrations for a better-funded education system are converging with a broader protest movement against rising living costs."
-    },
-    {
-      "title": "How Bally Bagayoko, a 53-Year-Old Mayor, Became the Face of France’s Youth Protests",
-      "link": "https://www.nytimes.com/2026/10/17/france-protests-mayor-bally-bagayoko.html",
-      "pubDate": "Sat, 17 Oct 2026 08:09:06 +0000",
-      "source": "NYT World",
-      "summary": "Bally Bagayoko, the mayor of a working-class suburb near Paris, has been a regular presence at student demonstrations, prompting both applause and condemnation."
-    },
-    {
       "title": "Three men jailed for 158 years each for murdering Australian and US surfers in Mexico",
       "link": "https://www.bbc.co.uk/news/articles/c3kgqjkzw29wo?at_medium=RSS&at_campaign=rss",
       "pubDate": "Sat, 17 Oct 2026 03:11:10 GMT",
@@ -570,25 +580,11 @@
       "summary": "Brothers Jake and Callum Robinson and their friend Carter Rhoad were killed on a surfing trip in an apparent botched robbery."
     },
     {
-      "title": "A Wayward Shark Becomes a Celebrity in South Korea",
-      "link": "https://www.nytimes.com/2026/10/16/world/asia/south-korea-busan-shark.html",
-      "pubDate": "Sat, 17 Oct 2026 02:44:10 +0000",
-      "source": "NYT World",
-      "summary": "Stranded in a port waterway for weeks, the 10-foot fish has attracted more than a million spectators, while officials try to guide her back to open sea."
-    },
-    {
       "title": "Brazil sees record fall in Amazon deforestation as key election looms",
       "link": "https://www.bbc.co.uk/news/articles/cqe8rzg6zl00o?at_medium=RSS&at_campaign=rss",
       "pubDate": "Sat, 17 Oct 2026 02:33:09 GMT",
       "source": "BBC",
       "summary": "The Amazon rainforest is a crucial buffer against climate change - but deforestation had expanded under former president Jair Bolsonaro."
-    },
-    {
-      "title": "Inside Ukrainian offensive pushing Russia back - with Starlink playing a key role",
-      "link": "https://www.bbc.co.uk/news/articles/cvx284w16z1po?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Fri, 16 Oct 2026 16:00:30 GMT",
-      "source": "BBC",
-      "summary": "The BBC joins Ukraine's Operation Vivaldi as it regains crucial territory in the Donbas, but optimism has been dampened by souring relations with President Trump."
     },
     {
       "title": "DHS Was Designed as a Weapon",
@@ -656,6 +652,13 @@
   ],
   "syndication": [
     {
+      "title": "Pluralistic: Israeli ad-tech company was a delivery system for \"mercenary spyware\" (17 Oct 2026)",
+      "link": "https://pluralistic.net/2026/10/17/mercenary-spyware/",
+      "pubDate": "Sat, 17 Oct 2026 10:47:35 +0000",
+      "author": "Pluralistic",
+      "content": "Today's links Israeli ad-tech company was a delivery system for \"mercenary spyware\": And they used Google, Facebook and every other major ad platform to do it. Hey look at this: Delights to delectate. Object permanence: Big Mouth Billy Bass x Linux; No-Fly lists v common sense; Lemony Snicket advise"
+    },
+    {
       "title": "Friday Squid Blogging: Squid Before the Chicxulub Meteor Impact",
       "link": "https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-squid-before-the-chicxulub-meteor-impact.html",
       "pubDate": "2026-10-16T21:06:47.000Z",
@@ -705,13 +708,6 @@
       "content": "Microsoft today issued updates to fix more than 1,400 security vulnerabilities in its Windows operating systems and other software. Today's epic patch batch dwarfs September's record of nearly 1,000 fixes, which was already about ten times the normal monthly patch load from Redmond."
     },
     {
-      "title": "Pluralistic: Bundestrojaner (13 Oct 2026)",
-      "link": "https://pluralistic.net/2026/10/13/petards-r-us/",
-      "pubDate": "Tue, 13 Oct 2026 11:50:19 +0000",
-      "author": "Pluralistic",
-      "content": "Today's links Bundestrojaner: You can't make people more secure by making them less secure. Hey look at this: Delights to delectate. Object permanence: 9/11 sitcom; Jon Norman v Philcon; Bruce Sterling's post-9/11 geopolitics; Polaroid bankrupt; David Mamet x Shel Silverstein; \"Great Big Beautiful T"
-    },
-    {
       "title": "FBI Arrests Executive at Ransomware Negotiation Firm",
       "link": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
       "pubDate": "Sat, 10 Oct 2026 00:17:42 +0000",
@@ -721,52 +717,60 @@
   ],
   "syndicate_journal": [
     {
+      "title": "Singularities: von Neumann, Good, Vinge, …",
+      "link": "https://languagelog.ldc.upenn.edu/nll/?p=74439&utm_source=rss&utm_medium=rss&utm_campaign=singularities-von-neumann-good-vinge",
+      "summary": "The OED gives citations for singularity going back to the 14th century, e.g. this example from 1398 in the sense \"The fact or condition of being alone or apart from others; solitariness\": Men vsyd to ete togyders in open place, leest syngularite schuld brede lechery. A mathematical singularity, as W",
+      "pubDate": "Sat, 17 Oct 2026 14:48:26 +0000",
+      "domain": "linguistics",
+      "source": "Language Log"
+    },
+    {
+      "title": "Exploring the Mirror World of the Chinese Internet",
+      "link": "https://jacobin.com/2026/10/china-tech-internet-censorship-great-firewall",
+      "summary": "China’s internet is known for a vast system of censorship and surveillance that has evolved alongside its booming digital economy. Yet the story of the Chinese internet is not simply one of authoritarian control or unrestricted growth. In her , , journalist and author Yi-Ling Liu explores how people",
+      "pubDate": "2026-10-17T14:33:06.540Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "Can We Ditch BMI for an Obesity Index That Predicts Disease Risk Better?",
+      "link": "https://nautil.us/can-we-ditch-bmi-for-an-obesity-index-that-predicts-disease-risk-better-1285877/",
+      "summary": "It’s ridiculously simplistic and nearly two centuries old\nThe post Can We Ditch BMI for an Obesity Index That Predicts Disease Risk Better? appeared first on Nautilus.",
+      "pubDate": "Sat, 17 Oct 2026 14:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "The Left Needs an Answer to the Center’s New Cold War Program",
+      "link": "https://jacobin.com/2026/10/centrism-china-cold-war-defense-spending-tech",
+      "summary": "Between the Israeli genocide in Gaza and the calamitous stalemate of Donald Trump’s war in Iran, the American foreign policy consensus has been coming apart. Popular support for the United States’ violent foreign policy has reached an  , as Americans increasingly recognize the downsides of maintaini",
+      "pubDate": "2026-10-17T13:35:35.850Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "The British State Is Dodging Accountability for the Troubles",
+      "link": "https://jacobin.com/2026/10/uk-labour-legislation-ireland-troubles-military",
+      "summary": "Britain’s latest prime minister, Andy Burnham, raised hackles on his first trip to the North of Ireland when he declared a referendum on Irish unity to be “off the table.” Burnham may simply have intended to say that it wasn’t on the short-term agenda, since there is no sign as yet that a majority o",
+      "pubDate": "2026-10-17T12:43:06.677Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "Replacing Just 10 Percent of Ultra‑processed Foods with Whole Foods Linked to Drop in Bowel Cancer Rate",
+      "link": "https://nautil.us/replacing-just-10-percent-of-ultra-processed-foods-with-whole-foods-linked-to-drop-in-bowel-cancer-rate-1285872/",
+      "summary": "Examples of ultra processed foods include many supermarket breads, cured meats and some breakfast cereals\nThe post Replacing Just 10 Percent of Ultra‑processed Foods with Whole Foods Linked to Drop in Bowel Cancer Rate appeared first on Nautilus.",
+      "pubDate": "Sat, 17 Oct 2026 12:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
       "title": "Workers Who Fear AI May be More Prone to Slacking Off",
       "link": "https://nautil.us/workers-who-fear-ai-may-be-more-prone-to-slacking-off-1285865/",
       "summary": "“Jobs apocalypse” or not, threats have consequences\nThe post Workers Who Fear AI May be More Prone to Slacking Off appeared first on Nautilus.",
       "pubDate": "Fri, 16 Oct 2026 20:30:00 +0000",
       "domain": "science",
       "source": "Nautilus"
-    },
-    {
-      "title": "How Our Skin Reveals the Link Between Insomnia and Fear",
-      "link": "https://nautil.us/how-our-skin-reveals-the-link-between-insomnia-and-fear-1285862/",
-      "summary": "It’s an exhausting cycle\nThe post How Our Skin Reveals the Link Between Insomnia and Fear appeared first on Nautilus.",
-      "pubDate": "Fri, 16 Oct 2026 18:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
-      "title": "Dattner’s Architects Say They Want a Union",
-      "link": "https://jacobin.com/2026/10/dattner-architects-union-iam-nyc",
-      "summary": "On the west side of Manhattan, near the entrance to the Holland Tunnel, there is a nearly seventy-foot-tall concrete building containing five thousand tons of road salt. The walls of the Spring Street Salt Shed slope inward and outward in enormous pale planes; the whole thing is meant to resemble a ",
-      "pubDate": "2026-10-16T17:55:36.165Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
-      "title": "Meet Loki the Sea Cucumber, One of 57 Newly Discovered Deep-Sea Species",
-      "link": "https://nautil.us/meet-loki-the-sea-cucumber-one-of-57-newly-discovered-deep-sea-species-1285856/",
-      "summary": "It looks friendly at least\nThe post Meet Loki the Sea Cucumber, One of 57 Newly Discovered Deep-Sea Species appeared first on Nautilus.",
-      "pubDate": "Fri, 16 Oct 2026 17:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
-      "title": "In India, “Cockroaches” Are Leading the Fight for Democracy",
-      "link": "https://jacobin.com/2026/10/india-cockroach-protests-elections-democracy",
-      "summary": "On October 10, India’s capital city, New Delhi, was turned into a fortress as protesters tried to oppose a countrywide exercise to revise the electoral rolls. The protests were called by the Gen Z movement known as the Cockroach Janta Party (CJP), working with left-wing student groups, which forced ",
-      "pubDate": "2026-10-16T16:55:21.318Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
-      "title": "The Social Reckoning Needed David Fincher",
-      "link": "https://jacobin.com/2026/10/review-sorkin-social-reckoning-facebook-zuckerberg",
-      "summary": "Reporting on how badly Aaron Sorkin’s Facebook drama  is flopping, I won’t bother to do any better than ’s , “Moviegoers are unfriending The Social ReckoningUSA TodayThe Social Reckoning.”mild zinger\nMeanwhile, the critically panned horror film  is crushing it at the box office. But that’s unsurpris",
-      "pubDate": "2026-10-16T15:22:46.420Z",
-      "domain": "politics",
-      "source": "Jacobin"
     },
     {
       "title": "The Women Breaking the Rules of Balinese Dance",
@@ -881,14 +885,6 @@
       "source": "Public Domain Review"
     },
     {
-      "title": "English adjectives as adverbs?",
-      "link": "https://languagelog.ldc.upenn.edu/nll/?p=74409&utm_source=rss&utm_medium=rss&utm_campaign=english-adjectives-as-adverbs",
-      "summary": "Some of the comments on \"Filthy comfortable\" (10/9/2026) related to the issue of an adjective being used as an adverbial intensifier, which is a fairly common though always irregular development. We can start with very, for which Wiktonary gives the etymology From Middle English verray, from Old Fre",
-      "pubDate": "Sun, 11 Oct 2026 16:26:28 +0000",
-      "domain": "linguistics",
-      "source": "Language Log"
-    },
-    {
       "title": "Paul Carus’ The History of the Devil and the Idea of Evil (1899)\n",
       "link": "https://publicdomainreview.org/collection/history-of-the-devil",
       "summary": "A history of the Evil One, from the earliest times to the present.",
@@ -963,64 +959,64 @@
   ],
   "misinfo_toilet": [
     {
-      "headline": "Houthis strike Yemen’s Aden: What that means",
-      "fragment": "Why do men fight for their servitude as stubbornly as though it were their salvation?",
-      "splice": "Houthis strike Yemen’s Aden: What that means which is to say why do men fight for their servitude as stubbornly as though it were their salvation?",
-      "seed": 20261027
-    },
-    {
-      "headline": "LIVE: India vs West Indies – fifth T20 International",
-      "fragment": "We live in a world where there is more and more information, and less and less meaning.",
-      "splice": "LIVE: India vs West Indies – fifth T20 International therefore we live in a world where there is more and more information, and less and less meaning.",
-      "seed": 20261028
-    },
-    {
-      "headline": "Christy Kinahan’s UAE Residence Visa Cancelled",
-      "fragment": "Art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
-      "splice": "Christy Kinahan’s UAE Residence Visa Cancelled ...as art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
-      "seed": 20261029
-    },
-    {
-      "headline": "Why Are France’s Students Protesting?",
-      "fragment": "The privatization of the organs will only begin with the shame felt by man at the sight of man.",
-      "splice": "Why Are France’s Students Protesting? consequently the privatization of the organs will only begin with the shame felt by man at the sight of man.",
-      "seed": 20261030
-    },
-    {
-      "headline": "Lockheed Martin Showered Susan Collins With Cash as F-35 Program Hit Turbulence",
-      "fragment": "It is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
-      "splice": "Lockheed Martin Showered Susan Collins With Cash as F-35 Program Hit Turbulence the signal resolves into it is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
-      "seed": 20261031
-    },
-    {
-      "headline": "A Wayward Shark Becomes a Celebrity in South Korea",
-      "fragment": "Why do men fight for their servitude as stubbornly as though it were their salvation?",
-      "splice": "A Wayward Shark Becomes a Celebrity in South Korea consequently why do men fight for their servitude as stubbornly as though it were their salvation?",
+      "headline": "Why Are There Protests in France?",
+      "fragment": "To dissimulate is to pretend not to have what one has. To simulate is to feign to have what one doesn't have. One implies a presence, the other an absence.",
+      "splice": "Why Are There Protests in France? not unlike to dissimulate is to pretend not to have what one has. To simulate is to feign to have what one doesn't have. One implies a presence, the other an absence.",
       "seed": 20261032
     },
     {
-      "headline": "Brazil sees record fall in Amazon deforestation as key election looms",
-      "fragment": "It is at work everywhere, functioning smoothly at times, at other times in fits and starts. It breathes, it heats, it eats. It shits and fucks.",
-      "splice": "Brazil sees record fall in Amazon deforestation as key election looms despite it is at work everywhere, functioning smoothly at times, at other times in fits and starts. It breathes, it heats, it eats. It shits and fucks.",
+      "headline": "Nursery owner in China jailed for life after hundreds of children poisoned",
+      "fragment": "There is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
+      "splice": "Nursery owner in China jailed for life after hundreds of children poisoned in the void where there is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
       "seed": 20261033
     },
     {
-      "headline": "DHS Was Designed as a Weapon",
-      "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "splice": "DHS Was Designed as a Weapon which is to say the breast is a machine that produces milk, and the mouth a machine coupled to it.",
+      "headline": "Viral Google Maps Images Shared Widely This Week Show Gaza Ruins. We Obtained More Recent Satellite Imagery",
+      "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
+      "splice": "Viral Google Maps Images Shared Widely This Week Show Gaza Ruins. We Obtained More Recent Satellite Imagery despite it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
       "seed": 20261034
     },
     {
-      "headline": "Long After the Maui Fires, Toxic Metals Linger in Residents’ Bodies",
-      "fragment": "This is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
-      "splice": "Long After the Maui Fires, Toxic Metals Linger in Residents’ Bodies which is to say this is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
+      "headline": "Trump waives several Russia sanctions as row with Zelensky intensifies",
+      "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
+      "splice": "Trump waives several Russia sanctions as row with Zelensky intensifies meanwhile the breast is a machine that produces milk, and the mouth a machine coupled to it.",
       "seed": 20261035
     },
     {
-      "headline": "Trump waives several Russia sanctions as row with Zelensky intensifies",
-      "fragment": "To dissimulate is to pretend not to have what one has. To simulate is to feign to have what one doesn't have. One implies a presence, the other an absence.",
-      "splice": "Trump waives several Russia sanctions as row with Zelensky intensifies the signal resolves into to dissimulate is to pretend not to have what one has. To simulate is to feign to have what one doesn't have. One implies a presence, the other an absence.",
+      "headline": "Long After the Maui Fires, Toxic Metals Linger in Residents’ Bodies",
+      "fragment": "There is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
+      "splice": "Long After the Maui Fires, Toxic Metals Linger in Residents’ Bodies consequently there is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
       "seed": 20261036
+    },
+    {
+      "headline": "Teacher fought US school attacker before armed dad shot suspect 'multiple times'",
+      "fragment": "In the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
+      "splice": "Teacher fought US school attacker before armed dad shot suspect 'multiple times' the system notes that in the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
+      "seed": 20261037
+    },
+    {
+      "headline": "Brazil sees record fall in Amazon deforestation as key election looms",
+      "fragment": "Antagonism is not now located externally, in the face-off between class blocs, but internally, in the psychology of the worker.",
+      "splice": "Brazil sees record fall in Amazon deforestation as key election looms ...as antagonism is not now located externally, in the face-off between class blocs, but internally, in the psychology of the worker.",
+      "seed": 20261038
+    },
+    {
+      "headline": "“A Recurring Pattern”: Civilians Paying the Price in Mali’s Drone Campaign",
+      "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
+      "splice": "“A Recurring Pattern”: Civilians Paying the Price in Mali’s Drone Campaign consequently it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
+      "seed": 20261039
+    },
+    {
+      "headline": "Dems Have an Opportunity to Force an End to the Iran War. Will They Take It?",
+      "fragment": "Traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
+      "splice": "Dems Have an Opportunity to Force an End to the Iran War. Will They Take It? the system notes that traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
+      "seed": 20261040
+    },
+    {
+      "headline": "Groups Associated With India’s Far-Right Receive Millions Through US Donor-Advised Funds",
+      "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
+      "splice": "Groups Associated With India’s Far-Right Receive Millions Through US Donor-Advised Funds which is to say the revolutionary lives in the gap which separates technical progress from social totality.",
+      "seed": 20261041
     }
   ]
 }
