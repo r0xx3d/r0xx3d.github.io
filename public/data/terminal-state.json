@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T10:36:14.727Z",
+  "generated_at": "2026-10-18T15:34:45.401Z",
   "threat_intel": {
     "cisa_kev": [
       {
@@ -246,98 +246,130 @@
     ],
     "urlhaus": [
       {
-        "id": "3951819",
-        "date_added": "2026-10-18 10:28:18",
-        "url": "https://www.skmac811.com/lod018",
+        "id": "3951918",
+        "date_added": "2026-10-18 15:12:12",
+        "url": "http://176.65.139.143/hiddenbin/boatnet.arm5",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
-          "SilverFox",
-          "Trojan/SilverFox.bm[lddel]",
-          "ValleyRAT"
+          "elf",
+          "ua-wget"
         ]
       },
       {
-        "id": "3951818",
-        "date_added": "2026-10-18 10:28:17",
-        "url": "http://124.6.165.86:34669/bin.sh",
+        "id": "3951915",
+        "date_added": "2026-10-18 15:11:19",
+        "url": "http://176.65.139.76/bins/mpsl",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
+          "elf",
+          "mirai",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3951916",
+        "date_added": "2026-10-18 15:11:19",
+        "url": "http://176.65.139.143/hiddenbin/boatnet.m68k",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "mirai",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3951917",
+        "date_added": "2026-10-18 15:11:19",
+        "url": "http://176.65.139.143/hiddenbin/boatnet.arc",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "mirai",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3951911",
+        "date_added": "2026-10-18 15:10:20",
+        "url": "http://176.65.139.143/hiddenbin/boatnet.arm6",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "mirai",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3951912",
+        "date_added": "2026-10-18 15:10:20",
+        "url": "http://176.65.139.143/hiddenbin/boatnet.arm",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "mirai",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3951913",
+        "date_added": "2026-10-18 15:10:20",
+        "url": "http://176.65.139.143/hiddenbin/boatnet.mips",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "mirai",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3951914",
+        "date_added": "2026-10-18 15:10:20",
+        "url": "http://176.65.139.143/hiddenbin/boatnet.mpsl",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "mirai",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3951910",
+        "date_added": "2026-10-18 15:10:19",
+        "url": "http://45.198.224.164/arm4",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "elf",
+          "mirai",
+          "ua-wget"
+        ]
+      },
+      {
+        "id": "3951909",
+        "date_added": "2026-10-18 15:02:17",
+        "url": "http://103.87.194.104:54945/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
           "arm",
-          "cowrie",
           "elf",
-          "honeypot",
+          "mirai",
           "Mozi"
         ]
       },
       {
-        "id": "3951817",
-        "date_added": "2026-10-18 10:28:14",
-        "url": "http://154.23.0.6:36279/Mozi.m",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3951816",
-        "date_added": "2026-10-18 10:16:43",
-        "url": "http://113.237.58.219:42959/i",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3951815",
-        "date_added": "2026-10-18 10:16:33",
-        "url": "http://123.188.126.2:40744/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3951813",
-        "date_added": "2026-10-18 10:16:24",
-        "url": "http://222.136.53.140:55114/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3951814",
-        "date_added": "2026-10-18 10:16:24",
-        "url": "http://123.4.194.204:58367/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3951812",
-        "date_added": "2026-10-18 10:16:23",
-        "url": "http://222.140.182.244:54878/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3951811",
-        "date_added": "2026-10-18 10:14:25",
-        "url": "http://115.49.201.200:46772/bin.sh",
+        "id": "3951908",
+        "date_added": "2026-10-18 14:36:22",
+        "url": "http://182.127.28.133:35957/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -348,9 +380,23 @@
         ]
       },
       {
-        "id": "3951810",
-        "date_added": "2026-10-18 10:06:18",
-        "url": "http://222.140.227.97:55257/i",
+        "id": "3951907",
+        "date_added": "2026-10-18 14:33:11",
+        "url": "http://103.87.194.104:54945/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "mirai",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3951906",
+        "date_added": "2026-10-18 14:32:22",
+        "url": "http://182.127.28.133:35957/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -361,62 +407,9 @@
         ]
       },
       {
-        "id": "3951809",
-        "date_added": "2026-10-18 10:05:59",
-        "url": "http://47.122.122.41:9162/linux",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3951808",
-        "date_added": "2026-10-18 09:47:15",
-        "url": "http://124.235.218.22:37838/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3951807",
-        "date_added": "2026-10-18 09:37:15",
-        "url": "http://222.140.227.97:55257/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3951806",
-        "date_added": "2026-10-18 09:32:17",
-        "url": "http://94.137.37.252:3344/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3951805",
-        "date_added": "2026-10-18 09:32:16",
-        "url": "http://125.42.26.110:42454/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3951803",
-        "date_added": "2026-10-18 09:16:17",
-        "url": "http://193.233.75.14/BK6E6L.exe",
+        "id": "3951905",
+        "date_added": "2026-10-18 14:27:17",
+        "url": "http://193.233.75.14/WindowsUpdateBox.exe",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -425,9 +418,9 @@
         ]
       },
       {
-        "id": "3951804",
-        "date_added": "2026-10-18 09:16:17",
-        "url": "http://193.233.75.14/svchosts.exe",
+        "id": "3951904",
+        "date_added": "2026-10-18 14:24:12",
+        "url": "http://193.233.75.28/RuntimeBroker.exe",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -436,20 +429,9 @@
         ]
       },
       {
-        "id": "3951802",
-        "date_added": "2026-10-18 09:16:16",
-        "url": "http://193.233.75.14/LFoA8wwZ.exe",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "521048dd5a8917782e586ac60bc1eceb",
-          "dropped-by-remus"
-        ]
-      },
-      {
-        "id": "3951801",
-        "date_added": "2026-10-18 09:02:25",
-        "url": "http://36.71.20.58:53663/i",
+        "id": "3951903",
+        "date_added": "2026-10-18 14:17:13",
+        "url": "http://113.239.65.72:54779/bin.sh",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
@@ -457,94 +439,153 @@
         ]
       },
       {
-        "id": "3951800",
-        "date_added": "2026-10-18 09:02:15",
-        "url": "http://39.74.84.162:45446/i",
+        "id": "3951902",
+        "date_added": "2026-10-18 14:02:22",
+        "url": "http://27.44.146.197:56881/i",
         "url_status": "online",
         "threat": "malware_download",
         "tags": [
           "None"
+        ]
+      },
+      {
+        "id": "3951901",
+        "date_added": "2026-10-18 14:02:14",
+        "url": "http://36.251.33.146:48437/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "mirai"
+        ]
+      },
+      {
+        "id": "3951900",
+        "date_added": "2026-10-18 13:53:19",
+        "url": "http://113.53.69.164:35455/i",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "mirai",
+          "Mozi"
+        ]
+      },
+      {
+        "id": "3951899",
+        "date_added": "2026-10-18 13:52:17",
+        "url": "http://113.53.69.164:35455/bin.sh",
+        "url_status": "online",
+        "threat": "malware_download",
+        "tags": [
+          "32-bit",
+          "arm",
+          "elf",
+          "mirai",
+          "Mozi"
         ]
       }
     ]
   },
   "world_monitor": [
     {
-      "title": "Indian YouTuber Dhruv Rathee leads anti-BJP protest in London",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/10/18/indian-youtuber-dhruv-rathee-leads-anti-bjp-protest-in-london?traffic_source=rss",
-      "pubDate": "Sun, 18 Oct 2026 10:18:03 +0000",
+      "title": "EU condemns Israeli settler attack on diplomats in occupied West Bank",
+      "link": "https://www.aljazeera.com/news/2026/10/18/eu-condemns-israeli-settler-attack-on-diplomats-in-occupied-west-bank?traffic_source=rss",
+      "pubDate": "Sun, 18 Oct 2026 15:10:05 +0000",
       "source": "Al Jazeera",
-      "summary": "Dhruv Rathee led a ‘Stop vote theft’ protest in London, accusing Modi's government of electoral manipulation."
+      "summary": "EU demands accountability after settlers attack European diplomats amid violence against Palestinian olive farmers."
+    },
+    {
+      "title": "Tirana sees sixth day of violent protests as Albania’s PM refuses to resign",
+      "link": "https://www.aljazeera.com/news/2026/10/18/chaos-in-tirana-demonstrators-determined-to-not-give-up-so-easily?traffic_source=rss",
+      "pubDate": "Sun, 18 Oct 2026 15:08:18 +0000",
+      "source": "Al Jazeera",
+      "summary": "Police crack down on hundreds of protesters in Albania's capital, using rubber bullets, water cannons and tear gas."
+    },
+    {
+      "title": "Egypt’s Defense Chiefs Pledge to Support Saudi Arabia After Houthi Attacks",
+      "link": "https://www.nytimes.com/2026/10/18/world/middleeast/egypt-saudi-defense-houthis.html",
+      "pubDate": "Sun, 18 Oct 2026 15:00:02 +0000",
+      "source": "NYT World",
+      "summary": "President Abdel Fattah el-Sisi had called on Egyptian lawmakers to authorize military assistance to the kingdom, saying any support would be defensive."
+    },
+    {
+      "title": "France in Shock After Protests Turn Into Riots, Damaging Buildings and Shops",
+      "link": "https://www.nytimes.com/2026/10/18/world/europe/france-protests-shock-arson.html",
+      "pubDate": "Sun, 18 Oct 2026 14:57:23 +0000",
+      "source": "NYT World",
+      "summary": "After anti-government protests devolved into chaos, leaders from across the political spectrum blamed one another for the unrest, even as it subsided on Sunday."
+    },
+    {
+      "title": "A timeline of West Bank attacks on Palestinians and foreign officials",
+      "link": "https://www.aljazeera.com/news/2026/10/18/a-timeline-of-west-bank-attacks-on-palestinians-and-foreign-officials?traffic_source=rss",
+      "pubDate": "Sun, 18 Oct 2026 14:42:01 +0000",
+      "source": "Al Jazeera",
+      "summary": "Settler pogroms have escalated, coinciding with the annual olive harvest season in the occupied West Bank."
+    },
+    {
+      "title": "Zelensky Says Trump Risks ‘Historic Mistake’ If He Backs Russia",
+      "link": "https://www.nytimes.com/2026/10/18/world/europe/ukraine-starshield-russia-war.html",
+      "pubDate": "Sun, 18 Oct 2026 14:30:49 +0000",
+      "source": "NYT World",
+      "summary": "President Volodymyr Zelensky of Ukraine pressed Sunday for more information on possible restrictions to Starshield, a U.S.-provided satellite internet service used by the Ukrainian military."
+    },
+    {
+      "title": "France protests live: Macron to address nation after protests",
+      "link": "https://www.aljazeera.com/news/liveblog/2026/10/18/france-protests-live-macron-to-address-nation-after-deadly-protests?traffic_source=rss",
+      "pubDate": "Sun, 18 Oct 2026 14:26:11 +0000",
+      "source": "Al Jazeera",
+      "summary": "Protests are sweeping France as anger over conditions in schools meets frustration with high living costs"
+    },
+    {
+      "title": "Why is Trump now encouraging mail-in voting?",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/10/18/why-is-trump-now-encouraging-mail-in-voting?traffic_source=rss",
+      "pubDate": "Sun, 18 Oct 2026 14:09:16 +0000",
+      "source": "Al Jazeera",
+      "summary": "Donald Trump has spent years claiming mail-in voting is corrupt. Al Jazeera's Noor Wazwaz explains."
     },
     {
       "title": "Deadly ‘Incident’ at Canadian Forces Base Wainwright Sparks Fire",
       "link": "https://www.nytimes.com/2026/10/17/world/canada/fire-canadian-army-base-wainwright.html",
-      "pubDate": "Sun, 18 Oct 2026 10:07:33 +0000",
+      "pubDate": "Sun, 18 Oct 2026 14:05:04 +0000",
       "source": "NYT World",
       "summary": "The defense minister said people were killed and injured at a base in Alberta, but officials did not offer details on the cause."
     },
     {
-      "title": "South African rugby player Hyron Andrews paid emotional tribute in France",
-      "link": "https://www.aljazeera.com/sports/2026/10/18/south-african-rugby-player-hyron-andrews-paid-emotional-tribute-in-france?traffic_source=rss",
-      "pubDate": "Sun, 18 Oct 2026 10:02:59 +0000",
-      "source": "Al Jazeera",
-      "summary": "Andrews died in France on Friday while on tour with the Johannesburg Lions during the Champions Cup rugby tournament."
+      "title": "European diplomats attacked by Israeli settlers in West Bank",
+      "link": "https://www.bbc.co.uk/news/articles/c962ydpmjm3zo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Sun, 18 Oct 2026 12:16:14 GMT",
+      "source": "BBC",
+      "summary": "The Israeli military condemns the violence but the prime minister's office says it is part of a \"smear\" campaign."
     },
     {
       "title": "Burnt out cars and shattered glass on Paris streets after protests turn to riots and looting",
       "link": "https://www.bbc.co.uk/news/articles/c574pdzl0k4no?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Sun, 18 Oct 2026 09:56:45 GMT",
+      "pubDate": "Sun, 18 Oct 2026 12:07:31 GMT",
       "source": "BBC",
-      "summary": "Around 1,800 people were arrested after nationwide protests saw outbreaks of violence and vandalism."
+      "summary": "About 1,800 people were arrested after nationwide protests saw outbreaks of violence and vandalism."
     },
     {
-      "title": "Rubio says Ukraine without access to Starshield, future ‘under discussion’",
-      "link": "https://www.aljazeera.com/news/2026/10/18/rubio-says-ukraine-without-access-to-starshield-future-under-discussion?traffic_source=rss",
-      "pubDate": "Sun, 18 Oct 2026 09:42:40 +0000",
-      "source": "Al Jazeera",
-      "summary": "Top US diplomat says Ukraine has requested access to military-grade version of Starlink for strikes deep inside Russia."
+      "title": "Pope Leo Addresses the Faithful a Day After Leaving the Hospital",
+      "link": "https://www.nytimes.com/2026/10/18/world/europe/pope-leo-mass-lung-cancer.html",
+      "pubDate": "Sun, 18 Oct 2026 11:58:06 +0000",
+      "source": "NYT World",
+      "summary": "“This experience has made me feel a special closeness to all those who are battling illness and infirmity,” he said, in his first public appearance since his lung surgery."
     },
     {
-      "title": "Food or medicine? The impossible choices facing Sudan’s chronically ill",
-      "link": "https://www.aljazeera.com/features/2026/10/18/food-or-medicine-the-impossible-choices-facing-sudans-chronically-ill?traffic_source=rss",
-      "pubDate": "Sun, 18 Oct 2026 09:22:44 +0000",
-      "source": "Al Jazeera",
-      "summary": "Sudanese are facing growing costs of medicine caused by the country's civil war."
-    },
-    {
-      "title": "Fighting intensifies across Yemen as humanitarian crisis deepens",
-      "link": "https://www.aljazeera.com/news/2026/10/18/fighting-intensifies-across-yemen-as-humanitarian-crisis-deepens?traffic_source=rss",
-      "pubDate": "Sun, 18 Oct 2026 09:16:54 +0000",
-      "source": "Al Jazeera",
-      "summary": "Clashes between Yemeni forces and Houthis cause casualties on both sides as aid agencies warn of humanitarian crisis."
-    },
-    {
-      "title": "Several dead or injured in major fire at Canada military base",
-      "link": "https://www.bbc.co.uk/news/articles/cr86z0w4lxdxo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Sun, 18 Oct 2026 08:52:41 GMT",
+      "title": "Oil facilities hit in deadly overnight attack on St Petersburg",
+      "link": "https://www.bbc.co.uk/news/articles/c3eweygrjzd7o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Sun, 18 Oct 2026 11:57:49 GMT",
       "source": "BBC",
-      "summary": "Officials have not given a cause or death toll, citing the \"very active and delicate\" situation at Canadian Forces Base Wainwright."
+      "summary": "At least one person was killed in the strikes, which also hit a data centre used by Russia's equivalent of Facebook."
     },
     {
-      "title": "France in Shock After Protests Devolve Into Riots",
-      "link": "https://www.nytimes.com/2026/10/18/world/europe/france-protests-shock-arson.html",
-      "pubDate": "Sun, 18 Oct 2026 08:44:26 +0000",
-      "source": "NYT World",
-      "summary": "Centrist and leftist leaders blamed each other after anti-government protests devolved into chaos."
-    },
-    {
-      "title": "In India, the Scion of a Political Dynasty Tries to Seize His Moment",
-      "link": "https://www.nytimes.com/2026/10/18/world/asia/india-gandhi-political-dynasty.html",
-      "pubDate": "Sun, 18 Oct 2026 08:04:51 +0000",
-      "source": "NYT World",
-      "summary": "Rahul Gandhi is the descendant of three prime ministers. A surge of protests could give him a springboard to take on the nation’s current leader."
-    },
-    {
-      "title": "Israeli Settlers Attack Palestinians and European Officials in West Bank",
-      "link": "https://www.nytimes.com/2026/10/17/world/middleeast/israeli-settlers-attack-palestinians-diplomats-west-bank.html",
-      "pubDate": "Sun, 18 Oct 2026 07:36:55 +0000",
-      "source": "NYT World",
-      "summary": "Extremists assaulted residents and broke a European diplomatic vehicle’s window, witnesses said, as settler violence surges in the territory during the olive harvest."
+      "title": "President Apocalypse",
+      "link": "https://theintercept.com/2026/10/18/trump-president-apocalypse-war/",
+      "pubDate": "Sun, 18 Oct 2026 11:00:00 +0000",
+      "source": "The Intercept",
+      "summary": "While Trump campaigns for a Nobel Peace Prize, his war on humanity’s only home continues unabated. \nThe post President Apocalypse appeared first on The Intercept."
     },
     {
       "title": "A wave of homemade, synthetic drugs sweeps US and deepens crisis",
@@ -554,25 +595,11 @@
       "summary": "BBC News hears from users, dealers, prison and recovery workers as the country battles with a deadly new drug epidemic."
     },
     {
-      "title": "Singing, Dancing and Getting Dumped by A.I. on Korean TV",
-      "link": "https://www.nytimes.com/2026/10/18/world/asia/korea-ai-dating-show.html",
-      "pubDate": "Sun, 18 Oct 2026 04:24:04 +0000",
-      "source": "NYT World",
-      "summary": "Three celebrities date artificial intelligence avatars on a reality show made in South Korea, where A.I. is hugely popular."
-    },
-    {
-      "title": "European diplomats attacked by Israeli settlers in West Bank",
-      "link": "https://www.bbc.co.uk/news/articles/c962ydpmjm3zo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Sat, 17 Oct 2026 23:52:38 GMT",
+      "title": "Trump waives several Russia sanctions as row with Zelensky intensifies",
+      "link": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Sun, 18 Oct 2026 01:10:25 GMT",
       "source": "BBC",
-      "summary": "The Israeli military condemns the violence but the prime minister's office says it is part of a \"smear\" campaign."
-    },
-    {
-      "title": "Photos show luxury boat with 50m pool and water slides near Kim Jong Un's summer retreat",
-      "link": "https://www.bbc.co.uk/news/articles/cmy4xnyyg1lyo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Sat, 17 Oct 2026 22:09:50 GMT",
-      "source": "BBC",
-      "summary": "Satellite images give clues about how Kim spends his holidays - something far out of reach for most North Koreans."
+      "summary": "The US president temporarily ends many restrictions on Moscow recently passed by Congress over \"national security\" concerns."
     },
     {
       "title": "Dems Have an Opportunity to Force an End to the Iran War. Will They Take It?",
@@ -601,13 +628,6 @@
       "pubDate": "Thu, 15 Oct 2026 21:14:22 +0000",
       "source": "The Intercept",
       "summary": "Collins received tens of thousands from Lockheed during a two-month period surrounding a critical 2023 watchdog report.\nThe post Lockheed Martin Showered Susan Collins With Cash as F-35 Program Hit Turbulence appeared first on The Intercept."
-    },
-    {
-      "title": "Trump Is Targeting Ilhan Omar. Where’s the Elite Media Outrage?",
-      "link": "https://theintercept.com/2026/10/15/ilhan-omar-raid-corporate-media-coverage/",
-      "pubDate": "Thu, 15 Oct 2026 17:54:35 +0000",
-      "source": "The Intercept",
-      "summary": "Unlike the raid on John Bolton, the targeting of Omar has elicited zero condemnation from NYT, WSJ, and Washington Post.\nThe post Trump Is Targeting Ilhan Omar. Where’s the Elite Media Outrage? appeared first on The Intercept."
     },
     {
       "title": "Satellite Images Show Extent of Trump Admin’s Tree-Felling at DC Golf Course",
@@ -712,20 +732,44 @@
   ],
   "syndicate_journal": [
     {
-      "title": "Workers Can Govern, but They Need Power First",
-      "link": "https://jacobin.com/2026/10/working-class-candidates-representation-unions",
-      "summary": "According to data from a sweeping new study of working-class legislators by political scientists Nicholas Carnes and Noam Lupu, only about 2 percent of legislators across the world’s democracies held a working-class job — which the authors define as manual, service, or clerical work — before getting",
-      "pubDate": "2026-10-17T16:31:17.325Z",
+      "title": "Early Humans in America Endured Climate Chaos",
+      "link": "https://nautil.us/early-humans-in-america-endured-climate-chaos-1285885/",
+      "summary": "Footprints found at White Sands, New Mexico, were dated to the height of the last ice age\nThe post Early Humans in America Endured Climate Chaos appeared first on Nautilus.",
+      "pubDate": "Sun, 18 Oct 2026 14:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "Jacobin Is International",
+      "link": "https://jacobin.com/2026/10/jacobin-international-europe-latin-america",
+      "summary": "began in the United States, but our emancipatory project has always been internationalist. The questions we’re focused on — about who holds power in our societies, about how capitalism shapes our lives, and how working people can abolish class society — extend across borders.Jacobin\nAlongside our En",
+      "pubDate": "2026-10-18T13:00:00.126Z",
       "domain": "politics",
       "source": "Jacobin"
     },
     {
-      "title": "Colombia’s President Wants US Boots on the Ground",
-      "link": "https://jacobin.com/2026/10/espriella-plan-colombia-us-military-domestic-repression",
-      "summary": "In the ten weeks since multimillionaire lawyer Abelardo de la Espriella was inaugurated as Colombia’s president, the country has undergone a significant political shift with respect to asserting its national sovereignty, with Colombia returning to — and potentially deepening — its subordinate positi",
-      "pubDate": "2026-10-17T15:44:08.422Z",
+      "title": "The Video Game Industry’s Crisis Is a Crisis of Capitalism",
+      "link": "https://jacobin.com/2026/10/montreal-video-game-developers-layoffs-unions",
+      "summary": "Montreal has been touted as a major creative hub for the video game industry for over twenty years, leading the province of Quebec’s efforts to develop its digital creative sector. The industry  generates CAD$1.4 billion in annual revenues within the province, yet game workers feel the lack of job s",
+      "pubDate": "2026-10-18T12:30:00.157Z",
       "domain": "politics",
       "source": "Jacobin"
+    },
+    {
+      "title": "Anwar Shaikh Changed My Life",
+      "link": "https://jacobin.com/2026/10/shaikh-obituary-marxist-economics-teaching",
+      "summary": "Anwar Shaikh, one of the most important Marxist economists of his generation, died on October 6 at the age of eighty in New York City.\nTwo years ago, a conference was held to mark his retirement from the Department of Economics at the New School for Social Research, where he had taught for fifty yea",
+      "pubDate": "2026-10-18T12:00:00.060Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "Americans Who Go to Church and Trust Science Are Also More Likely to Believe in Ghosts and Curses",
+      "link": "https://nautil.us/americans-who-go-to-church-and-trust-science-are-also-more-likely-to-believe-in-ghosts-and-curses-1285880/",
+      "summary": "The church of the supernatural\nThe post Americans Who Go to Church and Trust Science Are Also More Likely to Believe in Ghosts and Curses appeared first on Nautilus.",
+      "pubDate": "Sun, 18 Oct 2026 12:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
     },
     {
       "title": "Singularities: von Neumann, Good, Vinge, …",
@@ -736,34 +780,10 @@
       "source": "Language Log"
     },
     {
-      "title": "Exploring the Mirror World of the Chinese Internet",
-      "link": "https://jacobin.com/2026/10/china-tech-internet-censorship-great-firewall",
-      "summary": "China’s internet is known for a vast system of censorship and surveillance that has evolved alongside its booming digital economy. Yet the story of the Chinese internet is not simply one of authoritarian control or unrestricted growth. In her , , journalist and author Yi-Ling Liu explores how people",
-      "pubDate": "2026-10-17T14:33:06.540Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
       "title": "Can We Ditch BMI for an Obesity Index That Predicts Disease Risk Better?",
       "link": "https://nautil.us/can-we-ditch-bmi-for-an-obesity-index-that-predicts-disease-risk-better-1285877/",
       "summary": "It’s ridiculously simplistic and nearly two centuries old\nThe post Can We Ditch BMI for an Obesity Index That Predicts Disease Risk Better? appeared first on Nautilus.",
       "pubDate": "Sat, 17 Oct 2026 14:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
-      "title": "Replacing Just 10 Percent of Ultra‑processed Foods with Whole Foods Linked to Drop in Bowel Cancer Rate",
-      "link": "https://nautil.us/replacing-just-10-percent-of-ultra-processed-foods-with-whole-foods-linked-to-drop-in-bowel-cancer-rate-1285872/",
-      "summary": "Examples of ultra processed foods include many supermarket breads, cured meats and some breakfast cereals\nThe post Replacing Just 10 Percent of Ultra‑processed Foods with Whole Foods Linked to Drop in Bowel Cancer Rate appeared first on Nautilus.",
-      "pubDate": "Sat, 17 Oct 2026 12:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
-      "title": "Workers Who Fear AI May be More Prone to Slacking Off",
-      "link": "https://nautil.us/workers-who-fear-ai-may-be-more-prone-to-slacking-off-1285865/",
-      "summary": "“Jobs apocalypse” or not, threats have consequences\nThe post Workers Who Fear AI May be More Prone to Slacking Off appeared first on Nautilus.",
-      "pubDate": "Fri, 16 Oct 2026 20:30:00 +0000",
       "domain": "science",
       "source": "Nautilus"
     },
@@ -954,64 +974,64 @@
   ],
   "misinfo_toilet": [
     {
-      "headline": "Several dead or injured in major fire at Canada military base",
+      "headline": "France protests live: Macron to address nation after protests",
       "fragment": "To dissimulate is to pretend not to have what one has. To simulate is to feign to have what one doesn't have. One implies a presence, the other an absence.",
-      "splice": "Several dead or injured in major fire at Canada military base not unlike to dissimulate is to pretend not to have what one has. To simulate is to feign to have what one doesn't have. One implies a presence, the other an absence.",
-      "seed": 20261028
+      "splice": "France protests live: Macron to address nation after protests not unlike to dissimulate is to pretend not to have what one has. To simulate is to feign to have what one doesn't have. One implies a presence, the other an absence.",
+      "seed": 20261033
     },
     {
-      "headline": "South African rugby player Hyron Andrews paid emotional tribute in France",
+      "headline": "Why is Trump now encouraging mail-in voting?",
       "fragment": "There is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
-      "splice": "South African rugby player Hyron Andrews paid emotional tribute in France in the void where there is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
-      "seed": 20261029
+      "splice": "Why is Trump now encouraging mail-in voting? in the void where there is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
+      "seed": 20261034
     },
     {
       "headline": "Viral Google Maps Images Shared Widely This Week Show Gaza Ruins. We Obtained More Recent Satellite Imagery",
       "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
       "splice": "Viral Google Maps Images Shared Widely This Week Show Gaza Ruins. We Obtained More Recent Satellite Imagery despite it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "seed": 20261030
+      "seed": 20261035
     },
     {
-      "headline": "France in Shock After Protests Devolve Into Riots",
+      "headline": "Pope Leo Addresses the Faithful a Day After Leaving the Hospital",
       "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "splice": "France in Shock After Protests Devolve Into Riots meanwhile the breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "seed": 20261031
+      "splice": "Pope Leo Addresses the Faithful a Day After Leaving the Hospital meanwhile the breast is a machine that produces milk, and the mouth a machine coupled to it.",
+      "seed": 20261036
     },
     {
-      "headline": "Long After the Maui Fires, Toxic Metals Linger in Residents’ Bodies",
+      "headline": "DHS Was Designed as a Weapon",
       "fragment": "There is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
-      "splice": "Long After the Maui Fires, Toxic Metals Linger in Residents’ Bodies consequently there is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
-      "seed": 20261032
+      "splice": "DHS Was Designed as a Weapon consequently there is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
+      "seed": 20261037
     },
     {
-      "headline": "Singing, Dancing and Getting Dumped by A.I. on Korean TV",
+      "headline": "Oil facilities hit in deadly overnight attack on St Petersburg",
       "fragment": "In the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
-      "splice": "Singing, Dancing and Getting Dumped by A.I. on Korean TV the system notes that in the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
-      "seed": 20261033
+      "splice": "Oil facilities hit in deadly overnight attack on St Petersburg the system notes that in the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
+      "seed": 20261038
     },
     {
-      "headline": "Dems Have an Opportunity to Force an End to the Iran War. Will They Take It?",
+      "headline": "Trump waives several Russia sanctions as row with Zelensky intensifies",
       "fragment": "Antagonism is not now located externally, in the face-off between class blocs, but internally, in the psychology of the worker.",
-      "splice": "Dems Have an Opportunity to Force an End to the Iran War. Will They Take It? ...as antagonism is not now located externally, in the face-off between class blocs, but internally, in the psychology of the worker.",
-      "seed": 20261034
+      "splice": "Trump waives several Russia sanctions as row with Zelensky intensifies ...as antagonism is not now located externally, in the face-off between class blocs, but internally, in the psychology of the worker.",
+      "seed": 20261039
     },
     {
       "headline": "“A Recurring Pattern”: Civilians Paying the Price in Mali’s Drone Campaign",
       "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
       "splice": "“A Recurring Pattern”: Civilians Paying the Price in Mali’s Drone Campaign consequently it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "seed": 20261035
+      "seed": 20261040
     },
     {
-      "headline": "European diplomats attacked by Israeli settlers in West Bank",
+      "headline": "President Apocalypse",
       "fragment": "Traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "splice": "European diplomats attacked by Israeli settlers in West Bank the system notes that traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "seed": 20261036
+      "splice": "President Apocalypse the system notes that traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
+      "seed": 20261041
     },
     {
       "headline": "Groups Associated With India’s Far-Right Receive Millions Through US Donor-Advised Funds",
       "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
       "splice": "Groups Associated With India’s Far-Right Receive Millions Through US Donor-Advised Funds which is to say the revolutionary lives in the gap which separates technical progress from social totality.",
-      "seed": 20261037
+      "seed": 20261042
     }
   ]
 }
