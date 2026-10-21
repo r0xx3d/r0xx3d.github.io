@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T11:24:06.779Z",
+  "generated_at": "2026-10-21T21:24:21.650Z",
   "threat_intel": {
     "cisa_kev": [
       {
@@ -244,321 +244,120 @@
         ]
       }
     ],
-    "urlhaus": [
-      {
-        "id": "3953417",
-        "date_added": "2026-10-21 11:16:21",
-        "url": "http://jscdncloude.beer/e8a3331a60cec7ff68345352ec34ee2c2153540d82a2e3fc90dd5ae702ecaa58",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "ClickFix",
-          "ErrTraffic"
-        ]
-      },
-      {
-        "id": "3953416",
-        "date_added": "2026-10-21 11:15:23",
-        "url": "http://jscdncloude.beer/c33fdf3cea7e3e5c72e6039dffa85bdb4f0d39144d635b53cdb818f2a21eca23",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "ClickFix",
-          "ErrTraffic"
-        ]
-      },
-      {
-        "id": "3953414",
-        "date_added": "2026-10-21 11:11:20",
-        "url": "http://jscdncloude.beer/e7d0bd76d679d72da082fb3623f7ef25804144e9c0c7fdf5030d34c07766bb78",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "ClickFix",
-          "ErrTraffic"
-        ]
-      },
-      {
-        "id": "3953415",
-        "date_added": "2026-10-21 11:11:20",
-        "url": "http://jscdncloude.beer/d5508f62b5f9ba31c33ec9211dc78daf11cca7569f37725a4a7e7f002020f368",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "ClickFix",
-          "ErrTraffic"
-        ]
-      },
-      {
-        "id": "3953413",
-        "date_added": "2026-10-21 11:10:16",
-        "url": "http://210.208.110.20:59885/i",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "arm",
-          "elf",
-          "mirai",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3953412",
-        "date_added": "2026-10-21 11:09:06",
-        "url": "https://www.dropbox.com/scl/fi/p3io394bpuk0phap4hc7t/Toolbox_Core.rar?rlkey=e0yb09y8871rnatvz6ejs12at&st=jff1xqeh&dl=1",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "None"
-        ]
-      },
-      {
-        "id": "3953410",
-        "date_added": "2026-10-21 11:08:26",
-        "url": "http://194.163.143.72:8765/xmrig-arm64.bin.gz",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "CoinMiner",
-          "CVE-2025-55182",
-          "elf",
-          "R2SHELL ",
-          "react2shell",
-          "xmrig"
-        ]
-      },
-      {
-        "id": "3953411",
-        "date_added": "2026-10-21 11:08:26",
-        "url": "http://194.163.143.72:8765/xmrig-x64.bin.gz",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "CoinMiner",
-          "CVE-2025-55182",
-          "elf",
-          "R2SHELL ",
-          "react2shell",
-          "xmrig"
-        ]
-      },
-      {
-        "id": "3953406",
-        "date_added": "2026-10-21 11:08:17",
-        "url": "http://85.215.219.126:8765/xmrig-arm64.bin.gz",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "CoinMiner",
-          "CVE-2025-55182",
-          "elf",
-          "R2SHELL ",
-          "react2shell",
-          "xmrig"
-        ]
-      },
-      {
-        "id": "3953407",
-        "date_added": "2026-10-21 11:08:17",
-        "url": "http://85.215.219.126:8765/xmrig-x64.bin.gz",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "CoinMiner",
-          "CVE-2025-55182",
-          "elf",
-          "R2SHELL ",
-          "react2shell",
-          "xmrig"
-        ]
-      },
-      {
-        "id": "3953408",
-        "date_added": "2026-10-21 11:08:17",
-        "url": "http://158.220.105.179:8765/xmrig-arm64.bin.gz",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "CoinMiner",
-          "CVE-2025-55182",
-          "elf",
-          "R2SHELL ",
-          "react2shell",
-          "xmrig"
-        ]
-      },
-      {
-        "id": "3953409",
-        "date_added": "2026-10-21 11:08:17",
-        "url": "http://158.220.105.179:8765/xmrig-x64.bin.gz",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "CoinMiner",
-          "CVE-2025-55182",
-          "elf",
-          "R2SHELL ",
-          "react2shell",
-          "xmrig"
-        ]
-      },
-      {
-        "id": "3953404",
-        "date_added": "2026-10-21 11:08:16",
-        "url": "http://123.4.239.3:49753/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "elf",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3953405",
-        "date_added": "2026-10-21 11:08:16",
-        "url": "http://123.14.87.109:37891/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "elf",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3953402",
-        "date_added": "2026-10-21 11:08:14",
-        "url": "http://138.197.174.121:8765/xmrig-arm64.bin.gz",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "CoinMiner",
-          "CVE-2025-55182",
-          "elf",
-          "R2SHELL ",
-          "react2shell",
-          "xmrig"
-        ]
-      },
-      {
-        "id": "3953403",
-        "date_added": "2026-10-21 11:08:14",
-        "url": "http://138.197.174.121:8765/xmrig-x64.bin.gz",
-        "url_status": "offline",
-        "threat": "malware_download",
-        "tags": [
-          "CoinMiner",
-          "CVE-2025-55182",
-          "elf",
-          "R2SHELL ",
-          "react2shell",
-          "xmrig"
-        ]
-      },
-      {
-        "id": "3953400",
-        "date_added": "2026-10-21 11:08:08",
-        "url": "http://44.197.240.5/vltrig-loader-linux",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "R2SHELL React2Shell CVE-2025-55182 loader elf exe nodejs"
-        ]
-      },
-      {
-        "id": "3953401",
-        "date_added": "2026-10-21 11:08:08",
-        "url": "http://44.197.240.5/vltrig-loader.exe",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "R2SHELL React2Shell CVE-2025-55182 loader elf exe nodejs"
-        ]
-      },
-      {
-        "id": "3953399",
-        "date_added": "2026-10-21 11:07:12",
-        "url": "http://59.97.249.88:44758/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      },
-      {
-        "id": "3953398",
-        "date_added": "2026-10-21 11:03:22",
-        "url": "http://182.126.246.201:43526/bin.sh",
-        "url_status": "online",
-        "threat": "malware_download",
-        "tags": [
-          "32-bit",
-          "elf",
-          "mips",
-          "Mozi"
-        ]
-      }
-    ]
+    "urlhaus": []
   },
   "world_monitor": [
+    {
+      "title": "Trump heads to South Carolina to boost Senator Darline Graham in race",
+      "link": "https://www.aljazeera.com/news/2026/10/21/trump-heads-to-south-carolina-to-boost-senator-darline-graham-in-race?traffic_source=rss",
+      "pubDate": "Wed, 21 Oct 2026 21:07:43 +0000",
+      "source": "Al Jazeera",
+      "summary": "The race between the sister of late Senator Lindsey Graham and Democrat Annie Andrews has tightened in deep-red state."
+    },
+    {
+      "title": "Judge orders Meta to pay $25bn in fines for Facebook privacy violations",
+      "link": "https://www.aljazeera.com/news/2026/10/21/judge-orders-meta-to-pay-25bn-in-fines-for-facebook-privacy-violations?traffic_source=rss",
+      "pubDate": "Wed, 21 Oct 2026 21:01:32 +0000",
+      "source": "Al Jazeera",
+      "summary": "A jury found Meta guilty of lying to Facebook users in ⁠⁠⁠⁠⁠⁠⁠⁠New Mexico about access to their data."
+    },
+    {
+      "title": "Will Russia’s diesel shipment to the US lower prices before midterms?",
+      "link": "https://www.aljazeera.com/economy/2026/10/21/will-russias-diesel-shipment-to-the-us-lower-prices-before-midterms?traffic_source=rss",
+      "pubDate": "Wed, 21 Oct 2026 20:54:27 +0000",
+      "source": "Al Jazeera",
+      "summary": "Moscow dispatches its inaugural diesel shipment to the US, aiming to ease fuel shortages as midterm elections loom."
+    },
+    {
+      "title": "Colombia seizes 7.6 tonnes of cocaine in biggest haul in a decade",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/10/21/colombia-seizes-7-6-tonnes-of-cocaine-in-biggest-haul-in-a-decade?traffic_source=rss",
+      "pubDate": "Wed, 21 Oct 2026 20:51:23 +0000",
+      "source": "Al Jazeera",
+      "summary": "Colombian authorities have seized 7.6 tonnes of cocaine at the Caribbean port of Cartagena"
+    },
+    {
+      "title": "Video shows Israeli settler assaulting Palestinian child",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/10/21/video-shows-israeli-settler-assaulting-palestinian-child?traffic_source=rss",
+      "pubDate": "Wed, 21 Oct 2026 20:34:57 +0000",
+      "source": "Al Jazeera",
+      "summary": "An Israeli settler was filmed shouting at and assaulting a Palestinian child during an attack on a family east of Yatta."
+    },
+    {
+      "title": "Pope does not need further treatment after lung cancer surgery",
+      "link": "https://www.bbc.co.uk/news/articles/cqrly2dg5xzzo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Wed, 21 Oct 2026 20:09:10 GMT",
+      "source": "BBC",
+      "summary": "Test results have confirmed his diagnosis as a lung adenocarcinoma that was localised."
+    },
+    {
+      "title": "Rosenberg: US diplomatic push offers little hope for imminent Ukraine peace",
+      "link": "https://www.bbc.co.uk/news/articles/cm98zn5j89kdo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Wed, 21 Oct 2026 19:58:06 GMT",
+      "source": "BBC",
+      "summary": "Russia's President Putin does not feel under pressure right now to end the war."
+    },
+    {
+      "title": "Macron Says Trump Does Not Like France and Distorts Its Troubles",
+      "link": "https://www.nytimes.com/2026/10/21/world/europe/macron-trump-france-protests.html",
+      "pubDate": "Wed, 21 Oct 2026 19:16:14 +0000",
+      "source": "NYT World",
+      "summary": "Speaking in Qatar, President Emmanuel Macron railed against foreign leaders who he said had made false claims about unrest in France for their own political ends."
+    },
+    {
+      "title": "'Targeted' attack on much-loved MP leaves Australian town heartbroken",
+      "link": "https://www.bbc.co.uk/news/articles/cmgr8q88r5eqo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Wed, 21 Oct 2026 18:10:42 GMT",
+      "source": "BBC",
+      "summary": "Locals describe the MP, who had to have both legs amputated, as a genuinely kind person who fought for the community."
+    },
+    {
+      "title": "Russia says it is ready to resume talks with Ukraine and US to end war",
+      "link": "https://www.bbc.co.uk/news/articles/cq3djn5nxx12o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Wed, 21 Oct 2026 17:42:34 GMT",
+      "source": "BBC",
+      "summary": "The announcement came after Russian President Vladimir Putin met US President Donald Trump's special envoy Steve Witkoff in St Petersburg."
+    },
+    {
+      "title": "Drone Strike Kills More Than 150 in Abyei in Sudan’s Civil War",
+      "link": "https://www.nytimes.com/2026/10/21/world/africa/sudan-drone-strikes.html",
+      "pubDate": "Wed, 21 Oct 2026 16:51:53 +0000",
+      "source": "NYT World",
+      "summary": "Struggling against each other on the battlefield, the sides in Sudan’s civil war are relying on drones to strike across vast distances, inflicting huge tolls on civilians in the process."
+    },
+    {
+      "title": "What We Saw at Fast-Track Trials of Riot Suspects in France",
+      "link": "https://www.nytimes.com/2026/10/21/france-riots-court-trials.html",
+      "pubDate": "Wed, 21 Oct 2026 16:47:25 +0000",
+      "source": "NYT World",
+      "summary": "At the Tribunal de Paris, judges have supervised a carousel of expedited and often chaotic hearings for those detained during recent unrest."
+    },
+    {
+      "title": "Google DeepMind Engineer Resigns in Protest of Pentagon Contract",
+      "link": "https://theintercept.com/2026/10/21/google-deepmind-resign-ai-military-gaza/",
+      "pubDate": "Wed, 21 Oct 2026 16:25:02 +0000",
+      "source": "The Intercept",
+      "summary": "Sofia Liguori stepped down from DeepMind due to current military contracts — not speculative fears of an AI apocalypse.\nThe post Google DeepMind Engineer Resigns in Protest of Pentagon Contract appeared first on The Intercept."
+    },
+    {
+      "title": "Macron accuses foreign leaders of exploiting French riots   ",
+      "link": "https://www.bbc.co.uk/news/articles/ckjrw044ggxgo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Wed, 21 Oct 2026 14:04:28 GMT",
+      "source": "BBC",
+      "summary": "The comment is an apparent swipe at Benjamin Netanyahu and Donald Trump, who both face elections in coming weeks."
+    },
+    {
+      "title": "Palestinians Hope Israeli Election Will Oust Netanyahu",
+      "link": "https://www.nytimes.com/2026/10/21/world/middleeast/stakes-for-palestinians-of-israel-election.html",
+      "pubDate": "Wed, 21 Oct 2026 13:10:32 +0000",
+      "source": "NYT World",
+      "summary": "Many in Gaza and the West Bank are desperate to avoid more years of Prime Minister Benjamin Netanyahu’s right-wing government, which has made life close to unbearable."
+    },
     {
       "title": "UK to Headphone Dodgers on Trains: Shush",
       "link": "https://www.nytimes.com/2026/10/21/world/europe/uk-underground-headphones-commuters.html",
       "pubDate": "Wed, 21 Oct 2026 11:01:21 +0000",
       "source": "NYT World",
       "summary": "Prime Minister Andy Burnham announced a campaign against listening to music or videos without headphones on public transportation. We asked London commuters to weigh in."
-    },
-    {
-      "title": "Australian Politicians Were Already on Edge Before One of Their Own Was Attacked",
-      "link": "https://www.nytimes.com/2026/10/21/world/asia/helen-haines-attack-australian-politicians.html",
-      "pubDate": "Wed, 21 Oct 2026 10:57:42 +0000",
-      "source": "NYT World",
-      "summary": "Much remains unclear about why a driver ran a car into Helen Haines, a lawmaker. Even so, fellow representatives, especially women, spoke of feeling threatened in a polarized atmosphere."
-    },
-    {
-      "title": "US citizen Stephen Hubbard freed by Russia and 'on his way home', Trump says",
-      "link": "https://www.bbc.co.uk/news/articles/c6m24l9v3745o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Wed, 21 Oct 2026 10:52:00 GMT",
-      "source": "BBC",
-      "summary": "The former teacher has been released without any \"swap\" required, according to the president."
-    },
-    {
-      "title": "Cost of living protests aren’t just happening in Europe",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/10/21/cost-of-living-protests-arent-just-happening-in-europe?traffic_source=rss",
-      "pubDate": "Wed, 21 Oct 2026 10:49:44 +0000",
-      "source": "Al Jazeera",
-      "summary": "Cost of living protests aren’t just happening in Europe"
-    },
-    {
-      "title": "Kvaratskhelia, Dembele and Marquinhos out injured after PSG’s win",
-      "link": "https://www.aljazeera.com/sports/2026/10/21/kvaratskhelia-dembele-and-marquinhos-out-injured-after-psgs-win?traffic_source=rss",
-      "pubDate": "Wed, 21 Oct 2026 10:45:01 +0000",
-      "source": "Al Jazeera",
-      "summary": "Kvaratskhelia out for months with a torn ACL in his right knee, while Dembele and Marquinhos suffer thigh muscle tears."
-    },
-    {
-      "title": "Why are French protesters chanting ‘Bismillah, c’est les ténèbres’?",
-      "link": "https://www.aljazeera.com/news/2026/10/21/why-are-french-protesters-chanting-bismillah-cest-les?traffic_source=rss",
-      "pubDate": "Wed, 21 Oct 2026 10:35:34 +0000",
-      "source": "Al Jazeera",
-      "summary": "The slogan has come to represent a whole array of grievances that lie at the heart of the protest movement."
-    },
-    {
-      "title": "UK approves development of Jackdaw gasfield in North Sea",
-      "link": "https://www.aljazeera.com/news/2026/10/21/uk-approves-development-of-jackdaw-gasfield-in-north-sea?traffic_source=rss",
-      "pubDate": "Wed, 21 Oct 2026 10:28:18 +0000",
-      "source": "Al Jazeera",
-      "summary": "The decision has drawn sharp criticism from left-wing politicians and environmentalists."
-    },
-    {
-      "title": "WW1 to Houthis: British jets for Saudi Arabia build on long military bond",
-      "link": "https://www.aljazeera.com/news/2026/10/21/ww1-to-houthis-british-jets-for-saudi-arabia-build-on-long-military-bond?traffic_source=rss",
-      "pubDate": "Wed, 21 Oct 2026 10:22:35 +0000",
-      "source": "Al Jazeera",
-      "summary": "UK's deployment of jets to defend Saudi Arabia is the latest chapter in a relationship older than the kingdom itself."
     },
     {
       "title": "Trump’s Obsession With Somalia Isn’t Just Racist. It’s Been Lethal.",
@@ -568,60 +367,11 @@
       "summary": "Beyond targeting Rep. Ilhan Omar, the Trump administration has killed, arrested, deported, and demonized Somalis at home and abroad.\nThe post Trump’s Obsession With Somalia Isn’t Just Racist. It’s Been Lethal. appeared first on The Intercept."
     },
     {
-      "title": "A.I. Election Videos Are Flooding Brazil. Could They Sway the Vote?",
-      "link": "https://www.nytimes.com/2026/10/21/world/americas/ai-election-videos-brazil.html",
-      "pubDate": "Wed, 21 Oct 2026 09:02:16 +0000",
-      "source": "NYT World",
-      "summary": "Brazil spent years targeting electoral lies on the internet. Now, artificial intelligence is stumping the election authorities and reshaping a high-stakes race."
-    },
-    {
-      "title": "Palestinians Hope Israeli Election Will Oust Netanyahu",
-      "link": "https://www.nytimes.com/2026/10/21/world/middleeast/stakes-for-palestinians-of-israel-election.html",
-      "pubDate": "Wed, 21 Oct 2026 08:47:10 +0000",
-      "source": "NYT World",
-      "summary": "Many in Gaza and the West Bank are desperate to avoid more years of Prime Minister Benjamin Netanyahu’s right-wing government, which has made life close to unbearable."
-    },
-    {
-      "title": "Elon Musk confirms he is considering merging Tesla and SpaceX",
-      "link": "https://www.bbc.co.uk/news/articles/cmlyl09xjke4o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Wed, 21 Oct 2026 08:42:49 GMT",
-      "source": "BBC",
-      "summary": "Musk says special committees within both companies have been formed to look at a possible mega-merger."
-    },
-    {
-      "title": "Australian MP loses both legs after alleged car attack, husband says",
-      "link": "https://www.bbc.co.uk/news/articles/ckwyqdqxw6d0o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Wed, 21 Oct 2026 07:56:30 GMT",
-      "source": "BBC",
-      "summary": "Her alleged attacker, 43-year-old Brendan Nugent, faces multiple charges and appeared in court for the first time on Wednesday."
-    },
-    {
-      "title": "Katya Adler: France divided over who to blame for riots and what to learn from them",
-      "link": "https://www.bbc.co.uk/news/articles/cq0me4g9p970o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Wed, 21 Oct 2026 06:50:40 GMT",
-      "source": "BBC",
-      "summary": "In France and beyond there is widespread disagreement over what led to some of the worst unrest seen in French cities in modern history."
-    },
-    {
-      "title": "As Alberta Rejects Canada Separatism, Carney Gets Much of the Credit",
-      "link": "https://www.nytimes.com/2026/10/20/world/canada/carney-alberta-referendum-trump.html",
-      "pubDate": "Wed, 21 Oct 2026 00:25:00 +0000",
-      "source": "NYT World",
-      "summary": "Prime Minister Mark Carney won over Canada’s most conservative province by promising a pipeline and campaigning hard, defeating its efforts to secede."
-    },
-    {
       "title": "Kohen Wiley’s Family Says Investigators Didn’t Contact Them Before Concluding Cops Did No Wrong",
       "link": "https://theintercept.com/2026/10/20/kohen-wiley-police-shooting-mississippi/",
       "pubDate": "Tue, 20 Oct 2026 22:18:47 +0000",
       "source": "The Intercept",
       "summary": "Mississippi has yet to release any support for its claim that a “thorough and impartial” review showed the shooting was “justified.”\nThe post Kohen Wiley’s Family Says Investigators Didn’t Contact Them Before Concluding Cops Did No Wrong appeared fir"
-    },
-    {
-      "title": "Trump and Zelensky appear at loggerheads despite new optimism",
-      "link": "https://www.bbc.co.uk/news/articles/ckrey51jrgnro?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Tue, 20 Oct 2026 20:00:57 GMT",
-      "source": "BBC",
-      "summary": "The Ukrainian leader's hug with Steve Witkoff in the Norwegian capital is unlikely to dispel misgivings about US policy towards his country, writes Paul Adams."
     },
     {
       "title": "Yemenis Unable to Reach Hospital Are Part of the Iran War Death Toll",
@@ -636,13 +386,6 @@
       "pubDate": "Mon, 19 Oct 2026 21:43:15 +0000",
       "source": "The Intercept",
       "summary": "The Republican running for Senate in Michigan is directing campaign funds toward chartered flights, a Miami car service, and BMW repairs.\nThe post Mike Rogers Spent $100K on Private Jets and Luxury Travel Last Quarter appeared first on The Intercept."
-    },
-    {
-      "title": "The Army Wants to Sic AI Agents on Its Enemies. What Could Go Wrong?",
-      "link": "https://theintercept.com/2026/10/19/army-autonomous-ai-agents-arcyber/",
-      "pubDate": "Mon, 19 Oct 2026 10:00:00 +0000",
-      "source": "The Intercept",
-      "summary": "Documents obtained by The Intercept show the military is trying to deploy autonomous AI agents to hack its adversaries.\nThe post The Army Wants to Sic AI Agents on Its Enemies. What Could Go Wrong? appeared first on The Intercept."
     },
     {
       "title": "Satellite Images Show Extent of Trump Admin’s Tree-Felling at DC Golf Course",
@@ -681,6 +424,20 @@
     }
   ],
   "syndication": [
+    {
+      "title": "Pluralistic: Adversarial interoperability is a team sport (21 Oct 2026)",
+      "link": "https://pluralistic.net/2026/10/21/brittle-individualism/",
+      "pubDate": "Wed, 21 Oct 2026 20:05:21 +0000",
+      "author": "Pluralistic",
+      "content": "Today's links Adversarial interoperability is a team sport: Vibe-coded jailbreaks are fun, but don't solve the problem. Hey look at this: Delights to delectate. Object permanence: Labour Whip's pro-Iraq war threats; LoC's emulators; Kevin Mitnick plays CIA stooge; ICE: \"The warrant is coming out of "
+    },
+    {
+      "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
+      "link": "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/",
+      "pubDate": "Wed, 21 Oct 2026 15:26:07 +0000",
+      "author": "KrebsOnSecurity",
+      "content": "Expect to see quite a few websites serving \"404\" or \"Page Not Found\" errors today: Nearly 70 percent of websites need to update their core software to fix a pair of vulnerabilities that allow an attacker to seize full control over affected servers. Experts say there are working exploits for the flaw"
+    },
     {
       "title": "Workshop on Economics and Information Security (WEIS) Archive",
       "link": "https://www.schneier.com/blog/archives/2026/10/workshop-on-economics-and-information-security-weis-archive.html",
@@ -724,28 +481,78 @@
       "content": "Today's links The technopolitics of ad-tech: Spying is good for tech, context is good for publishers. Hey look at this: Delights to delectate. Object permanence: PNH x Mike Ford; Singapore v Far East Economic Review; Publishing v bestsellers; Architecture v security; Vista v everyone; Free Bieber; B"
     },
     {
-      "title": "Pluralistic: Israeli ad-tech company was a delivery system for \"mercenary spyware\" (17 Oct 2026)",
-      "link": "https://pluralistic.net/2026/10/17/mercenary-spyware/",
-      "pubDate": "Sat, 17 Oct 2026 10:47:35 +0000",
-      "author": "Pluralistic",
-      "content": "Today's links Israeli ad-tech company was a delivery system for \"mercenary spyware\": And they used Google, Facebook and every other major ad platform to do it. Hey look at this: Delights to delectate. Object permanence: Big Mouth Billy Bass x Linux; No-Fly lists v common sense; Lemony Snicket advise"
-    },
-    {
       "title": "U.K. Sanctions Cryptomus for RU Money Laundering",
       "link": "https://krebsonsecurity.com/2026/10/u-k-sanctions-cryptomus-for-ru-money-laundering/",
       "pubDate": "Wed, 14 Oct 2026 14:22:49 +0000",
       "author": "KrebsOnSecurity",
       "content": "The United Kingdom has issued economic sanctions against Cryptomus, a chameleonic cryptocurrency platform that experts say serves as a major conduit for payments related to ransomware, narcotics, darknet markets, fraud and cybercrime services that are helping Russia circumvent existing financial res"
-    },
-    {
-      "title": "Microsoft Patches More Than 1,400 Security Flaws",
-      "link": "https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/",
-      "pubDate": "Tue, 13 Oct 2026 23:24:53 +0000",
-      "author": "KrebsOnSecurity",
-      "content": "Microsoft today issued updates to fix more than 1,400 security vulnerabilities in its Windows operating systems and other software. Today's epic patch batch dwarfs September's record of nearly 1,000 fixes, which was already about ten times the normal monthly patch load from Redmond."
     }
   ],
   "syndicate_journal": [
+    {
+      "title": "How Crocodiles Survived the Asteroid That Killed the Dinosaurs",
+      "link": "https://nautil.us/how-crocodiles-survived-the-asteroid-that-killed-the-dinosaurs-1286003/",
+      "summary": "They knew the most important rule in real estate\nThe post How Crocodiles Survived the Asteroid That Killed the Dinosaurs appeared first on Nautilus.",
+      "pubDate": "Wed, 21 Oct 2026 20:30:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "Nathan Fielder Enters Silicon Valley’s Vortex of Delusion",
+      "link": "https://jacobin.com/2026/10/fielder-holmes-documentary-theranos-tech",
+      "summary": "W hen the credits began to roll at the screening I attended of , Nathan Fielder and Lance Oppenheim’s buzzy new documentary, it was like waking up from a dream. I walked away from those three hours — which felt like quite a bit less, despite the long sequences free of dialogue — with my opinion of E",
+      "pubDate": "2026-10-21T19:37:05.509Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "To See the World Through a Kaleidoscope of Butterflies",
+      "link": "https://nautil.us/to-see-the-world-through-a-kaleidoscope-of-butterflies-1285994/",
+      "summary": "This writer was transformed by her “foolish” quest to chase butterflies in Denmark\nThe post To See the World Through a Kaleidoscope of Butterflies appeared first on Nautilus.",
+      "pubDate": "Wed, 21 Oct 2026 19:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "Drinking Tea May Reduce Vascular Disease Risk",
+      "link": "https://nautil.us/drinking-tea-may-reduce-vascular-disease-risk-1286000/",
+      "summary": "But there’s a catch\nThe post Drinking Tea May Reduce Vascular Disease Risk appeared first on Nautilus.",
+      "pubDate": "Wed, 21 Oct 2026 18:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "Medieval Egypt Was No Stranger to Class War",
+      "link": "https://jacobin.com/2026/10/egypt-middle-ages-famine-class",
+      "summary": "On Roda Island in the Nile stands a stone column nineteen cubits (thirty-four feet) tall and nearly 1,200 years old. It is called . Before the construction of the Aswan Dam, an official would measure how high the river rose and from that reading determine the fate of the country’s annual harvest. By",
+      "pubDate": "2026-10-21T17:16:47.754Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "Mike Wallace, Gotham’s Chronicler",
+      "link": "https://jacobin.com/2026/10/wallace-history-nyc-class-struggle",
+      "summary": "Mike Wallace once handed me a matchbook, the kind of paper trinket that served like ticker-tape as a currency of the twentieth-century city: given out at corner stores and newsstands, boxing matches and cafeterias, free-flowing from cigarette and candy booths on subway platforms.\nThese flammable pap",
+      "pubDate": "2026-10-21T16:23:09.204Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "See Inside Cells Like Never Before in These Vivid Microscopic Images",
+      "link": "https://www.quantamagazine.org/see-inside-cells-like-never-before-in-these-vivid-microscopic-images-20261021/",
+      "summary": "Winning entries in the 2026 Nikon Small World competitions reveal the hidden interactions that govern everyday life.            \nThe post See Inside Cells Like Never Before in These Vivid Microscopic Images first appeared on Quanta Magazine",
+      "pubDate": "Wed, 21 Oct 2026 14:00:07 +0000",
+      "domain": "science",
+      "source": "Quanta"
+    },
+    {
+      "title": "The Forgotten Stories Behind Presidential Campaign Buttons",
+      "link": "https://daily.jstor.org/the-forgotten-stories-behind-presidential-campaign-buttons/",
+      "summary": "The race for the White House has always inspired unusual publicity stunts. A vast collection shows just how strange they could get.\nThe post The Forgotten Stories Behind Presidential Campaign Buttons appeared first on JSTOR Daily.",
+      "pubDate": "Wed, 21 Oct 2026 13:45:00 +0000",
+      "domain": "history",
+      "source": "JSTOR Daily"
+    },
     {
       "title": "When it started to burn",
       "link": "https://aeon.co/videos/what-four-years-of-ceaseless-war-looks-like-to-ukrainian-civilians",
@@ -779,30 +586,6 @@
       "source": "arXiv: cs.AI"
     },
     {
-      "title": "Primates Also Become Germophobes After Living Through a Viral Outbreak",
-      "link": "https://nautil.us/primates-also-become-germophobes-after-living-through-a-viral-outbreak-1285973/",
-      "summary": "And it could shed light on the evolutionary origins of disgust\nThe post Primates Also Become Germophobes After Living Through a Viral Outbreak appeared first on Nautilus.",
-      "pubDate": "Tue, 20 Oct 2026 23:05:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
-      "title": "Are Our Hearts Strong Enough to Get to Mars?",
-      "link": "https://nautil.us/are-our-hearts-strong-enough-to-get-to-mars-1285977/",
-      "summary": "Prolonged space travel can wreak havoc on the circulatory system\nThe post Are Our Hearts Strong Enough to Get to Mars? appeared first on Nautilus.",
-      "pubDate": "Tue, 20 Oct 2026 22:30:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
-      "title": "The Most Unsettling Books We Know",
-      "link": "https://nautil.us/the-most-unsettling-books-we-know-1285958/",
-      "summary": "Scientists and artists tell us about the book that scared them to the core\nThe post The Most Unsettling Books We Know appeared first on Nautilus.",
-      "pubDate": "Tue, 20 Oct 2026 20:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
       "title": "Gendering duct tape again",
       "link": "https://languagelog.ldc.upenn.edu/nll/?p=74468&utm_source=rss&utm_medium=rss&utm_campaign=gendering-duct-tape-again",
       "summary": "The Weather Channel recently published a story about the value of duct tape in keeping out flood water: \"Duct tape kept out more flood water than sandbags in laboratory tests\". Its newletter advertised that story as \"A victory for dads everywhere\": The Wikipedia article on duct tape tells us about t",
@@ -811,36 +594,12 @@
       "source": "Language Log"
     },
     {
-      "title": "How a Canadian Union Finally Bested Walmart",
-      "link": "https://jacobin.com/2026/10/canada-logistics-walmart-union-contract",
-      "summary": "In our , when mass protests come and go without much clear sense of what was won or lost, the strategies of social movements can seem quixotic, their benchmarks of success fuzzy. In the union world, however, success or failure can be measured in more cut-and-dried terms: by the ratification of a uni",
-      "pubDate": "2026-10-20T18:26:49.702Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
-      "title": "Even Musk Haters Will Hate Sitting Through Musk",
-      "link": "https://jacobin.com/2026/10/review-gibney-documentary-musk",
-      "summary": "Always glad to see Elon Musk pummeled, of course, as he is in Alex Gibney’s documentary , now playing in theaters. The film sounds the alarm over this right-wing trillionaire tech bastard, which can’t be done too early or too often. But there’s a problem when even I, a fervent, long-term Musk hater,",
-      "pubDate": "2026-10-20T17:20:20.947Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
       "title": "Immortal Beloved: Krishna and Rādhā Exchanging Clothes (ca. 1700–1900)\n",
       "link": "https://publicdomainreview.org/collection/krishna-and-radha-exchanging-clothes",
       "summary": "Indian images that grapple with the unbearable fact that lover and beloved are not one.",
       "pubDate": "Tue, 20 Oct 2026 16:45:00 GMT",
       "domain": "history",
       "source": "Public Domain Review"
-    },
-    {
-      "title": "Socialize All Housing",
-      "link": "https://jacobin.com/2026/10/housing-socialization-ownership-assets-engels",
-      "summary": "In 1872, the German socialist newspaper  ran a series of articles on housing. The breakneck growth of industrial cities had brought overcrowding, squalor, and soaring rents for workers. Their author, Arthur Mülberger, drawing on the ideas of the French anarchist Pierre-Joseph Proudhon, offered a sim",
-      "pubDate": "2026-10-20T15:58:41.390Z",
-      "domain": "politics",
-      "source": "Jacobin"
     },
     {
       "title": "Frankenstein, The Vampyre, and the Spirit of the Humanities",
@@ -899,26 +658,10 @@
       "source": "Aeon"
     },
     {
-      "title": "The Women Breaking the Rules of Balinese Dance",
-      "link": "https://daily.jstor.org/the-women-breaking-the-rules-of-balinese-dance/",
-      "summary": "Middle-aged performers are taking on roles once reserved for men, challenging expectations about age and gender in Bali.\nThe post The Women Breaking the Rules of Balinese Dance appeared first on JSTOR Daily.",
-      "pubDate": "Fri, 16 Oct 2026 13:45:52 +0000",
-      "domain": "history",
-      "source": "JSTOR Daily"
-    },
-    {
       "title": "He Wants AI Benchmarking To Be a Science, Not a Dark Art",
       "link": "https://www.quantamagazine.org/he-wants-ai-benchmarking-to-be-a-science-not-a-dark-art-20261016/",
       "summary": "Moritz Hardt, author of a new book on benchmarks, believes these “standardized tests” for artificial intelligence are fundamentally broken — but not unfixable.            \nThe post He Wants AI Benchmarking To Be a Science, Not a Dark Art first appeared on Quanta Magazine",
       "pubDate": "Fri, 16 Oct 2026 13:25:08 +0000",
-      "domain": "science",
-      "source": "Quanta"
-    },
-    {
-      "title": "How Do Fungi Keep the Planet Healthy?",
-      "link": "https://www.quantamagazine.org/how-do-fungi-keep-the-planet-healthy-20261015/",
-      "summary": "Evolutionary biologist Toby Kiers explains how fungal networks in soil trade nutrients with plants, help keep carbon underground, and strike bargains without having a brain.            \nThe post How Do Fungi Keep the Planet Healthy? first appeared on Quanta Magazine",
-      "pubDate": "Thu, 15 Oct 2026 13:40:13 +0000",
       "domain": "science",
       "source": "Quanta"
     },
@@ -987,25 +730,25 @@
       "source": "Sapiens"
     },
     {
-      "title": "Beyond integration: a coherence and transparency framework for mixed methods research in the era of generative AI",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1971387",
-      "summary": "Mixed methods research (MMR) has developed sophisticated approaches for combining qualitative and quantitative inquiry through design, integration, joint displays, and meta-inference. However, integration alone does not ensure methodological quality. A mixed methods study may demonstrate identifiabl",
+      "title": "Shaping early childhood in the age of AI: holistic competencies, pedagogical practices, and ecological support",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1995020",
+      "summary": "The rapid development of artificial intelligence (AI) is reshaping the learning and developmental contexts in which young children grow, learn, and interact. Guided by an ecological perspective, this systematic conceptual mapping review examines 86 resources to explore what young children should lea",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "Beyond the workplace: abusive supervision and employees’ compulsive consumption behaviors",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1885985",
-      "summary": "IntroductionAlthough abusive supervision has been widely examined in relation to workplace outcomes, less is known about how it may spill over into employees’ off-job consumption behaviors. Drawing on the process perspective of ego depletion theory, this study examines how and when abusive supervisi",
+      "title": "Photorealistic avatars can help to improve treatment outcome expectations",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1960478",
+      "summary": "IntroductionBecause negative treatment outcome expectations predict unfavorable treatment effects, violating these negative outcome expectations is one central goal of psychotherapy. One mediator of outcome expectations and therapy outcome is the therapeutic alliance.MethodsThis experimental online ",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "Engagement or disengagement: understanding the emotional dynamics of EFL learners in GenAI-assisted writing from the sociocultural perspective",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1934782",
-      "summary": "IntroductionGenerative artificial intelligence (GenAI) has reshaped EFL writing education, yet the emotional dimensions of student engagement in GenAI-assisted writing remain underexplored. This longitudinal multiple-case study investigates how Chinese EFL learners' emotional engagement evolves duri",
+      "title": "Audiovisual characteristics, patterns, and facial-expression responses in an under-viaduct green space",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1970940",
+      "summary": "IntroductionUnder-viaduct green spaces (UVGSs) combine natural landscape elements with persistent transport-related visual and acoustic cues, yet their audiovisual characteristics and experiential implications remain insufficiently understood.MethodsThis exploratory study examined a UVGS in Shanghai",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
@@ -1013,64 +756,64 @@
   ],
   "misinfo_toilet": [
     {
-      "headline": "WW1 to Houthis: British jets for Saudi Arabia build on long military bond",
-      "fragment": "To dissimulate is to pretend not to have what one has. To simulate is to feign to have what one doesn't have. One implies a presence, the other an absence.",
-      "splice": "WW1 to Houthis: British jets for Saudi Arabia build on long military bond not unlike to dissimulate is to pretend not to have what one has. To simulate is to feign to have what one doesn't have. One implies a presence, the other an absence.",
-      "seed": 20261032
+      "headline": "Pope does not need further treatment after lung cancer surgery",
+      "fragment": "It is at work everywhere, functioning smoothly at times, at other times in fits and starts. It breathes, it heats, it eats. It shits and fucks.",
+      "splice": "Pope does not need further treatment after lung cancer surgery despite it is at work everywhere, functioning smoothly at times, at other times in fits and starts. It breathes, it heats, it eats. It shits and fucks.",
+      "seed": 20261042
+    },
+    {
+      "headline": "Christy Kinahan’s UAE Residence Visa Cancelled",
+      "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
+      "splice": "Christy Kinahan’s UAE Residence Visa Cancelled which is to say the breast is a machine that produces milk, and the mouth a machine coupled to it.",
+      "seed": 20261043
     },
     {
       "headline": "Palestinians Hope Israeli Election Will Oust Netanyahu",
+      "fragment": "This is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
+      "splice": "Palestinians Hope Israeli Election Will Oust Netanyahu which is to say this is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
+      "seed": 20261044
+    },
+    {
+      "headline": "Video shows Israeli settler assaulting Palestinian child",
+      "fragment": "To dissimulate is to pretend not to have what one has. To simulate is to feign to have what one doesn't have. One implies a presence, the other an absence.",
+      "splice": "Video shows Israeli settler assaulting Palestinian child the signal resolves into to dissimulate is to pretend not to have what one has. To simulate is to feign to have what one doesn't have. One implies a presence, the other an absence.",
+      "seed": 20261045
+    },
+    {
+      "headline": "Satellite Images Show Extent of Trump Admin’s Tree-Felling at DC Golf Course",
       "fragment": "There is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
-      "splice": "Palestinians Hope Israeli Election Will Oust Netanyahu in the void where there is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
-      "seed": 20261033
+      "splice": "Satellite Images Show Extent of Trump Admin’s Tree-Felling at DC Golf Course within which there is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
+      "seed": 20261046
+    },
+    {
+      "headline": "Drone Strike Kills More Than 150 in Abyei in Sudan’s Civil War",
+      "fragment": "Art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
+      "splice": "Drone Strike Kills More Than 150 in Abyei in Sudan’s Civil War insofar as art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
+      "seed": 20261047
+    },
+    {
+      "headline": "UK to Headphone Dodgers on Trains: Shush",
+      "fragment": "In the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
+      "splice": "UK to Headphone Dodgers on Trains: Shush consequently in the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
+      "seed": 20261048
+    },
+    {
+      "headline": "Google DeepMind Engineer Resigns in Protest of Pentagon Contract",
+      "fragment": "We live in a world where there is more and more information, and less and less meaning.",
+      "splice": "Google DeepMind Engineer Resigns in Protest of Pentagon Contract within which we live in a world where there is more and more information, and less and less meaning.",
+      "seed": 20261049
+    },
+    {
+      "headline": "Russia says it is ready to resume talks with Ukraine and US to end war",
+      "fragment": "Simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
+      "splice": "Russia says it is ready to resume talks with Ukraine and US to end war consequently simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
+      "seed": 20261050
     },
     {
       "headline": "Viral Google Maps Images Shared Widely This Week Show Gaza Ruins. We Obtained More Recent Satellite Imagery",
-      "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "splice": "Viral Google Maps Images Shared Widely This Week Show Gaza Ruins. We Obtained More Recent Satellite Imagery despite it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "seed": 20261034
-    },
-    {
-      "headline": "Elon Musk confirms he is considering merging Tesla and SpaceX",
-      "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "splice": "Elon Musk confirms he is considering merging Tesla and SpaceX meanwhile the breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "seed": 20261035
-    },
-    {
-      "headline": "Yemenis Unable to Reach Hospital Are Part of the Iran War Death Toll",
-      "fragment": "There is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
-      "splice": "Yemenis Unable to Reach Hospital Are Part of the Iran War Death Toll consequently there is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
-      "seed": 20261036
-    },
-    {
-      "headline": "Australian MP loses both legs after alleged car attack, husband says",
-      "fragment": "In the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
-      "splice": "Australian MP loses both legs after alleged car attack, husband says the system notes that in the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
-      "seed": 20261037
-    },
-    {
-      "headline": "Kohen Wiley’s Family Says Investigators Didn’t Contact Them Before Concluding Cops Did No Wrong",
-      "fragment": "Antagonism is not now located externally, in the face-off between class blocs, but internally, in the psychology of the worker.",
-      "splice": "Kohen Wiley’s Family Says Investigators Didn’t Contact Them Before Concluding Cops Did No Wrong ...as antagonism is not now located externally, in the face-off between class blocs, but internally, in the psychology of the worker.",
-      "seed": 20261038
-    },
-    {
-      "headline": "“A Recurring Pattern”: Civilians Paying the Price in Mali’s Drone Campaign",
-      "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "splice": "“A Recurring Pattern”: Civilians Paying the Price in Mali’s Drone Campaign consequently it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "seed": 20261039
-    },
-    {
-      "headline": "Katya Adler: France divided over who to blame for riots and what to learn from them",
-      "fragment": "Traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "splice": "Katya Adler: France divided over who to blame for riots and what to learn from them the system notes that traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "seed": 20261040
-    },
-    {
-      "headline": "Groups Associated With India’s Far-Right Receive Millions Through US Donor-Advised Funds",
-      "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
-      "splice": "Groups Associated With India’s Far-Right Receive Millions Through US Donor-Advised Funds which is to say the revolutionary lives in the gap which separates technical progress from social totality.",
-      "seed": 20261041
+      "fragment": "Underneath all reason lies delirium and drift.",
+      "splice": "Viral Google Maps Images Shared Widely This Week Show Gaza Ruins. We Obtained More Recent Satellite Imagery meanwhile underneath all reason lies delirium and drift.",
+      "seed": 20261051
     }
   ]
 }
