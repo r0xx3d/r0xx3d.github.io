@@ -1,7 +1,40 @@
 {
-  "generated_at": "2026-10-27T08:45:33.222Z",
+  "generated_at": "2026-10-27T21:56:45.503Z",
   "threat_intel": {
     "cisa_kev": [
+      {
+        "cveID": "CVE-2026-48356",
+        "vendorProject": "Adobe",
+        "product": "Commerce and Magento",
+        "vulnerabilityName": "Adobe Commerce and Magento Unrestricted Upload of File with Dangerous Type Vulnerability",
+        "dateAdded": "2026-10-27",
+        "shortDescription": "Adobe Commerce and Magento contain an unrestricted upload of file with dangerous type vulnerability that could result in arbitrary code execution in the context of the current user, potentially gaining elevated access or control over the victim's account or session.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-11-10",
+        "knownRansomwareCampaignUse": "Unknown",
+        "forensicTriage": "No",
+        "notes": "https://www.adobe.com/trust/security/products/commerce/apsb26-73.html ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-48356",
+        "cwes": [
+          "CWE-434"
+        ]
+      },
+      {
+        "cveID": "CVE-2026-111497",
+        "vendorProject": "Google",
+        "product": "Brotli",
+        "vulnerabilityName": "Google Brotli Unchecked Return Value Vulnerability",
+        "dateAdded": "2026-10-27",
+        "shortDescription": "Google Brotli contains an unchecked return value vulnerability that allows a remote unauthenticated attacker to corrupt adjacent decoder state memory, disclose sensitive memory contents, cause a denial of service, or potentially execute arbitrary code using a crafted Brotli-compressed stream.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-11-10",
+        "knownRansomwareCampaignUse": "Unknown",
+        "forensicTriage": "No",
+        "notes": "This vulnerability affects an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: https://github.com/google/brotli/releases/tag/v1.2.1 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-111497",
+        "cwes": [
+          "CWE-252",
+          "CWE-787"
+        ]
+      },
       {
         "cveID": "CVE-2026-109618",
         "vendorProject": "PHP Group",
@@ -217,113 +250,122 @@
         "cwes": [
           "CWE-552"
         ]
-      },
-      {
-        "cveID": "CVE-2026-105134",
-        "vendorProject": "Ahsay",
-        "product": "AhsayCBS",
-        "vulnerabilityName": "Ahsay AhsayCBS Command Injection Vulnerability",
-        "dateAdded": "2026-10-14",
-        "shortDescription": "Ahsay AhsayCBS contains a command injection vulnerability that could allow a remote attacker to execute operating system commands via manipulation of the random parameter in the Replication Receiver component’s /rps/api/json/UpdateReceivers.do endpoint. This vulnerability can be chained with CVE-2026-105133.",
-        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "dueDate": "2026-10-17",
-        "knownRansomwareCampaignUse": "Unknown",
-        "forensicTriage": "Yes",
-        "notes": "https://www.ahsay.com/en/company/announcements/patch-cve-105133-105134-update ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-105134",
-        "cwes": [
-          "CWE-77",
-          "CWE-78"
-        ]
-      },
-      {
-        "cveID": "CVE-2026-76519",
-        "vendorProject": "Cisco",
-        "product": "Secure Email Gateway",
-        "vulnerabilityName": "Cisco Secure Email Gateway Relative Path Traversal Vulnerability",
-        "dateAdded": "2026-10-14",
-        "shortDescription": "Cisco Secure Email Gateway contains a relative path traversal vulnerability that could allow an unauthenticated, remote attacker to write arbitrary files on the underlying operating system.",
-        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "dueDate": "2026-10-17",
-        "knownRansomwareCampaignUse": "Unknown",
-        "forensicTriage": "Yes",
-        "notes": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-esa-afw-zqYJkjxp ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-76519",
-        "cwes": [
-          "CWE-23"
-        ]
       }
     ],
     "urlhaus": []
   },
   "world_monitor": [
     {
-      "title": "India evacuates tens of thousands as ‘very severe’ Cyclone Arnab nears",
-      "link": "https://www.aljazeera.com/news/2026/10/27/india-evacuates-tens-of-thousands-as-very-severe-cyclone-arnab-nears?traffic_source=rss",
-      "pubDate": "Tue, 27 Oct 2026 08:02:37 +0000",
-      "source": "Al Jazeera",
-      "summary": "The cyclonic storm is set to make landfall on Wednesday, with 400,000 people in need of evacuation."
-    },
-    {
-      "title": "Truce begins in Ukraine city where residents ate weeds to survive",
-      "link": "https://www.bbc.co.uk/news/articles/ck20wjnv3w0jo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Tue, 27 Oct 2026 08:01:22 GMT",
-      "source": "BBC",
-      "summary": "The ceasefire in Oleshky, announced by US First Lady Melania Trump, is meant to allow aid deliveries and the evacuation of civilians."
-    },
-    {
-      "title": "Qatar’s path to defence autonomy",
-      "link": "https://www.aljazeera.com/news-analysis/2026/10/27/qatars-path-to-defence-autonomy?traffic_source=rss",
-      "pubDate": "Tue, 27 Oct 2026 07:55:01 +0000",
-      "source": "Al Jazeera",
-      "summary": "Qatar needs a strategy built on national resilience and diversified security guarantees."
-    },
-    {
-      "title": "Wales first minister : ‘We’re within a union that is not a union of equals’",
-      "link": "https://www.aljazeera.com/video/talk-to-al-jazeera/2026/10/27/wales-first-minister-were-within-a-union-that-is-not-a-union-of?traffic_source=rss",
-      "pubDate": "Tue, 27 Oct 2026 07:14:25 +0000",
-      "source": "Al Jazeera",
-      "summary": "Rhun ap Iorwerth says his country’s relationship with the United Kingdom is unequal and needs to change."
-    },
-    {
-      "title": "US, EU and 30 countries warn of famine risk in Sudan, call for aid",
-      "link": "https://www.aljazeera.com/news/2026/10/27/us-eu-and-30-countries-warn-of-famine-risk-in-sudan-call-for-aid?traffic_source=rss",
-      "pubDate": "Tue, 27 Oct 2026 06:56:30 +0000",
-      "source": "Al Jazeera",
-      "summary": "Countries also urge Sudan's warring parties to 'lift all impediments on humanitarian assistance'."
-    },
-    {
-      "title": "South Korea’s GDP growth beats forecasts amid AI boom",
-      "link": "https://www.aljazeera.com/economy/2026/10/27/south-koreas-gdp-growth-beats-forecasts-amid-ai-boom?traffic_source=rss",
-      "pubDate": "Tue, 27 Oct 2026 06:50:53 +0000",
-      "source": "Al Jazeera",
-      "summary": "Asia's fourth-largest economy grows 3.4 percent year-on-year amid strong semiconductor demand."
-    },
-    {
-      "title": "Israel heads to polls for pivotal election defined by security and democracy",
-      "link": "https://www.bbc.co.uk/news/articles/c3j47l4kdez4o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Tue, 27 Oct 2026 05:45:08 GMT",
-      "source": "BBC",
-      "summary": "Many fear neither of the leading political blocs will win enough seats for a majority - meaning weeks or months of political wrangling may lie ahead."
-    },
-    {
-      "title": "Serbia’s Election Shows New Vulnerability for Nationalist Populists",
-      "link": "https://www.nytimes.com/2026/10/26/world/europe/serbia-election-vucic-nationalist-populists.html",
-      "pubDate": "Tue, 27 Oct 2026 03:29:47 +0000",
+      "title": "Live Updates: Opposition Parties Ahead of Netanyahu’s Coalition in Israeli Exit Polls",
+      "link": "https://www.nytimes.com/live/2026/10/27/world/israel-elections",
+      "pubDate": "Tue, 27 Oct 2026 21:51:46 +0000",
       "source": "NYT World",
-      "summary": "In much of Europe, the advance of the right has been seen as unstoppable. But in the east, nationalists are being cast aside in places where they long governed."
+      "summary": "No clear winner emerged in pivotal parliamentary elections. A bloc of parties led by a former Army chief of staff is trying to unseat Prime Minister Benjamin Netanyahu’s Likud party and his allies."
     },
     {
-      "title": "Jordan carries out deadly strike in Syria in retaliation for church attack",
-      "link": "https://www.bbc.co.uk/news/articles/cq8ezg6dy6xlo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Tue, 27 Oct 2026 02:40:17 GMT",
-      "source": "BBC",
-      "summary": "The attack on a village in Syria killed five people, including women and children, Syrian health officials said."
+      "title": "Trump showcases Venezuelan oil as he seeks to rally voters in Texas",
+      "link": "https://www.aljazeera.com/news/2026/10/27/trump-showcases-venezuelan-oil-as-he-seeks-to-rally-voters-in-texas?traffic_source=rss",
+      "pubDate": "Tue, 27 Oct 2026 21:28:33 +0000",
+      "source": "Al Jazeera",
+      "summary": "US president seeks to highlight Venezuela operation as Iran war makes affordability a key midterm issue."
     },
     {
-      "title": "Ex-FBI chief James Comey faces federal charges for third time",
-      "link": "https://www.bbc.co.uk/news/articles/ckly0xqjnlwvo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Tue, 27 Oct 2026 02:01:27 GMT",
+      "title": "Forever Wars: Why can’t America stop?",
+      "link": "https://www.aljazeera.com/video/lets-focus/2026/10/27/forever-wars-why-cant-america-stop?traffic_source=rss",
+      "pubDate": "Tue, 27 Oct 2026 21:21:08 +0000",
+      "source": "Al Jazeera",
+      "summary": "Iran, Iraq, Afghanistan. Why does the US keep going to war, and can voters stop it?"
+    },
+    {
+      "title": "Will players in the Gulf establish a new security framework?",
+      "link": "https://www.aljazeera.com/video/inside-story/2026/10/27/will-players-in-the-gulf-establish-a-new-security-framework?traffic_source=rss",
+      "pubDate": "Tue, 27 Oct 2026 21:14:12 +0000",
+      "source": "Al Jazeera",
+      "summary": "Officials from Riyadh, Islamabad, Ankara and Tehran met in Iran."
+    },
+    {
+      "title": "Dream postponed: Hebron groom caught in Israeli military lockdown",
+      "link": "https://www.aljazeera.com/news/2026/10/27/dream-postponed-hebron-groom-caught-in-israeli-military-lockdown?traffic_source=rss",
+      "pubDate": "Tue, 27 Oct 2026 21:12:27 +0000",
+      "source": "Al Jazeera",
+      "summary": "Israel's military operation in West Bank's Hebron has disrupted Palestinian life, including a postponed wedding."
+    },
+    {
+      "title": "US says it killed five people in strike on alleged drug boat",
+      "link": "https://www.aljazeera.com/news/2026/10/27/us-says-it-killed-five-people-in-strike-on-alleged-drug-boat?traffic_source=rss",
+      "pubDate": "Tue, 27 Oct 2026 20:54:38 +0000",
+      "source": "Al Jazeera",
+      "summary": "Latest strike brings death toll of campaign decried as extrajudicial killings to 243 people since September 2025."
+    },
+    {
+      "title": "European Leaders Split Over Phone Call to Putin",
+      "link": "https://www.nytimes.com/2026/10/27/world/europe/norway-finland-putin-call.html",
+      "pubDate": "Tue, 27 Oct 2026 20:49:50 +0000",
+      "source": "NYT World",
+      "summary": "The diplomatic outreach was part of an effort to push talks to end the war in Ukraine, though it was not welcomed by all European leaders."
+    },
+    {
+      "title": "The Elon Musk Funder Trying to Sway the Race for LA’s Top Lawyer",
+      "link": "https://theintercept.com/2026/10/27/la-city-attorney-roy-mckinney-big-tech-billionaires/",
+      "pubDate": "Tue, 27 Oct 2026 20:49:40 +0000",
+      "source": "The Intercept",
+      "summary": "The leading candidate for LA city attorney has the backing of the local DSA and vows to regulate Big Tech. Tech investors are spending millions against her.\nThe post The Elon Musk Funder Trying to Sway the Race for LA’s Top Lawyer appeared first on T"
+    },
+    {
+      "title": "Ceasefire extended across Ukraine's Kherson region, officials say",
+      "link": "https://www.bbc.co.uk/news/articles/c6lye1w9p2l8o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Tue, 27 Oct 2026 20:19:53 GMT",
       "source": "BBC",
-      "summary": "Comey's lawyers say the case stems from alleged disclosure of classified information to the New York Times in 2016."
+      "summary": "The truce was originally planned for the stranded residents of Oleshky, and Russia and Ukraine say no breaches have been reported."
+    },
+    {
+      "title": "Dutch zookeeper dies after being mauled in leopard enclosure",
+      "link": "https://www.bbc.co.uk/news/articles/crwyq90gwg8jo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Tue, 27 Oct 2026 19:30:37 GMT",
+      "source": "BBC",
+      "summary": "The woman began her career at the park when she was 17 and had worked there on-and-off for four decades."
+    },
+    {
+      "title": "South Africa Deploys 500 Soldiers to Quell Anti-Immigration Violence",
+      "link": "https://www.nytimes.com/2026/10/27/world/africa/south-africa-durban-soldiers.html",
+      "pubDate": "Tue, 27 Oct 2026 18:28:59 +0000",
+      "source": "NYT World",
+      "summary": "The deployment comes after a foreign national was beaten to death by a mob during an anti-immigrant protest last week."
+    },
+    {
+      "title": "Norway and Finland leaders hold rare call with Putin",
+      "link": "https://www.bbc.co.uk/news/articles/c6vgj813mlelo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Tue, 27 Oct 2026 18:28:23 GMT",
+      "source": "BBC",
+      "summary": "An end to the conflict in Ukraine \"will not be achieved through silence,\" Finland's President Alexander Stubb said."
+    },
+    {
+      "title": "Trump Explores Lifting Sanctions on Russia’s Flagship Investment Fund",
+      "link": "https://www.nytimes.com/2026/10/27/us/politics/russia-fund-sanctions-trump.html",
+      "pubDate": "Tue, 27 Oct 2026 17:30:52 +0000",
+      "source": "NYT World",
+      "summary": "The move would be the latest U.S. concession to Moscow as President Trump pursues economic incentives he hopes will secure an end to war in Ukraine."
+    },
+    {
+      "title": "Pentagon Fears Drone Attacks on U.S. and Foreign Bases",
+      "link": "https://theintercept.com/2026/10/27/pentagon-drone-attacks-military-bases/",
+      "pubDate": "Tue, 27 Oct 2026 15:00:07 +0000",
+      "source": "The Intercept",
+      "summary": "Government officials said a series of recent attacks and threats have highlighted the vulnerability of U.S. military bases.\nThe post Pentagon Fears Drone Attacks on U.S. and Foreign Bases appeared first on The Intercept."
+    },
+    {
+      "title": "Mbappé sorry for 'ill-judged' Mao remark after backlash in China",
+      "link": "https://www.bbc.co.uk/news/articles/cv62yg0erp8zo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Tue, 27 Oct 2026 13:25:54 GMT",
+      "source": "BBC",
+      "summary": "The France star had referred to the former Chinese leader as a \"dictator\" during an interview about memes."
+    },
+    {
+      "title": "Cease-Fire Brokered by Melania Trump Begins in Ukrainian City of Oleshky",
+      "link": "https://www.nytimes.com/2026/10/26/world/europe/ukraine-oleshky-ceasefire-russia-war.html",
+      "pubDate": "Tue, 27 Oct 2026 08:25:45 +0000",
+      "source": "NYT World",
+      "summary": "Many people left in Oleshky, where bombardment is constant, have run out of food. A truce that began Tuesday is supposed to allow aid in and civilians out."
     },
     {
       "title": "Lula's comeback in Brazil dents Trump's ambitions for Latin America",
@@ -333,32 +375,11 @@
       "summary": "The Trump-Lula relationship may have thawed, but several issues could reignite tensions between the two leaders."
     },
     {
-      "title": "Lula Defeats Bolsonaro for Brazil Presidency, in Blow to Latin America’s Right",
-      "link": "https://www.nytimes.com/2026/10/25/world/americas/brazil-election-president-lula-bolsonaro.html",
-      "pubDate": "Mon, 26 Oct 2026 20:32:16 +0000",
-      "source": "NYT World",
-      "summary": "President Luiz Inácio Lula da Silva triumphed over Flávio Bolsonaro, the eldest son of the right-wing leader he defeated four years ago."
-    },
-    {
-      "title": "Egypt OKs Military Aid to Saudis in Fight With Houthis",
-      "link": "https://www.nytimes.com/2026/10/26/world/middleeast/egypt-military-saudi-houthis.html",
-      "pubDate": "Mon, 26 Oct 2026 19:42:58 +0000",
-      "source": "NYT World",
-      "summary": "The Egyptians will commit forces for defensive purposes only, officials have said, as the kingdom exchanges increasingly deadly strikes with the Iranian-backed militia in Yemen."
-    },
-    {
       "title": "Bankrolling American Empire in the Philippines",
       "link": "https://theintercept.com/2026/10/26/philippines-military-base-cerberus-private-capital/",
       "pubDate": "Mon, 26 Oct 2026 11:00:00 +0000",
       "source": "The Intercept",
       "summary": "The Pentagon and private capital have teamed up to militarize the island nation.\nThe post Bankrolling American Empire in the Philippines appeared first on The Intercept."
-    },
-    {
-      "title": "Israeli Jews Across the Spectrum Face an Election of Fears",
-      "link": "https://www.nytimes.com/2026/10/26/world/middleeast/israel-election-stakes.html",
-      "pubDate": "Mon, 26 Oct 2026 10:30:57 +0000",
-      "source": "NYT World",
-      "summary": "Supporters and opponents of Prime Minister Benjamin Netanyahu have expressed intense anxieties about isolation abroad, security at home and the future of Israel’s identity."
     },
     {
       "title": "Pentagon Records Missed Almost Half of Troops’ Domestic Abuse Killings",
@@ -368,32 +389,11 @@
       "summary": "“Records are important,” said the mother of a woman killed by her Navy colleague. We found nearly twice as many domestic-abuse killings by servicemembers as the DoD listed.\nThe post Pentagon Records Missed Almost Half of Troops’ Domestic Abuse Killin"
     },
     {
-      "title": "To Work With P.O.W.s, Ukrainians Suppress Feelings About the Enemy",
-      "link": "https://www.nytimes.com/2026/10/26/world/europe/ukraine-russia-pows-prisoners.html",
-      "pubDate": "Mon, 26 Oct 2026 09:58:09 +0000",
-      "source": "NYT World",
-      "summary": "Much has been said about how Ukraine should treat Russian prisoners of war. Less attention has been paid to the emotional struggle for the Ukrainians tasked with that work."
-    },
-    {
       "title": "Hegseth Built a New Pentagon Office for Religion. Military Religious Leaders Wish He Hadn’t.",
       "link": "https://theintercept.com/2026/10/25/hegseth-military-christian-religion/",
       "pubDate": "Sun, 25 Oct 2026 10:00:00 +0000",
       "source": "The Intercept",
       "summary": "“What do I tell a soldier who believes an action is immoral, but also believes that God commanded it?” one Army chaplain told The Intercept.\nThe post Hegseth Built a New Pentagon Office for Religion. Military Religious Leaders Wish He Hadn’t. appeare"
-    },
-    {
-      "title": "The Spirit of “Party Unity, My Ass” Is Back and Coming for the DSA (and El-Sayed)",
-      "link": "https://theintercept.com/2026/10/24/centrist-democrats-dsa-el-sayed/",
-      "pubDate": "Sat, 24 Oct 2026 10:52:00 +0000",
-      "source": "The Intercept",
-      "summary": "Centrist Democrats’ calls to fall in line behind the party’s nominee only ever seem to cut one way — and fall apart when their candidate loses.\nThe post The Spirit of “Party Unity, My Ass” Is Back and Coming for the DSA (and El-Sayed) appeared first "
-    },
-    {
-      "title": "Bodycam: Cop Was Not in Danger When He Fired Shots That Killed 1-Year-Old Kohen Wiley",
-      "link": "https://theintercept.com/2026/10/23/kohen-wiley-body-camera-police-shooting-justification/",
-      "pubDate": "Fri, 23 Oct 2026 20:36:17 +0000",
-      "source": "The Intercept",
-      "summary": "Mississippi investigators said the shooting was “justified,” but new body camera footage shows the cop firing into the passenger’s side as the car passed by him.\nThe post Bodycam: Cop Was Not in Danger When He Fired Shots That Killed 1-Year-Old Kohen"
     },
     {
       "title": "Can LLMs Supercharge Geolocations? Our Tests Show Big Improvements But Humans Remain Key",
@@ -433,6 +433,20 @@
   ],
   "syndication": [
     {
+      "title": "Hiding Capabilities in AI Models",
+      "link": "https://www.schneier.com/blog/archives/2026/10/hiding-capabilities-in-ai-models.html",
+      "pubDate": "2026-10-27T11:01:26.000Z",
+      "author": "Schneier on Security",
+      "content": "Interesting research: “AI Models Can Provably Hide Arbitrary Capabilities”\nAbstract: Capability evaluations aim to surface dangerous model behaviors before deployment, but their reliability depends on the assumption that hidden capabilities can be elicited. We show this assumption does not hold unde"
+    },
+    {
+      "title": "Pluralistic: History is something you do (27 Oct 2026)",
+      "link": "https://pluralistic.net/2026/10/27/tied-to-the-tracks/",
+      "pubDate": "Tue, 27 Oct 2026 09:08:25 +0000",
+      "author": "Pluralistic",
+      "content": "Today's links History is something you do: Not something that happens to you. Hey look at this: Delights to delectate. Object permanence: Occupy Tents are speech; Piagram; SOPA; \"I'm Rob Fucking Ford\"; Blocking all porn in the UK; Pirates rule Iceland; Shake Shack v shitting to death. Upcoming appea"
+    },
+    {
       "title": "Pluralistic: Sovereign citizens, but for news (26 Oct 2026)",
       "link": "https://pluralistic.net/2026/10/26/abandon-hope/",
       "pubDate": "Mon, 26 Oct 2026 15:47:10 +0000",
@@ -461,20 +475,6 @@
       "content": "Today's links Critique and writing: The most important part of a writing workshop is trying to fix other people's stories. Hey look at this: Delights to delectate. Object permanence: USPS nukes the mail; Enron Explorer; \"Scored\"; UAE's international hacker legion; NZ provides hacking tools to tortur"
     },
     {
-      "title": "Compromised TLS Certificates",
-      "link": "https://www.schneier.com/blog/archives/2026/10/compromised-tls-certificates.html",
-      "pubDate": "2026-10-23T11:04:22.000Z",
-      "author": "Schneier on Security",
-      "content": "The Indian CA eMudhra Limited has eight TLS certificates with laughably weak private keys:\nThe compromised eMudhra keys were defective at a level that’s challenging the imagination of many of the engineers studying the incident. A normal size for a NIST P-384 elliptic curve cryptography private key "
-    },
-    {
-      "title": "Pluralistic: Adversarial interoperability is a team sport (21 Oct 2026)",
-      "link": "https://pluralistic.net/2026/10/21/brittle-individualism/",
-      "pubDate": "Wed, 21 Oct 2026 20:05:21 +0000",
-      "author": "Pluralistic",
-      "content": "Today's links Adversarial interoperability is a team sport: Vibe-coded jailbreaks are fun, but don't solve the problem. Hey look at this: Delights to delectate. Object permanence: Labour Whip's pro-Iraq war threats; LoC's emulators; Kevin Mitnick plays CIA stooge; ICE: \"The warrant is coming out of "
-    },
-    {
       "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
       "link": "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/",
       "pubDate": "Wed, 21 Oct 2026 15:26:07 +0000",
@@ -498,6 +498,78 @@
   ],
   "syndicate_journal": [
     {
+      "title": "There’s a New, International Food Pyramid in Town",
+      "link": "https://nautil.us/theres-a-new-international-food-pyramid-in-town-1286121/",
+      "summary": "It’s based on research into dietary guidelines from around the world\nThe post There’s a New, International Food Pyramid in Town appeared first on Nautilus.",
+      "pubDate": "Tue, 27 Oct 2026 20:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "Financial Capital Didn’t Make New York City Great",
+      "link": "https://jacobin.com/2026/10/documentary-new-york-finance-deindustrialization-bloomberg",
+      "summary": "It’s the beginning of the new Ric Burns documentary on New York City, and Adam Gopnik is choking up.\nHe’s talking about the diversity and tolerance that New York, at its best, embodies. He’s talking about the challenges the city has faced over the past fifty years. Above all, he’s talking about how ",
+      "pubDate": "2026-10-27T19:23:02.085Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "Focus on the Real Drivers of the Affordability Crisis",
+      "link": "https://jacobin.com/2026/10/affordability-consumption-social-reproduction-policy",
+      "summary": "Over the past five years, the price of consumer goods has dominated American political discourse. From Donald Trump to Zohran Mamdani, winning candidates have used “affordability politics” to articulate popular dissatisfaction with economic conditions. From the price of eggs to gas to burritos, the ",
+      "pubDate": "2026-10-27T18:36:34.942Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "The Teenage Girl Who Remembers Everything",
+      "link": "https://nautil.us/the-teenage-girl-who-remembers-everything-1286118/",
+      "summary": "A conversation with a scientist about a 16-year-old who has highly superior autobiographical memory\nThe post The Teenage Girl Who Remembers Everything appeared first on Nautilus.",
+      "pubDate": "Tue, 27 Oct 2026 18:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "Alberta’s Post-Referendum Hangover",
+      "link": "https://jacobin.com/2026/10/alberta-smith-referendum-separatists-affordability",
+      "summary": "Alberta is one of the  provinces in Canada, a reminder of the old adage that money can’t buy happiness. The province fails to responsibly manage the riches from its oil and gas sector, leaving little of the spoils to Alberta workers, while billions in profits  to foreign shareholders, many of them A",
+      "pubDate": "2026-10-27T16:58:51.516Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "How Jumping Spiders Sleep",
+      "link": "https://nautil.us/how-jumping-spiders-sleep-1286115/",
+      "summary": "Remarkably like us with cycles of wakefulness and REM\nThe post How Jumping Spiders Sleep appeared first on Nautilus.",
+      "pubDate": "Tue, 27 Oct 2026 16:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "Mental Hospitals at the Movies",
+      "link": "https://daily.jstor.org/mental-hospitals-at-the-movies/",
+      "summary": "The horror films of the 1970s captured a cultural shift from fears of institutional abuse to anxieties about psychiatric patients living freely.\nThe post Mental Hospitals at the Movies appeared first on JSTOR Daily.",
+      "pubDate": "Tue, 27 Oct 2026 13:52:12 +0000",
+      "domain": "history",
+      "source": "JSTOR Daily"
+    },
+    {
+      "title": "Albrecht Dürer’s Monument to the Vanquished Peasants (1525)\n",
+      "link": "https://publicdomainreview.org/collection/monument-to-the-vanquished-peasants",
+      "summary": "The design for a difficult-to-interpret monument that was never intended to be built.",
+      "pubDate": "Tue, 27 Oct 2026 13:40:00 GMT",
+      "domain": "history",
+      "source": "Public Domain Review"
+    },
+    {
+      "title": "Love with nowhere to go",
+      "link": "https://aeon.co/essays/we-need-a-language-to-name-the-grief-that-comes-without-death",
+      "summary": "Grief is not only for the dead. When we are unable to honour other profound losses, we become strangers to ourselves\n- by Derek van Zoonen\nRead on Aeon",
+      "pubDate": "Tue, 27 Oct 2026 10:00:00 GMT",
+      "domain": "philosophy",
+      "source": "Aeon"
+    },
+    {
       "title": "Inverse Modeling for Laser Pulse Shape Design in Inertial Confinement Fusion",
       "link": "https://arxiv.org/abs/2610.33096",
       "summary": "arXiv:2610.33096v1 Announce Type: new \nAbstract: The achievement of practical fusion energy remains one of the most pressing unsolved scientific challenges, with immense implications for carbon-free power. A critical factor in the success of Inertial Confinement Fusion (ICF) is the design of a Laser",
@@ -520,54 +592,6 @@
       "pubDate": "Tue, 27 Oct 2026 00:00:00 -0400",
       "domain": "science",
       "source": "arXiv: cs.AI"
-    },
-    {
-      "title": "Spike-Thumbed Dino Discovered in the United Kingdom",
-      "link": "https://nautil.us/spike-thumbed-dino-discovered-in-the-united-kingdom-1286098/",
-      "summary": "The swamp-dwelling iguanodon relative may have been dinner for spinosaurs\nThe post Spike-Thumbed Dino Discovered in the United Kingdom appeared first on Nautilus.",
-      "pubDate": "Tue, 27 Oct 2026 01:05:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
-      "title": "Inside the Mind of a Narcissist",
-      "link": "https://nautil.us/inside-the-mind-of-a-narcissist-1286095/",
-      "summary": "Their brains don’t sync the same way when it comes to processing empathy\nThe post Inside the Mind of a Narcissist appeared first on Nautilus.",
-      "pubDate": "Mon, 26 Oct 2026 23:01:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
-      "title": "Lula’s Win Is a Defeat for Donald Trump and MAGA",
-      "link": "https://jacobin.com/2026/10/lula-brazil-election-trump-interference",
-      "summary": "Luiz Inácio ​Lula da Silva’s election victory last night in Brazil is being widely celebrated as one of the great political comebacks of our time: the first time any Brazilian presidential candidate has come back from a first-round loss, achieved on the back of a reenergized Brazilian left and a new",
-      "pubDate": "2026-10-26T20:47:19.451Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
-      "title": "Why Your Boss Might Live Longer Than You",
-      "link": "https://nautil.us/why-your-boss-might-live-longer-than-you-1286092/",
-      "summary": "Entrepreneurship may carry benefits as well as risks\nThe post Why Your Boss Might Live Longer Than You appeared first on Nautilus.",
-      "pubDate": "Mon, 26 Oct 2026 20:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
-      "title": "Who’s Afraid of Gen Z Socialism?",
-      "link": "https://jacobin.com/2026/10/gen-z-protests-socialism-neoliberalism",
-      "summary": "What’s on the mind of the ruling class these days? If the pages of  are a reliable indicator, it’s the specter of “”: the rising support among young people for taxing billionaires, socializing the economy, and stopping the genocide in Gaza, as evidenced by the popularity of politicians like New York",
-      "pubDate": "2026-10-26T17:34:05.336Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
-      "title": "Alberta’s Separation Ballot Ended With a Whimper",
-      "link": "https://jacobin.com/2026/10/alberta-independence-ucp-smith-oil",
-      "summary": "No country treats referendums as less definitive than Canada. Two sovereignty referendums in Quebec have not totally put to bed the independence question in , and in spite of  referendum support, the new Parti Québécois government is promising a third when Donald Trump leaves office. Voters rejected",
-      "pubDate": "2026-10-26T15:53:39.054Z",
-      "domain": "politics",
-      "source": "Jacobin"
     },
     {
       "title": "How Voting Is Like a Klein Bottle",
@@ -626,22 +650,6 @@
       "source": "Language Log"
     },
     {
-      "title": "Traction!",
-      "link": "https://aeon.co/essays/why-a-world-without-friction-is-a-world-without-progress",
-      "summary": "Tribologists study friction: what happens when things rub together. It’s indispensable, from the wheel to the paths of stars\n- by Jennifer R Vail\nRead on Aeon",
-      "pubDate": "Fri, 23 Oct 2026 10:00:00 GMT",
-      "domain": "philosophy",
-      "source": "Aeon"
-    },
-    {
-      "title": "The Art of the Thousand Bloom Chrysanthemum",
-      "link": "https://daily.jstor.org/the-art-of-the-thousand-bloom-chrysanthemum/",
-      "summary": "How do horticulturists coax more than 1,000 flowers from a single plant? The answer lies in a centuries-old Japanese tradition.\nThe post The Art of the Thousand Bloom Chrysanthemum appeared first on JSTOR Daily.",
-      "pubDate": "Thu, 22 Oct 2026 13:52:00 +0000",
-      "domain": "history",
-      "source": "JSTOR Daily"
-    },
-    {
       "title": "“Earth Not a Globe”: Parallax’s Zetetic Astronomy (1865)\n",
       "link": "https://publicdomainreview.org/collection/zetetic-astronomy",
       "summary": "A book more or less responsible for the revival of Flat Earth theories in the modern period.",
@@ -690,14 +698,6 @@
       "source": "Behavioral Scientist"
     },
     {
-      "title": "“Men with Queer Nerves”: The Jumping Frenchmen of Maine\n",
-      "link": "https://publicdomainreview.org/essay/the-jumping-frenchmen-of-maine",
-      "summary": "In the late nineteenth century, visitors to Maine observed something strange: French-Canadian lumberjacks who, at the slightest stimulus, seemed to jump, strike out with their limbs, or mimic languages they could not speak. Ross Bullen introduces us to these so-called “Jumping Frenchmen” and to thei",
-      "pubDate": "Wed, 14 Oct 2026 11:56:00 GMT",
-      "domain": "history",
-      "source": "Public Domain Review"
-    },
-    {
       "title": "Frontiers: A Roundtable Discussion on the I-Frame vs. S-Frame Debate",
       "link": "https://behavioralscientist.org/frontiers-a-roundtable-discussion-on-the-i-frame-vs-s-frame-debate/",
       "summary": "Applied behavioral scientists believe their work can influence people’s lives for the better. But what is the most effective way to make that happen? \n\n\nIs it through interventions focused on influencing individual behavior while maintaining freedom of choice? Is it by changing policies and laws, an",
@@ -738,6 +738,14 @@
       "source": "Sapiens"
     },
     {
+      "title": "Baseline cognitive insight moderates the efficacy of metacognitive training for psychosis: an individual participant data analysis",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1934181",
+      "summary": "BackgroundMetacognitive Training (MCT) for psychosis is designed to target metacognitive processes, yet evidence for its effects on cognitive insight remains inconclusive, owing primarily to the limited methodological quality of available trials. A potential explanation lies in baseline heterogeneit",
+      "pubDate": "",
+      "domain": "psychology",
+      "source": "Frontiers Psychology"
+    },
+    {
       "title": "Practicing for the unexpected: a framework for musical adaptation reserve in expert musicians",
       "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1970635",
       "summary": "Expert musicians devote years to making performance reliable, yet public performance is never a perfect copy of the conditions under which a work was prepared. Instruments differ, rooms alter what performers hear, ensemble partners behave differently, audiences change arousal and attention, and smal",
@@ -746,17 +754,9 @@
       "source": "Frontiers Psychology"
     },
     {
-      "title": "Conceptual framework for emotion control integrating empathy, emotional regulation, and flexibility",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1753106",
-      "summary": "Emotions play an active role in the decision-making process and must be controlled to promote “good decisions” and avoid “bad decisions.” Emotions can be controlled using emotional regulation. Emotional regulation needs the perception of our own and other people’s emotions. The perception of other’s",
-      "pubDate": "",
-      "domain": "psychology",
-      "source": "Frontiers Psychology"
-    },
-    {
-      "title": "Baseline cognitive insight moderates the efficacy of metacognitive training for psychosis: an individual participant data analysis",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1934181",
-      "summary": "BackgroundMetacognitive Training (MCT) for psychosis is designed to target metacognitive processes, yet evidence for its effects on cognitive insight remains inconclusive, owing primarily to the limited methodological quality of available trials. A potential explanation lies in baseline heterogeneit",
+      "title": "Pornography Violence Exposure Scale: a graded bifactor measure of exposure to violent pornographic content",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1885321",
+      "summary": "IntroductionResearch on associations between pornography viewing and sexual violence has been limited by the absence of validated instruments that differentiate exposure along a violence continuum within pornographic practices, with existing measures focused on consumption frequency or problematic p",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
@@ -764,64 +764,64 @@
   ],
   "misinfo_toilet": [
     {
-      "headline": "South Korea’s GDP growth beats forecasts amid AI boom",
-      "fragment": "It is at work everywhere, functioning smoothly at times, at other times in fits and starts. It breathes, it heats, it eats. It shits and fucks.",
-      "splice": "South Korea’s GDP growth beats forecasts amid AI boom despite it is at work everywhere, functioning smoothly at times, at other times in fits and starts. It breathes, it heats, it eats. It shits and fucks.",
-      "seed": 20261035
-    },
-    {
-      "headline": "Viral Google Maps Images Shared Widely This Week Show Gaza Ruins. We Obtained More Recent Satellite Imagery",
-      "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "splice": "Viral Google Maps Images Shared Widely This Week Show Gaza Ruins. We Obtained More Recent Satellite Imagery which is to say the breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "seed": 20261036
-    },
-    {
-      "headline": "Israeli Jews Across the Spectrum Face an Election of Fears",
-      "fragment": "This is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
-      "splice": "Israeli Jews Across the Spectrum Face an Election of Fears which is to say this is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
-      "seed": 20261037
-    },
-    {
-      "headline": "Serbia’s Election Shows New Vulnerability for Nationalist Populists",
-      "fragment": "To dissimulate is to pretend not to have what one has. To simulate is to feign to have what one doesn't have. One implies a presence, the other an absence.",
-      "splice": "Serbia’s Election Shows New Vulnerability for Nationalist Populists the signal resolves into to dissimulate is to pretend not to have what one has. To simulate is to feign to have what one doesn't have. One implies a presence, the other an absence.",
-      "seed": 20261038
-    },
-    {
-      "headline": "Can LLMs Supercharge Geolocations? Our Tests Show Big Improvements But Humans Remain Key",
-      "fragment": "There is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
-      "splice": "Can LLMs Supercharge Geolocations? Our Tests Show Big Improvements But Humans Remain Key within which there is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
-      "seed": 20261039
-    },
-    {
-      "headline": "India evacuates tens of thousands as ‘very severe’ Cyclone Arnab nears",
-      "fragment": "Art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
-      "splice": "India evacuates tens of thousands as ‘very severe’ Cyclone Arnab nears insofar as art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
-      "seed": 20261040
-    },
-    {
-      "headline": "Pentagon Records Missed Almost Half of Troops’ Domestic Abuse Killings",
+      "headline": "Live Updates: Opposition Parties Ahead of Netanyahu’s Coalition in Israeli Exit Polls",
       "fragment": "In the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
-      "splice": "Pentagon Records Missed Almost Half of Troops’ Domestic Abuse Killings consequently in the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
-      "seed": 20261041
-    },
-    {
-      "headline": "Egypt OKs Military Aid to Saudis in Fight With Houthis",
-      "fragment": "We live in a world where there is more and more information, and less and less meaning.",
-      "splice": "Egypt OKs Military Aid to Saudis in Fight With Houthis within which we live in a world where there is more and more information, and less and less meaning.",
-      "seed": 20261042
-    },
-    {
-      "headline": "Lula's comeback in Brazil dents Trump's ambitions for Latin America",
-      "fragment": "Simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
-      "splice": "Lula's comeback in Brazil dents Trump's ambitions for Latin America consequently simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
-      "seed": 20261043
+      "splice": "Live Updates: Opposition Parties Ahead of Netanyahu’s Coalition in Israeli Exit Polls consequently in the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
+      "seed": 20261048
     },
     {
       "headline": "Groups Associated With India’s Far-Right Receive Millions Through US Donor-Advised Funds",
+      "fragment": "We live in a world where there is more and more information, and less and less meaning.",
+      "splice": "Groups Associated With India’s Far-Right Receive Millions Through US Donor-Advised Funds within which we live in a world where there is more and more information, and less and less meaning.",
+      "seed": 20261049
+    },
+    {
+      "headline": "Can LLMs Supercharge Geolocations? Our Tests Show Big Improvements But Humans Remain Key",
+      "fragment": "Simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
+      "splice": "Can LLMs Supercharge Geolocations? Our Tests Show Big Improvements But Humans Remain Key consequently simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
+      "seed": 20261050
+    },
+    {
+      "headline": "European Leaders Split Over Phone Call to Putin",
       "fragment": "Underneath all reason lies delirium and drift.",
-      "splice": "Groups Associated With India’s Far-Right Receive Millions Through US Donor-Advised Funds meanwhile underneath all reason lies delirium and drift.",
-      "seed": 20261044
+      "splice": "European Leaders Split Over Phone Call to Putin meanwhile underneath all reason lies delirium and drift.",
+      "seed": 20261051
+    },
+    {
+      "headline": "Trump Explores Lifting Sanctions on Russia’s Flagship Investment Fund",
+      "fragment": "It is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
+      "splice": "Trump Explores Lifting Sanctions on Russia’s Flagship Investment Fund insofar as it is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
+      "seed": 20261052
+    },
+    {
+      "headline": "Lula's comeback in Brazil dents Trump's ambitions for Latin America",
+      "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "splice": "Lula's comeback in Brazil dents Trump's ambitions for Latin America meanwhile the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "seed": 20261053
+    },
+    {
+      "headline": "Ceasefire extended across Ukraine's Kherson region, officials say",
+      "fragment": "Traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
+      "splice": "Ceasefire extended across Ukraine's Kherson region, officials say which is to say traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
+      "seed": 20261054
+    },
+    {
+      "headline": "Bankrolling American Empire in the Philippines",
+      "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "splice": "Bankrolling American Empire in the Philippines underneath the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "seed": 20261055
+    },
+    {
+      "headline": "Viral Google Maps Images Shared Widely This Week Show Gaza Ruins. We Obtained More Recent Satellite Imagery",
+      "fragment": "Simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
+      "splice": "Viral Google Maps Images Shared Widely This Week Show Gaza Ruins. We Obtained More Recent Satellite Imagery within which simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
+      "seed": 20261056
+    },
+    {
+      "headline": "Christy Kinahan’s UAE Residence Visa Cancelled",
+      "fragment": "It is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
+      "splice": "Christy Kinahan’s UAE Residence Visa Cancelled ...as it is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
+      "seed": 20261057
     }
   ]
 }
