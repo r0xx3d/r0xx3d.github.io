@@ -1,7 +1,47 @@
 {
-  "generated_at": "2026-10-26T20:20:45.006Z",
+  "generated_at": "2026-10-27T08:45:33.222Z",
   "threat_intel": {
     "cisa_kev": [
+      {
+        "cveID": "CVE-2026-109618",
+        "vendorProject": "PHP Group",
+        "product": "PHP",
+        "vulnerabilityName": "PHP Memory Corruption Vulnerability",
+        "dateAdded": "2026-10-26",
+        "shortDescription": "PHP contains an out-of-memory corruption vulnerability that allows for unauthenticated remote code execution.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-10-29",
+        "knownRansomwareCampaignUse": "Unknown",
+        "forensicTriage": "Yes",
+        "notes": "This vulnerability affects an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: https://www.php.net/ ; https://www.cisa.gov/news-events/alerts/2026/10/21/critical-vulnerabilities-php-require-immediate-patching ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ;  https://nvd.nist.gov/vuln/detail/CVE-2026-109618",
+        "cwes": [
+          "CWE-416",
+          "CWE-755",
+          "CWE-824",
+          "CWE-1325",
+          "CWE-1419"
+        ]
+      },
+      {
+        "cveID": "CVE-2026-109619",
+        "vendorProject": "PHP Group",
+        "product": "PHP",
+        "vulnerabilityName": "PHP Stale Internal Request-State Vulnerability",
+        "dateAdded": "2026-10-26",
+        "shortDescription": "PHP contains a stale internal request-state vulnerability that allows for unauthenticated remote code execution.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-10-29",
+        "knownRansomwareCampaignUse": "Unknown",
+        "forensicTriage": "Yes",
+        "notes": "This vulnerability affects an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: https://www.php.net/ ; https://www.cisa.gov/news-events/alerts/2026/10/21/critical-vulnerabilities-php-require-immediate-patching ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ;  https://nvd.nist.gov/vuln/detail/CVE-2026-109619",
+        "cwes": [
+          "CWE-416",
+          "CWE-755",
+          "CWE-824",
+          "CWE-1325",
+          "CWE-1419"
+        ]
+      },
       {
         "cveID": "CVE-2026-114625",
         "vendorProject": "Arista",
@@ -210,63 +250,94 @@
         "cwes": [
           "CWE-23"
         ]
-      },
-      {
-        "cveID": "CVE-2026-105133",
-        "vendorProject": "Ahsay",
-        "product": "AhsayCBS",
-        "vulnerabilityName": "Ahsay AhsayCBS Improper Authentication Vulnerability",
-        "dateAdded": "2026-10-14",
-        "shortDescription": "Ahsay AhsayCBS contains an improper authentication vulnerability that could allow a remote attacker to bypass authentication via manipulation of the random parameter in the API component’s checkSysPwd function. This vulnerability can be chained with CVE-2026-105134.",
-        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "dueDate": "2026-10-17",
-        "knownRansomwareCampaignUse": "Unknown",
-        "forensicTriage": "No",
-        "notes": "https://www.ahsay.com/en/company/announcements/patch-cve-105133-105134-update ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-105133",
-        "cwes": [
-          "CWE-287"
-        ]
-      },
-      {
-        "cveID": "CVE-2026-0322",
-        "vendorProject": "Palo Alto Networks",
-        "product": "PAN-OS",
-        "vulnerabilityName": "Palo Alto Networks PAN-OS Code Injection Vulnerability",
-        "dateAdded": "2026-10-14",
-        "shortDescription": "Palo Alto Networks PAN-OS contains a code injection vulnerability that could allow an authenticated attacker with network access to execute arbitrary code with root privileges on the firewall.",
-        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "dueDate": "2026-10-17",
-        "knownRansomwareCampaignUse": "Unknown",
-        "forensicTriage": "Yes",
-        "notes": "https://security.paloaltonetworks.com/CVE-2026-0322 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-0322",
-        "cwes": [
-          "CWE-94"
-        ]
       }
     ],
     "urlhaus": []
   },
   "world_monitor": [
     {
+      "title": "India evacuates tens of thousands as ‘very severe’ Cyclone Arnab nears",
+      "link": "https://www.aljazeera.com/news/2026/10/27/india-evacuates-tens-of-thousands-as-very-severe-cyclone-arnab-nears?traffic_source=rss",
+      "pubDate": "Tue, 27 Oct 2026 08:02:37 +0000",
+      "source": "Al Jazeera",
+      "summary": "The cyclonic storm is set to make landfall on Wednesday, with 400,000 people in need of evacuation."
+    },
+    {
+      "title": "Truce begins in Ukraine city where residents ate weeds to survive",
+      "link": "https://www.bbc.co.uk/news/articles/ck20wjnv3w0jo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Tue, 27 Oct 2026 08:01:22 GMT",
+      "source": "BBC",
+      "summary": "The ceasefire in Oleshky, announced by US First Lady Melania Trump, is meant to allow aid deliveries and the evacuation of civilians."
+    },
+    {
+      "title": "Qatar’s path to defence autonomy",
+      "link": "https://www.aljazeera.com/news-analysis/2026/10/27/qatars-path-to-defence-autonomy?traffic_source=rss",
+      "pubDate": "Tue, 27 Oct 2026 07:55:01 +0000",
+      "source": "Al Jazeera",
+      "summary": "Qatar needs a strategy built on national resilience and diversified security guarantees."
+    },
+    {
+      "title": "Wales first minister : ‘We’re within a union that is not a union of equals’",
+      "link": "https://www.aljazeera.com/video/talk-to-al-jazeera/2026/10/27/wales-first-minister-were-within-a-union-that-is-not-a-union-of?traffic_source=rss",
+      "pubDate": "Tue, 27 Oct 2026 07:14:25 +0000",
+      "source": "Al Jazeera",
+      "summary": "Rhun ap Iorwerth says his country’s relationship with the United Kingdom is unequal and needs to change."
+    },
+    {
+      "title": "US, EU and 30 countries warn of famine risk in Sudan, call for aid",
+      "link": "https://www.aljazeera.com/news/2026/10/27/us-eu-and-30-countries-warn-of-famine-risk-in-sudan-call-for-aid?traffic_source=rss",
+      "pubDate": "Tue, 27 Oct 2026 06:56:30 +0000",
+      "source": "Al Jazeera",
+      "summary": "Countries also urge Sudan's warring parties to 'lift all impediments on humanitarian assistance'."
+    },
+    {
+      "title": "South Korea’s GDP growth beats forecasts amid AI boom",
+      "link": "https://www.aljazeera.com/economy/2026/10/27/south-koreas-gdp-growth-beats-forecasts-amid-ai-boom?traffic_source=rss",
+      "pubDate": "Tue, 27 Oct 2026 06:50:53 +0000",
+      "source": "Al Jazeera",
+      "summary": "Asia's fourth-largest economy grows 3.4 percent year-on-year amid strong semiconductor demand."
+    },
+    {
+      "title": "Israel heads to polls for pivotal election defined by security and democracy",
+      "link": "https://www.bbc.co.uk/news/articles/c3j47l4kdez4o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Tue, 27 Oct 2026 05:45:08 GMT",
+      "source": "BBC",
+      "summary": "Many fear neither of the leading political blocs will win enough seats for a majority - meaning weeks or months of political wrangling may lie ahead."
+    },
+    {
+      "title": "Serbia’s Election Shows New Vulnerability for Nationalist Populists",
+      "link": "https://www.nytimes.com/2026/10/26/world/europe/serbia-election-vucic-nationalist-populists.html",
+      "pubDate": "Tue, 27 Oct 2026 03:29:47 +0000",
+      "source": "NYT World",
+      "summary": "In much of Europe, the advance of the right has been seen as unstoppable. But in the east, nationalists are being cast aside in places where they long governed."
+    },
+    {
+      "title": "Jordan carries out deadly strike in Syria in retaliation for church attack",
+      "link": "https://www.bbc.co.uk/news/articles/cq8ezg6dy6xlo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Tue, 27 Oct 2026 02:40:17 GMT",
+      "source": "BBC",
+      "summary": "The attack on a village in Syria killed five people, including women and children, Syrian health officials said."
+    },
+    {
+      "title": "Ex-FBI chief James Comey faces federal charges for third time",
+      "link": "https://www.bbc.co.uk/news/articles/ckly0xqjnlwvo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Tue, 27 Oct 2026 02:01:27 GMT",
+      "source": "BBC",
+      "summary": "Comey's lawyers say the case stems from alleged disclosure of classified information to the New York Times in 2016."
+    },
+    {
+      "title": "Lula's comeback in Brazil dents Trump's ambitions for Latin America",
+      "link": "https://www.bbc.co.uk/news/articles/cq62yg6rggj0o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Tue, 27 Oct 2026 01:46:38 GMT",
+      "source": "BBC",
+      "summary": "The Trump-Lula relationship may have thawed, but several issues could reignite tensions between the two leaders."
+    },
+    {
       "title": "Lula Defeats Bolsonaro for Brazil Presidency, in Blow to Latin America’s Right",
       "link": "https://www.nytimes.com/2026/10/25/world/americas/brazil-election-president-lula-bolsonaro.html",
-      "pubDate": "Mon, 26 Oct 2026 20:13:01 +0000",
+      "pubDate": "Mon, 26 Oct 2026 20:32:16 +0000",
       "source": "NYT World",
       "summary": "President Luiz Inácio Lula da Silva triumphed over Flávio Bolsonaro, the eldest son of the right-wing leader he defeated four years ago."
-    },
-    {
-      "title": "Lula wins fourth term in dramatic Brazil election comeback",
-      "link": "https://www.bbc.co.uk/news/articles/ckm23y3mg1yyo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Mon, 26 Oct 2026 20:00:30 GMT",
-      "source": "BBC",
-      "summary": "The left-wing incumbent president had lost the first round to right-wing challenger Flávio Bolsonaro."
-    },
-    {
-      "title": "80 injured after bus plunges down embankment near Barcelona",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/10/26/80-injured-after-bus-plunges-down-embankment-near-barcelona?traffic_source=rss",
-      "pubDate": "Mon, 26 Oct 2026 19:49:31 +0000",
-      "source": "Al Jazeera",
-      "summary": "80 injured after bus plunges down embankment near Barcelona"
     },
     {
       "title": "Egypt OKs Military Aid to Saudis in Fight With Houthis",
@@ -274,69 +345,6 @@
       "pubDate": "Mon, 26 Oct 2026 19:42:58 +0000",
       "source": "NYT World",
       "summary": "The Egyptians will commit forces for defensive purposes only, officials have said, as the kingdom exchanges increasingly deadly strikes with the Iranian-backed militia in Yemen."
-    },
-    {
-      "title": "Trump administration illegally fired James Comey's daughter, judge rules",
-      "link": "https://www.bbc.co.uk/news/articles/ck78px6glw3lo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Mon, 26 Oct 2026 19:27:21 GMT",
-      "source": "BBC",
-      "summary": "Maurene Comey believes she was let go from her job as a federal prosecutor because her father is the former FBI director."
-    },
-    {
-      "title": "Jordan arrests three suspects over deadly church attack",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/10/26/jordan-arrests-three-suspects-over-deadly-church-attack?traffic_source=rss",
-      "pubDate": "Mon, 26 Oct 2026 19:25:53 +0000",
-      "source": "Al Jazeera",
-      "summary": "Jordanian authorities have arrested three relatives over a church attack in Karak that killed eight people."
-    },
-    {
-      "title": "Trump faces private citizens lawsuit over limiting White House media access",
-      "link": "https://www.aljazeera.com/news/2026/10/26/trump-faces-private-citizens-lawsuit-over-limiting-white-house-media-access?traffic_source=rss",
-      "pubDate": "Mon, 26 Oct 2026 18:29:26 +0000",
-      "source": "Al Jazeera",
-      "summary": "The plaintiffs argue they are losing access to vital information media outlets covering Trump used to provide."
-    },
-    {
-      "title": "Brazil’s real sinks after Lula’s re-election victory",
-      "link": "https://www.aljazeera.com/economy/2026/10/26/brazils-real-sinks-after-lulas-re-election-victory?traffic_source=rss",
-      "pubDate": "Mon, 26 Oct 2026 18:27:23 +0000",
-      "source": "Al Jazeera",
-      "summary": "Investors react to Lula's victory with a sharp decline in the real and concern over increased spending and fiscal challenges."
-    },
-    {
-      "title": "Serbia’s Election Shows New Vulnerability for Nationalist Populists",
-      "link": "https://www.nytimes.com/2026/10/26/world/europe/serbia-election-vucic-nationalist-populists.html",
-      "pubDate": "Mon, 26 Oct 2026 18:26:54 +0000",
-      "source": "NYT World",
-      "summary": "In much of Europe, the advance of the right has been seen as unstoppable. But in the east, nationalists are being cast aside in places where they long governed."
-    },
-    {
-      "title": "Could the midterms change US military support for Israel?",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/10/26/could-the-midterms-change-americas-military-support-for-israel?traffic_source=rss",
-      "pubDate": "Mon, 26 Oct 2026 18:05:12 +0000",
-      "source": "Al Jazeera",
-      "summary": "From Texas to Michigan, Senate candidates are challenging US weapons transfers to Israel."
-    },
-    {
-      "title": "Anthropic warns of 'catastrophic risk' to humankind ahead of blockbuster share listing",
-      "link": "https://www.bbc.co.uk/news/articles/cq398p1wd1evo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Mon, 26 Oct 2026 16:27:17 GMT",
-      "source": "BBC",
-      "summary": "The company will be the first true artificial intelligence company to go public as tech firms continue to invest heavily in AI."
-    },
-    {
-      "title": "Catholic bishops apologise for 'exploited' Trump meeting ",
-      "link": "https://www.bbc.co.uk/news/articles/cw8rz1d286v3o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Mon, 26 Oct 2026 15:46:31 GMT",
-      "source": "BBC",
-      "summary": "Two bishops in images that show them praying with Trump have said they believed the meeting was private."
-    },
-    {
-      "title": "Celebrations in Serbia after veteran ruler Vučić loses election to student-led protest movement",
-      "link": "https://www.bbc.co.uk/news/articles/cw5yn3xlprpmo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Mon, 26 Oct 2026 14:34:52 GMT",
-      "source": "BBC",
-      "summary": "The populist right-wing leader of 12 years says it is \"clear\" his party has lost the vote billed as a referendum on the country's future."
     },
     {
       "title": "Bankrolling American Empire in the Philippines",
@@ -490,18 +498,58 @@
   ],
   "syndicate_journal": [
     {
-      "title": "Why Your Boss Might Live Longer Than You",
-      "link": "https://nautil.us/why-your-boss-might-live-longer-than-you-1286092/",
-      "summary": "Entrepreneurship may carry benefits as well as risks\nThe post Why Your Boss Might Live Longer Than You appeared first on Nautilus.",
-      "pubDate": "Mon, 26 Oct 2026 20:00:00 +0000",
+      "title": "Inverse Modeling for Laser Pulse Shape Design in Inertial Confinement Fusion",
+      "link": "https://arxiv.org/abs/2610.33096",
+      "summary": "arXiv:2610.33096v1 Announce Type: new \nAbstract: The achievement of practical fusion energy remains one of the most pressing unsolved scientific challenges, with immense implications for carbon-free power. A critical factor in the success of Inertial Confinement Fusion (ICF) is the design of a Laser",
+      "pubDate": "Tue, 27 Oct 2026 00:00:00 -0400",
+      "domain": "science",
+      "source": "arXiv: cs.AI"
+    },
+    {
+      "title": "IRON-Meme: A Benchmark for Structured Understanding of Identities and Roles in Online Meme Narratives",
+      "link": "https://arxiv.org/abs/2610.33097",
+      "summary": "arXiv:2610.33097v1 Announce Type: new \nAbstract: As polarization grows on social media, understanding how political memes shape online narratives has become increasingly important. Previous research has relied on either qualitative frameworks that are hard to scale or computational methods that lack",
+      "pubDate": "Tue, 27 Oct 2026 00:00:00 -0400",
+      "domain": "science",
+      "source": "arXiv: cs.AI"
+    },
+    {
+      "title": "Prospect Theory in Large Language Models: A Meta-Analysis of Loss Aversion, Diminishing Sensitivity, and Probability Weighting",
+      "link": "https://arxiv.org/abs/2610.33103",
+      "summary": "arXiv:2610.33103v1 Announce Type: new \nAbstract: Prospect theory splits risky choice into three parts: loss aversion, measured by the relative weight of losses to gains, $\\lambda$ (e.g., $\\lambda = 2$ implies that losses weigh twice as much as gains), diminishing sensitivity to the size of outcomes ",
+      "pubDate": "Tue, 27 Oct 2026 00:00:00 -0400",
+      "domain": "science",
+      "source": "arXiv: cs.AI"
+    },
+    {
+      "title": "Spike-Thumbed Dino Discovered in the United Kingdom",
+      "link": "https://nautil.us/spike-thumbed-dino-discovered-in-the-united-kingdom-1286098/",
+      "summary": "The swamp-dwelling iguanodon relative may have been dinner for spinosaurs\nThe post Spike-Thumbed Dino Discovered in the United Kingdom appeared first on Nautilus.",
+      "pubDate": "Tue, 27 Oct 2026 01:05:00 +0000",
       "domain": "science",
       "source": "Nautilus"
     },
     {
-      "title": "How We Control What Accents We Pick Up",
-      "link": "https://nautil.us/how-we-control-what-accents-we-pick-up-1286085/",
-      "summary": "We imitate what we notice\nThe post How We Control What Accents We Pick Up appeared first on Nautilus.",
-      "pubDate": "Mon, 26 Oct 2026 18:00:00 +0000",
+      "title": "Inside the Mind of a Narcissist",
+      "link": "https://nautil.us/inside-the-mind-of-a-narcissist-1286095/",
+      "summary": "Their brains don’t sync the same way when it comes to processing empathy\nThe post Inside the Mind of a Narcissist appeared first on Nautilus.",
+      "pubDate": "Mon, 26 Oct 2026 23:01:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "Lula’s Win Is a Defeat for Donald Trump and MAGA",
+      "link": "https://jacobin.com/2026/10/lula-brazil-election-trump-interference",
+      "summary": "Luiz Inácio ​Lula da Silva’s election victory last night in Brazil is being widely celebrated as one of the great political comebacks of our time: the first time any Brazilian presidential candidate has come back from a first-round loss, achieved on the back of a reenergized Brazilian left and a new",
+      "pubDate": "2026-10-26T20:47:19.451Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "Why Your Boss Might Live Longer Than You",
+      "link": "https://nautil.us/why-your-boss-might-live-longer-than-you-1286092/",
+      "summary": "Entrepreneurship may carry benefits as well as risks\nThe post Why Your Boss Might Live Longer Than You appeared first on Nautilus.",
+      "pubDate": "Mon, 26 Oct 2026 20:00:00 +0000",
       "domain": "science",
       "source": "Nautilus"
     },
@@ -522,28 +570,12 @@
       "source": "Jacobin"
     },
     {
-      "title": "The Bloody Palette of the Animal Kingdom",
-      "link": "https://nautil.us/the-bloody-palette-of-the-animal-kingdom-1286077/",
-      "summary": "Red isn’t the only color when it comes to blood—critters produce the vital fluid in a variety of hues\nThe post The Bloody Palette of the Animal Kingdom appeared first on Nautilus.",
-      "pubDate": "Mon, 26 Oct 2026 15:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
       "title": "How Voting Is Like a Klein Bottle",
       "link": "https://www.quantamagazine.org/how-voting-is-like-a-klein-bottle-20261026/",
       "summary": "A new topological model connects a centuries-old voting paradox to a surface with no distinct inside or outside.            \nThe post How Voting Is Like a Klein Bottle first appeared on Quanta Magazine",
       "pubDate": "Mon, 26 Oct 2026 14:54:29 +0000",
       "domain": "science",
       "source": "Quanta"
-    },
-    {
-      "title": "Lula’s Surprise Victory Is a Beam of Hope in a Dark World",
-      "link": "https://jacobin.com/2026/10/brazil-elections-lula-bolsonaro-comeback",
-      "summary": "Following a stunning, inspiring turnaround driven by mass mobilization of the Brazilian people, Luiz Inácio Lula da Silva has won his fourth presidential election. This achievement marks an unprecedented shift in Brazilian political history: never before has a candidate who trailed in the first roun",
-      "pubDate": "2026-10-26T14:53:31.044Z",
-      "domain": "politics",
-      "source": "Jacobin"
     },
     {
       "title": "How Big Oil Shaped America’s Parks",
@@ -568,30 +600,6 @@
       "pubDate": "Mon, 26 Oct 2026 10:00:00 GMT",
       "domain": "philosophy",
       "source": "Aeon"
-    },
-    {
-      "title": "Tradeoff-Aware Territory Design: A Multi-Objective Decision System for Enterprise Customer-to-Seller Allocation",
-      "link": "https://arxiv.org/abs/2610.31701",
-      "summary": "arXiv:2610.31701v1 Announce Type: new \nAbstract: Enterprise customer journeys are shaped not only by product experiences and marketing, but also by recurring resource-allocation decisions. In B2B go-to-market (GTM) organizations, territory carving determines which accounts receive seller coverage, w",
-      "pubDate": "Mon, 26 Oct 2026 00:00:00 -0400",
-      "domain": "science",
-      "source": "arXiv: cs.AI"
-    },
-    {
-      "title": "Phronix: The Capability-Centric Learning Paradigm for Agents",
-      "link": "https://arxiv.org/abs/2610.31789",
-      "summary": "arXiv:2610.31789v1 Announce Type: new \nAbstract: Scientific computing increasingly relies on large language model-based agents for performance engineering tasks such as instrumentation, analysis, and workflow porting. However, agent effectiveness depends heavily on the surrounding harness, which typ",
-      "pubDate": "Mon, 26 Oct 2026 00:00:00 -0400",
-      "domain": "science",
-      "source": "arXiv: cs.AI"
-    },
-    {
-      "title": "Patronizing and Condescending Language Detection in English and Mandarin",
-      "link": "https://arxiv.org/abs/2610.31808",
-      "summary": "arXiv:2610.31808v1 Announce Type: new \nAbstract: Patronizing and condescending language (PCL) is a form of harmful language that belittles and assumes pity for vulnerable groups, reinforcing negative societal stereotypes. However, unlike overt hate speech, it is often difficult to detect, even for h",
-      "pubDate": "Mon, 26 Oct 2026 00:00:00 -0400",
-      "domain": "science",
-      "source": "arXiv: cs.AI"
     },
     {
       "title": "Malaria Parasite Caught in the Act of Breaking and Entering",
@@ -730,25 +738,25 @@
       "source": "Sapiens"
     },
     {
-      "title": "How social skills relate to academic life integration: psychological well-being and loneliness",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1891012",
-      "summary": "BackgroundThis study examined whether social skills relate to academic life integration directly and indirectly through psychological well-being and loneliness.MethodsA cross-sectional survey of 251 Hangzhou Polytechnic students was analyzed using PLS-SEM.ResultsSocial skills were positively associa",
+      "title": "Practicing for the unexpected: a framework for musical adaptation reserve in expert musicians",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1970635",
+      "summary": "Expert musicians devote years to making performance reliable, yet public performance is never a perfect copy of the conditions under which a work was prepared. Instruments differ, rooms alter what performers hear, ensemble partners behave differently, audiences change arousal and attention, and smal",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "Correction: Heterogeneity of dormitory interpersonal conflict coping style and its negative emotional characteristics among college students: based on latent profile analysis",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.2019508",
-      "summary": "",
+      "title": "Conceptual framework for emotion control integrating empathy, emotional regulation, and flexibility",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1753106",
+      "summary": "Emotions play an active role in the decision-making process and must be controlled to promote “good decisions” and avoid “bad decisions.” Emotions can be controlled using emotional regulation. Emotional regulation needs the perception of our own and other people’s emotions. The perception of other’s",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "Academic motivation and self-regulatory strategy enactment in higher education: regulatory processes and contextual conditions",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1989773",
-      "summary": "Academic motivation is central to successful learning in higher education, yet being motivated does not by itself specify how students regulate learning in practice. This Mini Review examines how motivational conditions are linked with self-regulatory strategy enactment, focusing on recent meta-anal",
+      "title": "Baseline cognitive insight moderates the efficacy of metacognitive training for psychosis: an individual participant data analysis",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1934181",
+      "summary": "BackgroundMetacognitive Training (MCT) for psychosis is designed to target metacognitive processes, yet evidence for its effects on cognitive insight remains inconclusive, owing primarily to the limited methodological quality of available trials. A potential explanation lies in baseline heterogeneit",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
@@ -756,64 +764,64 @@
   ],
   "misinfo_toilet": [
     {
-      "headline": "Jordan arrests three suspects over deadly church attack",
-      "fragment": "There is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
-      "splice": "Jordan arrests three suspects over deadly church attack within which there is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
-      "seed": 20261046
-    },
-    {
-      "headline": "Egypt OKs Military Aid to Saudis in Fight With Houthis",
-      "fragment": "Art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
-      "splice": "Egypt OKs Military Aid to Saudis in Fight With Houthis insofar as art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
-      "seed": 20261047
+      "headline": "South Korea’s GDP growth beats forecasts amid AI boom",
+      "fragment": "It is at work everywhere, functioning smoothly at times, at other times in fits and starts. It breathes, it heats, it eats. It shits and fucks.",
+      "splice": "South Korea’s GDP growth beats forecasts amid AI boom despite it is at work everywhere, functioning smoothly at times, at other times in fits and starts. It breathes, it heats, it eats. It shits and fucks.",
+      "seed": 20261035
     },
     {
       "headline": "Viral Google Maps Images Shared Widely This Week Show Gaza Ruins. We Obtained More Recent Satellite Imagery",
+      "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
+      "splice": "Viral Google Maps Images Shared Widely This Week Show Gaza Ruins. We Obtained More Recent Satellite Imagery which is to say the breast is a machine that produces milk, and the mouth a machine coupled to it.",
+      "seed": 20261036
+    },
+    {
+      "headline": "Israeli Jews Across the Spectrum Face an Election of Fears",
+      "fragment": "This is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
+      "splice": "Israeli Jews Across the Spectrum Face an Election of Fears which is to say this is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
+      "seed": 20261037
+    },
+    {
+      "headline": "Serbia’s Election Shows New Vulnerability for Nationalist Populists",
+      "fragment": "To dissimulate is to pretend not to have what one has. To simulate is to feign to have what one doesn't have. One implies a presence, the other an absence.",
+      "splice": "Serbia’s Election Shows New Vulnerability for Nationalist Populists the signal resolves into to dissimulate is to pretend not to have what one has. To simulate is to feign to have what one doesn't have. One implies a presence, the other an absence.",
+      "seed": 20261038
+    },
+    {
+      "headline": "Can LLMs Supercharge Geolocations? Our Tests Show Big Improvements But Humans Remain Key",
+      "fragment": "There is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
+      "splice": "Can LLMs Supercharge Geolocations? Our Tests Show Big Improvements But Humans Remain Key within which there is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
+      "seed": 20261039
+    },
+    {
+      "headline": "India evacuates tens of thousands as ‘very severe’ Cyclone Arnab nears",
+      "fragment": "Art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
+      "splice": "India evacuates tens of thousands as ‘very severe’ Cyclone Arnab nears insofar as art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
+      "seed": 20261040
+    },
+    {
+      "headline": "Pentagon Records Missed Almost Half of Troops’ Domestic Abuse Killings",
       "fragment": "In the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
-      "splice": "Viral Google Maps Images Shared Widely This Week Show Gaza Ruins. We Obtained More Recent Satellite Imagery consequently in the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
-      "seed": 20261048
+      "splice": "Pentagon Records Missed Almost Half of Troops’ Domestic Abuse Killings consequently in the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
+      "seed": 20261041
     },
     {
-      "headline": "Satellite Images Show Extent of Trump Admin’s Tree-Felling at DC Golf Course",
+      "headline": "Egypt OKs Military Aid to Saudis in Fight With Houthis",
       "fragment": "We live in a world where there is more and more information, and less and less meaning.",
-      "splice": "Satellite Images Show Extent of Trump Admin’s Tree-Felling at DC Golf Course within which we live in a world where there is more and more information, and less and less meaning.",
-      "seed": 20261049
+      "splice": "Egypt OKs Military Aid to Saudis in Fight With Houthis within which we live in a world where there is more and more information, and less and less meaning.",
+      "seed": 20261042
     },
     {
-      "headline": "Bankrolling American Empire in the Philippines",
+      "headline": "Lula's comeback in Brazil dents Trump's ambitions for Latin America",
       "fragment": "Simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
-      "splice": "Bankrolling American Empire in the Philippines consequently simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
-      "seed": 20261050
+      "splice": "Lula's comeback in Brazil dents Trump's ambitions for Latin America consequently simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
+      "seed": 20261043
     },
     {
-      "headline": "Hegseth Built a New Pentagon Office for Religion. Military Religious Leaders Wish He Hadn’t.",
+      "headline": "Groups Associated With India’s Far-Right Receive Millions Through US Donor-Advised Funds",
       "fragment": "Underneath all reason lies delirium and drift.",
-      "splice": "Hegseth Built a New Pentagon Office for Religion. Military Religious Leaders Wish He Hadn’t. meanwhile underneath all reason lies delirium and drift.",
-      "seed": 20261051
-    },
-    {
-      "headline": "Lula wins fourth term in dramatic Brazil election comeback",
-      "fragment": "It is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
-      "splice": "Lula wins fourth term in dramatic Brazil election comeback insofar as it is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
-      "seed": 20261052
-    },
-    {
-      "headline": "The Spirit of “Party Unity, My Ass” Is Back and Coming for the DSA (and El-Sayed)",
-      "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
-      "splice": "The Spirit of “Party Unity, My Ass” Is Back and Coming for the DSA (and El-Sayed) meanwhile the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
-      "seed": 20261053
-    },
-    {
-      "headline": "Catholic bishops apologise for 'exploited' Trump meeting ",
-      "fragment": "Traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "splice": "Catholic bishops apologise for 'exploited' Trump meeting  which is to say traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "seed": 20261054
-    },
-    {
-      "headline": "Christy Kinahan’s UAE Residence Visa Cancelled",
-      "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
-      "splice": "Christy Kinahan’s UAE Residence Visa Cancelled underneath the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
-      "seed": 20261055
+      "splice": "Groups Associated With India’s Far-Right Receive Millions Through US Donor-Advised Funds meanwhile underneath all reason lies delirium and drift.",
+      "seed": 20261044
     }
   ]
 }
