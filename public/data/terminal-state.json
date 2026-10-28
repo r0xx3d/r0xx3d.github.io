@@ -1,7 +1,39 @@
 {
-  "generated_at": "2026-10-28T04:44:36.480Z",
+  "generated_at": "2026-10-28T20:07:31.154Z",
   "threat_intel": {
     "cisa_kev": [
+      {
+        "cveID": "CVE-2026-41709",
+        "vendorProject": "Broadcom",
+        "product": "VMware ESX",
+        "vulnerabilityName": "Broadcom VMWare ESX Insufficient Logging Vulnerability",
+        "dateAdded": "2026-10-28",
+        "shortDescription": "Broadcom VMWare ESX contains an insufficient logging vulnerability that could allow a malicious actor with admin access to perform certain operations without being logged.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-11-11",
+        "knownRansomwareCampaignUse": "Unknown",
+        "forensicTriage": "No",
+        "notes": "https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/38017 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-41709",
+        "cwes": [
+          "CWE-778"
+        ]
+      },
+      {
+        "cveID": "CVE-2026-46300",
+        "vendorProject": "Linux",
+        "product": "Kernel",
+        "vulnerabilityName": "Linux Kernel Missing Initialization of a Variable Vulnerability",
+        "dateAdded": "2026-10-28",
+        "shortDescription": "Linux Kernel contains a missing initialization of a variable vulnerability that could allow for unintended modification of page-cache-backed data via failure to preserve the shared-fragment marker during socket buffer coalescing, causing ESP input processing to decrypt shared fragments in place. This vulnerability can be chained with CVE-2026-109618 and CVE-2026-109619 to implant PHP webshells and run commands as root.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-10-31",
+        "knownRansomwareCampaignUse": "Unknown",
+        "forensicTriage": "Yes",
+        "notes": "This vulnerability affects an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: ; https://git.kernel.org/stable/c/3599e6b3cc1ada96883d496a50a210d3afbb6987 ; https://git.kernel.org/stable/c/2f2b16022a2e10ca7bccfb98db5ed2ec0f72641c ; https://git.kernel.org/stable/c/9d3e5fd19fe1063bf607219e8562fbd567b8e8d5 ; https://git.kernel.org/stable/c/78bf6b6bb19541d19fbda6242e7cfe2c682763c0 ; https://git.kernel.org/stable/c/760e1addc27ba1a7beb4a0a7e8b3e9ec49e7a34e ; https://git.kernel.org/stable/c/3bd9e113d50034db99d7ef69fd8e5242d15e414a ; https://git.kernel.org/stable/c/3884358a9286b17f389a72b1426fc4547c23c111 ; https://git.kernel.org/stable/c/f84eca5817390257cef78013d0112481c503b4a3 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-46300",
+        "cwes": [
+          "CWE-456"
+        ]
+      },
       {
         "cveID": "CVE-2026-48356",
         "vendorProject": "Adobe",
@@ -218,105 +250,143 @@
         "cwes": [
           "CWE-290"
         ]
-      },
-      {
-        "cveID": "CVE-2025-61624",
-        "vendorProject": "Fortinet",
-        "product": "Multiple Products",
-        "vulnerabilityName": "Fortinet Multiple Products Path Traversal Vulnerability",
-        "dateAdded": "2026-10-16",
-        "shortDescription": "FortiOS, FortiPAM, FortiProxy, and FortiSwitchManager contain a path traversal vulnerability that may allow an authenticated attacker with admin profile and at least read-write permissions to write or delete arbitrary files via specific CLI commands.",
-        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "dueDate": "2026-10-19",
-        "knownRansomwareCampaignUse": "Unknown",
-        "forensicTriage": "Yes",
-        "notes": "https://fortiguard.fortinet.com/psirt/FG-IR-26-122 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2025-61624",
-        "cwes": [
-          "CWE-22"
-        ]
-      },
-      {
-        "cveID": "CVE-2026-21589",
-        "vendorProject": "Atlassian",
-        "product": "Multiple Products",
-        "vulnerabilityName": "Atlassian Multiple Products Files or Directories Accessible to External Parties Vulnerability",
-        "dateAdded": "2026-10-15",
-        "shortDescription": "Multiple Atlassian products (Bitbucket Data Center ,Confluence Data Center, Jira Service Management Data Center, Jira Software Data Center, Bamboo Data Center, Crowd Data Center, Crucible and Fisheye) contain a files or directories accessible to external parties vulnerability which could allow an unauthenticated attacker to access specific files within the web application root directory in affected versions.",
-        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "dueDate": "2026-10-18",
-        "knownRansomwareCampaignUse": "Unknown",
-        "forensicTriage": "Yes",
-        "notes": "https://confluence.atlassian.com/security/cve-2026-21589-arbitrary-file-access-vulnerability-impacts-multiple-products-1870495748.html?ref=labs.watchtowr.com ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-21589",
-        "cwes": [
-          "CWE-552"
-        ]
       }
     ],
     "urlhaus": []
   },
   "world_monitor": [
     {
-      "title": "Mahmoud Khalil credits Palestinian activism for reshaping US politics",
-      "link": "https://www.aljazeera.com/news/2026/10/28/mahmoud-khalil-credits-palestinian-activism-for-reshaping-us-politics?traffic_source=rss",
-      "pubDate": "Wed, 28 Oct 2026 04:13:28 +0000",
+      "title": "Spain demands answers after deadliest train disaster in over a decade",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/10/28/spain-demands-answers-after-deadliest-train-disaster-in-over-a-decade?traffic_source=rss",
+      "pubDate": "Wed, 28 Oct 2026 19:32:57 +0000",
       "source": "Al Jazeera",
-      "summary": "Khalil returned to Columbia University to discuss his memoir detailing his arrest and detention by US immigration agents"
+      "summary": "At least 68 people have been killed and more than 100 injured after two high-speed trains collided south of Madrid."
     },
     {
-      "title": "Israel Election Live Updates: Rivals Strike Tone of Triumph, but Outcome Is Far From Clear",
+      "title": "Putin: Russia is African continent’s best partner, not ‘colonial’ West",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/10/28/putin-russia-is-african-continents-best-partner-not-colonial-west?traffic_source=rss",
+      "pubDate": "Wed, 28 Oct 2026 19:13:32 +0000",
+      "source": "Al Jazeera",
+      "summary": "Russian President Vladimir Putin told the leaders of dozens of African nations that Moscow was their best partner."
+    },
+    {
+      "title": "At Least 68 Killed in Train Crash in Spain, Officials Say",
+      "link": "https://www.nytimes.com/live/2026/10/28/world/spain-train-crash-toledo",
+      "pubDate": "Wed, 28 Oct 2026 19:12:18 +0000",
+      "source": "NYT World",
+      "summary": "A high-speed passenger train rear-ended another near Toledo, months after a crash involving the same carriers killed dozens and stunned the country."
+    },
+    {
+      "title": "Fed leaves interest rates unchanged despite inflation in the US",
+      "link": "https://www.aljazeera.com/economy/2026/10/28/fed-leaves-interest-rates-unchanged-despite-inflation-in-the-us?traffic_source=rss",
+      "pubDate": "Wed, 28 Oct 2026 19:05:44 +0000",
+      "source": "Al Jazeera",
+      "summary": "Rates will remain 3.75-4 percent even as inflation continues to rise."
+    },
+    {
+      "title": "What are the implications of Israel’s elections?",
+      "link": "https://www.aljazeera.com/video/inside-story/2026/10/28/what-are-the-implications-of-israels-elections?traffic_source=rss",
+      "pubDate": "Wed, 28 Oct 2026 19:03:03 +0000",
+      "source": "Al Jazeera",
+      "summary": "No clear winner in Israel's first election since the October 7 attacks and genocidal war in Gaza."
+    },
+    {
+      "title": "US jury convicts Rwandan American of lying about role in genocide",
+      "link": "https://www.aljazeera.com/news/2026/10/28/us-jury-convicts-rwandan-american-of-lying-about-role-in-genocide?traffic_source=rss",
+      "pubDate": "Wed, 28 Oct 2026 19:02:38 +0000",
+      "source": "Al Jazeera",
+      "summary": "Jurors heard competing witness testimony on where Eric Nshimiye was and what he was doing in April 1994."
+    },
+    {
+      "title": "Flávio Bolsonaro lands in Miami after defeat in Brazil's presidential election",
+      "link": "https://www.bbc.co.uk/news/articles/c6kglwe4lxwzo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Wed, 28 Oct 2026 18:42:45 GMT",
+      "source": "BBC",
+      "summary": "His arrival in the US ends speculation about his whereabouts after he failed to comply with an order to surrender his passports."
+    },
+    {
+      "title": "Trump Vows to Send Election “Monitors” to Maine After Far-Right Conspiracies Spread",
+      "link": "https://theintercept.com/2026/10/28/maine-trump-election-monitors-voting-polls/",
+      "pubDate": "Wed, 28 Oct 2026 18:36:46 +0000",
+      "source": "The Intercept",
+      "summary": "As right-wing Trump allies fearmongered about Somali American voter fraud, Maine trained local law enforcement officers on keeping armed federal agents out.\nThe post Trump Vows to Send Election “Monitors” to Maine After Far-Right Conspiracies Spread "
+    },
+    {
+      "title": "Rivals in Israel Election Strike Tone of Triumph, but Outcome Is Far From Clear",
       "link": "https://www.nytimes.com/live/2026/10/27/world/israel-elections",
-      "pubDate": "Wed, 28 Oct 2026 04:03:25 +0000",
+      "pubDate": "Wed, 28 Oct 2026 18:17:50 +0000",
       "source": "NYT World",
       "summary": "Addressing supporters after midnight, Prime Minister Benjamin Netanyahu and Gadi Eisenkot, who leads a bloc of opposition parties, both expressed confidence that they will lead Israel’s next government. Vote counting could take days."
     },
     {
-      "title": "Bolsonaro ally denies knowledge of senator’s plan to flee Brazil",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/10/28/bolsonaro-ally-denies-knowledge-of-senators-plan-to-flee-brazil?traffic_source=rss",
-      "pubDate": "Wed, 28 Oct 2026 03:49:40 +0000",
-      "source": "Al Jazeera",
-      "summary": "Flavio Bolsonaro’s former campaign manager says the senator did not inform him that he planned to flee Brazil."
+      "title": "Nigeria’s Ebola Patient Evacuated as Investigators Press for Answers",
+      "link": "https://www.nytimes.com/2026/10/28/world/africa/nigeria-ebola-patient-questions-uganda.html",
+      "pubDate": "Wed, 28 Oct 2026 18:16:55 +0000",
+      "source": "NYT World",
+      "summary": "More than a week after the first case was reported in Africa’s most populous nation, pressing questions about the infection remain unanswered."
     },
     {
-      "title": "Global stock markets rise as investors continue to bet on AI",
-      "link": "https://www.aljazeera.com/news/2026/10/28/global-stock-markets-rise-as-investors-continue-to-bet-on-ai?traffic_source=rss",
-      "pubDate": "Wed, 28 Oct 2026 03:14:31 +0000",
-      "source": "Al Jazeera",
-      "summary": "Asian stock markets rise, following gains on Wall Street."
+      "title": "The Incredible Shrinking Superpower",
+      "link": "https://theintercept.com/2026/10/28/yemen-saudi-arabia-iran/",
+      "pubDate": "Wed, 28 Oct 2026 17:04:39 +0000",
+      "source": "The Intercept",
+      "summary": "The failing war with Iran marks a dramatic retreat by the U.S. from the Middle East.\nThe post The Incredible Shrinking Superpower appeared first on The Intercept."
+    },
+    {
+      "title": "Netanyahu's bloc leading Israel election but short of majority, partial results show",
+      "link": "https://www.bbc.co.uk/news/articles/cmdx3knq1xexo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Wed, 28 Oct 2026 16:59:47 GMT",
+      "source": "BBC",
+      "summary": "With 85% of ballots counted, Netanyahu's Likud party and its allies are set to win 53 seats in the 120-seat Knesset."
+    },
+    {
+      "title": "Tommy Robinson Found Guilty of Harassing 2 UK Journalists",
+      "link": "https://www.nytimes.com/2026/10/28/world/europe/tommy-robinson-harassment-verdict-court-uk.html",
+      "pubDate": "Wed, 28 Oct 2026 15:22:59 +0000",
+      "source": "NYT World",
+      "summary": "The anti-immigrant agitator, whose real name is Stephen Yaxley-Lennon, will be sentenced in December."
+    },
+    {
+      "title": "How could Israel break election deadlock? Here are four scenarios",
+      "link": "https://www.bbc.co.uk/news/articles/cm62y46d97wwo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Wed, 28 Oct 2026 14:30:31 GMT",
+      "source": "BBC",
+      "summary": "With 85% of votes counted, all signs point to an impasse. The most likely outcome may be new elections."
+    },
+    {
+      "title": "The Ocean ‘Was the Color of Chocolate.’ Mexico Declares War on Seaweed.",
+      "link": "https://www.nytimes.com/2026/10/28/world/americas/mexico-seaweed-navy.html",
+      "pubDate": "Wed, 28 Oct 2026 12:08:53 +0000",
+      "source": "NYT World",
+      "summary": "To protect Mexico’s tourism-reliant economy, the Navy is fighting a massive sargassum bloom that dumps thousands of tons of seaweed onto Caribbean beaches daily."
+    },
+    {
+      "title": "Luxury cruise passengers stranded in Cambodia due to soaring fuel costs",
+      "link": "https://www.bbc.co.uk/news/articles/cwj342k62exyo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Wed, 28 Oct 2026 10:31:22 GMT",
+      "source": "BBC",
+      "summary": "The Villa Vie Odyssey suspended its voyage and is working with passengers on \"temporary living arrangements\"."
+    },
+    {
+      "title": "Serbian shot dead after attacking officer outside Israeli embassy, minister says",
+      "link": "https://www.bbc.co.uk/news/articles/ck5ynj4eeyj2o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Wed, 28 Oct 2026 10:17:54 GMT",
+      "source": "BBC",
+      "summary": "Authorities say the attacker in Belgrade was an underage male who was being monitored by security services."
+    },
+    {
+      "title": "Prosecutors Want to Keep a Man in Prison for His Wife’s Murder — Despite Judge Saying Their Evidence is Junk",
+      "link": "https://theintercept.com/2026/10/28/bite-mark-forensics-junk-science-mccrory/",
+      "pubDate": "Wed, 28 Oct 2026 10:00:00 +0000",
+      "source": "The Intercept",
+      "summary": "Slamming the bogus bite-mark analysis that sent Charles McCrory to prison in 1985, the judge vacated his conviction.\nThe post Prosecutors Want to Keep a Man in Prison for His Wife’s Murder — Despite Judge Saying Their Evidence is Junk appeared first "
     },
     {
       "title": "The Bolsonaro Family Playbook: Lose, Cry Fraud, and Run to Trump’s America",
       "link": "https://theintercept.com/2026/10/27/flavio-bolsonaro-trump-visa/",
       "pubDate": "Wed, 28 Oct 2026 03:11:52 +0000",
       "source": "The Intercept",
-      "summary": "Brazil’s Supreme court tried to strip Flávio Bolsonaro's passport, but the Trump administration granted him a visa, according to reports.\nThe post The Bolsonaro Family Playbook: Lose, Cry Fraud, and Run to Trump’s America appeared first on The Interc"
-    },
-    {
-      "title": "Syria-Jordan border reopens amid probe into deadly air strikes",
-      "link": "https://www.aljazeera.com/news/2026/10/28/syria-jordan-border-reopens-amid-probe-into-deadly-airstrikes?traffic_source=rss",
-      "pubDate": "Wed, 28 Oct 2026 03:10:17 +0000",
-      "source": "Al Jazeera",
-      "summary": "Foreign ministers form security committee to share intelligence and follow up on impact of Jordan's strikes on Syria."
-    },
-    {
-      "title": "Five key takeaways from Israel’s parliamentary elections",
-      "link": "https://www.aljazeera.com/news/2026/10/28/five-key-takeaways-from-israels-parliamentary-elections?traffic_source=rss",
-      "pubDate": "Wed, 28 Oct 2026 02:53:35 +0000",
-      "source": "Al Jazeera",
-      "summary": "Netanyahu's Likud emerges as single largest Israeli party, bloc edges past opposition."
-    },
-    {
-      "title": "Ceasefire extended across Ukraine's Kherson region, officials say",
-      "link": "https://www.bbc.co.uk/news/articles/c6lye1w9p2l8o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Tue, 27 Oct 2026 22:11:08 GMT",
-      "source": "BBC",
-      "summary": "The truce was originally planned for the stranded residents of Oleshky, and Russia and Ukraine say no breaches have been reported."
-    },
-    {
-      "title": "European Leaders Split Over Phone Call to Putin",
-      "link": "https://www.nytimes.com/2026/10/27/world/europe/norway-finland-putin-call.html",
-      "pubDate": "Tue, 27 Oct 2026 20:49:50 +0000",
-      "source": "NYT World",
-      "summary": "The diplomatic outreach was part of an effort to push talks to end the war in Ukraine, though it was not welcomed by all European leaders."
+      "summary": "Brazil’s Supreme Court tried to strip Flávio Bolsonaro’s passport, but the Trump administration granted him a visa, according to reports.\nThe post The Bolsonaro Family Playbook: Lose, Cry Fraud, and Run to Trump’s America appeared first on The Interc"
     },
     {
       "title": "The Elon Musk Funder Trying to Sway the Race for LA’s Top Lawyer",
@@ -324,76 +394,6 @@
       "pubDate": "Tue, 27 Oct 2026 20:49:40 +0000",
       "source": "The Intercept",
       "summary": "The leading candidate for LA city attorney has the backing of the local DSA and vows to regulate Big Tech. Tech investors are spending millions against her.\nThe post The Elon Musk Funder Trying to Sway the Race for LA’s Top Lawyer appeared first on T"
-    },
-    {
-      "title": "Dutch zookeeper dies after being mauled by leopard",
-      "link": "https://www.bbc.co.uk/news/articles/crwyq90gwg8jo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Tue, 27 Oct 2026 19:30:37 GMT",
-      "source": "BBC",
-      "summary": "The woman began her career at the park when she was 17 and had worked there on-and-off for four decades."
-    },
-    {
-      "title": "South Africa Deploys 500 Soldiers to Quell Anti-Immigration Violence",
-      "link": "https://www.nytimes.com/2026/10/27/world/africa/south-africa-durban-soldiers.html",
-      "pubDate": "Tue, 27 Oct 2026 18:28:59 +0000",
-      "source": "NYT World",
-      "summary": "The deployment comes after a foreign national was beaten to death by a mob during an anti-immigrant protest last week."
-    },
-    {
-      "title": "Norway and Finland leaders hold rare call with Putin",
-      "link": "https://www.bbc.co.uk/news/articles/c6vgj813mlelo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Tue, 27 Oct 2026 18:28:23 GMT",
-      "source": "BBC",
-      "summary": "An end to the conflict in Ukraine \"will not be achieved through silence,\" Finland's President Alexander Stubb said."
-    },
-    {
-      "title": "Trump Explores Lifting Sanctions on Russia’s Flagship Investment Fund",
-      "link": "https://www.nytimes.com/2026/10/27/us/politics/russia-fund-sanctions-trump.html",
-      "pubDate": "Tue, 27 Oct 2026 17:30:52 +0000",
-      "source": "NYT World",
-      "summary": "The move would be the latest U.S. concession to Moscow as President Trump pursues economic incentives he hopes will secure an end to war in Ukraine."
-    },
-    {
-      "title": "Pentagon Fears Drone Attacks on U.S. and Foreign Bases",
-      "link": "https://theintercept.com/2026/10/27/pentagon-drone-attacks-military-bases/",
-      "pubDate": "Tue, 27 Oct 2026 15:00:07 +0000",
-      "source": "The Intercept",
-      "summary": "Government officials said a series of recent attacks and threats have highlighted the vulnerability of U.S. military bases.\nThe post Pentagon Fears Drone Attacks on U.S. and Foreign Bases appeared first on The Intercept."
-    },
-    {
-      "title": "Mbappé sorry for 'ill-judged' Mao remark after backlash in China",
-      "link": "https://www.bbc.co.uk/news/articles/cv62yg0erp8zo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Tue, 27 Oct 2026 13:25:54 GMT",
-      "source": "BBC",
-      "summary": "The France star had referred to the former Chinese leader as a \"dictator\" during an interview about memes."
-    },
-    {
-      "title": "Cease-Fire Brokered by Melania Trump Begins in Ukrainian City of Oleshky",
-      "link": "https://www.nytimes.com/2026/10/26/world/europe/ukraine-oleshky-ceasefire-russia-war.html",
-      "pubDate": "Tue, 27 Oct 2026 08:25:45 +0000",
-      "source": "NYT World",
-      "summary": "Many people left in Oleshky, where bombardment is constant, have run out of food. A truce that began Tuesday is supposed to allow aid in and civilians out."
-    },
-    {
-      "title": "Lula's comeback in Brazil dents Trump's ambitions for Latin America",
-      "link": "https://www.bbc.co.uk/news/articles/cq62yg6rggj0o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Tue, 27 Oct 2026 01:46:38 GMT",
-      "source": "BBC",
-      "summary": "The Trump-Lula relationship may have thawed, but several issues could reignite tensions between the two leaders."
-    },
-    {
-      "title": "Bankrolling American Empire in the Philippines",
-      "link": "https://theintercept.com/2026/10/26/philippines-military-base-cerberus-private-capital/",
-      "pubDate": "Mon, 26 Oct 2026 11:00:00 +0000",
-      "source": "The Intercept",
-      "summary": "The Pentagon and private capital have teamed up to militarize the island nation.\nThe post Bankrolling American Empire in the Philippines appeared first on The Intercept."
-    },
-    {
-      "title": "Pentagon Records Missed Almost Half of Troops’ Domestic Abuse Killings",
-      "link": "https://theintercept.com/2026/10/26/military-domestic-violence-murder-deaths-women/",
-      "pubDate": "Mon, 26 Oct 2026 10:00:00 +0000",
-      "source": "The Intercept",
-      "summary": "“Records are important,” said the mother of a woman killed by her Navy colleague. We found nearly twice as many domestic-abuse killings by servicemembers as the DoD listed.\nThe post Pentagon Records Missed Almost Half of Troops’ Domestic Abuse Killin"
     },
     {
       "title": "Can LLMs Supercharge Geolocations? Our Tests Show Big Improvements But Humans Remain Key",
@@ -433,6 +433,20 @@
   ],
   "syndication": [
     {
+      "title": "Studying Fraudulent North Korean IT Workers",
+      "link": "https://www.schneier.com/blog/archives/2026/10/studying-fraudulent-north-korean-it-workers.html",
+      "pubDate": "2026-10-28T11:05:00.000Z",
+      "author": "Schneier on Security",
+      "content": "Researchers set up a fake start-up company to study fraudulent North Korean IT workers."
+    },
+    {
+      "title": "Pluralistic: Agents vs ecommerce (28 Oct 2026)",
+      "link": "https://pluralistic.net/2026/10/28/principle-agent-problem/",
+      "pubDate": "Wed, 28 Oct 2026 10:54:05 +0000",
+      "author": "Pluralistic",
+      "content": "Today's links Agents vs ecommerce: Opacity is a feature, not a bug. Hey look at this: Delights to delectate. Object permanence: Aibo hacking; Calculator watches; What hath Occupy wrought; Dr Seuss v Trek parody; \"Blacks for Trump\" x murder-cults; \"9 Times My Work Has Been Ripped Off.\" Upcoming appea"
+    },
+    {
       "title": "Hiding Capabilities in AI Models",
       "link": "https://www.schneier.com/blog/archives/2026/10/hiding-capabilities-in-ai-models.html",
       "pubDate": "2026-10-27T11:01:26.000Z",
@@ -461,20 +475,6 @@
       "content": "Interesting research:\nTL;DR: Chinese AI models now sit inside Western products, and some carry geopolitical triggers: tell the model who the code is for, and the security of what it writes changes. For the first time, we showed that this vulnerability lives in the model’s weights, and that removing "
     },
     {
-      "title": "Friday Squid Blogging: Increasing Squid Populations",
-      "link": "https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-increasing-squid-populations.html",
-      "pubDate": "2026-10-23T21:00:09.000Z",
-      "author": "Schneier on Security",
-      "content": "This article in Nature argues that it’s due to an overfishing of predators and warming sea temperatures.\nAs usual, you can also use this squid post to talk about the security stories in the news that I haven’t covered.\nBlog moderation policy."
-    },
-    {
-      "title": "Pluralistic: Critique and writing (23 Oct 2026)",
-      "link": "https://pluralistic.net/2026/10/23/better-to-give/",
-      "pubDate": "Fri, 23 Oct 2026 20:44:02 +0000",
-      "author": "Pluralistic",
-      "content": "Today's links Critique and writing: The most important part of a writing workshop is trying to fix other people's stories. Hey look at this: Delights to delectate. Object permanence: USPS nukes the mail; Enron Explorer; \"Scored\"; UAE's international hacker legion; NZ provides hacking tools to tortur"
-    },
-    {
       "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
       "link": "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/",
       "pubDate": "Wed, 21 Oct 2026 15:26:07 +0000",
@@ -498,6 +498,86 @@
   ],
   "syndicate_journal": [
     {
+      "title": "Hunting is for Girls—at Least Among Bonobos",
+      "link": "https://nautil.us/hunting-is-for-girls-at-least-among-bonobos-1286153/",
+      "summary": "They out-hunt their male counterparts\nThe post Hunting is for Girls—at Least Among Bonobos appeared first on Nautilus.",
+      "pubDate": "Wed, 28 Oct 2026 18:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "China Miéville’s The Rouse Is a Haunting Magnum Opus",
+      "link": "https://jacobin.com/2026/10/china-mieville-rouse-ghosts-cold-war",
+      "summary": "China Miéville’s  is a book that should not exist, and yet here it is. It should be read cover to cover, and then immediately read a second time. For twenty-one years, Miéville wrote and rewrote it while publishing shorter works at an impressive pace: four novels; two novellas; a history of the Russ",
+      "pubDate": "2026-10-28T17:06:42.269Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "How Spiders Spin ‘Silk Dope’ Into Nature’s Toughest Material",
+      "link": "https://www.quantamagazine.org/how-spiders-spin-silk-dope-into-natures-toughest-material-20261028/",
+      "summary": "By probing its molecular structure, biologists are uncovering how a tangle of unstructured proteins turns into a tough, flexible thread.             \nThe post How Spiders Spin ‘Silk Dope’ Into Nature’s Toughest Material first appeared on Quanta Magazine",
+      "pubDate": "Wed, 28 Oct 2026 16:04:18 +0000",
+      "domain": "science",
+      "source": "Quanta"
+    },
+    {
+      "title": "When Frog Eyes Are Like Fingerprints",
+      "link": "https://nautil.us/when-frog-eyes-are-like-fingerprints-1286150/",
+      "summary": "The eyes of egg-eating spiny-backed frogs certainly make an impression\nThe post When Frog Eyes Are Like Fingerprints appeared first on Nautilus.",
+      "pubDate": "Wed, 28 Oct 2026 16:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "Wonderful Weather: Floods and Foreboding in 17th-Century Britain\n",
+      "link": "https://publicdomainreview.org/essay/wonderful-weather",
+      "summary": "When the Bristol Channel flooded in 1607, it was not just one of the worst natural disasters in British history, it was also a sign, for many, that they had strayed from the path of God. Erik Crnkovich examines the overlap of miraculous weather and the early modern printing industry, which cultivate",
+      "pubDate": "Wed, 28 Oct 2026 15:47:00 GMT",
+      "domain": "history",
+      "source": "Public Domain Review"
+    },
+    {
+      "title": "Dockworkers Worldwide Are About to Strike for Palestine",
+      "link": "https://jacobin.com/2026/10/dockworkers-strike-palestine-solidarity-internationalism",
+      "summary": "In 1984, while the global struggle against apartheid burned hot, union dockworkers in San Francisco refused to unload South African cargo to demonstrate their hostility to a white supremacist, fascist regime. In so doing they reaffirmed what Harry Bridges, the first president of the International Lo",
+      "pubDate": "2026-10-28T15:26:57.680Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "Israel Might Change After Its Election, but Not Much",
+      "link": "https://jacobin.com/2026/10/israel-election-netanyahu-zionism-palestine",
+      "summary": "Jewish and Arab voters with Israeli citizenship massively flocked to voting stations on Tuesday, October 27, for the elections to the Israeli parliament, the Knesset. These were the first elections since the formation, in 2022, of the most reactionary government in the Zionist state’s history. For t",
+      "pubDate": "2026-10-28T14:48:48.272Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "Forgotten Coding Queens, Telephones Untangled, and a Poisonous Quest: 8 Books We’re Excited to Read This November",
+      "link": "https://nautil.us/forgotten-coding-queens-telephones-untangled-and-a-poisonous-quest-8-books-were-excited-to-read-this-november-1286136/",
+      "summary": "The Nautilus monthly reading list\nThe post Forgotten Coding Queens, Telephones Untangled, and a Poisonous Quest: 8 Books We’re Excited to Read This November appeared first on Nautilus.",
+      "pubDate": "Wed, 28 Oct 2026 14:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "How Telepathy Helped Build the Russian Internet",
+      "link": "https://daily.jstor.org/how-telepathy-helped-build-the-russian-internet/",
+      "summary": "During the Cold War, Soviet scientists pursued an unlikely way to communicate with the outside world.\nThe post How Telepathy Helped Build the Russian Internet appeared first on JSTOR Daily.",
+      "pubDate": "Wed, 28 Oct 2026 13:32:00 +0000",
+      "domain": "history",
+      "source": "JSTOR Daily"
+    },
+    {
+      "title": "The Amarna letters",
+      "link": "https://aeon.co/videos/letters-from-bronze-age-rulers-reveal-how-little-diplomacy-has-changed",
+      "summary": "Petty disputes, pleas for help and requests for gold – explore letters sent to Egyptian pharaohs more than 3,000 years ago\n- by Aeon Video\nWatch on Aeon",
+      "pubDate": "Wed, 28 Oct 2026 10:01:00 GMT",
+      "domain": "philosophy",
+      "source": "Aeon"
+    },
+    {
       "title": "Counting the Bandages: On measuring the time that AI saves",
       "link": "https://arxiv.org/abs/2610.35942",
       "summary": "arXiv:2610.35942v1 Announce Type: new \nAbstract: I consider what it means for AI assistance to save time. I contrast a stopwatch view, on which time saved is whatever the clock records, with a ledger view, on which it is a counterfactual that has to be read next to the errors the work lets through, ",
@@ -520,54 +600,6 @@
       "pubDate": "Wed, 28 Oct 2026 00:00:00 -0400",
       "domain": "science",
       "source": "arXiv: cs.AI"
-    },
-    {
-      "title": "What Can We Learn About Happiness From the People Who Study It?",
-      "link": "https://nautil.us/what-can-we-learn-about-happiness-from-the-people-who-study-it-1286130/",
-      "summary": "Happiness pioneers recently gathered to discuss the good life\nThe post What Can We Learn About Happiness From the People Who Study It? appeared first on Nautilus.",
-      "pubDate": "Tue, 27 Oct 2026 23:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
-      "title": "This Prehistoric Creature is the Only Ocean-Dwelling Amphibian Ever Discovered",
-      "link": "https://nautil.us/this-prehistoric-creature-is-the-only-ocean-dwelling-amphibian-ever-discovered-1286127/",
-      "summary": "It lived in the Triassic muck on the seafloor\nThe post This Prehistoric Creature is the Only Ocean-Dwelling Amphibian Ever Discovered appeared first on Nautilus.",
-      "pubDate": "Tue, 27 Oct 2026 22:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
-      "title": "There’s a New, International Food Pyramid in Town",
-      "link": "https://nautil.us/theres-a-new-international-food-pyramid-in-town-1286121/",
-      "summary": "It’s based on research into dietary guidelines from around the world\nThe post There’s a New, International Food Pyramid in Town appeared first on Nautilus.",
-      "pubDate": "Tue, 27 Oct 2026 20:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
-      "title": "Financial Capital Didn’t Make New York City Great",
-      "link": "https://jacobin.com/2026/10/documentary-new-york-finance-deindustrialization-bloomberg",
-      "summary": "It’s the beginning of the new Ric Burns documentary on New York City, and Adam Gopnik is choking up.\nHe’s talking about the diversity and tolerance that New York, at its best, embodies. He’s talking about the challenges the city has faced over the past fifty years. Above all, he’s talking about how ",
-      "pubDate": "2026-10-27T19:23:02.085Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
-      "title": "Focus on the Real Drivers of the Affordability Crisis",
-      "link": "https://jacobin.com/2026/10/affordability-consumption-social-reproduction-policy",
-      "summary": "Over the past five years, the price of consumer goods has dominated American political discourse. From Donald Trump to Zohran Mamdani, winning candidates have used “affordability politics” to articulate popular dissatisfaction with economic conditions. From the price of eggs to gas to burritos, the ",
-      "pubDate": "2026-10-27T18:36:34.943Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
-      "title": "Alberta’s Post-Referendum Hangover",
-      "link": "https://jacobin.com/2026/10/alberta-smith-referendum-separatists-affordability",
-      "summary": "Alberta is one of the  provinces in Canada, a reminder of the old adage that money can’t buy happiness. The province fails to responsibly manage the riches from its oil and gas sector, leaving little of the spoils to Alberta workers, while billions in profits  to foreign shareholders, many of them A",
-      "pubDate": "2026-10-27T16:58:51.516Z",
-      "domain": "politics",
-      "source": "Jacobin"
     },
     {
       "title": "Mental Hospitals at the Movies",
@@ -618,28 +650,12 @@
       "source": "Aeon"
     },
     {
-      "title": "How to build real peace",
-      "link": "https://aeon.co/essays/what-cooperatives-for-an-anticapitalist-peace-look-like",
-      "summary": "From Colombia to Syria, I’ve seen that capitalist logic can’t help to rebuild postwar countries but cooperatives can\n- by Azize Aslan\nRead on Aeon",
-      "pubDate": "Mon, 26 Oct 2026 10:00:00 GMT",
-      "domain": "philosophy",
-      "source": "Aeon"
-    },
-    {
       "title": "Malaria Parasite Caught in the Act of Breaking and Entering",
       "link": "https://www.quantamagazine.org/malaria-parasite-caught-in-the-act-of-breaking-and-entering-20261023/",
       "summary": "To invade red blood cells, the deadly protist creates a temporary molecular portal that disappears behind it — a door we can now see in fine detail.             \nThe post Malaria Parasite Caught in the Act of Breaking and Entering first appeared on Quanta Magazine",
       "pubDate": "Fri, 23 Oct 2026 14:54:10 +0000",
       "domain": "science",
       "source": "Quanta"
-    },
-    {
-      "title": "Teaching Students to See What They Miss",
-      "link": "https://daily.jstor.org/teaching-students-to-see-what-they-miss/",
-      "summary": "A classroom exercise in slow looking uses art to sharpen observation skills and encourage more attentive listening.\nThe post Teaching Students to See What They Miss appeared first on JSTOR Daily.",
-      "pubDate": "Fri, 23 Oct 2026 13:52:00 +0000",
-      "domain": "history",
-      "source": "JSTOR Daily"
     },
     {
       "title": "Number line vulnerability?",
@@ -658,28 +674,12 @@
       "source": "Public Domain Review"
     },
     {
-      "title": "See Inside Cells Like Never Before in These Vivid Microscopic Images",
-      "link": "https://www.quantamagazine.org/see-inside-cells-like-never-before-in-these-vivid-microscopic-images-20261021/",
-      "summary": "Winning entries in the 2026 Nikon Small World competitions reveal the hidden interactions that govern everyday life.            \nThe post See Inside Cells Like Never Before in These Vivid Microscopic Images first appeared on Quanta Magazine",
-      "pubDate": "Wed, 21 Oct 2026 14:00:07 +0000",
-      "domain": "science",
-      "source": "Quanta"
-    },
-    {
       "title": "Gendering duct tape again",
       "link": "https://languagelog.ldc.upenn.edu/nll/?p=74468&utm_source=rss&utm_medium=rss&utm_campaign=gendering-duct-tape-again",
       "summary": "The Weather Channel recently published a story about the value of duct tape in keeping out flood water: \"Duct tape kept out more flood water than sandbags in laboratory tests\". Its newletter advertised that story as \"A victory for dads everywhere\": The Wikipedia article on duct tape tells us about t",
       "pubDate": "Tue, 20 Oct 2026 19:55:05 +0000",
       "domain": "linguistics",
       "source": "Language Log"
-    },
-    {
-      "title": "Immortal Beloved: Krishna and Rādhā Exchanging Clothes (ca. 1700–1900)\n",
-      "link": "https://publicdomainreview.org/collection/krishna-and-radha-exchanging-clothes",
-      "summary": "Indian images that grapple with the unbearable fact that lover and beloved are not one.",
-      "pubDate": "Tue, 20 Oct 2026 16:45:00 GMT",
-      "domain": "history",
-      "source": "Public Domain Review"
     },
     {
       "title": "AI doom as message overload",
@@ -738,25 +738,25 @@
       "source": "Sapiens"
     },
     {
-      "title": "Baseline cognitive insight moderates the efficacy of metacognitive training for psychosis: an individual participant data analysis",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1934181",
-      "summary": "BackgroundMetacognitive Training (MCT) for psychosis is designed to target metacognitive processes, yet evidence for its effects on cognitive insight remains inconclusive, owing primarily to the limited methodological quality of available trials. A potential explanation lies in baseline heterogeneit",
+      "title": "Critical thinking dispositions and perceived support-dependence discrepancy in GenAI-assisted learning: evidence from human–AI interaction pathways",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1913577",
+      "summary": "BackgroundGenerative artificial intelligence (GenAI) can support academic performance while also creating a perceived gap between AI-supported task completion and independently available competence. This study examined how multidimensional critical thinking dispositions are associated with cognitive",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "Practicing for the unexpected: a framework for musical adaptation reserve in expert musicians",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1970635",
-      "summary": "Expert musicians devote years to making performance reliable, yet public performance is never a perfect copy of the conditions under which a work was prepared. Instruments differ, rooms alter what performers hear, ensemble partners behave differently, audiences change arousal and attention, and smal",
+      "title": "Modalities and dosage of exercise interventions for improving adolescent mental health: a systematic review and meta-analysis",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1986368",
+      "summary": "ObjectiveThis study aims to: (1) update existing evidence on exercise interventions improving adolescent mental health; (2) exploring potentially effective models and dosages of exercise interventions to improve adolescents’ mental health; (3) provide evidence-based medical insights to inform future",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "Pornography Violence Exposure Scale: a graded bifactor measure of exposure to violent pornographic content",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1885321",
-      "summary": "IntroductionResearch on associations between pornography viewing and sexual violence has been limited by the absence of validated instruments that differentiate exposure along a violence continuum within pornographic practices, with existing measures focused on consumption frequency or problematic p",
+      "title": "Levels of psychological abuse and their relationship with possible cognitive impairment among rural older adults in China: a cross-sectional study using latent profile analysis",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1970971",
+      "summary": "AimsThis study aimed to identify different levels of psychological abuse among rural older adults in China using latent profile analysis and to examine the association between these levels and possible cognitive impairment.MethodsThe study used a convenience sampling method. From July to October 202",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
@@ -764,64 +764,64 @@
   ],
   "misinfo_toilet": [
     {
-      "headline": "Ceasefire extended across Ukraine's Kherson region, officials say",
-      "fragment": "To dissimulate is to pretend not to have what one has. To simulate is to feign to have what one doesn't have. One implies a presence, the other an absence.",
-      "splice": "Ceasefire extended across Ukraine's Kherson region, officials say not unlike to dissimulate is to pretend not to have what one has. To simulate is to feign to have what one doesn't have. One implies a presence, the other an absence.",
-      "seed": 20261032
-    },
-    {
-      "headline": "Dutch zookeeper dies after being mauled by leopard",
-      "fragment": "There is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
-      "splice": "Dutch zookeeper dies after being mauled by leopard in the void where there is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
-      "seed": 20261033
+      "headline": "Spain demands answers after deadliest train disaster in over a decade",
+      "fragment": "In the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
+      "splice": "Spain demands answers after deadliest train disaster in over a decade consequently in the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
+      "seed": 20261048
     },
     {
       "headline": "Groups Associated With India’s Far-Right Receive Millions Through US Donor-Advised Funds",
-      "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "splice": "Groups Associated With India’s Far-Right Receive Millions Through US Donor-Advised Funds despite it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "seed": 20261034
+      "fragment": "We live in a world where there is more and more information, and less and less meaning.",
+      "splice": "Groups Associated With India’s Far-Right Receive Millions Through US Donor-Advised Funds within which we live in a world where there is more and more information, and less and less meaning.",
+      "seed": 20261049
     },
     {
-      "headline": "South Africa Deploys 500 Soldiers to Quell Anti-Immigration Violence",
-      "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "splice": "South Africa Deploys 500 Soldiers to Quell Anti-Immigration Violence meanwhile the breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "seed": 20261035
+      "headline": "Can LLMs Supercharge Geolocations? Our Tests Show Big Improvements But Humans Remain Key",
+      "fragment": "Simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
+      "splice": "Can LLMs Supercharge Geolocations? Our Tests Show Big Improvements But Humans Remain Key consequently simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
+      "seed": 20261050
     },
     {
-      "headline": "Lula's comeback in Brazil dents Trump's ambitions for Latin America",
-      "fragment": "There is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
-      "splice": "Lula's comeback in Brazil dents Trump's ambitions for Latin America consequently there is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
-      "seed": 20261036
+      "headline": "Flávio Bolsonaro lands in Miami after defeat in Brazil's presidential election",
+      "fragment": "Underneath all reason lies delirium and drift.",
+      "splice": "Flávio Bolsonaro lands in Miami after defeat in Brazil's presidential election meanwhile underneath all reason lies delirium and drift.",
+      "seed": 20261051
     },
     {
-      "headline": "Norway and Finland leaders hold rare call with Putin",
-      "fragment": "In the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
-      "splice": "Norway and Finland leaders hold rare call with Putin the system notes that in the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
-      "seed": 20261037
+      "headline": "Tommy Robinson Found Guilty of Harassing 2 UK Journalists",
+      "fragment": "It is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
+      "splice": "Tommy Robinson Found Guilty of Harassing 2 UK Journalists insofar as it is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
+      "seed": 20261052
     },
     {
-      "headline": "Mbappé sorry for 'ill-judged' Mao remark after backlash in China",
-      "fragment": "Antagonism is not now located externally, in the face-off between class blocs, but internally, in the psychology of the worker.",
-      "splice": "Mbappé sorry for 'ill-judged' Mao remark after backlash in China ...as antagonism is not now located externally, in the face-off between class blocs, but internally, in the psychology of the worker.",
-      "seed": 20261038
+      "headline": "Serbian shot dead after attacking officer outside Israeli embassy, minister says",
+      "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "splice": "Serbian shot dead after attacking officer outside Israeli embassy, minister says meanwhile the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "seed": 20261053
+    },
+    {
+      "headline": "Rivals in Israel Election Strike Tone of Triumph, but Outcome Is Far From Clear",
+      "fragment": "Traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
+      "splice": "Rivals in Israel Election Strike Tone of Triumph, but Outcome Is Far From Clear which is to say traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
+      "seed": 20261054
+    },
+    {
+      "headline": "Prosecutors Want to Keep a Man in Prison for His Wife’s Murder — Despite Judge Saying Their Evidence is Junk",
+      "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "splice": "Prosecutors Want to Keep a Man in Prison for His Wife’s Murder — Despite Judge Saying Their Evidence is Junk underneath the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "seed": 20261055
+    },
+    {
+      "headline": "Viral Google Maps Images Shared Widely This Week Show Gaza Ruins. We Obtained More Recent Satellite Imagery",
+      "fragment": "Simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
+      "splice": "Viral Google Maps Images Shared Widely This Week Show Gaza Ruins. We Obtained More Recent Satellite Imagery within which simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
+      "seed": 20261056
     },
     {
       "headline": "Christy Kinahan’s UAE Residence Visa Cancelled",
-      "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "splice": "Christy Kinahan’s UAE Residence Visa Cancelled consequently it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "seed": 20261039
-    },
-    {
-      "headline": "Trump Explores Lifting Sanctions on Russia’s Flagship Investment Fund",
-      "fragment": "Traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "splice": "Trump Explores Lifting Sanctions on Russia’s Flagship Investment Fund the system notes that traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "seed": 20261040
-    },
-    {
-      "headline": "Satellite Images Show Extent of Trump Admin’s Tree-Felling at DC Golf Course",
-      "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
-      "splice": "Satellite Images Show Extent of Trump Admin’s Tree-Felling at DC Golf Course which is to say the revolutionary lives in the gap which separates technical progress from social totality.",
-      "seed": 20261041
+      "fragment": "It is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
+      "splice": "Christy Kinahan’s UAE Residence Visa Cancelled ...as it is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
+      "seed": 20261057
     }
   ]
 }
