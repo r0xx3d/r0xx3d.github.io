@@ -1,7 +1,39 @@
 {
-  "generated_at": "2026-10-29T18:12:35.483Z",
+  "generated_at": "2026-10-30T00:40:10.505Z",
   "threat_intel": {
     "cisa_kev": [
+      {
+        "cveID": "CVE-2026-97229",
+        "vendorProject": "GitLab",
+        "product": "Community Edition and Enterprise Edition",
+        "vulnerabilityName": "GitLab Community Edition and Enterprise Edition Integer Overflow or Wraparound Vulnerability",
+        "dateAdded": "2026-10-29",
+        "shortDescription": "GitLab Community Edition and Enterprise Edition contain a integer overflow or wraparound vulnerability that could allow an unauthenticated user to execute arbitrary code on the GitLab server via a specially crafted regular expression in a CI/CD configuration, due to insufficient regular expression validation.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-11-01",
+        "knownRansomwareCampaignUse": "Unknown",
+        "forensicTriage": "Yes",
+        "notes": "Other products can potentially be affected by the same underlying Ruby/Onigmo Integer Overflow issue in CI/CD Regular Expression Compiler. For more information please see: https://www.ruby-lang.org/en/news/2026/10/23/regexp-fixes-for-gitlab-cves ; https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-4-2-released/ ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-97229",
+        "cwes": [
+          "CWE-190"
+        ]
+      },
+      {
+        "cveID": "CVE-2026-76418",
+        "vendorProject": "Cisco",
+        "product": "Secure Firewall ASA Software and Cisco Secure FTD Software",
+        "vulnerabilityName": "Cisco Secure Firewall ASA Software and Cisco Secure FTD Software Unchecked Return Value to NULL Pointer Dereference Vulnerability",
+        "dateAdded": "2026-10-29",
+        "shortDescription": "Cisco Secure Firewall ASA Software and Cisco Secure FTD Software contains an unchecked return value to NULL pointer dereference vulnerability that could allow an unauthenticated, remote attacker to cause the device to reload unexpectedly, resulting in a denial of service (DoS) condition.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-11-01",
+        "knownRansomwareCampaignUse": "Unknown",
+        "forensicTriage": "No",
+        "notes": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-tunnel-dos-s6mgkb75 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-76418",
+        "cwes": [
+          "CWE-690"
+        ]
+      },
       {
         "cveID": "CVE-2026-41709",
         "vendorProject": "Broadcom",
@@ -218,70 +250,73 @@
         "cwes": [
           "CWE-918"
         ]
-      },
-      {
-        "cveID": "CVE-2026-110936",
-        "vendorProject": "Siemens",
-        "product": "Software Center",
-        "vulnerabilityName": "Siemens Software Center Uncontrolled Search Path Element Vulnerability",
-        "dateAdded": "2026-10-20",
-        "shortDescription": "Siemens Software Center contains an uncontrolled search path element vulnerability that could allow an authenticated local attacker to place a specially crafted DLL in a directory that the application searches, leading to arbitrary code execution with the privileges of the affected application.",
-        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "dueDate": "2026-11-03",
-        "knownRansomwareCampaignUse": "Unknown",
-        "forensicTriage": "No",
-        "notes": "https://productcert.siemens.com/productcert/html/ssa-580366.html ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-110936",
-        "cwes": [
-          "CWE-427"
-        ]
-      },
-      {
-        "cveID": "CVE-2026-102764",
-        "vendorProject": "BeyondTrust",
-        "product": "Remote Support",
-        "vulnerabilityName": "BeyondTrust Remote Support Authentication Bypass by Spoofing Vulnerability",
-        "dateAdded": "2026-10-16",
-        "shortDescription": "BeyondTrust Remote Support contains an authentication bypass by spoofing vulnerability that could allow a remote attacker to perform file operations on the appliance.",
-        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "dueDate": "2026-10-19",
-        "knownRansomwareCampaignUse": "Unknown",
-        "forensicTriage": "Yes",
-        "notes": "https://www.beyondtrust.com/trust-center/security-advisories/bt26-05 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-102764",
-        "cwes": [
-          "CWE-290"
-        ]
       }
     ],
     "urlhaus": []
   },
   "world_monitor": [
     {
-      "title": "At least 14 people killed in attack on Ukraine train station",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/10/29/aje-onl-nf_russian-drone-strike-at-dnipro-train-platform-291026?traffic_source=rss",
-      "pubDate": "Thu, 29 Oct 2026 18:03:21 +0000",
+      "title": "Armenian parliament turns into a boxing ring, third time in a month",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/10/30/armenian-parliament-turns-into-a-boxing-ring-third-time-in-a-month?traffic_source=rss",
+      "pubDate": "Fri, 30 Oct 2026 00:36:03 +0000",
       "source": "Al Jazeera",
-      "summary": "A Russian drone strike killed at least 14 people at Dnipro’s main railway station in central Ukraine."
+      "summary": "Armenia’s parliament descended into fisticuffs after a ruling-party MP mocked the opposition leader’s family."
+    },
+    {
+      "title": "Binance says $2.54bn in crypto funds frozen amid ‘potential security issue’",
+      "link": "https://www.aljazeera.com/economy/2026/10/30/binance-says-2-54bn-in-crypto-funds-frozen-amid-potential-security-issue?traffic_source=rss",
+      "pubDate": "Fri, 30 Oct 2026 00:29:24 +0000",
+      "source": "Al Jazeera",
+      "summary": "Binance founder says world's largest crypto exchange appears to have been hacked."
+    },
+    {
+      "title": "Houthi forces claim six attacks on Saudi airports, oil facilities",
+      "link": "https://www.aljazeera.com/news/2026/10/30/houthi-forces-claim-six-attacks-on-saudi-airports-oil-facilities?traffic_source=rss",
+      "pubDate": "Fri, 30 Oct 2026 00:11:20 +0000",
+      "source": "Al Jazeera",
+      "summary": "The announcement comes despite talks between Iran and the Mecca pact countries in Tehran earlier this week."
+    },
+    {
+      "title": "What does bourbon have to do with the US midterms?",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/10/30/what-does-bourbon-have-to-do-with-the-us-midterms?traffic_source=rss",
+      "pubDate": "Fri, 30 Oct 2026 00:08:50 +0000",
+      "source": "Al Jazeera",
+      "summary": "The US-Canada trade war is hurting Kentucky’s bourbon industry, which generates billions of dollars annually."
+    },
+    {
+      "title": "Iran war live: IRGC says four tankers struck mines in Strait of Hormuz",
+      "link": "https://www.aljazeera.com/news/liveblog/2026/10/30/iran-war-live-irgc-says-four-tankers-struck-mines-in-strait-of-hormuz?traffic_source=rss",
+      "pubDate": "Fri, 30 Oct 2026 00:00:00 +0000",
+      "source": "Al Jazeera",
+      "summary": "Iran's IRGC says four tankers have struck naval mines after using \"unauthorised\" Strait of Hormuz routes."
+    },
+    {
+      "title": "EU Satellite Imagery Delayed Over Gaza and Parts of West Bank by 24-hours",
+      "link": "https://www.bellingcat.com/news/2026/10/29/eu-satellite-imagery-delayed-over-gaza-and-parts-of-west-bank-by-24-hours/",
+      "pubDate": "Thu, 29 Oct 2026 22:15:59 +0000",
+      "source": "Bellingcat",
+      "summary": "Sign up here to receive Bellingcat’s biggest investigations by email as soon as they are published. Become a member and support our work here. Imagery captured by the European Space Agency’s freely available Sentinel-2 and Sentinel-1 satellites appea"
+    },
+    {
+      "title": "Israeli opposition accuses Netanyahu of trying to 'delegitimise' election",
+      "link": "https://www.bbc.co.uk/news/articles/ckdd8qdl9e0eo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Thu, 29 Oct 2026 20:21:54 GMT",
+      "source": "BBC",
+      "summary": "The PM's Likud party has alleged foreign interference and said Arab-led parties \"stole\" the election after his coalition lost its majority."
+    },
+    {
+      "title": "'The city is alive': A brief peace in Kherson, but residents fear what comes next",
+      "link": "https://www.bbc.co.uk/news/articles/ck1l393pyrylo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Thu, 29 Oct 2026 20:05:57 GMT",
+      "source": "BBC",
+      "summary": "A temporary ceasefire has brought rare quiet to Kherson, offering its residents a glimpse of normal life before fighting resumes."
     },
     {
       "title": "Trump and His Aides Helped Bolsonaro Flee Brazil and Enter U.S.",
       "link": "https://www.nytimes.com/2026/10/29/world/americas/flavio-bolsonaro-trump-brazil-us.html",
-      "pubDate": "Thu, 29 Oct 2026 17:29:57 +0000",
+      "pubDate": "Thu, 29 Oct 2026 18:53:47 +0000",
       "source": "NYT World",
       "summary": "President Trump ensured Flávio Bolsonaro, who lost a presidential election in Brazil and faces multiple criminal investigations there, could enter the United States, U.S. officials said."
-    },
-    {
-      "title": "Pakistan rights activist Imaan Mazari and husband jailed for 10 years",
-      "link": "https://www.aljazeera.com/news/2026/10/29/pakistan-rights-activist-imaan-mazari-and-husband-jailed-for-10-years?traffic_source=rss",
-      "pubDate": "Thu, 29 Oct 2026 17:28:18 +0000",
-      "source": "Al Jazeera",
-      "summary": "Couple say they are 'prisoners of conscience' being made an example of by Pakistan's military-backed authorities."
-    },
-    {
-      "title": "UAE sentences eight people to life over arms supplies to Sudan’s army",
-      "link": "https://www.aljazeera.com/news/2026/10/29/uae-sentences-eight-people-to-life-over-arms-supplies-to-sudans-army?traffic_source=rss",
-      "pubDate": "Thu, 29 Oct 2026 17:25:17 +0000",
-      "source": "Al Jazeera",
-      "summary": "Defendants handed ⁠life sentences amid tensions between Khartoum and Abu Dhabi over Sudan's war and the RSF."
     },
     {
       "title": "U.S. Hits Rwanda With New Sanctions Over a Conflict Trump Declared ‘Ended’",
@@ -289,20 +324,6 @@
       "pubDate": "Thu, 29 Oct 2026 17:13:48 +0000",
       "source": "NYT World",
       "summary": "The Treasury Department accused Rwanda of undermining a U.S.-brokered peace agreement by supporting a rebel group in the eastern Democratic Republic of Congo."
-    },
-    {
-      "title": "France football chief backs Real Madrid’s Mbappe after China apology",
-      "link": "https://www.aljazeera.com/sports/2026/10/29/france-football-chief-speaks-up-for-real-madrids-mbappe-in-china-apology?traffic_source=rss",
-      "pubDate": "Thu, 29 Oct 2026 16:43:37 +0000",
-      "source": "Al Jazeera",
-      "summary": "Real Madrid's Kylian Mbappe should be allowed to move on after apology to China, says French football federation chief."
-    },
-    {
-      "title": "European Central Bank President Lagarde to step down early",
-      "link": "https://www.aljazeera.com/news/2026/10/29/european-central-bank-president-lagarde-to-step-down-early?traffic_source=rss",
-      "pubDate": "Thu, 29 Oct 2026 16:34:55 +0000",
-      "source": "Al Jazeera",
-      "summary": "Christine Lagarde will leave the post in February, nine months before the end of her eight-year term."
     },
     {
       "title": "Flávio Bolsonaro calls himself 'leader of Brazil' after election loss",
@@ -321,23 +342,9 @@
     {
       "title": "Suspect in France Shootings Said He Targeted Muslims and Africans, Prosecutor Says",
       "link": "https://www.nytimes.com/2026/10/29/world/europe/france-shootings-suspect.html",
-      "pubDate": "Thu, 29 Oct 2026 14:05:07 +0000",
+      "pubDate": "Thu, 29 Oct 2026 14:05:08 +0000",
       "source": "NYT World",
       "summary": "The suspect, identified only as Kévin T., admitted to planning the attacks near Paris last week, the prosecutor said. One person was killed and seven wounded."
-    },
-    {
-      "title": "Rock collapse kills two in Turkey's Cappadocia, local media reports",
-      "link": "https://www.bbc.co.uk/news/articles/cknv08nvzld4o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Thu, 29 Oct 2026 13:44:39 GMT",
-      "source": "BBC",
-      "summary": "One of the region's famous rock formations, known as \"fairy chimneys\", reportedly collapsed outside an open-air museum."
-    },
-    {
-      "title": "Philippine police obtain warrant to search Thomas Markle's devices",
-      "link": "https://www.bbc.co.uk/news/articles/cm0j06y3pn75o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Thu, 29 Oct 2026 13:25:07 GMT",
-      "source": "BBC",
-      "summary": "Images of child sexual abuse allegedly belonging to Meghan's father had reportedly been found in his former home in the Philippines."
     },
     {
       "title": "With No Clear Winner, How Could Israel Get a Prime Minister?",
@@ -422,13 +429,6 @@
       "pubDate": "Thu, 01 Oct 2026 13:46:03 +0000",
       "source": "Bellingcat",
       "summary": "Earlier this week, several viral social media posts and news articles stated that Google had updated satellite imagery over Gaza. The imagery shared in these posts and articles shows several areas, including the southern city of Rafah. Huge destructi"
-    },
-    {
-      "title": "Christy Kinahan’s UAE Residence Visa Cancelled",
-      "link": "https://www.bellingcat.com/news/2026/09/19/christy-kinahans-uae-residence-visa-cancelled/",
-      "pubDate": "Sat, 19 Sep 2026 17:46:45 +0000",
-      "source": "Bellingcat",
-      "summary": "This article is the result of a collaboration with The Sunday Times. You can find their corresponding piece here.  Sign up here to receive Bellingcat’s biggest investigations by email as soon as they are published. Christy Kinahan, the Irish founder "
     }
   ],
   "syndication": [
@@ -498,6 +498,38 @@
   ],
   "syndicate_journal": [
     {
+      "title": "Livorno Dockworkers Are Trying to Block the Weapons of War",
+      "link": "https://jacobin.com/2026/10/livorno-dockworkers-flotilla-gaza-weapons",
+      "summary": "Livorno, Italy — “Sunaid X, Sunaid X, Sunaid X, this is Sumud, do you copy?”\n“You’re calling Sunaid X.”\n“Sunaid X, you are carrying supplies to a military base that is deeply involved in Zionists’ warfare and the genocide of the Palestinian people. The port is blocked for you. You’re not welcome her",
+      "pubDate": "2026-10-29T21:21:47.649Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "Election Denial Is Now Normal for the Right Everywhere",
+      "link": "https://jacobin.com/2026/10/trump-bolsonaro-netanyahu-election-denial",
+      "summary": "The series of recent elections across the globe have been read as a stinging defeat for right-wing authoritarians, which they are. But maybe more notable is another element: that denial of and efforts to simply reverse unfavorable election results now seem to have become de rigueur for the transnati",
+      "pubDate": "2026-10-29T20:01:27.528Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "Our Planet’s Lungs Are Suffering",
+      "link": "https://nautil.us/our-planets-lungs-are-suffering-1286196/",
+      "summary": "Has the Amazon reached the dreaded tipping point?\nThe post Our Planet’s Lungs Are Suffering appeared first on Nautilus.",
+      "pubDate": "Thu, 29 Oct 2026 20:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "Dear Human, Poetry Might Save Us from the Apocalypse",
+      "link": "https://nautil.us/dear-human-poetry-might-save-us-from-the-apocalypse-1286192/",
+      "summary": "How verse may move us when data doesn’t\nThe post Dear Human, Poetry Might Save Us from the Apocalypse appeared first on Nautilus.",
+      "pubDate": "Thu, 29 Oct 2026 19:06:37 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
       "title": "Men Who Eat More Plant-Based Protein Have Higher Testosterone Levels",
       "link": "https://nautil.us/men-who-eat-more-plant-based-protein-have-higher-testosterone-levels-1286187/",
       "summary": "Revenge of the soy boys?\nThe post Men Who Eat More Plant-Based Protein Have Higher Testosterone Levels appeared first on Nautilus.",
@@ -514,14 +546,6 @@
       "source": "Jacobin"
     },
     {
-      "title": "Is There Life After AI? Cory Doctorow Thinks So.",
-      "link": "https://jacobin.com/2026/10/ai-bubble-labor-copyright-competition",
-      "summary": "The artificial intelligence boom is fueled by an elite wager that software can supplant expensive human expertise. The tech industry and its investors are pumping hundreds of billions of dollars into the technology — Goldman Sachs forecasts that global AI-related investment will soon exceed . At the",
-      "pubDate": "2026-10-29T15:24:43.763Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
       "title": "How Do You Take a Picture of a Black Hole?",
       "link": "https://www.quantamagazine.org/how-do-you-take-a-picture-of-a-black-hole-20261029/",
       "summary": "Astrophysicist Shep Doeleman explains how capturing the first image of a black hole required a telescope the size of the world, and why the next goal is to create a movie.            \nThe post How Do You Take a Picture of a Black Hole? first appeared on Quanta Magazine",
@@ -530,36 +554,12 @@
       "source": "Quanta"
     },
     {
-      "title": "Serbia’s Students Changed How Serbians Think About Politics",
-      "link": "https://jacobin.com/2026/10/serbia-elections-student-list-democracy",
-      "summary": "On Sunday, the largest and most sustained student movement in Europe reached its culmination. After two years of protesting and organizing, this fall Serbia’s students mounted an electoral challenge to former President Aleksandar Vučić, who was this time running to become prime minister. His plans w",
-      "pubDate": "2026-10-29T14:16:07.220Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
-      "title": "Your Cells Keep a Record of Every Workout You’ve Ever Done",
-      "link": "https://nautil.us/your-cells-keep-a-record-of-every-workout-youve-ever-done-1286173/",
-      "summary": "And those gains persist even after a break from exercise\nThe post Your Cells Keep a Record of Every Workout You’ve Ever Done appeared first on Nautilus.",
-      "pubDate": "Thu, 29 Oct 2026 13:59:21 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
       "title": "London’s Railway for the Dead",
       "link": "https://daily.jstor.org/londons-railway-for-the-dead/",
       "summary": "As London's graveyards overflowed, a private company proposed a remarkable new way to bury the dead.\nThe post London’s Railway for the Dead appeared first on JSTOR Daily.",
       "pubDate": "Thu, 29 Oct 2026 13:43:00 +0000",
       "domain": "history",
       "source": "JSTOR Daily"
-    },
-    {
-      "title": "Behold a Prehistoric Lizard Tail Trapped in Amber",
-      "link": "https://nautil.us/behold-a-prehistoric-lizard-tail-trapped-in-amber-1286168/",
-      "summary": "Proof the defense tactic has been used for at least 99 million years\nThe post Behold a Prehistoric Lizard Tail Trapped in Amber appeared first on Nautilus.",
-      "pubDate": "Thu, 29 Oct 2026 12:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
     },
     {
       "title": "Hills and mountains",
@@ -740,64 +740,64 @@
   ],
   "misinfo_toilet": [
     {
-      "headline": "At least 14 people killed in attack on Ukraine train station",
+      "headline": "'The city is alive': A brief peace in Kherson, but residents fear what comes next",
+      "fragment": "To dissimulate is to pretend not to have what one has. To simulate is to feign to have what one doesn't have. One implies a presence, the other an absence.",
+      "splice": "'The city is alive': A brief peace in Kherson, but residents fear what comes next not unlike to dissimulate is to pretend not to have what one has. To simulate is to feign to have what one doesn't have. One implies a presence, the other an absence.",
+      "seed": 20261030
+    },
+    {
+      "headline": "Houthi forces claim six attacks on Saudi airports, oil facilities",
       "fragment": "There is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
-      "splice": "At least 14 people killed in attack on Ukraine train station within which there is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
-      "seed": 20261047
-    },
-    {
-      "headline": "Flávio Bolsonaro calls himself 'leader of Brazil' after election loss",
-      "fragment": "Art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
-      "splice": "Flávio Bolsonaro calls himself 'leader of Brazil' after election loss insofar as art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
-      "seed": 20261048
-    },
-    {
-      "headline": "Viral Google Maps Images Shared Widely This Week Show Gaza Ruins. We Obtained More Recent Satellite Imagery",
-      "fragment": "In the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
-      "splice": "Viral Google Maps Images Shared Widely This Week Show Gaza Ruins. We Obtained More Recent Satellite Imagery consequently in the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
-      "seed": 20261049
+      "splice": "Houthi forces claim six attacks on Saudi airports, oil facilities in the void where there is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
+      "seed": 20261031
     },
     {
       "headline": "Satellite Images Show Extent of Trump Admin’s Tree-Felling at DC Golf Course",
-      "fragment": "We live in a world where there is more and more information, and less and less meaning.",
-      "splice": "Satellite Images Show Extent of Trump Admin’s Tree-Felling at DC Golf Course within which we live in a world where there is more and more information, and less and less meaning.",
-      "seed": 20261050
+      "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
+      "splice": "Satellite Images Show Extent of Trump Admin’s Tree-Felling at DC Golf Course despite it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
+      "seed": 20261032
     },
     {
-      "headline": "How a Self-Described ‘Junkie’ Rode Synthetic Drugs to Oblivion — and Fame",
-      "fragment": "Simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
-      "splice": "How a Self-Described ‘Junkie’ Rode Synthetic Drugs to Oblivion — and Fame consequently simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
-      "seed": 20261051
+      "headline": "Trump and His Aides Helped Bolsonaro Flee Brazil and Enter U.S.",
+      "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
+      "splice": "Trump and His Aides Helped Bolsonaro Flee Brazil and Enter U.S. meanwhile the breast is a machine that produces milk, and the mouth a machine coupled to it.",
+      "seed": 20261033
     },
     {
-      "headline": "Trump Vows to Send Election “Monitors” to Maine After Far-Right Conspiracies Spread",
-      "fragment": "Underneath all reason lies delirium and drift.",
-      "splice": "Trump Vows to Send Election “Monitors” to Maine After Far-Right Conspiracies Spread meanwhile underneath all reason lies delirium and drift.",
-      "seed": 20261052
+      "headline": "AI Tried to Buy the Midterms — Then the Lobby Learned Everyone Hates AI",
+      "fragment": "There is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
+      "splice": "AI Tried to Buy the Midterms — Then the Lobby Learned Everyone Hates AI consequently there is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
+      "seed": 20261034
     },
     {
       "headline": "Suspect in France Shootings Said He Targeted Muslims and Africans, Prosecutor Says",
-      "fragment": "It is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
-      "splice": "Suspect in France Shootings Said He Targeted Muslims and Africans, Prosecutor Says insofar as it is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
-      "seed": 20261053
+      "fragment": "In the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
+      "splice": "Suspect in France Shootings Said He Targeted Muslims and Africans, Prosecutor Says the system notes that in the entrepreneurial fantasy society, the delusion is fostered that anyone can be Alan Sugar or Bill Gates... if you do not succeed, there is only one person to blame.",
+      "seed": 20261035
     },
     {
-      "headline": "The Incredible Shrinking Superpower",
-      "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
-      "splice": "The Incredible Shrinking Superpower meanwhile the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
-      "seed": 20261054
+      "headline": "Audio reveals exchanges between Spain train operators and drivers moments before deadly crash",
+      "fragment": "Antagonism is not now located externally, in the face-off between class blocs, but internally, in the psychology of the worker.",
+      "splice": "Audio reveals exchanges between Spain train operators and drivers moments before deadly crash ...as antagonism is not now located externally, in the face-off between class blocs, but internally, in the psychology of the worker.",
+      "seed": 20261036
     },
     {
-      "headline": "Philippine police obtain warrant to search Thomas Markle's devices",
+      "headline": "Viral Google Maps Images Shared Widely This Week Show Gaza Ruins. We Obtained More Recent Satellite Imagery",
+      "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
+      "splice": "Viral Google Maps Images Shared Widely This Week Show Gaza Ruins. We Obtained More Recent Satellite Imagery consequently it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
+      "seed": 20261037
+    },
+    {
+      "headline": "With No Clear Winner, How Could Israel Get a Prime Minister?",
       "fragment": "Traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "splice": "Philippine police obtain warrant to search Thomas Markle's devices which is to say traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "seed": 20261055
+      "splice": "With No Clear Winner, How Could Israel Get a Prime Minister? the system notes that traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
+      "seed": 20261038
     },
     {
-      "headline": "Christy Kinahan’s UAE Residence Visa Cancelled",
-      "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
-      "splice": "Christy Kinahan’s UAE Residence Visa Cancelled underneath the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
-      "seed": 20261056
+      "headline": "Can LLMs Supercharge Geolocations? Our Tests Show Big Improvements But Humans Remain Key",
+      "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
+      "splice": "Can LLMs Supercharge Geolocations? Our Tests Show Big Improvements But Humans Remain Key which is to say the revolutionary lives in the gap which separates technical progress from social totality.",
+      "seed": 20261039
     }
   ]
 }
