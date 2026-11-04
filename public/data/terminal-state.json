@@ -1,7 +1,23 @@
 {
-  "generated_at": "2026-11-03T13:50:23.205Z",
+  "generated_at": "2026-11-04T01:05:56.420Z",
   "threat_intel": {
     "cisa_kev": [
+      {
+        "cveID": "CVE-2026-119977",
+        "vendorProject": "WordPress",
+        "product": "WordPress Core",
+        "vulnerabilityName": "WordPress WordPress Core Time-of-check Time-of-use (TOCTOU) Race Condition Vulnerability",
+        "dateAdded": "2026-11-03",
+        "shortDescription": "WordPress WordPress Core contains a time-of-check time-of-use (TOCTOU) race condition vulnerability that could allow unauthenticated attackers to execute code on the server during the upgrade window. This is due to predictable, web-accessible staging paths used during full-package core upgrades.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-11-06",
+        "knownRansomwareCampaignUse": "Unknown",
+        "forensicTriage": "Yes",
+        "notes": "https://wordpress.org/news/2026/10/wordpress-7-1-4 ; https://www.wordfence.com/threat-intel/vulnerabilities/wordpress-core/wordpress-core-470-713-unauthenticated-upgrade-window-staged-installer-remote-code-execution ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-119977",
+        "cwes": [
+          "CWE-367"
+        ]
+      },
       {
         "cveID": "CVE-2026-118527",
         "vendorProject": "Ivanti",
@@ -236,138 +252,143 @@
         "cwes": [
           "CWE-73"
         ]
-      },
-      {
-        "cveID": "CVE-2026-96655",
-        "vendorProject": "Plex",
-        "product": "Media Server",
-        "vulnerabilityName": "Plex Media Server Server-Side Request Forgery (SSRF) Vulnerability",
-        "dateAdded": "2026-10-20",
-        "shortDescription": "Plex Media Server contains a server-side request forgery (SSRF) vulnerability that could allow an authenticated user to request arbitrary internal or external addresses via the '/video/:/transcode/universal' path parameter. This vulnerability can be chained with CVE-2026-96652, CVE-2026-96654, and CVE-2026-96656.",
-        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "dueDate": "2026-11-03",
-        "knownRansomwareCampaignUse": "Unknown",
-        "forensicTriage": "No",
-        "notes": "https://forums.plex.tv/t/important-security-update-for-plex-media-server-v1-43-2-and-earlier/942319 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-96655",
-        "cwes": [
-          "CWE-918"
-        ]
       }
     ],
     "urlhaus": []
   },
   "world_monitor": [
     {
-      "title": "Iran commander sets out five conditions for regional security",
-      "link": "https://www.aljazeera.com/news/2026/11/3/iran-commander-sets-out-five-conditions-for-regional-security?traffic_source=rss",
-      "pubDate": "Tue, 03 Nov 2026 13:21:57 +0000",
-      "source": "Al Jazeera",
-      "summary": "Mediator Qatar says US and Iran are studying proposals to resume negotiations and that it was 'hopeful' of an agreement."
+      "title": "Polls Close in Maine as Democrats Make Final Push to Oust Sen. Susan Collins",
+      "link": "https://theintercept.com/2026/11/03/maine-senate-results-jackson-collins/",
+      "pubDate": "Wed, 04 Nov 2026 01:02:50 +0000",
+      "source": "The Intercept",
+      "summary": "The longtime Republican incumbent is at risk of losing her seat to Troy Jackson, a progressive Democrat who entered the race just over three months ago.\nThe post Polls Close in Maine as Democrats Make Final Push to Oust Sen. Susan Collins appeared fi"
     },
     {
-      "title": "Saudi Pro League postpones matches after Asian Cup rescheduling",
-      "link": "https://www.aljazeera.com/sports/2026/11/3/saudi-pro-league-postpones-matches-after-asian-cup-rescheduling?traffic_source=rss",
-      "pubDate": "Tue, 03 Nov 2026 13:14:52 +0000",
+      "title": "FBI arrests man for sending over 700 threatening letters to US officials",
+      "link": "https://www.aljazeera.com/news/2026/11/4/fbi-arrests-man-for-sending-700-white-powder-letters-to-us-officials?traffic_source=rss",
+      "pubDate": "Wed, 04 Nov 2026 00:44:04 +0000",
       "source": "Al Jazeera",
-      "summary": "League delays matches after revised Asian Cup dates create 'additional flexibility in the domestic football calendar'."
+      "summary": "The suspect, an Oklahoma City man, is accused of mailing hoax letters with white powder and treason warnings."
     },
     {
-      "title": "New bodycam video shows aftermath of fatal National Guard shooting",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/3/new-bodycam-video-shows-aftermath-of-fatal-national-guard-shooting?traffic_source=rss",
-      "pubDate": "Tue, 03 Nov 2026 13:13:38 +0000",
+      "title": "Bomb threats disrupt flights across Europe, no explosive devices found",
+      "link": "https://www.aljazeera.com/news/2026/11/4/bomb-threats-disrupt-flights-across-europe-no-explosive-devices-found?traffic_source=rss",
+      "pubDate": "Wed, 04 Nov 2026 00:35:44 +0000",
       "source": "Al Jazeera",
-      "summary": "Newly-released bodycam footage shows Tennessee National Guard members pointing their guns at 20-year-old Tyrin Johnson."
+      "summary": "At least seven flights and an Israel-bound cruise ship received threats, but officials say searches found no explosives."
     },
     {
-      "title": "Europe on alert after supermarket freezers hit by cyber-attacks in nine countries",
-      "link": "https://www.bbc.co.uk/news/articles/cwy8lm1m59mvo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Tue, 03 Nov 2026 13:12:04 GMT",
+      "title": "US Department of Justice expands its probe into Alaska’s US Senate election",
+      "link": "https://www.aljazeera.com/news/2026/11/4/us-department-of-justice-expands-its-probe-into-alaskas-us-senate-election?traffic_source=rss",
+      "pubDate": "Wed, 04 Nov 2026 00:33:57 +0000",
+      "source": "Al Jazeera",
+      "summary": "The Trump administration is doubling down on allegations Democrats stood up a 'spoiler' candidate against Republicans."
+    },
+    {
+      "title": "Stevie Wonder endorses Abdul El-Sayed",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/4/stevie-wonder-endorses-abdul-el-sayed?traffic_source=rss",
+      "pubDate": "Wed, 04 Nov 2026 00:13:41 +0000",
+      "source": "Al Jazeera",
+      "summary": "American singer Stevie Wonder has delivered a last minute endorsement of Democrat Abdul El-Sayed for the US Senate."
+    },
+    {
+      "title": "Ballot scanner glitch disrupts voting in New York",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/4/ballot-scanner-glitch-disrupts-voting-in-new-york?traffic_source=rss",
+      "pubDate": "Wed, 04 Nov 2026 00:08:02 +0000",
+      "source": "Al Jazeera",
+      "summary": "There have been voting machine scanner failures at polling sites 50 km north of New York City"
+    },
+    {
+      "title": "Spanish transport minister resigns days after deadly train crash",
+      "link": "https://www.bbc.co.uk/news/articles/c6wydqd4yxdyo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Tue, 03 Nov 2026 22:45:59 GMT",
       "source": "BBC",
-      "summary": "Supermarkets have reported problems from Estonia and Sweden to Portugal and Italy and many retainers have been forced to discard food."
+      "summary": "At least 69 people were killed and dozens injured in the collision south of the capital, Madrid."
     },
     {
-      "title": "Qatar remains hopeful the US and Iran can reach a deal",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/3/qatar-remains-hopeful-the-us-and-iran-can-reach-a-deal?traffic_source=rss",
-      "pubDate": "Tue, 03 Nov 2026 13:05:39 +0000",
-      "source": "Al Jazeera",
-      "summary": "Qatar’s foreign ministry spokesperson Majed al-Ansari says regional neighbours and international partners are working to"
-    },
-    {
-      "title": "How Florida Governor Ron DeSantis will shape his state’s 2026 midterm race",
-      "link": "https://www.aljazeera.com/news/2026/11/3/how-florida-governor-ron-desantis-will-shape-his-states-2026-midterm-race?traffic_source=rss",
-      "pubDate": "Tue, 03 Nov 2026 13:05:03 +0000",
-      "source": "Al Jazeera",
-      "summary": "The outgoing governor and former presidential candidate has transformed Florida into a conservative policy vanguard."
-    },
-    {
-      "title": "King Charles to Give ‘Unflinching’ Speech on UK’s Role in Slave Trade",
+      "title": "King Charles Says U.K.’s Role in Slave Trade ‘Fills My Heart With Horror’",
       "link": "https://www.nytimes.com/2026/11/03/world/europe/king-charles-speech-uk-slave-trade-antigua.html",
-      "pubDate": "Tue, 03 Nov 2026 12:58:51 +0000",
+      "pubDate": "Tue, 03 Nov 2026 22:19:16 +0000",
       "source": "NYT World",
-      "summary": "The British monarch and Prime Minister Andy Burnham are set to speak at the Commonwealth heads of government meeting in Antigua."
+      "summary": "The monarch called Britain’s trafficking of enslaved people from Africa a “shameful chapter of history” at a meeting of Commonwealth heads of government in Antigua."
     },
     {
-      "title": "US urges Venezuela to release remaining political prisoners",
-      "link": "https://www.bbc.co.uk/news/articles/cxg5jln586pno?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Tue, 03 Nov 2026 12:09:20 GMT",
+      "title": "NTSB says crucial plane parts found three miles from Florida crash site",
+      "link": "https://www.bbc.co.uk/news/articles/c9e8lk5dpj7no?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Tue, 03 Nov 2026 21:53:38 GMT",
       "source": "BBC",
-      "summary": "The US secretary of state also discusses laying the groundwork for 'free, fair, and credible elections'."
+      "summary": "The NTSB said because the parts were found far from the accident site, they fell off before the crash."
     },
     {
-      "title": "Indian tourist killed after two helicopters collide near Everest base camp",
-      "link": "https://www.bbc.co.uk/news/articles/cmqlnx7z1549o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Tue, 03 Nov 2026 11:51:08 GMT",
+      "title": "West Bank Property Sales Tactics Face a Challenge in Canada",
+      "link": "https://www.nytimes.com/2026/11/03/world/canada/canada-west-bank-lawsuit.html",
+      "pubDate": "Tue, 03 Nov 2026 20:58:18 +0000",
+      "source": "NYT World",
+      "summary": "The marketing practices of some firms promoting property in the Israeli-occupied territory to foreign purchasers are deceptive, a recent filing claims."
+    },
+    {
+      "title": "Afghan Woman Is Among Dozens to Be Deported to Afghanistan",
+      "link": "https://www.nytimes.com/2026/11/03/world/asia/afghan-deportation-flight.html",
+      "pubDate": "Tue, 03 Nov 2026 20:57:48 +0000",
+      "source": "NYT World",
+      "summary": "The Trump administration has arranged a flight to send dozens of Afghan immigrants back to Afghanistan, despite the risk of persecution by the Taliban."
+    },
+    {
+      "title": "Seven flights across Europe targeted by suspected bomb threats",
+      "link": "https://www.bbc.co.uk/news/articles/c6x2wd4v04eeo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Tue, 03 Nov 2026 20:42:47 GMT",
       "source": "BBC",
-      "summary": "The two aircraft crashed just metres from the ground after trying to land at the same spot."
+      "summary": "Planes in Poland, Spain, Bulgaria and Italy have been checked for explosives following separate threats."
     },
     {
-      "title": "US strikes Iranian island ahead of midterm elections",
-      "link": "https://www.bbc.co.uk/news/articles/cx240mrm3g8vo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Tue, 03 Nov 2026 11:33:33 GMT",
+      "title": "Trump Scrambles to Halt Military Aid to Israel to Deprive El-Sayed of a Talking Point",
+      "link": "https://theintercept.com/2026/11/03/trump-us-military-aid-israel-el-sayed/",
+      "pubDate": "Tue, 03 Nov 2026 18:52:07 +0000",
+      "source": "The Intercept",
+      "summary": "In a Fox News interview, Trump said the U.S. will stop giving Israel weapons for free because Abdul El-Sayed keeps talking about it.\nThe post Trump Scrambles to Halt Military Aid to Israel to Deprive El-Sayed of a Talking Point appeared first on The "
+    },
+    {
+      "title": "Poland Beefs Up Security at Border With Russia",
+      "link": "https://www.nytimes.com/2026/11/03/world/europe/poland-russia-kaliningrad.html",
+      "pubDate": "Tue, 03 Nov 2026 18:18:07 +0000",
+      "source": "NYT World",
+      "summary": "Prime Minister Donald Tusk said there had been “disturbing movement” in Kaliningrad, a Russian region just north of Poland."
+    },
+    {
+      "title": "Bomb Threats Disrupt Several Flights Across Europe",
+      "link": "https://www.nytimes.com/2026/11/03/world/europe/bomb-threats-europe-flights-planes.html",
+      "pubDate": "Tue, 03 Nov 2026 16:22:42 +0000",
+      "source": "NYT World",
+      "summary": "Officials are investigating threats against at least seven planes. The aircraft landed safely and no explosives were found, the authorities said."
+    },
+    {
+      "title": "Binance says fake job interviews used as part of $6.3bn crypto hack",
+      "link": "https://www.bbc.co.uk/news/articles/ck5ynwz9gy67o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Tue, 03 Nov 2026 16:19:29 GMT",
       "source": "BBC",
-      "summary": "US officials described the attacks on Qeshm Island as limited and defensive, according to CBS, the BBC's US partner."
+      "summary": "An engineer was contacted through a legitimate job-hunting platform and invited to bogus job interviews with fake company representatives, Binance says."
     },
     {
-      "title": "Sharp Left Turn: Democrats Have a Shot to Take Congress on Socialist Momentum",
+      "title": "Libya's top religious authority rules against wearing Nike clothes",
+      "link": "https://www.bbc.co.uk/news/articles/c5djv0p0re2no?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Tue, 03 Nov 2026 14:56:46 GMT",
+      "source": "BBC",
+      "summary": "The US company was named after the Greek goddess of victory, so the Dar al-Ifta said displaying its logo was unIslamic."
+    },
+    {
+      "title": "Ashley Hinson’s Digital Chief Oversees Firm Paid Millions to Push Israeli Propaganda",
+      "link": "https://theintercept.com/2026/11/03/ashley-hinson-israel-aipac/",
+      "pubDate": "Tue, 03 Nov 2026 14:39:10 +0000",
+      "source": "The Intercept",
+      "summary": "The GOP candidate for Iowa’s open Senate seat tapped the co-founder of a consulting firm with a $9.9 million Israel contract.\nThe post Ashley Hinson’s Digital Chief Oversees Firm Paid Millions to Push Israeli Propaganda appeared first on The Intercep"
+    },
+    {
+      "title": "If Democrats Win, Thank the Left",
       "link": "https://theintercept.com/2026/11/03/democrats-voters-midterms-maine-michigan-texas/",
       "pubDate": "Tue, 03 Nov 2026 10:52:00 +0000",
       "source": "The Intercept",
-      "summary": "Voters in Maine, Michigan, and Texas said they want to see Democrats deliver Medicare for All, social welfare spending, and lower prices. And fewer campaign mailers.\nThe post Sharp Left Turn: Democrats Have a Shot to Take Congress on Socialist Moment"
-    },
-    {
-      "title": "As Trump’s Midterm Deadline Looms, Gulf Countries Brace for Possible Renewal of Iran War",
-      "link": "https://www.nytimes.com/2026/11/03/world/middleeast/trump-iran-war-midterms-election.html",
-      "pubDate": "Tue, 03 Nov 2026 10:47:18 +0000",
-      "source": "NYT World",
-      "summary": "The energy-rich Gulf Arab countries are engaged in a flurry of mediation efforts to avert war between the U.S. and Iran, as many fear that the fighting will be worse this time around."
-    },
-    {
-      "title": "Why Trump Often Mentioned Iran in the Midterm Campaign",
-      "link": "https://www.nytimes.com/2026/11/03/world/middleeast/trump-iran-war-election-strategy.html",
-      "pubDate": "Tue, 03 Nov 2026 10:45:04 +0000",
-      "source": "NYT World",
-      "summary": "President Trump has repeatedly reminded Americans of a losing campaign issue just as voters head to the polls. Why?"
-    },
-    {
-      "title": "Celebrating Day of the Dead, High in Mexico’s Mountains",
-      "link": "https://www.nytimes.com/2026/11/03/world/americas/mexico-day-of-the-dead-metlatonoc.html",
-      "pubDate": "Tue, 03 Nov 2026 10:03:31 +0000",
-      "source": "NYT World",
-      "summary": "Over the course of 10 days in a remote Mexican town, dances and processions summon souls in the belief that the dead are never truly gone."
-    },
-    {
-      "title": "Drones Emerge as the Top Killer of Civilians in Sudan’s War",
-      "link": "https://www.nytimes.com/2026/11/03/world/africa/sudan-drone-civilians-nyala.html",
-      "pubDate": "Tue, 03 Nov 2026 10:03:19 +0000",
-      "source": "NYT World",
-      "summary": "The weapons have become the No. 1 killer of civilians this year, according to the United Nations, devastating a population already overwhelmed by famine and drought."
-    },
-    {
-      "title": "Tenerife striker De Miguel dies after on-field collision ",
-      "link": "https://www.bbc.co.uk/sport/football/articles/ck62yvz046pjo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Tue, 03 Nov 2026 09:09:18 GMT",
-      "source": "BBC",
-      "summary": "Tenerife forward Jesus de Miguel dies aged 30 after an on-field collision during a Spanish second-division match."
+      "summary": "Voters in Maine, Michigan, and Texas said they want to see Democrats deliver Medicare for All, social welfare spending, and lower prices. And fewer campaign mailers.\nThe post If Democrats Win, Thank the Left appeared first on The Intercept."
     },
     {
       "title": "Abdul El-Sayed’s Race Has Been Defined by Islamophobia. Will It Be Determined by It?",
@@ -377,32 +398,11 @@
       "summary": "As the Michigan Senate race finishes with a focus on the Democratic primary loser’s gripes over Israel, the party nominee has endured a barrage of anti-Muslim attacks.\nThe post Abdul El-Sayed’s Race Has Been Defined by Islamophobia. Will It Be Determ"
     },
     {
-      "title": "“Offensive Driving”: ICE’s Deadly Weaponization of Vehicles Against Civilians",
-      "link": "https://theintercept.com/2026/11/02/ice-vehicles-cars-hit-weapon/",
-      "pubDate": "Mon, 02 Nov 2026 18:57:25 +0000",
-      "source": "The Intercept",
-      "summary": "The Intercept reviewed more than two dozen incidents of ICE using its army of unmarked cars to attack immigrants and American activists alike.\nThe post “Offensive Driving”: ICE’s Deadly Weaponization of Vehicles Against Civilians appeared first on Th"
-    },
-    {
-      "title": "Fergie Chambers Faces Extradition to U.S. Despite Never Being Indicted, Says Lawyer",
-      "link": "https://theintercept.com/2026/11/02/fergie-chambers-extradition-palestine-israel-protest/",
-      "pubDate": "Mon, 02 Nov 2026 17:05:03 +0000",
-      "source": "The Intercept",
-      "summary": "The refusal of two pro-Palestine protesters to testify before a grand jury could hamper the left-wing donor’s extradition from Spain.\nThe post Fergie Chambers Faces Extradition to U.S. Despite Never Being Indicted, Says Lawyer appeared first on The I"
-    },
-    {
       "title": "Inside the Secretive, Contradictory World of Campaign Ads Funded by AI Super PACs",
       "link": "https://www.bellingcat.com/news/2026/11/02/ai-super-pacs-political-advertising/",
       "pubDate": "Mon, 02 Nov 2026 16:11:28 +0000",
       "source": "Bellingcat",
       "summary": "Sign up here to receive Bellingcat’s biggest investigations by email as soon as they are published. Become a member and support our work here. An online ad for Ben McAdams, the Democratic candidate for Congress in Utah, emphasised that he could be tr"
-    },
-    {
-      "title": "Radical Centrists Like Haley Stevens Are the Real Extremists in the Democratic Party",
-      "link": "https://theintercept.com/2026/11/02/haley-stevens-mike-rogers-endorsement-el-sayed-democrats/",
-      "pubDate": "Mon, 02 Nov 2026 13:57:44 +0000",
-      "source": "The Intercept",
-      "summary": "By endorsing Abdul El-Sayed’s opponent for Israel’s sake, Stevens shows how the real threat to progress comes from centrists.\nThe post Radical Centrists Like Haley Stevens Are the Real Extremists in the Democratic Party appeared first on The Intercep"
     },
     {
       "title": "EU Satellite Imagery Delayed Over Gaza and Parts of West Bank by 24-hours",
@@ -434,6 +434,13 @@
     }
   ],
   "syndication": [
+    {
+      "title": "Pluralistic: Separable (03 Nov 2026)",
+      "link": "https://pluralistic.net/2026/11/03/nobody-is-home/",
+      "pubDate": "Tue, 03 Nov 2026 14:19:29 +0000",
+      "author": "Pluralistic",
+      "content": "Today's links Separable: AI makes us deal with paintings without painters, words without writers and mathematics without mathematicians. Hey look at this: Delights to delectate. Object permanence: Haircase; There's no copyright policy; Sole and despotic dominion; Trump x fraud; Brexit requires an ac"
+    },
     {
       "title": "AIs Hacking the Law",
       "link": "https://www.schneier.com/blog/archives/2026/11/ais-hacking-the-law.html",
@@ -477,13 +484,6 @@
       "content": "Neat video:\nThe sighting, announced September 2, marks the first time anyone has spotted a live bigfin squid, which belongs to the Magnapinna genus, in the northeastern Pacific Ocean.\n\nAs usual, you can also use this squid post to talk about the security stories in the news that I haven’t covered.\nB"
     },
     {
-      "title": "Pluralistic: Agents vs ecommerce (28 Oct 2026)",
-      "link": "https://pluralistic.net/2026/10/28/principle-agent-problem/",
-      "pubDate": "Wed, 28 Oct 2026 10:54:05 +0000",
-      "author": "Pluralistic",
-      "content": "Today's links Agents vs ecommerce: Opacity is a feature, not a bug. Hey look at this: Delights to delectate. Object permanence: Aibo hacking; Calculator watches; What hath Occupy wrought; Dr Seuss v Trek parody; \"Blacks for Trump\" x murder-cults; \"9 Times My Work Has Been Ripped Off.\" Upcoming appea"
-    },
-    {
       "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
       "link": "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/",
       "pubDate": "Wed, 21 Oct 2026 15:26:07 +0000",
@@ -500,20 +500,60 @@
   ],
   "syndicate_journal": [
     {
-      "title": "Let Andreas Malm Speak",
-      "link": "https://jacobin.com/2026/11/malm-rooney-palestine-labour-repression",
-      "summary": "Andreas Malm’s work has been among the most important of any scholar in any academic field over the past decade. His theoretical and strategic contributions have led developments in our understanding of the climate crisis’s basis in capitalism and fed debates about how to respond.\nYet last week, Bri",
-      "pubDate": "2026-11-03T13:43:55.291Z",
+      "title": "Plants Experience Optical Illusions, Too",
+      "link": "https://nautil.us/plants-experience-optical-illusions-too-1286328/",
+      "summary": "You don’t need a brain to get fooled\nThe post Plants Experience Optical Illusions, Too appeared first on Nautilus.",
+      "pubDate": "Tue, 03 Nov 2026 23:30:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "Why Your Shrink Should Prescribe Exercise",
+      "link": "https://nautil.us/why-your-shrink-should-prescribe-exercise-1286325/",
+      "summary": "A new viewpoint paper argues we’ve been thinking about physical activity the wrong way\nThe post Why Your Shrink Should Prescribe Exercise appeared first on Nautilus.",
+      "pubDate": "Tue, 03 Nov 2026 21:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "Trumpism Is Running Out of Gas",
+      "link": "https://jacobin.com/2026/11/midterms-defeat-trumpism-maga-populism",
+      "summary": "I have no special insight into what the exact outcome of this yearʼs midterm elections is going to be. It would be absolutely astonishing if Democrats failed to take the House, and the  NY/Sienna poll has the Democrats leading in all seven of the races that will determine control of the Senate. This",
+      "pubDate": "2026-11-03T19:41:55.323Z",
       "domain": "politics",
       "source": "Jacobin"
     },
     {
-      "title": "The Monstrous Raptors That Threatened Our Ancestors",
-      "link": "https://nautil.us/the-monstrous-raptors-that-threatened-our-ancestors-1286304/",
-      "summary": "Did birds of prey shape human evolution?\nThe post The Monstrous Raptors That Threatened Our Ancestors appeared first on Nautilus.",
-      "pubDate": "Tue, 03 Nov 2026 13:00:00 +0000",
+      "title": "Could One Brain Region Be Tied to Feeling Sick All Over?",
+      "link": "https://nautil.us/could-one-brain-region-be-tied-to-feeling-sick-all-over-1286308/",
+      "summary": "When you break your foot, the pain is mostly confined to your foot. When you get the flu or another systemic infection, your entire being aches: Lethargy creeps into your limbs, your appetite vanishes, your temperature jags between scorching and chilled to the bone, and you just want to pull the cov",
+      "pubDate": "Tue, 03 Nov 2026 19:00:00 +0000",
       "domain": "science",
       "source": "Nautilus"
+    },
+    {
+      "title": "A Fight for Workers’ Rights Turned the Tide in Brazil",
+      "link": "https://jacobin.com/2026/11/brazil-hilton-lula-workweek-campaign",
+      "summary": "As Brazilian President Luiz Inácio Lula da Silva celebrated his historic victory over far-right candidate Flávio Bolsonaro on Sunday, he  trans congresswoman Erika Hilton and kissed her on the cheek in celebration. The video circulated on social media, with many users pointing to it as evidence of B",
+      "pubDate": "2026-11-03T17:42:58.271Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "Another Detroit Socialist Is Heading to Congress",
+      "link": "https://jacobin.com/2026/11/mckinney-detroit-democratic-socialism-congress",
+      "summary": "In 2018, the election of two democratic socialists to the House of Representatives marked the beginning of a new political era. The socialist freshmen, both endorsed by the recently reinvigorated Democratic Socialists of America (DSA), were Alexandria Ocasio-Cortez from New York City and Rashida Tla",
+      "pubDate": "2026-11-03T17:10:16.315Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "Why We Cringe",
+      "link": "https://daily.jstor.org/why-we-cringe/",
+      "summary": "What makes someone else's behavior so embarrassing? The answer lies in our expectations of how people should act.\nThe post Why We Cringe appeared first on JSTOR Daily.",
+      "pubDate": "Tue, 03 Nov 2026 14:31:34 +0000",
+      "domain": "history",
+      "source": "JSTOR Daily"
     },
     {
       "title": "Believing and thinking",
@@ -522,38 +562,6 @@
       "pubDate": "Tue, 03 Nov 2026 11:00:00 GMT",
       "domain": "philosophy",
       "source": "Aeon"
-    },
-    {
-      "title": "Bizarre Fruit-Eating “Hell Chicken” Suggests Dinosaurs Played a Role in Flowering Plant Evolution",
-      "link": "https://nautil.us/bizarre-fruit-eating-hell-chicken-suggests-dinosaurs-played-a-role-in-flowering-plant-evolution-1286301/",
-      "summary": "Its jaws were fruit-mashing machines\nThe post Bizarre Fruit-Eating “Hell Chicken” Suggests Dinosaurs Played a Role in Flowering Plant Evolution appeared first on Nautilus.",
-      "pubDate": "Mon, 02 Nov 2026 23:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
-      "title": "A Collapsing Star Produced an Afterglow Brighter Than Its Galaxy",
-      "link": "https://nautil.us/a-collapsing-star-produced-an-afterglow-brighter-than-its-galaxy-1286280/",
-      "summary": "“The explosion packed roughly a billion years of the sun’s energy output into a pencil-thin beam”\nThe post A Collapsing Star Produced an Afterglow Brighter Than Its Galaxy appeared first on Nautilus.",
-      "pubDate": "Mon, 02 Nov 2026 21:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
-      "title": "100,000 California State Workers Struck Last Month",
-      "link": "https://jacobin.com/2026/11/california-seiu-state-strike-newsom",
-      "summary": "State workers went on a one-day unfair labor practice strike across California on October 21, with picket lines in Sacramento, San Francisco, Los Angeles, and other cities. They’re demanding better pay, affordable health care coverage, and flexibility to work from home.\nThis was the first strike in ",
-      "pubDate": "2026-11-02T19:47:08.174Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
-      "title": "The US Electorate Is Permanently Mobilized and Unable to Move",
-      "link": "https://jacobin.com/2026/11/midterms-us-politics-elections-reform",
-      "summary": "Six theses on the midterm elections:\nThis article originally appeared in , a democratic socialist magazine publishing long-form essays and analysis on politics, economics, and culture. JacobinSubscribe to the print edition for $20 a year.\n\nEarly voting tallies are through . If the patterns continue,",
-      "pubDate": "2026-11-02T17:33:42.723Z",
-      "domain": "politics",
-      "source": "Jacobin"
     },
     {
       "title": "Is There Anything Left in the Dream of Cold Fusion?",
@@ -650,14 +658,6 @@
       "pubDate": "Thu, 29 Oct 2026 15:11:57 +0000",
       "domain": "science",
       "source": "Quanta"
-    },
-    {
-      "title": "London’s Railway for the Dead",
-      "link": "https://daily.jstor.org/londons-railway-for-the-dead/",
-      "summary": "As London's graveyards overflowed, a private company proposed a remarkable new way to bury the dead.\nThe post London’s Railway for the Dead appeared first on JSTOR Daily.",
-      "pubDate": "Thu, 29 Oct 2026 13:43:00 +0000",
-      "domain": "history",
-      "source": "JSTOR Daily"
     },
     {
       "title": "Wonderful Weather: Floods and Foreboding in 17th-Century Britain\n",
@@ -766,64 +766,64 @@
   ],
   "misinfo_toilet": [
     {
-      "headline": "Groups Associated With India’s Far-Right Receive Millions Through US Donor-Advised Funds",
-      "fragment": "Everywhere it is machines—real ones, not figurative ones: machines driving other machines, machines being driven by other machines, with all the necessary couplings and connections.",
-      "splice": "Groups Associated With India’s Far-Right Receive Millions Through US Donor-Advised Funds the system notes that everywhere it is machines—real ones, not figurative ones: machines driving other machines, machines being driven by other machines, with all the necessary couplings and connections.",
-      "seed": 20261116
+      "headline": "Ballot scanner glitch disrupts voting in New York",
+      "fragment": "Underneath all reason lies delirium and drift.",
+      "splice": "Ballot scanner glitch disrupts voting in New York underneath underneath all reason lies delirium and drift.",
+      "seed": 20261105
     },
     {
-      "headline": "Qatar remains hopeful the US and Iran can reach a deal",
-      "fragment": "The current ruling ontology denies any possibility of a social causation of mental illness. The chemico-biologization of mental illness is of course strictly commensurate with its depoliticization.",
-      "splice": "Qatar remains hopeful the US and Iran can reach a deal consequently the current ruling ontology denies any possibility of a social causation of mental illness. The chemico-biologization of mental illness is of course strictly commensurate with its depoliticization.",
-      "seed": 20261117
-    },
-    {
-      "headline": "Europe on alert after supermarket freezers hit by cyber-attacks in nine countries",
+      "headline": "NTSB says crucial plane parts found three miles from Florida crash site",
       "fragment": "Traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "splice": "Europe on alert after supermarket freezers hit by cyber-attacks in nine countries as if traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "seed": 20261118
+      "splice": "NTSB says crucial plane parts found three miles from Florida crash site the system notes that traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
+      "seed": 20261106
+    },
+    {
+      "headline": "Trump Scrambles to Halt Military Aid to Israel to Deprive El-Sayed of a Talking Point",
+      "fragment": "We live in a world where there is more and more information, and less and less meaning.",
+      "splice": "Trump Scrambles to Halt Military Aid to Israel to Deprive El-Sayed of a Talking Point ...as we live in a world where there is more and more information, and less and less meaning.",
+      "seed": 20261107
     },
     {
       "headline": "Abdul El-Sayed’s Race Has Been Defined by Islamophobia. Will It Be Determined by It?",
-      "fragment": "It is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
-      "splice": "Abdul El-Sayed’s Race Has Been Defined by Islamophobia. Will It Be Determined by It? insofar as it is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
-      "seed": 20261119
+      "fragment": "This is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
+      "splice": "Abdul El-Sayed’s Race Has Been Defined by Islamophobia. Will It Be Determined by It? the system notes that this is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
+      "seed": 20261108
     },
     {
-      "headline": "Sharp Left Turn: Democrats Have a Shot to Take Congress on Socialist Momentum",
-      "fragment": "Art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
-      "splice": "Sharp Left Turn: Democrats Have a Shot to Take Congress on Socialist Momentum as if art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
-      "seed": 20261120
+      "headline": "Polls Close in Maine as Democrats Make Final Push to Oust Sen. Susan Collins",
+      "fragment": "Simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
+      "splice": "Polls Close in Maine as Democrats Make Final Push to Oust Sen. Susan Collins the system notes that simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
+      "seed": 20261109
     },
     {
-      "headline": "King Charles to Give ‘Unflinching’ Speech on UK’s Role in Slave Trade",
+      "headline": "Poland Beefs Up Security at Border With Russia",
+      "fragment": "Simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
+      "splice": "Poland Beefs Up Security at Border With Russia consequently simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
+      "seed": 20261110
+    },
+    {
+      "headline": "West Bank Property Sales Tactics Face a Challenge in Canada",
       "fragment": "Reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
-      "splice": "King Charles to Give ‘Unflinching’ Speech on UK’s Role in Slave Trade underneath reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
-      "seed": 20261121
+      "splice": "West Bank Property Sales Tactics Face a Challenge in Canada not unlike reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
+      "seed": 20261111
     },
     {
-      "headline": "Celebrating Day of the Dead, High in Mexico’s Mountains",
-      "fragment": "It is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
-      "splice": "Celebrating Day of the Dead, High in Mexico’s Mountains the signal resolves into it is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
-      "seed": 20261122
+      "headline": "Satellite Images Show Extent of Trump Admin’s Tree-Felling at DC Golf Course",
+      "fragment": "Everywhere it is machines—real ones, not figurative ones: machines driving other machines, machines being driven by other machines, with all the necessary couplings and connections.",
+      "splice": "Satellite Images Show Extent of Trump Admin’s Tree-Felling at DC Golf Course insofar as everywhere it is machines—real ones, not figurative ones: machines driving other machines, machines being driven by other machines, with all the necessary couplings and connections.",
+      "seed": 20261112
     },
     {
-      "headline": "“Offensive Driving”: ICE’s Deadly Weaponization of Vehicles Against Civilians",
-      "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "splice": "“Offensive Driving”: ICE’s Deadly Weaponization of Vehicles Against Civilians because the breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "seed": 20261123
+      "headline": "FBI arrests man for sending over 700 threatening letters to US officials",
+      "fragment": "The privatization of the organs will only begin with the shame felt by man at the sight of man.",
+      "splice": "FBI arrests man for sending over 700 threatening letters to US officials because the privatization of the organs will only begin with the shame felt by man at the sight of man.",
+      "seed": 20261113
     },
     {
-      "headline": "Saudi Pro League postpones matches after Asian Cup rescheduling",
-      "fragment": "The simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
-      "splice": "Saudi Pro League postpones matches after Asian Cup rescheduling consequently the simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
-      "seed": 20261124
-    },
-    {
-      "headline": "EU Satellite Imagery Delayed Over Gaza and Parts of West Bank by 24-hours",
-      "fragment": "It is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
-      "splice": "EU Satellite Imagery Delayed Over Gaza and Parts of West Bank by 24-hours consequently it is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
-      "seed": 20261125
+      "headline": "Seven flights across Europe targeted by suspected bomb threats",
+      "fragment": "The technocrat is the natural friend of the dictator—computers and dictatorship.",
+      "splice": "Seven flights across Europe targeted by suspected bomb threats the system notes that the technocrat is the natural friend of the dictator—computers and dictatorship.",
+      "seed": 20261114
     }
   ]
 }
