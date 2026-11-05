@@ -1,7 +1,23 @@
 {
-  "generated_at": "2026-11-04T01:05:56.420Z",
+  "generated_at": "2026-11-05T01:21:14.392Z",
   "threat_intel": {
     "cisa_kev": [
+      {
+        "cveID": "CVE-2024-27834",
+        "vendorProject": "Apple",
+        "product": "Multiple Products",
+        "vulnerabilityName": "Apple Multiple Products Improper Authentication Vulnerability",
+        "dateAdded": "2026-11-04",
+        "shortDescription": "Apple iOS, iPadOS, macOS, Safari, tvOS and watchOS 10.5 contain an improper authentication vulnerability which could allow an attacker with arbitrary read and write capability to bypass pointer authentication.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-11-18",
+        "knownRansomwareCampaignUse": "Unknown",
+        "forensicTriage": "No",
+        "notes": "https://support.apple.com/en-us/120896 ; https://support.apple.com/en-us/120898 ; https://support.apple.com/en-us/120901 ; https://support.apple.com/en-us/120902 ; https://support.apple.com/en-us/120903 ; https://support.apple.com/en-us/120905 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2024-27834",
+        "cwes": [
+          "CWE-287"
+        ]
+      },
       {
         "cveID": "CVE-2026-119977",
         "vendorProject": "WordPress",
@@ -236,166 +252,150 @@
         "cwes": [
           "CWE-78"
         ]
-      },
-      {
-        "cveID": "CVE-2026-96656",
-        "vendorProject": "Plex",
-        "product": "Media Server",
-        "vulnerabilityName": "Plex Media Server External Control of File Name or Path Vulnerability",
-        "dateAdded": "2026-10-20",
-        "shortDescription": "Plex Media Server contains an external control of file name or path vulnerability which can allow an admin user to write arbitrary files that may be executed on load. This vulnerability can be chained with CVE-2026-96652, CVE-2026-96654, and CVE-2026-96655.",
-        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "dueDate": "2026-10-23",
-        "knownRansomwareCampaignUse": "Unknown",
-        "forensicTriage": "Yes",
-        "notes": "https://forums.plex.tv/t/important-security-update-for-plex-media-server-v1-43-2-and-earlier/942319 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-96656",
-        "cwes": [
-          "CWE-73"
-        ]
       }
     ],
     "urlhaus": []
   },
   "world_monitor": [
     {
-      "title": "Polls Close in Maine as Democrats Make Final Push to Oust Sen. Susan Collins",
-      "link": "https://theintercept.com/2026/11/03/maine-senate-results-jackson-collins/",
-      "pubDate": "Wed, 04 Nov 2026 01:02:50 +0000",
-      "source": "The Intercept",
-      "summary": "The longtime Republican incumbent is at risk of losing her seat to Troy Jackson, a progressive Democrat who entered the race just over three months ago.\nThe post Polls Close in Maine as Democrats Make Final Push to Oust Sen. Susan Collins appeared fi"
-    },
-    {
-      "title": "FBI arrests man for sending over 700 threatening letters to US officials",
-      "link": "https://www.aljazeera.com/news/2026/11/4/fbi-arrests-man-for-sending-700-white-powder-letters-to-us-officials?traffic_source=rss",
-      "pubDate": "Wed, 04 Nov 2026 00:44:04 +0000",
+      "title": "Africa’s richest man launches mega oil tank farm in Namibia",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/5/africas-richest-man-launches-mega-oil-tank-farm-in-namibia?traffic_source=rss",
+      "pubDate": "Thu, 05 Nov 2026 00:39:18 +0000",
       "source": "Al Jazeera",
-      "summary": "The suspect, an Oklahoma City man, is accused of mailing hoax letters with white powder and treason warnings."
+      "summary": "Nigerian billionaire Aliko Dangote launched a fuel storage facility in Namibia to future-proof Southern Africa's supply."
     },
     {
-      "title": "Bomb threats disrupt flights across Europe, no explosive devices found",
-      "link": "https://www.aljazeera.com/news/2026/11/4/bomb-threats-disrupt-flights-across-europe-no-explosive-devices-found?traffic_source=rss",
-      "pubDate": "Wed, 04 Nov 2026 00:35:44 +0000",
+      "title": "Ohio’s voters tell Republicans: don’t take us for granted",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/5/ohios-voters-tell-republicans-dont-take-us-for-granted?traffic_source=rss",
+      "pubDate": "Thu, 05 Nov 2026 00:36:25 +0000",
       "source": "Al Jazeera",
-      "summary": "At least seven flights and an Israel-bound cruise ship received threats, but officials say searches found no explosives."
+      "summary": "Democrats flipped a Senate seat and recaptured the governor’s mansion in Ohio."
     },
     {
-      "title": "US Department of Justice expands its probe into Alaska’s US Senate election",
-      "link": "https://www.aljazeera.com/news/2026/11/4/us-department-of-justice-expands-its-probe-into-alaskas-us-senate-election?traffic_source=rss",
-      "pubDate": "Wed, 04 Nov 2026 00:33:57 +0000",
+      "title": "Democrats won Congress. But can they deliver on their promises?",
+      "link": "https://www.aljazeera.com/news/2026/11/5/democrats-won-congress-but-can-they-deliver-on-their-promises?traffic_source=rss",
+      "pubDate": "Thu, 05 Nov 2026 00:25:43 +0000",
       "source": "Al Jazeera",
-      "summary": "The Trump administration is doubling down on allegations Democrats stood up a 'spoiler' candidate against Republicans."
+      "summary": "Despite their midterm election victories, Democrats face major obstacles to reining in Trump on Iran, tariffs and more."
     },
     {
-      "title": "Stevie Wonder endorses Abdul El-Sayed",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/4/stevie-wonder-endorses-abdul-el-sayed?traffic_source=rss",
-      "pubDate": "Wed, 04 Nov 2026 00:13:41 +0000",
+      "title": "Historic firsts redraw US political map in 2026 midterm elections",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/5/historic-firsts-redraw-us-political-map-in-2026-midterm-elections?traffic_source=rss",
+      "pubDate": "Thu, 05 Nov 2026 00:24:20 +0000",
       "source": "Al Jazeera",
-      "summary": "American singer Stevie Wonder has delivered a last minute endorsement of Democrat Abdul El-Sayed for the US Senate."
+      "summary": "The 2026 US midterms delivered a wave of historic firsts for women, Black, Muslim,  gay and Native American politicians."
     },
     {
-      "title": "Ballot scanner glitch disrupts voting in New York",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/4/ballot-scanner-glitch-disrupts-voting-in-new-york?traffic_source=rss",
-      "pubDate": "Wed, 04 Nov 2026 00:08:02 +0000",
+      "title": "Iran war live: Trump says war caused election wipeout but he ‘had to do it’",
+      "link": "https://www.aljazeera.com/news/liveblog/2026/11/5/iran-war-live-trump-admits-war-caused-election-loss-but-had-to-do-it?traffic_source=rss",
+      "pubDate": "Thu, 05 Nov 2026 00:00:00 +0000",
       "source": "Al Jazeera",
-      "summary": "There have been voting machine scanner failures at polling sites 50 km north of New York City"
+      "summary": "President Trump admits Iran war 'largely' caused Republicans' US election wipeout, but says he 'had to do it'."
     },
     {
-      "title": "Spanish transport minister resigns days after deadly train crash",
-      "link": "https://www.bbc.co.uk/news/articles/c6wydqd4yxdyo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Tue, 03 Nov 2026 22:45:59 GMT",
-      "source": "BBC",
-      "summary": "At least 69 people were killed and dozens injured in the collision south of the capital, Madrid."
-    },
-    {
-      "title": "King Charles Says U.K.’s Role in Slave Trade ‘Fills My Heart With Horror’",
-      "link": "https://www.nytimes.com/2026/11/03/world/europe/king-charles-speech-uk-slave-trade-antigua.html",
-      "pubDate": "Tue, 03 Nov 2026 22:19:16 +0000",
+      "title": "What Trump’s Midterm Defeat Means for Iran and Oil Prices",
+      "link": "https://www.nytimes.com/2026/11/04/world/asia/midterms-trump-foreign-policy-world.html",
+      "pubDate": "Wed, 04 Nov 2026 23:36:59 +0000",
       "source": "NYT World",
-      "summary": "The monarch called Britain’s trafficking of enslaved people from Africa a “shameful chapter of history” at a meeting of Commonwealth heads of government in Antigua."
+      "summary": "Commentators abroad wondered what President Trump’s electoral losses might mean for oil prices, the war on Iran and the future of American politics."
     },
     {
-      "title": "NTSB says crucial plane parts found three miles from Florida crash site",
-      "link": "https://www.bbc.co.uk/news/articles/c9e8lk5dpj7no?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Tue, 03 Nov 2026 21:53:38 GMT",
-      "source": "BBC",
-      "summary": "The NTSB said because the parts were found far from the accident site, they fell off before the crash."
-    },
-    {
-      "title": "West Bank Property Sales Tactics Face a Challenge in Canada",
-      "link": "https://www.nytimes.com/2026/11/03/world/canada/canada-west-bank-lawsuit.html",
-      "pubDate": "Tue, 03 Nov 2026 20:58:18 +0000",
-      "source": "NYT World",
-      "summary": "The marketing practices of some firms promoting property in the Israeli-occupied territory to foreign purchasers are deceptive, a recent filing claims."
-    },
-    {
-      "title": "Afghan Woman Is Among Dozens to Be Deported to Afghanistan",
-      "link": "https://www.nytimes.com/2026/11/03/world/asia/afghan-deportation-flight.html",
-      "pubDate": "Tue, 03 Nov 2026 20:57:48 +0000",
-      "source": "NYT World",
-      "summary": "The Trump administration has arranged a flight to send dozens of Afghan immigrants back to Afghanistan, despite the risk of persecution by the Taliban."
-    },
-    {
-      "title": "Seven flights across Europe targeted by suspected bomb threats",
-      "link": "https://www.bbc.co.uk/news/articles/c6x2wd4v04eeo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Tue, 03 Nov 2026 20:42:47 GMT",
-      "source": "BBC",
-      "summary": "Planes in Poland, Spain, Bulgaria and Italy have been checked for explosives following separate threats."
-    },
-    {
-      "title": "Trump Scrambles to Halt Military Aid to Israel to Deprive El-Sayed of a Talking Point",
-      "link": "https://theintercept.com/2026/11/03/trump-us-military-aid-israel-el-sayed/",
-      "pubDate": "Tue, 03 Nov 2026 18:52:07 +0000",
+      "title": "ICE Was Secretly Ordered to Stop All Immigration Raids on Election Day",
+      "link": "https://theintercept.com/2026/11/04/ice-orders-stop-election-day/",
+      "pubDate": "Wed, 04 Nov 2026 23:29:11 +0000",
       "source": "The Intercept",
-      "summary": "In a Fox News interview, Trump said the U.S. will stop giving Israel weapons for free because Abdul El-Sayed keeps talking about it.\nThe post Trump Scrambles to Halt Military Aid to Israel to Deprive El-Sayed of a Talking Point appeared first on The "
+      "summary": "“Yesterday was the least amount of activity observed from ICE ERO throughout the entire year so far,” said an activist who monitors immigration enforcement nationwide.\nThe post ICE Was Secretly Ordered to Stop All Immigration Raids on Election Day ap"
     },
     {
-      "title": "Poland Beefs Up Security at Border With Russia",
-      "link": "https://www.nytimes.com/2026/11/03/world/europe/poland-russia-kaliningrad.html",
-      "pubDate": "Tue, 03 Nov 2026 18:18:07 +0000",
-      "source": "NYT World",
-      "summary": "Prime Minister Donald Tusk said there had been “disturbing movement” in Kaliningrad, a Russian region just north of Poland."
-    },
-    {
-      "title": "Bomb Threats Disrupt Several Flights Across Europe",
-      "link": "https://www.nytimes.com/2026/11/03/world/europe/bomb-threats-europe-flights-planes.html",
-      "pubDate": "Tue, 03 Nov 2026 16:22:42 +0000",
-      "source": "NYT World",
-      "summary": "Officials are investigating threats against at least seven planes. The aircraft landed safely and no explosives were found, the authorities said."
-    },
-    {
-      "title": "Binance says fake job interviews used as part of $6.3bn crypto hack",
-      "link": "https://www.bbc.co.uk/news/articles/ck5ynwz9gy67o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Tue, 03 Nov 2026 16:19:29 GMT",
+      "title": "Ukraine says bodycam video shows deadly Russian double-tap bombing",
+      "link": "https://www.bbc.co.uk/news/articles/c98rz6penv86o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Wed, 04 Nov 2026 22:48:43 GMT",
       "source": "BBC",
-      "summary": "An engineer was contacted through a legitimate job-hunting platform and invited to bogus job interviews with fake company representatives, Binance says."
+      "summary": "At least 40 people were killed and another 30 may still be under the rubble after Monday's attack on a Ukrainian village, Kyiv says."
     },
     {
-      "title": "Libya's top religious authority rules against wearing Nike clothes",
-      "link": "https://www.bbc.co.uk/news/articles/c5djv0p0re2no?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Tue, 03 Nov 2026 14:56:46 GMT",
+      "title": "For Israelis, U.S. Midterms Show How Far Their Star Has Fallen in America",
+      "link": "https://www.nytimes.com/2026/11/04/world/middleeast/israel-trump-midterm-elections.html",
+      "pubDate": "Wed, 04 Nov 2026 22:04:04 +0000",
+      "source": "NYT World",
+      "summary": "Israel once had bipartisan support in the United States, but a strong showing for Democrats, some of whom are deeply critical of the war in Gaza, has left the country with fewer friends in Congress."
+    },
+    {
+      "title": "The Progressive Agenda: End Iran War, Rein in AI, Get Dems to Actually Do Something",
+      "link": "https://theintercept.com/2026/11/04/midterms-democrats-agenda-congress-iran-ai/",
+      "pubDate": "Wed, 04 Nov 2026 21:40:14 +0000",
+      "source": "The Intercept",
+      "summary": "The party’s left flank argued they have a responsibility to carry out transformative change — not make excuses for inaction.\nThe post The Progressive Agenda: End Iran War, Rein in AI, Get Dems to Actually Do Something appeared first on The Intercept."
+    },
+    {
+      "title": "Israel’s President Starts Talks on Whether Netanyahu or Eisenkot Can Form a Government",
+      "link": "https://www.nytimes.com/2026/11/04/world/middleeast/israel-herzog-netanyahu-government.html",
+      "pubDate": "Wed, 04 Nov 2026 20:17:02 +0000",
+      "source": "NYT World",
+      "summary": "President Isaac Herzog began meeting with party leaders for two days to decide whether to give Prime Minister Benjamin Netanyahu or rivals the first chance at forming a coalition."
+    },
+    {
+      "title": "Haley Stevens Destroyed Her Political Career for Absolutely Nothing",
+      "link": "https://theintercept.com/2026/11/04/el-sayed-michigan-senate-win-democrats/",
+      "pubDate": "Wed, 04 Nov 2026 19:00:50 +0000",
+      "source": "The Intercept",
+      "summary": "To win in Michigan, Abdul El-Sayed had to overcome months of anti-Muslim attacks — including from his own party.\nThe post Haley Stevens Destroyed Her Political Career for Absolutely Nothing appeared first on The Intercept."
+    },
+    {
+      "title": "US midterm results a 'victory' for Canadians hopeful of tariff relief",
+      "link": "https://www.bbc.co.uk/news/articles/cqev3mw3e0kdo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Wed, 04 Nov 2026 18:01:31 GMT",
       "source": "BBC",
-      "summary": "The US company was named after the Greek goddess of victory, so the Dar al-Ifta said displaying its logo was unIslamic."
+      "summary": "With Canada-US trade talks back on, Tuesday’s midterm Democratic wave puts pressure on the White House to come to a deal."
     },
     {
-      "title": "Ashley Hinson’s Digital Chief Oversees Firm Paid Millions to Push Israeli Propaganda",
-      "link": "https://theintercept.com/2026/11/03/ashley-hinson-israel-aipac/",
-      "pubDate": "Tue, 03 Nov 2026 14:39:10 +0000",
+      "title": "Lesson From Lansing: To Win in Swing Districts, Fight Data Centers",
+      "link": "https://theintercept.com/2026/11/04/will-lawrence-michigan-midterms-data-centers/",
+      "pubDate": "Wed, 04 Nov 2026 17:15:41 +0000",
       "source": "The Intercept",
-      "summary": "The GOP candidate for Iowa’s open Senate seat tapped the co-founder of a consulting firm with a $9.9 million Israel contract.\nThe post Ashley Hinson’s Digital Chief Oversees Firm Paid Millions to Push Israeli Propaganda appeared first on The Intercep"
+      "summary": "Left-aligned candidate Will Lawrence beat a Republican incumbent by battling new AI infrastructure in his purple Michigan district.\nThe post Lesson From Lansing: To Win in Swing Districts, Fight Data Centers appeared first on The Intercept."
     },
     {
-      "title": "If Democrats Win, Thank the Left",
-      "link": "https://theintercept.com/2026/11/03/democrats-voters-midterms-maine-michigan-texas/",
-      "pubDate": "Tue, 03 Nov 2026 10:52:00 +0000",
-      "source": "The Intercept",
-      "summary": "Voters in Maine, Michigan, and Texas said they want to see Democrats deliver Medicare for All, social welfare spending, and lower prices. And fewer campaign mailers.\nThe post If Democrats Win, Thank the Left appeared first on The Intercept."
+      "title": "'Most difficult days of my life' for keeper Owono",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c6zxjz40l280o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Wed, 04 Nov 2026 16:40:38 GMT",
+      "source": "BBC",
+      "summary": "FC Andorra goalkeeper Jesus Owono puts out a statement through his club, expressing his sorrow and pain after Tenerife forward Jesus de Miguel's death."
     },
     {
-      "title": "Abdul El-Sayed’s Race Has Been Defined by Islamophobia. Will It Be Determined by It?",
-      "link": "https://theintercept.com/2026/11/02/michigan-el-sayed-rogers-muslim-islamophobia/",
-      "pubDate": "Mon, 02 Nov 2026 19:35:24 +0000",
+      "title": "French blood storage impacted by freezer hacks as theories swirl about culprits",
+      "link": "https://www.bbc.co.uk/news/articles/c8vgxyvz6y9ro?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Wed, 04 Nov 2026 16:26:15 GMT",
+      "source": "BBC",
+      "summary": "The French Blood Establishment (EFS) said cold rooms storing blood were impacted by hackers."
+    },
+    {
+      "title": "'This is a disaster': Angry Republicans blame Trump for midterms defeat",
+      "link": "https://www.bbc.co.uk/news/articles/c6x29rr8djy3o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Wed, 04 Nov 2026 13:33:30 GMT",
+      "source": "BBC",
+      "summary": "Some Republicans tell the BBC the president's focus on his legacy and indifference to voter concerns cost them."
+    },
+    {
+      "title": "Israel’s President Could Play Key Role in Breaking Post-Election Deadlock",
+      "link": "https://www.nytimes.com/2026/11/04/world/middleeast/israel-president-herzog-election-government.html",
+      "pubDate": "Wed, 04 Nov 2026 13:18:58 +0000",
+      "source": "NYT World",
+      "summary": "President Isaac Herzog has tried to avoid controversy and heal rifts in his largely ceremonial role. But his skills as a savvy mediator could be instrumental after an inconclusive election."
+    },
+    {
+      "title": "Democrats, Don’t Mess This Up",
+      "link": "https://theintercept.com/2026/11/04/midterm-election-results-democrats-blue-wave/",
+      "pubDate": "Wed, 04 Nov 2026 10:05:00 +0000",
       "source": "The Intercept",
-      "summary": "As the Michigan Senate race finishes with a focus on the Democratic primary loser’s gripes over Israel, the party nominee has endured a barrage of anti-Muslim attacks.\nThe post Abdul El-Sayed’s Race Has Been Defined by Islamophobia. Will It Be Determ"
+      "summary": "With these midterm election results, Democrats have a mandate to fight Trump and deliver for the working class. This is what they should do.\nThe post Democrats, Don’t Mess This Up appeared first on The Intercept."
+    },
+    {
+      "title": "Why Doctors in Thailand Fear KFC",
+      "link": "https://www.nytimes.com/2026/11/04/world/asia/thailand-kfc-curse-doctors.html",
+      "pubDate": "Wed, 04 Nov 2026 10:01:48 +0000",
+      "source": "NYT World",
+      "summary": "In a country where superstitions are as imaginative as they are many, physicians have come to fear a jinx involving Kentucky Fried Chicken."
     },
     {
       "title": "Inside the Secretive, Contradictory World of Campaign Ads Funded by AI Super PACs",
@@ -435,6 +435,13 @@
   ],
   "syndication": [
     {
+      "title": "Pluralistic: The AI fatfinger economy has come for my receipts app (04 Nov 2026)",
+      "link": "https://pluralistic.net/2026/11/04/genius-scan-is-neither/",
+      "pubDate": "Wed, 04 Nov 2026 11:45:02 +0000",
+      "author": "Pluralistic",
+      "content": "Today's links The AI fatfinger economy has come for my receipts app: Every heretofore useful button now summons a useless AI genie. Hey look at this: Delights to delectate. Object permanence: Army Times v Rumsfeld; RIAA v soccer mom; Skateboard truck table; Internet scare-story prof won't show her w"
+    },
+    {
       "title": "Pluralistic: Separable (03 Nov 2026)",
       "link": "https://pluralistic.net/2026/11/03/nobody-is-home/",
       "pubDate": "Tue, 03 Nov 2026 14:19:29 +0000",
@@ -470,13 +477,6 @@
       "content": "Today's links Autodoxing: The road to hell is paved with badly thought-through tech policy. Hey look at this: Delights to delectate. Object permanence: Shakespeare programming language; DeCSS is \"pure speech\"; Blue Coat sold surveillance tools to Syrian secret police; \"Extraordinary Catalog of Pecul"
     },
     {
-      "title": "Pluralistic: Formalities (31 Oct 2026)",
-      "link": "https://pluralistic.net/2026/10/31/burn-berne/",
-      "pubDate": "Sat, 31 Oct 2026 15:15:59 +0000",
-      "author": "Pluralistic",
-      "content": "Today's links Formalities: When it comes to AI, the Copyright Office is restoring copyright to its proper status, as something you have to work to get. Hey look at this: Delights to delectate. Object permanence: GWB x martial law; Li'l Sparky; Dueling Starbuckses; Microsoft buys Skype (does fuckery)"
-    },
-    {
       "title": "Friday Squid Blogging: Bigfin Squid Off California Coast",
       "link": "https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-bigfin-squid-off-california-coast.html",
       "pubDate": "2026-10-30T21:04:36.000Z",
@@ -500,52 +500,84 @@
   ],
   "syndicate_journal": [
     {
-      "title": "Plants Experience Optical Illusions, Too",
-      "link": "https://nautil.us/plants-experience-optical-illusions-too-1286328/",
-      "summary": "You don’t need a brain to get fooled\nThe post Plants Experience Optical Illusions, Too appeared first on Nautilus.",
-      "pubDate": "Tue, 03 Nov 2026 23:30:00 +0000",
+      "title": "The Female Iron Age Queen Who Helped Bring Britain to its Knees",
+      "link": "https://nautil.us/the-female-iron-age-queen-who-helped-bring-britain-to-its-knees-1286361/",
+      "summary": "New scholarship reveals an exiled Roman client king was a woman\nThe post The Female Iron Age Queen Who Helped Bring Britain to its Knees appeared first on Nautilus.",
+      "pubDate": "Thu, 05 Nov 2026 00:01:05 +0000",
       "domain": "science",
       "source": "Nautilus"
     },
     {
-      "title": "Why Your Shrink Should Prescribe Exercise",
-      "link": "https://nautil.us/why-your-shrink-should-prescribe-exercise-1286325/",
-      "summary": "A new viewpoint paper argues we’ve been thinking about physical activity the wrong way\nThe post Why Your Shrink Should Prescribe Exercise appeared first on Nautilus.",
-      "pubDate": "Tue, 03 Nov 2026 21:00:00 +0000",
+      "title": "Archaeologists Unravel an 88-Year-Old Murder Mystery",
+      "link": "https://nautil.us/archaeologists-unravel-an-88-year-old-murder-mystery-1286358/",
+      "summary": "The killing of James Leslie Starkey\nThe post Archaeologists Unravel an 88-Year-Old Murder Mystery appeared first on Nautilus.",
+      "pubDate": "Wed, 04 Nov 2026 23:00:00 +0000",
       "domain": "science",
       "source": "Nautilus"
     },
     {
-      "title": "Trumpism Is Running Out of Gas",
-      "link": "https://jacobin.com/2026/11/midterms-defeat-trumpism-maga-populism",
-      "summary": "I have no special insight into what the exact outcome of this yearʼs midterm elections is going to be. It would be absolutely astonishing if Democrats failed to take the House, and the  NY/Sienna poll has the Democrats leading in all seven of the races that will determine control of the Senate. This",
-      "pubDate": "2026-11-03T19:41:55.323Z",
+      "title": "In Last Night’s Midterms, the Left Proved It Can Win",
+      "link": "https://jacobin.com/2026/11/midterms-socialists-democrats-el-sayed",
+      "summary": "The Left has been so conditioned in the Trump era to look aghast and horrified at election results that it is still hard to fully believe the outcome today. Yet the historic events of last night really did happen: Donald Trump and Republicans suffered a historic rebuke from voters, handing Democrats",
+      "pubDate": "2026-11-04T21:57:37.020Z",
       "domain": "politics",
       "source": "Jacobin"
     },
     {
-      "title": "Could One Brain Region Be Tied to Feeling Sick All Over?",
-      "link": "https://nautil.us/could-one-brain-region-be-tied-to-feeling-sick-all-over-1286308/",
-      "summary": "When you break your foot, the pain is mostly confined to your foot. When you get the flu or another systemic infection, your entire being aches: Lethargy creeps into your limbs, your appetite vanishes, your temperature jags between scorching and chilled to the bone, and you just want to pull the cov",
-      "pubDate": "Tue, 03 Nov 2026 19:00:00 +0000",
+      "title": "What Happened When Neuroscientists Started a Mouse Fight Club",
+      "link": "https://nautil.us/what-happened-when-neuroscientists-started-a-mouse-fight-club-1286353/",
+      "summary": "Their brain activity shifted\nThe post What Happened When Neuroscientists Started a Mouse Fight Club appeared first on Nautilus.",
+      "pubDate": "Wed, 04 Nov 2026 21:00:00 +0000",
       "domain": "science",
       "source": "Nautilus"
     },
     {
-      "title": "A Fight for Workers’ Rights Turned the Tide in Brazil",
-      "link": "https://jacobin.com/2026/11/brazil-hilton-lula-workweek-campaign",
-      "summary": "As Brazilian President Luiz Inácio Lula da Silva celebrated his historic victory over far-right candidate Flávio Bolsonaro on Sunday, he  trans congresswoman Erika Hilton and kissed her on the cheek in celebration. The video circulated on social media, with many users pointing to it as evidence of B",
-      "pubDate": "2026-11-03T17:42:58.271Z",
+      "title": "The 1956 Hungarian Uprising Was a Working-Class Revolt",
+      "link": "https://jacobin.com/2026/11/hungary-ussr-1956-workers-uprising",
+      "summary": "On October 23, 1956, tens of thousands of Hungarians took to the streets of Budapest. What began as a demonstration led largely by students rapidly became a popular uprising against the country’s Stalinist government.\nWithin days, the authority of the Hungarian Communist Party had crumbled, Soviet t",
+      "pubDate": "2026-11-04T17:14:07.722Z",
       "domain": "politics",
       "source": "Jacobin"
     },
     {
-      "title": "Another Detroit Socialist Is Heading to Congress",
-      "link": "https://jacobin.com/2026/11/mckinney-detroit-democratic-socialism-congress",
-      "summary": "In 2018, the election of two democratic socialists to the House of Representatives marked the beginning of a new political era. The socialist freshmen, both endorsed by the recently reinvigorated Democratic Socialists of America (DSA), were Alexandria Ocasio-Cortez from New York City and Rashida Tla",
-      "pubDate": "2026-11-03T17:10:16.315Z",
+      "title": "We Need a Socialist Congressional Caucus",
+      "link": "https://jacobin.com/2026/11/democratic-party-congress-socialist-caucus-dsa",
+      "summary": "With last night’s , it’s official: after new members are sworn in this coming January, socialists will hold more seats in Congress than they ever have in US history.election results\nSix freshmen congress members backed by the Democratic Socialists of America (DSA) — Claire Valdez and Darializa Avila",
+      "pubDate": "2026-11-04T15:42:10.189Z",
       "domain": "politics",
       "source": "Jacobin"
+    },
+    {
+      "title": "New Research Tests Whether AI Models Know Their Own Thoughts",
+      "link": "https://www.quantamagazine.org/new-research-tests-whether-ai-models-know-their-own-thoughts-20261104/",
+      "summary": "By injecting “thoughts” directly into large language models, researchers are trying to map out AI’s capacity for introspection.            \nThe post New Research Tests Whether AI Models Know Their Own Thoughts first appeared on Quanta Magazine",
+      "pubDate": "Wed, 04 Nov 2026 15:32:52 +0000",
+      "domain": "science",
+      "source": "Quanta"
+    },
+    {
+      "title": "Slavdom Unearthed: Marian Wawrzeniecki’s Neopagan Paintings (1891–1923)\n",
+      "link": "https://publicdomainreview.org/collection/marian-wawrzeniecki",
+      "summary": "A neopagan visual archive meant to rival the iconic power of the Christian West.",
+      "pubDate": "Wed, 04 Nov 2026 14:59:00 GMT",
+      "domain": "history",
+      "source": "Public Domain Review"
+    },
+    {
+      "title": "How the Phone Book Taught America to Ask for Answers",
+      "link": "https://daily.jstor.org/how-the-phone-book-taught-america-to-ask-for-answers/",
+      "summary": "A collection of Texas directories from 1913 to 1959 shows how phone books—and the people who used them—helped invent “information” as we know it.\nThe post How the Phone Book Taught America to Ask for Answers appeared first on JSTOR Daily.",
+      "pubDate": "Wed, 04 Nov 2026 14:44:00 +0000",
+      "domain": "history",
+      "source": "JSTOR Daily"
+    },
+    {
+      "title": "Like aliens",
+      "link": "https://aeon.co/videos/in-tiny-biospheres-an-artist-reflects-the-fragility-of-our-own",
+      "summary": "Like living metaphors, these self-contained miniature worlds show us the wondrous and fragile beauty of our biosphere\n- by Aeon Video\nWatch on Aeon",
+      "pubDate": "Wed, 04 Nov 2026 11:01:00 GMT",
+      "domain": "philosophy",
+      "source": "Aeon"
     },
     {
       "title": "Why We Cringe",
@@ -588,44 +620,12 @@
       "source": "Aeon"
     },
     {
-      "title": "The self-making world",
-      "link": "https://aeon.co/essays/the-self-making-world-of-jean-baptiste-lamarck",
-      "summary": "Long mocked and misunderstood, Lamarck’s radical idea that organisms shape themselves and their world is making a comeback\n- by Jessica Riskin\nRead on Aeon",
-      "pubDate": "Mon, 02 Nov 2026 11:00:00 GMT",
-      "domain": "philosophy",
-      "source": "Aeon"
-    },
-    {
       "title": "\"Pronunciation respelling\"",
       "link": "https://languagelog.ldc.upenn.edu/nll/?p=74500&utm_source=rss&utm_medium=rss&utm_campaign=pronunciation-respelling",
       "summary": "In a comment on yesterday's post ktschwarz informed us that \"Pronunciation respelling\" is Wikipedia's name for things like \"KUV-uh-nuhnt\"; I don't know if it's used more widely. I've somehow managed to fail to learn that term, though of course I was familiar with the practice, which is why I invente",
       "pubDate": "Mon, 02 Nov 2026 10:38:40 +0000",
       "domain": "linguistics",
       "source": "Language Log"
-    },
-    {
-      "title": "More Rules, Longer Lists? Benchmarking Self-Evolving Agents on a Hidden-Rule Curriculum",
-      "link": "https://arxiv.org/abs/2610.40758",
-      "summary": "arXiv:2610.40758v1 Announce Type: new \nAbstract: Self-evolving agents rewrite a persistent state from feedback, but it is largely untested whether this lets them learn a rule nobody told them. An agent can also pass by writing down each correction as an exception, and its list then grows with every ",
-      "pubDate": "Mon, 02 Nov 2026 00:00:00 -0500",
-      "domain": "science",
-      "source": "arXiv: cs.AI"
-    },
-    {
-      "title": "Beyond Plausible Prediction: Safety Sufficiency in Web World Models",
-      "link": "https://arxiv.org/abs/2610.40798",
-      "summary": "arXiv:2610.40798v1 Announce Type: new \nAbstract: Web world models increasingly predict the consequences of candidate actions before agents act, yet a plausible predicted future does not necessarily support the correct safety decision. In a matched human evaluation of 3,000 predictions from ten froze",
-      "pubDate": "Mon, 02 Nov 2026 00:00:00 -0500",
-      "domain": "science",
-      "source": "arXiv: cs.AI"
-    },
-    {
-      "title": "Circumventing the Computational Hardness of Computational Arbitrage",
-      "link": "https://arxiv.org/abs/2610.40831",
-      "summary": "arXiv:2610.40831v1 Announce Type: new \nAbstract: AI model marketplaces host providers with heterogeneous costs and capabilities. These differences create an opportunity for computational arbitrage (Olmedo et al., 2026), in which an intermediary purchases inference from a portfolio of models and rese",
-      "pubDate": "Mon, 02 Nov 2026 00:00:00 -0500",
-      "domain": "science",
-      "source": "arXiv: cs.AI"
     },
     {
       "title": "Ask LLOG: Covenant?",
@@ -640,22 +640,6 @@
       "link": "https://www.quantamagazine.org/a-new-map-of-empty-space-challenges-a-tranquil-picture-of-the-galaxy-20261030/",
       "summary": "For decades, astronomers treated the interstellar medium as a static backdrop to the goings-on of the universe. Now, a wave of 3D mapping is bringing the interstellar medium’s dynamic nature into focus.            \nThe post A New Map of ‘Empty’ Space Challenges a Tranquil Picture of the Galaxy first",
       "pubDate": "Fri, 30 Oct 2026 14:52:05 +0000",
-      "domain": "science",
-      "source": "Quanta"
-    },
-    {
-      "title": "The Rise and Fall of Shanghai’s “Sing-Song Girls”",
-      "link": "https://daily.jstor.org/the-rise-and-fall-of-shanghais-sing-song-girls/",
-      "summary": "How did celebrated entertainers become associated with a profession increasingly defined by exploitation?\nThe post The Rise and Fall of Shanghai’s “Sing-Song Girls” appeared first on JSTOR Daily.",
-      "pubDate": "Fri, 30 Oct 2026 13:47:05 +0000",
-      "domain": "history",
-      "source": "JSTOR Daily"
-    },
-    {
-      "title": "How Do You Take a Picture of a Black Hole?",
-      "link": "https://www.quantamagazine.org/how-do-you-take-a-picture-of-a-black-hole-20261029/",
-      "summary": "Astrophysicist Shep Doeleman explains how capturing the first image of a black hole required a telescope the size of the world, and why the next goal is to create a movie.            \nThe post How Do You Take a Picture of a Black Hole? first appeared on Quanta Magazine",
-      "pubDate": "Thu, 29 Oct 2026 15:11:57 +0000",
       "domain": "science",
       "source": "Quanta"
     },
@@ -682,14 +666,6 @@
       "pubDate": "Fri, 23 Oct 2026 12:37:02 +0000",
       "domain": "linguistics",
       "source": "Language Log"
-    },
-    {
-      "title": "“Earth Not a Globe”: Parallax’s Zetetic Astronomy (1865)\n",
-      "link": "https://publicdomainreview.org/collection/zetetic-astronomy",
-      "summary": "A book more or less responsible for the revival of Flat Earth theories in the modern period.",
-      "pubDate": "Thu, 22 Oct 2026 11:12:00 GMT",
-      "domain": "history",
-      "source": "Public Domain Review"
     },
     {
       "title": "View the I-Frame vs. S-Frame Roundtable Discussion",
@@ -740,25 +716,25 @@
       "source": "Sapiens"
     },
     {
-      "title": "Negotiating epistemic authority in AI-assisted lesson planning: a multiple-case study of preservice mathematics teachers",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.2015390",
-      "summary": "IntroductionGenerative artificial intelligence (GenAI) can provide preservice teachers with a complete lesson plan before they have articulated the reasoning the plan is intended to develop, creating conditions for automation bias and cognitive offloading. This multiple-case study examined how five ",
+      "title": "Reconceptualizing reading practices among pre-service teachers: a structural model of organisation, motivation, and reading intensity",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1937669",
+      "summary": "BackgroundSustained reading is central to academic learning and professional growth in teacher education, yet studies increasingly describe university students’ reading as digitally oriented, fragmented, and requirement-driven. Most research examines behavioural, motivational, or organisational aspe",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "Ethnic traditional sports participation, cultural identity, and psychological wellbeing among Chinese minority adolescents: a moderated mediation model",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1969248",
-      "summary": "Ethnic traditional sports constitute a distinctive vehicle for cultural transmission and physical activity among ethnic minority youth, yet their psychological correlates remain underexplored. This study examined whether cultural identity statistically mediates the relationship between ethnic tradit",
+      "title": "Fairness, health, and socioeconomic status as predictors of subjective wellbeing among Chinese women: an interpretable machine learning approach",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.2009912",
+      "summary": "BackgroundSubjective wellbeing (SWB) is an important indicator of women’s quality of life and social development. Identifying key predictors of women’s SWB is important for understanding their living conditions and informing policy-oriented research. Previous studies have often relied on traditional",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "Editorial: Physical education, health and education innovation, volume III",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.2012973",
-      "summary": "",
+      "title": "Body image disturbance and post-traumatic growth among patients with an intestinal stoma: a sequential mixed-methods study",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1819838",
+      "summary": "BackgroundIntestinal stoma surgery is widely performed to restore bowel function in patients with severe intestinal diseases. However, the creation of a stoma often results in substantial changes in body image and may challenge patients’ self-identity, psychological wellbeing, and adaptation to dail",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
@@ -766,64 +742,64 @@
   ],
   "misinfo_toilet": [
     {
-      "headline": "Ballot scanner glitch disrupts voting in New York",
+      "headline": "Ukraine says bodycam video shows deadly Russian double-tap bombing",
       "fragment": "Underneath all reason lies delirium and drift.",
-      "splice": "Ballot scanner glitch disrupts voting in New York underneath underneath all reason lies delirium and drift.",
-      "seed": 20261105
-    },
-    {
-      "headline": "NTSB says crucial plane parts found three miles from Florida crash site",
-      "fragment": "Traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "splice": "NTSB says crucial plane parts found three miles from Florida crash site the system notes that traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
+      "splice": "Ukraine says bodycam video shows deadly Russian double-tap bombing underneath underneath all reason lies delirium and drift.",
       "seed": 20261106
     },
     {
-      "headline": "Trump Scrambles to Halt Military Aid to Israel to Deprive El-Sayed of a Talking Point",
-      "fragment": "We live in a world where there is more and more information, and less and less meaning.",
-      "splice": "Trump Scrambles to Halt Military Aid to Israel to Deprive El-Sayed of a Talking Point ...as we live in a world where there is more and more information, and less and less meaning.",
+      "headline": "Iran war live: Trump says war caused election wipeout but he ‘had to do it’",
+      "fragment": "Traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
+      "splice": "Iran war live: Trump says war caused election wipeout but he ‘had to do it’ the system notes that traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
       "seed": 20261107
     },
     {
-      "headline": "Abdul El-Sayed’s Race Has Been Defined by Islamophobia. Will It Be Determined by It?",
-      "fragment": "This is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
-      "splice": "Abdul El-Sayed’s Race Has Been Defined by Islamophobia. Will It Be Determined by It? the system notes that this is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
+      "headline": "US midterm results a 'victory' for Canadians hopeful of tariff relief",
+      "fragment": "We live in a world where there is more and more information, and less and less meaning.",
+      "splice": "US midterm results a 'victory' for Canadians hopeful of tariff relief ...as we live in a world where there is more and more information, and less and less meaning.",
       "seed": 20261108
     },
     {
-      "headline": "Polls Close in Maine as Democrats Make Final Push to Oust Sen. Susan Collins",
-      "fragment": "Simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
-      "splice": "Polls Close in Maine as Democrats Make Final Push to Oust Sen. Susan Collins the system notes that simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
+      "headline": "Why Doctors in Thailand Fear KFC",
+      "fragment": "This is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
+      "splice": "Why Doctors in Thailand Fear KFC the system notes that this is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
       "seed": 20261109
     },
     {
-      "headline": "Poland Beefs Up Security at Border With Russia",
+      "headline": "For Israelis, U.S. Midterms Show How Far Their Star Has Fallen in America",
       "fragment": "Simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
-      "splice": "Poland Beefs Up Security at Border With Russia consequently simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
+      "splice": "For Israelis, U.S. Midterms Show How Far Their Star Has Fallen in America the system notes that simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
       "seed": 20261110
     },
     {
-      "headline": "West Bank Property Sales Tactics Face a Challenge in Canada",
-      "fragment": "Reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
-      "splice": "West Bank Property Sales Tactics Face a Challenge in Canada not unlike reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
+      "headline": "Lesson From Lansing: To Win in Swing Districts, Fight Data Centers",
+      "fragment": "Simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
+      "splice": "Lesson From Lansing: To Win in Swing Districts, Fight Data Centers consequently simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
       "seed": 20261111
+    },
+    {
+      "headline": "The Progressive Agenda: End Iran War, Rein in AI, Get Dems to Actually Do Something",
+      "fragment": "Reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
+      "splice": "The Progressive Agenda: End Iran War, Rein in AI, Get Dems to Actually Do Something not unlike reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
+      "seed": 20261112
     },
     {
       "headline": "Satellite Images Show Extent of Trump Admin’s Tree-Felling at DC Golf Course",
       "fragment": "Everywhere it is machines—real ones, not figurative ones: machines driving other machines, machines being driven by other machines, with all the necessary couplings and connections.",
       "splice": "Satellite Images Show Extent of Trump Admin’s Tree-Felling at DC Golf Course insofar as everywhere it is machines—real ones, not figurative ones: machines driving other machines, machines being driven by other machines, with all the necessary couplings and connections.",
-      "seed": 20261112
-    },
-    {
-      "headline": "FBI arrests man for sending over 700 threatening letters to US officials",
-      "fragment": "The privatization of the organs will only begin with the shame felt by man at the sight of man.",
-      "splice": "FBI arrests man for sending over 700 threatening letters to US officials because the privatization of the organs will only begin with the shame felt by man at the sight of man.",
       "seed": 20261113
     },
     {
-      "headline": "Seven flights across Europe targeted by suspected bomb threats",
-      "fragment": "The technocrat is the natural friend of the dictator—computers and dictatorship.",
-      "splice": "Seven flights across Europe targeted by suspected bomb threats the system notes that the technocrat is the natural friend of the dictator—computers and dictatorship.",
+      "headline": "Africa’s richest man launches mega oil tank farm in Namibia",
+      "fragment": "The privatization of the organs will only begin with the shame felt by man at the sight of man.",
+      "splice": "Africa’s richest man launches mega oil tank farm in Namibia because the privatization of the organs will only begin with the shame felt by man at the sight of man.",
       "seed": 20261114
+    },
+    {
+      "headline": "Haley Stevens Destroyed Her Political Career for Absolutely Nothing",
+      "fragment": "The technocrat is the natural friend of the dictator—computers and dictatorship.",
+      "splice": "Haley Stevens Destroyed Her Political Career for Absolutely Nothing the system notes that the technocrat is the natural friend of the dictator—computers and dictatorship.",
+      "seed": 20261115
     }
   ]
 }
