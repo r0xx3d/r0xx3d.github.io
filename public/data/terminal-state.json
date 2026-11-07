@@ -1,7 +1,23 @@
 {
-  "generated_at": "2026-11-06T19:02:52.721Z",
+  "generated_at": "2026-11-07T00:41:43.003Z",
   "threat_intel": {
     "cisa_kev": [
+      {
+        "cveID": "CVE-2026-19868",
+        "vendorProject": "SonicWall",
+        "product": "SonicOS SSLVPN",
+        "vulnerabilityName": "SonicWall SonicOS SSLVPN Use of Single-factor Authentication Vulnerability",
+        "dateAdded": "2026-11-06",
+        "shortDescription": "SonicWall SonicOS SSLVPN contains a use of single-factor authentication vulnerability that may allow a user with valid credentials for an alternate authentication method to bypass SAML authentication controls. Successful exploitation may also bypass SAML-enforced multi-factor authentication (MFA).",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-11-20",
+        "knownRansomwareCampaignUse": "Unknown",
+        "forensicTriage": "No",
+        "notes": "https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2026-0014 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-19868",
+        "cwes": [
+          "CWE-308"
+        ]
+      },
       {
         "cveID": "CVE-2024-27834",
         "vendorProject": "Apple",
@@ -236,75 +252,87 @@
         "cwes": [
           "CWE-78"
         ]
-      },
-      {
-        "cveID": "CVE-2026-106931",
-        "vendorProject": "EG Secure Solutions",
-        "product": "SiteGuard Server Edition",
-        "vulnerabilityName": "EG Secure Solutions SiteGuard Server Edition OS Command Injection Vulnerability",
-        "dateAdded": "2026-10-20",
-        "shortDescription": "EG Secure Solutions SiteGuard Server Edition contains an OS command injection vulnerability which may allow an attacker to execute arbitrary OS commands with root or SYSTEM privileges on the system running the affected product.",
-        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "dueDate": "2026-10-23",
-        "knownRansomwareCampaignUse": "Unknown",
-        "forensicTriage": "Yes",
-        "notes": "https://www.eg-secure.co.jp/siteguard/news/alert-202610-1 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-106931",
-        "cwes": [
-          "CWE-78"
-        ]
       }
     ],
     "urlhaus": []
   },
   "world_monitor": [
     {
-      "title": "Goats on weed-clearing duty become unlikely Tokyo celebrities",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/6/6-11-sv-tokyo-goats-weed-clearing?traffic_source=rss",
-      "pubDate": "Fri, 06 Nov 2026 18:45:00 +0000",
+      "title": "Paraguay’s Santiago Pena under arrest, new president Pedro Alliana sworn in",
+      "link": "https://www.aljazeera.com/news/2026/11/7/paraguays-santiago-pena-under-arrest-new-president-pedro-alliana-sworn-in?traffic_source=rss",
+      "pubDate": "Sat, 07 Nov 2026 00:31:41 +0000",
       "source": "Al Jazeera",
-      "summary": "Two goats deployed to clear overgrown grass near a Tokyo railway station have become social media stars."
+      "summary": "The sudden leadership change comes as Paraguay reels from the collapse of the Ueno Bank, a popular lender."
     },
     {
-      "title": "‘Message to the West’ bomb threats target European newsrooms, travel",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/6/message-to-the-west-bomb-threats-target-european-newsrooms-travel?traffic_source=rss",
-      "pubDate": "Fri, 06 Nov 2026 18:38:44 +0000",
+      "title": "MTG warns Miller-Wiles shakeup will sink Republican chances in 2028",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/7/aje-onl-nf_mtg-warns-white-house-shakeup-sink-republican-2028-061126?traffic_source=rss",
+      "pubDate": "Sat, 07 Nov 2026 00:21:49 +0000",
       "source": "Al Jazeera",
-      "summary": "Newsrooms in Ireland and Bulgaria received bomb threats from someone identifying themself as ‘Mikhail Andropov’."
+      "summary": "Marjorie Taylor Greene says Trump's White House personnel shuffle will sink the party’s next presidential campaign."
+    },
+    {
+      "title": "Iran war live: Qatar says US, Iran should not wait to reach a peace deal",
+      "link": "https://www.aljazeera.com/news/liveblog/2026/11/7/iran-war-live-qatar-says-us-iran-should-not-wait-to-reach-a-peace-deal?traffic_source=rss",
+      "pubDate": "Sat, 07 Nov 2026 00:00:00 +0000",
+      "source": "Al Jazeera",
+      "summary": "Qatar's prime minister urges the US and Iran not to wait for a 'perfect moment' to reach a deal to end the war."
+    },
+    {
+      "title": "New Zealanders head to polls on final day of voting",
+      "link": "https://www.aljazeera.com/news/2026/11/6/new-zealanders-head-to-polls-on-final-day-of-voting?traffic_source=rss",
+      "pubDate": "Fri, 06 Nov 2026 23:48:01 +0000",
+      "source": "Al Jazeera",
+      "summary": "More than half of New Zealand’s voters cast early ballots in the tightly contested race."
+    },
+    {
+      "title": "EU tells TikTok to fix ‘harmful’ For You feed, threatens fines",
+      "link": "https://www.aljazeera.com/news/2026/11/6/eu-tells-tiktok-to-fix-harmful-for-you-feed-threatens-fines?traffic_source=rss",
+      "pubDate": "Fri, 06 Nov 2026 23:33:28 +0000",
+      "source": "Al Jazeera",
+      "summary": "TikTok's algorithm 'leading users down rabbit holes they cannot easily escape from', European Commission says."
+    },
+    {
+      "title": "Will New Zealand Join Voters’ Global Revolt Over Soaring Costs?",
+      "link": "https://www.nytimes.com/2026/11/06/world/asia/new-zealand-election-vote.html",
+      "pubDate": "Fri, 06 Nov 2026 23:05:42 +0000",
+      "source": "NYT World",
+      "summary": "In the lead-up to an election in which economic concerns dominate, there was no clear front-runner. Minor parties will most likely determine who governs."
     },
     {
       "title": "After Israel’s Election, Who Will Get the First Chance to Form a Government?",
       "link": "https://www.nytimes.com/2026/11/06/world/middleeast/israel-election-government-herzog.html",
-      "pubDate": "Fri, 06 Nov 2026 18:36:57 +0000",
+      "pubDate": "Fri, 06 Nov 2026 22:36:15 +0000",
       "source": "NYT World",
       "summary": "President Isaac Herzog is set to task a candidate with trying to form a government, following two days of talks with party leaders and officials after an inconclusive election."
     },
     {
-      "title": "Russia’s land gains in Ukraine dwindle as its diesel reportedly goes unsold",
-      "link": "https://www.aljazeera.com/news/2026/11/6/in-ukraine-russias-territorial-gains-dwindle-as-its-diesel-goes-unsold?traffic_source=rss",
-      "pubDate": "Fri, 06 Nov 2026 18:23:11 +0000",
-      "source": "Al Jazeera",
-      "summary": "Moscow is suffering losses on the battlefield as US traders reportedly refuse to honour Trump's diesel deal with Putin."
+      "title": "Republicans Are Desperate to Pretend They Never Supported the War With Iran",
+      "link": "https://theintercept.com/2026/11/06/jd-vance-midterms-republicans-iran-war/",
+      "pubDate": "Fri, 06 Nov 2026 21:24:17 +0000",
+      "source": "The Intercept",
+      "summary": "Only in defeat are Republicans eager to distance themselves from the war with Iran they used to champion.\nThe post Republicans Are Desperate to Pretend They Never Supported the War With Iran appeared first on The Intercept."
     },
     {
-      "title": "Israeli settlers seize Palestinian homes in Jericho, displacing dozens",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/6/israeli-settlers-seize-palestinian-homes-in-jericho-displacing-dozens?traffic_source=rss",
-      "pubDate": "Fri, 06 Nov 2026 18:17:39 +0000",
-      "source": "Al Jazeera",
-      "summary": "Israeli settlers have forced dozens of Palestinians from their homes in Jericho after seizing eight properties."
+      "title": "AI stocks climb after trillions wiped from market values",
+      "link": "https://www.bbc.co.uk/news/articles/c35ynnpzdq51o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Fri, 06 Nov 2026 21:06:25 GMT",
+      "source": "BBC",
+      "summary": "Investors had been selling off tech shares in part due to concerns the Democrat election victory would mean slower AI development."
     },
     {
-      "title": "Yemeni gov’t forces, Houthis trade blame for deadly strikes on Taiz market",
-      "link": "https://www.aljazeera.com/news/2026/11/6/yemeni-govt-forces-houthis-trade-blame-for-deadly-strikes-on-taiz-market?traffic_source=rss",
-      "pubDate": "Fri, 06 Nov 2026 18:09:49 +0000",
-      "source": "Al Jazeera",
-      "summary": "The attack on al-Hadara market in Taiz governorate's al-Waziiya district killed at least 30 people, Houthi rebels say."
+      "title": "Pentagon Officials Float Names of Hegseth’s Replacement",
+      "link": "https://theintercept.com/2026/11/06/pentagon-hegseth-replacement-desantis-waltz/",
+      "pubDate": "Fri, 06 Nov 2026 19:57:03 +0000",
+      "source": "The Intercept",
+      "summary": "As Pete Hegseth fights for his job after the midterm Republican wipeout, Ron DeSantis and Mike Waltz are just some of the names being mentioned.\nThe post Pentagon Officials Float Names of Hegseth’s Replacement appeared first on The Intercept."
     },
     {
-      "title": "Bomb Threats in Europe Probably a Coordinated Campaign, Ireland Says",
-      "link": "https://www.nytimes.com/2026/11/06/world/europe/bomb-threats-flights-campaign-ireland.html",
-      "pubDate": "Fri, 06 Nov 2026 17:16:56 +0000",
+      "title": "12 Planes in 12 Days: Pope Begins Major Latin America Tour, Weeks After Surgery",
+      "link": "https://www.nytimes.com/2026/11/06/world/europe/pope-leo-visit-uruguay-argentina-peru.html",
+      "pubDate": "Fri, 06 Nov 2026 19:24:08 +0000",
       "source": "NYT World",
-      "summary": "Multiple flights in Europe were disrupted and several newsrooms in Ireland were evacuated after false bomb threats, the latest of a series of security incidents."
+      "summary": "Pope Leo XIV’s tour of Uruguay, Argentina and Peru is his first major trip since an operation on his lung last month."
     },
     {
       "title": "Is There a Left Candidate for President?",
@@ -312,13 +340,6 @@
       "pubDate": "Fri, 06 Nov 2026 17:06:47 +0000",
       "source": "The Intercept",
       "summary": "“All I know is that the populist lane is wide open for someone to seize it.”\nThe post Is There a Left Candidate for President? appeared first on The Intercept."
-    },
-    {
-      "title": "AI stocks climb after trillions wiped from market values",
-      "link": "https://www.bbc.co.uk/news/articles/c35ynnpzdq51o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Fri, 06 Nov 2026 17:03:02 GMT",
-      "source": "BBC",
-      "summary": "Investors had been selling off tech shares in part due to concerns the Democrat election victory would mean slower AI development."
     },
     {
       "title": "Saudi-Led Forces Bombed Yemeni Home, Killing Nine Family Members, Relatives Say",
@@ -356,13 +377,6 @@
       "summary": "Paul Mackenzie ordered his followers to starve their children to death in a forest so they could \"meet Jesus\"."
     },
     {
-      "title": "12 Planes in 12 Days: Pope Begins Major Latin America Tour, Weeks After Surgery",
-      "link": "https://www.nytimes.com/2026/11/06/world/europe/pope-leo-visit-uruguay-argentina-peru.html",
-      "pubDate": "Fri, 06 Nov 2026 14:35:42 +0000",
-      "source": "NYT World",
-      "summary": "Pope Leo XIV’s tour of Uruguay, Argentina and Peru is his first major trip since an operation on his lung last month."
-    },
-    {
       "title": "Defeating Zionism to Free Palestine",
       "link": "https://theintercept.com/2026/11/06/defeating-zionism-to-free-palestine/",
       "pubDate": "Fri, 06 Nov 2026 11:00:00 +0000",
@@ -382,20 +396,6 @@
       "pubDate": "Thu, 05 Nov 2026 21:28:20 +0000",
       "source": "The Intercept",
       "summary": "The new senator from Michigan will face an uphill battle if he wants to transform the U.S. relationship with Israel. But he has options — and public pressure.\nThe post Abdul El-Sayed Won His Senate Seat With a Mandate on Palestine. Can He Deliver? ap"
-    },
-    {
-      "title": "“Dead Man Walking”: Officials Say Hegseth Has to Go",
-      "link": "https://theintercept.com/2026/11/05/midterms-hegseth-impeach-pressure-massie-military/",
-      "pubDate": "Thu, 05 Nov 2026 18:55:59 +0000",
-      "source": "The Intercept",
-      "summary": "Following the landslide Democratic midterms victory, War Secretary Pete Hegseth finds himself on the brink of bipartisan impeachment.\nThe post “Dead Man Walking”: Officials Say Hegseth Has to Go appeared first on The Intercept."
-    },
-    {
-      "title": "Blue Tsunami’s Clearest Takeaway: People Hate Data Centers",
-      "link": "https://theintercept.com/2026/11/05/midterm-elections-ai-data-centers-voters/",
-      "pubDate": "Thu, 05 Nov 2026 16:14:15 +0000",
-      "source": "The Intercept",
-      "summary": "Voters fought back against tech oligarchs by supporting candidates and ballot measures that would block water-sucking, heat-spewing data centers.\nThe post Blue Tsunami’s Clearest Takeaway: People Hate Data Centers appeared first on The Intercept."
     },
     {
       "title": "How Online Maps Lay Bare the US Military Bases Targeted by Iran",
@@ -434,6 +434,13 @@
     }
   ],
   "syndication": [
+    {
+      "title": "Friday Squid Blogging: New Jurassic Squid Predecessors",
+      "link": "https://www.schneier.com/blog/archives/2026/11/friday-squid-blogging-new-jurassic-squid-predecessors.html",
+      "pubDate": "2026-11-06T22:05:12.000Z",
+      "author": "Schneier on Security",
+      "content": "News story: “Scientists discover a bizarre Jurassic ‘squid’ unlike anything ever seen.”\nScientists have identified the “fattest” belemnite ever discovered, a bizarre, barrel-shaped squid relative that lived in Wyoming’s ancient seas 160 million years ago. The exceptionally rare fossils reveal a crea"
+    },
     {
       "title": "Pinpointing Location of Videos from Background Airplane Sounds",
       "link": "https://www.schneier.com/blog/archives/2026/11/pinpointing-location-of-videos-from-background-airplane-sounds.html",
@@ -484,13 +491,6 @@
       "content": "Google said today it worked with industry partners to dismantle a botnet made up of more than 1.3 million Android TV set-top boxes that ship with malicious software which secretly rents the user's Internet connection out to strangers and conducts advertising fraud. Experts involved in the takedown s"
     },
     {
-      "title": "AI Vulnerability Finding",
-      "link": "https://www.schneier.com/blog/archives/2026/11/ai-vulnerability-finding-2.html",
-      "pubDate": "2026-11-02T12:02:34.000Z",
-      "author": "Schneier on Security",
-      "content": "A comment:\n3% of ‘critical’ software security bugs, in all of recorded history, have been found in the last month. This is on pace to find another ~100,000 bugs this year alone, adding ~26% more vulnerabilities to the all time total Do you realize how fucking insane that is?\n\nYes. It is a new world "
-    },
-    {
       "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
       "link": "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/",
       "pubDate": "Wed, 21 Oct 2026 15:26:07 +0000",
@@ -499,6 +499,30 @@
     }
   ],
   "syndicate_journal": [
+    {
+      "title": "Could a Fiber Supplement Help Chronic Knee Pain?",
+      "link": "https://nautil.us/could-a-fiber-supplement-help-chronic-knee-pain-1286434/",
+      "summary": "Another investigation into the mysterious microbiome\nThe post Could a Fiber Supplement Help Chronic Knee Pain? appeared first on Nautilus.",
+      "pubDate": "Fri, 06 Nov 2026 22:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "We Attribute Personalities to Chatbots, Even When We Know Better",
+      "link": "https://nautil.us/we-attribute-personalities-to-chatbots-even-when-we-know-better-1286429/",
+      "summary": "We can spot the bot, but we treat it like a person anyway\nThe post We Attribute Personalities to Chatbots, Even When We Know Better appeared first on Nautilus.",
+      "pubDate": "Fri, 06 Nov 2026 21:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "“Astonishing” Find: Fossilized Dinosaur Blood in a 115-Million-Year-Old Specimen",
+      "link": "https://nautil.us/astonishing-find-fossilized-dinosaur-blood-in-a-115-million-year-old-specimen-1286412/",
+      "summary": "Molecular paleontology keeps getting better\nThe post “Astonishing” Find: Fossilized Dinosaur Blood in a 115-Million-Year-Old Specimen appeared first on Nautilus.",
+      "pubDate": "Fri, 06 Nov 2026 19:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
     {
       "title": "Israel’s Shaky Democracy Continues to Crumble",
       "link": "https://jacobin.com/2026/11/israel-democracy-palestinians-apartheid-netanyahu",
@@ -514,14 +538,6 @@
       "pubDate": "2026-11-06T17:00:08.969Z",
       "domain": "politics",
       "source": "Jacobin"
-    },
-    {
-      "title": "A Neuropsychologist Explains the Importance of Exercise in Fighting Dementia",
-      "link": "https://nautil.us/a-neuropsychologist-explains-the-importance-of-exercise-in-fighting-dementia-1286369/",
-      "summary": "Adopting certain lifestyle habits, including physical exercise, could significantly reduce the risk of developing Alzheimer’s disease and other forms of dementia\nThe post A Neuropsychologist Explains the Importance of Exercise in Fighting Dementia appeared first on Nautilus.",
-      "pubDate": "Fri, 06 Nov 2026 17:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
     },
     {
       "title": "Equality Is About Who Rules",
@@ -540,28 +556,12 @@
       "source": "Quanta"
     },
     {
-      "title": "How an Octopus Can Squeeze into a Beer Can",
-      "link": "https://nautil.us/how-an-octopus-can-squeeze-into-a-beer-can-1286397/",
-      "summary": "Or not, depending on the species\nThe post How an Octopus Can Squeeze into a Beer Can appeared first on Nautilus.",
-      "pubDate": "Fri, 06 Nov 2026 15:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
       "title": "How to Cite Sources on JSTOR",
       "link": "https://daily.jstor.org/how-to-cite-sources-on-jstor/",
       "summary": "Not sure how to format your references? Learn how to use JSTOR’s citation tool and avoid common mistakes.\nThe post How to Cite Sources on JSTOR appeared first on JSTOR Daily.",
       "pubDate": "Fri, 06 Nov 2026 14:44:00 +0000",
       "domain": "history",
       "source": "JSTOR Daily"
-    },
-    {
-      "title": "Inside King Tutankhamun’s Tomb, 104 Years After Its Discovery",
-      "link": "https://nautil.us/inside-king-tutankhamuns-tomb-104-years-after-its-discovery-1286390/",
-      "summary": "An unprecedented find in the Valley of Kings\nThe post Inside King Tutankhamun’s Tomb, 104 Years After Its Discovery appeared first on Nautilus.",
-      "pubDate": "Fri, 06 Nov 2026 13:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
     },
     {
       "title": "\"The Amazon rain forest of swear words\"",
@@ -740,25 +740,25 @@
       "source": "Sapiens"
     },
     {
-      "title": "Development and validation of an ideological-political literacy scale for university students in the New Era using multidimensional item response theory",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1896071",
-      "summary": "IntroductionExisting measures of ideological-political literacy among Chinese university students have limited dimensional clarity and cross-group comparability. This study developed and evaluated a five-dimensional scale covering political identification, patriotic sentiment, moral cultivation, rul",
-      "pubDate": "",
-      "domain": "psychology",
-      "source": "Frontiers Psychology"
-    },
-    {
-      "title": "Digital stress and life satisfaction in e-sports players: examining the indirect association through fear of missing out",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1998160",
-      "summary": "BackgroundDigital stress and fear of missing out (FoMO) may be relevant to psychological well-being in esports players who engage in intensive and continuous digital interaction. However, the statistical association between digital stress and life satisfaction and the potential role of FoMO in this ",
-      "pubDate": "",
-      "domain": "psychology",
-      "source": "Frontiers Psychology"
-    },
-    {
       "title": "Brief mindfulness meditation shifts music-evoked aesthetic emotions toward more positive experiences in community-dwelling older adults",
       "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1915168",
       "summary": "BackgroundBrief mindfulness meditation can alter emotional processing during music listening, yet evidence on musical aesthetic emotions has been concentrated in younger samples. Extending this work to later life is theoretically relevant because older adults bring decades of accumulated musical exp",
+      "pubDate": "",
+      "domain": "psychology",
+      "source": "Frontiers Psychology"
+    },
+    {
+      "title": "Beyond emotional hunger: exploring the microbiota-gut-brain axis as a proposed mechanistic framework for emotional eating",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1955982",
+      "summary": "Emotional eating (EE), characterized by food intake in response to affective states rather than physiological hunger, has traditionally been conceptualized through psychological models of stress, emotion dysregulation, and reward-driven behaviour. These frameworks, however, do not fully explain inte",
+      "pubDate": "",
+      "domain": "psychology",
+      "source": "Frontiers Psychology"
+    },
+    {
+      "title": "Parental educational anxiety and adolescents’ academic self-handicapping: the chain mediating roles of basic psychological need frustration and fear of failure",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1988323",
+      "summary": "BackgroundIn China’s highly competitive educational climate, parental educational anxiety has become a widespread family phenomenon, yet its implications for adolescents’ maladaptive academic behavior remain insufficiently understood. Purpose: Grounded in self-determination theory, this study examin",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
@@ -766,64 +766,64 @@
   ],
   "misinfo_toilet": [
     {
-      "headline": "EU Satellite Imagery Delayed Over Gaza and Parts of West Bank by 24-hours",
-      "fragment": "Reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
-      "splice": "EU Satellite Imagery Delayed Over Gaza and Parts of West Bank by 24-hours underneath reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
-      "seed": 20261125
+      "headline": "Republicans Are Desperate to Pretend They Never Supported the War With Iran",
+      "fragment": "Traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
+      "splice": "Republicans Are Desperate to Pretend They Never Supported the War With Iran the system notes that traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
+      "seed": 20261107
     },
     {
-      "headline": "‘Message to the West’ bomb threats target European newsrooms, travel",
-      "fragment": "It is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
-      "splice": "‘Message to the West’ bomb threats target European newsrooms, travel the signal resolves into it is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
-      "seed": 20261126
-    },
-    {
-      "headline": "12 Planes in 12 Days: Pope Begins Major Latin America Tour, Weeks After Surgery",
-      "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "splice": "12 Planes in 12 Days: Pope Begins Major Latin America Tour, Weeks After Surgery because the breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "seed": 20261127
-    },
-    {
-      "headline": "Russia’s land gains in Ukraine dwindle as its diesel reportedly goes unsold",
-      "fragment": "The simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
-      "splice": "Russia’s land gains in Ukraine dwindle as its diesel reportedly goes unsold consequently the simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
-      "seed": 20261128
-    },
-    {
-      "headline": "Can LLMs Supercharge Geolocations? Our Tests Show Big Improvements But Humans Remain Key",
-      "fragment": "It is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
-      "splice": "Can LLMs Supercharge Geolocations? Our Tests Show Big Improvements But Humans Remain Key consequently it is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
-      "seed": 20261129
-    },
-    {
-      "headline": "Two dead after bus crashes in France, officials say",
-      "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "splice": "Two dead after bus crashes in France, officials say insofar as it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "seed": 20261130
-    },
-    {
-      "headline": "Israeli settlers seize Palestinian homes in Jericho, displacing dozens",
-      "fragment": "This is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
-      "splice": "Israeli settlers seize Palestinian homes in Jericho, displacing dozens insofar as this is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
-      "seed": 20261131
-    },
-    {
-      "headline": "Defeating Zionism to Free Palestine",
-      "fragment": "An ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
-      "splice": "Defeating Zionism to Free Palestine because an ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
-      "seed": 20261132
-    },
-    {
-      "headline": "Yemeni gov’t forces, Houthis trade blame for deadly strikes on Taiz market",
+      "headline": "New Zealanders head to polls on final day of voting",
       "fragment": "We live in a world where there is more and more information, and less and less meaning.",
-      "splice": "Yemeni gov’t forces, Houthis trade blame for deadly strikes on Taiz market ...as we live in a world where there is more and more information, and less and less meaning.",
-      "seed": 20261133
+      "splice": "New Zealanders head to polls on final day of voting ...as we live in a world where there is more and more information, and less and less meaning.",
+      "seed": 20261108
     },
     {
-      "headline": "Blue Tsunami’s Clearest Takeaway: People Hate Data Centers",
-      "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
-      "splice": "Blue Tsunami’s Clearest Takeaway: People Hate Data Centers the system notes that the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
-      "seed": 20261134
+      "headline": "Saudi-Led Forces Bombed Yemeni Home, Killing Nine Family Members, Relatives Say",
+      "fragment": "This is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
+      "splice": "Saudi-Led Forces Bombed Yemeni Home, Killing Nine Family Members, Relatives Say the system notes that this is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
+      "seed": 20261109
+    },
+    {
+      "headline": "EU tells TikTok to fix ‘harmful’ For You feed, threatens fines",
+      "fragment": "Simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
+      "splice": "EU tells TikTok to fix ‘harmful’ For You feed, threatens fines the system notes that simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
+      "seed": 20261110
+    },
+    {
+      "headline": "Pentagon Officials Float Names of Hegseth’s Replacement",
+      "fragment": "Simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
+      "splice": "Pentagon Officials Float Names of Hegseth’s Replacement consequently simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
+      "seed": 20261111
+    },
+    {
+      "headline": "Will New Zealand Join Voters’ Global Revolt Over Soaring Costs?",
+      "fragment": "Reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
+      "splice": "Will New Zealand Join Voters’ Global Revolt Over Soaring Costs? not unlike reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
+      "seed": 20261112
+    },
+    {
+      "headline": "Satellite Images Show Extent of Trump Admin’s Tree-Felling at DC Golf Course",
+      "fragment": "Everywhere it is machines—real ones, not figurative ones: machines driving other machines, machines being driven by other machines, with all the necessary couplings and connections.",
+      "splice": "Satellite Images Show Extent of Trump Admin’s Tree-Felling at DC Golf Course insofar as everywhere it is machines—real ones, not figurative ones: machines driving other machines, machines being driven by other machines, with all the necessary couplings and connections.",
+      "seed": 20261113
+    },
+    {
+      "headline": "Four midterms takeaways for 2028 White House race",
+      "fragment": "The privatization of the organs will only begin with the shame felt by man at the sight of man.",
+      "splice": "Four midterms takeaways for 2028 White House race because the privatization of the organs will only begin with the shame felt by man at the sight of man.",
+      "seed": 20261114
+    },
+    {
+      "headline": "Abdul El-Sayed Won His Senate Seat With a Mandate on Palestine. Can He Deliver?",
+      "fragment": "The technocrat is the natural friend of the dictator—computers and dictatorship.",
+      "splice": "Abdul El-Sayed Won His Senate Seat With a Mandate on Palestine. Can He Deliver? the system notes that the technocrat is the natural friend of the dictator—computers and dictatorship.",
+      "seed": 20261115
+    },
+    {
+      "headline": "Kenyan doomsday cult leader given life sentence for murdering 191 people",
+      "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
+      "splice": "Kenyan doomsday cult leader given life sentence for murdering 191 people the system notes that the revolutionary lives in the gap which separates technical progress from social totality.",
+      "seed": 20261116
     }
   ]
 }
