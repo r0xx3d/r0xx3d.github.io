@@ -1,7 +1,75 @@
 {
-  "generated_at": "2026-11-09T11:03:53.648Z",
+  "generated_at": "2026-11-09T22:03:36.124Z",
   "threat_intel": {
     "cisa_kev": [
+      {
+        "cveID": "CVE-2026-102895",
+        "vendorProject": "GPUStack",
+        "product": "GPUStack",
+        "vulnerabilityName": "GPUStack Improper Authentication Vulnerability",
+        "dateAdded": "2026-11-09",
+        "shortDescription": "GPUStack contains an improper authentication vulnerability which could allow unauthenticated administrative access, including user and model changes, persistent administrator API-key creation, disclosure of worker and cloud-provider secrets, and code execution through POST /v2/inference-backends/from-yaml.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-11-12",
+        "knownRansomwareCampaignUse": "Unknown",
+        "forensicTriage": "Yes",
+        "notes": "This vulnerability affects an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: ; https://github.com/gpustack/gpustack/security/advisories/GHSA-gj9m-f8ph-pmhr ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-102895",
+        "cwes": [
+          "CWE-287",
+          "CWE-290",
+          "CWE-346"
+        ]
+      },
+      {
+        "cveID": "CVE-2026-123158",
+        "vendorProject": "OpenBSD",
+        "product": "OpenSSH",
+        "vulnerabilityName": "OpenBSD OpenSSH Unexpected Status Code or Return Value Vulnerability",
+        "dateAdded": "2026-11-09",
+        "shortDescription": "OpenBSD OpenSSH on Linux contains an unexpected status code or return value vulnerability that could allow for authentication bypass.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-11-12",
+        "knownRansomwareCampaignUse": "Unknown",
+        "forensicTriage": "Yes",
+        "notes": "This vulnerability affects an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: https://www.openssh.org/releasenotes.html ; https://alpinelinux.org/posts/2026-11-05-openssh-password-authentication-bypass/ ; https://github.com/openssh/openssh-portable/commit/4353fdc43ef646c43a8dda7025cc1a898caf1482 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-123158",
+        "cwes": [
+          "CWE-394"
+        ]
+      },
+      {
+        "cveID": "CVE-2026-116779",
+        "vendorProject": "SignalWire",
+        "product": "FreeSwitch",
+        "vulnerabilityName": "SignalWire FreeSwitch Code Injection Vulnerability",
+        "dateAdded": "2026-11-09",
+        "shortDescription": "SignalWire FreeSwitch contains a code injection vulnerability that permits configuration and credential disclosure, arbitrary call control, and command execution.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-11-12",
+        "knownRansomwareCampaignUse": "Unknown",
+        "forensicTriage": "Yes",
+        "notes": "This vulnerability affects an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: https://github.com/signalwire/freeswitch/security/advisories/GHSA-mg63-h38w-8p9p ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-116779",
+        "cwes": [
+          "CWE-77",
+          "CWE-78",
+          "CWE-749"
+        ]
+      },
+      {
+        "cveID": "CVE-2026-123218",
+        "vendorProject": "IBM",
+        "product": "Aspera Faspex",
+        "vulnerabilityName": "IBM Aspera Faspex Incorrect Authorization Vulnerability",
+        "dateAdded": "2026-11-09",
+        "shortDescription": "IBM Aspera Faspex contains an incorrect authorization vulnerability that could allow an authenticated user to craft a specific message to bypass authorization, causing privilege escalations.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-11-12",
+        "knownRansomwareCampaignUse": "Unknown",
+        "forensicTriage": "Yes",
+        "notes": "https://www.ibm.com/support/pages/node/7295921 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-123218",
+        "cwes": [
+          "CWE-863"
+        ]
+      },
       {
         "cveID": "CVE-2026-19868",
         "vendorProject": "SonicWall",
@@ -180,78 +248,6 @@
           "CWE-252",
           "CWE-787"
         ]
-      },
-      {
-        "cveID": "CVE-2026-109618",
-        "vendorProject": "PHP Group",
-        "product": "PHP",
-        "vulnerabilityName": "PHP Memory Corruption Vulnerability",
-        "dateAdded": "2026-10-26",
-        "shortDescription": "PHP contains an out-of-memory corruption vulnerability that allows for unauthenticated remote code execution.",
-        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "dueDate": "2026-10-29",
-        "knownRansomwareCampaignUse": "Unknown",
-        "forensicTriage": "Yes",
-        "notes": "This vulnerability affects an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: https://www.php.net/ ; https://www.cisa.gov/news-events/alerts/2026/10/21/critical-vulnerabilities-php-require-immediate-patching ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ;  https://nvd.nist.gov/vuln/detail/CVE-2026-109618",
-        "cwes": [
-          "CWE-416",
-          "CWE-755",
-          "CWE-824",
-          "CWE-1325",
-          "CWE-1419"
-        ]
-      },
-      {
-        "cveID": "CVE-2026-109619",
-        "vendorProject": "PHP Group",
-        "product": "PHP",
-        "vulnerabilityName": "PHP Stale Internal Request-State Vulnerability",
-        "dateAdded": "2026-10-26",
-        "shortDescription": "PHP contains a stale internal request-state vulnerability that allows for unauthenticated remote code execution.",
-        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "dueDate": "2026-10-29",
-        "knownRansomwareCampaignUse": "Unknown",
-        "forensicTriage": "Yes",
-        "notes": "This vulnerability affects an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: https://www.php.net/ ; https://www.cisa.gov/news-events/alerts/2026/10/21/critical-vulnerabilities-php-require-immediate-patching ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ;  https://nvd.nist.gov/vuln/detail/CVE-2026-109619",
-        "cwes": [
-          "CWE-416",
-          "CWE-755",
-          "CWE-824",
-          "CWE-1325",
-          "CWE-1419"
-        ]
-      },
-      {
-        "cveID": "CVE-2026-114625",
-        "vendorProject": "Arista",
-        "product": "VeloCloud Orchestrator",
-        "vulnerabilityName": "Arista VeloCloud Orchestrator SQL Injection Vulnerability",
-        "dateAdded": "2026-10-23",
-        "shortDescription": "Arista VeloCloud Orchestrator on-prem contains a SQL injection vulnerability that may allow a remote attacker to access privileged internal functionality and impact the VCO host. Successful exploitation may compromise the confidentiality, integrity, and availability of the orchestrator and data managed by the orchestrator.",
-        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "dueDate": "2026-10-26",
-        "knownRansomwareCampaignUse": "Unknown",
-        "forensicTriage": "Yes",
-        "notes": "https://www.arista.com/en/support/advisories-notices/security-advisory/24838-security-advisory-0199 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-114625",
-        "cwes": [
-          "CWE-89"
-        ]
-      },
-      {
-        "cveID": "CVE-2026-110447",
-        "vendorProject": "Collabora",
-        "product": "Collabora Online – Built-in CODE Server",
-        "vulnerabilityName": "Collabora Online – Built-in CODE Server OS Command Injection Vulnerability",
-        "dateAdded": "2026-10-23",
-        "shortDescription": "Collabora Collabora Online – Built-in CODE Server when used within the NextCloud platform contains an OS command injection vulnerability that allows for remote code execution when the CODE server isn't running.",
-        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "dueDate": "2026-10-26",
-        "knownRansomwareCampaignUse": "Unknown",
-        "forensicTriage": "Yes",
-        "notes": "https://help.nextcloud.com/t/to-collabora-built-in-user-update-asap/250516 ; https://github.com/CollaboraOnline/online/security/advisories/GHSA-g3vx-3m76-fghh ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-110447",
-        "cwes": [
-          "CWE-78"
-        ]
       }
     ],
     "urlhaus": []
@@ -260,107 +256,121 @@
     {
       "title": "Immigrants Are Being Systematically Returned Home Despite Court Orders",
       "link": "https://www.nytimes.com/2026/11/09/world/africa/trump-deportations-court-orders-refoulement.html",
-      "pubDate": "Mon, 09 Nov 2026 11:01:09 +0000",
+      "pubDate": "Mon, 09 Nov 2026 21:54:45 +0000",
       "source": "NYT World",
       "summary": "Working with the Trump administration, foreign partners accept deportees, then ship them to nations where the U.S. itself would be prohibited from sending them."
     },
     {
-      "title": "At least 34 dead after Europe-bound migrant boat sinks off Senegal ",
-      "link": "https://www.bbc.co.uk/news/articles/cv2d6dpge65go?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Mon, 09 Nov 2026 10:59:26 GMT",
+      "title": "Republican congressman to force impeachment vote on Defence Secretary Hegseth",
+      "link": "https://www.bbc.co.uk/news/articles/cwr5y58jjp8ro?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Mon, 09 Nov 2026 21:37:02 GMT",
       "source": "BBC",
-      "summary": "The Atlantic crossing to Spain's Canary Islands remains dangerous for migrants seeking a better life"
+      "summary": "The effort will likely fail, but Representative Thomas Massie wants to push Trump to fire Hegseth before Democrats can launch their own impeachment process."
     },
     {
-      "title": "How a Bank Implosion in Paraguay Ensnared a President",
-      "link": "https://www.nytimes.com/2026/11/09/world/americas/paraguay-bank-president-ueno.html",
-      "pubDate": "Mon, 09 Nov 2026 10:43:00 +0000",
-      "source": "NYT World",
-      "summary": "Prosecutors accused President Santiago Peña of funneling nearly a billion dollars of government funds to the Ueno bank as its executives made reckless insider loans."
-    },
-    {
-      "title": "At least one person killed as Russia and Ukraine trade strikes overnight",
-      "link": "https://www.aljazeera.com/news/2026/11/9/at-least-one-person-killed-as-russia-and-ukraine-trade-strikes-overnight?traffic_source=rss",
-      "pubDate": "Mon, 09 Nov 2026 10:08:45 +0000",
+      "title": "COP31 opens amid energy crisis as activists demand climate action",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/9/cop31-opens-amid-energy-crisis-as-activists-demand-climate-action?traffic_source=rss",
+      "pubDate": "Mon, 09 Nov 2026 21:18:25 +0000",
       "source": "Al Jazeera",
-      "summary": "Russia's second-largest oil refinery was set on fire by drones, while Russian strikes targeted Ukrainian energy sites."
+      "summary": "COP31 has opened in Turkiye amid war-driven energy disruptions and a renewed reliance on fossil fuels."
+    },
+    {
+      "title": "Will Najib Razak be transferred to house arrest?",
+      "link": "https://www.aljazeera.com/video/inside-story/2026/11/9/will-najib-razak-be-transferred-to-house-arrest?traffic_source=rss",
+      "pubDate": "Mon, 09 Nov 2026 21:13:02 +0000",
+      "source": "Al Jazeera",
+      "summary": "Malaysia's king and government in a standoff after attorney general disputed order allowing former PM to leave jail."
+    },
+    {
+      "title": "Republican lawmaker moves to impeach US Defense Secretary Hegseth",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/9/republican-lawmaker-moves-to-impeach-us-defense-secretary-hegseth?traffic_source=rss",
+      "pubDate": "Mon, 09 Nov 2026 21:04:11 +0000",
+      "source": "Al Jazeera",
+      "summary": "Republican Congressman Thomas Massie has introduced articles of impeachment against Defense Secretary Pete Hegseth."
+    },
+    {
+      "title": "Cyprus rivals agree new crossings across island’s dividing line",
+      "link": "https://www.aljazeera.com/news/2026/11/9/cyprus-rivals-agree-new-crossings-across-islands-dividing-line?traffic_source=rss",
+      "pubDate": "Mon, 09 Nov 2026 20:50:20 +0000",
+      "source": "Al Jazeera",
+      "summary": "The island has been split since 1974, when Turkiye invaded and seized the northern part after a coup by the Greeks."
+    },
+    {
+      "title": "Shipwreck Off Senegal Kills Dozens as Canary Islands Declare Migrant Emergency",
+      "link": "https://www.nytimes.com/2026/11/09/world/africa/senegal-migrant-boat-capsize-europe.html",
+      "pubDate": "Mon, 09 Nov 2026 20:50:12 +0000",
+      "source": "NYT World",
+      "summary": "Migrant arrivals to Europe are down overall but still claiming scores of victims, overwhelming local officials and dominating political debate."
+    },
+    {
+      "title": "Turkey steel factory blast kills at least 17 people",
+      "link": "https://www.bbc.co.uk/news/articles/cq2d6d5z9y5jo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Mon, 09 Nov 2026 20:42:04 GMT",
+      "source": "BBC",
+      "summary": "Eyewitnesses say the explosion shook the ground, with one believing an earthquake had hit near the Habas Demir Celik plant in Aliaga."
+    },
+    {
+      "title": "France accuses Iran of supermarket fridge hacking",
+      "link": "https://www.bbc.co.uk/news/articles/cmg474vk6dyqo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Mon, 09 Nov 2026 20:20:08 GMT",
+      "source": "BBC",
+      "summary": "Tons of chilled and frozen food was spoiled last month as fridges and freezers in hundreds of supermarkets heated up."
+    },
+    {
+      "title": "Deadly explosion at Iron and steel plant in Turkiye",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/9/deadly-explosion-at-iron-and-steel-plant-in-turkiye?traffic_source=rss",
+      "pubDate": "Mon, 09 Nov 2026 20:19:18 +0000",
+      "source": "Al Jazeera",
+      "summary": "Deadly explosion at Iron and steel plant in Turkiye"
+    },
+    {
+      "title": "Nvidia shares tumble over investigation into Huang's affair with alleged Chinese spy",
+      "link": "https://www.bbc.co.uk/news/articles/c6zxjx01vyleo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Mon, 09 Nov 2026 19:58:01 GMT",
+      "source": "BBC",
+      "summary": "The share price dropped wiped hundreds of billions of dollars from the value of Nvidia."
+    },
+    {
+      "title": "France Blames Iran for Cyberattack on Refrigeration Systems",
+      "link": "https://www.nytimes.com/2026/11/09/world/europe/france-iran-refrigerators-cyberattack.html",
+      "pubDate": "Mon, 09 Nov 2026 19:29:39 +0000",
+      "source": "NYT World",
+      "summary": "The French foreign minister said he had summoned the Iranian ambassador to France after a cyberattack on hundreds of supermarkets last month. Iran did not immediately respond."
+    },
+    {
+      "title": "Impeachment Vote Looms for Hegseth",
+      "link": "https://theintercept.com/2026/11/09/impeachment-vote-looms-hegseth/",
+      "pubDate": "Mon, 09 Nov 2026 19:15:52 +0000",
+      "source": "The Intercept",
+      "summary": "“I think there’s a high chance that it will be successful,” a member of Congress told The Intercept.\nThe post Impeachment Vote Looms for Hegseth appeared first on The Intercept."
+    },
+    {
+      "title": "Mass Killing in Poland Becomes Cause for a Political Fight",
+      "link": "https://www.nytimes.com/2026/11/09/world/europe/poland-mass-shooting-krakow-politics.html",
+      "pubDate": "Mon, 09 Nov 2026 18:53:07 +0000",
+      "source": "NYT World",
+      "summary": "The government blames the far right for inspiring the gunman, while the opposition accuses the government of lax security."
+    },
+    {
+      "title": "Trump questions midterm elections integrity after previously accepting results",
+      "link": "https://www.bbc.co.uk/news/articles/ck79p9350zp9o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Mon, 09 Nov 2026 17:47:29 GMT",
+      "source": "BBC",
+      "summary": "Trump made the claims, without evidence, on Truth Social on Monday."
     },
     {
       "title": "Ukraine Peace Talks Resume This Week in Abu Dhabi",
       "link": "https://www.nytimes.com/2026/11/09/world/europe/ukraine-russia-peace-talks.html",
-      "pubDate": "Mon, 09 Nov 2026 09:59:53 +0000",
+      "pubDate": "Mon, 09 Nov 2026 15:08:54 +0000",
       "source": "NYT World",
       "summary": "U.S.-led talks to end the war between Russia and Ukraine will resume this week in Abu Dhabi. A cease-fire won’t be on the table."
     },
     {
-      "title": "Iran’s authorities harden domestic security controls amid US strike threats",
-      "link": "https://www.aljazeera.com/news/2026/11/9/irans-authorities-harden-domestic-security-controls-amid-us-strike-threats?traffic_source=rss",
-      "pubDate": "Mon, 09 Nov 2026 09:56:13 +0000",
-      "source": "Al Jazeera",
-      "summary": "Iran is cracking down on perceived security threats from alleged spies to crowds of youngsters."
-    },
-    {
-      "title": "The DNA that Unmasked a Killer | True Crime Reports",
-      "link": "https://www.aljazeera.com/video/true-crime-reports/2026/11/9/the-dna-that-unmasked-a-killer-true-crime-reports?traffic_source=rss",
-      "pubDate": "Mon, 09 Nov 2026 09:36:53 +0000",
-      "source": "Al Jazeera",
-      "summary": "For 21 years, Leslie Preer’s murder went unsolved. Then new DNA tech led police to a suspect thousands of miles away."
-    },
-    {
-      "title": "Qatar PM to meet Trump: What’s the latest on US-Iran negotiations?",
-      "link": "https://www.aljazeera.com/news/2026/11/9/qatar-pm-to-meet-trump-whats-the-latest-on-us-iran-negotiations?traffic_source=rss",
-      "pubDate": "Mon, 09 Nov 2026 09:27:35 +0000",
-      "source": "Al Jazeera",
-      "summary": "Iran has put forward a two-day proposal developed with Qatari mediators that Washington is examining."
-    },
-    {
-      "title": "Trump says he was 'kidding' about Dana White press secretary offer",
-      "link": "https://www.bbc.co.uk/news/articles/ck0j0j87959eo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Mon, 09 Nov 2026 08:49:17 GMT",
-      "source": "BBC",
-      "summary": "The president told the Ultimate Fighting Championship boss to \"please take the job\" in a Truth Social post on Saturday."
-    },
-    {
-      "title": "Trump says his immigration policy ‘too tough’ for voters",
-      "link": "https://www.aljazeera.com/news/2026/11/9/trump-says-his-immigration-policy-too-tough-for-voters?traffic_source=rss",
-      "pubDate": "Mon, 09 Nov 2026 08:35:05 +0000",
-      "source": "Al Jazeera",
-      "summary": "Trump concedes some voters were unhappy with his administration's controversial deportation drive."
-    },
-    {
-      "title": "Krakow shooting suspect has died in hospital, police say",
-      "link": "https://www.bbc.co.uk/news/articles/c6y434dw8319o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Mon, 09 Nov 2026 07:26:09 GMT",
-      "source": "BBC",
-      "summary": "At least six people were killed in the shooting, and three bodies of the suspect's family members were found at their home."
-    },
-    {
-      "title": "Inside the French drug gangs recruiting children to kill",
-      "link": "https://www.bbc.co.uk/news/articles/cq62y01r2313o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Mon, 09 Nov 2026 06:00:26 GMT",
-      "source": "BBC",
-      "summary": "The BBC enters Marseille's dangerous underworld, where young people are trapped, brutalised and exploited."
-    },
-    {
-      "title": "Pope delivers veiled rebuke of Milei's austerity measures",
-      "link": "https://www.bbc.co.uk/news/articles/ckj0l082jqzvo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Mon, 09 Nov 2026 05:30:37 GMT",
-      "source": "BBC",
-      "summary": "Pope Leo made the comments as he arrived in Argentina on the second leg of his Latin America tour."
-    },
-    {
-      "title": "Germans Miss Merkel, Their Old Chancellor, Though They Dislike Her Policies",
-      "link": "https://www.nytimes.com/2026/11/09/world/europe/germans-angela-merkel-portrait.html",
-      "pubDate": "Mon, 09 Nov 2026 05:01:06 +0000",
-      "source": "NYT World",
-      "summary": "Crowds have flocked to the stern, but reassuring, face of Angela Merkel in her official portrait, even as a backlash to her legacy roils German politics."
-    },
-    {
-      "title": "In Argentina, Pope Leo Tells President Milei Economy Must Serve the Needy",
-      "link": "https://www.nytimes.com/2026/11/08/world/americas/pope-leo-argentina-milei.html",
-      "pubDate": "Sun, 08 Nov 2026 23:36:32 +0000",
-      "source": "NYT World",
-      "summary": "The pontiff’s trip comes amid tensions between the country’s libertarian leader and its Catholic Church, which is deeply committed to social justice."
+      "title": "Tons of “Bunker-Buster” Bomb Parts for Israel Go Through JFK Airport",
+      "link": "https://theintercept.com/2026/11/09/israel-weapons-bombs-jfk-airport/",
+      "pubDate": "Mon, 09 Nov 2026 11:05:00 +0000",
+      "source": "The Intercept",
+      "summary": "At the height of the Iran war, parts for destructive “bunker-buster” bombs moved through JFK airport on their way to the Israeli military.\nThe post Tons of “Bunker-Buster” Bomb Parts for Israel Go Through JFK Airport appeared first on The Intercept."
     },
     {
       "title": "The Pressure on LA’s First Socialist Mayor",
@@ -382,20 +392,6 @@
       "pubDate": "Fri, 06 Nov 2026 21:24:17 +0000",
       "source": "The Intercept",
       "summary": "Only in defeat are Republicans eager to distance themselves from the war they used to champion.\nThe post Republicans Are Desperate to Pretend They Never Supported the War With Iran appeared first on The Intercept."
-    },
-    {
-      "title": "Pentagon Officials Float Names of Hegseth’s Replacement",
-      "link": "https://theintercept.com/2026/11/06/pentagon-hegseth-replacement-desantis-waltz/",
-      "pubDate": "Fri, 06 Nov 2026 19:57:03 +0000",
-      "source": "The Intercept",
-      "summary": "As Pete Hegseth fights for his job after the midterm Republican wipeout, Ron DeSantis and Mike Waltz are just some of the names being mentioned.\nThe post Pentagon Officials Float Names of Hegseth’s Replacement appeared first on The Intercept."
-    },
-    {
-      "title": "Is There a Left Candidate for President?",
-      "link": "https://theintercept.com/2026/11/06/democrats-left-presidential-candidate-2028/",
-      "pubDate": "Fri, 06 Nov 2026 17:06:47 +0000",
-      "source": "The Intercept",
-      "summary": "“All I know is that the populist lane is wide open for someone to seize it.”\nThe post Is There a Left Candidate for President? appeared first on The Intercept."
     },
     {
       "title": "How Online Maps Lay Bare the US Military Bases Targeted by Iran",
@@ -434,6 +430,13 @@
     }
   ],
   "syndication": [
+    {
+      "title": "AI Security",
+      "link": "https://www.schneier.com/blog/archives/2026/11/ai-security.html",
+      "pubDate": "2026-11-09T12:05:39.000Z",
+      "author": "Schneier on Security",
+      "content": "Two weeks ago, I attended the [un]prompted AI security conference in San Francisco. It was an excellent event: three days of very dense talks about all aspects of AI security. (My talk was about integrous AI, and I will post it when it is online.)\nAI security can be divided into three broad topics. "
+    },
     {
       "title": "Pluralistic: America cannot undo Trumpism (09 Nov 2026)",
       "link": "https://pluralistic.net/2026/11/09/brunch-is-canceled-forever/",
@@ -477,13 +480,6 @@
       "content": "Several staffers at the White House are using computers or mobile devices equipped with residential proxy services that render their internet address available for others to rent, security experts warned today. One of the proxy services is a Russian company whose founder's web hosting business was g"
     },
     {
-      "title": "AIs Hacking the Law",
-      "link": "https://www.schneier.com/blog/archives/2026/11/ais-hacking-the-law.html",
-      "pubDate": "2026-11-03T12:01:00.000Z",
-      "author": "Schneier on Security",
-      "content": "In both a 2021 essay and my 2022 book, A Hacker’s Mind, I talk about AIs finding vulnerabilities and exploits—hacking—the legal system.\nHere’s some demonstrations of this from Germany:\nLegal systems encode the foundations of social order in natural language. Similar to computer systems, the written "
-    },
-    {
       "title": "Tech Firms Dismantle Botnet That Turned 1.3M TV Boxes Into Proxies",
       "link": "https://krebsonsecurity.com/2026/11/tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies/",
       "pubDate": "Tue, 03 Nov 2026 02:24:31 +0000",
@@ -499,6 +495,78 @@
     }
   ],
   "syndicate_journal": [
+    {
+      "title": "An Effective AI Pushback Has to Go Beyond the Local",
+      "link": "https://jacobin.com/2026/11/ai-data-center-midterms-regulation",
+      "summary": "Last week’s election returns embodied a broad, national, and bipartisan reaction against data centers. In forty-six of the forty-seven local referenda held across some thirteen states, voters  new data center construction. Public opposition  local concerns about water usage, grid sustainability, and",
+      "pubDate": "2026-11-09T21:46:05.529Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "Do We Think in Pictures, Words, or… Code?",
+      "link": "https://nautil.us/do-we-think-in-pictures-words-or-code-1286476/",
+      "summary": "A conversation with cognitive scientist Evelina Fedorenko about where thought and language overlap\nThe post Do We Think in Pictures, Words, or… Code? appeared first on Nautilus.",
+      "pubDate": "Mon, 09 Nov 2026 21:30:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "Common Food Additive Linked to Lower Risk of Cognitive Impairment",
+      "link": "https://nautil.us/common-food-additive-linked-to-lower-risk-of-cognitive-impairment-1286473/",
+      "summary": "It’s found in mayonnaise, chocolate, and lean meats\nThe post Common Food Additive Linked to Lower Risk of Cognitive Impairment appeared first on Nautilus.",
+      "pubDate": "Mon, 09 Nov 2026 19:30:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "End the Private Health Insurance Tax: Pass Medicare for All",
+      "link": "https://jacobin.com/2026/11/health-insurance-premiums-single-payer",
+      "summary": "Every other Monday, I arrive at work bleary-eyed, still finishing my coffee, and settle into the workweek by reviewing my latest pay stub. I’m looking for miscounted hours, abnormal deductions — the sorts of mistakes that never happen but could.\nThis morning was different. I spent the weekend fixati",
+      "pubDate": "2026-11-09T18:12:26.873Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "A New Species Emerges From a 9.5 Million-Year-Old Whale Carcass",
+      "link": "https://nautil.us/a-new-species-emerges-from-a-9-5-million-year-old-whale-carcass-1286464/",
+      "summary": "A beaked whale, surrounded by stars\nThe post A New Species Emerges From a 9.5 Million-Year-Old Whale Carcass appeared first on Nautilus.",
+      "pubDate": "Mon, 09 Nov 2026 17:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "California UFCW Leaders Really Don’t Want Union Elections",
+      "link": "https://jacobin.com/2026/11/ufcw-local-california-reform-intimidation",
+      "summary": "In a union that has been headed by one family with no competitive elections since 1984, a group of grocery workers is organizing for change. But last week, they say, union staff who back the incumbent administration went to outrageous lengths in an attempt to make sure there’s no election this year ",
+      "pubDate": "2026-11-09T16:00:28.554Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "Did Life Begin in an RNA World?",
+      "link": "https://www.quantamagazine.org/did-life-begin-in-an-rna-world-20261109/",
+      "summary": "Some believe the earliest life emerged from self-copying molecules that could mutate and even evolve. But that may not have been enough.            \nThe post Did Life Begin in an RNA World? first appeared on Quanta Magazine",
+      "pubDate": "Mon, 09 Nov 2026 15:20:29 +0000",
+      "domain": "science",
+      "source": "Quanta"
+    },
+    {
+      "title": "Why Ancient Doctors Prescribed Disgusting Remedies",
+      "link": "https://daily.jstor.org/why-ancient-doctors-prescribed-disgusting-remedies/",
+      "summary": "Greek and Roman physicians used bodily waste to treat illness. The disgust it inspired may have been part of the appeal.\nThe post Why Ancient Doctors Prescribed Disgusting Remedies appeared first on JSTOR Daily.",
+      "pubDate": "Mon, 09 Nov 2026 14:55:22 +0000",
+      "domain": "history",
+      "source": "JSTOR Daily"
+    },
+    {
+      "title": "Rocking an embarrassing <something>?",
+      "link": "https://languagelog.ldc.upenn.edu/nll/?p=74560&utm_source=rss&utm_medium=rss&utm_campaign=rocking-an-embarrassing-something",
+      "summary": "Reading the NYT 11/7/2026 morning newsletter, I was taken aback by a phrase in the \"Game of the Week\" passage [emphasis added]: College football rivalry: Can Michigan State football find its way out of its deepest hole ever? The Spartans are rocking an embarrassing 2-6 record. In their home conferen",
+      "pubDate": "Mon, 09 Nov 2026 13:14:24 +0000",
+      "domain": "linguistics",
+      "source": "Language Log"
+    },
     {
       "title": "A trip to upside-down world",
       "link": "https://aeon.co/videos/a-cubist-painting-becomes-two-kids-immersive-animated-world",
@@ -516,30 +584,6 @@
       "source": "Aeon"
     },
     {
-      "title": "Portland’s Socialists Have Built a Political Machine",
-      "link": "https://jacobin.com/2026/11/portland-democratic-socialists-city-council",
-      "summary": "Over the last two years, the Portland, Oregon, chapter of the Democratic Socialists of America (DSA) has developed a reputation for punching far above its city’s weight.\nThe chapter sits  the New York, Los Angeles, and Washington, DC, chapters in terms of size, and roughly one in two hundred Portlan",
-      "pubDate": "2026-11-08T14:00:00.112Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
-      "title": "Xi Jinping’s Chinese Dream Has Replaced the Maoist Credo",
-      "link": "https://jacobin.com/2026/11/china-development-labor-peasants-party-state",
-      "summary": "Since 1978, China has undergone a series of seismic changes in its economic order that have radically altered its citizens’ relationship to both labor and land. They have unmade the socialist working class and are in the process of expropriating the peasantry, transforming both into a propertyless p",
-      "pubDate": "2026-11-08T13:30:00.043Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
-      "title": "The Bases of US Empire Are Crumbling",
-      "link": "https://jacobin.com/2026/11/us-imperialism-dollar-finance-china",
-      "summary": "Imperialism is again at the forefront of world politics. Large-scale war has become a permanent feature of the present era, from Ukraine to Gaza. Donald Trump’s second term has added a tariff war, threats to annex Greenland, the abduction of Venezuela’s president, and, together with Israel, an unpro",
-      "pubDate": "2026-11-08T13:00:00.239Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
       "title": "From snark to AI",
       "link": "https://languagelog.ldc.upenn.edu/nll/?p=74556&utm_source=rss&utm_medium=rss&utm_campaign=from-snark-to-ai",
       "summary": "Too few people know about the trail-blazing generative language model snarXiv, \"a random high-energy theory paper generator incorporating all the latest trends, entropic reasoning, and exciting moduli spaces.\" 16 years later, it's apparently still generating random titles and abstracts. The author, ",
@@ -548,36 +592,12 @@
       "source": "Language Log"
     },
     {
-      "title": "Earth’s Rocks Have a Missing Layer Spanning Up to a Billion Years",
-      "link": "https://nautil.us/earths-rocks-have-a-missing-layer-spanning-up-to-a-billion-years-1286417/",
-      "summary": "Now we finally know where it went\nThe post Earth’s Rocks Have a Missing Layer Spanning Up to a Billion Years appeared first on Nautilus.",
-      "pubDate": "Sat, 07 Nov 2026 15:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
-      "title": "This Photo of the ISS Next to Jupiter Was Two Years in the Making",
-      "link": "https://nautil.us/this-photo-of-the-iss-next-to-jupiter-was-two-years-in-the-making-1286407/",
-      "summary": "Part of the art and science of astrophotography is figuring out when certain flying objects in the sky are going to line up for a photo opportunity. \nAnd few photographs demonstrate it better than AJ Smadi’s shot of the International Space Station (ISS) hurtling in front of Jupiter. There’s an incre",
-      "pubDate": "Sat, 07 Nov 2026 13:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
       "title": "This right here",
       "link": "https://languagelog.ldc.upenn.edu/nll/?p=74546&utm_source=rss&utm_medium=rss&utm_campaign=this-right-here",
       "summary": "Over the past decade or so, this right here and that right there have become increasingly common as fixed expressions, further emphasizing this here and that there, beyond the simple demonstrative pronouns this and that. Or so it has seemed to me — and Google Ngrams confirms it: It also seems obviou",
       "pubDate": "Sat, 07 Nov 2026 11:05:02 +0000",
       "domain": "linguistics",
       "source": "Language Log"
-    },
-    {
-      "title": "Could a Fiber Supplement Help Chronic Knee Pain?",
-      "link": "https://nautil.us/could-a-fiber-supplement-help-chronic-knee-pain-1286434/",
-      "summary": "Another investigation into the mysterious microbiome\nThe post Could a Fiber Supplement Help Chronic Knee Pain? appeared first on Nautilus.",
-      "pubDate": "Fri, 06 Nov 2026 22:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
     },
     {
       "title": "A Strange Quantum Theorem Has Killed Einstein’s Reality",
@@ -594,14 +614,6 @@
       "pubDate": "Fri, 06 Nov 2026 14:44:00 +0000",
       "domain": "history",
       "source": "JSTOR Daily"
-    },
-    {
-      "title": "\"The Amazon rain forest of swear words\"",
-      "link": "https://languagelog.ldc.upenn.edu/nll/?p=74538&utm_source=rss&utm_medium=rss&utm_campaign=the-amazon-rain-forest-of-swear-words",
-      "summary": "Jen Rose Smith, \"Excuse my French? The swear words that used to be illegal in Canada\", BBC 11/4/2026: Speakers of Québécois French are known for using a unique class of blasphemous swear words derived from Catholic terms known as sacres (\"sacred\" profanities). Among the most famous are the seemingly",
-      "pubDate": "Fri, 06 Nov 2026 12:26:17 +0000",
-      "domain": "linguistics",
-      "source": "Language Log"
     },
     {
       "title": "Celestial nuisance",
@@ -634,22 +646,6 @@
       "pubDate": "Wed, 04 Nov 2026 14:59:00 GMT",
       "domain": "history",
       "source": "Public Domain Review"
-    },
-    {
-      "title": "How the Phone Book Taught America to Ask for Answers",
-      "link": "https://daily.jstor.org/how-the-phone-book-taught-america-to-ask-for-answers/",
-      "summary": "A collection of Texas directories from 1913 to 1959 shows how phone books—and the people who used them—helped invent “information” as we know it.\nThe post How the Phone Book Taught America to Ask for Answers appeared first on JSTOR Daily.",
-      "pubDate": "Wed, 04 Nov 2026 14:44:00 +0000",
-      "domain": "history",
-      "source": "JSTOR Daily"
-    },
-    {
-      "title": "Is There Anything Left in the Dream of Cold Fusion?",
-      "link": "https://www.quantamagazine.org/is-there-anything-left-in-the-dream-of-cold-fusion-20261102/",
-      "summary": "Dig a little deeper and you’ll find a thriving research program with exotic atoms that won’t solve the energy crisis but stretches the boundaries of physics.              \nThe post Is There Anything Left in the Dream of Cold Fusion? first appeared on Quanta Magazine",
-      "pubDate": "Mon, 02 Nov 2026 15:48:57 +0000",
-      "domain": "science",
-      "source": "Quanta"
     },
     {
       "title": "Wonderful Weather: Floods and Foreboding in 17th-Century Britain\n",
@@ -716,25 +712,25 @@
       "source": "Sapiens"
     },
     {
-      "title": "Bridging embodiment and culture script: a Chinese perspective on contemporary metaphor theory and its empirical grounding",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1955290",
-      "summary": "",
+      "title": "Harmonious and obsessive passion, cultural identity, and mental health in Chinese students of traditional versus Western music: a national multi-institutional comparison",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1995895",
+      "summary": "BackgroundUniversity music students carry an elevated burden of depression, anxiety, and performance-related distress, yet the motivational processes separating adaptive from maladaptive engagement remain only partly understood, and little is known about how they differ between the traditional Chine",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "Core-containing cliques and temporary team performance: the moderating role of core-member composition",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1985889",
-      "summary": "Temporary teams are widely used in industries such as film production, construction, and scientific research to address highly uncertain tasks. Within these teams, members often form multiple cliques based on prior collaboration. While such cliques can improve coordination, they may also generate in",
+      "title": "Inhabiting a wounded world: a qualitative phenomenology of ecological anxiety",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1960083",
+      "summary": "IntroductionEcological anxiety is defined as distress caused by awareness of the ongoing climate crisis. This qualitative phenomenological study aimed to describe how lived experience is altered in ecological anxiety.MethodsWe conducted 58 interviews with 30 participants who identified themselves as",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "Generative AI use and scientific literacy among 15-year-olds in Beijing, Shanghai, Jiangsu, and Zhejiang, China: the mediating role of academic help-seeking",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.2013021",
-      "summary": "IntroductionAdolescents increasingly use generative artificial intelligence (GenAI) chatbots for schoolwork, yet evidence on whether this use supports or undermines learning is mixed. Drawing on research on cognitive offloading and self-regulated learning, we examined whether GenAI use for schoolwor",
+      "title": "Resilience and occupational burnout among Chinese clinical nurses: the mediating effect of organizational silence",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1986267",
+      "summary": "BackgroundOccupational burnout has an impact on nurses’ occupational wellbeing, the stability of the nursing team, and the safety of patients. Clinical nurses are the key to the operation of medical institutions, but due to factors such as resilience, organizational silence and other conditions, the",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
@@ -742,64 +738,64 @@
   ],
   "misinfo_toilet": [
     {
-      "headline": "Satellite Images Show Extent of Trump Admin’s Tree-Felling at DC Golf Course",
-      "fragment": "Everywhere it is machines—real ones, not figurative ones: machines driving other machines, machines being driven by other machines, with all the necessary couplings and connections.",
-      "splice": "Satellite Images Show Extent of Trump Admin’s Tree-Felling at DC Golf Course the system notes that everywhere it is machines—real ones, not figurative ones: machines driving other machines, machines being driven by other machines, with all the necessary couplings and connections.",
-      "seed": 20261120
+      "headline": "Inside the Secretive, Contradictory World of Campaign Ads Funded by AI Super PACs",
+      "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
+      "splice": "Inside the Secretive, Contradictory World of Campaign Ads Funded by AI Super PACs because the breast is a machine that produces milk, and the mouth a machine coupled to it.",
+      "seed": 20261131
     },
     {
-      "headline": "Ukraine Peace Talks Resume This Week in Abu Dhabi",
-      "fragment": "The current ruling ontology denies any possibility of a social causation of mental illness. The chemico-biologization of mental illness is of course strictly commensurate with its depoliticization.",
-      "splice": "Ukraine Peace Talks Resume This Week in Abu Dhabi consequently the current ruling ontology denies any possibility of a social causation of mental illness. The chemico-biologization of mental illness is of course strictly commensurate with its depoliticization.",
-      "seed": 20261121
+      "headline": "Will Najib Razak be transferred to house arrest?",
+      "fragment": "The simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
+      "splice": "Will Najib Razak be transferred to house arrest? consequently the simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
+      "seed": 20261132
     },
     {
-      "headline": "At least one person killed as Russia and Ukraine trade strikes overnight",
-      "fragment": "Traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "splice": "At least one person killed as Russia and Ukraine trade strikes overnight as if traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "seed": 20261122
+      "headline": "Mass Killing in Poland Becomes Cause for a Political Fight",
+      "fragment": "It is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
+      "splice": "Mass Killing in Poland Becomes Cause for a Political Fight consequently it is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
+      "seed": 20261133
+    },
+    {
+      "headline": "Shipwreck Off Senegal Kills Dozens as Canary Islands Declare Migrant Emergency",
+      "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
+      "splice": "Shipwreck Off Senegal Kills Dozens as Canary Islands Declare Migrant Emergency insofar as it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
+      "seed": 20261134
+    },
+    {
+      "headline": "EU Satellite Imagery Delayed Over Gaza and Parts of West Bank by 24-hours",
+      "fragment": "This is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
+      "splice": "EU Satellite Imagery Delayed Over Gaza and Parts of West Bank by 24-hours insofar as this is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
+      "seed": 20261135
+    },
+    {
+      "headline": "France Blames Iran for Cyberattack on Refrigeration Systems",
+      "fragment": "An ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
+      "splice": "France Blames Iran for Cyberattack on Refrigeration Systems because an ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
+      "seed": 20261136
+    },
+    {
+      "headline": "Republican congressman to force impeachment vote on Defence Secretary Hegseth",
+      "fragment": "We live in a world where there is more and more information, and less and less meaning.",
+      "splice": "Republican congressman to force impeachment vote on Defence Secretary Hegseth ...as we live in a world where there is more and more information, and less and less meaning.",
+      "seed": 20261137
+    },
+    {
+      "headline": "Trump questions midterm elections integrity after previously accepting results",
+      "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "splice": "Trump questions midterm elections integrity after previously accepting results the system notes that the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "seed": 20261138
+    },
+    {
+      "headline": "Deadly explosion at Iron and steel plant in Turkiye",
+      "fragment": "There is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
+      "splice": "Deadly explosion at Iron and steel plant in Turkiye because there is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
+      "seed": 20261139
     },
     {
       "headline": "How a Socialist Can Govern a City Under the Thumb of the Trump Administration",
-      "fragment": "It is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
-      "splice": "How a Socialist Can Govern a City Under the Thumb of the Trump Administration insofar as it is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
-      "seed": 20261123
-    },
-    {
-      "headline": "Krakow shooting suspect has died in hospital, police say",
-      "fragment": "Art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
-      "splice": "Krakow shooting suspect has died in hospital, police say as if art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
-      "seed": 20261124
-    },
-    {
-      "headline": "The DNA that Unmasked a Killer | True Crime Reports",
-      "fragment": "Reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
-      "splice": "The DNA that Unmasked a Killer | True Crime Reports underneath reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
-      "seed": 20261125
-    },
-    {
-      "headline": "Germans Miss Merkel, Their Old Chancellor, Though They Dislike Her Policies",
-      "fragment": "It is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
-      "splice": "Germans Miss Merkel, Their Old Chancellor, Though They Dislike Her Policies the signal resolves into it is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
-      "seed": 20261126
-    },
-    {
-      "headline": "Republicans Are Desperate to Pretend They Never Supported the War With Iran",
-      "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "splice": "Republicans Are Desperate to Pretend They Never Supported the War With Iran because the breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "seed": 20261127
-    },
-    {
-      "headline": "Iran’s authorities harden domestic security controls amid US strike threats",
-      "fragment": "The simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
-      "splice": "Iran’s authorities harden domestic security controls amid US strike threats consequently the simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
-      "seed": 20261128
-    },
-    {
-      "headline": "Inside the Secretive, Contradictory World of Campaign Ads Funded by AI Super PACs",
-      "fragment": "It is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
-      "splice": "Inside the Secretive, Contradictory World of Campaign Ads Funded by AI Super PACs consequently it is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
-      "seed": 20261129
+      "fragment": "The privatization of the organs will only begin with the shame felt by man at the sight of man.",
+      "splice": "How a Socialist Can Govern a City Under the Thumb of the Trump Administration underneath the privatization of the organs will only begin with the shame felt by man at the sight of man.",
+      "seed": 20261140
     }
   ]
 }
