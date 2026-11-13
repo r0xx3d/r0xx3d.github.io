@@ -1,7 +1,40 @@
 {
-  "generated_at": "2026-11-13T05:43:55.350Z",
+  "generated_at": "2026-11-13T21:15:44.313Z",
   "threat_intel": {
     "cisa_kev": [
+      {
+        "cveID": "CVE-2026-114713",
+        "vendorProject": "UnrealIRCd",
+        "product": "UnrealIRCd",
+        "vulnerabilityName": "UnrealIRCd Improper Neutralization of Delimiters Vulnerability",
+        "dateAdded": "2026-11-13",
+        "shortDescription": "UnrealIRCd UnrealIRCd contains an improper neutralization of delimiters vulnerability that allows any user on a network with two or more linked servers to inject server-to-server commands that are executed with server authority.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-11-16",
+        "knownRansomwareCampaignUse": "Unknown",
+        "forensicTriage": "Yes",
+        "notes": "https://forums.unrealircd.org/viewtopic.php?t=9487 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-114713",
+        "cwes": [
+          "CWE-140"
+        ]
+      },
+      {
+        "cveID": "CVE-2026-123039",
+        "vendorProject": "Check Point",
+        "product": "Multiple Products",
+        "vulnerabilityName": "Check Point Multiple Products Incorrect Permission Assignment for Critical Resource Vulnerability",
+        "dateAdded": "2026-11-13",
+        "shortDescription": "Check Point Firewall, Multi-Domain Security Management Server, Scalable Platforms, Security Gateway, and Security Management Server contain an incorrect permissions assignment for critical resources vulnerability when the Gaia OS DynamicCLI daemon runs as root and listens on a world-writable local socket without authenticating connecting processes. An authenticated local user can send a command to the socket and have it executed as root.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-11-16",
+        "knownRansomwareCampaignUse": "Unknown",
+        "forensicTriage": "Yes",
+        "notes": "https://support.checkpoint.com/results/sk/sk1000362 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-123039",
+        "cwes": [
+          "CWE-732",
+          "CWE-862"
+        ]
+      },
       {
         "cveID": "CVE-2026-124194",
         "vendorProject": "Microsoft",
@@ -213,184 +246,150 @@
         "cwes": [
           "CWE-367"
         ]
-      },
-      {
-        "cveID": "CVE-2026-118527",
-        "vendorProject": "Ivanti",
-        "product": "Connect Secure",
-        "vulnerabilityName": "Ivanti Connect Secure Generation of Predictable Numbers or Identifiers Vulnerability",
-        "dateAdded": "2026-10-30",
-        "shortDescription": "Ivanti Connect Secure contains a generation of predictable numbers or identifiers vulnerability that allows a remote authenticated attacker to upload files with attacker-controlled content to a known location on disk. This vulnerability can be chained with CVE-2026-104935 and CVE-2026-111357.",
-        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "dueDate": "2026-11-13",
-        "knownRansomwareCampaignUse": "Unknown",
-        "forensicTriage": "No",
-        "notes": "https://hub.ivanti.com/s/article/Security-Advisory-Ivanti-Connect-Secure-CVE-2026-104935?language=en_US ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-118527",
-        "cwes": [
-          "CWE-340"
-        ]
-      },
-      {
-        "cveID": "CVE-2026-111357",
-        "vendorProject": "Ivanti",
-        "product": "Connect Secure",
-        "vulnerabilityName": "Ivanti Connect Secure Missing Authentication for Critical Function Vulnerability",
-        "dateAdded": "2026-10-30",
-        "shortDescription": "Ivanti Connect Secure contains a missing authentication for critical function vulnerability that could allow a local authenticated attacker to escalate their privileges. This vulnerability can be chained with CVE-2026-104935 and CVE-2026-118527.",
-        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "dueDate": "2026-11-02",
-        "knownRansomwareCampaignUse": "Unknown",
-        "forensicTriage": "Yes",
-        "notes": "https://hub.ivanti.com/s/article/Security-Advisory-Ivanti-Connect-Secure-CVE-2026-104935?language=en_US ; https://www.cisa.gov/news-events/alerts/2026/10/13/cisa-urges-patching-newly-exploited-vulnerability-ivanti-connect-secure ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-111357",
-        "cwes": [
-          "CWE-306",
-          "CWE-862",
-          "CWE-345"
-        ]
       }
     ],
     "urlhaus": []
   },
   "world_monitor": [
     {
-      "title": "In Moscow, Witkoff and Kushner Ask Putin to Include Europe in Peace Talks",
-      "link": "https://www.nytimes.com/2026/11/12/world/europe/russia-ukraine-witkoff-kushner.html",
-      "pubDate": "Fri, 13 Nov 2026 05:28:22 +0000",
-      "source": "NYT World",
-      "summary": "In Dublin, President Volodymyr Zelensky of Ukraine said Europeans would join the next round of talks. Russia has not confirmed that."
-    },
-    {
-      "title": "Burkina Faso’s rival armed groups turn on each other as state loses ground",
-      "link": "https://www.aljazeera.com/news/2026/11/13/burkina-fasos-rival-armed-groups-turn-on-each-other-as-state-loses-ground?traffic_source=rss",
-      "pubDate": "Fri, 13 Nov 2026 05:23:31 +0000",
-      "source": "Al Jazeera",
-      "summary": "JNIM and ISIL intensify their fight for control as Burkina Faso struggles to contain the wider armed conflict."
-    },
-    {
-      "title": "Pope Leo meets clergy abuse survivors in Peru amid calls for justice",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/13/aje-onl-nf_pope-leo-meets-clergy-abuse-survivors-in-peru-121126?traffic_source=rss",
-      "pubDate": "Fri, 13 Nov 2026 05:05:50 +0000",
-      "source": "Al Jazeera",
-      "summary": "Pope Leo met six clergy abuse survivors in Peru, while hundreds more say they remain excluded as they seek justice."
-    },
-    {
-      "title": "UNRWA funding cuts deepen hardship for Palestinian refugees in Lebanon",
-      "link": "https://www.aljazeera.com/features/2026/11/13/unrwa-funding-cuts-deepen-hardship-for-palestinian-refugees-in-lebanon?traffic_source=rss",
-      "pubDate": "Fri, 13 Nov 2026 04:51:56 +0000",
-      "source": "Al Jazeera",
-      "summary": "Funding cuts and Israel's war have left Palestinians in Lebanon in increasingly dire circumstances."
-    },
-    {
-      "title": "Iranophobia: Netanyahu’s bid to transform fear into political survival",
-      "link": "https://www.aljazeera.com/news/2026/11/13/iranophobia-netanyahus-bid-to-transform-fear-into-political-survival?traffic_source=rss",
-      "pubDate": "Fri, 13 Nov 2026 04:48:40 +0000",
-      "source": "Al Jazeera",
-      "summary": "Despite knowing a war with Iran would be manufactured for Netanyahu's survival, many would still rally behind it."
-    },
-    {
-      "title": "From ocean legend to undersea reef: Why has the SS United States been sunk?",
-      "link": "https://www.aljazeera.com/news/2026/11/13/from-ocean-legend-to-undersea-reef-why-has-the-ss-united-states-been-sunk?traffic_source=rss",
-      "pubDate": "Fri, 13 Nov 2026 04:39:33 +0000",
-      "source": "Al Jazeera",
-      "summary": "The ship had been inactive for years despite various owners attempting to save and restore it."
-    },
-    {
-      "title": "In China’s Spy Operations, Romance Can Be a Long Game",
-      "link": "https://www.nytimes.com/2026/11/12/world/asia/china-spy-espionage-romance.html",
-      "pubDate": "Fri, 13 Nov 2026 03:58:11 +0000",
-      "source": "NYT World",
-      "summary": "Jensen Huang’s affair with a woman U.S. officials say is a Chinese spy has drawn attention to the role of intimate relationships in espionage."
-    },
-    {
-      "title": "Ex-Nvidia CEO Jensen Huang summoned to testify before Congress about affair with alleged Chinese spy",
-      "link": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Fri, 13 Nov 2026 03:57:01 GMT",
+      "title": "Microsoft 'deeply sorry' for global outage after almost 24 hours of disruption",
+      "link": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Fri, 13 Nov 2026 21:14:22 GMT",
       "source": "BBC",
-      "summary": "Huang abruptly quit on Thursday as head of one of the world's most valuable companies after revelations of alleged extramarital affairs."
+      "summary": "Experts say the event is a \"stark reminder\" of how heavily the world relies on a small group of big tech providers."
     },
     {
-      "title": "North Korean hackers used fake video calls in $400m crypto hack, says FBI",
-      "link": "https://www.bbc.co.uk/news/articles/cqdj1ellpd70o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Fri, 13 Nov 2026 02:48:29 GMT",
+      "title": "Pope Leo cheered on return to Peru city where he served as bishop",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/13/pope-leo-cheered-on-return-to-peru-city-where-he-served-as-bishop?traffic_source=rss",
+      "pubDate": "Fri, 13 Nov 2026 20:52:31 +0000",
+      "source": "Al Jazeera",
+      "summary": "An estimated 1.5 million people have welcomed Pope Leo XIV back to the city in Peru where he once served as bishop."
+    },
+    {
+      "title": "Qatar and Turkiye send message of deterrence with new defence pact",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/13/qatar-and-turkiye-send-message-of-deterrence-with-new-defence-pact?traffic_source=rss",
+      "pubDate": "Fri, 13 Nov 2026 20:48:02 +0000",
+      "source": "Al Jazeera",
+      "summary": "Qatar and Turkiye have signed a mutual defence pact, deepening their partnership amid growing regional instability."
+    },
+    {
+      "title": "Australia captain Cummins denies involvement in ‘Sandpapergate’",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/13/australia-captain-cummins-denies-involvement-in?traffic_source=rss",
+      "pubDate": "Fri, 13 Nov 2026 20:32:42 +0000",
+      "source": "Al Jazeera",
+      "summary": "Australia cricket captain Cummins has rejected claims by ex-teammate Usman Khawaja linking him to 2018 ball-tampering"
+    },
+    {
+      "title": "Pope thanks crowds on emotional return to ‘second home’ in Peru’s Chiclayo",
+      "link": "https://www.aljazeera.com/news/2026/11/13/pope-thanks-crowds-on-emotional-return-to-second-home-in-perus-chiclayo?traffic_source=rss",
+      "pubDate": "Fri, 13 Nov 2026 20:28:20 +0000",
+      "source": "Al Jazeera",
+      "summary": "The Chicago-born pope was welcomed by huge crowds in the coastal city, on the final leg of his South America tour."
+    },
+    {
+      "title": "Paraguay’s ex-president Pena faces new charge over Ueno bank collapse",
+      "link": "https://www.aljazeera.com/news/2026/11/13/paraguays-ex-president-pena-faces-new-charge-over-ueno-bank-collapse?traffic_source=rss",
+      "pubDate": "Fri, 13 Nov 2026 20:18:09 +0000",
+      "source": "Al Jazeera",
+      "summary": "The criminal association charge over his alleged role in the collapse of the bank comes a week after his removal."
+    },
+    {
+      "title": "Nvidia scandal fallout widens as Trump's treasury secretary blames cabinet colleague",
+      "link": "https://www.bbc.co.uk/news/articles/cqvg2d1eg7zro?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Fri, 13 Nov 2026 19:53:57 GMT",
       "source": "BBC",
-      "summary": "More than 900 victims are thought to have fallen prey to the FaceStealer scheme in the last 18 months."
+      "summary": "Scott Bessent suggests Howard Lutnick’s commerce department failed to ban exports of Nvidia's chips to a firm thought to have links with China."
     },
     {
-      "title": "Zelensky welcomes US bringing Europe into Russia-Ukraine peace talks",
-      "link": "https://www.bbc.co.uk/news/articles/ckn80j9jv3jxo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Fri, 13 Nov 2026 02:01:35 GMT",
-      "source": "BBC",
-      "summary": "The Ukrainian president says it makes sense for European leaders to be involved as Ukraine hopes to eventually join the EU."
-    },
-    {
-      "title": "Oklahoma Drops Murder Charge Against Richard Glossip, Avoiding Third Trial",
-      "link": "https://theintercept.com/2026/11/12/richard-glossip-plea-deal-accessory/",
-      "pubDate": "Thu, 12 Nov 2026 21:05:25 +0000",
+      "title": "Israel Used a U.S.-Made Missile to Kill Six at Gaza’s Nasser Hospital",
+      "link": "https://theintercept.com/2026/11/13/israel-gaza-nasser-hospital-attack/",
+      "pubDate": "Fri, 13 Nov 2026 19:29:19 +0000",
       "source": "The Intercept",
-      "summary": "Glossip agrees to plead guilty to a lesser charge to end his 30-year legal saga. He will be sentenced in December.\nThe post Oklahoma Drops Murder Charge Against Richard Glossip, Avoiding Third Trial appeared first on The Intercept."
+      "summary": "“That’s not complicity,\" said a U.S. doctor. \"That's active participation in the murder of physicians and other healthcare workers.”\nThe post Israel Used a U.S.-Made Missile to Kill Six at Gaza’s Nasser Hospital appeared first on The Intercept."
     },
     {
-      "title": "Russian warship hit by Ukrainian drone in Gulf of Finland",
-      "link": "https://www.bbc.co.uk/news/articles/cmn0d33zz34zo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Thu, 12 Nov 2026 20:09:16 GMT",
-      "source": "BBC",
-      "summary": "The attack is thought to be the first time Ukrainian drones have attacked a Russian ship in an open stretch of the Baltic Sea."
-    },
-    {
-      "title": "Suspected bomb hoax threats force fresh evacuations of Italian schools",
-      "link": "https://www.bbc.co.uk/news/articles/cr894w453e90o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Thu, 12 Nov 2026 19:23:02 GMT",
-      "source": "BBC",
-      "summary": "Schools across Italy have received bomb threats for the second day in a row, sparking fresh panic and evacuations."
-    },
-    {
-      "title": "New Trump Rule Threatens Immigrant Families With Separation or Homelessness",
-      "link": "https://theintercept.com/2026/11/12/hud-trump-housing-immigration-family-separation/",
-      "pubDate": "Thu, 12 Nov 2026 17:48:46 +0000",
-      "source": "The Intercept",
-      "summary": "A new HUD rule is on track to kick thousands of mixed-immigration-status families off of federal housing assistance.\nThe post New Trump Rule Threatens Immigrant Families With Separation or Homelessness appeared first on The Intercept."
-    },
-    {
-      "title": "Humanitarian Orgs Demand Answers on Yemen War After Hegseth Impeachment Fails",
-      "link": "https://theintercept.com/2026/11/12/pete-hegseth-yemen-war-civilian-harm/",
-      "pubDate": "Thu, 12 Nov 2026 11:00:00 +0000",
-      "source": "The Intercept",
-      "summary": "A dozen groups are urging congressional oversight of civilian harm in Trump’s “forgotten war.”\nThe post Humanitarian Orgs Demand Answers on Yemen War After Hegseth Impeachment Fails appeared first on The Intercept."
-    },
-    {
-      "title": "A.I. Weapons Need Data for Their Training. Ukraine Has a Lot to Offer.",
-      "link": "https://www.nytimes.com/2026/11/12/world/europe/ukraine-ai-weapons.html",
-      "pubDate": "Thu, 12 Nov 2026 10:00:57 +0000",
+      "title": "Europe Agrees on a Team to Represent It in Talks With Russia",
+      "link": "https://www.nytimes.com/2026/11/13/world/europe/europe-ukraine-talks-russia.html",
+      "pubDate": "Fri, 13 Nov 2026 18:52:07 +0000",
       "source": "NYT World",
-      "summary": "The Ukrainian government has opened up a trove of five million battlefield videos to defense companies at home and abroad."
+      "summary": "After coveting a seat in the Ukraine war discussions, Europe is poised to get one. The continent wants to fill it with a six-member team."
     },
     {
-      "title": "Trump Taps Campaign Lawyer and Pardon Adviser for Top U.S. Intel Agency",
-      "link": "https://theintercept.com/2026/11/12/trump-lawyer-lawkowski-pardons-odni/",
-      "pubDate": "Thu, 12 Nov 2026 10:00:00 +0000",
-      "source": "The Intercept",
-      "summary": "Trump loyalist Gary Lawkowski has no national security experience to speak of. He could become the top lawyer for the nation’s spy chief.\nThe post Trump Taps Campaign Lawyer and Pardon Adviser for Top U.S. Intel Agency appeared first on The Intercept"
+      "title": "Why is Microsoft's outage lasting so long and will emails be lost?",
+      "link": "https://www.bbc.co.uk/news/articles/cwvg238zrnm5o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Fri, 13 Nov 2026 18:36:57 GMT",
+      "source": "BBC",
+      "summary": "Microsoft says it is continuing to restore services including Outlook and Teams following a global outage."
     },
     {
-      "title": "They Left Iran, but Now the Regime Is Seizing Their Assets to Silence Them",
-      "link": "https://www.nytimes.com/2026/11/12/world/middleeast/iran-confiscations-assets-dissidents.html",
-      "pubDate": "Thu, 12 Nov 2026 09:45:47 +0000",
+      "title": "Eisenkot Accuses Netanyahu of Fueling ‘Racist’ Hostility Against Arabs",
+      "link": "https://www.nytimes.com/2026/11/13/world/middleeast/eisenkot-netanyahu-racism-arabs.html",
+      "pubDate": "Fri, 13 Nov 2026 18:26:47 +0000",
       "source": "NYT World",
-      "summary": "The Iranian authorities are pursuing diaspora dissidents and journalists, extending the government’s repressive apparatus far beyond its borders."
+      "summary": "Gadi Eisenkot sharply criticized Prime Minister Benjamin Netanyahu days after the Israeli leader attacked Arab lawmakers in a divisive speech."
     },
     {
-      "title": "She Is Rewriting Mexico’s Ballads, One Woman’s Story at a Time",
-      "link": "https://www.nytimes.com/2026/11/12/world/americas/grammys-women-vivir-quintana.html",
-      "pubDate": "Thu, 12 Nov 2026 05:01:11 +0000",
-      "source": "NYT World",
-      "summary": "Grammy-nominated songwriter Vivir Quintana is known throughout Latin America for giving voice to women who fought back against domestic violence."
-    },
-    {
-      "title": "OpenAI Fooled by Russian Pranksters Into Thinking They Were Speaking to Ukrainian Official",
-      "link": "https://theintercept.com/2026/11/11/openai-ukraine-russia-prank-security/",
-      "pubDate": "Wed, 11 Nov 2026 23:53:12 +0000",
+      "title": "The Hegseth Vote Was Jeffries's First Big Test. He Failed.",
+      "link": "https://theintercept.com/2026/11/13/hakeem-jeffries-pete-hegseth-impeachment-vote/",
+      "pubDate": "Fri, 13 Nov 2026 17:39:49 +0000",
       "source": "The Intercept",
-      "summary": "“We want to have as deep a relationship as we possibly can with Ukraine. But it may not be possible to get to where we want to be straight away.”\nThe post OpenAI Fooled by Russian Pranksters Into Thinking They Were Speaking to Ukrainian Official appe"
+      "summary": "By not showing discipline on the Pete Hegseth impeachment vote, Democrats seem poised to repeat the mistakes of the past.\nThe post The Hegseth Vote Was Jeffries’s First Big Test. He Failed. appeared first on The Intercept."
+    },
+    {
+      "title": "Rosenberg: Uncompromising Putin ups demands for peace with Ukraine",
+      "link": "https://www.bbc.co.uk/news/articles/cq39glwprknjo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Fri, 13 Nov 2026 16:40:31 GMT",
+      "source": "BBC",
+      "summary": "The fact the question of European security now features in discussions is viewed in Moscow as a victory, BBC Russia Editor Steve Rosenberg says."
+    },
+    {
+      "title": "Caught Between Killers: Ebola on One Side, Islamic State on the Other",
+      "link": "https://www.nytimes.com/2026/11/13/world/africa/ebola-congo-isis.html",
+      "pubDate": "Fri, 13 Nov 2026 16:02:36 +0000",
+      "source": "NYT World",
+      "summary": "The new epicenter of Congo’s fast-spreading outbreak is a region scarred by rebel violence. Responders are struggling to help it."
+    },
+    {
+      "title": "Watch: How a server outage took down Microsoft Teams and Outlook",
+      "link": "https://www.bbc.co.uk/news/videos/cqzjr903n01po?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Fri, 13 Nov 2026 11:43:27 GMT",
+      "source": "BBC",
+      "summary": "A Microsoft outage is affecting services including Teams, Outlook and AI software Copilot."
+    },
+    {
+      "title": "Hegseth Dodges Impeachment, for Now. And Tom Morello on Fighting for the World You Want",
+      "link": "https://theintercept.com/2026/11/13/pete-hegseth-impeachment-tom-morello-interview/",
+      "pubDate": "Fri, 13 Nov 2026 11:00:00 +0000",
+      "source": "The Intercept",
+      "summary": "“When change is real, it comes from below. It comes from you and me,” says Rage Against the Machine’s Morello. “That’s what I've been singing about and screaming about in my songs for an entire career.”\nThe post Hegseth Dodges Impeachment, for Now. A"
+    },
+    {
+      "title": "Study Hard, Get a Career and Get Ahead? It’s Not What It Used to Be.",
+      "link": "https://www.nytimes.com/2026/11/13/world/europe/education-meritocracy.html",
+      "pubDate": "Fri, 13 Nov 2026 10:01:42 +0000",
+      "source": "NYT World",
+      "summary": "From India to France, the implicit meritocratic bargain that underwrote stable societies by providing advancement to new generations is breaking down."
+    },
+    {
+      "title": "Next Time, Impeach Pete Hegseth for Press Censorship",
+      "link": "https://theintercept.com/2026/11/13/pete-hegseth-impeachment-censorship-brendan-carr/",
+      "pubDate": "Fri, 13 Nov 2026 10:00:00 +0000",
+      "source": "The Intercept",
+      "summary": "When Democrats take power, they should take aim at the president’s censors, like Hegseth and FCC Chair Brendan Carr.\nThe post Next Time, Impeach Pete Hegseth for Press Censorship appeared first on The Intercept."
+    },
+    {
+      "title": "The U.S.-Israel Relationship Is Broken. Here’s How Eisenkot Could Fix It.",
+      "link": "https://www.nytimes.com/2026/11/13/world/middleeast/israel-trump-eisenkot.html",
+      "pubDate": "Fri, 13 Nov 2026 09:45:38 +0000",
+      "source": "NYT World",
+      "summary": "Former Israeli and U.S. ambassadors, lawmakers and analysts largely agree on steps Gadi Eisenkot could take if he becomes prime minister. But they are risky."
+    },
+    {
+      "title": "Trump Subpoenas Teachers Union for Info on Pro-Palestine Students",
+      "link": "https://theintercept.com/2026/11/13/subpoena-union-palestine-protest-michigan/",
+      "pubDate": "Fri, 13 Nov 2026 09:00:00 +0000",
+      "source": "The Intercept",
+      "summary": "The expansive subpoena asked the American Federation of Teachers headquarters for information related to a vandalism case against Michigan students.\nThe post Trump Subpoenas Teachers Union for Info on Pro-Palestine Students appeared first on The Inte"
     },
     {
       "title": "How Online Maps Lay Bare the US Military Bases Targeted by Iran",
@@ -429,6 +428,20 @@
     }
   ],
   "syndication": [
+    {
+      "title": "Pluralistic: I told you so (13 Nov 2026)",
+      "link": "https://pluralistic.net/2026/11/13/outlookpocalypse/",
+      "pubDate": "Fri, 13 Nov 2026 19:44:37 +0000",
+      "author": "Pluralistic",
+      "content": "Today's links I told you so: Microsoft is too big to live. Hey look at this: Delights to delectate. Object permanence: Canada's corrupt copyright czar; Universal Music CEO v iPod owners; Berlusconi x neo-fascists; Balancing 3,118 coins on a dime; All for-profit healthcare is a problem. Upcoming appe"
+    },
+    {
+      "title": "AI Doesn’t Have to Go Rogue to Break the World",
+      "link": "https://www.schneier.com/blog/archives/2026/11/ai-doesnt-have-to-go-rogue-to-break-the-world.html",
+      "pubDate": "2026-11-13T12:03:30.000Z",
+      "author": "Schneier on Security",
+      "content": "This essay is adapted from a keynote speech delivered at the DEF CON 34 conference in Las Vegas on August 7, 2026. The essay originally appeared in CyberScoop.\nI want to talk about AI hacking. There are three aspects: people hacking AI systems, people using AI to hack other systems, and AIs hacking "
+    },
     {
       "title": "Pluralistic: Uber's labor crash (12 Nov 2026)",
       "link": "https://pluralistic.net/2026/11/12/starvation-wages/",
@@ -472,20 +485,6 @@
       "content": "Today's links The EU should go big and hard over border IT failure: Sometimes you have to execute an IT contractor to encourage the others. Hey look at this: Delights to delectate. Object permanence: Toothpick sculptures; McRib as a commodities volatility hedge; Hitler's British passport; Why we get"
     },
     {
-      "title": "New OpenSSH Vulnerability",
-      "link": "https://www.schneier.com/blog/archives/2026/11/new-openssh-vulnerability.html",
-      "pubDate": "2026-11-10T12:02:38.000Z",
-      "author": "Schneier on Security",
-      "content": "It’s a bad one, and it’s been in the code for a decade:\nA newly disclosed flaw involving OpenSSH and musl, dubbed “*sshole,” allows attackers to log in to certain Alpine Linux and other musl-based Linux accounts configured to block password authentication simply by entering an oversized password.\n\n“"
-    },
-    {
-      "title": "Pluralistic: America cannot undo Trumpism (09 Nov 2026)",
-      "link": "https://pluralistic.net/2026/11/09/brunch-is-canceled-forever/",
-      "pubDate": "Mon, 09 Nov 2026 08:12:24 +0000",
-      "author": "Pluralistic",
-      "content": "Today's links America cannot undo Trumpism: The only way out is through. Hey look at this: Delights to delectate. Object permanence: Bruces x Pokemon; Rich countries and WIPO conspire to kill developement agenda; Wired photos go CC; \"Mortality Bridge\"; Drones over Disney; CBC v podcast apps; Realtor"
-    },
-    {
       "title": "Want to Rent an Internet Address at the White House?",
       "link": "https://krebsonsecurity.com/2026/11/want-to-rent-an-internet-address-at-the-white-house/",
       "pubDate": "Thu, 05 Nov 2026 04:36:17 +0000",
@@ -495,20 +494,68 @@
   ],
   "syndicate_journal": [
     {
-      "title": "You May be Able to Get 43 More Minutes of Work Done if You Change Your Desk",
-      "link": "https://nautil.us/you-may-be-able-to-get-43-more-minutes-of-work-done-if-you-change-your-desk-1286594/",
-      "summary": "It’s time for workers to stand up \nThe post You May be Able to Get 43 More Minutes of Work Done if You Change Your Desk appeared first on Nautilus.",
-      "pubDate": "Thu, 12 Nov 2026 22:00:00 +0000",
+      "title": "What Public Health Initiatives Looked Like in the Middle Ages",
+      "link": "https://nautil.us/what-public-health-initiatives-looked-like-in-the-middle-ages-1286618/",
+      "summary": "The road to hell is paved in good intentions, the roads in Trondheim were paved in something else\nThe post What Public Health Initiatives Looked Like in the Middle Ages appeared first on Nautilus.",
+      "pubDate": "Fri, 13 Nov 2026 21:00:00 +0000",
       "domain": "science",
       "source": "Nautilus"
     },
     {
-      "title": "The Shapes and Colors of a Near-Death Experience",
-      "link": "https://nautil.us/the-shapes-and-colors-of-a-near-death-experience-1286591/",
-      "summary": "Near-death experiences are more common than many of us might think: Some studies estimate that between four and eight percent of the global population has had one, as have up to 23 percent of cardiac arrest survivors. These journeys into the borderlands of consciousness tend to feature a few common ",
-      "pubDate": "Thu, 12 Nov 2026 20:30:00 +0000",
+      "title": "Guglielmo Carchedi Was a Pathbreaking Marxist Economist",
+      "link": "https://jacobin.com/2026/11/carchedi-marxism-class-value-theory",
+      "summary": "In October, the radical left lost Guglielmo Carchedi — “Mino” to his friends and comrades — who died in his sleep at the age of eighty-five. He was one of the great Marxist thinkers of our times.\nI first met him in London a few years after the economic meltdown of 2007–9, at a conference I organized",
+      "pubDate": "2026-11-13T20:40:12.189Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "Democrats Did Their Best Bernie Impression in the Midterms",
+      "link": "https://jacobin.com/2026/11/bernie-democrats-populist-rhetoric-class-affordability",
+      "summary": "The 2026 midterms saw historic gains for socialists and progressives. So, perhaps unsurprisingly, the Democratic Party’s corporate wing is   the result as a victory for centrists and “moderates.”hurriedlyspinning\nLargely lost in this is the way that the Left has transformed what it actually means to",
+      "pubDate": "2026-11-13T20:19:53.259Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "When Envy is a Virtue",
+      "link": "https://nautil.us/when-envy-is-a-virtue-1286615/",
+      "summary": "Can this “deadly sin” help cultivate a constructive drive to better ourselves? \nThe post When Envy is a Virtue appeared first on Nautilus.",
+      "pubDate": "Fri, 13 Nov 2026 19:00:00 +0000",
       "domain": "science",
       "source": "Nautilus"
+    },
+    {
+      "title": "Some Antidepressants May Work Better Than Others Long Term",
+      "link": "https://nautil.us/some-antidepressants-may-work-better-than-others-long-term-1286607/",
+      "summary": "But does that mean these are the best antidepressants?\nThe post Some Antidepressants May Work Better Than Others Long Term appeared first on Nautilus.",
+      "pubDate": "Fri, 13 Nov 2026 17:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "Possible Love Is a Cinematic Masterpiece About Class",
+      "link": "https://jacobin.com/2026/11/possible-love-film-korea-class",
+      "summary": "is yet another masterpiece that South Korean director Lee Chang-dong has brought to us, after an eight-year hiatus since his last film  (2018). Unlike his younger Korean peers, such as Bong Joon-ho () or Park Chan-wook ( and ), Lee, now seventy-two, has often found himself confined to the independen",
+      "pubDate": "2026-11-13T16:45:18.040Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "How to Be a Modern Woman in 1930s Shanghai",
+      "link": "https://daily.jstor.org/how-to-be-a-modern-woman-in-1930s-shanghai/",
+      "summary": "The popular Chinese magazine Linglong encouraged women to embrace new freedoms while warning them against abandoning traditional values.\nThe post How to Be a Modern Woman in 1930s Shanghai appeared first on JSTOR Daily.",
+      "pubDate": "Fri, 13 Nov 2026 14:49:25 +0000",
+      "domain": "history",
+      "source": "JSTOR Daily"
+    },
+    {
+      "title": "Fugitive imagination",
+      "link": "https://aeon.co/essays/those-forced-to-cross-borders-are-imagining-a-radical-new-world",
+      "summary": "Wherever people are confined, displaced, silenced or made disposable, fugitive forms of knowledge and imagination emerge\n- by Shahram Khosravi\nRead on Aeon",
+      "pubDate": "Fri, 13 Nov 2026 11:00:00 GMT",
+      "domain": "philosophy",
+      "source": "Aeon"
     },
     {
       "title": "Can Network Science Transform Health and Nutrition?",
@@ -517,38 +564,6 @@
       "pubDate": "Thu, 12 Nov 2026 19:40:54 +0000",
       "domain": "science",
       "source": "Quanta"
-    },
-    {
-      "title": "The Southern Negro Youth Congress’s Bold Push for Equality",
-      "link": "https://jacobin.com/2026/11/snyc-youth-civil-rights-organizing-south",
-      "summary": "“Behold the land, the rich and resourceful land, from which for a hundred years its best elements have been running away, its youth and hope, black and white, scurrying North because they are of each other, and dare not face a future of equal, independent, upstanding human beings, in a real and not ",
-      "pubDate": "2026-11-12T19:39:55.091Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
-      "title": "Was Einstein Seduced by a Russian Honeypot Operation?",
-      "link": "https://nautil.us/was-einstein-seduced-by-a-russian-honeypot-operation-1286587/",
-      "summary": "The physicist had a steamy romance with Margarita Konenkova\nThe post Was Einstein Seduced by a Russian Honeypot Operation? appeared first on Nautilus.",
-      "pubDate": "Thu, 12 Nov 2026 19:06:20 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
-      "title": "How Cultural Marxism Became a Right-Wing Obsession",
-      "link": "https://jacobin.com/2026/11/cultural-marxism-conspiracy-frankfurt-school-new-left",
-      "summary": "In December 2021, the term “cultural Marxism” was added to the . It was, according to the , a phrase with a sinister and controversial past. Its etymology could allegedly be traced to 1930s Nazi propaganda; its first recorded English-language use was in a 1938 issue of a British Union of Fascists ma",
-      "pubDate": "2026-11-12T17:33:54.762Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
-      "title": "Abdul El-Sayed’s Sports Fluency Is a Political Asset",
-      "link": "https://jacobin.com/2026/11/el-sayed-sports-politics-progressives",
-      "summary": "One of Abdul El-Sayed’s greatest skills is his ability to deploy the language of sports to make his case. His fluency in sports allows him to find common ground with interlocutors and audiences, complicating the stereotype that progressives are anti-sports.\nWhat makes him convincing and harder for h",
-      "pubDate": "2026-11-12T16:50:43.544Z",
-      "domain": "politics",
-      "source": "Jacobin"
     },
     {
       "title": "A New Era for the Dawn of Life",
@@ -639,22 +654,6 @@
       "source": "Language Log"
     },
     {
-      "title": "Decoding Ediacaran fossils",
-      "link": "https://aeon.co/videos/how-a-palaeontologist-decodes-fossils-from-the-dawn-of-complex-life",
-      "summary": "Ancient specimens reveal how animals began to move half a billion years ago – and even the first known example of ‘handedness’\n- by Aeon Video\nWatch on Aeon",
-      "pubDate": "Wed, 11 Nov 2026 11:01:00 GMT",
-      "domain": "philosophy",
-      "source": "Aeon"
-    },
-    {
-      "title": "In Defense of the Humanities",
-      "link": "https://daily.jstor.org/in-defense-of-the-humanities/",
-      "summary": "Why studying literature and philosophy remains essential in a world increasingly focused on career-ready skills.\nThe post In Defense of the Humanities appeared first on JSTOR Daily.",
-      "pubDate": "Tue, 10 Nov 2026 14:47:00 +0000",
-      "domain": "history",
-      "source": "JSTOR Daily"
-    },
-    {
       "title": "Rocking an embarrassing <something>?",
       "link": "https://languagelog.ldc.upenn.edu/nll/?p=74560&utm_source=rss&utm_medium=rss&utm_campaign=rocking-an-embarrassing-something",
       "summary": "Reading the NYT 11/7/2026 morning newsletter, I was taken aback by a phrase in the \"Game of the Week\" passage [emphasis added]: College football rivalry: Can Michigan State football find its way out of its deepest hole ever? The Spartans are rocking an embarrassing 2-6 record. In their home conferen",
@@ -711,25 +710,25 @@
       "source": "Sapiens"
     },
     {
+      "title": "Dance Charisma and fan identity in live concerts: a serial-mediation model of kinesthetic empathy, perceived emotional synchrony, and collective effervescence",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1873061",
+      "summary": "IntroductionLive concerts continue to thrive in an age of digital saturation, suggesting that bodily co-presence resists virtual substitution. We ask how dance charisma relates to a theoretically specified sequence culminating in fan identity. Integrating mirror-neuron theory, emotional contagion, n",
+      "pubDate": "",
+      "domain": "psychology",
+      "source": "Frontiers Psychology"
+    },
+    {
+      "title": "Culture as task structure in digital learning products: stakeholder judgments of educational value and participation for autistic children in China",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.2017771",
+      "summary": "Cultural content can shape the procedures of a digital learning activity, but what should adaptation preserve when those procedures also create demands on participation? This exploratory study examined that task-design question through a self-regulated learning lens. We analyzed 63 digital products ",
+      "pubDate": "",
+      "domain": "psychology",
+      "source": "Frontiers Psychology"
+    },
+    {
       "title": "Effects of a mindfulness intervention on pre-competition mental states in youth athletes: a randomized controlled trial",
       "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1859465",
       "summary": "IntroductionAdolescent athletes face heightened pre-competition stress, yet evidence on mindfulness interventions for this population remains limited to isolated psychological outcomes. This study examined the effects of a mindfulness-based intervention on three pre-competition mental states–anxiety",
-      "pubDate": "",
-      "domain": "psychology",
-      "source": "Frontiers Psychology"
-    },
-    {
-      "title": "Lived trajectories of wellbeing in a Triguna-based Sattvik practice ecology",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1909645",
-      "summary": "Subjective wellbeing research has been criticized for theoretical fragmentation, weak causal modeling, and limited cultural grounding, prompting calls for culturally grounded process models of flourishing. This study examines how far the constructs of the Integrated Triguna Framework (ITF), a proces",
-      "pubDate": "",
-      "domain": "psychology",
-      "source": "Frontiers Psychology"
-    },
-    {
-      "title": "Public discourse on violence in medical settings and its implications for medical students' career resilience: evidence from social media text mining",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1901249",
-      "summary": "BackgroundViolence in medical settings has become a growing concern, yet the potential relevance of this public discourse to the career-development environment surrounding medical students remains underexplored. This study investigates the external discursive environment surrounding medical violence",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
@@ -738,63 +737,63 @@
   "misinfo_toilet": [
     {
       "headline": "Satellite Images Show Extent of Trump Admin’s Tree-Felling at DC Golf Course",
-      "fragment": "The current ruling ontology denies any possibility of a social causation of mental illness. The chemico-biologization of mental illness is of course strictly commensurate with its depoliticization.",
-      "splice": "Satellite Images Show Extent of Trump Admin’s Tree-Felling at DC Golf Course consequently the current ruling ontology denies any possibility of a social causation of mental illness. The chemico-biologization of mental illness is of course strictly commensurate with its depoliticization.",
-      "seed": 20261118
-    },
-    {
-      "headline": "Can LLMs Supercharge Geolocations? Our Tests Show Big Improvements But Humans Remain Key",
-      "fragment": "Traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "splice": "Can LLMs Supercharge Geolocations? Our Tests Show Big Improvements But Humans Remain Key as if traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "seed": 20261119
-    },
-    {
-      "headline": "UNRWA funding cuts deepen hardship for Palestinian refugees in Lebanon",
-      "fragment": "It is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
-      "splice": "UNRWA funding cuts deepen hardship for Palestinian refugees in Lebanon insofar as it is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
-      "seed": 20261120
-    },
-    {
-      "headline": "Pope Leo meets clergy abuse survivors in Peru amid calls for justice",
-      "fragment": "Art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
-      "splice": "Pope Leo meets clergy abuse survivors in Peru amid calls for justice as if art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
-      "seed": 20261121
-    },
-    {
-      "headline": "In China’s Spy Operations, Romance Can Be a Long Game",
-      "fragment": "Reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
-      "splice": "In China’s Spy Operations, Romance Can Be a Long Game underneath reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
-      "seed": 20261122
-    },
-    {
-      "headline": "Humanitarian Orgs Demand Answers on Yemen War After Hegseth Impeachment Fails",
-      "fragment": "It is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
-      "splice": "Humanitarian Orgs Demand Answers on Yemen War After Hegseth Impeachment Fails the signal resolves into it is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
-      "seed": 20261123
-    },
-    {
-      "headline": "New Trump Rule Threatens Immigrant Families With Separation or Homelessness",
       "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "splice": "New Trump Rule Threatens Immigrant Families With Separation or Homelessness because the breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "seed": 20261124
+      "splice": "Satellite Images Show Extent of Trump Admin’s Tree-Felling at DC Golf Course the signal resolves into the breast is a machine that produces milk, and the mouth a machine coupled to it.",
+      "seed": 20261134
     },
     {
-      "headline": "Zelensky welcomes US bringing Europe into Russia-Ukraine peace talks",
-      "fragment": "The simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
-      "splice": "Zelensky welcomes US bringing Europe into Russia-Ukraine peace talks consequently the simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
-      "seed": 20261125
+      "headline": "How Online Maps Lay Bare the US Military Bases Targeted by Iran",
+      "fragment": "The technocrat is the natural friend of the dictator—computers and dictatorship.",
+      "splice": "How Online Maps Lay Bare the US Military Bases Targeted by Iran therefore the technocrat is the natural friend of the dictator—computers and dictatorship.",
+      "seed": 20261135
     },
     {
-      "headline": "They Left Iran, but Now the Regime Is Seizing Their Assets to Silence Them",
+      "headline": "Australia captain Cummins denies involvement in ‘Sandpapergate’",
+      "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
+      "splice": "Australia captain Cummins denies involvement in ‘Sandpapergate’ underneath the revolutionary lives in the gap which separates technical progress from social totality.",
+      "seed": 20261136
+    },
+    {
+      "headline": "Rosenberg: Uncompromising Putin ups demands for peace with Ukraine",
       "fragment": "It is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
-      "splice": "They Left Iran, but Now the Regime Is Seizing Their Assets to Silence Them consequently it is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
-      "seed": 20261126
+      "splice": "Rosenberg: Uncompromising Putin ups demands for peace with Ukraine therefore it is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
+      "seed": 20261137
     },
     {
-      "headline": "Trump Taps Campaign Lawyer and Pardon Adviser for Top U.S. Intel Agency",
-      "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "splice": "Trump Taps Campaign Lawyer and Pardon Adviser for Top U.S. Intel Agency insofar as it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "seed": 20261127
+      "headline": "Qatar and Turkiye send message of deterrence with new defence pact",
+      "fragment": "Pretending, or dissimulating, leaves the principle of reality intact: the difference is always clear, it is simply masked.",
+      "splice": "Qatar and Turkiye send message of deterrence with new defence pact underneath pretending, or dissimulating, leaves the principle of reality intact: the difference is always clear, it is simply masked.",
+      "seed": 20261138
+    },
+    {
+      "headline": "Inside the Secretive, Contradictory World of Campaign Ads Funded by AI Super PACs",
+      "fragment": "Art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
+      "splice": "Inside the Secretive, Contradictory World of Campaign Ads Funded by AI Super PACs despite art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
+      "seed": 20261139
+    },
+    {
+      "headline": "Eisenkot Accuses Netanyahu of Fueling ‘Racist’ Hostility Against Arabs",
+      "fragment": "It is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
+      "splice": "Eisenkot Accuses Netanyahu of Fueling ‘Racist’ Hostility Against Arabs as if it is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
+      "seed": 20261140
+    },
+    {
+      "headline": "Paraguay’s ex-president Pena faces new charge over Ueno bank collapse",
+      "fragment": "Over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
+      "splice": "Paraguay’s ex-president Pena faces new charge over Ueno bank collapse ...as over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
+      "seed": 20261141
+    },
+    {
+      "headline": "Caught Between Killers: Ebola on One Side, Islamic State on the Other",
+      "fragment": "Over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
+      "splice": "Caught Between Killers: Ebola on One Side, Islamic State on the Other as if over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
+      "seed": 20261142
+    },
+    {
+      "headline": "Next Time, Impeach Pete Hegseth for Press Censorship",
+      "fragment": "Pretending, or dissimulating, leaves the principle of reality intact: the difference is always clear, it is simply masked.",
+      "splice": "Next Time, Impeach Pete Hegseth for Press Censorship as if pretending, or dissimulating, leaves the principle of reality intact: the difference is always clear, it is simply masked.",
+      "seed": 20261143
     }
   ]
 }
