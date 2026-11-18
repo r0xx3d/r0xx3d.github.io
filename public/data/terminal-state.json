@@ -1,7 +1,24 @@
 {
-  "generated_at": "2026-11-17T18:16:59.686Z",
+  "generated_at": "2026-11-18T02:46:25.031Z",
   "threat_intel": {
     "cisa_kev": [
+      {
+        "cveID": "CVE-2026-115731",
+        "vendorProject": "Perforce",
+        "product": "Puppet Enterprise",
+        "vulnerabilityName": "Perforce Puppet Enterprise Deserialization of Untrusted Data Vulnerability",
+        "dateAdded": "2026-11-17",
+        "shortDescription": "Perforce Puppet Enterprise contains a deserialization of untrusted data vulnerability in Puppet’s report-processing code that allows a client with any CA-signed agent certificate to execute arbitrary code on the Puppet Server as the service user by submitting a report containing a crafted rich-data type through a PUT request. If the certificate authority automatically signs requests without strong verification, an unauthenticated network attacker can obtain a valid certificate and exploit the vulnerability.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-12-01",
+        "knownRansomwareCampaignUse": "Unknown",
+        "forensicTriage": "No",
+        "notes": "https://portal.perforce.com/s/cve/a91Qi000003IaHpIAK/report-deserialization-code-execution ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-115731",
+        "cwes": [
+          "CWE-502",
+          "CWE-94"
+        ]
+      },
       {
         "cveID": "CVE-2026-114713",
         "vendorProject": "UnrealIRCd",
@@ -230,103 +247,115 @@
         "cwes": [
           "CWE-287"
         ]
-      },
-      {
-        "cveID": "CVE-2026-119977",
-        "vendorProject": "WordPress",
-        "product": "WordPress Core",
-        "vulnerabilityName": "WordPress WordPress Core Time-of-check Time-of-use (TOCTOU) Race Condition Vulnerability",
-        "dateAdded": "2026-11-03",
-        "shortDescription": "WordPress WordPress Core contains a time-of-check time-of-use (TOCTOU) race condition vulnerability that could allow unauthenticated attackers to execute code on the server during the upgrade window. This is due to predictable, web-accessible staging paths used during full-package core upgrades.",
-        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "dueDate": "2026-11-06",
-        "knownRansomwareCampaignUse": "Unknown",
-        "forensicTriage": "Yes",
-        "notes": "https://wordpress.org/news/2026/10/wordpress-7-1-4 ; https://www.wordfence.com/threat-intel/vulnerabilities/wordpress-core/wordpress-core-470-713-unauthenticated-upgrade-window-staged-installer-remote-code-execution ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-119977",
-        "cwes": [
-          "CWE-367"
-        ]
       }
     ],
     "urlhaus": []
   },
   "world_monitor": [
     {
-      "title": "Trump’s Whirlwind Asia Trip Begins in the Philippines",
+      "title": "Live Updates: Trump to Meet Philippine Leader Before Flying to China",
       "link": "https://www.nytimes.com/live/2026/11/17/world/trump-asean-summit",
-      "pubDate": "Tue, 17 Nov 2026 18:01:43 +0000",
+      "pubDate": "Wed, 18 Nov 2026 02:39:04 +0000",
       "source": "NYT World",
-      "summary": "President Trump’s 48-hour trip started with a meeting with Southeast Asian leaders in Manila. He will later meet Xi Jinping of China and Vladimir Putin of Russia in Shenzhen, a Chinese economic hub."
+      "summary": "The next stop on President Trump’s whirlwind Asia trip is the city of Shenzhen, where he is expected to hold a trilateral meeting with Xi Jinping of China and President Vladimir V. Putin of Russia."
     },
     {
-      "title": "Ecuadorean Fishermen Who Survived U.S. Boat Strike Sue Trump Administration",
-      "link": "https://www.nytimes.com/2026/11/17/world/americas/trump-us-boat-strikes-lawsuit-ecuador-fishermen.html",
-      "pubDate": "Tue, 17 Nov 2026 17:49:40 +0000",
-      "source": "NYT World",
-      "summary": "The first lawsuit by strike survivors targets a secretive U.S. military campaign that has killed more than 240 people."
-    },
-    {
-      "title": "Has empire shaped today’s world?",
-      "link": "https://www.aljazeera.com/video/doha-debates/2026/11/17/has-empire-shaped-todays-world?traffic_source=rss",
-      "pubDate": "Tue, 17 Nov 2026 17:45:00 +0000",
+      "title": "ICE agents shove and pepper-spray pregnant woman",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/18/ice-agents-shove-and-pepper-spray-pregnant-woman?traffic_source=rss",
+      "pubDate": "Wed, 18 Nov 2026 02:17:12 +0000",
       "source": "Al Jazeera",
-      "summary": "How much of today’s world is a legacy of empire?"
+      "summary": "An American woman was shoved to the ground and pepper-sprayed by ICE agents despite telling them she was pregnant."
     },
     {
-      "title": "Jensen Huang pushes Nvidia comeback after board rejects pressure to reinstate ex-boss",
-      "link": "https://www.bbc.co.uk/news/articles/cwx2en2vrxmdo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Tue, 17 Nov 2026 17:42:26 GMT",
+      "title": "What is Trump hoping to achieve at APEC meeting in China?",
+      "link": "https://www.aljazeera.com/news/2026/11/18/what-is-trump-hoping-to-achieve-at-apec-meeting-in-china?traffic_source=rss",
+      "pubDate": "Wed, 18 Nov 2026 01:33:05 +0000",
+      "source": "Al Jazeera",
+      "summary": "US president expected to meet with Chinese leader for third time this year; hold trilateral summit with Putin."
+    },
+    {
+      "title": "Prosecutors allege man ‘destroyed’ US military plane at Irish airport",
+      "link": "https://www.aljazeera.com/news/2026/11/18/prosecutors-allege-man-destroyed-us-military-plane-at-irish-airport?traffic_source=rss",
+      "pubDate": "Wed, 18 Nov 2026 01:32:52 +0000",
+      "source": "Al Jazeera",
+      "summary": "Daithi O'Corrain, 48, has been charged with damaging a US military C-130 aircraft while it was parked overnight."
+    },
+    {
+      "title": "Man charged over ‘brutal attack’ on Somali-American in Minnesota",
+      "link": "https://www.aljazeera.com/news/2026/11/18/man-charged-over-brutal-attack-on-somali-american-in-minnesota?traffic_source=rss",
+      "pubDate": "Wed, 18 Nov 2026 01:31:53 +0000",
+      "source": "Al Jazeera",
+      "summary": "Rideshare driver Mohamed Yusuf is in a critical condition after he was allegedly assaulted by a passenger."
+    },
+    {
+      "title": "Protests as Jason Arday’s accuser speaks at Oxford University",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/18/protests-as-jason-ardays-accuser-speaks-at-oxford-university?traffic_source=rss",
+      "pubDate": "Wed, 18 Nov 2026 01:28:53 +0000",
+      "source": "Al Jazeera",
+      "summary": "Hundreds protested outside Oxford University as Nathan Cofnas, who accused Jason Arday of plagiarism, spoke at an event."
+    },
+    {
+      "title": "Nvidia says it won't reinstate Huang as firm reports bumper results",
+      "link": "https://www.bbc.co.uk/news/articles/cm2kl50vkwkdo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Wed, 18 Nov 2026 01:18:18 GMT",
       "source": "BBC",
-      "summary": "Huang says he has had an \"outpouring\" of calls from investors and others calling for him to return."
+      "summary": "The AI chip giant reported strong quarterly earnings on Tuesday after the dramatic exit of Jensen Huang."
     },
     {
-      "title": "Iraqi PM heads to Lebanon amid push to explore oil routes beyond Hormuz",
-      "link": "https://www.aljazeera.com/economy/2026/11/17/iraq-pm-heads-to-lebanon-amid-push-to-explore-oil-routes-beyond-hormuz?traffic_source=rss",
-      "pubDate": "Tue, 17 Nov 2026 17:34:27 +0000",
-      "source": "Al Jazeera",
-      "summary": "Ali al-Zaidi's talks expected to include proposed project linking Tripoli in Lebanon to Kirkuk-Baniyas pipeline."
-    },
-    {
-      "title": "Religious ruling revives memories in Israel of Rabin assassination",
-      "link": "https://www.aljazeera.com/news/2026/11/17/religious-ruling-revives-memories-in-israel-of-rabin-assassination?traffic_source=rss",
-      "pubDate": "Tue, 17 Nov 2026 17:33:18 +0000",
-      "source": "Al Jazeera",
-      "summary": "Hostility towards Palestinian participation in Israel's government fuels fears of far-right political violence."
-    },
-    {
-      "title": "Prince William Brings Climate Prize to India, in an Electric Rickshaw",
-      "link": "https://www.nytimes.com/2026/11/17/world/asia/prince-william-climate-prize-india-rickshaw.html",
-      "pubDate": "Tue, 17 Nov 2026 17:22:25 +0000",
-      "source": "NYT World",
-      "summary": "The three-wheeler that the heir to the British throne used was made by one of 15 finalists honored for creative environmental projects."
-    },
-    {
-      "title": "US loses measles elimination status after 26 years amid record case numbers",
-      "link": "https://www.bbc.co.uk/news/articles/c977p71jx0xxo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Tue, 17 Nov 2026 17:10:03 GMT",
+      "title": "Thomas Markle charged over child sex abuse material in Philippines",
+      "link": "https://www.bbc.co.uk/news/articles/ckg5ry8m49ggo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Tue, 17 Nov 2026 22:44:15 GMT",
       "source": "BBC",
-      "summary": "States have reported over 5,400 cases and 10 measles-related deaths for the first time since the early 1990s."
+      "summary": "Markle is being held in custody in the US after one charge and has previously denied all of the allegations."
     },
     {
-      "title": "CAIR defends civil rights work against Trump’s ‘smear’",
-      "link": "https://www.aljazeera.com/news/2026/11/17/cair-defends-civil-rights-work-against-trumps-smear?traffic_source=rss",
-      "pubDate": "Tue, 17 Nov 2026 17:09:49 +0000",
-      "source": "Al Jazeera",
-      "summary": "The country's largest Muslim advocacy group urges Trump to address rising hate crimes against Muslims."
+      "title": "Inside the Trump Administration’s War on the International Criminal Court",
+      "link": "https://theintercept.com/2026/11/17/trump-icc-sanctions-war-crimes/",
+      "pubDate": "Tue, 17 Nov 2026 21:42:54 +0000",
+      "source": "The Intercept",
+      "summary": "Marco Rubio publicly advocates a return to might-makes-right barbarism by threatening to use military force against the ICC.\nThe post Inside the Trump Administration’s War on the International Criminal Court appeared first on The Intercept."
     },
     {
       "title": "Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
       "link": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Tue, 17 Nov 2026 16:56:38 GMT",
+      "pubDate": "Tue, 17 Nov 2026 21:24:35 GMT",
       "source": "BBC",
       "summary": "Ukraine says the missile and drone attack on the strategic bridge in the Russian-annexed Crimea took weeks to plan."
     },
     {
-      "title": "Yemeni parliament approves law designating Houthis as ‘terrorists’",
-      "link": "https://www.aljazeera.com/news/2026/11/17/yemeni-parliament-approves-law-designating-houthis-as-terrorists?traffic_source=rss",
-      "pubDate": "Tue, 17 Nov 2026 16:53:25 +0000",
-      "source": "Al Jazeera",
-      "summary": "The law targets the group's financing and activities as Houthis make advances in southwestern Yemen."
+      "title": "Congo Ebola Outbreak: How Fear and Mistrust Drive Community Spread",
+      "link": "https://www.nytimes.com/2026/11/17/world/africa/congo-ebola-community-transmission.html",
+      "pubDate": "Tue, 17 Nov 2026 20:44:22 +0000",
+      "source": "NYT World",
+      "summary": "As the Ebola virus spreads in eastern Congo, health teams struggle to curb fatal delays in seeking medical care and the widespread desire to treat sick relatives at home."
+    },
+    {
+      "title": "Chris Van Hollen’s Evolution on Israel and Palestine",
+      "link": "https://theintercept.com/2026/11/17/van-hollen-schumer-israel-palestine-senate/",
+      "pubDate": "Tue, 17 Nov 2026 19:54:19 +0000",
+      "source": "The Intercept",
+      "summary": "Van Hollen is running against Chuck Schumer for Senate majority leader on a pro-Palestine platform. He got there after years of public pressure.\nThe post Chris Van Hollen’s Evolution on Israel and Palestine appeared first on The Intercept."
+    },
+    {
+      "title": "Prince William Brings Climate Prize to India, in an Electric Rickshaw",
+      "link": "https://www.nytimes.com/2026/11/17/world/asia/prince-william-climate-prize-india-rickshaw.html",
+      "pubDate": "Tue, 17 Nov 2026 18:59:25 +0000",
+      "source": "NYT World",
+      "summary": "The three-wheeler that the heir to the British throne used was made by one of 15 finalists honored for creative environmental projects."
+    },
+    {
+      "title": "Ecuadorean Fishermen Who Survived U.S. Boat Strike Sue Trump Administration",
+      "link": "https://www.nytimes.com/2026/11/17/world/americas/trump-us-boat-strikes-lawsuit-ecuador-fishermen.html",
+      "pubDate": "Tue, 17 Nov 2026 18:26:38 +0000",
+      "source": "NYT World",
+      "summary": "The first lawsuit by strike survivors targets a secretive U.S. military campaign that has killed more than 240 people."
+    },
+    {
+      "title": "'It was really scary': Mother describes sheltering during Russia strikes on Kyiv bridge",
+      "link": "https://www.bbc.co.uk/news/articles/cq7825234lgmo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Tue, 17 Nov 2026 17:19:57 GMT",
+      "source": "BBC",
+      "summary": "Moscow has targeted bridges in Kyiv, while Ukraine severely damaged a critical bridge linking Russia to occupied Crimea."
     },
     {
       "title": "Cash Hidden in Forests? Hungary Goes After Corruption Under Orban",
@@ -341,20 +370,6 @@
       "pubDate": "Tue, 17 Nov 2026 15:38:10 GMT",
       "source": "BBC",
       "summary": "One of the key symbols of Russia's occupation of Ukraine has suffered major damage after a seven-stage attack by Kyiv."
-    },
-    {
-      "title": "Trump lands in Asia ahead of talks with Russian and Chinese presidents",
-      "link": "https://www.bbc.co.uk/news/articles/crq5vlxxx32no?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Tue, 17 Nov 2026 12:54:32 GMT",
-      "source": "BBC",
-      "summary": "The US president said he would be open to a one-on-one meeting with Russia's Vladimir Putin \"if it's available\"."
-    },
-    {
-      "title": "Congo Ebola Outbreak: How Fear and Mistrust Drive Community Spread",
-      "link": "https://www.nytimes.com/2026/11/17/world/africa/congo-ebola-community-transmission.html",
-      "pubDate": "Tue, 17 Nov 2026 10:07:56 +0000",
-      "source": "NYT World",
-      "summary": "As the Ebola virus spreads in eastern Congo, health teams struggle to curb fatal delays in seeking medical care and the widespread desire to treat sick relatives at home."
     },
     {
       "title": "The Intercept Sues U.S. Military Over Iran Casualty Tally and Blacklist of Journalists",
@@ -376,20 +391,6 @@
       "pubDate": "Mon, 16 Nov 2026 10:51:00 +0000",
       "source": "The Intercept",
       "summary": "Pro-Palestine groups emerged to counter the pro-Israel lobby this cycle — and won.\nThe post The Year of the Pro-Palestine Super PAC appeared first on The Intercept."
-    },
-    {
-      "title": "The Future Is Bright for the Democrats, as Long as They Don’t Have to Interact With the Public",
-      "link": "https://theintercept.com/2026/11/16/democrats-whats-next-denver-2028/",
-      "pubDate": "Mon, 16 Nov 2026 10:00:00 +0000",
-      "source": "The Intercept",
-      "summary": "Don’t call them centrists. At a strategy conference in Denver, prominent Democrats talked around what they think is next.\nThe post The Future Is Bright for the Democrats, as Long as They Don’t Have to Interact With the Public appeared first on The In"
-    },
-    {
-      "title": "The Ceaseless Ceasefire",
-      "link": "https://theintercept.com/2026/11/14/israel-gaza-ceasefire-violations/",
-      "pubDate": "Sat, 14 Nov 2026 18:59:33 +0000",
-      "source": "The Intercept",
-      "summary": "Gaza, “peace,” and surviving a zombie conflict.\nThe post The Ceaseless Ceasefire appeared first on The Intercept."
     },
     {
       "title": "How Online Maps Lay Bare the US Military Bases Targeted by Iran",
@@ -494,12 +495,44 @@
   ],
   "syndicate_journal": [
     {
-      "title": "The Man Who Saw Cats in Human Faces",
-      "link": "https://nautil.us/the-man-who-saw-cats-in-human-faces-1286726/",
-      "summary": "An extraordinary case of misrecognition\nThe post The Man Who Saw Cats in Human Faces appeared first on Nautilus.",
-      "pubDate": "Tue, 17 Nov 2026 17:00:00 +0000",
+      "title": "What Goes on in Our Brains When We See an AI Face",
+      "link": "https://nautil.us/what-goes-on-in-our-brains-when-we-see-an-ai-face-1286763/",
+      "summary": "Deepfakes have jumped the uncanny valley\nThe post What Goes on in Our Brains When We See an AI Face appeared first on Nautilus.",
+      "pubDate": "Tue, 17 Nov 2026 22:30:00 +0000",
       "domain": "science",
       "source": "Nautilus"
+    },
+    {
+      "title": "Prehistoric Humans May Have Hunted Hippos With Poisoned Spears",
+      "link": "https://nautil.us/prehistoric-humans-may-have-hunted-hippos-with-poisoned-spears-1286751/",
+      "summary": "Peak Stone Age technology\nThe post Prehistoric Humans May Have Hunted Hippos With Poisoned Spears appeared first on Nautilus.",
+      "pubDate": "Tue, 17 Nov 2026 21:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "Do Peasants Hold the Key to Humanity’s Future?",
+      "link": "https://jacobin.com/2026/11/review-aslany-peasantry-agriculture-ecology",
+      "summary": "In 1966, the sociologist Teodor Shanin boldly  that “peasants are the majority of mankind.” This declaration coincided with the beginning of a decades-long increase in academic focus on the peasantry, which, in addition to its demographic weight, was the driving force of some of the most important p",
+      "pubDate": "2026-11-17T20:04:33.891Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "Woodcocks and Snipes: The Quintessential Odd Birds",
+      "link": "https://nautil.us/woodcocks-and-snipes-the-quintessential-odd-birds-1286746/",
+      "summary": "They likely got odder after they “dropped off” onto islands\nThe post Woodcocks and Snipes: The Quintessential Odd Birds appeared first on Nautilus.",
+      "pubDate": "Tue, 17 Nov 2026 19:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "A History of Taxing the Rich in California",
+      "link": "https://jacobin.com/2026/11/california-ballot-measures-billionaires-taxation-inequality",
+      "summary": "In the wake of the defeat of Proposition 40, the billionaire tax in California, observers are parsing the loss. The good news is that there were actually two progressive tax ballot measures before the Golden State’s electorate this year, and while we lost Prop 40, we won the other one, Prop 3. This ",
+      "pubDate": "2026-11-17T18:59:46.933Z",
+      "domain": "politics",
+      "source": "Jacobin"
     },
     {
       "title": "Reject “Electoralism.” Embrace Socialist Electoral Strategy.",
@@ -510,36 +543,12 @@
       "source": "Jacobin"
     },
     {
-      "title": "The 1973 Athens Polytechnic Uprising Still Matters Today",
-      "link": "https://jacobin.com/2026/11/athens-polytechnic-uprising-democracy-imperialism",
-      "summary": "A military dictatorship had ruled Greece for more than six years when, in November 1973, hundreds of student occupied the Athens Polytechnic, transforming their university into a center of resistance. Thousands of workers, school students, and ordinary citizens soon joined them.\nOn the pillars of th",
-      "pubDate": "2026-11-17T15:20:04.143Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
-      "title": "Sniffing Out the Link Between Odor and Disease",
-      "link": "https://nautil.us/sniffing-out-the-link-between-odor-and-disease-1286689/",
-      "summary": "Molecules that waft from breath, skin and urine can hold clues to Parkinson’s, cancer and other ills. Scientists hope to harness these signatures for non-invasive medical tests\nThe post Sniffing Out the Link Between Odor and Disease appeared first on Nautilus.",
-      "pubDate": "Tue, 17 Nov 2026 15:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
       "title": "The Language of Gender Diversity in Zulu",
       "link": "https://daily.jstor.org/the-language-of-gender-diversity-in-zulu/",
       "summary": "Once used to stigmatize queer people, traditional Zulu terms are being reclaimed as expressions of identity.\nThe post The Language of Gender Diversity in Zulu appeared first on JSTOR Daily.",
       "pubDate": "Tue, 17 Nov 2026 14:27:20 +0000",
       "domain": "history",
       "source": "JSTOR Daily"
-    },
-    {
-      "title": "Scientists Just Found Something Strange Under the Skin of Sea Pigs",
-      "link": "https://nautil.us/scientists-just-found-something-strange-under-the-skin-of-sea-pigs-1286685/",
-      "summary": "A rare, detailed look at an unusual deep-sea creature\nThe post Scientists Just Found Something Strange Under the Skin of Sea Pigs appeared first on Nautilus.",
-      "pubDate": "Tue, 17 Nov 2026 13:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
     },
     {
       "title": "\"A really intense experience to be having right now\"",
@@ -556,14 +565,6 @@
       "pubDate": "Tue, 17 Nov 2026 11:00:00 GMT",
       "domain": "philosophy",
       "source": "Aeon"
-    },
-    {
-      "title": "Inside the Epic Battle Over Control of a CA Grocery Union",
-      "link": "https://jacobin.com/2026/11/ufcw-local-8-elections-democracy-reform",
-      "summary": "Eric Marcuz is one of the most naturally gifted rank-and-file organizers I have ever met. Overflowing with passion for his union, love for his coworkers, and C4 Energy drinks, he has been spending what little time he has outside of working full time as a dairy clerk at a Safeway grocery store in Red",
-      "pubDate": "2026-11-16T21:11:08.062Z",
-      "domain": "politics",
-      "source": "Jacobin"
     },
     {
       "title": "What Makes Up the Cosmos? A 20-Year Survey Hints That Something Is Missing.",
@@ -710,17 +711,17 @@
       "source": "Sapiens"
     },
     {
-      "title": "Exercise adherence and subjective wellbeing in junior high school students: a parallel mediation model of psychological resilience and academic stress",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.2007490",
-      "summary": "IntroductionAdolescent subjective wellbeing is closely linked to physical exercise, while the serial psychological mechanisms through which exercise adherence influences subjective wellbeing remain insufficiently understood. This study aimed to investigate whether psychological resilience and academ",
+      "title": "Interrelationships among self-regulated learning, self-efficacy, future thinking, and academic buoyancy among students: a structural model",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1965451",
+      "summary": "BackgroundThis study explored the structural relationships among self-regulated learning (SRL), self-efficacy (SE), future thinking (FT), and academic buoyancy (AB) within a Middle Eastern higher education setting.MethodsUsing structural equation modeling (SEM), the study examined direct and indirec",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "Associations between perceived school physical activity environment and depressive symptoms among university students: a cross-sectional serial mediation analysis of physical health and role-emotional functioning",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1901965",
-      "summary": "PurposeBased on ecological systems theory and the health promotion model, this study examined cross-sectional associations between perceived school physical activity environment and depressive symptoms, focusing on testing the chain mediating role of physical health and role-emotional functioning.Me",
+      "title": "Correction: A study on the visual behavior and cognitive preferences of female college students in outdoor campus spaces based on eye-tracking",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.2043577",
+      "summary": "",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
@@ -736,64 +737,64 @@
   ],
   "misinfo_toilet": [
     {
-      "headline": "The Ceaseless Ceasefire",
-      "fragment": "This is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
-      "splice": "The Ceaseless Ceasefire insofar as this is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
-      "seed": 20261135
-    },
-    {
-      "headline": "How Online Maps Lay Bare the US Military Bases Targeted by Iran",
-      "fragment": "An ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
-      "splice": "How Online Maps Lay Bare the US Military Bases Targeted by Iran because an ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
-      "seed": 20261136
-    },
-    {
-      "headline": "Has empire shaped today’s world?",
-      "fragment": "We live in a world where there is more and more information, and less and less meaning.",
-      "splice": "Has empire shaped today’s world? ...as we live in a world where there is more and more information, and less and less meaning.",
-      "seed": 20261137
-    },
-    {
       "headline": "Satellite Images Show Extent of Trump Admin’s Tree-Felling at DC Golf Course",
-      "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
-      "splice": "Satellite Images Show Extent of Trump Admin’s Tree-Felling at DC Golf Course the system notes that the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
-      "seed": 20261138
+      "fragment": "Everywhere it is machines—real ones, not figurative ones: machines driving other machines, machines being driven by other machines, with all the necessary couplings and connections.",
+      "splice": "Satellite Images Show Extent of Trump Admin’s Tree-Felling at DC Golf Course the system notes that everywhere it is machines—real ones, not figurative ones: machines driving other machines, machines being driven by other machines, with all the necessary couplings and connections.",
+      "seed": 20261120
     },
     {
-      "headline": "Cash Hidden in Forests? Hungary Goes After Corruption Under Orban",
-      "fragment": "There is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
-      "splice": "Cash Hidden in Forests? Hungary Goes After Corruption Under Orban because there is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
-      "seed": 20261139
+      "headline": "Man charged over ‘brutal attack’ on Somali-American in Minnesota",
+      "fragment": "The current ruling ontology denies any possibility of a social causation of mental illness. The chemico-biologization of mental illness is of course strictly commensurate with its depoliticization.",
+      "splice": "Man charged over ‘brutal attack’ on Somali-American in Minnesota consequently the current ruling ontology denies any possibility of a social causation of mental illness. The chemico-biologization of mental illness is of course strictly commensurate with its depoliticization.",
+      "seed": 20261121
     },
     {
-      "headline": "Ecuadorean Fishermen Who Survived U.S. Boat Strike Sue Trump Administration",
-      "fragment": "The privatization of the organs will only begin with the shame felt by man at the sight of man.",
-      "splice": "Ecuadorean Fishermen Who Survived U.S. Boat Strike Sue Trump Administration underneath the privatization of the organs will only begin with the shame felt by man at the sight of man.",
-      "seed": 20261140
-    },
-    {
-      "headline": "ICE Shot Pepper Spray Into a Car in a Traffic Stop, Then Broke a Detainee’s Collarbone",
-      "fragment": "Pretending, or dissimulating, leaves the principle of reality intact: the difference is always clear, it is simply masked.",
-      "splice": "ICE Shot Pepper Spray Into a Car in a Traffic Stop, Then Broke a Detainee’s Collarbone the signal resolves into pretending, or dissimulating, leaves the principle of reality intact: the difference is always clear, it is simply masked.",
-      "seed": 20261141
-    },
-    {
-      "headline": "CAIR defends civil rights work against Trump’s ‘smear’",
-      "fragment": "Underneath all reason lies delirium and drift.",
-      "splice": "CAIR defends civil rights work against Trump’s ‘smear’ ...as underneath all reason lies delirium and drift.",
-      "seed": 20261142
-    },
-    {
-      "headline": "Iraqi PM heads to Lebanon amid push to explore oil routes beyond Hormuz",
-      "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
-      "splice": "Iraqi PM heads to Lebanon amid push to explore oil routes beyond Hormuz because the revolutionary lives in the gap which separates technical progress from social totality.",
-      "seed": 20261143
+      "headline": "Prosecutors allege man ‘destroyed’ US military plane at Irish airport",
+      "fragment": "Traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
+      "splice": "Prosecutors allege man ‘destroyed’ US military plane at Irish airport as if traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
+      "seed": 20261122
     },
     {
       "headline": "How the attack on Crimean Bridge unfolded",
-      "fragment": "The current ruling ontology denies any possibility of a social causation of mental illness. The chemico-biologization of mental illness is of course strictly commensurate with its depoliticization.",
-      "splice": "How the attack on Crimean Bridge unfolded while the current ruling ontology denies any possibility of a social causation of mental illness. The chemico-biologization of mental illness is of course strictly commensurate with its depoliticization.",
-      "seed": 20261144
+      "fragment": "It is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
+      "splice": "How the attack on Crimean Bridge unfolded insofar as it is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
+      "seed": 20261123
+    },
+    {
+      "headline": "Congo Ebola Outbreak: How Fear and Mistrust Drive Community Spread",
+      "fragment": "Art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
+      "splice": "Congo Ebola Outbreak: How Fear and Mistrust Drive Community Spread as if art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
+      "seed": 20261124
+    },
+    {
+      "headline": "Nvidia says it won't reinstate Huang as firm reports bumper results",
+      "fragment": "Reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
+      "splice": "Nvidia says it won't reinstate Huang as firm reports bumper results underneath reality no longer has the time to take on the appearance of reality. It no longer even surpasses fiction: it captures every dream even before it takes on the appearance of a dream.",
+      "seed": 20261125
+    },
+    {
+      "headline": "Ecuadorean Fishermen Who Survived U.S. Boat Strike Sue Trump Administration",
+      "fragment": "It is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
+      "splice": "Ecuadorean Fishermen Who Survived U.S. Boat Strike Sue Trump Administration the signal resolves into it is impossible to conceive of fascism or Stalinism without propaganda, but capitalism can proceed perfectly well, in some ways better, without anyone making a case for it.",
+      "seed": 20261126
+    },
+    {
+      "headline": "The Intercept Sues U.S. Military Over Iran Casualty Tally and Blacklist of Journalists",
+      "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
+      "splice": "The Intercept Sues U.S. Military Over Iran Casualty Tally and Blacklist of Journalists because the breast is a machine that produces milk, and the mouth a machine coupled to it.",
+      "seed": 20261127
+    },
+    {
+      "headline": "Protests as Jason Arday’s accuser speaks at Oxford University",
+      "fragment": "The simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
+      "splice": "Protests as Jason Arday’s accuser speaks at Oxford University consequently the simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
+      "seed": 20261128
+    },
+    {
+      "headline": "Inside the Secretive, Contradictory World of Campaign Ads Funded by AI Super PACs",
+      "fragment": "It is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
+      "splice": "Inside the Secretive, Contradictory World of Campaign Ads Funded by AI Super PACs consequently it is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
+      "seed": 20261129
     }
   ]
 }
