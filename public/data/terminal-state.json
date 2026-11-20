@@ -1,7 +1,71 @@
 {
-  "generated_at": "2026-11-20T11:02:50.810Z",
+  "generated_at": "2026-11-20T19:45:36.869Z",
   "threat_intel": {
     "cisa_kev": [
+      {
+        "cveID": "CVE-2026-129448",
+        "vendorProject": "Apache",
+        "product": "Roller",
+        "vulnerabilityName": "Apache Roller Deserialization of Untrusted Data Vulnerability",
+        "dateAdded": "2026-11-20",
+        "shortDescription": "Apache Roller contains a deserialization of untrusted data vulnerability that allows an unauthenticated remote attacker to execute arbitrary code via the XML-RPC endpoint, which accepts and deserializes vendor extension types before authentication. This CVE covers the same underlying vulnerability as CVE-2026-82384 but applies to a broader range of affected versions.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-11-23",
+        "knownRansomwareCampaignUse": "Unknown",
+        "forensicTriage": "Yes",
+        "notes": "https://lists.apache.org/thread/cc0jck13nb9vvcmzxzwotr6n16mx28z9 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-129448",
+        "cwes": [
+          "CWE-502"
+        ]
+      },
+      {
+        "cveID": "CVE-2026-123890",
+        "vendorProject": "Broadcom",
+        "product": "VMware vCenter",
+        "vulnerabilityName": "VMWare vCenter Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+        "dateAdded": "2026-11-20",
+        "shortDescription": "Broadcom VMware vCenter contains an authentication bypass using an alternate path or channel vulnerability in the VMware Directory Service that allows an unauthenticated attacker with network access to vCenter to bypass authentication and gain unauthorized access to the system.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines",
+        "dueDate": "2026-11-23",
+        "knownRansomwareCampaignUse": "Unknown",
+        "forensicTriage": "Yes",
+        "notes": "https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/39495 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-123890",
+        "cwes": [
+          "CWE-288"
+        ]
+      },
+      {
+        "cveID": "CVE-2025-42884",
+        "vendorProject": "SAP",
+        "product": "NetWeaver",
+        "vulnerabilityName": "SAP NetWeaver Improper Neutralization of Special Elements in Data Query Logic Vulnerability",
+        "dateAdded": "2026-11-20",
+        "shortDescription": "SAP NetWeaver Enterprise Portal contains an improper neutralization of special elements in data query logic vulnerability that allows an unauthenticated attacker to disclose or modify server information via injected JNDI environment properties or a URL used during JNDI lookup operations.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-11-23",
+        "knownRansomwareCampaignUse": "Unknown",
+        "forensicTriage": "No",
+        "notes": "https://support.sap.com/en/my-support/knowledge-base/security-notes-news/bulletin-2025.html ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2025-42884",
+        "cwes": [
+          "CWE-943"
+        ]
+      },
+      {
+        "cveID": "CVE-2026-76466",
+        "vendorProject": "Cisco",
+        "product": "Expressway Series",
+        "vulnerabilityName": "Cisco Expressway Series Use of Hard-coded Credentials Vulnerability",
+        "dateAdded": "2026-11-20",
+        "shortDescription": "Cisco Expressway Series contains a use of hard-coded credentials vulnerability that allows an unauthenticated, remote attacker with persistent cookies and network access to execute commands as root on a clustered device via the database service.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-11-23",
+        "knownRansomwareCampaignUse": "Unknown",
+        "forensicTriage": "Yes",
+        "notes": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vcs-static-cred-hr7EWZ8t ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-76466",
+        "cwes": [
+          "CWE-798"
+        ]
+      },
       {
         "cveID": "CVE-2024-10441",
         "vendorProject": "Synology",
@@ -180,97 +244,108 @@
         "cwes": [
           "CWE-78"
         ]
-      },
-      {
-        "cveID": "CVE-2026-116606",
-        "vendorProject": "Barracuda Networks",
-        "product": "Barracuda Email Security Gateway (ESG)",
-        "vulnerabilityName": "Barracuda Networks Email Security Gateway (ESG) Authentication Bypass Using an Alternate Path or Channel Vulnerability",
-        "dateAdded": "2026-11-10",
-        "shortDescription": "Barracuda Networks Email Security Gateway (ESG) contains an authentication bypass using an alternate path or channel that could allow an unauthenticated remote attacker to invoke a configuration-import function and restore a crafted, compatible backup archive, resulting in unauthorized modification of the appliance’s global configuration. This vulnerability can be chained with CVE-2026-111560.",
-        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "dueDate": "2026-11-13",
-        "knownRansomwareCampaignUse": "Unknown",
-        "forensicTriage": "Yes",
-        "notes": "https://trust.barracuda.com/security/pre-authentication-authorization-bypass-command-injection ; https://github.com/mandiant/Vulnerability-Disclosures/blob/master/2026/MNDT-2026-0042.md ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-116606",
-        "cwes": [
-          "CWE-288"
-        ]
-      },
-      {
-        "cveID": "CVE-2026-125350",
-        "vendorProject": "Google",
-        "product": "Chromium",
-        "vulnerabilityName": "Google Chromium Use-After-Free Vulnerability",
-        "dateAdded": "2026-11-10",
-        "shortDescription": "Google Chromium contains a use-after-free vulnerability in the XML component that could allow a remote attacker to execute arbitrary code inside the sandbox via a specially crafted webpage. This vulnerability could affect multiple web browsers that utilize Chromium, including, but not limited to, Google Chrome, Microsoft Edge, and Opera.",
-        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "dueDate": "2026-11-24",
-        "knownRansomwareCampaignUse": "Unknown",
-        "forensicTriage": "No",
-        "notes": "https://chromereleases.googleblog.com/2026/11/stable-channel-update-for-desktop_018223192.html ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-125350",
-        "cwes": [
-          "CWE-416"
-        ]
-      },
-      {
-        "cveID": "CVE-2026-102895",
-        "vendorProject": "GPUStack",
-        "product": "GPUStack",
-        "vulnerabilityName": "GPUStack Improper Authentication Vulnerability",
-        "dateAdded": "2026-11-09",
-        "shortDescription": "GPUStack contains an improper authentication vulnerability which could allow unauthenticated administrative access, including user and model changes, persistent administrator API-key creation, disclosure of worker and cloud-provider secrets, and code execution through POST /v2/inference-backends/from-yaml.",
-        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "dueDate": "2026-11-12",
-        "knownRansomwareCampaignUse": "Unknown",
-        "forensicTriage": "Yes",
-        "notes": "This vulnerability affects an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: ; https://github.com/gpustack/gpustack/security/advisories/GHSA-gj9m-f8ph-pmhr ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-102895",
-        "cwes": [
-          "CWE-287",
-          "CWE-290",
-          "CWE-346"
-        ]
-      },
-      {
-        "cveID": "CVE-2026-123158",
-        "vendorProject": "OpenBSD",
-        "product": "OpenSSH",
-        "vulnerabilityName": "OpenBSD OpenSSH Unexpected Status Code or Return Value Vulnerability",
-        "dateAdded": "2026-11-09",
-        "shortDescription": "OpenBSD OpenSSH on Linux contains an unexpected status code or return value vulnerability that could allow for authentication bypass.",
-        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "dueDate": "2026-11-12",
-        "knownRansomwareCampaignUse": "Unknown",
-        "forensicTriage": "Yes",
-        "notes": "This vulnerability affects an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: https://www.openssh.org/releasenotes.html ; https://alpinelinux.org/posts/2026-11-05-openssh-password-authentication-bypass/ ; https://github.com/openssh/openssh-portable/commit/4353fdc43ef646c43a8dda7025cc1a898caf1482 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-123158",
-        "cwes": [
-          "CWE-394"
-        ]
       }
     ],
     "urlhaus": []
   },
   "world_monitor": [
     {
-      "title": "Sean Duffy’s FAA Fiasco",
-      "link": "https://theintercept.com/2026/11/20/faa-ground-stop-flights-duffy/",
-      "pubDate": "Fri, 20 Nov 2026 11:00:00 +0000",
-      "source": "The Intercept",
-      "summary": "Aviation journalist Jeff Wise breaks down some misconceptions about air traffic control while the nation waits for answers on the ground stop.\nThe post Sean Duffy’s FAA Fiasco appeared first on The Intercept."
-    },
-    {
-      "title": "A Summit Gives Putin the Win He Craves: Equal Stature With Superpowers",
-      "link": "https://www.nytimes.com/2026/11/20/world/europe/putin-trump-xi-summit-apec.html",
-      "pubDate": "Fri, 20 Nov 2026 10:56:22 +0000",
-      "source": "NYT World",
-      "summary": "Standing alongside the U.S. and Chinese leaders, President Vladimir V. Putin secured a symbolic triumph in his long quest to restore Russia’s place as a global power."
-    },
-    {
-      "title": "Can the Rohingya genocide verdict deliver justice?",
-      "link": "https://www.aljazeera.com/opinions/2026/11/20/can-the-rohingya-genocide-verdict-deliver-justice?traffic_source=rss",
-      "pubDate": "Fri, 20 Nov 2026 10:45:20 +0000",
+      "title": "Indian man sentenced to 19 years in US Sikh separatist assassination plot",
+      "link": "https://www.aljazeera.com/news/2026/11/20/indian-man-sentenced-to-19-years-in-us-sikh-separatist-assassination-plot?traffic_source=rss",
+      "pubDate": "Fri, 20 Nov 2026 19:40:07 +0000",
       "source": "Al Jazeera",
-      "summary": "The ICJ has ruled against Myanmar, but safe return, citizenship and reparations remain far from guaranteed."
+      "summary": "Nikhil Gupta jailed for conspiring to hire a hitman to kill New York-based Sikh leader, Gurpatwant Singh Pannun."
+    },
+    {
+      "title": "Anthropic shares fall after blockbuster opening as wider tech sell-off continues",
+      "link": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Fri, 20 Nov 2026 19:38:46 GMT",
+      "source": "BBC",
+      "summary": "Other tech companies have also taken a hit as share markets broadly slump."
+    },
+    {
+      "title": "Nepal cricket fans celebrate their team’s global rise",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/20/nepal-cricket-fans-celebrate-their-teams-global-rise?traffic_source=rss",
+      "pubDate": "Fri, 20 Nov 2026 19:24:26 +0000",
+      "source": "Al Jazeera",
+      "summary": "Nepal’s cricket fans have witnessed a transformation in their national team’s fortunes in recent years."
+    },
+    {
+      "title": "Belgrade mayor charged with assaulting opposition politician in Serbia",
+      "link": "https://www.aljazeera.com/news/2026/11/20/belgrade-mayor-charged-with-assaulting-opposition-politician-in-serbia?traffic_source=rss",
+      "pubDate": "Fri, 20 Nov 2026 19:15:18 +0000",
+      "source": "Al Jazeera",
+      "summary": "Prosecutors say Aleksandar Sapic caused serious facial injuries to a female councillor and seek a three-year sentence."
+    },
+    {
+      "title": "What are the implications of the ICJ Rohingya genocide ruling?",
+      "link": "https://www.aljazeera.com/video/inside-story/2026/11/20/what-are-the-implications-of-the-icj-rohingya-genocide-ruling?traffic_source=rss",
+      "pubDate": "Fri, 20 Nov 2026 19:12:14 +0000",
+      "source": "Al Jazeera",
+      "summary": "Verdict against Myanmar may have implications for Israel's genocide in Gaza."
+    },
+    {
+      "title": "Former US national security adviser confronted by students on Gaza",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/20/former-us-national-security-adviser-confronted-by-students-on-gaza?traffic_source=rss",
+      "pubDate": "Fri, 20 Nov 2026 18:51:26 +0000",
+      "source": "Al Jazeera",
+      "summary": "Former US National Security Adviser Jake Sullivan was confronted by student protesters during a speaking event at MIT."
+    },
+    {
+      "title": "UK to explore even closer ties with EU after agreeing deal, says Burnham",
+      "link": "https://www.bbc.co.uk/news/articles/c6jreyqgw4e9o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Fri, 20 Nov 2026 17:49:48 GMT",
+      "source": "BBC",
+      "summary": "The UK-EU deal agreed on Friday covers British food exports, emissions trading and a youth experience scheme."
+    },
+    {
+      "title": "Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk",
+      "link": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Fri, 20 Nov 2026 16:54:29 GMT",
+      "source": "BBC",
+      "summary": "Nobody was hurt and no damage has been reported, but Warsaw described the incident as a \"provocation\" from Moscow."
+    },
+    {
+      "title": "Iraqi Forces Enter Stronghold of Powerful Iran-Backed Militia",
+      "link": "https://www.nytimes.com/2026/11/20/world/middleeast/iraq-militia-iran-kataib-hezbollah.html",
+      "pubDate": "Fri, 20 Nov 2026 16:18:21 +0000",
+      "source": "NYT World",
+      "summary": "For the first time in over a decade, army and police units were deployed in territory controlled by the group, Kataib Hezbollah. But it was unclear if it would withdraw its forces."
+    },
+    {
+      "title": "The War Is Ravaging Ukraine’s Wildlife, Too",
+      "link": "https://www.nytimes.com/2026/11/20/world/europe/ukraine-wildlife-war.html",
+      "pubDate": "Fri, 20 Nov 2026 16:05:55 +0000",
+      "source": "NYT World",
+      "summary": "The war in Ukraine has had untold consequences for dolphins, moose, storks and a huge range of other wildlife whose habitats are now rife with anti-drone netting, minefields or in the direct line of fire."
+    },
+    {
+      "title": "Nearly 600 women killed in South Africa within three months",
+      "link": "https://www.bbc.co.uk/news/articles/c69vwyjp0339o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Fri, 20 Nov 2026 15:55:16 GMT",
+      "source": "BBC",
+      "summary": "Police officials called for \"greater efforts to prevent... violence\" against women and children."
+    },
+    {
+      "title": "‘Russian Objects’ Crashed in Poland, Officials Say. Here’s What We Can See.",
+      "link": "https://www.nytimes.com/2026/11/20/world/europe/poland-russia-airspace-missile.html",
+      "pubDate": "Fri, 20 Nov 2026 15:49:30 +0000",
+      "source": "NYT World",
+      "summary": "There were no injuries or damage from three incidents that the Polish authorities called a likely “provocation” from Russia during military exercises by Ukraine’s allies."
+    },
+    {
+      "title": "Gen Z Is Driving Global Political Change, Aiding Far Left and Far Right",
+      "link": "https://www.nytimes.com/2026/11/20/world/europe/youth-protests-far-right-left.html",
+      "pubDate": "Fri, 20 Nov 2026 14:17:02 +0000",
+      "source": "NYT World",
+      "summary": "Protests across Europe are the latest example of global youth anger that has driven demonstrations and election upsets."
+    },
+    {
+      "title": "Russia targets Kyiv crossings days after Ukraine hits Crimean Bridge",
+      "link": "https://www.bbc.co.uk/news/articles/c6x29gn4pdn9o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Fri, 20 Nov 2026 13:01:16 GMT",
+      "source": "BBC",
+      "summary": "Russia launched one of its biggest air attacks yet as it rejected the prospect of security guarantees for Ukraine."
     },
     {
       "title": "Victims of Clerical Sexual Abuse Want More Engagement From Pope Leo",
@@ -278,118 +353,6 @@
       "pubDate": "Fri, 20 Nov 2026 10:38:19 +0000",
       "source": "NYT World",
       "summary": "As he toured South America this month, Pope Leo XIV met with 11 victims of clerical sexual abuse. Some want him to engage more meaningfully."
-    },
-    {
-      "title": "Drone operator removes Man United training footage and issues apology",
-      "link": "https://www.aljazeera.com/sports/2026/11/20/drone-operator-removes-man-united-training-footage-and-issues-apology?traffic_source=rss",
-      "pubDate": "Fri, 20 Nov 2026 10:37:20 +0000",
-      "source": "Al Jazeera",
-      "summary": "The footage, filmed during new manager Mauricio Pochettino's first training session, was uploaded online."
-    },
-    {
-      "title": "Easing Back From Brexit: What to Expect at U.K. Summit With E.U.",
-      "link": "https://www.nytimes.com/2026/11/20/world/europe/uk-eu-summit-brexit.html",
-      "pubDate": "Fri, 20 Nov 2026 10:36:35 +0000",
-      "source": "NYT World",
-      "summary": "Prime Minister Andy Burnham is in Brussels to announce a deal to reset Britain’s relationship with the European Union, a decade after it left the bloc."
-    },
-    {
-      "title": "Three Kyiv bridges hit during major Russian missile attack",
-      "link": "https://www.bbc.co.uk/news/articles/c6x29gn4pdn9o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Fri, 20 Nov 2026 10:20:08 GMT",
-      "source": "BBC",
-      "summary": "Five people were killed in a wave of strikes which follow Ukraine's successful targeting of the Crimean Bridge."
-    },
-    {
-      "title": "Searching for the next Messi at the Under-17 World Cup",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/20/searching-for-the-next-messi-at-the-under-17-world-cup?traffic_source=rss",
-      "pubDate": "Fri, 20 Nov 2026 10:03:11 +0000",
-      "source": "Al Jazeera",
-      "summary": "Nearly 100 football scouts are in Qatar, searching for the next global superstar at the FIFA Under-17 World Cup."
-    },
-    {
-      "title": "The War Is Ravaging Ukraine’s Wildlife, Too",
-      "link": "https://www.nytimes.com/2026/11/20/world/europe/ukraine-wildlife-war.html",
-      "pubDate": "Fri, 20 Nov 2026 10:00:26 +0000",
-      "source": "NYT World",
-      "summary": "The war in Ukraine has had untold consequences for dolphins, moose, storks and a huge range of other wildlife whose habitats are now rife with anti-drone netting, minefields or in the direct line of fire."
-    },
-    {
-      "title": "Russia unleashes retaliatory barrage on Kyiv bridges",
-      "link": "https://www.aljazeera.com/news/2026/11/20/russia-unleashes-retaliatory-barrage-on-kyiv-bridges?traffic_source=rss",
-      "pubDate": "Fri, 20 Nov 2026 09:54:00 +0000",
-      "source": "Al Jazeera",
-      "summary": "The attack follows Putin's pledge of 'painful' response to Ukraine's attack on symbolic Crimean bridge."
-    },
-    {
-      "title": "Kenya’s growing doping crisis overshadows legacy as athletics powerhouse",
-      "link": "https://www.aljazeera.com/sports/2026/11/20/kenyas-growing-doping-crisis-overshadows-legacy-as-athletics-powerhouse?traffic_source=rss",
-      "pubDate": "Fri, 20 Nov 2026 09:16:30 +0000",
-      "source": "Al Jazeera",
-      "summary": "More than 140 Kenyan athletes suspended by the Athletics Integrity Unit since 2017, most of them distance runners."
-    },
-    {
-      "title": "UK and EU to agree youth mobility scheme, BBC understands",
-      "link": "https://www.bbc.co.uk/news/articles/c623j4kpg94go?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Fri, 20 Nov 2026 07:14:46 GMT",
-      "source": "BBC",
-      "summary": "The scheme is expected to be approved at Friday's UK-EU summit, with new deals on food trade and carbon emissions also on the table."
-    },
-    {
-      "title": "Gen Z Is Driving Global Political Change, Aiding Far Left and Far Right",
-      "link": "https://www.nytimes.com/2026/11/20/world/europe/youth-protests-far-right-left.html",
-      "pubDate": "Fri, 20 Nov 2026 05:01:07 +0000",
-      "source": "NYT World",
-      "summary": "Protests planned across Europe on Friday are the latest example of global youth anger that has driven demonstrations and election upsets."
-    },
-    {
-      "title": "'I tell my son it's just fireworks': Life inside Yemeni city besieged by Houthis",
-      "link": "https://www.bbc.co.uk/news/articles/cx7v2d8q879eo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Fri, 20 Nov 2026 00:13:21 GMT",
-      "source": "BBC",
-      "summary": "Orla Guerin speaks to seven people trapped in the key city of Taiz, cut off from the outside world for weeks."
-    },
-    {
-      "title": "Anthropic becomes one of world's most valuable public companies in stock market debut",
-      "link": "https://www.bbc.co.uk/news/articles/c3x29ggenz12o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Thu, 19 Nov 2026 23:33:51 GMT",
-      "source": "BBC",
-      "summary": "Anthropic is the first purely AI company to be publicly listed, creating a test for the entire industry."
-    },
-    {
-      "title": "Elon Musk Thinks You’re an Idiot",
-      "link": "https://theintercept.com/2026/11/19/elon-musk-rebrand-moderate-trump/",
-      "pubDate": "Thu, 19 Nov 2026 20:31:00 +0000",
-      "source": "The Intercept",
-      "summary": "The man with a custom dark MAGA hat rebrands: “I’m not sure what MAGA means.”\nThe post Elon Musk Thinks You’re an Idiot appeared first on The Intercept."
-    },
-    {
-      "title": "Myanmar committed genocide against Rohingya minority, top UN court rules",
-      "link": "https://www.bbc.co.uk/news/articles/c804wzp20ddvo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Thu, 19 Nov 2026 20:07:02 GMT",
-      "source": "BBC",
-      "summary": "The unprecedented International Court of Justice verdict concerns a 2017 military crackdown that killed thousands."
-    },
-    {
-      "title": "Just Rinse It Off, Army Says Before Blowing Up Five Tons of Lead Compound",
-      "link": "https://theintercept.com/2026/11/19/iowa-lead-ammunition-detonation-army/",
-      "pubDate": "Thu, 19 Nov 2026 19:37:59 +0000",
-      "source": "The Intercept",
-      "summary": "The Army appears to be winging its detonation of unstable lead azide at its Iowa ammunition plant.\nThe post Just Rinse It Off, Army Says Before Blowing Up Five Tons of Lead Compound appeared first on The Intercept."
-    },
-    {
-      "title": "After Democrats’ Midterm Romp, What’s Stopping Governors From Commuting Death Sentences?",
-      "link": "https://theintercept.com/2026/11/19/death-penalty-commutations-execution-newsom-dewine/",
-      "pubDate": "Thu, 19 Nov 2026 19:08:35 +0000",
-      "source": "The Intercept",
-      "summary": "California Gov. Gavin Newsom spared the lives of 548 people on death row. Other governors might follow suit.\nThe post After Democrats’ Midterm Romp, What’s Stopping Governors From Commuting Death Sentences? appeared first on The Intercept."
-    },
-    {
-      "title": "ICE Spreads Misinformation About Securing Your iPhone. Here’s How to Really Do It.",
-      "link": "https://theintercept.com/2026/11/19/ice-misinformation-iphone-security/",
-      "pubDate": "Thu, 19 Nov 2026 17:06:48 +0000",
-      "source": "The Intercept",
-      "summary": "No, your iPhone isn’t acting as a covert microphone by default — but there are steps you can take to secure your device.\nThe post ICE Spreads Misinformation About Securing Your iPhone. Here’s How to Really Do It. appeared first on The Intercept."
     },
     {
       "title": "How Online Maps Lay Bare the US Military Bases Targeted by Iran",
@@ -410,7 +373,7 @@
       "link": "https://www.bellingcat.com/news/2026/10/29/eu-satellite-imagery-delayed-over-gaza-and-parts-of-west-bank-by-24-hours/",
       "pubDate": "Thu, 29 Oct 2026 22:15:59 +0000",
       "source": "Bellingcat",
-      "summary": "Sign up here to receive Bellingcat’s biggest investigations by email as soon as they are published. Become a member and support our work here. Imagery captured by the European Space Agency’s freely available Sentinel-2 and Sentinel-1 satellites appea"
+      "summary": "Sign up here to receive Bellingcat’s biggest investigations by email as soon as they are published. Become a member and support our work here. Imagery captured by the European Union Space Program’s freely available Sentinel-2 and Sentinel-1 satellite"
     },
     {
       "title": "Can LLMs Supercharge Geolocations? Our Tests Show Big Improvements But Humans Remain Key",
@@ -428,6 +391,13 @@
     }
   ],
   "syndication": [
+    {
+      "title": "Opening a 400-Year-Old Cryptex",
+      "link": "https://www.schneier.com/blog/archives/2026/11/opening-a-400-year-old-cryptex.html",
+      "pubDate": "2026-11-20T12:04:46.000Z",
+      "author": "Schneier on Security",
+      "content": "Researchers used CT scanning technology to recover the code and open a 400-year-old cryptex padlock.\nYou can buy a USB-drive cryptex."
+    },
     {
       "title": "Pluralistic: Lisa Hanawalt's \"I Can't Stop Thinking About Horses and Sex\" (20 Nov 2026)",
       "link": "https://pluralistic.net/2026/11/20/intrusive-horse-thoughts/",
@@ -471,13 +441,6 @@
       "content": "This seems like a good thing:\nGoogle Deepmind researchers used agentic AI to mathematically prove, or “formally verify,” a number of the Signal protocol’s key cryptographic guarantees­a landmark development for the widely used cryptography and AI itself.\nConducted as a sort of proof-of-concept proje"
     },
     {
-      "title": "Usable Security at Luxury Hotels",
-      "link": "https://www.schneier.com/blog/archives/2026/11/usable-security-at-luxury-hotels.html",
-      "pubDate": "2026-11-16T12:04:42.000Z",
-      "author": "Schneier on Security",
-      "content": "Interesting case study from luxury hotels. Attackers used a fake booking request to gain access to a reservations inbox, where they copied genuine refund requests and got fraudulent ones approved.\nThis is a good illustration why “just don’t click on links” is bad advice. It can’t work when answering"
-    },
-    {
       "title": "Who Runs the Ransomware Group Qilin?",
       "link": "https://krebsonsecurity.com/2026/11/who-runs-the-ransomware-group-qilin/",
       "pubDate": "Wed, 11 Nov 2026 18:06:01 +0000",
@@ -493,6 +456,70 @@
     }
   ],
   "syndicate_journal": [
+    {
+      "title": "The Jensen Huang Scandal: A Gift to China Hawks and AI Giants",
+      "link": "https://jacobin.com/2026/11/huang-scandal-tech-ai-china-hawks",
+      "summary": "Often, when people cheat on their spouses, they get kicked out of the house and strain their families. Not many can say they wiped out  worth of share value and made the economy wobble.$1.8 trillion\nYet this is exactly the case with ousted Nvidia chief executive officer Jensen Huang and the scandal ",
+      "pubDate": "2026-11-20T19:31:05.857Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "Can Psychedelics Improve Decision-making?",
+      "link": "https://nautil.us/can-psychedelics-improve-decision-making-1286863/",
+      "summary": "A new study suggests they free the mind from prior biases\nThe post Can Psychedelics Improve Decision-making? appeared first on Nautilus.",
+      "pubDate": "Fri, 20 Nov 2026 19:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "Billionaires Always Want to Maintain Control",
+      "link": "https://jacobin.com/2026/11/billionaire-tax-tech-wealth-control",
+      "summary": "In October, Meta released a  saying that Mark Zuckerberg had threatened to leave California in anticipation of , the billionaire wealth tax on the 2026 state ballot, which was  53 to 47 percent. According to the document, Zuckerberg told the board he was “evaluating relocating his primary residence ",
+      "pubDate": "2026-11-20T17:54:53.439Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "A Physician Explains GLP-1s’ Biggest Potential Side Effect: A Rare But Serious Eye Condition",
+      "link": "https://nautil.us/a-physician-explains-glp-1s-biggest-potential-side-effect-a-rare-but-serious-eye-condition-1286851/",
+      "summary": "What is the risk for the millions of people worldwide who take GLP-1 medications?\nThe post A Physician Explains GLP-1s’ Biggest Potential Side Effect: A Rare But Serious Eye Condition appeared first on Nautilus.",
+      "pubDate": "Fri, 20 Nov 2026 17:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "What the Ottomans Tell Us About Plunder and Capitalism",
+      "link": "https://jacobin.com/2026/11/ottoman-history-capitalism-colonialism-origins",
+      "summary": "Vivek Chibber’s recent interview on the  podcast  and Vijay Prashad’s response in  have reopened fundamental questions about capitalism’s origins, colonialism, and the transition from feudalism to capitalism in world history. Drawing on my research into Ottoman history, I want to make the case that ",
+      "pubDate": "2026-11-20T16:53:00.534Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "What Do Peahens Really Want?",
+      "link": "https://nautil.us/what-do-peahens-really-want-1286840/",
+      "summary": "A new chapter in evolutionary biology argues that animals’ bright colors and patterns are about more than just sex\nThe post What Do Peahens Really Want? appeared first on Nautilus.",
+      "pubDate": "Fri, 20 Nov 2026 15:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "Network Researchers Nail Down Theory of ‘Perfect Resilience’",
+      "link": "https://www.quantamagazine.org/network-researchers-nail-down-theory-of-perfect-resilience-20261120/",
+      "summary": "When links in a communication network go down, messages can get routed in a loop. Computer scientists now know that four simple network structures are to blame.            \nThe post Network Researchers Nail Down Theory of ‘Perfect Resilience’ first appeared on Quanta Magazine",
+      "pubDate": "Fri, 20 Nov 2026 14:50:41 +0000",
+      "domain": "science",
+      "source": "Quanta"
+    },
+    {
+      "title": "How Magic Lantern Ghosts Helped Measure the Stars",
+      "link": "https://daily.jstor.org/how-magic-lantern-ghosts-helped-measure-the-stars/",
+      "summary": "A nineteenth-century invention brought theatrical illusions into the observatory, changing how astronomers studied starlight.\nThe post How Magic Lantern Ghosts Helped Measure the Stars appeared first on JSTOR Daily.",
+      "pubDate": "Fri, 20 Nov 2026 14:27:12 +0000",
+      "domain": "history",
+      "source": "JSTOR Daily"
+    },
     {
       "title": "My grandmother was a seal",
       "link": "https://aeon.co/essays/do-you-have-a-selkie-or-a-seal-in-the-family",
@@ -524,54 +551,6 @@
       "pubDate": "Fri, 20 Nov 2026 00:00:00 -0500",
       "domain": "science",
       "source": "arXiv: cs.AI"
-    },
-    {
-      "title": "How Future Lunar Colonists Can Farm Potatoes on the Moon",
-      "link": "https://nautil.us/how-future-lunar-colonists-can-farm-potatoes-on-the-moon-1286857/",
-      "summary": "A new study discovered a recipe for success\nThe post How Future Lunar Colonists Can Farm Potatoes on the Moon appeared first on Nautilus.",
-      "pubDate": "Thu, 19 Nov 2026 21:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
-      "title": "Don’t Mourn Hakeem Jeffries’s Speakership. Organize.",
-      "link": "https://jacobin.com/2026/11/jeffries-congress-speaker-socialists-organizing",
-      "summary": "In the wake of the midterms, the entirety of left-liberal America was jubilant. Democrats won majorities in the House and Senate, outperforming even the most idealistic predictions. But it was not only the Democratic victories that shocked observers — it was the  of candidates who won. Democratic so",
-      "pubDate": "2026-11-19T20:29:16.745Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
-      "title": "Anthropic Is Already Part of the Security Establishment",
-      "link": "https://jacobin.com/2026/11/anthropic-ai-security-surveillance-state",
-      "summary": "Anthropic, which priced its initial public offering (IPO) last night and began trading on the Nasdaq today, published an S-1, the corporate prospectus for the offering. The document, which extends over five hundred pages, is intended to provide potential investors with an outline of its corporate st",
-      "pubDate": "2026-11-19T20:04:02.979Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
-      "title": "How Our Eyes Betray Us When We Lie",
-      "link": "https://nautil.us/how-our-eyes-betray-us-when-we-lie-1286825/",
-      "summary": "Subtle shifts in gaze can signal we’re hiding something\nThe post How Our Eyes Betray Us When We Lie appeared first on Nautilus.",
-      "pubDate": "Thu, 19 Nov 2026 20:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
-      "title": "An Epidemiologist Explains What It Will Take for the U.S. to Regain Its Measles Elimination Status",
-      "link": "https://nautil.us/an-epidemiologist-explains-what-it-will-take-for-the-u-s-to-regain-its-measles-elimination-status-1286815/",
-      "summary": "Outbreaks caused by falling vaccination rates led to the loss of a public health achievement attained in 2000\nThe post An Epidemiologist Explains What It Will Take for the U.S. to Regain Its Measles Elimination Status appeared first on Nautilus.",
-      "pubDate": "Thu, 19 Nov 2026 19:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
-      "title": "How Will We Get People to Work Under Socialism?",
-      "link": "https://jacobin.com/2026/11/work-freedom-motivation-capitalism-socialism",
-      "summary": "With Zohran Mamdani’s rise to the mayoralty of the United States’s largest city and democratic socialists winning more and more elected offices at all levels across the country, there is renewed interest in and excitement about the idea of democratic socialism. But among socialists, there is little ",
-      "pubDate": "2026-11-19T17:37:36.911Z",
-      "domain": "politics",
-      "source": "Jacobin"
     },
     {
       "title": "The College Kids Who Drove a Duck Across the Americas",
@@ -630,14 +609,6 @@
       "source": "JSTOR Daily"
     },
     {
-      "title": "The Language of Gender Diversity in Zulu",
-      "link": "https://daily.jstor.org/the-language-of-gender-diversity-in-zulu/",
-      "summary": "Once used to stigmatize queer people, traditional Zulu terms are being reclaimed as expressions of identity.\nThe post The Language of Gender Diversity in Zulu appeared first on JSTOR Daily.",
-      "pubDate": "Tue, 17 Nov 2026 14:27:20 +0000",
-      "domain": "history",
-      "source": "JSTOR Daily"
-    },
-    {
       "title": "\"A really intense experience to be having right now\"",
       "link": "https://languagelog.ldc.upenn.edu/nll/?p=74603&utm_source=rss&utm_medium=rss&utm_campaign=a-really-intense-experience-to-be-having-right-now",
       "summary": "In a comment on yesterday's Julian Jaynes post, Richard Hershberger wrote that \"Jaynes's theory gave us a pretty decent novel 'Between the Rivers' by Harry Turtledove, written well into what was otherwise Turtledove's hack phase.\" Not having read that novel, I checked its Wikipedia page, which cites",
@@ -660,14 +631,6 @@
       "pubDate": "Mon, 16 Nov 2026 11:21:33 +0000",
       "domain": "linguistics",
       "source": "Language Log"
-    },
-    {
-      "title": "Can Network Science Transform Health and Nutrition?",
-      "link": "https://www.quantamagazine.org/can-network-science-transform-health-and-nutrition-20261112/",
-      "summary": "Albert-László Barabási explains how the same organizing principles shape everything from the internet to the cell, and how mapping the networks inside our bodies could change how we treat disease and think about food.            \nThe post Can Network Science Transform Health and Nutrition? first app",
-      "pubDate": "Thu, 12 Nov 2026 19:40:54 +0000",
-      "domain": "science",
-      "source": "Quanta"
     },
     {
       "title": "Soldiers of Misfortune: The Drawings of Urs Graf the Elder\n",
@@ -734,6 +697,14 @@
       "source": "Sapiens"
     },
     {
+      "title": "Effects of a hypnosis-based psychological skills training program on anxiety, self-confidence and stress-related psychological characteristics in young female athletes: a prospective, non-randomized field study",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1950288",
+      "summary": "BackgroundElite athletes devote considerable attention to psychological preparation and typically follow structured mental training routines before competition. However, many young athletes lack access to sport psychologists during the early stages of their athletic development. Therefore, early psy",
+      "pubDate": "",
+      "domain": "psychology",
+      "source": "Frontiers Psychology"
+    },
+    {
       "title": "Within-person dynamics of problematic smartphone use, poor sleep quality, and physical activity among Chinese university students with recent fitness-app use in a three-wave random-intercept cross-lagged panel study",
       "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.2013814",
       "summary": "ObjectiveTo examine the within-person temporal dynamics linking problematic smartphone use (PSU), poor sleep quality (PSQ), and physical activity (PA) among Chinese university students with recent fitness- or exercise-app use and to test whether PSQ accounted for a longitudinal association between P",
@@ -742,17 +713,9 @@
       "source": "Frontiers Psychology"
     },
     {
-      "title": "Perceived campus restorative environment and study engagement among Chinese college students: the mediating role of attention restoration and the moderating role of environmental sensitivity",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.2023458",
-      "summary": "IntroductionUniversity students spend most of their waking hours on campus, yet the role of the campus environment in sustaining the attentional resources behind study engagement remains understudied. Drawing on attention restoration theory and the environmental sensitivity framework, this study tes",
-      "pubDate": "",
-      "domain": "psychology",
-      "source": "Frontiers Psychology"
-    },
-    {
-      "title": "The value of finding your value: associations among autistic employee experiences of identity and well-being",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1831416",
-      "summary": "IntroductionAutistic employees and other neurodivergent people face visible and invisible barriers during employment, including challenges in how to manage their identities in the workplace and associated costs to psychological well-being. At the core of this experience is an expectation of social s",
+      "title": "Coach-led questioning and tactical decision-making in youth soccer, basketball, and volleyball: proposed cognitive pathways and contextual boundaries",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.2045113",
+      "summary": "Coach-led questioning is widely advocated in game-based training for youth soccer, basketball, and volleyball, yet its implications for tactical decision-making and cognitive load remain uncertain. This mini review critically integrates coaching observations, instructional contrasts, and adjacent co",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
@@ -760,64 +723,64 @@
   ],
   "misinfo_toilet": [
     {
-      "headline": "Inside the Secretive, Contradictory World of Campaign Ads Funded by AI Super PACs",
-      "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "splice": "Inside the Secretive, Contradictory World of Campaign Ads Funded by AI Super PACs because the breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "seed": 20261131
-    },
-    {
-      "headline": "Victims of Clerical Sexual Abuse Want More Engagement From Pope Leo",
-      "fragment": "The simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
-      "splice": "Victims of Clerical Sexual Abuse Want More Engagement From Pope Leo consequently the simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
-      "seed": 20261132
-    },
-    {
-      "headline": "'I tell my son it's just fireworks': Life inside Yemeni city besieged by Houthis",
-      "fragment": "It is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
-      "splice": "'I tell my son it's just fireworks': Life inside Yemeni city besieged by Houthis consequently it is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
-      "seed": 20261133
-    },
-    {
-      "headline": "Three Kyiv bridges hit during major Russian missile attack",
-      "fragment": "It is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "splice": "Three Kyiv bridges hit during major Russian missile attack insofar as it is worth recalling that what is currently called realistic was itself once 'impossible': the slew of privatizations that took place since the 1980s would have been unthinkable only a decade earlier.",
-      "seed": 20261134
-    },
-    {
-      "headline": "EU Satellite Imagery Delayed Over Gaza and Parts of West Bank by 24-hours",
-      "fragment": "This is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
-      "splice": "EU Satellite Imagery Delayed Over Gaza and Parts of West Bank by 24-hours insofar as this is what terrorism is occupied with as well: making real, palpable violence surface in opposition to the invisible violence of security.",
-      "seed": 20261135
-    },
-    {
-      "headline": "UK and EU to agree youth mobility scheme, BBC understands",
-      "fragment": "An ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
-      "splice": "UK and EU to agree youth mobility scheme, BBC understands because an ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
-      "seed": 20261136
-    },
-    {
-      "headline": "A Summit Gives Putin the Win He Craves: Equal Stature With Superpowers",
-      "fragment": "We live in a world where there is more and more information, and less and less meaning.",
-      "splice": "A Summit Gives Putin the Win He Craves: Equal Stature With Superpowers ...as we live in a world where there is more and more information, and less and less meaning.",
-      "seed": 20261137
-    },
-    {
-      "headline": "Anthropic becomes one of world's most valuable public companies in stock market debut",
-      "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
-      "splice": "Anthropic becomes one of world's most valuable public companies in stock market debut the system notes that the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
-      "seed": 20261138
-    },
-    {
-      "headline": "Russia unleashes retaliatory barrage on Kyiv bridges",
-      "fragment": "There is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
-      "splice": "Russia unleashes retaliatory barrage on Kyiv bridges because there is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
+      "headline": "Can LLMs Supercharge Geolocations? Our Tests Show Big Improvements But Humans Remain Key",
+      "fragment": "Everywhere it is machines—real ones, not figurative ones: machines driving other machines, machines being driven by other machines, with all the necessary couplings and connections.",
+      "splice": "Can LLMs Supercharge Geolocations? Our Tests Show Big Improvements But Humans Remain Key insofar as everywhere it is machines—real ones, not figurative ones: machines driving other machines, machines being driven by other machines, with all the necessary couplings and connections.",
       "seed": 20261139
     },
     {
-      "headline": "After Democrats’ Midterm Romp, What’s Stopping Governors From Commuting Death Sentences?",
+      "headline": "Satellite Images Show Extent of Trump Admin’s Tree-Felling at DC Golf Course",
       "fragment": "The privatization of the organs will only begin with the shame felt by man at the sight of man.",
-      "splice": "After Democrats’ Midterm Romp, What’s Stopping Governors From Commuting Death Sentences? underneath the privatization of the organs will only begin with the shame felt by man at the sight of man.",
+      "splice": "Satellite Images Show Extent of Trump Admin’s Tree-Felling at DC Golf Course because the privatization of the organs will only begin with the shame felt by man at the sight of man.",
       "seed": 20261140
+    },
+    {
+      "headline": "Indian man sentenced to 19 years in US Sikh separatist assassination plot",
+      "fragment": "The technocrat is the natural friend of the dictator—computers and dictatorship.",
+      "splice": "Indian man sentenced to 19 years in US Sikh separatist assassination plot the system notes that the technocrat is the natural friend of the dictator—computers and dictatorship.",
+      "seed": 20261141
+    },
+    {
+      "headline": "Nearly 600 women killed in South Africa within three months",
+      "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
+      "splice": "Nearly 600 women killed in South Africa within three months the system notes that the revolutionary lives in the gap which separates technical progress from social totality.",
+      "seed": 20261142
+    },
+    {
+      "headline": "How Online Maps Lay Bare the US Military Bases Targeted by Iran",
+      "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "splice": "How Online Maps Lay Bare the US Military Bases Targeted by Iran in the void where the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
+      "seed": 20261143
+    },
+    {
+      "headline": "Nepal cricket fans celebrate their team’s global rise",
+      "fragment": "Over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
+      "splice": "Nepal cricket fans celebrate their team’s global rise consequently over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
+      "seed": 20261144
+    },
+    {
+      "headline": "Iraqi Forces Enter Stronghold of Powerful Iran-Backed Militia",
+      "fragment": "It is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
+      "splice": "Iraqi Forces Enter Stronghold of Powerful Iran-Backed Militia while it is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
+      "seed": 20261145
+    },
+    {
+      "headline": "‘Russian Objects’ Crashed in Poland, Officials Say. Here’s What We Can See.",
+      "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
+      "splice": "‘Russian Objects’ Crashed in Poland, Officials Say. Here’s What We Can See. because the breast is a machine that produces milk, and the mouth a machine coupled to it.",
+      "seed": 20261146
+    },
+    {
+      "headline": "UK to explore even closer ties with EU after agreeing deal, says Burnham",
+      "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
+      "splice": "UK to explore even closer ties with EU after agreeing deal, says Burnham the signal resolves into the breast is a machine that produces milk, and the mouth a machine coupled to it.",
+      "seed": 20261147
+    },
+    {
+      "headline": "Gen Z Is Driving Global Political Change, Aiding Far Left and Far Right",
+      "fragment": "The technocrat is the natural friend of the dictator—computers and dictatorship.",
+      "splice": "Gen Z Is Driving Global Political Change, Aiding Far Left and Far Right therefore the technocrat is the natural friend of the dictator—computers and dictatorship.",
+      "seed": 20261148
     }
   ]
 }
