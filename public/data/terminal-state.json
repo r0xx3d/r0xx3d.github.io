@@ -1,7 +1,39 @@
 {
-  "generated_at": "2026-11-23T11:58:18.372Z",
+  "generated_at": "2026-11-23T23:45:37.714Z",
   "threat_intel": {
     "cisa_kev": [
+      {
+        "cveID": "CVE-2026-133968",
+        "vendorProject": "Project MONAI",
+        "product": "MONAI Label",
+        "vulnerabilityName": "Project MONAI MONAI Label Path Traversal Vulnerability",
+        "dateAdded": "2026-11-23",
+        "shortDescription": "Project MONAI MONAI Label contains a path traversal vulnerability that allows an unauthenticated remote attacker to write arbitrary files outside the intended datastore directory, potentially resulting in remote code execution.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-11-26",
+        "knownRansomwareCampaignUse": "Unknown",
+        "forensicTriage": "Yes",
+        "notes": "https://github.com/Project-MONAI/MONAILabel/security/advisories/GHSA-qc22-rmgc-vg94 ; https://github.com/Project-MONAI/MONAILabel/pull/1915 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-133968",
+        "cwes": [
+          "CWE-24"
+        ]
+      },
+      {
+        "cveID": "CVE-2026-134624",
+        "vendorProject": "N-able",
+        "product": "MailAssure",
+        "vulnerabilityName": "N-able MailAssure (SpamExperts) Server-Side Request Forgery (SSRF) Vulnerability",
+        "dateAdded": "2026-11-23",
+        "shortDescription": "N-able MailAssure (SpamExperts) contains a server-side request forgery vulnerability in the LDAP synchronization connection check that allows an authenticated API user to connect to arbitrary internal hosts and ports, determine which are reachable, and send crafted data to internal services.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-11-26",
+        "knownRansomwareCampaignUse": "Unknown",
+        "forensicTriage": "Yes",
+        "notes": "https://me.n-able.com/s/security-advisory/aArVy0000002mrlKAA ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-134624",
+        "cwes": [
+          "CWE-918"
+        ]
+      },
       {
         "cveID": "CVE-2026-129448",
         "vendorProject": "Apache",
@@ -75,7 +107,7 @@
         "shortDescription": "Synology DSM contains an improper encoding or escaping of output vulnerability in the system plugin daemon in Synology BeeStation OS (BSM) that could allow a remote attacker to execute arbitrary code via unspecified vectors.",
         "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
         "dueDate": "2026-11-21",
-        "knownRansomwareCampaignUse": "Unknown",
+        "knownRansomwareCampaignUse": "Known",
         "forensicTriage": "Yes",
         "notes": "https://www.synology.com/zh-tw/security/advisory/Synology_SA_24_20 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2024-10441",
         "cwes": [
@@ -212,147 +244,129 @@
         "cwes": [
           "CWE-669"
         ]
-      },
-      {
-        "cveID": "CVE-2026-20320",
-        "vendorProject": "Cisco",
-        "product": "BroadWorks",
-        "vulnerabilityName": "Cisco BroadWorks Improper Restriction of XML External Entity Reference Vulnerability",
-        "dateAdded": "2026-11-10",
-        "shortDescription": "Cisco BroadWorks contains an improper restriction of XML external entity reference vulnerability that could allow an unauthenticated, remote attacker to read sensitive configuration information on an affected system.",
-        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "dueDate": "2026-11-24",
-        "knownRansomwareCampaignUse": "Unknown",
-        "forensicTriage": "No",
-        "notes": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-bworks-xxe-uwUd7CEt ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-20320",
-        "cwes": [
-          "CWE-611"
-        ]
-      },
-      {
-        "cveID": "CVE-2026-111560",
-        "vendorProject": "Barracuda Networks",
-        "product": "Multiple Products",
-        "vulnerabilityName": "Barracuda Networks Multiple Products OS Command Injection Vulnerability",
-        "dateAdded": "2026-11-10",
-        "shortDescription": "Barracuda Networks Email Security Gateway (ESG), Load Balancer, Application Delivery Controller (ADC), Message Archiver (BMA), WAF Control Center (WCC), Web Application Firewall (WAF), and Web Security Gateway (WSG) contain an OS command injection vulnerability. This vulnerability could allow an authenticated administrator to inject OS commands that execute with root privileges when the crafted timezone value is subsequently processed. This vulnerability can be chained with CVE-2026-116606",
-        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "dueDate": "2026-11-13",
-        "knownRansomwareCampaignUse": "Unknown",
-        "forensicTriage": "Yes",
-        "notes": "https://trust.barracuda.com/security/pre-authentication-authorization-bypass-command-injection ; https://github.com/mandiant/Vulnerability-Disclosures/blob/master/2026/MNDT-2026-0041.md ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-111560",
-        "cwes": [
-          "CWE-78"
-        ]
       }
     ],
     "urlhaus": []
   },
   "world_monitor": [
     {
-      "title": "Russian warship hit by Ukrainian drones in Libya, Zelensky says",
-      "link": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Mon, 23 Nov 2026 11:40:01 GMT",
-      "source": "BBC",
-      "summary": "Libya's eastern government says a sunken warship had stopped for fuel and supplies on its way back to Russia."
+      "title": "EU plans sports ban in sweeping new Russia sanctions proposal",
+      "link": "https://www.aljazeera.com/news/2026/11/23/eu-plans-sports-ban-in-sweeping-new-russia-sanctions-proposal?traffic_source=rss",
+      "pubDate": "Mon, 23 Nov 2026 23:26:16 +0000",
+      "source": "Al Jazeera",
+      "summary": "Proposed sanctions aim to curb Russian crypto financing and 'propaganda' in sports."
     },
     {
-      "title": "Former Icelandic PM says world’s great powers are flexing their muscles",
-      "link": "https://www.aljazeera.com/video/talk-to-al-jazeera/2026/11/23/former-icelandic-pm-says-worlds-great-powers-are-flexing-their-muscles?traffic_source=rss",
-      "pubDate": "Mon, 23 Nov 2026 11:34:59 +0000",
+      "title": "US to blacklist Asian AI firm Megaspeed after Nvidia scandal",
+      "link": "https://www.bbc.co.uk/news/articles/cv98xpg5dg5zo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Mon, 23 Nov 2026 23:16:08 GMT",
+      "source": "BBC",
+      "summary": "Megaspeed has been accused of funneling AI chips to China after a former executive's affair with Jensen Huang became public."
+    },
+    {
+      "title": "What Nvidia’s Jensen Huang’s return means for Washington and Wall Street?",
+      "link": "https://www.aljazeera.com/economy/2026/11/23/what-nvidias-jensen-huangs-return-means-for-washington-and-wall-street?traffic_source=rss",
+      "pubDate": "Mon, 23 Nov 2026 23:06:03 +0000",
       "source": "Al Jazeera",
-      "summary": "Iceland’s former PM warns climate change remains an existential threat as global power politics sidelines action."
+      "summary": "Trump claims credit for Huang's return, raising concerns over federal government meddling in corporate board decisions."
+    },
+    {
+      "title": "Trump postpones US Army plan to detonate toxic explosives in Iowa",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/23/trump-postpones-us-army-plan-to-detonate-toxic-explosives-in-iowa?traffic_source=rss",
+      "pubDate": "Mon, 23 Nov 2026 22:54:47 +0000",
+      "source": "Al Jazeera",
+      "summary": "President Trump has further postponed the US Army’s planned detonation of nearly five tonnes of lead azide in Iowa."
+    },
+    {
+      "title": "US escalates sanctions on Iran, targets ‘shadow banking’ networks",
+      "link": "https://www.aljazeera.com/news/2026/11/23/us-escalates-sanctions-on-iran-targets-shadow-banking-networks?traffic_source=rss",
+      "pubDate": "Mon, 23 Nov 2026 21:30:40 +0000",
+      "source": "Al Jazeera",
+      "summary": "US Treasury sanctions over two dozen Iranian entities, citing efforts to disrupt Tehran's global financial activities."
+    },
+    {
+      "title": "Israel’s southern Syria incursion triggers fear and destruction",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/23/israels-southern-syria-incursion-triggers-fear-and-destruction?traffic_source=rss",
+      "pubDate": "Mon, 23 Nov 2026 21:19:17 +0000",
+      "source": "Al Jazeera",
+      "summary": "Families in Koya have been shot at, had their homes set on fire, and been forced to flee after Israeli incursions."
+    },
+    {
+      "title": "What strike on Russian ship in Libya says about spread of Ukraine war",
+      "link": "https://www.bbc.co.uk/news/articles/cm894p88jzxpo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Mon, 23 Nov 2026 20:48:35 GMT",
+      "source": "BBC",
+      "summary": "Ukraine's sinking of a Russian battleship at a port in Libya raises the stakes of the war a notch, writes Frank Gardner."
+    },
+    {
+      "title": "Over 700,000 Russian Soldiers Have Died in Ukraine, Analysis Indicates",
+      "link": "https://www.nytimes.com/2026/11/23/world/europe/russia-ukraine-war-deaths.html",
+      "pubDate": "Mon, 23 Nov 2026 19:19:23 +0000",
+      "source": "NYT World",
+      "summary": "Hacked government data underscores the immense human cost of President Vladimir V. Putin’s war of attrition."
+    },
+    {
+      "title": "Private Prison Told ICE Its Jail Was Worth $67 Million. ICE Bought It for Nearly Half a Billion.",
+      "link": "https://theintercept.com/2026/11/23/geo-group-private-prison-ice-sale-contract/",
+      "pubDate": "Mon, 23 Nov 2026 18:57:05 +0000",
+      "source": "The Intercept",
+      "summary": "GEO Group made a windfall after ICE bought a jail for nearly seven times the private prison giant’s own appraisal, documents reveal.\nThe post Private Prison Told ICE Its Jail Was Worth $67 Million. ICE Bought It for Nearly Half a Billion. appeared fi"
     },
     {
       "title": "Netanyahu Wants to Attack Iran. Does That Serve Israel or Him?",
       "link": "https://www.nytimes.com/2026/11/23/world/middleeast/netanyahu-israel-iran.html",
-      "pubDate": "Mon, 23 Nov 2026 11:33:01 +0000",
+      "pubDate": "Mon, 23 Nov 2026 18:54:41 +0000",
       "source": "NYT World",
-      "summary": "The Israeli prime minister, Benjamin Netanyahu calls renewing strikes a matter of national security. Military analysts and opposition leaders say he’s prioritizing his own interests."
+      "summary": "The Israeli prime minister, Benjamin Netanyahu, calls renewing strikes a matter of national security. Military analysts and opposition leaders say he’s prioritizing his own interests."
     },
     {
-      "title": "COP31: What next after UN climate talks collapse",
-      "link": "https://www.aljazeera.com/news/2026/11/23/cop31-what-next-after-un-climate-talks-collapse?traffic_source=rss",
-      "pubDate": "Mon, 23 Nov 2026 11:19:08 +0000",
-      "source": "Al Jazeera",
-      "summary": "UN member states fail to agree on how to fast-track action to reverse global warming in a blow to climate agenda."
-    },
-    {
-      "title": "Ukraine claims drone strikes on Russian ships off Libya: What do we know?",
-      "link": "https://www.aljazeera.com/news/2026/11/23/russian-ships-hit-by-drones-off-libya-coast-what-do-we-know?traffic_source=rss",
-      "pubDate": "Mon, 23 Nov 2026 11:10:12 +0000",
-      "source": "Al Jazeera",
-      "summary": "A series of drone strikes on Russian vessels in Libyan and Finnish territories fuels fears of Ukraine war's spread."
-    },
-    {
-      "title": "Lebanese families return to ruins after Israeli attacks in south",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/23/lebanese-families-return-to-ruins-after-israeli-attacks-in-south?traffic_source=rss",
-      "pubDate": "Mon, 23 Nov 2026 10:57:20 +0000",
-      "source": "Al Jazeera",
-      "summary": "In southern Lebanon’s Nabatieh, displaced families have been returning to ruins and widespread destruction."
-    },
-    {
-      "title": "CAS decision on Senegal’s AFCON 2025 title appeal on Tuesday",
-      "link": "https://www.aljazeera.com/sports/2026/11/23/senegal-africa-cup-of-nations-afcon-morocco-cas-decision-appeal?traffic_source=rss",
-      "pubDate": "Mon, 23 Nov 2026 10:55:05 +0000",
-      "source": "Al Jazeera",
-      "summary": "Senegal are contesting CAF's decision to declare Morocco champions, despite Senegal winning the final 1-0 in January."
-    },
-    {
-      "title": "Dozens Unaccounted for After Fire Rips Through Candy Factory in Indonesia",
-      "link": "https://www.nytimes.com/2026/11/23/world/asia/indonesia-factory-fire.html",
-      "pubDate": "Mon, 23 Nov 2026 10:45:26 +0000",
+      "title": "Ukraine Attack Off Coast of Libya Shows Reach of Its Naval Drones",
+      "link": "https://www.nytimes.com/2026/11/23/world/europe/ukraine-libya-russian-ships.html",
+      "pubDate": "Mon, 23 Nov 2026 18:09:45 +0000",
       "source": "NYT World",
-      "summary": "Hundreds of people were at the compound when a blaze broke out on Saturday and then raged for hours."
+      "summary": "President Volodymyr Zelensky said that Ukrainian drones had sunk a corvette and hit a dry cargo vessel, in attacks that involved special operations forces."
+    },
+    {
+      "title": "Drone Attack Hits Colombian City as Unmanned Explosives Transform Conflict",
+      "link": "https://www.nytimes.com/2026/11/23/world/americas/colombia-drone-attack-cucuta.html",
+      "pubDate": "Mon, 23 Nov 2026 18:05:31 +0000",
+      "source": "NYT World",
+      "summary": "At least three people were injured. The United Nations has reported a 445 percent increase in drone bombings in the country."
+    },
+    {
+      "title": "Iranian authorities flog singer who performed without hijab, lawyers say",
+      "link": "https://www.bbc.co.uk/news/articles/cq1j6585l5g6o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Mon, 23 Nov 2026 18:04:20 GMT",
+      "source": "BBC",
+      "summary": "Parastoo Ahmadi, three musicians and a producer were reportedly given 74 lashes in Qom."
+    },
+    {
+      "title": "What failure of COP31 reveals about a divided world",
+      "link": "https://www.bbc.co.uk/news/articles/cky970n83rvjo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Mon, 23 Nov 2026 17:24:25 GMT",
+      "source": "BBC",
+      "summary": "Interests of oil-producing countries, a US boycott and a dispute over finance may have torpedoed climate talks."
+    },
+    {
+      "title": "Russian warship hit by Ukrainian drones in Libya, Zelensky says",
+      "link": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Mon, 23 Nov 2026 15:41:23 GMT",
+      "source": "BBC",
+      "summary": "The Kremlin warns of an \"escalation of tensions in the region\", but declines to comment directly on the attacks in Libya."
     },
     {
       "title": "They Were Too Old to Enlist, but Not to Fight. Meet the Steppe Wolves of Ukraine.",
       "link": "https://www.nytimes.com/2026/11/23/world/europe/ukraine-older-soldiers.html",
-      "pubDate": "Mon, 23 Nov 2026 10:26:17 +0000",
+      "pubDate": "Mon, 23 Nov 2026 13:53:33 +0000",
       "source": "NYT World",
       "summary": "When the military refused to let them sign up, a band of aging men found their own way to wage war against Russia."
     },
     {
-      "title": "Colombia Marks 10 Years Since FARC Peace Deal: In Photos",
-      "link": "https://www.nytimes.com/2026/11/23/world/americas/colombia-farc-peace-deal.html",
-      "pubDate": "Mon, 23 Nov 2026 10:02:48 +0000",
-      "source": "NYT World",
-      "summary": "The conflict between Colombia’s government and a leftist rebel group ended in a historic 2016 accord. But Colombia is still waiting for true peace."
-    },
-    {
-      "title": "Ukraine Claims Strikes on Russian Ships Near Libya",
-      "link": "https://www.nytimes.com/2026/11/23/world/europe/ukraine-libya-russian-ships.html",
-      "pubDate": "Mon, 23 Nov 2026 09:59:08 +0000",
-      "source": "NYT World",
-      "summary": "President Volodymyr Zelensky said that Ukrainian naval drones sank a corvette and hit a dry cargo vessel, demonstrating Kyiv’s reach in the seas."
-    },
-    {
-      "title": "Five takeaways from the failed climate talks COP31",
-      "link": "https://www.bbc.co.uk/news/articles/cm75237wlp3lo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Mon, 23 Nov 2026 06:33:50 GMT",
-      "source": "BBC",
-      "summary": "The COP31 summit in Antalya was the longest-running climate talks in UN history."
-    },
-    {
-      "title": "Boy, 7, pulled alive from rubble hours after Russian strike on Ukraine, rescuers say",
-      "link": "https://www.bbc.co.uk/news/articles/cqdr15l32d3go?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Mon, 23 Nov 2026 05:33:17 GMT",
-      "source": "BBC",
-      "summary": "Eleven people are dead in the attack on Dymer, with rescue efforts ongoing to find those still missing from the residential building."
-    },
-    {
-      "title": "Longest-ever UN climate talks end with no deal as deep divisions exposed",
-      "link": "https://www.bbc.co.uk/news/articles/cqwy06zrd26lo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Mon, 23 Nov 2026 05:15:06 GMT",
-      "source": "BBC",
-      "summary": "The prime minister of Australia, which co-hosted COP31, attributed the failure to \"difficult geopolitical times\"."
-    },
-    {
-      "title": "San Francisco is enjoying an AI boom, but worries about a crash are growing",
-      "link": "https://www.bbc.co.uk/news/articles/cqe9k09j9jv4o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Mon, 23 Nov 2026 00:08:00 GMT",
-      "source": "BBC",
-      "summary": "AI employees in the industry's epicentre - San Francisco - worry that the sector is overheated."
+      "title": "Losing to the Mud: Feds Drag Their Feet as an Alaskan Village Sinks",
+      "link": "https://theintercept.com/2026/11/23/alaska-sinking-village-climate-change-relocation/",
+      "pubDate": "Mon, 23 Nov 2026 10:00:00 +0000",
+      "source": "The Intercept",
+      "summary": "As communities seek relocation spurred by climate change, the Yup’ik people in the remote village of Nunapitchuk have struggled to get help moving a mile uphill.\nThe post Losing to the Mud: Feds Drag Their Feet as an Alaskan Village Sinks appeared fi"
     },
     {
       "title": "An Air Force Major Is Being Held in Solitary Confinement for Criticizing Trump on CNN",
@@ -374,20 +388,6 @@
       "pubDate": "Fri, 20 Nov 2026 11:00:00 +0000",
       "source": "The Intercept",
       "summary": "Aviation journalist Jeff Wise breaks down some misconceptions about air traffic control while the nation waits for answers on the ground stop.\nThe post Sean Duffy’s FAA Fiasco appeared first on The Intercept."
-    },
-    {
-      "title": "Elon Musk Thinks You’re an Idiot",
-      "link": "https://theintercept.com/2026/11/19/elon-musk-rebrand-moderate-trump/",
-      "pubDate": "Thu, 19 Nov 2026 20:31:00 +0000",
-      "source": "The Intercept",
-      "summary": "The man with a custom dark MAGA hat rebrands: “I’m not sure what MAGA means.”\nThe post Elon Musk Thinks You’re an Idiot appeared first on The Intercept."
-    },
-    {
-      "title": "Just Rinse It Off, Army Says Before Blowing Up Five Tons of Lead Compound",
-      "link": "https://theintercept.com/2026/11/19/iowa-lead-ammunition-detonation-army/",
-      "pubDate": "Thu, 19 Nov 2026 19:37:59 +0000",
-      "source": "The Intercept",
-      "summary": "The Army appears to be winging its detonation of unstable lead azide at its Iowa ammunition plant.\nThe post Just Rinse It Off, Army Says Before Blowing Up Five Tons of Lead Compound appeared first on The Intercept."
     },
     {
       "title": "How Online Maps Lay Bare the US Military Bases Targeted by Iran",
@@ -427,6 +427,20 @@
   ],
   "syndication": [
     {
+      "title": "Pluralistic: The Debt Trap (23 Nov 2026)",
+      "link": "https://pluralistic.net/2026/11/23/grasshoppers-v-ants/",
+      "pubDate": "Mon, 23 Nov 2026 13:18:44 +0000",
+      "author": "Pluralistic",
+      "content": "Today's links The Debt Trap: Obscure causality is the downfall of us all. Hey look at this: Delights to delectate. Object permanence: They Fight Crime; Cantenna wifi TV for Mali; Kakistocracy; Inflation or price-gouging; The long game; Fox v bloggers; Hollywood laundered money for Berlusoni; Katamar"
+    },
+    {
+      "title": "Humans Have Rights. Machines Do Not.",
+      "link": "https://www.schneier.com/blog/archives/2026/11/humans-have-rights-machines-do-not.html",
+      "pubDate": "2026-11-23T12:00:54.000Z",
+      "author": "Schneier on Security",
+      "content": "This essay originally appeared in Tech Policy Press.\nLast year, Character.AI asked a federal court in Florida to dismiss a wrongful-death suit, brought by the mother of a fourteen-year-old boy who had killed himself after months of conversation with its chatbot. The company made two arguments. One, "
+    },
+    {
       "title": "CTO of ‘RansomwareHelp’ Indicted for Wire Fraud",
       "link": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
       "pubDate": "Sat, 21 Nov 2026 00:36:39 +0000",
@@ -462,20 +476,6 @@
       "content": "Today's links How to forfeit one of copyright's best labor policies: Author beware, termination of transfer and loan-out companies don't mix! Hey look at this: Delights to delectate. Object permanence: History of interlibrary loan; Mike Pence v Hamilton; Snoopers' Charter is law; Teamsters transform"
     },
     {
-      "title": "France Is Blaming Iran for the Fridge Cyberattack",
-      "link": "https://www.schneier.com/blog/archives/2026/11/france-is-blaming-iran-for-the-fridge-cyberattack.html",
-      "pubDate": "2026-11-18T12:05:35.000Z",
-      "author": "Schneier on Security",
-      "content": "Interesting:\nU.S. intelligence agencies have recently reached a “low confidence” assessment that Iran was responsible for the attacks in France, according to three U.S. officials who spoke on the condition of anonymity to discuss sensitive intelligence. A “low confidence” assessment generally means "
-    },
-    {
-      "title": "Pluralistic: Enshittifiers groom us for scammers (18 Nov 2026)",
-      "link": "https://pluralistic.net/2026/11/18/malice-v-incompetence/",
-      "pubDate": "Wed, 18 Nov 2026 08:28:46 +0000",
-      "author": "Pluralistic",
-      "content": "Today's links Enshittifiers groom us for scammers: The harder it is to tell a scam from a shitty business practice, the easier life gets for scammers. Hey look at this: Delights to delectate. Object permanence: Fannish accent; Photoshopping culture; Sixth HHGTTG novel discovers; Dragon sausages must"
-    },
-    {
       "title": "Attackers Used Optimizely to A/B Test Malware on Top Websites",
       "link": "https://krebsonsecurity.com/2026/11/attackers-used-optimizely-to-a-b-test-malware-on-top-websites/",
       "pubDate": "Wed, 18 Nov 2026 02:52:04 +0000",
@@ -491,6 +491,78 @@
     }
   ],
   "syndicate_journal": [
+    {
+      "title": "This Well-Known Butterfly is Actually Three Species in Disguise",
+      "link": "https://nautil.us/this-well-known-butterfly-is-actually-three-species-in-disguise-1286972/",
+      "summary": "A new discovery after 250 years\nThe post This Well-Known Butterfly is Actually Three Species in Disguise appeared first on Nautilus.",
+      "pubDate": "Mon, 23 Nov 2026 21:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "Billy Evans’s You Can See Everything Deal Is the Real Story",
+      "link": "https://jacobin.com/2026/11/holmes-evans-fielder-documentary-payment",
+      "summary": "In just over a month in theaters, the new A24 film from Nathan Fielder and Lance Oppenheim has grossed over $93 million at the domestic box office, more than twelve times its  budget. Had things gone as originally planned, a meaningful share of that money would now be flowing to Billy Evans — Elizab",
+      "pubDate": "2026-11-23T20:39:09.505Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "Meet the Bugs That Live in Your Home",
+      "link": "https://nautil.us/meet-the-bugs-that-live-in-your-home-1286978/",
+      "summary": "A team of biologists sent people on a safari of their own homes\nThe post Meet the Bugs That Live in Your Home appeared first on Nautilus.",
+      "pubDate": "Mon, 23 Nov 2026 20:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "Stella Lefty: Data Center Music",
+      "link": "https://jacobin.com/2026/11/stella-lefty-billionaire-music-class",
+      "summary": "When Stella Lefty wrote the chorus to “Boston,” she was waiting in Nashville for a boy from outside Atlanta. Why Boston? She had a gig coming up there, she told . A month later she noticed it was also the name on the piano.Taste of Country\nLefty  the chorus on TikTok before there were verses to go w",
+      "pubDate": "2026-11-23T19:30:49.423Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "Siberian Cranes Made a Massive Comeback—Only to Face a Set of New Threats",
+      "link": "https://nautil.us/siberian-cranes-made-a-massive-comeback-only-to-face-a-set-of-new-threats-1286969/",
+      "summary": "Their revival could be thwarted by antibiotic residues and microplastics\nThe post Siberian Cranes Made a Massive Comeback—Only to Face a Set of New Threats appeared first on Nautilus.",
+      "pubDate": "Mon, 23 Nov 2026 19:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "Effective Altruism Is Increasingly Just Funding Itself",
+      "link": "https://jacobin.com/2026/11/ea-tech-ai-safety-philanthropy",
+      "summary": "The basic pitch for effective altruism (EA) is simple: charitable giving is an investment, whose return is in others’ well-being rather than your financial betterment. Given that it’s an investment, it makes sense to look for a strong, measurable return from wherever you choose to donate. After all,",
+      "pubDate": "2026-11-23T17:30:18.053Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "Crash blossom cannibals",
+      "link": "https://languagelog.ldc.upenn.edu/nll/?p=74656&utm_source=rss&utm_medium=rss&utm_campaign=crash-blossom-cannibals",
+      "summary": "A poster from New Zealand a few months ago: The fifth bullet point at the bottom explicitly reformulates the intended message as “Healthy eating for babies, toddlers, school-age and teenagers”, thus confirming that  \"to teens\" is the top end of the age range \"newborns to teens\", not an indirect obje",
+      "pubDate": "Mon, 23 Nov 2026 16:09:23 +0000",
+      "domain": "linguistics",
+      "source": "Language Log"
+    },
+    {
+      "title": "The Incredible, Elegant DNA Repair System Makes Gene Editing Work",
+      "link": "https://www.quantamagazine.org/the-incredible-elegant-dna-repair-system-makes-gene-editing-work-20261123/",
+      "summary": "Genetic information is sturdy, but its physical structure is sensitive. Natural tools for repairing a cell’s thousands of daily injuries are fundamental to gene-editing technologies.            \nThe post The Incredible, Elegant DNA Repair System Makes Gene Editing Work first appeared on Quanta Magaz",
+      "pubDate": "Mon, 23 Nov 2026 15:27:11 +0000",
+      "domain": "science",
+      "source": "Quanta"
+    },
+    {
+      "title": "When Colorado Closed Its Border to New Mexico",
+      "link": "https://daily.jstor.org/when-colorado-closed-its-border-to-new-mexico/",
+      "summary": "An anti-immigrant stunt in 1936 helped propel a governor to the US Senate, despite its limited practical impact.\nThe post When Colorado Closed Its Border to New Mexico appeared first on JSTOR Daily.",
+      "pubDate": "Mon, 23 Nov 2026 14:55:09 +0000",
+      "domain": "history",
+      "source": "JSTOR Daily"
+    },
     {
       "title": "The wind and the song: the treachery of AI",
       "link": "https://aeon.co/videos/what-does-it-mean-when-humans-and-technology-become-indistinguishable",
@@ -540,66 +612,10 @@
       "source": "Language Log"
     },
     {
-      "title": "New Species of Flying Frog Discovered in Indonesia",
-      "link": "https://nautil.us/new-species-of-flying-frog-discovered-in-indonesia-1286962/",
-      "summary": "And it’s got a very unusual way of laying eggs\nThe post New Species of Flying Frog Discovered in Indonesia appeared first on Nautilus.",
-      "pubDate": "Sun, 22 Nov 2026 19:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
-      "title": "You Likely Have Genes That Affect How Well Your Medications Work— Testing for Them Could Improve Treatment",
-      "link": "https://nautil.us/you-likely-have-genes-that-affect-how-well-your-medications-work-testing-for-them-could-improve-treatment-1286903/",
-      "summary": "Pharmacogenomics studies how genetics interacts with drug\nThe post You Likely Have Genes That Affect How Well Your Medications Work— Testing for Them Could Improve Treatment appeared first on Nautilus.",
-      "pubDate": "Sun, 22 Nov 2026 17:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
-      "title": "The Fortunes of a Dim Sun",
-      "link": "https://nautil.us/the-fortunes-of-a-dim-sun-1286898/",
-      "summary": "Bad news for habitable planets in the galaxy: It’s hard to both make an ocean and then keep it\nThe post The Fortunes of a Dim Sun appeared first on Nautilus.",
-      "pubDate": "Sun, 22 Nov 2026 15:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
-      "title": "Los Angeles Socialists Won Big in the Blue Electoral Wave",
-      "link": "https://jacobin.com/2026/11/dsa-la-elections-raman-roy",
-      "summary": "LA was at a critical cusp in its history. Globalization had reorganized its economy, rewiring it in dramatic ways, and many people were being left behind. Yet the city had — and still has — this incredible, protean potential for better things, for progressive politics, for surprising activism.\n— Mik",
-      "pubDate": "2026-11-22T14:00:00.271Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
-      "title": "The Enshittification of Everyday Life",
-      "link": "https://jacobin.com/2026/11/tech-enshittification-services-time-inconvenience",
-      "summary": "Have you tried to speak to a human being lately? Perhaps you wanted to question an energy bill, rearrange a hospital appointment, claim a benefit, or discover why your insurer had refused treatment your doctor said you needed. You will probably have been invited to download an app, create an account",
-      "pubDate": "2026-11-22T13:30:00.025Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
-      "title": "What the ’60s Left Gave Us",
-      "link": "https://jacobin.com/2026/11/new-left-civil-rights-vietnam-marxism",
-      "summary": "Before the Bernie Sanders presidential runs, the last big upsurge in radical American politics occurred in the 1960s. This moment is remembered for its civil rights activism and student antiwar protests, but how should we really understand the New Left’s rise and fall?\nOn this latest episode of the ",
-      "pubDate": "2026-11-22T13:00:00.330Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
       "title": "The dawn of WOTY 2026",
       "link": "https://languagelog.ldc.upenn.edu/nll/?p=74629&utm_source=rss&utm_medium=rss&utm_campaign=the-dawn-of-woty",
       "summary": "There are already lots of Word Of The Year nominees, polls, and decisions Out There. We'll cover most of them in due course, but let's start with a cartoon summary from First Dog on the Moon (described as \"Australia's only Walkley award-winning marsupial-based cartoonist\"). That summary is kicked of",
       "pubDate": "Sat, 21 Nov 2026 14:02:23 +0000",
-      "domain": "linguistics",
-      "source": "Language Log"
-    },
-    {
-      "title": "A Thanksgiving dance move",
-      "link": "https://languagelog.ldc.upenn.edu/nll/?p=74622&utm_source=rss&utm_medium=rss&utm_campaign=a-thanksgiving-dance-move",
-      "summary": "In a note from our department's Academic Coordinator: The source of the \"jump to the left\" metaphor is the Time Warp dance from the Rocky Horror Picture Show: I wouldn't have thought of that way to illustrate the change, but it's a great idea, at least for an audience that remembers the Time Warp sc",
-      "pubDate": "Fri, 20 Nov 2026 22:34:55 +0000",
       "domain": "linguistics",
       "source": "Language Log"
     },
@@ -648,22 +664,6 @@
       "link": "https://www.quantamagazine.org/how-m-c-eschers-art-creates-bizarre-mathematical-worlds-20261118/",
       "summary": "The artist had no formal math education, yet as a new exhibition shows, the insights revealed in his artwork became an enduring inspiration to mathematicians.            \nThe post How M.C. Escher’s Art Creates Bizarre Mathematical Worlds first appeared on Quanta Magazine",
       "pubDate": "Wed, 18 Nov 2026 15:51:40 +0000",
-      "domain": "science",
-      "source": "Quanta"
-    },
-    {
-      "title": "The Stories That Make Thanksgiving",
-      "link": "https://daily.jstor.org/editors-picks-thanksgiving/",
-      "summary": "Turkey or Tofurkey? Stuffing or dressing? Whatever’s on your table, these Thanksgiving stories will satisfy your curiosity.\nThe post The Stories That Make Thanksgiving appeared first on JSTOR Daily.",
-      "pubDate": "Wed, 18 Nov 2026 14:41:39 +0000",
-      "domain": "history",
-      "source": "JSTOR Daily"
-    },
-    {
-      "title": "What Makes Up the Cosmos? A 20-Year Survey Hints That Something Is Missing.",
-      "link": "https://www.quantamagazine.org/what-makes-up-the-cosmos-a-20-year-survey-hints-that-something-is-missing-20261116/",
-      "summary": "An era-defining galaxy survey has released its final results. They don’t quite fit the leading theory of cosmology.              \nThe post What Makes Up the Cosmos? A 20-Year Survey Hints That Something Is Missing. first appeared on Quanta Magazine",
-      "pubDate": "Mon, 16 Nov 2026 15:15:33 +0000",
       "domain": "science",
       "source": "Quanta"
     },
@@ -732,17 +732,17 @@
       "source": "Sapiens"
     },
     {
-      "title": "Effects of multi-task walking on gait and plantar pressure in preschool children",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1916174",
-      "summary": "IntroductionPreschool children commonly perform motor tasks, cognitive tasks (dual-task), or both simultaneously (three-task) during walking in daily life; however, the changes in gait and plantar pressure under these conditions remain unclear. This study examines the differences in gait and plantar",
+      "title": "Body percussion as a site of embodied creativity: convergence, the body-self, and alterity",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1934372",
+      "summary": "Body percussion, the production of musical sound by striking one’s own body, is an ancient and cross-culturally widespread form of music-making, yet research has approached it chiefly through its motor, neural, and cognitive effects and has rarely theorized it as a creative practice. This conceptual",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "Achievement goal orientations and teacher work engagement: statistical mediation through self-efficacy and moderation by psychological empowerment",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.2009918",
-      "summary": "This study examined whether teacher self-efficacy statistically accounted for associations between four achievement goal orientations and work engagement, and whether these indirect associations varied with psychological empowerment. A three-wave survey included 362 teachers from 20 secondary school",
+      "title": "Artificial intelligence adoption and occupational well-being in higher education management: evidence from universities in Guangzhou",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1931597",
+      "summary": "IntroductionUniversities are increasingly introducing artificial intelligence (AI) tools into administrative and managerial work. Yet evidence on how AI adoption relates to occupational well-being in higher education management remains fragmented. Building on the Job Demands-Resources (JD-R) model a",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
@@ -758,64 +758,64 @@
   ],
   "misinfo_toilet": [
     {
-      "headline": "Satellite Images Show Extent of Trump Admin’s Tree-Felling at DC Golf Course",
-      "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "splice": "Satellite Images Show Extent of Trump Admin’s Tree-Felling at DC Golf Course the signal resolves into the breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "seed": 20261134
+      "headline": "EU Satellite Imagery Delayed Over Gaza and Parts of West Bank by 24-hours",
+      "fragment": "Art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
+      "splice": "EU Satellite Imagery Delayed Over Gaza and Parts of West Bank by 24-hours despite art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
+      "seed": 20261146
     },
     {
-      "headline": "How Online Maps Lay Bare the US Military Bases Targeted by Iran",
-      "fragment": "The technocrat is the natural friend of the dictator—computers and dictatorship.",
-      "splice": "How Online Maps Lay Bare the US Military Bases Targeted by Iran therefore the technocrat is the natural friend of the dictator—computers and dictatorship.",
-      "seed": 20261135
+      "headline": "An Air Force Major Is Being Held in Solitary Confinement for Criticizing Trump on CNN",
+      "fragment": "It is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
+      "splice": "An Air Force Major Is Being Held in Solitary Confinement for Criticizing Trump on CNN as if it is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
+      "seed": 20261147
     },
     {
-      "headline": "COP31: What next after UN climate talks collapse",
-      "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
-      "splice": "COP31: What next after UN climate talks collapse underneath the revolutionary lives in the gap which separates technical progress from social totality.",
-      "seed": 20261136
+      "headline": "Establishment Dems Want to Renew Trump’s Domestic Spy Powers Before New Congress",
+      "fragment": "Over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
+      "splice": "Establishment Dems Want to Renew Trump’s Domestic Spy Powers Before New Congress ...as over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
+      "seed": 20261148
     },
     {
-      "headline": "Boy, 7, pulled alive from rubble hours after Russian strike on Ukraine, rescuers say",
-      "fragment": "It is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
-      "splice": "Boy, 7, pulled alive from rubble hours after Russian strike on Ukraine, rescuers say therefore it is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
-      "seed": 20261137
+      "headline": "EU plans sports ban in sweeping new Russia sanctions proposal",
+      "fragment": "Over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
+      "splice": "EU plans sports ban in sweeping new Russia sanctions proposal as if over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
+      "seed": 20261149
+    },
+    {
+      "headline": "US to blacklist Asian AI firm Megaspeed after Nvidia scandal",
+      "fragment": "Pretending, or dissimulating, leaves the principle of reality intact: the difference is always clear, it is simply masked.",
+      "splice": "US to blacklist Asian AI firm Megaspeed after Nvidia scandal as if pretending, or dissimulating, leaves the principle of reality intact: the difference is always clear, it is simply masked.",
+      "seed": 20261150
+    },
+    {
+      "headline": "Russian warship hit by Ukrainian drones in Libya, Zelensky says",
+      "fragment": "It is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
+      "splice": "Russian warship hit by Ukrainian drones in Libya, Zelensky says not unlike it is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
+      "seed": 20261151
+    },
+    {
+      "headline": "Israel’s southern Syria incursion triggers fear and destruction",
+      "fragment": "Simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
+      "splice": "Israel’s southern Syria incursion triggers fear and destruction within which simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
+      "seed": 20261152
     },
     {
       "headline": "Netanyahu Wants to Attack Iran. Does That Serve Israel or Him?",
-      "fragment": "Pretending, or dissimulating, leaves the principle of reality intact: the difference is always clear, it is simply masked.",
-      "splice": "Netanyahu Wants to Attack Iran. Does That Serve Israel or Him? underneath pretending, or dissimulating, leaves the principle of reality intact: the difference is always clear, it is simply masked.",
-      "seed": 20261138
+      "fragment": "Why do men fight for their servitude as stubbornly as though it were their salvation?",
+      "splice": "Netanyahu Wants to Attack Iran. Does That Serve Israel or Him? the system notes that why do men fight for their servitude as stubbornly as though it were their salvation?",
+      "seed": 20261153
     },
     {
-      "headline": "Inside the Secretive, Contradictory World of Campaign Ads Funded by AI Super PACs",
-      "fragment": "Art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
-      "splice": "Inside the Secretive, Contradictory World of Campaign Ads Funded by AI Super PACs despite art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
-      "seed": 20261139
-    },
-    {
-      "headline": "Ukraine Claims Strikes on Russian Ships Near Libya",
-      "fragment": "It is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
-      "splice": "Ukraine Claims Strikes on Russian Ships Near Libya as if it is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
-      "seed": 20261140
-    },
-    {
-      "headline": "Lebanese families return to ruins after Israeli attacks in south",
+      "headline": "What Nvidia’s Jensen Huang’s return means for Washington and Wall Street?",
       "fragment": "Over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
-      "splice": "Lebanese families return to ruins after Israeli attacks in south ...as over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
-      "seed": 20261141
-    },
-    {
-      "headline": "Longest-ever UN climate talks end with no deal as deep divisions exposed",
-      "fragment": "Over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
-      "splice": "Longest-ever UN climate talks end with no deal as deep divisions exposed as if over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
-      "seed": 20261142
+      "splice": "What Nvidia’s Jensen Huang’s return means for Washington and Wall Street? the signal resolves into over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
+      "seed": 20261154
     },
     {
       "headline": "Sean Duffy’s FAA Fiasco",
-      "fragment": "Pretending, or dissimulating, leaves the principle of reality intact: the difference is always clear, it is simply masked.",
-      "splice": "Sean Duffy’s FAA Fiasco as if pretending, or dissimulating, leaves the principle of reality intact: the difference is always clear, it is simply masked.",
-      "seed": 20261143
+      "fragment": "The simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
+      "splice": "Sean Duffy’s FAA Fiasco despite the simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
+      "seed": 20261155
     }
   ]
 }
