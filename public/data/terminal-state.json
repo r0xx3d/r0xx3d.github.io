@@ -1,7 +1,23 @@
 {
-  "generated_at": "2026-11-25T07:38:56.611Z",
+  "generated_at": "2026-11-25T19:00:56.668Z",
   "threat_intel": {
     "cisa_kev": [
+      {
+        "cveID": "CVE-2026-103406",
+        "vendorProject": "Hewlett Packard Enterprise (HPE)",
+        "product": "Juniper Session Smart Conductor and Session Smart Router",
+        "vulnerabilityName": "Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session Smart Router OS Command Injection Vulnerability",
+        "dateAdded": "2026-11-25",
+        "shortDescription": "Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session Smart Router contain an OS command injection vulnerability that could allow a remote attacker to execute arbitrary commands as root via a specially crafted salt minion ID.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-11-28",
+        "knownRansomwareCampaignUse": "Unknown",
+        "forensicTriage": "Yes",
+        "notes": "https://supportportal.juniper.net/s/article/2026-10-On-Demand-Security-Bulletin-Session-Smart-Router-and-Session-Smart-Conductor-Multiple-internally-discovered-vulnerabilities-resolved ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-103406",
+        "cwes": [
+          "CWE-78"
+        ]
+      },
       {
         "cveID": "CVE-2026-132224",
         "vendorProject": "Optimizely",
@@ -227,103 +243,129 @@
           "CWE-502",
           "CWE-94"
         ]
-      },
-      {
-        "cveID": "CVE-2026-114713",
-        "vendorProject": "UnrealIRCd",
-        "product": "UnrealIRCd",
-        "vulnerabilityName": "UnrealIRCd Improper Neutralization of Delimiters Vulnerability",
-        "dateAdded": "2026-11-13",
-        "shortDescription": "UnrealIRCd UnrealIRCd contains an improper neutralization of delimiters vulnerability that allows any user on a network with two or more linked servers to inject server-to-server commands that are executed with server authority.",
-        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "dueDate": "2026-11-16",
-        "knownRansomwareCampaignUse": "Unknown",
-        "forensicTriage": "Yes",
-        "notes": "https://forums.unrealircd.org/viewtopic.php?t=9487 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-114713",
-        "cwes": [
-          "CWE-140"
-        ]
       }
     ],
     "urlhaus": []
   },
   "world_monitor": [
     {
-      "title": "Pakistan rejoices as country’s first astronaut enters orbit",
-      "link": "https://www.aljazeera.com/news/2026/11/25/pakistan-rejoices-as-countrys-first-astronaut-enters-orbit?traffic_source=rss",
-      "pubDate": "Wed, 25 Nov 2026 07:05:59 +0000",
+      "title": "Nigeria’s Tinubu pledges to bring peace to rebellion-hit border region",
+      "link": "https://www.aljazeera.com/news/2026/11/25/nigerias-tinubu-pledges-to-bring-peace-to-insurgency-hit-northeast-region?traffic_source=rss",
+      "pubDate": "Wed, 25 Nov 2026 18:14:44 +0000",
       "source": "Al Jazeera",
-      "summary": "Zeeshan Ali makes history as the first foreign national to board China's space station"
+      "summary": "Tinubu is under pressure to convince voters that military operations in the country's northeast will deliver security."
     },
     {
-      "title": "Bangladesh garment workers win 36% pay rise after weeks of protest",
-      "link": "https://www.aljazeera.com/news/2026/11/25/bangladesh-garment-workers-win-36-pay-rise-after-weeks-of-protest?traffic_source=rss",
-      "pubDate": "Wed, 25 Nov 2026 06:58:02 +0000",
+      "title": "Ecuador and US review joint military operations, official says",
+      "link": "https://www.aljazeera.com/news/2026/11/25/ecuador-and-us-review-joint-military-operations-official-says?traffic_source=rss",
+      "pubDate": "Wed, 25 Nov 2026 17:50:41 +0000",
       "source": "Al Jazeera",
-      "summary": "The protests have cost Bangladesh hundreds of millions, but workers are yet to accept the offer."
+      "summary": "Joint military efforts have been paused as the US investigates a lethal operation carried out by Ecuador."
     },
     {
-      "title": "Four years after huge asteroid crash, a spacecraft has now returned to assess the damage",
+      "title": "US stocks fall further as fears over AI intensify",
+      "link": "https://www.bbc.co.uk/news/articles/cq0md8g14zryo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Wed, 25 Nov 2026 17:48:09 GMT",
+      "source": "BBC",
+      "summary": "All three main US indexes were down in early trading, with the tech-dominated Nasdaq down almost 4%."
+    },
+    {
+      "title": "Images of asteroid targeted to test Earth's defences reveal stadium-sized crater",
       "link": "https://www.bbc.co.uk/news/articles/cw8dv112r5gmo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Wed, 25 Nov 2026 06:00:36 GMT",
+      "pubDate": "Wed, 25 Nov 2026 17:30:16 GMT",
       "source": "BBC",
-      "summary": "The mission is studying an asteroid deliberately knocked off course by a colliding spacecraft."
+      "summary": "The asteroid's surface was transformed after a spacecraft was deliberately crashed into it four years ago"
     },
     {
-      "title": "Phone spying to missiles: Why India-Israel strategic ties go beyond Modi",
-      "link": "https://www.aljazeera.com/news/2026/11/25/phone-spying-to-missiles-why-india-israel-strategic-ties-go-beyond-modi?traffic_source=rss",
-      "pubDate": "Wed, 25 Nov 2026 05:27:32 +0000",
+      "title": "Iraq’s top court rules government can take over Kurdish borders, oil fields",
+      "link": "https://www.aljazeera.com/news/2026/11/25/iraqs-top-court-rules-government-can-take-over-kurdish-borders-oil-fields?traffic_source=rss",
+      "pubDate": "Wed, 25 Nov 2026 17:29:51 +0000",
       "source": "Al Jazeera",
-      "summary": "The opposition Congress party calls Israel’s war on Gaza a genocide, but its leader still wants strong ties with Israel."
+      "summary": "The ruling comes a day after Kurdish authorities accused Baghdad of an 'assault' on the region's constitutional rights."
     },
     {
-      "title": "The Gambia election: Can the next president deliver on a decade of promise",
-      "link": "https://www.aljazeera.com/news/2026/11/25/the-gambia-election-can-the-next-president-deliver-on-a-decade-of-promise?traffic_source=rss",
-      "pubDate": "Wed, 25 Nov 2026 05:03:04 +0000",
+      "title": "Maduro turns 64 behind bars, son leads celebrations in Caracas",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/25/maduro-turns-64-behind-bars-son-leads-celebrations-in-caracas?traffic_source=rss",
+      "pubDate": "Wed, 25 Nov 2026 17:05:35 +0000",
       "source": "Al Jazeera",
-      "summary": "Gambians head to the polls amid economic hardship and unfulfilled promises of reform and justice."
+      "summary": "Nicolas Maduro’s son led birthday celebrations in Caracas as the abducted former Venezuelan president turned 64"
     },
     {
-      "title": "UK warns companies of potential Russian sabotage threat",
-      "link": "https://www.aljazeera.com/news/2026/11/25/uk-warns-companies-of-potential-russian-sabotage-threat?traffic_source=rss",
-      "pubDate": "Wed, 25 Nov 2026 04:48:57 +0000",
+      "title": "Sporting Lisbon vs Manchester United LIVE: UEFA Champions League",
+      "link": "https://www.aljazeera.com/sports/liveblog/2026/11/25/sporting-lisbon-vs-manchester-united-live-uefa-champions-league?traffic_source=rss",
+      "pubDate": "Wed, 25 Nov 2026 17:01:26 +0000",
       "source": "Al Jazeera",
-      "summary": "Britain's Defence Ministry and security service warn of the threat in unusual public announcement."
+      "summary": "Follow all the build-up and team news coverage from our live text commentary stream as Bruno Fernandes headlines."
     },
     {
-      "title": "US attorney general dodges questions about Nvidia investigation",
-      "link": "https://www.bbc.co.uk/news/articles/crpdw1qx7jgxo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Wed, 25 Nov 2026 03:44:07 GMT",
+      "title": "South African President Wins Reprieve From ‘Farmgate’ Impeachment Investigation",
+      "link": "https://www.nytimes.com/2026/11/25/world/africa/south-africa-ramaphosa-farmgate.html",
+      "pubDate": "Wed, 25 Nov 2026 16:22:17 +0000",
+      "source": "NYT World",
+      "summary": "A court threw out a report suggesting that Cyril Ramaphosa may have tried to conceal the theft of more than half a million dollars of U.S. currency."
+    },
+    {
+      "title": "US announces new tariffs on host of countries including China",
+      "link": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Wed, 25 Nov 2026 16:21:34 GMT",
       "source": "BBC",
-      "summary": "Nvidia's share price have fallen 7% as lawmakers demand answers about President Donald Trump's involvement in Huang's reinstatement."
+      "summary": "The new levies would hit many of America's biggest trading partners, including China and the EU."
     },
     {
-      "title": "Huawei found guilty of stealing US trade secrets but acquitted of racketeering",
-      "link": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Wed, 25 Nov 2026 02:59:27 GMT",
-      "source": "BBC",
-      "summary": "The verdict follows a months-long trial in New York."
+      "title": "How an Iranian Ally Gained the Upper Hand in Yemen’s War",
+      "link": "https://www.nytimes.com/2026/11/25/world/middleeast/yemen-houthis-war-government-losses.html",
+      "pubDate": "Wed, 25 Nov 2026 13:59:32 +0000",
+      "source": "NYT World",
+      "summary": "The Iran-backed Houthis are on a winning streak, securing strategic territory as they fight Saudi Arabia and its Yemeni allies in an asymmetrical war of attrition."
     },
     {
-      "title": "The rising cost of putting food on the table in India",
-      "link": "https://www.bbc.co.uk/news/articles/cmy0xj41kl50o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Wed, 25 Nov 2026 01:02:13 GMT",
-      "source": "BBC",
-      "summary": "India's food inflation is broadening, squeezing household budgets."
+      "title": "Defending Aden, Yemen’s Holdout Against the Houthis",
+      "link": "https://www.nytimes.com/video/world/middleeast/100000011300541/defending-aden-yemens-holdout-against-the-houthis.html",
+      "pubDate": "Wed, 25 Nov 2026 13:39:46 +0000",
+      "source": "NYT World",
+      "summary": "The war in Iran has reignited Yemen’s decade-old civil war. Saudi-backed troops are scrambling to defend against advancing Houthi fighters as the wounded are taken to the port city of Aden, the government’s provisional capital."
     },
     {
-      "title": "Russia's own figures show almost 500,000 deaths in war in Ukraine",
+      "title": "Russia's own figures show it has lost nearly 500,000 people in Ukraine war",
       "link": "https://www.bbc.co.uk/news/articles/cmx27g533zwyo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Wed, 25 Nov 2026 00:56:51 GMT",
+      "pubDate": "Wed, 25 Nov 2026 12:21:49 GMT",
       "source": "BBC",
       "summary": "Leaked data reveal how the full-scale invasion of Ukraine has fundamentally changed mortality patterns in Russia."
     },
     {
-      "title": "Iraq’s Prime Minister Aims to Wrest More Power from Kurdistan Region",
-      "link": "https://www.nytimes.com/2026/11/24/world/middleeast/iraq-prime-minister-kurdistan-control.html",
-      "pubDate": "Wed, 25 Nov 2026 00:38:35 +0000",
+      "title": "It’s Time to Ditch Kirsten Gillibrand",
+      "link": "https://theintercept.com/2026/11/25/senate-democrats-kirsten-gillibrand-dscc/",
+      "pubDate": "Wed, 25 Nov 2026 12:13:00 +0000",
+      "source": "The Intercept",
+      "summary": "The New York senator wants to lead the Democratic Senatorial Campaign Committee into 2028. She’s the wrong person to meet the moment.\nThe post It’s Time to Ditch Kirsten Gillibrand appeared first on The Intercept."
+    },
+    {
+      "title": "Trump’s Imperialist Fantasy for Latin America Is Already Failing",
+      "link": "https://theintercept.com/2026/11/25/trump-latin-america-intervention-influence/",
+      "pubDate": "Wed, 25 Nov 2026 11:00:00 +0000",
+      "source": "The Intercept",
+      "summary": "Despite Hegseth’s victory lap, Trump’s “Donroe Doctrine” may already be on life support.\nThe post Trump’s Imperialist Fantasy for Latin America Is Already Failing appeared first on The Intercept."
+    },
+    {
+      "title": "Island Paradise of Mauritius Has Sun, Beaches and Too Many Dogs",
+      "link": "https://www.nytimes.com/2026/11/25/world/africa/maritius-stray-dogs.html",
+      "pubDate": "Wed, 25 Nov 2026 10:00:48 +0000",
       "source": "NYT World",
-      "summary": "Ali al-Zaidi, who just scored a symbolic victory against a powerful Iran-backed militia, has now moved to assert control over Kurdish border crossings and oil resources."
+      "summary": "Mauritius, a popular tourist destination off southern Africa, has become overrun with strays. With more and more residents chased and attacked, many are fed up."
+    },
+    {
+      "title": "Hungary Threw Open Its Secret Police Files. Let the Finger Pointing Begin.",
+      "link": "https://www.nytimes.com/2026/11/25/world/europe/hungary-threw-open-its-secret-police-files-let-the-finger-pointing-begin.html",
+      "pubDate": "Wed, 25 Nov 2026 05:01:14 +0000",
+      "source": "NYT World",
+      "summary": "The communist-era files have exposed the vast network of informants that kept Hungary in the Soviet orbit. But how reliable are they?"
+    },
+    {
+      "title": "My family were killed in Ukraine. My mum blamed Zelensky's troops - the truth is complicated",
+      "link": "https://www.bbc.co.uk/news/articles/cw24e17v9e51o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Wed, 25 Nov 2026 00:54:13 GMT",
+      "source": "BBC",
+      "summary": "BBC journalist Anastasiya Gribanova investigates who killed her father and grandparents in the war."
     },
     {
       "title": "Court Orders Trump Media to Hand Over Truth Social Records in The Intercept Lawsuit",
@@ -340,53 +382,11 @@
       "summary": "A judge extended First Amendment protections to all Americans helping the ICC. Previous rulings only protected the plaintiffs.\nThe post Why a Case Against ICC Sanctions Is a Major Victory for Palestine Human Rights Work appeared first on The Intercep"
     },
     {
-      "title": "Houthi Attack on Skyscraper in Saudi Capital Wounds 11, Officials Say",
-      "link": "https://www.nytimes.com/2026/11/24/world/middleeast/saudi-skyscraper-houthi-strike.html",
-      "pubDate": "Tue, 24 Nov 2026 19:18:15 +0000",
-      "source": "NYT World",
-      "summary": "The people were wounded in the strike on a building in Riyadh, the Saudi authorities said. The Iran-backed militia and Saudi Arabia have been exchanging escalating attacks for weeks."
-    },
-    {
-      "title": "Murder Charge Reinstated for French Police Officer in Teen’s Shooting",
-      "link": "https://www.nytimes.com/2026/11/24/world/europe/france-nahel-merzouk.html",
-      "pubDate": "Tue, 24 Nov 2026 14:13:17 +0000",
-      "source": "NYT World",
-      "summary": "The killing of Nahel Merzouk, 17, sparked nationwide unrest. The case against the officer accused of involvement has undergone repeated twists and turns."
-    },
-    {
-      "title": "Iranian Singer Receives 74 Lashes for Performing With No Hijab",
-      "link": "https://www.nytimes.com/2026/11/24/world/middleeast/iran-singer-parastoo-ahmadi-flogging-lashes.html",
-      "pubDate": "Tue, 24 Nov 2026 12:34:52 +0000",
-      "source": "NYT World",
-      "summary": "Parastoo Ahmadi sang without wearing the mandatory veil in a virtual concert in 2024 that spread quickly online and drew the ire of the Islamic republic authorities."
-    },
-    {
-      "title": "For China, Jensen Huang’s Return to Nvidia Is a Mixed Blessing",
-      "link": "https://www.nytimes.com/2026/11/24/world/asia/jensen-huang-nvidia-china.html",
-      "pubDate": "Tue, 24 Nov 2026 11:55:30 +0000",
-      "source": "NYT World",
-      "summary": "Beijing may welcome the return of the leading U.S. advocate for A.I. chip sales to China. But the saga could reinforce a Chinese push for self-reliance, analysts say."
-    },
-    {
       "title": "Hakeem Jeffries Can Live With “Medicare for More”",
       "link": "https://theintercept.com/2026/11/24/hakeem-jeffries-democrats-medicare-for-all/",
       "pubDate": "Tue, 24 Nov 2026 11:00:00 +0000",
       "source": "The Intercept",
       "summary": "As progressives push for Medicare for All, the likely next House speaker has signed off on a first step.\nThe post Hakeem Jeffries Can Live With “Medicare for More” appeared first on The Intercept."
-    },
-    {
-      "title": "Private Prison Told ICE Its Jail Was Worth $67 Million. ICE Bought It for Nearly Half a Billion.",
-      "link": "https://theintercept.com/2026/11/23/geo-group-private-prison-ice-sale-contract/",
-      "pubDate": "Mon, 23 Nov 2026 18:57:05 +0000",
-      "source": "The Intercept",
-      "summary": "GEO Group made a windfall after ICE bought a jail for nearly seven times the private prison giant’s own appraisal, documents reveal.\nThe post Private Prison Told ICE Its Jail Was Worth $67 Million. ICE Bought It for Nearly Half a Billion. appeared fi"
-    },
-    {
-      "title": "Losing to the Mud: Feds Drag Their Feet as an Alaskan Village Sinks",
-      "link": "https://theintercept.com/2026/11/23/alaska-sinking-village-climate-change-relocation/",
-      "pubDate": "Mon, 23 Nov 2026 10:00:00 +0000",
-      "source": "The Intercept",
-      "summary": "As communities seek relocation spurred by climate change, the Yup’ik people in the remote village of Nunapitchuk have struggled to get help moving a mile uphill.\nThe post Losing to the Mud: Feds Drag Their Feet as an Alaskan Village Sinks appeared fi"
     },
     {
       "title": "How Online Maps Lay Bare the US Military Bases Targeted by Iran",
@@ -426,6 +426,20 @@
   ],
   "syndication": [
     {
+      "title": "Pluralistic: New York vs auto-enshittification (25 Nov 2026)",
+      "link": "https://pluralistic.net/2026/11/25/empire-state-strikes-back/",
+      "pubDate": "Wed, 25 Nov 2026 13:42:12 +0000",
+      "author": "Pluralistic",
+      "content": "Today's links New York vs auto-enshittification: A blueprint for states to fix Congress's mistake. Hey look at this: Delights to delectate. Object permanence: Homebrew DRM; HTML v regexp; Tesla-financial complex; Spain v Wall St landlords; \"Cooking in Maximum Security.\" Upcoming appearances: Virtual"
+    },
+    {
+      "title": "Tracking Incidents of Hacking Using AI Tools",
+      "link": "https://www.schneier.com/blog/archives/2026/11/tracking-incidents-of-hacking-using-ai-tools.html",
+      "pubDate": "2026-11-25T12:07:21.000Z",
+      "author": "Schneier on Security",
+      "content": "Daniel Meissler is tracking incidents of AI-enhanced hacking, and the offensive harnesses the hackers are using."
+    },
+    {
       "title": "Pluralistic: Free lunches (24 Nov 2026)",
       "link": "https://pluralistic.net/2026/11/24/move-fast-break-kings/",
       "pubDate": "Tue, 24 Nov 2026 12:15:29 +0000",
@@ -461,20 +475,6 @@
       "content": "The chief technology officer and co-founder of ransomwarehelp.com, a six year old Florida business that claimed to use \"advanced cryptographic tools\" to restore data locked by ransomware, has been charged with wire fraud after an FBI sting operation found the company was simply paying the attackers "
     },
     {
-      "title": "Friday Squid Blogging: The Largest Squid Ever Filmed",
-      "link": "https://www.schneier.com/blog/archives/2026/11/friday-squid-blogging-the-largest-squid-ever-filmed.html",
-      "pubDate": "2026-11-20T22:04:12.000Z",
-      "author": "Schneier on Security",
-      "content": "This  is the story of the largest squid ever filmed, in December 2006 near Japan’s Ogasawara Islands.\nAs usual, you can also use this squid post to talk about the security stories in the news that I haven’t covered.\nBlog moderation policy."
-    },
-    {
-      "title": "Pluralistic: Lisa Hanawalt's \"I Can't Stop Thinking About Horses and Sex\" (20 Nov 2026)",
-      "link": "https://pluralistic.net/2026/11/20/intrusive-horse-thoughts/",
-      "pubDate": "Fri, 20 Nov 2026 10:44:20 +0000",
-      "author": "Pluralistic",
-      "content": "Today's links Lisa Hanawalt's \"I Can't Stop Thinking About Horses and Sex\": A memoir of heartbreak, horses, horniness and IBS. Hey look at this: Delights to delectate. Object permanence: They Fight Crime; Cantenna wifi TV for Mali; Kakistocracy; Inflation or price-gouging; The long game. Upcoming ap"
-    },
-    {
       "title": "Attackers Used Optimizely to A/B Test Malware on Top Websites",
       "link": "https://krebsonsecurity.com/2026/11/attackers-used-optimizely-to-a-b-test-malware-on-top-websites/",
       "pubDate": "Wed, 18 Nov 2026 02:52:04 +0000",
@@ -491,52 +491,76 @@
   ],
   "syndicate_journal": [
     {
-      "title": "Jacobin Is Hiring a Video Producer",
-      "link": "https://jacobin.com/2026/11/jacobin-hiring-senior-video-producer",
-      "summary": "Location: Hybrid. New York metro area candidates; at least two days a week in our Brooklyn office\nSalary: From $68,150.03 per year\nReports to: Director of Communications\nPosition: Full-time\nStart date: As soon as possible, no later than January 7, 2027\n is seeking a Senior Video Producer to make tho",
-      "pubDate": "2026-11-25T04:56:36.165Z",
+      "title": "Grand Theft Auto Grew Up. America Didn’t.",
+      "link": "https://jacobin.com/2026/11/gta-rockstar-morality-violence-trump",
+      "summary": "Early in , you and your girlfriend drive to the local branch of Fleeca bank on an errand that, by the franchise’s standards, is something of a novelty. Your job is not to rob a bank but to open an account at one.Grand Theft Auto VI\nLucia Caminos, fresh out of prison, needs somewhere to deposit her c",
+      "pubDate": "2026-11-25T17:04:08.982Z",
       "domain": "politics",
       "source": "Jacobin"
     },
     {
-      "title": "Earth’s Water May Have Formed in This Fiery Furnace",
-      "link": "https://nautil.us/earths-water-may-have-formed-in-this-fiery-furnace-1287019/",
-      "summary": "No ice deliveries needed\nThe post Earth’s Water May Have Formed in This Fiery Furnace appeared first on Nautilus.",
-      "pubDate": "Tue, 24 Nov 2026 21:00:00 +0000",
+      "title": "The Small But Mighty Brains of Bumblebees",
+      "link": "https://nautil.us/the-small-but-mighty-brains-of-bumblebees-1287067/",
+      "summary": "Sometimes the best thinkers come in tiny packages\nThe post The Small But Mighty Brains of Bumblebees appeared first on Nautilus.",
+      "pubDate": "Wed, 25 Nov 2026 17:00:00 +0000",
       "domain": "science",
       "source": "Nautilus"
     },
     {
-      "title": "Even Tiny Bits of Exercise May Help Regulate Blood Sugar",
-      "link": "https://nautil.us/even-tiny-bits-of-exercise-may-help-regulate-blood-sugar-1287062/",
-      "summary": "When you can’t have an exercise meal, have an exercise snack\nThe post Even Tiny Bits of Exercise May Help Regulate Blood Sugar appeared first on Nautilus.",
-      "pubDate": "Tue, 24 Nov 2026 20:00:00 +0000",
+      "title": "This Clever Marketing Tactic Works on Rats Too",
+      "link": "https://nautil.us/this-clever-marketing-tactic-works-on-rats-too-1287070/",
+      "summary": "Buyer beware\nThe post This Clever Marketing Tactic Works on Rats Too appeared first on Nautilus.",
+      "pubDate": "Wed, 25 Nov 2026 16:00:00 +0000",
       "domain": "science",
       "source": "Nautilus"
     },
     {
-      "title": "No Pumbaa Needed: Meerkats Are Great Solo Navigators",
-      "link": "https://nautil.us/no-pumbaa-needed-meerkats-are-great-solo-navigators-1286989/",
-      "summary": "But they’re still best off sticking with their gangs\nThe post No Pumbaa Needed: Meerkats Are Great Solo Navigators appeared first on Nautilus.",
-      "pubDate": "Tue, 24 Nov 2026 19:00:00 +0000",
+      "title": "How Heat Made Life",
+      "link": "https://nautil.us/how-heat-made-life-1287012/",
+      "summary": "A conversation with evolutionary biologist Olivia Judson about the central role of energy in the evolution of Earth\nThe post How Heat Made Life appeared first on Nautilus.",
+      "pubDate": "Wed, 25 Nov 2026 15:00:00 +0000",
       "domain": "science",
       "source": "Nautilus"
     },
     {
-      "title": "Amazon Workers Have Won a First North American Contract",
-      "link": "https://jacobin.com/2026/11/amazon-unifor-british-columbia-first-contract",
-      "summary": "Amazon has spent years and enormous  trying to prevent its North American workforce from unionizing. Even where workers have successfully organized, the retail giant has used everything from  to  to frustrate their efforts to secure a first contract. Now, for the first time, workers at an Amazon fac",
-      "pubDate": "2026-11-24T18:51:10.610Z",
+      "title": "Charles Koch Has a Dystopian Plan for How to Control Workers",
+      "link": "https://jacobin.com/2026/11/koch-economics-workplace-tyranny-markets",
+      "summary": "At a conference in Orlando, Florida, in 2005, the American billionaire Charles Koch gave a speech explaining how he and his audience could protect “freedom and prosperity in the world.” While accepting an award named after potato chip magnate Herman Lay, Koch explained that he had conceived a “scien",
+      "pubDate": "2026-11-25T14:50:33.337Z",
       "domain": "politics",
       "source": "Jacobin"
     },
     {
-      "title": "Rediscovering Rosa Luxemburg’s History of Ancient Rome",
-      "link": "https://jacobin.com/2026/11/rosa-luxemburg-ancient-history-rome-spartacus",
-      "summary": "More than a century after her death, Rosa Luxemburg is renowned as a revolutionary socialist and leader of the 1919 Spartacist Uprising in Germany. Her writings have long been a touchstone for socialist theory. But her work as an ancient historian remains almost entirely unknown.\nLuxemburg’s politic",
-      "pubDate": "2026-11-24T17:32:23.939Z",
+      "title": "Pregnant Workers Say Amazon Is Violating Their Rights",
+      "link": "https://jacobin.com/2026/11/lawsuit-amazon-pregnant-workers-accommodation",
+      "summary": "Willamina Barclay was working as a picker at Amazon’s fulfillment center in Rochester, New York, when she felt lightheaded again. “She pleaded with a manager for a seat. . . .  He refused: ‘No, because you don’t have a [pregnancy] accommodation. If I give you a chair, I have to give everybody else a",
+      "pubDate": "2026-11-25T14:48:40.234Z",
       "domain": "politics",
       "source": "Jacobin"
+    },
+    {
+      "title": "Flax Seeds of Revolution",
+      "link": "https://daily.jstor.org/flax-seeds-of-revolution/",
+      "summary": "Revolutionary-era women spun flax as resistance against British rule and colonial gender norms.\nThe post Flax Seeds of Revolution appeared first on JSTOR Daily.",
+      "pubDate": "Wed, 25 Nov 2026 14:33:00 +0000",
+      "domain": "history",
+      "source": "JSTOR Daily"
+    },
+    {
+      "title": "Novel Experiments Expand the Hunt for ‘Ultralight’ Dark Matter",
+      "link": "https://www.quantamagazine.org/novel-experiments-expand-the-hunt-for-ultralight-dark-matter-20261125/",
+      "summary": "Scientists are inventing new ways to search for the missing mass of the universe.            \nThe post Novel Experiments Expand the Hunt for ‘Ultralight’ Dark Matter first appeared on Quanta Magazine",
+      "pubDate": "Wed, 25 Nov 2026 14:00:49 +0000",
+      "domain": "science",
+      "source": "Quanta"
+    },
+    {
+      "title": "The passing",
+      "link": "https://aeon.co/videos/a-veterinarian-helps-cindy-say-goodbye-to-fiona-her-17-year-old-dog",
+      "summary": "With compassion and care, a veterinarian helps Cindy say a tender final goodbye to her beloved elderly dog, Fiona\n- by Aeon Video\nWatch on Aeon",
+      "pubDate": "Wed, 25 Nov 2026 11:01:00 GMT",
+      "domain": "philosophy",
+      "source": "Aeon"
     },
     {
       "title": "Bickering Buildings: A Dialogue Between the Churches of Athens in 1854\n",
@@ -619,14 +643,6 @@
       "source": "Aeon"
     },
     {
-      "title": "A colossal oscillation",
-      "link": "https://aeon.co/essays/what-can-we-learn-from-the-past-experience-of-el-nino",
-      "summary": "El Niño has upended global weather, shaping the fate of societies, for millennia. Is this past a clue to a turbulent future?\n- by Dagomar Degroot\nRead on Aeon",
-      "pubDate": "Mon, 23 Nov 2026 11:00:00 GMT",
-      "domain": "philosophy",
-      "source": "Aeon"
-    },
-    {
       "title": "Reading backwards",
       "link": "https://languagelog.ldc.upenn.edu/nll/?p=74647&utm_source=rss&utm_medium=rss&utm_campaign=reading-backwards",
       "summary": "Akhil Sharma, \"Reading in Reverse\", The New Yorker 11/21/20026: I sat on a sofa with a book in my lap and read the last sentence of a chapter, and then the second to last, and then the third to last. Why was Sharma reading books backwards? I was forty and had quit my job to […]",
@@ -639,22 +655,6 @@
       "link": "https://www.quantamagazine.org/network-researchers-nail-down-theory-of-perfect-resilience-20261120/",
       "summary": "When links in a communication network go down, messages can get routed in a loop. Computer scientists now know that four simple network structures are to blame.            \nThe post Network Researchers Nail Down Theory of ‘Perfect Resilience’ first appeared on Quanta Magazine",
       "pubDate": "Fri, 20 Nov 2026 14:50:41 +0000",
-      "domain": "science",
-      "source": "Quanta"
-    },
-    {
-      "title": "How Magic Lantern Ghosts Helped Measure the Stars",
-      "link": "https://daily.jstor.org/how-magic-lantern-ghosts-helped-measure-the-stars/",
-      "summary": "A nineteenth-century invention brought theatrical illusions into the observatory, changing how astronomers studied starlight.\nThe post How Magic Lantern Ghosts Helped Measure the Stars appeared first on JSTOR Daily.",
-      "pubDate": "Fri, 20 Nov 2026 14:27:12 +0000",
-      "domain": "history",
-      "source": "JSTOR Daily"
-    },
-    {
-      "title": "How M.C. Escher’s Art Creates Bizarre Mathematical Worlds",
-      "link": "https://www.quantamagazine.org/how-m-c-eschers-art-creates-bizarre-mathematical-worlds-20261118/",
-      "summary": "The artist had no formal math education, yet as a new exhibition shows, the insights revealed in his artwork became an enduring inspiration to mathematicians.            \nThe post How M.C. Escher’s Art Creates Bizarre Mathematical Worlds first appeared on Quanta Magazine",
-      "pubDate": "Wed, 18 Nov 2026 15:51:40 +0000",
       "domain": "science",
       "source": "Quanta"
     },
@@ -707,25 +707,25 @@
       "source": "Sapiens"
     },
     {
-      "title": "Altered temporal organization of ankle mechanics during the braking-to-propulsion transition of countermovement jumping in male basketball players with chronic ankle instability: a study using discrete metrics and one-dimensional statistical parametric mapping",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.2003163",
-      "summary": "ObjectiveTo determine whether chronic ankle instability (CAI) is associated with altered temporal organization of ankle mechanics during the braking-to-propulsion transition of the countermovement jump (CMJ) in systematically trained male basketball players, and whether these local mechanical differ",
+      "title": "A systematic review of intervention studies on narrative comprehension in individuals with autism spectrum disorders",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1974510",
+      "summary": "BackgroundNarrative skills are fundamental to academic achievement and social participation, yet individuals with autism spectrum disorders (ASD) often experience challenges in both narrative production and comprehension. Existing reviews have predominantly focused on narrative-production interventi",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "The relationship between supervisor support and cross-cultural adaptation on academic wellbeing among international students in Malaysia: the mediating role of help-seeking intention and psychological resilience",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1979119",
-      "summary": "BackgroundInternational students in Malaysian universities face concurrent academic, linguistic and intercultural demands that put their academic wellbeing at risk. Supervisor support (SS) and cross-cultural adaptation (CCA) are established correlates, but the mechanisms translating them into academ",
+      "title": "Hierarchical effects of three stream-of-consciousness structural features on real-time empathic processing",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1957882",
+      "summary": "IntroductionHow stream-of-consciousness textual structures shape real-time empathic processing is a key question at the interface of cognitive narratology and experimental psychology.MethodsStream-of-consciousness discourse was decomposed into three conceptually distinct and empirically weakly corre",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "Roles of AI-supported mathematics learning interest and mathematical creativity in mathematics achievement: a structural equation modeling analysis",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.2017368",
-      "summary": "IntroductionThis study examined direct and indirect associations between interest in AI-supported mathematics learning and mathematics achievement, with mathematical creativity as the hypothesized mediator.MethodsParticipants were 355 Grade 11 students from eight classes across four schools in one c",
+      "title": "Experiences and meanings of the functional-instrumental body in elite artistic gymnasts: a qualitative study",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.2012521",
+      "summary": "IntroductionThe meaning attributed to the body influences identity and self-perception within specific social contexts. In sports, the body is viewed as a tool for performance, which can conflict with dominant esthetic ideals. For female athletes, these constructions of the body affect their well-be",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
@@ -733,64 +733,64 @@
   ],
   "misinfo_toilet": [
     {
-      "headline": "Satellite Images Show Extent of Trump Admin’s Tree-Felling at DC Golf Course",
-      "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "splice": "Satellite Images Show Extent of Trump Admin’s Tree-Felling at DC Golf Course the signal resolves into the breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "seed": 20261132
+      "headline": "EU Satellite Imagery Delayed Over Gaza and Parts of West Bank by 24-hours",
+      "fragment": "Art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
+      "splice": "EU Satellite Imagery Delayed Over Gaza and Parts of West Bank by 24-hours despite art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
+      "seed": 20261144
     },
     {
-      "headline": "How Online Maps Lay Bare the US Military Bases Targeted by Iran",
-      "fragment": "The technocrat is the natural friend of the dictator—computers and dictatorship.",
-      "splice": "How Online Maps Lay Bare the US Military Bases Targeted by Iran therefore the technocrat is the natural friend of the dictator—computers and dictatorship.",
-      "seed": 20261133
-    },
-    {
-      "headline": "Pakistan rejoices as country’s first astronaut enters orbit",
-      "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
-      "splice": "Pakistan rejoices as country’s first astronaut enters orbit underneath the revolutionary lives in the gap which separates technical progress from social totality.",
-      "seed": 20261134
+      "headline": "Court Orders Trump Media to Hand Over Truth Social Records in The Intercept Lawsuit",
+      "fragment": "It is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
+      "splice": "Court Orders Trump Media to Hand Over Truth Social Records in The Intercept Lawsuit as if it is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
+      "seed": 20261145
     },
     {
       "headline": "Why a Case Against ICC Sanctions Is a Major Victory for Palestine Human Rights Work",
-      "fragment": "It is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
-      "splice": "Why a Case Against ICC Sanctions Is a Major Victory for Palestine Human Rights Work therefore it is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
-      "seed": 20261135
+      "fragment": "Over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
+      "splice": "Why a Case Against ICC Sanctions Is a Major Victory for Palestine Human Rights Work ...as over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
+      "seed": 20261146
     },
     {
-      "headline": "UK warns companies of potential Russian sabotage threat",
+      "headline": "Ecuador and US review joint military operations, official says",
+      "fragment": "Over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
+      "splice": "Ecuador and US review joint military operations, official says as if over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
+      "seed": 20261147
+    },
+    {
+      "headline": "Maduro turns 64 behind bars, son leads celebrations in Caracas",
       "fragment": "Pretending, or dissimulating, leaves the principle of reality intact: the difference is always clear, it is simply masked.",
-      "splice": "UK warns companies of potential Russian sabotage threat underneath pretending, or dissimulating, leaves the principle of reality intact: the difference is always clear, it is simply masked.",
-      "seed": 20261136
+      "splice": "Maduro turns 64 behind bars, son leads celebrations in Caracas as if pretending, or dissimulating, leaves the principle of reality intact: the difference is always clear, it is simply masked.",
+      "seed": 20261148
     },
     {
-      "headline": "Inside the Secretive, Contradictory World of Campaign Ads Funded by AI Super PACs",
-      "fragment": "Art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
-      "splice": "Inside the Secretive, Contradictory World of Campaign Ads Funded by AI Super PACs despite art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
-      "seed": 20261137
-    },
-    {
-      "headline": "Iraq’s Prime Minister Aims to Wrest More Power from Kurdistan Region",
+      "headline": "Island Paradise of Mauritius Has Sun, Beaches and Too Many Dogs",
       "fragment": "It is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
-      "splice": "Iraq’s Prime Minister Aims to Wrest More Power from Kurdistan Region as if it is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
-      "seed": 20261138
+      "splice": "Island Paradise of Mauritius Has Sun, Beaches and Too Many Dogs not unlike it is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
+      "seed": 20261149
     },
     {
-      "headline": "The Gambia election: Can the next president deliver on a decade of promise",
-      "fragment": "Over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
-      "splice": "The Gambia election: Can the next president deliver on a decade of promise ...as over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
-      "seed": 20261139
+      "headline": "Nigeria’s Tinubu pledges to bring peace to rebellion-hit border region",
+      "fragment": "Simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
+      "splice": "Nigeria’s Tinubu pledges to bring peace to rebellion-hit border region within which simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
+      "seed": 20261150
     },
     {
-      "headline": "Houthi Attack on Skyscraper in Saudi Capital Wounds 11, Officials Say",
+      "headline": "How an Iranian Ally Gained the Upper Hand in Yemen’s War",
+      "fragment": "Why do men fight for their servitude as stubbornly as though it were their salvation?",
+      "splice": "How an Iranian Ally Gained the Upper Hand in Yemen’s War the system notes that why do men fight for their servitude as stubbornly as though it were their salvation?",
+      "seed": 20261151
+    },
+    {
+      "headline": "Iraq’s top court rules government can take over Kurdish borders, oil fields",
       "fragment": "Over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
-      "splice": "Houthi Attack on Skyscraper in Saudi Capital Wounds 11, Officials Say as if over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
-      "seed": 20261140
+      "splice": "Iraq’s top court rules government can take over Kurdish borders, oil fields the signal resolves into over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
+      "seed": 20261152
     },
     {
       "headline": "Hakeem Jeffries Can Live With “Medicare for More”",
-      "fragment": "Pretending, or dissimulating, leaves the principle of reality intact: the difference is always clear, it is simply masked.",
-      "splice": "Hakeem Jeffries Can Live With “Medicare for More” as if pretending, or dissimulating, leaves the principle of reality intact: the difference is always clear, it is simply masked.",
-      "seed": 20261141
+      "fragment": "The simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
+      "splice": "Hakeem Jeffries Can Live With “Medicare for More” despite the simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
+      "seed": 20261153
     }
   ]
 }
