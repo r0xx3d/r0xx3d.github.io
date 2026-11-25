@@ -1,7 +1,55 @@
 {
-  "generated_at": "2026-11-24T09:00:33.225Z",
+  "generated_at": "2026-11-25T07:38:56.611Z",
   "threat_intel": {
     "cisa_kev": [
+      {
+        "cveID": "CVE-2026-132224",
+        "vendorProject": "Optimizely",
+        "product": "Web Experimentation",
+        "vulnerabilityName": "Optimizely Web Experimentation External Control of Critical State Data Vulnerability",
+        "dateAdded": "2026-11-24",
+        "shortDescription": "Optimizely Web Experimentation contains an external control of critical state data vulnerability in its account signup flow that could allow an attacker to impersonate existing customer users and modify Project JavaScript. Successful exploitation can result in attacker-controlled JavaScript being distributed through Optimizely-hosted assets and executed in browsers visiting affected customer websites.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-11-27",
+        "knownRansomwareCampaignUse": "Unknown",
+        "forensicTriage": "Yes",
+        "notes": "https://pages.optimizely.com/rs/947-RKE-048/images/Security%20Incident%20Report%20-%20Optimizely%20Web%20Experimentation%20-%20Nov%2017%202026.pdf ; https://status.optimizely.com/incidents/ftw0fh9wx43z ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-132224",
+        "cwes": [
+          "CWE-642"
+        ]
+      },
+      {
+        "cveID": "CVE-2026-131914",
+        "vendorProject": "Idunno",
+        "product": "AntiCsrf",
+        "vulnerabilityName": "Idunno AntiCsrf Deserialization of Untrusted Data Vulnerability",
+        "dateAdded": "2026-11-24",
+        "shortDescription": "Idunno AntiCsrf contains a deserialization of untrusted data vulnerability that allows an unauthenticated remote attacker to execute arbitrary code via object injection. The impacted product(s) could be end-of-life (EoL) and/or end-of-service (EoS). Users are advised to discontinue use and/or transition to a supported version.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-11-27",
+        "knownRansomwareCampaignUse": "Unknown",
+        "forensicTriage": "Yes",
+        "notes": "This vulnerability could affect an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: https://github.com/mandiant/Vulnerability-Disclosures/blob/master/2026/MNDT-2026-0048.md ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-131914",
+        "cwes": [
+          "CWE-502"
+        ]
+      },
+      {
+        "cveID": "CVE-2026-132165",
+        "vendorProject": "Drupal",
+        "product": "Core",
+        "vulnerabilityName": "Drupal Core Remote Code Execution Vulnerability",
+        "dateAdded": "2026-11-24",
+        "shortDescription": "Drupal Core contains a not failing securely vulnerability that could allow an unauthenticated attacker to take over an existing site or execute arbitrary code via the Drupal installer. Under specific conditions, the attacker can use install.php to attempt to reinstall Drupal on the site.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-11-27",
+        "knownRansomwareCampaignUse": "Unknown",
+        "forensicTriage": "Yes",
+        "notes": "https://www.drupal.org/sa-core-2026-017 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-132165",
+        "cwes": [
+          "CWE-636"
+        ]
+      },
       {
         "cveID": "CVE-2026-133968",
         "vendorProject": "Project MONAI",
@@ -195,143 +243,136 @@
         "cwes": [
           "CWE-140"
         ]
-      },
-      {
-        "cveID": "CVE-2026-123039",
-        "vendorProject": "Check Point",
-        "product": "Multiple Products",
-        "vulnerabilityName": "Check Point Multiple Products Incorrect Permission Assignment for Critical Resource Vulnerability",
-        "dateAdded": "2026-11-13",
-        "shortDescription": "Check Point Firewall, Multi-Domain Security Management Server, Scalable Platforms, Security Gateway, and Security Management Server contain an incorrect permissions assignment for critical resources vulnerability when the Gaia OS DynamicCLI daemon runs as root and listens on a world-writable local socket without authenticating connecting processes. An authenticated local user can send a command to the socket and have it executed as root.",
-        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "dueDate": "2026-11-16",
-        "knownRansomwareCampaignUse": "Unknown",
-        "forensicTriage": "Yes",
-        "notes": "https://support.checkpoint.com/results/sk/sk1000362 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-123039",
-        "cwes": [
-          "CWE-732",
-          "CWE-862"
-        ]
-      },
-      {
-        "cveID": "CVE-2026-124194",
-        "vendorProject": "Microsoft",
-        "product": "Office",
-        "vulnerabilityName": "Microsoft Office Outlook Missing User Interaction for Potentially Unsafe Action Vulnerability",
-        "dateAdded": "2026-11-10",
-        "shortDescription": "Microsoft Office Outlook contains a missing user interaction for potentially unsafe action vulnerability that allows an unauthorized attacker to perform spoofing over a network.",
-        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "dueDate": "2026-11-24",
-        "knownRansomwareCampaignUse": "Unknown",
-        "forensicTriage": "No",
-        "notes": "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2026-124194 ; https://nvd.nist.gov/vuln/detail/CVE-2026-124194",
-        "cwes": [
-          "CWE-356"
-        ]
-      },
-      {
-        "cveID": "CVE-2026-111793",
-        "vendorProject": "Openwave Messaging Limited",
-        "product": "Webtop Media Transcoder",
-        "vulnerabilityName": "Openwave Messaging Limited Webtop Media Transcoder Incorrect Resource Transfer Between Spheres Vulnerability",
-        "dateAdded": "2026-11-10",
-        "shortDescription": "Openwave Messaging Limited Webtop Media Transcoder contains an incorrect resource transfer between spheres vulnerability that may allow an authenticated user to process and convert unintended document types if bypassing the Webmail experience.",
-        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "dueDate": "2026-11-24",
-        "knownRansomwareCampaignUse": "Unknown",
-        "forensicTriage": "No",
-        "notes": "https://github.com/GISOpenwave/security-advisories-public/blob/main/CAN-2026-2032674.md ; https://jvn.jp/en/vu/JVNVU93403064/ ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-111793",
-        "cwes": [
-          "CWE-669"
-        ]
       }
     ],
     "urlhaus": []
   },
   "world_monitor": [
     {
-      "title": "US army says detonation of lead explosives in Iowa will proceed",
-      "link": "https://www.aljazeera.com/news/2026/11/24/us-army-says-detonation-of-lead-explosives-in-iowa-will-proceed?traffic_source=rss",
-      "pubDate": "Tue, 24 Nov 2026 08:24:08 +0000",
+      "title": "Pakistan rejoices as country’s first astronaut enters orbit",
+      "link": "https://www.aljazeera.com/news/2026/11/25/pakistan-rejoices-as-countrys-first-astronaut-enters-orbit?traffic_source=rss",
+      "pubDate": "Wed, 25 Nov 2026 07:05:59 +0000",
       "source": "Al Jazeera",
-      "summary": "Public outcry led to a legal battle when details of the plans to conduct two controlled detonations surfaced."
+      "summary": "Zeeshan Ali makes history as the first foreign national to board China's space station"
     },
     {
-      "title": "Malaysia set to return thousands of Rohingya refugees to Myanmar",
-      "link": "https://www.aljazeera.com/news/2026/11/24/malaysia-set-to-return-thousands-of-rohingya-refugees-to-myanmar-2?traffic_source=rss",
-      "pubDate": "Tue, 24 Nov 2026 08:21:41 +0000",
+      "title": "Bangladesh garment workers win 36% pay rise after weeks of protest",
+      "link": "https://www.aljazeera.com/news/2026/11/25/bangladesh-garment-workers-win-36-pay-rise-after-weeks-of-protest?traffic_source=rss",
+      "pubDate": "Wed, 25 Nov 2026 06:58:02 +0000",
       "source": "Al Jazeera",
-      "summary": "The announcement comes five days after the ICJ ruled that Myanmar committed genocide against its Rohingya minority."
+      "summary": "The protests have cost Bangladesh hundreds of millions, but workers are yet to accept the offer."
     },
     {
-      "title": "Moment Mexican troops captured cartel leader ‘El Chapo Isidro’",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/24/moment-mexican-troops-captured-cartel-leader-el-chapo?traffic_source=rss",
-      "pubDate": "Tue, 24 Nov 2026 08:17:26 +0000",
-      "source": "Al Jazeera",
-      "summary": "Moment Mexican troops captured cartel leader ‘El Chapo Isidro’"
-    },
-    {
-      "title": "Pakistan’s Zeeshan Ali set for historic flight to China’s space station",
-      "link": "https://www.aljazeera.com/news/2026/11/24/pakistans-zeeshan-ali-set-for-historic-flight-to-chinas-space-station?traffic_source=rss",
-      "pubDate": "Tue, 24 Nov 2026 07:55:18 +0000",
-      "source": "Al Jazeera",
-      "summary": "The Pakistan Air Force pilot will spend about a week on board the Tiangong, conducting experiments with China’s crew."
-    },
-    {
-      "title": "Wars choke global food routes, threatening aid for 7.3 million, WFP warns",
-      "link": "https://www.aljazeera.com/news/2026/11/24/wars-choke-global-food-routes-threatening-aid-for-7-3-million-wfp-warns?traffic_source=rss",
-      "pubDate": "Tue, 24 Nov 2026 07:52:44 +0000",
-      "source": "Al Jazeera",
-      "summary": "WFP Executive Director Luke Lindberg decries ‘political problem’ as grain is 'not reaching the people who need it'."
-    },
-    {
-      "title": "What China's Xi could take away from Jensen Huang's return to Nvidia",
-      "link": "https://www.bbc.co.uk/news/articles/c63rgpy50x98o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Tue, 24 Nov 2026 07:26:27 GMT",
+      "title": "Four years after huge asteroid crash, a spacecraft has now returned to assess the damage",
+      "link": "https://www.bbc.co.uk/news/articles/cw8dv112r5gmo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Wed, 25 Nov 2026 06:00:36 GMT",
       "source": "BBC",
-      "summary": "Huang being back at the helm of Nvidia is no guarantee of relief for Beijing."
+      "summary": "The mission is studying an asteroid deliberately knocked off course by a colliding spacecraft."
     },
     {
-      "title": "Pope Francis Diary Excerpts Published in New Book",
-      "link": "https://www.nytimes.com/2026/11/24/world/europe/pope-francis-diary.html",
-      "pubDate": "Tue, 24 Nov 2026 06:00:05 +0000",
+      "title": "Phone spying to missiles: Why India-Israel strategic ties go beyond Modi",
+      "link": "https://www.aljazeera.com/news/2026/11/25/phone-spying-to-missiles-why-india-israel-strategic-ties-go-beyond-modi?traffic_source=rss",
+      "pubDate": "Wed, 25 Nov 2026 05:27:32 +0000",
+      "source": "Al Jazeera",
+      "summary": "The opposition Congress party calls Israel’s war on Gaza a genocide, but its leader still wants strong ties with Israel."
+    },
+    {
+      "title": "The Gambia election: Can the next president deliver on a decade of promise",
+      "link": "https://www.aljazeera.com/news/2026/11/25/the-gambia-election-can-the-next-president-deliver-on-a-decade-of-promise?traffic_source=rss",
+      "pubDate": "Wed, 25 Nov 2026 05:03:04 +0000",
+      "source": "Al Jazeera",
+      "summary": "Gambians head to the polls amid economic hardship and unfulfilled promises of reform and justice."
+    },
+    {
+      "title": "UK warns companies of potential Russian sabotage threat",
+      "link": "https://www.aljazeera.com/news/2026/11/25/uk-warns-companies-of-potential-russian-sabotage-threat?traffic_source=rss",
+      "pubDate": "Wed, 25 Nov 2026 04:48:57 +0000",
+      "source": "Al Jazeera",
+      "summary": "Britain's Defence Ministry and security service warn of the threat in unusual public announcement."
+    },
+    {
+      "title": "US attorney general dodges questions about Nvidia investigation",
+      "link": "https://www.bbc.co.uk/news/articles/crpdw1qx7jgxo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Wed, 25 Nov 2026 03:44:07 GMT",
+      "source": "BBC",
+      "summary": "Nvidia's share price have fallen 7% as lawmakers demand answers about President Donald Trump's involvement in Huang's reinstatement."
+    },
+    {
+      "title": "Huawei found guilty of stealing US trade secrets but acquitted of racketeering",
+      "link": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Wed, 25 Nov 2026 02:59:27 GMT",
+      "source": "BBC",
+      "summary": "The verdict follows a months-long trial in New York."
+    },
+    {
+      "title": "The rising cost of putting food on the table in India",
+      "link": "https://www.bbc.co.uk/news/articles/cmy0xj41kl50o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Wed, 25 Nov 2026 01:02:13 GMT",
+      "source": "BBC",
+      "summary": "India's food inflation is broadening, squeezing household budgets."
+    },
+    {
+      "title": "Russia's own figures show almost 500,000 deaths in war in Ukraine",
+      "link": "https://www.bbc.co.uk/news/articles/cmx27g533zwyo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Wed, 25 Nov 2026 00:56:51 GMT",
+      "source": "BBC",
+      "summary": "Leaked data reveal how the full-scale invasion of Ukraine has fundamentally changed mortality patterns in Russia."
+    },
+    {
+      "title": "Iraq’s Prime Minister Aims to Wrest More Power from Kurdistan Region",
+      "link": "https://www.nytimes.com/2026/11/24/world/middleeast/iraq-prime-minister-kurdistan-control.html",
+      "pubDate": "Wed, 25 Nov 2026 00:38:35 +0000",
       "source": "NYT World",
-      "summary": "Over decades, before and after he became leader of the Roman Catholic Church, Francis recorded occasional entries about his fears and doubts."
+      "summary": "Ali al-Zaidi, who just scored a symbolic victory against a powerful Iran-backed militia, has now moved to assert control over Kurdish border crossings and oil resources."
     },
     {
-      "title": "India's 'cockroach' party leader says he was stopped from flying to UK",
-      "link": "https://www.bbc.co.uk/news/articles/cm5y1ezx2gqyo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Tue, 24 Nov 2026 05:33:07 GMT",
-      "source": "BBC",
-      "summary": "Saurav Das said that immigration authorities at Delhi airport told him that his passport had been \"flagged\"."
+      "title": "Court Orders Trump Media to Hand Over Truth Social Records in The Intercept Lawsuit",
+      "link": "https://theintercept.com/2026/11/24/trump-truth-social-api-lawsuit-discovery/",
+      "pubDate": "Tue, 24 Nov 2026 22:26:37 +0000",
+      "source": "The Intercept",
+      "summary": "A federal judge opened the discovery phase in The Intercept’s lawsuit over the president’s scheme to enrich himself by selling early access to his posts.\nThe post Court Orders Trump Media to Hand Over Truth Social Records in The Intercept Lawsuit app"
     },
     {
-      "title": "Radio Offers Russian Troops Classic Rock, Nostalgia — and Pleas to Surrender",
-      "link": "https://www.nytimes.com/2026/11/24/world/europe/ukraine-russia-psyops-radio-izium.html",
-      "pubDate": "Tue, 24 Nov 2026 05:01:05 +0000",
+      "title": "Why a Case Against ICC Sanctions Is a Major Victory for Palestine Human Rights Work",
+      "link": "https://theintercept.com/2026/11/24/icc-sanctions-palestine-israel-human-rights/",
+      "pubDate": "Tue, 24 Nov 2026 21:04:06 +0000",
+      "source": "The Intercept",
+      "summary": "A judge extended First Amendment protections to all Americans helping the ICC. Previous rulings only protected the plaintiffs.\nThe post Why a Case Against ICC Sanctions Is a Major Victory for Palestine Human Rights Work appeared first on The Intercep"
+    },
+    {
+      "title": "Houthi Attack on Skyscraper in Saudi Capital Wounds 11, Officials Say",
+      "link": "https://www.nytimes.com/2026/11/24/world/middleeast/saudi-skyscraper-houthi-strike.html",
+      "pubDate": "Tue, 24 Nov 2026 19:18:15 +0000",
       "source": "NYT World",
-      "summary": "What seem like frontline Russian radio stations are actually a Ukrainian psychological operation, hoping to sow despair among the Kremlin’s soldiers."
+      "summary": "The people were wounded in the strike on a building in Riyadh, the Saudi authorities said. The Iran-backed militia and Saudi Arabia have been exchanging escalating attacks for weeks."
     },
     {
-      "title": "Trump faces backlash after saying he 'convinced' Nvidia to reinstate CEO Jensen Huang",
-      "link": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Tue, 24 Nov 2026 04:36:31 GMT",
-      "source": "BBC",
-      "summary": "Nvidia had come under pressure from President Trump to reappoint Huang, whose comeback helped add $1tn to the company's stock value."
+      "title": "Murder Charge Reinstated for French Police Officer in Teen’s Shooting",
+      "link": "https://www.nytimes.com/2026/11/24/world/europe/france-nahel-merzouk.html",
+      "pubDate": "Tue, 24 Nov 2026 14:13:17 +0000",
+      "source": "NYT World",
+      "summary": "The killing of Nahel Merzouk, 17, sparked nationwide unrest. The case against the officer accused of involvement has undergone repeated twists and turns."
     },
     {
-      "title": "Nato chief vows defence against space threat after Russian nuclear satellite reports",
-      "link": "https://www.bbc.co.uk/news/articles/c9x2er1ry2mzo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Tue, 24 Nov 2026 02:15:59 GMT",
-      "source": "BBC",
-      "summary": "German media said Russia planned to launch a satellite with a nuclear warhead into space in coming weeks."
+      "title": "Iranian Singer Receives 74 Lashes for Performing With No Hijab",
+      "link": "https://www.nytimes.com/2026/11/24/world/middleeast/iran-singer-parastoo-ahmadi-flogging-lashes.html",
+      "pubDate": "Tue, 24 Nov 2026 12:34:52 +0000",
+      "source": "NYT World",
+      "summary": "Parastoo Ahmadi sang without wearing the mandatory veil in a virtual concert in 2024 that spread quickly online and drew the ire of the Islamic republic authorities."
     },
     {
-      "title": "What strike on Russian ship in Libya says about spread of Ukraine war",
-      "link": "https://www.bbc.co.uk/news/articles/cm894p88jzxpo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Mon, 23 Nov 2026 20:48:35 GMT",
-      "source": "BBC",
-      "summary": "Ukraine's sinking of a Russian battleship at a port in Libya raises the stakes of the war a notch, writes Frank Gardner."
+      "title": "For China, Jensen Huang’s Return to Nvidia Is a Mixed Blessing",
+      "link": "https://www.nytimes.com/2026/11/24/world/asia/jensen-huang-nvidia-china.html",
+      "pubDate": "Tue, 24 Nov 2026 11:55:30 +0000",
+      "source": "NYT World",
+      "summary": "Beijing may welcome the return of the leading U.S. advocate for A.I. chip sales to China. But the saga could reinforce a Chinese push for self-reliance, analysts say."
+    },
+    {
+      "title": "Hakeem Jeffries Can Live With “Medicare for More”",
+      "link": "https://theintercept.com/2026/11/24/hakeem-jeffries-democrats-medicare-for-all/",
+      "pubDate": "Tue, 24 Nov 2026 11:00:00 +0000",
+      "source": "The Intercept",
+      "summary": "As progressives push for Medicare for All, the likely next House speaker has signed off on a first step.\nThe post Hakeem Jeffries Can Live With “Medicare for More” appeared first on The Intercept."
     },
     {
       "title": "Private Prison Told ICE Its Jail Was Worth $67 Million. ICE Bought It for Nearly Half a Billion.",
@@ -341,53 +382,11 @@
       "summary": "GEO Group made a windfall after ICE bought a jail for nearly seven times the private prison giant’s own appraisal, documents reveal.\nThe post Private Prison Told ICE Its Jail Was Worth $67 Million. ICE Bought It for Nearly Half a Billion. appeared fi"
     },
     {
-      "title": "Netanyahu Wants to Attack Iran. Does That Serve Israel or Him?",
-      "link": "https://www.nytimes.com/2026/11/23/world/middleeast/netanyahu-israel-iran.html",
-      "pubDate": "Mon, 23 Nov 2026 18:54:42 +0000",
-      "source": "NYT World",
-      "summary": "The Israeli prime minister, Benjamin Netanyahu, calls renewing strikes a matter of national security. Military analysts and opposition leaders say he’s prioritizing his own interests."
-    },
-    {
-      "title": "Drone Attack Hits Colombian City as Unmanned Explosives Transform Conflict",
-      "link": "https://www.nytimes.com/2026/11/23/world/americas/colombia-drone-attack-cucuta.html",
-      "pubDate": "Mon, 23 Nov 2026 18:05:31 +0000",
-      "source": "NYT World",
-      "summary": "At least three people were injured. The United Nations has reported a 445 percent increase in drone bombings in the country."
-    },
-    {
-      "title": "They Were Too Old to Enlist, but Not to Fight. Meet the Steppe Wolves of Ukraine.",
-      "link": "https://www.nytimes.com/2026/11/23/world/europe/ukraine-older-soldiers.html",
-      "pubDate": "Mon, 23 Nov 2026 13:53:33 +0000",
-      "source": "NYT World",
-      "summary": "When the military refused to let them sign up, a band of aging men found their own way to wage war against Russia."
-    },
-    {
       "title": "Losing to the Mud: Feds Drag Their Feet as an Alaskan Village Sinks",
       "link": "https://theintercept.com/2026/11/23/alaska-sinking-village-climate-change-relocation/",
       "pubDate": "Mon, 23 Nov 2026 10:00:00 +0000",
       "source": "The Intercept",
       "summary": "As communities seek relocation spurred by climate change, the Yup’ik people in the remote village of Nunapitchuk have struggled to get help moving a mile uphill.\nThe post Losing to the Mud: Feds Drag Their Feet as an Alaskan Village Sinks appeared fi"
-    },
-    {
-      "title": "An Air Force Major Is Being Held in Solitary Confinement for Criticizing Trump on CNN",
-      "link": "https://theintercept.com/2026/11/21/trump-jason-watson-air-force-solitary-speech/",
-      "pubDate": "Sat, 21 Nov 2026 11:17:00 +0000",
-      "source": "The Intercept",
-      "summary": "The administration is weaponizing military law to hold Maj. Jason Watson in extreme isolation awaiting a “contemptuous words” trial.\nThe post An Air Force Major Is Being Held in Solitary Confinement for Criticizing Trump on CNN appeared first on The "
-    },
-    {
-      "title": "Establishment Dems Want to Renew Trump’s Domestic Spy Powers Before New Congress",
-      "link": "https://theintercept.com/2026/11/20/fisa-warrantless-spying-lame-duck-himes/",
-      "pubDate": "Fri, 20 Nov 2026 15:35:16 +0000",
-      "source": "The Intercept",
-      "summary": "Rep. Jim Himes and Sen. Mark Warner are spurning the will of midterm voters by pushing warrantless spying in the lame-duck Congress, privacy advocates say.\nThe post Establishment Dems Want to Renew Trump’s Domestic Spy Powers Before New Congress appe"
-    },
-    {
-      "title": "Sean Duffy’s FAA Fiasco",
-      "link": "https://theintercept.com/2026/11/20/faa-ground-stop-flights-duffy/",
-      "pubDate": "Fri, 20 Nov 2026 11:00:00 +0000",
-      "source": "The Intercept",
-      "summary": "Aviation journalist Jeff Wise breaks down some misconceptions about air traffic control while the nation waits for answers on the ground stop.\nThe post Sean Duffy’s FAA Fiasco appeared first on The Intercept."
     },
     {
       "title": "How Online Maps Lay Bare the US Military Bases Targeted by Iran",
@@ -427,6 +426,20 @@
   ],
   "syndication": [
     {
+      "title": "Pluralistic: Free lunches (24 Nov 2026)",
+      "link": "https://pluralistic.net/2026/11/24/move-fast-break-kings/",
+      "pubDate": "Tue, 24 Nov 2026 12:15:29 +0000",
+      "author": "Pluralistic",
+      "content": "Today's links Free lunches: Tech's margin is everyone else's opportunity. Hey look at this: Delights to delectate. Object permanence: Hacker v conman (twice); NESPaul; Record industry v DRM; 21 lb cherpumple; The rich don't \"earn\" their fortunes; Newscorp offers favorable personal coverage for senat"
+    },
+    {
+      "title": "We Get the Infrastructure We Pay For",
+      "link": "https://www.schneier.com/blog/archives/2026/11/we-get-the-infrastructure-we-pay-for.html",
+      "pubDate": "2026-11-24T12:06:50.000Z",
+      "author": "Schneier on Security",
+      "content": "This essay originally appeared as part of a round table in The Free Press entitled “Is America’s Infrastructure Under Attack?”\nMicrosoft, the FAA, banks, United Airlines, the NSA—it’s been a really bad week in cyberspace. But, amazing as it might seem, these are not related. As far as we know, they’"
+    },
+    {
       "title": "Pluralistic: The Debt Trap (23 Nov 2026)",
       "link": "https://pluralistic.net/2026/11/23/grasshoppers-v-ants/",
       "pubDate": "Mon, 23 Nov 2026 13:18:44 +0000",
@@ -455,25 +468,11 @@
       "content": "This  is the story of the largest squid ever filmed, in December 2006 near Japan’s Ogasawara Islands.\nAs usual, you can also use this squid post to talk about the security stories in the news that I haven’t covered.\nBlog moderation policy."
     },
     {
-      "title": "Opening a 400-Year-Old Cryptex",
-      "link": "https://www.schneier.com/blog/archives/2026/11/opening-a-400-year-old-cryptex.html",
-      "pubDate": "2026-11-20T12:04:46.000Z",
-      "author": "Schneier on Security",
-      "content": "Researchers used CT scanning technology to recover the code and open a 400-year-old cryptex padlock.\nYou can buy a USB-drive cryptex."
-    },
-    {
       "title": "Pluralistic: Lisa Hanawalt's \"I Can't Stop Thinking About Horses and Sex\" (20 Nov 2026)",
       "link": "https://pluralistic.net/2026/11/20/intrusive-horse-thoughts/",
       "pubDate": "Fri, 20 Nov 2026 10:44:20 +0000",
       "author": "Pluralistic",
       "content": "Today's links Lisa Hanawalt's \"I Can't Stop Thinking About Horses and Sex\": A memoir of heartbreak, horses, horniness and IBS. Hey look at this: Delights to delectate. Object permanence: They Fight Crime; Cantenna wifi TV for Mali; Kakistocracy; Inflation or price-gouging; The long game. Upcoming ap"
-    },
-    {
-      "title": "Pluralistic: How to forfeit one of copyright's best labor policies (19 Nov 2026)",
-      "link": "https://pluralistic.net/2026/11/19/loan-out-companies/",
-      "pubDate": "Thu, 19 Nov 2026 14:10:14 +0000",
-      "author": "Pluralistic",
-      "content": "Today's links How to forfeit one of copyright's best labor policies: Author beware, termination of transfer and loan-out companies don't mix! Hey look at this: Delights to delectate. Object permanence: History of interlibrary loan; Mike Pence v Hamilton; Snoopers' Charter is law; Teamsters transform"
     },
     {
       "title": "Attackers Used Optimizely to A/B Test Malware on Top Websites",
@@ -492,52 +491,100 @@
   ],
   "syndicate_journal": [
     {
-      "title": "This Well-Known Butterfly is Actually Three Species in Disguise",
-      "link": "https://nautil.us/this-well-known-butterfly-is-actually-three-species-in-disguise-1286972/",
-      "summary": "A new discovery after 250 years\nThe post This Well-Known Butterfly is Actually Three Species in Disguise appeared first on Nautilus.",
-      "pubDate": "Mon, 23 Nov 2026 21:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
-      "title": "Billy Evans’s You Can See Everything Deal Is the Real Story",
-      "link": "https://jacobin.com/2026/11/holmes-evans-fielder-documentary-payment",
-      "summary": "In just over a month in theaters, the new A24 film from Nathan Fielder and Lance Oppenheim has grossed over $93 million at the domestic box office, more than twelve times its  budget. Had things gone as originally planned, a meaningful share of that money would now be flowing to Billy Evans — Elizab",
-      "pubDate": "2026-11-23T20:39:09.505Z",
+      "title": "Jacobin Is Hiring a Video Producer",
+      "link": "https://jacobin.com/2026/11/jacobin-hiring-senior-video-producer",
+      "summary": "Location: Hybrid. New York metro area candidates; at least two days a week in our Brooklyn office\nSalary: From $68,150.03 per year\nReports to: Director of Communications\nPosition: Full-time\nStart date: As soon as possible, no later than January 7, 2027\n is seeking a Senior Video Producer to make tho",
+      "pubDate": "2026-11-25T04:56:36.165Z",
       "domain": "politics",
       "source": "Jacobin"
     },
     {
-      "title": "Meet the Bugs That Live in Your Home",
-      "link": "https://nautil.us/meet-the-bugs-that-live-in-your-home-1286978/",
-      "summary": "A team of biologists sent people on a safari of their own homes\nThe post Meet the Bugs That Live in Your Home appeared first on Nautilus.",
-      "pubDate": "Mon, 23 Nov 2026 20:00:00 +0000",
+      "title": "Earth’s Water May Have Formed in This Fiery Furnace",
+      "link": "https://nautil.us/earths-water-may-have-formed-in-this-fiery-furnace-1287019/",
+      "summary": "No ice deliveries needed\nThe post Earth’s Water May Have Formed in This Fiery Furnace appeared first on Nautilus.",
+      "pubDate": "Tue, 24 Nov 2026 21:00:00 +0000",
       "domain": "science",
       "source": "Nautilus"
     },
     {
-      "title": "Stella Lefty: Data Center Music",
-      "link": "https://jacobin.com/2026/11/stella-lefty-billionaire-music-class",
-      "summary": "When Stella Lefty wrote the chorus to “Boston,” she was waiting in Nashville for a boy from outside Atlanta. Why Boston? She had a gig coming up there, she told . A month later she noticed it was also the name on the piano.Taste of Country\nLefty  the chorus on TikTok before there were verses to go w",
-      "pubDate": "2026-11-23T19:30:49.423Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
-      "title": "Siberian Cranes Made a Massive Comeback—Only to Face a Set of New Threats",
-      "link": "https://nautil.us/siberian-cranes-made-a-massive-comeback-only-to-face-a-set-of-new-threats-1286969/",
-      "summary": "Their revival could be thwarted by antibiotic residues and microplastics\nThe post Siberian Cranes Made a Massive Comeback—Only to Face a Set of New Threats appeared first on Nautilus.",
-      "pubDate": "Mon, 23 Nov 2026 19:00:00 +0000",
+      "title": "Even Tiny Bits of Exercise May Help Regulate Blood Sugar",
+      "link": "https://nautil.us/even-tiny-bits-of-exercise-may-help-regulate-blood-sugar-1287062/",
+      "summary": "When you can’t have an exercise meal, have an exercise snack\nThe post Even Tiny Bits of Exercise May Help Regulate Blood Sugar appeared first on Nautilus.",
+      "pubDate": "Tue, 24 Nov 2026 20:00:00 +0000",
       "domain": "science",
       "source": "Nautilus"
     },
     {
-      "title": "Effective Altruism Is Increasingly Just Funding Itself",
-      "link": "https://jacobin.com/2026/11/ea-tech-ai-safety-philanthropy",
-      "summary": "The basic pitch for effective altruism (EA) is simple: charitable giving is an investment, whose return is in others’ well-being rather than your financial betterment. Given that it’s an investment, it makes sense to look for a strong, measurable return from wherever you choose to donate. After all,",
-      "pubDate": "2026-11-23T17:30:18.053Z",
+      "title": "No Pumbaa Needed: Meerkats Are Great Solo Navigators",
+      "link": "https://nautil.us/no-pumbaa-needed-meerkats-are-great-solo-navigators-1286989/",
+      "summary": "But they’re still best off sticking with their gangs\nThe post No Pumbaa Needed: Meerkats Are Great Solo Navigators appeared first on Nautilus.",
+      "pubDate": "Tue, 24 Nov 2026 19:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "Amazon Workers Have Won a First North American Contract",
+      "link": "https://jacobin.com/2026/11/amazon-unifor-british-columbia-first-contract",
+      "summary": "Amazon has spent years and enormous  trying to prevent its North American workforce from unionizing. Even where workers have successfully organized, the retail giant has used everything from  to  to frustrate their efforts to secure a first contract. Now, for the first time, workers at an Amazon fac",
+      "pubDate": "2026-11-24T18:51:10.610Z",
       "domain": "politics",
       "source": "Jacobin"
+    },
+    {
+      "title": "Rediscovering Rosa Luxemburg’s History of Ancient Rome",
+      "link": "https://jacobin.com/2026/11/rosa-luxemburg-ancient-history-rome-spartacus",
+      "summary": "More than a century after her death, Rosa Luxemburg is renowned as a revolutionary socialist and leader of the 1919 Spartacist Uprising in Germany. Her writings have long been a touchstone for socialist theory. But her work as an ancient historian remains almost entirely unknown.\nLuxemburg’s politic",
+      "pubDate": "2026-11-24T17:32:23.939Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "Bickering Buildings: A Dialogue Between the Churches of Athens in 1854\n",
+      "link": "https://publicdomainreview.org/essay/bickering-buildings",
+      "summary": "The churches of Athens had much to say in 1854, when an anonymous author staged a squabble between them in newsprint. Nikos Magouliotis eavesdrops on this chatter, finding personified anxieties about Greek architectural identity, foreign influence, and the newly formed nation’s relation to its past.",
+      "pubDate": "Tue, 24 Nov 2026 15:36:00 GMT",
+      "domain": "history",
+      "source": "Public Domain Review"
+    },
+    {
+      "title": "“What Has He Done to Deserve This?”: American Anti-Metric Cartoon from 1917\n",
+      "link": "https://publicdomainreview.org/collection/anti-metric-cartoon",
+      "summary": "A cartoon illustrating the supposedly devastating effects of introducing the metric system to the United States.",
+      "pubDate": "Tue, 24 Nov 2026 15:34:00 GMT",
+      "domain": "history",
+      "source": "Public Domain Review"
+    },
+    {
+      "title": "Julien Offray de La Mettrie’s Man a Machine (1749 edition)\n",
+      "link": "https://publicdomainreview.org/collection/man-a-machine",
+      "summary": "A radical materialist vision from an exiled philosopher who is now considered the forefather of cognitive science.",
+      "pubDate": "Tue, 24 Nov 2026 15:30:00 GMT",
+      "domain": "history",
+      "source": "Public Domain Review"
+    },
+    {
+      "title": "Union Veterans and the Bitter Aftermath of the Civil War",
+      "link": "https://daily.jstor.org/union-veterans-and-the-bitter-aftermath-of-the-civil-war/",
+      "summary": "As the nation embraced reconciliation, former Union soldiers questioned whether their sacrifices had been in vain.\nThe post Union Veterans and the Bitter Aftermath of the Civil War appeared first on JSTOR Daily.",
+      "pubDate": "Tue, 24 Nov 2026 14:34:41 +0000",
+      "domain": "history",
+      "source": "JSTOR Daily"
+    },
+    {
+      "title": "Ivory towers, drifting in the waters of meaning",
+      "link": "https://languagelog.ldc.upenn.edu/nll/?p=74662&utm_source=rss&utm_medium=rss&utm_campaign=ivory-towers-drifting-in-the-waters-of-meaning",
+      "summary": "Today's xkcd: Mouseover title: \"These ivory tower elites are flouting both CITES and municipal building codes.\" This made me wonder about the etymological history of the term ivory tower. Wikipedia explains: In the Christian tradition, the term ivory tower is used as a symbol for noble purity. It or",
+      "pubDate": "Tue, 24 Nov 2026 14:19:50 +0000",
+      "domain": "linguistics",
+      "source": "Language Log"
+    },
+    {
+      "title": "Is mental illness universal?",
+      "link": "https://aeon.co/essays/are-mental-illnesses-universal-or-are-they-culturally-specific",
+      "summary": "Do all cultures experience the same mental disorders? Or are our experiences of mental distress culturally specific?\n- by Alexander Pereira\nRead on Aeon",
+      "pubDate": "Tue, 24 Nov 2026 11:00:00 GMT",
+      "domain": "philosophy",
+      "source": "Aeon"
     },
     {
       "title": "Crash blossom cannibals",
@@ -588,14 +635,6 @@
       "source": "Language Log"
     },
     {
-      "title": "The dawn of WOTY 2026",
-      "link": "https://languagelog.ldc.upenn.edu/nll/?p=74629&utm_source=rss&utm_medium=rss&utm_campaign=the-dawn-of-woty",
-      "summary": "There are already lots of Word Of The Year nominees, polls, and decisions Out There. We'll cover most of them in due course, but let's start with a cartoon summary from First Dog on the Moon (described as \"Australia's only Walkley award-winning marsupial-based cartoonist\"). That summary is kicked of",
-      "pubDate": "Sat, 21 Nov 2026 14:02:23 +0000",
-      "domain": "linguistics",
-      "source": "Language Log"
-    },
-    {
       "title": "Network Researchers Nail Down Theory of ‘Perfect Resilience’",
       "link": "https://www.quantamagazine.org/network-researchers-nail-down-theory-of-perfect-resilience-20261120/",
       "summary": "When links in a communication network go down, messages can get routed in a loop. Computer scientists now know that four simple network structures are to blame.            \nThe post Network Researchers Nail Down Theory of ‘Perfect Resilience’ first appeared on Quanta Magazine",
@@ -612,52 +651,12 @@
       "source": "JSTOR Daily"
     },
     {
-      "title": "My grandmother was a seal",
-      "link": "https://aeon.co/essays/do-you-have-a-selkie-or-a-seal-in-the-family",
-      "summary": "Many Irish families believed they descended from selkies. Their stories reveal the violence and grief in our kinship with nature\n- by Jordan Lee Borgman\nRead on Aeon",
-      "pubDate": "Fri, 20 Nov 2026 11:00:00 GMT",
-      "domain": "philosophy",
-      "source": "Aeon"
-    },
-    {
-      "title": "The College Kids Who Drove a Duck Across the Americas",
-      "link": "https://daily.jstor.org/the-college-kids-who-drove-a-duck-across-the-americas/",
-      "summary": "In 1961, nine young Americans set out to promote international friendship. Their adventures survive in a remarkable collection of letters.\nThe post The College Kids Who Drove a Duck Across the Americas appeared first on JSTOR Daily.",
-      "pubDate": "Thu, 19 Nov 2026 14:37:00 +0000",
-      "domain": "history",
-      "source": "JSTOR Daily"
-    },
-    {
-      "title": "Miniatures from Christine de Pizan’s Epistle of Othea (ca. 1460)\n",
-      "link": "https://publicdomainreview.org/collection/epistle-of-othea",
-      "summary": "Surprisingly mellow illustrations of war and myth from a book of advice for young noblemen.",
-      "pubDate": "Wed, 18 Nov 2026 19:29:00 GMT",
-      "domain": "history",
-      "source": "Public Domain Review"
-    },
-    {
       "title": "How M.C. Escher’s Art Creates Bizarre Mathematical Worlds",
       "link": "https://www.quantamagazine.org/how-m-c-eschers-art-creates-bizarre-mathematical-worlds-20261118/",
       "summary": "The artist had no formal math education, yet as a new exhibition shows, the insights revealed in his artwork became an enduring inspiration to mathematicians.            \nThe post How M.C. Escher’s Art Creates Bizarre Mathematical Worlds first appeared on Quanta Magazine",
       "pubDate": "Wed, 18 Nov 2026 15:51:40 +0000",
       "domain": "science",
       "source": "Quanta"
-    },
-    {
-      "title": "Soldiers of Misfortune: The Drawings of Urs Graf the Elder\n",
-      "link": "https://publicdomainreview.org/essay/soldiers-of-misfortune",
-      "summary": "A mercenary and miscreant, the Swiss Renaissance artist Urs Graf lived the violence and vice he summoned on his drafting table. Miya Tokumitsu introduces us to his astonishing drawings of soldiers and sex workers, and finds an impotent melancholy within these often nightmarish scenes.",
-      "pubDate": "Wed, 11 Nov 2026 18:29:00 GMT",
-      "domain": "history",
-      "source": "Public Domain Review"
-    },
-    {
-      "title": "Last Order Dates for the Holiday Season\n",
-      "link": "https://publicdomainreview.org/blog/2026/11/last-order-dates-for-holidays-2026",
-      "summary": "The recommended cut-off dates to order from our shop by to ensure delivery in time for Dec 25th.",
-      "pubDate": "Wed, 11 Nov 2026 18:21:00 GMT",
-      "domain": "history",
-      "source": "Public Domain Review"
     },
     {
       "title": "View the I-Frame vs. S-Frame Roundtable Discussion",
@@ -708,25 +707,25 @@
       "source": "Sapiens"
     },
     {
-      "title": "Campus public art appraisal and environmental restorativeness in relation to student psychological wellbeing",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.2037451",
-      "summary": "ObjectiveResearch on campus environments commonly examines greenery, accessibility, and overall esthetic quality. This study examined the narrower question of how students’ public-art appraisals relate to perceived environmental restorativeness and positive psychological wellbeing, while assessing t",
+      "title": "Altered temporal organization of ankle mechanics during the braking-to-propulsion transition of countermovement jumping in male basketball players with chronic ankle instability: a study using discrete metrics and one-dimensional statistical parametric mapping",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.2003163",
+      "summary": "ObjectiveTo determine whether chronic ankle instability (CAI) is associated with altered temporal organization of ankle mechanics during the braking-to-propulsion transition of the countermovement jump (CMJ) in systematically trained male basketball players, and whether these local mechanical differ",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "Job insecurity and innovative behavior: comparing proactive and withdrawal pathways among Chinese knowledge workers",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1967183",
-      "summary": "IntroductionReduced initiative and greater withdrawal offer different accounts of innovation under job insecurity. We compare these associations for quantitative and qualitative insecurity among Chinese knowledge workers.MethodsA cross-sectional reanalysis of 665 respondents compared seven-, five-, ",
+      "title": "The relationship between supervisor support and cross-cultural adaptation on academic wellbeing among international students in Malaysia: the mediating role of help-seeking intention and psychological resilience",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1979119",
+      "summary": "BackgroundInternational students in Malaysian universities face concurrent academic, linguistic and intercultural demands that put their academic wellbeing at risk. Supervisor support (SS) and cross-cultural adaptation (CCA) are established correlates, but the mechanisms translating them into academ",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "Mattering matters at university: understanding undergraduate students' sense of mattering and mental wellbeing in New Zealand",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1922344",
-      "summary": "IntroductionUniversity transitions bring academic, social, and personal challenges that may affect students' mental wellbeing. Mattering, the sense of being significant and valued by others, may be an important relational resource, but little is known about how it relates to mental wellbeing alongsi",
+      "title": "Roles of AI-supported mathematics learning interest and mathematical creativity in mathematics achievement: a structural equation modeling analysis",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.2017368",
+      "summary": "IntroductionThis study examined direct and indirect associations between interest in AI-supported mathematics learning and mathematics achievement, with mathematical creativity as the hypothesized mediator.MethodsParticipants were 355 Grade 11 students from eight classes across four schools in one c",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
@@ -737,61 +736,61 @@
       "headline": "Satellite Images Show Extent of Trump Admin’s Tree-Felling at DC Golf Course",
       "fragment": "The breast is a machine that produces milk, and the mouth a machine coupled to it.",
       "splice": "Satellite Images Show Extent of Trump Admin’s Tree-Felling at DC Golf Course the signal resolves into the breast is a machine that produces milk, and the mouth a machine coupled to it.",
-      "seed": 20261133
+      "seed": 20261132
     },
     {
       "headline": "How Online Maps Lay Bare the US Military Bases Targeted by Iran",
       "fragment": "The technocrat is the natural friend of the dictator—computers and dictatorship.",
       "splice": "How Online Maps Lay Bare the US Military Bases Targeted by Iran therefore the technocrat is the natural friend of the dictator—computers and dictatorship.",
+      "seed": 20261133
+    },
+    {
+      "headline": "Pakistan rejoices as country’s first astronaut enters orbit",
+      "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
+      "splice": "Pakistan rejoices as country’s first astronaut enters orbit underneath the revolutionary lives in the gap which separates technical progress from social totality.",
       "seed": 20261134
     },
     {
-      "headline": "Pakistan’s Zeeshan Ali set for historic flight to China’s space station",
-      "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
-      "splice": "Pakistan’s Zeeshan Ali set for historic flight to China’s space station underneath the revolutionary lives in the gap which separates technical progress from social totality.",
+      "headline": "Why a Case Against ICC Sanctions Is a Major Victory for Palestine Human Rights Work",
+      "fragment": "It is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
+      "splice": "Why a Case Against ICC Sanctions Is a Major Victory for Palestine Human Rights Work therefore it is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
       "seed": 20261135
     },
     {
-      "headline": "Private Prison Told ICE Its Jail Was Worth $67 Million. ICE Bought It for Nearly Half a Billion.",
-      "fragment": "It is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
-      "splice": "Private Prison Told ICE Its Jail Was Worth $67 Million. ICE Bought It for Nearly Half a Billion. therefore it is nevertheless the map that precedes the territory—precession of simulacra—that engenders the territory.",
-      "seed": 20261136
-    },
-    {
-      "headline": "US army says detonation of lead explosives in Iowa will proceed",
+      "headline": "UK warns companies of potential Russian sabotage threat",
       "fragment": "Pretending, or dissimulating, leaves the principle of reality intact: the difference is always clear, it is simply masked.",
-      "splice": "US army says detonation of lead explosives in Iowa will proceed underneath pretending, or dissimulating, leaves the principle of reality intact: the difference is always clear, it is simply masked.",
-      "seed": 20261137
+      "splice": "UK warns companies of potential Russian sabotage threat underneath pretending, or dissimulating, leaves the principle of reality intact: the difference is always clear, it is simply masked.",
+      "seed": 20261136
     },
     {
       "headline": "Inside the Secretive, Contradictory World of Campaign Ads Funded by AI Super PACs",
       "fragment": "Art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
       "splice": "Inside the Secretive, Contradictory World of Campaign Ads Funded by AI Super PACs despite art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
+      "seed": 20261137
+    },
+    {
+      "headline": "Iraq’s Prime Minister Aims to Wrest More Power from Kurdistan Region",
+      "fragment": "It is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
+      "splice": "Iraq’s Prime Minister Aims to Wrest More Power from Kurdistan Region as if it is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
       "seed": 20261138
     },
     {
-      "headline": "Nato chief vows defence against space threat after Russian nuclear satellite reports",
-      "fragment": "It is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
-      "splice": "Nato chief vows defence against space threat after Russian nuclear satellite reports as if it is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
+      "headline": "The Gambia election: Can the next president deliver on a decade of promise",
+      "fragment": "Over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
+      "splice": "The Gambia election: Can the next president deliver on a decade of promise ...as over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
       "seed": 20261139
     },
     {
-      "headline": "What China's Xi could take away from Jensen Huang's return to Nvidia",
+      "headline": "Houthi Attack on Skyscraper in Saudi Capital Wounds 11, Officials Say",
       "fragment": "Over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
-      "splice": "What China's Xi could take away from Jensen Huang's return to Nvidia ...as over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
+      "splice": "Houthi Attack on Skyscraper in Saudi Capital Wounds 11, Officials Say as if over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
       "seed": 20261140
     },
     {
-      "headline": "Netanyahu Wants to Attack Iran. Does That Serve Israel or Him?",
-      "fragment": "Over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
-      "splice": "Netanyahu Wants to Attack Iran. Does That Serve Israel or Him? as if over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
-      "seed": 20261141
-    },
-    {
-      "headline": "An Air Force Major Is Being Held in Solitary Confinement for Criticizing Trump on CNN",
+      "headline": "Hakeem Jeffries Can Live With “Medicare for More”",
       "fragment": "Pretending, or dissimulating, leaves the principle of reality intact: the difference is always clear, it is simply masked.",
-      "splice": "An Air Force Major Is Being Held in Solitary Confinement for Criticizing Trump on CNN as if pretending, or dissimulating, leaves the principle of reality intact: the difference is always clear, it is simply masked.",
-      "seed": 20261142
+      "splice": "Hakeem Jeffries Can Live With “Medicare for More” as if pretending, or dissimulating, leaves the principle of reality intact: the difference is always clear, it is simply masked.",
+      "seed": 20261141
     }
   ]
 }
