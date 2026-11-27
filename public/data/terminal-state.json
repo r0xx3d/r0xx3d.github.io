@@ -1,7 +1,57 @@
 {
-  "generated_at": "2026-11-27T11:52:50.333Z",
+  "generated_at": "2026-11-27T20:51:06.654Z",
   "threat_intel": {
     "cisa_kev": [
+      {
+        "cveID": "CVE-2026-120705",
+        "vendorProject": "OSGeo",
+        "product": "GeoServer",
+        "vulnerabilityName": "OSGeo GeoServer XML Injection Vulnerability",
+        "dateAdded": "2026-11-27",
+        "shortDescription": "OsGeo GeoServer contains an XML injection vulnerability that allows an unauthenticated remote attacker to cause the server to read local text files accessible to the GeoServer process or fetch attacker-specified HTTP or HTTPS URLs via a crafted ID parameter in the WFS 2.0 GetFeatureById stored query. This vulnerability can be chained with CVE-2026-129244, CVE-2026-129243, CVE-2026-129245, and CVE-2026-129242 to achieve unauthenticated remote code execution on an affected GeoServer instance.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-11-30",
+        "knownRansomwareCampaignUse": "Unknown",
+        "forensicTriage": "No",
+        "notes": "https://geoserver.org/vulnerability/2026/11/23/cve-update.html ; https://github.com/geoserver/geoserver/security/advisories/GHSA-39mw-5chv-jh47 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-120705",
+        "cwes": [
+          "CWE-91",
+          "CWE-611",
+          "CWE-918"
+        ]
+      },
+      {
+        "cveID": "CVE-2026-129243",
+        "vendorProject": "OSGeo",
+        "product": "GeoServer",
+        "vulnerabilityName": "OSGeo GeoServer Incorrect Authorization Vulnerability",
+        "dateAdded": "2026-11-27",
+        "shortDescription": "GeoServer contains an incorrect authorization vulnerability that allows an unauthenticated remote attacker to bypass service-level role checks and invoke operations protected solely by those checks via a request with a prefixed service parameter. This vulnerability can be chained with CVE-2026-129244, CVE-2026-120705, CVE-2026-129245, and CVE-2026-129242 to achieve unauthenticated remote code execution on an affected GeoServer instance.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-11-30",
+        "knownRansomwareCampaignUse": "Unknown",
+        "forensicTriage": "No",
+        "notes": "https://geoserver.org/vulnerability/2026/11/23/cve-update.html ; https://github.com/geoserver/geoserver/security/advisories/GHSA-rv5g-g2r9-58rj ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-129243",
+        "cwes": [
+          "CWE-863"
+        ]
+      },
+      {
+        "cveID": "CVE-2026-136716",
+        "vendorProject": "Drupal",
+        "product": "Core",
+        "vulnerabilityName": "Drupal Core Improper Check for Unusual or Exceptional Conditions Vulnerability",
+        "dateAdded": "2026-11-27",
+        "shortDescription": "Drupal Core contains an improper check for unusual or exceptional conditions vulnerability that allows an unauthenticated remote attacker to take over a site via the exposed Drupal installer when the site is in one of the affected unusual or incomplete installation states.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-11-30",
+        "knownRansomwareCampaignUse": "Unknown",
+        "forensicTriage": "Yes",
+        "notes": "https://www.drupal.org/sa-core-2026-019 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-136716",
+        "cwes": [
+          "CWE-754"
+        ]
+      },
       {
         "cveID": "CVE-2026-103406",
         "vendorProject": "Hewlett Packard Enterprise (HPE)",
@@ -194,100 +244,108 @@
         "cwes": [
           "CWE-502"
         ]
-      },
-      {
-        "cveID": "CVE-2026-132165",
-        "vendorProject": "Drupal",
-        "product": "Core",
-        "vulnerabilityName": "Drupal Core Remote Code Execution Vulnerability",
-        "dateAdded": "2026-11-24",
-        "shortDescription": "Drupal Core contains a not failing securely vulnerability that could allow an unauthenticated attacker to take over an existing site or execute arbitrary code via the Drupal installer. Under specific conditions, the attacker can use install.php to attempt to reinstall Drupal on the site.",
-        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "dueDate": "2026-11-27",
-        "knownRansomwareCampaignUse": "Unknown",
-        "forensicTriage": "Yes",
-        "notes": "https://www.drupal.org/sa-core-2026-017 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-132165",
-        "cwes": [
-          "CWE-636"
-        ]
-      },
-      {
-        "cveID": "CVE-2026-133968",
-        "vendorProject": "Project MONAI",
-        "product": "MONAI Label",
-        "vulnerabilityName": "Project MONAI MONAI Label Path Traversal Vulnerability",
-        "dateAdded": "2026-11-23",
-        "shortDescription": "Project MONAI MONAI Label contains a path traversal vulnerability that allows an unauthenticated remote attacker to write arbitrary files outside the intended datastore directory, potentially resulting in remote code execution.",
-        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "dueDate": "2026-11-26",
-        "knownRansomwareCampaignUse": "Unknown",
-        "forensicTriage": "Yes",
-        "notes": "https://github.com/Project-MONAI/MONAILabel/security/advisories/GHSA-qc22-rmgc-vg94 ; https://github.com/Project-MONAI/MONAILabel/pull/1915 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-133968",
-        "cwes": [
-          "CWE-24"
-        ]
-      },
-      {
-        "cveID": "CVE-2026-134624",
-        "vendorProject": "N-able",
-        "product": "MailAssure",
-        "vulnerabilityName": "N-able MailAssure (SpamExperts) Server-Side Request Forgery (SSRF) Vulnerability",
-        "dateAdded": "2026-11-23",
-        "shortDescription": "N-able MailAssure (SpamExperts) contains a server-side request forgery vulnerability in the LDAP synchronization connection check that allows an authenticated API user to connect to arbitrary internal hosts and ports, determine which are reachable, and send crafted data to internal services.",
-        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "dueDate": "2026-11-26",
-        "knownRansomwareCampaignUse": "Unknown",
-        "forensicTriage": "Yes",
-        "notes": "https://me.n-able.com/s/security-advisory/aArVy0000002mrlKAA ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-134624",
-        "cwes": [
-          "CWE-918"
-        ]
       }
     ],
     "urlhaus": []
   },
   "world_monitor": [
     {
-      "title": "Ex-media executive admits saying Australian child sex abuse survivor 'looking to be raped again'",
-      "link": "https://www.bbc.co.uk/news/articles/ckr5grlq78n9o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Fri, 27 Nov 2026 11:44:40 GMT",
+      "title": "Venezuela to repeal law that bans opposition figures from office",
+      "link": "https://www.aljazeera.com/news/2026/11/27/venezuela-to-repeal-law-that-bans-opposition-figures-from-office?traffic_source=rss",
+      "pubDate": "Fri, 27 Nov 2026 20:44:03 +0000",
+      "source": "Al Jazeera",
+      "summary": "It comes a month after opposition leader Maria Corina Machado returned to Venezuela."
+    },
+    {
+      "title": "OpenAI countersues Apple over trade secrets as AI race heats up",
+      "link": "https://www.aljazeera.com/economy/2026/11/27/openai-countersues-apple-over-trade-secrets-as-ai-race-heats-up?traffic_source=rss",
+      "pubDate": "Fri, 27 Nov 2026 20:40:51 +0000",
+      "source": "Al Jazeera",
+      "summary": "Tensions between the two tech companies have escalated as intensifying race to develop AI products fuels competition."
+    },
+    {
+      "title": "Putin unveils new Russian nuclear-powered submarine with hypersonic weapons",
+      "link": "https://www.aljazeera.com/news/2026/11/27/putin-unveils-new-russian-nuclear-powered-submarine-with-hypersonic-weapons?traffic_source=rss",
+      "pubDate": "Fri, 27 Nov 2026 20:39:57 +0000",
+      "source": "Al Jazeera",
+      "summary": "The Kremlin plans to expand its naval fleet with five new nuclear submarines by 2030."
+    },
+    {
+      "title": "Hamas chief’s last surviving son escapes Israeli strike in Gaza",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/27/aje-onl-nf_-hamas-chiefs-son-escapes-israeli-strike-gaza-271126?traffic_source=rss",
+      "pubDate": "Fri, 27 Nov 2026 20:18:45 +0000",
+      "source": "Al Jazeera",
+      "summary": "Hamas leader Khalil al-Hayya's last surviving son Izzeldeen survived an Israeli assassination attempt on Friday."
+    },
+    {
+      "title": "UN Gaza rapporteur Francesca Albanese denied entry into Costa Rica",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/27/un-gaza-rapporteur-francesca-albanese-denied-entry-into-costa-rica?traffic_source=rss",
+      "pubDate": "Fri, 27 Nov 2026 20:10:30 +0000",
+      "source": "Al Jazeera",
+      "summary": "Costa Rica has barred UN special rapporteur Francesca Albanese, citing unfounded ‘links to terrorist acts’."
+    },
+    {
+      "title": "Spanish PM and rivals rally supporters in final pitch for votes",
+      "link": "https://www.bbc.co.uk/news/articles/c8wy5p4gdnwvo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Fri, 27 Nov 2026 20:09:09 GMT",
       "source": "BBC",
-      "summary": "The former Murdoch media executive was overheard at an event referring to the way Grace Tame was dressed."
+      "summary": "Prime Minister Pedro Sánchez wants to defy the polls, and his main rivals accuse him of not telling the truth and of \"betrayal\"."
     },
     {
-      "title": "Old wounds reopen as Kyrgyzstan’s Osh embraces a new urban project",
-      "link": "https://www.aljazeera.com/features/2026/11/27/old-wounds-reopen-as-kyrgyzstans-osh-embraces-a-new-urban-project?traffic_source=rss",
-      "pubDate": "Fri, 27 Nov 2026 11:35:34 +0000",
-      "source": "Al Jazeera",
-      "summary": "Redevelopment reshapes the city, but some worry as residents are displaced and cultural heritage appears at risk."
+      "title": "'We couldn't give up that easily': Marching bands scramble to cover costs after Thanksgiving parade rearranged",
+      "link": "https://www.bbc.co.uk/news/articles/ckd71ypy9e8eo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Fri, 27 Nov 2026 20:06:31 GMT",
+      "source": "BBC",
+      "summary": "Stormy weather in New York City prompted organisers to push back the Macy's parade by two days - leaving some musicians stuck."
     },
     {
-      "title": "What Spain’s election means for Morocco",
-      "link": "https://www.aljazeera.com/opinions/2026/11/27/what-spains-election-means-for-morocco?traffic_source=rss",
-      "pubDate": "Fri, 27 Nov 2026 11:33:17 +0000",
-      "source": "Al Jazeera",
-      "summary": "The vote could reshape diplomatic relations, but shared strategic interests will continue to bind the two countries."
+      "title": "Weary of war but with no sign of backing down, Kyiv faces another punishing winter",
+      "link": "https://www.bbc.co.uk/news/articles/c3pw4yrr8kz9o?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Fri, 27 Nov 2026 18:42:50 GMT",
+      "source": "BBC",
+      "summary": "Ukraine settles in for another devastating winter as the questions persists: how will it all end?"
     },
     {
-      "title": "Israeli attacks on women and girls meant ‘to destroy life’ in Gaza: Amnesty",
-      "link": "https://www.aljazeera.com/news/2026/11/27/israeli-attacks-on-women-and-girls-meant-to-destroy-life-in-gaza-amnesty?traffic_source=rss",
-      "pubDate": "Fri, 27 Nov 2026 11:15:03 +0000",
-      "source": "Al Jazeera",
-      "summary": "Israel seeking 'to prevent births' and destroy Palestinians in Gaza by targeting women and girls, rights group says."
+      "title": "With Dancing Robots, Russia Projects a Future Shaped by A.I., Not War",
+      "link": "https://www.nytimes.com/2026/11/27/world/europe/russia-ai-journey-conference.html",
+      "pubDate": "Fri, 27 Nov 2026 18:01:19 +0000",
+      "source": "NYT World",
+      "summary": "Russian officials see artificial intelligence as a way to solve the country’s pressing problems. But Russia’s technological development has been constrained."
     },
     {
-      "title": "Tyson Fury’s wife backtracks on claim boxer suffers from schizophrenia",
-      "link": "https://www.aljazeera.com/sports/2026/11/27/tyson-furys-wife-backtracks-on-claim-boxer-suffers-from-schizophrenia?traffic_source=rss",
-      "pubDate": "Fri, 27 Nov 2026 11:12:58 +0000",
-      "source": "Al Jazeera",
-      "summary": "Paris Fury had claimed mental health diagnosis for Tyson following his 2015 victory over Ukraine's Wladimir Klitschko."
+      "title": "Zelensky criticises 'strange' Trump-Putin friendship in BBC interview",
+      "link": "https://www.bbc.co.uk/news/articles/c820q9wgrpyyo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Fri, 27 Nov 2026 18:00:40 GMT",
+      "source": "BBC",
+      "summary": "Ukraine's president voices frustration with US and says it is not pushing Russia hard enough in peace talks to end the war."
     },
     {
-      "title": "Pakistan’s viral cricket catch star hopes to launch career",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/27/27-11-sv-pakistan-viral-cricket-catch?traffic_source=rss",
-      "pubDate": "Fri, 27 Nov 2026 11:12:54 +0000",
-      "source": "Al Jazeera",
-      "summary": "The motorbike passenger who went viral for his stunning cricket catch in Pakistan says he hopes to play for his country."
+      "title": "Brazil pushes back on Macron calling its meat 'doped'",
+      "link": "https://www.bbc.co.uk/news/articles/c6rrg28npvzeo?at_medium=RSS&at_campaign=rss",
+      "pubDate": "Fri, 27 Nov 2026 15:54:15 GMT",
+      "source": "BBC",
+      "summary": "France's president made the comment while speaking to French farming representatives, months after the EU banned Brazil beef and poultry products."
+    },
+    {
+      "title": "Spain’s Far-Right Era Ended in 1975. Will This Man Change That?",
+      "link": "https://www.nytimes.com/2026/11/27/world/europe/santiago-abascal-vox-spain-far-right.html",
+      "pubDate": "Fri, 27 Nov 2026 14:45:20 +0000",
+      "source": "NYT World",
+      "summary": "If the polls are right, Santiago Abascal’s Vox party could become the first far-right group to join a Spanish government since the days of Franco."
+    },
+    {
+      "title": "Puma Shen, Critic of China, Could be the Next Mayor of Taipei",
+      "link": "https://www.nytimes.com/2026/11/27/world/asia/puma-shen-taiwan-election-china.html",
+      "pubDate": "Fri, 27 Nov 2026 13:33:49 +0000",
+      "source": "NYT World",
+      "summary": "Puma Shen, who has been sanctioned by China for his efforts to prepare civilians for an invasion, could become Taiwan’s next political star if he wins."
+    },
+    {
+      "title": "How the Gaza Encampments Unleashed the Blue Tsunami and Helped Spark a Worldwide Movement",
+      "link": "https://theintercept.com/2026/11/27/midterms-columbia-palestine-student-protests/",
+      "pubDate": "Fri, 27 Nov 2026 13:00:00 +0000",
+      "source": "The Intercept",
+      "summary": "Student protesters were told that their anger was a liability. In the end, their righteous rage won.\nThe post How the Gaza Encampments Unleashed the Blue Tsunami and Helped Spark a Worldwide Movement appeared first on The Intercept."
     },
     {
       "title": "The Far Right Wants to Kill Wolves Whenever and However They Please",
@@ -297,20 +355,6 @@
       "summary": "Ryan Devereaux on ground zero in the political war over wolves: Yellowstone National Park.\nThe post The Far Right Wants to Kill Wolves Whenever and However They Please appeared first on The Intercept."
     },
     {
-      "title": "Puma Shen, Critic of China, Could be the Next Mayor of Taipei",
-      "link": "https://www.nytimes.com/2026/11/27/world/asia/puma-shen-taiwan-election-china.html",
-      "pubDate": "Fri, 27 Nov 2026 10:42:02 +0000",
-      "source": "NYT World",
-      "summary": "Puma Shen, who has been sanctioned by China for his efforts to prepare civilians for an invasion, could become Taiwan’s next political star if he wins."
-    },
-    {
-      "title": "Hundreds of thousands still without power after storms hit US on Thanksgiving",
-      "link": "https://www.bbc.co.uk/news/articles/cre3dj5n7dpwo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Fri, 27 Nov 2026 10:26:28 GMT",
-      "source": "BBC",
-      "summary": "Pennsylvania and neighbouring states remain badly affected on Friday after both coasts were lashed with wind and rain."
-    },
-    {
       "title": "A Journalist Fights for Free Speech in Egypt, and to Stay Out of Jail",
       "link": "https://www.nytimes.com/2026/11/27/world/middleeast/egypt-journalist-trial-lina-attalah-mada-masr.html",
       "pubDate": "Fri, 27 Nov 2026 10:02:40 +0000",
@@ -318,46 +362,11 @@
       "summary": "The fate of Lina Attalah and her news outlet, Mada Masr, in two court cases is seen a test of whether the country’s independent press can survive."
     },
     {
-      "title": "Spain’s Far-Right Era Ended in 1975. Will This Man Change That?",
-      "link": "https://www.nytimes.com/2026/11/27/world/europe/santiago-abascal-vox-spain-far-right.html",
-      "pubDate": "Fri, 27 Nov 2026 10:02:12 +0000",
-      "source": "NYT World",
-      "summary": "If the polls are right, Santiago Abascal’s Vox party could become the first far-right group to join a Spanish government since the days of Franco."
-    },
-    {
-      "title": "France’s Bookstores, Beloved Curators of Literature, Are in a Deep Crisis",
-      "link": "https://www.nytimes.com/2026/11/27/world/europe/france-bookstore-crisis-closures.html",
-      "pubDate": "Fri, 27 Nov 2026 10:01:47 +0000",
-      "source": "NYT World",
-      "summary": "Caught between by rising costs and price regulations, French booksellers are closing at a record pace, depriving new authors of vital shelf space."
-    },
-    {
       "title": "Plaque by Plaque, Russia Erases the Memory of the Gulag’s Horrors",
       "link": "https://www.nytimes.com/2026/11/27/world/europe/russia-gulag-memory.html",
       "pubDate": "Fri, 27 Nov 2026 10:00:10 +0000",
       "source": "NYT World",
       "summary": "The Kremlin’s rehabilitation of Stalin, who presided over the brutal labor camps of the Gulag, has accelerated during Russia’s war in Ukraine."
-    },
-    {
-      "title": "Zelensky criticises 'strange' Trump-Putin friendship in BBC interview",
-      "link": "https://www.bbc.co.uk/news/articles/c820q9wgrpyyo?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Fri, 27 Nov 2026 09:07:48 GMT",
-      "source": "BBC",
-      "summary": "Ukraine's president voices frustration with US and says it is not pushing Russia hard enough in peace talks to end the war."
-    },
-    {
-      "title": "Italy's former police chief rejected mafia inquiry allegations before death",
-      "link": "https://www.bbc.co.uk/news/articles/c69q8yjj1v0po?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Fri, 27 Nov 2026 07:28:10 GMT",
-      "source": "BBC",
-      "summary": "The contents of an eight-page letter by Gianni De Gennaro have been revealed days after his body was found at his Tuscany home."
-    },
-    {
-      "title": "Leaders clash in final Spain election debate as housing dominates run-in",
-      "link": "https://www.bbc.co.uk/news/articles/ckr5gr4g8gn5o?at_medium=RSS&at_campaign=rss",
-      "pubDate": "Fri, 27 Nov 2026 06:03:39 GMT",
-      "source": "BBC",
-      "summary": "The struggle many face in buying a home has been the biggest issue of a bitter campaign."
     },
     {
       "title": "It’s Time to Ditch Kirsten Gillibrand",
@@ -379,13 +388,6 @@
       "pubDate": "Tue, 24 Nov 2026 22:26:37 +0000",
       "source": "The Intercept",
       "summary": "A federal judge opened the discovery phase in The Intercept’s lawsuit over the president’s scheme to enrich himself by selling early access to his posts.\nThe post Court Orders Trump Media to Hand Over Truth Social Records in The Intercept Lawsuit app"
-    },
-    {
-      "title": "Why a Case Against ICC Sanctions Is a Major Victory for Palestine Human Rights Work",
-      "link": "https://theintercept.com/2026/11/24/icc-sanctions-palestine-israel-human-rights/",
-      "pubDate": "Tue, 24 Nov 2026 21:04:06 +0000",
-      "source": "The Intercept",
-      "summary": "A judge extended First Amendment protections to all Americans helping the ICC. Previous rulings only protected the plaintiffs.\nThe post Why a Case Against ICC Sanctions Is a Major Victory for Palestine Human Rights Work appeared first on The Intercep"
     },
     {
       "title": "How Online Maps Lay Bare the US Military Bases Targeted by Iran",
@@ -425,6 +427,20 @@
   ],
   "syndication": [
     {
+      "title": "Pluralistic: Taylorism and AI's shared sales-pitch (27 Nov 2026)",
+      "link": "https://pluralistic.net/2026/11/27/taylor-made/",
+      "pubDate": "Fri, 27 Nov 2026 13:38:29 +0000",
+      "author": "Pluralistic",
+      "content": "Today's links Taylorism and AI's shared sales-pitch: Bosses will buy anything if they think it'll give them more control over their workers. Hey look at this: Delights to delectate. Object permanence: UK recordings copyright won't go to 95 years; McDonald's sandwich patent; McLaren's son torches pun"
+    },
+    {
+      "title": "Recent Outages Have Economic Causes",
+      "link": "https://www.schneier.com/blog/archives/2026/11/recent-outages-have-economic-causes.html",
+      "pubDate": "2026-11-27T12:02:23.000Z",
+      "author": "Schneier on Security",
+      "content": "This essay originally appeared in The Guardian. It’s an expanded version of the one I posted as “We Get the Infrastructure We Pay For.”\nIt’s been a bad week for our computerized infrastructure. We’ve seen outages at Microsoft, the FAA, a handful of banks, United Airlines, an unnamed classified NSA n"
+    },
+    {
       "title": "Pluralistic: Charles Koch is a cult leader (26 Nov 2026)",
       "link": "https://pluralistic.net/2026/11/26/science-of-liberty/",
       "pubDate": "Thu, 26 Nov 2026 12:31:19 +0000",
@@ -446,25 +462,11 @@
       "content": "Daniel Meissler is tracking incidents of AI-enhanced hacking, and the offensive harnesses the hackers are using."
     },
     {
-      "title": "Pluralistic: Free lunches (24 Nov 2026)",
-      "link": "https://pluralistic.net/2026/11/24/move-fast-break-kings/",
-      "pubDate": "Tue, 24 Nov 2026 12:15:29 +0000",
-      "author": "Pluralistic",
-      "content": "Today's links Free lunches: Tech's margin is everyone else's opportunity. Hey look at this: Delights to delectate. Object permanence: Hacker v conman (twice); NESPaul; Record industry v DRM; 21 lb cherpumple; The rich don't \"earn\" their fortunes; Newscorp offers favorable personal coverage for senat"
-    },
-    {
       "title": "We Get the Infrastructure We Pay For",
       "link": "https://www.schneier.com/blog/archives/2026/11/we-get-the-infrastructure-we-pay-for.html",
       "pubDate": "2026-11-24T12:06:50.000Z",
       "author": "Schneier on Security",
       "content": "This essay originally appeared as part of a round table in The Free Press entitled “Is America’s Infrastructure Under Attack?”\nMicrosoft, the FAA, banks, United Airlines, the NSA—it’s been a really bad week in cyberspace. But, amazing as it might seem, these are not related. As far as we know, they’"
-    },
-    {
-      "title": "Humans Have Rights. Machines Do Not.",
-      "link": "https://www.schneier.com/blog/archives/2026/11/humans-have-rights-machines-do-not.html",
-      "pubDate": "2026-11-23T12:00:54.000Z",
-      "author": "Schneier on Security",
-      "content": "This essay originally appeared in Tech Policy Press.\nLast year, Character.AI asked a federal court in Florida to dismiss a wrongful-death suit, brought by the mother of a fourteen-year-old boy who had killed himself after months of conversation with its chatbot. The company made two arguments. One, "
     },
     {
       "title": "CTO of ‘RansomwareHelp’ Indicted for Wire Fraud",
@@ -489,6 +491,62 @@
     }
   ],
   "syndicate_journal": [
+    {
+      "title": "This Ancient Egyptian Curse Ritual Ended Up in a Garbage Heap",
+      "link": "https://nautil.us/this-ancient-egyptian-curse-ritual-ended-up-in-a-garbage-heap-1287114/",
+      "summary": "Ra vs. Apophis, round infinity\nThe post This Ancient Egyptian Curse Ritual Ended Up in a Garbage Heap appeared first on Nautilus.",
+      "pubDate": "Fri, 27 Nov 2026 19:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "How City Crows and Country Crows See the World Differently",
+      "link": "https://nautil.us/how-city-crows-and-country-crows-see-the-world-differently-1287089/",
+      "summary": "What scares them is generally defined by where they’re from\nThe post How City Crows and Country Crows See the World Differently appeared first on Nautilus.",
+      "pubDate": "Fri, 27 Nov 2026 17:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "Check Out This Newly Discovered Proto-Amphibian Species That Lived 309 Million Years Ago",
+      "link": "https://nautil.us/check-out-this-newly-discovered-proto-amphibian-species-that-lived-309-million-years-ago-1287093/",
+      "summary": "It’s older than the dinosaurs\nThe post Check Out This Newly Discovered Proto-Amphibian Species That Lived 309 Million Years Ago appeared first on Nautilus.",
+      "pubDate": "Fri, 27 Nov 2026 16:00:00 +0000",
+      "domain": "science",
+      "source": "Nautilus"
+    },
+    {
+      "title": "\"Chisme\"?",
+      "link": "https://languagelog.ldc.upenn.edu/nll/?p=74676&utm_source=rss&utm_medium=rss&utm_campaign=chisme",
+      "summary": "From \"New money, old rooms and talk about The City's future\", San Francisco Examiner 11/26/2026, in a discussion of the impact of the Anthropic-driven \"surge of wealth\": I spent some time in a few of those rooms, and there is much chisme to be discussed over mulled wine and hot toddies while the oce",
+      "pubDate": "Fri, 27 Nov 2026 15:53:24 +0000",
+      "domain": "linguistics",
+      "source": "Language Log"
+    },
+    {
+      "title": "From Gandhi to Gen Z: A Century of Protest",
+      "link": "https://daily.jstor.org/from-gandhi-to-gen-z-a-century-of-protest/",
+      "summary": "India’s latest student-led demonstrations are part of a long tradition of political resistance that has shaped the nation’s democracy.\nThe post From Gandhi to Gen Z: A Century of Protest appeared first on JSTOR Daily.",
+      "pubDate": "Fri, 27 Nov 2026 14:37:00 +0000",
+      "domain": "history",
+      "source": "JSTOR Daily"
+    },
+    {
+      "title": "The Left Needs a 21st-Century Popular Front Strategy",
+      "link": "https://jacobin.com/2026/11/popular-front-coalition-socialists-communists-liberals",
+      "summary": "In 2024, the most prominent democratic socialist in the United States, Rep. Alexandria Ocasio-Cortez, took the stage at the Democratic National Convention (DNC) in support of Kamala Harris’s candidacy. As opposition to the Israeli genocide in Gaza reached a fever pitch within the Democratic Party, “",
+      "pubDate": "2026-11-27T14:00:00.205Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
+    {
+      "title": "In Spain, the Indignados’ Parties Are Dwindling Fast",
+      "link": "https://jacobin.com/2026/11/spain-sanchez-housing-protests-left",
+      "summary": "On September 23, Maricarmen Abascal was carried on a stretcher out of her apartment in the Retiro district of Madrid, where she’d been living since 1956. She was eighty-seven, disabled, and had limited mobility. Neighbors and members of the Madrid Tenants’ Union had formed a human chain to stop the ",
+      "pubDate": "2026-11-27T13:45:03.682Z",
+      "domain": "politics",
+      "source": "Jacobin"
+    },
     {
       "title": "The energy of thought",
       "link": "https://aeon.co/essays/all-our-models-of-how-the-mind-functions-are-missing-something",
@@ -522,22 +580,6 @@
       "source": "arXiv: cs.AI"
     },
     {
-      "title": "The Enormous Rodents of Prehistoric Thailand",
-      "link": "https://nautil.us/the-enormous-rodents-of-prehistoric-thailand-1287085/",
-      "summary": "They were roughly the size of a dog\nThe post The Enormous Rodents of Prehistoric Thailand appeared first on Nautilus.",
-      "pubDate": "Thu, 26 Nov 2026 17:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
-      "title": "The Rise of the Fire Creatures",
-      "link": "https://nautil.us/the-rise-of-the-fire-creatures-1287034/",
-      "summary": "When human beings learned to tame heat and light we became a different species altogether\nThe post The Rise of the Fire Creatures appeared first on Nautilus.",
-      "pubDate": "Thu, 26 Nov 2026 15:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
       "title": "The Cutthroat Business of Shipwrecks",
       "link": "https://daily.jstor.org/the-cutthroat-business-of-shipwrecks/",
       "summary": "For centuries, lost cargo sparked fierce battles over who had the right to claim treasures washed ashore.\nThe post The Cutthroat Business of Shipwrecks appeared first on JSTOR Daily.",
@@ -562,22 +604,6 @@
       "source": "Jacobin"
     },
     {
-      "title": "The Socialist History Behind Thanksgiving’s Most Iconic Image",
-      "link": "https://jacobin.com/2026/11/thanksgiving-fdr-rockwell-bulosan-socialism",
-      "summary": "An older woman, still wearing her apron from all her work in the kitchen, brings a large turkey to a table set with cranberry sauce and fruit and full of family, friends, and neighbors, who are smiling, talking, enjoying one another’s company. Her husband stands beside her at the head of the table, ",
-      "pubDate": "2026-11-26T13:45:37.450Z",
-      "domain": "politics",
-      "source": "Jacobin"
-    },
-    {
-      "title": "Archaeologists Just Dug Up an Unused, Completely Pristine 6,000-Year-Old Axe Head",
-      "link": "https://nautil.us/archaeologists-just-dug-up-an-unused-completely-pristine-6000-year-old-axe-head-1287102/",
-      "summary": "A precious object, not a weapon of war\nThe post Archaeologists Just Dug Up an Unused, Completely Pristine 6,000-Year-Old Axe Head appeared first on Nautilus.",
-      "pubDate": "Thu, 26 Nov 2026 13:00:00 +0000",
-      "domain": "science",
-      "source": "Nautilus"
-    },
-    {
       "title": "Lina Ghotmeh: archaeology of the future",
       "link": "https://aeon.co/videos/a-lebanese-architects-mission-to-build-structures-that-heal",
       "summary": "In the work of the Lebanese architect Lina Ghotmeh, the scars of the past inform resilient buildings for the future\n- by Aeon Video\nWatch on Aeon",
@@ -600,14 +626,6 @@
       "pubDate": "Wed, 25 Nov 2026 20:00:24 +0000",
       "domain": "linguistics",
       "source": "Language Log"
-    },
-    {
-      "title": "Grand Theft Auto Grew Up. America Didn’t.",
-      "link": "https://jacobin.com/2026/11/gta-rockstar-morality-violence-trump",
-      "summary": "Early in , you and your girlfriend drive to the local branch of Fleeca bank on an errand that, by the franchise’s standards, is something of a novelty. Your job is not to rob a bank but to open an account at one.Grand Theft Auto VI\nLucia Caminos, fresh out of prison, needs somewhere to deposit her c",
-      "pubDate": "2026-11-25T17:04:08.982Z",
-      "domain": "politics",
-      "source": "Jacobin"
     },
     {
       "title": "Flax Seeds of Revolution",
@@ -648,22 +666,6 @@
       "pubDate": "Tue, 24 Nov 2026 15:30:00 GMT",
       "domain": "history",
       "source": "Public Domain Review"
-    },
-    {
-      "title": "Union Veterans and the Bitter Aftermath of the Civil War",
-      "link": "https://daily.jstor.org/union-veterans-and-the-bitter-aftermath-of-the-civil-war/",
-      "summary": "As the nation embraced reconciliation, former Union soldiers questioned whether their sacrifices had been in vain.\nThe post Union Veterans and the Bitter Aftermath of the Civil War appeared first on JSTOR Daily.",
-      "pubDate": "Tue, 24 Nov 2026 14:34:41 +0000",
-      "domain": "history",
-      "source": "JSTOR Daily"
-    },
-    {
-      "title": "Ivory towers, drifting in the waters of meaning",
-      "link": "https://languagelog.ldc.upenn.edu/nll/?p=74662&utm_source=rss&utm_medium=rss&utm_campaign=ivory-towers-drifting-in-the-waters-of-meaning",
-      "summary": "Today's xkcd: Mouseover title: \"These ivory tower elites are flouting both CITES and municipal building codes.\" This made me wonder about the etymological history of the term ivory tower. Wikipedia explains: In the Christian tradition, the term ivory tower is used as a symbol for noble purity. It or",
-      "pubDate": "Tue, 24 Nov 2026 14:19:50 +0000",
-      "domain": "linguistics",
-      "source": "Language Log"
     },
     {
       "title": "The Incredible, Elegant DNA Repair System Makes Gene Editing Work",
@@ -730,25 +732,25 @@
       "source": "Sapiens"
     },
     {
-      "title": "Alienation after Marx: psychological costs of labor in 21st-century economies",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1903181",
-      "summary": "IntroductionDrawing on classical alienation theory, this study examines the mediating role of workplace alienation in the relationships between unfavorable working conditions (work intensification and job insecurity) and employee well-being and work-related outcomes.MethodsSurvey data were collected",
+      "title": "Career compromise and job crafting among male psychiatric nurses: a cross-sectional study",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1925687",
+      "summary": "ObjectiveTo examine the association between career compromise and job crafting among male psychiatric nurses and explore associations between career compromise dimensions and job crafting.MethodsA cross-sectional survey was conducted between January and April 2026 among 310 male psychiatric nurses r",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "Editorial: The drive to thrive: nurturing growth, facilitating resilience, and learning from nature for the wellbeing of artists and athletes",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.2051727",
-      "summary": "",
+      "title": "Development and validation of a generative AI readiness scale for K-12 teachers: knowledge, beliefs, practice and the regulation of cognitive offloading",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1998250",
+      "summary": "Generative artificial intelligence (GenAI) allows teachers to offload parts of lesson planning and material production, so using it well requires regulating what is delegated and checking what is returned. To develop the Generative AI Readiness Scale for Teachers (GAIRS-T), a pool of 47 items, writt",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
     },
     {
-      "title": "Social anxiety, informal and formal social support, and smartphone overdependence among college students: a comparison of Korean and Chinese college students",
-      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.2004808",
-      "summary": "IntroductionThis study examined the associations of social anxiety and informal and formal social support with smartphone overdependence in Korean and Chinese college students and directly tested whether the regression coefficients differed between the two samples.MethodsData were collected from 181",
+      "title": "Beyond individual resources: context and time as primary constraints on university student wellbeing. A qualitative study based on PPCT model",
+      "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.2003240",
+      "summary": "IntroductionUniversity student well-being is increasingly threatened by academic, economic, and social pressures, yet most research treats well-being as an individual-level outcome, largely disconnected from the environments in which it develops. Adopting an ecological approach, this study applies B",
       "pubDate": "",
       "domain": "psychology",
       "source": "Frontiers Psychology"
@@ -756,64 +758,64 @@
   ],
   "misinfo_toilet": [
     {
-      "headline": "Can LLMs Supercharge Geolocations? Our Tests Show Big Improvements But Humans Remain Key",
-      "fragment": "An ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
-      "splice": "Can LLMs Supercharge Geolocations? Our Tests Show Big Improvements But Humans Remain Key because an ideological position can never be really successful until it is naturalized, and it cannot be naturalized while it is still thought of as a value rather than a fact.",
-      "seed": 20261138
+      "headline": "EU Satellite Imagery Delayed Over Gaza and Parts of West Bank by 24-hours",
+      "fragment": "Art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
+      "splice": "EU Satellite Imagery Delayed Over Gaza and Parts of West Bank by 24-hours despite art is everywhere, since artifice is at the very heart of reality. And so art is dead.",
+      "seed": 20261147
     },
     {
-      "headline": "Why a Case Against ICC Sanctions Is a Major Victory for Palestine Human Rights Work",
-      "fragment": "We live in a world where there is more and more information, and less and less meaning.",
-      "splice": "Why a Case Against ICC Sanctions Is a Major Victory for Palestine Human Rights Work ...as we live in a world where there is more and more information, and less and less meaning.",
-      "seed": 20261139
+      "headline": "It’s Time to Ditch Kirsten Gillibrand",
+      "fragment": "It is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
+      "splice": "It’s Time to Ditch Kirsten Gillibrand as if it is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
+      "seed": 20261148
     },
     {
-      "headline": "What Spain’s election means for Morocco",
-      "fragment": "The power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
-      "splice": "What Spain’s election means for Morocco the system notes that the power of capitalist realism derives in part from the way that capitalism subsumes and consumes all of previous history.",
-      "seed": 20261140
-    },
-    {
-      "headline": "Puma Shen, Critic of China, Could be the Next Mayor of Taipei",
-      "fragment": "There is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
-      "splice": "Puma Shen, Critic of China, Could be the Next Mayor of Taipei because there is no such thing as either man or nature now, only a process that produces the one within the other and couples the machines together.",
-      "seed": 20261141
-    },
-    {
-      "headline": "Old wounds reopen as Kyrgyzstan’s Osh embraces a new urban project",
-      "fragment": "The privatization of the organs will only begin with the shame felt by man at the sight of man.",
-      "splice": "Old wounds reopen as Kyrgyzstan’s Osh embraces a new urban project underneath the privatization of the organs will only begin with the shame felt by man at the sight of man.",
-      "seed": 20261142
-    },
-    {
-      "headline": "Tyson Fury’s wife backtracks on claim boxer suffers from schizophrenia",
-      "fragment": "Pretending, or dissimulating, leaves the principle of reality intact: the difference is always clear, it is simply masked.",
-      "splice": "Tyson Fury’s wife backtracks on claim boxer suffers from schizophrenia the signal resolves into pretending, or dissimulating, leaves the principle of reality intact: the difference is always clear, it is simply masked.",
-      "seed": 20261143
+      "headline": "Venezuela to repeal law that bans opposition figures from office",
+      "fragment": "Over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
+      "splice": "Venezuela to repeal law that bans opposition figures from office ...as over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
+      "seed": 20261149
     },
     {
       "headline": "Trump’s Imperialist Fantasy for Latin America Is Already Failing",
-      "fragment": "Underneath all reason lies delirium and drift.",
-      "splice": "Trump’s Imperialist Fantasy for Latin America Is Already Failing ...as underneath all reason lies delirium and drift.",
-      "seed": 20261144
+      "fragment": "Over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
+      "splice": "Trump’s Imperialist Fantasy for Latin America Is Already Failing as if over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
+      "seed": 20261150
     },
     {
-      "headline": "Leaders clash in final Spain election debate as housing dominates run-in",
-      "fragment": "The revolutionary lives in the gap which separates technical progress from social totality.",
-      "splice": "Leaders clash in final Spain election debate as housing dominates run-in because the revolutionary lives in the gap which separates technical progress from social totality.",
-      "seed": 20261145
+      "headline": "OpenAI countersues Apple over trade secrets as AI race heats up",
+      "fragment": "Pretending, or dissimulating, leaves the principle of reality intact: the difference is always clear, it is simply masked.",
+      "splice": "OpenAI countersues Apple over trade secrets as AI race heats up as if pretending, or dissimulating, leaves the principle of reality intact: the difference is always clear, it is simply masked.",
+      "seed": 20261151
     },
     {
-      "headline": "Ex-media executive admits saying Australian child sex abuse survivor 'looking to be raped again'",
-      "fragment": "The current ruling ontology denies any possibility of a social causation of mental illness. The chemico-biologization of mental illness is of course strictly commensurate with its depoliticization.",
-      "splice": "Ex-media executive admits saying Australian child sex abuse survivor 'looking to be raped again' while the current ruling ontology denies any possibility of a social causation of mental illness. The chemico-biologization of mental illness is of course strictly commensurate with its depoliticization.",
-      "seed": 20261146
+      "headline": "With Dancing Robots, Russia Projects a Future Shaped by A.I., Not War",
+      "fragment": "It is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
+      "splice": "With Dancing Robots, Russia Projects a Future Shaped by A.I., Not War not unlike it is the real, and not the map, whose vestiges persist here and there in the deserts that are no longer those of the Empire, but ours. The desert of the real itself.",
+      "seed": 20261152
     },
     {
-      "headline": "How Online Maps Lay Bare the US Military Bases Targeted by Iran",
-      "fragment": "Traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "splice": "How Online Maps Lay Bare the US Military Bases Targeted by Iran despite traditional psychoanalysis enclosed the libidinal investments of desire in the familial triangle.",
-      "seed": 20261147
+      "headline": "Zelensky criticises 'strange' Trump-Putin friendship in BBC interview",
+      "fragment": "Simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
+      "splice": "Zelensky criticises 'strange' Trump-Putin friendship in BBC interview within which simulation threatens the difference between the 'true' and the 'false,' the 'real' and the 'imaginary.'",
+      "seed": 20261153
+    },
+    {
+      "headline": "UN Gaza rapporteur Francesca Albanese denied entry into Costa Rica",
+      "fragment": "Why do men fight for their servitude as stubbornly as though it were their salvation?",
+      "splice": "UN Gaza rapporteur Francesca Albanese denied entry into Costa Rica the system notes that why do men fight for their servitude as stubbornly as though it were their salvation?",
+      "seed": 20261154
+    },
+    {
+      "headline": "The Far Right Wants to Kill Wolves Whenever and However They Please",
+      "fragment": "Over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
+      "splice": "The Far Right Wants to Kill Wolves Whenever and However They Please the signal resolves into over the past thirty years, capitalist realism has successfully installed a 'business ontology' in which it is simply obvious that everything in society should be run as a business.",
+      "seed": 20261155
+    },
+    {
+      "headline": "Court Orders Trump Media to Hand Over Truth Social Records in The Intercept Lawsuit",
+      "fragment": "The simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
+      "splice": "Court Orders Trump Media to Hand Over Truth Social Records in The Intercept Lawsuit despite the simulacrum is never that which conceals the truth—it is the truth which conceals that there is none. The simulacrum is true.",
+      "seed": 20261156
     }
   ]
 }
